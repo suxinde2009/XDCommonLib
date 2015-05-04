@@ -1,0 +1,20 @@
+//
+//  XDCommonLib-Prefix.pch
+//  XDCommonLib
+//
+//  Created by su xinde on 15/5/5.
+//  Copyright (c) 2015年 su xinde. All rights reserved.
+//
+
+#ifndef XDCommonLib_XDCommonLib_Prefix_pch
+#define XDCommonLib_XDCommonLib_Prefix_pch
+
+    #ifdef __OBJC__
+        #import <UIKit/UIKit.h>
+        #import <Foundation/Foundation.h>
+        #import "XDPeDefine.h"
+
+
+    #endif
+
+#endif

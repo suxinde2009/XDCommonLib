@@ -9,11 +9,14 @@
 /* Begin PBXBuildFile section */
 		1FC8F5901AF7DA0D00CA2AC0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC8F58F1AF7DA0D00CA2AC0 /* main.m */; };
 		1FC8F5931AF7DA0D00CA2AC0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC8F5921AF7DA0D00CA2AC0 /* AppDelegate.m */; };
-		1FC8F5961AF7DA0D00CA2AC0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC8F5951AF7DA0D00CA2AC0 /* ViewController.m */; };
 		1FC8F5991AF7DA0D00CA2AC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FC8F5971AF7DA0D00CA2AC0 /* Main.storyboard */; };
 		1FC8F59B1AF7DA0D00CA2AC0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FC8F59A1AF7DA0D00CA2AC0 /* Images.xcassets */; };
 		1FC8F59E1AF7DA0D00CA2AC0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FC8F59C1AF7DA0D00CA2AC0 /* LaunchScreen.xib */; };
 		1FC8F5AA1AF7DA0D00CA2AC0 /* XDCommonLibTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC8F5A91AF7DA0D00CA2AC0 /* XDCommonLibTests.m */; };
+		1FC8F5B71AF7DB2E00CA2AC0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC8F5B61AF7DB2E00CA2AC0 /* ViewController.m */; };
+		1FC8F5BD1AF7DCF000CA2AC0 /* XDPreDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC8F5BC1AF7DCF000CA2AC0 /* XDPreDefine.m */; };
+		1FC8F5C41AF7DE7800CA2AC0 /* NSString+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC8F5C11AF7DE7800CA2AC0 /* NSString+Utils.m */; };
+		1FC8F5C81AF7DFFD00CA2AC0 /* NSDate+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC8F5C71AF7DFFD00CA2AC0 /* NSDate+Utils.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +35,22 @@
 		1FC8F58F1AF7DA0D00CA2AC0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1FC8F5911AF7DA0D00CA2AC0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1FC8F5921AF7DA0D00CA2AC0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1FC8F5941AF7DA0D00CA2AC0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1FC8F5951AF7DA0D00CA2AC0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1FC8F5981AF7DA0D00CA2AC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1FC8F59A1AF7DA0D00CA2AC0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1FC8F59D1AF7DA0D00CA2AC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		1FC8F5A31AF7DA0D00CA2AC0 /* XDCommonLibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XDCommonLibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FC8F5A81AF7DA0D00CA2AC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1FC8F5A91AF7DA0D00CA2AC0 /* XDCommonLibTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XDCommonLibTests.m; sourceTree = "<group>"; };
+		1FC8F5B51AF7DB2E00CA2AC0 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1FC8F5B61AF7DB2E00CA2AC0 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1FC8F5BA1AF7DBC500CA2AC0 /* XDPreDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDPreDefine.h; sourceTree = "<group>"; };
+		1FC8F5BC1AF7DCF000CA2AC0 /* XDPreDefine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDPreDefine.m; sourceTree = "<group>"; };
+		1FC8F5BF1AF7DDEC00CA2AC0 /* XDCommonLib-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XDCommonLib-Prefix.pch"; sourceTree = "<group>"; };
+		1FC8F5C01AF7DE7800CA2AC0 /* NSString+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Utils.h"; sourceTree = "<group>"; };
+		1FC8F5C11AF7DE7800CA2AC0 /* NSString+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Utils.m"; sourceTree = "<group>"; };
+		1FC8F5C61AF7DFFD00CA2AC0 /* NSDate+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Utils.h"; sourceTree = "<group>"; };
+		1FC8F5C71AF7DFFD00CA2AC0 /* NSDate+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Utils.m"; sourceTree = "<group>"; };
+		1FC8F5C91AF7E18700CA2AC0 /* XDDebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDDebug.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +92,10 @@
 		1FC8F58C1AF7DA0D00CA2AC0 /* XDCommonLib */ = {
 			isa = PBXGroup;
 			children = (
+				1FC8F5B81AF7DB4000CA2AC0 /* Core */,
+				1FC8F5B31AF7DB0700CA2AC0 /* XDCommonLibTests */,
 				1FC8F5911AF7DA0D00CA2AC0 /* AppDelegate.h */,
 				1FC8F5921AF7DA0D00CA2AC0 /* AppDelegate.m */,
-				1FC8F5941AF7DA0D00CA2AC0 /* ViewController.h */,
-				1FC8F5951AF7DA0D00CA2AC0 /* ViewController.m */,
 				1FC8F5971AF7DA0D00CA2AC0 /* Main.storyboard */,
 				1FC8F59A1AF7DA0D00CA2AC0 /* Images.xcassets */,
 				1FC8F59C1AF7DA0D00CA2AC0 /* LaunchScreen.xib */,
@@ -98,6 +109,7 @@
 			children = (
 				1FC8F58E1AF7DA0D00CA2AC0 /* Info.plist */,
 				1FC8F58F1AF7DA0D00CA2AC0 /* main.m */,
+				1FC8F5BF1AF7DDEC00CA2AC0 /* XDCommonLib-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -117,6 +129,53 @@
 				1FC8F5A81AF7DA0D00CA2AC0 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1FC8F5B31AF7DB0700CA2AC0 /* XDCommonLibTests */ = {
+			isa = PBXGroup;
+			children = (
+				1FC8F5B41AF7DB2E00CA2AC0 /* VC */,
+			);
+			path = XDCommonLibTests;
+			sourceTree = "<group>";
+		};
+		1FC8F5B41AF7DB2E00CA2AC0 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				1FC8F5B51AF7DB2E00CA2AC0 /* ViewController.h */,
+				1FC8F5B61AF7DB2E00CA2AC0 /* ViewController.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		1FC8F5B81AF7DB4000CA2AC0 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				1FC8F5BA1AF7DBC500CA2AC0 /* XDPreDefine.h */,
+				1FC8F5BC1AF7DCF000CA2AC0 /* XDPreDefine.m */,
+				1FC8F5BE1AF7DD8200CA2AC0 /* Foundation+Categories */,
+				1FC8F5B91AF7DB4000CA2AC0 /* Debug */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		1FC8F5B91AF7DB4000CA2AC0 /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				1FC8F5C91AF7E18700CA2AC0 /* XDDebug.h */,
+			);
+			path = Debug;
+			sourceTree = "<group>";
+		};
+		1FC8F5BE1AF7DD8200CA2AC0 /* Foundation+Categories */ = {
+			isa = PBXGroup;
+			children = (
+				1FC8F5C01AF7DE7800CA2AC0 /* NSString+Utils.h */,
+				1FC8F5C11AF7DE7800CA2AC0 /* NSString+Utils.m */,
+				1FC8F5C61AF7DFFD00CA2AC0 /* NSDate+Utils.h */,
+				1FC8F5C71AF7DFFD00CA2AC0 /* NSDate+Utils.m */,
+			);
+			path = "Foundation+Categories";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,8 +278,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1FC8F5961AF7DA0D00CA2AC0 /* ViewController.m in Sources */,
+				1FC8F5B71AF7DB2E00CA2AC0 /* ViewController.m in Sources */,
 				1FC8F5931AF7DA0D00CA2AC0 /* AppDelegate.m in Sources */,
+				1FC8F5C41AF7DE7800CA2AC0 /* NSString+Utils.m in Sources */,
+				1FC8F5BD1AF7DCF000CA2AC0 /* XDPreDefine.m in Sources */,
+				1FC8F5C81AF7DFFD00CA2AC0 /* NSDate+Utils.m in Sources */,
 				1FC8F5901AF7DA0D00CA2AC0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
