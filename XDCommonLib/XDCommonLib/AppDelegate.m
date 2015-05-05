@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "XDDebug.h"
+
 
 @interface AppDelegate ()
 
@@ -15,8 +17,21 @@
 @implementation AppDelegate
 
 
+- (void)testTodoMarco
+{
+    @TODO("晚上要回家吃饭");
+    @TODO("晚上要早点睡");
+
+}
+
+
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    // 测试 TODO 宏定义
+    [self testTodoMarco];
+    
     return YES;
 }
 
