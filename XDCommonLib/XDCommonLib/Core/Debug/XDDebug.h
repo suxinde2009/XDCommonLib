@@ -59,6 +59,7 @@
 
 // -----------------------------------------------------------
 // pragma-message.c
+// https://llvm.org/svn/llvm-project/cfe/trunk/test/Lexer/pragma-message.c
 //
 /* Test pragma message directive from
  http://msdn.microsoft.com/en-us/library/x7dkzch2.aspx */
