@@ -17,6 +17,7 @@
 		1FC8F5BD1AF7DCF000CA2AC0 /* XDPreDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC8F5BC1AF7DCF000CA2AC0 /* XDPreDefine.m */; };
 		1FC8F5C41AF7DE7800CA2AC0 /* NSString+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC8F5C11AF7DE7800CA2AC0 /* NSString+Utils.m */; };
 		1FC8F5C81AF7DFFD00CA2AC0 /* NSDate+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC8F5C71AF7DFFD00CA2AC0 /* NSDate+Utils.m */; };
+		1FD67EC71AF894A100B05A1F /* XDPerformance.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD67EC61AF894A100B05A1F /* XDPerformance.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		1FC8F5C61AF7DFFD00CA2AC0 /* NSDate+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Utils.h"; sourceTree = "<group>"; };
 		1FC8F5C71AF7DFFD00CA2AC0 /* NSDate+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Utils.m"; sourceTree = "<group>"; };
 		1FC8F5C91AF7E18700CA2AC0 /* XDDebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDDebug.h; sourceTree = "<group>"; };
+		1FD67EC51AF894A100B05A1F /* XDPerformance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDPerformance.h; sourceTree = "<group>"; };
+		1FD67EC61AF894A100B05A1F /* XDPerformance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDPerformance.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +166,8 @@
 			isa = PBXGroup;
 			children = (
 				1FC8F5C91AF7E18700CA2AC0 /* XDDebug.h */,
+				1FD67EC51AF894A100B05A1F /* XDPerformance.h */,
+				1FD67EC61AF894A100B05A1F /* XDPerformance.m */,
 			);
 			path = Debug;
 			sourceTree = "<group>";
@@ -278,6 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FD67EC71AF894A100B05A1F /* XDPerformance.m in Sources */,
 				1FC8F5B71AF7DB2E00CA2AC0 /* ViewController.m in Sources */,
 				1FC8F5931AF7DA0D00CA2AC0 /* AppDelegate.m in Sources */,
 				1FC8F5C41AF7DE7800CA2AC0 /* NSString+Utils.m in Sources */,
@@ -417,6 +423,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
 				INFOPLIST_FILE = XDCommonLib/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -427,6 +434,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
 				INFOPLIST_FILE = XDCommonLib/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
