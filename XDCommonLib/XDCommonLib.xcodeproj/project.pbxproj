@@ -16,10 +16,18 @@
 		1FC8F59E1AF7DA0D00CA2AC0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FC8F59C1AF7DA0D00CA2AC0 /* LaunchScreen.xib */; };
 		1FC8F5AA1AF7DA0D00CA2AC0 /* XDCommonLibTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC8F5A91AF7DA0D00CA2AC0 /* XDCommonLibTests.m */; };
 		1FC8F5B71AF7DB2E00CA2AC0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC8F5B61AF7DB2E00CA2AC0 /* ViewController.m */; };
-		1FC8F5BD1AF7DCF000CA2AC0 /* XDPreDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC8F5BC1AF7DCF000CA2AC0 /* XDPreDefine.m */; };
+		1FC8F5BD1AF7DCF000CA2AC0 /* XDPreCompile.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC8F5BC1AF7DCF000CA2AC0 /* XDPreCompile.m */; };
 		1FC8F5C41AF7DE7800CA2AC0 /* NSString+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC8F5C11AF7DE7800CA2AC0 /* NSString+Utils.m */; };
 		1FC8F5C81AF7DFFD00CA2AC0 /* NSDate+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC8F5C71AF7DFFD00CA2AC0 /* NSDate+Utils.m */; };
 		1FD67EC71AF894A100B05A1F /* XDPerformance.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD67EC61AF894A100B05A1F /* XDPerformance.m */; };
+		1FE27D5D1AF9B3DA00E54012 /* TCP.json in Resources */ = {isa = PBXBuildFile; fileRef = 1FE27D5C1AF9B3DA00E54012 /* TCP.json */; };
+		1FE27D611AF9B41A00E54012 /* UI.json in Resources */ = {isa = PBXBuildFile; fileRef = 1FE27D601AF9B41A00E54012 /* UI.json */; };
+		1FE27D631AF9B42B00E54012 /* UI+Categories.json in Resources */ = {isa = PBXBuildFile; fileRef = 1FE27D621AF9B42B00E54012 /* UI+Categories.json */; };
+		1FE27D651AF9B46900E54012 /* Foundation.json in Resources */ = {isa = PBXBuildFile; fileRef = 1FE27D641AF9B46900E54012 /* Foundation.json */; };
+		1FE27D671AF9B47E00E54012 /* Foundation+Categories.json in Resources */ = {isa = PBXBuildFile; fileRef = 1FE27D661AF9B47E00E54012 /* Foundation+Categories.json */; };
+		1FE27D691AF9B48A00E54012 /* Debug.json in Resources */ = {isa = PBXBuildFile; fileRef = 1FE27D681AF9B48A00E54012 /* Debug.json */; };
+		1FE27D6B1AF9B49C00E54012 /* HTTP.json in Resources */ = {isa = PBXBuildFile; fileRef = 1FE27D6A1AF9B49C00E54012 /* HTTP.json */; };
+		1FE27D711AF9C50000E54012 /* XDDebugUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FE27D701AF9C50000E54012 /* XDDebugUtils.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,8 +58,8 @@
 		1FC8F5A91AF7DA0D00CA2AC0 /* XDCommonLibTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XDCommonLibTests.m; sourceTree = "<group>"; };
 		1FC8F5B51AF7DB2E00CA2AC0 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		1FC8F5B61AF7DB2E00CA2AC0 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		1FC8F5BA1AF7DBC500CA2AC0 /* XDPreDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDPreDefine.h; sourceTree = "<group>"; };
-		1FC8F5BC1AF7DCF000CA2AC0 /* XDPreDefine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDPreDefine.m; sourceTree = "<group>"; };
+		1FC8F5BA1AF7DBC500CA2AC0 /* XDPreCompile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDPreCompile.h; sourceTree = "<group>"; };
+		1FC8F5BC1AF7DCF000CA2AC0 /* XDPreCompile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDPreCompile.m; sourceTree = "<group>"; };
 		1FC8F5BF1AF7DDEC00CA2AC0 /* XDCommonLib-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XDCommonLib-Prefix.pch"; sourceTree = "<group>"; };
 		1FC8F5C01AF7DE7800CA2AC0 /* NSString+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Utils.h"; sourceTree = "<group>"; };
 		1FC8F5C11AF7DE7800CA2AC0 /* NSString+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Utils.m"; sourceTree = "<group>"; };
@@ -60,6 +68,15 @@
 		1FC8F5C91AF7E18700CA2AC0 /* XDDebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDDebug.h; sourceTree = "<group>"; };
 		1FD67EC51AF894A100B05A1F /* XDPerformance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDPerformance.h; sourceTree = "<group>"; };
 		1FD67EC61AF894A100B05A1F /* XDPerformance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDPerformance.m; sourceTree = "<group>"; };
+		1FE27D5C1AF9B3DA00E54012 /* TCP.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TCP.json; sourceTree = "<group>"; };
+		1FE27D601AF9B41A00E54012 /* UI.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = UI.json; sourceTree = "<group>"; };
+		1FE27D621AF9B42B00E54012 /* UI+Categories.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "UI+Categories.json"; sourceTree = "<group>"; };
+		1FE27D641AF9B46900E54012 /* Foundation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Foundation.json; sourceTree = "<group>"; };
+		1FE27D661AF9B47E00E54012 /* Foundation+Categories.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Foundation+Categories.json"; sourceTree = "<group>"; };
+		1FE27D681AF9B48A00E54012 /* Debug.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Debug.json; sourceTree = "<group>"; };
+		1FE27D6A1AF9B49C00E54012 /* HTTP.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = HTTP.json; sourceTree = "<group>"; };
+		1FE27D6F1AF9C50000E54012 /* XDDebugUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDDebugUtils.h; sourceTree = "<group>"; };
+		1FE27D701AF9C50000E54012 /* XDDebugUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDDebugUtils.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +102,7 @@
 			children = (
 				1FBB72241AF9341F005B3F99 /* XDMulticastDelegate.h */,
 				1FBB72251AF9341F005B3F99 /* XDMulticastDelegate.m */,
+				1FE27D641AF9B46900E54012 /* Foundation.json */,
 			);
 			path = Foundation;
 			sourceTree = "<group>";
@@ -171,8 +189,11 @@
 		1FC8F5B81AF7DB4000CA2AC0 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				1FC8F5BA1AF7DBC500CA2AC0 /* XDPreDefine.h */,
-				1FC8F5BC1AF7DCF000CA2AC0 /* XDPreDefine.m */,
+				1FC8F5BA1AF7DBC500CA2AC0 /* XDPreCompile.h */,
+				1FC8F5BC1AF7DCF000CA2AC0 /* XDPreCompile.m */,
+				1FE27D5E1AF9B40C00E54012 /* UI */,
+				1FE27D5F1AF9B40C00E54012 /* UI+Categories */,
+				1FE27D581AF9B3BE00E54012 /* Modules */,
 				1FBB72201AF93253005B3F99 /* Foundation */,
 				1FC8F5BE1AF7DD8200CA2AC0 /* Foundation+Categories */,
 				1FC8F5B91AF7DB4000CA2AC0 /* Debug */,
@@ -184,8 +205,11 @@
 			isa = PBXGroup;
 			children = (
 				1FC8F5C91AF7E18700CA2AC0 /* XDDebug.h */,
+				1FE27D6F1AF9C50000E54012 /* XDDebugUtils.h */,
+				1FE27D701AF9C50000E54012 /* XDDebugUtils.m */,
 				1FD67EC51AF894A100B05A1F /* XDPerformance.h */,
 				1FD67EC61AF894A100B05A1F /* XDPerformance.m */,
+				1FE27D681AF9B48A00E54012 /* Debug.json */,
 			);
 			path = Debug;
 			sourceTree = "<group>";
@@ -197,8 +221,58 @@
 				1FC8F5C11AF7DE7800CA2AC0 /* NSString+Utils.m */,
 				1FC8F5C61AF7DFFD00CA2AC0 /* NSDate+Utils.h */,
 				1FC8F5C71AF7DFFD00CA2AC0 /* NSDate+Utils.m */,
+				1FE27D661AF9B47E00E54012 /* Foundation+Categories.json */,
 			);
 			path = "Foundation+Categories";
+			sourceTree = "<group>";
+		};
+		1FE27D581AF9B3BE00E54012 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				1FE27D591AF9B3BE00E54012 /* HTTP */,
+				1FE27D5B1AF9B3BE00E54012 /* TCP */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		1FE27D591AF9B3BE00E54012 /* HTTP */ = {
+			isa = PBXGroup;
+			children = (
+				1FE27D5A1AF9B3BE00E54012 /* XDDownloadManager */,
+				1FE27D6A1AF9B49C00E54012 /* HTTP.json */,
+			);
+			path = HTTP;
+			sourceTree = "<group>";
+		};
+		1FE27D5A1AF9B3BE00E54012 /* XDDownloadManager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = XDDownloadManager;
+			sourceTree = "<group>";
+		};
+		1FE27D5B1AF9B3BE00E54012 /* TCP */ = {
+			isa = PBXGroup;
+			children = (
+				1FE27D5C1AF9B3DA00E54012 /* TCP.json */,
+			);
+			path = TCP;
+			sourceTree = "<group>";
+		};
+		1FE27D5E1AF9B40C00E54012 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				1FE27D601AF9B41A00E54012 /* UI.json */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		1FE27D5F1AF9B40C00E54012 /* UI+Categories */ = {
+			isa = PBXGroup;
+			children = (
+				1FE27D621AF9B42B00E54012 /* UI+Categories.json */,
+			);
+			path = "UI+Categories";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -281,9 +355,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FE27D651AF9B46900E54012 /* Foundation.json in Resources */,
 				1FC8F5991AF7DA0D00CA2AC0 /* Main.storyboard in Resources */,
+				1FE27D671AF9B47E00E54012 /* Foundation+Categories.json in Resources */,
+				1FE27D6B1AF9B49C00E54012 /* HTTP.json in Resources */,
+				1FE27D631AF9B42B00E54012 /* UI+Categories.json in Resources */,
+				1FE27D691AF9B48A00E54012 /* Debug.json in Resources */,
 				1FC8F59E1AF7DA0D00CA2AC0 /* LaunchScreen.xib in Resources */,
 				1FC8F59B1AF7DA0D00CA2AC0 /* Images.xcassets in Resources */,
+				1FE27D611AF9B41A00E54012 /* UI.json in Resources */,
+				1FE27D5D1AF9B3DA00E54012 /* TCP.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,8 +385,9 @@
 				1FD67EC71AF894A100B05A1F /* XDPerformance.m in Sources */,
 				1FC8F5B71AF7DB2E00CA2AC0 /* ViewController.m in Sources */,
 				1FC8F5931AF7DA0D00CA2AC0 /* AppDelegate.m in Sources */,
+				1FE27D711AF9C50000E54012 /* XDDebugUtils.m in Sources */,
 				1FC8F5C41AF7DE7800CA2AC0 /* NSString+Utils.m in Sources */,
-				1FC8F5BD1AF7DCF000CA2AC0 /* XDPreDefine.m in Sources */,
+				1FC8F5BD1AF7DCF000CA2AC0 /* XDPreCompile.m in Sources */,
 				1FBB72261AF9341F005B3F99 /* XDMulticastDelegate.m in Sources */,
 				1FBB72291AF9356D005B3F99 /* MulticastDelegateDemoVC.m in Sources */,
 				1FC8F5C81AF7DFFD00CA2AC0 /* NSDate+Utils.m in Sources */,

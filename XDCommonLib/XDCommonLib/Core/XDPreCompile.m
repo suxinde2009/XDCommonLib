@@ -6,10 +6,10 @@
 //  Copyright (c) 2015年 su xinde. All rights reserved.
 //
 
-#import "XDPreDefine.h"
+#import "XDPreCompile.h"
 
 void XDLog(NSString *format, ...) {
-#ifdef DEBUG
+#ifdef __XD_DEBUG__
     va_list argptr;
     va_start(argptr, format);
     NSLogv(format, argptr);
