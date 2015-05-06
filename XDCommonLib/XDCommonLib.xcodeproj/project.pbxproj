@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F6D08161AFA815600C1A05D /* UIView+UIScreenDisplaying.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F6D08151AFA815600C1A05D /* UIView+UIScreenDisplaying.m */; };
 		1FBB72261AF9341F005B3F99 /* XDMulticastDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBB72251AF9341F005B3F99 /* XDMulticastDelegate.m */; };
 		1FBB72291AF9356D005B3F99 /* MulticastDelegateDemoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBB72281AF9356D005B3F99 /* MulticastDelegateDemoVC.m */; };
 		1FC8F5901AF7DA0D00CA2AC0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC8F58F1AF7DA0D00CA2AC0 /* main.m */; };
@@ -41,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F6D08141AFA815600C1A05D /* UIView+UIScreenDisplaying.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+UIScreenDisplaying.h"; sourceTree = "<group>"; };
+		1F6D08151AFA815600C1A05D /* UIView+UIScreenDisplaying.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+UIScreenDisplaying.m"; sourceTree = "<group>"; };
 		1FBB72241AF9341F005B3F99 /* XDMulticastDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDMulticastDelegate.h; sourceTree = "<group>"; };
 		1FBB72251AF9341F005B3F99 /* XDMulticastDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDMulticastDelegate.m; sourceTree = "<group>"; };
 		1FBB72271AF9356D005B3F99 /* MulticastDelegateDemoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MulticastDelegateDemoVC.h; sourceTree = "<group>"; };
@@ -263,6 +266,8 @@
 			isa = PBXGroup;
 			children = (
 				1FE27D601AF9B41A00E54012 /* UI.json */,
+				1F6D08141AFA815600C1A05D /* UIView+UIScreenDisplaying.h */,
+				1F6D08151AFA815600C1A05D /* UIView+UIScreenDisplaying.m */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -386,6 +391,7 @@
 				1FC8F5B71AF7DB2E00CA2AC0 /* ViewController.m in Sources */,
 				1FC8F5931AF7DA0D00CA2AC0 /* AppDelegate.m in Sources */,
 				1FE27D711AF9C50000E54012 /* XDDebugUtils.m in Sources */,
+				1F6D08161AFA815600C1A05D /* UIView+UIScreenDisplaying.m in Sources */,
 				1FC8F5C41AF7DE7800CA2AC0 /* NSString+Utils.m in Sources */,
 				1FC8F5BD1AF7DCF000CA2AC0 /* XDPreCompile.m in Sources */,
 				1FBB72261AF9341F005B3F99 /* XDMulticastDelegate.m in Sources */,
