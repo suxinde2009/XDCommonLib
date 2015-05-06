@@ -1,6 +1,6 @@
 //
 //  XDPreDefine.h
-//  HBGC
+//  
 //
 //  Created by suxinde on 15/5/4.
 //  Copyright (c) 2015年 Su XinDe. All rights reserved.
@@ -8,12 +8,6 @@
 
 #ifndef XDCommonLib_XDPreDefine_h
 #define XDCommonLib_XDPreDefine_h
-
-// ----------------------------------
-// header.h
-// ----------------------------------
-
-#import <Foundation/Foundation.h>
 
 // ----------------------------------
 // Global include headers
@@ -48,12 +42,15 @@
 #import <malloc/malloc.h>
 #import <libxml/tree.h>
 
+#import <ifaddrs.h>
+#import <arpa/inet.h>
+#import <mach/mach.h>
+#import <mach/mach_host.h>
+#import <execinfo.h>
+
 #ifdef __OBJC__
 
 #import <Foundation/Foundation.h>
-
-#if (TARGET_OS_IPHONE || TARGET_IPHONE_SIMULATOR)
-
 #import <UIKit/UIKit.h>
 #import <QuartzCore/QuartzCore.h>
 #import <AudioToolbox/AudioToolbox.h>
@@ -67,25 +64,49 @@
 #import <CoreImage/CoreImage.h>
 #import <CoreLocation/CoreLocation.h>
 
-#else	// #if (TARGET_OS_IPHONE || TARGET_IPHONE_SIMULATOR)
-
-#import <Cocoa/Cocoa.h>
-#import <AppKit/AppKit.h>
-#import <WebKit/WebKit.h>
-
-#endif	// #if (TARGET_OS_IPHONE || TARGET_IPHONE_SIMULATOR)
+#import <AVFoundation/AVFoundation.h>
+#import <AVFoundation/AVSpeechSynthesis.h>
+#import <CoreMotion/CoreMotion.h>
+#import <Social/Social.h>
 
 #import <objc/runtime.h>
 #import <objc/message.h>
 #import <CommonCrypto/CommonDigest.h>
+#import <CommonCrypto/CommonCryptor.h>
 
 #endif	// #ifdef __OBJC__
+
+
+
+
+// ----------------------------------
+#pragma mark  - 开发调试信息的开关宏定义 -
+// ----------------------------------
+
+// 测试用
+#define __XD_DEBUG__  (1)
+
+// 测试用
+#define __XD_DEBUG_SHOWBORDER__  (0) // 点击视图所点视图显示红色边框动画，默认关闭
+
+// 开启调试
+#define  __XD_UNITTESTING__ (1)
+
+// 开启性能测试
+#define __XD_PERFORMANCE__  (1)
+
+
+
+// ---------------------------------
+
+
+
 // ----------------------------------
 // Common use macros
 // ----------------------------------
 
 ////////////////////////////////////////////////////////////////////////////////////////
-// TextAlignmentLeft & LineBreakMode Marcos
+#pragma mark  - TextAlignmentLeft & LineBreakMode Marcos -
 ////////////////////////////////////////////////////////////////////////////////////////
 
 #if __IPHONE_OS_VERSION_MAX_ALLOWED >= 60000
@@ -106,7 +127,7 @@
 #endif	// #if __IPHONE_OS_VERSION_MAX_ALLOWED >= 60000
 
 ////////////////////////////////////////////////////////////////////////////////////////
-// Deprecated
+#pragma mark  - Deprecated -
 ////////////////////////////////////////////////////////////////////////////////////////
 
 #ifndef __Class_Deprecated__
@@ -192,7 +213,7 @@ FOUNDATION_EXPORT void XDLog(NSString *format, ...) NS_FORMAT_FUNCTION(1,2);
 
 
 // ------------------------
-// 执行一次 dispatch_once_t
+#pragma mark  - 执行一次 dispatch_once_t -
 // ------------------------
 #undef	XD_ONCE_BEGIN
 #define XD_ONCE_BEGIN( __name ) \
@@ -203,7 +224,7 @@ dispatch_once( &once_##__name , ^{
 #define XD_ONCE_END		});
 
 // ------------------------
-// NSUserDefaults
+#pragma mark  - NSUserDefaults -
 // ------------------------
 #define XDUserDefalutsSetObjctetForKey(__Obj__, __Key__) \
         NSUserDefaults *prefs = [NSUserDefaults standardUserDefaults]; \

@@ -9,7 +9,7 @@
 // From XYQuickDevelop
 
 #import <Foundation/Foundation.h>
-#import "XDPreDefine.h"
+#import "XDPreCompile.h"
 
 
 #if (1 == __XD_PERFORMANCE__)
