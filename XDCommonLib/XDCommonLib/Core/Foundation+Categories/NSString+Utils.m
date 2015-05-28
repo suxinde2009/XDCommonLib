@@ -2,8 +2,8 @@
 //  NSString+Utils.m
 //  CoreFramework
 //
-//  Created by p2pmsg on 14-3-10.
-//  Copyright (c) 2014年 P2P TECH. All rights reserved.
+//  Created by Su XinDE on 14-3-10.
+//  Copyright (c) 2014年 Su XinDE. All rights reserved.
 //
 
 #import "NSString+Utils.h"
