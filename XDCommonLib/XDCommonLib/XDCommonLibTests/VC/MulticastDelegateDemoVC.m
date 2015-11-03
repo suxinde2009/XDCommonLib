@@ -8,7 +8,7 @@
 
 #import "MulticastDelegateDemoVC.h"
 
-#import "XDMulticastDelegate.h"
+#import "../../../XDCommonLib/Core/Utils/XDMulticastDelegate/XDMulticastDelegate.h"
 
 // -----------------------------------------------
 // MulticastDeleate demo1
