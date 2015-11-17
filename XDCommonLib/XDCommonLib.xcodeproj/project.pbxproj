@@ -242,6 +242,7 @@
 		1FE329C01BE9265200626042 /* Utils.json in Resources */ = {isa = PBXBuildFile; fileRef = 1FE329BC1BE9265200626042 /* Utils.json */; };
 		1FE329C11BE9265200626042 /* XDMulticastDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FE329BF1BE9265200626042 /* XDMulticastDelegate.m */; };
 		1FE329C31BE9271100626042 /* libz.1.1.3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FE329C21BE9271100626042 /* libz.1.1.3.tbd */; };
+		62D18E5A1BFB939E00401529 /* PKProtocolExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D18E581BFB939E00401529 /* PKProtocolExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -720,6 +721,9 @@
 		1FE329BE1BE9265200626042 /* XDMulticastDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDMulticastDelegate.h; sourceTree = "<group>"; };
 		1FE329BF1BE9265200626042 /* XDMulticastDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDMulticastDelegate.m; sourceTree = "<group>"; };
 		1FE329C21BE9271100626042 /* libz.1.1.3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.1.3.tbd; path = usr/lib/libz.1.1.3.tbd; sourceTree = SDKROOT; };
+		62D18E571BFB939E00401529 /* PKProtocolExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKProtocolExtension.h; sourceTree = "<group>"; };
+		62D18E581BFB939E00401529 /* PKProtocolExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKProtocolExtension.m; sourceTree = "<group>"; };
+		62D18E591BFB939E00401529 /* ProtocolKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProtocolKit.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -826,6 +830,7 @@
 			children = (
 				1FC8F5BA1AF7DBC500CA2AC0 /* XDPreCompile.h */,
 				1FC8F5BC1AF7DCF000CA2AC0 /* XDPreCompile.m */,
+				62D18E551BFB939E00401529 /* Venders */,
 				1FE329BB1BE9265200626042 /* Utils */,
 				1FE326E91BE924E900626042 /* Categories */,
 				1FE27D581AF9B3BE00E54012 /* Modules */,
@@ -1884,6 +1889,24 @@
 			path = XDMulticastDelegate;
 			sourceTree = "<group>";
 		};
+		62D18E551BFB939E00401529 /* Venders */ = {
+			isa = PBXGroup;
+			children = (
+				62D18E561BFB939E00401529 /* ProtocolKit */,
+			);
+			path = Venders;
+			sourceTree = "<group>";
+		};
+		62D18E561BFB939E00401529 /* ProtocolKit */ = {
+			isa = PBXGroup;
+			children = (
+				62D18E571BFB939E00401529 /* PKProtocolExtension.h */,
+				62D18E581BFB939E00401529 /* PKProtocolExtension.m */,
+				62D18E591BFB939E00401529 /* ProtocolKit.h */,
+			);
+			path = ProtocolKit;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -2037,6 +2060,7 @@
 				1FC8F5B71AF7DB2E00CA2AC0 /* ViewController.m in Sources */,
 				1FE329681BE924EA00626042 /* UIImage+PDF.m in Sources */,
 				1FE329A71BE924EA00626042 /* UIViewController+BackButtonItemTitle.m in Sources */,
+				62D18E5A1BFB939E00401529 /* PKProtocolExtension.m in Sources */,
 				1FC8F5931AF7DA0D00CA2AC0 /* AppDelegate.m in Sources */,
 				1FE3293D1BE924EA00626042 /* CALayer+UIColor.m in Sources */,
 				1FE27D711AF9C50000E54012 /* XDDebugUtils.m in Sources */,
