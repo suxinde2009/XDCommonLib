@@ -243,6 +243,7 @@
 		1FE329C11BE9265200626042 /* XDMulticastDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FE329BF1BE9265200626042 /* XDMulticastDelegate.m */; };
 		1FE329C31BE9271100626042 /* libz.1.1.3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FE329C21BE9271100626042 /* libz.1.1.3.tbd */; };
 		62D18E5A1BFB939E00401529 /* PKProtocolExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D18E581BFB939E00401529 /* PKProtocolExtension.m */; };
+		62D18E5E1BFB96C500401529 /* NSThread+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D18E5D1BFB96C500401529 /* NSThread+Utils.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -724,6 +725,8 @@
 		62D18E571BFB939E00401529 /* PKProtocolExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKProtocolExtension.h; sourceTree = "<group>"; };
 		62D18E581BFB939E00401529 /* PKProtocolExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKProtocolExtension.m; sourceTree = "<group>"; };
 		62D18E591BFB939E00401529 /* ProtocolKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProtocolKit.h; sourceTree = "<group>"; };
+		62D18E5C1BFB96C500401529 /* NSThread+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSThread+Utils.h"; sourceTree = "<group>"; };
+		62D18E5D1BFB96C500401529 /* NSThread+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSThread+Utils.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -888,6 +891,7 @@
 		1FE326E91BE924E900626042 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
+				62D18E5B1BFB963500401529 /* Thread */,
 				1FE326EA1BE924E900626042 /* CoreData */,
 				1FE326FF1BE924E900626042 /* CoreLocation */,
 				1FE327061BE924E900626042 /* Foundation */,
@@ -1907,6 +1911,15 @@
 			path = ProtocolKit;
 			sourceTree = "<group>";
 		};
+		62D18E5B1BFB963500401529 /* Thread */ = {
+			isa = PBXGroup;
+			children = (
+				62D18E5C1BFB96C500401529 /* NSThread+Utils.h */,
+				62D18E5D1BFB96C500401529 /* NSThread+Utils.m */,
+			);
+			path = Thread;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -2080,6 +2093,7 @@
 				1FE3297A1BE924EA00626042 /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
 				1FE3298A1BE924EA00626042 /* UISplitViewController+QuickAccess.m in Sources */,
 				1FE329951BE924EA00626042 /* UIView+Animation.m in Sources */,
+				62D18E5E1BFB96C500401529 /* NSThread+Utils.m in Sources */,
 				1FE329B11BE924EA00626042 /* UIWebView+Alert.m in Sources */,
 				1FE329181BE924EA00626042 /* NSObject+Property.m in Sources */,
 				1FE3296F1BE924EA00626042 /* UIImageView+FaceAwareFill.m in Sources */,
