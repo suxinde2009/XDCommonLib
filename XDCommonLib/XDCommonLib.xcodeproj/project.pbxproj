@@ -244,6 +244,7 @@
 		1FE329C31BE9271100626042 /* libz.1.1.3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FE329C21BE9271100626042 /* libz.1.1.3.tbd */; };
 		62D18E5A1BFB939E00401529 /* PKProtocolExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D18E581BFB939E00401529 /* PKProtocolExtension.m */; };
 		62D18E5E1BFB96C500401529 /* NSThread+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D18E5D1BFB96C500401529 /* NSThread+Utils.m */; };
+		62FD2C651C00D3000024FA5E /* XDUnitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 62FD2C641C00D3000024FA5E /* XDUnitTests.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -727,6 +728,8 @@
 		62D18E591BFB939E00401529 /* ProtocolKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProtocolKit.h; sourceTree = "<group>"; };
 		62D18E5C1BFB96C500401529 /* NSThread+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSThread+Utils.h"; sourceTree = "<group>"; };
 		62D18E5D1BFB96C500401529 /* NSThread+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSThread+Utils.m"; sourceTree = "<group>"; };
+		62FD2C631C00D3000024FA5E /* XDUnitTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDUnitTests.h; sourceTree = "<group>"; };
+		62FD2C641C00D3000024FA5E /* XDUnitTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDUnitTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -833,6 +836,7 @@
 			children = (
 				1FC8F5BA1AF7DBC500CA2AC0 /* XDPreCompile.h */,
 				1FC8F5BC1AF7DCF000CA2AC0 /* XDPreCompile.m */,
+				62FD2C621C00D2CF0024FA5E /* UnitTests */,
 				62D18E551BFB939E00401529 /* Venders */,
 				1FE329BB1BE9265200626042 /* Utils */,
 				1FE326E91BE924E900626042 /* Categories */,
@@ -1920,6 +1924,15 @@
 			path = Thread;
 			sourceTree = "<group>";
 		};
+		62FD2C621C00D2CF0024FA5E /* UnitTests */ = {
+			isa = PBXGroup;
+			children = (
+				62FD2C631C00D3000024FA5E /* XDUnitTests.h */,
+				62FD2C641C00D3000024FA5E /* XDUnitTests.m */,
+			);
+			path = UnitTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -2192,6 +2205,7 @@
 				1FE329241BE924EA00626042 /* NSString+MIME.m in Sources */,
 				1FE329221BE924EA00626042 /* NSString+Hash.m in Sources */,
 				1FC8F5901AF7DA0D00CA2AC0 /* main.m in Sources */,
+				62FD2C651C00D3000024FA5E /* XDUnitTests.m in Sources */,
 				1FE328EE1BE924EA00626042 /* NSData+APNSToken.m in Sources */,
 				1FE3293E1BE924EA00626042 /* CAMediaTimingFunction+AdditionalEquations.m in Sources */,
 				1FE329991BE924EA00626042 /* UIView+draggable.m in Sources */,
