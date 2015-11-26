@@ -246,6 +246,7 @@
 		621239271C06C60100D54017 /* XDDebugSystemControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 621239261C06C60100D54017 /* XDDebugSystemControl.m */; };
 		6212392B1C06C82100D54017 /* XDDebugStatusBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 6212392A1C06C82100D54017 /* XDDebugStatusBar.m */; };
 		621239341C076F7F00D54017 /* XDLogUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 621239331C076F7F00D54017 /* XDLogUtils.m */; };
+		621239371C07744000D54017 /* UIView+Hierachy.m in Sources */ = {isa = PBXBuildFile; fileRef = 621239361C07744000D54017 /* UIView+Hierachy.m */; };
 		626C5FE41C02E5AC009939AB /* UIImageView+CompressWithoutDeformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 626C5FE31C02E5AC009939AB /* UIImageView+CompressWithoutDeformation.m */; };
 		62D18E5A1BFB939E00401529 /* PKProtocolExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D18E581BFB939E00401529 /* PKProtocolExtension.m */; };
 		62D18E5E1BFB96C500401529 /* NSThread+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D18E5D1BFB96C500401529 /* NSThread+Utils.m */; };
@@ -737,6 +738,8 @@
 		6212392A1C06C82100D54017 /* XDDebugStatusBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDDebugStatusBar.m; sourceTree = "<group>"; };
 		621239321C076F7F00D54017 /* XDLogUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDLogUtils.h; sourceTree = "<group>"; };
 		621239331C076F7F00D54017 /* XDLogUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDLogUtils.m; sourceTree = "<group>"; };
+		621239351C07744000D54017 /* UIView+Hierachy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Hierachy.h"; sourceTree = "<group>"; };
+		621239361C07744000D54017 /* UIView+Hierachy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Hierachy.m"; sourceTree = "<group>"; };
 		626C5FE21C02E5AC009939AB /* UIImageView+CompressWithoutDeformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+CompressWithoutDeformation.h"; sourceTree = "<group>"; };
 		626C5FE31C02E5AC009939AB /* UIImageView+CompressWithoutDeformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+CompressWithoutDeformation.m"; sourceTree = "<group>"; };
 		62D18E571BFB939E00401529 /* PKProtocolExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKProtocolExtension.h; sourceTree = "<group>"; };
@@ -1839,6 +1842,8 @@
 				1FE328AF1BE924E900626042 /* UIView+ViewController.m */,
 				1FE328B01BE924E900626042 /* UIView+Visuals.h */,
 				1FE328B11BE924E900626042 /* UIView+Visuals.m */,
+				621239351C07744000D54017 /* UIView+Hierachy.h */,
+				621239361C07744000D54017 /* UIView+Hierachy.m */,
 			);
 			path = UIView;
 			sourceTree = "<group>";
@@ -2074,6 +2079,7 @@
 				1FE3290E1BE924EA00626042 /* NSNumber+RomanNumerals.m in Sources */,
 				1FE329871BE924EA00626042 /* UIScrollView+APParallaxHeader.m in Sources */,
 				1FE329981BE924EA00626042 /* UIView+Debug.m in Sources */,
+				621239371C07744000D54017 /* UIView+Hierachy.m in Sources */,
 				1FE329741BE924EA00626042 /* UILabel+AutoSize.m in Sources */,
 				1FE3293B1BE924EA00626042 /* CAAnimation+Blocks.m in Sources */,
 				1FE3296E1BE924EA00626042 /* UIImageView+BetterFace.m in Sources */,
