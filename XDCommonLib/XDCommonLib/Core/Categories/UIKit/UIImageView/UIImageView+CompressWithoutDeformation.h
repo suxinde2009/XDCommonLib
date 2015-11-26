@@ -2,7 +2,7 @@
 //  UIImageView+CompressWithoutDeformation.h
 //  XDCommonLib
 //
-//  Created by zj－db0367 on 15/11/23.
+//  Created by su xinde on 15/11/23.
 //  Copyright © 2015年 su xinde. All rights reserved.
 //
 

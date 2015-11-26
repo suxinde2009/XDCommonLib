@@ -2,7 +2,7 @@
 //  XDUnitTests.h
 //  XDCommonLib
 //
-//  Created by zj－db0367 on 15/11/22.
+//  Created by su xinde on 15/11/22.
 //  Copyright © 2015年 su xinde. All rights reserved.
 //
 
