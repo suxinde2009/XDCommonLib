@@ -245,6 +245,7 @@
 		621239241C06C59600D54017 /* UIView+DebugUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 621239231C06C59600D54017 /* UIView+DebugUtils.m */; };
 		621239271C06C60100D54017 /* XDDebugSystemControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 621239261C06C60100D54017 /* XDDebugSystemControl.m */; };
 		6212392B1C06C82100D54017 /* XDDebugStatusBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 6212392A1C06C82100D54017 /* XDDebugStatusBar.m */; };
+		621239341C076F7F00D54017 /* XDLogUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 621239331C076F7F00D54017 /* XDLogUtils.m */; };
 		626C5FE41C02E5AC009939AB /* UIImageView+CompressWithoutDeformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 626C5FE31C02E5AC009939AB /* UIImageView+CompressWithoutDeformation.m */; };
 		62D18E5A1BFB939E00401529 /* PKProtocolExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D18E581BFB939E00401529 /* PKProtocolExtension.m */; };
 		62D18E5E1BFB96C500401529 /* NSThread+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D18E5D1BFB96C500401529 /* NSThread+Utils.m */; };
@@ -734,6 +735,8 @@
 		621239281C06C79500D54017 /* XDSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDSingleton.h; sourceTree = "<group>"; };
 		621239291C06C82100D54017 /* XDDebugStatusBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDDebugStatusBar.h; sourceTree = "<group>"; };
 		6212392A1C06C82100D54017 /* XDDebugStatusBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDDebugStatusBar.m; sourceTree = "<group>"; };
+		621239321C076F7F00D54017 /* XDLogUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDLogUtils.h; sourceTree = "<group>"; };
+		621239331C076F7F00D54017 /* XDLogUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDLogUtils.m; sourceTree = "<group>"; };
 		626C5FE21C02E5AC009939AB /* UIImageView+CompressWithoutDeformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+CompressWithoutDeformation.h"; sourceTree = "<group>"; };
 		626C5FE31C02E5AC009939AB /* UIImageView+CompressWithoutDeformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+CompressWithoutDeformation.m"; sourceTree = "<group>"; };
 		62D18E571BFB939E00401529 /* PKProtocolExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKProtocolExtension.h; sourceTree = "<group>"; };
@@ -875,6 +878,8 @@
 				1FD67EC51AF894A100B05A1F /* XDPerformance.h */,
 				1FD67EC61AF894A100B05A1F /* XDPerformance.m */,
 				1FE27D681AF9B48A00E54012 /* Debug.json */,
+				621239321C076F7F00D54017 /* XDLogUtils.h */,
+				621239331C076F7F00D54017 /* XDLogUtils.m */,
 			);
 			path = Debug;
 			sourceTree = "<group>";
@@ -2139,6 +2144,7 @@
 				1FE329051BE924EA00626042 /* NSException+Trace.m in Sources */,
 				1FE329771BE924EA00626042 /* UINavigationBar+Awesome.m in Sources */,
 				1FE3292A1BE924EA00626042 /* NSString+Size.m in Sources */,
+				621239341C076F7F00D54017 /* XDLogUtils.m in Sources */,
 				1FE3291A1BE924EA00626042 /* NSRunLoop+PerformBlock.m in Sources */,
 				1FE3294F1BE924EA00626042 /* UIButton+Submitting.m in Sources */,
 				1FE329B81BE924EA00626042 /* UIWebVIew+SwipeGesture.m in Sources */,
