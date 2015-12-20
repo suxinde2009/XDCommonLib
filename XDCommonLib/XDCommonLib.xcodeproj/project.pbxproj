@@ -242,6 +242,8 @@
 		1FE329C01BE9265200626042 /* Utils.json in Resources */ = {isa = PBXBuildFile; fileRef = 1FE329BC1BE9265200626042 /* Utils.json */; };
 		1FE329C11BE9265200626042 /* XDMulticastDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FE329BF1BE9265200626042 /* XDMulticastDelegate.m */; };
 		1FE329C31BE9271100626042 /* libz.1.1.3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FE329C21BE9271100626042 /* libz.1.1.3.tbd */; };
+		620CA3261C26CFE40042D6BB /* XDFileMimeType.m in Sources */ = {isa = PBXBuildFile; fileRef = 620CA3251C26CFE40042D6BB /* XDFileMimeType.m */; };
+		620CA3281C26D0400042D6BB /* XDFileMimeType.plist in Resources */ = {isa = PBXBuildFile; fileRef = 620CA3271C26D0400042D6BB /* XDFileMimeType.plist */; };
 		621239241C06C59600D54017 /* UIView+DebugUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 621239231C06C59600D54017 /* UIView+DebugUtils.m */; };
 		621239271C06C60100D54017 /* XDDebugSystemControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 621239261C06C60100D54017 /* XDDebugSystemControl.m */; };
 		6212392B1C06C82100D54017 /* XDDebugStatusBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 6212392A1C06C82100D54017 /* XDDebugStatusBar.m */; };
@@ -729,6 +731,9 @@
 		1FE329BE1BE9265200626042 /* XDMulticastDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDMulticastDelegate.h; sourceTree = "<group>"; };
 		1FE329BF1BE9265200626042 /* XDMulticastDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDMulticastDelegate.m; sourceTree = "<group>"; };
 		1FE329C21BE9271100626042 /* libz.1.1.3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.1.3.tbd; path = usr/lib/libz.1.1.3.tbd; sourceTree = SDKROOT; };
+		620CA3241C26CFE40042D6BB /* XDFileMimeType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDFileMimeType.h; sourceTree = "<group>"; };
+		620CA3251C26CFE40042D6BB /* XDFileMimeType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDFileMimeType.m; sourceTree = "<group>"; };
+		620CA3271C26D0400042D6BB /* XDFileMimeType.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = XDFileMimeType.plist; sourceTree = "<group>"; };
 		621239221C06C59600D54017 /* UIView+DebugUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DebugUtils.h"; sourceTree = "<group>"; };
 		621239231C06C59600D54017 /* UIView+DebugUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DebugUtils.m"; sourceTree = "<group>"; };
 		621239251C06C60100D54017 /* XDDebugSystemControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDDebugSystemControl.h; sourceTree = "<group>"; };
@@ -1040,6 +1045,9 @@
 				1FE327A61BE924E900626042 /* NSURL */,
 				1FE327AB1BE924E900626042 /* NSURLRequest */,
 				1FE327B01BE924E900626042 /* NSUserDefaults */,
+				620CA3241C26CFE40042D6BB /* XDFileMimeType.h */,
+				620CA3251C26CFE40042D6BB /* XDFileMimeType.m */,
+				620CA3271C26D0400042D6BB /* XDFileMimeType.plist */,
 			);
 			path = Foundation;
 			sourceTree = "<group>";
@@ -2049,6 +2057,7 @@
 				1FE27D6B1AF9B49C00E54012 /* HTTP.json in Resources */,
 				1FE27D691AF9B48A00E54012 /* Debug.json in Resources */,
 				1FE329C01BE9265200626042 /* Utils.json in Resources */,
+				620CA3281C26D0400042D6BB /* XDFileMimeType.plist in Resources */,
 				1FE328FD1BE924EA00626042 /* NSDateTimeAgo.bundle in Resources */,
 				1FC8F59E1AF7DA0D00CA2AC0 /* LaunchScreen.xib in Resources */,
 				1FC8F59B1AF7DA0D00CA2AC0 /* Images.xcassets in Resources */,
@@ -2227,6 +2236,7 @@
 				1FE329691BE924EA00626042 /* UIImage+RemoteSize.m in Sources */,
 				1FE329831BE924EA00626042 /* UIResponder+FirstResponder.m in Sources */,
 				1FE3298E1BE924EA00626042 /* UITextField+Blocks.m in Sources */,
+				620CA3261C26CFE40042D6BB /* XDFileMimeType.m in Sources */,
 				1FE3295A1BE924EA00626042 /* UIFont+DynamicFontControl.m in Sources */,
 				1FE329321BE924EA00626042 /* NSURL+Param.m in Sources */,
 				1FE329841BE924EA00626042 /* UIResponder+UIAdapt.m in Sources */,
