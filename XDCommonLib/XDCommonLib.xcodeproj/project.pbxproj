@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F7A62FE1CBAB1CE00F34E25 /* NSArray+XDCommonLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7A62FD1CBAB1CE00F34E25 /* NSArray+XDCommonLib.m */; };
+		1F7A63011CBAB27000F34E25 /* NSData+XDCommonLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7A63001CBAB27000F34E25 /* NSData+XDCommonLib.m */; };
+		1F7A63041CBAB2EF00F34E25 /* NSDate+XDCommonLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7A63031CBAB2EF00F34E25 /* NSDate+XDCommonLib.m */; };
+		1F7A63071CBAB3B800F34E25 /* NSDictionary+XDCommonLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7A63061CBAB3B800F34E25 /* NSDictionary+XDCommonLib.m */; };
+		1F7A630A1CBAB43800F34E25 /* NSFileManager+XDCommonLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7A63091CBAB43800F34E25 /* NSFileManager+XDCommonLib.m */; };
+		1F7A630D1CBAB4D900F34E25 /* NSMutableArray+XDCommonLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7A630C1CBAB4D900F34E25 /* NSMutableArray+XDCommonLib.m */; };
+		1F7A63101CBAB55200F34E25 /* NSMutableDictionary+XDCommonLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7A630F1CBAB55200F34E25 /* NSMutableDictionary+XDCommonLib.m */; };
+		1F7A63131CBAB5BD00F34E25 /* NSNumber+XDCommonLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7A63121CBAB5BD00F34E25 /* NSNumber+XDCommonLib.m */; };
+		1F7A63161CBAB64600F34E25 /* NSObject+XDCommonLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7A63151CBAB64600F34E25 /* NSObject+XDCommonLib.m */; };
+		1F7A631A1CBAB6B600F34E25 /* NSProcessInfo+XDCommonLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7A63191CBAB6B600F34E25 /* NSProcessInfo+XDCommonLib.m */; };
+		1F7A631D1CBAB72E00F34E25 /* NSString+XDCommonLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7A631C1CBAB72E00F34E25 /* NSString+XDCommonLib.m */; };
 		1FBB72291AF9356D005B3F99 /* MulticastDelegateDemoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBB72281AF9356D005B3F99 /* MulticastDelegateDemoVC.m */; };
 		1FC8F5901AF7DA0D00CA2AC0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC8F58F1AF7DA0D00CA2AC0 /* main.m */; };
 		1FC8F5931AF7DA0D00CA2AC0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC8F5921AF7DA0D00CA2AC0 /* AppDelegate.m */; };
@@ -266,6 +277,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F7A62FC1CBAB1CE00F34E25 /* NSArray+XDCommonLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+XDCommonLib.h"; sourceTree = "<group>"; };
+		1F7A62FD1CBAB1CE00F34E25 /* NSArray+XDCommonLib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+XDCommonLib.m"; sourceTree = "<group>"; };
+		1F7A62FF1CBAB27000F34E25 /* NSData+XDCommonLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+XDCommonLib.h"; sourceTree = "<group>"; };
+		1F7A63001CBAB27000F34E25 /* NSData+XDCommonLib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+XDCommonLib.m"; sourceTree = "<group>"; };
+		1F7A63021CBAB2EF00F34E25 /* NSDate+XDCommonLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+XDCommonLib.h"; sourceTree = "<group>"; };
+		1F7A63031CBAB2EF00F34E25 /* NSDate+XDCommonLib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+XDCommonLib.m"; sourceTree = "<group>"; };
+		1F7A63051CBAB3B800F34E25 /* NSDictionary+XDCommonLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+XDCommonLib.h"; sourceTree = "<group>"; };
+		1F7A63061CBAB3B800F34E25 /* NSDictionary+XDCommonLib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+XDCommonLib.m"; sourceTree = "<group>"; };
+		1F7A63081CBAB43800F34E25 /* NSFileManager+XDCommonLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+XDCommonLib.h"; sourceTree = "<group>"; };
+		1F7A63091CBAB43800F34E25 /* NSFileManager+XDCommonLib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+XDCommonLib.m"; sourceTree = "<group>"; };
+		1F7A630B1CBAB4D900F34E25 /* NSMutableArray+XDCommonLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+XDCommonLib.h"; sourceTree = "<group>"; };
+		1F7A630C1CBAB4D900F34E25 /* NSMutableArray+XDCommonLib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+XDCommonLib.m"; sourceTree = "<group>"; };
+		1F7A630E1CBAB55200F34E25 /* NSMutableDictionary+XDCommonLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+XDCommonLib.h"; sourceTree = "<group>"; };
+		1F7A630F1CBAB55200F34E25 /* NSMutableDictionary+XDCommonLib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+XDCommonLib.m"; sourceTree = "<group>"; };
+		1F7A63111CBAB5BD00F34E25 /* NSNumber+XDCommonLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+XDCommonLib.h"; sourceTree = "<group>"; };
+		1F7A63121CBAB5BD00F34E25 /* NSNumber+XDCommonLib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+XDCommonLib.m"; sourceTree = "<group>"; };
+		1F7A63141CBAB64600F34E25 /* NSObject+XDCommonLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+XDCommonLib.h"; sourceTree = "<group>"; };
+		1F7A63151CBAB64600F34E25 /* NSObject+XDCommonLib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+XDCommonLib.m"; sourceTree = "<group>"; };
+		1F7A63181CBAB6B600F34E25 /* NSProcessInfo+XDCommonLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSProcessInfo+XDCommonLib.h"; sourceTree = "<group>"; };
+		1F7A63191CBAB6B600F34E25 /* NSProcessInfo+XDCommonLib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSProcessInfo+XDCommonLib.m"; sourceTree = "<group>"; };
+		1F7A631B1CBAB72E00F34E25 /* NSString+XDCommonLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+XDCommonLib.h"; sourceTree = "<group>"; };
+		1F7A631C1CBAB72E00F34E25 /* NSString+XDCommonLib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+XDCommonLib.m"; sourceTree = "<group>"; };
 		1FBB72271AF9356D005B3F99 /* MulticastDelegateDemoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MulticastDelegateDemoVC.h; sourceTree = "<group>"; };
 		1FBB72281AF9356D005B3F99 /* MulticastDelegateDemoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MulticastDelegateDemoVC.m; sourceTree = "<group>"; };
 		1FC8F58A1AF7DA0D00CA2AC0 /* XDCommonLib.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XDCommonLib.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -775,6 +808,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F7A63171CBAB6A300F34E25 /* NSProgressInfo */ = {
+			isa = PBXGroup;
+			children = (
+				1F7A63181CBAB6B600F34E25 /* NSProcessInfo+XDCommonLib.h */,
+				1F7A63191CBAB6B600F34E25 /* NSProcessInfo+XDCommonLib.m */,
+			);
+			path = NSProgressInfo;
+			sourceTree = "<group>";
+		};
 		1FC8F5811AF7DA0D00CA2AC0 = {
 			isa = PBXGroup;
 			children = (
@@ -1024,6 +1066,7 @@
 		1FE327061BE924E900626042 /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
+				1F7A63171CBAB6A300F34E25 /* NSProgressInfo */,
 				1FE327071BE924E900626042 /* NSArray */,
 				1FE3270C1BE924E900626042 /* NSBundle */,
 				1FE3270F1BE924E900626042 /* NSData */,
@@ -1059,6 +1102,10 @@
 				1FE327091BE924E900626042 /* NSArray+Block.m */,
 				1FE3270A1BE924E900626042 /* NSArray+SafeAccess.h */,
 				1FE3270B1BE924E900626042 /* NSArray+SafeAccess.m */,
+				1F7A62FC1CBAB1CE00F34E25 /* NSArray+XDCommonLib.h */,
+				1F7A62FD1CBAB1CE00F34E25 /* NSArray+XDCommonLib.m */,
+				1F7A630B1CBAB4D900F34E25 /* NSMutableArray+XDCommonLib.h */,
+				1F7A630C1CBAB4D900F34E25 /* NSMutableArray+XDCommonLib.m */,
 			);
 			path = NSArray;
 			sourceTree = "<group>";
@@ -1089,6 +1136,8 @@
 				1FE3271B1BE924E900626042 /* NSData+SDDataCache.m */,
 				1FE3271C1BE924E900626042 /* NSData+zlib.h */,
 				1FE3271D1BE924E900626042 /* NSData+zlib.m */,
+				1F7A62FF1CBAB27000F34E25 /* NSData+XDCommonLib.h */,
+				1F7A63001CBAB27000F34E25 /* NSData+XDCommonLib.m */,
 			);
 			path = NSData;
 			sourceTree = "<group>";
@@ -1113,6 +1162,8 @@
 				1FE3272D1BE924E900626042 /* NSDate+Utils.h */,
 				1FE3272E1BE924E900626042 /* NSDate+Utils.m */,
 				1FE3272F1BE924E900626042 /* NSDateTimeAgo.bundle */,
+				1F7A63021CBAB2EF00F34E25 /* NSDate+XDCommonLib.h */,
+				1F7A63031CBAB2EF00F34E25 /* NSDate+XDCommonLib.m */,
 			);
 			path = NSDate;
 			sourceTree = "<group>";
@@ -1141,6 +1192,10 @@
 				1FE3273D1BE924E900626042 /* NSDictionary+URL.m */,
 				1FE3273E1BE924E900626042 /* NSDictionary+XML.h */,
 				1FE3273F1BE924E900626042 /* NSDictionary+XML.m */,
+				1F7A63051CBAB3B800F34E25 /* NSDictionary+XDCommonLib.h */,
+				1F7A63061CBAB3B800F34E25 /* NSDictionary+XDCommonLib.m */,
+				1F7A630E1CBAB55200F34E25 /* NSMutableDictionary+XDCommonLib.h */,
+				1F7A630F1CBAB55200F34E25 /* NSMutableDictionary+XDCommonLib.m */,
 			);
 			path = NSDictionary;
 			sourceTree = "<group>";
@@ -1168,6 +1223,8 @@
 			children = (
 				1FE327471BE924E900626042 /* NSFileManager+Paths.h */,
 				1FE327481BE924E900626042 /* NSFileManager+Paths.m */,
+				1F7A63081CBAB43800F34E25 /* NSFileManager+XDCommonLib.h */,
+				1F7A63091CBAB43800F34E25 /* NSFileManager+XDCommonLib.m */,
 			);
 			path = NSFileManager;
 			sourceTree = "<group>";
@@ -1212,6 +1269,8 @@
 				1FE3275A1BE924E900626042 /* NSNumber+RomanNumerals.m */,
 				1FE3275B1BE924E900626042 /* NSNumber+Round.h */,
 				1FE3275C1BE924E900626042 /* NSNumber+Round.m */,
+				1F7A63111CBAB5BD00F34E25 /* NSNumber+XDCommonLib.h */,
+				1F7A63121CBAB5BD00F34E25 /* NSNumber+XDCommonLib.m */,
 			);
 			path = NSNumber;
 			sourceTree = "<group>";
@@ -1239,6 +1298,8 @@
 				1FE3276F1BE924E900626042 /* NSObject+Property.m */,
 				1FE327701BE924E900626042 /* NSObject+Runtime.h */,
 				1FE327711BE924E900626042 /* NSObject+Runtime.m */,
+				1F7A63141CBAB64600F34E25 /* NSObject+XDCommonLib.h */,
+				1F7A63151CBAB64600F34E25 /* NSObject+XDCommonLib.m */,
 			);
 			path = NSObject;
 			sourceTree = "<group>";
@@ -1304,6 +1365,8 @@
 				1FE3279E1BE924E900626042 /* NSString+UUID.m */,
 				1FE3279F1BE924E900626042 /* NSString+XML.h */,
 				1FE327A01BE924E900626042 /* NSString+XML.m */,
+				1F7A631B1CBAB72E00F34E25 /* NSString+XDCommonLib.h */,
+				1F7A631C1CBAB72E00F34E25 /* NSString+XDCommonLib.m */,
 			);
 			path = NSString;
 			sourceTree = "<group>";
@@ -2106,6 +2169,7 @@
 				1FE3294B1BE924EA00626042 /* UIButton+BackgroundColor.m in Sources */,
 				1FE329371BE924EA00626042 /* NSUserDefaults+SafeAccess.m in Sources */,
 				1FE329AD1BE924EA00626042 /* UIViewController+ScrollingStatusBar.m in Sources */,
+				1F7A62FE1CBAB1CE00F34E25 /* NSArray+XDCommonLib.m in Sources */,
 				1FE328F81BE924EA00626042 /* NSDate+InternetDateTime.m in Sources */,
 				1FE329A31BE924EA00626042 /* UIView+ViewController.m in Sources */,
 				1FE328F41BE924EA00626042 /* NSData+zlib.m in Sources */,
@@ -2132,15 +2196,18 @@
 				1FC8F5931AF7DA0D00CA2AC0 /* AppDelegate.m in Sources */,
 				1FE3293D1BE924EA00626042 /* CALayer+UIColor.m in Sources */,
 				1FE27D711AF9C50000E54012 /* XDDebugUtils.m in Sources */,
+				1F7A631D1CBAB72E00F34E25 /* NSString+XDCommonLib.m in Sources */,
 				1FE329081BE924EA00626042 /* NSHTTPCookieStorage+FreezeDry.m in Sources */,
 				1FE3297F1BE924EA00626042 /* UINavigationItem+Lock.m in Sources */,
 				1FE329791BE924EA00626042 /* UINavigationController+BATransitions.m in Sources */,
 				1FE329541BE924EA00626042 /* UIColor+Random.m in Sources */,
+				1F7A63131CBAB5BD00F34E25 /* NSNumber+XDCommonLib.m in Sources */,
 				1FE3292C1BE924EA00626042 /* NSString+UrlEncode.m in Sources */,
 				1FE3294A1BE924EA00626042 /* UIBezierPath+Symbol.m in Sources */,
 				1FE329621BE924EA00626042 /* UIImage+Color.m in Sources */,
 				1FE329931BE924EA00626042 /* UITextView+PlaceHolder.m in Sources */,
 				1FE3296A1BE924EA00626042 /* UIImage+Resize.m in Sources */,
+				1F7A63041CBAB2EF00F34E25 /* NSDate+XDCommonLib.m in Sources */,
 				1FE3296C1BE924EA00626042 /* UIImage+Vector.m in Sources */,
 				1FE329281BE924EA00626042 /* NSString+Ruby.m in Sources */,
 				1FE329781BE924EA00626042 /* UINavigationBar+CustomHeight.m in Sources */,
@@ -2178,6 +2245,7 @@
 				1FE3295F1BE924EA00626042 /* UIImage+BetterFace.m in Sources */,
 				1FE3291F1BE924EA00626042 /* NSString+DictionaryValue.m in Sources */,
 				1FE3298B1BE924EA00626042 /* UITableView+FDTemplateLayoutCell.m in Sources */,
+				1F7A63011CBAB27000F34E25 /* NSData+XDCommonLib.m in Sources */,
 				1FE329551BE924EA00626042 /* UIColor+Web.m in Sources */,
 				1FE329461BE924EA00626042 /* UIBarButtonItem+Action.m in Sources */,
 				1FE329B31BE924EA00626042 /* UIWebView+Canvas.m in Sources */,
@@ -2199,6 +2267,7 @@
 				1FE328F01BE924EA00626042 /* NSData+Encrypt.m in Sources */,
 				1FE329A91BE924EA00626042 /* UIViewController+BlockSegue.m in Sources */,
 				1FE3295B1BE924EA00626042 /* UIFont+WDCustomLoader.m in Sources */,
+				1F7A63161CBAB64600F34E25 /* NSObject+XDCommonLib.m in Sources */,
 				1FE3291D1BE924EA00626042 /* NSString+Base64.m in Sources */,
 				1FE3290C1BE924EA00626042 /* NSDecimalNumber+Extensions.m in Sources */,
 				1FE329091BE924EA00626042 /* NSIndexPath+Offset.m in Sources */,
@@ -2216,6 +2285,7 @@
 				1FE329511BE924EA00626042 /* UIColor+Gradient.m in Sources */,
 				1FE328E71BE924EA00626042 /* NSManagedObjectContext+ObjectClear.m in Sources */,
 				1FE329481BE924EA00626042 /* UIBezierPath+LxThroughPointsBezier.m in Sources */,
+				1F7A630D1CBAB4D900F34E25 /* NSMutableArray+XDCommonLib.m in Sources */,
 				1FE328E31BE924EA00626042 /* NSManagedObject+Extensions.m in Sources */,
 				1FE329801BE924EA00626042 /* UINavigationItem+Margin.m in Sources */,
 				1FE328FA1BE924EA00626042 /* NSDate+TimeAgo.m in Sources */,
@@ -2239,6 +2309,7 @@
 				620CA3261C26CFE40042D6BB /* XDFileMimeType.m in Sources */,
 				1FE3295A1BE924EA00626042 /* UIFont+DynamicFontControl.m in Sources */,
 				1FE329321BE924EA00626042 /* NSURL+Param.m in Sources */,
+				1F7A63101CBAB55200F34E25 /* NSMutableDictionary+XDCommonLib.m in Sources */,
 				1FE329841BE924EA00626042 /* UIResponder+UIAdapt.m in Sources */,
 				1FE329B01BE924EA00626042 /* UIViewController+Visible.m in Sources */,
 				1FE3296D1BE924EA00626042 /* UIImageView+Addition.m in Sources */,
@@ -2261,6 +2332,7 @@
 				1FE329A11BE924EA00626042 /* UIView+Shake.m in Sources */,
 				1FE329071BE924EA00626042 /* NSFileManager+Paths.m in Sources */,
 				1FE3290B1BE924EA00626042 /* NSDecimalNumber+CalculatingByString.m in Sources */,
+				1F7A630A1CBAB43800F34E25 /* NSFileManager+XDCommonLib.m in Sources */,
 				1FE328E61BE924EA00626042 /* NSManagedObjectContext+FetchRequestsConstructors.m in Sources */,
 				1FE329651BE924EA00626042 /* UIImage+GIF.m in Sources */,
 				1FE3299B1BE924EA00626042 /* UIView+Frame.m in Sources */,
@@ -2287,6 +2359,7 @@
 				1FE3293C1BE924EA00626042 /* CAAnimation+EasingEquations.m in Sources */,
 				1FE328F31BE924EA00626042 /* NSData+SDDataCache.m in Sources */,
 				1FE329271BE924EA00626042 /* NSString+RemoveEmoji.m in Sources */,
+				1F7A63071CBAB3B800F34E25 /* NSDictionary+XDCommonLib.m in Sources */,
 				1FE329211BE924EA00626042 /* NSString+Encrypt.m in Sources */,
 				1FE3292F1BE924EA00626042 /* NSString+XML.m in Sources */,
 				1FE329A81BE924EA00626042 /* UIViewController+BackButtonTouched.m in Sources */,
@@ -2294,6 +2367,7 @@
 				6212392B1C06C82100D54017 /* XDDebugStatusBar.m in Sources */,
 				1FE329C11BE9265200626042 /* XDMulticastDelegate.m in Sources */,
 				1FE329B91BE924EA00626042 /* WebView+Debug.m in Sources */,
+				1F7A631A1CBAB6B600F34E25 /* NSProcessInfo+XDCommonLib.m in Sources */,
 				1FE328FC1BE924EA00626042 /* NSDate+Utils.m in Sources */,
 				1FE329231BE924EA00626042 /* NSString+Matcher.m in Sources */,
 				1FE329521BE924EA00626042 /* UIColor+HEX.m in Sources */,

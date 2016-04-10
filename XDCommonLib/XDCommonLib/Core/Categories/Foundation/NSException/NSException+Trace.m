@@ -10,6 +10,7 @@
 #include <execinfo.h>
 
 @implementation NSException (Trace)
+
 - (NSArray *)backtrace
 {
     NSArray *addresses = self.callStackReturnAddresses;
@@ -30,4 +31,5 @@
     
     return ret;
 }
+
 @end

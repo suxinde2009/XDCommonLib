@@ -9,5 +9,7 @@
 #import <Foundation/Foundation.h>
 
 @interface NSException (Trace)
+
 - (NSArray *)backtrace;
+
 @end
