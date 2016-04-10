@@ -9,7 +9,17 @@
 #import "NSArray+SafeAccess.h"
 
 @implementation NSArray (SafeAccess)
--(id)objectWithIndex:(NSUInteger)index{
+
+- (id)firstObject
+{
+    if (self.count) {
+        return [self objectAtIndex:0];
+    }
+    return nil;
+}
+
+- (id)objectWithIndex:(NSUInteger)index
+{
     if (index <self.count) {
         return self[index];
     }else{

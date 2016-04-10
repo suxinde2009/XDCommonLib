@@ -10,7 +10,10 @@
 #import <UIKit/UIKit.h>
 
 @interface NSArray (SafeAccess)
--(id)objectWithIndex:(NSUInteger)index;
+
+- (id)firstObject;
+
+- (id)objectWithIndex:(NSUInteger)index;
 
 - (NSString*)stringWithIndex:(NSUInteger)index;
 

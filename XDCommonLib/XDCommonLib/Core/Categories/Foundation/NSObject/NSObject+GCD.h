@@ -7,13 +7,16 @@
 //
 
 #import <Foundation/Foundation.h>
+
 @interface NSObject (GCD)
+
 /**
  *  @brief  异步执行代码块
  *
  *  @param block 代码块
  */
 - (void)performAsynchronous:(void(^)(void))block;
+
 /**
  *  @brief  GCD主线程执行代码块
  *
@@ -29,4 +32,5 @@
  *  @param block   代码块
  */
 - (void)performAfter:(NSTimeInterval)seconds block:(void(^)(void))block;
+
 @end
