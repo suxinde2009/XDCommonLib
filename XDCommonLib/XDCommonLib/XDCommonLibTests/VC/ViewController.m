@@ -23,6 +23,10 @@
     
     mTestCases = [@[] mutableCopy];
     [mTestCases addObject:@"多播委托-MulticastDelegateDemoVC"];
+    [mTestCases addObject:@"测试非主线程刷新UI监测"];
+    
+    
+    
 }
 
 
@@ -68,6 +72,11 @@
         } break;
             
         case 1:{
+            
+            dispatch_async(dispatch_queue_create("com.bcg.queue", NULL), ^{
+                [self.tableView reloadData];
+            });
+            
             
         } break;
             

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F4EAEAB1CBD565F00F86189 /* XDUIKitMainThreadGuard.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4EAEAA1CBD565F00F86189 /* XDUIKitMainThreadGuard.m */; };
 		1F7A62FE1CBAB1CE00F34E25 /* NSArray+XDCommonLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7A62FD1CBAB1CE00F34E25 /* NSArray+XDCommonLib.m */; };
 		1F7A63011CBAB27000F34E25 /* NSData+XDCommonLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7A63001CBAB27000F34E25 /* NSData+XDCommonLib.m */; };
 		1F7A63041CBAB2EF00F34E25 /* NSDate+XDCommonLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7A63031CBAB2EF00F34E25 /* NSDate+XDCommonLib.m */; };
@@ -276,6 +277,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F4EAEAA1CBD565F00F86189 /* XDUIKitMainThreadGuard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDUIKitMainThreadGuard.m; sourceTree = "<group>"; };
 		1F7A62FC1CBAB1CE00F34E25 /* NSArray+XDCommonLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+XDCommonLib.h"; sourceTree = "<group>"; };
 		1F7A62FD1CBAB1CE00F34E25 /* NSArray+XDCommonLib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+XDCommonLib.m"; sourceTree = "<group>"; };
 		1F7A62FF1CBAB27000F34E25 /* NSData+XDCommonLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+XDCommonLib.h"; sourceTree = "<group>"; };
@@ -807,6 +809,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F4EAEA81CBD560800F86189 /* XDUIKitMainThreadGuard */ = {
+			isa = PBXGroup;
+			children = (
+				1F4EAEAA1CBD565F00F86189 /* XDUIKitMainThreadGuard.m */,
+			);
+			path = XDUIKitMainThreadGuard;
+			sourceTree = "<group>";
+		};
 		1F7A63171CBAB6A300F34E25 /* NSProgressInfo */ = {
 			isa = PBXGroup;
 			children = (
@@ -1983,6 +1993,7 @@
 		1FE329BB1BE9265200626042 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				1F4EAEA81CBD560800F86189 /* XDUIKitMainThreadGuard */,
 				1FE329BD1BE9265200626042 /* XDMulticastDelegate */,
 			);
 			path = Utils;
@@ -2200,6 +2211,7 @@
 				1FE329791BE924EA00626042 /* UINavigationController+BATransitions.m in Sources */,
 				1FE329541BE924EA00626042 /* UIColor+Random.m in Sources */,
 				1F7A63131CBAB5BD00F34E25 /* NSNumber+XDCommonLib.m in Sources */,
+				1F4EAEAB1CBD565F00F86189 /* XDUIKitMainThreadGuard.m in Sources */,
 				1FE3292C1BE924EA00626042 /* NSString+UrlEncode.m in Sources */,
 				1FE3294A1BE924EA00626042 /* UIBezierPath+Symbol.m in Sources */,
 				1FE329621BE924EA00626042 /* UIImage+Color.m in Sources */,
