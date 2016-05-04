@@ -20,6 +20,7 @@
 		1F7A631A1CBAB6B600F34E25 /* NSProcessInfo+XDCommonLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7A63191CBAB6B600F34E25 /* NSProcessInfo+XDCommonLib.m */; };
 		1F7A631D1CBAB72E00F34E25 /* NSString+XDCommonLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7A631C1CBAB72E00F34E25 /* NSString+XDCommonLib.m */; };
 		1F7A63201CBAC68300F34E25 /* XDMulticastDelegateBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7A631F1CBAC68300F34E25 /* XDMulticastDelegateBase.m */; };
+		1FBA96741CD9C79D00CA2387 /* XDVideoEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBA96731CD9C79D00CA2387 /* XDVideoEditor.m */; };
 		1FBB72291AF9356D005B3F99 /* MulticastDelegateDemoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBB72281AF9356D005B3F99 /* MulticastDelegateDemoVC.m */; };
 		1FC8F5901AF7DA0D00CA2AC0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC8F58F1AF7DA0D00CA2AC0 /* main.m */; };
 		1FC8F5931AF7DA0D00CA2AC0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC8F5921AF7DA0D00CA2AC0 /* AppDelegate.m */; };
@@ -302,6 +303,8 @@
 		1F7A631C1CBAB72E00F34E25 /* NSString+XDCommonLib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+XDCommonLib.m"; sourceTree = "<group>"; };
 		1F7A631E1CBAC68300F34E25 /* XDMulticastDelegateBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDMulticastDelegateBase.h; sourceTree = "<group>"; };
 		1F7A631F1CBAC68300F34E25 /* XDMulticastDelegateBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDMulticastDelegateBase.m; sourceTree = "<group>"; };
+		1FBA96721CD9C79D00CA2387 /* XDVideoEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDVideoEditor.h; sourceTree = "<group>"; };
+		1FBA96731CD9C79D00CA2387 /* XDVideoEditor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDVideoEditor.m; sourceTree = "<group>"; };
 		1FBB72271AF9356D005B3F99 /* MulticastDelegateDemoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MulticastDelegateDemoVC.h; sourceTree = "<group>"; };
 		1FBB72281AF9356D005B3F99 /* MulticastDelegateDemoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MulticastDelegateDemoVC.m; sourceTree = "<group>"; };
 		1FC8F58A1AF7DA0D00CA2AC0 /* XDCommonLib.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XDCommonLib.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -826,6 +829,23 @@
 			path = NSProgressInfo;
 			sourceTree = "<group>";
 		};
+		1FBA96701CD9C78200CA2387 /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				1FBA96711CD9C78200CA2387 /* VideoEdit */,
+			);
+			path = Media;
+			sourceTree = "<group>";
+		};
+		1FBA96711CD9C78200CA2387 /* VideoEdit */ = {
+			isa = PBXGroup;
+			children = (
+				1FBA96721CD9C79D00CA2387 /* XDVideoEditor.h */,
+				1FBA96731CD9C79D00CA2387 /* XDVideoEditor.m */,
+			);
+			path = VideoEdit;
+			sourceTree = "<group>";
+		};
 		1FC8F5811AF7DA0D00CA2AC0 = {
 			isa = PBXGroup;
 			children = (
@@ -909,6 +929,7 @@
 		1FC8F5B81AF7DB4000CA2AC0 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				1FBA96701CD9C78200CA2387 /* Media */,
 				621239281C06C79500D54017 /* XDSingleton.h */,
 				1FC8F5BA1AF7DBC500CA2AC0 /* XDPreCompile.h */,
 				1FC8F5BC1AF7DCF000CA2AC0 /* XDPreCompile.m */,
@@ -2334,6 +2355,7 @@
 				1FC8F5901AF7DA0D00CA2AC0 /* main.m in Sources */,
 				62FD2C651C00D3000024FA5E /* XDUnitTests.m in Sources */,
 				1FE328EE1BE924EA00626042 /* NSData+APNSToken.m in Sources */,
+				1FBA96741CD9C79D00CA2387 /* XDVideoEditor.m in Sources */,
 				1FE3293E1BE924EA00626042 /* CAMediaTimingFunction+AdditionalEquations.m in Sources */,
 				1FE329991BE924EA00626042 /* UIView+draggable.m in Sources */,
 				1FE329291BE924EA00626042 /* NSString+Score.m in Sources */,
