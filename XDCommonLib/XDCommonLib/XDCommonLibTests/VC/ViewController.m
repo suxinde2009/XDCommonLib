@@ -10,6 +10,7 @@
 
 #import "MulticastDelegateDemoVC.h"
 #import "XDVideoEditor.h"
+#import "NSString+Tokenize.h"
 
 @interface ViewController ()
 {
@@ -26,7 +27,7 @@
     [mTestCases addObject:@"多播委托-MulticastDelegateDemoVC"];
     [mTestCases addObject:@"测试非主线程刷新UI监测"];
     [mTestCases addObject:@"导出倒序播放的视频"];
-    
+    [mTestCases addObject:@"NSString+Tokenize"];
     
 }
 
@@ -125,6 +126,12 @@
         } break;
             
         case 3:{
+            
+            //封装了CFStringTokenizer的NSString Category，可以方便的应用于Mac或者iOS APP， 其不但支持西方语言，更支持中文和日文这样没有空格分词的语言。
+            
+            NSString *inputString = @"Test / dsfasdfs";
+            NSLog(@"TokensArray = %@", inputString.arrayWithWordTokenize);
+            NSLog(@"%@", [inputString separatedStringWithSeparator:@"/"]);
             
         } break;
             
