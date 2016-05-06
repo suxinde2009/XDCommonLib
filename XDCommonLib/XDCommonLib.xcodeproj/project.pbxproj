@@ -30,6 +30,7 @@
 		1FC8F5AA1AF7DA0D00CA2AC0 /* XDCommonLibTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC8F5A91AF7DA0D00CA2AC0 /* XDCommonLibTests.m */; };
 		1FC8F5B71AF7DB2E00CA2AC0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC8F5B61AF7DB2E00CA2AC0 /* ViewController.m */; };
 		1FC8F5BD1AF7DCF000CA2AC0 /* XDPreCompile.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC8F5BC1AF7DCF000CA2AC0 /* XDPreCompile.m */; };
+		1FCFDD101CDC161900DC27F5 /* test.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1FCFDD0F1CDC161900DC27F5 /* test.mp4 */; };
 		1FD67EC71AF894A100B05A1F /* XDPerformance.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD67EC61AF894A100B05A1F /* XDPerformance.m */; };
 		1FE27D5D1AF9B3DA00E54012 /* TCP.json in Resources */ = {isa = PBXBuildFile; fileRef = 1FE27D5C1AF9B3DA00E54012 /* TCP.json */; };
 		1FE27D6B1AF9B49C00E54012 /* HTTP.json in Resources */ = {isa = PBXBuildFile; fileRef = 1FE27D6A1AF9B49C00E54012 /* HTTP.json */; };
@@ -324,6 +325,7 @@
 		1FC8F5BC1AF7DCF000CA2AC0 /* XDPreCompile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDPreCompile.m; sourceTree = "<group>"; };
 		1FC8F5BF1AF7DDEC00CA2AC0 /* XDCommonLib-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XDCommonLib-Prefix.pch"; sourceTree = "<group>"; };
 		1FC8F5C91AF7E18700CA2AC0 /* XDDebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDDebug.h; sourceTree = "<group>"; };
+		1FCFDD0F1CDC161900DC27F5 /* test.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.mp4; sourceTree = "<group>"; };
 		1FD67EC51AF894A100B05A1F /* XDPerformance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDPerformance.h; sourceTree = "<group>"; };
 		1FD67EC61AF894A100B05A1F /* XDPerformance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDPerformance.m; sourceTree = "<group>"; };
 		1FE27D5C1AF9B3DA00E54012 /* TCP.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TCP.json; sourceTree = "<group>"; };
@@ -868,6 +870,7 @@
 		1FC8F58C1AF7DA0D00CA2AC0 /* XDCommonLib */ = {
 			isa = PBXGroup;
 			children = (
+				1FCFDD0E1CDC161900DC27F5 /* Resources */,
 				1FC8F5B81AF7DB4000CA2AC0 /* Core */,
 				1FC8F5B31AF7DB0700CA2AC0 /* XDCommonLibTests */,
 				1FC8F5911AF7DA0D00CA2AC0 /* AppDelegate.h */,
@@ -961,6 +964,14 @@
 				621239331C076F7F00D54017 /* XDLogUtils.m */,
 			);
 			path = Debug;
+			sourceTree = "<group>";
+		};
+		1FCFDD0E1CDC161900DC27F5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1FCFDD0F1CDC161900DC27F5 /* test.mp4 */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		1FE27D581AF9B3BE00E54012 /* Modules */ = {
@@ -2154,6 +2165,7 @@
 				1FC8F59E1AF7DA0D00CA2AC0 /* LaunchScreen.xib in Resources */,
 				1FC8F59B1AF7DA0D00CA2AC0 /* Images.xcassets in Resources */,
 				1FE27D5D1AF9B3DA00E54012 /* TCP.json in Resources */,
+				1FCFDD101CDC161900DC27F5 /* test.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
