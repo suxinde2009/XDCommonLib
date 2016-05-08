@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1F29465A1CDF901F0091D0EB /* YRJSONAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2946591CDF901F0091D0EB /* YRJSONAdapter.m */; };
 		1F29465D1CDF91DB0091D0EB /* XDJSONAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F29465C1CDF91DB0091D0EB /* XDJSONAdapter.m */; };
+		1F2946601CDFA9A60091D0EB /* NSObject+XD_KVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F29465F1CDFA9A60091D0EB /* NSObject+XD_KVO.m */; };
 		1F4EAEAB1CBD565F00F86189 /* XDUIKitMainThreadGuard.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4EAEAA1CBD565F00F86189 /* XDUIKitMainThreadGuard.m */; };
 		1F7A62FE1CBAB1CE00F34E25 /* NSArray+XDCommonLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7A62FD1CBAB1CE00F34E25 /* NSArray+XDCommonLib.m */; };
 		1F7A63011CBAB27000F34E25 /* NSData+XDCommonLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7A63001CBAB27000F34E25 /* NSData+XDCommonLib.m */; };
@@ -324,6 +325,8 @@
 		1F2946591CDF901F0091D0EB /* YRJSONAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRJSONAdapter.m; sourceTree = "<group>"; };
 		1F29465B1CDF91DB0091D0EB /* XDJSONAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDJSONAdapter.h; sourceTree = "<group>"; };
 		1F29465C1CDF91DB0091D0EB /* XDJSONAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDJSONAdapter.m; sourceTree = "<group>"; };
+		1F29465E1CDFA9A60091D0EB /* NSObject+XD_KVO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+XD_KVO.h"; sourceTree = "<group>"; };
+		1F29465F1CDFA9A60091D0EB /* NSObject+XD_KVO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+XD_KVO.m"; sourceTree = "<group>"; };
 		1F4EAEAA1CBD565F00F86189 /* XDUIKitMainThreadGuard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDUIKitMainThreadGuard.m; sourceTree = "<group>"; };
 		1F7A62FC1CBAB1CE00F34E25 /* NSArray+XDCommonLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+XDCommonLib.h"; sourceTree = "<group>"; };
 		1F7A62FD1CBAB1CE00F34E25 /* NSArray+XDCommonLib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+XDCommonLib.m"; sourceTree = "<group>"; };
@@ -1617,6 +1620,8 @@
 				1FE327711BE924E900626042 /* NSObject+Runtime.m */,
 				1F7A63141CBAB64600F34E25 /* NSObject+XDCommonLib.h */,
 				1F7A63151CBAB64600F34E25 /* NSObject+XDCommonLib.m */,
+				1F29465E1CDFA9A60091D0EB /* NSObject+XD_KVO.h */,
+				1F29465F1CDFA9A60091D0EB /* NSObject+XD_KVO.m */,
 			);
 			path = NSObject;
 			sourceTree = "<group>";
@@ -2521,6 +2526,7 @@
 				62D18E5A1BFB939E00401529 /* PKProtocolExtension.m in Sources */,
 				1FC8F5931AF7DA0D00CA2AC0 /* AppDelegate.m in Sources */,
 				1FE3293D1BE924EA00626042 /* CALayer+UIColor.m in Sources */,
+				1F2946601CDFA9A60091D0EB /* NSObject+XD_KVO.m in Sources */,
 				1FCFDD921CDC55EC00DC27F5 /* UIWebView+BlocksKit.m in Sources */,
 				1FE27D711AF9C50000E54012 /* XDDebugUtils.m in Sources */,
 				1F7A631D1CBAB72E00F34E25 /* NSString+XDCommonLib.m in Sources */,
