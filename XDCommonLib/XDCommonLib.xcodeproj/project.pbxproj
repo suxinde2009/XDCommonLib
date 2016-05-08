@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F29465A1CDF901F0091D0EB /* YRJSONAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2946591CDF901F0091D0EB /* YRJSONAdapter.m */; };
+		1F29465D1CDF91DB0091D0EB /* XDJSONAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F29465C1CDF91DB0091D0EB /* XDJSONAdapter.m */; };
 		1F4EAEAB1CBD565F00F86189 /* XDUIKitMainThreadGuard.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4EAEAA1CBD565F00F86189 /* XDUIKitMainThreadGuard.m */; };
 		1F7A62FE1CBAB1CE00F34E25 /* NSArray+XDCommonLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7A62FD1CBAB1CE00F34E25 /* NSArray+XDCommonLib.m */; };
 		1F7A63011CBAB27000F34E25 /* NSData+XDCommonLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7A63001CBAB27000F34E25 /* NSData+XDCommonLib.m */; };
@@ -318,6 +320,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F2946581CDF901F0091D0EB /* YRJSONAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRJSONAdapter.h; sourceTree = "<group>"; };
+		1F2946591CDF901F0091D0EB /* YRJSONAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRJSONAdapter.m; sourceTree = "<group>"; };
+		1F29465B1CDF91DB0091D0EB /* XDJSONAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDJSONAdapter.h; sourceTree = "<group>"; };
+		1F29465C1CDF91DB0091D0EB /* XDJSONAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDJSONAdapter.m; sourceTree = "<group>"; };
 		1F4EAEAA1CBD565F00F86189 /* XDUIKitMainThreadGuard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDUIKitMainThreadGuard.m; sourceTree = "<group>"; };
 		1F7A62FC1CBAB1CE00F34E25 /* NSArray+XDCommonLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+XDCommonLib.h"; sourceTree = "<group>"; };
 		1F7A62FD1CBAB1CE00F34E25 /* NSArray+XDCommonLib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+XDCommonLib.m"; sourceTree = "<group>"; };
@@ -937,6 +943,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F2946571CDF901F0091D0EB /* YRJSONAdapter */ = {
+			isa = PBXGroup;
+			children = (
+				1F2946581CDF901F0091D0EB /* YRJSONAdapter.h */,
+				1F2946591CDF901F0091D0EB /* YRJSONAdapter.m */,
+				1F29465B1CDF91DB0091D0EB /* XDJSONAdapter.h */,
+				1F29465C1CDF91DB0091D0EB /* XDJSONAdapter.m */,
+			);
+			path = YRJSONAdapter;
+			sourceTree = "<group>";
+		};
 		1F4EAEA81CBD560800F86189 /* XDUIKitMainThreadGuard */ = {
 			isa = PBXGroup;
 			children = (
@@ -2308,6 +2325,7 @@
 		62D18E551BFB939E00401529 /* Venders */ = {
 			isa = PBXGroup;
 			children = (
+				1F2946571CDF901F0091D0EB /* YRJSONAdapter */,
 				62D18E561BFB939E00401529 /* ProtocolKit */,
 			);
 			path = Venders;
@@ -2463,6 +2481,7 @@
 				1FE329B51BE924EA00626042 /* UIWebView+Load.m in Sources */,
 				1FE329191BE924EA00626042 /* NSObject+Runtime.m in Sources */,
 				1FCFDD8D1CDC55EC00DC27F5 /* UIImagePickerController+BlocksKit.m in Sources */,
+				1F29465D1CDF91DB0091D0EB /* XDJSONAdapter.m in Sources */,
 				1FE329BA1BE924EA00626042 /* UIWindow+Hierarchy.m in Sources */,
 				1FE329851BE924EA00626042 /* UIScreen+Frame.m in Sources */,
 				1FE329331BE924EA00626042 /* NSURL+QueryDictionary.m in Sources */,
@@ -2548,6 +2567,7 @@
 				1FCFDD7F1CDC55EC00DC27F5 /* A2DynamicDelegate.m in Sources */,
 				1FE329151BE924EA00626042 /* NSObject+GCD.m in Sources */,
 				1FE329441BE924EA00626042 /* UIApplication+NetworkActivityIndicator.m in Sources */,
+				1F29465A1CDF901F0091D0EB /* YRJSONAdapter.m in Sources */,
 				1FE329861BE924EA00626042 /* UIScrollView+Addition.m in Sources */,
 				1FCFDD8E1CDC55EC00DC27F5 /* UIPopoverController+BlocksKit.m in Sources */,
 				1FCFDD841CDC55EC00DC27F5 /* MFMailComposeViewController+BlocksKit.m in Sources */,
