@@ -14,6 +14,18 @@ typedef void(^XDVideoEditProgressHandle)(CGFloat progress);
 
 @interface XDVideoEditor : NSObject
 
+/**
+ *  导出倒序播放的视频
+ *
+ *  @param asset            待导出媒体文件的AVAsset
+ *  @param videoComposition AVMutableVideoComposition
+ *  @param duration         时长
+ *  @param outputURL        导出路径URL
+ *  @param progressHandle   进度回调
+ *  @param cancel           是否取消操作
+ *
+ *  @return 导出文件的AVAsset
+ */
 + (AVAsset *)assetByReversingAsset:(AVAsset *)asset
                   videoComposition:(AVMutableVideoComposition *)videoComposition
                           duration:(CMTime)duration
