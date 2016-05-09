@@ -33,6 +33,14 @@
 		1F9CA5E01CE0F49300F53C03 /* sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1F9CA5DC1CE0F49300F53C03 /* sound.mp3 */; };
 		1F9CA5EB1CE0FBAE00F53C03 /* DGBlockThrottle.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9CA5E71CE0FBAE00F53C03 /* DGBlockThrottle.m */; };
 		1F9CA5EC1CE0FBAE00F53C03 /* DGStateBroadcaster.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9CA5EA1CE0FBAE00F53C03 /* DGStateBroadcaster.m */; };
+		1F9CA5FA1CE0FD2800F53C03 /* SBCollectionViewTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9CA5EF1CE0FD2800F53C03 /* SBCollectionViewTableCell.m */; };
+		1F9CA5FB1CE0FD2800F53C03 /* SBCollectionViewTableCellSeparatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9CA5F11CE0FD2800F53C03 /* SBCollectionViewTableCellSeparatorView.m */; };
+		1F9CA5FC1CE0FD2800F53C03 /* SBCollectionViewTableLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9CA5F31CE0FD2800F53C03 /* SBCollectionViewTableLayout.m */; };
+		1F9CA5FD1CE0FD2800F53C03 /* SBCollectionViewTableLayoutAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9CA5F51CE0FD2800F53C03 /* SBCollectionViewTableLayoutAttributes.m */; };
+		1F9CA5FE1CE0FD2800F53C03 /* SBCollectionViewTableSupplementaryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9CA5F71CE0FD2800F53C03 /* SBCollectionViewTableSupplementaryView.m */; };
+		1F9CA5FF1CE0FD2800F53C03 /* UIColor+SBCollectionViewTableLayoutColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9CA5F91CE0FD2800F53C03 /* UIColor+SBCollectionViewTableLayoutColors.m */; };
+		1F9CA6051CE0FD5D00F53C03 /* SBTableLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9CA6021CE0FD5D00F53C03 /* SBTableLayoutViewController.m */; };
+		1F9CA6061CE0FD5D00F53C03 /* SBTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9CA6041CE0FD5D00F53C03 /* SBTableViewController.m */; };
 		1FBA96741CD9C79D00CA2387 /* XDVideoEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBA96731CD9C79D00CA2387 /* XDVideoEditor.m */; };
 		1FBB72291AF9356D005B3F99 /* MulticastDelegateDemoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBB72281AF9356D005B3F99 /* MulticastDelegateDemoVC.m */; };
 		1FC8F5901AF7DA0D00CA2AC0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC8F58F1AF7DA0D00CA2AC0 /* main.m */; };
@@ -379,6 +387,22 @@
 		1F9CA5E71CE0FBAE00F53C03 /* DGBlockThrottle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGBlockThrottle.m; sourceTree = "<group>"; };
 		1F9CA5E91CE0FBAE00F53C03 /* DGStateBroadcaster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGStateBroadcaster.h; sourceTree = "<group>"; };
 		1F9CA5EA1CE0FBAE00F53C03 /* DGStateBroadcaster.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGStateBroadcaster.m; sourceTree = "<group>"; };
+		1F9CA5EE1CE0FD2800F53C03 /* SBCollectionViewTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBCollectionViewTableCell.h; sourceTree = "<group>"; };
+		1F9CA5EF1CE0FD2800F53C03 /* SBCollectionViewTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBCollectionViewTableCell.m; sourceTree = "<group>"; };
+		1F9CA5F01CE0FD2800F53C03 /* SBCollectionViewTableCellSeparatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBCollectionViewTableCellSeparatorView.h; sourceTree = "<group>"; };
+		1F9CA5F11CE0FD2800F53C03 /* SBCollectionViewTableCellSeparatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBCollectionViewTableCellSeparatorView.m; sourceTree = "<group>"; };
+		1F9CA5F21CE0FD2800F53C03 /* SBCollectionViewTableLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBCollectionViewTableLayout.h; sourceTree = "<group>"; };
+		1F9CA5F31CE0FD2800F53C03 /* SBCollectionViewTableLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBCollectionViewTableLayout.m; sourceTree = "<group>"; };
+		1F9CA5F41CE0FD2800F53C03 /* SBCollectionViewTableLayoutAttributes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBCollectionViewTableLayoutAttributes.h; sourceTree = "<group>"; };
+		1F9CA5F51CE0FD2800F53C03 /* SBCollectionViewTableLayoutAttributes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBCollectionViewTableLayoutAttributes.m; sourceTree = "<group>"; };
+		1F9CA5F61CE0FD2800F53C03 /* SBCollectionViewTableSupplementaryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBCollectionViewTableSupplementaryView.h; sourceTree = "<group>"; };
+		1F9CA5F71CE0FD2800F53C03 /* SBCollectionViewTableSupplementaryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBCollectionViewTableSupplementaryView.m; sourceTree = "<group>"; };
+		1F9CA5F81CE0FD2800F53C03 /* UIColor+SBCollectionViewTableLayoutColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+SBCollectionViewTableLayoutColors.h"; sourceTree = "<group>"; };
+		1F9CA5F91CE0FD2800F53C03 /* UIColor+SBCollectionViewTableLayoutColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+SBCollectionViewTableLayoutColors.m"; sourceTree = "<group>"; };
+		1F9CA6011CE0FD5D00F53C03 /* SBTableLayoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBTableLayoutViewController.h; sourceTree = "<group>"; };
+		1F9CA6021CE0FD5D00F53C03 /* SBTableLayoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBTableLayoutViewController.m; sourceTree = "<group>"; };
+		1F9CA6031CE0FD5D00F53C03 /* SBTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBTableViewController.h; sourceTree = "<group>"; };
+		1F9CA6041CE0FD5D00F53C03 /* SBTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBTableViewController.m; sourceTree = "<group>"; };
 		1FBA96721CD9C79D00CA2387 /* XDVideoEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDVideoEditor.h; sourceTree = "<group>"; };
 		1FBA96731CD9C79D00CA2387 /* XDVideoEditor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDVideoEditor.m; sourceTree = "<group>"; };
 		1FBB72271AF9356D005B3F99 /* MulticastDelegateDemoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MulticastDelegateDemoVC.h; sourceTree = "<group>"; };
@@ -1055,6 +1079,36 @@
 			path = StateBroadcaster;
 			sourceTree = "<group>";
 		};
+		1F9CA5ED1CE0FD2800F53C03 /* SBTableLayout */ = {
+			isa = PBXGroup;
+			children = (
+				1F9CA5EE1CE0FD2800F53C03 /* SBCollectionViewTableCell.h */,
+				1F9CA5EF1CE0FD2800F53C03 /* SBCollectionViewTableCell.m */,
+				1F9CA5F01CE0FD2800F53C03 /* SBCollectionViewTableCellSeparatorView.h */,
+				1F9CA5F11CE0FD2800F53C03 /* SBCollectionViewTableCellSeparatorView.m */,
+				1F9CA5F21CE0FD2800F53C03 /* SBCollectionViewTableLayout.h */,
+				1F9CA5F31CE0FD2800F53C03 /* SBCollectionViewTableLayout.m */,
+				1F9CA5F41CE0FD2800F53C03 /* SBCollectionViewTableLayoutAttributes.h */,
+				1F9CA5F51CE0FD2800F53C03 /* SBCollectionViewTableLayoutAttributes.m */,
+				1F9CA5F61CE0FD2800F53C03 /* SBCollectionViewTableSupplementaryView.h */,
+				1F9CA5F71CE0FD2800F53C03 /* SBCollectionViewTableSupplementaryView.m */,
+				1F9CA5F81CE0FD2800F53C03 /* UIColor+SBCollectionViewTableLayoutColors.h */,
+				1F9CA5F91CE0FD2800F53C03 /* UIColor+SBCollectionViewTableLayoutColors.m */,
+			);
+			path = SBTableLayout;
+			sourceTree = "<group>";
+		};
+		1F9CA6001CE0FD5D00F53C03 /* SBTableLayoutDemo */ = {
+			isa = PBXGroup;
+			children = (
+				1F9CA6011CE0FD5D00F53C03 /* SBTableLayoutViewController.h */,
+				1F9CA6021CE0FD5D00F53C03 /* SBTableLayoutViewController.m */,
+				1F9CA6031CE0FD5D00F53C03 /* SBTableViewController.h */,
+				1F9CA6041CE0FD5D00F53C03 /* SBTableViewController.m */,
+			);
+			path = SBTableLayoutDemo;
+			sourceTree = "<group>";
+		};
 		1FBA96701CD9C78200CA2387 /* Media */ = {
 			isa = PBXGroup;
 			children = (
@@ -1148,6 +1202,7 @@
 			children = (
 				1FC8F5B51AF7DB2E00CA2AC0 /* ViewController.h */,
 				1FC8F5B61AF7DB2E00CA2AC0 /* ViewController.m */,
+				1F9CA6001CE0FD5D00F53C03 /* SBTableLayoutDemo */,
 				1FBB72271AF9356D005B3F99 /* MulticastDelegateDemoVC.h */,
 				1FBB72281AF9356D005B3F99 /* MulticastDelegateDemoVC.m */,
 			);
@@ -2425,6 +2480,7 @@
 		62D18E551BFB939E00401529 /* Venders */ = {
 			isa = PBXGroup;
 			children = (
+				1F9CA5ED1CE0FD2800F53C03 /* SBTableLayout */,
 				1F2946571CDF901F0091D0EB /* YRJSONAdapter */,
 				62D18E561BFB939E00401529 /* ProtocolKit */,
 			);
@@ -2611,6 +2667,8 @@
 				1FE3291C1BE924EA00626042 /* NSMutableString+Ruby.m in Sources */,
 				1FE329421BE924EA00626042 /* UIApplication+ApplicationSize.m in Sources */,
 				1FCFDD131CDC175400DC27F5 /* NSString+Tokenize.m in Sources */,
+				1F9CA5FB1CE0FD2800F53C03 /* SBCollectionViewTableCellSeparatorView.m in Sources */,
+				1F9CA5FA1CE0FD2800F53C03 /* SBCollectionViewTableCell.m in Sources */,
 				1FE329711BE924EA00626042 /* UIImageView+Letters.m in Sources */,
 				1F7A63201CBAC68300F34E25 /* XDMulticastDelegateBase.m in Sources */,
 				1FE328E81BE924EA00626042 /* NSPersistentStoreCoordinator+Custom.m in Sources */,
@@ -2632,6 +2690,7 @@
 				1FE329081BE924EA00626042 /* NSHTTPCookieStorage+FreezeDry.m in Sources */,
 				1FCFDD741CDC55EC00DC27F5 /* NSMutableIndexSet+BlocksKit.m in Sources */,
 				1FE3297F1BE924EA00626042 /* UINavigationItem+Lock.m in Sources */,
+				1F9CA5FF1CE0FD2800F53C03 /* UIColor+SBCollectionViewTableLayoutColors.m in Sources */,
 				1FE329791BE924EA00626042 /* UINavigationController+BATransitions.m in Sources */,
 				1FE329541BE924EA00626042 /* UIColor+Random.m in Sources */,
 				1F7A63131CBAB5BD00F34E25 /* NSNumber+XDCommonLib.m in Sources */,
@@ -2663,6 +2722,7 @@
 				1FE329051BE924EA00626042 /* NSException+Trace.m in Sources */,
 				1FE329771BE924EA00626042 /* UINavigationBar+Awesome.m in Sources */,
 				1FE3292A1BE924EA00626042 /* NSString+Size.m in Sources */,
+				1F9CA5FE1CE0FD2800F53C03 /* SBCollectionViewTableSupplementaryView.m in Sources */,
 				621239341C076F7F00D54017 /* XDLogUtils.m in Sources */,
 				1FE3291A1BE924EA00626042 /* NSRunLoop+PerformBlock.m in Sources */,
 				1FE3294F1BE924EA00626042 /* UIButton+Submitting.m in Sources */,
@@ -2680,14 +2740,17 @@
 				1FE328F21BE924EA00626042 /* NSData+Hash.m in Sources */,
 				1FE3298D1BE924EA00626042 /* UITableViewCell+NIB.m in Sources */,
 				1FCFDD901CDC55EC00DC27F5 /* UITextView+BlocksKit.m in Sources */,
+				1F9CA6061CE0FD5D00F53C03 /* SBTableViewController.m in Sources */,
 				1FE329341BE924EA00626042 /* NSMutableURLRequest+Upload.m in Sources */,
 				1FE329451BE924EA00626042 /* UIApplication+Permissions.m in Sources */,
 				1FE3297D1BE924EA00626042 /* UINavigationController+StackManager.m in Sources */,
 				1FE329751BE924EA00626042 /* UILabel+ESAdjustableLabel.m in Sources */,
 				1FE3294C1BE924EA00626042 /* UIButton+Block.m in Sources */,
+				1F9CA5FD1CE0FD2800F53C03 /* SBCollectionViewTableLayoutAttributes.m in Sources */,
 				1FE3295F1BE924EA00626042 /* UIImage+BetterFace.m in Sources */,
 				1FCFDD851CDC55EC00DC27F5 /* MFMessageComposeViewController+BlocksKit.m in Sources */,
 				1FE3291F1BE924EA00626042 /* NSString+DictionaryValue.m in Sources */,
+				1F9CA6051CE0FD5D00F53C03 /* SBTableLayoutViewController.m in Sources */,
 				1FCFDD801CDC55EC00DC27F5 /* NSCache+BlocksKit.m in Sources */,
 				1FCFDD8A1CDC55EC00DC27F5 /* UIControl+BlocksKit.m in Sources */,
 				1FE3298B1BE924EA00626042 /* UITableView+FDTemplateLayoutCell.m in Sources */,
@@ -2830,6 +2893,7 @@
 				1FE328F61BE924EA00626042 /* NSDate+Extension.m in Sources */,
 				1FE329251BE924EA00626042 /* NSString+Pinyin.m in Sources */,
 				1F9CA5EC1CE0FBAE00F53C03 /* DGStateBroadcaster.m in Sources */,
+				1F9CA5FC1CE0FD2800F53C03 /* SBCollectionViewTableLayout.m in Sources */,
 				1FE3293C1BE924EA00626042 /* CAAnimation+EasingEquations.m in Sources */,
 				1FE328F31BE924EA00626042 /* NSData+SDDataCache.m in Sources */,
 				1FCFDD7A1CDC55EC00DC27F5 /* NSObject+BKBlockObservation.m in Sources */,
