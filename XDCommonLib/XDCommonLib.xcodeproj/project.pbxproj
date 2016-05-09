@@ -31,7 +31,8 @@
 		1F9CA5DE1CE0F49300F53C03 /* camera@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F9CA5DA1CE0F49300F53C03 /* camera@2x.png */; };
 		1F9CA5DF1CE0F49300F53C03 /* shift@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F9CA5DB1CE0F49300F53C03 /* shift@2x.png */; };
 		1F9CA5E01CE0F49300F53C03 /* sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1F9CA5DC1CE0F49300F53C03 /* sound.mp3 */; };
-		1F9CA5E41CE0F8FA00F53C03 /* DGStateBroadcaster.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9CA5E31CE0F8FA00F53C03 /* DGStateBroadcaster.m */; };
+		1F9CA5EB1CE0FBAE00F53C03 /* DGBlockThrottle.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9CA5E71CE0FBAE00F53C03 /* DGBlockThrottle.m */; };
+		1F9CA5EC1CE0FBAE00F53C03 /* DGStateBroadcaster.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9CA5EA1CE0FBAE00F53C03 /* DGStateBroadcaster.m */; };
 		1FBA96741CD9C79D00CA2387 /* XDVideoEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBA96731CD9C79D00CA2387 /* XDVideoEditor.m */; };
 		1FBB72291AF9356D005B3F99 /* MulticastDelegateDemoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBB72281AF9356D005B3F99 /* MulticastDelegateDemoVC.m */; };
 		1FC8F5901AF7DA0D00CA2AC0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC8F58F1AF7DA0D00CA2AC0 /* main.m */; };
@@ -374,8 +375,10 @@
 		1F9CA5DA1CE0F49300F53C03 /* camera@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camera@2x.png"; sourceTree = "<group>"; };
 		1F9CA5DB1CE0F49300F53C03 /* shift@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shift@2x.png"; sourceTree = "<group>"; };
 		1F9CA5DC1CE0F49300F53C03 /* sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound.mp3; sourceTree = "<group>"; };
-		1F9CA5E21CE0F8FA00F53C03 /* DGStateBroadcaster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGStateBroadcaster.h; sourceTree = "<group>"; };
-		1F9CA5E31CE0F8FA00F53C03 /* DGStateBroadcaster.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGStateBroadcaster.m; sourceTree = "<group>"; };
+		1F9CA5E61CE0FBAE00F53C03 /* DGBlockThrottle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGBlockThrottle.h; sourceTree = "<group>"; };
+		1F9CA5E71CE0FBAE00F53C03 /* DGBlockThrottle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGBlockThrottle.m; sourceTree = "<group>"; };
+		1F9CA5E91CE0FBAE00F53C03 /* DGStateBroadcaster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGStateBroadcaster.h; sourceTree = "<group>"; };
+		1F9CA5EA1CE0FBAE00F53C03 /* DGStateBroadcaster.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGStateBroadcaster.m; sourceTree = "<group>"; };
 		1FBA96721CD9C79D00CA2387 /* XDVideoEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDVideoEditor.h; sourceTree = "<group>"; };
 		1FBA96731CD9C79D00CA2387 /* XDVideoEditor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDVideoEditor.m; sourceTree = "<group>"; };
 		1FBB72271AF9356D005B3F99 /* MulticastDelegateDemoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MulticastDelegateDemoVC.h; sourceTree = "<group>"; };
@@ -1034,11 +1037,20 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		1F9CA5E11CE0F8FA00F53C03 /* StateBroadcaster */ = {
+		1F9CA5E51CE0FBAE00F53C03 /* BlockThrottle */ = {
 			isa = PBXGroup;
 			children = (
-				1F9CA5E21CE0F8FA00F53C03 /* DGStateBroadcaster.h */,
-				1F9CA5E31CE0F8FA00F53C03 /* DGStateBroadcaster.m */,
+				1F9CA5E61CE0FBAE00F53C03 /* DGBlockThrottle.h */,
+				1F9CA5E71CE0FBAE00F53C03 /* DGBlockThrottle.m */,
+			);
+			path = BlockThrottle;
+			sourceTree = "<group>";
+		};
+		1F9CA5E81CE0FBAE00F53C03 /* StateBroadcaster */ = {
+			isa = PBXGroup;
+			children = (
+				1F9CA5E91CE0FBAE00F53C03 /* DGStateBroadcaster.h */,
+				1F9CA5EA1CE0FBAE00F53C03 /* DGStateBroadcaster.m */,
 			);
 			path = StateBroadcaster;
 			sourceTree = "<group>";
@@ -1145,7 +1157,6 @@
 		1FC8F5B81AF7DB4000CA2AC0 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				1F9CA5E11CE0F8FA00F53C03 /* StateBroadcaster */,
 				1F9CA5CA1CE0F13C00F53C03 /* AddressBook */,
 				1FBA96701CD9C78200CA2387 /* Media */,
 				621239281C06C79500D54017 /* XDSingleton.h */,
@@ -2381,6 +2392,8 @@
 		1FE329BB1BE9265200626042 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				1F9CA5E51CE0FBAE00F53C03 /* BlockThrottle */,
+				1F9CA5E81CE0FBAE00F53C03 /* StateBroadcaster */,
 				1FF4A8241CE0C446002FB7F0 /* XDAppVerisonUpdateObserver */,
 				1FCFDD141CDC55EC00DC27F5 /* BlocksKit */,
 				1F4EAEA81CBD560800F86189 /* XDUIKitMainThreadGuard */,
@@ -2803,6 +2816,7 @@
 				1FE3294E1BE924EA00626042 /* UIButton+Indicator.m in Sources */,
 				1FE329891BE924EA00626042 /* UISearchBar+Blocks.m in Sources */,
 				1FE329901BE924EA00626042 /* UITextField+Select.m in Sources */,
+				1F9CA5EB1CE0FBAE00F53C03 /* DGBlockThrottle.m in Sources */,
 				1FE329351BE924EA00626042 /* NSURLRequest+ParamsFromDictionary.m in Sources */,
 				1FE329811BE924EA00626042 /* UIPopoverController+iPhone.m in Sources */,
 				1FCFDD761CDC55EC00DC27F5 /* NSMutableSet+BlocksKit.m in Sources */,
@@ -2815,6 +2829,7 @@
 				621239271C06C60100D54017 /* XDDebugSystemControl.m in Sources */,
 				1FE328F61BE924EA00626042 /* NSDate+Extension.m in Sources */,
 				1FE329251BE924EA00626042 /* NSString+Pinyin.m in Sources */,
+				1F9CA5EC1CE0FBAE00F53C03 /* DGStateBroadcaster.m in Sources */,
 				1FE3293C1BE924EA00626042 /* CAAnimation+EasingEquations.m in Sources */,
 				1FE328F31BE924EA00626042 /* NSData+SDDataCache.m in Sources */,
 				1FCFDD7A1CDC55EC00DC27F5 /* NSObject+BKBlockObservation.m in Sources */,
@@ -2829,7 +2844,6 @@
 				1FE329B91BE924EA00626042 /* WebView+Debug.m in Sources */,
 				1F7A631A1CBAB6B600F34E25 /* NSProcessInfo+XDCommonLib.m in Sources */,
 				1FCFDD711CDC55EC00DC27F5 /* NSMapTable+BlocksKit.m in Sources */,
-				1F9CA5E41CE0F8FA00F53C03 /* DGStateBroadcaster.m in Sources */,
 				1FE328FC1BE924EA00626042 /* NSDate+Utils.m in Sources */,
 				1FE329231BE924EA00626042 /* NSString+Matcher.m in Sources */,
 				1FE329521BE924EA00626042 /* UIColor+HEX.m in Sources */,
