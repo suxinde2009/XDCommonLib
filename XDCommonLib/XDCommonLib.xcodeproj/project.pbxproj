@@ -297,6 +297,7 @@
 		1FE329BA1BE924EA00626042 /* UIWindow+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FE328E01BE924EA00626042 /* UIWindow+Hierarchy.m */; };
 		1FE329C11BE9265200626042 /* XDMulticastDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FE329BF1BE9265200626042 /* XDMulticastDelegate.m */; };
 		1FE329C31BE9271100626042 /* libz.1.1.3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FE329C21BE9271100626042 /* libz.1.1.3.tbd */; };
+		1FF4A8271CE0C446002FB7F0 /* XDAppVerisonUpdateObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF4A8261CE0C446002FB7F0 /* XDAppVerisonUpdateObserver.m */; };
 		620CA3261C26CFE40042D6BB /* XDFileMimeType.m in Sources */ = {isa = PBXBuildFile; fileRef = 620CA3251C26CFE40042D6BB /* XDFileMimeType.m */; };
 		620CA3281C26D0400042D6BB /* XDFileMimeType.plist in Resources */ = {isa = PBXBuildFile; fileRef = 620CA3271C26D0400042D6BB /* XDFileMimeType.plist */; };
 		621239241C06C59600D54017 /* UIView+DebugUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 621239231C06C59600D54017 /* UIView+DebugUtils.m */; };
@@ -902,6 +903,8 @@
 		1FE329BE1BE9265200626042 /* XDMulticastDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDMulticastDelegate.h; sourceTree = "<group>"; };
 		1FE329BF1BE9265200626042 /* XDMulticastDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDMulticastDelegate.m; sourceTree = "<group>"; };
 		1FE329C21BE9271100626042 /* libz.1.1.3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.1.3.tbd; path = usr/lib/libz.1.1.3.tbd; sourceTree = SDKROOT; };
+		1FF4A8251CE0C446002FB7F0 /* XDAppVerisonUpdateObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDAppVerisonUpdateObserver.h; sourceTree = "<group>"; };
+		1FF4A8261CE0C446002FB7F0 /* XDAppVerisonUpdateObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDAppVerisonUpdateObserver.m; sourceTree = "<group>"; };
 		620CA3241C26CFE40042D6BB /* XDFileMimeType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDFileMimeType.h; sourceTree = "<group>"; };
 		620CA3251C26CFE40042D6BB /* XDFileMimeType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDFileMimeType.m; sourceTree = "<group>"; };
 		620CA3271C26D0400042D6BB /* XDFileMimeType.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = XDFileMimeType.plist; sourceTree = "<group>"; };
@@ -2309,6 +2312,7 @@
 		1FE329BB1BE9265200626042 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				1FF4A8241CE0C446002FB7F0 /* XDAppVerisonUpdateObserver */,
 				1FCFDD141CDC55EC00DC27F5 /* BlocksKit */,
 				1F4EAEA81CBD560800F86189 /* XDUIKitMainThreadGuard */,
 				1FE329BD1BE9265200626042 /* XDMulticastDelegate */,
@@ -2325,6 +2329,15 @@
 				1F7A631F1CBAC68300F34E25 /* XDMulticastDelegateBase.m */,
 			);
 			path = XDMulticastDelegate;
+			sourceTree = "<group>";
+		};
+		1FF4A8241CE0C446002FB7F0 /* XDAppVerisonUpdateObserver */ = {
+			isa = PBXGroup;
+			children = (
+				1FF4A8251CE0C446002FB7F0 /* XDAppVerisonUpdateObserver.h */,
+				1FF4A8261CE0C446002FB7F0 /* XDAppVerisonUpdateObserver.m */,
+			);
+			path = XDAppVerisonUpdateObserver;
 			sourceTree = "<group>";
 		};
 		62D18E551BFB939E00401529 /* Venders */ = {
@@ -2698,6 +2711,7 @@
 				1FE329651BE924EA00626042 /* UIImage+GIF.m in Sources */,
 				1FE3299B1BE924EA00626042 /* UIView+Frame.m in Sources */,
 				1FE3292E1BE924EA00626042 /* NSString+UUID.m in Sources */,
+				1FF4A8271CE0C446002FB7F0 /* XDAppVerisonUpdateObserver.m in Sources */,
 				1FE3293A1BE924EA00626042 /* MKMapView+ZoomLevel.m in Sources */,
 				1FE329AA1BE924EA00626042 /* UIViewController+DDPopUpViewController.m in Sources */,
 				1FCFDD7E1CDC55EC00DC27F5 /* A2BlockInvocation.m in Sources */,
