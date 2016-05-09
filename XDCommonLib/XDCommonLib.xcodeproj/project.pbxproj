@@ -23,6 +23,9 @@
 		1F7A631A1CBAB6B600F34E25 /* NSProcessInfo+XDCommonLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7A63191CBAB6B600F34E25 /* NSProcessInfo+XDCommonLib.m */; };
 		1F7A631D1CBAB72E00F34E25 /* NSString+XDCommonLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7A631C1CBAB72E00F34E25 /* NSString+XDCommonLib.m */; };
 		1F7A63201CBAC68300F34E25 /* XDMulticastDelegateBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7A631F1CBAC68300F34E25 /* XDMulticastDelegateBase.m */; };
+		1F9CA5CD1CE0F15B00F53C03 /* XDContact.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9CA5CC1CE0F15B00F53C03 /* XDContact.m */; };
+		1F9CA5D01CE0F1B100F53C03 /* NSString+UnformattedPhoneNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9CA5CF1CE0F1B100F53C03 /* NSString+UnformattedPhoneNumber.m */; };
+		1F9CA5D31CE0F1E100F53C03 /* XDAddressBookManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9CA5D21CE0F1E100F53C03 /* XDAddressBookManager.m */; };
 		1FBA96741CD9C79D00CA2387 /* XDVideoEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBA96731CD9C79D00CA2387 /* XDVideoEditor.m */; };
 		1FBB72291AF9356D005B3F99 /* MulticastDelegateDemoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBB72281AF9356D005B3F99 /* MulticastDelegateDemoVC.m */; };
 		1FC8F5901AF7DA0D00CA2AC0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC8F58F1AF7DA0D00CA2AC0 /* main.m */; };
@@ -353,6 +356,12 @@
 		1F7A631C1CBAB72E00F34E25 /* NSString+XDCommonLib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+XDCommonLib.m"; sourceTree = "<group>"; };
 		1F7A631E1CBAC68300F34E25 /* XDMulticastDelegateBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDMulticastDelegateBase.h; sourceTree = "<group>"; };
 		1F7A631F1CBAC68300F34E25 /* XDMulticastDelegateBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDMulticastDelegateBase.m; sourceTree = "<group>"; };
+		1F9CA5CB1CE0F15B00F53C03 /* XDContact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDContact.h; sourceTree = "<group>"; };
+		1F9CA5CC1CE0F15B00F53C03 /* XDContact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDContact.m; sourceTree = "<group>"; };
+		1F9CA5CE1CE0F1B100F53C03 /* NSString+UnformattedPhoneNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+UnformattedPhoneNumber.h"; sourceTree = "<group>"; };
+		1F9CA5CF1CE0F1B100F53C03 /* NSString+UnformattedPhoneNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+UnformattedPhoneNumber.m"; sourceTree = "<group>"; };
+		1F9CA5D11CE0F1E100F53C03 /* XDAddressBookManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDAddressBookManager.h; sourceTree = "<group>"; };
+		1F9CA5D21CE0F1E100F53C03 /* XDAddressBookManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDAddressBookManager.m; sourceTree = "<group>"; };
 		1FBA96721CD9C79D00CA2387 /* XDVideoEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDVideoEditor.h; sourceTree = "<group>"; };
 		1FBA96731CD9C79D00CA2387 /* XDVideoEditor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDVideoEditor.m; sourceTree = "<group>"; };
 		1FBB72271AF9356D005B3F99 /* MulticastDelegateDemoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MulticastDelegateDemoVC.h; sourceTree = "<group>"; };
@@ -977,6 +986,19 @@
 			path = NSProgressInfo;
 			sourceTree = "<group>";
 		};
+		1F9CA5CA1CE0F13C00F53C03 /* AddressBook */ = {
+			isa = PBXGroup;
+			children = (
+				1F9CA5CB1CE0F15B00F53C03 /* XDContact.h */,
+				1F9CA5CC1CE0F15B00F53C03 /* XDContact.m */,
+				1F9CA5CE1CE0F1B100F53C03 /* NSString+UnformattedPhoneNumber.h */,
+				1F9CA5CF1CE0F1B100F53C03 /* NSString+UnformattedPhoneNumber.m */,
+				1F9CA5D11CE0F1E100F53C03 /* XDAddressBookManager.h */,
+				1F9CA5D21CE0F1E100F53C03 /* XDAddressBookManager.m */,
+			);
+			path = AddressBook;
+			sourceTree = "<group>";
+		};
 		1FBA96701CD9C78200CA2387 /* Media */ = {
 			isa = PBXGroup;
 			children = (
@@ -1078,6 +1100,7 @@
 		1FC8F5B81AF7DB4000CA2AC0 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				1F9CA5CA1CE0F13C00F53C03 /* AddressBook */,
 				1FBA96701CD9C78200CA2387 /* Media */,
 				621239281C06C79500D54017 /* XDSingleton.h */,
 				1FC8F5BA1AF7DBC500CA2AC0 /* XDPreCompile.h */,
@@ -2673,7 +2696,9 @@
 				1FCFDD6D1CDC55EC00DC27F5 /* NSArray+BlocksKit.m in Sources */,
 				1FE329691BE924EA00626042 /* UIImage+RemoteSize.m in Sources */,
 				1FE329831BE924EA00626042 /* UIResponder+FirstResponder.m in Sources */,
+				1F9CA5CD1CE0F15B00F53C03 /* XDContact.m in Sources */,
 				1FE3298E1BE924EA00626042 /* UITextField+Blocks.m in Sources */,
+				1F9CA5D31CE0F1E100F53C03 /* XDAddressBookManager.m in Sources */,
 				620CA3261C26CFE40042D6BB /* XDFileMimeType.m in Sources */,
 				1FCFDD701CDC55EC00DC27F5 /* NSInvocation+BlocksKit.m in Sources */,
 				1FE3295A1BE924EA00626042 /* UIFont+DynamicFontControl.m in Sources */,
@@ -2734,6 +2759,7 @@
 				1FCFDD811CDC55EC00DC27F5 /* NSURLConnection+BlocksKit.m in Sources */,
 				1FE329391BE924EA00626042 /* MKMapView+MoveLogo.m in Sources */,
 				1FE329701BE924EA00626042 /* UIImageView+GeometryConversion.m in Sources */,
+				1F9CA5D01CE0F1B100F53C03 /* NSString+UnformattedPhoneNumber.m in Sources */,
 				1FE3299E1BE924EA00626042 /* UIView+Recursion.m in Sources */,
 				621239271C06C60100D54017 /* XDDebugSystemControl.m in Sources */,
 				1FE328F61BE924EA00626042 /* NSDate+Extension.m in Sources */,
