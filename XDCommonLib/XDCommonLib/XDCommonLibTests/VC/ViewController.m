@@ -13,6 +13,7 @@
 #import "NSString+Tokenize.h"
 
 #import "XDCameraViewController.h"
+#import "XDCommandTestVC.h"
 
 static NSString *const SBTableLayoutTabVC = @"SBTableLayoutTabVC";
 
@@ -34,6 +35,7 @@ static NSString *const SBTableLayoutTabVC = @"SBTableLayoutTabVC";
     [mTestCases addObject:@"NSString+Tokenize"];
     [mTestCases addObject:@"自定义相机"];
     [mTestCases addObject:@"SBTableLayoutDemo"];
+    [mTestCases addObject:@"CommandBus Demo"];
 }
 
 
@@ -155,6 +157,9 @@ static NSString *const SBTableLayoutTabVC = @"SBTableLayoutTabVC";
         } break;
             
         case 6:{
+            
+            [self.navigationController pushViewController:[XDCommandTestVC new] animated:YES];
+            
             
         } break;
             

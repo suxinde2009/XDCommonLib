@@ -12,6 +12,9 @@
 		1F2946601CDFA9A60091D0EB /* NSObject+XD_KVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F29465F1CDFA9A60091D0EB /* NSObject+XD_KVO.m */; };
 		1F3FBAC91CE2C13E00091582 /* XDCommandBus.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3FBAC81CE2C13E00091582 /* XDCommandBus.m */; };
 		1F4EAEAB1CBD565F00F86189 /* XDUIKitMainThreadGuard.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4EAEAA1CBD565F00F86189 /* XDUIKitMainThreadGuard.m */; };
+		1F62A29D1CE2F28D0077B7D5 /* XDCommandTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F62A29C1CE2F28D0077B7D5 /* XDCommandTestVC.m */; };
+		1F62A2A11CE2F2A70077B7D5 /* LoginCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F62A2A01CE2F2A70077B7D5 /* LoginCommand.m */; };
+		1F62A2A41CE2F2B80077B7D5 /* LoginCommandHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F62A2A31CE2F2B80077B7D5 /* LoginCommandHandler.m */; };
 		1F7A62FE1CBAB1CE00F34E25 /* NSArray+XDCommonLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7A62FD1CBAB1CE00F34E25 /* NSArray+XDCommonLib.m */; };
 		1F7A63011CBAB27000F34E25 /* NSData+XDCommonLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7A63001CBAB27000F34E25 /* NSData+XDCommonLib.m */; };
 		1F7A63041CBAB2EF00F34E25 /* NSDate+XDCommonLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7A63031CBAB2EF00F34E25 /* NSDate+XDCommonLib.m */; };
@@ -350,6 +353,12 @@
 		1F3FBAC71CE2C13E00091582 /* XDCommandBus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDCommandBus.h; sourceTree = "<group>"; };
 		1F3FBAC81CE2C13E00091582 /* XDCommandBus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDCommandBus.m; sourceTree = "<group>"; };
 		1F4EAEAA1CBD565F00F86189 /* XDUIKitMainThreadGuard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDUIKitMainThreadGuard.m; sourceTree = "<group>"; };
+		1F62A29B1CE2F28D0077B7D5 /* XDCommandTestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDCommandTestVC.h; sourceTree = "<group>"; };
+		1F62A29C1CE2F28D0077B7D5 /* XDCommandTestVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDCommandTestVC.m; sourceTree = "<group>"; };
+		1F62A29F1CE2F2A70077B7D5 /* LoginCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginCommand.h; sourceTree = "<group>"; };
+		1F62A2A01CE2F2A70077B7D5 /* LoginCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginCommand.m; sourceTree = "<group>"; };
+		1F62A2A21CE2F2B80077B7D5 /* LoginCommandHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginCommandHandler.h; sourceTree = "<group>"; };
+		1F62A2A31CE2F2B80077B7D5 /* LoginCommandHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginCommandHandler.m; sourceTree = "<group>"; };
 		1F7A62FC1CBAB1CE00F34E25 /* NSArray+XDCommonLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+XDCommonLib.h"; sourceTree = "<group>"; };
 		1F7A62FD1CBAB1CE00F34E25 /* NSArray+XDCommonLib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+XDCommonLib.m"; sourceTree = "<group>"; };
 		1F7A62FF1CBAB27000F34E25 /* NSData+XDCommonLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+XDCommonLib.h"; sourceTree = "<group>"; };
@@ -1030,6 +1039,27 @@
 			path = XDUIKitMainThreadGuard;
 			sourceTree = "<group>";
 		};
+		1F62A29A1CE2F27C0077B7D5 /* CommandBusDemo */ = {
+			isa = PBXGroup;
+			children = (
+				1F62A29E1CE2F2970077B7D5 /* Command */,
+				1F62A29B1CE2F28D0077B7D5 /* XDCommandTestVC.h */,
+				1F62A29C1CE2F28D0077B7D5 /* XDCommandTestVC.m */,
+			);
+			path = CommandBusDemo;
+			sourceTree = "<group>";
+		};
+		1F62A29E1CE2F2970077B7D5 /* Command */ = {
+			isa = PBXGroup;
+			children = (
+				1F62A29F1CE2F2A70077B7D5 /* LoginCommand.h */,
+				1F62A2A01CE2F2A70077B7D5 /* LoginCommand.m */,
+				1F62A2A21CE2F2B80077B7D5 /* LoginCommandHandler.h */,
+				1F62A2A31CE2F2B80077B7D5 /* LoginCommandHandler.m */,
+			);
+			name = Command;
+			sourceTree = "<group>";
+		};
 		1F7A63171CBAB6A300F34E25 /* NSProgressInfo */ = {
 			isa = PBXGroup;
 			children = (
@@ -1214,6 +1244,7 @@
 			children = (
 				1FC8F5B51AF7DB2E00CA2AC0 /* ViewController.h */,
 				1FC8F5B61AF7DB2E00CA2AC0 /* ViewController.m */,
+				1F62A29A1CE2F27C0077B7D5 /* CommandBusDemo */,
 				1F9CA6001CE0FD5D00F53C03 /* SBTableLayoutDemo */,
 				1FBB72271AF9356D005B3F99 /* MulticastDelegateDemoVC.h */,
 				1FBB72281AF9356D005B3F99 /* MulticastDelegateDemoVC.m */,
@@ -2661,6 +2692,7 @@
 				1FE329491BE924EA00626042 /* UIBezierPath+SVG.m in Sources */,
 				1FE3294D1BE924EA00626042 /* UIButton+CountDown.m in Sources */,
 				1FE329601BE924EA00626042 /* UIImage+Blur.m in Sources */,
+				1F62A2A41CE2F2B80077B7D5 /* LoginCommandHandler.m in Sources */,
 				1FE329261BE924EA00626042 /* NSString+RegexCategory.m in Sources */,
 				1FE329531BE924EA00626042 /* UIColor+Modify.m in Sources */,
 				1FE3294B1BE924EA00626042 /* UIButton+BackgroundColor.m in Sources */,
@@ -2816,6 +2848,7 @@
 				1FE328E31BE924EA00626042 /* NSManagedObject+Extensions.m in Sources */,
 				1FE329801BE924EA00626042 /* UINavigationItem+Margin.m in Sources */,
 				1FE328FA1BE924EA00626042 /* NSDate+TimeAgo.m in Sources */,
+				1F62A2A11CE2F2A70077B7D5 /* LoginCommand.m in Sources */,
 				1FE329021BE924EA00626042 /* NSDictionary+SafeAccess.m in Sources */,
 				1FCFDD8C1CDC55EC00DC27F5 /* UIImage+BlocksKit.m in Sources */,
 				1FE329961BE924EA00626042 /* UIView+BlockGesture.m in Sources */,
@@ -2833,6 +2866,7 @@
 				1FE328F11BE924EA00626042 /* NSData+Gzip.m in Sources */,
 				1FCFDD751CDC55EC00DC27F5 /* NSMutableOrderedSet+BlocksKit.m in Sources */,
 				1FE3295E1BE924EA00626042 /* UIImage+animatedGIF.m in Sources */,
+				1F62A29D1CE2F28D0077B7D5 /* XDCommandTestVC.m in Sources */,
 				1FE329111BE924EA00626042 /* NSObject+AppInfo.m in Sources */,
 				1FCFDD6D1CDC55EC00DC27F5 /* NSArray+BlocksKit.m in Sources */,
 				1FE329691BE924EA00626042 /* UIImage+RemoteSize.m in Sources */,
