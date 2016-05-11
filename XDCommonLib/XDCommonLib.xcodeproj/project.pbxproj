@@ -10,6 +10,7 @@
 		1F29465A1CDF901F0091D0EB /* YRJSONAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2946591CDF901F0091D0EB /* YRJSONAdapter.m */; };
 		1F29465D1CDF91DB0091D0EB /* XDJSONAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F29465C1CDF91DB0091D0EB /* XDJSONAdapter.m */; };
 		1F2946601CDFA9A60091D0EB /* NSObject+XD_KVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F29465F1CDFA9A60091D0EB /* NSObject+XD_KVO.m */; };
+		1F3FBAC91CE2C13E00091582 /* XDCommandBus.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3FBAC81CE2C13E00091582 /* XDCommandBus.m */; };
 		1F4EAEAB1CBD565F00F86189 /* XDUIKitMainThreadGuard.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4EAEAA1CBD565F00F86189 /* XDUIKitMainThreadGuard.m */; };
 		1F7A62FE1CBAB1CE00F34E25 /* NSArray+XDCommonLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7A62FD1CBAB1CE00F34E25 /* NSArray+XDCommonLib.m */; };
 		1F7A63011CBAB27000F34E25 /* NSData+XDCommonLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7A63001CBAB27000F34E25 /* NSData+XDCommonLib.m */; };
@@ -346,6 +347,8 @@
 		1F29465C1CDF91DB0091D0EB /* XDJSONAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDJSONAdapter.m; sourceTree = "<group>"; };
 		1F29465E1CDFA9A60091D0EB /* NSObject+XD_KVO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+XD_KVO.h"; sourceTree = "<group>"; };
 		1F29465F1CDFA9A60091D0EB /* NSObject+XD_KVO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+XD_KVO.m"; sourceTree = "<group>"; };
+		1F3FBAC71CE2C13E00091582 /* XDCommandBus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDCommandBus.h; sourceTree = "<group>"; };
+		1F3FBAC81CE2C13E00091582 /* XDCommandBus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDCommandBus.m; sourceTree = "<group>"; };
 		1F4EAEAA1CBD565F00F86189 /* XDUIKitMainThreadGuard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDUIKitMainThreadGuard.m; sourceTree = "<group>"; };
 		1F7A62FC1CBAB1CE00F34E25 /* NSArray+XDCommonLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+XDCommonLib.h"; sourceTree = "<group>"; };
 		1F7A62FD1CBAB1CE00F34E25 /* NSArray+XDCommonLib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+XDCommonLib.m"; sourceTree = "<group>"; };
@@ -1008,6 +1011,15 @@
 				1F29465C1CDF91DB0091D0EB /* XDJSONAdapter.m */,
 			);
 			path = YRJSONAdapter;
+			sourceTree = "<group>";
+		};
+		1F3FBAC61CE2C12E00091582 /* CommandBus */ = {
+			isa = PBXGroup;
+			children = (
+				1F3FBAC71CE2C13E00091582 /* XDCommandBus.h */,
+				1F3FBAC81CE2C13E00091582 /* XDCommandBus.m */,
+			);
+			path = CommandBus;
 			sourceTree = "<group>";
 		};
 		1F4EAEA81CBD560800F86189 /* XDUIKitMainThreadGuard */ = {
@@ -2447,6 +2459,7 @@
 		1FE329BB1BE9265200626042 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				1F3FBAC61CE2C12E00091582 /* CommandBus */,
 				1F9CA5E51CE0FBAE00F53C03 /* BlockThrottle */,
 				1F9CA5E81CE0FBAE00F53C03 /* StateBroadcaster */,
 				1FF4A8241CE0C446002FB7F0 /* XDAppVerisonUpdateObserver */,
@@ -2725,6 +2738,7 @@
 				1F9CA5FE1CE0FD2800F53C03 /* SBCollectionViewTableSupplementaryView.m in Sources */,
 				621239341C076F7F00D54017 /* XDLogUtils.m in Sources */,
 				1FE3291A1BE924EA00626042 /* NSRunLoop+PerformBlock.m in Sources */,
+				1F3FBAC91CE2C13E00091582 /* XDCommandBus.m in Sources */,
 				1FE3294F1BE924EA00626042 /* UIButton+Submitting.m in Sources */,
 				1FE329B81BE924EA00626042 /* UIWebVIew+SwipeGesture.m in Sources */,
 				1FE328E41BE924EA00626042 /* NSManagedObjectContext+Extensions.m in Sources */,
