@@ -57,7 +57,7 @@ static NSArray *ClassMethodNames(Class c)
 }
 
 
-static void XDPrintDescription(NSString *name, id obj)
+static NSString *XDPrintDescription(NSString *name, id obj)
 {
     NSString *str = [NSString stringWithFormat:
                      @"%@: %@\n\tNSObject class %s\n\tRuntime class %s\n\timplements methods <%@>\n\n",
@@ -67,6 +67,7 @@ static void XDPrintDescription(NSString *name, id obj)
                      class_getName(object_getClass(obj)),
                      [ClassMethodNames(object_getClass(obj)) componentsJoinedByString:@", "]];
     printf("%s\n", [str UTF8String]);
+    return str;
 }
 
 
@@ -249,6 +250,11 @@ static Class kvo_class(id self, SEL _cmd)
     
     free(methodList);
     return NO;
+}
+
+- (NSString *)debugDescription
+{
+    return XDPrintDescription(NSStringFromClass([self class]), self);
 }
 
 
