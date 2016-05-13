@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F1EF5441CE5B6E6003188A6 /* NSObject+XD_ClassesConformingToProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1EF5431CE5B6E6003188A6 /* NSObject+XD_ClassesConformingToProtocol.m */; };
 		1F29465A1CDF901F0091D0EB /* YRJSONAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2946591CDF901F0091D0EB /* YRJSONAdapter.m */; };
 		1F29465D1CDF91DB0091D0EB /* XDJSONAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F29465C1CDF91DB0091D0EB /* XDJSONAdapter.m */; };
 		1F2946601CDFA9A60091D0EB /* NSObject+XD_KVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F29465F1CDFA9A60091D0EB /* NSObject+XD_KVO.m */; };
@@ -344,6 +345,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F1EF5421CE5B6E6003188A6 /* NSObject+XD_ClassesConformingToProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+XD_ClassesConformingToProtocol.h"; sourceTree = "<group>"; };
+		1F1EF5431CE5B6E6003188A6 /* NSObject+XD_ClassesConformingToProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+XD_ClassesConformingToProtocol.m"; sourceTree = "<group>"; };
 		1F2946581CDF901F0091D0EB /* YRJSONAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRJSONAdapter.h; sourceTree = "<group>"; };
 		1F2946591CDF901F0091D0EB /* YRJSONAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRJSONAdapter.m; sourceTree = "<group>"; };
 		1F29465B1CDF91DB0091D0EB /* XDJSONAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDJSONAdapter.h; sourceTree = "<group>"; };
@@ -1803,6 +1806,8 @@
 				1F7A63151CBAB64600F34E25 /* NSObject+XDCommonLib.m */,
 				1F29465E1CDFA9A60091D0EB /* NSObject+XD_KVO.h */,
 				1F29465F1CDFA9A60091D0EB /* NSObject+XD_KVO.m */,
+				1F1EF5421CE5B6E6003188A6 /* NSObject+XD_ClassesConformingToProtocol.h */,
+				1F1EF5431CE5B6E6003188A6 /* NSObject+XD_ClassesConformingToProtocol.m */,
 			);
 			path = NSObject;
 			sourceTree = "<group>";
@@ -2852,6 +2857,7 @@
 				1FE329021BE924EA00626042 /* NSDictionary+SafeAccess.m in Sources */,
 				1FCFDD8C1CDC55EC00DC27F5 /* UIImage+BlocksKit.m in Sources */,
 				1FE329961BE924EA00626042 /* UIView+BlockGesture.m in Sources */,
+				1F1EF5441CE5B6E6003188A6 /* NSObject+XD_ClassesConformingToProtocol.m in Sources */,
 				1FCFDD881CDC55EC00DC27F5 /* UIAlertView+BlocksKit.m in Sources */,
 				1FE329311BE924EA00626042 /* NSTimer+Blocks.m in Sources */,
 				1FE329061BE924EA00626042 /* NSFileHandle+readLine.m in Sources */,
