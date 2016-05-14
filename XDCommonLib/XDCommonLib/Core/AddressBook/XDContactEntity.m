@@ -6,8 +6,8 @@
 //  Copyright © 2016年 su xinde. All rights reserved.
 //
 
-#import "XDContact.h"
+#import "XDContactEntity.h"
 
-@implementation XDContact
+@implementation XDContactEntity
 
 @end

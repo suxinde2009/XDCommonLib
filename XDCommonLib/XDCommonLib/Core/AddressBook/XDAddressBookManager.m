@@ -8,7 +8,7 @@
 
 #import "XDAddressBookManager.h"
 #import <AddressBook/AddressBook.h>
-#import "XDContact.h"
+#import "XDContactEntity.h"
 #import "NSString+UnformattedPhoneNumber.h"
 
 @implementation XDAddressBookManager
@@ -40,7 +40,7 @@
             
             for (id person in allPeople) {
                 @autoreleasepool {
-                    XDContact *contact = [XDContact new];
+                    XDContactEntity *contact = [XDContactEntity new];
                     
                     // Get the name of the contact
                     NSString *firstName = (__bridge_transfer NSString*)ABRecordCopyValue((__bridge ABRecordRef)(person), kABPersonFirstNameProperty) ?: @"";
@@ -92,25 +92,25 @@
     return contacts;
 }
 
-+ (XDContact *)findContactWithPhoneNumber:(NSString *)phoneNumber
++ (XDContactEntity *)findContactWithPhoneNumber:(NSString *)phoneNumber
 {
     NSArray *contacts = [XDAddressBookManager allContactsFromAddressBook];
     
     NSPredicate *predicate = [NSPredicate predicateWithFormat:@"numbers contains %@", phoneNumber];
     NSArray *filteredArray = [contacts filteredArrayUsingPredicate:predicate];
     
-    XDContact *matchedContact = filteredArray.lastObject;
+    XDContactEntity *matchedContact = filteredArray.lastObject;
     return matchedContact;
 }
 
-+ (XDContact *)findContactWithEmailAddress:(NSString *)emailAddress
++ (XDContactEntity *)findContactWithEmailAddress:(NSString *)emailAddress
 {
     NSArray *contacts = [XDAddressBookManager allContactsFromAddressBook];
     
     NSPredicate *predicate = [NSPredicate predicateWithFormat:@"emails contains %@", emailAddress];
     NSArray *filteredArray = [contacts filteredArrayUsingPredicate:predicate];
     
-    XDContact *matchedContact = filteredArray.lastObject;
+    XDContactEntity *matchedContact = filteredArray.lastObject;
     return matchedContact;
 }
 
@@ -129,5 +129,17 @@
     return [XDAddressBookManager findContactWithEmailAddress:emailAddress].name;
 }
 
+/**
+ *  Get photo of contact with specific email address.
+ *
+ *  @param emailAddress Email address for the contact.
+ *
+ *  @return Photo of contact.
+ */
++ (UIImage *)photoForContactWithEmailAddress:(NSString *)emailAddress
+{
+    // TODO: to implement
+    return nil;
+}
 
 @end

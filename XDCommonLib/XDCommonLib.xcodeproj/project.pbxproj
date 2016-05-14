@@ -28,7 +28,7 @@
 		1F7A631A1CBAB6B600F34E25 /* NSProcessInfo+XDCommonLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7A63191CBAB6B600F34E25 /* NSProcessInfo+XDCommonLib.m */; };
 		1F7A631D1CBAB72E00F34E25 /* NSString+XDCommonLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7A631C1CBAB72E00F34E25 /* NSString+XDCommonLib.m */; };
 		1F7A63201CBAC68300F34E25 /* XDMulticastDelegateBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7A631F1CBAC68300F34E25 /* XDMulticastDelegateBase.m */; };
-		1F9CA5CD1CE0F15B00F53C03 /* XDContact.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9CA5CC1CE0F15B00F53C03 /* XDContact.m */; };
+		1F9CA5CD1CE0F15B00F53C03 /* XDContactEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9CA5CC1CE0F15B00F53C03 /* XDContactEntity.m */; };
 		1F9CA5D01CE0F1B100F53C03 /* NSString+UnformattedPhoneNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9CA5CF1CE0F1B100F53C03 /* NSString+UnformattedPhoneNumber.m */; };
 		1F9CA5D31CE0F1E100F53C03 /* XDAddressBookManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9CA5D21CE0F1E100F53C03 /* XDAddressBookManager.m */; };
 		1F9CA5D71CE0F40500F53C03 /* XDCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9CA5D61CE0F40500F53C03 /* XDCameraViewController.m */; };
@@ -386,8 +386,8 @@
 		1F7A631C1CBAB72E00F34E25 /* NSString+XDCommonLib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+XDCommonLib.m"; sourceTree = "<group>"; };
 		1F7A631E1CBAC68300F34E25 /* XDMulticastDelegateBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDMulticastDelegateBase.h; sourceTree = "<group>"; };
 		1F7A631F1CBAC68300F34E25 /* XDMulticastDelegateBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDMulticastDelegateBase.m; sourceTree = "<group>"; };
-		1F9CA5CB1CE0F15B00F53C03 /* XDContact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDContact.h; sourceTree = "<group>"; };
-		1F9CA5CC1CE0F15B00F53C03 /* XDContact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDContact.m; sourceTree = "<group>"; };
+		1F9CA5CB1CE0F15B00F53C03 /* XDContactEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDContactEntity.h; sourceTree = "<group>"; };
+		1F9CA5CC1CE0F15B00F53C03 /* XDContactEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDContactEntity.m; sourceTree = "<group>"; };
 		1F9CA5CE1CE0F1B100F53C03 /* NSString+UnformattedPhoneNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+UnformattedPhoneNumber.h"; sourceTree = "<group>"; };
 		1F9CA5CF1CE0F1B100F53C03 /* NSString+UnformattedPhoneNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+UnformattedPhoneNumber.m"; sourceTree = "<group>"; };
 		1F9CA5D11CE0F1E100F53C03 /* XDAddressBookManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDAddressBookManager.h; sourceTree = "<group>"; };
@@ -1075,8 +1075,8 @@
 		1F9CA5CA1CE0F13C00F53C03 /* AddressBook */ = {
 			isa = PBXGroup;
 			children = (
-				1F9CA5CB1CE0F15B00F53C03 /* XDContact.h */,
-				1F9CA5CC1CE0F15B00F53C03 /* XDContact.m */,
+				1F9CA5CB1CE0F15B00F53C03 /* XDContactEntity.h */,
+				1F9CA5CC1CE0F15B00F53C03 /* XDContactEntity.m */,
 				1F9CA5CE1CE0F1B100F53C03 /* NSString+UnformattedPhoneNumber.h */,
 				1F9CA5CF1CE0F1B100F53C03 /* NSString+UnformattedPhoneNumber.m */,
 				1F9CA5D11CE0F1E100F53C03 /* XDAddressBookManager.h */,
@@ -2877,7 +2877,7 @@
 				1FCFDD6D1CDC55EC00DC27F5 /* NSArray+BlocksKit.m in Sources */,
 				1FE329691BE924EA00626042 /* UIImage+RemoteSize.m in Sources */,
 				1FE329831BE924EA00626042 /* UIResponder+FirstResponder.m in Sources */,
-				1F9CA5CD1CE0F15B00F53C03 /* XDContact.m in Sources */,
+				1F9CA5CD1CE0F15B00F53C03 /* XDContactEntity.m in Sources */,
 				1FE3298E1BE924EA00626042 /* UITextField+Blocks.m in Sources */,
 				1F9CA5D31CE0F1E100F53C03 /* XDAddressBookManager.m in Sources */,
 				620CA3261C26CFE40042D6BB /* XDFileMimeType.m in Sources */,
