@@ -29,6 +29,7 @@
 		1F7A631D1CBAB72E00F34E25 /* NSString+XDCommonLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7A631C1CBAB72E00F34E25 /* NSString+XDCommonLib.m */; };
 		1F7A63201CBAC68300F34E25 /* XDMulticastDelegateBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7A631F1CBAC68300F34E25 /* XDMulticastDelegateBase.m */; };
 		1F88825C1CEA579200E90DFC /* RSSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F88825B1CEA579200E90DFC /* RSSwizzle.m */; };
+		1F8882601CEA5BB400E90DFC /* XD_FFT.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F88825E1CEA5BB400E90DFC /* XD_FFT.c */; };
 		1F9CA5CD1CE0F15B00F53C03 /* XDContactEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9CA5CC1CE0F15B00F53C03 /* XDContactEntity.m */; };
 		1F9CA5D01CE0F1B100F53C03 /* NSString+UnformattedPhoneNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9CA5CF1CE0F1B100F53C03 /* NSString+UnformattedPhoneNumber.m */; };
 		1F9CA5D31CE0F1E100F53C03 /* XDAddressBookManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9CA5D21CE0F1E100F53C03 /* XDAddressBookManager.m */; };
@@ -389,6 +390,8 @@
 		1F7A631F1CBAC68300F34E25 /* XDMulticastDelegateBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDMulticastDelegateBase.m; sourceTree = "<group>"; };
 		1F88825A1CEA579200E90DFC /* RSSwizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSwizzle.h; sourceTree = "<group>"; };
 		1F88825B1CEA579200E90DFC /* RSSwizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSwizzle.m; sourceTree = "<group>"; };
+		1F88825E1CEA5BB400E90DFC /* XD_FFT.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = XD_FFT.c; sourceTree = "<group>"; };
+		1F88825F1CEA5BB400E90DFC /* XD_FFT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XD_FFT.h; sourceTree = "<group>"; };
 		1F9CA5CB1CE0F15B00F53C03 /* XDContactEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDContactEntity.h; sourceTree = "<group>"; };
 		1F9CA5CC1CE0F15B00F53C03 /* XDContactEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDContactEntity.m; sourceTree = "<group>"; };
 		1F9CA5CE1CE0F1B100F53C03 /* NSString+UnformattedPhoneNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+UnformattedPhoneNumber.h"; sourceTree = "<group>"; };
@@ -1082,6 +1085,15 @@
 				1F88825B1CEA579200E90DFC /* RSSwizzle.m */,
 			);
 			path = RSSwizzle;
+			sourceTree = "<group>";
+		};
+		1F88825D1CEA5B9E00E90DFC /* FFT */ = {
+			isa = PBXGroup;
+			children = (
+				1F88825E1CEA5BB400E90DFC /* XD_FFT.c */,
+				1F88825F1CEA5BB400E90DFC /* XD_FFT.h */,
+			);
+			path = FFT;
 			sourceTree = "<group>";
 		};
 		1F9CA5CA1CE0F13C00F53C03 /* AddressBook */ = {
@@ -2507,6 +2519,7 @@
 		1FE329BB1BE9265200626042 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				1F88825D1CEA5B9E00E90DFC /* FFT */,
 				1F3FBAC61CE2C12E00091582 /* CommandBus */,
 				1F9CA5E51CE0FBAE00F53C03 /* BlockThrottle */,
 				1F9CA5E81CE0FBAE00F53C03 /* StateBroadcaster */,
@@ -2883,6 +2896,7 @@
 				1FE329B71BE924EA00626042 /* UIWebView+Style.m in Sources */,
 				1FE329A21BE924EA00626042 /* UIView+Toast.m in Sources */,
 				1FE329911BE924EA00626042 /* UITextField+Shake.m in Sources */,
+				1F8882601CEA5BB400E90DFC /* XD_FFT.c in Sources */,
 				1FE328F11BE924EA00626042 /* NSData+Gzip.m in Sources */,
 				1FCFDD751CDC55EC00DC27F5 /* NSMutableOrderedSet+BlocksKit.m in Sources */,
 				1FE3295E1BE924EA00626042 /* UIImage+animatedGIF.m in Sources */,
