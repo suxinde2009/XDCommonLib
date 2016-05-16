@@ -28,6 +28,7 @@
 		1F7A631A1CBAB6B600F34E25 /* NSProcessInfo+XDCommonLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7A63191CBAB6B600F34E25 /* NSProcessInfo+XDCommonLib.m */; };
 		1F7A631D1CBAB72E00F34E25 /* NSString+XDCommonLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7A631C1CBAB72E00F34E25 /* NSString+XDCommonLib.m */; };
 		1F7A63201CBAC68300F34E25 /* XDMulticastDelegateBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7A631F1CBAC68300F34E25 /* XDMulticastDelegateBase.m */; };
+		1F88825C1CEA579200E90DFC /* RSSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F88825B1CEA579200E90DFC /* RSSwizzle.m */; };
 		1F9CA5CD1CE0F15B00F53C03 /* XDContactEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9CA5CC1CE0F15B00F53C03 /* XDContactEntity.m */; };
 		1F9CA5D01CE0F1B100F53C03 /* NSString+UnformattedPhoneNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9CA5CF1CE0F1B100F53C03 /* NSString+UnformattedPhoneNumber.m */; };
 		1F9CA5D31CE0F1E100F53C03 /* XDAddressBookManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9CA5D21CE0F1E100F53C03 /* XDAddressBookManager.m */; };
@@ -386,6 +387,8 @@
 		1F7A631C1CBAB72E00F34E25 /* NSString+XDCommonLib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+XDCommonLib.m"; sourceTree = "<group>"; };
 		1F7A631E1CBAC68300F34E25 /* XDMulticastDelegateBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDMulticastDelegateBase.h; sourceTree = "<group>"; };
 		1F7A631F1CBAC68300F34E25 /* XDMulticastDelegateBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDMulticastDelegateBase.m; sourceTree = "<group>"; };
+		1F88825A1CEA579200E90DFC /* RSSwizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSwizzle.h; sourceTree = "<group>"; };
+		1F88825B1CEA579200E90DFC /* RSSwizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSwizzle.m; sourceTree = "<group>"; };
 		1F9CA5CB1CE0F15B00F53C03 /* XDContactEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDContactEntity.h; sourceTree = "<group>"; };
 		1F9CA5CC1CE0F15B00F53C03 /* XDContactEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDContactEntity.m; sourceTree = "<group>"; };
 		1F9CA5CE1CE0F1B100F53C03 /* NSString+UnformattedPhoneNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+UnformattedPhoneNumber.h"; sourceTree = "<group>"; };
@@ -1070,6 +1073,15 @@
 				1F7A63191CBAB6B600F34E25 /* NSProcessInfo+XDCommonLib.m */,
 			);
 			path = NSProgressInfo;
+			sourceTree = "<group>";
+		};
+		1F8882591CEA579200E90DFC /* RSSwizzle */ = {
+			isa = PBXGroup;
+			children = (
+				1F88825A1CEA579200E90DFC /* RSSwizzle.h */,
+				1F88825B1CEA579200E90DFC /* RSSwizzle.m */,
+			);
+			path = RSSwizzle;
 			sourceTree = "<group>";
 		};
 		1F9CA5CA1CE0F13C00F53C03 /* AddressBook */ = {
@@ -2529,6 +2541,7 @@
 		62D18E551BFB939E00401529 /* Venders */ = {
 			isa = PBXGroup;
 			children = (
+				1F8882591CEA579200E90DFC /* RSSwizzle */,
 				1F9CA5ED1CE0FD2800F53C03 /* SBTableLayout */,
 				1F2946571CDF901F0091D0EB /* YRJSONAdapter */,
 				62D18E561BFB939E00401529 /* ProtocolKit */,
@@ -2852,6 +2865,7 @@
 				1F9CA5D71CE0F40500F53C03 /* XDCameraViewController.m in Sources */,
 				1FE328E31BE924EA00626042 /* NSManagedObject+Extensions.m in Sources */,
 				1FE329801BE924EA00626042 /* UINavigationItem+Margin.m in Sources */,
+				1F88825C1CEA579200E90DFC /* RSSwizzle.m in Sources */,
 				1FE328FA1BE924EA00626042 /* NSDate+TimeAgo.m in Sources */,
 				1F62A2A11CE2F2A70077B7D5 /* LoginCommand.m in Sources */,
 				1FE329021BE924EA00626042 /* NSDictionary+SafeAccess.m in Sources */,
