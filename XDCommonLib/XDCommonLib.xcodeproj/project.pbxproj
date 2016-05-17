@@ -12,6 +12,7 @@
 		1F29465D1CDF91DB0091D0EB /* XDJSONAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F29465C1CDF91DB0091D0EB /* XDJSONAdapter.m */; };
 		1F2946601CDFA9A60091D0EB /* NSObject+XD_KVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F29465F1CDFA9A60091D0EB /* NSObject+XD_KVO.m */; };
 		1F3FBAC91CE2C13E00091582 /* XDCommandBus.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3FBAC81CE2C13E00091582 /* XDCommandBus.m */; };
+		1F49D0E01CEAB7CA003FBBF0 /* NSObject+Abstract.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F49D0DF1CEAB7CA003FBBF0 /* NSObject+Abstract.m */; };
 		1F4EAEAB1CBD565F00F86189 /* XDUIKitMainThreadGuard.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4EAEAA1CBD565F00F86189 /* XDUIKitMainThreadGuard.m */; };
 		1F62A29D1CE2F28D0077B7D5 /* XDCommandTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F62A29C1CE2F28D0077B7D5 /* XDCommandTestVC.m */; };
 		1F62A2A11CE2F2A70077B7D5 /* LoginCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F62A2A01CE2F2A70077B7D5 /* LoginCommand.m */; };
@@ -357,6 +358,8 @@
 		1F29465F1CDFA9A60091D0EB /* NSObject+XD_KVO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+XD_KVO.m"; sourceTree = "<group>"; };
 		1F3FBAC71CE2C13E00091582 /* XDCommandBus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDCommandBus.h; sourceTree = "<group>"; };
 		1F3FBAC81CE2C13E00091582 /* XDCommandBus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDCommandBus.m; sourceTree = "<group>"; };
+		1F49D0DE1CEAB7CA003FBBF0 /* NSObject+Abstract.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Abstract.h"; sourceTree = "<group>"; };
+		1F49D0DF1CEAB7CA003FBBF0 /* NSObject+Abstract.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Abstract.m"; sourceTree = "<group>"; };
 		1F4EAEAA1CBD565F00F86189 /* XDUIKitMainThreadGuard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDUIKitMainThreadGuard.m; sourceTree = "<group>"; };
 		1F62A29B1CE2F28D0077B7D5 /* XDCommandTestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDCommandTestVC.h; sourceTree = "<group>"; };
 		1F62A29C1CE2F28D0077B7D5 /* XDCommandTestVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDCommandTestVC.m; sourceTree = "<group>"; };
@@ -1832,6 +1835,8 @@
 				1F29465F1CDFA9A60091D0EB /* NSObject+XD_KVO.m */,
 				1F1EF5421CE5B6E6003188A6 /* NSObject+XD_ClassesConformingToProtocol.h */,
 				1F1EF5431CE5B6E6003188A6 /* NSObject+XD_ClassesConformingToProtocol.m */,
+				1F49D0DE1CEAB7CA003FBBF0 /* NSObject+Abstract.h */,
+				1F49D0DF1CEAB7CA003FBBF0 /* NSObject+Abstract.m */,
 			);
 			path = NSObject;
 			sourceTree = "<group>";
@@ -2836,6 +2841,7 @@
 				1FE329461BE924EA00626042 /* UIBarButtonItem+Action.m in Sources */,
 				1FE329B31BE924EA00626042 /* UIWebView+Canvas.m in Sources */,
 				1FE328E11BE924EA00626042 /* NSFetchRequest+Extensions.m in Sources */,
+				1F49D0E01CEAB7CA003FBBF0 /* NSObject+Abstract.m in Sources */,
 				1FE3295C1BE924EA00626042 /* UIFont-TTF.m in Sources */,
 				1FE329AF1BE924EA00626042 /* UIViewController+TopBarMessage.m in Sources */,
 				1FE329A41BE924EA00626042 /* UIView+Visuals.m in Sources */,
