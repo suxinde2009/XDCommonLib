@@ -16,6 +16,7 @@
 		1F49D1091CECBF45003FBBF0 /* UIImage+UIGraphics.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F49D1081CECBF45003FBBF0 /* UIImage+UIGraphics.m */; };
 		1F49D10C1CECBFB2003FBBF0 /* UIColor+iOS7.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F49D10B1CECBFB2003FBBF0 /* UIColor+iOS7.m */; };
 		1F49D1101CECC70F003FBBF0 /* NSOperationQueue+Global.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F49D10F1CECC70F003FBBF0 /* NSOperationQueue+Global.m */; };
+		1F49D1131CECD09A003FBBF0 /* UIViewController+IB.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F49D1121CECD09A003FBBF0 /* UIViewController+IB.m */; };
 		1F4EAEAB1CBD565F00F86189 /* XDUIKitMainThreadGuard.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4EAEAA1CBD565F00F86189 /* XDUIKitMainThreadGuard.m */; };
 		1F62A29D1CE2F28D0077B7D5 /* XDCommandTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F62A29C1CE2F28D0077B7D5 /* XDCommandTestVC.m */; };
 		1F62A2A11CE2F2A70077B7D5 /* LoginCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F62A2A01CE2F2A70077B7D5 /* LoginCommand.m */; };
@@ -369,6 +370,8 @@
 		1F49D10B1CECBFB2003FBBF0 /* UIColor+iOS7.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+iOS7.m"; sourceTree = "<group>"; };
 		1F49D10E1CECC70F003FBBF0 /* NSOperationQueue+Global.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSOperationQueue+Global.h"; sourceTree = "<group>"; };
 		1F49D10F1CECC70F003FBBF0 /* NSOperationQueue+Global.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSOperationQueue+Global.m"; sourceTree = "<group>"; };
+		1F49D1111CECD09A003FBBF0 /* UIViewController+IB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+IB.h"; sourceTree = "<group>"; };
+		1F49D1121CECD09A003FBBF0 /* UIViewController+IB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+IB.m"; sourceTree = "<group>"; };
 		1F4EAEAA1CBD565F00F86189 /* XDUIKitMainThreadGuard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDUIKitMainThreadGuard.m; sourceTree = "<group>"; };
 		1F62A29B1CE2F28D0077B7D5 /* XDCommandTestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDCommandTestVC.h; sourceTree = "<group>"; };
 		1F62A29C1CE2F28D0077B7D5 /* XDCommandTestVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDCommandTestVC.m; sourceTree = "<group>"; };
@@ -2506,6 +2509,8 @@
 				1FE328C81BE924EA00626042 /* UIViewController+TopBarMessage.m */,
 				1FE328C91BE924EA00626042 /* UIViewController+Visible.h */,
 				1FE328CA1BE924EA00626042 /* UIViewController+Visible.m */,
+				1F49D1111CECD09A003FBBF0 /* UIViewController+IB.h */,
+				1F49D1121CECD09A003FBBF0 /* UIViewController+IB.m */,
 			);
 			path = UIViewController;
 			sourceTree = "<group>";
@@ -2846,6 +2851,7 @@
 				1FCFDD841CDC55EC00DC27F5 /* MFMailComposeViewController+BlocksKit.m in Sources */,
 				1FC8F5BD1AF7DCF000CA2AC0 /* XDPreCompile.m in Sources */,
 				1FE328F21BE924EA00626042 /* NSData+Hash.m in Sources */,
+				1F49D1131CECD09A003FBBF0 /* UIViewController+IB.m in Sources */,
 				1FE3298D1BE924EA00626042 /* UITableViewCell+NIB.m in Sources */,
 				1FCFDD901CDC55EC00DC27F5 /* UITextView+BlocksKit.m in Sources */,
 				1F9CA6061CE0FD5D00F53C03 /* SBTableViewController.m in Sources */,
