@@ -25,6 +25,7 @@
 		1F49D1251CECD64B003FBBF0 /* NSString+VersionUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F49D1241CECD64B003FBBF0 /* NSString+VersionUtil.m */; };
 		1F49D1281CECD6CA003FBBF0 /* NSString+URLUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F49D1271CECD6CA003FBBF0 /* NSString+URLUtilities.m */; };
 		1F49D12B1CECD7E2003FBBF0 /* XDCameraOrientationMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F49D12A1CECD7E2003FBBF0 /* XDCameraOrientationMonitor.m */; };
+		1F49D12F1CECE140003FBBF0 /* LunarCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F49D12E1CECE140003FBBF0 /* LunarCore.m */; };
 		1F4EAEAB1CBD565F00F86189 /* XDUIKitMainThreadGuard.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4EAEAA1CBD565F00F86189 /* XDUIKitMainThreadGuard.m */; };
 		1F62A29D1CE2F28D0077B7D5 /* XDCommandTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F62A29C1CE2F28D0077B7D5 /* XDCommandTestVC.m */; };
 		1F62A2A11CE2F2A70077B7D5 /* LoginCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F62A2A01CE2F2A70077B7D5 /* LoginCommand.m */; };
@@ -396,6 +397,8 @@
 		1F49D1271CECD6CA003FBBF0 /* NSString+URLUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+URLUtilities.m"; sourceTree = "<group>"; };
 		1F49D1291CECD7E2003FBBF0 /* XDCameraOrientationMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDCameraOrientationMonitor.h; sourceTree = "<group>"; };
 		1F49D12A1CECD7E2003FBBF0 /* XDCameraOrientationMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDCameraOrientationMonitor.m; sourceTree = "<group>"; };
+		1F49D12D1CECE140003FBBF0 /* LunarCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LunarCore.h; sourceTree = "<group>"; };
+		1F49D12E1CECE140003FBBF0 /* LunarCore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LunarCore.m; sourceTree = "<group>"; };
 		1F4EAEAA1CBD565F00F86189 /* XDUIKitMainThreadGuard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDUIKitMainThreadGuard.m; sourceTree = "<group>"; };
 		1F62A29B1CE2F28D0077B7D5 /* XDCommandTestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDCommandTestVC.h; sourceTree = "<group>"; };
 		1F62A29C1CE2F28D0077B7D5 /* XDCommandTestVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDCommandTestVC.m; sourceTree = "<group>"; };
@@ -1086,6 +1089,15 @@
 				1F49D10F1CECC70F003FBBF0 /* NSOperationQueue+Global.m */,
 			);
 			path = NSOperationQueue;
+			sourceTree = "<group>";
+		};
+		1F49D12C1CECE140003FBBF0 /* LunarCore */ = {
+			isa = PBXGroup;
+			children = (
+				1F49D12D1CECE140003FBBF0 /* LunarCore.h */,
+				1F49D12E1CECE140003FBBF0 /* LunarCore.m */,
+			);
+			path = LunarCore;
 			sourceTree = "<group>";
 		};
 		1F4EAEA81CBD560800F86189 /* XDUIKitMainThreadGuard */ = {
@@ -2586,6 +2598,7 @@
 		1FE329BB1BE9265200626042 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				1F49D12C1CECE140003FBBF0 /* LunarCore */,
 				1F88825D1CEA5B9E00E90DFC /* FFT */,
 				1F3FBAC61CE2C12E00091582 /* CommandBus */,
 				1F9CA5E51CE0FBAE00F53C03 /* BlockThrottle */,
@@ -2881,6 +2894,7 @@
 				1FE3294F1BE924EA00626042 /* UIButton+Submitting.m in Sources */,
 				1FE329B81BE924EA00626042 /* UIWebVIew+SwipeGesture.m in Sources */,
 				1FE328E41BE924EA00626042 /* NSManagedObjectContext+Extensions.m in Sources */,
+				1F49D12F1CECE140003FBBF0 /* LunarCore.m in Sources */,
 				1F49D10C1CECBFB2003FBBF0 /* UIColor+iOS7.m in Sources */,
 				1FCFDD861CDC55EC00DC27F5 /* QLPreviewController+BlocksKit.m in Sources */,
 				1F49D1101CECC70F003FBBF0 /* NSOperationQueue+Global.m in Sources */,

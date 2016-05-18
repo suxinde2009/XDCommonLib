@@ -15,6 +15,8 @@
 #import "XDCameraViewController.h"
 #import "XDCommandTestVC.h"
 
+#import "LunarCore.h"
+
 static NSString *const SBTableLayoutTabVC = @"SBTableLayoutTabVC";
 
 @interface ViewController ()
@@ -36,6 +38,7 @@ static NSString *const SBTableLayoutTabVC = @"SBTableLayoutTabVC";
     [mTestCases addObject:@"自定义相机"];
     [mTestCases addObject:@"SBTableLayoutDemo"];
     [mTestCases addObject:@"CommandBus Demo"];
+    [mTestCases addObject:@"农历测试"];
 }
 
 
@@ -164,6 +167,9 @@ static NSString *const SBTableLayoutTabVC = @"SBTableLayoutTabVC";
         } break;
             
         case 7:{
+            
+            NSDictionary *lunarCalendar = calendar(2016, 5);
+            NSLog(@"%@", lunarCalendar);
             
         } break;
             
