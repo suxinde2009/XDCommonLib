@@ -4,6 +4,7 @@
 // No warranty is expressed or implied.
 
 // Helper methods for adding an alpha layer to an image
+
 #import <UIKit/UIKit.h>
 
 @interface UIImage (Alpha)

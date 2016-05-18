@@ -13,6 +13,8 @@
 		1F2946601CDFA9A60091D0EB /* NSObject+XD_KVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F29465F1CDFA9A60091D0EB /* NSObject+XD_KVO.m */; };
 		1F3FBAC91CE2C13E00091582 /* XDCommandBus.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3FBAC81CE2C13E00091582 /* XDCommandBus.m */; };
 		1F49D0E01CEAB7CA003FBBF0 /* NSObject+Abstract.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F49D0DF1CEAB7CA003FBBF0 /* NSObject+Abstract.m */; };
+		1F49D1091CECBF45003FBBF0 /* UIImage+UIGraphics.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F49D1081CECBF45003FBBF0 /* UIImage+UIGraphics.m */; };
+		1F49D10C1CECBFB2003FBBF0 /* UIColor+iOS7.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F49D10B1CECBFB2003FBBF0 /* UIColor+iOS7.m */; };
 		1F4EAEAB1CBD565F00F86189 /* XDUIKitMainThreadGuard.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4EAEAA1CBD565F00F86189 /* XDUIKitMainThreadGuard.m */; };
 		1F62A29D1CE2F28D0077B7D5 /* XDCommandTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F62A29C1CE2F28D0077B7D5 /* XDCommandTestVC.m */; };
 		1F62A2A11CE2F2A70077B7D5 /* LoginCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F62A2A01CE2F2A70077B7D5 /* LoginCommand.m */; };
@@ -360,6 +362,10 @@
 		1F3FBAC81CE2C13E00091582 /* XDCommandBus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDCommandBus.m; sourceTree = "<group>"; };
 		1F49D0DE1CEAB7CA003FBBF0 /* NSObject+Abstract.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Abstract.h"; sourceTree = "<group>"; };
 		1F49D0DF1CEAB7CA003FBBF0 /* NSObject+Abstract.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Abstract.m"; sourceTree = "<group>"; };
+		1F49D1071CECBF45003FBBF0 /* UIImage+UIGraphics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+UIGraphics.h"; sourceTree = "<group>"; };
+		1F49D1081CECBF45003FBBF0 /* UIImage+UIGraphics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+UIGraphics.m"; sourceTree = "<group>"; };
+		1F49D10A1CECBFB2003FBBF0 /* UIColor+iOS7.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+iOS7.h"; sourceTree = "<group>"; };
+		1F49D10B1CECBFB2003FBBF0 /* UIColor+iOS7.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+iOS7.m"; sourceTree = "<group>"; };
 		1F4EAEAA1CBD565F00F86189 /* XDUIKitMainThreadGuard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDUIKitMainThreadGuard.m; sourceTree = "<group>"; };
 		1F62A29B1CE2F28D0077B7D5 /* XDCommandTestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDCommandTestVC.h; sourceTree = "<group>"; };
 		1F62A29C1CE2F28D0077B7D5 /* XDCommandTestVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDCommandTestVC.m; sourceTree = "<group>"; };
@@ -2226,6 +2232,10 @@
 				1FE3282F1BE924E900626042 /* UIImage+RoundedCorner.m */,
 				1FE328301BE924E900626042 /* UIImage+Vector.h */,
 				1FE328311BE924E900626042 /* UIImage+Vector.m */,
+				1F49D1071CECBF45003FBBF0 /* UIImage+UIGraphics.h */,
+				1F49D1081CECBF45003FBBF0 /* UIImage+UIGraphics.m */,
+				1F49D10A1CECBFB2003FBBF0 /* UIColor+iOS7.h */,
+				1F49D10B1CECBFB2003FBBF0 /* UIColor+iOS7.m */,
 			);
 			path = UIImage;
 			sourceTree = "<group>";
@@ -2733,6 +2743,7 @@
 				1FE329531BE924EA00626042 /* UIColor+Modify.m in Sources */,
 				1FE3294B1BE924EA00626042 /* UIButton+BackgroundColor.m in Sources */,
 				1FE329371BE924EA00626042 /* NSUserDefaults+SafeAccess.m in Sources */,
+				1F49D1091CECBF45003FBBF0 /* UIImage+UIGraphics.m in Sources */,
 				1FE329AD1BE924EA00626042 /* UIViewController+ScrollingStatusBar.m in Sources */,
 				1F7A62FE1CBAB1CE00F34E25 /* NSArray+XDCommonLib.m in Sources */,
 				1FE328F81BE924EA00626042 /* NSDate+InternetDateTime.m in Sources */,
@@ -2810,6 +2821,7 @@
 				1FE3294F1BE924EA00626042 /* UIButton+Submitting.m in Sources */,
 				1FE329B81BE924EA00626042 /* UIWebVIew+SwipeGesture.m in Sources */,
 				1FE328E41BE924EA00626042 /* NSManagedObjectContext+Extensions.m in Sources */,
+				1F49D10C1CECBFB2003FBBF0 /* UIColor+iOS7.m in Sources */,
 				1FCFDD861CDC55EC00DC27F5 /* QLPreviewController+BlocksKit.m in Sources */,
 				1FCFDD7F1CDC55EC00DC27F5 /* A2DynamicDelegate.m in Sources */,
 				1FE329151BE924EA00626042 /* NSObject+GCD.m in Sources */,
