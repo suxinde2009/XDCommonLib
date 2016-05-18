@@ -12,6 +12,11 @@
 #import "XDVideoEditor.h"
 #import "NSString+Tokenize.h"
 
+#import "XDCameraViewController.h"
+#import "XDCommandTestVC.h"
+
+static NSString *const SBTableLayoutTabVC = @"SBTableLayoutTabVC";
+
 @interface ViewController ()
 {
     NSMutableArray *mTestCases;
@@ -28,7 +33,9 @@
     [mTestCases addObject:@"测试非主线程刷新UI监测"];
     [mTestCases addObject:@"导出倒序播放的视频"];
     [mTestCases addObject:@"NSString+Tokenize"];
-    
+    [mTestCases addObject:@"自定义相机"];
+    [mTestCases addObject:@"SBTableLayoutDemo"];
+    [mTestCases addObject:@"CommandBus Demo"];
 }
 
 
@@ -137,13 +144,22 @@
             
         case 4:{
             
+            XDCameraViewController *cameraVC = [[XDCameraViewController alloc] init];
+            [self.navigationController pushViewController:cameraVC animated:YES];
+            
         } break;
             
         case 5:{
+            UIStoryboard *storyBoard = [UIStoryboard storyboardWithName:@"Main" bundle:[NSBundle mainBundle]];
+            UITabBarController *tabController = [storyBoard instantiateViewControllerWithIdentifier:@"SBTableLayoutTabVC"];
+            [self.navigationController pushViewController:tabController animated:YES];
             
         } break;
             
         case 6:{
+            
+            [self.navigationController pushViewController:[XDCommandTestVC new] animated:YES];
+            
             
         } break;
             

@@ -14,5 +14,6 @@
  *
  *  @return NSDictionary
  */
--(NSDictionary *) dictionaryValue;
+- (NSDictionary *) dictionaryValue;
+
 @end
