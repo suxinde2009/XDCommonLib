@@ -17,6 +17,14 @@
 		1F49D10C1CECBFB2003FBBF0 /* UIColor+iOS7.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F49D10B1CECBFB2003FBBF0 /* UIColor+iOS7.m */; };
 		1F49D1101CECC70F003FBBF0 /* NSOperationQueue+Global.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F49D10F1CECC70F003FBBF0 /* NSOperationQueue+Global.m */; };
 		1F49D1131CECD09A003FBBF0 /* UIViewController+IB.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F49D1121CECD09A003FBBF0 /* UIViewController+IB.m */; };
+		1F49D1161CECD1FB003FBBF0 /* UIView+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F49D1151CECD1FB003FBBF0 /* UIView+Snapshot.m */; };
+		1F49D1191CECD23F003FBBF0 /* CALayer+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F49D1181CECD23F003FBBF0 /* CALayer+Snapshot.m */; };
+		1F49D11C1CECD31F003FBBF0 /* NSDate+StarSign.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F49D11B1CECD31F003FBBF0 /* NSDate+StarSign.m */; };
+		1F49D11F1CECD3B1003FBBF0 /* XDNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F49D11E1CECD3B1003FBBF0 /* XDNetwork.m */; };
+		1F49D1221CECD430003FBBF0 /* XDAppLanguage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F49D1211CECD430003FBBF0 /* XDAppLanguage.m */; };
+		1F49D1251CECD64B003FBBF0 /* NSString+VersionUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F49D1241CECD64B003FBBF0 /* NSString+VersionUtil.m */; };
+		1F49D1281CECD6CA003FBBF0 /* NSString+URLUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F49D1271CECD6CA003FBBF0 /* NSString+URLUtilities.m */; };
+		1F49D12B1CECD7E2003FBBF0 /* XDCameraOrientationMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F49D12A1CECD7E2003FBBF0 /* XDCameraOrientationMonitor.m */; };
 		1F4EAEAB1CBD565F00F86189 /* XDUIKitMainThreadGuard.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4EAEAA1CBD565F00F86189 /* XDUIKitMainThreadGuard.m */; };
 		1F62A29D1CE2F28D0077B7D5 /* XDCommandTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F62A29C1CE2F28D0077B7D5 /* XDCommandTestVC.m */; };
 		1F62A2A11CE2F2A70077B7D5 /* LoginCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F62A2A01CE2F2A70077B7D5 /* LoginCommand.m */; };
@@ -372,6 +380,22 @@
 		1F49D10F1CECC70F003FBBF0 /* NSOperationQueue+Global.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSOperationQueue+Global.m"; sourceTree = "<group>"; };
 		1F49D1111CECD09A003FBBF0 /* UIViewController+IB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+IB.h"; sourceTree = "<group>"; };
 		1F49D1121CECD09A003FBBF0 /* UIViewController+IB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+IB.m"; sourceTree = "<group>"; };
+		1F49D1141CECD1FB003FBBF0 /* UIView+Snapshot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Snapshot.h"; sourceTree = "<group>"; };
+		1F49D1151CECD1FB003FBBF0 /* UIView+Snapshot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Snapshot.m"; sourceTree = "<group>"; };
+		1F49D1171CECD23F003FBBF0 /* CALayer+Snapshot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+Snapshot.h"; sourceTree = "<group>"; };
+		1F49D1181CECD23F003FBBF0 /* CALayer+Snapshot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+Snapshot.m"; sourceTree = "<group>"; };
+		1F49D11A1CECD31F003FBBF0 /* NSDate+StarSign.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+StarSign.h"; sourceTree = "<group>"; };
+		1F49D11B1CECD31F003FBBF0 /* NSDate+StarSign.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+StarSign.m"; sourceTree = "<group>"; };
+		1F49D11D1CECD3B1003FBBF0 /* XDNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDNetwork.h; sourceTree = "<group>"; };
+		1F49D11E1CECD3B1003FBBF0 /* XDNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDNetwork.m; sourceTree = "<group>"; };
+		1F49D1201CECD430003FBBF0 /* XDAppLanguage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDAppLanguage.h; sourceTree = "<group>"; };
+		1F49D1211CECD430003FBBF0 /* XDAppLanguage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDAppLanguage.m; sourceTree = "<group>"; };
+		1F49D1231CECD64A003FBBF0 /* NSString+VersionUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+VersionUtil.h"; sourceTree = "<group>"; };
+		1F49D1241CECD64B003FBBF0 /* NSString+VersionUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+VersionUtil.m"; sourceTree = "<group>"; };
+		1F49D1261CECD6CA003FBBF0 /* NSString+URLUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+URLUtilities.h"; sourceTree = "<group>"; };
+		1F49D1271CECD6CA003FBBF0 /* NSString+URLUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+URLUtilities.m"; sourceTree = "<group>"; };
+		1F49D1291CECD7E2003FBBF0 /* XDCameraOrientationMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDCameraOrientationMonitor.h; sourceTree = "<group>"; };
+		1F49D12A1CECD7E2003FBBF0 /* XDCameraOrientationMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDCameraOrientationMonitor.m; sourceTree = "<group>"; };
 		1F4EAEAA1CBD565F00F86189 /* XDUIKitMainThreadGuard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDUIKitMainThreadGuard.m; sourceTree = "<group>"; };
 		1F62A29B1CE2F28D0077B7D5 /* XDCommandTestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDCommandTestVC.h; sourceTree = "<group>"; };
 		1F62A29C1CE2F28D0077B7D5 /* XDCommandTestVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDCommandTestVC.m; sourceTree = "<group>"; };
@@ -1717,6 +1741,8 @@
 				1FE3272F1BE924E900626042 /* NSDateTimeAgo.bundle */,
 				1F7A63021CBAB2EF00F34E25 /* NSDate+XDCommonLib.h */,
 				1F7A63031CBAB2EF00F34E25 /* NSDate+XDCommonLib.m */,
+				1F49D11A1CECD31F003FBBF0 /* NSDate+StarSign.h */,
+				1F49D11B1CECD31F003FBBF0 /* NSDate+StarSign.m */,
 			);
 			path = NSDate;
 			sourceTree = "<group>";
@@ -1928,6 +1954,10 @@
 				1FE327A01BE924E900626042 /* NSString+XML.m */,
 				1F7A631B1CBAB72E00F34E25 /* NSString+XDCommonLib.h */,
 				1F7A631C1CBAB72E00F34E25 /* NSString+XDCommonLib.m */,
+				1F49D1231CECD64A003FBBF0 /* NSString+VersionUtil.h */,
+				1F49D1241CECD64B003FBBF0 /* NSString+VersionUtil.m */,
+				1F49D1261CECD6CA003FBBF0 /* NSString+URLUtilities.h */,
+				1F49D1271CECD6CA003FBBF0 /* NSString+URLUtilities.m */,
 			);
 			path = NSString;
 			sourceTree = "<group>";
@@ -2025,6 +2055,8 @@
 			children = (
 				1FE327C41BE924E900626042 /* CALayer+UIColor.h */,
 				1FE327C51BE924E900626042 /* CALayer+UIColor.m */,
+				1F49D1171CECD23F003FBBF0 /* CALayer+Snapshot.h */,
+				1F49D1181CECD23F003FBBF0 /* CALayer+Snapshot.m */,
 			);
 			path = CALayer;
 			sourceTree = "<group>";
@@ -2480,6 +2512,8 @@
 				1FE328B11BE924E900626042 /* UIView+Visuals.m */,
 				621239351C07744000D54017 /* UIView+Hierachy.h */,
 				621239361C07744000D54017 /* UIView+Hierachy.m */,
+				1F49D1141CECD1FB003FBBF0 /* UIView+Snapshot.h */,
+				1F49D1151CECD1FB003FBBF0 /* UIView+Snapshot.m */,
 			);
 			path = UIView;
 			sourceTree = "<group>";
@@ -2560,6 +2594,12 @@
 				1FCFDD141CDC55EC00DC27F5 /* BlocksKit */,
 				1F4EAEA81CBD560800F86189 /* XDUIKitMainThreadGuard */,
 				1FE329BD1BE9265200626042 /* XDMulticastDelegate */,
+				1F49D11D1CECD3B1003FBBF0 /* XDNetwork.h */,
+				1F49D11E1CECD3B1003FBBF0 /* XDNetwork.m */,
+				1F49D1201CECD430003FBBF0 /* XDAppLanguage.h */,
+				1F49D1211CECD430003FBBF0 /* XDAppLanguage.m */,
+				1F49D1291CECD7E2003FBBF0 /* XDCameraOrientationMonitor.h */,
+				1F49D12A1CECD7E2003FBBF0 /* XDCameraOrientationMonitor.m */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -2753,6 +2793,7 @@
 				1FE329BA1BE924EA00626042 /* UIWindow+Hierarchy.m in Sources */,
 				1FE329851BE924EA00626042 /* UIScreen+Frame.m in Sources */,
 				1FE329331BE924EA00626042 /* NSURL+QueryDictionary.m in Sources */,
+				1F49D1281CECD6CA003FBBF0 /* NSString+URLUtilities.m in Sources */,
 				1FE329491BE924EA00626042 /* UIBezierPath+SVG.m in Sources */,
 				1FE3294D1BE924EA00626042 /* UIButton+CountDown.m in Sources */,
 				1FE329601BE924EA00626042 /* UIImage+Blur.m in Sources */,
@@ -2795,6 +2836,7 @@
 				1FE3293D1BE924EA00626042 /* CALayer+UIColor.m in Sources */,
 				1F2946601CDFA9A60091D0EB /* NSObject+XD_KVO.m in Sources */,
 				1FCFDD921CDC55EC00DC27F5 /* UIWebView+BlocksKit.m in Sources */,
+				1F49D12B1CECD7E2003FBBF0 /* XDCameraOrientationMonitor.m in Sources */,
 				1FE27D711AF9C50000E54012 /* XDDebugUtils.m in Sources */,
 				1F7A631D1CBAB72E00F34E25 /* NSString+XDCommonLib.m in Sources */,
 				1FE329081BE924EA00626042 /* NSHTTPCookieStorage+FreezeDry.m in Sources */,
@@ -2846,6 +2888,7 @@
 				1FE329151BE924EA00626042 /* NSObject+GCD.m in Sources */,
 				1FE329441BE924EA00626042 /* UIApplication+NetworkActivityIndicator.m in Sources */,
 				1F29465A1CDF901F0091D0EB /* YRJSONAdapter.m in Sources */,
+				1F49D11F1CECD3B1003FBBF0 /* XDNetwork.m in Sources */,
 				1FE329861BE924EA00626042 /* UIScrollView+Addition.m in Sources */,
 				1FCFDD8E1CDC55EC00DC27F5 /* UIPopoverController+BlocksKit.m in Sources */,
 				1FCFDD841CDC55EC00DC27F5 /* MFMailComposeViewController+BlocksKit.m in Sources */,
@@ -2901,6 +2944,8 @@
 				1FE328E91BE924EA00626042 /* CLLocation+CH1903.m in Sources */,
 				1FE329B41BE924EA00626042 /* UIWebView+JS.m in Sources */,
 				1FE329971BE924EA00626042 /* UIView+Constraints.m in Sources */,
+				1F49D11C1CECD31F003FBBF0 /* NSDate+StarSign.m in Sources */,
+				1F49D1191CECD23F003FBBF0 /* CALayer+Snapshot.m in Sources */,
 				1FE3290A1BE924EA00626042 /* NSNotificationCenter+MainThread.m in Sources */,
 				1FE328F91BE924EA00626042 /* NSDate+Reporting.m in Sources */,
 				1FCFDD831CDC55EC00DC27F5 /* NSObject+A2DynamicDelegate.m in Sources */,
@@ -2961,6 +3006,7 @@
 				1FE329721BE924EA00626042 /* UIImageView+Reflect.m in Sources */,
 				1FCFDD871CDC55EC00DC27F5 /* UIActionSheet+BlocksKit.m in Sources */,
 				1FE3299A1BE924EA00626042 /* UIView+Find.m in Sources */,
+				1F49D1221CECD430003FBBF0 /* XDAppLanguage.m in Sources */,
 				1FE329241BE924EA00626042 /* NSString+MIME.m in Sources */,
 				1FE329221BE924EA00626042 /* NSString+Hash.m in Sources */,
 				1FC8F5901AF7DA0D00CA2AC0 /* main.m in Sources */,
@@ -3022,6 +3068,7 @@
 				1FE329211BE924EA00626042 /* NSString+Encrypt.m in Sources */,
 				1FE3292F1BE924EA00626042 /* NSString+XML.m in Sources */,
 				1FE329A81BE924EA00626042 /* UIViewController+BackButtonTouched.m in Sources */,
+				1F49D1161CECD1FB003FBBF0 /* UIView+Snapshot.m in Sources */,
 				1FE329101BE924EA00626042 /* NSObject+AddProperty.m in Sources */,
 				6212392B1C06C82100D54017 /* XDDebugStatusBar.m in Sources */,
 				1FE329C11BE9265200626042 /* XDMulticastDelegate.m in Sources */,
@@ -3035,6 +3082,7 @@
 				1FCFDD771CDC55EC00DC27F5 /* NSNumber+BlocksKit.m in Sources */,
 				1FE329161BE924EA00626042 /* NSObject+KVOBlocks.m in Sources */,
 				1FE3298C1BE924EA00626042 /* UITableView+iOS7Style.m in Sources */,
+				1F49D1251CECD64B003FBBF0 /* NSString+VersionUtil.m in Sources */,
 				1FE328FF1BE924EA00626042 /* NSDictionary+Block.m in Sources */,
 				1FE329041BE924EA00626042 /* NSDictionary+XML.m in Sources */,
 				1FE329AB1BE924EA00626042 /* UIViewController+MJPopupViewController.m in Sources */,

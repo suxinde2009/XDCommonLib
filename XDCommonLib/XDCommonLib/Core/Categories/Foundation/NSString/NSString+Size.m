@@ -9,6 +9,7 @@
 #import "NSString+Size.h"
 
 @implementation NSString (Size)
+
 /**
  *  @brief 计算文字的高度
  *
@@ -200,4 +201,5 @@
     }
     return reverseString;
 }
+
 @end

@@ -8,7 +8,9 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
+
 @interface NSString (Size)
+
 /**
  *  @brief 计算文字的高度
  *
@@ -16,6 +18,7 @@
  *  @param width 约束宽度
  */
 - (CGFloat)heightWithFont:(UIFont *)font constrainedToWidth:(CGFloat)width;
+
 /**
  *  @brief 计算文字的宽度
  *
@@ -31,6 +34,7 @@
  *  @param width 约束宽度
  */
 - (CGSize)sizeWithFont:(UIFont *)font constrainedToWidth:(CGFloat)width;
+
 /**
  *  @brief 计算文字的大小
  *
@@ -47,4 +51,5 @@
  *  @return 反转后字符串
  */
 + (NSString *)reverseString:(NSString *)strSrc;
+
 @end
