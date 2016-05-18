@@ -12,31 +12,31 @@
 /**
  *  @brief  暂停NSTimer
  */
--(void)pauseTimer
-{
+- (void)pauseTimer {
     if (![self isValid]) {
         return ;
     }
     [self setFireDate:[NSDate distantFuture]];
 }
+
 /**
  *  @brief  开始NSTimer
  */
--(void)resumeTimer
-{
+- (void)resumeTimer {
     if (![self isValid]) {
         return ;
     }
     [self setFireDate:[NSDate date]];
 }
+
 /**
  *  @brief  延迟开始NSTimer
  */
-- (void)resumeTimerAfterTimeInterval:(NSTimeInterval)interval
-{
+- (void)resumeTimerAfterTimeInterval:(NSTimeInterval)interval {
     if (![self isValid]) {
         return ;
     }
     [self setFireDate:[NSDate dateWithTimeIntervalSinceNow:interval]];
 }
+
 @end
