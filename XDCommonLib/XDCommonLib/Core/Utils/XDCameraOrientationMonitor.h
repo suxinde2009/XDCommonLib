@@ -11,6 +11,9 @@
 
 extern NSString *const kXDCameraOrientationMonitorDidChangeNotification;
 
+/**
+ *  摄像机朝向监听类
+ */
 @interface XDCameraOrientationMonitor : NSObject
 
 @property (readonly, nonatomic) UIDeviceOrientation orientation;
