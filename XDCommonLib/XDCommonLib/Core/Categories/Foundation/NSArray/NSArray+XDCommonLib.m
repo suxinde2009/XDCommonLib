@@ -50,7 +50,10 @@
         json = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
         return json;
     } else {
-        return error.localizedDescription;
+#if DEBUG
+        NSLog(@"%s: %@", __func__, error.localizedDescription);
+#endif
+        return nil;
     }
 }
 
