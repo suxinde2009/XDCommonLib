@@ -94,7 +94,9 @@ static char PermissionsLocationBlockFailurePropertyKey;
 
 -(kPermissionAccess)hasAccessToLocation {
     switch ([CLLocationManager authorizationStatus]) {
-        case kCLAuthorizationStatusAuthorized:
+            // 用宏区分开是否是iOS 8
+        case kCLAuthorizationStatusAuthorizedAlways:    
+        case kCLAuthorizationStatusAuthorizedWhenInUse:
             return kPermissionAccessGranted;
             break;
             
@@ -274,6 +276,7 @@ static char PermissionsLocationBlockFailurePropertyKey;
 
 #pragma mark - Location manager delegate
 - (void)locationManager:(CLLocationManager *)manager didChangeAuthorizationStatus:(CLAuthorizationStatus)status {
+    
     if (status == kCLAuthorizationStatusAuthorized) {
         self.locationSuccessCallbackProperty();
     } else if (status != kCLAuthorizationStatusNotDetermined) {

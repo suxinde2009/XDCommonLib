@@ -38,10 +38,10 @@
     NSCalendar *calendar = [NSCalendar currentCalendar];
     
 #if __IPHONE_OS_VERSION_MIN_REQUIRED >= __IPHONE_8_0
-    // NSDayCalendarUnit
+    // NSCalendarUnitDay
     NSDateComponents *dayComponents = [calendar components:(NSCalendarUnitDay) fromDate:date];
 #else
-    NSDateComponents *dayComponents = [calendar components:(NSDayCalendarUnit) fromDate:date];
+    NSDateComponents *dayComponents = [calendar components:(NSCalendarUnitDay) fromDate:date];
 #endif
     
     return [dayComponents day];
@@ -51,10 +51,10 @@
     NSCalendar *calendar = [NSCalendar currentCalendar];
     
 #if __IPHONE_OS_VERSION_MIN_REQUIRED >= __IPHONE_8_0
-    // NSDayCalendarUnit
+    // NSCalendarUnitDay
     NSDateComponents *dayComponents = [calendar components:(NSCalendarUnitMonth) fromDate:date];
 #else
-    NSDateComponents *dayComponents = [calendar components:(NSMonthCalendarUnit) fromDate:date];
+    NSDateComponents *dayComponents = [calendar components:(NSCalendarUnitMonth) fromDate:date];
 #endif
     
     return [dayComponents month];
@@ -64,10 +64,10 @@
     NSCalendar *calendar = [NSCalendar currentCalendar];
     
 #if __IPHONE_OS_VERSION_MIN_REQUIRED >= __IPHONE_8_0
-    // NSDayCalendarUnit
+    // NSCalendarUnitDay
     NSDateComponents *dayComponents = [calendar components:(NSCalendarUnitYear) fromDate:date];
 #else
-    NSDateComponents *dayComponents = [calendar components:(NSYearCalendarUnit) fromDate:date];
+    NSDateComponents *dayComponents = [calendar components:(NSCalendarUnitYear) fromDate:date];
 #endif
     
     return [dayComponents year];
@@ -77,10 +77,10 @@
     NSCalendar *calendar = [NSCalendar currentCalendar];
     
 #if __IPHONE_OS_VERSION_MIN_REQUIRED >= __IPHONE_8_0
-    // NSDayCalendarUnit
+    // NSCalendarUnitDay
     NSDateComponents *dayComponents = [calendar components:(NSCalendarUnitHour) fromDate:date];
 #else
-    NSDateComponents *dayComponents = [calendar components:(NSHourCalendarUnit) fromDate:date];
+    NSDateComponents *dayComponents = [calendar components:(NSCalendarUnitHour) fromDate:date];
 #endif
     
     return [dayComponents hour];
@@ -90,10 +90,10 @@
     NSCalendar *calendar = [NSCalendar currentCalendar];
     
 #if __IPHONE_OS_VERSION_MIN_REQUIRED >= __IPHONE_8_0
-    // NSDayCalendarUnit
+    // NSCalendarUnitDay
     NSDateComponents *dayComponents = [calendar components:(NSCalendarUnitMinute) fromDate:date];
 #else
-    NSDateComponents *dayComponents = [calendar components:(NSMinuteCalendarUnit) fromDate:date];
+    NSDateComponents *dayComponents = [calendar components:(NSCalendarUnitMinute) fromDate:date];
 #endif
     
     return [dayComponents minute];
@@ -103,10 +103,10 @@
     NSCalendar *calendar = [NSCalendar currentCalendar];
     
 #if __IPHONE_OS_VERSION_MIN_REQUIRED >= __IPHONE_8_0
-    // NSDayCalendarUnit
+    // NSCalendarUnitDay
     NSDateComponents *dayComponents = [calendar components:(NSCalendarUnitSecond) fromDate:date];
 #else
-    NSDateComponents *dayComponents = [calendar components:(NSSecondCalendarUnit) fromDate:date];
+    NSDateComponents *dayComponents = [calendar components:(NSCalendarUnitSecond) fromDate:date];
 #endif
     
     return [dayComponents second];
@@ -222,7 +222,7 @@
                                                  toDate:[NSDate date]
                                                 options:0];
 #else
-    NSDateComponents *components = [calendar components:(NSDayCalendarUnit)
+    NSDateComponents *components = [calendar components:(NSCalendarUnitDay)
                                                fromDate:date
                                                  toDate:[NSDate date]
                                                 options:0];
@@ -514,7 +514,7 @@
     }
     
 #if __IPHONE_OS_VERSION_MIN_REQUIRED >= __IPHONE_8_0
-    // NSDayCalendarUnit
+    // NSCalendarUnitDay
     NSCalendar *gregorian = [[NSCalendar alloc]
                              initWithCalendarIdentifier:NSCalendarIdentifierGregorian];
 #else
@@ -541,7 +541,7 @@
     }
     
 #if __IPHONE_OS_VERSION_MIN_REQUIRED >= __IPHONE_8_0
-    // NSDayCalendarUnit
+    // NSCalendarUnitDay
     NSCalendar *gregorian = [[NSCalendar alloc]
                              initWithCalendarIdentifier:NSCalendarIdentifierGregorian];
 #else
@@ -568,7 +568,7 @@
     }
     
 #if __IPHONE_OS_VERSION_MIN_REQUIRED >= __IPHONE_8_0
-    // NSDayCalendarUnit
+    // NSCalendarUnitDay
     NSCalendar *gregorian = [[NSCalendar alloc]
                              initWithCalendarIdentifier:NSCalendarIdentifierGregorian];
 #else
@@ -595,7 +595,7 @@
     }
     
 #if __IPHONE_OS_VERSION_MIN_REQUIRED >= __IPHONE_8_0
-    // NSDayCalendarUnit
+    // NSCalendarUnitDay
     NSCalendar *gregorian = [[NSCalendar alloc]
                              initWithCalendarIdentifier:NSCalendarIdentifierGregorian];
 #else
