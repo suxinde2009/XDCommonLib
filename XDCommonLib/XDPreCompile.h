@@ -40,7 +40,6 @@
 
 #import <mach/mach.h>
 #import <malloc/malloc.h>
-#import <libxml/tree.h>
 
 #import <ifaddrs.h>
 #import <arpa/inet.h>
