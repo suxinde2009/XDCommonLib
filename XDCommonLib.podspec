@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
 s.name         = "XDCommonLib"
-s.version      = "0.0.1.3"
+s.version      = "0.0.1.4"
 s.summary      = "XDCommonLib is a strong tool set for iOS rapid development."
 s.description  = <<-DESC
 XDCommonLib is a strong tool set for iOS rapid development.
@@ -13,7 +13,7 @@ s.license      = "MIT"
 s.author       = { "suxinde2009" => "suxinde2009@126.com" }
 
 
-s.source       = { :git => "https://github.com/suxinde2009/XDCommonLib.git", :tag => "0.0.1.3" }
+s.source       = { :git => "https://github.com/suxinde2009/XDCommonLib.git" }
 s.source_files  = "XDCommonLib", "XDCommonLib/**/*.{h,m}"
 s.public_header_files = "XDCommonLib/**/*.h"
 
