@@ -13,11 +13,11 @@ s.license      = "MIT"
 s.author       = { "suxinde2009" => "suxinde2009@126.com" }
 
 
-s.source       = { :git => "https://github.com/suxinde2009/XDCommonLib.git", :tag => "0.0.1" }
+s.source       = { :git => "https://github.com/suxinde2009/XDCommonLib.git", :tag => "0.0.1.2" }
 s.source_files  = "XDCommonLib", "XDCommonLib/**/*.{h,m}"
 s.public_header_files = "XDCommonLib/**/*.h"
 
-s.resources = ["XDCommonLib/**/*.{storyboard,bundle,xcassets,xcdatamodeld,xib,plist}"]
+s.resources = ["XDCommonLib/**/*.{storyboard,bundle,xcassets,xcdatamodeld,xib,plist}", "XDCommonLib/Licenses/**"]
 
 s.frameworks = "UIKit", "Foundation", "CoreFoundation"
 s.libraries = "z", "xml2"
