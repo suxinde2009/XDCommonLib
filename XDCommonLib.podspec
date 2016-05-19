@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
 s.name         = "XDCommonLib"
-s.version      = "0.0.2"
+s.version      = "0.0.1"
 s.summary      = "XDCommonLib is a strong tool set for iOS rapid development."
 s.description  = <<-DESC
 XDCommonLib is a strong tool set for iOS rapid development.
