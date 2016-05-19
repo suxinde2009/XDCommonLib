@@ -20,7 +20,7 @@ s.public_header_files = "XDCommonLib/**/*.h"
 s.resources = ["XDCommonLib/**/*.{storyboard,bundle,xcassets,xcdatamodeld,xib,plist}"]
 
 s.frameworks = "UIKit", "Foundation", "CoreFoundation"
-s.libraries = "libz", "xml2"
+#s.libraries = "libz", "xml2"
 
 s.requires_arc = true
 s.platform     = :ios, "7.0"
