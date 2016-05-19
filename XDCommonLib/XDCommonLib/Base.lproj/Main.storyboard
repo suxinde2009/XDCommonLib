@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="dTW-8F-43k">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="dTW-8F-43k">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -226,6 +226,64 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3UA-uJ-vW0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="642" y="334"/>
+        </scene>
+        <!--Image Beautify Util DemoVC-->
+        <scene sceneID="AOv-3Z-bJZ">
+            <objects>
+                <viewController storyboardIdentifier="XDImageBeautifyUtilDemoVC" id="Wx0-sM-ztU" customClass="XDImageBeautifyUtilDemoVC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="dGw-lE-2vO"/>
+                        <viewControllerLayoutGuide type="bottom" id="Pgg-cH-A9Z"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="yp6-QN-kDw">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CQ5-VA-pX9">
+                                <rect key="frame" x="0.0" y="380" width="320" height="48"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EFY-Sd-aQQ">
+                                        <rect key="frame" x="51" y="8" width="46" height="30"/>
+                                        <state key="normal" title="Button">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rni-cJ-fTb">
+                                        <rect key="frame" x="216" y="8" width="46" height="30"/>
+                                        <state key="normal" title="Button">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0202020202" green="0.0202020202" blue="0.0202020202" alpha="0.71999999999999997" colorSpace="calibratedRGB"/>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WHH-d6-cq4">
+                                <rect key="frame" x="0.0" y="60" width="320" height="320"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cxz-cz-692">
+                                <rect key="frame" x="0.0" y="428" width="320" height="140"/>
+                                <subviews>
+                                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QBg-JG-NT9">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="140"/>
+                                        <connections>
+                                            <outlet property="delegate" destination="Wx0-sM-ztU" id="2fE-ZG-5bk"/>
+                                        </connections>
+                                    </scrollView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.5" green="0.0" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="XjG-Ei-wyV"/>
+                    <connections>
+                        <outlet property="icon" destination="WHH-d6-cq4" id="gFh-fh-9nE"/>
+                        <outlet property="scrollVIew" destination="QBg-JG-NT9" id="WJq-I7-YMU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qqG-8O-M5R" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="257" y="1025"/>
         </scene>
     </scenes>
 </document>

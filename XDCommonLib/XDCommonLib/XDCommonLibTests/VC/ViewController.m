@@ -14,8 +14,10 @@
 
 #import "XDCameraViewController.h"
 #import "XDCommandTestVC.h"
-
+#import "XDImageBeautifyUtilDemoVC.h"
 #import "LunarCore.h"
+
+#import "UIViewController+IB.h"
 
 static NSString *const SBTableLayoutTabVC = @"SBTableLayoutTabVC";
 
@@ -39,6 +41,7 @@ static NSString *const SBTableLayoutTabVC = @"SBTableLayoutTabVC";
     [mTestCases addObject:@"SBTableLayoutDemo"];
     [mTestCases addObject:@"CommandBus Demo"];
     [mTestCases addObject:@"农历测试"];
+    [mTestCases addObject:@"简单的美化滤镜效果"];
 }
 
 
@@ -173,6 +176,12 @@ static NSString *const SBTableLayoutTabVC = @"SBTableLayoutTabVC";
             
         } break;
             
+        case 8:{
+            
+            XDImageBeautifyUtilDemoVC *vc = [XDImageBeautifyUtilDemoVC instanceFromIB];
+            [self.navigationController pushViewController:vc animated:YES];
+            
+        } break;
         default:
             break;
     }
