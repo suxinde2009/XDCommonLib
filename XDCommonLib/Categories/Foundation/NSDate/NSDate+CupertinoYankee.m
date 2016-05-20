@@ -54,7 +54,11 @@
     NSCalendar *calendar = [NSCalendar currentCalendar];
     
     NSDateComponents *components = [[NSDateComponents alloc] init];
+    
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wdeprecated-declarations"
     [components setWeek:1];
+#pragma clang diagnostic pop
     
     return [[calendar dateByAddingComponents:components toDate:[self beginningOfWeek] options:0] dateByAddingTimeInterval:-1];}
 

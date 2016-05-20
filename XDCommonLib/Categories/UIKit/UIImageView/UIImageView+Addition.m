@@ -31,7 +31,7 @@
 }
 + (id) imageViewWithImageArray:(NSArray *)imageArray duration:(NSTimeInterval)duration;
 {
-    if (imageArray && ![imageArray count]>0)
+    if (imageArray && [imageArray count])
     {
         return nil;
     }
@@ -83,8 +83,12 @@
     [color set];
     // const CGFloat *colorComponents = CGColorGetComponents([color CGColor]);
     // CGContextSetRGBFillColor(context, colorComponents[0], colorComponents[1], colorComponents [2], colorComponents[3]);
+    
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wdeprecated-declarations"
     //水印文字
     [markString drawInRect:rect withFont:font];
+#pragma clang diagnostic pop
     UIImage *newPic = UIGraphicsGetImageFromCurrentImageContext();
     UIGraphicsEndImageContext();
     self.image = newPic;
@@ -99,8 +103,13 @@
     [image drawInRect:self.bounds];
     //文字颜色
     [color set];
+    
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wdeprecated-declarations"
     //水印文字
     [markString drawAtPoint:point withFont:font];
+#pragma clang diagnostic pop 
+    
     UIImage *newPic = UIGraphicsGetImageFromCurrentImageContext();
     UIGraphicsEndImageContext();
     self.image = newPic;

@@ -183,7 +183,10 @@
     free(sampleBufferRefs);
     
     //[writer finishWritingWithCompletionHandler:^{}]; // 异步方法
+    #pragma clang diagnostic push
+    #pragma clang diagnostic ignored "-Wdeprecated-declarations" 
     [writer finishWriting]; // 同步方法
+    #pragma clang diagnostic pop
     return [AVAsset assetWithURL:outputURL];
 }
 

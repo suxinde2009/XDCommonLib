@@ -23,6 +23,6 @@ s.frameworks = "UIKit", "Foundation", "CoreFoundation"
 s.libraries = "z", "xml2"
 
 s.requires_arc = true
-s.platform     = :ios, "7.0"
+s.platform     = :ios, "8.0"
 
 end

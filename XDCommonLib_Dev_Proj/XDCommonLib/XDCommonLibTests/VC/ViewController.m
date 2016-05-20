@@ -97,8 +97,7 @@ static NSString *const SBTableLayoutTabVC = @"SBTableLayoutTabVC";
             
         case 2:{
             
-            BOOL isCancel = NO;
-            
+            BOOL *isCancel = NULL;
             
             NSString *sourceMoviePath = [[NSBundle mainBundle] pathForResource:@"test" ofType:@"mp4"];
             NSURL *sourceMovieURL = [NSURL fileURLWithPath:sourceMoviePath];
@@ -131,7 +130,7 @@ static NSString *const SBTableLayoutTabVC = @"SBTableLayoutTabVC";
                                               NSLog(@"%@", [NSString stringWithFormat:@"%@ %%",@(progress*100)]);
                                           });
                                           NSLog(@"%@",@(progress*100));
-                                      } cancel:&isCancel];
+                                      } cancel:isCancel];
             });
             
 
