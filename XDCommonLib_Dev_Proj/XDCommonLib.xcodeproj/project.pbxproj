@@ -344,6 +344,8 @@
 		1F9CA6051CE0FD5D00F53C03 /* SBTableLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9CA6021CE0FD5D00F53C03 /* SBTableLayoutViewController.m */; };
 		1F9CA6061CE0FD5D00F53C03 /* SBTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9CA6041CE0FD5D00F53C03 /* SBTableViewController.m */; };
 		1FA4D17F1CF0CFB3005AD187 /* NSFileManager+XD_Handy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA4D17E1CF0CFB3005AD187 /* NSFileManager+XD_Handy.m */; };
+		1FA4D1831CF0DAE5005AD187 /* XDFluxDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA4D1821CF0DAE5005AD187 /* XDFluxDispatcher.m */; };
+		1FA4D1871CF0DC19005AD187 /* XDFluxDispatcherDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA4D1861CF0DC19005AD187 /* XDFluxDispatcherDemo.m */; };
 		1FBB72291AF9356D005B3F99 /* MulticastDelegateDemoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBB72281AF9356D005B3F99 /* MulticastDelegateDemoVC.m */; };
 		1FC8F5901AF7DA0D00CA2AC0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC8F58F1AF7DA0D00CA2AC0 /* main.m */; };
 		1FC8F5931AF7DA0D00CA2AC0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC8F5921AF7DA0D00CA2AC0 /* AppDelegate.m */; };
@@ -1040,6 +1042,10 @@
 		1F9CA6041CE0FD5D00F53C03 /* SBTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBTableViewController.m; sourceTree = "<group>"; };
 		1FA4D17D1CF0CFB3005AD187 /* NSFileManager+XD_Handy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+XD_Handy.h"; sourceTree = "<group>"; };
 		1FA4D17E1CF0CFB3005AD187 /* NSFileManager+XD_Handy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+XD_Handy.m"; sourceTree = "<group>"; };
+		1FA4D1811CF0DAE5005AD187 /* XDFluxDispatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDFluxDispatcher.h; sourceTree = "<group>"; };
+		1FA4D1821CF0DAE5005AD187 /* XDFluxDispatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDFluxDispatcher.m; sourceTree = "<group>"; };
+		1FA4D1851CF0DC19005AD187 /* XDFluxDispatcherDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDFluxDispatcherDemo.h; sourceTree = "<group>"; };
+		1FA4D1861CF0DC19005AD187 /* XDFluxDispatcherDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDFluxDispatcherDemo.m; sourceTree = "<group>"; };
 		1FBB72271AF9356D005B3F99 /* MulticastDelegateDemoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MulticastDelegateDemoVC.h; sourceTree = "<group>"; };
 		1FBB72281AF9356D005B3F99 /* MulticastDelegateDemoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MulticastDelegateDemoVC.m; sourceTree = "<group>"; };
 		1FC8F58A1AF7DA0D00CA2AC0 /* XDCommonLib.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XDCommonLib.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -2568,6 +2574,7 @@
 		1F9A866A1CEE34DF0070CE07 /* Venders */ = {
 			isa = PBXGroup;
 			children = (
+				1FA4D1801CF0DAB0005AD187 /* FluxDispatcher */,
 				1FA4D17A1CF0BFCD005AD187 /* MotionDetector */,
 				1F9A866B1CEE34DF0070CE07 /* ProtocolKit */,
 				1F9A866F1CEE34DF0070CE07 /* RSSwizzle */,
@@ -2642,6 +2649,24 @@
 			children = (
 			);
 			path = MotionDetector;
+			sourceTree = "<group>";
+		};
+		1FA4D1801CF0DAB0005AD187 /* FluxDispatcher */ = {
+			isa = PBXGroup;
+			children = (
+				1FA4D1811CF0DAE5005AD187 /* XDFluxDispatcher.h */,
+				1FA4D1821CF0DAE5005AD187 /* XDFluxDispatcher.m */,
+			);
+			path = FluxDispatcher;
+			sourceTree = "<group>";
+		};
+		1FA4D1841CF0DC10005AD187 /* XDFluxDispatcherDemo */ = {
+			isa = PBXGroup;
+			children = (
+				1FA4D1851CF0DC19005AD187 /* XDFluxDispatcherDemo.h */,
+				1FA4D1861CF0DC19005AD187 /* XDFluxDispatcherDemo.m */,
+			);
+			path = XDFluxDispatcherDemo;
 			sourceTree = "<group>";
 		};
 		1FC8F5811AF7DA0D00CA2AC0 = {
@@ -2719,6 +2744,7 @@
 			children = (
 				1FC8F5B51AF7DB2E00CA2AC0 /* ViewController.h */,
 				1FC8F5B61AF7DB2E00CA2AC0 /* ViewController.m */,
+				1FA4D1841CF0DC10005AD187 /* XDFluxDispatcherDemo */,
 				1F49D1351CECE42B003FBBF0 /* XDImageBeautifyUtilDemo */,
 				1F62A29A1CE2F27C0077B7D5 /* CommandBusDemo */,
 				1F9CA6001CE0FD5D00F53C03 /* SBTableLayoutDemo */,
@@ -2939,6 +2965,7 @@
 				1F9A87661CEE34DF0070CE07 /* UIView+Snapshot.m in Sources */,
 				1F9A877F1CEE34DF0070CE07 /* WebView+Debug.m in Sources */,
 				1F9A87631CEE34DF0070CE07 /* UIView+RecursiveDescription.m in Sources */,
+				1FA4D1871CF0DC19005AD187 /* XDFluxDispatcherDemo.m in Sources */,
 				1F9A86AF1CEE34DF0070CE07 /* NSDictionary+Merge.m in Sources */,
 				1F9A86A21CEE34DF0070CE07 /* NSDate+Extension.m in Sources */,
 				1F9A86DF1CEE34DF0070CE07 /* NSString+RemoveEmoji.m in Sources */,
@@ -2999,6 +3026,7 @@
 				1F9A87A31CEE34DF0070CE07 /* NSMutableSet+BlocksKit.m in Sources */,
 				1F9A876B1CEE34DF0070CE07 /* UIViewController+BackButtonHandler.m in Sources */,
 				1F9A87951CEE34DF0070CE07 /* XDCameraViewController.m in Sources */,
+				1FA4D1831CF0DAE5005AD187 /* XDFluxDispatcher.m in Sources */,
 				1F9A87081CEE34DF0070CE07 /* UIBezierPath+LxThroughPointsBezier.m in Sources */,
 				1F9A869A1CEE34DF0070CE07 /* NSData+Base64.m in Sources */,
 				1F9A86C21CEE34DF0070CE07 /* NSObject+Abstract.m in Sources */,

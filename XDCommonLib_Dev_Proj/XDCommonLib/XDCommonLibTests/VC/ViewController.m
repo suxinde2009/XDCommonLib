@@ -18,6 +18,7 @@
 #import "LunarCore.h"
 
 #import "UIViewController+IB.h"
+#import "XDFluxDispatcherDemo.h"
 
 static NSString *const SBTableLayoutTabVC = @"SBTableLayoutTabVC";
 
@@ -42,6 +43,7 @@ static NSString *const SBTableLayoutTabVC = @"SBTableLayoutTabVC";
     [mTestCases addObject:@"CommandBus Demo"];
     [mTestCases addObject:@"农历测试"];
     [mTestCases addObject:@"简单的美化滤镜效果"];
+    [mTestCases addObject:@"XDFluxDispatcherDemo"];
 }
 
 
@@ -179,6 +181,11 @@ static NSString *const SBTableLayoutTabVC = @"SBTableLayoutTabVC";
             
             XDImageBeautifyUtilDemoVC *vc = [XDImageBeautifyUtilDemoVC instanceFromIB];
             [self.navigationController pushViewController:vc animated:YES];
+            
+        } break;
+        case 9:{
+            
+            [XDFluxDispatcherDemo test];
             
         } break;
         default:
