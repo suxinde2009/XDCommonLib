@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F09D1B41CF0E3D000399F64 /* UILabel+AutomaticWriting.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F09D1AD1CF0E3D000399F64 /* UILabel+AutomaticWriting.m */; };
+		1F09D1B51CF0E3D000399F64 /* UILabel+AutoSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F09D1AF1CF0E3D000399F64 /* UILabel+AutoSize.m */; };
+		1F09D1B61CF0E3D000399F64 /* UILabel+ESAdjustableLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F09D1B11CF0E3D000399F64 /* UILabel+ESAdjustableLabel.m */; };
+		1F09D1B71CF0E3D000399F64 /* UILabel+SuggestSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F09D1B31CF0E3D000399F64 /* UILabel+SuggestSize.m */; };
+		1F09D1FA1CF0E69E00399F64 /* ConstraintUtilities+Description.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F09D1E01CF0E69E00399F64 /* ConstraintUtilities+Description.m */; };
+		1F09D1FB1CF0E69E00399F64 /* ConstraintUtilities+Install.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F09D1E31CF0E69E00399F64 /* ConstraintUtilities+Install.m */; };
+		1F09D1FC1CF0E69E00399F64 /* ConstraintUtilities+Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F09D1E61CF0E69E00399F64 /* ConstraintUtilities+Layout.m */; };
+		1F09D1FD1CF0E69E00399F64 /* ConstraintUtilities+Matching.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F09D1EC1CF0E69E00399F64 /* ConstraintUtilities+Matching.m */; };
+		1F09D1FE1CF0E69E00399F64 /* NSObject-Description.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F09D1F21CF0E69E00399F64 /* NSObject-Description.m */; };
+		1F09D1FF1CF0E69E00399F64 /* NSObject-Nametag.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F09D1F41CF0E69E00399F64 /* NSObject-Nametag.m */; };
+		1F09D2001CF0E69E00399F64 /* NSView+BackgroundColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F09D1F71CF0E69E00399F64 /* NSView+BackgroundColor.m */; };
+		1F09D2011CF0E69E00399F64 /* View-Nametag.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F09D1F91CF0E69E00399F64 /* View-Nametag.m */; };
 		1F49D13A1CECE44D003FBBF0 /* ImageFilterItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F49D1381CECE44D003FBBF0 /* ImageFilterItem.m */; };
 		1F49D13B1CECE44D003FBBF0 /* ImageFilterItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F49D1391CECE44D003FBBF0 /* ImageFilterItem.xib */; };
 		1F49D13E1CECE502003FBBF0 /* Test2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F49D13D1CECE502003FBBF0 /* Test2.jpg */; };
@@ -189,10 +201,6 @@
 		1F9A87331CEE34DF0070CE07 /* UIImageView+GeometryConversion.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9A85131CEE34DE0070CE07 /* UIImageView+GeometryConversion.m */; };
 		1F9A87341CEE34DF0070CE07 /* UIImageView+Letters.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9A85151CEE34DE0070CE07 /* UIImageView+Letters.m */; };
 		1F9A87351CEE34DF0070CE07 /* UIImageView+Reflect.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9A85171CEE34DE0070CE07 /* UIImageView+Reflect.m */; };
-		1F9A87361CEE34DF0070CE07 /* UILabel+AutomaticWriting.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9A851A1CEE34DE0070CE07 /* UILabel+AutomaticWriting.m */; };
-		1F9A87371CEE34DF0070CE07 /* UILabel+AutoSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9A851C1CEE34DE0070CE07 /* UILabel+AutoSize.m */; };
-		1F9A87381CEE34DF0070CE07 /* UILabel+ESAdjustableLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9A851E1CEE34DE0070CE07 /* UILabel+ESAdjustableLabel.m */; };
-		1F9A87391CEE34DF0070CE07 /* UILabel+SuggestSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9A85201CEE34DE0070CE07 /* UILabel+SuggestSize.m */; };
 		1F9A873A1CEE34DF0070CE07 /* UINavigationBar+Awesome.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9A85231CEE34DE0070CE07 /* UINavigationBar+Awesome.m */; };
 		1F9A873B1CEE34DF0070CE07 /* UINavigationBar+CustomHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9A85251CEE34DE0070CE07 /* UINavigationBar+CustomHeight.m */; };
 		1F9A873C1CEE34DF0070CE07 /* UINavigationController+BATransitions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9A85281CEE34DE0070CE07 /* UINavigationController+BATransitions.m */; };
@@ -369,6 +377,34 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F09D1AC1CF0E3D000399F64 /* UILabel+AutomaticWriting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UILabel+AutomaticWriting.h"; path = "../UILabel/UILabel+AutomaticWriting.h"; sourceTree = "<group>"; };
+		1F09D1AD1CF0E3D000399F64 /* UILabel+AutomaticWriting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UILabel+AutomaticWriting.m"; path = "../UILabel/UILabel+AutomaticWriting.m"; sourceTree = "<group>"; };
+		1F09D1AE1CF0E3D000399F64 /* UILabel+AutoSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UILabel+AutoSize.h"; path = "../UILabel/UILabel+AutoSize.h"; sourceTree = "<group>"; };
+		1F09D1AF1CF0E3D000399F64 /* UILabel+AutoSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UILabel+AutoSize.m"; path = "../UILabel/UILabel+AutoSize.m"; sourceTree = "<group>"; };
+		1F09D1B01CF0E3D000399F64 /* UILabel+ESAdjustableLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UILabel+ESAdjustableLabel.h"; path = "../UILabel/UILabel+ESAdjustableLabel.h"; sourceTree = "<group>"; };
+		1F09D1B11CF0E3D000399F64 /* UILabel+ESAdjustableLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UILabel+ESAdjustableLabel.m"; path = "../UILabel/UILabel+ESAdjustableLabel.m"; sourceTree = "<group>"; };
+		1F09D1B21CF0E3D000399F64 /* UILabel+SuggestSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UILabel+SuggestSize.h"; path = "../UILabel/UILabel+SuggestSize.h"; sourceTree = "<group>"; };
+		1F09D1B31CF0E3D000399F64 /* UILabel+SuggestSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UILabel+SuggestSize.m"; path = "../UILabel/UILabel+SuggestSize.m"; sourceTree = "<group>"; };
+		1F09D1DF1CF0E69E00399F64 /* ConstraintUtilities+Description.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ConstraintUtilities+Description.h"; sourceTree = "<group>"; };
+		1F09D1E01CF0E69E00399F64 /* ConstraintUtilities+Description.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ConstraintUtilities+Description.m"; sourceTree = "<group>"; };
+		1F09D1E21CF0E69E00399F64 /* ConstraintUtilities+Install.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ConstraintUtilities+Install.h"; sourceTree = "<group>"; };
+		1F09D1E31CF0E69E00399F64 /* ConstraintUtilities+Install.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ConstraintUtilities+Install.m"; sourceTree = "<group>"; };
+		1F09D1E51CF0E69E00399F64 /* ConstraintUtilities+Layout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ConstraintUtilities+Layout.h"; sourceTree = "<group>"; };
+		1F09D1E61CF0E69E00399F64 /* ConstraintUtilities+Layout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ConstraintUtilities+Layout.m"; sourceTree = "<group>"; };
+		1F09D1E81CF0E69E00399F64 /* ConstraintUtilities+CreationMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ConstraintUtilities+CreationMacros.h"; sourceTree = "<group>"; };
+		1F09D1E91CF0E69E00399F64 /* ConstraintUtilities+Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ConstraintUtilities+Utility.h"; sourceTree = "<group>"; };
+		1F09D1EB1CF0E69E00399F64 /* ConstraintUtilities+Matching.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ConstraintUtilities+Matching.h"; sourceTree = "<group>"; };
+		1F09D1EC1CF0E69E00399F64 /* ConstraintUtilities+Matching.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ConstraintUtilities+Matching.m"; sourceTree = "<group>"; };
+		1F09D1ED1CF0E69E00399F64 /* ConstraintPack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConstraintPack.h; sourceTree = "<group>"; };
+		1F09D1EF1CF0E69E00399F64 /* NametagUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NametagUtilities.h; sourceTree = "<group>"; };
+		1F09D1F11CF0E69E00399F64 /* NSObject-Description.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject-Description.h"; sourceTree = "<group>"; };
+		1F09D1F21CF0E69E00399F64 /* NSObject-Description.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject-Description.m"; sourceTree = "<group>"; };
+		1F09D1F31CF0E69E00399F64 /* NSObject-Nametag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject-Nametag.h"; sourceTree = "<group>"; };
+		1F09D1F41CF0E69E00399F64 /* NSObject-Nametag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject-Nametag.m"; sourceTree = "<group>"; };
+		1F09D1F61CF0E69E00399F64 /* NSView+BackgroundColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSView+BackgroundColor.h"; sourceTree = "<group>"; };
+		1F09D1F71CF0E69E00399F64 /* NSView+BackgroundColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSView+BackgroundColor.m"; sourceTree = "<group>"; };
+		1F09D1F81CF0E69E00399F64 /* View-Nametag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View-Nametag.h"; sourceTree = "<group>"; };
+		1F09D1F91CF0E69E00399F64 /* View-Nametag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View-Nametag.m"; sourceTree = "<group>"; };
 		1F49D1371CECE44D003FBBF0 /* ImageFilterItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageFilterItem.h; sourceTree = "<group>"; };
 		1F49D1381CECE44D003FBBF0 /* ImageFilterItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageFilterItem.m; sourceTree = "<group>"; };
 		1F49D1391CECE44D003FBBF0 /* ImageFilterItem.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageFilterItem.xib; sourceTree = "<group>"; };
@@ -729,14 +765,6 @@
 		1F9A85151CEE34DE0070CE07 /* UIImageView+Letters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Letters.m"; sourceTree = "<group>"; };
 		1F9A85161CEE34DE0070CE07 /* UIImageView+Reflect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Reflect.h"; sourceTree = "<group>"; };
 		1F9A85171CEE34DE0070CE07 /* UIImageView+Reflect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Reflect.m"; sourceTree = "<group>"; };
-		1F9A85191CEE34DE0070CE07 /* UILabel+AutomaticWriting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+AutomaticWriting.h"; sourceTree = "<group>"; };
-		1F9A851A1CEE34DE0070CE07 /* UILabel+AutomaticWriting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+AutomaticWriting.m"; sourceTree = "<group>"; };
-		1F9A851B1CEE34DE0070CE07 /* UILabel+AutoSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+AutoSize.h"; sourceTree = "<group>"; };
-		1F9A851C1CEE34DE0070CE07 /* UILabel+AutoSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+AutoSize.m"; sourceTree = "<group>"; };
-		1F9A851D1CEE34DE0070CE07 /* UILabel+ESAdjustableLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+ESAdjustableLabel.h"; sourceTree = "<group>"; };
-		1F9A851E1CEE34DE0070CE07 /* UILabel+ESAdjustableLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+ESAdjustableLabel.m"; sourceTree = "<group>"; };
-		1F9A851F1CEE34DE0070CE07 /* UILabel+SuggestSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+SuggestSize.h"; sourceTree = "<group>"; };
-		1F9A85201CEE34DE0070CE07 /* UILabel+SuggestSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+SuggestSize.m"; sourceTree = "<group>"; };
 		1F9A85221CEE34DE0070CE07 /* UINavigationBar+Awesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+Awesome.h"; sourceTree = "<group>"; };
 		1F9A85231CEE34DE0070CE07 /* UINavigationBar+Awesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+Awesome.m"; sourceTree = "<group>"; };
 		1F9A85241CEE34DE0070CE07 /* UINavigationBar+CustomHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+CustomHeight.h"; sourceTree = "<group>"; };
@@ -1085,6 +1113,97 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F09D1B81CF0E5AF00399F64 /* XDLayoutContraintHandyKit */ = {
+			isa = PBXGroup;
+			children = (
+				1F09D1DE1CF0E69E00399F64 /* Constraint Description */,
+				1F09D1E11CF0E69E00399F64 /* Constraint Install */,
+				1F09D1E41CF0E69E00399F64 /* Constraint Layout */,
+				1F09D1E71CF0E69E00399F64 /* Constraint Macros */,
+				1F09D1EA1CF0E69E00399F64 /* Constraint Matching */,
+				1F09D1ED1CF0E69E00399F64 /* ConstraintPack.h */,
+				1F09D1EE1CF0E69E00399F64 /* Nametag Utilities */,
+			);
+			path = XDLayoutContraintHandyKit;
+			sourceTree = "<group>";
+		};
+		1F09D1DE1CF0E69E00399F64 /* Constraint Description */ = {
+			isa = PBXGroup;
+			children = (
+				1F09D1DF1CF0E69E00399F64 /* ConstraintUtilities+Description.h */,
+				1F09D1E01CF0E69E00399F64 /* ConstraintUtilities+Description.m */,
+			);
+			path = "Constraint Description";
+			sourceTree = "<group>";
+		};
+		1F09D1E11CF0E69E00399F64 /* Constraint Install */ = {
+			isa = PBXGroup;
+			children = (
+				1F09D1E21CF0E69E00399F64 /* ConstraintUtilities+Install.h */,
+				1F09D1E31CF0E69E00399F64 /* ConstraintUtilities+Install.m */,
+			);
+			path = "Constraint Install";
+			sourceTree = "<group>";
+		};
+		1F09D1E41CF0E69E00399F64 /* Constraint Layout */ = {
+			isa = PBXGroup;
+			children = (
+				1F09D1E51CF0E69E00399F64 /* ConstraintUtilities+Layout.h */,
+				1F09D1E61CF0E69E00399F64 /* ConstraintUtilities+Layout.m */,
+			);
+			path = "Constraint Layout";
+			sourceTree = "<group>";
+		};
+		1F09D1E71CF0E69E00399F64 /* Constraint Macros */ = {
+			isa = PBXGroup;
+			children = (
+				1F09D1E81CF0E69E00399F64 /* ConstraintUtilities+CreationMacros.h */,
+				1F09D1E91CF0E69E00399F64 /* ConstraintUtilities+Utility.h */,
+			);
+			path = "Constraint Macros";
+			sourceTree = "<group>";
+		};
+		1F09D1EA1CF0E69E00399F64 /* Constraint Matching */ = {
+			isa = PBXGroup;
+			children = (
+				1F09D1EB1CF0E69E00399F64 /* ConstraintUtilities+Matching.h */,
+				1F09D1EC1CF0E69E00399F64 /* ConstraintUtilities+Matching.m */,
+			);
+			path = "Constraint Matching";
+			sourceTree = "<group>";
+		};
+		1F09D1EE1CF0E69E00399F64 /* Nametag Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				1F09D1EF1CF0E69E00399F64 /* NametagUtilities.h */,
+				1F09D1F01CF0E69E00399F64 /* NSObject */,
+				1F09D1F51CF0E69E00399F64 /* View */,
+			);
+			path = "Nametag Utilities";
+			sourceTree = "<group>";
+		};
+		1F09D1F01CF0E69E00399F64 /* NSObject */ = {
+			isa = PBXGroup;
+			children = (
+				1F09D1F11CF0E69E00399F64 /* NSObject-Description.h */,
+				1F09D1F21CF0E69E00399F64 /* NSObject-Description.m */,
+				1F09D1F31CF0E69E00399F64 /* NSObject-Nametag.h */,
+				1F09D1F41CF0E69E00399F64 /* NSObject-Nametag.m */,
+			);
+			path = NSObject;
+			sourceTree = "<group>";
+		};
+		1F09D1F51CF0E69E00399F64 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1F09D1F61CF0E69E00399F64 /* NSView+BackgroundColor.h */,
+				1F09D1F71CF0E69E00399F64 /* NSView+BackgroundColor.m */,
+				1F09D1F81CF0E69E00399F64 /* View-Nametag.h */,
+				1F09D1F91CF0E69E00399F64 /* View-Nametag.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		1F49D1351CECE42B003FBBF0 /* XDImageBeautifyUtilDemo */ = {
 			isa = PBXGroup;
 			children = (
@@ -1754,7 +1873,7 @@
 				1F9A84DD1CEE34DE0070CE07 /* UIFont */,
 				1F9A84E41CEE34DE0070CE07 /* UIImage */,
 				1F9A85091CEE34DE0070CE07 /* UIImageView */,
-				1F9A85181CEE34DE0070CE07 /* UILable */,
+				1F9A85181CEE34DE0070CE07 /* UILabel */,
 				1F9A85211CEE34DE0070CE07 /* UINavigationBar */,
 				1F9A85261CEE34DE0070CE07 /* UINavigationController */,
 				1F9A85311CEE34DE0070CE07 /* UINavigationItem */,
@@ -1961,18 +2080,19 @@
 			path = UIImageView;
 			sourceTree = "<group>";
 		};
-		1F9A85181CEE34DE0070CE07 /* UILable */ = {
+		1F9A85181CEE34DE0070CE07 /* UILabel */ = {
 			isa = PBXGroup;
 			children = (
-				1F9A85191CEE34DE0070CE07 /* UILabel+AutomaticWriting.h */,
-				1F9A851A1CEE34DE0070CE07 /* UILabel+AutomaticWriting.m */,
-				1F9A851B1CEE34DE0070CE07 /* UILabel+AutoSize.h */,
-				1F9A851C1CEE34DE0070CE07 /* UILabel+AutoSize.m */,
-				1F9A851D1CEE34DE0070CE07 /* UILabel+ESAdjustableLabel.h */,
-				1F9A851E1CEE34DE0070CE07 /* UILabel+ESAdjustableLabel.m */,
-				1F9A851F1CEE34DE0070CE07 /* UILabel+SuggestSize.h */,
-				1F9A85201CEE34DE0070CE07 /* UILabel+SuggestSize.m */,
+				1F09D1AC1CF0E3D000399F64 /* UILabel+AutomaticWriting.h */,
+				1F09D1AD1CF0E3D000399F64 /* UILabel+AutomaticWriting.m */,
+				1F09D1AE1CF0E3D000399F64 /* UILabel+AutoSize.h */,
+				1F09D1AF1CF0E3D000399F64 /* UILabel+AutoSize.m */,
+				1F09D1B01CF0E3D000399F64 /* UILabel+ESAdjustableLabel.h */,
+				1F09D1B11CF0E3D000399F64 /* UILabel+ESAdjustableLabel.m */,
+				1F09D1B21CF0E3D000399F64 /* UILabel+SuggestSize.h */,
+				1F09D1B31CF0E3D000399F64 /* UILabel+SuggestSize.m */,
 			);
+			name = UILabel;
 			path = UILable;
 			sourceTree = "<group>";
 		};
@@ -2331,6 +2451,7 @@
 		1F9A85ED1CEE34DE0070CE07 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				1F09D1B81CF0E5AF00399F64 /* XDLayoutContraintHandyKit */,
 				1F9A85EE1CEE34DE0070CE07 /* BlocksKit */,
 				1F9A86471CEE34DF0070CE07 /* BlockThrottle */,
 				1F9A864A1CEE34DF0070CE07 /* CommandBus */,
@@ -2880,6 +3001,8 @@
 				1F9A86C61CEE34DF0070CE07 /* NSObject+AutoCoding.m in Sources */,
 				1F9A872A1CEE34DF0070CE07 /* UIImage+RemoteSize.m in Sources */,
 				1F9A86E81CEE34DF0070CE07 /* NSString+UUID.m in Sources */,
+				1F09D1B61CF0E3D000399F64 /* UILabel+ESAdjustableLabel.m in Sources */,
+				1F09D1FD1CF0E69E00399F64 /* ConstraintUtilities+Matching.m in Sources */,
 				1F9A87B01CEE34DF0070CE07 /* NSObject+A2DynamicDelegate.m in Sources */,
 				1F9A86AA1CEE34DF0070CE07 /* NSDate+XDCommonLib.m in Sources */,
 				1F9A87511CEE34DF0070CE07 /* UITextField+Blocks.m in Sources */,
@@ -2916,6 +3039,7 @@
 				1F9A874F1CEE34DF0070CE07 /* UITableView+iOS7Style.m in Sources */,
 				1F9A87551CEE34DF0070CE07 /* UITextView+PinchZoom.m in Sources */,
 				1F9A86CD1CEE34DF0070CE07 /* NSObject+XD_ClassesConformingToProtocol.m in Sources */,
+				1F09D1FE1CF0E69E00399F64 /* NSObject-Description.m in Sources */,
 				1F9A875C1CEE34DF0070CE07 /* UIView+draggable.m in Sources */,
 				1F9A87CC1CEE34DF0070CE07 /* XDUIKitMainThreadGuard.m in Sources */,
 				1F9A86F61CEE34DF0070CE07 /* MKMapView+BetterMaps.m in Sources */,
@@ -2937,6 +3061,7 @@
 				1F9A876D1CEE34DF0070CE07 /* UIViewController+BackButtonTouched.m in Sources */,
 				1F9A86961CEE34DF0070CE07 /* NSArray+XDCommonLib.m in Sources */,
 				1F9A87801CEE34DF0070CE07 /* UIWindow+Hierarchy.m in Sources */,
+				1F09D1FB1CF0E69E00399F64 /* ConstraintUtilities+Install.m in Sources */,
 				1F9A86B31CEE34DF0070CE07 /* NSDictionary+XML.m in Sources */,
 				1F9A87411CEE34DF0070CE07 /* UINavigationItem+Loading.m in Sources */,
 				1F9A87CA1CEE34DF0070CE07 /* XDMulticastDelegateBase.m in Sources */,
@@ -2980,7 +3105,6 @@
 				1F9A86C81CEE34DF0070CE07 /* NSObject+GCD.m in Sources */,
 				1F9A877A1CEE34DF0070CE07 /* UIWebView+JS.m in Sources */,
 				1F9A86E51CEE34DF0070CE07 /* NSString+UrlEncode.m in Sources */,
-				1F9A87371CEE34DF0070CE07 /* UILabel+AutoSize.m in Sources */,
 				1F9A877E1CEE34DF0070CE07 /* UIWebVIew+SwipeGesture.m in Sources */,
 				1F9A87A81CEE34DF0070CE07 /* NSOrderedSet+BlocksKit.m in Sources */,
 				1F9A87B41CEE34DF0070CE07 /* UIActionSheet+BlocksKit.m in Sources */,
@@ -3017,7 +3141,6 @@
 				1F9A86B11CEE34DF0070CE07 /* NSDictionary+URL.m in Sources */,
 				1F9A87BB1CEE34DF0070CE07 /* UIPopoverController+BlocksKit.m in Sources */,
 				1F9A86BC1CEE34DF0070CE07 /* NSDecimalNumber+CalculatingByString.m in Sources */,
-				1F9A87361CEE34DF0070CE07 /* UILabel+AutomaticWriting.m in Sources */,
 				1F9A87341CEE34DF0070CE07 /* UIImageView+Letters.m in Sources */,
 				1F9A87C51CEE34DF0070CE07 /* DGStateBroadcaster.m in Sources */,
 				1F9A877B1CEE34DF0070CE07 /* UIWebView+Load.m in Sources */,
@@ -3064,7 +3187,6 @@
 				1F9A87161CEE34DF0070CE07 /* UIControl+ActionBlocks.m in Sources */,
 				1F9A86AC1CEE34DF0070CE07 /* NSDateFormatter+Make.m in Sources */,
 				1F9A87531CEE34DF0070CE07 /* UITextField+Select.m in Sources */,
-				1F9A87391CEE34DF0070CE07 /* UILabel+SuggestSize.m in Sources */,
 				1F9A871E1CEE34DF0070CE07 /* UIImage+Alpha.m in Sources */,
 				1F62A2A11CE2F2A70077B7D5 /* LoginCommand.m in Sources */,
 				1F9A87461CEE34DF0070CE07 /* UIResponder+FirstResponder.m in Sources */,
@@ -3081,6 +3203,7 @@
 				1F9A86881CEE34DF0070CE07 /* XDAddressBookManager.m in Sources */,
 				1F9A87231CEE34DF0070CE07 /* UIImage+Color.m in Sources */,
 				1FBB72291AF9356D005B3F99 /* MulticastDelegateDemoVC.m in Sources */,
+				1F09D1B41CF0E3D000399F64 /* UILabel+AutomaticWriting.m in Sources */,
 				1F9A87111CEE34DF0070CE07 /* UIColor+Gradient.m in Sources */,
 				1F9A86B51CEE34DF0070CE07 /* NSException+Trace.m in Sources */,
 				1F9A87611CEE34DF0070CE07 /* UIView+Nib.m in Sources */,
@@ -3105,6 +3228,7 @@
 				1F9A87051CEE34DF0070CE07 /* UIApplication+Permissions.m in Sources */,
 				1F9A87D11CEE34DF0070CE07 /* SBCollectionViewTableLayout.m in Sources */,
 				1F9A873B1CEE34DF0070CE07 /* UINavigationBar+CustomHeight.m in Sources */,
+				1F09D1FF1CF0E69E00399F64 /* NSObject-Nametag.m in Sources */,
 				1F9A87291CEE34DF0070CE07 /* UIImage+PDF.m in Sources */,
 				1F9A86E31CEE34DF0070CE07 /* NSString+Tokenize.m in Sources */,
 				1F9A87821CEE34DF0070CE07 /* XDDebugStatusBar.m in Sources */,
@@ -3147,6 +3271,7 @@
 				1F9A86B21CEE34DF0070CE07 /* NSDictionary+XDCommonLib.m in Sources */,
 				1F9A874C1CEE34DF0070CE07 /* UISearchBar+Blocks.m in Sources */,
 				1F9A87191CEE34DF0070CE07 /* UIDevice+PasscodeStatus.m in Sources */,
+				1F09D1FC1CF0E69E00399F64 /* ConstraintUtilities+Layout.m in Sources */,
 				1F9A87AC1CEE34DF0070CE07 /* A2DynamicDelegate.m in Sources */,
 				1F9A86E71CEE34DF0070CE07 /* NSString+Utils.m in Sources */,
 				1F9A87C61CEE34DF0070CE07 /* XDAppLanguage.m in Sources */,
@@ -3159,14 +3284,16 @@
 				1F9A877C1CEE34DF0070CE07 /* UIWebView+MetaParser.m in Sources */,
 				1F9A875E1CEE34DF0070CE07 /* UIView+Frame.m in Sources */,
 				1F9A86D11CEE34DF0070CE07 /* NSProcessInfo+XDCommonLib.m in Sources */,
-				1F9A87381CEE34DF0070CE07 /* UILabel+ESAdjustableLabel.m in Sources */,
 				1F9A870E1CEE34DF0070CE07 /* UIButton+Indicator.m in Sources */,
 				1F9A875B1CEE34DF0070CE07 /* UIView+Debug.m in Sources */,
 				1F9A86DC1CEE34DF0070CE07 /* NSString+MIME.m in Sources */,
 				1F9A86971CEE34DF0070CE07 /* NSMutableArray+XDCommonLib.m in Sources */,
+				1F09D1B71CF0E3D000399F64 /* UILabel+SuggestSize.m in Sources */,
 				1F9A872E1CEE34DF0070CE07 /* UIImage+Vector.m in Sources */,
 				1F9A875A1CEE34DF0070CE07 /* UIView+Constraints.m in Sources */,
 				1F9A87541CEE34DF0070CE07 /* UITextField+Shake.m in Sources */,
+				1F09D1FA1CF0E69E00399F64 /* ConstraintUtilities+Description.m in Sources */,
+				1F09D2011CF0E69E00399F64 /* View-Nametag.m in Sources */,
 				1F9A87271CEE34DF0070CE07 /* UIImage+Merge.m in Sources */,
 				1F9A870F1CEE34DF0070CE07 /* UIButton+Submitting.m in Sources */,
 				1F9A86EF1CEE34DF0070CE07 /* NSURL+QueryDictionary.m in Sources */,
@@ -3198,11 +3325,13 @@
 				1F9A87721CEE34DF0070CE07 /* UIViewController+RecursiveDescription.m in Sources */,
 				1F9A87771CEE34DF0070CE07 /* UIWebView+Alert.m in Sources */,
 				1F9A86F21CEE34DF0070CE07 /* NSUserDefaults+iCloudSync.m in Sources */,
+				1F09D2001CF0E69E00399F64 /* NSView+BackgroundColor.m in Sources */,
 				1F9A86ED1CEE34DF0070CE07 /* NSTimer+Blocks.m in Sources */,
 				1F9A86F81CEE34DF0070CE07 /* MKMapView+ZoomLevel.m in Sources */,
 				1F9A87591CEE34DF0070CE07 /* UIView+BlockGesture.m in Sources */,
 				1F9A868E1CEE34DF0070CE07 /* NSManagedObjectContext+Fetching.m in Sources */,
 				1F9A87A51CEE34DF0070CE07 /* NSObject+BKAssociatedObjects.m in Sources */,
+				1F09D1B51CF0E3D000399F64 /* UILabel+AutoSize.m in Sources */,
 				1F9A86991CEE34DF0070CE07 /* NSData+APNSToken.m in Sources */,
 				1F9A86891CEE34DF0070CE07 /* XDContactEntity.m in Sources */,
 				1F9A86E11CEE34DF0070CE07 /* NSString+Score.m in Sources */,
