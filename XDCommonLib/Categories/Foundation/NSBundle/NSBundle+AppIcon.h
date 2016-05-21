@@ -8,7 +8,10 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
+
 @interface NSBundle (AppIcon)
-- (NSString*)appIconPath ;
-- (UIImage*)appIcon ;
+
++ (NSString*)appIconPath;
++ (UIImage*)appIcon;
+
 @end
