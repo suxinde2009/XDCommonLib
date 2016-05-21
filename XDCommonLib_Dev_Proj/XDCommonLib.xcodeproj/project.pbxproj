@@ -270,16 +270,6 @@
 		1F9A87841CEE34DF0070CE07 /* XDDebugUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9A85C91CEE34DE0070CE07 /* XDDebugUtils.m */; };
 		1F9A87851CEE34DF0070CE07 /* XDLogUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9A85CB1CEE34DE0070CE07 /* XDLogUtils.m */; };
 		1F9A87861CEE34DF0070CE07 /* XDPerformance.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9A85CD1CEE34DE0070CE07 /* XDPerformance.m */; };
-		1F9A87871CEE34DF0070CE07 /* LICENSE_AFAddressBookManager in Resources */ = {isa = PBXBuildFile; fileRef = 1F9A85CF1CEE34DE0070CE07 /* LICENSE_AFAddressBookManager */; };
-		1F9A87881CEE34DF0070CE07 /* LICENSE_BlocksKit in Resources */ = {isa = PBXBuildFile; fileRef = 1F9A85D01CEE34DE0070CE07 /* LICENSE_BlocksKit */; };
-		1F9A87891CEE34DF0070CE07 /* LICENSE_DGBlockThrottle in Resources */ = {isa = PBXBuildFile; fileRef = 1F9A85D11CEE34DE0070CE07 /* LICENSE_DGBlockThrottle */; };
-		1F9A878A1CEE34DF0070CE07 /* LICENSE_DGStateBroadcaster in Resources */ = {isa = PBXBuildFile; fileRef = 1F9A85D21CEE34DE0070CE07 /* LICENSE_DGStateBroadcaster */; };
-		1F9A878B1CEE34DF0070CE07 /* LICENSE_LunarCore in Resources */ = {isa = PBXBuildFile; fileRef = 1F9A85D31CEE34DE0070CE07 /* LICENSE_LunarCore */; };
-		1F9A878C1CEE34DF0070CE07 /* LICENSE_RBCommander in Resources */ = {isa = PBXBuildFile; fileRef = 1F9A85D41CEE34DE0070CE07 /* LICENSE_RBCommander */; };
-		1F9A878D1CEE34DF0070CE07 /* LICENSE_RSSwizzle in Resources */ = {isa = PBXBuildFile; fileRef = 1F9A85D51CEE34DE0070CE07 /* LICENSE_RSSwizzle */; };
-		1F9A878E1CEE34DF0070CE07 /* LICENSE_SBTableLayout in Resources */ = {isa = PBXBuildFile; fileRef = 1F9A85D61CEE34DE0070CE07 /* LICENSE_SBTableLayout */; };
-		1F9A878F1CEE34DF0070CE07 /* LICENSE_XDCommonLib in Resources */ = {isa = PBXBuildFile; fileRef = 1F9A85D71CEE34DE0070CE07 /* LICENSE_XDCommonLib */; };
-		1F9A87901CEE34DF0070CE07 /* LICENSE_YRJSONAdapter in Resources */ = {isa = PBXBuildFile; fileRef = 1F9A85D81CEE34DE0070CE07 /* LICENSE_YRJSONAdapter */; };
 		1F9A87911CEE34DF0070CE07 /* camera@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F9A85DC1CEE34DE0070CE07 /* camera@2x.png */; };
 		1F9A87921CEE34DF0070CE07 /* camera_h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F9A85DD1CEE34DE0070CE07 /* camera_h@2x.png */; };
 		1F9A87931CEE34DF0070CE07 /* shift@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F9A85DE1CEE34DE0070CE07 /* shift@2x.png */; };
@@ -353,6 +343,7 @@
 		1F9A87D71CEE34DF0070CE07 /* XDPreCompile.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9A86851CEE34DF0070CE07 /* XDPreCompile.m */; };
 		1F9CA6051CE0FD5D00F53C03 /* SBTableLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9CA6021CE0FD5D00F53C03 /* SBTableLayoutViewController.m */; };
 		1F9CA6061CE0FD5D00F53C03 /* SBTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9CA6041CE0FD5D00F53C03 /* SBTableViewController.m */; };
+		1FA4D17F1CF0CFB3005AD187 /* NSFileManager+XD_Handy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA4D17E1CF0CFB3005AD187 /* NSFileManager+XD_Handy.m */; };
 		1FBB72291AF9356D005B3F99 /* MulticastDelegateDemoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBB72281AF9356D005B3F99 /* MulticastDelegateDemoVC.m */; };
 		1FC8F5901AF7DA0D00CA2AC0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC8F58F1AF7DA0D00CA2AC0 /* main.m */; };
 		1FC8F5931AF7DA0D00CA2AC0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC8F5921AF7DA0D00CA2AC0 /* AppDelegate.m */; };
@@ -899,16 +890,6 @@
 		1F9A85CB1CEE34DE0070CE07 /* XDLogUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDLogUtils.m; sourceTree = "<group>"; };
 		1F9A85CC1CEE34DE0070CE07 /* XDPerformance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDPerformance.h; sourceTree = "<group>"; };
 		1F9A85CD1CEE34DE0070CE07 /* XDPerformance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDPerformance.m; sourceTree = "<group>"; };
-		1F9A85CF1CEE34DE0070CE07 /* LICENSE_AFAddressBookManager */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE_AFAddressBookManager; sourceTree = "<group>"; };
-		1F9A85D01CEE34DE0070CE07 /* LICENSE_BlocksKit */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE_BlocksKit; sourceTree = "<group>"; };
-		1F9A85D11CEE34DE0070CE07 /* LICENSE_DGBlockThrottle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE_DGBlockThrottle; sourceTree = "<group>"; };
-		1F9A85D21CEE34DE0070CE07 /* LICENSE_DGStateBroadcaster */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE_DGStateBroadcaster; sourceTree = "<group>"; };
-		1F9A85D31CEE34DE0070CE07 /* LICENSE_LunarCore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE_LunarCore; sourceTree = "<group>"; };
-		1F9A85D41CEE34DE0070CE07 /* LICENSE_RBCommander */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE_RBCommander; sourceTree = "<group>"; };
-		1F9A85D51CEE34DE0070CE07 /* LICENSE_RSSwizzle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE_RSSwizzle; sourceTree = "<group>"; };
-		1F9A85D61CEE34DE0070CE07 /* LICENSE_SBTableLayout */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE_SBTableLayout; sourceTree = "<group>"; };
-		1F9A85D71CEE34DE0070CE07 /* LICENSE_XDCommonLib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE_XDCommonLib; sourceTree = "<group>"; };
-		1F9A85D81CEE34DE0070CE07 /* LICENSE_YRJSONAdapter */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE_YRJSONAdapter; sourceTree = "<group>"; };
 		1F9A85DC1CEE34DE0070CE07 /* camera@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camera@2x.png"; sourceTree = "<group>"; };
 		1F9A85DD1CEE34DE0070CE07 /* camera_h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camera_h@2x.png"; sourceTree = "<group>"; };
 		1F9A85DE1CEE34DE0070CE07 /* shift@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shift@2x.png"; sourceTree = "<group>"; };
@@ -1057,6 +1038,8 @@
 		1F9CA6021CE0FD5D00F53C03 /* SBTableLayoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBTableLayoutViewController.m; sourceTree = "<group>"; };
 		1F9CA6031CE0FD5D00F53C03 /* SBTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBTableViewController.h; sourceTree = "<group>"; };
 		1F9CA6041CE0FD5D00F53C03 /* SBTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBTableViewController.m; sourceTree = "<group>"; };
+		1FA4D17D1CF0CFB3005AD187 /* NSFileManager+XD_Handy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+XD_Handy.h"; sourceTree = "<group>"; };
+		1FA4D17E1CF0CFB3005AD187 /* NSFileManager+XD_Handy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+XD_Handy.m"; sourceTree = "<group>"; };
 		1FBB72271AF9356D005B3F99 /* MulticastDelegateDemoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MulticastDelegateDemoVC.h; sourceTree = "<group>"; };
 		1FBB72281AF9356D005B3F99 /* MulticastDelegateDemoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MulticastDelegateDemoVC.m; sourceTree = "<group>"; };
 		1FC8F58A1AF7DA0D00CA2AC0 /* XDCommonLib.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XDCommonLib.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1151,7 +1134,6 @@
 				1F9A83851CEE34DE0070CE07 /* AddressBook */,
 				1F9A838C1CEE34DE0070CE07 /* Categories */,
 				1F9A85C01CEE34DE0070CE07 /* Debug */,
-				1F9A85CE1CEE34DE0070CE07 /* Licenses */,
 				1F9A85D91CEE34DE0070CE07 /* Media */,
 				1F9A85E51CEE34DE0070CE07 /* Modules */,
 				1F9A85EA1CEE34DE0070CE07 /* UnitTests */,
@@ -1439,6 +1421,8 @@
 				1F9A83F91CEE34DE0070CE07 /* NSFileManager+Paths.m */,
 				1F9A83FA1CEE34DE0070CE07 /* NSFileManager+XDCommonLib.h */,
 				1F9A83FB1CEE34DE0070CE07 /* NSFileManager+XDCommonLib.m */,
+				1FA4D17D1CF0CFB3005AD187 /* NSFileManager+XD_Handy.h */,
+				1FA4D17E1CF0CFB3005AD187 /* NSFileManager+XD_Handy.m */,
 			);
 			path = NSFileManager;
 			sourceTree = "<group>";
@@ -2265,23 +2249,6 @@
 			path = Debug;
 			sourceTree = "<group>";
 		};
-		1F9A85CE1CEE34DE0070CE07 /* Licenses */ = {
-			isa = PBXGroup;
-			children = (
-				1F9A85CF1CEE34DE0070CE07 /* LICENSE_AFAddressBookManager */,
-				1F9A85D01CEE34DE0070CE07 /* LICENSE_BlocksKit */,
-				1F9A85D11CEE34DE0070CE07 /* LICENSE_DGBlockThrottle */,
-				1F9A85D21CEE34DE0070CE07 /* LICENSE_DGStateBroadcaster */,
-				1F9A85D31CEE34DE0070CE07 /* LICENSE_LunarCore */,
-				1F9A85D41CEE34DE0070CE07 /* LICENSE_RBCommander */,
-				1F9A85D51CEE34DE0070CE07 /* LICENSE_RSSwizzle */,
-				1F9A85D61CEE34DE0070CE07 /* LICENSE_SBTableLayout */,
-				1F9A85D71CEE34DE0070CE07 /* LICENSE_XDCommonLib */,
-				1F9A85D81CEE34DE0070CE07 /* LICENSE_YRJSONAdapter */,
-			);
-			path = Licenses;
-			sourceTree = "<group>";
-		};
 		1F9A85D91CEE34DE0070CE07 /* Media */ = {
 			isa = PBXGroup;
 			children = (
@@ -2601,6 +2568,7 @@
 		1F9A866A1CEE34DF0070CE07 /* Venders */ = {
 			isa = PBXGroup;
 			children = (
+				1FA4D17A1CF0BFCD005AD187 /* MotionDetector */,
 				1F9A866B1CEE34DF0070CE07 /* ProtocolKit */,
 				1F9A866F1CEE34DF0070CE07 /* RSSwizzle */,
 				1F9A86721CEE34DF0070CE07 /* SBTableLayout */,
@@ -2667,6 +2635,13 @@
 				1F9CA6041CE0FD5D00F53C03 /* SBTableViewController.m */,
 			);
 			path = SBTableLayoutDemo;
+			sourceTree = "<group>";
+		};
+		1FA4D17A1CF0BFCD005AD187 /* MotionDetector */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MotionDetector;
 			sourceTree = "<group>";
 		};
 		1FC8F5811AF7DA0D00CA2AC0 = {
@@ -2843,29 +2818,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F49D13B1CECE44D003FBBF0 /* ImageFilterItem.xib in Resources */,
-				1F9A87871CEE34DF0070CE07 /* LICENSE_AFAddressBookManager in Resources */,
 				1F9A87911CEE34DF0070CE07 /* camera@2x.png in Resources */,
-				1F9A878E1CEE34DF0070CE07 /* LICENSE_SBTableLayout in Resources */,
 				1F9A87941CEE34DF0070CE07 /* sound.mp3 in Resources */,
 				1FC8F5991AF7DA0D00CA2AC0 /* Main.storyboard in Resources */,
 				1FC8F59E1AF7DA0D00CA2AC0 /* LaunchScreen.xib in Resources */,
 				1F9A86AB1CEE34DF0070CE07 /* NSDateTimeAgo.bundle in Resources */,
-				1F9A878C1CEE34DF0070CE07 /* LICENSE_RBCommander in Resources */,
 				1F9A87921CEE34DF0070CE07 /* camera_h@2x.png in Resources */,
 				1F9A87931CEE34DF0070CE07 /* shift@2x.png in Resources */,
-				1F9A87881CEE34DF0070CE07 /* LICENSE_BlocksKit in Resources */,
-				1F9A878F1CEE34DF0070CE07 /* LICENSE_XDCommonLib in Resources */,
 				1F9A86F51CEE34DF0070CE07 /* XDFileMimeType.plist in Resources */,
 				1FC8F59B1AF7DA0D00CA2AC0 /* Images.xcassets in Resources */,
 				1F9A87981CEE34DF0070CE07 /* TCP.json in Resources */,
-				1F9A87901CEE34DF0070CE07 /* LICENSE_YRJSONAdapter in Resources */,
 				1F49D13E1CECE502003FBBF0 /* Test2.jpg in Resources */,
-				1F9A878D1CEE34DF0070CE07 /* LICENSE_RSSwizzle in Resources */,
 				1F9A87971CEE34DF0070CE07 /* HTTP.json in Resources */,
 				1FCFDD101CDC161900DC27F5 /* test.mp4 in Resources */,
-				1F9A878B1CEE34DF0070CE07 /* LICENSE_LunarCore in Resources */,
-				1F9A878A1CEE34DF0070CE07 /* LICENSE_DGStateBroadcaster in Resources */,
-				1F9A87891CEE34DF0070CE07 /* LICENSE_DGBlockThrottle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3004,6 +2969,7 @@
 				1F9A87B31CEE34DF0070CE07 /* QLPreviewController+BlocksKit.m in Sources */,
 				1F9A87831CEE34DF0070CE07 /* XDDebugSystemControl.m in Sources */,
 				1F9A86A41CEE34DF0070CE07 /* NSDate+InternetDateTime.m in Sources */,
+				1FA4D17F1CF0CFB3005AD187 /* NSFileManager+XD_Handy.m in Sources */,
 				1F9A87211CEE34DF0070CE07 /* UIImage+Blur.m in Sources */,
 				1F9A870D1CEE34DF0070CE07 /* UIButton+CountDown.m in Sources */,
 				1F9A879D1CEE34DF0070CE07 /* NSInvocation+BlocksKit.m in Sources */,
