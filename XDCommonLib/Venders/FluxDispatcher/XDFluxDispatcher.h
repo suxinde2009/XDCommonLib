@@ -9,6 +9,8 @@
 #import <Foundation/Foundation.h>
 
 
+// Copy From CLAFluxDispatcher
+
 /**
  * This is a port of Facebook's Flux Dispatcher to Objective-C
  *
