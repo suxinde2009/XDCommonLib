@@ -1,17 +1,19 @@
 //
-//  NSObject+AppInfo.h
-//  IOS-Categories
+//  NSObject+XDCommonLib.h
+//  XDCommonLib
 //
-//  Created by nidom on 15/9/29.
-//  Copyright © 2015年 www.skyfox.org. All rights reserved.
+//  Created by suxinde on 16/4/11.
+//  Copyright © 2016年 su xinde. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
 
 @interface NSObject (AppInfo)
--(NSString *)ai_version;
--(NSInteger)ai_build;
--(NSString *)ai_identifier;
--(NSString *)ai_currentLanguage;
--(NSString *)ai_deviceModel;
+
+- (NSString *)xd_appVersion;
+- (NSString *)xd_appBuildId;
+- (NSString *)xd_bundleIdentifier;
+- (NSString *)xd_currentLanguage;
+- (NSString *)xd_deviceModel;
+
 @end

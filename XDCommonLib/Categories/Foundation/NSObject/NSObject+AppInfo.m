@@ -1,36 +1,41 @@
 //
-//  NSObject+AppInfo.m
-//  IOS-Categories
+//  NSObject+XDCommonLib.h
+//  XDCommonLib
 //
-//  Created by nidom on 15/9/29.
-//  Copyright © 2015年 www.skyfox.org. All rights reserved.
+//  Created by suxinde on 16/4/11.
+//  Copyright © 2016年 su xinde. All rights reserved.
 //
 
 #import "NSObject+AppInfo.h"
 #import <sys/utsname.h>
+
 @implementation NSObject (AppInfo)
 
--(NSString *)ai_version{
+- (NSString *)xd_appVersion {
     NSDictionary *infoDictionary = [[NSBundle mainBundle] infoDictionary];
     NSString *app_Version = [infoDictionary objectForKey:@"CFBundleShortVersionString"];
     return app_Version;
 }
--(NSInteger)ai_build{
+
+- (NSString *)xd_appBuildId {
     NSDictionary *infoDictionary = [[NSBundle mainBundle] infoDictionary];
     NSString *app_build = [infoDictionary objectForKey:@"CFBundleVersion"];
-    return [app_build integerValue];
+    return app_build;
 }
--(NSString *)ai_identifier{
+
+- (NSString *)xd_bundleIdentifier {
     NSDictionary *infoDictionary = [[NSBundle mainBundle] infoDictionary];
     NSString * bundleIdentifier = [infoDictionary objectForKey:@"CFBundleIdentifier"];
     return bundleIdentifier;
 }
--(NSString *)ai_currentLanguage{
+
+- (NSString *)xd_currentLanguage {
     NSArray *languages = [NSLocale preferredLanguages];
     NSString *currentLanguage = [languages firstObject];
     return [NSString stringWithString:currentLanguage];
 }
--(NSString *)ai_deviceModel{
+
+- (NSString *)xd_deviceModel {
     struct utsname systemInfo;
     uname(&systemInfo);
     NSString *deviceString = [NSString stringWithCString:systemInfo.machine encoding:NSUTF8StringEncoding];

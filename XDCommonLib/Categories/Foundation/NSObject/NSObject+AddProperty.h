@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 
 @interface NSObject (AddProperty)
+
 /**
  *  @brief  catgory runtime实现get set方法增加一个字符串属性
  */
@@ -17,4 +18,5 @@
  *  @brief  catgory runtime实现get set方法增加一个NSInteger属性
  */
 @property (nonatomic,assign) NSInteger integerProperty;
+
 @end

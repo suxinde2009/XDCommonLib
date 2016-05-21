@@ -13,6 +13,7 @@
 static const void *StringProperty = &StringProperty;
 static const void *IntegerProperty = &IntegerProperty;
 //static char IntegerProperty;
+
 @implementation NSObject (AddProperty)
 
 @dynamic stringProperty;
