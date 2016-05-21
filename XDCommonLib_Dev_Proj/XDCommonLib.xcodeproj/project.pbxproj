@@ -19,6 +19,8 @@
 		1F09D1FF1CF0E69E00399F64 /* NSObject-Nametag.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F09D1F41CF0E69E00399F64 /* NSObject-Nametag.m */; };
 		1F09D2001CF0E69E00399F64 /* NSView+BackgroundColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F09D1F71CF0E69E00399F64 /* NSView+BackgroundColor.m */; };
 		1F09D2011CF0E69E00399F64 /* View-Nametag.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F09D1F91CF0E69E00399F64 /* View-Nametag.m */; };
+		1F09D2031CF0E7CD00399F64 /* Media.json in Resources */ = {isa = PBXBuildFile; fileRef = 1F09D2021CF0E7CD00399F64 /* Media.json */; };
+		1F09D2051CF0E81400399F64 /* Debug.json in Resources */ = {isa = PBXBuildFile; fileRef = 1F09D2041CF0E81400399F64 /* Debug.json */; };
 		1F49D13A1CECE44D003FBBF0 /* ImageFilterItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F49D1381CECE44D003FBBF0 /* ImageFilterItem.m */; };
 		1F49D13B1CECE44D003FBBF0 /* ImageFilterItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F49D1391CECE44D003FBBF0 /* ImageFilterItem.xib */; };
 		1F49D13E1CECE502003FBBF0 /* Test2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F49D13D1CECE502003FBBF0 /* Test2.jpg */; };
@@ -405,6 +407,8 @@
 		1F09D1F71CF0E69E00399F64 /* NSView+BackgroundColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSView+BackgroundColor.m"; sourceTree = "<group>"; };
 		1F09D1F81CF0E69E00399F64 /* View-Nametag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View-Nametag.h"; sourceTree = "<group>"; };
 		1F09D1F91CF0E69E00399F64 /* View-Nametag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View-Nametag.m"; sourceTree = "<group>"; };
+		1F09D2021CF0E7CD00399F64 /* Media.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Media.json; sourceTree = "<group>"; };
+		1F09D2041CF0E81400399F64 /* Debug.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Debug.json; sourceTree = "<group>"; };
 		1F49D1371CECE44D003FBBF0 /* ImageFilterItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageFilterItem.h; sourceTree = "<group>"; };
 		1F49D1381CECE44D003FBBF0 /* ImageFilterItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageFilterItem.m; sourceTree = "<group>"; };
 		1F49D1391CECE44D003FBBF0 /* ImageFilterItem.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageFilterItem.xib; sourceTree = "<group>"; };
@@ -2371,6 +2375,7 @@
 				1F9A85CB1CEE34DE0070CE07 /* XDLogUtils.m */,
 				1F9A85CC1CEE34DE0070CE07 /* XDPerformance.h */,
 				1F9A85CD1CEE34DE0070CE07 /* XDPerformance.m */,
+				1F09D2041CF0E81400399F64 /* Debug.json */,
 			);
 			path = Debug;
 			sourceTree = "<group>";
@@ -2380,6 +2385,7 @@
 			children = (
 				1F9A85DA1CEE34DE0070CE07 /* Camera */,
 				1F9A85E21CEE34DE0070CE07 /* VideoEdit */,
+				1F09D2021CF0E7CD00399F64 /* Media.json */,
 			);
 			path = Media;
 			sourceTree = "<group>";
@@ -2969,9 +2975,11 @@
 				1F9A87941CEE34DF0070CE07 /* sound.mp3 in Resources */,
 				1FC8F5991AF7DA0D00CA2AC0 /* Main.storyboard in Resources */,
 				1FC8F59E1AF7DA0D00CA2AC0 /* LaunchScreen.xib in Resources */,
+				1F09D2031CF0E7CD00399F64 /* Media.json in Resources */,
 				1F9A86AB1CEE34DF0070CE07 /* NSDateTimeAgo.bundle in Resources */,
 				1F9A87921CEE34DF0070CE07 /* camera_h@2x.png in Resources */,
 				1F9A87931CEE34DF0070CE07 /* shift@2x.png in Resources */,
+				1F09D2051CF0E81400399F64 /* Debug.json in Resources */,
 				1F9A86F51CEE34DF0070CE07 /* XDFileMimeType.plist in Resources */,
 				1FC8F59B1AF7DA0D00CA2AC0 /* Images.xcassets in Resources */,
 				1F9A87981CEE34DF0070CE07 /* TCP.json in Resources */,
