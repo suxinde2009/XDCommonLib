@@ -9,6 +9,7 @@
 #import "UIWindow+Hierarchy.h"
 
 @implementation UIWindow (Hierarchy)
+
 - (UIViewController*) topMostController
 {
     UIViewController *topController = [self rootViewController];
@@ -29,4 +30,5 @@
     
     return currentViewController;
 }
+
 @end
