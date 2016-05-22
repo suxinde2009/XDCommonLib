@@ -28,6 +28,11 @@
 		1F62A29D1CE2F28D0077B7D5 /* XDCommandTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F62A29C1CE2F28D0077B7D5 /* XDCommandTestVC.m */; };
 		1F62A2A11CE2F2A70077B7D5 /* LoginCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F62A2A01CE2F2A70077B7D5 /* LoginCommand.m */; };
 		1F62A2A41CE2F2B80077B7D5 /* LoginCommandHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F62A2A31CE2F2B80077B7D5 /* LoginCommandHandler.m */; };
+		1F6A59481CF22935009E0D71 /* NSString+XD_EncryptBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F6A59471CF22935009E0D71 /* NSString+XD_EncryptBase64.m */; };
+		1F6A594B1CF2298E009E0D71 /* NSData+XD_EncryptBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F6A594A1CF2298E009E0D71 /* NSData+XD_EncryptBase64.m */; };
+		1F6A594E1CF229EE009E0D71 /* NSString+XD_Encrypt_MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F6A594D1CF229EE009E0D71 /* NSString+XD_Encrypt_MD5.m */; };
+		1F6A59511CF22AD2009E0D71 /* XDAESCryptUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F6A59501CF22AD2009E0D71 /* XDAESCryptUtils.m */; };
+		1F6A59541CF22B11009E0D71 /* NSData+XD_Encrypt_Common_Crypto.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F6A59531CF22B11009E0D71 /* NSData+XD_Encrypt_Common_Crypto.m */; };
 		1F9A86871CEE34DF0070CE07 /* NSString+UnformattedPhoneNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9A83871CEE34DE0070CE07 /* NSString+UnformattedPhoneNumber.m */; };
 		1F9A86881CEE34DF0070CE07 /* XDAddressBookManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9A83891CEE34DE0070CE07 /* XDAddressBookManager.m */; };
 		1F9A86891CEE34DF0070CE07 /* XDContactEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9A838B1CEE34DE0070CE07 /* XDContactEntity.m */; };
@@ -421,6 +426,16 @@
 		1F62A2A01CE2F2A70077B7D5 /* LoginCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginCommand.m; sourceTree = "<group>"; };
 		1F62A2A21CE2F2B80077B7D5 /* LoginCommandHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginCommandHandler.h; sourceTree = "<group>"; };
 		1F62A2A31CE2F2B80077B7D5 /* LoginCommandHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginCommandHandler.m; sourceTree = "<group>"; };
+		1F6A59461CF22935009E0D71 /* NSString+XD_EncryptBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+XD_EncryptBase64.h"; sourceTree = "<group>"; };
+		1F6A59471CF22935009E0D71 /* NSString+XD_EncryptBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+XD_EncryptBase64.m"; sourceTree = "<group>"; };
+		1F6A59491CF2298E009E0D71 /* NSData+XD_EncryptBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+XD_EncryptBase64.h"; sourceTree = "<group>"; };
+		1F6A594A1CF2298E009E0D71 /* NSData+XD_EncryptBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+XD_EncryptBase64.m"; sourceTree = "<group>"; };
+		1F6A594C1CF229EE009E0D71 /* NSString+XD_Encrypt_MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+XD_Encrypt_MD5.h"; sourceTree = "<group>"; };
+		1F6A594D1CF229EE009E0D71 /* NSString+XD_Encrypt_MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+XD_Encrypt_MD5.m"; sourceTree = "<group>"; };
+		1F6A594F1CF22AD2009E0D71 /* XDAESCryptUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDAESCryptUtils.h; sourceTree = "<group>"; };
+		1F6A59501CF22AD2009E0D71 /* XDAESCryptUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDAESCryptUtils.m; sourceTree = "<group>"; };
+		1F6A59521CF22B11009E0D71 /* NSData+XD_Encrypt_Common_Crypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+XD_Encrypt_Common_Crypto.h"; sourceTree = "<group>"; };
+		1F6A59531CF22B11009E0D71 /* NSData+XD_Encrypt_Common_Crypto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+XD_Encrypt_Common_Crypto.m"; sourceTree = "<group>"; };
 		1F9A83861CEE34DE0070CE07 /* NSString+UnformattedPhoneNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+UnformattedPhoneNumber.h"; sourceTree = "<group>"; };
 		1F9A83871CEE34DE0070CE07 /* NSString+UnformattedPhoneNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+UnformattedPhoneNumber.m"; sourceTree = "<group>"; };
 		1F9A83881CEE34DE0070CE07 /* XDAddressBookManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDAddressBookManager.h; sourceTree = "<group>"; };
@@ -1255,6 +1270,39 @@
 				1F62A2A31CE2F2B80077B7D5 /* LoginCommandHandler.m */,
 			);
 			name = Command;
+			sourceTree = "<group>";
+		};
+		1F6A59431CF228C7009E0D71 /* EncryptUtils */ = {
+			isa = PBXGroup;
+			children = (
+				1F6A59451CF22909009E0D71 /* EncryptBase */,
+				1F6A59441CF228D2009E0D71 /* AES256 */,
+			);
+			path = EncryptUtils;
+			sourceTree = "<group>";
+		};
+		1F6A59441CF228D2009E0D71 /* AES256 */ = {
+			isa = PBXGroup;
+			children = (
+				1F6A594F1CF22AD2009E0D71 /* XDAESCryptUtils.h */,
+				1F6A59501CF22AD2009E0D71 /* XDAESCryptUtils.m */,
+			);
+			path = AES256;
+			sourceTree = "<group>";
+		};
+		1F6A59451CF22909009E0D71 /* EncryptBase */ = {
+			isa = PBXGroup;
+			children = (
+				1F6A59461CF22935009E0D71 /* NSString+XD_EncryptBase64.h */,
+				1F6A59471CF22935009E0D71 /* NSString+XD_EncryptBase64.m */,
+				1F6A59491CF2298E009E0D71 /* NSData+XD_EncryptBase64.h */,
+				1F6A594A1CF2298E009E0D71 /* NSData+XD_EncryptBase64.m */,
+				1F6A594C1CF229EE009E0D71 /* NSString+XD_Encrypt_MD5.h */,
+				1F6A594D1CF229EE009E0D71 /* NSString+XD_Encrypt_MD5.m */,
+				1F6A59521CF22B11009E0D71 /* NSData+XD_Encrypt_Common_Crypto.h */,
+				1F6A59531CF22B11009E0D71 /* NSData+XD_Encrypt_Common_Crypto.m */,
+			);
+			path = EncryptBase;
 			sourceTree = "<group>";
 		};
 		1F9A83841CEE34DE0070CE07 /* XDCommonLib */ = {
@@ -2457,6 +2505,7 @@
 		1F9A85ED1CEE34DE0070CE07 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				1F6A59431CF228C7009E0D71 /* EncryptUtils */,
 				1F09D1B81CF0E5AF00399F64 /* XDLayoutContraintHandyKit */,
 				1F9A85EE1CEE34DE0070CE07 /* BlocksKit */,
 				1F9A86471CEE34DF0070CE07 /* BlockThrottle */,
@@ -3017,6 +3066,7 @@
 				1F9A86EC1CEE34DF0070CE07 /* NSTimer+Addition.m in Sources */,
 				1F9A86F11CEE34DF0070CE07 /* NSURLRequest+ParamsFromDictionary.m in Sources */,
 				1F9A87B81CEE34DF0070CE07 /* UIGestureRecognizer+BlocksKit.m in Sources */,
+				1F6A59541CF22B11009E0D71 /* NSData+XD_Encrypt_Common_Crypto.m in Sources */,
 				1F9A869C1CEE34DF0070CE07 /* NSData+Gzip.m in Sources */,
 				1F9A87401CEE34DF0070CE07 /* UINavigationController+StackManager.m in Sources */,
 				1F9A86931CEE34DF0070CE07 /* CLLocationManager+Blocks.m in Sources */,
@@ -3114,6 +3164,7 @@
 				1F9A877A1CEE34DF0070CE07 /* UIWebView+JS.m in Sources */,
 				1F9A86E51CEE34DF0070CE07 /* NSString+UrlEncode.m in Sources */,
 				1F9A877E1CEE34DF0070CE07 /* UIWebVIew+SwipeGesture.m in Sources */,
+				1F6A594B1CF2298E009E0D71 /* NSData+XD_EncryptBase64.m in Sources */,
 				1F9A87A81CEE34DF0070CE07 /* NSOrderedSet+BlocksKit.m in Sources */,
 				1F9A87B41CEE34DF0070CE07 /* UIActionSheet+BlocksKit.m in Sources */,
 				1F9A874B1CEE34DF0070CE07 /* UIScrollView+Pages.m in Sources */,
@@ -3134,6 +3185,7 @@
 				1F9A879D1CEE34DF0070CE07 /* NSInvocation+BlocksKit.m in Sources */,
 				1F9A87AB1CEE34DF0070CE07 /* A2BlockInvocation.m in Sources */,
 				1F9A87151CEE34DF0070CE07 /* UIColor+Web.m in Sources */,
+				1F6A594E1CF229EE009E0D71 /* NSString+XD_Encrypt_MD5.m in Sources */,
 				1F9A87791CEE34DF0070CE07 /* UIWebView+Canvas.m in Sources */,
 				1F9A87491CEE34DF0070CE07 /* UIScrollView+Addition.m in Sources */,
 				1F9A87AA1CEE34DF0070CE07 /* NSTimer+BlocksKit.m in Sources */,
@@ -3323,6 +3375,7 @@
 				1F9A86A31CEE34DF0070CE07 /* NSDate+Formatter.m in Sources */,
 				1F9A87671CEE34DF0070CE07 /* UIView+Toast.m in Sources */,
 				1F9A87131CEE34DF0070CE07 /* UIColor+Modify.m in Sources */,
+				1F6A59481CF22935009E0D71 /* NSString+XD_EncryptBase64.m in Sources */,
 				1F9A87101CEE34DF0070CE07 /* UIButton+TouchAreaInsets.m in Sources */,
 				1F9A868F1CEE34DF0070CE07 /* NSManagedObjectContext+FetchRequestsConstructors.m in Sources */,
 				1F9A87331CEE34DF0070CE07 /* UIImageView+GeometryConversion.m in Sources */,
@@ -3336,6 +3389,7 @@
 				1F09D2001CF0E69E00399F64 /* NSView+BackgroundColor.m in Sources */,
 				1F9A86ED1CEE34DF0070CE07 /* NSTimer+Blocks.m in Sources */,
 				1F9A86F81CEE34DF0070CE07 /* MKMapView+ZoomLevel.m in Sources */,
+				1F6A59511CF22AD2009E0D71 /* XDAESCryptUtils.m in Sources */,
 				1F9A87591CEE34DF0070CE07 /* UIView+BlockGesture.m in Sources */,
 				1F9A868E1CEE34DF0070CE07 /* NSManagedObjectContext+Fetching.m in Sources */,
 				1F9A87A51CEE34DF0070CE07 /* NSObject+BKAssociatedObjects.m in Sources */,

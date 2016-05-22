@@ -20,6 +20,9 @@
 #import "UIViewController+IB.h"
 #import "XDFluxDispatcherDemo.h"
 
+#import "XDAESCryptUtils.h"
+#import "NSString+XD_Encrypt_MD5.h"
+
 static NSString *const SBTableLayoutTabVC = @"SBTableLayoutTabVC";
 
 @interface ViewController ()
@@ -44,6 +47,7 @@ static NSString *const SBTableLayoutTabVC = @"SBTableLayoutTabVC";
     [mTestCases addObject:@"农历测试"];
     [mTestCases addObject:@"简单的美化滤镜效果"];
     [mTestCases addObject:@"XDFluxDispatcherDemo"];
+    [mTestCases addObject:@"testAES256"];
 }
 
 
@@ -188,6 +192,11 @@ static NSString *const SBTableLayoutTabVC = @"SBTableLayoutTabVC";
             [XDFluxDispatcherDemo test];
             
         } break;
+        case 10:{
+            
+            [self testAES256];
+            
+        } break;
         default:
             break;
     }
@@ -195,6 +204,33 @@ static NSString *const SBTableLayoutTabVC = @"SBTableLayoutTabVC";
 
 
 #pragma mark - 
+
+- (void)testAES256
+{
+    NSString *plainTxt = @"aaaaa";
+    NSString *key = @"]EN,JI*@d[CmO=^7hzE).J[m4oIbL3#(";
+    
+    NSString *IVStr = @"c^S#ukjF#!q7rgfN";
+    
+    NSString *md5IVStr = [NSString MD5:IVStr];
+    
+    NSData *iv = [md5IVStr stringToHexData];//[md5IVStr dataUsingEncoding:NSUTF8StringEncoding];
+    
+    
+    
+    //    NSString *cipherTxt = [AESCrypt encrypt:plainTxt password:key];
+    NSString *cipherTxt = [XDAESCryptUtils encrypt:plainTxt password:key iv:iv];
+    
+    NSLog(@"%@", cipherTxt);
+    
+    cipherTxt = @"0rae3ZY8qPVnw34Pthsoyw==";//@"kQk7sffQ22xa3+5SY3/maA==";
+    
+    //    NSString *decodeTxt = [AESCrypt decrypt:cipherTxt password:key];
+    NSString *decodeTxt = [XDAESCryptUtils decrypt:cipherTxt password:key iv:iv];
+    
+    
+    NSLog(@"%@", decodeTxt);
+}
 
 
 @end
