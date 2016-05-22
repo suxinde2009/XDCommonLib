@@ -10,8 +10,11 @@
 
 @interface NSPersistentStoreCoordinator (Custom)
 
-+ (void) setDataModelName: (NSString *) name withStoreName: (NSString *) storeFileName;
-+ (NSPersistentStoreCoordinator *) sharedPersisntentStoreCoordinator;
-+ (void) setNewPresistentStore: (NSPersistentStoreCoordinator *) store;
++ (void)setDataModelName:(NSString *)name
+           withStoreName:(NSString *)storeFileName;
+
++ (NSPersistentStoreCoordinator *)sharedPersisntentStoreCoordinator;
+
++ (void)setNewPresistentStore:(NSPersistentStoreCoordinator *)store;
 
 @end

@@ -18,12 +18,13 @@ static NSString *_storeFileName = nil;
     return [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) lastObject];
 }
 
-+ (void) setDataModelName: (NSString *) name withStoreName: (NSString *) storeFileName {
++ (void)setDataModelName:(NSString *)name
+           withStoreName:(NSString *)storeFileName {
     _dataModelName = name;
     _storeFileName = storeFileName;
 }
 
-+(NSPersistentStoreCoordinator *) sharedPersisntentStoreCoordinator
++ (NSPersistentStoreCoordinator *)sharedPersisntentStoreCoordinator
 {
     NSAssert(_dataModelName, @"Core Data model name has not been set. Use [NSPersistentStoreCoordinator setDataModelName:].");
     
@@ -54,7 +55,7 @@ static NSString *_storeFileName = nil;
     return _sharedPersistentStore;
 }
 
-+ (void) setNewPresistentStore: (NSPersistentStoreCoordinator *) store
++ (void)setNewPresistentStore:(NSPersistentStoreCoordinator *)store
 {
     _sharedPersistentStore = store;
 }

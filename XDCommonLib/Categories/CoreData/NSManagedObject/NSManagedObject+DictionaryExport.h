@@ -31,7 +31,9 @@
 
 @interface NSManagedObject (DictionaryExport)
 
+
 - (NSDictionary *)asDictionary;
 //http://stackoverflow.com/questions/5664423/storing-nsmanagedobject-in-a-dictionary-nsdictionary
 - (NSDictionary *)Dictionary;
+
 @end
