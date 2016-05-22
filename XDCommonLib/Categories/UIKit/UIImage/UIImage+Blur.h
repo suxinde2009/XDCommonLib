@@ -7,9 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+
 FOUNDATION_EXPORT double ImageEffectsVersionNumber;
 FOUNDATION_EXPORT const unsigned char ImageEffectsVersionString[];
+
 @interface UIImage (Blur)
+
 - (UIImage *)lightImage;
 - (UIImage *)extraLightImage;
 - (UIImage *)darkImage;
