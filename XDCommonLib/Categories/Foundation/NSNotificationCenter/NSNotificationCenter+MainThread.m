@@ -9,6 +9,7 @@
 #import "NSNotificationCenter+MainThread.h"
 
 @implementation NSNotificationCenter (MainThread)
+
 /**
  *  @brief  在主线程中发送一条通知
  *
@@ -18,6 +19,7 @@
 {
     [self performSelectorOnMainThread:@selector(postNotification:) withObject:notification waitUntilDone:YES];
 }
+
 /**
  *  @brief  在主线程中发送一条通知
  *
@@ -29,6 +31,7 @@
     NSNotification *notification = [NSNotification notificationWithName:aName object:anObject];
     [self postNotificationOnMainThread:notification];
 }
+
 /**
  *  @brief  在主线程中发送一条通知
  *
