@@ -10,6 +10,8 @@
 
 @interface UISearchBar (Blocks)
 
+
+
 @property (copy, nonatomic) BOOL (^completionShouldBeginEditingBlock)(UISearchBar *searchbar);
 @property (copy, nonatomic) void (^completionTextDidBeginEditingBlock)(UISearchBar *searchBar);
 @property (copy, nonatomic) BOOL (^completionShouldEndEditingBlock)(UISearchBar *searchBar);

@@ -24,6 +24,7 @@
 // SOFTWARE.
 #import "UITextField+Blocks.h"
 #import <objc/runtime.h>
+
 typedef BOOL (^UITextFieldReturnBlock) (UITextField *textField);
 typedef void (^UITextFieldVoidBlock) (UITextField *textField);
 typedef BOOL (^UITextFieldCharacterChangeBlock) (UITextField *textField, NSRange range, NSString *replacementString);
@@ -36,6 +37,7 @@ static const void *UITextFieldDidEndEditingKey = &UITextFieldDidEndEditingKey;
 static const void *UITextFieldShouldChangeCharactersInRangeKey = &UITextFieldShouldChangeCharactersInRangeKey;
 static const void *UITextFieldShouldClearKey = &UITextFieldShouldClearKey;
 static const void *UITextFieldShouldReturnKey = &UITextFieldShouldReturnKey;
+
 #pragma mark UITextField Delegate methods
 + (BOOL)textFieldShouldBeginEditing:(UITextField *)textField
 {

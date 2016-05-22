@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface UITextField (Select)
+
 /**
  *  @brief  当前选中的字符串范围
  *
@@ -25,4 +26,5 @@
  *  @param range NSRange范围
  */
 - (void)setSelectedRange:(NSRange)range;
+
 @end

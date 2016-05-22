@@ -9,6 +9,7 @@
 #import "UITextField+Select.h"
 
 @implementation UITextField (Select)
+
 /**
  *  @brief  当前选中的字符串范围
  *
@@ -46,4 +47,5 @@
     UITextRange *selectionRange = [self textRangeFromPosition:startPosition toPosition:endPosition];
     [self setSelectedTextRange:selectionRange];
 }
+
 @end
