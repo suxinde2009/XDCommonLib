@@ -119,4 +119,10 @@ typedef enum
 + (long long)freeDiskSpaceBytes;
 /// 获取手机硬盘总空间, 返回的是字节数
 + (long long)totalDiskSpaceBytes;
+
+/**
+ *  获取手机CPU暂用率
+ */
++ (float)currentAppCPUUsage;
+
 @end
