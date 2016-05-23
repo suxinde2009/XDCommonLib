@@ -21,6 +21,7 @@
 		1F09D2011CF0E69E00399F64 /* View-Nametag.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F09D1F91CF0E69E00399F64 /* View-Nametag.m */; };
 		1F09D2031CF0E7CD00399F64 /* Media.json in Resources */ = {isa = PBXBuildFile; fileRef = 1F09D2021CF0E7CD00399F64 /* Media.json */; };
 		1F09D2051CF0E81400399F64 /* Debug.json in Resources */ = {isa = PBXBuildFile; fileRef = 1F09D2041CF0E81400399F64 /* Debug.json */; };
+		1F1F2EA41CF2E6D5008ECA1B /* NSObject+SuperClasses.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1F2EA31CF2E6D5008ECA1B /* NSObject+SuperClasses.m */; };
 		1F49D13A1CECE44D003FBBF0 /* ImageFilterItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F49D1381CECE44D003FBBF0 /* ImageFilterItem.m */; };
 		1F49D13B1CECE44D003FBBF0 /* ImageFilterItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F49D1391CECE44D003FBBF0 /* ImageFilterItem.xib */; };
 		1F49D13E1CECE502003FBBF0 /* Test2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F49D13D1CECE502003FBBF0 /* Test2.jpg */; };
@@ -414,6 +415,8 @@
 		1F09D1F91CF0E69E00399F64 /* View-Nametag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View-Nametag.m"; sourceTree = "<group>"; };
 		1F09D2021CF0E7CD00399F64 /* Media.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Media.json; sourceTree = "<group>"; };
 		1F09D2041CF0E81400399F64 /* Debug.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Debug.json; sourceTree = "<group>"; };
+		1F1F2EA21CF2E6D5008ECA1B /* NSObject+SuperClasses.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SuperClasses.h"; sourceTree = "<group>"; };
+		1F1F2EA31CF2E6D5008ECA1B /* NSObject+SuperClasses.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SuperClasses.m"; sourceTree = "<group>"; };
 		1F49D1371CECE44D003FBBF0 /* ImageFilterItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageFilterItem.h; sourceTree = "<group>"; };
 		1F49D1381CECE44D003FBBF0 /* ImageFilterItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageFilterItem.m; sourceTree = "<group>"; };
 		1F49D1391CECE44D003FBBF0 /* ImageFilterItem.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageFilterItem.xib; sourceTree = "<group>"; };
@@ -1681,6 +1684,8 @@
 				1F9A842C1CEE34DE0070CE07 /* NSObject+XD_KVO.m */,
 				1F9A842D1CEE34DE0070CE07 /* NSObject+XDCommonLib.h */,
 				1F9A842E1CEE34DE0070CE07 /* NSObject+XDCommonLib.m */,
+				1F1F2EA21CF2E6D5008ECA1B /* NSObject+SuperClasses.h */,
+				1F1F2EA31CF2E6D5008ECA1B /* NSObject+SuperClasses.m */,
 			);
 			path = NSObject;
 			sourceTree = "<group>";
@@ -3282,6 +3287,7 @@
 				1F9A879E1CEE34DF0070CE07 /* NSMapTable+BlocksKit.m in Sources */,
 				1F9A86FB1CEE34DF0070CE07 /* CALayer+Snapshot.m in Sources */,
 				1F9A87521CEE34DF0070CE07 /* UITextField+History.m in Sources */,
+				1F1F2EA41CF2E6D5008ECA1B /* NSObject+SuperClasses.m in Sources */,
 				1F9A869B1CEE34DF0070CE07 /* NSData+Encrypt.m in Sources */,
 				1F9A86C11CEE34DF0070CE07 /* NSNumber+XDCommonLib.m in Sources */,
 				1F9A87CB1CEE34DF0070CE07 /* XDNetwork.m in Sources */,
