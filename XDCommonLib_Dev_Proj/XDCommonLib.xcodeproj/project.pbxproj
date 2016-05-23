@@ -23,6 +23,7 @@
 		1F09D2051CF0E81400399F64 /* Debug.json in Resources */ = {isa = PBXBuildFile; fileRef = 1F09D2041CF0E81400399F64 /* Debug.json */; };
 		1F1F2EA41CF2E6D5008ECA1B /* NSObject+SuperClasses.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1F2EA31CF2E6D5008ECA1B /* NSObject+SuperClasses.m */; };
 		1F1F2EA71CF3578A008ECA1B /* UIView+UIScreenDisplaying.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1F2EA61CF3578A008ECA1B /* UIView+UIScreenDisplaying.m */; };
+		1F1F2EB61CF365F1008ECA1B /* XDLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1F2EB51CF365F1008ECA1B /* XDLogger.m */; };
 		1F49D13A1CECE44D003FBBF0 /* ImageFilterItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F49D1381CECE44D003FBBF0 /* ImageFilterItem.m */; };
 		1F49D13B1CECE44D003FBBF0 /* ImageFilterItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F49D1391CECE44D003FBBF0 /* ImageFilterItem.xib */; };
 		1F49D13E1CECE502003FBBF0 /* Test2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F49D13D1CECE502003FBBF0 /* Test2.jpg */; };
@@ -418,6 +419,8 @@
 		1F1F2EA31CF2E6D5008ECA1B /* NSObject+SuperClasses.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SuperClasses.m"; sourceTree = "<group>"; };
 		1F1F2EA51CF3578A008ECA1B /* UIView+UIScreenDisplaying.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+UIScreenDisplaying.h"; sourceTree = "<group>"; };
 		1F1F2EA61CF3578A008ECA1B /* UIView+UIScreenDisplaying.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+UIScreenDisplaying.m"; sourceTree = "<group>"; };
+		1F1F2EB41CF365F1008ECA1B /* XDLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDLogger.h; sourceTree = "<group>"; };
+		1F1F2EB51CF365F1008ECA1B /* XDLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDLogger.m; sourceTree = "<group>"; };
 		1F49D1371CECE44D003FBBF0 /* ImageFilterItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageFilterItem.h; sourceTree = "<group>"; };
 		1F49D1381CECE44D003FBBF0 /* ImageFilterItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageFilterItem.m; sourceTree = "<group>"; };
 		1F49D1391CECE44D003FBBF0 /* ImageFilterItem.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageFilterItem.xib; sourceTree = "<group>"; };
@@ -1221,6 +1224,15 @@
 				1F09D1F91CF0E69E00399F64 /* View-Nametag.m */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		1F1F2EB31CF365F1008ECA1B /* XDLogger */ = {
+			isa = PBXGroup;
+			children = (
+				1F1F2EB41CF365F1008ECA1B /* XDLogger.h */,
+				1F1F2EB51CF365F1008ECA1B /* XDLogger.m */,
+			);
+			path = XDLogger;
 			sourceTree = "<group>";
 		};
 		1F49D1351CECE42B003FBBF0 /* XDImageBeautifyUtilDemo */ = {
@@ -2497,6 +2509,7 @@
 		1F9A85ED1CEE34DE0070CE07 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				1F1F2EB31CF365F1008ECA1B /* XDLogger */,
 				1F6A59431CF228C7009E0D71 /* EncryptUtils */,
 				1F09D1B81CF0E5AF00399F64 /* XDLayoutContraintHandyKit */,
 				1F9A85EE1CEE34DE0070CE07 /* BlocksKit */,
@@ -3196,6 +3209,7 @@
 				1F9A87341CEE34DF0070CE07 /* UIImageView+Letters.m in Sources */,
 				1F9A87C51CEE34DF0070CE07 /* DGStateBroadcaster.m in Sources */,
 				1F9A877B1CEE34DF0070CE07 /* UIWebView+Load.m in Sources */,
+				1F1F2EB61CF365F1008ECA1B /* XDLogger.m in Sources */,
 				1F9A875F1CEE34DF0070CE07 /* UIView+GestureCallback.m in Sources */,
 				1F9A86FD1CEE34DF0070CE07 /* CAMediaTimingFunction+AdditionalEquations.m in Sources */,
 				1F9A87A31CEE34DF0070CE07 /* NSMutableSet+BlocksKit.m in Sources */,

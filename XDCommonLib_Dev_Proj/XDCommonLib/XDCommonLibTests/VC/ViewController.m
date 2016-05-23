@@ -23,6 +23,8 @@
 #import "XDAESCryptUtils.h"
 #import "NSString+XD_Encrypt_MD5.h"
 
+#import "XDLogger.h"
+
 static NSString *const SBTableLayoutTabVC = @"SBTableLayoutTabVC";
 
 @interface ViewController ()
@@ -48,6 +50,7 @@ static NSString *const SBTableLayoutTabVC = @"SBTableLayoutTabVC";
     [mTestCases addObject:@"简单的美化滤镜效果"];
     [mTestCases addObject:@"XDFluxDispatcherDemo"];
     [mTestCases addObject:@"testAES256"];
+    [mTestCases addObject:@"XDLogger"];
 }
 
 
@@ -197,6 +200,14 @@ static NSString *const SBTableLayoutTabVC = @"SBTableLayoutTabVC";
             [self testAES256];
             
         } break;
+            
+        case 11:{
+            
+            XDLog(@"%@", @"测试");
+            CC(@"%@", @"测试");
+            
+        } break;
+            
         default:
             break;
     }

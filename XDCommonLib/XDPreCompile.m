@@ -8,6 +8,7 @@
 
 #import "XDPreCompile.h"
 
+/*
 void XDLog(NSString *format, ...) {
 #ifdef __XD_DEBUG__
     va_list argptr;
@@ -16,3 +17,4 @@ void XDLog(NSString *format, ...) {
     va_end(argptr);
 #endif
 }
+*/
