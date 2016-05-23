@@ -10,26 +10,26 @@
 #import <objc/runtime.h>
 BOOL method_swizzle(Class klass, SEL origSel, SEL altSel)
 {
-    if (!klass)
+    if (!klass) {
         return NO;
-    
+    }
+   
     Method __block origMethod, __block altMethod;
     
-    void (^find_methods)() = ^
-    {
+    void (^find_methods)() = ^ {
         unsigned methodCount = 0;
         Method *methodList = class_copyMethodList(klass, &methodCount);
         
         origMethod = altMethod = NULL;
         
         if (methodList)
-            for (unsigned i = 0; i < methodCount; ++i)
-            {
-                if (method_getName(methodList[i]) == origSel)
+            for (unsigned i = 0; i < methodCount; ++i) {
+                if (method_getName(methodList[i]) == origSel) {
                     origMethod = methodList[i];
-                
-                if (method_getName(methodList[i]) == altSel)
+                }
+                if (method_getName(methodList[i]) == altSel) {
                     altMethod = methodList[i];
+                }
             }
         
         free(methodList);
@@ -37,33 +37,33 @@ BOOL method_swizzle(Class klass, SEL origSel, SEL altSel)
     
     find_methods();
     
-    if (!origMethod)
-    {
+    if (!origMethod) {
         origMethod = class_getInstanceMethod(klass, origSel);
         
-        if (!origMethod)
+        if (!origMethod) {
             return NO;
-        
-        if (!class_addMethod(klass, method_getName(origMethod), method_getImplementation(origMethod), method_getTypeEncoding(origMethod)))
+        }
+        if (!class_addMethod(klass, method_getName(origMethod), method_getImplementation(origMethod), method_getTypeEncoding(origMethod))) {
             return NO;
+        }
     }
     
-    if (!altMethod)
-    {
+    if (!altMethod) {
         altMethod = class_getInstanceMethod(klass, altSel);
         
-        if (!altMethod)
+        if (!altMethod) {
             return NO;
-        
-        if (!class_addMethod(klass, method_getName(altMethod), method_getImplementation(altMethod), method_getTypeEncoding(altMethod)))
+        }
+        if (!class_addMethod(klass, method_getName(altMethod), method_getImplementation(altMethod), method_getTypeEncoding(altMethod))) {
             return NO;
+        }
     }
     
     find_methods();
     
-    if (!origMethod || !altMethod)
+    if (!origMethod || !altMethod) {
         return NO;
-    
+    }
     method_exchangeImplementations(origMethod, altMethod);
     
     return YES;
@@ -71,27 +71,27 @@ BOOL method_swizzle(Class klass, SEL origSel, SEL altSel)
 
 void method_append(Class toClass, Class fromClass, SEL selector)
 {
-    if (!toClass || !fromClass || !selector)
+    if (!toClass || !fromClass || !selector) {
         return;
-    
+    }
     Method method = class_getInstanceMethod(fromClass, selector);
     
-    if (!method)
+    if (!method) {
         return;
-    
+    }
     class_addMethod(toClass, method_getName(method), method_getImplementation(method), method_getTypeEncoding(method));
 }
 
 void method_replace(Class toClass, Class fromClass, SEL selector)
 {
-    if (!toClass || !fromClass || ! selector)
+    if (!toClass || !fromClass || ! selector) {
         return;
-    
+    }
     Method method = class_getInstanceMethod(fromClass, selector);
     
-    if (!method)
+    if (!method) {
         return;
-    
+    }
     class_replaceMethod(toClass, method_getName(method), method_getImplementation(method), method_getTypeEncoding(method));
 }
 

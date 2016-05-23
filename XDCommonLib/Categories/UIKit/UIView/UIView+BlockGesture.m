@@ -14,6 +14,7 @@ static char kActionHandlerLongPressBlockKey;
 static char kActionHandlerLongPressGestureKey;
 
 @implementation UIView (BlockGesture)
+
 - (void)addTapActionWithBlock:(GestureActionBlock)block
 {
     UITapGestureRecognizer *gesture = objc_getAssociatedObject(self, &kActionHandlerTapGestureKey);
@@ -25,6 +26,7 @@ static char kActionHandlerLongPressGestureKey;
     }
     objc_setAssociatedObject(self, &kActionHandlerTapBlockKey, block, OBJC_ASSOCIATION_COPY);
 }
+
 - (void)handleActionForTapGesture:(UITapGestureRecognizer*)gesture
 {
     if (gesture.state == UIGestureRecognizerStateRecognized)
@@ -36,6 +38,7 @@ static char kActionHandlerLongPressGestureKey;
         }
     }
 }
+
 - (void)addLongPressActionWithBlock:(GestureActionBlock)block
 {
     UILongPressGestureRecognizer *gesture = objc_getAssociatedObject(self, &kActionHandlerLongPressGestureKey);
@@ -47,6 +50,7 @@ static char kActionHandlerLongPressGestureKey;
     }
     objc_setAssociatedObject(self, &kActionHandlerLongPressBlockKey, block, OBJC_ASSOCIATION_COPY);
 }
+
 - (void)handleActionForLongPressGesture:(UITapGestureRecognizer*)gesture
 {
     if (gesture.state == UIGestureRecognizerStateRecognized)
@@ -58,4 +62,5 @@ static char kActionHandlerLongPressGestureKey;
         }
     }
 }
+
 @end
