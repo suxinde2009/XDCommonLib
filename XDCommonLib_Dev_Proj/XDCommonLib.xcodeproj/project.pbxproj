@@ -359,6 +359,7 @@
 		1F9A87D71CEE34DF0070CE07 /* XDPreCompile.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9A86851CEE34DF0070CE07 /* XDPreCompile.m */; };
 		1F9CA6051CE0FD5D00F53C03 /* SBTableLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9CA6021CE0FD5D00F53C03 /* SBTableLayoutViewController.m */; };
 		1F9CA6061CE0FD5D00F53C03 /* SBTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9CA6041CE0FD5D00F53C03 /* SBTableViewController.m */; };
+		1FA07BC51CF3F50C005BAABE /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA07BC41CF3F50C005BAABE /* NSData+ImageContentType.m */; };
 		1FA4D17F1CF0CFB3005AD187 /* NSFileManager+XD_Handy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA4D17E1CF0CFB3005AD187 /* NSFileManager+XD_Handy.m */; };
 		1FA4D1831CF0DAE5005AD187 /* XDFluxDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA4D1821CF0DAE5005AD187 /* XDFluxDispatcher.m */; };
 		1FA4D1871CF0DC19005AD187 /* XDFluxDispatcherDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA4D1861CF0DC19005AD187 /* XDFluxDispatcherDemo.m */; };
@@ -1090,6 +1091,8 @@
 		1F9CA6021CE0FD5D00F53C03 /* SBTableLayoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBTableLayoutViewController.m; sourceTree = "<group>"; };
 		1F9CA6031CE0FD5D00F53C03 /* SBTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBTableViewController.h; sourceTree = "<group>"; };
 		1F9CA6041CE0FD5D00F53C03 /* SBTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBTableViewController.m; sourceTree = "<group>"; };
+		1FA07BC31CF3F50C005BAABE /* NSData+ImageContentType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+ImageContentType.h"; sourceTree = "<group>"; };
+		1FA07BC41CF3F50C005BAABE /* NSData+ImageContentType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+ImageContentType.m"; sourceTree = "<group>"; };
 		1FA4D17D1CF0CFB3005AD187 /* NSFileManager+XD_Handy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+XD_Handy.h"; sourceTree = "<group>"; };
 		1FA4D17E1CF0CFB3005AD187 /* NSFileManager+XD_Handy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+XD_Handy.m"; sourceTree = "<group>"; };
 		1FA4D1811CF0DAE5005AD187 /* XDFluxDispatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDFluxDispatcher.h; sourceTree = "<group>"; };
@@ -1520,6 +1523,8 @@
 				1F9A83C41CEE34DE0070CE07 /* NSData+XDCommonLib.m */,
 				1F9A83C51CEE34DE0070CE07 /* NSData+zlib.h */,
 				1F9A83C61CEE34DE0070CE07 /* NSData+zlib.m */,
+				1FA07BC31CF3F50C005BAABE /* NSData+ImageContentType.h */,
+				1FA07BC41CF3F50C005BAABE /* NSData+ImageContentType.m */,
 			);
 			path = NSData;
 			sourceTree = "<group>";
@@ -3403,6 +3408,7 @@
 				1F9A86991CEE34DF0070CE07 /* NSData+APNSToken.m in Sources */,
 				1F9A86891CEE34DF0070CE07 /* XDContactEntity.m in Sources */,
 				1F9A86E11CEE34DF0070CE07 /* NSString+Score.m in Sources */,
+				1FA07BC51CF3F50C005BAABE /* NSData+ImageContentType.m in Sources */,
 				1F9A86FE1CEE34DF0070CE07 /* CAShapeLayer+UIBezierPath.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
