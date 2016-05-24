@@ -19,6 +19,22 @@ NS_INLINE void XDRunOnMainThread(void  (^ _Nonnull block)(void)) {
     });
 }
 
+NS_INLINE void xd_dispatch_async_cancelLable(_Nonnull dispatch_queue_t queue,  BOOL * _Nullable cancel, _Nonnull dispatch_block_t block) {
+    
+    if ((*cancel) == YES) {
+        return;
+    }
+    dispatch_async(queue, ^{
+        if ((*cancel) == YES) {
+            return;
+        }
+        if (block) {
+            block();
+        }
+    });
+}
+
+
 @interface NSThread (Utils)
 
 @end
