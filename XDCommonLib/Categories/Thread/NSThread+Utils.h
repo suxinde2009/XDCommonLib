@@ -8,6 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
+// The dispatch_cancel_block_t takes as parameter the "cancel" directive to suspend the block execution or not whenever the block to execute is dispatched.
+// The return value is a boolean indicating if the block has already been executed or not.
+typedef BOOL (^dispatch_cancel_block_t)(BOOL cancelBlock);
+
 /**
  *  Runs a block in the main thread
  *
