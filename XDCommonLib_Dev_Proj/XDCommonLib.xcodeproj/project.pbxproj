@@ -364,6 +364,7 @@
 		1FA4D17F1CF0CFB3005AD187 /* NSFileManager+XD_Handy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA4D17E1CF0CFB3005AD187 /* NSFileManager+XD_Handy.m */; };
 		1FA4D1831CF0DAE5005AD187 /* XDFluxDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA4D1821CF0DAE5005AD187 /* XDFluxDispatcher.m */; };
 		1FA4D1871CF0DC19005AD187 /* XDFluxDispatcherDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA4D1861CF0DC19005AD187 /* XDFluxDispatcherDemo.m */; };
+		1FB3EF501CF4D3B700C2CAF9 /* XDPinYin.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FB3EF4F1CF4D3B700C2CAF9 /* XDPinYin.m */; };
 		1FBB72291AF9356D005B3F99 /* MulticastDelegateDemoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBB72281AF9356D005B3F99 /* MulticastDelegateDemoVC.m */; };
 		1FC8F5901AF7DA0D00CA2AC0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC8F58F1AF7DA0D00CA2AC0 /* main.m */; };
 		1FC8F5931AF7DA0D00CA2AC0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC8F5921AF7DA0D00CA2AC0 /* AppDelegate.m */; };
@@ -1102,6 +1103,8 @@
 		1FA4D1821CF0DAE5005AD187 /* XDFluxDispatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDFluxDispatcher.m; sourceTree = "<group>"; };
 		1FA4D1851CF0DC19005AD187 /* XDFluxDispatcherDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDFluxDispatcherDemo.h; sourceTree = "<group>"; };
 		1FA4D1861CF0DC19005AD187 /* XDFluxDispatcherDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDFluxDispatcherDemo.m; sourceTree = "<group>"; };
+		1FB3EF4E1CF4D3B700C2CAF9 /* XDPinYin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDPinYin.h; sourceTree = "<group>"; };
+		1FB3EF4F1CF4D3B700C2CAF9 /* XDPinYin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDPinYin.m; sourceTree = "<group>"; };
 		1FBB72271AF9356D005B3F99 /* MulticastDelegateDemoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MulticastDelegateDemoVC.h; sourceTree = "<group>"; };
 		1FBB72281AF9356D005B3F99 /* MulticastDelegateDemoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MulticastDelegateDemoVC.m; sourceTree = "<group>"; };
 		1FC8F58A1AF7DA0D00CA2AC0 /* XDCommonLib.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XDCommonLib.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -2527,6 +2530,7 @@
 		1F9A85ED1CEE34DE0070CE07 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				1FB3EF4D1CF4D39E00C2CAF9 /* XDPinYin */,
 				1F1F2EB31CF365F1008ECA1B /* XDLogger */,
 				1F6A59431CF228C7009E0D71 /* EncryptUtils */,
 				1F09D1B81CF0E5AF00399F64 /* XDLayoutContraintHandyKit */,
@@ -2866,6 +2870,15 @@
 				1FA4D1861CF0DC19005AD187 /* XDFluxDispatcherDemo.m */,
 			);
 			path = XDFluxDispatcherDemo;
+			sourceTree = "<group>";
+		};
+		1FB3EF4D1CF4D39E00C2CAF9 /* XDPinYin */ = {
+			isa = PBXGroup;
+			children = (
+				1FB3EF4E1CF4D3B700C2CAF9 /* XDPinYin.h */,
+				1FB3EF4F1CF4D3B700C2CAF9 /* XDPinYin.m */,
+			);
+			path = XDPinYin;
 			sourceTree = "<group>";
 		};
 		1FC8F5811AF7DA0D00CA2AC0 = {
@@ -3333,6 +3346,7 @@
 				1F9A87BC1CEE34DF0070CE07 /* UITextField+BlocksKit.m in Sources */,
 				1F9A87BD1CEE34DF0070CE07 /* UITextView+BlocksKit.m in Sources */,
 				1F9A87851CEE34DF0070CE07 /* XDLogUtils.m in Sources */,
+				1FB3EF501CF4D3B700C2CAF9 /* XDPinYin.m in Sources */,
 				1F9A87D31CEE34DF0070CE07 /* SBCollectionViewTableSupplementaryView.m in Sources */,
 				1F9A87651CEE34DF0070CE07 /* UIView+Shake.m in Sources */,
 				1F9A87091CEE34DF0070CE07 /* UIBezierPath+SVG.m in Sources */,
