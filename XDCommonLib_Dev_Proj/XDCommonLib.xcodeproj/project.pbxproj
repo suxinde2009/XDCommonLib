@@ -22,6 +22,8 @@
 		1F09D2031CF0E7CD00399F64 /* Media.json in Resources */ = {isa = PBXBuildFile; fileRef = 1F09D2021CF0E7CD00399F64 /* Media.json */; };
 		1F09D2051CF0E81400399F64 /* Debug.json in Resources */ = {isa = PBXBuildFile; fileRef = 1F09D2041CF0E81400399F64 /* Debug.json */; };
 		1F0F0AFB1CF4CD540030E1C2 /* AVAsset+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0F0AFA1CF4CD540030E1C2 /* AVAsset+Utils.m */; };
+		1F16E8F51CF68CDF0039847B /* AppDelegate+XDContinuousBootCrashPreventTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F16E8F21CF68CDF0039847B /* AppDelegate+XDContinuousBootCrashPreventTool.m */; };
+		1F16E8F61CF68CDF0039847B /* XDContinuousBootCrashPreventTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F16E8F41CF68CDF0039847B /* XDContinuousBootCrashPreventTool.m */; };
 		1F1F2EA41CF2E6D5008ECA1B /* NSObject+SuperClasses.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1F2EA31CF2E6D5008ECA1B /* NSObject+SuperClasses.m */; };
 		1F1F2EA71CF3578A008ECA1B /* UIView+UIScreenDisplaying.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1F2EA61CF3578A008ECA1B /* UIView+UIScreenDisplaying.m */; };
 		1F1F2EB61CF365F1008ECA1B /* XDLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1F2EB51CF365F1008ECA1B /* XDLogger.m */; };
@@ -420,6 +422,10 @@
 		1F09D2041CF0E81400399F64 /* Debug.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Debug.json; sourceTree = "<group>"; };
 		1F0F0AF91CF4CD540030E1C2 /* AVAsset+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AVAsset+Utils.h"; sourceTree = "<group>"; };
 		1F0F0AFA1CF4CD540030E1C2 /* AVAsset+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AVAsset+Utils.m"; sourceTree = "<group>"; };
+		1F16E8F11CF68CDF0039847B /* AppDelegate+XDContinuousBootCrashPreventTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+XDContinuousBootCrashPreventTool.h"; sourceTree = "<group>"; };
+		1F16E8F21CF68CDF0039847B /* AppDelegate+XDContinuousBootCrashPreventTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+XDContinuousBootCrashPreventTool.m"; sourceTree = "<group>"; };
+		1F16E8F31CF68CDF0039847B /* XDContinuousBootCrashPreventTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDContinuousBootCrashPreventTool.h; sourceTree = "<group>"; };
+		1F16E8F41CF68CDF0039847B /* XDContinuousBootCrashPreventTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDContinuousBootCrashPreventTool.m; sourceTree = "<group>"; };
 		1F1F2EA21CF2E6D5008ECA1B /* NSObject+SuperClasses.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SuperClasses.h"; sourceTree = "<group>"; };
 		1F1F2EA31CF2E6D5008ECA1B /* NSObject+SuperClasses.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SuperClasses.m"; sourceTree = "<group>"; };
 		1F1F2EA51CF3578A008ECA1B /* UIView+UIScreenDisplaying.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+UIScreenDisplaying.h"; sourceTree = "<group>"; };
@@ -1242,6 +1248,17 @@
 				1F0F0AFA1CF4CD540030E1C2 /* AVAsset+Utils.m */,
 			);
 			path = AVFoundation;
+			sourceTree = "<group>";
+		};
+		1F16E8F01CF68CDF0039847B /* XDContinuousBootCrashPreventTool */ = {
+			isa = PBXGroup;
+			children = (
+				1F16E8F11CF68CDF0039847B /* AppDelegate+XDContinuousBootCrashPreventTool.h */,
+				1F16E8F21CF68CDF0039847B /* AppDelegate+XDContinuousBootCrashPreventTool.m */,
+				1F16E8F31CF68CDF0039847B /* XDContinuousBootCrashPreventTool.h */,
+				1F16E8F41CF68CDF0039847B /* XDContinuousBootCrashPreventTool.m */,
+			);
+			path = XDContinuousBootCrashPreventTool;
 			sourceTree = "<group>";
 		};
 		1F1F2EB31CF365F1008ECA1B /* XDLogger */ = {
@@ -2530,6 +2547,7 @@
 		1F9A85ED1CEE34DE0070CE07 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				1F16E8F01CF68CDF0039847B /* XDContinuousBootCrashPreventTool */,
 				1FB3EF4D1CF4D39E00C2CAF9 /* XDPinYin */,
 				1F1F2EB31CF365F1008ECA1B /* XDLogger */,
 				1F6A59431CF228C7009E0D71 /* EncryptUtils */,
@@ -3382,6 +3400,7 @@
 				1F9A871B1CEE34DF0070CE07 /* UIFont+WDCustomLoader.m in Sources */,
 				1F9A87BF1CEE34DF0070CE07 /* UIWebView+BlocksKit.m in Sources */,
 				1F9A877C1CEE34DF0070CE07 /* UIWebView+MetaParser.m in Sources */,
+				1F16E8F51CF68CDF0039847B /* AppDelegate+XDContinuousBootCrashPreventTool.m in Sources */,
 				1F9A875E1CEE34DF0070CE07 /* UIView+Frame.m in Sources */,
 				1F9A870E1CEE34DF0070CE07 /* UIButton+Indicator.m in Sources */,
 				1F9A875B1CEE34DF0070CE07 /* UIView+Debug.m in Sources */,
@@ -3419,6 +3438,7 @@
 				1F9A868F1CEE34DF0070CE07 /* NSManagedObjectContext+FetchRequestsConstructors.m in Sources */,
 				1F9A87331CEE34DF0070CE07 /* UIImageView+GeometryConversion.m in Sources */,
 				1F9A87121CEE34DF0070CE07 /* UIColor+HEX.m in Sources */,
+				1F16E8F61CF68CDF0039847B /* XDContinuousBootCrashPreventTool.m in Sources */,
 				1F9A87601CEE34DF0070CE07 /* UIView+Hierachy.m in Sources */,
 				1F9A86FA1CEE34DF0070CE07 /* CAAnimation+EasingEquations.m in Sources */,
 				1F9A87201CEE34DF0070CE07 /* UIImage+BetterFace.m in Sources */,
