@@ -22,4 +22,10 @@
  */
 + (BOOL)isAppVersionChanged;
 
+@property (nonatomic, copy) NSString *endPointUrl;
+@property (nonatomic, copy) NSString *customAlertTitle;
+@property (nonatomic, copy) NSString *customAlertBody;
+
+- (void) executeVersionCheck;
+
 @end

@@ -10,6 +10,8 @@
 
 @interface NSPersistentStoreCoordinator (Custom)
 
++ (NSString *)applicationDocumentsDirectory;
+
 + (void)setDataModelName:(NSString *)name
            withStoreName:(NSString *)storeFileName;
 
