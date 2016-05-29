@@ -337,7 +337,6 @@
 		1F38AA111CFB568000E21ABF /* XDNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F38A8A41CFB567F00E21ABF /* XDNetwork.m */; };
 		1F38AA121CFB568000E21ABF /* XDPinYin.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F38A8A71CFB567F00E21ABF /* XDPinYin.m */; };
 		1F38AA131CFB568000E21ABF /* XDUIKitMainThreadGuard.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F38A8A91CFB567F00E21ABF /* XDUIKitMainThreadGuard.m */; };
-		1F38AA141CFB568000E21ABF /* XDFluxDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F38A8AD1CFB567F00E21ABF /* XDFluxDispatcher.m */; };
 		1F38AA151CFB568000E21ABF /* PKProtocolExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F38A8B01CFB567F00E21ABF /* PKProtocolExtension.m */; };
 		1F38AA161CFB568000E21ABF /* RSSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F38A8B41CFB567F00E21ABF /* RSSwizzle.m */; };
 		1F38AA171CFB568000E21ABF /* SBCollectionViewTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F38A8B71CFB567F00E21ABF /* SBCollectionViewTableCell.m */; };
@@ -362,6 +361,7 @@
 		1F38AA411CFB568A00E21ABF /* XDVideoEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F38AA391CFB568A00E21ABF /* XDVideoEditor.m */; };
 		1F38AA441CFB569000E21ABF /* BLLSDKLayer.json in Resources */ = {isa = PBXBuildFile; fileRef = 1F38AA431CFB569000E21ABF /* BLLSDKLayer.json */; };
 		1F38AA471CFB569600E21ABF /* BLLMoudleLayer.json in Resources */ = {isa = PBXBuildFile; fileRef = 1F38AA461CFB569600E21ABF /* BLLMoudleLayer.json */; };
+		1F38AA4E1CFB64E500E21ABF /* XDFluxDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F38AA4D1CFB64E500E21ABF /* XDFluxDispatcher.m */; };
 		1F49D13A1CECE44D003FBBF0 /* ImageFilterItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F49D1381CECE44D003FBBF0 /* ImageFilterItem.m */; };
 		1F49D13B1CECE44D003FBBF0 /* ImageFilterItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F49D1391CECE44D003FBBF0 /* ImageFilterItem.xib */; };
 		1F49D13E1CECE502003FBBF0 /* Test2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F49D13D1CECE502003FBBF0 /* Test2.jpg */; };
@@ -1060,8 +1060,6 @@
 		1F38A8A61CFB567F00E21ABF /* XDPinYin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDPinYin.h; sourceTree = "<group>"; };
 		1F38A8A71CFB567F00E21ABF /* XDPinYin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDPinYin.m; sourceTree = "<group>"; };
 		1F38A8A91CFB567F00E21ABF /* XDUIKitMainThreadGuard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDUIKitMainThreadGuard.m; sourceTree = "<group>"; };
-		1F38A8AC1CFB567F00E21ABF /* XDFluxDispatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDFluxDispatcher.h; sourceTree = "<group>"; };
-		1F38A8AD1CFB567F00E21ABF /* XDFluxDispatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDFluxDispatcher.m; sourceTree = "<group>"; };
 		1F38A8AF1CFB567F00E21ABF /* PKProtocolExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKProtocolExtension.h; sourceTree = "<group>"; };
 		1F38A8B01CFB567F00E21ABF /* PKProtocolExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKProtocolExtension.m; sourceTree = "<group>"; };
 		1F38A8B11CFB567F00E21ABF /* ProtocolKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProtocolKit.h; sourceTree = "<group>"; };
@@ -1104,6 +1102,8 @@
 		1F38AA431CFB569000E21ABF /* BLLSDKLayer.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = BLLSDKLayer.json; sourceTree = "<group>"; };
 		1F38AA461CFB569600E21ABF /* BLLMoudleLayer.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = BLLMoudleLayer.json; sourceTree = "<group>"; };
 		1F38AA4A1CFB5EC600E21ABF /* XDCommonLibMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDCommonLibMacros.h; sourceTree = "<group>"; };
+		1F38AA4C1CFB64E500E21ABF /* XDFluxDispatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDFluxDispatcher.h; sourceTree = "<group>"; };
+		1F38AA4D1CFB64E500E21ABF /* XDFluxDispatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDFluxDispatcher.m; sourceTree = "<group>"; };
 		1F49D1371CECE44D003FBBF0 /* ImageFilterItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageFilterItem.h; sourceTree = "<group>"; };
 		1F49D1381CECE44D003FBBF0 /* ImageFilterItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageFilterItem.m; sourceTree = "<group>"; };
 		1F49D1391CECE44D003FBBF0 /* ImageFilterItem.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageFilterItem.xib; sourceTree = "<group>"; };
@@ -2705,22 +2705,12 @@
 		1F38A8AA1CFB567F00E21ABF /* Venders */ = {
 			isa = PBXGroup;
 			children = (
-				1F38A8AB1CFB567F00E21ABF /* FluxDispatcher */,
 				1F38A8AE1CFB567F00E21ABF /* ProtocolKit */,
 				1F38A8B21CFB567F00E21ABF /* RSSwizzle */,
 				1F38A8B51CFB567F00E21ABF /* SBTableLayout */,
 				1F38A8C21CFB567F00E21ABF /* YRJSONAdapter */,
 			);
 			path = Venders;
-			sourceTree = "<group>";
-		};
-		1F38A8AB1CFB567F00E21ABF /* FluxDispatcher */ = {
-			isa = PBXGroup;
-			children = (
-				1F38A8AC1CFB567F00E21ABF /* XDFluxDispatcher.h */,
-				1F38A8AD1CFB567F00E21ABF /* XDFluxDispatcher.m */,
-			);
-			path = FluxDispatcher;
 			sourceTree = "<group>";
 		};
 		1F38A8AE1CFB567F00E21ABF /* ProtocolKit */ = {
@@ -2776,6 +2766,7 @@
 			isa = PBXGroup;
 			children = (
 				1F38AA241CFB568500E21ABF /* LooseCouplingComunicateLayer.json */,
+				1F38AA4B1CFB64E500E21ABF /* FluxDispatcher */,
 				1F38AA211CFB568500E21ABF /* CommandBus */,
 				1F38AA251CFB568500E21ABF /* StateBroadcaster */,
 			);
@@ -2863,6 +2854,15 @@
 				1F38AA461CFB569600E21ABF /* BLLMoudleLayer.json */,
 			);
 			path = BLLMoudleLayer;
+			sourceTree = "<group>";
+		};
+		1F38AA4B1CFB64E500E21ABF /* FluxDispatcher */ = {
+			isa = PBXGroup;
+			children = (
+				1F38AA4C1CFB64E500E21ABF /* XDFluxDispatcher.h */,
+				1F38AA4D1CFB64E500E21ABF /* XDFluxDispatcher.m */,
+			);
+			path = FluxDispatcher;
 			sourceTree = "<group>";
 		};
 		1F49D1351CECE42B003FBBF0 /* XDImageBeautifyUtilDemo */ = {
@@ -3197,7 +3197,6 @@
 				1F38A92A1CFB567F00E21ABF /* NSString+Trims.m in Sources */,
 				1F38A8CB1CFB567F00E21ABF /* XDAddressBookManager.m in Sources */,
 				1F38A98C1CFB568000E21ABF /* UIResponder+FirstResponder.m in Sources */,
-				1F38AA141CFB568000E21ABF /* XDFluxDispatcher.m in Sources */,
 				1F38A96F1CFB568000E21ABF /* UIImage+PDF.m in Sources */,
 				1F38A9271CFB567F00E21ABF /* NSString+Score.m in Sources */,
 				1F38A8E41CFB567F00E21ABF /* NSData+XDCommonLib.m in Sources */,
@@ -3311,6 +3310,7 @@
 				1FC8F5931AF7DA0D00CA2AC0 /* AppDelegate.m in Sources */,
 				1F38A9051CFB567F00E21ABF /* NSNumber+RomanNumerals.m in Sources */,
 				1F38A9B61CFB568000E21ABF /* UIViewController+IB.m in Sources */,
+				1F38AA4E1CFB64E500E21ABF /* XDFluxDispatcher.m in Sources */,
 				1F38A8FF1CFB567F00E21ABF /* NSHTTPCookieStorage+FreezeDry.m in Sources */,
 				1F38A9621CFB568000E21ABF /* UIFont-TTF.m in Sources */,
 				1F38A9D11CFB568000E21ABF /* XDUnitTests.m in Sources */,
