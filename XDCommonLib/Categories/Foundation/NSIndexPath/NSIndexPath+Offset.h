@@ -6,6 +6,7 @@
 //
 #import <UIKit/UIKit.h>
 @interface NSIndexPath (Offset)
+
 /* Compute previous row indexpath */
 - (NSIndexPath *)previousRow;
 

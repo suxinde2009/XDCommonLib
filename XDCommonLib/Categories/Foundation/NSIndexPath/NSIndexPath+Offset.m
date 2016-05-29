@@ -11,6 +11,7 @@
 @end
 
 @implementation NSIndexPath (Offset)
+
 #pragma mark - Offset
 - (NSIndexPath *)previousRow
 {

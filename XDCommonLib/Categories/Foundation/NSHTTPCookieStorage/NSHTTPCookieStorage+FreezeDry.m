@@ -24,6 +24,7 @@
 #import "NSHTTPCookieStorage+FreezeDry.h"
 
 @implementation NSHTTPCookieStorage (FreezeDry)
+
 /**
  *  @brief  /Persists UIWebView cookies to disk
  */
@@ -46,6 +47,7 @@
     
     [cookieData writeToFile:[self storagePath] atomically:TRUE];
 }
+
 /**
  *  @brief  /load UIWebView cookies from disk
  */
