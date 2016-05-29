@@ -24,6 +24,7 @@
 #import "NSString+XD_Encrypt_MD5.h"
 
 #import "XDLogger.h"
+#import "UIView+DebugUtils.h"
 
 static NSString *const SBTableLayoutTabVC = @"SBTableLayoutTabVC";
 
@@ -36,6 +37,7 @@ static NSString *const SBTableLayoutTabVC = @"SBTableLayoutTabVC";
 @implementation ViewController
 
 - (void)viewDidLoad {
+    
     [super viewDidLoad];
     
     mTestCases = [@[] mutableCopy];
@@ -51,6 +53,7 @@ static NSString *const SBTableLayoutTabVC = @"SBTableLayoutTabVC";
     [mTestCases addObject:@"XDFluxDispatcherDemo"];
     [mTestCases addObject:@"testAES256"];
     [mTestCases addObject:@"XDLogger"];
+    [mTestCases addObject:@"UIView+DebugUtils"];
 }
 
 
@@ -205,6 +208,12 @@ static NSString *const SBTableLayoutTabVC = @"SBTableLayoutTabVC";
             
             XDLog(@"%@", @"测试");
             CC(@"%@", @"测试");
+            
+        } break;
+            
+        case 12: {
+        
+            [self.view drawBorderRecursive:YES];
             
         } break;
             
