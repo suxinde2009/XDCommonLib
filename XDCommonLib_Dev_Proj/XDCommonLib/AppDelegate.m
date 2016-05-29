@@ -8,7 +8,7 @@
 
 #import "AppDelegate.h"
 #import "XDDebug.h"
-
+#import "XDCommonLibMacros.h"
 
 @interface AppDelegate ()
 
@@ -22,6 +22,8 @@
 //    @TODO("晚上要回家吃饭");
 //    @TODO("晚上要早点睡");
 
+    NSLog(@"是否是Retina屏幕: %d", XDIsRetina());
+    
 }
 
 

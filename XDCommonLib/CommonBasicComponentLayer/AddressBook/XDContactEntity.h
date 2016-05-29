@@ -9,6 +9,9 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
+/**
+ *  手机联系人实体类
+ */
 @interface XDContactEntity : NSObject
 
 @property (nonatomic, strong) NSString *name;

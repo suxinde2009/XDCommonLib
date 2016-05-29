@@ -10,6 +10,9 @@
 
 @interface NSString (UnformattedPhoneNumber)
 
+/**
+ *  去除手机号中 “/.,()-+ ”等字符
+ */
 - (NSString *)unformattedPhoneNumber;
 
 @end

@@ -6,6 +6,7 @@
 //  Copyright © 2015年 su xinde. All rights reserved.
 //
 
+
 #ifndef XDSingleton_h
 #define XDSingleton_h
 

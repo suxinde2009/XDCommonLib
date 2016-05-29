@@ -1103,6 +1103,7 @@
 		1F38AA391CFB568A00E21ABF /* XDVideoEditor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDVideoEditor.m; sourceTree = "<group>"; };
 		1F38AA431CFB569000E21ABF /* BLLSDKLayer.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = BLLSDKLayer.json; sourceTree = "<group>"; };
 		1F38AA461CFB569600E21ABF /* BLLMoudleLayer.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = BLLMoudleLayer.json; sourceTree = "<group>"; };
+		1F38AA4A1CFB5EC600E21ABF /* XDCommonLibMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDCommonLibMacros.h; sourceTree = "<group>"; };
 		1F49D1371CECE44D003FBBF0 /* ImageFilterItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageFilterItem.h; sourceTree = "<group>"; };
 		1F49D1381CECE44D003FBBF0 /* ImageFilterItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageFilterItem.m; sourceTree = "<group>"; };
 		1F49D1391CECE44D003FBBF0 /* ImageFilterItem.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageFilterItem.xib; sourceTree = "<group>"; };
@@ -1174,6 +1175,7 @@
 				1F38A8C71CFB567F00E21ABF /* XDPreCompile.h */,
 				1F38A8C81CFB567F00E21ABF /* XDPreCompile.m */,
 				1F38A8C91CFB567F00E21ABF /* XDSingleton.h */,
+				1F38AA4A1CFB5EC600E21ABF /* XDCommonLibMacros.h */,
 			);
 			path = CommonBasicComponentLayer;
 			sourceTree = "<group>";
