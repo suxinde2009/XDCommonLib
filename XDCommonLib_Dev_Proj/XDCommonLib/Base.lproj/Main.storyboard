@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="dTW-8F-43k">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="dTW-8F-43k">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
         <!--Navigation Controller-->
@@ -174,6 +174,64 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qqG-8O-M5R" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="257" y="1025"/>
+        </scene>
+        <!--Printer DemoVC-->
+        <scene sceneID="fbq-jy-RHc">
+            <objects>
+                <viewController storyboardIdentifier="BLEPrinterDemoVC" automaticallyAdjustsScrollViewInsets="NO" id="vkQ-Vb-vHG" customClass="BLEPrinterDemoVC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="GNb-V9-sX7"/>
+                        <viewControllerLayoutGuide type="bottom" id="sS8-vG-6bw"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="vWg-82-f6e">
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="7oe-nU-aYD">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="504"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="vkQ-Vb-vHG" id="dgo-qB-5fy"/>
+                                    <outlet property="delegate" destination="vkQ-Vb-vHG" id="vMD-J7-Dak"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="7oe-nU-aYD" firstAttribute="top" secondItem="GNb-V9-sX7" secondAttribute="bottom" id="ALc-o6-4Hk"/>
+                            <constraint firstItem="sS8-vG-6bw" firstAttribute="top" secondItem="7oe-nU-aYD" secondAttribute="bottom" id="Gai-HU-GAc"/>
+                            <constraint firstItem="7oe-nU-aYD" firstAttribute="leading" secondItem="vWg-82-f6e" secondAttribute="leading" id="coe-73-ha0"/>
+                            <constraint firstAttribute="trailing" secondItem="7oe-nU-aYD" secondAttribute="trailing" id="ugd-jY-nAR"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Zc5-W1-XgA"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
+                    <connections>
+                        <outlet property="tableView" destination="7oe-nU-aYD" id="lRa-xp-vbt"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="STB-qu-6zf" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2203" y="688"/>
+        </scene>
+        <!--Preview View Controller-->
+        <scene sceneID="2b5-GJ-9Pq">
+            <objects>
+                <viewController storyboardIdentifier="SEPreviewViewController" automaticallyAdjustsScrollViewInsets="NO" id="1Ct-aS-Gop" customClass="SEPreviewViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="kye-XC-KYd"/>
+                        <viewControllerLayoutGuide type="bottom" id="t6T-4S-PVi"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Wg6-Bl-lg4">
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="a3e-kR-0eW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2203" y="1403"/>
         </scene>
     </scenes>
 </document>

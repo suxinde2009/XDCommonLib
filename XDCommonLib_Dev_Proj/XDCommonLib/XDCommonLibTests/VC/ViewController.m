@@ -26,6 +26,8 @@
 #import "XDLogger.h"
 #import "UIView+DebugUtils.h"
 
+#import "BLEPrinterDemoVC.h"
+
 static NSString *const SBTableLayoutTabVC = @"SBTableLayoutTabVC";
 
 @interface ViewController ()
@@ -54,6 +56,7 @@ static NSString *const SBTableLayoutTabVC = @"SBTableLayoutTabVC";
     [mTestCases addObject:@"testAES256"];
     [mTestCases addObject:@"XDLogger"];
     [mTestCases addObject:@"UIView+DebugUtils"];
+    [mTestCases addObject:@"BLEPrinterDemoVC"];
 }
 
 
@@ -216,7 +219,14 @@ static NSString *const SBTableLayoutTabVC = @"SBTableLayoutTabVC";
             [self.view drawBorderRecursive:YES];
             
         } break;
+        
+        case 13: {
             
+            UIViewController *vc = [[UIStoryboard storyboardWithName:@"Main" bundle:[NSBundle mainBundle]] instantiateViewControllerWithIdentifier:@"BLEPrinterDemoVC"];
+            [self.navigationController pushViewController:vc animated:NO];
+            
+        } break;
+        
         default:
             break;
     }

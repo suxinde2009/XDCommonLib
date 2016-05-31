@@ -8,6 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		1F36034D1CFDAE11005F627A /* UICollectionView+XD_AutoScrollLeftOrRightForCellToVisableAreaForCellInCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F36034C1CFDAE11005F627A /* UICollectionView+XD_AutoScrollLeftOrRightForCellToVisableAreaForCellInCollectionView.m */; };
+		1F36035A1CFDFD77005F627A /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3603511CFDFD77005F627A /* SVIndefiniteAnimatedView.m */; };
+		1F36035B1CFDFD77005F627A /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3603531CFDFD77005F627A /* SVProgressAnimatedView.m */; };
+		1F36035C1CFDFD77005F627A /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1F3603551CFDFD77005F627A /* SVProgressHUD.bundle */; };
+		1F36035D1CFDFD77005F627A /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3603571CFDFD77005F627A /* SVProgressHUD.m */; };
+		1F36035E1CFDFD77005F627A /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3603591CFDFD77005F627A /* SVRadialGradientLayer.m */; };
+		1F36036A1CFDFDA7005F627A /* HLPrinter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3603621CFDFDA7005F627A /* HLPrinter.m */; };
+		1F36036B1CFDFDA7005F627A /* SEPrinterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3603651CFDFDA7005F627A /* SEPrinterManager.m */; };
+		1F36036C1CFDFDA7005F627A /* UIImage+Bitmap.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3603671CFDFDA7005F627A /* UIImage+Bitmap.m */; };
+		1F36036D1CFDFDA7005F627A /* UIWebView+UIImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3603691CFDFDA7005F627A /* UIWebView+UIImage.m */; };
+		1F3603721CFDFE7F005F627A /* ico180.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F36036F1CFDFE7F005F627A /* ico180.png */; };
+		1F3603731CFDFE7F005F627A /* SEPreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3603711CFDFE7F005F627A /* SEPreviewViewController.m */; };
+		1F3603761CFDFE94005F627A /* BLEPrinterDemoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3603751CFDFE94005F627A /* BLEPrinterDemoVC.m */; };
 		1F38A8CA1CFB567F00E21ABF /* NSString+UnformattedPhoneNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F38A5A71CFB567F00E21ABF /* NSString+UnformattedPhoneNumber.m */; };
 		1F38A8CB1CFB567F00E21ABF /* XDAddressBookManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F38A5A91CFB567F00E21ABF /* XDAddressBookManager.m */; };
 		1F38A8CC1CFB567F00E21ABF /* XDContactEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F38A5AB1CFB567F00E21ABF /* XDContactEntity.m */; };
@@ -398,6 +410,30 @@
 /* Begin PBXFileReference section */
 		1F36034B1CFDAE11005F627A /* UICollectionView+XD_AutoScrollLeftOrRightForCellToVisableAreaForCellInCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+XD_AutoScrollLeftOrRightForCellToVisableAreaForCellInCollectionView.h"; sourceTree = "<group>"; };
 		1F36034C1CFDAE11005F627A /* UICollectionView+XD_AutoScrollLeftOrRightForCellToVisableAreaForCellInCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+XD_AutoScrollLeftOrRightForCellToVisableAreaForCellInCollectionView.m"; sourceTree = "<group>"; };
+		1F3603501CFDFD77005F627A /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		1F3603511CFDFD77005F627A /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		1F3603521CFDFD77005F627A /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressAnimatedView.h; sourceTree = "<group>"; };
+		1F3603531CFDFD77005F627A /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressAnimatedView.m; sourceTree = "<group>"; };
+		1F3603541CFDFD77005F627A /* SVProgressHUD-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-Prefix.pch"; sourceTree = "<group>"; };
+		1F3603551CFDFD77005F627A /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		1F3603561CFDFD77005F627A /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		1F3603571CFDFD77005F627A /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		1F3603581CFDFD77005F627A /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVRadialGradientLayer.h; sourceTree = "<group>"; };
+		1F3603591CFDFD77005F627A /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVRadialGradientLayer.m; sourceTree = "<group>"; };
+		1F3603611CFDFDA7005F627A /* HLPrinter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLPrinter.h; sourceTree = "<group>"; };
+		1F3603621CFDFDA7005F627A /* HLPrinter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLPrinter.m; sourceTree = "<group>"; };
+		1F3603631CFDFDA7005F627A /* SEBLEConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEBLEConst.h; sourceTree = "<group>"; };
+		1F3603641CFDFDA7005F627A /* SEPrinterManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEPrinterManager.h; sourceTree = "<group>"; };
+		1F3603651CFDFDA7005F627A /* SEPrinterManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEPrinterManager.m; sourceTree = "<group>"; };
+		1F3603661CFDFDA7005F627A /* UIImage+Bitmap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Bitmap.h"; sourceTree = "<group>"; };
+		1F3603671CFDFDA7005F627A /* UIImage+Bitmap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Bitmap.m"; sourceTree = "<group>"; };
+		1F3603681CFDFDA7005F627A /* UIWebView+UIImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+UIImage.h"; sourceTree = "<group>"; };
+		1F3603691CFDFDA7005F627A /* UIWebView+UIImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+UIImage.m"; sourceTree = "<group>"; };
+		1F36036F1CFDFE7F005F627A /* ico180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ico180.png; sourceTree = "<group>"; };
+		1F3603701CFDFE7F005F627A /* SEPreviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEPreviewViewController.h; sourceTree = "<group>"; };
+		1F3603711CFDFE7F005F627A /* SEPreviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEPreviewViewController.m; sourceTree = "<group>"; };
+		1F3603741CFDFE94005F627A /* BLEPrinterDemoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEPrinterDemoVC.h; sourceTree = "<group>"; };
+		1F3603751CFDFE94005F627A /* BLEPrinterDemoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLEPrinterDemoVC.m; sourceTree = "<group>"; };
 		1F38A5A61CFB567F00E21ABF /* NSString+UnformattedPhoneNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+UnformattedPhoneNumber.h"; sourceTree = "<group>"; };
 		1F38A5A71CFB567F00E21ABF /* NSString+UnformattedPhoneNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+UnformattedPhoneNumber.m"; sourceTree = "<group>"; };
 		1F38A5A81CFB567F00E21ABF /* XDAddressBookManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDAddressBookManager.h; sourceTree = "<group>"; };
@@ -1172,6 +1208,67 @@
 			);
 			name = UICollectionView;
 			path = UIKit/UICollectionView;
+			sourceTree = "<group>";
+		};
+		1F36034E1CFDFD65005F627A /* Venders */ = {
+			isa = PBXGroup;
+			children = (
+				1F36034F1CFDFD77005F627A /* SVProgressHUD */,
+			);
+			path = Venders;
+			sourceTree = "<group>";
+		};
+		1F36034F1CFDFD77005F627A /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				1F3603501CFDFD77005F627A /* SVIndefiniteAnimatedView.h */,
+				1F3603511CFDFD77005F627A /* SVIndefiniteAnimatedView.m */,
+				1F3603521CFDFD77005F627A /* SVProgressAnimatedView.h */,
+				1F3603531CFDFD77005F627A /* SVProgressAnimatedView.m */,
+				1F3603541CFDFD77005F627A /* SVProgressHUD-Prefix.pch */,
+				1F3603551CFDFD77005F627A /* SVProgressHUD.bundle */,
+				1F3603561CFDFD77005F627A /* SVProgressHUD.h */,
+				1F3603571CFDFD77005F627A /* SVProgressHUD.m */,
+				1F3603581CFDFD77005F627A /* SVRadialGradientLayer.h */,
+				1F3603591CFDFD77005F627A /* SVRadialGradientLayer.m */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		1F36035F1CFDFD97005F627A /* BLE */ = {
+			isa = PBXGroup;
+			children = (
+				1F3603601CFDFDA7005F627A /* BLEPrinter */,
+			);
+			path = BLE;
+			sourceTree = "<group>";
+		};
+		1F3603601CFDFDA7005F627A /* BLEPrinter */ = {
+			isa = PBXGroup;
+			children = (
+				1F3603611CFDFDA7005F627A /* HLPrinter.h */,
+				1F3603621CFDFDA7005F627A /* HLPrinter.m */,
+				1F3603631CFDFDA7005F627A /* SEBLEConst.h */,
+				1F3603641CFDFDA7005F627A /* SEPrinterManager.h */,
+				1F3603651CFDFDA7005F627A /* SEPrinterManager.m */,
+				1F3603661CFDFDA7005F627A /* UIImage+Bitmap.h */,
+				1F3603671CFDFDA7005F627A /* UIImage+Bitmap.m */,
+				1F3603681CFDFDA7005F627A /* UIWebView+UIImage.h */,
+				1F3603691CFDFDA7005F627A /* UIWebView+UIImage.m */,
+			);
+			path = BLEPrinter;
+			sourceTree = "<group>";
+		};
+		1F36036E1CFDFE68005F627A /* BLEPrinterDemo */ = {
+			isa = PBXGroup;
+			children = (
+				1F36036F1CFDFE7F005F627A /* ico180.png */,
+				1F3603701CFDFE7F005F627A /* SEPreviewViewController.h */,
+				1F3603711CFDFE7F005F627A /* SEPreviewViewController.m */,
+				1F3603741CFDFE94005F627A /* BLEPrinterDemoVC.h */,
+				1F3603751CFDFE94005F627A /* BLEPrinterDemoVC.m */,
+			);
+			path = BLEPrinterDemo;
 			sourceTree = "<group>";
 		};
 		1F38A5A41CFB567F00E21ABF /* CommonBasicComponentLayer */ = {
@@ -2857,6 +2954,7 @@
 		1F38AA421CFB569000E21ABF /* BLLSDKLayer */ = {
 			isa = PBXGroup;
 			children = (
+				1F36035F1CFDFD97005F627A /* BLE */,
 				1F38AA431CFB569000E21ABF /* BLLSDKLayer.json */,
 			);
 			path = BLLSDKLayer;
@@ -2936,6 +3034,7 @@
 				1F38AA2B1CFB568A00E21ABF /* BasicComponentLayer */,
 				1F38AA201CFB568500E21ABF /* LooseCoupling CommuniateLayer */,
 				1F38A5A41CFB567F00E21ABF /* CommonBasicComponentLayer */,
+				1F36034E1CFDFD65005F627A /* Venders */,
 			);
 			name = XDCommonLib;
 			path = ../../XDCommonLib;
@@ -3044,6 +3143,7 @@
 			children = (
 				1FC8F5B51AF7DB2E00CA2AC0 /* ViewController.h */,
 				1FC8F5B61AF7DB2E00CA2AC0 /* ViewController.m */,
+				1F36036E1CFDFE68005F627A /* BLEPrinterDemo */,
 				1FA4D1841CF0DC10005AD187 /* XDFluxDispatcherDemo */,
 				1F49D1351CECE42B003FBBF0 /* XDImageBeautifyUtilDemo */,
 				1F62A29A1CE2F27C0077B7D5 /* CommandBusDemo */,
@@ -3149,6 +3249,7 @@
 				1FC8F59E1AF7DA0D00CA2AC0 /* LaunchScreen.xib in Resources */,
 				1F38AA3D1CFB568A00E21ABF /* shift@2x.png in Resources */,
 				1F38A9D01CFB568000E21ABF /* TCP.json in Resources */,
+				1F3603721CFDFE7F005F627A /* ico180.png in Resources */,
 				1F38A9C71CFB568000E21ABF /* CommonBasicComponentLayer.json in Resources */,
 				1F38AA401CFB568A00E21ABF /* Media.json in Resources */,
 				1F38A8F01CFB567F00E21ABF /* NSDateTimeAgo.bundle in Resources */,
@@ -3164,6 +3265,7 @@
 				1F38A9C81CFB568000E21ABF /* Debug.json in Resources */,
 				1F49D13E1CECE502003FBBF0 /* Test2.jpg in Resources */,
 				1FCFDD101CDC161900DC27F5 /* test.mp4 in Resources */,
+				1F36035C1CFDFD77005F627A /* SVProgressHUD.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3198,6 +3300,7 @@
 				1F38A9441CFB568000E21ABF /* CAShapeLayer+UIBezierPath.m in Sources */,
 				1F38A9761CFB568000E21ABF /* UIImageView+BetterFace.m in Sources */,
 				1F38A8D51CFB567F00E21ABF /* NSPersistentStoreCoordinator+Custom.m in Sources */,
+				1F36035D1CFDFD77005F627A /* SVProgressHUD.m in Sources */,
 				1F38A9F01CFB568000E21ABF /* UIGestureRecognizer+BlocksKit.m in Sources */,
 				1F38A8E81CFB567F00E21ABF /* NSDate+Formatter.m in Sources */,
 				1F38A94E1CFB568000E21ABF /* UIBezierPath+LxThroughPointsBezier.m in Sources */,
@@ -3214,6 +3317,7 @@
 				1F38A96F1CFB568000E21ABF /* UIImage+PDF.m in Sources */,
 				1F38A9271CFB567F00E21ABF /* NSString+Score.m in Sources */,
 				1F38A8E41CFB567F00E21ABF /* NSData+XDCommonLib.m in Sources */,
+				1F36036D1CFDFDA7005F627A /* UIWebView+UIImage.m in Sources */,
 				1F38A9721CFB568000E21ABF /* UIImage+RoundedCorner.m in Sources */,
 				1F38AA1E1CFB568000E21ABF /* YRJSONAdapter.m in Sources */,
 				1F38A9CB1CFB568000E21ABF /* XDDebugSystemControl.m in Sources */,
@@ -3230,8 +3334,10 @@
 				1F38A9BB1CFB568000E21ABF /* UIViewController+TopBarMessage.m in Sources */,
 				1F38A8CA1CFB567F00E21ABF /* NSString+UnformattedPhoneNumber.m in Sources */,
 				1F38A9751CFB568000E21ABF /* UIImageView+Addition.m in Sources */,
+				1F3603731CFDFE7F005F627A /* SEPreviewViewController.m in Sources */,
 				1F38A9871CFB568000E21ABF /* UINavigationItem+Loading.m in Sources */,
 				1F62A2A41CE2F2B80077B7D5 /* LoginCommandHandler.m in Sources */,
+				1F36036C1CFDFDA7005F627A /* UIImage+Bitmap.m in Sources */,
 				1FA4D1871CF0DC19005AD187 /* XDFluxDispatcherDemo.m in Sources */,
 				1F38A9FE1CFB568000E21ABF /* XD_FFT.c in Sources */,
 				1F38A8EB1CFB567F00E21ABF /* NSDate+StarSign.m in Sources */,
@@ -3304,6 +3410,7 @@
 				1F38AA191CFB568000E21ABF /* SBCollectionViewTableLayout.m in Sources */,
 				1F38A92E1CFB567F00E21ABF /* NSString+UUID.m in Sources */,
 				1F38A9181CFB567F00E21ABF /* NSRunLoop+PerformBlock.m in Sources */,
+				1F36036A1CFDFDA7005F627A /* HLPrinter.m in Sources */,
 				1F38A9431CFB568000E21ABF /* CAMediaTimingFunction+AdditionalEquations.m in Sources */,
 				1F38A9801CFB568000E21ABF /* UINavigationBar+Awesome.m in Sources */,
 				1F38A92B1CFB567F00E21ABF /* NSString+UrlEncode.m in Sources */,
@@ -3407,6 +3514,7 @@
 				1F38A8F31CFB567F00E21ABF /* NSDictionary+JSONString.m in Sources */,
 				1F38A9031CFB567F00E21ABF /* NSDecimalNumber+Extensions.m in Sources */,
 				1F38A91C1CFB567F00E21ABF /* NSString+Contains.m in Sources */,
+				1F36035B1CFDFD77005F627A /* SVProgressAnimatedView.m in Sources */,
 				1F38A9E21CFB568000E21ABF /* NSTimer+BlocksKit.m in Sources */,
 				1F38A99E1CFB568000E21ABF /* UIView+Animation.m in Sources */,
 				1F38A9411CFB568000E21ABF /* CALayer+Snapshot.m in Sources */,
@@ -3480,6 +3588,7 @@
 				1F38A98B1CFB568000E21ABF /* UIResponder+Chain.m in Sources */,
 				1F38A9491CFB568000E21ABF /* UIApplication+KeyboardFrame.m in Sources */,
 				1F38A8CF1CFB567F00E21ABF /* NSManagedObject+DictionaryExport.m in Sources */,
+				1F36035E1CFDFD77005F627A /* SVRadialGradientLayer.m in Sources */,
 				1F38A9A91CFB568000E21ABF /* UIView+RecursiveDescription.m in Sources */,
 				1F38A9EF1CFB568000E21ABF /* UIControl+BlocksKit.m in Sources */,
 				1F38A91B1CFB567F00E21ABF /* NSString+Base64.m in Sources */,
@@ -3492,6 +3601,7 @@
 				1F38A9071CFB567F00E21ABF /* NSNumber+XDCommonLib.m in Sources */,
 				1F38A9FC1CFB568000E21ABF /* NSString+XD_Encrypt_MD5.m in Sources */,
 				1F38A9191CFB567F00E21ABF /* NSSet+Block.m in Sources */,
+				1F36035A1CFDFD77005F627A /* SVIndefiniteAnimatedView.m in Sources */,
 				1F38A9F41CFB568000E21ABF /* UITextField+BlocksKit.m in Sources */,
 				1F38A9581CFB568000E21ABF /* UIColor+HEX.m in Sources */,
 				1F38A9211CFB567F00E21ABF /* NSString+Matcher.m in Sources */,
@@ -3529,9 +3639,11 @@
 				1F38A92F1CFB567F00E21ABF /* NSString+VersionUtil.m in Sources */,
 				1F38A92C1CFB567F00E21ABF /* NSString+URLUtilities.m in Sources */,
 				1F38A9921CFB568000E21ABF /* UISearchBar+Blocks.m in Sources */,
+				1F36036B1CFDFDA7005F627A /* SEPrinterManager.m in Sources */,
 				1F38AA1B1CFB568000E21ABF /* SBCollectionViewTableSupplementaryView.m in Sources */,
 				1F38A8F41CFB567F00E21ABF /* NSDictionary+Merge.m in Sources */,
 				1F38A9AC1CFB568000E21ABF /* UIView+Snapshot.m in Sources */,
+				1F3603761CFDFE94005F627A /* BLEPrinterDemoVC.m in Sources */,
 				1F38A8D91CFB567F00E21ABF /* NSArray+SafeAccess.m in Sources */,
 				1F38A8F11CFB567F00E21ABF /* NSDateFormatter+Make.m in Sources */,
 			);
