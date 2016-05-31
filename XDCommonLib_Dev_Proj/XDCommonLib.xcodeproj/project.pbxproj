@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F36034D1CFDAE11005F627A /* UICollectionView+XD_AutoScrollLeftOrRightForCellToVisableAreaForCellInCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F36034C1CFDAE11005F627A /* UICollectionView+XD_AutoScrollLeftOrRightForCellToVisableAreaForCellInCollectionView.m */; };
 		1F38A8CA1CFB567F00E21ABF /* NSString+UnformattedPhoneNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F38A5A71CFB567F00E21ABF /* NSString+UnformattedPhoneNumber.m */; };
 		1F38A8CB1CFB567F00E21ABF /* XDAddressBookManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F38A5A91CFB567F00E21ABF /* XDAddressBookManager.m */; };
 		1F38A8CC1CFB567F00E21ABF /* XDContactEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F38A5AB1CFB567F00E21ABF /* XDContactEntity.m */; };
@@ -395,6 +396,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F36034B1CFDAE11005F627A /* UICollectionView+XD_AutoScrollLeftOrRightForCellToVisableAreaForCellInCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+XD_AutoScrollLeftOrRightForCellToVisableAreaForCellInCollectionView.h"; sourceTree = "<group>"; };
+		1F36034C1CFDAE11005F627A /* UICollectionView+XD_AutoScrollLeftOrRightForCellToVisableAreaForCellInCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+XD_AutoScrollLeftOrRightForCellToVisableAreaForCellInCollectionView.m"; sourceTree = "<group>"; };
 		1F38A5A61CFB567F00E21ABF /* NSString+UnformattedPhoneNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+UnformattedPhoneNumber.h"; sourceTree = "<group>"; };
 		1F38A5A71CFB567F00E21ABF /* NSString+UnformattedPhoneNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+UnformattedPhoneNumber.m"; sourceTree = "<group>"; };
 		1F38A5A81CFB567F00E21ABF /* XDAddressBookManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDAddressBookManager.h; sourceTree = "<group>"; };
@@ -1161,6 +1164,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F36034A1CFDADD2005F627A /* UICollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				1F36034B1CFDAE11005F627A /* UICollectionView+XD_AutoScrollLeftOrRightForCellToVisableAreaForCellInCollectionView.h */,
+				1F36034C1CFDAE11005F627A /* UICollectionView+XD_AutoScrollLeftOrRightForCellToVisableAreaForCellInCollectionView.m */,
+			);
+			name = UICollectionView;
+			path = UIKit/UICollectionView;
+			sourceTree = "<group>";
+		};
 		1F38A5A41CFB567F00E21ABF /* CommonBasicComponentLayer */ = {
 			isa = PBXGroup;
 			children = (
@@ -1196,6 +1209,7 @@
 		1F38A5AC1CFB567F00E21ABF /* Categories */ = {
 			isa = PBXGroup;
 			children = (
+				1F36034A1CFDADD2005F627A /* UICollectionView */,
 				1F38A5AD1CFB567F00E21ABF /* AVFoundation */,
 				1F38A5B01CFB567F00E21ABF /* CoreData */,
 				1F38A5C51CFB567F00E21ABF /* CoreLocation */,
@@ -3503,6 +3517,7 @@
 				1F38A9AE1CFB568000E21ABF /* UIView+UIScreenDisplaying.m in Sources */,
 				1F38A9231CFB567F00E21ABF /* NSString+Pinyin.m in Sources */,
 				1F38A8DA1CFB567F00E21ABF /* NSArray+XDCommonLib.m in Sources */,
+				1F36034D1CFDAE11005F627A /* UICollectionView+XD_AutoScrollLeftOrRightForCellToVisableAreaForCellInCollectionView.m in Sources */,
 				1F38A8F91CFB567F00E21ABF /* NSMutableDictionary+XDCommonLib.m in Sources */,
 				1F38A9AB1CFB568000E21ABF /* UIView+Shake.m in Sources */,
 				1F38A8DB1CFB567F00E21ABF /* NSMutableArray+XDCommonLib.m in Sources */,
