@@ -20,6 +20,7 @@
 		1F3603721CFDFE7F005F627A /* ico180.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F36036F1CFDFE7F005F627A /* ico180.png */; };
 		1F3603731CFDFE7F005F627A /* SEPreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3603711CFDFE7F005F627A /* SEPreviewViewController.m */; };
 		1F3603761CFDFE94005F627A /* BLEPrinterDemoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3603751CFDFE94005F627A /* BLEPrinterDemoVC.m */; };
+		1F36037F1CFEE6DE005F627A /* XDChineseMobilePhoneRegex.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F36037E1CFEE6DE005F627A /* XDChineseMobilePhoneRegex.m */; };
 		1F38A8CA1CFB567F00E21ABF /* NSString+UnformattedPhoneNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F38A5A71CFB567F00E21ABF /* NSString+UnformattedPhoneNumber.m */; };
 		1F38A8CB1CFB567F00E21ABF /* XDAddressBookManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F38A5A91CFB567F00E21ABF /* XDAddressBookManager.m */; };
 		1F38A8CC1CFB567F00E21ABF /* XDContactEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F38A5AB1CFB567F00E21ABF /* XDContactEntity.m */; };
@@ -434,6 +435,8 @@
 		1F3603711CFDFE7F005F627A /* SEPreviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEPreviewViewController.m; sourceTree = "<group>"; };
 		1F3603741CFDFE94005F627A /* BLEPrinterDemoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEPrinterDemoVC.h; sourceTree = "<group>"; };
 		1F3603751CFDFE94005F627A /* BLEPrinterDemoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLEPrinterDemoVC.m; sourceTree = "<group>"; };
+		1F36037D1CFEE6DE005F627A /* XDChineseMobilePhoneRegex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDChineseMobilePhoneRegex.h; sourceTree = "<group>"; };
+		1F36037E1CFEE6DE005F627A /* XDChineseMobilePhoneRegex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDChineseMobilePhoneRegex.m; sourceTree = "<group>"; };
 		1F38A5A61CFB567F00E21ABF /* NSString+UnformattedPhoneNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+UnformattedPhoneNumber.h"; sourceTree = "<group>"; };
 		1F38A5A71CFB567F00E21ABF /* NSString+UnformattedPhoneNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+UnformattedPhoneNumber.m"; sourceTree = "<group>"; };
 		1F38A5A81CFB567F00E21ABF /* XDAddressBookManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDAddressBookManager.h; sourceTree = "<group>"; };
@@ -1271,10 +1274,20 @@
 			path = BLEPrinterDemo;
 			sourceTree = "<group>";
 		};
+		1F36037C1CFEE680005F627A /* PhoneNumberKit */ = {
+			isa = PBXGroup;
+			children = (
+				1F36037D1CFEE6DE005F627A /* XDChineseMobilePhoneRegex.h */,
+				1F36037E1CFEE6DE005F627A /* XDChineseMobilePhoneRegex.m */,
+			);
+			path = PhoneNumberKit;
+			sourceTree = "<group>";
+		};
 		1F38A5A41CFB567F00E21ABF /* CommonBasicComponentLayer */ = {
 			isa = PBXGroup;
 			children = (
 				1F38A7E61CFB567F00E21ABF /* CommonBasicComponentLayer.json */,
+				1F36037C1CFEE680005F627A /* PhoneNumberKit */,
 				1F38A5A51CFB567F00E21ABF /* AddressBook */,
 				1F38A5AC1CFB567F00E21ABF /* Categories */,
 				1F38A7E71CFB567F00E21ABF /* Debug */,
@@ -3605,6 +3618,7 @@
 				1F38A9F41CFB568000E21ABF /* UITextField+BlocksKit.m in Sources */,
 				1F38A9581CFB568000E21ABF /* UIColor+HEX.m in Sources */,
 				1F38A9211CFB567F00E21ABF /* NSString+Matcher.m in Sources */,
+				1F36037F1CFEE6DE005F627A /* XDChineseMobilePhoneRegex.m in Sources */,
 				1F38A9941CFB568000E21ABF /* UITableView+FDTemplateLayoutCell.m in Sources */,
 				1FC8F5901AF7DA0D00CA2AC0 /* main.m in Sources */,
 				1F38A9C21CFB568000E21ABF /* UIWebView+MetaParser.m in Sources */,
