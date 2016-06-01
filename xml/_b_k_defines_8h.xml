@@ -1,0 +1,899 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_b_k_defines_8h" kind="file" language="C++">
+    <compoundname>BKDefines.h</compoundname>
+    <includes local="no">Foundation/NSObjCRuntime.h</includes>
+    <includedby refid="_n_s_array_09_blocks_kit_8h" local="yes">XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSArray+BlocksKit.h</includedby>
+    <includedby refid="_n_s_dictionary_09_blocks_kit_8h" local="yes">XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSDictionary+BlocksKit.h</includedby>
+    <includedby refid="_n_s_index_set_09_blocks_kit_8h" local="yes">XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSIndexSet+BlocksKit.h</includedby>
+    <includedby refid="_n_s_invocation_09_blocks_kit_8h" local="yes">XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSInvocation+BlocksKit.h</includedby>
+    <includedby refid="_n_s_map_table_09_blocks_kit_8h" local="yes">XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSMapTable+BlocksKit.h</includedby>
+    <includedby refid="_n_s_mutable_array_09_blocks_kit_8h" local="yes">XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSMutableArray+BlocksKit.h</includedby>
+    <includedby refid="_n_s_mutable_dictionary_09_blocks_kit_8h" local="yes">XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSMutableDictionary+BlocksKit.h</includedby>
+    <includedby refid="_n_s_mutable_index_set_09_blocks_kit_8h" local="yes">XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSMutableIndexSet+BlocksKit.h</includedby>
+    <includedby refid="_n_s_mutable_ordered_set_09_blocks_kit_8h" local="yes">XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSMutableOrderedSet+BlocksKit.h</includedby>
+    <includedby refid="_n_s_mutable_set_09_blocks_kit_8h" local="yes">XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSMutableSet+BlocksKit.h</includedby>
+    <includedby refid="_n_s_object_09_b_k_associated_objects_8h" local="yes">XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSObject+BKAssociatedObjects.h</includedby>
+    <includedby refid="_n_s_object_09_b_k_block_execution_8h" local="yes">XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSObject+BKBlockExecution.h</includedby>
+    <includedby refid="_n_s_object_09_b_k_block_observation_8h" local="yes">XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSObject+BKBlockObservation.h</includedby>
+    <includedby refid="_n_s_set_09_blocks_kit_8h" local="yes">XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSSet+BlocksKit.h</includedby>
+    <includedby refid="_n_s_ordered_set_09_blocks_kit_8h" local="yes">XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSOrderedSet+BlocksKit.h</includedby>
+    <includedby refid="_n_s_timer_09_blocks_kit_8h" local="yes">XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSTimer+BlocksKit.h</includedby>
+    <includedby refid="_a2_block_invocation_8h" local="yes">XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/DynamicDelegate/A2BlockInvocation.h</includedby>
+    <includedby refid="_a2_dynamic_delegate_8h" local="yes">XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/DynamicDelegate/A2DynamicDelegate.h</includedby>
+    <includedby refid="_n_s_cache_09_blocks_kit_8h" local="yes">XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/DynamicDelegate/Foundation/NSCache+BlocksKit.h</includedby>
+    <includedby refid="_n_s_object_09_a2_dynamic_delegate_8h" local="yes">XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/DynamicDelegate/NSObject+A2DynamicDelegate.h</includedby>
+    <includedby refid="_n_s_object_09_a2_block_delegate_8h" local="yes">XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/DynamicDelegate/NSObject+A2BlockDelegate.h</includedby>
+    <includedby refid="_n_s_u_r_l_connection_09_blocks_kit_8h" local="yes">XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/DynamicDelegate/Foundation/NSURLConnection+BlocksKit.h</includedby>
+    <includedby refid="_m_f_mail_compose_view_controller_09_blocks_kit_8h" local="yes">XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/MessageUI/MFMailComposeViewController+BlocksKit.h</includedby>
+    <includedby refid="_m_f_message_compose_view_controller_09_blocks_kit_8h" local="yes">XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/MessageUI/MFMessageComposeViewController+BlocksKit.h</includedby>
+    <includedby refid="_q_l_preview_controller_09_blocks_kit_8h" local="yes">XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/QuickLook/QLPreviewController+BlocksKit.h</includedby>
+    <includedby refid="_u_i_action_sheet_09_blocks_kit_8h" local="yes">XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIActionSheet+BlocksKit.h</includedby>
+    <includedby refid="_u_i_alert_view_09_blocks_kit_8h" local="yes">XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIAlertView+BlocksKit.h</includedby>
+    <includedby refid="_u_i_bar_button_item_09_blocks_kit_8h" local="yes">XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIBarButtonItem+BlocksKit.h</includedby>
+    <includedby refid="_u_i_control_09_blocks_kit_8h" local="yes">XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIControl+BlocksKit.h</includedby>
+    <includedby refid="_u_i_gesture_recognizer_09_blocks_kit_8h" local="yes">XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIGestureRecognizer+BlocksKit.h</includedby>
+    <includedby refid="_u_i_image_09_blocks_kit_8h" local="yes">XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIImage+BlocksKit.h</includedby>
+    <includedby refid="_u_i_image_picker_controller_09_blocks_kit_8h" local="yes">XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIImagePickerController+BlocksKit.h</includedby>
+    <includedby refid="_u_i_popover_controller_09_blocks_kit_8h" local="yes">XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIPopoverController+BlocksKit.h</includedby>
+    <includedby refid="_u_i_text_field_09_blocks_kit_8h" local="yes">XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UITextField+BlocksKit.h</includedby>
+    <includedby refid="_u_i_view_09_blocks_kit_8h" local="yes">XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIView+BlocksKit.h</includedby>
+    <includedby refid="_u_i_web_view_09_blocks_kit_8h" local="yes">XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIWebView+BlocksKit.h</includedby>
+    <includedby refid="_blocks_kit_8h" local="no">XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/BlocksKit.h</includedby>
+    <includedby refid="_b_k_macros_8h" local="yes">XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/BKMacros.h</includedby>
+    <incdepgraph>
+      <node id="2434">
+        <label>Foundation/NSObjCRuntime.h</label>
+      </node>
+      <node id="2433">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/BKDefines.h</label>
+        <link refid="BKDefines.h"/>
+        <childnode refid="2434" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2473">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/DynamicDelegate/A2DynamicDelegate.h</label>
+        <link refid="_a2_dynamic_delegate_8h"/>
+        <childnode refid="2472" relation="include">
+        </childnode>
+        <childnode refid="2474" relation="include">
+        </childnode>
+        <childnode refid="2475" relation="include">
+        </childnode>
+        <childnode refid="2476" relation="include">
+        </childnode>
+        <childnode refid="2477" relation="include">
+        </childnode>
+        <childnode refid="2478" relation="include">
+        </childnode>
+        <childnode refid="2479" relation="include">
+        </childnode>
+        <childnode refid="2480" relation="include">
+        </childnode>
+        <childnode refid="2481" relation="include">
+        </childnode>
+        <childnode refid="2482" relation="include">
+        </childnode>
+        <childnode refid="2483" relation="include">
+        </childnode>
+        <childnode refid="2484" relation="include">
+        </childnode>
+        <childnode refid="2485" relation="include">
+        </childnode>
+        <childnode refid="2486" relation="include">
+        </childnode>
+        <childnode refid="2487" relation="include">
+        </childnode>
+      </node>
+      <node id="2472">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/DynamicDelegate/A2DynamicDelegate.m</label>
+        <link refid="_a2_dynamic_delegate_8m"/>
+      </node>
+      <node id="2510">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/BlocksKit.h</label>
+        <link refid="_blocks_kit_8h"/>
+        <childnode refid="2511" relation="include">
+        </childnode>
+        <childnode refid="2512" relation="include">
+        </childnode>
+        <childnode refid="2513" relation="include">
+        </childnode>
+      </node>
+      <node id="2436">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSArray+BlocksKit.h</label>
+        <link refid="_n_s_array_09_blocks_kit_8h"/>
+        <childnode refid="2437" relation="include">
+        </childnode>
+        <childnode refid="2438" relation="include">
+        </childnode>
+        <childnode refid="2439" relation="include">
+        </childnode>
+      </node>
+      <node id="2437">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSArray+BlocksKit.m</label>
+        <link refid="_n_s_array_09_blocks_kit_8m"/>
+      </node>
+      <node id="2495">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIActionSheet+BlocksKit.h</label>
+        <link refid="_u_i_action_sheet_09_blocks_kit_8h"/>
+        <childnode refid="2481" relation="include">
+        </childnode>
+      </node>
+      <node id="2481">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIActionSheet+BlocksKit.m</label>
+        <link refid="_u_i_action_sheet_09_blocks_kit_8m"/>
+      </node>
+      <node id="2468">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSTimer+BlocksKit.h</label>
+        <link refid="_n_s_timer_09_blocks_kit_8h"/>
+        <childnode refid="2469" relation="include">
+        </childnode>
+      </node>
+      <node id="2469">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSTimer+BlocksKit.m</label>
+        <link refid="_n_s_timer_09_blocks_kit_8m"/>
+      </node>
+      <node id="2458">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSObject+BKAssociatedObjects.h</label>
+        <link refid="_n_s_object_09_b_k_associated_objects_8h"/>
+        <childnode refid="2459" relation="include">
+        </childnode>
+        <childnode refid="2438" relation="include">
+        </childnode>
+      </node>
+      <node id="2459">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSObject+BKAssociatedObjects.m</label>
+        <link refid="_n_s_object_09_b_k_associated_objects_8m"/>
+      </node>
+      <node id="2488">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/DynamicDelegate/Foundation/NSCache+BlocksKit.h</label>
+        <link refid="_n_s_cache_09_blocks_kit_8h"/>
+        <childnode refid="2474" relation="include">
+        </childnode>
+      </node>
+      <node id="2493">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/MessageUI/MFMessageComposeViewController+BlocksKit.h</label>
+        <link refid="_m_f_message_compose_view_controller_09_blocks_kit_8h"/>
+        <childnode refid="2479" relation="include">
+        </childnode>
+      </node>
+      <node id="2474">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/DynamicDelegate/Foundation/NSCache+BlocksKit.m</label>
+        <link refid="_n_s_cache_09_blocks_kit_8m"/>
+      </node>
+      <node id="2508">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIView+BlocksKit.h</label>
+        <link refid="_u_i_view_09_blocks_kit_8h"/>
+        <childnode refid="2502" relation="include">
+        </childnode>
+      </node>
+      <node id="2479">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/MessageUI/MFMessageComposeViewController+BlocksKit.m</label>
+        <link refid="_m_f_message_compose_view_controller_09_blocks_kit_8m"/>
+      </node>
+      <node id="2502">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIView+BlocksKit.m</label>
+        <link refid="_u_i_view_09_blocks_kit_8m"/>
+      </node>
+      <node id="2507">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UITextField+BlocksKit.h</label>
+        <link refid="_u_i_text_field_09_blocks_kit_8h"/>
+        <childnode refid="2485" relation="include">
+        </childnode>
+      </node>
+      <node id="2463">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSObject+BKBlockObservation.h</label>
+        <link refid="_n_s_object_09_b_k_block_observation_8h"/>
+        <childnode refid="2438" relation="include">
+        </childnode>
+      </node>
+      <node id="2485">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UITextField+BlocksKit.m</label>
+        <link refid="_u_i_text_field_09_blocks_kit_8m"/>
+      </node>
+      <node id="2438">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSObject+BKBlockObservation.m</label>
+        <link refid="_n_s_object_09_b_k_block_observation_8m"/>
+      </node>
+      <node id="2444">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSInvocation+BlocksKit.h</label>
+        <link refid="_n_s_invocation_09_blocks_kit_8h"/>
+        <childnode refid="2445" relation="include">
+        </childnode>
+      </node>
+      <node id="2445">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSInvocation+BlocksKit.m</label>
+        <link refid="_n_s_invocation_09_blocks_kit_8m"/>
+      </node>
+      <node id="2499">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIControl+BlocksKit.h</label>
+        <link refid="_u_i_control_09_blocks_kit_8h"/>
+        <childnode refid="2500" relation="include">
+        </childnode>
+      </node>
+      <node id="2500">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIControl+BlocksKit.m</label>
+        <link refid="_u_i_control_09_blocks_kit_8m"/>
+      </node>
+      <node id="2452">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSMutableIndexSet+BlocksKit.h</label>
+        <link refid="_n_s_mutable_index_set_09_blocks_kit_8h"/>
+        <childnode refid="2453" relation="include">
+        </childnode>
+      </node>
+      <node id="2453">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSMutableIndexSet+BlocksKit.m</label>
+        <link refid="_n_s_mutable_index_set_09_blocks_kit_8m"/>
+      </node>
+      <node id="2513">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/BlocksKit+UIKit.h</label>
+        <link refid="_blocks_kit_09_u_i_kit_8h"/>
+      </node>
+      <node id="2512">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/BlocksKit+QuickLook.h</label>
+        <link refid="_blocks_kit_09_quick_look_8h"/>
+      </node>
+      <node id="2509">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIWebView+BlocksKit.h</label>
+        <link refid="_u_i_web_view_09_blocks_kit_8h"/>
+        <childnode refid="2487" relation="include">
+        </childnode>
+      </node>
+      <node id="2487">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIWebView+BlocksKit.m</label>
+        <link refid="_u_i_web_view_09_blocks_kit_8m"/>
+      </node>
+      <node id="2450">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSMutableDictionary+BlocksKit.h</label>
+        <link refid="_n_s_mutable_dictionary_09_blocks_kit_8h"/>
+        <childnode refid="2451" relation="include">
+        </childnode>
+      </node>
+      <node id="2451">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSMutableDictionary+BlocksKit.m</label>
+        <link refid="_n_s_mutable_dictionary_09_blocks_kit_8m"/>
+      </node>
+      <node id="2511">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/BlocksKit+MessageUI.h</label>
+        <link refid="_blocks_kit_09_message_u_i_8h"/>
+      </node>
+      <node id="2492">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/MessageUI/MFMailComposeViewController+BlocksKit.h</label>
+        <link refid="_m_f_mail_compose_view_controller_09_blocks_kit_8h"/>
+        <childnode refid="2478" relation="include">
+        </childnode>
+      </node>
+      <node id="2478">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/MessageUI/MFMailComposeViewController+BlocksKit.m</label>
+        <link refid="_m_f_mail_compose_view_controller_09_blocks_kit_8m"/>
+      </node>
+      <node id="2470">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/DynamicDelegate/A2BlockInvocation.h</label>
+        <link refid="_a2_block_invocation_8h"/>
+        <childnode refid="2471" relation="include">
+        </childnode>
+        <childnode refid="2472" relation="include">
+        </childnode>
+      </node>
+      <node id="2471">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/DynamicDelegate/A2BlockInvocation.m</label>
+        <link refid="_a2_block_invocation_8m"/>
+      </node>
+      <node id="2446">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSMapTable+BlocksKit.h</label>
+        <link refid="_n_s_map_table_09_blocks_kit_8h"/>
+        <childnode refid="2447" relation="include">
+        </childnode>
+      </node>
+      <node id="2440">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSDictionary+BlocksKit.h</label>
+        <link refid="_n_s_dictionary_09_blocks_kit_8h"/>
+        <childnode refid="2441" relation="include">
+        </childnode>
+        <childnode refid="2438" relation="include">
+        </childnode>
+        <childnode refid="2439" relation="include">
+        </childnode>
+      </node>
+      <node id="2447">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSMapTable+BlocksKit.m</label>
+        <link refid="_n_s_map_table_09_blocks_kit_8m"/>
+      </node>
+      <node id="2441">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSDictionary+BlocksKit.m</label>
+        <link refid="_n_s_dictionary_09_blocks_kit_8m"/>
+      </node>
+      <node id="2486">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UITextView+BlocksKit.m</label>
+        <link refid="_u_i_text_view_09_blocks_kit_8m"/>
+      </node>
+      <node id="2505">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIImagePickerController+BlocksKit.h</label>
+        <link refid="_u_i_image_picker_controller_09_blocks_kit_8h"/>
+        <childnode refid="2483" relation="include">
+        </childnode>
+      </node>
+      <node id="2483">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIImagePickerController+BlocksKit.m</label>
+        <link refid="_u_i_image_picker_controller_09_blocks_kit_8m"/>
+      </node>
+      <node id="2496">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIAlertView+BlocksKit.h</label>
+        <link refid="_u_i_alert_view_09_blocks_kit_8h"/>
+        <childnode refid="2482" relation="include">
+        </childnode>
+      </node>
+      <node id="2482">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIAlertView+BlocksKit.m</label>
+        <link refid="_u_i_alert_view_09_blocks_kit_8m"/>
+      </node>
+      <node id="2489">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/DynamicDelegate/NSObject+A2DynamicDelegate.h</label>
+        <link refid="_n_s_object_09_a2_dynamic_delegate_8h"/>
+        <childnode refid="2474" relation="include">
+        </childnode>
+        <childnode refid="2475" relation="include">
+        </childnode>
+        <childnode refid="2476" relation="include">
+        </childnode>
+        <childnode refid="2477" relation="include">
+        </childnode>
+        <childnode refid="2478" relation="include">
+        </childnode>
+        <childnode refid="2479" relation="include">
+        </childnode>
+        <childnode refid="2480" relation="include">
+        </childnode>
+        <childnode refid="2481" relation="include">
+        </childnode>
+        <childnode refid="2482" relation="include">
+        </childnode>
+        <childnode refid="2483" relation="include">
+        </childnode>
+        <childnode refid="2484" relation="include">
+        </childnode>
+        <childnode refid="2485" relation="include">
+        </childnode>
+        <childnode refid="2487" relation="include">
+        </childnode>
+      </node>
+      <node id="2494">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/QuickLook/QLPreviewController+BlocksKit.h</label>
+        <link refid="_q_l_preview_controller_09_blocks_kit_8h"/>
+        <childnode refid="2480" relation="include">
+        </childnode>
+      </node>
+      <node id="2477">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/DynamicDelegate/NSObject+A2DynamicDelegate.m</label>
+        <link refid="_n_s_object_09_a2_dynamic_delegate_8m"/>
+      </node>
+      <node id="2480">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/QuickLook/QLPreviewController+BlocksKit.m</label>
+        <link refid="_q_l_preview_controller_09_blocks_kit_8m"/>
+      </node>
+      <node id="2503">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIImage+BlocksKit.h</label>
+        <link refid="_u_i_image_09_blocks_kit_8h"/>
+        <childnode refid="2504" relation="include">
+        </childnode>
+      </node>
+      <node id="2504">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIImage+BlocksKit.m</label>
+        <link refid="_u_i_image_09_blocks_kit_8m"/>
+      </node>
+      <node id="2464">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSSet+BlocksKit.h</label>
+        <link refid="_n_s_set_09_blocks_kit_8h"/>
+        <childnode refid="2438" relation="include">
+        </childnode>
+        <childnode refid="2465" relation="include">
+        </childnode>
+        <childnode refid="2439" relation="include">
+        </childnode>
+      </node>
+      <node id="2465">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSSet+BlocksKit.m</label>
+        <link refid="_n_s_set_09_blocks_kit_8m"/>
+      </node>
+      <node id="2435">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/BKDefines.h</label>
+        <link refid="BKDefines.h"/>
+        <childnode refid="2436" relation="include">
+        </childnode>
+        <childnode refid="2440" relation="include">
+        </childnode>
+        <childnode refid="2442" relation="include">
+        </childnode>
+        <childnode refid="2444" relation="include">
+        </childnode>
+        <childnode refid="2446" relation="include">
+        </childnode>
+        <childnode refid="2448" relation="include">
+        </childnode>
+        <childnode refid="2450" relation="include">
+        </childnode>
+        <childnode refid="2452" relation="include">
+        </childnode>
+        <childnode refid="2454" relation="include">
+        </childnode>
+        <childnode refid="2456" relation="include">
+        </childnode>
+        <childnode refid="2458" relation="include">
+        </childnode>
+        <childnode refid="2460" relation="include">
+        </childnode>
+        <childnode refid="2463" relation="include">
+        </childnode>
+        <childnode refid="2464" relation="include">
+        </childnode>
+        <childnode refid="2466" relation="include">
+        </childnode>
+        <childnode refid="2468" relation="include">
+        </childnode>
+        <childnode refid="2470" relation="include">
+        </childnode>
+        <childnode refid="2473" relation="include">
+        </childnode>
+        <childnode refid="2488" relation="include">
+        </childnode>
+        <childnode refid="2489" relation="include">
+        </childnode>
+        <childnode refid="2490" relation="include">
+        </childnode>
+        <childnode refid="2491" relation="include">
+        </childnode>
+        <childnode refid="2492" relation="include">
+        </childnode>
+        <childnode refid="2493" relation="include">
+        </childnode>
+        <childnode refid="2494" relation="include">
+        </childnode>
+        <childnode refid="2495" relation="include">
+        </childnode>
+        <childnode refid="2496" relation="include">
+        </childnode>
+        <childnode refid="2497" relation="include">
+        </childnode>
+        <childnode refid="2499" relation="include">
+        </childnode>
+        <childnode refid="2501" relation="include">
+        </childnode>
+        <childnode refid="2503" relation="include">
+        </childnode>
+        <childnode refid="2505" relation="include">
+        </childnode>
+        <childnode refid="2506" relation="include">
+        </childnode>
+        <childnode refid="2507" relation="include">
+        </childnode>
+        <childnode refid="2508" relation="include">
+        </childnode>
+        <childnode refid="2509" relation="include">
+        </childnode>
+        <childnode refid="2510" relation="include">
+        </childnode>
+        <childnode refid="2439" relation="include">
+        </childnode>
+      </node>
+      <node id="2490">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/DynamicDelegate/NSObject+A2BlockDelegate.h</label>
+        <link refid="_n_s_object_09_a2_block_delegate_8h"/>
+        <childnode refid="2474" relation="include">
+        </childnode>
+        <childnode refid="2475" relation="include">
+        </childnode>
+        <childnode refid="2476" relation="include">
+        </childnode>
+        <childnode refid="2478" relation="include">
+        </childnode>
+        <childnode refid="2479" relation="include">
+        </childnode>
+        <childnode refid="2480" relation="include">
+        </childnode>
+        <childnode refid="2481" relation="include">
+        </childnode>
+        <childnode refid="2482" relation="include">
+        </childnode>
+        <childnode refid="2483" relation="include">
+        </childnode>
+        <childnode refid="2484" relation="include">
+        </childnode>
+        <childnode refid="2485" relation="include">
+        </childnode>
+        <childnode refid="2486" relation="include">
+        </childnode>
+        <childnode refid="2487" relation="include">
+        </childnode>
+      </node>
+      <node id="2491">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/DynamicDelegate/Foundation/NSURLConnection+BlocksKit.h</label>
+        <link refid="_n_s_u_r_l_connection_09_blocks_kit_8h"/>
+        <childnode refid="2475" relation="include">
+        </childnode>
+      </node>
+      <node id="2448">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSMutableArray+BlocksKit.h</label>
+        <link refid="_n_s_mutable_array_09_blocks_kit_8h"/>
+        <childnode refid="2449" relation="include">
+        </childnode>
+      </node>
+      <node id="2476">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/DynamicDelegate/NSObject+A2BlockDelegate.m</label>
+        <link refid="_n_s_object_09_a2_block_delegate_8m"/>
+      </node>
+      <node id="2475">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/DynamicDelegate/Foundation/NSURLConnection+BlocksKit.m</label>
+        <link refid="_n_s_u_r_l_connection_09_blocks_kit_8m"/>
+      </node>
+      <node id="2449">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSMutableArray+BlocksKit.m</label>
+        <link refid="_n_s_mutable_array_09_blocks_kit_8m"/>
+      </node>
+      <node id="2456">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSMutableSet+BlocksKit.h</label>
+        <link refid="_n_s_mutable_set_09_blocks_kit_8h"/>
+        <childnode refid="2457" relation="include">
+        </childnode>
+      </node>
+      <node id="2497">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIBarButtonItem+BlocksKit.h</label>
+        <link refid="_u_i_bar_button_item_09_blocks_kit_8h"/>
+        <childnode refid="2498" relation="include">
+        </childnode>
+      </node>
+      <node id="2457">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSMutableSet+BlocksKit.m</label>
+        <link refid="_n_s_mutable_set_09_blocks_kit_8m"/>
+      </node>
+      <node id="2442">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSIndexSet+BlocksKit.h</label>
+        <link refid="_n_s_index_set_09_blocks_kit_8h"/>
+        <childnode refid="2443" relation="include">
+        </childnode>
+        <childnode refid="2439" relation="include">
+        </childnode>
+      </node>
+      <node id="2498">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIBarButtonItem+BlocksKit.m</label>
+        <link refid="_u_i_bar_button_item_09_blocks_kit_8m"/>
+      </node>
+      <node id="2443">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSIndexSet+BlocksKit.m</label>
+        <link refid="_n_s_index_set_09_blocks_kit_8m"/>
+      </node>
+      <node id="2466">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSOrderedSet+BlocksKit.h</label>
+        <link refid="_n_s_ordered_set_09_blocks_kit_8h"/>
+        <childnode refid="2467" relation="include">
+        </childnode>
+      </node>
+      <node id="2467">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSOrderedSet+BlocksKit.m</label>
+        <link refid="_n_s_ordered_set_09_blocks_kit_8m"/>
+      </node>
+      <node id="2439">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/BKMacros.h</label>
+        <link refid="_b_k_macros_8h"/>
+      </node>
+      <node id="2454">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSMutableOrderedSet+BlocksKit.h</label>
+        <link refid="_n_s_mutable_ordered_set_09_blocks_kit_8h"/>
+        <childnode refid="2455" relation="include">
+        </childnode>
+      </node>
+      <node id="2506">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIPopoverController+BlocksKit.h</label>
+        <link refid="_u_i_popover_controller_09_blocks_kit_8h"/>
+        <childnode refid="2484" relation="include">
+        </childnode>
+      </node>
+      <node id="2455">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSMutableOrderedSet+BlocksKit.m</label>
+        <link refid="_n_s_mutable_ordered_set_09_blocks_kit_8m"/>
+      </node>
+      <node id="2484">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIPopoverController+BlocksKit.m</label>
+        <link refid="_u_i_popover_controller_09_blocks_kit_8m"/>
+      </node>
+      <node id="2460">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSObject+BKBlockExecution.h</label>
+        <link refid="_n_s_object_09_b_k_block_execution_8h"/>
+        <childnode refid="2461" relation="include">
+        </childnode>
+        <childnode refid="2462" relation="include">
+        </childnode>
+      </node>
+      <node id="2461">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSObject+BKBlockExecution.m</label>
+        <link refid="_n_s_object_09_b_k_block_execution_8m"/>
+      </node>
+      <node id="2501">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIGestureRecognizer+BlocksKit.h</label>
+        <link refid="_u_i_gesture_recognizer_09_blocks_kit_8h"/>
+        <childnode refid="2462" relation="include">
+        </childnode>
+        <childnode refid="2502" relation="include">
+        </childnode>
+      </node>
+      <node id="2462">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIGestureRecognizer+BlocksKit.m</label>
+        <link refid="_u_i_gesture_recognizer_09_blocks_kit_8m"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="_b_k_defines_8h_1a447121dcab4275b7839a56082b7a1ab8" prot="public" static="no">
+        <name>__has_builtin</name>
+        <param><defname>x</defname></param>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/BKDefines.h" line="10" column="9" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/BKDefines.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_b_k_defines_8h_1ae5510d82e4946f1656f4969911c54736" prot="public" static="no">
+        <name>__has_include</name>
+        <param><defname>x</defname></param>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/BKDefines.h" line="13" column="9" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/BKDefines.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_b_k_defines_8h_1af989845e24678c452b9222afdac95e7f" prot="public" static="no">
+        <name>__has_feature</name>
+        <param><defname>x</defname></param>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/BKDefines.h" line="16" column="9" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/BKDefines.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_b_k_defines_8h_1a54d2d7742701f3f112afbcd8d4f9ccdb" prot="public" static="no">
+        <name>__has_attribute</name>
+        <param><defname>x</defname></param>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/BKDefines.h" line="19" column="9" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/BKDefines.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_b_k_defines_8h_1ae1ce1a4353334dd8968a94a98b4bf1dd" prot="public" static="no">
+        <name>__has_extension</name>
+        <param><defname>x</defname></param>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/BKDefines.h" line="22" column="9" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/BKDefines.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_b_k_defines_8h_1a33c08c6ca8f22acd327c850ca2151f17" prot="public" static="no">
+        <name>NS_ASSUME_NONNULL_BEGIN</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/BKDefines.h" line="30" column="13" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/BKDefines.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_b_k_defines_8h_1a34f05dab7f212780aa8f76bbb465ce67" prot="public" static="no">
+        <name>NS_ASSUME_NONNULL_END</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/BKDefines.h" line="31" column="11" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/BKDefines.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_b_k_defines_8h_1a1a7066a31c058653905186805a59f858" prot="public" static="no">
+        <name>nonnull</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/BKDefines.h" line="36" column="10" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/BKDefines.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_b_k_defines_8h_1a02648067ad66739ed70a10195891098a" prot="public" static="no">
+        <name>nullable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/BKDefines.h" line="37" column="10" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/BKDefines.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_b_k_defines_8h_1a5cf086149d6aeb6311b16a643bbeb1b6" prot="public" static="no">
+        <name>null_unspecified</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/BKDefines.h" line="38" column="10" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/BKDefines.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_b_k_defines_8h_1a52f97c05d27719b2d82d9c7bfb3db1eb" prot="public" static="no">
+        <name>__nonnull</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/BKDefines.h" line="39" column="10" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/BKDefines.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_b_k_defines_8h_1adef3a2f6f7f351e138d1df7e339bc555" prot="public" static="no">
+        <name>__nullable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/BKDefines.h" line="40" column="10" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/BKDefines.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_b_k_defines_8h_1a116558e32b474b677fe11cb963b7a505" prot="public" static="no">
+        <name>__null_unspecified</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/BKDefines.h" line="41" column="10" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/BKDefines.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_b_k_defines_8h_1af94d69b14f02105e1a677a016b46088b" prot="public" static="no">
+        <name>__GENERICS</name>
+        <param><defname>class</defname></param>
+        <param><defname>...</defname></param>
+        <initializer>class</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/BKDefines.h" line="48" column="13" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/BKDefines.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_b_k_defines_8h_1ab485357d1e4d03e834e7f1df9cca42f0" prot="public" static="no">
+        <name>__GENERICS_TYPE</name>
+        <param><defname>type</defname></param>
+        <initializer>id</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/BKDefines.h" line="49" column="12" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/BKDefines.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_b_k_defines_8h_1a11b6bf9f14d80d3d91a2aa02bc79eb05" prot="public" static="no">
+        <name>BK_INITIALIZER</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/BKDefines.h" line="56" column="13" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/BKDefines.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_b_k_defines_8h_1a24232bfc079c94f0519f0dbfbb3e0f84" prot="public" static="no">
+        <name>BK_ALERT_CONTROLLER_DEPRECATED</name>
+        <param><defname>intro</defname></param>
+        <initializer>NS_DEPRECATED_IOS(intro, 8_0, &quot;The BlocksKit extensions for UIAlertView and UIActionSheet are deprecated. Use UIAlertController instead.&quot;);</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/BKDefines.h" line="61" column="10" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/BKDefines.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_b_k_defines_8h_1a830ab671d96b86f1bf6d24bcf7ab3d98" prot="public" static="no">
+        <name>BK_URL_CONNECTION_DEPRECATED</name>
+        <initializer>NS_DEPRECATED(10_5, 10_11, 2_0, 9_0, &quot;The BlocksKit extensions for NSURLConnection are deprecated. Use NSURLSession instead.&quot;);</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/BKDefines.h" line="65" column="10" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/BKDefines.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>BKDefines.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>BlocksKit</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;Foundation/NSObjCRuntime.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>__has_builtin</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="_b_k_defines_8h_1a447121dcab4275b7839a56082b7a1ab8" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>__has_builtin(x)<sp/>0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>__has_include</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="_b_k_defines_8h_1ae5510d82e4946f1656f4969911c54736" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>__has_include(x)<sp/>0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>__has_feature</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="_b_k_defines_8h_1af989845e24678c452b9222afdac95e7f" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>__has_feature(x)<sp/>0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>__has_attribute</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="_b_k_defines_8h_1a54d2d7742701f3f112afbcd8d4f9ccdb" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>__has_attribute(x)<sp/>0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>__has_extension</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="_b_k_defines_8h_1ae1ce1a4353334dd8968a94a98b4bf1dd" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>__has_extension(x)<sp/>0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>!defined(NS_ASSUME_NONNULL_BEGIN)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/>if<sp/><sp/>__has_feature(assume_nonnull)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>define<sp/>NS_ASSUME_NONNULL_BEGIN<sp/>_Pragma(&quot;clang<sp/>assume_nonnull<sp/>begin&quot;)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>define<sp/>NS_ASSUME_NONNULL_END<sp/><sp/><sp/>_Pragma(&quot;clang<sp/>assume_nonnull<sp/>end&quot;)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/>else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="_b_k_defines_8h_1a33c08c6ca8f22acd327c850ca2151f17" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>define<sp/>NS_ASSUME_NONNULL_BEGIN</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31" refid="_b_k_defines_8h_1a34f05dab7f212780aa8f76bbb465ce67" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>define<sp/>NS_ASSUME_NONNULL_END</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/>endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>!__has_feature(nullability)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36" refid="_b_k_defines_8h_1a1a7066a31c058653905186805a59f858" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/>define<sp/>nonnull</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37" refid="_b_k_defines_8h_1a02648067ad66739ed70a10195891098a" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/>define<sp/>nullable</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38" refid="_b_k_defines_8h_1a5cf086149d6aeb6311b16a643bbeb1b6" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/>define<sp/>null_unspecified</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39" refid="_b_k_defines_8h_1a52f97c05d27719b2d82d9c7bfb3db1eb" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/>define<sp/>__nonnull</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40" refid="_b_k_defines_8h_1adef3a2f6f7f351e138d1df7e339bc555" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/>define<sp/>__nullable</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="_b_k_defines_8h_1a116558e32b474b677fe11cb963b7a505" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/>define<sp/>__null_unspecified</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>__has_feature(objc_generics)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/>define<sp/>__GENERICS(class,<sp/>...)<sp/><sp/><sp/><sp/><sp/><sp/>class&lt;__VA_ARGS__&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/>define<sp/>__GENERICS_TYPE(type)<sp/><sp/><sp/><sp/><sp/><sp/><sp/>type</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48" refid="_b_k_defines_8h_1af94d69b14f02105e1a677a016b46088b" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/>define<sp/>__GENERICS(class,<sp/>...)<sp/><sp/><sp/><sp/><sp/><sp/>class</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49" refid="_b_k_defines_8h_1ab485357d1e4d03e834e7f1df9cca42f0" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/>define<sp/>__GENERICS_TYPE(type)<sp/><sp/><sp/><sp/><sp/><sp/><sp/>id</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>!defined(BK_INITIALIZER)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/>if<sp/>__has_attribute(objc_method_family)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>define<sp/>BK_INITIALIZER<sp/>__attribute__((objc_method_family(init)))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/>else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56" refid="_b_k_defines_8h_1a11b6bf9f14d80d3d91a2aa02bc79eb05" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>define<sp/>BK_INITIALIZER</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/>endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>!defined(BK_ALERT_CONTROLLER_DEPRECATED)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61" refid="_b_k_defines_8h_1a24232bfc079c94f0519f0dbfbb3e0f84" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/>define<sp/>BK_ALERT_CONTROLLER_DEPRECATED(intro)<sp/>NS_DEPRECATED_IOS(intro,<sp/>8_0,<sp/>&quot;The<sp/>BlocksKit<sp/>extensions<sp/>for<sp/>UIAlertView<sp/>and<sp/>UIActionSheet<sp/>are<sp/>deprecated.<sp/>Use<sp/>UIAlertController<sp/>instead.&quot;);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>!defined(BK_URL_CONNECTION_DEPRECATED)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="65" refid="_b_k_defines_8h_1a830ab671d96b86f1bf6d24bcf7ab3d98" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/>define<sp/>BK_URL_CONNECTION_DEPRECATED<sp/>NS_DEPRECATED(10_5,<sp/>10_11,<sp/>2_0,<sp/>9_0,<sp/>&quot;The<sp/>BlocksKit<sp/>extensions<sp/>for<sp/>NSURLConnection<sp/>are<sp/>deprecated.<sp/>Use<sp/>NSURLSession<sp/>instead.&quot;);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/BKDefines.h"/>
+  </compounddef>
+</doxygen>

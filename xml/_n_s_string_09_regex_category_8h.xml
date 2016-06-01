@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_n_s_string_09_regex_category_8h" kind="file" language="C++">
+    <compoundname>NSString+RegexCategory.h</compoundname>
+    <includes local="no">Foundation/Foundation.h</includes>
+    <includedby refid="_n_s_string_09_regex_category_8m" local="yes">XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+RegexCategory.m</includedby>
+    <incdepgraph>
+      <node id="880">
+        <label>Foundation/Foundation.h</label>
+      </node>
+      <node id="879">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+RegexCategory.h</label>
+        <link refid="NSString+RegexCategory.h"/>
+        <childnode refid="880" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="881">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+RegexCategory.h</label>
+        <link refid="NSString+RegexCategory.h"/>
+        <childnode refid="882" relation="include">
+        </childnode>
+      </node>
+      <node id="882">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+RegexCategory.m</label>
+        <link refid="_n_s_string_09_regex_category_8m"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="category_n_s_string_07_regex_category_08" prot="public">NSString(RegexCategory)</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>NSString+RegexCategory.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>IOS-Categories</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>KevinHM<sp/>on<sp/>15/6/24.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2015年<sp/>KevinHM.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/>https://github.com/KevinHM</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;Foundation/Foundation.h&gt;</highlight></codeline>
+<codeline lineno="83"><highlight class="preprocessor">#import<sp/>&lt;Foundation/Foundation.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="category_n_s_string_07_regex_category_08" kindref="compound">NSString (RegexCategory)</ref></highlight></codeline>
+<codeline lineno="89"><highlight class="normal">-<sp/>(BOOL)<ref refid="category_n_s_string_07_regex_category_08_1af330a1211abbb4d17b6c1ddceb9c94ba" kindref="member">isMobileNumberClassification</ref>;</highlight></codeline>
+<codeline lineno="93"><highlight class="normal">-<sp/>(BOOL)<ref refid="category_n_s_string_07_regex_category_08_1a745f00570a924a6d75747d7daaccbaf3" kindref="member">isMobileNumber</ref>;</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal">-<sp/>(BOOL)<ref refid="category_n_s_string_07_regex_category_08_1a0e2dc8ceff44f85a21a773d6866584fb" kindref="member">isEmailAddress</ref>;</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal">-<sp/>(BOOL)<ref refid="category_n_s_string_07_regex_category_08_1a4f87f95a550cc5d4a09f790297a3fe81" kindref="member">simpleVerifyIdentityCardNum</ref>;</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal">+<sp/>(BOOL)accurateVerifyIDCardNumber:(NSString<sp/>*)value;</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal">-<sp/>(BOOL)<ref refid="category_n_s_string_07_regex_category_08_1adccaefa412279ecdd8e1f516563015ab" kindref="member">isCarNumber</ref>;</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal">-<sp/>(BOOL)<ref refid="category_n_s_string_07_regex_category_08_1ab442a14757cc3f3db6ac753af088b5cf" kindref="member">bankCardluhmCheck</ref>;</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight></codeline>
+<codeline lineno="126"><highlight class="normal">-<sp/>(BOOL)<ref refid="category_n_s_string_07_regex_category_08_1ac7ac5650ef44462e42409ae372db8b2f" kindref="member">isIPAddress</ref>;</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal">-<sp/>(BOOL)<ref refid="category_n_s_string_07_regex_category_08_1af4f1f6d6df01b945744d214895b20ac4" kindref="member">isMacAddress</ref>;</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight></codeline>
+<codeline lineno="136"><highlight class="normal">-<sp/>(BOOL)<ref refid="category_n_s_string_07_regex_category_08_1a838c90f4a04afaf8ebb05089debaf37c" kindref="member">isValidUrl</ref>;</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight></codeline>
+<codeline lineno="141"><highlight class="normal">-<sp/>(BOOL)<ref refid="category_n_s_string_07_regex_category_08_1ab271da006ad073d8143ab0996210861d" kindref="member">isValidChinese</ref>;</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight></codeline>
+<codeline lineno="146"><highlight class="normal">-<sp/>(BOOL)<ref refid="category_n_s_string_07_regex_category_08_1afd0dc201418562af24b5d7e9ca9430a2" kindref="member">isValidPostalcode</ref>;</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight></codeline>
+<codeline lineno="151"><highlight class="normal">-<sp/>(BOOL)<ref refid="category_n_s_string_07_regex_category_08_1ae74a7f9b1ca28fd08fb6693195d2a428" kindref="member">isValidTaxNo</ref>;</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"></highlight></codeline>
+<codeline lineno="161"><highlight class="normal">-<sp/>(BOOL)isValidWithMinLenth:(NSInteger)minLenth</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>maxLenth:(NSInteger)maxLenth</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>containChinese:(BOOL)containChinese</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>firstCannotBeDigtal:(BOOL)firstCannotBeDigtal;</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"></highlight></codeline>
+<codeline lineno="177"><highlight class="normal">-<sp/>(BOOL)isValidWithMinLenth:(NSInteger)minLenth</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>maxLenth:(NSInteger)maxLenth</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>containChinese:(BOOL)containChinese</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>containDigtal:(BOOL)containDigtal</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>containLetter:(BOOL)containLetter</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>containOtherCharacter:(NSString<sp/>*)containOtherCharacter</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>firstCannotBeDigtal:(BOOL)firstCannotBeDigtal;</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"></highlight></codeline>
+<codeline lineno="185"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+RegexCategory.h"/>
+  </compounddef>
+</doxygen>

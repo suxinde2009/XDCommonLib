@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_u_i_view_09_hierachy_8h" kind="file" language="C++">
+    <compoundname>UIView+Hierachy.h</compoundname>
+    <includes local="no">UIKit/UIKit.h</includes>
+    <includedby refid="_u_i_view_09_hierachy_8m" local="yes">XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Hierachy.m</includedby>
+    <incdepgraph>
+      <node id="2013">
+        <label>UIKit/UIKit.h</label>
+      </node>
+      <node id="2012">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Hierachy.h</label>
+        <link refid="UIView+Hierachy.h"/>
+        <childnode refid="2013" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2014">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Hierachy.h</label>
+        <link refid="UIView+Hierachy.h"/>
+        <childnode refid="2015" relation="include">
+        </childnode>
+      </node>
+      <node id="2015">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Hierachy.m</label>
+        <link refid="_u_i_view_09_hierachy_8m"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="category_u_i_view_07_hierachy_08" prot="public">UIView(Hierachy)</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>UIView+Hierachy.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>XDCommonLib</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>su<sp/>xinde<sp/>on<sp/>15/11/27.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>©<sp/>2015年<sp/>su<sp/>xinde.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;UIKit/UIKit.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="category_u_i_view_07_hierachy_08" kindref="compound">UIView (Hierachy)</ref></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal">-<sp/>(void)<ref refid="category_u_i_view_07_hierachy_08_1a22afc0ad26b00abcc31327b20090abfe" kindref="member">showViewHierarchy</ref>;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Hierachy.h"/>
+  </compounddef>
+</doxygen>

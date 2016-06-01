@@ -8,6 +8,10 @@
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
 
+/**
+ *  @brief NSObject perform***方法的拓展
+ */
+
 @interface NSObject (Blocks)
 + (id)performBlock:(void (^)(void))block afterDelay:(NSTimeInterval)delay;
 + (id)performBlock:(void (^)(id arg))block withObject:(id)anObject afterDelay:(NSTimeInterval)delay;

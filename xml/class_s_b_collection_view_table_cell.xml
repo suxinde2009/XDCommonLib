@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="class_s_b_collection_view_table_cell" kind="class" language="Objective-C" prot="public">
+    <compoundname>SBCollectionViewTableCell</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">UICollectionViewCell</basecompoundref>
+    <includes refid="_s_b_collection_view_table_cell_8h" local="no">SBCollectionViewTableCell.h</includes>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_s_b_collection_view_table_cell_1a213b53336c3bfc89891645009f1b4da0" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="strong">
+        <type><ref refid="interface_s_b_collection_view_table_cell_separator_view" kindref="compound">SBCollectionViewTableCellSeparatorView</ref> *</type>
+        <definition>SBCollectionViewTableCellSeparatorView* SBCollectionViewTableCell::topSeparatorView</definition>
+        <argsstring></argsstring>
+        <name>topSeparatorView</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The separator view displayd at the top of top and single cells. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/SBTableLayout/SBCollectionViewTableCell.h" line="20" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/SBTableLayout/SBCollectionViewTableCell.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_s_b_collection_view_table_cell_1a2ecf3e6b669b9ba8af9a7be42280938f" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="strong">
+        <type><ref refid="interface_s_b_collection_view_table_cell_separator_view" kindref="compound">SBCollectionViewTableCellSeparatorView</ref> *</type>
+        <definition>SBCollectionViewTableCellSeparatorView* SBCollectionViewTableCell::bottomSeparatorView</definition>
+        <argsstring></argsstring>
+        <name>bottomSeparatorView</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The separator view displayd at the bottom of bottom and single cells. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/SBTableLayout/SBCollectionViewTableCell.h" line="25" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/SBTableLayout/SBCollectionViewTableCell.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_s_b_collection_view_table_cell_1a297907d0ca6d7c326b575b50f7de670e" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="strong">
+        <type><ref refid="interface_s_b_collection_view_table_cell_separator_view" kindref="compound">SBCollectionViewTableCellSeparatorView</ref> *</type>
+        <definition>SBCollectionViewTableCellSeparatorView* SBCollectionViewTableCell::middleSeparatorView</definition>
+        <argsstring></argsstring>
+        <name>middleSeparatorView</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The separator view displayd at the bottom of top and middle cells. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/SBTableLayout/SBCollectionViewTableCell.h" line="30" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/SBTableLayout/SBCollectionViewTableCell.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>The class of a table cell in the layout, handles the separator views. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="711">
+        <label>UICollectionViewCell</label>
+      </node>
+      <node id="710">
+        <label>SBCollectionViewTableCell</label>
+        <link refid="class_s_b_collection_view_table_cell"/>
+        <childnode refid="711" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="714">
+        <label>SBCollectionViewTableCellSeparatorView</label>
+        <link refid="interface_s_b_collection_view_table_cell_separator_view"/>
+        <childnode refid="715" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="713">
+        <label>UICollectionViewCell</label>
+      </node>
+      <node id="712">
+        <label>SBCollectionViewTableCell</label>
+        <link refid="class_s_b_collection_view_table_cell"/>
+        <childnode refid="713" relation="public-inheritance">
+        </childnode>
+        <childnode refid="714" relation="usage">
+          <edgelabel>bottomSeparatorView</edgelabel>
+          <edgelabel>topSeparatorView</edgelabel>
+          <edgelabel>middleSeparatorView</edgelabel>
+        </childnode>
+      </node>
+      <node id="715">
+        <label>UIView</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/SBTableLayout/SBCollectionViewTableCell.m" line="14" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/SBTableLayout/SBCollectionViewTableCell.m" bodystart="14" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="class_s_b_collection_view_table_cell_1a2ecf3e6b669b9ba8af9a7be42280938f" prot="public" virt="non-virtual"><scope>SBCollectionViewTableCell</scope><name>bottomSeparatorView</name></member>
+      <member refid="class_s_b_collection_view_table_cell_1a297907d0ca6d7c326b575b50f7de670e" prot="public" virt="non-virtual"><scope>SBCollectionViewTableCell</scope><name>middleSeparatorView</name></member>
+      <member refid="class_s_b_collection_view_table_cell_1a213b53336c3bfc89891645009f1b4da0" prot="public" virt="non-virtual"><scope>SBCollectionViewTableCell</scope><name>topSeparatorView</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

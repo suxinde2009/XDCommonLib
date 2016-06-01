@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_u_i_image_07_bitmap_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>UIImage(Bitmap)</compoundname>
+    <includes refid="_u_i_image_09_bitmap_8h" local="no">UIImage+Bitmap.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="category_u_i_image_07_bitmap_08_1aec3a74ca17d1ace0ed4adc694c92d588" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSData *</type>
+        <definition>NSData * UIImage(Bitmap)::bitmapData</definition>
+        <argsstring>()</argsstring>
+        <name>bitmapData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>将图片转换为点阵图数据</para><para><simplesect kind="return"><para>转化后的点阵图数据 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/BLLSDKLayer/BLE/BLEPrinter/UIImage+Bitmap.h" line="11" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/BLLSDKLayer/BLE/BLEPrinter/UIImage+Bitmap.m" bodystart="16" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_image_07_bitmap_08_1a146972c2a9e155a5e54f47c9e24808cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>CGContextRef</type>
+        <definition>CGContextRef UIImage(Bitmap)::bitmapRGBA8Context</definition>
+        <argsstring>()</argsstring>
+        <name>bitmapRGBA8Context</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>将图片绘制到绘图上下文中，并返回上下文</para><para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/BLLSDKLayer/BLE/BLEPrinter/UIImage+Bitmap.h" line="11" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/BLLSDKLayer/BLE/BLEPrinter/UIImage+Bitmap.m" bodystart="116" bodyend="171"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_image_07_bitmap_08_1ae7b9857b3d2902a6730f7ad691f3218a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>UIImage *</type>
+        <definition>UIImage * UIImage(Bitmap)::imageWithscaleMaxWidth:</definition>
+        <argsstring>(CGFloat maxWidth)</argsstring>
+        <name>imageWithscaleMaxWidth:</name>
+        <param>
+          <type>CGFloat</type>
+          <declname>maxWidth</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>缩放图片，会按照给定的最大宽度，等比缩放</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>maxWidth</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>缩放后的最大宽度</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>返回缩放后的图片 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/BLLSDKLayer/BLE/BLEPrinter/UIImage+Bitmap.h" line="11" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/BLLSDKLayer/BLE/BLEPrinter/UIImage+Bitmap.m" bodystart="173" bodyend="190"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_image_07_bitmap_08_1af880480b0ca36a0cd267dbe07c310ec4" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>UIImage *</type>
+        <definition>UIImage * UIImage(Bitmap)::blackAndWhiteImage</definition>
+        <argsstring>()</argsstring>
+        <name>blackAndWhiteImage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>将图片转换为黑白图片</para><para><simplesect kind="return"><para>黑白图片 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/BLLSDKLayer/BLE/BLEPrinter/UIImage+Bitmap.h" line="11" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/BLLSDKLayer/BLE/BLEPrinter/UIImage+Bitmap.m" bodystart="192" bodyend="208"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/BLLSDKLayer/BLE/BLEPrinter/UIImage+Bitmap.h" line="18" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/BLLSDKLayer/BLE/BLEPrinter/UIImage+Bitmap.h" bodystart="18" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_u_i_image_07_bitmap_08_1aec3a74ca17d1ace0ed4adc694c92d588" prot="public" virt="virtual"><scope>UIImage(Bitmap)</scope><name>bitmapData</name></member>
+      <member refid="category_u_i_image_07_bitmap_08_1a146972c2a9e155a5e54f47c9e24808cf" prot="public" virt="virtual"><scope>UIImage(Bitmap)</scope><name>bitmapRGBA8Context</name></member>
+      <member refid="category_u_i_image_07_bitmap_08_1af880480b0ca36a0cd267dbe07c310ec4" prot="public" virt="virtual"><scope>UIImage(Bitmap)</scope><name>blackAndWhiteImage</name></member>
+      <member refid="category_u_i_image_07_bitmap_08_1ae7b9857b3d2902a6730f7ad691f3218a" prot="public" virt="virtual"><scope>UIImage(Bitmap)</scope><name>imageWithscaleMaxWidth:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

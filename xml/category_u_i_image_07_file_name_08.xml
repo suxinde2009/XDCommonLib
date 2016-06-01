@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_u_i_image_07_file_name_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>UIImage(FileName)</compoundname>
+    <includes refid="_u_i_image_09_file_name_8h" local="no">UIImage+FileName.h</includes>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="category_u_i_image_07_file_name_08_1adb18275a48c107c9cb62a18b942d71d4" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>UIImage *</type>
+        <definition>UIImage * UIImage(FileName)::imageWithFileName:</definition>
+        <argsstring>(NSString *name)</argsstring>
+        <name>imageWithFileName:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+<para>根据bundle中的文件名读取图片 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>图片名</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>无缓存的图片 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImage/UIImage+FileName.h" line="12" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImage/UIImage+FileName.m" bodystart="19" bodyend="55"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImage/UIImage+FileName.m" line="11" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImage/UIImage+FileName.m" bodystart="11" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_u_i_image_07_file_name_08_1adb18275a48c107c9cb62a18b942d71d4" prot="public" virt="virtual"><scope>UIImage(FileName)</scope><name>imageWithFileName:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

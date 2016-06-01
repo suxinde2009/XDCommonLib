@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_s_b_collection_view_table_cell_8m" kind="file" language="Objective-C">
+    <compoundname>SBCollectionViewTableCell.m</compoundname>
+    <includes refid="_s_b_collection_view_table_cell_8h" local="yes">SBCollectionViewTableCell.h</includes>
+    <includes refid="_s_b_collection_view_table_layout_attributes_8h" local="yes">SBCollectionViewTableLayoutAttributes.h</includes>
+    <includes refid="_s_b_collection_view_table_cell_separator_view_8h" local="yes">SBCollectionViewTableCellSeparatorView.h</includes>
+    <includes refid="_u_i_color_09_s_b_collection_view_table_layout_colors_8h" local="yes">UIColor+SBCollectionViewTableLayoutColors.h</includes>
+    <incdepgraph>
+      <node id="3581">
+        <label>UIKit/UIKit.h</label>
+      </node>
+      <node id="3584">
+        <label>UIColor+SBCollectionViewTableLayoutColors.h</label>
+        <link refid="_u_i_color_09_s_b_collection_view_table_layout_colors_8h"/>
+        <childnode refid="3581" relation="include">
+        </childnode>
+      </node>
+      <node id="3582">
+        <label>SBCollectionViewTableLayoutAttributes.h</label>
+        <link refid="_s_b_collection_view_table_layout_attributes_8h"/>
+        <childnode refid="3581" relation="include">
+        </childnode>
+      </node>
+      <node id="3583">
+        <label>SBCollectionViewTableCellSeparatorView.h</label>
+        <link refid="_s_b_collection_view_table_cell_separator_view_8h"/>
+        <childnode refid="3581" relation="include">
+        </childnode>
+      </node>
+      <node id="3580">
+        <label>SBCollectionViewTableCell.h</label>
+        <link refid="_s_b_collection_view_table_cell_8h"/>
+        <childnode refid="3581" relation="include">
+        </childnode>
+      </node>
+      <node id="3579">
+        <label>XDCommonLib/CommonBasicComponentLayer/Venders/SBTableLayout/SBCollectionViewTableCell.m</label>
+        <link refid="SBCollectionViewTableCell.m"/>
+        <childnode refid="3580" relation="include">
+        </childnode>
+        <childnode refid="3582" relation="include">
+        </childnode>
+        <childnode refid="3583" relation="include">
+        </childnode>
+        <childnode refid="3584" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>SBCollectionViewTableCell.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>SBTableLayout</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Simon<sp/>Blommegård<sp/>on<sp/>2013-11-11.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2013<sp/>Simon<sp/>Blommegård.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_s_b_collection_view_table_cell_8h" kindref="compound">SBCollectionViewTableCell.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_s_b_collection_view_table_layout_attributes_8h" kindref="compound">SBCollectionViewTableLayoutAttributes.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_s_b_collection_view_table_cell_separator_view_8h" kindref="compound">SBCollectionViewTableCellSeparatorView.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_u_i_color_09_s_b_collection_view_table_layout_colors_8h" kindref="compound">UIColor+SBCollectionViewTableLayoutColors.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="class_s_b_collection_view_table_cell" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">@implementation<sp/></highlight><highlight class="normal"><ref refid="class_s_b_collection_view_table_cell" kindref="compound">SBCollectionViewTableCell</ref></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal">-<sp/>(id)initWithFrame:(CGRect)frame<sp/>{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>=<sp/>[super<sp/>initWithFrame:frame])<sp/>{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>UIView<sp/>*backgroundView<sp/>=<sp/>[[UIView<sp/>alloc]<sp/>initWithFrame:self.bounds];</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>[backgroundView<sp/>setBackgroundColor:[UIColor<sp/>sb_cellBackgroundColor]];</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>setBackgroundView:backgroundView];</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>UIView<sp/>*selectedBackgroundView<sp/>=<sp/>[[UIView<sp/>alloc]<sp/>initWithFrame:self.bounds];</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>[selectedBackgroundView<sp/>setBackgroundColor:[UIColor<sp/>sb_cellSelectedBacgroundColor]];</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>setSelectedBackgroundView:selectedBackgroundView];</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>_topSeparatorView<sp/>=<sp/>[<ref refid="interface_s_b_collection_view_table_cell_separator_view" kindref="compound">SBCollectionViewTableCellSeparatorView</ref><sp/>new];</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>_bottomSeparatorView<sp/>=<sp/>[<ref refid="interface_s_b_collection_view_table_cell_separator_view" kindref="compound">SBCollectionViewTableCellSeparatorView</ref><sp/>new];</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>_middleSeparatorView<sp/>=<sp/>[<ref refid="interface_s_b_collection_view_table_cell_separator_view" kindref="compound">SBCollectionViewTableCellSeparatorView</ref><sp/>new];</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal">-<sp/>(void)layoutSubviews<sp/>{</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/>[</highlight><highlight class="keyword">super</highlight><highlight class="normal"><sp/>layoutSubviews];</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>bringSubviewToFront:self.topSeparatorView];</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>bringSubviewToFront:self.bottomSeparatorView];</highlight></codeline>
+<codeline lineno="38"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal">-<sp/>(void)applyLayoutAttributes:(<ref refid="interface_s_b_collection_view_table_layout_attributes" kindref="compound">SBCollectionViewTableLayoutAttributes</ref><sp/>*)layoutAttributes<sp/>{</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/>[</highlight><highlight class="keyword">super</highlight><highlight class="normal"><sp/>applyLayoutAttributes:layoutAttributes];</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/>SBCollectionViewTableCellType<sp/>type<sp/>=<sp/>layoutAttributes.<ref refid="interface_s_b_collection_view_table_layout_attributes_1af49d1048616344e77304e87709faa8d0" kindref="member">cellType</ref>;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/>CGRect<sp/>topFrame<sp/>=<sp/>CGRectMake(0.f,</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0.f,</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CGRectGetWidth(</highlight><highlight class="keyword">self</highlight><highlight class="normal">.bounds),</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>layoutAttributes.<ref refid="interface_s_b_collection_view_table_layout_attributes_1afd3b7c54a3bda46356892c7ab1040174" kindref="member">borderSeparatorWidth</ref>);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/>CGRect<sp/>bottomFrame<sp/>=<sp/>CGRectMake(0.f,</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CGRectGetHeight(</highlight><highlight class="keyword">self</highlight><highlight class="normal">.bounds)-layoutAttributes.<ref refid="interface_s_b_collection_view_table_layout_attributes_1afd3b7c54a3bda46356892c7ab1040174" kindref="member">borderSeparatorWidth</ref>,</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CGRectGetWidth(</highlight><highlight class="keyword">self</highlight><highlight class="normal">.bounds),</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>layoutAttributes.<ref refid="interface_s_b_collection_view_table_layout_attributes_1afd3b7c54a3bda46356892c7ab1040174" kindref="member">borderSeparatorWidth</ref>);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/>CGRect<sp/>middleFrame<sp/>=<sp/>CGRectMake(layoutAttributes.<ref refid="interface_s_b_collection_view_table_layout_attributes_1ac8c7de626610b8bc6dabdebcbad27206" kindref="member">middleSeparatorInset</ref>.left,</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CGRectGetHeight(</highlight><highlight class="keyword">self</highlight><highlight class="normal">.bounds)-layoutAttributes.<ref refid="interface_s_b_collection_view_table_layout_attributes_1a6acc774a092ae69f84cffa455f8f575e" kindref="member">middleSeparatorWidth</ref>,</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CGRectGetWidth(</highlight><highlight class="keyword">self</highlight><highlight class="normal">.bounds)-layoutAttributes.<ref refid="interface_s_b_collection_view_table_layout_attributes_1ac8c7de626610b8bc6dabdebcbad27206" kindref="member">middleSeparatorInset</ref>.left+layoutAttributes.<ref refid="interface_s_b_collection_view_table_layout_attributes_1ac8c7de626610b8bc6dabdebcbad27206" kindref="member">middleSeparatorInset</ref>.right,</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>layoutAttributes.<ref refid="interface_s_b_collection_view_table_layout_attributes_1a6acc774a092ae69f84cffa455f8f575e" kindref="member">middleSeparatorWidth</ref>);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal">.topSeparatorView<sp/>setFrame:topFrame];</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal">.bottomSeparatorView<sp/>setFrame:bottomFrame];</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal">.middleSeparatorView<sp/>setFrame:middleFrame];</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>((type<sp/>==<sp/>SBCollectionViewTableCellTypeTop<sp/>||<sp/>type<sp/>==<sp/>SBCollectionViewTableCellTypeSingle))</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>addSubview:self.topSeparatorView];</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">self</highlight><highlight class="normal">.<ref refid="class_s_b_collection_view_table_cell_1a213b53336c3bfc89891645009f1b4da0" kindref="member">topSeparatorView</ref>.superview)</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal">.topSeparatorView<sp/>removeFromSuperview];</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>((type<sp/>==<sp/>SBCollectionViewTableCellTypeBottom<sp/>||<sp/>type<sp/>==<sp/>SBCollectionViewTableCellTypeSingle))</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>addSubview:self.bottomSeparatorView];</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">self</highlight><highlight class="normal">.<ref refid="class_s_b_collection_view_table_cell_1a2ecf3e6b669b9ba8af9a7be42280938f" kindref="member">bottomSeparatorView</ref>.superview)</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal">.bottomSeparatorView<sp/>removeFromSuperview];</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>((type<sp/>==<sp/>SBCollectionViewTableCellTypeMiddle<sp/>||<sp/>type<sp/>==<sp/>SBCollectionViewTableCellTypeTop))</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>addSubview:self.middleSeparatorView];</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">self</highlight><highlight class="normal">.<ref refid="class_s_b_collection_view_table_cell_1a297907d0ca6d7c326b575b50f7de670e" kindref="member">middleSeparatorView</ref>.superview)</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal">.middleSeparatorView<sp/>removeFromSuperview];</highlight></codeline>
+<codeline lineno="76"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal">-<sp/>(void)setHighlighted:(BOOL)highlighted<sp/>{</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/>[</highlight><highlight class="keyword">super</highlight><highlight class="normal"><sp/>setHighlighted:highlighted];</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>adjustSeparatorViewsToSelectionAndHighlight:highlighted];</highlight></codeline>
+<codeline lineno="82"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal">-<sp/>(void)setSelected:(BOOL)selected<sp/>{</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/>[</highlight><highlight class="keyword">super</highlight><highlight class="normal"><sp/>setSelected:selected];</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>adjustSeparatorViewsToSelectionAndHighlight:selected];</highlight></codeline>
+<codeline lineno="88"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/>-<sp/>Private</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight><highlight class="comment">//<sp/>TODO:<sp/>We<sp/>should<sp/>have<sp/>a<sp/>better<sp/>way<sp/>of<sp/>doing<sp/>this.<sp/>=/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal">-<sp/>(void)adjustSeparatorViewsToSelectionAndHighlight:(BOOL)selected<sp/>{</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/>UICollectionView<sp/>*collectionView<sp/>=<sp/>(UICollectionView<sp/>*)</highlight><highlight class="keyword">self</highlight><highlight class="normal">.superview;</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/>NSIndexPath<sp/>*selfIndexPath<sp/>=<sp/>[collectionView<sp/>indexPathForCell:self];</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><ref refid="class_s_b_collection_view_table_cell" kindref="compound">SBCollectionViewTableCell</ref><sp/>*cell<sp/>=<sp/>(<ref refid="class_s_b_collection_view_table_cell" kindref="compound">SBCollectionViewTableCell</ref><sp/>*)[collectionView<sp/>cellForItemAtIndexPath:[NSIndexPath<sp/>indexPathForItem:selfIndexPath.item-1<sp/>inSection:selfIndexPath.section]];</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal">.bottomSeparatorView.superview?</highlight><highlight class="keyword">self</highlight><highlight class="normal">.bottomSeparatorView:</highlight><highlight class="keyword">self</highlight><highlight class="normal">.middleSeparatorView<sp/>setHidden:selected];</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/>[cell.<ref refid="class_s_b_collection_view_table_cell_1a2ecf3e6b669b9ba8af9a7be42280938f" kindref="member">bottomSeparatorView</ref>.superview?cell.<ref refid="class_s_b_collection_view_table_cell_1a2ecf3e6b669b9ba8af9a7be42280938f" kindref="member">bottomSeparatorView</ref>:cell.<ref refid="class_s_b_collection_view_table_cell_1a297907d0ca6d7c326b575b50f7de670e" kindref="member">middleSeparatorView</ref><sp/>setHidden:selected];</highlight></codeline>
+<codeline lineno="100"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/SBTableLayout/SBCollectionViewTableCell.m"/>
+  </compounddef>
+</doxygen>

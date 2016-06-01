@@ -1,0 +1,363 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_u_i_image_09_blur_8m" kind="file" language="Objective-C">
+    <compoundname>UIImage+Blur.m</compoundname>
+    <includes refid="_u_i_image_09_blur_8h" local="yes">UIImage+Blur.h</includes>
+    <incdepgraph>
+      <node id="1480">
+        <label>UIImage+Blur.h</label>
+        <link refid="_u_i_image_09_blur_8h"/>
+        <childnode refid="1481" relation="include">
+        </childnode>
+      </node>
+      <node id="1479">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImage/UIImage+Blur.m</label>
+        <link refid="UIImage+Blur.m"/>
+        <childnode refid="1480" relation="include">
+        </childnode>
+      </node>
+      <node id="1481">
+        <label>UIKit/UIKit.h</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="_u_i_image_09_blur_8m_1a91bb34540541d5dd8a4c59a4d9fc7145" prot="public" static="no">
+        <name>ENABLE_BLUR</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImage/UIImage+Blur.m" line="81" column="9"/>
+      </memberdef>
+      <memberdef kind="define" id="_u_i_image_09_blur_8m_1aa5dcf2f6d12ab77c4bde531e2d364662" prot="public" static="no">
+        <name>ENABLE_SATURATION_ADJUSTMENT</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImage/UIImage+Blur.m" line="82" column="9"/>
+      </memberdef>
+      <memberdef kind="define" id="_u_i_image_09_blur_8m_1a62c6734adf4577458e93473cdfa6f28d" prot="public" static="no">
+        <name>ENABLE_TINT</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImage/UIImage+Blur.m" line="83" column="9"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="_u_i_image_09_blur_8m_1abce8c8832d3878958bfb8cb405ea57f6" prot="public" static="no" mutable="no">
+        <type>import</type>
+        <definition>import Accelerate</definition>
+        <argsstring></argsstring>
+        <name>Accelerate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImage/UIImage+Blur.m" line="10" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImage/UIImage+Blur.m" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>UIImage+Blur.m</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>IOS-Categories<sp/>(https://github.com/shaojiankui/iOS-Categories)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Jakey<sp/>on<sp/>15/6/5.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2015年<sp/>www.skyfox.org.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_u_i_image_09_blur_8h" kindref="compound">UIImage+Blur.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="_u_i_image_09_blur_8m_1abce8c8832d3878958bfb8cb405ea57f6" refkind="member"><highlight class="normal">@</highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/><ref refid="_u_i_image_09_blur_8m_1abce8c8832d3878958bfb8cb405ea57f6" kindref="member">Accelerate</ref>;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="category_u_i_image_07_blur_08" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">@implementation<sp/></highlight><highlight class="normal"><ref refid="category_u_i_image_07_blur_08" kindref="compound">UIImage (Blur)</ref></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/>-</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/>-<sp/>Effects</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="comment">//|<sp/>----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="category_u_i_image_07_blur_08_1a0f41403185db00bc947b2284d5edf950" refkind="member"><highlight class="normal">-<sp/>(UIImage<sp/>*)<ref refid="category_u_i_image_07_blur_08_1a0f41403185db00bc947b2284d5edf950" kindref="member">lightImage</ref></highlight></codeline>
+<codeline lineno="18"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>UIColor<sp/>*tintColor<sp/>=<sp/>[UIColor<sp/>colorWithWhite:1.0<sp/>alpha:0.3];</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/><ref refid="category_u_i_image_07_blur_08_1af06057c8ade5c3fc29d0fb4037d2937c" kindref="member">blurredImageWithSize</ref>:CGSizeMake(60,<sp/>60)<sp/><ref refid="category_u_i_image_07_blur_08_1af06057c8ade5c3fc29d0fb4037d2937c" kindref="member">tintColor</ref>:tintColor<sp/><ref refid="category_u_i_image_07_blur_08_1af06057c8ade5c3fc29d0fb4037d2937c" kindref="member">saturationDeltaFactor</ref>:1.8<sp/><ref refid="category_u_i_image_07_blur_08_1af06057c8ade5c3fc29d0fb4037d2937c" kindref="member">maskImage</ref>:nil];</highlight></codeline>
+<codeline lineno="21"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="comment">//|<sp/>----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25" refid="category_u_i_image_07_blur_08_1a082d3b36ccb6385ac1c73fabee01f586" refkind="member"><highlight class="normal">-<sp/>(UIImage<sp/>*)<ref refid="category_u_i_image_07_blur_08_1a082d3b36ccb6385ac1c73fabee01f586" kindref="member">extraLightImage</ref></highlight></codeline>
+<codeline lineno="26"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>UIColor<sp/>*tintColor<sp/>=<sp/>[UIColor<sp/>colorWithWhite:0.97<sp/>alpha:0.82];</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/><ref refid="category_u_i_image_07_blur_08_1af06057c8ade5c3fc29d0fb4037d2937c" kindref="member">blurredImageWithSize</ref>:CGSizeMake(40,<sp/>40)<sp/><ref refid="category_u_i_image_07_blur_08_1af06057c8ade5c3fc29d0fb4037d2937c" kindref="member">tintColor</ref>:tintColor<sp/><ref refid="category_u_i_image_07_blur_08_1af06057c8ade5c3fc29d0fb4037d2937c" kindref="member">saturationDeltaFactor</ref>:1.8<sp/><ref refid="category_u_i_image_07_blur_08_1af06057c8ade5c3fc29d0fb4037d2937c" kindref="member">maskImage</ref>:nil];</highlight></codeline>
+<codeline lineno="29"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="comment">//|<sp/>----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="category_u_i_image_07_blur_08_1a33ad5c01de317d5e48806fcbd7b4ad34" refkind="member"><highlight class="normal">-<sp/>(UIImage<sp/>*)<ref refid="category_u_i_image_07_blur_08_1a33ad5c01de317d5e48806fcbd7b4ad34" kindref="member">darkImage</ref></highlight></codeline>
+<codeline lineno="34"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>UIColor<sp/>*tintColor<sp/>=<sp/>[UIColor<sp/>colorWithWhite:0.11<sp/>alpha:0.73];</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/><ref refid="category_u_i_image_07_blur_08_1af06057c8ade5c3fc29d0fb4037d2937c" kindref="member">blurredImageWithSize</ref>:CGSizeMake(40,<sp/>40)<sp/><ref refid="category_u_i_image_07_blur_08_1af06057c8ade5c3fc29d0fb4037d2937c" kindref="member">tintColor</ref>:tintColor<sp/><ref refid="category_u_i_image_07_blur_08_1af06057c8ade5c3fc29d0fb4037d2937c" kindref="member">saturationDeltaFactor</ref>:1.8<sp/><ref refid="category_u_i_image_07_blur_08_1af06057c8ade5c3fc29d0fb4037d2937c" kindref="member">maskImage</ref>:nil];</highlight></codeline>
+<codeline lineno="37"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="comment">//|<sp/>----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="category_u_i_image_07_blur_08_1a8276b8c51bc0acb3480500f9dbb70879" refkind="member"><highlight class="normal">-<sp/>(UIImage<sp/>*)tintedImageWithColor:(UIColor<sp/>*)tintColor</highlight></codeline>
+<codeline lineno="42"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>CGFloat<sp/>EffectColorAlpha<sp/>=<sp/>0.6;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>UIColor<sp/>*effectColor<sp/>=<sp/>tintColor;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>componentCount<sp/>=<sp/>CGColorGetNumberOfComponents(tintColor.CGColor);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(componentCount<sp/>==<sp/>2)<sp/>{</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CGFloat<sp/>b;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>([tintColor<sp/>getWhite:&amp;b<sp/>alpha:NULL])<sp/>{</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>effectColor<sp/>=<sp/>[UIColor<sp/>colorWithWhite:b<sp/>alpha:EffectColorAlpha];</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CGFloat<sp/>r,<sp/><ref refid="_x_d___f_f_t_8c_1a921a12666ac2d929ec80858f70fb8359" kindref="member">g</ref>,<sp/>b;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>([tintColor<sp/>getRed:&amp;r<sp/>green:&amp;g<sp/>blue:&amp;b<sp/>alpha:NULL])<sp/>{</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>effectColor<sp/>=<sp/>[UIColor<sp/>colorWithRed:r<sp/>green:g<sp/>blue:b<sp/>alpha:EffectColorAlpha];</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/><ref refid="category_u_i_image_07_blur_08_1af06057c8ade5c3fc29d0fb4037d2937c" kindref="member">blurredImageWithSize</ref>:CGSizeMake(20,<sp/>20)<sp/><ref refid="category_u_i_image_07_blur_08_1af06057c8ade5c3fc29d0fb4037d2937c" kindref="member">tintColor</ref>:effectColor<sp/><ref refid="category_u_i_image_07_blur_08_1af06057c8ade5c3fc29d0fb4037d2937c" kindref="member">saturationDeltaFactor</ref>:-1.0<sp/><ref refid="category_u_i_image_07_blur_08_1af06057c8ade5c3fc29d0fb4037d2937c" kindref="member">maskImage</ref>:nil];</highlight></codeline>
+<codeline lineno="59"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight><highlight class="comment">//|<sp/>----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63" refid="category_u_i_image_07_blur_08_1acb7fd6a995b6306be7a7cfad1f8ec74d" refkind="member"><highlight class="normal">-<sp/>(UIImage<sp/>*)blurredImageWithRadius:(CGFloat)blurRadius</highlight></codeline>
+<codeline lineno="64"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/><ref refid="category_u_i_image_07_blur_08_1ac76a6204ecb2ab924d406ffa490f6d5c" kindref="member">blurredImageWithSize</ref>:CGSizeMake(blurRadius,<sp/>blurRadius)];</highlight></codeline>
+<codeline lineno="66"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight><highlight class="comment">//|<sp/>----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="70" refid="category_u_i_image_07_blur_08_1ac76a6204ecb2ab924d406ffa490f6d5c" refkind="member"><highlight class="normal">-<sp/>(UIImage<sp/>*)blurredImageWithSize:(CGSize)blurSize</highlight></codeline>
+<codeline lineno="71"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/><ref refid="category_u_i_image_07_blur_08_1af06057c8ade5c3fc29d0fb4037d2937c" kindref="member">blurredImageWithSize</ref>:blurSize<sp/><ref refid="category_u_i_image_07_blur_08_1af06057c8ade5c3fc29d0fb4037d2937c" kindref="member">tintColor</ref>:nil<sp/><ref refid="category_u_i_image_07_blur_08_1af06057c8ade5c3fc29d0fb4037d2937c" kindref="member">saturationDeltaFactor</ref>:1.0<sp/><ref refid="category_u_i_image_07_blur_08_1af06057c8ade5c3fc29d0fb4037d2937c" kindref="member">maskImage</ref>:nil];</highlight></codeline>
+<codeline lineno="73"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/>-</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/>-<sp/>Implementation</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight><highlight class="comment">//|<sp/>----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="79" refid="category_u_i_image_07_blur_08_1af06057c8ade5c3fc29d0fb4037d2937c" refkind="member"><highlight class="normal">-<sp/>(UIImage<sp/>*)blurredImageWithSize:(CGSize)blurSize<sp/>tintColor:(UIColor<sp/>*)tintColor<sp/>saturationDeltaFactor:(CGFloat)saturationDeltaFactor<sp/>maskImage:(UIImage<sp/>*)maskImage</highlight></codeline>
+<codeline lineno="80"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>ENABLE_BLUR<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>ENABLE_SATURATION_ADJUSTMENT<sp/><sp/><sp/><sp/>1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>ENABLE_TINT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Check<sp/>pre-conditions.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">self</highlight><highlight class="normal">.size.width<sp/>&lt;<sp/>1<sp/>||<sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.size.height<sp/>&lt;<sp/>1)</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NSLog(</highlight><highlight class="stringliteral">@&quot;***<sp/>error:<sp/>invalid<sp/>size:<sp/>(%.2f<sp/>x<sp/>%.2f).<sp/>Both<sp/>dimensions<sp/>must<sp/>be<sp/>&gt;=<sp/>1:<sp/>%@&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.size.width,<sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.size.height,<sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>nil;</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!</highlight><highlight class="keyword">self</highlight><highlight class="normal">.CGImage)</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NSLog(</highlight><highlight class="stringliteral">@&quot;***<sp/>error:<sp/>inputImage<sp/>must<sp/>be<sp/>backed<sp/>by<sp/>a<sp/>CGImage:<sp/>%@&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>nil;</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(maskImage<sp/>&amp;&amp;<sp/>!maskImage.CGImage)</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NSLog(</highlight><highlight class="stringliteral">@&quot;***<sp/>error:<sp/>effectMaskImage<sp/>must<sp/>be<sp/>backed<sp/>by<sp/>a<sp/>CGImage:<sp/>%@&quot;</highlight><highlight class="normal">,<sp/>maskImage);</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>nil;</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/>BOOL<sp/>hasBlur<sp/>=<sp/>blurSize.width<sp/>&gt;<sp/>__FLT_EPSILON__<sp/>||<sp/>blurSize.height<sp/>&gt;<sp/>__FLT_EPSILON__;</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/>BOOL<sp/>hasSaturationChange<sp/>=<sp/>fabs(saturationDeltaFactor<sp/>-<sp/>1.)<sp/>&gt;<sp/>__FLT_EPSILON__;</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/>CGImageRef<sp/>inputCGImage<sp/>=<sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.CGImage;</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/>CGFloat<sp/>inputImageScale<sp/>=<sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.scale;</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/>CGBitmapInfo<sp/>inputImageBitmapInfo<sp/>=<sp/>CGImageGetBitmapInfo(inputCGImage);</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/>CGImageAlphaInfo<sp/>inputImageAlphaInfo<sp/>=<sp/>(inputImageBitmapInfo<sp/>&amp;<sp/>kCGBitmapAlphaInfoMask);</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/>CGSize<sp/>outputImageSizeInPoints<sp/>=<sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.size;</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/>CGRect<sp/>outputImageRectInPoints<sp/>=<sp/>{<sp/>CGPointZero,<sp/>outputImageSizeInPoints<sp/>};</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Set<sp/>up<sp/>output<sp/>context.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/>BOOL<sp/>useOpaqueContext;</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(inputImageAlphaInfo<sp/>==<sp/>kCGImageAlphaNone<sp/>||<sp/>inputImageAlphaInfo<sp/>==<sp/>kCGImageAlphaNoneSkipLast<sp/>||<sp/>inputImageAlphaInfo<sp/>==<sp/>kCGImageAlphaNoneSkipFirst)</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>useOpaqueContext<sp/>=<sp/>YES;</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>useOpaqueContext<sp/>=<sp/>NO;</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/>UIGraphicsBeginImageContextWithOptions(outputImageRectInPoints.size,<sp/>useOpaqueContext,<sp/>inputImageScale);</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/>CGContextRef<sp/>outputContext<sp/>=<sp/>UIGraphicsGetCurrentContext();</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/>CGContextScaleCTM(outputContext,<sp/>1.0,<sp/>-1.0);</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/>CGContextTranslateCTM(outputContext,<sp/>0,<sp/>-outputImageRectInPoints.size.height);</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(hasBlur<sp/>||<sp/>hasSaturationChange)</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>vImage_Buffer<sp/>effectInBuffer;</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>vImage_Buffer<sp/>scratchBuffer1;</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>vImage_Buffer<sp/>*inputBuffer;</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>vImage_Buffer<sp/>*outputBuffer;</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>vImage_CGImageFormat<sp/>format<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.bitsPerComponent<sp/>=<sp/>8,</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.bitsPerPixel<sp/>=<sp/>32,</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.colorSpace<sp/>=<sp/>NULL,</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>(kCGImageAlphaPremultipliedFirst<sp/>|<sp/>kCGBitmapByteOrder32Little)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>requests<sp/>a<sp/>BGRA<sp/>buffer.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.bitmapInfo<sp/>=<sp/>kCGImageAlphaPremultipliedFirst<sp/>|<sp/>kCGBitmapByteOrder32Little,</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.version<sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.decode<sp/>=<sp/>NULL,</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.renderingIntent<sp/>=<sp/>kCGRenderingIntentDefault</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>vImage_Error<sp/>e<sp/>=<sp/>vImageBuffer_InitWithCGImage(&amp;effectInBuffer,<sp/>&amp;format,<sp/>NULL,<sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.CGImage,<sp/>kvImagePrintDiagnosticsToConsole);</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(e<sp/>!=<sp/>kvImageNoError)</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NSLog(</highlight><highlight class="stringliteral">@&quot;***<sp/>error:<sp/>vImageBuffer_InitWithCGImage<sp/>returned<sp/>error<sp/>code<sp/>%zi<sp/>for<sp/>inputImage:<sp/>%@&quot;</highlight><highlight class="normal">,<sp/>e,<sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UIGraphicsEndImageContext();</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>nil;</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>vImageBuffer_Init(&amp;scratchBuffer1,<sp/>effectInBuffer.height,<sp/>effectInBuffer.width,<sp/>format.bitsPerPixel,<sp/>kvImageNoFlags);</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>inputBuffer<sp/>=<sp/>&amp;effectInBuffer;</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>outputBuffer<sp/>=<sp/>&amp;scratchBuffer1;</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="156"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>ENABLE_BLUR</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(hasBlur)</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CGFloat<sp/>radiusX<sp/>=<sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>gaussianBlurRadiusWithBlurRadius:blurSize.width<sp/>*<sp/>inputImageScale];</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CGFloat<sp/>radiusY<sp/>=<sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>gaussianBlurRadiusWithBlurRadius:blurSize.height<sp/>*<sp/>inputImageScale];</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NSInteger<sp/>tempBufferSize<sp/>=<sp/>vImageBoxConvolve_ARGB8888(inputBuffer,<sp/>outputBuffer,<sp/>NULL,<sp/>0,<sp/>0,<sp/>radiusY,<sp/>radiusX,<sp/>NULL,<sp/>kvImageGetTempBufferSize<sp/>|<sp/>kvImageEdgeExtend);</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*tempBuffer<sp/>=<sp/>malloc(tempBufferSize);</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>vImageBoxConvolve_ARGB8888(inputBuffer,<sp/>outputBuffer,<sp/>tempBuffer,<sp/>0,<sp/>0,<sp/>radiusY,<sp/>radiusX,<sp/>NULL,<sp/>kvImageEdgeExtend);</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>vImageBoxConvolve_ARGB8888(outputBuffer,<sp/>inputBuffer,<sp/>tempBuffer,<sp/>0,<sp/>0,<sp/>radiusY,<sp/>radiusX,<sp/>NULL,<sp/>kvImageEdgeExtend);</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>vImageBoxConvolve_ARGB8888(inputBuffer,<sp/>outputBuffer,<sp/>tempBuffer,<sp/>0,<sp/>0,<sp/>radiusY,<sp/>radiusX,<sp/>NULL,<sp/>kvImageEdgeExtend);</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>free(tempBuffer);</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>vImage_Buffer<sp/>*temp<sp/>=<sp/>inputBuffer;</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>inputBuffer<sp/>=<sp/>outputBuffer;</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>outputBuffer<sp/>=<sp/>temp;</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="177"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>ENABLE_SATURATION_ADJUSTMENT</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(hasSaturationChange)</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CGFloat<sp/>s<sp/>=<sp/>saturationDeltaFactor;</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>These<sp/>values<sp/>appear<sp/>in<sp/>the<sp/>W3C<sp/>Filter<sp/>Effects<sp/>spec:</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>https://dvcs.w3.org/hg/FXTF/raw-file/default/filters/index.html#grayscaleEquivalent</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CGFloat<sp/>floatingPointSaturationMatrix[]<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0.0722<sp/>+<sp/>0.9278<sp/>*<sp/>s,<sp/><sp/>0.0722<sp/>-<sp/>0.0722<sp/>*<sp/>s,<sp/><sp/>0.0722<sp/>-<sp/>0.0722<sp/>*<sp/>s,<sp/><sp/>0,</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0.7152<sp/>-<sp/>0.7152<sp/>*<sp/>s,<sp/><sp/>0.7152<sp/>+<sp/>0.2848<sp/>*<sp/>s,<sp/><sp/>0.7152<sp/>-<sp/>0.7152<sp/>*<sp/>s,<sp/><sp/>0,</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0.2126<sp/>-<sp/>0.2126<sp/>*<sp/>s,<sp/><sp/>0.2126<sp/>-<sp/>0.2126<sp/>*<sp/>s,<sp/><sp/>0.2126<sp/>+<sp/>0.7873<sp/>*<sp/>s,<sp/><sp/>0,</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>1,</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>int32_t<sp/>divisor<sp/>=<sp/>256;</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NSUInteger<sp/>matrixSize<sp/>=<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(floatingPointSaturationMatrix)/</highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(floatingPointSaturationMatrix[0]);</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>int16_t<sp/>saturationMatrix[matrixSize];</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(NSUInteger<sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>matrixSize;<sp/>++i)<sp/>{</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>saturationMatrix[i]<sp/>=<sp/>(int16_t)roundf(floatingPointSaturationMatrix[i]<sp/>*<sp/>divisor);</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>vImageMatrixMultiply_ARGB8888(inputBuffer,<sp/>outputBuffer,<sp/>saturationMatrix,<sp/>divisor,<sp/>NULL,<sp/>NULL,<sp/>kvImageNoFlags);</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>vImage_Buffer<sp/>*temp<sp/>=<sp/>inputBuffer;</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>inputBuffer<sp/>=<sp/>outputBuffer;</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>outputBuffer<sp/>=<sp/>temp;</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CGImageRef<sp/>effectCGImage;</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>(effectCGImage<sp/>=<sp/>vImageCreateCGImageFromBuffer(inputBuffer,<sp/>&amp;format,<sp/>&amp;cleanupBuffer,<sp/>NULL,<sp/>kvImageNoAllocate,<sp/>NULL))<sp/>==<sp/>NULL<sp/>)<sp/>{</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>effectCGImage<sp/>=<sp/>vImageCreateCGImageFromBuffer(inputBuffer,<sp/>&amp;format,<sp/>NULL,<sp/>NULL,<sp/>kvImageNoFlags,<sp/>NULL);</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>free(inputBuffer-&gt;data);</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(maskImage)<sp/>{</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Only<sp/>need<sp/>to<sp/>draw<sp/>the<sp/>base<sp/>image<sp/>if<sp/>the<sp/>effect<sp/>image<sp/>will<sp/>be<sp/>masked.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CGContextDrawImage(outputContext,<sp/>outputImageRectInPoints,<sp/>inputCGImage);</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>draw<sp/>effect<sp/>image</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CGContextSaveGState(outputContext);</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(maskImage)</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CGContextClipToMask(outputContext,<sp/>outputImageRectInPoints,<sp/>maskImage.CGImage);</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CGContextDrawImage(outputContext,<sp/>outputImageRectInPoints,<sp/>effectCGImage);</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CGContextRestoreGState(outputContext);</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="221"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Cleanup</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="222"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CGImageRelease(effectCGImage);</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>free(outputBuffer-&gt;data);</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="226"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="227"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>draw<sp/>base<sp/>image</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="228"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CGContextDrawImage(outputContext,<sp/>outputImageRectInPoints,<sp/>inputCGImage);</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="231"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>ENABLE_TINT</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="232"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Add<sp/>in<sp/>color<sp/>tint.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="233"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(tintColor)</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CGContextSaveGState(outputContext);</highlight></codeline>
+<codeline lineno="236"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CGContextSetFillColorWithColor(outputContext,<sp/>tintColor.CGColor);</highlight></codeline>
+<codeline lineno="237"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CGContextFillRect(outputContext,<sp/>outputImageRectInPoints);</highlight></codeline>
+<codeline lineno="238"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CGContextRestoreGState(outputContext);</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="240"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="241"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="242"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Output<sp/>image<sp/>is<sp/>ready.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="243"><highlight class="normal"><sp/><sp/><sp/><sp/>UIImage<sp/>*outputImage<sp/>=<sp/>UIGraphicsGetImageFromCurrentImageContext();</highlight></codeline>
+<codeline lineno="244"><highlight class="normal"><sp/><sp/><sp/><sp/>UIGraphicsEndImageContext();</highlight></codeline>
+<codeline lineno="245"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="246"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>outputImage;</highlight></codeline>
+<codeline lineno="247"><highlight class="normal"></highlight><highlight class="preprocessor">#undef<sp/>ENABLE_BLUR</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="248"><highlight class="normal"></highlight><highlight class="preprocessor">#undef<sp/>ENABLE_SATURATION_ADJUSTMENT</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="249"><highlight class="normal"></highlight><highlight class="preprocessor">#undef<sp/>ENABLE_TINT</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="250"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="251"><highlight class="normal"></highlight></codeline>
+<codeline lineno="252"><highlight class="normal"></highlight></codeline>
+<codeline lineno="253"><highlight class="normal"></highlight><highlight class="comment">//<sp/>A<sp/>description<sp/>of<sp/>how<sp/>to<sp/>compute<sp/>the<sp/>box<sp/>kernel<sp/>width<sp/>from<sp/>the<sp/>Gaussian</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="254"><highlight class="normal"></highlight><highlight class="comment">//<sp/>radius<sp/>(aka<sp/>standard<sp/>deviation)<sp/>appears<sp/>in<sp/>the<sp/>SVG<sp/>spec:</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="255"><highlight class="normal"></highlight><highlight class="comment">//<sp/>http://www.w3.org/TR/SVG/filters.html#feGaussianBlurElement</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="256"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="257"><highlight class="normal"></highlight><highlight class="comment">//<sp/>For<sp/>larger<sp/>values<sp/>of<sp/>&apos;s&apos;<sp/>(s<sp/>&gt;=<sp/>2.0),<sp/>an<sp/>approximation<sp/>can<sp/>be<sp/>used:<sp/>Three</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="258"><highlight class="normal"></highlight><highlight class="comment">//<sp/>successive<sp/>box-blurs<sp/>build<sp/>a<sp/>piece-wise<sp/>quadratic<sp/>convolution<sp/>kernel,<sp/>which</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="259"><highlight class="normal"></highlight><highlight class="comment">//<sp/>approximates<sp/>the<sp/>Gaussian<sp/>kernel<sp/>to<sp/>within<sp/>roughly<sp/>3%.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="260"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="261"><highlight class="normal"></highlight><highlight class="comment">//<sp/>let<sp/>d<sp/>=<sp/>floor(s<sp/>*<sp/>3*sqrt(2*pi)/4<sp/>+<sp/>0.5)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="262"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="263"><highlight class="normal"></highlight><highlight class="comment">//<sp/>...<sp/>if<sp/>d<sp/>is<sp/>odd,<sp/>use<sp/>three<sp/>box-blurs<sp/>of<sp/>size<sp/>&apos;d&apos;,<sp/>centered<sp/>on<sp/>the<sp/>output<sp/>pixel.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="264"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="265"><highlight class="normal">-<sp/>(CGFloat)gaussianBlurRadiusWithBlurRadius:(CGFloat)blurRadius</highlight></codeline>
+<codeline lineno="266"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="267"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(blurRadius<sp/>-<sp/>2.<sp/>&lt;<sp/>__FLT_EPSILON__)<sp/>{</highlight></codeline>
+<codeline lineno="268"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>blurRadius<sp/>=<sp/>2.;</highlight></codeline>
+<codeline lineno="269"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="270"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/>radius<sp/>=<sp/>floor((blurRadius<sp/>*<sp/>3.<sp/>*<sp/>sqrt(2<sp/>*<sp/>M_PI)<sp/>/<sp/>4<sp/>+<sp/>0.5)<sp/>/<sp/>2);</highlight></codeline>
+<codeline lineno="271"><highlight class="normal"><sp/><sp/><sp/><sp/>radius<sp/>|=<sp/>1;<sp/></highlight><highlight class="comment">//<sp/>force<sp/>radius<sp/>to<sp/>be<sp/>odd<sp/>so<sp/>that<sp/>the<sp/>three<sp/>box-blur<sp/>methodology<sp/>works.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="272"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>radius;</highlight></codeline>
+<codeline lineno="273"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="274"><highlight class="normal"></highlight></codeline>
+<codeline lineno="275"><highlight class="normal"></highlight></codeline>
+<codeline lineno="276"><highlight class="normal"></highlight><highlight class="comment">//|<sp/>----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="277"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Helper<sp/>function<sp/>to<sp/>handle<sp/>deferred<sp/>cleanup<sp/>of<sp/>a<sp/>buffer.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="278"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="279"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>cleanupBuffer(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*userData,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*buf_data)</highlight></codeline>
+<codeline lineno="280"><highlight class="normal">{<sp/>free(buf_data);<sp/>}</highlight></codeline>
+<codeline lineno="281"><highlight class="normal"></highlight></codeline>
+<codeline lineno="282"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImage/UIImage+Blur.m"/>
+  </compounddef>
+</doxygen>

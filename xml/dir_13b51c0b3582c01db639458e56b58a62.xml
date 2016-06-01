@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="dir_13b51c0b3582c01db639458e56b58a62" kind="dir">
+    <compoundname>XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSNumber</compoundname>
+    <innerfile refid="_n_s_decimal_number_09_calculating_by_string_8h">NSDecimalNumber+CalculatingByString.h</innerfile>
+    <innerfile refid="_n_s_decimal_number_09_calculating_by_string_8m">NSDecimalNumber+CalculatingByString.m</innerfile>
+    <innerfile refid="_n_s_decimal_number_09_extensions_8h">NSDecimalNumber+Extensions.h</innerfile>
+    <innerfile refid="_n_s_decimal_number_09_extensions_8m">NSDecimalNumber+Extensions.m</innerfile>
+    <innerfile refid="_n_s_number_09_c_g_float_8h">NSNumber+CGFloat.h</innerfile>
+    <innerfile refid="_n_s_number_09_c_g_float_8m">NSNumber+CGFloat.m</innerfile>
+    <innerfile refid="_n_s_number_09_roman_numerals_8h">NSNumber+RomanNumerals.h</innerfile>
+    <innerfile refid="_n_s_number_09_roman_numerals_8m">NSNumber+RomanNumerals.m</innerfile>
+    <innerfile refid="_n_s_number_09_round_8h">NSNumber+Round.h</innerfile>
+    <innerfile refid="_n_s_number_09_round_8m">NSNumber+Round.m</innerfile>
+    <innerfile refid="_n_s_number_09_x_d_common_lib_8h">NSNumber+XDCommonLib.h</innerfile>
+    <innerfile refid="_n_s_number_09_x_d_common_lib_8m">NSNumber+XDCommonLib.m</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSNumber/"/>
+  </compounddef>
+</doxygen>

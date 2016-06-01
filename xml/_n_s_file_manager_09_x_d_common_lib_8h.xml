@@ -1,0 +1,134 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_n_s_file_manager_09_x_d_common_lib_8h" kind="file" language="C++">
+    <compoundname>NSFileManager+XDCommonLib.h</compoundname>
+    <includes local="no">Foundation/Foundation.h</includes>
+    <includedby refid="_n_s_file_manager_09_x_d_common_lib_8m" local="yes">XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XDCommonLib.m</includedby>
+    <incdepgraph>
+      <node id="548">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XDCommonLib.h</label>
+        <link refid="NSFileManager+XDCommonLib.h"/>
+        <childnode refid="549" relation="include">
+        </childnode>
+      </node>
+      <node id="549">
+        <label>Foundation/Foundation.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="550">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XDCommonLib.h</label>
+        <link refid="NSFileManager+XDCommonLib.h"/>
+        <childnode refid="551" relation="include">
+        </childnode>
+      </node>
+      <node id="551">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XDCommonLib.m</label>
+        <link refid="_n_s_file_manager_09_x_d_common_lib_8m"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="category_n_s_file_manager_07_x_d_common_lib_08" prot="public">NSFileManager(XDCommonLib)</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_n_s_file_manager_09_x_d_common_lib_8h_1afc0dbca5664440b6a9dbd21e874319d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typedef</type>
+        <definition>typedef NS_ENUM</definition>
+        <argsstring>(NSInteger, DirectoryType)</argsstring>
+        <name>NS_ENUM</name>
+        <param>
+          <type>NSInteger</type>
+        </param>
+        <param>
+          <type>DirectoryType</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Directory type enum </para>        </detaileddescription>
+        <inbodydescription>
+<para>Main bundle directory</para><para>Library directory</para><para>Documents directory</para><para>Cache directory</para>        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XDCommonLib.h" line="14" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XDCommonLib.h" bodystart="14" bodyend="31"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>NSFileManager+XDCommonLib.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>XDCommonLib</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>suxinde<sp/>on<sp/>16/4/11.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>©<sp/>2016年<sp/>su<sp/>xinde.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;Foundation/Foundation.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="_n_s_file_manager_09_x_d_common_lib_8h_1afc0dbca5664440b6a9dbd21e874319d2" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="_n_s_file_manager_09_x_d_common_lib_8h_1afc0dbca5664440b6a9dbd21e874319d2" kindref="member">NS_ENUM</ref>(NSInteger,<sp/>DirectoryType)<sp/>{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>DirectoryTypeMainBundle<sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>DirectoryTypeLibrary,</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>DirectoryTypeDocuments,</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>DirectoryTypeCache</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="category_n_s_file_manager_07_x_d_common_lib_08" kindref="compound">NSFileManager (XDCommonLib)</ref></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal">+<sp/>(NSString<sp/>*<sp/>_Nullable)readTextFile:(NSString<sp/>*<sp/>_Nonnull)file</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ofType:(NSString<sp/>*<sp/>_Nonnull)type;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal">+<sp/>(BOOL)saveArrayToPath:(DirectoryType)path</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>withFilename:(NSString<sp/>*<sp/>_Nonnull)fileName</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>array:(NSArray<sp/>*<sp/>_Nonnull)array;</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal">+<sp/>(NSArray<sp/>*<sp/>_Nullable)loadArrayFromPath:(DirectoryType)path</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>withFilename:(NSString<sp/>*<sp/>_Nonnull)fileName;</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal">+<sp/>(NSString<sp/>*<sp/>_Nonnull)getBundlePathForFile:(NSString<sp/>*<sp/>_Nonnull)fileName;</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal">+<sp/>(NSString<sp/>*<sp/>_Nonnull)getDocumentsDirectoryForFile:(NSString<sp/>*<sp/>_Nonnull)fileName;</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal">+<sp/>(NSString<sp/>*<sp/>_Nonnull)getLibraryDirectoryForFile:(NSString<sp/>*<sp/>_Nonnull)fileName;</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal">+<sp/>(NSString<sp/>*<sp/>_Nonnull)getCacheDirectoryForFile:(NSString<sp/>*<sp/>_Nonnull)fileName;</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal">+<sp/>(NSNumber<sp/>*<sp/>_Nullable)fileSize:(NSString<sp/>*<sp/>_Nonnull)fileName</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fromDirectory:(DirectoryType)directory;</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight></codeline>
+<codeline lineno="126"><highlight class="normal">+<sp/>(BOOL)deleteFile:(NSString<sp/>*<sp/>_Nonnull)fileName</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>fromDirectory:(DirectoryType)directory;</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight></codeline>
+<codeline lineno="138"><highlight class="normal">+<sp/>(BOOL)moveLocalFile:(NSString<sp/>*<sp/>_Nonnull)fileName</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fromDirectory:(DirectoryType)origin</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>toDirectory:(DirectoryType)destination;</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight></codeline>
+<codeline lineno="152"><highlight class="normal">+<sp/>(BOOL)moveLocalFile:(NSString<sp/>*<sp/>_Nonnull)fileName</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fromDirectory:(DirectoryType)origin</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>toDirectory:(DirectoryType)destination</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>withFolderName:(NSString<sp/>*<sp/>_Nullable)folderName;</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"></highlight></codeline>
+<codeline lineno="165"><highlight class="normal">+<sp/>(BOOL)duplicateFileAtPath:(NSString<sp/>*<sp/>_Nonnull)origin</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>toNewPath:(NSString<sp/>*<sp/>_Nonnull)destination;</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"></highlight></codeline>
+<codeline lineno="178"><highlight class="normal">+<sp/>(BOOL)renameFileFromDirectory:(DirectoryType)origin</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>atPath:(NSString<sp/>*<sp/>_Nonnull)path</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>withOldName:(NSString<sp/>*<sp/>_Nonnull)oldName</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>andNewName:(NSString<sp/>*<sp/>_Nonnull)newName;</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"></highlight></codeline>
+<codeline lineno="190"><highlight class="normal">+<sp/>(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>_Nullable)getAppSettingsForObjectWithKey:(NSString<sp/>*<sp/>_Nonnull)objKey;</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"></highlight></codeline>
+<codeline lineno="200"><highlight class="normal">+<sp/>(BOOL)setAppSettingsForObject:(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>_Nonnull)value</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>forKey:(NSString<sp/>*<sp/>_Nonnull)objKey;</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"></highlight></codeline>
+<codeline lineno="211"><highlight class="normal">+<sp/>(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>_Nullable)getSettings:(NSString<sp/>*<sp/>_Nonnull)settings</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>objectForKey:(NSString<sp/>*<sp/>_Nonnull)objKey;</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"></highlight></codeline>
+<codeline lineno="223"><highlight class="normal">+<sp/>(BOOL)setSettings:(NSString<sp/>*<sp/>_Nonnull)settings</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>object:(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>_Nonnull)value</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>forKey:(NSString<sp/>*<sp/>_Nonnull)objKey;</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"></highlight></codeline>
+<codeline lineno="227"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XDCommonLib.h"/>
+  </compounddef>
+</doxygen>

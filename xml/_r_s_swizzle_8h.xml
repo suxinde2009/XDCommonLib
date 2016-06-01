@@ -1,0 +1,582 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_r_s_swizzle_8h" kind="file" language="C++">
+    <compoundname>RSSwizzle.h</compoundname>
+    <includes local="no">Foundation/Foundation.h</includes>
+    <includedby refid="_r_s_swizzle_8m" local="yes">XDCommonLib/CommonBasicComponentLayer/Venders/RSSwizzle/RSSwizzle.m</includedby>
+    <incdepgraph>
+      <node id="3565">
+        <label>XDCommonLib/CommonBasicComponentLayer/Venders/RSSwizzle/RSSwizzle.h</label>
+        <link refid="RSSwizzle.h"/>
+        <childnode refid="3566" relation="include">
+        </childnode>
+      </node>
+      <node id="3566">
+        <label>Foundation/Foundation.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3567">
+        <label>XDCommonLib/CommonBasicComponentLayer/Venders/RSSwizzle/RSSwizzle.h</label>
+        <link refid="RSSwizzle.h"/>
+        <childnode refid="3568" relation="include">
+        </childnode>
+      </node>
+      <node id="3568">
+        <label>XDCommonLib/CommonBasicComponentLayer/Venders/RSSwizzle/RSSwizzle.m</label>
+        <link refid="_r_s_swizzle_8m"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_r_s_swizzle_info" prot="public">RSSwizzleInfo</innerclass>
+    <innerclass refid="class_r_s_swizzle" prot="public">RSSwizzle</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="_r_s_swizzle_8h_1a7489f3b97dea139c8cf764f79ab507b1" prot="public" static="no">
+        <name>RSSWReturnType</name>
+        <param><defname>type</defname></param>
+        <initializer>type</initializer>
+        <briefdescription>
+<para>A macro for wrapping the return type of the swizzled method. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/RSSwizzle/RSSwizzle.h" line="14" column="9" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/RSSwizzle/RSSwizzle.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_r_s_swizzle_8h_1a34a43913da7ef046c7f42f31203b04c6" prot="public" static="no">
+        <name>RSSWArguments</name>
+        <param><defname>arguments...</defname></param>
+        <initializer><ref refid="_r_s_swizzle_8h_1aca23d79a3f148f0b254bbf08e9df2748" kindref="member">_RSSWArguments</ref>(arguments)</initializer>
+        <briefdescription>
+<para>A macro for wrapping arguments of the swizzled method. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/RSSwizzle/RSSwizzle.h" line="17" column="9" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/RSSwizzle/RSSwizzle.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_r_s_swizzle_8h_1a1d87e45c4b1341ed9067b2bfd4980098" prot="public" static="no">
+        <name>RSSWReplacement</name>
+        <param><defname>code...</defname></param>
+        <initializer>code</initializer>
+        <briefdescription>
+<para>A macro for wrapping the replacement code for the swizzled method. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/RSSwizzle/RSSwizzle.h" line="20" column="9" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/RSSwizzle/RSSwizzle.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_r_s_swizzle_8h_1a2f6190475346edc210dc97fb262224d2" prot="public" static="no">
+        <name>RSSWCallOriginal</name>
+        <param><defname>arguments...</defname></param>
+        <initializer><ref refid="_r_s_swizzle_8h_1aafb6b4e5767028341b364160d7a1a5ca" kindref="member">_RSSWCallOriginal</ref>(arguments)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A macro for casting and calling original implementation. May be used only in RSSwizzleInstanceMethod or RSSwizzleClassMethod macros. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/RSSwizzle/RSSwizzle.h" line="24" column="9" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/RSSwizzle/RSSwizzle.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_r_s_swizzle_8h_1a7e0f08617a62a93e6d0600270e891654" prot="public" static="no">
+        <name>RSSwizzleInstanceMethod</name>
+        <param><defname>classToSwizzle</defname></param>
+        <param><defname>selector</defname></param>
+        <param><defname>RSSWReturnType</defname></param>
+        <param><defname>RSSWArguments</defname></param>
+        <param><defname>RSSWReplacement</defname></param>
+        <param><defname>RSSwizzleMode</defname></param>
+        <param><defname>key</defname></param>
+        <initializer><ref refid="_r_s_swizzle_8h_1a86e51417f3d0f0aa3b365f2dcba6f686" kindref="member">_RSSwizzleInstanceMethod</ref>(classToSwizzle, \
+                             selector, \
+                             <ref refid="_r_s_swizzle_8h_1a7489f3b97dea139c8cf764f79ab507b1" kindref="member">RSSWReturnType</ref>, \
+                             <ref refid="_r_s_swizzle_8h_1afd536e8492796da5a271014b15cdd47a" kindref="member">_RSSWWrapArg</ref>(<ref refid="_r_s_swizzle_8h_1a34a43913da7ef046c7f42f31203b04c6" kindref="member">RSSWArguments</ref>), \
+                             <ref refid="_r_s_swizzle_8h_1afd536e8492796da5a271014b15cdd47a" kindref="member">_RSSWWrapArg</ref>(<ref refid="_r_s_swizzle_8h_1a1d87e45c4b1341ed9067b2bfd4980098" kindref="member">RSSWReplacement</ref>), \
+                             RSSwizzleMode, \
+                             key)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Swizzles the instance method of the class with the new implementation.</para><para>Example for swizzling <computeroutput>-(int)calculate:(int)number;</computeroutput> method:</para><para><programlisting><codeline><highlight class="normal">RSSwizzleInstanceMethod(classToSwizzle,</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>@selector(calculate:),</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>RSSWReturnType(int),</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>RSSWArguments(int<sp/>number),</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>RSSWReplacement(</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>//<sp/>Calling<sp/>original<sp/>implementation.</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>int<sp/>res<sp/>=<sp/>RSSWCallOriginal(number);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>//<sp/>Returning<sp/>modified<sp/>return<sp/>value.</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>return<sp/>res<sp/>+<sp/>1;</highlight></codeline>
+<codeline><highlight class="normal">}),<sp/>0,<sp/>NULL);</highlight></codeline>
+</programlisting></para><para>Swizzling frequently goes along with checking whether this particular class (or one of its superclasses) has been already swizzled. Here the <computeroutput>RSSwizzleMode</computeroutput> and <computeroutput>key</computeroutput> parameters can help. See +[<ref refid="class_r_s_swizzle" kindref="compound">RSSwizzle</ref> swizzleInstanceMethod:inClass:newImpFactory:mode:key:] for details.</para><para>Swizzling is fully thread-safe.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>classToSwizzle</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The class with the method that should be swizzled.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>selector</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Selector of the method that should be swizzled.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>RSSWReturnType</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The return type of the swizzled method wrapped in the RSSWReturnType macro.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>RSSWArguments</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The arguments of the swizzled method wrapped in the RSSWArguments macro.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>RSSWReplacement</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The code of the new implementation of the swizzled method wrapped in the RSSWReplacement macro.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>RSSwizzleMode</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The mode is used in combination with the key to indicate whether the swizzling should be done for the given class. You can pass 0 for RSSwizzleModeAlways.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The key is used in combination with the mode to indicate whether the swizzling should be done for the given class. May be NULL if the mode is RSSwizzleModeAlways.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>YES if successfully swizzled and NO if swizzling has been already done for given key and class (or one of superclasses, depends on the mode). </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/RSSwizzle/RSSwizzle.h" line="76" column="9" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/RSSwizzle/RSSwizzle.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_r_s_swizzle_8h_1a226b195d04b8f1efcb4827ff7f0ed5c0" prot="public" static="no">
+        <name>RSSwizzleClassMethod</name>
+        <param><defname>classToSwizzle</defname></param>
+        <param><defname>selector</defname></param>
+        <param><defname>RSSWReturnType</defname></param>
+        <param><defname>RSSWArguments</defname></param>
+        <param><defname>RSSWReplacement</defname></param>
+        <initializer><ref refid="_r_s_swizzle_8h_1a6969e814232096304b4fd456669b077c" kindref="member">_RSSwizzleClassMethod</ref>(classToSwizzle, \
+                          selector, \
+                          <ref refid="_r_s_swizzle_8h_1a7489f3b97dea139c8cf764f79ab507b1" kindref="member">RSSWReturnType</ref>, \
+                          <ref refid="_r_s_swizzle_8h_1afd536e8492796da5a271014b15cdd47a" kindref="member">_RSSWWrapArg</ref>(<ref refid="_r_s_swizzle_8h_1a34a43913da7ef046c7f42f31203b04c6" kindref="member">RSSWArguments</ref>), \
+                          <ref refid="_r_s_swizzle_8h_1afd536e8492796da5a271014b15cdd47a" kindref="member">_RSSWWrapArg</ref>(<ref refid="_r_s_swizzle_8h_1a1d87e45c4b1341ed9067b2bfd4980098" kindref="member">RSSWReplacement</ref>))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Swizzles the class method of the class with the new implementation.</para><para>Example for swizzling <computeroutput>+(int)calculate:(int)number;</computeroutput> method:</para><para><programlisting><codeline><highlight class="normal">RSSwizzleClassMethod(classToSwizzle,</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>@selector(calculate:),</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>RSSWReturnType(int),</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>RSSWArguments(int<sp/>number),</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>RSSWReplacement(</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>//<sp/>Calling<sp/>original<sp/>implementation.</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>int<sp/>res<sp/>=<sp/>RSSWCallOriginal(number);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>//<sp/>Returning<sp/>modified<sp/>return<sp/>value.</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>return<sp/>res<sp/>+<sp/>1;</highlight></codeline>
+<codeline><highlight class="normal">}));</highlight></codeline>
+</programlisting></para><para>Swizzling is fully thread-safe.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>classToSwizzle</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The class with the method that should be swizzled.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>selector</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Selector of the method that should be swizzled.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>RSSWReturnType</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The return type of the swizzled method wrapped in the RSSWReturnType macro.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>RSSWArguments</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The arguments of the swizzled method wrapped in the RSSWArguments macro.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>RSSWReplacement</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The code of the new implementation of the swizzled method wrapped in the RSSWReplacement macro. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/RSSwizzle/RSSwizzle.h" line="125" column="9" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/RSSwizzle/RSSwizzle.h" bodystart="121" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_r_s_swizzle_8h_1afd536e8492796da5a271014b15cdd47a" prot="public" static="no">
+        <name>_RSSWWrapArg</name>
+        <param><defname>args...</defname></param>
+        <initializer>args</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/RSSwizzle/RSSwizzle.h" line="314" column="9" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/RSSwizzle/RSSwizzle.h" bodystart="314" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_r_s_swizzle_8h_1a77eae431e9ce5170d47a957667707086" prot="public" static="no">
+        <name>_RSSWDel2Arg</name>
+        <param><defname>a1</defname></param>
+        <param><defname>a2</defname></param>
+        <param><defname>args...</defname></param>
+        <initializer>a1, ##args</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/RSSwizzle/RSSwizzle.h" line="316" column="9" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/RSSwizzle/RSSwizzle.h" bodystart="316" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_r_s_swizzle_8h_1a7594867ebdd8331d73207619a595eefb" prot="public" static="no">
+        <name>_RSSWDel3Arg</name>
+        <param><defname>a1</defname></param>
+        <param><defname>a2</defname></param>
+        <param><defname>a3</defname></param>
+        <param><defname>args...</defname></param>
+        <initializer>a1, a2, ##args</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/RSSwizzle/RSSwizzle.h" line="317" column="9" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/RSSwizzle/RSSwizzle.h" bodystart="317" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_r_s_swizzle_8h_1aca23d79a3f148f0b254bbf08e9df2748" prot="public" static="no">
+        <name>_RSSWArguments</name>
+        <param><defname>arguments...</defname></param>
+        <initializer>DEL, ##arguments</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/RSSwizzle/RSSwizzle.h" line="321" column="9" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/RSSwizzle/RSSwizzle.h" bodystart="321" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_r_s_swizzle_8h_1a86e51417f3d0f0aa3b365f2dcba6f686" prot="public" static="no">
+        <name>_RSSwizzleInstanceMethod</name>
+        <param><defname>classToSwizzle</defname></param>
+        <param><defname>selector</defname></param>
+        <param><defname>RSSWReturnType</defname></param>
+        <param><defname>RSSWArguments</defname></param>
+        <param><defname>RSSWReplacement</defname></param>
+        <param><defname>RSSwizzleMode</defname></param>
+        <param><defname>KEY</defname></param>
+        <initializer>[<ref refid="class_r_s_swizzle" kindref="compound">RSSwizzle</ref> \
+     swizzleInstanceMethod:selector \
+     inClass:[classToSwizzle class] \
+     newImpFactory:^id(<ref refid="class_r_s_swizzle_info" kindref="compound">RSSwizzleInfo</ref> *swizzleInfo) { \
+        <ref refid="_r_s_swizzle_8h_1a7489f3b97dea139c8cf764f79ab507b1" kindref="member">RSSWReturnType</ref> (*originalImplementation_)(<ref refid="_r_s_swizzle_8h_1a7594867ebdd8331d73207619a595eefb" kindref="member">_RSSWDel3Arg</ref>(__unsafe_unretained id, \
+                                                               SEL, \
+                                                               <ref refid="_r_s_swizzle_8h_1a34a43913da7ef046c7f42f31203b04c6" kindref="member">RSSWArguments</ref>)); \
+        SEL selector_ = selector; \
+        return ^<ref refid="_r_s_swizzle_8h_1a7489f3b97dea139c8cf764f79ab507b1" kindref="member">RSSWReturnType</ref> (<ref refid="_r_s_swizzle_8h_1a77eae431e9ce5170d47a957667707086" kindref="member">_RSSWDel2Arg</ref>(__unsafe_unretained id self, \
+                                             <ref refid="_r_s_swizzle_8h_1a34a43913da7ef046c7f42f31203b04c6" kindref="member">RSSWArguments</ref>)) \
+        { \
+            <ref refid="_r_s_swizzle_8h_1a1d87e45c4b1341ed9067b2bfd4980098" kindref="member">RSSWReplacement</ref> \
+        }; \
+     } \
+     mode:RSSwizzleMode \
+     key:KEY];</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/RSSwizzle/RSSwizzle.h" line="329" column="9" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/RSSwizzle/RSSwizzle.h" bodystart="323" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_r_s_swizzle_8h_1a6969e814232096304b4fd456669b077c" prot="public" static="no">
+        <name>_RSSwizzleClassMethod</name>
+        <param><defname>classToSwizzle</defname></param>
+        <param><defname>selector</defname></param>
+        <param><defname>RSSWReturnType</defname></param>
+        <param><defname>RSSWArguments</defname></param>
+        <param><defname>RSSWReplacement</defname></param>
+        <initializer>[<ref refid="class_r_s_swizzle" kindref="compound">RSSwizzle</ref> \
+     swizzleClassMethod:selector \
+     inClass:[classToSwizzle class] \
+     newImpFactory:^id(<ref refid="class_r_s_swizzle_info" kindref="compound">RSSwizzleInfo</ref> *swizzleInfo) { \
+        <ref refid="_r_s_swizzle_8h_1a7489f3b97dea139c8cf764f79ab507b1" kindref="member">RSSWReturnType</ref> (*originalImplementation_)(<ref refid="_r_s_swizzle_8h_1a7594867ebdd8331d73207619a595eefb" kindref="member">_RSSWDel3Arg</ref>(__unsafe_unretained id, \
+                                                               SEL, \
+                                                               <ref refid="_r_s_swizzle_8h_1a34a43913da7ef046c7f42f31203b04c6" kindref="member">RSSWArguments</ref>)); \
+        SEL selector_ = selector; \
+        return ^<ref refid="_r_s_swizzle_8h_1a7489f3b97dea139c8cf764f79ab507b1" kindref="member">RSSWReturnType</ref> (<ref refid="_r_s_swizzle_8h_1a77eae431e9ce5170d47a957667707086" kindref="member">_RSSWDel2Arg</ref>(__unsafe_unretained id self, \
+                                             <ref refid="_r_s_swizzle_8h_1a34a43913da7ef046c7f42f31203b04c6" kindref="member">RSSWArguments</ref>)) \
+        { \
+            <ref refid="_r_s_swizzle_8h_1a1d87e45c4b1341ed9067b2bfd4980098" kindref="member">RSSWReplacement</ref> \
+        }; \
+     }];</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/RSSwizzle/RSSwizzle.h" line="351" column="9" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/RSSwizzle/RSSwizzle.h" bodystart="347" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_r_s_swizzle_8h_1aafb6b4e5767028341b364160d7a1a5ca" prot="public" static="no">
+        <name>_RSSWCallOriginal</name>
+        <param><defname>arguments...</defname></param>
+        <initializer>((__typeof(originalImplementation_))[swizzleInfo \
+                                         getOriginalImplementation])(self, \
+                                                                     selector_, \
+                                                                     ##arguments)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/RSSwizzle/RSSwizzle.h" line="367" column="9" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/RSSwizzle/RSSwizzle.h" bodystart="367" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="_r_s_swizzle_8h_1a4ddcda67f7e6f952bf934c2f1fd589ee" prot="public" static="no">
+        <type>void(*</type>
+        <definition>typedef void(* RSSwizzleOriginalIMP) (void)</definition>
+        <argsstring>)(void)</argsstring>
+        <name>RSSwizzleOriginalIMP</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A function pointer to the original implementation of the swizzled method. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/RSSwizzle/RSSwizzle.h" line="137" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/RSSwizzle/RSSwizzle.h" bodystart="137" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="_r_s_swizzle_8h_1af4b260505f007351f6044e2928fcdbd0" prot="public" static="no">
+        <type>id(^</type>
+        <definition>typedef id(^ RSSwizzleImpFactoryBlock) (RSSwizzleInfo *swizzleInfo)</definition>
+        <argsstring>)(RSSwizzleInfo *swizzleInfo)</argsstring>
+        <name>RSSwizzleImpFactoryBlock</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A factory block returning the block for the new implementation of the swizzled method.</para><para>You must always obtain original implementation with swizzleInfo and call it from the new implementation.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>swizzleInfo</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>An info used to get and call the original implementation of the swizzled method.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>A block that implements a method. Its signature should be: <computeroutput>method_return_type ^(id self, method_args...)</computeroutput>. The selector is not available as a parameter to this block. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/RSSwizzle/RSSwizzle.h" line="171" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/RSSwizzle/RSSwizzle.h" bodystart="171" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_r_s_swizzle_8h_1aa9790238769f09826b499a964a792622" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typedef</type>
+        <definition>typedef NS_ENUM</definition>
+        <argsstring>(NSUInteger, RSSwizzleMode)</argsstring>
+        <name>NS_ENUM</name>
+        <param>
+          <type>NSUInteger</type>
+        </param>
+        <param>
+          <type>RSSwizzleMode</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para><ref refid="class_r_s_swizzle" kindref="compound">RSSwizzle</ref> always does swizzling.</para><para><ref refid="class_r_s_swizzle" kindref="compound">RSSwizzle</ref> does not do swizzling if the same class has been swizzled earlier with the same key.</para><para><ref refid="class_r_s_swizzle" kindref="compound">RSSwizzle</ref> does not do swizzling if the same class or one of its superclasses have been swizzled earlier with the same key. <simplesect kind="note"><para>There is no guarantee that your implementation will be called only once per method call. If the order of swizzling is: first inherited class, second superclass, then both swizzlings will be done and the new implementation will be called twice. </para></simplesect>
+</para>        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/RSSwizzle/RSSwizzle.h" line="173" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/RSSwizzle/RSSwizzle.h" bodystart="173" bodyend="181"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>RSSwizzle.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>RSSwizzleTests</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Yan<sp/>Rabovik<sp/>on<sp/>05.09.13.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;Foundation/Foundation.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/>-<sp/>Macros<sp/>Based<sp/>API</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="_r_s_swizzle_8h_1a7489f3b97dea139c8cf764f79ab507b1" refkind="member"><highlight class="preprocessor">#define<sp/>RSSWReturnType(type)<sp/>type</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="_r_s_swizzle_8h_1a34a43913da7ef046c7f42f31203b04c6" refkind="member"><highlight class="preprocessor">#define<sp/>RSSWArguments(arguments...)<sp/>_RSSWArguments(arguments)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="_r_s_swizzle_8h_1a1d87e45c4b1341ed9067b2bfd4980098" refkind="member"><highlight class="preprocessor">#define<sp/>RSSWReplacement(code...)<sp/>code</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="_r_s_swizzle_8h_1a2f6190475346edc210dc97fb262224d2" refkind="member"><highlight class="preprocessor">#define<sp/>RSSWCallOriginal(arguments...)<sp/>_RSSWCallOriginal(arguments)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/>└<sp/>Swizzle<sp/>Instance<sp/>Method</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70" refid="_r_s_swizzle_8h_1a7e0f08617a62a93e6d0600270e891654" refkind="member"><highlight class="preprocessor">#define<sp/>RSSwizzleInstanceMethod(classToSwizzle,<sp/>\</highlight></codeline>
+<codeline lineno="71"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>selector,<sp/>\</highlight></codeline>
+<codeline lineno="72"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>RSSWReturnType,<sp/>\</highlight></codeline>
+<codeline lineno="73"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>RSSWArguments,<sp/>\</highlight></codeline>
+<codeline lineno="74"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>RSSWReplacement,<sp/>\</highlight></codeline>
+<codeline lineno="75"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>RSSwizzleMode,<sp/>\</highlight></codeline>
+<codeline lineno="76"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>key)<sp/>\</highlight></codeline>
+<codeline lineno="77"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>_RSSwizzleInstanceMethod(classToSwizzle,<sp/>\</highlight></codeline>
+<codeline lineno="78"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>selector,<sp/>\</highlight></codeline>
+<codeline lineno="79"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>RSSWReturnType,<sp/>\</highlight></codeline>
+<codeline lineno="80"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_RSSWWrapArg(RSSWArguments),<sp/>\</highlight></codeline>
+<codeline lineno="81"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_RSSWWrapArg(RSSWReplacement),<sp/>\</highlight></codeline>
+<codeline lineno="82"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>RSSwizzleMode,<sp/>\</highlight></codeline>
+<codeline lineno="83"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>key)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/>└<sp/>Swizzle<sp/>Class<sp/>Method</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="121" refid="_r_s_swizzle_8h_1a226b195d04b8f1efcb4827ff7f0ed5c0" refkind="member"><highlight class="preprocessor">#define<sp/>RSSwizzleClassMethod(classToSwizzle,<sp/>\</highlight></codeline>
+<codeline lineno="122"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>selector,<sp/>\</highlight></codeline>
+<codeline lineno="123"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>RSSWReturnType,<sp/>\</highlight></codeline>
+<codeline lineno="124"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>RSSWArguments,<sp/>\</highlight></codeline>
+<codeline lineno="125"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>RSSWReplacement)<sp/>\</highlight></codeline>
+<codeline lineno="126"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>_RSSwizzleClassMethod(classToSwizzle,<sp/>\</highlight></codeline>
+<codeline lineno="127"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>selector,<sp/>\</highlight></codeline>
+<codeline lineno="128"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>RSSWReturnType,<sp/>\</highlight></codeline>
+<codeline lineno="129"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_RSSWWrapArg(RSSWArguments),<sp/>\</highlight></codeline>
+<codeline lineno="130"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_RSSWWrapArg(RSSWReplacement))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/>-<sp/>Main<sp/>API</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight></codeline>
+<codeline lineno="137" refid="_r_s_swizzle_8h_1a4ddcda67f7e6f952bf934c2f1fd589ee" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>void<sp/>(*<ref refid="_r_s_swizzle_8h_1a4ddcda67f7e6f952bf934c2f1fd589ee" kindref="member">RSSwizzleOriginalIMP</ref>)(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/></highlight><highlight class="comment">/*<sp/>id,<sp/>SEL,<sp/>...<sp/>*/</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight></codeline>
+<codeline lineno="142"><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="class_r_s_swizzle_info" kindref="compound">RSSwizzleInfo</ref><sp/>:<sp/>NSObject</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight></codeline>
+<codeline lineno="153"><highlight class="normal">-(<ref refid="_r_s_swizzle_8h_1a4ddcda67f7e6f952bf934c2f1fd589ee" kindref="member">RSSwizzleOriginalIMP</ref>)<ref refid="class_r_s_swizzle_info_1a2471835903186cad09e92dd7e7a491e2" kindref="member">getOriginalImplementation</ref>;</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight></codeline>
+<codeline lineno="156" refid="class_r_s_swizzle_info_1a8d4cede24d7e456abf49f86afb1f0db0" refkind="member"><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>readonly)<sp/></highlight><highlight class="keywordtype">SEL</highlight><highlight class="normal"><sp/><ref refid="class_r_s_swizzle_info_1a8d4cede24d7e456abf49f86afb1f0db0" kindref="member">selector</ref>;</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight></codeline>
+<codeline lineno="158"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="159"><highlight class="normal"></highlight></codeline>
+<codeline lineno="171" refid="_r_s_swizzle_8h_1af4b260505f007351f6044e2928fcdbd0" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>id<sp/>(^<ref refid="_r_s_swizzle_8h_1af4b260505f007351f6044e2928fcdbd0" kindref="member">RSSwizzleImpFactoryBlock</ref>)(<ref refid="class_r_s_swizzle_info" kindref="compound">RSSwizzleInfo</ref><sp/>*swizzleInfo);</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"></highlight></codeline>
+<codeline lineno="173" refid="_r_s_swizzle_8h_1aa9790238769f09826b499a964a792622" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="_r_s_swizzle_8h_1aa9790238769f09826b499a964a792622" kindref="member">NS_ENUM</ref>(NSUInteger,<sp/>RSSwizzleMode)<sp/>{</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/>RSSwizzleModeAlways<sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/>RSSwizzleModeOncePerClass<sp/>=<sp/>1,</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/>RSSwizzleModeOncePerClassAndSuperclasses<sp/>=<sp/>2</highlight></codeline>
+<codeline lineno="181"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"></highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="class_r_s_swizzle" kindref="compound">RSSwizzle</ref><sp/>:<sp/>NSObject</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"></highlight></codeline>
+<codeline lineno="185"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/>└<sp/>Swizzle<sp/>Instance<sp/>Method</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="186"><highlight class="normal"></highlight></codeline>
+<codeline lineno="258"><highlight class="normal">+(BOOL)swizzleInstanceMethod:(</highlight><highlight class="keywordtype">SEL</highlight><highlight class="normal">)selector</highlight></codeline>
+<codeline lineno="259"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>inClass:(Class)classToSwizzle</highlight></codeline>
+<codeline lineno="260"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>newImpFactory:(<ref refid="_r_s_swizzle_8h_1af4b260505f007351f6044e2928fcdbd0" kindref="member">RSSwizzleImpFactoryBlock</ref>)factoryBlock</highlight></codeline>
+<codeline lineno="261"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>mode:(RSSwizzleMode)mode</highlight></codeline>
+<codeline lineno="262"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>key:(const<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*)key;</highlight></codeline>
+<codeline lineno="263"><highlight class="normal"></highlight></codeline>
+<codeline lineno="264"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/>└<sp/>Swizzle<sp/>Class<sp/>method</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="265"><highlight class="normal"></highlight></codeline>
+<codeline lineno="304"><highlight class="normal">+(void)swizzleClassMethod:(</highlight><highlight class="keywordtype">SEL</highlight><highlight class="normal">)selector</highlight></codeline>
+<codeline lineno="305"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>inClass:(Class)classToSwizzle</highlight></codeline>
+<codeline lineno="306"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>newImpFactory:(<ref refid="_r_s_swizzle_8h_1af4b260505f007351f6044e2928fcdbd0" kindref="member">RSSwizzleImpFactoryBlock</ref>)factoryBlock;</highlight></codeline>
+<codeline lineno="307"><highlight class="normal"></highlight></codeline>
+<codeline lineno="308"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="309"><highlight class="normal"></highlight></codeline>
+<codeline lineno="310"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/>-<sp/>Implementation<sp/>details</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="311"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Do<sp/>not<sp/>write<sp/>code<sp/>that<sp/>depends<sp/>on<sp/>anything<sp/>below<sp/>this<sp/>line.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="312"><highlight class="normal"></highlight></codeline>
+<codeline lineno="313"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Wrapping<sp/>arguments<sp/>to<sp/>pass<sp/>them<sp/>as<sp/>a<sp/>single<sp/>argument<sp/>to<sp/>another<sp/>macro.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="314" refid="_r_s_swizzle_8h_1afd536e8492796da5a271014b15cdd47a" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_RSSWWrapArg(args...)<sp/>args</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="315"><highlight class="normal"></highlight></codeline>
+<codeline lineno="316" refid="_r_s_swizzle_8h_1a77eae431e9ce5170d47a957667707086" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_RSSWDel2Arg(a1,<sp/>a2,<sp/>args...)<sp/>a1,<sp/>##args</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="317" refid="_r_s_swizzle_8h_1a7594867ebdd8331d73207619a595eefb" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_RSSWDel3Arg(a1,<sp/>a2,<sp/>a3,<sp/>args...)<sp/>a1,<sp/>a2,<sp/>##args</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="318"><highlight class="normal"></highlight></codeline>
+<codeline lineno="319"><highlight class="normal"></highlight><highlight class="comment">//<sp/>To<sp/>prevent<sp/>comma<sp/>issues<sp/>if<sp/>there<sp/>are<sp/>no<sp/>arguments<sp/>we<sp/>add<sp/>one<sp/>dummy<sp/>argument</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="320"><highlight class="normal"></highlight><highlight class="comment">//<sp/>and<sp/>remove<sp/>it<sp/>later.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="321" refid="_r_s_swizzle_8h_1aca23d79a3f148f0b254bbf08e9df2748" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_RSSWArguments(arguments...)<sp/>DEL,<sp/>##arguments</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="322"><highlight class="normal"></highlight></codeline>
+<codeline lineno="323" refid="_r_s_swizzle_8h_1a86e51417f3d0f0aa3b365f2dcba6f686" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_RSSwizzleInstanceMethod(classToSwizzle,<sp/>\</highlight></codeline>
+<codeline lineno="324"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>selector,<sp/>\</highlight></codeline>
+<codeline lineno="325"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>RSSWReturnType,<sp/>\</highlight></codeline>
+<codeline lineno="326"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>RSSWArguments,<sp/>\</highlight></codeline>
+<codeline lineno="327"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>RSSWReplacement,<sp/>\</highlight></codeline>
+<codeline lineno="328"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>RSSwizzleMode,<sp/>\</highlight></codeline>
+<codeline lineno="329"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>KEY)<sp/>\</highlight></codeline>
+<codeline lineno="330"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>[RSSwizzle<sp/>\</highlight></codeline>
+<codeline lineno="331"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/>swizzleInstanceMethod:selector<sp/>\</highlight></codeline>
+<codeline lineno="332"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/>inClass:[classToSwizzle<sp/>class]<sp/>\</highlight></codeline>
+<codeline lineno="333"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/>newImpFactory:^id(RSSwizzleInfo<sp/>*swizzleInfo)<sp/>{<sp/>\</highlight></codeline>
+<codeline lineno="334"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>RSSWReturnType<sp/>(*originalImplementation_)(_RSSWDel3Arg(__unsafe_unretained<sp/>id,<sp/>\</highlight></codeline>
+<codeline lineno="335"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SEL,<sp/>\</highlight></codeline>
+<codeline lineno="336"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>RSSWArguments));<sp/>\</highlight></codeline>
+<codeline lineno="337"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SEL<sp/>selector_<sp/>=<sp/>selector;<sp/>\</highlight></codeline>
+<codeline lineno="338"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>return<sp/>^RSSWReturnType<sp/>(_RSSWDel2Arg(__unsafe_unretained<sp/>id<sp/>self,<sp/>\</highlight></codeline>
+<codeline lineno="339"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>RSSWArguments))<sp/>\</highlight></codeline>
+<codeline lineno="340"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{<sp/>\</highlight></codeline>
+<codeline lineno="341"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>RSSWReplacement<sp/>\</highlight></codeline>
+<codeline lineno="342"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};<sp/>\</highlight></codeline>
+<codeline lineno="343"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/>}<sp/>\</highlight></codeline>
+<codeline lineno="344"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/>mode:RSSwizzleMode<sp/>\</highlight></codeline>
+<codeline lineno="345"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/>key:KEY];</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="346"><highlight class="normal"></highlight></codeline>
+<codeline lineno="347" refid="_r_s_swizzle_8h_1a6969e814232096304b4fd456669b077c" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_RSSwizzleClassMethod(classToSwizzle,<sp/>\</highlight></codeline>
+<codeline lineno="348"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>selector,<sp/>\</highlight></codeline>
+<codeline lineno="349"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>RSSWReturnType,<sp/>\</highlight></codeline>
+<codeline lineno="350"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>RSSWArguments,<sp/>\</highlight></codeline>
+<codeline lineno="351"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>RSSWReplacement)<sp/>\</highlight></codeline>
+<codeline lineno="352"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>[RSSwizzle<sp/>\</highlight></codeline>
+<codeline lineno="353"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/>swizzleClassMethod:selector<sp/>\</highlight></codeline>
+<codeline lineno="354"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/>inClass:[classToSwizzle<sp/>class]<sp/>\</highlight></codeline>
+<codeline lineno="355"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/>newImpFactory:^id(RSSwizzleInfo<sp/>*swizzleInfo)<sp/>{<sp/>\</highlight></codeline>
+<codeline lineno="356"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>RSSWReturnType<sp/>(*originalImplementation_)(_RSSWDel3Arg(__unsafe_unretained<sp/>id,<sp/>\</highlight></codeline>
+<codeline lineno="357"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SEL,<sp/>\</highlight></codeline>
+<codeline lineno="358"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>RSSWArguments));<sp/>\</highlight></codeline>
+<codeline lineno="359"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SEL<sp/>selector_<sp/>=<sp/>selector;<sp/>\</highlight></codeline>
+<codeline lineno="360"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>return<sp/>^RSSWReturnType<sp/>(_RSSWDel2Arg(__unsafe_unretained<sp/>id<sp/>self,<sp/>\</highlight></codeline>
+<codeline lineno="361"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>RSSWArguments))<sp/>\</highlight></codeline>
+<codeline lineno="362"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{<sp/>\</highlight></codeline>
+<codeline lineno="363"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>RSSWReplacement<sp/>\</highlight></codeline>
+<codeline lineno="364"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};<sp/>\</highlight></codeline>
+<codeline lineno="365"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/>}];</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="366"><highlight class="normal"></highlight></codeline>
+<codeline lineno="367" refid="_r_s_swizzle_8h_1aafb6b4e5767028341b364160d7a1a5ca" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_RSSWCallOriginal(arguments...)<sp/>\</highlight></codeline>
+<codeline lineno="368"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>((__typeof(originalImplementation_))[swizzleInfo<sp/>\</highlight></codeline>
+<codeline lineno="369"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>getOriginalImplementation])(self,<sp/>\</highlight></codeline>
+<codeline lineno="370"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>selector_,<sp/>\</highlight></codeline>
+<codeline lineno="371"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>##arguments)</highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/RSSwizzle/RSSwizzle.h"/>
+  </compounddef>
+</doxygen>

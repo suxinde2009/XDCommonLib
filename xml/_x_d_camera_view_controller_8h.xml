@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_x_d_camera_view_controller_8h" kind="file" language="C++">
+    <compoundname>XDCameraViewController.h</compoundname>
+    <includes local="no">UIKit/UIKit.h</includes>
+    <includedby refid="_x_d_camera_view_controller_8m" local="yes">XDCommonLib/BasicComponentLayer/Media/Camera/XDCameraViewController.m</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>UIKit/UIKit.h</label>
+      </node>
+      <node id="0">
+        <label>XDCommonLib/BasicComponentLayer/Media/Camera/XDCameraViewController.h</label>
+        <link refid="XDCameraViewController.h"/>
+        <childnode refid="1" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2">
+        <label>XDCommonLib/BasicComponentLayer/Media/Camera/XDCameraViewController.h</label>
+        <link refid="XDCameraViewController.h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>XDCommonLib/BasicComponentLayer/Media/Camera/XDCameraViewController.m</label>
+        <link refid="_x_d_camera_view_controller_8m"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_x_d_camera_view_controller" prot="public">XDCameraViewController</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>XDCameraViewController.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>XDCommonLib</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>suxinde<sp/>on<sp/>16/5/10.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>©<sp/>2016年<sp/>su<sp/>xinde.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;UIKit/UIKit.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="class_x_d_camera_view_controller" kindref="compound">XDCameraViewController</ref><sp/>:<sp/>UIViewController</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/BasicComponentLayer/Media/Camera/XDCameraViewController.h"/>
+  </compounddef>
+</doxygen>

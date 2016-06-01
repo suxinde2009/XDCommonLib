@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_u_i_font_07_w_d_custom_loader_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>UIFont(WDCustomLoader)</compoundname>
+    <includes refid="_u_i_font_09_w_d_custom_loader_8h" local="no">UIFont+WDCustomLoader.h</includes>
+      <sectiondef kind="user-defined">
+      <header>Implicit registration and font loading</header>
+      <memberdef kind="function" id="category_u_i_font_07_w_d_custom_loader_08_1a48f5455c4fdbab6abb75cc4670109f14" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>UIFont *</type>
+        <definition>UIFont * UIFont(WDCustomLoader)::customFontOfSize:withName:withExtension:</definition>
+        <argsstring>(CGFloat size,[withName] NSString *name,[withExtension] NSString *extension)</argsstring>
+        <name>customFontOfSize:withName:withExtension:</name>
+        <param>
+          <type>CGFloat</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <attributes>[withName]</attributes>
+          <type>NSString *</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <attributes>[withExtension]</attributes>
+          <type>NSString *</type>
+          <declname>extension</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get <computeroutput>UIFont</computeroutput> object for the selected font file.</para><para>This method calls <computeroutput>+customFontWithURL:size</computeroutput>.</para><para><xrefsect id="deprecated_1_deprecated000001"><xreftitle>Deprecated</xreftitle><xrefdescription><para><simplesect kind="see"><para>+customFontWithURL:size: method </para></simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>size</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Font size </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Font filename without extension </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>extension</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Font filename extension ("ttf&quot; and @&quot;otf" are supported) </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><computeroutput>UIFont</computeroutput> object or <computeroutput>nil</computeroutput> on errors </para></simplesect>
+</para></xrefdescription></xrefsect></para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIFont/UIFont+WDCustomLoader.h" line="29" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_font_07_w_d_custom_loader_08_1a613ef628deb7115777c9484c8889b99a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>UIFont *</type>
+        <definition>UIFont * UIFont(WDCustomLoader)::customFontWithURL:size:</definition>
+        <argsstring>(NSURL *fontURL,[size] CGFloat size)</argsstring>
+        <name>customFontWithURL:size:</name>
+        <param>
+          <type>NSURL *</type>
+          <declname>fontURL</declname>
+        </param>
+        <param>
+          <attributes>[size]</attributes>
+          <type>CGFloat</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get <computeroutput>UIFont</computeroutput> object for the selected font file (*.ttf or *.otf files).</para><para>The first call of this method will register the font using <computeroutput>+registerFontFromURL:</computeroutput> method.</para><para><simplesect kind="see"><para>+registerFontFromURL: method </para></simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fontURL</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Font file absolute url </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>size</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Font size </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><computeroutput>UIFont</computeroutput> object or <computeroutput>nil</computeroutput> on errors </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIFont/UIFont+WDCustomLoader.h" line="29" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="user-defined">
+      <header>Explicit registration</header>
+      <memberdef kind="function" id="category_u_i_font_07_w_d_custom_loader_08_1adb7684b2aa6600f365dad97d2283c2f4" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSArray *</type>
+        <definition>NSArray * UIFont(WDCustomLoader)::registerFontFromURL:</definition>
+        <argsstring>(NSURL *fontURL)</argsstring>
+        <name>registerFontFromURL:</name>
+        <param>
+          <type>NSURL *</type>
+          <declname>fontURL</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Allow custom fonts registration.</para><para>With this method you can load all supported font file: ttf, otf, ttc and otc. Font that are already registered, with this library or by system, will not be registered and you will see a warning log.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fontURL</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Font file absolute url </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>An array of postscript name which represent the file&apos;s font(s) or <computeroutput>nil</computeroutput> on errors. (With iOS &lt; 7 as target you will see an empty array for collections) </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIFont/UIFont+WDCustomLoader.h" line="29" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>(作者) Walter Da Col</para><para>(地址) <ulink url="https://github.com/daktales/UIFontWDCustomLoader">https://github.com/daktales/UIFontWDCustomLoader</ulink></para><para>(版本) 20150622</para><para>(运行要求)</para><para>(描述) An iOS custom font loader</para><para>(使用) .. You can use <computeroutput>UIFont+WDCustomLoader</computeroutput> category to load custom fonts for your application without worring about plist or real font names. </para>    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIFont/UIFont+WDCustomLoader.h" line="28" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIFont/UIFont+WDCustomLoader.h" bodystart="28" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_u_i_font_07_w_d_custom_loader_08_1a48f5455c4fdbab6abb75cc4670109f14" prot="public" virt="virtual"><scope>UIFont(WDCustomLoader)</scope><name>customFontOfSize:withName:withExtension:</name></member>
+      <member refid="category_u_i_font_07_w_d_custom_loader_08_1a613ef628deb7115777c9484c8889b99a" prot="public" virt="virtual"><scope>UIFont(WDCustomLoader)</scope><name>customFontWithURL:size:</name></member>
+      <member refid="category_u_i_font_07_w_d_custom_loader_08_1adb7684b2aa6600f365dad97d2283c2f4" prot="public" virt="virtual"><scope>UIFont(WDCustomLoader)</scope><name>registerFontFromURL:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="interface_l_c_memory_cache" kind="class" language="Objective-C" prot="public">
+    <compoundname>LCMemoryCache</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">NSObject</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="interface_l_c_memory_cache_1a97d4f2414fb89a7ce29b5fab2cab9a4f" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="assign">
+        <type>int</type>
+        <definition>int LCMemoryCache::current</definition>
+        <argsstring></argsstring>
+        <name>current</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/LunarCore/LunarCore.m" line="42" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/LunarCore/LunarCore.m" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_l_c_memory_cache_1ae81c541779c06c97987ddb10c1aa3b45" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="strong">
+        <type>NSMutableDictionary *</type>
+        <definition>NSMutableDictionary* LCMemoryCache::cache</definition>
+        <argsstring></argsstring>
+        <name>cache</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/LunarCore/LunarCore.m" line="43" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/LunarCore/LunarCore.m" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_l_c_memory_cache_1ae8d40056de770fd0e33f772c0da2f018" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>id</type>
+        <definition>id LCMemoryCache::get:</definition>
+        <argsstring>(id key)</argsstring>
+        <name>get:</name>
+        <param>
+          <type>id</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/LunarCore/LunarCore.m" line="43" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/LunarCore/LunarCore.m" bodystart="60" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_l_c_memory_cache_1a75394cad7f196779ac4ed5e03e36490b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void LCMemoryCache::setKey:value:</definition>
+        <argsstring>(id key,[value] id value)</argsstring>
+        <name>setKey:value:</name>
+        <param>
+          <type>id</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <attributes>[value]</attributes>
+          <type>id</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/LunarCore/LunarCore.m" line="43" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/LunarCore/LunarCore.m" bodystart="64" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_l_c_memory_cache_1ad80effafba93bad74bed1ca2b97fd8da" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void LCMemoryCache::clear</definition>
+        <argsstring>()</argsstring>
+        <name>clear</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/LunarCore/LunarCore.m" line="43" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/LunarCore/LunarCore.m" bodystart="68" bodyend="70"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>缓存 主要是缓存节气信息 </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="310">
+        <label>LCMemoryCache</label>
+        <link refid="interface_l_c_memory_cache"/>
+        <childnode refid="311" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="311">
+        <label>NSObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="312">
+        <label>LCMemoryCache</label>
+        <link refid="interface_l_c_memory_cache"/>
+        <childnode refid="313" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="313">
+        <label>NSObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/LunarCore/LunarCore.m" line="41" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/LunarCore/LunarCore.m" bodystart="40" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="interface_l_c_memory_cache_1ae81c541779c06c97987ddb10c1aa3b45" prot="public" virt="non-virtual"><scope>LCMemoryCache</scope><name>cache</name></member>
+      <member refid="interface_l_c_memory_cache_1ad80effafba93bad74bed1ca2b97fd8da" prot="public" virt="virtual"><scope>LCMemoryCache</scope><name>clear</name></member>
+      <member refid="interface_l_c_memory_cache_1a97d4f2414fb89a7ce29b5fab2cab9a4f" prot="public" virt="non-virtual"><scope>LCMemoryCache</scope><name>current</name></member>
+      <member refid="interface_l_c_memory_cache_1ae8d40056de770fd0e33f772c0da2f018" prot="public" virt="virtual"><scope>LCMemoryCache</scope><name>get:</name></member>
+      <member refid="interface_l_c_memory_cache_1a75394cad7f196779ac4ed5e03e36490b" prot="public" virt="virtual"><scope>LCMemoryCache</scope><name>setKey:value:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

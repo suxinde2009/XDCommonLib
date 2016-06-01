@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_n_s_data_07_x_d_common_lib_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>NSData(XDCommonLib)</compoundname>
+    <includes refid="_n_s_data_09_x_d_common_lib_8h" local="no">NSData+XDCommonLib.h</includes>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="category_n_s_data_07_x_d_common_lib_08_1aff61384bd702697aa8cee5e40bf8566d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *_Nonnull</type>
+        <definition>NSString *_Nonnull NSData(XDCommonLib)::convertToUTF8String:</definition>
+        <argsstring>(NSData *_Nonnull data)</argsstring>
+        <name>convertToUTF8String:</name>
+        <param>
+          <type>NSData *_Nonnull</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Convert the given NSData to UTF8 NSString</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The NSData to be converted</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Returns the converted NSData as UTF8 NSString </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSData/NSData+XDCommonLib.h" line="27" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSData/NSData+XDCommonLib.m" bodystart="13" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_data_07_x_d_common_lib_08_1a7bd22012433604f9bd6076544865fe20" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *_Nonnull</type>
+        <definition>NSString *_Nonnull NSData(XDCommonLib)::convertToASCIIString:</definition>
+        <argsstring>(NSData *_Nonnull data)</argsstring>
+        <name>convertToASCIIString:</name>
+        <param>
+          <type>NSData *_Nonnull</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Convert the given NSData to ASCII NSString</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The NSData to be converted</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Returns the converted NSData as ASCII NSString </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSData/NSData+XDCommonLib.h" line="27" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSData/NSData+XDCommonLib.m" bodystart="22" bodyend="25"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="category_n_s_data_07_x_d_common_lib_08_1a85b6eaa85237f02c99325d3fdb115cc0" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *_Nonnull</type>
+        <definition>NSString *_Nonnull NSData(XDCommonLib)::convertToUTF8String</definition>
+        <argsstring>()</argsstring>
+        <name>convertToUTF8String</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Convert self to a UTF8 NSString</para><para><simplesect kind="return"><para>Returns self as UTF8 NSString </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSData/NSData+XDCommonLib.h" line="27" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSData/NSData+XDCommonLib.m" bodystart="18" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_data_07_x_d_common_lib_08_1ab175d02de12927eb151d78c6c55dcc01" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *_Nonnull</type>
+        <definition>NSString *_Nonnull NSData(XDCommonLib)::convertToASCIIString</definition>
+        <argsstring>()</argsstring>
+        <name>convertToASCIIString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Convert self to a ASCII NSString</para><para><simplesect kind="return"><para>Returns self as ASCII NSString </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSData/NSData+XDCommonLib.h" line="27" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSData/NSData+XDCommonLib.m" bodystart="27" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_data_07_x_d_common_lib_08_1ae48c7b361c5cc1ce6ce939804d1bb307" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *_Nullable</type>
+        <definition>NSString *_Nullable NSData(XDCommonLib)::convertUUIDToString</definition>
+        <argsstring>()</argsstring>
+        <name>convertUUIDToString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Convert self UUID to NSString. Useful for push notifications</para><para><simplesect kind="return"><para>Returns self as NSString from UUID </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSData/NSData+XDCommonLib.h" line="27" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSData/NSData+XDCommonLib.m" bodystart="31" bodyend="33"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSData/NSData+XDCommonLib.m" line="11" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSData/NSData+XDCommonLib.m" bodystart="11" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_n_s_data_07_x_d_common_lib_08_1ab175d02de12927eb151d78c6c55dcc01" prot="public" virt="virtual"><scope>NSData(XDCommonLib)</scope><name>convertToASCIIString</name></member>
+      <member refid="category_n_s_data_07_x_d_common_lib_08_1a7bd22012433604f9bd6076544865fe20" prot="public" virt="virtual"><scope>NSData(XDCommonLib)</scope><name>convertToASCIIString:</name></member>
+      <member refid="category_n_s_data_07_x_d_common_lib_08_1a85b6eaa85237f02c99325d3fdb115cc0" prot="public" virt="virtual"><scope>NSData(XDCommonLib)</scope><name>convertToUTF8String</name></member>
+      <member refid="category_n_s_data_07_x_d_common_lib_08_1aff61384bd702697aa8cee5e40bf8566d" prot="public" virt="virtual"><scope>NSData(XDCommonLib)</scope><name>convertToUTF8String:</name></member>
+      <member refid="category_n_s_data_07_x_d_common_lib_08_1ae48c7b361c5cc1ce6ce939804d1bb307" prot="public" virt="virtual"><scope>NSData(XDCommonLib)</scope><name>convertUUIDToString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

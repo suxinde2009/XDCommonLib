@@ -1,0 +1,223 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_u_i_bar_button_item_07_blocks_kit_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>UIBarButtonItem(BlocksKit)</compoundname>
+    <includes refid="_u_i_bar_button_item_09_blocks_kit_8h" local="no">UIBarButtonItem+BlocksKit.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="category_u_i_bar_button_item_07_blocks_kit_08_1a21ac431c5f8fd86f7a707de6208cd8b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>instancetype</type>
+        <definition>instancetype UIBarButtonItem(BlocksKit)::bk_initWithBarButtonSystemItem:handler:</definition>
+        <argsstring>(UIBarButtonSystemItem systemItem,[handler] void(^BK_INITIALIZER)(id sender))</argsstring>
+        <name>bk_initWithBarButtonSystemItem:handler:</name>
+        <param>
+          <type>UIBarButtonSystemItem</type>
+          <declname>systemItem</declname>
+        </param>
+        <param>
+          <attributes>[handler]</attributes>
+          <type>void(^)(id sender)</type>
+          <declname>BK_INITIALIZER</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates and returns a configured item containing the specified system item.</para><para><simplesect kind="return"><para>Newly initialized item with the specified properties. </para></simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>systemItem</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The system item to use as the item representation. One of the constants defined in UIBarButtonSystemItem. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>action</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The block that gets fired on the button press. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIBarButtonItem+BlocksKit.h" line="66" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIBarButtonItem+BlocksKit.m" bodystart="19" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_bar_button_item_07_blocks_kit_08_1a7684363e8d84be514709fc8da946c35e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>instancetype</type>
+        <definition>instancetype UIBarButtonItem(BlocksKit)::bk_initWithImage:style:handler:</definition>
+        <argsstring>(UIImage *image,[style] UIBarButtonItemStyle style,[handler] void(^BK_INITIALIZER)(id sender))</argsstring>
+        <name>bk_initWithImage:style:handler:</name>
+        <param>
+          <type>UIImage *</type>
+          <declname>image</declname>
+        </param>
+        <param>
+          <attributes>[style]</attributes>
+          <type>UIBarButtonItemStyle</type>
+          <declname>style</declname>
+        </param>
+        <param>
+          <attributes>[handler]</attributes>
+          <type>void(^)(id sender)</type>
+          <declname>BK_INITIALIZER</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates and returns a configured item using the specified image and style.</para><para><simplesect kind="return"><para>Newly initialized item with the specified properties. </para></simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>image</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The item’s image. If nil an image is not displayed. If this image is too large to fit on the bar, it is scaled to fit The size of a toolbar and navigation bar image is 20 x 20 points. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>style</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The style of the item. One of the constants defined in UIBarButtonItemStyle. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>action</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The block that gets fired on the button press. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIBarButtonItem+BlocksKit.h" line="66" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIBarButtonItem+BlocksKit.m" bodystart="29" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_bar_button_item_07_blocks_kit_08_1a29fac6d4b2b61c534716a29c4f22e1a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>instancetype</type>
+        <definition>instancetype UIBarButtonItem(BlocksKit)::bk_initWithImage:landscapeImagePhone:style:handler:</definition>
+        <argsstring>(UIImage *image,[landscapeImagePhone] UIImage *landscapeImagePhone,[style] UIBarButtonItemStyle style,[handler] void(^BK_INITIALIZER)(id sender))</argsstring>
+        <name>bk_initWithImage:landscapeImagePhone:style:handler:</name>
+        <param>
+          <type>UIImage *</type>
+          <declname>image</declname>
+        </param>
+        <param>
+          <attributes>[landscapeImagePhone]</attributes>
+          <type>UIImage *</type>
+          <declname>landscapeImagePhone</declname>
+        </param>
+        <param>
+          <attributes>[style]</attributes>
+          <type>UIBarButtonItemStyle</type>
+          <declname>style</declname>
+        </param>
+        <param>
+          <attributes>[handler]</attributes>
+          <type>void(^)(id sender)</type>
+          <declname>BK_INITIALIZER</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates and returns a configured item using the specified image and style.</para><para><simplesect kind="return"><para>Newly initialized item with the specified properties. </para></simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>image</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The item’s image. If nil an image is not displayed. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>landscapeImagePhone</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The image to be used for the item in landscape bars in the UIUserInterfaceIdiomPhone idiom. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>style</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The style of the item. One of the constants defined in UIBarButtonItemStyle. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>action</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The block that gets fired on the button press. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIBarButtonItem+BlocksKit.h" line="66" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIBarButtonItem+BlocksKit.m" bodystart="39" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_bar_button_item_07_blocks_kit_08_1a746065ff0f28c14ec1617162ca608af8" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>instancetype</type>
+        <definition>instancetype UIBarButtonItem(BlocksKit)::bk_initWithTitle:style:handler:</definition>
+        <argsstring>(NSString *title,[style] UIBarButtonItemStyle style,[handler] void(^BK_INITIALIZER)(id sender))</argsstring>
+        <name>bk_initWithTitle:style:handler:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>title</declname>
+        </param>
+        <param>
+          <attributes>[style]</attributes>
+          <type>UIBarButtonItemStyle</type>
+          <declname>style</declname>
+        </param>
+        <param>
+          <attributes>[handler]</attributes>
+          <type>void(^)(id sender)</type>
+          <declname>BK_INITIALIZER</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates and returns a configured item using the specified text and style.</para><para><simplesect kind="return"><para>Newly initialized item with the specified properties. </para></simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>title</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The text displayed on the button item. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>style</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The style of the item. One of the constants defined in UIBarButtonItemStyle. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>action</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The block that gets fired on the button press. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIBarButtonItem+BlocksKit.h" line="66" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIBarButtonItem+BlocksKit.m" bodystart="49" bodyend="57"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Block event initialization for UIBarButtonItem.</para><para>This set of extensions has near-drop-in replacements for the standard set of UIBarButton item initializations, using a block handler instead of a target/selector.</para><para>Includes code by the following:</para><para><itemizedlist>
+<listitem><para><ulink url="https://github.com/kevinoneill">Kevin O&apos;Neill</ulink></para></listitem><listitem><para><ulink url="https://github.com/zwaldowski">Zach Waldowski</ulink></para></listitem></itemizedlist>
+</para><para><simplesect kind="warning"><para>UIBarButtonItem is only available on a platform with UIKit. </para></simplesect>
+</para>    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIBarButtonItem+BlocksKit.m" line="17" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIBarButtonItem+BlocksKit.m" bodystart="17" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_u_i_bar_button_item_07_blocks_kit_08_1a21ac431c5f8fd86f7a707de6208cd8b8" prot="public" virt="virtual"><scope>UIBarButtonItem(BlocksKit)</scope><name>bk_initWithBarButtonSystemItem:handler:</name></member>
+      <member refid="category_u_i_bar_button_item_07_blocks_kit_08_1a29fac6d4b2b61c534716a29c4f22e1a6" prot="public" virt="virtual"><scope>UIBarButtonItem(BlocksKit)</scope><name>bk_initWithImage:landscapeImagePhone:style:handler:</name></member>
+      <member refid="category_u_i_bar_button_item_07_blocks_kit_08_1a7684363e8d84be514709fc8da946c35e" prot="public" virt="virtual"><scope>UIBarButtonItem(BlocksKit)</scope><name>bk_initWithImage:style:handler:</name></member>
+      <member refid="category_u_i_bar_button_item_07_blocks_kit_08_1a746065ff0f28c14ec1617162ca608af8" prot="public" virt="virtual"><scope>UIBarButtonItem(BlocksKit)</scope><name>bk_initWithTitle:style:handler:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

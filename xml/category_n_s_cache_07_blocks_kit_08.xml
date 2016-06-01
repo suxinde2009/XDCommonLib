@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_n_s_cache_07_blocks_kit_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>NSCache(BlocksKit)</compoundname>
+    <includes refid="_n_s_cache_09_blocks_kit_8h" local="no">NSCache+BlocksKit.h</includes>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="category_n_s_cache_07_blocks_kit_08_1ac99a017b14e0bcb7b8e266a5af89ec2b" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="copy">
+        <type>void(^</type>
+        <definition>void(^ NSCache(BlocksKit)::bk_willEvictBlock) (NSCache *cache, id obj)</definition>
+        <argsstring>)(NSCache *cache, id obj)</argsstring>
+        <name>bk_willEvictBlock</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Called when an object is about to be evicted from the cache.</para><para>This block callback is an analog for the cache:willEviceObject: method of <ref refid="class_n_s_cache_delegate-p" kindref="compound">NSCacheDelegate</ref>. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/DynamicDelegate/Foundation/NSCache+BlocksKit.h" line="54" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="category_n_s_cache_07_blocks_kit_08_1a985b2fd234534b4d22ff45ba88075c94" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>id</type>
+        <definition>id NSCache(BlocksKit)::bk_objectForKey:withGetter:</definition>
+        <argsstring>(id key,[withGetter] id(^getterBlock)(void))</argsstring>
+        <name>bk_objectForKey:withGetter:</name>
+        <param>
+          <type>id</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <attributes>[withGetter]</attributes>
+          <type>id(^)(void)</type>
+          <declname>getterBlock</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the value associated with a given key. If there is no object for that key, it uses the result of the block, saves that to the cache, and returns it.</para><para>This mimics the cache behavior of Ruby on Rails. The following code: <verbatim>@products = Rails.cache.fetch(&apos;products&apos;) do
+  Product.all
+end
+</verbatim></para><para>becomes: <verbatim>NSMutableArray *products = [cache objectForKey:@&quot;products&quot; withGetter:^id{
+  return [Product all];
+}];
+</verbatim></para><para><simplesect kind="return"><para>The value associated with <emphasis>key</emphasis>, or the object returned by the block if no value is associated with <emphasis>key</emphasis>. </para></simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>An object identifying the value. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>getterBlock</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A block used to get an object if there is no value in the cache. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/DynamicDelegate/Foundation/NSCache+BlocksKit.h" line="58" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/DynamicDelegate/Foundation/NSCache+BlocksKit.m" bodystart="47" bodyend="58"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>NSCache with block adding of objects</para><para>This category allows you to conditionally add objects to an instance of NSCache using blocks. Both the normal delegation pattern and a block callback for NSCache&apos;s one delegate method are allowed.</para><para>These methods emulate Rails caching behavior.</para><para>Created by <ulink url="https://github.com/evsukov89">Igor Evsukov</ulink> and contributed to BlocksKit. </para>    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/DynamicDelegate/Foundation/NSCache+BlocksKit.m" line="33" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/DynamicDelegate/Foundation/NSCache+BlocksKit.m" bodystart="33" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_n_s_cache_07_blocks_kit_08_1a985b2fd234534b4d22ff45ba88075c94" prot="public" virt="virtual"><scope>NSCache(BlocksKit)</scope><name>bk_objectForKey:withGetter:</name></member>
+      <member refid="category_n_s_cache_07_blocks_kit_08_1ac99a017b14e0bcb7b8e266a5af89ec2b" prot="public" virt="non-virtual"><scope>NSCache(BlocksKit)</scope><name>bk_willEvictBlock</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

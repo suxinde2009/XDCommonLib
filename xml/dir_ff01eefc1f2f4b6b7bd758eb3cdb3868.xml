@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="dir_ff01eefc1f2f4b6b7bd758eb3cdb3868" kind="dir">
+    <compoundname>XDCommonLib/CommonBasicComponentLayer/Categories/Foundation</compoundname>
+    <innerdir refid="dir_fcfd505a3d385040f636e3b7d8fee2ce">XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSArray</innerdir>
+    <innerdir refid="dir_f7ff4b38db8631e35fa11163006998ab">XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSBundle</innerdir>
+    <innerdir refid="dir_d593c9db0e2b25237bc0ce9b8a3923a5">XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSData</innerdir>
+    <innerdir refid="dir_6002795f279ee5dc89715e338e77aa32">XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate</innerdir>
+    <innerdir refid="dir_f66955fae6210abcecde1aef7ca6dc8c">XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDateFormatter</innerdir>
+    <innerdir refid="dir_be0ea0015e153ea808524a440fafb1f2">XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDictionary</innerdir>
+    <innerdir refid="dir_6f2d0e321bd2cc724cc417176acf417f">XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSException</innerdir>
+    <innerdir refid="dir_e9274dc898867928f8eca1665a6637c5">XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileHandle</innerdir>
+    <innerdir refid="dir_0ff641fd50f527aee79cb588a7a82a40">XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager</innerdir>
+    <innerdir refid="dir_72db5cc865b36ce13c88b4db1ee871a9">XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSHTTPCookieStorage</innerdir>
+    <innerdir refid="dir_89f2abae1bf18e7eb76e5fb78961df76">XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSIndexPath</innerdir>
+    <innerdir refid="dir_6803ee681f63a7380b532005f06a95a8">XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSNotificationCenter</innerdir>
+    <innerdir refid="dir_13b51c0b3582c01db639458e56b58a62">XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSNumber</innerdir>
+    <innerdir refid="dir_15c2881210d5186f67bdae8d4b249fcd">XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSObject</innerdir>
+    <innerdir refid="dir_e350e37ff147d11993d5b7ee07958b4f">XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSOperationQueue</innerdir>
+    <innerdir refid="dir_43e79ff957e536e305ad5ce0837963f8">XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSRunLoop</innerdir>
+    <innerdir refid="dir_bbbb02ed7eab6bd2d14d487747e08deb">XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSSet</innerdir>
+    <innerdir refid="dir_9b240973132aed34d9cf5449b8eb6ddf">XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString</innerdir>
+    <innerdir refid="dir_c5a1b7d50184946c7d3f60ff846e4dd2">XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSTimer</innerdir>
+    <innerdir refid="dir_6790b39ab045a88ed8902c13d9485d71">XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSURL</innerdir>
+    <innerdir refid="dir_36055080d302521805e01ac5ce3094b5">XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSURLRequest</innerdir>
+    <innerdir refid="dir_de1a9ed1b88dac16d93803f37bdbf242">XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSUserDefaults</innerdir>
+    <innerfile refid="_x_d_file_mime_type_8h">XDFileMimeType.h</innerfile>
+    <innerfile refid="_x_d_file_mime_type_8m">XDFileMimeType.m</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/"/>
+  </compounddef>
+</doxygen>

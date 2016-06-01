@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_n_s_string_07_y_r_j_s_o_n_deserializing_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>NSString(YRJSONDeserializing)</compoundname>
+    <includes refid="_y_r_j_s_o_n_adapter_8h" local="no">YRJSONAdapter.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="category_n_s_string_07_y_r_j_s_o_n_deserializing_08_1a936ff56ea016124b5228443a2bc9d8b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>id</type>
+        <definition>id NSString(YRJSONDeserializing)::objectFromJSONString</definition>
+        <argsstring>()</argsstring>
+        <name>objectFromJSONString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/YRJSONAdapter/YRJSONAdapter.h" line="19" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/YRJSONAdapter/YRJSONAdapter.m" bodystart="14" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_string_07_y_r_j_s_o_n_deserializing_08_1a7132c99575ed3e715df9709462849079" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>id</type>
+        <definition>id NSString(YRJSONDeserializing)::mutableObjectFromJSONString</definition>
+        <argsstring>()</argsstring>
+        <name>mutableObjectFromJSONString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/YRJSONAdapter/YRJSONAdapter.h" line="19" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/YRJSONAdapter/YRJSONAdapter.m" bodystart="18" bodyend="20"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/YRJSONAdapter/YRJSONAdapter.m" line="12" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/YRJSONAdapter/YRJSONAdapter.m" bodystart="12" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_n_s_string_07_y_r_j_s_o_n_deserializing_08_1a7132c99575ed3e715df9709462849079" prot="public" virt="virtual"><scope>NSString(YRJSONDeserializing)</scope><name>mutableObjectFromJSONString</name></member>
+      <member refid="category_n_s_string_07_y_r_j_s_o_n_deserializing_08_1a936ff56ea016124b5228443a2bc9d8b1" prot="public" virt="virtual"><scope>NSString(YRJSONDeserializing)</scope><name>objectFromJSONString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

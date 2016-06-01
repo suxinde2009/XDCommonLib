@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_u_i_color_09_modify_8m" kind="file" language="Objective-C">
+    <compoundname>UIColor+Modify.m</compoundname>
+    <includes refid="_u_i_color_09_modify_8h" local="yes">UIColor+Modify.h</includes>
+    <incdepgraph>
+      <node id="1347">
+        <label>UIKit/UIKit.h</label>
+      </node>
+      <node id="1346">
+        <label>UIColor+Modify.h</label>
+        <link refid="_u_i_color_09_modify_8h"/>
+        <childnode refid="1347" relation="include">
+        </childnode>
+      </node>
+      <node id="1345">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIColor/UIColor+Modify.m</label>
+        <link refid="UIColor+Modify.m"/>
+        <childnode refid="1346" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>UIColor+Modify.m</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>iOS-Categories<sp/>(https://github.com/shaojiankui/iOS-Categories)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Jakey<sp/>on<sp/>15/1/2.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2015年<sp/>www.skyfox.org.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_u_i_color_09_modify_8h" kindref="compound">UIColor+Modify.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="category_u_i_color_07_modify_08" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">@implementation<sp/></highlight><highlight class="normal"><ref refid="category_u_i_color_07_modify_08" kindref="compound">UIColor (Modify)</ref></highlight></codeline>
+<codeline lineno="12" refid="category_u_i_color_07_modify_08_1a2380d7e685ed5eeee4ad0914ae0ee3f1" refkind="member"><highlight class="normal">-<sp/>(UIColor<sp/>*)<ref refid="category_u_i_color_07_modify_08_1a2380d7e685ed5eeee4ad0914ae0ee3f1" kindref="member">invertedColor</ref>{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>NSArray<sp/>*components<sp/>=<sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>componentArray];</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[UIColor<sp/>colorWithRed:1-[components[0]<sp/>doubleValue]<sp/>green:1-[components[1]<sp/>doubleValue]<sp/>blue:1-[components[2]<sp/>doubleValue]<sp/>alpha:[components[3]<sp/>doubleValue]];</highlight></codeline>
+<codeline lineno="15"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="16" refid="category_u_i_color_07_modify_08_1acde42fc7b58d245b2202ed558810cb2b" refkind="member"><highlight class="normal">-<sp/>(UIColor<sp/>*)<ref refid="category_u_i_color_07_modify_08_1acde42fc7b58d245b2202ed558810cb2b" kindref="member">colorForTranslucency</ref>{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>CGFloat<sp/>hue<sp/>=<sp/>0,<sp/>saturation<sp/>=<sp/>0,<sp/>brightness<sp/>=<sp/>0,<sp/>alpha<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>getHue:&amp;hue<sp/>saturation:&amp;saturation<sp/>brightness:&amp;brightness<sp/>alpha:&amp;alpha];</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[UIColor<sp/>colorWithHue:hue<sp/>saturation:saturation*1.158<sp/>brightness:brightness*0.95<sp/>alpha:alpha];</highlight></codeline>
+<codeline lineno="20"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="21" refid="category_u_i_color_07_modify_08_1a140e042a095d25eb4da554401eb7a4d1" refkind="member"><highlight class="normal">-<sp/>(UIColor<sp/>*)lightenColor:(CGFloat)lighten{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>CGFloat<sp/>hue<sp/>=<sp/>0,<sp/>saturation<sp/>=<sp/>0,<sp/>brightness<sp/>=<sp/>0,<sp/>alpha<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>getHue:&amp;hue<sp/>saturation:&amp;saturation<sp/>brightness:&amp;brightness<sp/>alpha:&amp;alpha];</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[UIColor<sp/>colorWithHue:hue<sp/>saturation:saturation*(1-lighten)<sp/>brightness:brightness*(1+lighten)<sp/>alpha:alpha];</highlight></codeline>
+<codeline lineno="25"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="26" refid="category_u_i_color_07_modify_08_1a29ff5dfdf468e8b33b3a134a3fc24165" refkind="member"><highlight class="normal">-<sp/>(UIColor<sp/>*)darkenColor:(CGFloat)darken{</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>CGFloat<sp/>hue<sp/>=<sp/>0,<sp/>saturation<sp/>=<sp/>0,<sp/>brightness<sp/>=<sp/>0,<sp/>alpha<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>getHue:&amp;hue<sp/>saturation:&amp;saturation<sp/>brightness:&amp;brightness<sp/>alpha:&amp;alpha];</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[UIColor<sp/>colorWithHue:hue<sp/>saturation:saturation*(1+darken)<sp/>brightness:brightness*(1-darken)<sp/>alpha:alpha];</highlight></codeline>
+<codeline lineno="30"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">-<sp/>(NSArray<sp/>*)componentArray{</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>CGFloat<sp/>red,<sp/>green,<sp/>blue,<sp/>alpha;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>CGFloat<sp/>*components<sp/>=<sp/>CGColorGetComponents([</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>CGColor]);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(CGColorGetNumberOfComponents([</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>CGColor])<sp/>==<sp/>2){</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>red<sp/>=<sp/>components[0];</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>green<sp/>=<sp/>components[0];</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>blue<sp/>=<sp/>components[0];</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>alpha<sp/>=<sp/>components[1];</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight><highlight class="keywordflow">else</highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>red<sp/>=<sp/>components[0];</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>green<sp/>=<sp/>components[1];</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>blue<sp/>=<sp/>components[2];</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>alpha<sp/>=<sp/>components[3];</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>@[@(red),<sp/>@(green),<sp/>@(blue),<sp/>@(alpha)];</highlight></codeline>
+<codeline lineno="46"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIColor/UIColor+Modify.m"/>
+  </compounddef>
+</doxygen>

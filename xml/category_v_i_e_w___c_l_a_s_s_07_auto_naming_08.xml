@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_v_i_e_w___c_l_a_s_s_07_auto_naming_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>VIEW_CLASS(AutoNaming)</compoundname>
+    <includes refid="_constraint_utilities_09_description_8h" local="no">ConstraintUtilities+Description.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="category_v_i_e_w___c_l_a_s_s_07_auto_naming_08_1a68e5988db111f742544cc0a493f1f432" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void VIEW_CLASS(AutoNaming)::addConstraintNames</definition>
+        <argsstring>()</argsstring>
+        <name>addConstraintNames</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Constraint Description/ConstraintUtilities+Description.h" line="105" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Constraint Description/ConstraintUtilities+Description.m" bodystart="586" bodyend="591"/>
+      </memberdef>
+      <memberdef kind="function" id="category_v_i_e_w___c_l_a_s_s_07_auto_naming_08_1a961e0761fb6e0f657aed7b3853c566c9" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void VIEW_CLASS(AutoNaming)::addViewNames</definition>
+        <argsstring>()</argsstring>
+        <name>addViewNames</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Constraint Description/ConstraintUtilities+Description.h" line="105" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Constraint Description/ConstraintUtilities+Description.m" bodystart="637" bodyend="653"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Constraint Description/ConstraintUtilities+Description.m" line="584" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Constraint Description/ConstraintUtilities+Description.m" bodystart="584" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_v_i_e_w___c_l_a_s_s_07_auto_naming_08_1a68e5988db111f742544cc0a493f1f432" prot="public" virt="virtual"><scope>VIEW_CLASS(AutoNaming)</scope><name>addConstraintNames</name></member>
+      <member refid="category_v_i_e_w___c_l_a_s_s_07_auto_naming_08_1a961e0761fb6e0f657aed7b3853c566c9" prot="public" virt="virtual"><scope>VIEW_CLASS(AutoNaming)</scope><name>addViewNames</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

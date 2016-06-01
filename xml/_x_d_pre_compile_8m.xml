@@ -1,0 +1,166 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_x_d_pre_compile_8m" kind="file" language="Objective-C">
+    <compoundname>XDPreCompile.m</compoundname>
+    <includes refid="_x_d_pre_compile_8h" local="yes">XDPreCompile.h</includes>
+    <incdepgraph>
+      <node id="3710">
+        <label>mach/mach_host.h</label>
+      </node>
+      <node id="3705">
+        <label>netinet/in.h</label>
+      </node>
+      <node id="3706">
+        <label>arpa/inet.h</label>
+      </node>
+      <node id="3691">
+        <label>assert.h</label>
+      </node>
+      <node id="3703">
+        <label>net/if.h</label>
+      </node>
+      <node id="3693">
+        <label>sys/errno.h</label>
+      </node>
+      <node id="3689">
+        <label>stdint.h</label>
+      </node>
+      <node id="3688">
+        <label>stdlib.h</label>
+      </node>
+      <node id="3708">
+        <label>mach/mach.h</label>
+      </node>
+      <node id="3692">
+        <label>errno.h</label>
+      </node>
+      <node id="3709">
+        <label>malloc/malloc.h</label>
+      </node>
+      <node id="3704">
+        <label>net/if_dl.h</label>
+      </node>
+      <node id="3695">
+        <label>sys/ioctl.h</label>
+      </node>
+      <node id="3702">
+        <label>netdb.h</label>
+      </node>
+      <node id="3700">
+        <label>limits.h</label>
+      </node>
+      <node id="3707">
+        <label>ifaddrs.h</label>
+      </node>
+      <node id="3696">
+        <label>sys/types.h</label>
+      </node>
+      <node id="3686">
+        <label>XDPreCompile.h</label>
+        <link refid="_x_d_pre_compile_8h"/>
+        <childnode refid="3687" relation="include">
+        </childnode>
+        <childnode refid="3688" relation="include">
+        </childnode>
+        <childnode refid="3689" relation="include">
+        </childnode>
+        <childnode refid="3690" relation="include">
+        </childnode>
+        <childnode refid="3691" relation="include">
+        </childnode>
+        <childnode refid="3692" relation="include">
+        </childnode>
+        <childnode refid="3693" relation="include">
+        </childnode>
+        <childnode refid="3694" relation="include">
+        </childnode>
+        <childnode refid="3695" relation="include">
+        </childnode>
+        <childnode refid="3696" relation="include">
+        </childnode>
+        <childnode refid="3697" relation="include">
+        </childnode>
+        <childnode refid="3698" relation="include">
+        </childnode>
+        <childnode refid="3699" relation="include">
+        </childnode>
+        <childnode refid="3700" relation="include">
+        </childnode>
+        <childnode refid="3701" relation="include">
+        </childnode>
+        <childnode refid="3702" relation="include">
+        </childnode>
+        <childnode refid="3703" relation="include">
+        </childnode>
+        <childnode refid="3704" relation="include">
+        </childnode>
+        <childnode refid="3705" relation="include">
+        </childnode>
+        <childnode refid="3706" relation="include">
+        </childnode>
+        <childnode refid="3707" relation="include">
+        </childnode>
+        <childnode refid="3708" relation="include">
+        </childnode>
+        <childnode refid="3709" relation="include">
+        </childnode>
+        <childnode refid="3710" relation="include">
+        </childnode>
+      </node>
+      <node id="3690">
+        <label>string.h</label>
+      </node>
+      <node id="3685">
+        <label>XDCommonLib/CommonBasicComponentLayer/XDPreCompile.m</label>
+        <link refid="XDPreCompile.m"/>
+        <childnode refid="3686" relation="include">
+        </childnode>
+      </node>
+      <node id="3699">
+        <label>unistd.h</label>
+      </node>
+      <node id="3694">
+        <label>sys/sockio.h</label>
+      </node>
+      <node id="3698">
+        <label>math.h</label>
+      </node>
+      <node id="3697">
+        <label>sys/socket.h</label>
+      </node>
+      <node id="3687">
+        <label>stdio.h</label>
+      </node>
+      <node id="3701">
+        <label>execinfo.h</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>XDPreDefine.m</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>XDCommonLib</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>su<sp/>xinde<sp/>on<sp/>15/5/5.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2015年<sp/>su<sp/>xinde.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_x_d_pre_compile_8h" kindref="compound">XDPreCompile.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="12"><highlight class="comment">void<sp/>XDLog(NSString<sp/>*format,<sp/>...)<sp/>{</highlight></codeline>
+<codeline lineno="13"><highlight class="comment">#ifdef<sp/>__XD_DEBUG__</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/><sp/><sp/><sp/>va_list<sp/>argptr;</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/><sp/><sp/><sp/>va_start(argptr,<sp/>format);</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/><sp/><sp/><sp/>NSLogv(format,<sp/>argptr);</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/><sp/><sp/><sp/>va_end(argptr);</highlight></codeline>
+<codeline lineno="18"><highlight class="comment">#endif</highlight></codeline>
+<codeline lineno="19"><highlight class="comment">}</highlight></codeline>
+<codeline lineno="20"><highlight class="comment">*/</highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/XDPreCompile.m"/>
+  </compounddef>
+</doxygen>

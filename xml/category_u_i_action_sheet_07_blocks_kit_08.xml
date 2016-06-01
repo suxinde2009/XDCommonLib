@@ -1,0 +1,377 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_u_i_action_sheet_07_blocks_kit_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>UIActionSheet(BlocksKit)</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">&lt;UIActionSheetDelegate&gt;</basecompoundref>
+    <includes refid="_u_i_action_sheet_09_blocks_kit_8h" local="no">UIActionSheet+BlocksKit.h</includes>
+      <sectiondef kind="user-defined">
+      <header>Creating action sheets</header>
+      <description><para><hruler/>
+ <hruler/>
+ </para></description>
+      <memberdef kind="function" id="category_u_i_action_sheet_07_blocks_kit_08_1a9e13ce20ae70a4c69506e47d7ad1382b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>instancetype</type>
+        <definition>instancetype UIActionSheet(BlocksKit)::bk_actionSheetWithTitle:</definition>
+        <argsstring>(2_0 BK_ALERT_CONTROLLER_DEPRECATED)</argsstring>
+        <name>bk_actionSheetWithTitle:</name>
+        <param>
+          <type>2_0</type>
+          <declname>BK_ALERT_CONTROLLER_DEPRECATED</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates and returns a new action sheet with only a title and cancel button.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>title</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The header of the action sheet. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>A newly created action sheet. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIActionSheet+BlocksKit.h" line="18" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_action_sheet_07_blocks_kit_08_1afd88eeb522e481d8edba5a25b3683258" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>instancetype</type>
+        <definition>instancetype UIActionSheet(BlocksKit)::bk_initWithTitle:</definition>
+        <argsstring>(2_0 BK_ALERT_CONTROLLER_DEPRECATED)</argsstring>
+        <name>bk_initWithTitle:</name>
+        <param>
+          <type>2_0</type>
+          <declname>BK_ALERT_CONTROLLER_DEPRECATED</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a configured action sheet with only a title and cancel button.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>title</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The header of the action sheet. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>An instantiated actionSheet. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIActionSheet+BlocksKit.h" line="18" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="user-defined">
+      <header>Adding buttons</header>
+      <description><para><hruler/>
+ <hruler/>
+ </para></description>
+      <memberdef kind="function" id="category_u_i_action_sheet_07_blocks_kit_08_1aa0a984055a398a5c928bdaa9b6130b49" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSInteger</type>
+        <definition>NSInteger UIActionSheet(BlocksKit)::bk_addButtonWithTitle:handler:</definition>
+        <argsstring>(NSString *title,[handler] 2_0 BK_ALERT_CONTROLLER_DEPRECATED)</argsstring>
+        <name>bk_addButtonWithTitle:handler:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>title</declname>
+        </param>
+        <param>
+          <attributes>[handler]</attributes>
+          <type>2_0</type>
+          <declname>BK_ALERT_CONTROLLER_DEPRECATED</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Add a new button with an associated code block.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>title</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The text of the button. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>block</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A block of code. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIActionSheet+BlocksKit.h" line="18" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_action_sheet_07_blocks_kit_08_1a6d6c044fe14a6cad1c95e9533d7ae529" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSInteger</type>
+        <definition>NSInteger UIActionSheet(BlocksKit)::bk_setDestructiveButtonWithTitle:handler:</definition>
+        <argsstring>(NSString *title,[handler] 2_0 BK_ALERT_CONTROLLER_DEPRECATED)</argsstring>
+        <name>bk_setDestructiveButtonWithTitle:handler:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>title</declname>
+        </param>
+        <param>
+          <attributes>[handler]</attributes>
+          <type>2_0</type>
+          <declname>BK_ALERT_CONTROLLER_DEPRECATED</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set the destructive (red) button with an associated code block.</para><para><simplesect kind="warning"><para>Because buttons cannot be removed from an action sheet, be aware that the effects of calling this method are cumulative. Previously added destructive buttons will become normal buttons.</para></simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>title</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The text of the button. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>block</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A block of code. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIActionSheet+BlocksKit.h" line="18" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_action_sheet_07_blocks_kit_08_1a208e445bfb0b95beeb6c7da0935217b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSInteger</type>
+        <definition>NSInteger UIActionSheet(BlocksKit)::bk_setCancelButtonWithTitle:handler:</definition>
+        <argsstring>(NSString *title,[handler] 2_0 BK_ALERT_CONTROLLER_DEPRECATED)</argsstring>
+        <name>bk_setCancelButtonWithTitle:handler:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>title</declname>
+        </param>
+        <param>
+          <attributes>[handler]</attributes>
+          <type>2_0</type>
+          <declname>BK_ALERT_CONTROLLER_DEPRECATED</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set the title and trigger of the cancel button.</para><para><computeroutput>block</computeroutput> can be set to <computeroutput>nil</computeroutput>, but this is generally useless as the cancel button is configured already to do nothing.</para><para>iPhone users will have the button shown regardless; if the title is set to <computeroutput>nil</computeroutput>, it will automatically be localized.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>title</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The text of the button. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>block</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A block of code. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIActionSheet+BlocksKit.h" line="18" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="user-defined">
+      <header>Altering actions</header>
+      <description><para><hruler/>
+ <hruler/>
+ </para></description>
+      <memberdef kind="property" id="category_u_i_action_sheet_07_blocks_kit_08_1a3174a09ef1f7adabbd3acd601664444b" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="copy">
+        <type>void(^</type>
+        <definition>void UIActionSheet(BlocksKit)::bk_cancelBlock</definition>
+        <argsstring>)(void) BK_ALERT_CONTROLLER_DEPRECATED(2_0)</argsstring>
+        <name>bk_cancelBlock</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The block to be fired when the action sheet is dismissed with the cancel button and/or action.</para><para>This property performs the same action as setCancelButtonWithTitle:handler: but with <computeroutput>title</computeroutput> set to nil. Contrary to setCancelButtonWithTitle:handler:, you can set this property multiple times and multiple cancel buttons will not be generated. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIActionSheet+BlocksKit.h" line="115" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIActionSheet+BlocksKit.m" bodystart="174" bodyend="177"/>
+      </memberdef>
+      <memberdef kind="property" id="category_u_i_action_sheet_07_blocks_kit_08_1a210ddf4b591f4539327d681046a3d343" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="copy">
+        <type>void(^</type>
+        <definition>void(^ UIActionSheet(BlocksKit)::bk_willShowBlock) (UIActionSheet *actionSheet) BK_ALERT_CONTROLLER_DEPRECATED(2_0)</definition>
+        <argsstring>)(UIActionSheet *actionSheet) BK_ALERT_CONTROLLER_DEPRECATED(2_0)</argsstring>
+        <name>bk_willShowBlock</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The block to be fired before the action sheet will show. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIActionSheet+BlocksKit.h" line="118" column="1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_u_i_action_sheet_07_blocks_kit_08_1abf39e6a52783bad1ae7bf73dfb293192" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="copy">
+        <type>void(^</type>
+        <definition>void(^ UIActionSheet(BlocksKit)::bk_didShowBlock) (UIActionSheet *actionSheet) BK_ALERT_CONTROLLER_DEPRECATED(2_0)</definition>
+        <argsstring>)(UIActionSheet *actionSheet) BK_ALERT_CONTROLLER_DEPRECATED(2_0)</argsstring>
+        <name>bk_didShowBlock</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The block to be fired when the action sheet shows. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIActionSheet+BlocksKit.h" line="121" column="1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_u_i_action_sheet_07_blocks_kit_08_1a057cf599f03b260a1b9fe5d156c128ca" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="copy">
+        <type>void(^</type>
+        <definition>void(^ UIActionSheet(BlocksKit)::bk_willDismissBlock) (UIActionSheet *actionSheet, NSInteger buttonIndex) BK_ALERT_CONTROLLER_DEPRECATED(2_0)</definition>
+        <argsstring>)(UIActionSheet *actionSheet, NSInteger buttonIndex) BK_ALERT_CONTROLLER_DEPRECATED(2_0)</argsstring>
+        <name>bk_willDismissBlock</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The block to be fired before the action sheet will dismiss. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIActionSheet+BlocksKit.h" line="124" column="1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_u_i_action_sheet_07_blocks_kit_08_1a38e99a52c87323d8877b3e89c91f2b78" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="copy">
+        <type>void(^</type>
+        <definition>void(^ UIActionSheet(BlocksKit)::bk_didDismissBlock) (UIActionSheet *actionSheet, NSInteger buttonIndex) BK_ALERT_CONTROLLER_DEPRECATED(2_0)</definition>
+        <argsstring>)(UIActionSheet *actionSheet, NSInteger buttonIndex) BK_ALERT_CONTROLLER_DEPRECATED(2_0)</argsstring>
+        <name>bk_didDismissBlock</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The block to be fired after the action sheet dismisses. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIActionSheet+BlocksKit.h" line="127" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_action_sheet_07_blocks_kit_08_1adc2a1f2b2408bf0392b03a4454df326b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UIActionSheet(BlocksKit)::bk_setHandler:forButtonAtIndex:</definition>
+        <argsstring>(void(^block)(void),[forButtonAtIndex] 2_0 BK_ALERT_CONTROLLER_DEPRECATED)</argsstring>
+        <name>bk_setHandler:forButtonAtIndex:</name>
+        <param>
+          <type>void(^)(void)</type>
+          <declname>block</declname>
+        </param>
+        <param>
+          <attributes>[forButtonAtIndex]</attributes>
+          <type>2_0</type>
+          <declname>BK_ALERT_CONTROLLER_DEPRECATED</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the block that is to be fired when a button is pressed.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>block</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A code block, or nil to set no response. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The index of a button already added to the action sheet. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIActionSheet+BlocksKit.h" line="18" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_action_sheet_07_blocks_kit_08_1a5286d21e764f7680d5e83a75ba919fe8" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UIActionSheet(BlocksKit)::bk_handlerForButtonAtIndex:</definition>
+        <argsstring>(2_0 BK_ALERT_CONTROLLER_DEPRECATED)</argsstring>
+        <name>bk_handlerForButtonAtIndex:</name>
+        <param>
+          <type>2_0</type>
+          <declname>BK_ALERT_CONTROLLER_DEPRECATED</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The block that is to be fired when a button is pressed.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The index of a button already added to the action sheet. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>A code block, or nil if no block is assigned. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIActionSheet+BlocksKit.h" line="18" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>UIActionSheet without delegates!</para><para>This set of extensions and convenience classes allows for an instance of UIActionSheet without the implementation of a delegate. Any time you instantiate a UIActionSheet using the methods here, you must add buttons using addButtonWithTitle:handler: to make sure nothing breaks.</para><para>A typical invocation might go like this: UIActionSheet *testSheet = [UIActionSheet actionSheetWithTitle:"Please select one.&quot;];
+    [testSheet addButtonWithTitle:@&quot;Zip&quot; handler:^{ NSLog(@&quot;Zip!&quot;); }];
+    [testSheet addButtonWithTitle:@&quot;Zap&quot; handler:^{ NSLog(@&quot;Zap!&quot;); }];
+    [testSheet addButtonWithTitle:@&quot;Zop&quot; handler:^{ NSLog(@&quot;Zop!&quot;); }];
+    [testSheet setDestructiveButtonWithTitle:@&quot;No!&quot; handler:^{ NSLog(@&quot;Fine!&quot;); }];
+    [testSheet setCancelButtonWithTitle:nil handler:^{ NSLog(@&quot;Never mind, then!"); }]; [testSheet showInView:self.view];</para><para>Includes code by the following:</para><para><itemizedlist>
+<listitem><para><ulink url="http://landonf.bikemonkey.org">Landon Fuller</ulink>, &quot;Using Blocks&quot;.</para></listitem><listitem><para><ulink url="https://github.com/steipete">Peter Steinberger</ulink></para></listitem><listitem><para><ulink url="https://github.com/zwaldowski">Zach Waldowski</ulink></para></listitem></itemizedlist>
+</para><para><simplesect kind="warning"><para>UIActionSheet is only available on a platform with UIKit. </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="785">
+        <label>&lt;UIActionSheetDelegate&gt;</label>
+      </node>
+      <node id="784">
+        <label>UIActionSheet(BlocksKit)</label>
+        <link refid="category_u_i_action_sheet_07_blocks_kit_08"/>
+        <childnode refid="785" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="787">
+        <label>&lt;UIActionSheetDelegate&gt;</label>
+      </node>
+      <node id="786">
+        <label>UIActionSheet(BlocksKit)</label>
+        <link refid="category_u_i_action_sheet_07_blocks_kit_08"/>
+        <childnode refid="787" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIActionSheet+BlocksKit.m" line="98" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIActionSheet+BlocksKit.m" bodystart="98" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_u_i_action_sheet_07_blocks_kit_08_1a9e13ce20ae70a4c69506e47d7ad1382b" prot="public" virt="virtual"><scope>UIActionSheet(BlocksKit)</scope><name>bk_actionSheetWithTitle:</name></member>
+      <member refid="category_u_i_action_sheet_07_blocks_kit_08_1aa0a984055a398a5c928bdaa9b6130b49" prot="public" virt="virtual"><scope>UIActionSheet(BlocksKit)</scope><name>bk_addButtonWithTitle:handler:</name></member>
+      <member refid="category_u_i_action_sheet_07_blocks_kit_08_1a3174a09ef1f7adabbd3acd601664444b" prot="public" virt="non-virtual"><scope>UIActionSheet(BlocksKit)</scope><name>bk_cancelBlock</name></member>
+      <member refid="category_u_i_action_sheet_07_blocks_kit_08_1a38e99a52c87323d8877b3e89c91f2b78" prot="public" virt="non-virtual"><scope>UIActionSheet(BlocksKit)</scope><name>bk_didDismissBlock</name></member>
+      <member refid="category_u_i_action_sheet_07_blocks_kit_08_1abf39e6a52783bad1ae7bf73dfb293192" prot="public" virt="non-virtual"><scope>UIActionSheet(BlocksKit)</scope><name>bk_didShowBlock</name></member>
+      <member refid="category_u_i_action_sheet_07_blocks_kit_08_1a5286d21e764f7680d5e83a75ba919fe8" prot="public" virt="virtual"><scope>UIActionSheet(BlocksKit)</scope><name>bk_handlerForButtonAtIndex:</name></member>
+      <member refid="category_u_i_action_sheet_07_blocks_kit_08_1afd88eeb522e481d8edba5a25b3683258" prot="public" virt="virtual"><scope>UIActionSheet(BlocksKit)</scope><name>bk_initWithTitle:</name></member>
+      <member refid="category_u_i_action_sheet_07_blocks_kit_08_1a208e445bfb0b95beeb6c7da0935217b5" prot="public" virt="virtual"><scope>UIActionSheet(BlocksKit)</scope><name>bk_setCancelButtonWithTitle:handler:</name></member>
+      <member refid="category_u_i_action_sheet_07_blocks_kit_08_1a6d6c044fe14a6cad1c95e9533d7ae529" prot="public" virt="virtual"><scope>UIActionSheet(BlocksKit)</scope><name>bk_setDestructiveButtonWithTitle:handler:</name></member>
+      <member refid="category_u_i_action_sheet_07_blocks_kit_08_1adc2a1f2b2408bf0392b03a4454df326b" prot="public" virt="virtual"><scope>UIActionSheet(BlocksKit)</scope><name>bk_setHandler:forButtonAtIndex:</name></member>
+      <member refid="category_u_i_action_sheet_07_blocks_kit_08_1a057cf599f03b260a1b9fe5d156c128ca" prot="public" virt="non-virtual"><scope>UIActionSheet(BlocksKit)</scope><name>bk_willDismissBlock</name></member>
+      <member refid="category_u_i_action_sheet_07_blocks_kit_08_1a210ddf4b591f4539327d681046a3d343" prot="public" virt="non-virtual"><scope>UIActionSheet(BlocksKit)</scope><name>bk_willShowBlock</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="dir_e0e50b41955bf1e866551f7e94477f6a" kind="dir">
+    <compoundname>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core</compoundname>
+    <innerfile refid="_b_k_macros_8h">BKMacros.h</innerfile>
+    <innerfile refid="_n_s_array_09_blocks_kit_8h">NSArray+BlocksKit.h</innerfile>
+    <innerfile refid="_n_s_array_09_blocks_kit_8m">NSArray+BlocksKit.m</innerfile>
+    <innerfile refid="_n_s_dictionary_09_blocks_kit_8h">NSDictionary+BlocksKit.h</innerfile>
+    <innerfile refid="_n_s_dictionary_09_blocks_kit_8m">NSDictionary+BlocksKit.m</innerfile>
+    <innerfile refid="_n_s_index_set_09_blocks_kit_8h">NSIndexSet+BlocksKit.h</innerfile>
+    <innerfile refid="_n_s_index_set_09_blocks_kit_8m">NSIndexSet+BlocksKit.m</innerfile>
+    <innerfile refid="_n_s_invocation_09_blocks_kit_8h">NSInvocation+BlocksKit.h</innerfile>
+    <innerfile refid="_n_s_invocation_09_blocks_kit_8m">NSInvocation+BlocksKit.m</innerfile>
+    <innerfile refid="_n_s_map_table_09_blocks_kit_8h">NSMapTable+BlocksKit.h</innerfile>
+    <innerfile refid="_n_s_map_table_09_blocks_kit_8m">NSMapTable+BlocksKit.m</innerfile>
+    <innerfile refid="_n_s_mutable_array_09_blocks_kit_8h">NSMutableArray+BlocksKit.h</innerfile>
+    <innerfile refid="_n_s_mutable_array_09_blocks_kit_8m">NSMutableArray+BlocksKit.m</innerfile>
+    <innerfile refid="_n_s_mutable_dictionary_09_blocks_kit_8h">NSMutableDictionary+BlocksKit.h</innerfile>
+    <innerfile refid="_n_s_mutable_dictionary_09_blocks_kit_8m">NSMutableDictionary+BlocksKit.m</innerfile>
+    <innerfile refid="_n_s_mutable_index_set_09_blocks_kit_8h">NSMutableIndexSet+BlocksKit.h</innerfile>
+    <innerfile refid="_n_s_mutable_index_set_09_blocks_kit_8m">NSMutableIndexSet+BlocksKit.m</innerfile>
+    <innerfile refid="_n_s_mutable_ordered_set_09_blocks_kit_8h">NSMutableOrderedSet+BlocksKit.h</innerfile>
+    <innerfile refid="_n_s_mutable_ordered_set_09_blocks_kit_8m">NSMutableOrderedSet+BlocksKit.m</innerfile>
+    <innerfile refid="_n_s_mutable_set_09_blocks_kit_8h">NSMutableSet+BlocksKit.h</innerfile>
+    <innerfile refid="_n_s_mutable_set_09_blocks_kit_8m">NSMutableSet+BlocksKit.m</innerfile>
+    <innerfile refid="_n_s_number_09_blocks_kit_8h">NSNumber+BlocksKit.h</innerfile>
+    <innerfile refid="_n_s_number_09_blocks_kit_8m">NSNumber+BlocksKit.m</innerfile>
+    <innerfile refid="_n_s_object_09_b_k_associated_objects_8h">NSObject+BKAssociatedObjects.h</innerfile>
+    <innerfile refid="_n_s_object_09_b_k_associated_objects_8m">NSObject+BKAssociatedObjects.m</innerfile>
+    <innerfile refid="_n_s_object_09_b_k_block_execution_8h">NSObject+BKBlockExecution.h</innerfile>
+    <innerfile refid="_n_s_object_09_b_k_block_execution_8m">NSObject+BKBlockExecution.m</innerfile>
+    <innerfile refid="_n_s_object_09_b_k_block_observation_8h">NSObject+BKBlockObservation.h</innerfile>
+    <innerfile refid="_n_s_object_09_b_k_block_observation_8m">NSObject+BKBlockObservation.m</innerfile>
+    <innerfile refid="_n_s_ordered_set_09_blocks_kit_8h">NSOrderedSet+BlocksKit.h</innerfile>
+    <innerfile refid="_n_s_ordered_set_09_blocks_kit_8m">NSOrderedSet+BlocksKit.m</innerfile>
+    <innerfile refid="_n_s_set_09_blocks_kit_8h">NSSet+BlocksKit.h</innerfile>
+    <innerfile refid="_n_s_set_09_blocks_kit_8m">NSSet+BlocksKit.m</innerfile>
+    <innerfile refid="_n_s_timer_09_blocks_kit_8h">NSTimer+BlocksKit.h</innerfile>
+    <innerfile refid="_n_s_timer_09_blocks_kit_8m">NSTimer+BlocksKit.m</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/"/>
+  </compounddef>
+</doxygen>

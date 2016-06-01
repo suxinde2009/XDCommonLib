@@ -1,0 +1,214 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="class_r_s_swizzle" kind="class" language="Objective-C" prot="public">
+    <compoundname>RSSwizzle</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">NSObject</basecompoundref>
+    <includes refid="_r_s_swizzle_8h" local="no">RSSwizzle.h</includes>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_r_s_swizzle_1a8f7db42449dc17c35a9acb50c39a7e67" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL RSSwizzle::swizzleInstanceMethod:inClass:newImpFactory:mode:key:</definition>
+        <argsstring>(SEL selector,[inClass] Class classToSwizzle,[newImpFactory] RSSwizzleImpFactoryBlock factoryBlock,[mode] RSSwizzleMode mode,[key] const void *key)</argsstring>
+        <name>swizzleInstanceMethod:inClass:newImpFactory:mode:key:</name>
+        <param>
+          <type>SEL</type>
+          <declname>selector</declname>
+        </param>
+        <param>
+          <attributes>[inClass]</attributes>
+          <type>Class</type>
+          <declname>classToSwizzle</declname>
+        </param>
+        <param>
+          <attributes>[newImpFactory]</attributes>
+          <type><ref refid="_r_s_swizzle_8h_1af4b260505f007351f6044e2928fcdbd0" kindref="member">RSSwizzleImpFactoryBlock</ref></type>
+          <declname>factoryBlock</declname>
+        </param>
+        <param>
+          <attributes>[mode]</attributes>
+          <type>RSSwizzleMode</type>
+          <declname>mode</declname>
+        </param>
+        <param>
+          <attributes>[key]</attributes>
+          <type>const void *</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Swizzles the instance method of the class with the new implementation.</para><para>Original implementation must always be called from the new implementation. And because of the the fact that for safe and robust swizzling original implementation must be dynamically fetched at the time of calling and not at the time of swizzling, swizzling API is a little bit complicated.</para><para>You should pass a factory block that returns the block for the new implementation of the swizzled method. And use swizzleInfo argument to retrieve and call original implementation.</para><para>Example for swizzling <computeroutput>-(int)calculate:(int)number;</computeroutput> method:</para><para><programlisting><codeline><highlight class="normal">SEL<sp/>selector<sp/>=<sp/>@selector(calculate:);</highlight></codeline>
+<codeline><highlight class="normal">[RSSwizzle</highlight></codeline>
+<codeline><highlight class="normal"><sp/>swizzleInstanceMethod:selector</highlight></codeline>
+<codeline><highlight class="normal"><sp/>inClass:classToSwizzle</highlight></codeline>
+<codeline><highlight class="normal"><sp/>newImpFactory:^id(RSSWizzleInfo<sp/>*swizzleInfo)<sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>//<sp/>This<sp/>block<sp/>will<sp/>be<sp/>used<sp/>as<sp/>the<sp/>new<sp/>implementation.</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>return<sp/>^int(__unsafe_unretained<sp/>id<sp/>self,<sp/>int<sp/>num){</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>You<sp/>MUST<sp/>always<sp/>cast<sp/>implementation<sp/>to<sp/>the<sp/>correct<sp/>function<sp/>pointer.</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>int<sp/>(*originalIMP)(__unsafe_unretained<sp/>id,<sp/>SEL,<sp/>int);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>originalIMP<sp/>=<sp/>(__typeof(originalIMP))[swizzleInfo<sp/>getOriginalImplementation];</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>Calling<sp/>original<sp/>implementation.</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>int<sp/>res<sp/>=<sp/>originalIMP(self,selector,num);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>Returning<sp/>modified<sp/>return<sp/>value.</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>return<sp/>res<sp/>+<sp/>1;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline><highlight class="normal"><sp/>}</highlight></codeline>
+<codeline><highlight class="normal"><sp/>mode:RSSwizzleModeAlways</highlight></codeline>
+<codeline><highlight class="normal"><sp/>key:NULL];</highlight></codeline>
+</programlisting></para><para>Swizzling frequently goes along with checking whether this particular class (or one of its superclasses) has been already swizzled. Here the <computeroutput>mode</computeroutput> and <computeroutput>key</computeroutput> parameters can help.</para><para>Here is an example of swizzling <computeroutput>-(void)dealloc;</computeroutput> only in case when neither class and no one of its superclasses has been already swizzled with our key. However &quot;Deallocating ...&quot; message still may be logged multiple times per method call if swizzling was called primarily for an inherited class and later for one of its superclasses.</para><para><programlisting><codeline><highlight class="normal">static<sp/>const<sp/>void<sp/>*key<sp/>=<sp/>&amp;key;</highlight></codeline>
+<codeline><highlight class="normal">SEL<sp/>selector<sp/>=<sp/>NSSelectorFromString(@&quot;dealloc&quot;);</highlight></codeline>
+<codeline><highlight class="normal">[RSSwizzle</highlight></codeline>
+<codeline><highlight class="normal"><sp/>swizzleInstanceMethod:selector</highlight></codeline>
+<codeline><highlight class="normal"><sp/>inClass:classToSwizzle</highlight></codeline>
+<codeline><highlight class="normal"><sp/>newImpFactory:^id(RSSWizzleInfo<sp/>*swizzleInfo)<sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>return<sp/>^void(__unsafe_unretained<sp/>id<sp/>self){</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NSLog(@&quot;Deallocating<sp/>%@.&quot;,self);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>void<sp/>(*originalIMP)(__unsafe_unretained<sp/>id,<sp/>SEL);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>originalIMP<sp/>=<sp/>(__typeof(originalIMP))[swizzleInfo<sp/>getOriginalImplementation];</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>originalIMP(self,selector);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline><highlight class="normal"><sp/>}</highlight></codeline>
+<codeline><highlight class="normal"><sp/>mode:RSSwizzleModeOncePerClassAndSuperclasses</highlight></codeline>
+<codeline><highlight class="normal"><sp/>key:key];</highlight></codeline>
+</programlisting></para><para>Swizzling is fully thread-safe.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>selector</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Selector of the method that should be swizzled.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>classToSwizzle</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The class with the method that should be swizzled.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>factoryBlock</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The factory block returning the block for the new implementation of the swizzled method.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>mode</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The mode is used in combination with the key to indicate whether the swizzling should be done for the given class.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The key is used in combination with the mode to indicate whether the swizzling should be done for the given class. May be NULL if the mode is RSSwizzleModeAlways.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>YES if successfully swizzled and NO if swizzling has been already done for given key and class (or one of superclasses, depends on the mode). </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/RSSwizzle/RSSwizzle.h" line="156" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/RSSwizzle/RSSwizzle.m" bodystart="272" bodyend="308"/>
+      </memberdef>
+      <memberdef kind="function" id="class_r_s_swizzle_1a9b950b9b185d330cb828e738f080e52b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void RSSwizzle::swizzleClassMethod:inClass:newImpFactory:</definition>
+        <argsstring>(SEL selector,[inClass] Class classToSwizzle,[newImpFactory] RSSwizzleImpFactoryBlock factoryBlock)</argsstring>
+        <name>swizzleClassMethod:inClass:newImpFactory:</name>
+        <param>
+          <type>SEL</type>
+          <declname>selector</declname>
+        </param>
+        <param>
+          <attributes>[inClass]</attributes>
+          <type>Class</type>
+          <declname>classToSwizzle</declname>
+        </param>
+        <param>
+          <attributes>[newImpFactory]</attributes>
+          <type><ref refid="_r_s_swizzle_8h_1af4b260505f007351f6044e2928fcdbd0" kindref="member">RSSwizzleImpFactoryBlock</ref></type>
+          <declname>factoryBlock</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Swizzles the class method of the class with the new implementation.</para><para>Original implementation must always be called from the new implementation. And because of the the fact that for safe and robust swizzling original implementation must be dynamically fetched at the time of calling and not at the time of swizzling, swizzling API is a little bit complicated.</para><para>You should pass a factory block that returns the block for the new implementation of the swizzled method. And use swizzleInfo argument to retrieve and call original implementation.</para><para>Example for swizzling <computeroutput>+(int)calculate:(int)number;</computeroutput> method:</para><para><programlisting><codeline><highlight class="normal">SEL<sp/>selector<sp/>=<sp/>@selector(calculate:);</highlight></codeline>
+<codeline><highlight class="normal">[RSSwizzle</highlight></codeline>
+<codeline><highlight class="normal"><sp/>swizzleClassMethod:selector</highlight></codeline>
+<codeline><highlight class="normal"><sp/>inClass:classToSwizzle</highlight></codeline>
+<codeline><highlight class="normal"><sp/>newImpFactory:^id(RSSWizzleInfo<sp/>*swizzleInfo)<sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>//<sp/>This<sp/>block<sp/>will<sp/>be<sp/>used<sp/>as<sp/>the<sp/>new<sp/>implementation.</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>return<sp/>^int(__unsafe_unretained<sp/>id<sp/>self,<sp/>int<sp/>num){</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>You<sp/>MUST<sp/>always<sp/>cast<sp/>implementation<sp/>to<sp/>the<sp/>correct<sp/>function<sp/>pointer.</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>int<sp/>(*originalIMP)(__unsafe_unretained<sp/>id,<sp/>SEL,<sp/>int);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>originalIMP<sp/>=<sp/>(__typeof(originalIMP))[swizzleInfo<sp/>getOriginalImplementation];</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>Calling<sp/>original<sp/>implementation.</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>int<sp/>res<sp/>=<sp/>originalIMP(self,selector,num);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>Returning<sp/>modified<sp/>return<sp/>value.</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>return<sp/>res<sp/>+<sp/>1;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline><highlight class="normal"><sp/>}];</highlight></codeline>
+</programlisting></para><para>Swizzling is fully thread-safe.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>selector</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Selector of the method that should be swizzled.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>classToSwizzle</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The class with the method that should be swizzled.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>factoryBlock</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The factory block returning the block for the new implementation of the swizzled method. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/RSSwizzle/RSSwizzle.h" line="156" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/RSSwizzle/RSSwizzle.m" bodystart="310" bodyend="319"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="696">
+        <label>RSSwizzle</label>
+        <link refid="class_r_s_swizzle"/>
+        <childnode refid="697" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="697">
+        <label>NSObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="698">
+        <label>RSSwizzle</label>
+        <link refid="class_r_s_swizzle"/>
+        <childnode refid="699" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="699">
+        <label>NSObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/RSSwizzle/RSSwizzle.m" line="182" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/RSSwizzle/RSSwizzle.m" bodystart="182" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="class_r_s_swizzle_1a9b950b9b185d330cb828e738f080e52b" prot="public" virt="virtual"><scope>RSSwizzle</scope><name>swizzleClassMethod:inClass:newImpFactory:</name></member>
+      <member refid="class_r_s_swizzle_1a8f7db42449dc17c35a9acb50c39a7e67" prot="public" virt="virtual"><scope>RSSwizzle</scope><name>swizzleInstanceMethod:inClass:newImpFactory:mode:key:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

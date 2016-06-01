@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_u_i_web_view_09_alert_8m" kind="file" language="Objective-C">
+    <compoundname>UIWebView+Alert.m</compoundname>
+    <includes refid="_u_i_web_view_09_alert_8h" local="yes">UIWebView+Alert.h</includes>
+    <incdepgraph>
+      <node id="2221">
+        <label>UIKit/UIKit.h</label>
+      </node>
+      <node id="2220">
+        <label>UIWebView+Alert.h</label>
+        <link refid="_u_i_web_view_09_alert_8h"/>
+        <childnode refid="2221" relation="include">
+        </childnode>
+      </node>
+      <node id="2219">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIWebView/UIWebView+Alert.m</label>
+        <link refid="UIWebView+Alert.m"/>
+        <childnode refid="2220" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="_u_i_web_view_09_alert_8m_1acf59985c513aaa11fc991cdd33db7bff" prot="public" static="yes" mutable="no">
+        <type>BOOL</type>
+        <definition>BOOL diagStat</definition>
+        <argsstring></argsstring>
+        <name>diagStat</name>
+        <initializer>= NO</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIWebView/UIWebView+Alert.m" line="13" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIWebView/UIWebView+Alert.m" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>WebView+Alert.m</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>AlertProject</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Peter.Kang<sp/>on<sp/>14-1-23.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2014年<sp/>Peter.Kang.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_u_i_web_view_09_alert_8h" kindref="compound">UIWebView+Alert.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="category_u_i_web_view_07_java_script_alert_08" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">@implementation<sp/></highlight><highlight class="normal"><ref refid="category_u_i_web_view_07_java_script_alert_08" kindref="compound">UIWebView (JavaScriptAlert)</ref></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>BOOL<sp/>diagStat<sp/>=<sp/>NO;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="category_u_i_web_view_07_java_script_alert_08_1a19a4f18ec6a554e5e56c69ded9873d27" refkind="member"><highlight class="normal">-(void)webView:(UIWebView<sp/>*)sender<sp/>runJavaScriptAlertPanelWithMessage:(NSString<sp/>*)message<sp/>initiatedByFrame:(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)frame{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>UIAlertView*<sp/>dialogue<sp/>=<sp/>[[UIAlertView<sp/>alloc]initWithTitle:nil<sp/>message:message<sp/>delegate:nil<sp/>cancelButtonTitle:@&quot;Okay&quot;<sp/>otherButtonTitles:nil,<sp/>nil];</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>[dialogue<sp/>show];;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="category_u_i_web_view_07_java_script_alert_08_1a5413538c4c6ee308ecddf3a11421843b" refkind="member"><highlight class="normal">-(BOOL)webView:(UIWebView<sp/>*)sender<sp/>runJavaScriptConfirmPanelWithMessage:(NSString<sp/>*)message<sp/>initiatedByFrame:(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)frame{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>UIAlertView*<sp/>dialogue<sp/>=<sp/>[[UIAlertView<sp/>alloc]<sp/>initWithTitle:nil<sp/>message:message<sp/>delegate:self<sp/>cancelButtonTitle:NSLocalizedString(@&quot;Okay&quot;,<sp/>@&quot;Okay&quot;)<sp/>otherButtonTitles:NSLocalizedString(@&quot;Cancel&quot;,<sp/>@&quot;Cancel&quot;),<sp/>nil];</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>[dialogue<sp/>show];</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(dialogue.hidden==NO<sp/>&amp;&amp;<sp/>dialogue.superview!=nil)<sp/>{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[[NSRunLoop<sp/>mainRunLoop]<sp/>runUntilDate:[NSDate<sp/>dateWithTimeIntervalSinceNow:0.01f]];</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>diagStat;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal">-(void)alertView:(UIAlertView<sp/>*)alertView<sp/>clickedButtonAtIndex:(NSInteger)buttonIndex{</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(buttonIndex==0)<sp/>{</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>diagStat=YES;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(buttonIndex==1){</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>diagStat=NO;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="36"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIWebView/UIWebView+Alert.m"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_u_i_view_controller_09_visible_8m" kind="file" language="Objective-C">
+    <compoundname>UIViewController+Visible.m</compoundname>
+    <includes refid="_u_i_view_controller_09_visible_8h" local="yes">UIViewController+Visible.h</includes>
+    <incdepgraph>
+      <node id="2213">
+        <label>UIKit/UIKit.h</label>
+      </node>
+      <node id="2212">
+        <label>UIViewController+Visible.h</label>
+        <link refid="_u_i_view_controller_09_visible_8h"/>
+        <childnode refid="2213" relation="include">
+        </childnode>
+      </node>
+      <node id="2211">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+Visible.m</label>
+        <link refid="UIViewController+Visible.m"/>
+        <childnode refid="2212" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>UIViewController+Visible.m</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>iOS-Categories<sp/>(https://github.com/shaojiankui/iOS-Categories)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Jakey<sp/>on<sp/>14/12/15.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2014年<sp/>www.skyfox.org.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_u_i_view_controller_09_visible_8h" kindref="compound">UIViewController+Visible.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="category_u_i_view_controller_07_visible_08" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">@implementation<sp/></highlight><highlight class="normal"><ref refid="category_u_i_view_controller_07_visible_08" kindref="compound">UIViewController (Visible)</ref></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="category_u_i_view_controller_07_visible_08_1a83bb3c214db5de5cd834d2bc1e87a083" refkind="member"><highlight class="normal">-<sp/>(BOOL)<ref refid="category_u_i_view_controller_07_visible_08_1a83bb3c214db5de5cd834d2bc1e87a083" kindref="member">isVisible</ref><sp/>{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>isViewLoaded]<sp/>&amp;&amp;<sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.view.window;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+Visible.m"/>
+  </compounddef>
+</doxygen>

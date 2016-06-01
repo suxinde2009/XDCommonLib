@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_n_s_string_07_u_u_i_d_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>NSString(UUID)</compoundname>
+    <includes refid="_n_s_string_09_u_u_i_d_8h" local="no">NSString+UUID.h</includes>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="category_n_s_string_07_u_u_i_d_08_1af5cad6464c38a8f1e46a431b5bf6c591" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * NSString(UUID)::UUID</definition>
+        <argsstring>()</argsstring>
+        <name>UUID</name>
+        <briefdescription>
+<para>获取随机 UUID 例如 E621E1F8-C36C-495A-93FC-0C247A3E6E5F </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>随机 UUID </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+UUID.h" line="16" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+UUID.m" bodystart="17" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_string_07_u_u_i_d_08_1ade01601ba5838712bc236bb1a102d7c5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * NSString(UUID)::UUIDTimestamp</definition>
+        <argsstring>()</argsstring>
+        <name>UUIDTimestamp</name>
+        <briefdescription>
+<para>毫秒时间戳 例如 1443066826371 </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>毫秒时间戳 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+UUID.h" line="16" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+UUID.m" bodystart="37" bodyend="40"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+UUID.m" line="11" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+UUID.m" bodystart="11" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_n_s_string_07_u_u_i_d_08_1af5cad6464c38a8f1e46a431b5bf6c591" prot="public" virt="virtual"><scope>NSString(UUID)</scope><name>UUID</name></member>
+      <member refid="category_n_s_string_07_u_u_i_d_08_1ade01601ba5838712bc236bb1a102d7c5" prot="public" virt="virtual"><scope>NSString(UUID)</scope><name>UUIDTimestamp</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

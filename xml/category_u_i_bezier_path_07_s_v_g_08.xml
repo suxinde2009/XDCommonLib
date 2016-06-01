@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_u_i_bezier_path_07_s_v_g_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>UIBezierPath(SVG)</compoundname>
+    <includes refid="_u_i_bezier_path_09_s_v_g_8h" local="no">UIBezierPath+SVG.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="category_u_i_bezier_path_07_s_v_g_08_1ae1754e242b490655c75848e8b165b2cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString* UIBezierPath(SVG)::toSVGString</definition>
+        <argsstring>()</argsstring>
+        <name>toSVGString</name>
+        <briefdescription>
+<para>UIBezierPath转成SVG. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>SVG </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIBezierPath/UIBezierPath+SVG.h" line="40" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIBezierPath/UIBezierPath+SVG.h" line="11" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIBezierPath/UIBezierPath+SVG.h" bodystart="11" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_u_i_bezier_path_07_s_v_g_08_1ae1754e242b490655c75848e8b165b2cd" prot="public" virt="virtual"><scope>UIBezierPath(SVG)</scope><name>toSVGString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

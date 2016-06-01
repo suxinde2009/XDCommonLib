@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_n_s_string_07_u_q___u_r_l_query_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>NSString(UQ_URLQuery)</compoundname>
+    <includes refid="_n_s_u_r_l_09_query_dictionary_8h" local="no">NSURL+QueryDictionary.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="category_n_s_string_07_u_q___u_r_l_query_08_1a5c118a49f125473df2b5b80b287679a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSDictionary *</type>
+        <definition>NSDictionary* NSString(UQ_URLQuery)::uq_URLQueryDictionary</definition>
+        <argsstring>()</argsstring>
+        <name>uq_URLQueryDictionary</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>If the receiver is a valid URL query component, returns components as key/value pairs. If couldn&apos;t split into <emphasis>any</emphasis> pairs, returns nil. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSURL/NSURL+QueryDictionary.h" line="11" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSURL/NSURL+QueryDictionary.h" line="51" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSURL/NSURL+QueryDictionary.h" bodystart="51" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_n_s_string_07_u_q___u_r_l_query_08_1a5c118a49f125473df2b5b80b287679a2" prot="public" virt="virtual"><scope>NSString(UQ_URLQuery)</scope><name>uq_URLQueryDictionary</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

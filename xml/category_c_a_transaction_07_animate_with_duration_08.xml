@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_c_a_transaction_07_animate_with_duration_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>CATransaction(AnimateWithDuration)</compoundname>
+    <includes refid="_c_a_transaction_09_animate_with_duration_8h" local="no">CATransaction+AnimateWithDuration.h</includes>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="category_c_a_transaction_07_animate_with_duration_08_1a79f5848a409d4719df48e5ccd341566c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void CATransaction(AnimateWithDuration)::dt_animateWithDuration:animations:completion:</definition>
+        <argsstring>(NSTimeInterval duration,[animations] nullable void(^animations)(void),[completion] nullable void(^completion)())</argsstring>
+        <name>dt_animateWithDuration:animations:completion:</name>
+        <param>
+          <type>NSTimeInterval</type>
+          <declname>duration</declname>
+        </param>
+        <param>
+          <attributes>[animations]</attributes>
+          <type><ref refid="_b_k_defines_8h_1a02648067ad66739ed70a10195891098a" kindref="member">nullable</ref> void(^)(void)</type>
+          <declname>animations</declname>
+        </param>
+        <param>
+          <attributes>[completion]</attributes>
+          <type><ref refid="_b_k_defines_8h_1a02648067ad66739ed70a10195891098a" kindref="member">nullable</ref> void(^)()</type>
+          <declname>completion</declname>
+        </param>
+        <briefdescription>
+<para>CATransaction 动画执 block回调 </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="author"><para>Denys Telezhkin</para></simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>duration</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>动画时间 </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>animations</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>动画块 </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>completion</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>动画结束回调 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/QuartzCore/CATransaction/CATransaction+AnimateWithDuration.h" line="16" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/QuartzCore/CATransaction/CATransaction+AnimateWithDuration.m" line="11" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/QuartzCore/CATransaction/CATransaction+AnimateWithDuration.m" bodystart="11" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_c_a_transaction_07_animate_with_duration_08_1a79f5848a409d4719df48e5ccd341566c" prot="public" virt="virtual"><scope>CATransaction(AnimateWithDuration)</scope><name>dt_animateWithDuration:animations:completion:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

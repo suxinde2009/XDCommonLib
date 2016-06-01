@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_n_s_number_09_round_8m" kind="file" language="Objective-C">
+    <compoundname>NSNumber+Round.m</compoundname>
+    <includes refid="_n_s_number_09_round_8h" local="yes">NSNumber+Round.h</includes>
+    <incdepgraph>
+      <node id="619">
+        <label>NSNumber+Round.h</label>
+        <link refid="_n_s_number_09_round_8h"/>
+        <childnode refid="620" relation="include">
+        </childnode>
+      </node>
+      <node id="618">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSNumber/NSNumber+Round.m</label>
+        <link refid="NSNumber+Round.m"/>
+        <childnode refid="619" relation="include">
+        </childnode>
+      </node>
+      <node id="620">
+        <label>Foundation/Foundation.h</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>NSNumber+Round.m</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>iOS-Categories<sp/>(https://github.com/shaojiankui/iOS-Categories)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Jakey<sp/>on<sp/>15/5/23.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2015年<sp/>www.skyfox.org.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_n_s_number_09_round_8h" kindref="compound">NSNumber+Round.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="category_n_s_number_07_round_08" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">@implementation<sp/></highlight><highlight class="normal"><ref refid="category_n_s_number_07_round_08" kindref="compound">NSNumber (Round)</ref></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/>-<sp/>Display</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="category_n_s_number_07_round_08_1a5441ac47c1821af094b0f8ee6abcf638" refkind="member"><highlight class="normal">-<sp/>(NSString*)toDisplayNumberWithDigit:(NSInteger)digit</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>NSString<sp/>*result<sp/>=<sp/>nil;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>NSNumberFormatter<sp/>*formatter<sp/>=<sp/>[[NSNumberFormatter<sp/>alloc]<sp/>init];</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>[formatter<sp/>setNumberStyle:NSNumberFormatterDecimalStyle];</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>[formatter<sp/>setRoundingMode:NSNumberFormatterRoundHalfUp];</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>[formatter<sp/>setMaximumFractionDigits:digit];</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>result<sp/>=<sp/>[formatter<sp/><sp/>stringFromNumber:self];</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(result<sp/>==<sp/>nil)</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">@&quot;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>result;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="25"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27" refid="category_n_s_number_07_round_08_1a1793f87495bf60ef8cf0be33ff729f3f" refkind="member"><highlight class="normal">-<sp/>(NSString*)toDisplayPercentageWithDigit:(NSInteger)digit</highlight></codeline>
+<codeline lineno="28"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>NSString<sp/>*result<sp/>=<sp/>nil;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>NSNumberFormatter<sp/>*formatter<sp/>=<sp/>[[NSNumberFormatter<sp/>alloc]<sp/>init];</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>[formatter<sp/>setNumberStyle:NSNumberFormatterPercentStyle];</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>[formatter<sp/>setRoundingMode:NSNumberFormatterRoundHalfUp];</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>[formatter<sp/>setMaximumFractionDigits:digit];</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//NSLog(@&quot;percentage<sp/>target:%@<sp/>result:%@&quot;,number,[formatter<sp/><sp/>stringFromNumber:number]);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>result<sp/>=<sp/>[formatter<sp/><sp/>stringFromNumber:self];</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>result;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/>-<sp/>ceil<sp/>,<sp/>round,<sp/>floor</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="category_n_s_number_07_round_08_1a948acafe898fa335dbe2a5a0170b32e1" refkind="member"><highlight class="normal">-<sp/>(NSNumber*)doRoundWithDigit:(NSUInteger)digit</highlight></codeline>
+<codeline lineno="48"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>NSNumber<sp/>*result<sp/>=<sp/>nil;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>NSNumberFormatter<sp/>*formatter<sp/>=<sp/>[[NSNumberFormatter<sp/>alloc]<sp/>init];</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>[formatter<sp/>setRoundingMode:NSNumberFormatterRoundHalfUp];</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>[formatter<sp/>setMaximumFractionDigits:digit];</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/>[formatter<sp/>setMinimumFractionDigits:digit];</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//NSLog(@&quot;round<sp/>target:%@<sp/>result:%@&quot;,number,[formatter<sp/><sp/>stringFromNumber:number]);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/>result<sp/>=<sp/>[NSNumber<sp/>numberWithDouble:[[formatter<sp/><sp/>stringFromNumber:self]<sp/>doubleValue]];</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>result;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="65" refid="category_n_s_number_07_round_08_1ae5eea9af0a61697527508b3b2d0566e5" refkind="member"><highlight class="normal">-<sp/>(NSNumber*)doCeilWithDigit:(NSUInteger)digit</highlight></codeline>
+<codeline lineno="66"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>NSNumber<sp/>*result<sp/>=<sp/>nil;</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/>NSNumberFormatter<sp/>*formatter<sp/>=<sp/>[[NSNumberFormatter<sp/>alloc]<sp/>init];</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/>[formatter<sp/>setRoundingMode:NSNumberFormatterRoundCeiling];</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>[formatter<sp/>setMaximumFractionDigits:digit];</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//NSLog(@&quot;ceil<sp/>target:%@<sp/>result:%@&quot;,number,[formatter<sp/><sp/>stringFromNumber:number]);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/>result<sp/>=<sp/>[NSNumber<sp/>numberWithDouble:[[formatter<sp/><sp/>stringFromNumber:self]<sp/>doubleValue]];</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>result;</highlight></codeline>
+<codeline lineno="74"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="82" refid="category_n_s_number_07_round_08_1a177268512f86e58162f25c6e054c6e1f" refkind="member"><highlight class="normal">-<sp/>(NSNumber*)doFloorWithDigit:(NSUInteger)digit</highlight></codeline>
+<codeline lineno="83"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/>NSNumber<sp/>*result<sp/>=<sp/>nil;</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/>NSNumberFormatter<sp/>*formatter<sp/>=<sp/>[[NSNumberFormatter<sp/>alloc]<sp/>init];</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/>[formatter<sp/>setRoundingMode:NSNumberFormatterRoundFloor];</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/>[formatter<sp/>setMaximumFractionDigits:digit];</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/>result<sp/>=<sp/>[NSNumber<sp/>numberWithDouble:[[formatter<sp/><sp/>stringFromNumber:self]<sp/>doubleValue]];</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//NSLog(@&quot;prev:%@,<sp/>result:%@&quot;,number,<sp/>result);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>result;</highlight></codeline>
+<codeline lineno="91"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSNumber/NSNumber+Round.m"/>
+  </compounddef>
+</doxygen>

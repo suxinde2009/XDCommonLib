@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_u_i_view_09_nib_8h" kind="file" language="C++">
+    <compoundname>UIView+Nib.h</compoundname>
+    <includes local="no">UIKit/UIKit.h</includes>
+    <includes local="no">QuartzCore/QuartzCore.h</includes>
+    <includedby refid="_u_i_view_09_nib_8m" local="yes">XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Nib.m</includedby>
+    <incdepgraph>
+      <node id="2021">
+        <label>UIKit/UIKit.h</label>
+      </node>
+      <node id="2020">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Nib.h</label>
+        <link refid="UIView+Nib.h"/>
+        <childnode refid="2021" relation="include">
+        </childnode>
+        <childnode refid="2022" relation="include">
+        </childnode>
+      </node>
+      <node id="2022">
+        <label>QuartzCore/QuartzCore.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2023">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Nib.h</label>
+        <link refid="UIView+Nib.h"/>
+        <childnode refid="2024" relation="include">
+        </childnode>
+      </node>
+      <node id="2024">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Nib.m</label>
+        <link refid="_u_i_view_09_nib_8m"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="category_u_i_view_07_nib_08" prot="public">UIView(Nib)</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>UIView+Nib.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>iOS-Categories<sp/>(https://github.com/shaojiankui/iOS-Categories)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Jakey<sp/>on<sp/>14/12/15.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2014年<sp/>www.skyfox.org.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;UIKit/UIKit.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;QuartzCore/QuartzCore.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="category_u_i_view_07_nib_08" kindref="compound">UIView (Nib)</ref></highlight></codeline>
+<codeline lineno="13"><highlight class="normal">+<sp/>(UINib<sp/>*)<ref refid="category_u_i_view_07_nib_08_1a33f7735eeb54ee1aa86b067eb5fe4f5f" kindref="member">loadNib</ref>;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">+<sp/>(UINib<sp/>*)loadNibNamed:(NSString*)nibName;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal">+<sp/>(UINib<sp/>*)loadNibNamed:(NSString*)nibName<sp/>bundle:(NSBundle<sp/>*)bundle;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">+<sp/>(instancetype)<ref refid="category_u_i_view_07_nib_08_1abc8637b4bd379b3fd6b4cec112a91c6c" kindref="member">loadInstanceFromNib</ref>;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal">+<sp/>(instancetype)loadInstanceFromNibWithName:(NSString<sp/>*)nibName;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal">+<sp/>(instancetype)loadInstanceFromNibWithName:(NSString<sp/>*)nibName<sp/>owner:(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)owner;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal">+<sp/>(instancetype)loadInstanceFromNibWithName:(NSString<sp/>*)nibName<sp/>owner:(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)owner<sp/>bundle:(NSBundle<sp/>*)bundle;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Nib.h"/>
+  </compounddef>
+</doxygen>

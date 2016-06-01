@@ -1,0 +1,184 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_x_d_debug_8h" kind="file" language="C++">
+    <compoundname>XDDebug.h</compoundname>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="_x_d_debug_8h_1a5993408d0865e9449fa8d27b2eb04f89" prot="public" static="no">
+        <name>NSLogD</name>
+        <param><defname>format</defname></param>
+        <param><defname>...</defname></param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Debug/XDDebug.h" line="26" column="13" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Debug/XDDebug.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_x_d_debug_8h_1aaead59acd63574e0f871c0fcdc4b3c4b" prot="public" static="no">
+        <name>NSLogDD</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Debug/XDDebug.h" line="27" column="13" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Debug/XDDebug.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_x_d_debug_8h_1a7f8a5eb5587f4e741bad4caa99053ce0" prot="public" static="no">
+        <name>NSLogDSelf</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Debug/XDDebug.h" line="28" column="13" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Debug/XDDebug.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_x_d_debug_8h_1a1874178a1dc7e563d76ef04ce065466d" prot="public" static="no">
+        <name>STRINGIFY</name>
+        <param><defname>S</defname></param>
+        <initializer>#S</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Debug/XDDebug.h" line="44" column="9" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Debug/XDDebug.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_x_d_debug_8h_1af7020ec7921cbf2109861677c02eb424" prot="public" static="no">
+        <name>DEFER_STRINGIFY</name>
+        <param><defname>S</defname></param>
+        <initializer><ref refid="_x_d_debug_8h_1a1874178a1dc7e563d76ef04ce065466d" kindref="member">STRINGIFY</ref>(S)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Debug/XDDebug.h" line="46" column="9" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Debug/XDDebug.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_x_d_debug_8h_1af102e31d5211599e4b5bf3ec461b1b39" prot="public" static="no">
+        <name>PRAGMA_MESSAGE</name>
+        <param><defname>MSG</defname></param>
+        <initializer>_Pragma(<ref refid="_x_d_debug_8h_1a1874178a1dc7e563d76ef04ce065466d" kindref="member">STRINGIFY</ref>(<ref refid="_n_s_object_09_a2_block_delegate_8m_1a19dd2af25ac6d5ede1801fd092465656" kindref="member">message</ref>(MSG)))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Debug/XDDebug.h" line="48" column="9" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Debug/XDDebug.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_x_d_debug_8h_1a31662f4eb9f3c47052a65c78626a4cfd" prot="public" static="no">
+        <name>FORMATTED_MESSAGE</name>
+        <param><defname>MSG</defname></param>
+        <initializer>&quot;[TODO-&quot; DEFER_STRINGIFY(__COUNTER__) &quot;] &quot; MSG &quot; \n&quot; DEFER_STRINGIFY(__FILE__) &quot; line &quot; DEFER_STRINGIFY(__LINE__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Debug/XDDebug.h" line="51" column="9" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Debug/XDDebug.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_x_d_debug_8h_1a560c92046c77279157f206d79fff9de7" prot="public" static="no">
+        <name>KEYWORDIFY</name>
+        <initializer>try {} @catch (...) {}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Debug/XDDebug.h" line="54" column="9" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Debug/XDDebug.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_x_d_debug_8h_1a305dda05bcabe81af734f7cc6ea16e84" prot="public" static="no">
+        <name>TODO</name>
+        <param><defname>MSG</defname></param>
+        <initializer><ref refid="_x_d_debug_8h_1a560c92046c77279157f206d79fff9de7" kindref="member">KEYWORDIFY</ref> <ref refid="_x_d_debug_8h_1af102e31d5211599e4b5bf3ec461b1b39" kindref="member">PRAGMA_MESSAGE</ref>(<ref refid="_x_d_debug_8h_1a31662f4eb9f3c47052a65c78626a4cfd" kindref="member">FORMATTED_MESSAGE</ref>(MSG))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Debug/XDDebug.h" line="57" column="9" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Debug/XDDebug.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>XDDebug.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>XDCommonLib</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>su<sp/>xinde<sp/>on<sp/>15/5/5.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2015年<sp/>su<sp/>xinde.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>XDCommonLib_XDDebug_h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XDCommonLib_XDDebug_h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>说明<sp/>仅在debug模式下才显示nslog</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>(1<sp/>==<sp/>__XDDEBUG__)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#undef<sp/><sp/>NSLogD</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#undef<sp/><sp/>NSLogDD</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>NSLogD(fmt,<sp/>...)<sp/>{NSLog((@&quot;%s<sp/>[Line<sp/>%d]<sp/>DEBUG:<sp/>\n&quot;<sp/>fmt),<sp/>__PRETTY_FUNCTION__,<sp/>__LINE__,<sp/>##__VA_ARGS__);}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>NSLogDD<sp/>NSLogD(@&quot;%@&quot;,<sp/>@&quot;&quot;);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>NSLogDSelf<sp/>NSLogD(@&quot;Class:<sp/>%@&quot;,<sp/>NSStringFromClass([self<sp/>class]));</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="_x_d_debug_8h_1a5993408d0865e9449fa8d27b2eb04f89" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>NSLogD(format,<sp/>...)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27" refid="_x_d_debug_8h_1aaead59acd63574e0f871c0fcdc4b3c4b" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>NSLogDD</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28" refid="_x_d_debug_8h_1a7f8a5eb5587f4e741bad4caa99053ce0" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>NSLogDSelf</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="comment">//<sp/>-----------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="comment">//<sp/>TODO<sp/>宏定义</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="comment">//<sp/>http://blog.sunnyxx.com/2015/03/01/todo-macro/#rd</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="comment">//<sp/>https://github.com/sunnyxx/TodoMacro</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="comment">//<sp/>http://stackoverflow.com/questions/18252351/custom-preprocessor-macro-for-a-conditional-pragma-message-xxx</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="comment">//<sp/>-----------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="comment">//<sp/>转成字符串</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44" refid="_x_d_debug_8h_1a1874178a1dc7e563d76ef04ce065466d" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>STRINGIFY(S)<sp/>#S</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="comment">//<sp/>需要解两次才解开的宏</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46" refid="_x_d_debug_8h_1af7020ec7921cbf2109861677c02eb424" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DEFER_STRINGIFY(S)<sp/>STRINGIFY(S)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48" refid="_x_d_debug_8h_1af102e31d5211599e4b5bf3ec461b1b39" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PRAGMA_MESSAGE(MSG)<sp/>_Pragma(STRINGIFY(message(MSG)))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight><highlight class="comment">//<sp/>为warning增加更多信息</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51" refid="_x_d_debug_8h_1a31662f4eb9f3c47052a65c78626a4cfd" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FORMATTED_MESSAGE(MSG)<sp/>&quot;[TODO-&quot;<sp/>DEFER_STRINGIFY(__COUNTER__)<sp/>&quot;]<sp/>&quot;<sp/>MSG<sp/>&quot;<sp/>\n&quot;<sp/>DEFER_STRINGIFY(__FILE__)<sp/>&quot;<sp/>line<sp/>&quot;<sp/>DEFER_STRINGIFY(__LINE__)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight><highlight class="comment">//<sp/>使宏前面可以加@</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54" refid="_x_d_debug_8h_1a560c92046c77279157f206d79fff9de7" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>KEYWORDIFY<sp/>try<sp/>{}<sp/>@catch<sp/>(...)<sp/>{}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight><highlight class="comment">//<sp/>最终使用的宏</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57" refid="_x_d_debug_8h_1a305dda05bcabe81af734f7cc6ea16e84" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>TODO(MSG)<sp/>KEYWORDIFY<sp/>PRAGMA_MESSAGE(FORMATTED_MESSAGE(MSG))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight><highlight class="comment">//<sp/>-----------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight><highlight class="comment">//<sp/>pragma-message.c</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight><highlight class="comment">//<sp/>https://llvm.org/svn/llvm-project/cfe/trunk/test/Lexer/pragma-message.c</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Test<sp/>pragma<sp/>message<sp/>directive<sp/>from</highlight></codeline>
+<codeline lineno="65"><highlight class="comment"><sp/>http://msdn.microsoft.com/en-us/library/x7dkzch2.aspx<sp/>*/</highlight></codeline>
+<codeline lineno="99"><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Debug/XDDebug.h"/>
+  </compounddef>
+</doxygen>

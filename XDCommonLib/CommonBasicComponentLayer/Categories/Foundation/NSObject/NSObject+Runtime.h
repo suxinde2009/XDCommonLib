@@ -8,6 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
+/**
+ *  @brief Runtime工具方法
+ */
+
 @interface NSObject (Runtime)
 
 /**

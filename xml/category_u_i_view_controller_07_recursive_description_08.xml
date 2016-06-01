@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_u_i_view_controller_07_recursive_description_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>UIViewController(RecursiveDescription)</compoundname>
+    <includes refid="_u_i_view_controller_09_recursive_description_8h" local="no">UIViewController+RecursiveDescription.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="category_u_i_view_controller_07_recursive_description_08_1a33d98b431c5bd82f8a47a585c084ea9d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * UIViewController(RecursiveDescription)::recursiveDescription</definition>
+        <argsstring>()</argsstring>
+        <name>recursiveDescription</name>
+        <briefdescription>
+<para>视图层级 </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>视图层级字符串 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+RecursiveDescription.h" line="28" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+RecursiveDescription.m" bodystart="17" bodyend="28"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+RecursiveDescription.m" line="11" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+RecursiveDescription.m" bodystart="11" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_u_i_view_controller_07_recursive_description_08_1a33d98b431c5bd82f8a47a585c084ea9d" prot="public" virt="virtual"><scope>UIViewController(RecursiveDescription)</scope><name>recursiveDescription</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

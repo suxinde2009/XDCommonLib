@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_u_i_search_bar_09_blocks_8h" kind="file" language="C++">
+    <compoundname>UISearchBar+Blocks.h</compoundname>
+    <includes local="no">UIKit/UIKit.h</includes>
+    <includedby refid="_u_i_search_bar_09_blocks_8m" local="yes">XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UISearchBar/UISearchBar+Blocks.m</includedby>
+    <incdepgraph>
+      <node id="1845">
+        <label>UIKit/UIKit.h</label>
+      </node>
+      <node id="1844">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UISearchBar/UISearchBar+Blocks.h</label>
+        <link refid="UISearchBar+Blocks.h"/>
+        <childnode refid="1845" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1846">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UISearchBar/UISearchBar+Blocks.h</label>
+        <link refid="UISearchBar+Blocks.h"/>
+        <childnode refid="1847" relation="include">
+        </childnode>
+      </node>
+      <node id="1847">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UISearchBar/UISearchBar+Blocks.m</label>
+        <link refid="_u_i_search_bar_09_blocks_8m"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="category_u_i_search_bar_07_blocks_08" prot="public">UISearchBar(Blocks)</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>UISearchBar+Blocks.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>UISearchBarBlocks</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Håkon<sp/>Bogen<sp/>on<sp/>20.10.13.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2013<sp/>Håkon<sp/>Bogen.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;UIKit/UIKit.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="category_u_i_search_bar_07_blocks_08" kindref="compound">UISearchBar (Blocks)</ref></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(copy,<sp/>nonatomic)<sp/>BOOL<sp/>(^<ref refid="category_u_i_search_bar_07_blocks_08_1a60e3b86d1ec156e09387b35d4d0fee94" kindref="member">completionShouldBeginEditingBlock</ref>)(UISearchBar<sp/>*searchbar);</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(copy,<sp/>nonatomic)<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(^<ref refid="category_u_i_search_bar_07_blocks_08_1a20b01ac6190ccfb82013adfcd55eac70" kindref="member">completionTextDidBeginEditingBlock</ref>)(UISearchBar<sp/>*searchBar);</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(copy,<sp/>nonatomic)<sp/>BOOL<sp/>(^<ref refid="category_u_i_search_bar_07_blocks_08_1a5f96e9d2ed9b2e247d894406164c1beb" kindref="member">completionShouldEndEditingBlock</ref>)(UISearchBar<sp/>*searchBar);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(copy,<sp/>nonatomic)<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(^<ref refid="category_u_i_search_bar_07_blocks_08_1a5eaa78038d002a79401901f73389c045" kindref="member">completionTextDidEndEditingBlock</ref>)(UISearchBar<sp/>*searchBar);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(copy,<sp/>nonatomic)<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(^<ref refid="category_u_i_search_bar_07_blocks_08_1a45059f9d1dbb72460d5344633ed17dc5" kindref="member">completionTextDidChangeBlock</ref>)(UISearchBar<sp/>*searchBar,<sp/>NSString<sp/>*searchText);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(copy,<sp/>nonatomic)<sp/>BOOL<sp/>(^<ref refid="category_u_i_search_bar_07_blocks_08_1a4607c28acbffacd3c51842dd0e2f39d4" kindref="member">completionShouldChangeTextInRangeBlock</ref>)(UISearchBar<sp/>*searchBar,<sp/>NSRange<sp/>range,<sp/>NSString<sp/>*replacementText);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(copy,<sp/>nonatomic)<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(^<ref refid="category_u_i_search_bar_07_blocks_08_1ab275d2a450a2d67371b87646386586e9" kindref="member">completionSearchButtonClickedBlock</ref>)(UISearchBar<sp/>*searchBar);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(copy,<sp/>nonatomic)<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(^<ref refid="category_u_i_search_bar_07_blocks_08_1a81462120b6d3c67c1268450461304028" kindref="member">completionBookmarkButtonClickedBlock</ref>)(UISearchBar<sp/>*searchBar);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(copy,<sp/>nonatomic)<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(^<ref refid="category_u_i_search_bar_07_blocks_08_1aeac017ed11721281949c7d34239382a7" kindref="member">completionCancelButtonClickedBlock</ref>)(UISearchBar<sp/>*searchBar);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(copy,<sp/>nonatomic)<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(^<ref refid="category_u_i_search_bar_07_blocks_08_1a553083e312a659548442f2e969910aca" kindref="member">completionResultsListButtonClickedBlock</ref>)(UISearchBar<sp/>*searchBar);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(copy,<sp/>nonatomic)<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(^<ref refid="category_u_i_search_bar_07_blocks_08_1a8bee6d6d62ff0ae91e1ee4b73f4e0d8c" kindref="member">completionSelectedScopeButtonIndexDidChangeBlock</ref>)(UISearchBar<sp/>*searchBar,<sp/>NSInteger<sp/>selectedScope);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal">-<sp/>(void)setCompletionShouldBeginEditingBlock:(BOOL<sp/>(^)(UISearchBar<sp/>*searchBar))searchBarShouldBeginEditingBlock;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal">-<sp/>(void)setCompletionTextDidBeginEditingBlock:(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(^)(UISearchBar<sp/>*searchBar))searchBarTextDidBeginEditingBlock;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal">-<sp/>(void)setCompletionShouldEndEditingBlock:(BOOL<sp/>(^)(UISearchBar<sp/>*searchBar))searchBarShouldEndEditingBlock;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal">-<sp/>(void)setCompletionTextDidEndEditingBlock:(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(^)(UISearchBar<sp/>*searchBar))searchBarTextDidEndEditingBlock;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal">-<sp/>(void)setCompletionTextDidChangeBlock:(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(^)(UISearchBar<sp/>*searchBar,<sp/>NSString<sp/>*text))searchBarTextDidChangeBlock;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal">-<sp/>(void)setCompletionShouldChangeTextInRangeBlock:(BOOL<sp/>(^)(UISearchBar<sp/>*searchBar,<sp/>NSRange<sp/>range,<sp/>NSString<sp/>*text))searchBarShouldChangeTextInRangeBlock;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">-<sp/>(void)setCompletionSearchButtonClickedBlock:(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(^)(UISearchBar<sp/>*searchBar))searchBarSearchButtonClickedBlock;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal">-<sp/>(void)setCompletionBookmarkButtonClickedBlock:(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(^)(UISearchBar<sp/>*searchBar))searchBarBookmarkButtonClickedBlock;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal">-<sp/>(void)setCompletionCancelButtonClickedBlock:(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(^)(UISearchBar<sp/>*searchBar))searchBarCancelButtonClickedBlock;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal">-<sp/>(void)setCompletionResultsListButtonClickedBlock:(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(^)(UISearchBar<sp/>*searchBar))searchBarResultsListButtonClickedBlock;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal">-<sp/>(void)setCompletionSelectedScopeButtonIndexDidChangeBlock:(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(^)(UISearchBar<sp/>*searchBar,<sp/>NSInteger<sp/>index))searchBarSelectedScopeButtonIndexDidChangeBlock;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UISearchBar/UISearchBar+Blocks.h"/>
+  </compounddef>
+</doxygen>

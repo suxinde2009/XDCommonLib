@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_n_s_bundle_07_app_icon_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>NSBundle(AppIcon)</compoundname>
+    <includes refid="_n_s_bundle_09_app_icon_8h" local="no">NSBundle+AppIcon.h</includes>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="category_n_s_bundle_07_app_icon_08_1a7928cfa507ba2c2962d8f2ee733c785f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * NSBundle(AppIcon)::appIconPath</definition>
+        <argsstring>()</argsstring>
+        <name>appIconPath</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSBundle/NSBundle+AppIcon.h" line="229" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSBundle/NSBundle+AppIcon.m" bodystart="13" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_bundle_07_app_icon_08_1a1dfc66fc85aed26d45729bb48465e84a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>UIImage *</type>
+        <definition>UIImage * NSBundle(AppIcon)::appIcon</definition>
+        <argsstring>()</argsstring>
+        <name>appIcon</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSBundle/NSBundle+AppIcon.h" line="229" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSBundle/NSBundle+AppIcon.m" bodystart="21" bodyend="24"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSBundle/NSBundle+AppIcon.m" line="11" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSBundle/NSBundle+AppIcon.m" bodystart="11" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_n_s_bundle_07_app_icon_08_1a1dfc66fc85aed26d45729bb48465e84a" prot="public" virt="virtual"><scope>NSBundle(AppIcon)</scope><name>appIcon</name></member>
+      <member refid="category_n_s_bundle_07_app_icon_08_1a7928cfa507ba2c2962d8f2ee733c785f" prot="public" virt="virtual"><scope>NSBundle(AppIcon)</scope><name>appIconPath</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,213 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_u_i_label_07_automatic_writing_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>UILabel(AutomaticWriting)</compoundname>
+    <includes refid="_u_i_label_09_automatic_writing_8h" local="no">UILabel+AutomaticWriting.h</includes>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="category_u_i_label_07_automatic_writing_08_1a6d2813a772a7e4cd5d97742b10a630f7" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="strong">
+        <type>NSOperationQueue *</type>
+        <definition>NSOperationQueue * UILabel(AutomaticWriting)::automaticWritingOperationQueue</definition>
+        <argsstring></argsstring>
+        <name>automaticWritingOperationQueue</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UILabel/UILabel+AutomaticWriting.h" line="33" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UILabel/UILabel+AutomaticWriting.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_u_i_label_07_automatic_writing_08_1aaca46895c3c6b0854c82eb42aa0a4e9d" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="assign">
+        <type>UIEdgeInsets</type>
+        <definition>UIEdgeInsets UILabel(AutomaticWriting)::edgeInsets</definition>
+        <argsstring></argsstring>
+        <name>edgeInsets</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UILabel/UILabel+AutomaticWriting.h" line="34" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UILabel/UILabel+AutomaticWriting.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="category_u_i_label_07_automatic_writing_08_1a1e6ccbe6a53398391a21d8a5cb3e621a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UILabel(AutomaticWriting)::setTextWithAutomaticWritingAnimation:</definition>
+        <argsstring>(NSString *text)</argsstring>
+        <name>setTextWithAutomaticWritingAnimation:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>text</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UILabel/UILabel+AutomaticWriting.h" line="34" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UILabel/UILabel+AutomaticWriting.m" bodystart="101" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_label_07_automatic_writing_08_1ab0878de2c20baf74340d3893e39b16bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UILabel(AutomaticWriting)::setText:automaticWritingAnimationWithBlinkingMode:</definition>
+        <argsstring>(NSString *text,[automaticWritingAnimationWithBlinkingMode] UILabelAWBlinkingMode blinkingMode)</argsstring>
+        <name>setText:automaticWritingAnimationWithBlinkingMode:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>text</declname>
+        </param>
+        <param>
+          <attributes>[automaticWritingAnimationWithBlinkingMode]</attributes>
+          <type>UILabelAWBlinkingMode</type>
+          <declname>blinkingMode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UILabel/UILabel+AutomaticWriting.h" line="34" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UILabel/UILabel+AutomaticWriting.m" bodystart="106" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_label_07_automatic_writing_08_1a66394382c4cab857d78a6da2a821a9ef" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UILabel(AutomaticWriting)::setText:automaticWritingAnimationWithDuration:</definition>
+        <argsstring>(NSString *text,[automaticWritingAnimationWithDuration] NSTimeInterval duration)</argsstring>
+        <name>setText:automaticWritingAnimationWithDuration:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>text</declname>
+        </param>
+        <param>
+          <attributes>[automaticWritingAnimationWithDuration]</attributes>
+          <type>NSTimeInterval</type>
+          <declname>duration</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UILabel/UILabel+AutomaticWriting.h" line="34" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UILabel/UILabel+AutomaticWriting.m" bodystart="111" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_label_07_automatic_writing_08_1ac3931bdc28397d5284f4c951c38c6cf8" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UILabel(AutomaticWriting)::setText:automaticWritingAnimationWithDuration:blinkingMode:</definition>
+        <argsstring>(NSString *text,[automaticWritingAnimationWithDuration] NSTimeInterval duration,[blinkingMode] UILabelAWBlinkingMode blinkingMode)</argsstring>
+        <name>setText:automaticWritingAnimationWithDuration:blinkingMode:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>text</declname>
+        </param>
+        <param>
+          <attributes>[automaticWritingAnimationWithDuration]</attributes>
+          <type>NSTimeInterval</type>
+          <declname>duration</declname>
+        </param>
+        <param>
+          <attributes>[blinkingMode]</attributes>
+          <type>UILabelAWBlinkingMode</type>
+          <declname>blinkingMode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UILabel/UILabel+AutomaticWriting.h" line="34" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UILabel/UILabel+AutomaticWriting.m" bodystart="116" bodyend="119"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_label_07_automatic_writing_08_1a8d81813fd7f3167416a4c9719a21563a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UILabel(AutomaticWriting)::setText:automaticWritingAnimationWithDuration:blinkingMode:blinkingCharacter:</definition>
+        <argsstring>(NSString *text,[automaticWritingAnimationWithDuration] NSTimeInterval duration,[blinkingMode] UILabelAWBlinkingMode blinkingMode,[blinkingCharacter] unichar blinkingCharacter)</argsstring>
+        <name>setText:automaticWritingAnimationWithDuration:blinkingMode:blinkingCharacter:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>text</declname>
+        </param>
+        <param>
+          <attributes>[automaticWritingAnimationWithDuration]</attributes>
+          <type>NSTimeInterval</type>
+          <declname>duration</declname>
+        </param>
+        <param>
+          <attributes>[blinkingMode]</attributes>
+          <type>UILabelAWBlinkingMode</type>
+          <declname>blinkingMode</declname>
+        </param>
+        <param>
+          <attributes>[blinkingCharacter]</attributes>
+          <type>unichar</type>
+          <declname>blinkingCharacter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UILabel/UILabel+AutomaticWriting.h" line="34" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UILabel/UILabel+AutomaticWriting.m" bodystart="121" bodyend="124"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_label_07_automatic_writing_08_1a1505931e792410a9c087d5b8e4f9ddee" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UILabel(AutomaticWriting)::setText:automaticWritingAnimationWithDuration:blinkingMode:blinkingCharacter:completion:</definition>
+        <argsstring>(NSString *text,[automaticWritingAnimationWithDuration] NSTimeInterval duration,[blinkingMode] UILabelAWBlinkingMode blinkingMode,[blinkingCharacter] unichar blinkingCharacter,[completion] void(^completion)(void))</argsstring>
+        <name>setText:automaticWritingAnimationWithDuration:blinkingMode:blinkingCharacter:completion:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>text</declname>
+        </param>
+        <param>
+          <attributes>[automaticWritingAnimationWithDuration]</attributes>
+          <type>NSTimeInterval</type>
+          <declname>duration</declname>
+        </param>
+        <param>
+          <attributes>[blinkingMode]</attributes>
+          <type>UILabelAWBlinkingMode</type>
+          <declname>blinkingMode</declname>
+        </param>
+        <param>
+          <attributes>[blinkingCharacter]</attributes>
+          <type>unichar</type>
+          <declname>blinkingCharacter</declname>
+        </param>
+        <param>
+          <attributes>[completion]</attributes>
+          <type>void(^)(void)</type>
+          <declname>completion</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UILabel/UILabel+AutomaticWriting.h" line="34" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UILabel/UILabel+AutomaticWriting.m" bodystart="126" bodyend="143"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UILabel/UILabel+AutomaticWriting.m" line="31" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UILabel/UILabel+AutomaticWriting.m" bodystart="31" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_u_i_label_07_automatic_writing_08_1a6d2813a772a7e4cd5d97742b10a630f7" prot="public" virt="non-virtual"><scope>UILabel(AutomaticWriting)</scope><name>automaticWritingOperationQueue</name></member>
+      <member refid="category_u_i_label_07_automatic_writing_08_1aaca46895c3c6b0854c82eb42aa0a4e9d" prot="public" virt="non-virtual"><scope>UILabel(AutomaticWriting)</scope><name>edgeInsets</name></member>
+      <member refid="category_u_i_label_07_automatic_writing_08_1ab0878de2c20baf74340d3893e39b16bb" prot="public" virt="virtual"><scope>UILabel(AutomaticWriting)</scope><name>setText:automaticWritingAnimationWithBlinkingMode:</name></member>
+      <member refid="category_u_i_label_07_automatic_writing_08_1a66394382c4cab857d78a6da2a821a9ef" prot="public" virt="virtual"><scope>UILabel(AutomaticWriting)</scope><name>setText:automaticWritingAnimationWithDuration:</name></member>
+      <member refid="category_u_i_label_07_automatic_writing_08_1ac3931bdc28397d5284f4c951c38c6cf8" prot="public" virt="virtual"><scope>UILabel(AutomaticWriting)</scope><name>setText:automaticWritingAnimationWithDuration:blinkingMode:</name></member>
+      <member refid="category_u_i_label_07_automatic_writing_08_1a8d81813fd7f3167416a4c9719a21563a" prot="public" virt="virtual"><scope>UILabel(AutomaticWriting)</scope><name>setText:automaticWritingAnimationWithDuration:blinkingMode:blinkingCharacter:</name></member>
+      <member refid="category_u_i_label_07_automatic_writing_08_1a1505931e792410a9c087d5b8e4f9ddee" prot="public" virt="virtual"><scope>UILabel(AutomaticWriting)</scope><name>setText:automaticWritingAnimationWithDuration:blinkingMode:blinkingCharacter:completion:</name></member>
+      <member refid="category_u_i_label_07_automatic_writing_08_1a1e6ccbe6a53398391a21d8a5cb3e621a" prot="public" virt="virtual"><scope>UILabel(AutomaticWriting)</scope><name>setTextWithAutomaticWritingAnimation:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

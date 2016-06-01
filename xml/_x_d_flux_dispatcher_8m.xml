@@ -1,0 +1,242 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_x_d_flux_dispatcher_8m" kind="file" language="Objective-C">
+    <compoundname>XDFluxDispatcher.m</compoundname>
+    <includes refid="_x_d_flux_dispatcher_8h" local="yes">XDFluxDispatcher.h</includes>
+    <incdepgraph>
+      <node id="3729">
+        <label>XDFluxDispatcher.h</label>
+        <link refid="_x_d_flux_dispatcher_8h"/>
+        <childnode refid="3730" relation="include">
+        </childnode>
+      </node>
+      <node id="3728">
+        <label>XDCommonLib/LooseCoupling CommuniateLayer/FluxDispatcher/XDFluxDispatcher.m</label>
+        <link refid="XDFluxDispatcher.m"/>
+        <childnode refid="3729" relation="include">
+        </childnode>
+      </node>
+      <node id="3730">
+        <label>Foundation/Foundation.h</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="category_x_d_flux_dispatcher_07_08" prot="public">XDFluxDispatcher()</innerclass>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="_x_d_flux_dispatcher_8m_1a065b8419b0cf703cadef10b24bc2882e" prot="public" static="yes" mutable="no">
+        <type>const NSString *</type>
+        <definition>const NSString* _prefix</definition>
+        <argsstring></argsstring>
+        <name>_prefix</name>
+        <initializer>= @&quot;ID_&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/LooseCoupling CommuniateLayer/FluxDispatcher/XDFluxDispatcher.m" line="11" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/LooseCoupling CommuniateLayer/FluxDispatcher/XDFluxDispatcher.m" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_x_d_flux_dispatcher_8m_1ad12768047db369519c2f8ee26c5f8b3b" prot="public" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int _lastId</definition>
+        <argsstring></argsstring>
+        <name>_lastId</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/LooseCoupling CommuniateLayer/FluxDispatcher/XDFluxDispatcher.m" line="12" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/LooseCoupling CommuniateLayer/FluxDispatcher/XDFluxDispatcher.m" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_x_d_flux_dispatcher_8m_1aa9a03db6bfc1d17ae235424c84fcaf19" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void invariant</definition>
+        <argsstring>(BOOL condition, NSString *format,...)</argsstring>
+        <name>invariant</name>
+        <param>
+          <type>BOOL</type>
+          <declname>condition</declname>
+        </param>
+        <param>
+          <type>NSString *</type>
+          <declname>format</declname>
+        </param>
+        <param>
+          <type>...</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/LooseCoupling CommuniateLayer/FluxDispatcher/XDFluxDispatcher.m" line="14" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/LooseCoupling CommuniateLayer/FluxDispatcher/XDFluxDispatcher.m" bodystart="14" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="_x_d_flux_dispatcher_8m_1a4e921a6f7367098c34b2ca73ffe05f2a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>BOOL</type>
+        <definition>static BOOL isTrue</definition>
+        <argsstring>(NSNumber *value)</argsstring>
+        <name>isTrue</name>
+        <param>
+          <type>NSNumber *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/LooseCoupling CommuniateLayer/FluxDispatcher/XDFluxDispatcher.m" line="23" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/LooseCoupling CommuniateLayer/FluxDispatcher/XDFluxDispatcher.m" bodystart="23" bodyend="25"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>XDFluxDispatcher.m</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>XDCommonLib</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>suxinde<sp/>on<sp/>16/5/22.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>©<sp/>2016年<sp/>su<sp/>xinde.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_x_d_flux_dispatcher_8h" kindref="compound">XDFluxDispatcher.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>NSString<sp/>*_prefix<sp/>=<sp/></highlight><highlight class="stringliteral">@&quot;ID_&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>_lastId<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>invariant(BOOL<sp/>condition,<sp/>NSString<sp/>*format,<sp/>...)<sp/>{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>va_list<sp/>args;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>va_start(args,<sp/>format);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!condition)<sp/>{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[NSException<sp/>raise:@&quot;XDFluxDispatcherInvariantViolation&quot;<sp/>format:format<sp/>arguments:args];</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>va_end(args);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>BOOL<sp/>isTrue(NSNumber<sp/>*value)<sp/>{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>value<sp/>&amp;&amp;<sp/>[value<sp/>boolValue];</highlight></codeline>
+<codeline lineno="25"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27" refid="category_x_d_flux_dispatcher_07_08" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="class_x_d_flux_dispatcher" kindref="compound">XDFluxDispatcher</ref><sp/>()</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="category_x_d_flux_dispatcher_07_08_1ae160bcdf22192bb0943267418ad3daee" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>strong)<sp/>NSMutableDictionary<sp/>*callbacks;</highlight></codeline>
+<codeline lineno="30" refid="category_x_d_flux_dispatcher_07_08_1a489f17b32c5af030ace19e0ba28e5356" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>strong)<sp/>NSMutableDictionary<sp/>*isPending;</highlight></codeline>
+<codeline lineno="31" refid="category_x_d_flux_dispatcher_07_08_1a862a3c754d6ff576cd663d73c33432c4" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>strong)<sp/>NSMutableDictionary<sp/>*isHandled;</highlight></codeline>
+<codeline lineno="32" refid="category_x_d_flux_dispatcher_07_08_1aff37820fa0adccbf4b98fe6413a27ce0" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>readwrite)<sp/>BOOL<sp/><ref refid="class_x_d_flux_dispatcher_1acc55d286923e5e3f407b7005b5294091" kindref="member">isDispatching</ref>;</highlight></codeline>
+<codeline lineno="33" refid="category_x_d_flux_dispatcher_07_08_1a59a5f3264b219a6a2f7dfc0b751a4053" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>strong)<sp/>NSDictionary<sp/>*pendingPayload;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal">-<sp/>(void)invokeCallback:(NSString<sp/>*)dispatchToken;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal">-<sp/>(void)startDispatching:(NSDictionary<sp/>*)payload;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40" refid="class_x_d_flux_dispatcher" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">@implementation<sp/></highlight><highlight class="normal"><ref refid="class_x_d_flux_dispatcher" kindref="compound">XDFluxDispatcher</ref></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal">-<sp/>(instancetype)<sp/>init<sp/>{</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>=<sp/>[super<sp/>init])<sp/>{</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.callbacks<sp/>=<sp/>[NSMutableDictionary<sp/>new];</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.isPending<sp/>=<sp/>[NSMutableDictionary<sp/>new];</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.isHandled<sp/>=<sp/>[NSMutableDictionary<sp/>new];</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.<ref refid="class_x_d_flux_dispatcher_1acc55d286923e5e3f407b7005b5294091" kindref="member">isDispatching</ref><sp/>=<sp/>NO;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.pendingPayload<sp/>=<sp/>nil;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54" refid="class_x_d_flux_dispatcher_1ab636040a9c3928731158044235449918" refkind="member"><highlight class="normal">-<sp/>(id)registerCallback:(<ref refid="_x_d_flux_dispatcher_8h_1a581ab28532d13034e0b9f14305fef27f" kindref="member">XDFluxDispatcherCallback</ref>)callback<sp/>{</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/>NSString<sp/>*token<sp/>=<sp/>[NSString<sp/>stringWithFormat:@&quot;%@%i&quot;,<sp/>_prefix,<sp/>_lastId];</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/>_lastId<sp/>=<sp/>_lastId<sp/>+<sp/>1;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.callbacks[token]<sp/>=<sp/>[callback<sp/>copy];</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>token;</highlight></codeline>
+<codeline lineno="59"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61" refid="class_x_d_flux_dispatcher_1aa56877e7418a19ca99a48931f17d7ae6" refkind="member"><highlight class="normal">-<sp/>(void)unregisterCallback:(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)dispatchToken<sp/>{</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/>invariant(</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>!![</highlight><highlight class="keyword">self</highlight><highlight class="normal">.callbacks<sp/>objectForKey:dispatchToken],</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">@&quot;XDFluxDispatcher.unregisterCallback(...):<sp/>&apos;%@&apos;<sp/>does<sp/>map<sp/>to<sp/>a<sp/>registered<sp/>callback&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dispatchToken</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal">.callbacks<sp/>removeObjectForKey:dispatchToken];</highlight></codeline>
+<codeline lineno="68"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70" refid="class_x_d_flux_dispatcher_1ae759ea2c88c5786122588da086525298" refkind="member"><highlight class="normal">-<sp/>(void)waitFor:(NSArray<sp/>*)dispatchTokens<sp/>{</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/>invariant(</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.<ref refid="class_x_d_flux_dispatcher_1acc55d286923e5e3f407b7005b5294091" kindref="member">isDispatching</ref>,</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">@&quot;Dispatcher.waitFor(...):<sp/>Must<sp/>be<sp/>invoked<sp/>while<sp/>dispatching.&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(NSString<sp/>*dispatchToken<sp/>in<sp/>dispatchTokens)<sp/>{</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(isTrue(</highlight><highlight class="keyword">self</highlight><highlight class="normal">.isPending[dispatchToken]))<sp/>{</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>invariant(isTrue(</highlight><highlight class="keyword">self</highlight><highlight class="normal">.isHandled[dispatchToken]),</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">@&quot;XDFluxDispatcher.waitFor(...):<sp/>Circular<sp/>dependency<sp/>detected<sp/>while<sp/>waiting<sp/>for<sp/>%@&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dispatchToken</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">continue</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>invariant(</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>!![</highlight><highlight class="keyword">self</highlight><highlight class="normal">.callbacks<sp/>objectForKey:dispatchToken],</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">@&quot;XDFluxDispatcher.unregisterCallback(...):<sp/>&apos;%@&apos;<sp/>does<sp/>map<sp/>to<sp/>a<sp/>registered<sp/>callback&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dispatchToken</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>invokeCallback:<sp/>dispatchToken];</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="90"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92" refid="class_x_d_flux_dispatcher_1a6df764ff7282ad7c8feeaefe6dbebf08" refkind="member"><highlight class="normal">-<sp/>(void)dispatch:(NSDictionary<sp/>*)payload<sp/>{</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/>invariant(</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>!</highlight><highlight class="keyword">self</highlight><highlight class="normal">.<ref refid="class_x_d_flux_dispatcher_1acc55d286923e5e3f407b7005b5294091" kindref="member">isDispatching</ref>,</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">@&quot;XDFluxDispatcher.dispatch(...):<sp/>Cannot<sp/>dispatch<sp/>in<sp/>the<sp/>middle<sp/>of<sp/>a<sp/>dispatch&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>);</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>startDispatching:<sp/>payload];</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">@try</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(NSString<sp/>*dispatchToken<sp/>in<sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal">.callbacks<sp/>allKeys])<sp/>{</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(isTrue(</highlight><highlight class="keyword">self</highlight><highlight class="normal">.isPending[dispatchToken]))<sp/>{</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">continue</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>invokeCallback:dispatchToken];</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">@finally</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>stopDispatching];</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="109"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal">-<sp/>(void)invokeCallback:(NSString<sp/>*)dispatchToken<sp/>{</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.isPending[dispatchToken]<sp/>=<sp/>@YES;</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_x_d_flux_dispatcher_8h_1a581ab28532d13034e0b9f14305fef27f" kindref="member">XDFluxDispatcherCallback</ref><sp/>callback<sp/>=<sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.callbacks[dispatchToken];</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/>callback(</highlight><highlight class="keyword">self</highlight><highlight class="normal">.pendingPayload);</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.isHandled[dispatchToken]<sp/>=<sp/>@YES;</highlight></codeline>
+<codeline lineno="116"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118" refid="class_x_d_flux_dispatcher_1acc55d286923e5e3f407b7005b5294091" refkind="member"><highlight class="normal">-<sp/>(BOOL)<ref refid="class_x_d_flux_dispatcher_1acc55d286923e5e3f407b7005b5294091" kindref="member">isDispatching</ref><sp/>{</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>_isDispatching;</highlight></codeline>
+<codeline lineno="120"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="normal">-<sp/>(void)startDispatching:(NSDictionary<sp/>*)payload<sp/>{</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(NSString<sp/>*dispatchToken<sp/>in<sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal">.callbacks<sp/>allKeys])<sp/>{</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.isPending[dispatchToken]<sp/>=<sp/>@NO;</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.isHandled[dispatchToken]<sp/>=<sp/>@NO;</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.pendingPayload<sp/>=<sp/>payload;</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.isDispatching<sp/>=<sp/>YES;</highlight></codeline>
+<codeline lineno="129"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal">-<sp/>(void)stopDispatching<sp/>{</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.pendingPayload<sp/>=<sp/>nil;</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.isDispatching<sp/>=<sp/>NO;</highlight></codeline>
+<codeline lineno="134"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/LooseCoupling CommuniateLayer/FluxDispatcher/XDFluxDispatcher.m"/>
+  </compounddef>
+</doxygen>

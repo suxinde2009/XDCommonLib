@@ -1,0 +1,229 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_constraint_utilities_09_utility_8h" kind="file" language="C++">
+    <compoundname>ConstraintUtilities+Utility.h</compoundname>
+    <includedby refid="_constraint_pack_8h" local="yes">XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/ConstraintPack.h</includedby>
+    <invincdepgraph>
+      <node id="3398">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/ConstraintPack.h</label>
+        <link refid="_constraint_pack_8h"/>
+      </node>
+      <node id="3397">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Constraint Macros/ConstraintUtilities+Utility.h</label>
+        <link refid="ConstraintUtilities+Utility.h"/>
+        <childnode refid="3398" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="_constraint_utilities_09_utility_8h_1aa5b3cbc244bab3ddfc709cb1a6b98c73" prot="public" static="no">
+        <name>IS_VALID_RELATION</name>
+        <param><defname>RELATION</defname></param>
+        <initializer>[@[@(NSLayoutFormatAlignAllTop), @(NSLayoutRelationEqual), @(NSLayoutRelationGreaterThanOrEqual)] containsObject:@(RELATION)]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Constraint Macros/ConstraintUtilities+Utility.h" line="29" column="9" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Constraint Macros/ConstraintUtilities+Utility.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_constraint_utilities_09_utility_8h_1a8c1a81f59fd3afdcb0040476d28fd12b" prot="public" static="no">
+        <name>IS_VALID_ATTRIBUTE</name>
+        <param><defname>ATTRIBUTE</defname></param>
+        <initializer>[@[@(NSLayoutAttributeWidth), @(NSLayoutAttributeHeight), @(NSLayoutAttributeCenterX), @(NSLayoutAttributeCenterY), @(NSLayoutAttributeLeft), @(NSLayoutAttributeRight), @(NSLayoutAttributeTop), @(NSLayoutAttributeBottom), @(NSLayoutAttributeLeading), @(NSLayoutAttributeTrailing), @(NSLayoutAttributeBaseline)] containsObject:@(ATTRIBUTE)]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Constraint Macros/ConstraintUtilities+Utility.h" line="30" column="9" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Constraint Macros/ConstraintUtilities+Utility.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_constraint_utilities_09_utility_8h_1ae846d82fa04244589d99be3e2ca4854b" prot="public" static="no">
+        <name>CONSTRAINTS</name>
+        <param><defname>FORMAT</defname></param>
+        <param><defname>...</defname></param>
+        <initializer>^NSArray *(){NSDictionary *_bindings = NSDictionaryOfVariableBindings(__VA_ARGS__); return [NSLayoutConstraint constraintsWithVisualFormat:(FORMAT) options:0 metrics:nil views:_bindings];}()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Constraint Macros/ConstraintUtilities+Utility.h" line="42" column="10" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Constraint Macros/ConstraintUtilities+Utility.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_constraint_utilities_09_utility_8h_1a3ecbea13b4f5b22f250b0deaecd0e035" prot="public" static="no">
+        <name>CONSTRAINTS_WITH_OPTIONS</name>
+        <param><defname>FORMAT</defname></param>
+        <param><defname>OPTIONS</defname></param>
+        <param><defname>...</defname></param>
+        <initializer>^NSArray *(){NSDictionary *_bindings = NSDictionaryOfVariableBindings(__VA_ARGS__); return [NSLayoutConstraint constraintsWithVisualFormat:(FORMAT) options:OPTIONS metrics:nil views:_bindings];}()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Constraint Macros/ConstraintUtilities+Utility.h" line="43" column="9" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Constraint Macros/ConstraintUtilities+Utility.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_constraint_utilities_09_utility_8h_1ab1db022889488d6a260e3d166f3eff2d" prot="public" static="no">
+        <name>CONSTRAIN_VIEWS</name>
+        <param><defname>PRIORITY</defname></param>
+        <param><defname>NAME</defname></param>
+        <param><defname>FORMAT</defname></param>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="_constraint_utilities_09_install_8m_1a9b41f98df2b32cccc8fede559eca4db0" kindref="member">InstallConstraints</ref>(<ref refid="_constraint_utilities_09_utility_8h_1ae846d82fa04244589d99be3e2ca4854b" kindref="member">CONSTRAINTS</ref>(FORMAT, __VA_ARGS__), PRIORITY, NAME);</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Constraint Macros/ConstraintUtilities+Utility.h" line="56" column="9" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Constraint Macros/ConstraintUtilities+Utility.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_constraint_utilities_09_utility_8h_1af84673e6fab485c9569f195c7375a2e6" prot="public" static="no">
+        <name>DEFAULT_LAYOUT_PRIORITY</name>
+        <initializer><ref refid="_constraint_utilities_09_install_8h_1a75f2368f2257ec0b9db70d2c726399dca03f96f7c5edf1eb8d556a03aa3f74a88" kindref="member">LayoutPriorityRequired</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Constraint Macros/ConstraintUtilities+Utility.h" line="59" column="9" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Constraint Macros/ConstraintUtilities+Utility.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_constraint_utilities_09_utility_8h_1ac2acb3a3c56892dbe22ffabb52ef7314" prot="public" static="no">
+        <name>CONSTRAIN</name>
+        <param><defname>FORMAT</defname></param>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="_constraint_utilities_09_utility_8h_1ab1db022889488d6a260e3d166f3eff2d" kindref="member">CONSTRAIN_VIEWS</ref>(<ref refid="_constraint_utilities_09_utility_8h_1af84673e6fab485c9569f195c7375a2e6" kindref="member">DEFAULT_LAYOUT_PRIORITY</ref>, nil, FORMAT, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Constraint Macros/ConstraintUtilities+Utility.h" line="61" column="9" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Constraint Macros/ConstraintUtilities+Utility.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_constraint_utilities_09_utility_8h_1aa2fe6082b3277d610133bd61d10981e1" prot="public" static="no">
+        <name>_INSTALL_CONSTRAINTS</name>
+        <param><defname>PRIORITY</defname></param>
+        <param><defname>NAME</defname></param>
+        <param><defname>...</defname></param>
+        <initializer>{\
+    NSArray *_tmpArray = [NSArray arrayWithObjects: __VA_ARGS__]; \
+    for (NSObject *_eachItem in _tmpArray) { \
+        if ([(_eachItem) isKindOfClass:[NSArray class]]) \
+            <ref refid="_constraint_utilities_09_install_8m_1a9b41f98df2b32cccc8fede559eca4db0" kindref="member">InstallConstraints</ref>((NSArray *) _eachItem, PRIORITY, NAME); \
+        else \
+            <ref refid="_constraint_utilities_09_install_8m_1a9b41f98df2b32cccc8fede559eca4db0" kindref="member">InstallConstraints</ref>(@[_eachItem], PRIORITY, NAME);\
+    }}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Constraint Macros/ConstraintUtilities+Utility.h" line="66" column="9" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Constraint Macros/ConstraintUtilities+Utility.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_constraint_utilities_09_utility_8h_1a9ad4238f9b83f9a11211ddd46a922259" prot="public" static="no">
+        <name>INSTALL_CONSTRAINTS</name>
+        <param><defname>PRIORITY</defname></param>
+        <param><defname>NAME</defname></param>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="_constraint_utilities_09_utility_8h_1aa2fe6082b3277d610133bd61d10981e1" kindref="member">_INSTALL_CONSTRAINTS</ref>(PRIORITY, NAME, __VA_ARGS__, nil)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Constraint Macros/ConstraintUtilities+Utility.h" line="76" column="9" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Constraint Macros/ConstraintUtilities+Utility.h" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"></highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>Erica<sp/>Sadun,<sp/>http://ericasadun.com</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/></highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>Constraints</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/></highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>CONVENIENCE</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/>-<sp/>Utility</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="22"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="23"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="24"><highlight class="comment"><sp/>TESTING<sp/>CONSTRAINT<sp/>ELEMENTS</highlight></codeline>
+<codeline lineno="25"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="26"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="27"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="_constraint_utilities_09_utility_8h_1aa5b3cbc244bab3ddfc709cb1a6b98c73" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>IS_VALID_RELATION(RELATION)<sp/>[@[@(NSLayoutFormatAlignAllTop),<sp/>@(NSLayoutRelationEqual),<sp/>@(NSLayoutRelationGreaterThanOrEqual)]<sp/>containsObject:@(RELATION)]</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="_constraint_utilities_09_utility_8h_1a8c1a81f59fd3afdcb0040476d28fd12b" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>IS_VALID_ATTRIBUTE(ATTRIBUTE)<sp/>[@[@(NSLayoutAttributeWidth),<sp/>@(NSLayoutAttributeHeight),<sp/>@(NSLayoutAttributeCenterX),<sp/>@(NSLayoutAttributeCenterY),<sp/>@(NSLayoutAttributeLeft),<sp/>@(NSLayoutAttributeRight),<sp/>@(NSLayoutAttributeTop),<sp/>@(NSLayoutAttributeBottom),<sp/>@(NSLayoutAttributeLeading),<sp/>@(NSLayoutAttributeTrailing),<sp/>@(NSLayoutAttributeBaseline)]<sp/>containsObject:@(ATTRIBUTE)]</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="34"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="35"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="36"><highlight class="comment"><sp/>BASIC<sp/>FORMAT-BASED<sp/>CONSTRAINTS</highlight></codeline>
+<codeline lineno="37"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="38"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="39"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/>-<sp/>Simple<sp/>Visual<sp/>Constraints</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42" refid="_constraint_utilities_09_utility_8h_1ae846d82fa04244589d99be3e2ca4854b" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CONSTRAINTS(FORMAT,<sp/>...)<sp/>^NSArray<sp/>*(){NSDictionary<sp/>*_bindings<sp/>=<sp/>NSDictionaryOfVariableBindings(__VA_ARGS__);<sp/>return<sp/>[NSLayoutConstraint<sp/>constraintsWithVisualFormat:(FORMAT)<sp/>options:0<sp/>metrics:nil<sp/>views:_bindings];}()</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43" refid="_constraint_utilities_09_utility_8h_1a3ecbea13b4f5b22f250b0deaecd0e035" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CONSTRAINTS_WITH_OPTIONS(FORMAT,<sp/>OPTIONS,<sp/>...)<sp/>^NSArray<sp/>*(){NSDictionary<sp/>*_bindings<sp/>=<sp/>NSDictionaryOfVariableBindings(__VA_ARGS__);<sp/>return<sp/>[NSLayoutConstraint<sp/>constraintsWithVisualFormat:(FORMAT)<sp/>options:OPTIONS<sp/>metrics:nil<sp/>views:_bindings];}()</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="46"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="47"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="48"><highlight class="comment"><sp/>INSTALLING<sp/>CONSTRAINTS.<sp/>Ugly.<sp/>Sorry.</highlight></codeline>
+<codeline lineno="49"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="50"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="51"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/>-<sp/>Installing<sp/>Visual<sp/>Constraints</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Apply<sp/>format-based<sp/>constraints</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56" refid="_constraint_utilities_09_utility_8h_1ab1db022889488d6a260e3d166f3eff2d" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CONSTRAIN_VIEWS(PRIORITY,<sp/>NAME,<sp/>FORMAT,<sp/>...)<sp/><sp/>InstallConstraints(CONSTRAINTS(FORMAT,<sp/>__VA_ARGS__),<sp/>PRIORITY,<sp/>NAME);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Common<sp/>constraint<sp/>install<sp/>entry<sp/>point<sp/>using<sp/>no<sp/>naming<sp/>and<sp/>default<sp/>layout<sp/>priority</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59" refid="_constraint_utilities_09_utility_8h_1af84673e6fab485c9569f195c7375a2e6" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DEFAULT_LAYOUT_PRIORITY<sp/>LayoutPriorityRequired</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61" refid="_constraint_utilities_09_utility_8h_1ac2acb3a3c56892dbe22ffabb52ef7314" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CONSTRAIN(FORMAT,<sp/>...)<sp/>CONSTRAIN_VIEWS(DEFAULT_LAYOUT_PRIORITY,<sp/>nil,<sp/>FORMAT,<sp/>__VA_ARGS__)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/>-<sp/>Installing<sp/>single<sp/>and<sp/>array<sp/>constraints</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Install<sp/>a<sp/>list<sp/>of<sp/>mixed<sp/>single<sp/>and<sp/>array<sp/>constraints</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66" refid="_constraint_utilities_09_utility_8h_1aa2fe6082b3277d610133bd61d10981e1" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_INSTALL_CONSTRAINTS(PRIORITY,<sp/>NAME,<sp/>...)<sp/>{\</highlight></codeline>
+<codeline lineno="67"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>NSArray<sp/>*_tmpArray<sp/>=<sp/>[NSArray<sp/>arrayWithObjects:<sp/>__VA_ARGS__];<sp/>\</highlight></codeline>
+<codeline lineno="68"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>for<sp/>(NSObject<sp/>*_eachItem<sp/>in<sp/>_tmpArray)<sp/>{<sp/>\</highlight></codeline>
+<codeline lineno="69"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>if<sp/>([(_eachItem)<sp/>isKindOfClass:[NSArray<sp/>class]])<sp/>\</highlight></codeline>
+<codeline lineno="70"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>InstallConstraints((NSArray<sp/>*)<sp/>_eachItem,<sp/>PRIORITY,<sp/>NAME);<sp/>\</highlight></codeline>
+<codeline lineno="71"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>else<sp/>\</highlight></codeline>
+<codeline lineno="72"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>InstallConstraints(@[_eachItem],<sp/>PRIORITY,<sp/>NAME);\</highlight></codeline>
+<codeline lineno="73"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>}}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Convenience<sp/>entry<sp/>point<sp/>to<sp/>avoid<sp/>forcing<sp/>semaphore<sp/>at<sp/>the<sp/>end</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="76" refid="_constraint_utilities_09_utility_8h_1a9ad4238f9b83f9a11211ddd46a922259" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>INSTALL_CONSTRAINTS(PRIORITY,<sp/>NAME,<sp/>...)<sp/>_INSTALL_CONSTRAINTS(PRIORITY,<sp/>NAME,<sp/>__VA_ARGS__,<sp/>nil)</highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Constraint Macros/ConstraintUtilities+Utility.h"/>
+  </compounddef>
+</doxygen>

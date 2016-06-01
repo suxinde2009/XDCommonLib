@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="interface_a2_dynamic_u_i_alert_view_delegate" kind="class" language="Objective-C" prot="public">
+    <compoundname>A2DynamicUIAlertViewDelegate</compoundname>
+    <basecompoundref refid="class_a2_dynamic_delegate" prot="public" virt="non-virtual">A2DynamicDelegate</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">&lt;UIAlertViewDelegate&gt;</basecompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="133">
+        <label>A2DynamicUIAlertViewDelegate</label>
+        <link refid="interface_a2_dynamic_u_i_alert_view_delegate"/>
+        <childnode refid="134" relation="public-inheritance">
+        </childnode>
+        <childnode refid="136" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="135">
+        <label>NSProxy</label>
+      </node>
+      <node id="134">
+        <label>A2DynamicDelegate</label>
+        <link refid="class_a2_dynamic_delegate"/>
+        <childnode refid="135" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="136">
+        <label>&lt;UIAlertViewDelegate&gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="137">
+        <label>A2DynamicUIAlertViewDelegate</label>
+        <link refid="interface_a2_dynamic_u_i_alert_view_delegate"/>
+        <childnode refid="138" relation="public-inheritance">
+        </childnode>
+        <childnode refid="140" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="139">
+        <label>NSProxy</label>
+      </node>
+      <node id="138">
+        <label>A2DynamicDelegate</label>
+        <link refid="class_a2_dynamic_delegate"/>
+        <childnode refid="139" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="140">
+        <label>&lt;UIAlertViewDelegate&gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIAlertView+BlocksKit.m" line="16" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIAlertView+BlocksKit.m" bodystart="16" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="class_a2_dynamic_delegate_1a929f5f9e3f57608a21b5db23807b9cdc" prot="public" virt="virtual"><scope>A2DynamicUIAlertViewDelegate</scope><name>blockImplementationForClassMethod:</name></member>
+      <member refid="class_a2_dynamic_delegate_1ae9a18617d0ab9fec8f6003889a4ee9f4" prot="public" virt="virtual"><scope>A2DynamicUIAlertViewDelegate</scope><name>blockImplementationForMethod:</name></member>
+      <member refid="class_a2_dynamic_delegate_1a9f8dbecad22cd2681546221d0815d8c7" prot="public" virt="non-virtual"><scope>A2DynamicUIAlertViewDelegate</scope><name>handlers</name></member>
+      <member refid="class_a2_dynamic_delegate_1afbfbb9170eb4d881e101b82991123de2" prot="public" virt="virtual"><scope>A2DynamicUIAlertViewDelegate</scope><name>implementClassMethod:withBlock:</name></member>
+      <member refid="class_a2_dynamic_delegate_1a09f6348635418baf7f5c797bbe2a8fa9" prot="public" virt="virtual"><scope>A2DynamicUIAlertViewDelegate</scope><name>implementMethod:withBlock:</name></member>
+      <member refid="class_a2_dynamic_delegate_1a36999c979855161a15d3281abf5034e9" prot="public" virt="virtual"><scope>A2DynamicUIAlertViewDelegate</scope><name>initWithProtocol:</name></member>
+      <member refid="class_a2_dynamic_delegate_1aadf9caaae47a8b14f11ee6d0cbe95660" prot="public" virt="non-virtual"><scope>A2DynamicUIAlertViewDelegate</scope><name>protocol</name></member>
+      <member refid="class_a2_dynamic_delegate_1a4c7e2f4153dc34cc4c05a72d1647d62c" prot="public" virt="non-virtual"><scope>A2DynamicUIAlertViewDelegate</scope><name>realDelegate</name></member>
+      <member refid="class_a2_dynamic_delegate_1a911986db7039baba90d8778838e11fc9" prot="public" virt="virtual"><scope>A2DynamicUIAlertViewDelegate</scope><name>removeBlockImplementationForClassMethod:</name></member>
+      <member refid="class_a2_dynamic_delegate_1a85289773679bf26c333cdd3b46d4cb01" prot="public" virt="virtual"><scope>A2DynamicUIAlertViewDelegate</scope><name>removeBlockImplementationForMethod:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

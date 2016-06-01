@@ -1,0 +1,405 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="class_a2_dynamic_delegate" kind="class" language="Objective-C" prot="public">
+    <compoundname>A2DynamicDelegate</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">NSProxy</basecompoundref>
+    <derivedcompoundref refid="interface_a2_dynamic_b_k_u_r_l_connection_informal_delegate" prot="public" virt="non-virtual">A2DynamicBKURLConnectionInformalDelegate</derivedcompoundref>
+    <derivedcompoundref refid="interface_a2_dynamic_class_delegate" prot="public" virt="non-virtual">A2DynamicClassDelegate</derivedcompoundref>
+    <derivedcompoundref refid="interface_a2_dynamic_m_f_mail_compose_view_controller_delegate" prot="public" virt="non-virtual">A2DynamicMFMailComposeViewControllerDelegate</derivedcompoundref>
+    <derivedcompoundref refid="interface_a2_dynamic_m_f_message_compose_view_controller_delegate" prot="public" virt="non-virtual">A2DynamicMFMessageComposeViewControllerDelegate</derivedcompoundref>
+    <derivedcompoundref refid="interface_a2_dynamic_n_s_cache_delegate" prot="public" virt="non-virtual">A2DynamicNSCacheDelegate</derivedcompoundref>
+    <derivedcompoundref refid="interface_a2_dynamic_n_s_u_r_l_connection_delegate" prot="public" virt="non-virtual">A2DynamicNSURLConnectionDelegate</derivedcompoundref>
+    <derivedcompoundref refid="interface_a2_dynamic_q_l_preview_controller_delegate" prot="public" virt="non-virtual">A2DynamicQLPreviewControllerDelegate</derivedcompoundref>
+    <derivedcompoundref refid="interface_a2_dynamic_u_i_action_sheet_delegate" prot="public" virt="non-virtual">A2DynamicUIActionSheetDelegate</derivedcompoundref>
+    <derivedcompoundref refid="interface_a2_dynamic_u_i_alert_view_delegate" prot="public" virt="non-virtual">A2DynamicUIAlertViewDelegate</derivedcompoundref>
+    <derivedcompoundref refid="interface_a2_dynamic_u_i_image_picker_controller_delegate" prot="public" virt="non-virtual">A2DynamicUIImagePickerControllerDelegate</derivedcompoundref>
+    <derivedcompoundref refid="interface_a2_dynamic_u_i_popover_controller_delegate" prot="public" virt="non-virtual">A2DynamicUIPopoverControllerDelegate</derivedcompoundref>
+    <derivedcompoundref refid="interface_a2_dynamic_u_i_text_field_delegate" prot="public" virt="non-virtual">A2DynamicUITextFieldDelegate</derivedcompoundref>
+    <derivedcompoundref refid="interface_a2_dynamic_u_i_text_view_delegate" prot="public" virt="non-virtual">A2DynamicUITextViewDelegate</derivedcompoundref>
+    <derivedcompoundref refid="interface_a2_dynamic_u_i_web_view_delegate" prot="public" virt="non-virtual">A2DynamicUIWebViewDelegate</derivedcompoundref>
+    <includes refid="_a2_dynamic_delegate_8h" local="no">A2DynamicDelegate.h</includes>
+      <sectiondef kind="user-defined">
+      <header>Block Instance Method Implementations</header>
+      <memberdef kind="function" id="class_a2_dynamic_delegate_1ae9a18617d0ab9fec8f6003889a4ee9f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="_b_k_defines_8h_1a02648067ad66739ed70a10195891098a" kindref="member">nullable</ref> id</type>
+        <definition>id A2DynamicDelegate::blockImplementationForMethod:</definition>
+        <argsstring>(SEL selector)</argsstring>
+        <name>blockImplementationForMethod:</name>
+        <param>
+          <type>SEL</type>
+          <declname>selector</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The block that is to be fired when the specified selector is called on the reciever.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>selector</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>An encoded selector. Must not be NULL. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>A code block, or nil if no block is assigned. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/DynamicDelegate/A2DynamicDelegate.h" line="74" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/DynamicDelegate/A2DynamicDelegate.m" bodystart="186" bodyend="192"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a2_dynamic_delegate_1a09f6348635418baf7f5c797bbe2a8fa9" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void A2DynamicDelegate::implementMethod:withBlock:</definition>
+        <argsstring>(SEL selector,[withBlock] nullable id block)</argsstring>
+        <name>implementMethod:withBlock:</name>
+        <param>
+          <type>SEL</type>
+          <declname>selector</declname>
+        </param>
+        <param>
+          <attributes>[withBlock]</attributes>
+          <type><ref refid="_b_k_defines_8h_1a02648067ad66739ed70a10195891098a" kindref="member">nullable</ref> id</type>
+          <declname>block</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the given block to be fired when the specified selector is called on the reciever.</para><para>[tableView.dynamicDataSource implementMethod:(numberOfSectionsInTableView:) withBlock:NSInteger^(UITableView *tableView) { return 2; }];</para><para><simplesect kind="warning"><para>Starting with <ref refid="class_a2_dynamic_delegate" kindref="compound">A2DynamicDelegate</ref> 2.0, a block will not be checked for a matching signature. A block can have less parameters than the original selector and will be ignored, but cannot have more.</para></simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>selector</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>An encoded selector. Must not be NULL. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>block</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A code block with the same signature as selector. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/DynamicDelegate/A2DynamicDelegate.h" line="74" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a2_dynamic_delegate_1a85289773679bf26c333cdd3b46d4cb01" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void A2DynamicDelegate::removeBlockImplementationForMethod:</definition>
+        <argsstring>(SEL selector)</argsstring>
+        <name>removeBlockImplementationForMethod:</name>
+        <param>
+          <type>SEL</type>
+          <declname>selector</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Disassociates any block so that nothing will be fired when the specified selector is called on the reciever.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>selector</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>An encoded selector. Must not be NULL. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/DynamicDelegate/A2DynamicDelegate.h" line="74" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/DynamicDelegate/A2DynamicDelegate.m" bodystart="217" bodyend="220"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="user-defined">
+      <header>Block Class Method Implementations</header>
+      <memberdef kind="function" id="class_a2_dynamic_delegate_1a929f5f9e3f57608a21b5db23807b9cdc" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>id</type>
+        <definition>id A2DynamicDelegate::blockImplementationForClassMethod:</definition>
+        <argsstring>(SEL selector)</argsstring>
+        <name>blockImplementationForClassMethod:</name>
+        <param>
+          <type>SEL</type>
+          <declname>selector</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The block that is to be fired when the specified selector is called on the delegating object&apos;s class.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>selector</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>An encoded selector. Must not be NULL. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>A code block, or nil if no block is assigned. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/DynamicDelegate/A2DynamicDelegate.h" line="74" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/DynamicDelegate/A2DynamicDelegate.m" bodystart="224" bodyend="227"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a2_dynamic_delegate_1afbfbb9170eb4d881e101b82991123de2" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void A2DynamicDelegate::implementClassMethod:withBlock:</definition>
+        <argsstring>(SEL selector,[withBlock] nullable id block)</argsstring>
+        <name>implementClassMethod:withBlock:</name>
+        <param>
+          <type>SEL</type>
+          <declname>selector</declname>
+        </param>
+        <param>
+          <attributes>[withBlock]</attributes>
+          <type><ref refid="_b_k_defines_8h_1a02648067ad66739ed70a10195891098a" kindref="member">nullable</ref> id</type>
+          <declname>block</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the given block to be fired when the specified selector is called on the reciever.</para><para><simplesect kind="warning"><para>Starting with <ref refid="class_a2_dynamic_delegate" kindref="compound">A2DynamicDelegate</ref> 2.0, a block will not be checked for a matching signature. A block can have less parameters than the original selector and will be ignored, but cannot have more.</para></simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>selector</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>An encoded selector. Must not be NULL. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>block</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A code block with the same signature as selector. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/DynamicDelegate/A2DynamicDelegate.h" line="74" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a2_dynamic_delegate_1a911986db7039baba90d8778838e11fc9" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void A2DynamicDelegate::removeBlockImplementationForClassMethod:</definition>
+        <argsstring>(SEL selector)</argsstring>
+        <name>removeBlockImplementationForClassMethod:</name>
+        <param>
+          <type>SEL</type>
+          <declname>selector</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Disassociates any blocks so that nothing will be fired when the specified selector is called on the delegating object&apos;s class.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>selector</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>An encoded selector. Must not be NULL. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/DynamicDelegate/A2DynamicDelegate.h" line="74" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/DynamicDelegate/A2DynamicDelegate.m" bodystart="233" bodyend="236"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_a2_dynamic_delegate_1aadf9caaae47a8b14f11ee6d0cbe95660" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="assign">
+        <type>Protocol *</type>
+        <definition>Protocol* A2DynamicDelegate::protocol</definition>
+        <argsstring></argsstring>
+        <name>protocol</name>
+        <read></read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The protocol delegating the dynamic delegate. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/DynamicDelegate/A2DynamicDelegate.h" line="65" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/DynamicDelegate/A2DynamicDelegate.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a2_dynamic_delegate_1a9f8dbecad22cd2681546221d0815d8c7" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="strong">
+        <type>NSMutableDictionary *</type>
+        <definition>NSMutableDictionary* A2DynamicDelegate::handlers</definition>
+        <argsstring></argsstring>
+        <name>handlers</name>
+        <read></read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A dictionary of custom handlers to be used by custom responders in a A2Dynamic(Protocol Name) subclass of <ref refid="class_a2_dynamic_delegate" kindref="compound">A2DynamicDelegate</ref>, like <computeroutput><ref refid="interface_a2_dynamic_u_i_alert_view_delegate" kindref="compound">A2DynamicUIAlertViewDelegate</ref></computeroutput>. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/DynamicDelegate/A2DynamicDelegate.h" line="70" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/DynamicDelegate/A2DynamicDelegate.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a2_dynamic_delegate_1a4c7e2f4153dc34cc4c05a72d1647d62c" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="weak">
+        <type>id</type>
+        <definition>id A2DynamicDelegate::realDelegate</definition>
+        <argsstring></argsstring>
+        <name>realDelegate</name>
+        <read></read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>When replacing the delegate using the A2BlockDelegate extensions, the object responding to classical delegate method implementations. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/DynamicDelegate/A2DynamicDelegate.h" line="74" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/DynamicDelegate/A2DynamicDelegate.h" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_a2_dynamic_delegate_1a36999c979855161a15d3281abf5034e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>instancetype</type>
+        <definition>instancetype A2DynamicDelegate::initWithProtocol:</definition>
+        <argsstring>(Protocol *protocol)</argsstring>
+        <name>initWithProtocol:</name>
+        <param>
+          <type>Protocol *</type>
+          <declname>protocol</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The designated initializer for the <ref refid="class_a2_dynamic_delegate" kindref="compound">A2DynamicDelegate</ref> proxy.</para><para>An instance of <ref refid="class_a2_dynamic_delegate" kindref="compound">A2DynamicDelegate</ref> should generally not be created by the user, but instead by calling a method in NSObject(A2DynamicDelegate). Since delegates are usually weak references on the part of the delegating object, a dynamic delegate would be deallocated immediately after its declaring scope ends. NSObject(A2DynamicDelegate) creates a strong reference.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>protocol</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A protocol to which the dynamic delegate should conform. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>An initialized delegate proxy. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/DynamicDelegate/A2DynamicDelegate.h" line="144" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/DynamicDelegate/A2DynamicDelegate.m" bodystart="126" bodyend="132"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><ref refid="class_a2_dynamic_delegate" kindref="compound">A2DynamicDelegate</ref> implements a class&apos;s delegate, data source, or other delegated protocol by associating protocol methods with a block implementation.</para><para><itemizedlist>
+<listitem><para>(IBAction) annoyUser { Create an alert view UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:"Hello World!&quot;
+                                  message:@&quot;This alert&apos;s delegate is implemented using blocks. That&apos;s so cool!" delegate:nil cancelButtonTitle:"Meh.&quot;
+                                  otherButtonTitles:@&quot;Woo!", nil];</para></listitem></itemizedlist>
+</para><para>Get the dynamic delegate <ref refid="class_a2_dynamic_delegate" kindref="compound">A2DynamicDelegate</ref> *dd = alertView.bk_dynamicDelegate;</para><para>Implement -alertViewShouldEnableFirstOtherButton: [dd implementMethod:(alertViewShouldEnableFirstOtherButton:) withBlock:^(UIAlertView *alertView) { NSLog("Message: %", alertView.message); return YES; }];</para><para>Implement -alertView:willDismissWithButtonIndex: [dd implementMethod:(alertView:willDismissWithButtonIndex:) withBlock:^(UIAlertView *alertView, NSInteger buttonIndex) { NSLog("You pushed button #d (%@)", buttonIndex, [alertView buttonTitleAtIndex:buttonIndex]); }];</para><para>Set the delegate alertView.delegate = dd;</para><para>[alertView show]; }</para><para><ref refid="class_a2_dynamic_delegate" kindref="compound">A2DynamicDelegate</ref> is designed to be &apos;plug and play&apos;. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="74">
+        <label>A2DynamicUIPopoverControllerDelegate</label>
+        <link refid="interface_a2_dynamic_u_i_popover_controller_delegate"/>
+        <childnode refid="62" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="69">
+        <label>A2DynamicNSURLConnectionDelegate</label>
+        <link refid="interface_a2_dynamic_n_s_u_r_l_connection_delegate"/>
+        <childnode refid="62" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="68">
+        <label>A2DynamicNSCacheDelegate</label>
+        <link refid="interface_a2_dynamic_n_s_cache_delegate"/>
+        <childnode refid="62" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="72">
+        <label>A2DynamicUIAlertViewDelegate</label>
+        <link refid="interface_a2_dynamic_u_i_alert_view_delegate"/>
+        <childnode refid="62" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="63">
+        <label>NSProxy</label>
+      </node>
+      <node id="65">
+        <label>A2DynamicClassDelegate</label>
+        <link refid="interface_a2_dynamic_class_delegate"/>
+        <childnode refid="62" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="77">
+        <label>A2DynamicUIWebViewDelegate</label>
+        <link refid="interface_a2_dynamic_u_i_web_view_delegate"/>
+        <childnode refid="62" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="75">
+        <label>A2DynamicUITextFieldDelegate</label>
+        <link refid="interface_a2_dynamic_u_i_text_field_delegate"/>
+        <childnode refid="62" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="71">
+        <label>A2DynamicUIActionSheetDelegate</label>
+        <link refid="interface_a2_dynamic_u_i_action_sheet_delegate"/>
+        <childnode refid="62" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="66">
+        <label>A2DynamicMFMailComposeViewControllerDelegate</label>
+        <link refid="interface_a2_dynamic_m_f_mail_compose_view_controller_delegate"/>
+        <childnode refid="62" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="70">
+        <label>A2DynamicQLPreviewControllerDelegate</label>
+        <link refid="interface_a2_dynamic_q_l_preview_controller_delegate"/>
+        <childnode refid="62" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="62">
+        <label>A2DynamicDelegate</label>
+        <link refid="class_a2_dynamic_delegate"/>
+        <childnode refid="63" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="73">
+        <label>A2DynamicUIImagePickerControllerDelegate</label>
+        <link refid="interface_a2_dynamic_u_i_image_picker_controller_delegate"/>
+        <childnode refid="62" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="67">
+        <label>A2DynamicMFMessageComposeViewControllerDelegate</label>
+        <link refid="interface_a2_dynamic_m_f_message_compose_view_controller_delegate"/>
+        <childnode refid="62" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="64">
+        <label>A2DynamicBKURLConnectionInformalDelegate</label>
+        <link refid="interface_a2_dynamic_b_k_u_r_l_connection_informal_delegate"/>
+        <childnode refid="62" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="76">
+        <label>A2DynamicUITextViewDelegate</label>
+        <link refid="interface_a2_dynamic_u_i_text_view_delegate"/>
+        <childnode refid="62" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="79">
+        <label>NSProxy</label>
+      </node>
+      <node id="78">
+        <label>A2DynamicDelegate</label>
+        <link refid="class_a2_dynamic_delegate"/>
+        <childnode refid="79" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/DynamicDelegate/A2DynamicDelegate.m" line="100" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/DynamicDelegate/A2DynamicDelegate.m" bodystart="100" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="class_a2_dynamic_delegate_1a929f5f9e3f57608a21b5db23807b9cdc" prot="public" virt="virtual"><scope>A2DynamicDelegate</scope><name>blockImplementationForClassMethod:</name></member>
+      <member refid="class_a2_dynamic_delegate_1ae9a18617d0ab9fec8f6003889a4ee9f4" prot="public" virt="virtual"><scope>A2DynamicDelegate</scope><name>blockImplementationForMethod:</name></member>
+      <member refid="class_a2_dynamic_delegate_1a9f8dbecad22cd2681546221d0815d8c7" prot="public" virt="non-virtual"><scope>A2DynamicDelegate</scope><name>handlers</name></member>
+      <member refid="class_a2_dynamic_delegate_1afbfbb9170eb4d881e101b82991123de2" prot="public" virt="virtual"><scope>A2DynamicDelegate</scope><name>implementClassMethod:withBlock:</name></member>
+      <member refid="class_a2_dynamic_delegate_1a09f6348635418baf7f5c797bbe2a8fa9" prot="public" virt="virtual"><scope>A2DynamicDelegate</scope><name>implementMethod:withBlock:</name></member>
+      <member refid="class_a2_dynamic_delegate_1a36999c979855161a15d3281abf5034e9" prot="public" virt="virtual"><scope>A2DynamicDelegate</scope><name>initWithProtocol:</name></member>
+      <member refid="class_a2_dynamic_delegate_1aadf9caaae47a8b14f11ee6d0cbe95660" prot="public" virt="non-virtual"><scope>A2DynamicDelegate</scope><name>protocol</name></member>
+      <member refid="class_a2_dynamic_delegate_1a4c7e2f4153dc34cc4c05a72d1647d62c" prot="public" virt="non-virtual"><scope>A2DynamicDelegate</scope><name>realDelegate</name></member>
+      <member refid="class_a2_dynamic_delegate_1a911986db7039baba90d8778838e11fc9" prot="public" virt="virtual"><scope>A2DynamicDelegate</scope><name>removeBlockImplementationForClassMethod:</name></member>
+      <member refid="class_a2_dynamic_delegate_1a85289773679bf26c333cdd3b46d4cb01" prot="public" virt="virtual"><scope>A2DynamicDelegate</scope><name>removeBlockImplementationForMethod:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,156 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_n_s_object_09_a2_dynamic_delegate_8h" kind="file" language="C++">
+    <compoundname>NSObject+A2DynamicDelegate.h</compoundname>
+    <includes refid="_b_k_defines_8h" local="yes">BKDefines.h</includes>
+    <includes local="no">Foundation/Foundation.h</includes>
+    <includedby refid="_n_s_cache_09_blocks_kit_8m" local="yes">XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/DynamicDelegate/Foundation/NSCache+BlocksKit.m</includedby>
+    <includedby refid="_n_s_u_r_l_connection_09_blocks_kit_8m" local="yes">XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/DynamicDelegate/Foundation/NSURLConnection+BlocksKit.m</includedby>
+    <includedby refid="_n_s_object_09_a2_block_delegate_8m" local="yes">XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/DynamicDelegate/NSObject+A2BlockDelegate.m</includedby>
+    <includedby refid="_n_s_object_09_a2_dynamic_delegate_8m" local="yes">XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/DynamicDelegate/NSObject+A2DynamicDelegate.m</includedby>
+    <includedby refid="_m_f_mail_compose_view_controller_09_blocks_kit_8m" local="yes">XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/MessageUI/MFMailComposeViewController+BlocksKit.m</includedby>
+    <includedby refid="_m_f_message_compose_view_controller_09_blocks_kit_8m" local="yes">XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/MessageUI/MFMessageComposeViewController+BlocksKit.m</includedby>
+    <includedby refid="_q_l_preview_controller_09_blocks_kit_8m" local="yes">XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/QuickLook/QLPreviewController+BlocksKit.m</includedby>
+    <includedby refid="_u_i_action_sheet_09_blocks_kit_8m" local="yes">XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIActionSheet+BlocksKit.m</includedby>
+    <includedby refid="_u_i_alert_view_09_blocks_kit_8m" local="yes">XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIAlertView+BlocksKit.m</includedby>
+    <includedby refid="_u_i_image_picker_controller_09_blocks_kit_8m" local="yes">XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIImagePickerController+BlocksKit.m</includedby>
+    <includedby refid="_u_i_popover_controller_09_blocks_kit_8m" local="yes">XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIPopoverController+BlocksKit.m</includedby>
+    <includedby refid="_u_i_text_field_09_blocks_kit_8m" local="yes">XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UITextField+BlocksKit.m</includedby>
+    <includedby refid="_u_i_web_view_09_blocks_kit_8m" local="yes">XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIWebView+BlocksKit.m</includedby>
+    <incdepgraph>
+      <node id="2951">
+        <label>Foundation/NSObjCRuntime.h</label>
+      </node>
+      <node id="2949">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/DynamicDelegate/NSObject+A2DynamicDelegate.h</label>
+        <link refid="NSObject+A2DynamicDelegate.h"/>
+        <childnode refid="2950" relation="include">
+        </childnode>
+        <childnode refid="2952" relation="include">
+        </childnode>
+      </node>
+      <node id="2950">
+        <label>BKDefines.h</label>
+        <link refid="_b_k_defines_8h"/>
+        <childnode refid="2951" relation="include">
+        </childnode>
+      </node>
+      <node id="2952">
+        <label>Foundation/Foundation.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2961">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIActionSheet+BlocksKit.m</label>
+        <link refid="_u_i_action_sheet_09_blocks_kit_8m"/>
+      </node>
+      <node id="2954">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/DynamicDelegate/Foundation/NSCache+BlocksKit.m</label>
+        <link refid="_n_s_cache_09_blocks_kit_8m"/>
+      </node>
+      <node id="2959">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/MessageUI/MFMessageComposeViewController+BlocksKit.m</label>
+        <link refid="_m_f_message_compose_view_controller_09_blocks_kit_8m"/>
+      </node>
+      <node id="2965">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UITextField+BlocksKit.m</label>
+        <link refid="_u_i_text_field_09_blocks_kit_8m"/>
+      </node>
+      <node id="2966">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIWebView+BlocksKit.m</label>
+        <link refid="_u_i_web_view_09_blocks_kit_8m"/>
+      </node>
+      <node id="2958">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/MessageUI/MFMailComposeViewController+BlocksKit.m</label>
+        <link refid="_m_f_mail_compose_view_controller_09_blocks_kit_8m"/>
+      </node>
+      <node id="2963">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIImagePickerController+BlocksKit.m</label>
+        <link refid="_u_i_image_picker_controller_09_blocks_kit_8m"/>
+      </node>
+      <node id="2962">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIAlertView+BlocksKit.m</label>
+        <link refid="_u_i_alert_view_09_blocks_kit_8m"/>
+      </node>
+      <node id="2953">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/DynamicDelegate/NSObject+A2DynamicDelegate.h</label>
+        <link refid="NSObject+A2DynamicDelegate.h"/>
+        <childnode refid="2954" relation="include">
+        </childnode>
+        <childnode refid="2955" relation="include">
+        </childnode>
+        <childnode refid="2956" relation="include">
+        </childnode>
+        <childnode refid="2957" relation="include">
+        </childnode>
+        <childnode refid="2958" relation="include">
+        </childnode>
+        <childnode refid="2959" relation="include">
+        </childnode>
+        <childnode refid="2960" relation="include">
+        </childnode>
+        <childnode refid="2961" relation="include">
+        </childnode>
+        <childnode refid="2962" relation="include">
+        </childnode>
+        <childnode refid="2963" relation="include">
+        </childnode>
+        <childnode refid="2964" relation="include">
+        </childnode>
+        <childnode refid="2965" relation="include">
+        </childnode>
+        <childnode refid="2966" relation="include">
+        </childnode>
+      </node>
+      <node id="2957">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/DynamicDelegate/NSObject+A2DynamicDelegate.m</label>
+        <link refid="_n_s_object_09_a2_dynamic_delegate_8m"/>
+      </node>
+      <node id="2960">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/QuickLook/QLPreviewController+BlocksKit.m</label>
+        <link refid="_q_l_preview_controller_09_blocks_kit_8m"/>
+      </node>
+      <node id="2956">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/DynamicDelegate/NSObject+A2BlockDelegate.m</label>
+        <link refid="_n_s_object_09_a2_block_delegate_8m"/>
+      </node>
+      <node id="2955">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/DynamicDelegate/Foundation/NSURLConnection+BlocksKit.m</label>
+        <link refid="_n_s_u_r_l_connection_09_blocks_kit_8m"/>
+      </node>
+      <node id="2964">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIPopoverController+BlocksKit.m</label>
+        <link refid="_u_i_popover_controller_09_blocks_kit_8m"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="category_n_s_object_07_a2_dynamic_delegate_08" prot="public">NSObject(A2DynamicDelegate)</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>NSObject+A2DynamicDelegate.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>BlocksKit</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_b_k_defines_8h" kindref="compound">BKDefines.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;Foundation/Foundation.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><ref refid="_b_k_defines_8h_1a33c08c6ca8f22acd327c850ca2151f17" kindref="member">NS_ASSUME_NONNULL_BEGIN</ref></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="category_n_s_object_07_a2_dynamic_delegate_08" refkind="compound"><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="category_n_s_object_07_a2_dynamic_delegate_08" kindref="compound">NSObject (A2DynamicDelegate)</ref></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31" refid="category_n_s_object_07_a2_dynamic_delegate_08_1aba5bf5e940d65def47a1d2e7a5596bb7" refkind="member"><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(readonly,<sp/>strong)<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>bk_dynamicDataSource;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49" refid="category_n_s_object_07_a2_dynamic_delegate_08_1a30c9c24e3b62aff961a2bb787e8eaeef" refkind="member"><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(readonly,<sp/>strong)<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>bk_dynamicDelegate;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal">-<sp/>(id)bk_dynamicDelegateForProtocol:(Protocol<sp/>*)protocol;</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><ref refid="_b_k_defines_8h_1a34f05dab7f212780aa8f76bbb465ce67" kindref="member">NS_ASSUME_NONNULL_END</ref></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/DynamicDelegate/NSObject+A2DynamicDelegate.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_u_i_color_07_s_b_collection_view_table_layout_colors_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>UIColor(SBCollectionViewTableLayoutColors)</compoundname>
+    <includes refid="_u_i_color_09_s_b_collection_view_table_layout_colors_8h" local="no">UIColor+SBCollectionViewTableLayoutColors.h</includes>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="category_u_i_color_07_s_b_collection_view_table_layout_colors_08_1ad3e10d1f566f29292cb6ae3ee7c8e6dd" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>UIColor *</type>
+        <definition>UIColor * UIColor(SBCollectionViewTableLayoutColors)::sb_cellSeparatorColor</definition>
+        <argsstring>()</argsstring>
+        <name>sb_cellSeparatorColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the default color of a separator used in a grouped UITableView</para><para><simplesect kind="return"><para>Returns the default color of a separator used in a grouped UITableView </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/SBTableLayout/UIColor+SBCollectionViewTableLayoutColors.h" line="42" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/SBTableLayout/UIColor+SBCollectionViewTableLayoutColors.m" bodystart="13" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_color_07_s_b_collection_view_table_layout_colors_08_1a15e6e509a4ffef339e190cf66ec051c3" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>UIColor *</type>
+        <definition>UIColor * UIColor(SBCollectionViewTableLayoutColors)::sb_cellBackgroundColor</definition>
+        <argsstring>()</argsstring>
+        <name>sb_cellBackgroundColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the default color of a cell background used in a grouped UITableView</para><para><simplesect kind="return"><para>Returns the default color of a cell background used in a grouped UITableView </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/SBTableLayout/UIColor+SBCollectionViewTableLayoutColors.h" line="42" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/SBTableLayout/UIColor+SBCollectionViewTableLayoutColors.m" bodystart="17" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_color_07_s_b_collection_view_table_layout_colors_08_1abb438cb0b996111e8aae594a516b1eb6" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>UIColor *</type>
+        <definition>UIColor * UIColor(SBCollectionViewTableLayoutColors)::sb_cellSelectedBacgroundColor</definition>
+        <argsstring>()</argsstring>
+        <name>sb_cellSelectedBacgroundColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the default color of a selected cell background used in a grouped UITableView</para><para><simplesect kind="return"><para>Returns the default color of a selected cell background used in a grouped UITableView </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/SBTableLayout/UIColor+SBCollectionViewTableLayoutColors.h" line="42" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/SBTableLayout/UIColor+SBCollectionViewTableLayoutColors.m" bodystart="21" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_color_07_s_b_collection_view_table_layout_colors_08_1ac77d4fd7e5f62798b14312265f861934" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>UIColor *</type>
+        <definition>UIColor * UIColor(SBCollectionViewTableLayoutColors)::sb_tableBackgroundColor</definition>
+        <argsstring>()</argsstring>
+        <name>sb_tableBackgroundColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the default color of the background in a grouped UITableView</para><para><simplesect kind="return"><para>Returns the default color of the background in a grouped UITableView </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/SBTableLayout/UIColor+SBCollectionViewTableLayoutColors.h" line="42" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/SBTableLayout/UIColor+SBCollectionViewTableLayoutColors.m" bodystart="25" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_color_07_s_b_collection_view_table_layout_colors_08_1a9569aff8d44f31e44f71b5086a4dcf96" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>UIColor *</type>
+        <definition>UIColor * UIColor(SBCollectionViewTableLayoutColors)::sb_supplementaryViewTextColor</definition>
+        <argsstring>()</argsstring>
+        <name>sb_supplementaryViewTextColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the default text color of the header / footer text in a grouped UITableView</para><para><simplesect kind="return"><para>Returns the default text color of the header / footer text in a grouped UITableView </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/SBTableLayout/UIColor+SBCollectionViewTableLayoutColors.h" line="42" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/SBTableLayout/UIColor+SBCollectionViewTableLayoutColors.m" bodystart="29" bodyend="31"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A helper class with the default colors a grouped UITableView uses. </para>    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/SBTableLayout/UIColor+SBCollectionViewTableLayoutColors.h" line="14" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/SBTableLayout/UIColor+SBCollectionViewTableLayoutColors.h" bodystart="14" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_u_i_color_07_s_b_collection_view_table_layout_colors_08_1a15e6e509a4ffef339e190cf66ec051c3" prot="public" virt="virtual"><scope>UIColor(SBCollectionViewTableLayoutColors)</scope><name>sb_cellBackgroundColor</name></member>
+      <member refid="category_u_i_color_07_s_b_collection_view_table_layout_colors_08_1abb438cb0b996111e8aae594a516b1eb6" prot="public" virt="virtual"><scope>UIColor(SBCollectionViewTableLayoutColors)</scope><name>sb_cellSelectedBacgroundColor</name></member>
+      <member refid="category_u_i_color_07_s_b_collection_view_table_layout_colors_08_1ad3e10d1f566f29292cb6ae3ee7c8e6dd" prot="public" virt="virtual"><scope>UIColor(SBCollectionViewTableLayoutColors)</scope><name>sb_cellSeparatorColor</name></member>
+      <member refid="category_u_i_color_07_s_b_collection_view_table_layout_colors_08_1a9569aff8d44f31e44f71b5086a4dcf96" prot="public" virt="virtual"><scope>UIColor(SBCollectionViewTableLayoutColors)</scope><name>sb_supplementaryViewTextColor</name></member>
+      <member refid="category_u_i_color_07_s_b_collection_view_table_layout_colors_08_1ac77d4fd7e5f62798b14312265f861934" prot="public" virt="virtual"><scope>UIColor(SBCollectionViewTableLayoutColors)</scope><name>sb_tableBackgroundColor</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

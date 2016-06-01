@@ -1,0 +1,164 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_u_i_scroll_view_09_addition_8m" kind="file" language="Objective-C">
+    <compoundname>UIScrollView+Addition.m</compoundname>
+    <includes refid="_u_i_scroll_view_09_addition_8h" local="yes">UIScrollView+Addition.h</includes>
+    <incdepgraph>
+      <node id="1824">
+        <label>UIKit/UIKit.h</label>
+      </node>
+      <node id="1823">
+        <label>UIScrollView+Addition.h</label>
+        <link refid="_u_i_scroll_view_09_addition_8h"/>
+        <childnode refid="1824" relation="include">
+        </childnode>
+      </node>
+      <node id="1822">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIScrollView/UIScrollView+Addition.m</label>
+        <link refid="UIScrollView+Addition.m"/>
+        <childnode refid="1823" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>UIScrollView+Addition.m</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>iOS-Categories<sp/>(https://github.com/shaojiankui/iOS-Categories)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Jakey<sp/>on<sp/>14/12/30.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2014年<sp/>www.skyfox.org.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_u_i_scroll_view_09_addition_8h" kindref="compound">UIScrollView+Addition.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="category_u_i_scroll_view_07_addition_08" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">@implementation<sp/></highlight><highlight class="normal"><ref refid="category_u_i_scroll_view_07_addition_08" kindref="compound">UIScrollView (Addition)</ref></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="comment">//frame</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal">-<sp/>(CGFloat)<ref refid="category_u_i_scroll_view_07_addition_08_1a712dc54a0799a06ac984db277a0b7075" kindref="member">contentWidth</ref><sp/>{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.contentSize.width;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">-<sp/>(void)setContentWidth:(CGFloat)width<sp/>{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.contentSize<sp/>=<sp/>CGSizeMake(width,<sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.frame.size.height);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="19"><highlight class="normal">-<sp/>(CGFloat)<ref refid="category_u_i_scroll_view_07_addition_08_1ac1bfe8aac701a3f69dcd6905a77a5c02" kindref="member">contentHeight</ref><sp/>{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.contentSize.height;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">-<sp/>(void)setContentHeight:(CGFloat)height<sp/>{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.contentSize<sp/>=<sp/>CGSizeMake(</highlight><highlight class="keyword">self</highlight><highlight class="normal">.frame.size.width,<sp/>height);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="25"><highlight class="normal">-<sp/>(CGFloat)<ref refid="category_u_i_scroll_view_07_addition_08_1add43ea32be003f91393c3dcd6c24cbeb" kindref="member">contentOffsetX</ref><sp/>{</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.contentOffset.x;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="28"><highlight class="normal">-<sp/>(void)setContentOffsetX:(CGFloat)x<sp/>{</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.contentOffset<sp/>=<sp/>CGPointMake(x,<sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.contentOffset.y);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">-<sp/>(CGFloat)<ref refid="category_u_i_scroll_view_07_addition_08_1a6aec8fb5f8bb28ad0f213fb7e8f27f15" kindref="member">contentOffsetY</ref><sp/>{</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.contentOffset.y;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="34"><highlight class="normal">-<sp/>(void)setContentOffsetY:(CGFloat)y<sp/>{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.contentOffset<sp/>=<sp/>CGPointMake(</highlight><highlight class="keyword">self</highlight><highlight class="normal">.contentOffset.x,<sp/>y);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40" refid="category_u_i_scroll_view_07_addition_08_1a1089f39b4d65d19bad6926c5dff2ad54" refkind="member"><highlight class="normal">-<sp/>(CGPoint)<ref refid="category_u_i_scroll_view_07_addition_08_1a1089f39b4d65d19bad6926c5dff2ad54" kindref="member">topContentOffset</ref></highlight></codeline>
+<codeline lineno="41"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>CGPointMake(0.0f,<sp/>-</highlight><highlight class="keyword">self</highlight><highlight class="normal">.contentInset.top);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="44" refid="category_u_i_scroll_view_07_addition_08_1a80033c709ce1499f9891f4f96d020833" refkind="member"><highlight class="normal">-<sp/>(CGPoint)<ref refid="category_u_i_scroll_view_07_addition_08_1a80033c709ce1499f9891f4f96d020833" kindref="member">bottomContentOffset</ref></highlight></codeline>
+<codeline lineno="45"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>CGPointMake(0.0f,<sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.contentSize.height<sp/>+<sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.contentInset.bottom<sp/>-<sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.bounds.size.height);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="48" refid="category_u_i_scroll_view_07_addition_08_1a43872ca8bd179a8035259116e159ccde" refkind="member"><highlight class="normal">-<sp/>(CGPoint)<ref refid="category_u_i_scroll_view_07_addition_08_1a43872ca8bd179a8035259116e159ccde" kindref="member">leftContentOffset</ref></highlight></codeline>
+<codeline lineno="49"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>CGPointMake(-</highlight><highlight class="keyword">self</highlight><highlight class="normal">.contentInset.left,<sp/>0.0f);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="52" refid="category_u_i_scroll_view_07_addition_08_1ab334aa6c6cc33b65d394a7a7b16f0bc8" refkind="member"><highlight class="normal">-<sp/>(CGPoint)<ref refid="category_u_i_scroll_view_07_addition_08_1ab334aa6c6cc33b65d394a7a7b16f0bc8" kindref="member">rightContentOffset</ref></highlight></codeline>
+<codeline lineno="53"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>CGPointMake(</highlight><highlight class="keyword">self</highlight><highlight class="normal">.contentSize.width<sp/>+<sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.contentInset.right<sp/>-<sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.bounds.size.width,<sp/>0.0f);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="56" refid="category_u_i_scroll_view_07_addition_08_1a2b4195d60bc63844a24807a7ab6f441d" refkind="member"><highlight class="normal">-<sp/>(<ref refid="category_u_i_scroll_view_07_addition_08_1a2b4195d60bc63844a24807a7ab6f441d" kindref="member">ScrollDirection</ref>)<ref refid="category_u_i_scroll_view_07_addition_08_1a2b4195d60bc63844a24807a7ab6f441d" kindref="member">ScrollDirection</ref></highlight></codeline>
+<codeline lineno="57"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="category_u_i_scroll_view_07_addition_08_1a2b4195d60bc63844a24807a7ab6f441d" kindref="member">ScrollDirection</ref><sp/>direction;</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>([</highlight><highlight class="keyword">self</highlight><highlight class="normal">.panGestureRecognizer<sp/>translationInView:</highlight><highlight class="keyword">self</highlight><highlight class="normal">.superview].y<sp/>&gt;<sp/>0.0f)</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>direction<sp/>=<sp/>ScrollDirectionUp;</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>([</highlight><highlight class="keyword">self</highlight><highlight class="normal">.panGestureRecognizer<sp/>translationInView:</highlight><highlight class="keyword">self</highlight><highlight class="normal">.superview].y<sp/>&lt;<sp/>0.0f)</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>direction<sp/>=<sp/>ScrollDirectionDown;</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>([</highlight><highlight class="keyword">self</highlight><highlight class="normal">.panGestureRecognizer<sp/>translationInView:</highlight><highlight class="keyword">self</highlight><highlight class="normal">].x<sp/>&lt;<sp/>0.0f)</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>direction<sp/>=<sp/>ScrollDirectionLeft;</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>([</highlight><highlight class="keyword">self</highlight><highlight class="normal">.panGestureRecognizer<sp/>translationInView:</highlight><highlight class="keyword">self</highlight><highlight class="normal">].x<sp/>&gt;<sp/>0.0f)</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>direction<sp/>=<sp/>ScrollDirectionRight;</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>direction<sp/>=<sp/>ScrollDirectionWTF;</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>direction;</highlight></codeline>
+<codeline lineno="82"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="83" refid="category_u_i_scroll_view_07_addition_08_1a6a1997f0f6f6b31fcd4175112f5d09dd" refkind="member"><highlight class="normal">-<sp/>(BOOL)<ref refid="category_u_i_scroll_view_07_addition_08_1a6a1997f0f6f6b31fcd4175112f5d09dd" kindref="member">isScrolledToTop</ref></highlight></codeline>
+<codeline lineno="84"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.contentOffset.y<sp/>&lt;=<sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/><ref refid="category_u_i_scroll_view_07_addition_08_1a1089f39b4d65d19bad6926c5dff2ad54" kindref="member">topContentOffset</ref>].y;</highlight></codeline>
+<codeline lineno="86"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="87" refid="category_u_i_scroll_view_07_addition_08_1add53555142c0daa4df9b36be213fde25" refkind="member"><highlight class="normal">-<sp/>(BOOL)<ref refid="category_u_i_scroll_view_07_addition_08_1add53555142c0daa4df9b36be213fde25" kindref="member">isScrolledToBottom</ref></highlight></codeline>
+<codeline lineno="88"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.contentOffset.y<sp/>&gt;=<sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/><ref refid="category_u_i_scroll_view_07_addition_08_1a80033c709ce1499f9891f4f96d020833" kindref="member">bottomContentOffset</ref>].y;</highlight></codeline>
+<codeline lineno="90"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="91" refid="category_u_i_scroll_view_07_addition_08_1acc8f987398a17327e146a4427ed756c8" refkind="member"><highlight class="normal">-<sp/>(BOOL)<ref refid="category_u_i_scroll_view_07_addition_08_1acc8f987398a17327e146a4427ed756c8" kindref="member">isScrolledToLeft</ref></highlight></codeline>
+<codeline lineno="92"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.contentOffset.x<sp/>&lt;=<sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/><ref refid="category_u_i_scroll_view_07_addition_08_1a43872ca8bd179a8035259116e159ccde" kindref="member">leftContentOffset</ref>].x;</highlight></codeline>
+<codeline lineno="94"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="95" refid="category_u_i_scroll_view_07_addition_08_1af3638e061783f5d9d55fe40518c7d658" refkind="member"><highlight class="normal">-<sp/>(BOOL)<ref refid="category_u_i_scroll_view_07_addition_08_1af3638e061783f5d9d55fe40518c7d658" kindref="member">isScrolledToRight</ref></highlight></codeline>
+<codeline lineno="96"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.contentOffset.x<sp/>&gt;=<sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/><ref refid="category_u_i_scroll_view_07_addition_08_1ab334aa6c6cc33b65d394a7a7b16f0bc8" kindref="member">rightContentOffset</ref>].x;</highlight></codeline>
+<codeline lineno="98"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="99" refid="category_u_i_scroll_view_07_addition_08_1a474bca727c61eb456d166c322f339064" refkind="member"><highlight class="normal">-<sp/>(void)scrollToTopAnimated:(BOOL)animated</highlight></codeline>
+<codeline lineno="100"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>setContentOffset:[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/><ref refid="category_u_i_scroll_view_07_addition_08_1a1089f39b4d65d19bad6926c5dff2ad54" kindref="member">topContentOffset</ref>]<sp/>animated:animated];</highlight></codeline>
+<codeline lineno="102"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="103" refid="category_u_i_scroll_view_07_addition_08_1a4e90d31b03536cd841111d0de7c41664" refkind="member"><highlight class="normal">-<sp/>(void)scrollToBottomAnimated:(BOOL)animated</highlight></codeline>
+<codeline lineno="104"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>setContentOffset:[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/><ref refid="category_u_i_scroll_view_07_addition_08_1a80033c709ce1499f9891f4f96d020833" kindref="member">bottomContentOffset</ref>]<sp/>animated:animated];</highlight></codeline>
+<codeline lineno="106"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="107" refid="category_u_i_scroll_view_07_addition_08_1a01f4cc42094ef9af035b2da4556eefa8" refkind="member"><highlight class="normal">-<sp/>(void)scrollToLeftAnimated:(BOOL)animated</highlight></codeline>
+<codeline lineno="108"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>setContentOffset:[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/><ref refid="category_u_i_scroll_view_07_addition_08_1a43872ca8bd179a8035259116e159ccde" kindref="member">leftContentOffset</ref>]<sp/>animated:animated];</highlight></codeline>
+<codeline lineno="110"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="111" refid="category_u_i_scroll_view_07_addition_08_1a6096b448c9d3f92b807bedc5491aca3b" refkind="member"><highlight class="normal">-<sp/>(void)scrollToRightAnimated:(BOOL)animated</highlight></codeline>
+<codeline lineno="112"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>setContentOffset:[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/><ref refid="category_u_i_scroll_view_07_addition_08_1ab334aa6c6cc33b65d394a7a7b16f0bc8" kindref="member">rightContentOffset</ref>]<sp/>animated:animated];</highlight></codeline>
+<codeline lineno="114"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="115" refid="category_u_i_scroll_view_07_addition_08_1a1126522a77dbb87a872cee09e0721b1f" refkind="member"><highlight class="normal">-<sp/>(NSUInteger)<ref refid="category_u_i_scroll_view_07_addition_08_1a1126522a77dbb87a872cee09e0721b1f" kindref="member">verticalPageIndex</ref></highlight></codeline>
+<codeline lineno="116"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">self</highlight><highlight class="normal">.contentOffset.y<sp/>+<sp/>(</highlight><highlight class="keyword">self</highlight><highlight class="normal">.frame.size.height<sp/>*<sp/>0.5f))<sp/>/<sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.frame.size.height;</highlight></codeline>
+<codeline lineno="118"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="119" refid="category_u_i_scroll_view_07_addition_08_1a357146e29056c1d38028ea166078db84" refkind="member"><highlight class="normal">-<sp/>(NSUInteger)<ref refid="category_u_i_scroll_view_07_addition_08_1a357146e29056c1d38028ea166078db84" kindref="member">horizontalPageIndex</ref></highlight></codeline>
+<codeline lineno="120"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">self</highlight><highlight class="normal">.contentOffset.x<sp/>+<sp/>(</highlight><highlight class="keyword">self</highlight><highlight class="normal">.frame.size.width<sp/>*<sp/>0.5f))<sp/>/<sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.frame.size.width;</highlight></codeline>
+<codeline lineno="122"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="123" refid="category_u_i_scroll_view_07_addition_08_1a173d79173daeddba1946964e73963ed6" refkind="member"><highlight class="normal">-<sp/>(void)scrollToVerticalPageIndex:(NSUInteger)pageIndex<sp/>animated:(BOOL)animated</highlight></codeline>
+<codeline lineno="124"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>setContentOffset:CGPointMake(0.0f,<sp/>self.frame.size.height<sp/>*<sp/>pageIndex)<sp/>animated:animated];</highlight></codeline>
+<codeline lineno="126"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="127" refid="category_u_i_scroll_view_07_addition_08_1ac1f688d97db893fec812201251806da7" refkind="member"><highlight class="normal">-<sp/>(void)scrollToHorizontalPageIndex:(NSUInteger)pageIndex<sp/>animated:(BOOL)animated</highlight></codeline>
+<codeline lineno="128"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>setContentOffset:CGPointMake(self.frame.size.width<sp/>*<sp/>pageIndex,<sp/>0.0f)<sp/>animated:animated];</highlight></codeline>
+<codeline lineno="130"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIScrollView/UIScrollView+Addition.m"/>
+  </compounddef>
+</doxygen>

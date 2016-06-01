@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_u_i_image_09_rounded_corner_8h" kind="file" language="C++">
+    <compoundname>UIImage+RoundedCorner.h</compoundname>
+    <includes local="no">UIKit/UIKit.h</includes>
+    <includedby refid="_u_i_image_09_resize_8m" local="yes">XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImage/UIImage+Resize.m</includedby>
+    <includedby refid="_u_i_image_09_rounded_corner_8m" local="yes">XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImage/UIImage+RoundedCorner.m</includedby>
+    <incdepgraph>
+      <node id="1569">
+        <label>UIKit/UIKit.h</label>
+      </node>
+      <node id="1568">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImage/UIImage+RoundedCorner.h</label>
+        <link refid="UIImage+RoundedCorner.h"/>
+        <childnode refid="1569" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1571">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImage/UIImage+Resize.m</label>
+        <link refid="_u_i_image_09_resize_8m"/>
+      </node>
+      <node id="1570">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImage/UIImage+RoundedCorner.h</label>
+        <link refid="UIImage+RoundedCorner.h"/>
+        <childnode refid="1571" relation="include">
+        </childnode>
+        <childnode refid="1572" relation="include">
+        </childnode>
+      </node>
+      <node id="1572">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImage/UIImage+RoundedCorner.m</label>
+        <link refid="_u_i_image_09_rounded_corner_8m"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="category_u_i_image_07_rounded_corner_08" prot="public">UIImage(RoundedCorner)</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>UIImage+RoundedCorner.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Created<sp/>by<sp/>Trevor<sp/>Harmon<sp/>on<sp/>9/20/09.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Free<sp/>for<sp/>personal<sp/>or<sp/>commercial<sp/>use,<sp/>with<sp/>or<sp/>without<sp/>modification.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//<sp/>No<sp/>warranty<sp/>is<sp/>expressed<sp/>or<sp/>implied.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Extends<sp/>the<sp/>UIImage<sp/>class<sp/>to<sp/>support<sp/>making<sp/>rounded<sp/>corners</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;UIKit/UIKit.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="category_u_i_image_07_rounded_corner_08" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="category_u_i_image_07_rounded_corner_08" kindref="compound">UIImage (RoundedCorner)</ref></highlight></codeline>
+<codeline lineno="9"><highlight class="normal">-<sp/>(UIImage<sp/>*)roundedCornerImage:(NSInteger)cornerSize<sp/>borderSize:(NSInteger)borderSize;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImage/UIImage+RoundedCorner.h"/>
+  </compounddef>
+</doxygen>

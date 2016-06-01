@@ -1,0 +1,214 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_n_s_managed_object_07_extensions_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>NSManagedObject(Extensions)</compoundname>
+    <includes refid="_n_s_managed_object_09_extensions_8h" local="no">NSManagedObject+Extensions.h</includes>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="category_n_s_managed_object_07_extensions_08_1a70addff0dcd091ea376149e7c19800d8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>id</type>
+        <definition>id NSManagedObject(Extensions)::create:</definition>
+        <argsstring>(NSManagedObjectContext *context)</argsstring>
+        <name>create:</name>
+        <param>
+          <type>NSManagedObjectContext *</type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSManagedObject/NSManagedObject+Extensions.h" line="11" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSManagedObject/NSManagedObject+Extensions.m" bodystart="13" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_managed_object_07_extensions_08_1a379a2e7ae9c0430d7d0776e3e6857fd3" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>id</type>
+        <definition>id NSManagedObject(Extensions)::create:inContext:</definition>
+        <argsstring>(NSDictionary *dict,[inContext] NSManagedObjectContext *context)</argsstring>
+        <name>create:inContext:</name>
+        <param>
+          <type>NSDictionary *</type>
+          <declname>dict</declname>
+        </param>
+        <param>
+          <attributes>[inContext]</attributes>
+          <type>NSManagedObjectContext *</type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSManagedObject/NSManagedObject+Extensions.h" line="11" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSManagedObject/NSManagedObject+Extensions.m" bodystart="17" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_managed_object_07_extensions_08_1a9cacf887c3ab46aa82932aaf21752cd7" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>id</type>
+        <definition>id NSManagedObject(Extensions)::find:inContext:</definition>
+        <argsstring>(NSPredicate *predicate,[inContext] NSManagedObjectContext *context)</argsstring>
+        <name>find:inContext:</name>
+        <param>
+          <type>NSPredicate *</type>
+          <declname>predicate</declname>
+        </param>
+        <param>
+          <attributes>[inContext]</attributes>
+          <type>NSManagedObjectContext *</type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSManagedObject/NSManagedObject+Extensions.h" line="11" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSManagedObject/NSManagedObject+Extensions.m" bodystart="26" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_managed_object_07_extensions_08_1a84bd5bf99fabd4d436f6a5f4bbd4ceef" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>id</type>
+        <definition>id NSManagedObject(Extensions)::find:sortDescriptors:inContext:</definition>
+        <argsstring>(NSPredicate *predicate,[sortDescriptors] NSArray *sortDescriptors,[inContext] NSManagedObjectContext *context)</argsstring>
+        <name>find:sortDescriptors:inContext:</name>
+        <param>
+          <type>NSPredicate *</type>
+          <declname>predicate</declname>
+        </param>
+        <param>
+          <attributes>[sortDescriptors]</attributes>
+          <type>NSArray *</type>
+          <declname>sortDescriptors</declname>
+        </param>
+        <param>
+          <attributes>[inContext]</attributes>
+          <type>NSManagedObjectContext *</type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSManagedObject/NSManagedObject+Extensions.h" line="11" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSManagedObject/NSManagedObject+Extensions.m" bodystart="31" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_managed_object_07_extensions_08_1a639e850d0bb1ef64aa4a0e3dd411c550" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSArray *</type>
+        <definition>NSArray * NSManagedObject(Extensions)::all:inContext:</definition>
+        <argsstring>(NSPredicate *predicate,[inContext] NSManagedObjectContext *context)</argsstring>
+        <name>all:inContext:</name>
+        <param>
+          <type>NSPredicate *</type>
+          <declname>predicate</declname>
+        </param>
+        <param>
+          <attributes>[inContext]</attributes>
+          <type>NSManagedObjectContext *</type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSManagedObject/NSManagedObject+Extensions.h" line="11" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSManagedObject/NSManagedObject+Extensions.m" bodystart="37" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_managed_object_07_extensions_08_1a1cf70243f49be63ed42dfa000f144e0c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSArray *</type>
+        <definition>NSArray * NSManagedObject(Extensions)::all:sortDescriptors:inContext:</definition>
+        <argsstring>(NSPredicate *predicate,[sortDescriptors] NSArray *sortDescriptors,[inContext] NSManagedObjectContext *context)</argsstring>
+        <name>all:sortDescriptors:inContext:</name>
+        <param>
+          <type>NSPredicate *</type>
+          <declname>predicate</declname>
+        </param>
+        <param>
+          <attributes>[sortDescriptors]</attributes>
+          <type>NSArray *</type>
+          <declname>sortDescriptors</declname>
+        </param>
+        <param>
+          <attributes>[inContext]</attributes>
+          <type>NSManagedObjectContext *</type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSManagedObject/NSManagedObject+Extensions.h" line="11" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSManagedObject/NSManagedObject+Extensions.m" bodystart="42" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_managed_object_07_extensions_08_1ae329da9ca98a5b7daf6d4c52727d2d08" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSUInteger</type>
+        <definition>NSUInteger NSManagedObject(Extensions)::count:inContext:</definition>
+        <argsstring>(NSPredicate *predicate,[inContext] NSManagedObjectContext *contex)</argsstring>
+        <name>count:inContext:</name>
+        <param>
+          <type>NSPredicate *</type>
+          <declname>predicate</declname>
+        </param>
+        <param>
+          <attributes>[inContext]</attributes>
+          <type>NSManagedObjectContext *</type>
+          <declname>contex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSManagedObject/NSManagedObject+Extensions.h" line="11" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSManagedObject/NSManagedObject+Extensions.m" bodystart="48" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_managed_object_07_extensions_08_1ae8d433faf7c80f5eabf99bfda59a0b94" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * NSManagedObject(Extensions)::entityName</definition>
+        <argsstring>()</argsstring>
+        <name>entityName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSManagedObject/NSManagedObject+Extensions.h" line="11" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSManagedObject/NSManagedObject+Extensions.m" bodystart="58" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_managed_object_07_extensions_08_1a9f52e643cb06698501f8e07380c73cd7" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSError *</type>
+        <definition>NSError * NSManagedObject(Extensions)::deleteAll:</definition>
+        <argsstring>(NSManagedObjectContext *context)</argsstring>
+        <name>deleteAll:</name>
+        <param>
+          <type>NSManagedObjectContext *</type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSManagedObject/NSManagedObject+Extensions.h" line="11" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSManagedObject/NSManagedObject+Extensions.m" bodystart="62" bodyend="76"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSManagedObject/NSManagedObject+Extensions.m" line="11" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSManagedObject/NSManagedObject+Extensions.m" bodystart="11" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_n_s_managed_object_07_extensions_08_1a639e850d0bb1ef64aa4a0e3dd411c550" prot="public" virt="virtual"><scope>NSManagedObject(Extensions)</scope><name>all:inContext:</name></member>
+      <member refid="category_n_s_managed_object_07_extensions_08_1a1cf70243f49be63ed42dfa000f144e0c" prot="public" virt="virtual"><scope>NSManagedObject(Extensions)</scope><name>all:sortDescriptors:inContext:</name></member>
+      <member refid="category_n_s_managed_object_07_extensions_08_1ae329da9ca98a5b7daf6d4c52727d2d08" prot="public" virt="virtual"><scope>NSManagedObject(Extensions)</scope><name>count:inContext:</name></member>
+      <member refid="category_n_s_managed_object_07_extensions_08_1a70addff0dcd091ea376149e7c19800d8" prot="public" virt="virtual"><scope>NSManagedObject(Extensions)</scope><name>create:</name></member>
+      <member refid="category_n_s_managed_object_07_extensions_08_1a379a2e7ae9c0430d7d0776e3e6857fd3" prot="public" virt="virtual"><scope>NSManagedObject(Extensions)</scope><name>create:inContext:</name></member>
+      <member refid="category_n_s_managed_object_07_extensions_08_1a9f52e643cb06698501f8e07380c73cd7" prot="public" virt="virtual"><scope>NSManagedObject(Extensions)</scope><name>deleteAll:</name></member>
+      <member refid="category_n_s_managed_object_07_extensions_08_1ae8d433faf7c80f5eabf99bfda59a0b94" prot="public" virt="virtual"><scope>NSManagedObject(Extensions)</scope><name>entityName</name></member>
+      <member refid="category_n_s_managed_object_07_extensions_08_1a9cacf887c3ab46aa82932aaf21752cd7" prot="public" virt="virtual"><scope>NSManagedObject(Extensions)</scope><name>find:inContext:</name></member>
+      <member refid="category_n_s_managed_object_07_extensions_08_1a84bd5bf99fabd4d436f6a5f4bbd4ceef" prot="public" virt="virtual"><scope>NSManagedObject(Extensions)</scope><name>find:sortDescriptors:inContext:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

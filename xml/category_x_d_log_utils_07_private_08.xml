@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_x_d_log_utils_07_private_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>XDLogUtils(Private)</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="category_x_d_log_utils_07_private_08_1a0f5dd35e78a95ca3d21af4981c63fec5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * XDLogUtils(Private)::logFilePath:</definition>
+        <argsstring>(NSString *logFile)</argsstring>
+        <name>logFilePath:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>logFile</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Debug/XDLogUtils.m" line="11" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Debug/XDLogUtils.m" bodystart="59" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="category_x_d_log_utils_07_private_08_1a6a263b79a808af0169def37114d6150c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * XDLogUtils(Private)::logTimeStringFromDate:</definition>
+        <argsstring>(NSDate *date)</argsstring>
+        <name>logTimeStringFromDate:</name>
+        <param>
+          <type>NSDate *</type>
+          <declname>date</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Debug/XDLogUtils.m" line="11" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Debug/XDLogUtils.m" bodystart="67" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="category_x_d_log_utils_07_private_08_1ab3c71037707e0e2208d3bb0da4ebfa94" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void XDLogUtils(Private)::writeLogToFile:log:</definition>
+        <argsstring>(NSString *filePath,[log] NSString *log)</argsstring>
+        <name>writeLogToFile:log:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>filePath</declname>
+        </param>
+        <param>
+          <attributes>[log]</attributes>
+          <type>NSString *</type>
+          <declname>log</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Debug/XDLogUtils.m" line="11" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Debug/XDLogUtils.m" bodystart="25" bodyend="57"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Debug/XDLogUtils.m" line="13" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Debug/XDLogUtils.m" bodystart="13" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_x_d_log_utils_07_private_08_1a0f5dd35e78a95ca3d21af4981c63fec5" prot="public" virt="virtual"><scope>XDLogUtils(Private)</scope><name>logFilePath:</name></member>
+      <member refid="category_x_d_log_utils_07_private_08_1a6a263b79a808af0169def37114d6150c" prot="public" virt="virtual"><scope>XDLogUtils(Private)</scope><name>logTimeStringFromDate:</name></member>
+      <member refid="category_x_d_log_utils_07_private_08_1ab3c71037707e0e2208d3bb0da4ebfa94" prot="public" virt="virtual"><scope>XDLogUtils(Private)</scope><name>writeLogToFile:log:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

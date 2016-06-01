@@ -1,0 +1,522 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_u_i_device_09_hardware_8h" kind="file" language="C++">
+    <compoundname>UIDevice+Hardware.h</compoundname>
+    <includes local="no">UIKit/UIKit.h</includes>
+    <includedby refid="_u_i_device_09_hardware_8m" local="yes">XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIDevice/UIDevice+Hardware.m</includedby>
+    <incdepgraph>
+      <node id="1386">
+        <label>UIKit/UIKit.h</label>
+      </node>
+      <node id="1385">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIDevice/UIDevice+Hardware.h</label>
+        <link refid="UIDevice+Hardware.h"/>
+        <childnode refid="1386" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1387">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIDevice/UIDevice+Hardware.h</label>
+        <link refid="UIDevice+Hardware.h"/>
+        <childnode refid="1388" relation="include">
+        </childnode>
+      </node>
+      <node id="1388">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIDevice/UIDevice+Hardware.m</label>
+        <link refid="_u_i_device_09_hardware_8m"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="category_u_i_device_07_hardware_08" prot="public">UIDevice(Hardware)</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="_u_i_device_09_hardware_8h_1aa64dda75db305b2e091955e6a2fbe61d" prot="public" static="no">
+        <name>IS_IPAD</name>
+        <initializer>(UI_USER_INTERFACE_IDIOM()==UIUserInterfaceIdiomPad)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIDevice/UIDevice+Hardware.h" line="11" column="9" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIDevice/UIDevice+Hardware.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_u_i_device_09_hardware_8h_1a1bb7b1e7b3e2bfc98daf5c928b72320a" prot="public" static="no">
+        <name>DEVICE_IOS_VERSION</name>
+        <initializer>[[UIDevice currentDevice].systemVersion floatValue]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIDevice/UIDevice+Hardware.h" line="12" column="9" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIDevice/UIDevice+Hardware.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_u_i_device_09_hardware_8h_1ad5449978957339eba94e1952cdf8aeda" prot="public" static="no">
+        <name>DEVICE_HARDWARE_BETTER_THAN</name>
+        <param><defname>i</defname></param>
+        <initializer>[[UIDevice currentDevice] isCurrentDeviceHardwareBetterThan:i]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIDevice/UIDevice+Hardware.h" line="13" column="9" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIDevice/UIDevice+Hardware.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_u_i_device_09_hardware_8h_1a1aeb146bc9e8bc7aaf5e3fed8699c5c9" prot="public" static="no">
+        <name>DEVICE_HAS_RETINA_DISPLAY</name>
+        <initializer>(fabs([UIScreen mainScreen].scale - 2.0) &lt;= fabs([UIScreen mainScreen].scale - 2.0)*DBL_EPSILON)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIDevice/UIDevice+Hardware.h" line="15" column="9" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIDevice/UIDevice+Hardware.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_u_i_device_09_hardware_8h_1a4958db0ce8e78ec7e1ec9a7853216dfb" prot="public" static="no">
+        <name>IS_IOS7_OR_LATER</name>
+        <initializer>(((double)(<ref refid="_u_i_device_09_hardware_8h_1a1bb7b1e7b3e2bfc98daf5c928b72320a" kindref="member">DEVICE_IOS_VERSION</ref>)-7.0) &gt; -((double)(<ref refid="_u_i_device_09_hardware_8h_1a1bb7b1e7b3e2bfc98daf5c928b72320a" kindref="member">DEVICE_IOS_VERSION</ref>)-7.0)*DBL_EPSILON)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIDevice/UIDevice+Hardware.h" line="16" column="9" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIDevice/UIDevice+Hardware.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_u_i_device_09_hardware_8h_1ac0835feda210148859b936db4492918f" prot="public" static="no">
+        <name>NSStringAdd568hIfIphone4inch</name>
+        <param><defname>str</defname></param>
+        <initializer>[NSString stringWithFormat:[UIDevice currentDevice].isIphoneWith4inchDisplay ? @&quot;%@-568h&quot; : @&quot;%@&quot;, str]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIDevice/UIDevice+Hardware.h" line="17" column="9" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIDevice/UIDevice+Hardware.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_u_i_device_09_hardware_8h_1ad40c167cbffce5ee265e37bc96b313fc" prot="public" static="no">
+        <name>IS_IPHONE_5</name>
+        <initializer>[[UIScreen mainScreen] applicationFrame].size.height == 568</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIDevice/UIDevice+Hardware.h" line="19" column="9" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIDevice/UIDevice+Hardware.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0c" prot="public" static="no">
+        <name>Hardware</name>
+        <enumvalue id="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0cae5197dad9f2c55ef495a12d1ae8b23b3" prot="public">
+          <name>NOT_AVAILABLE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0ca081921ac1697032e93a1bfe06e5476db" prot="public">
+          <name>IPHONE_2G</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0ca9596ffa85a9f56f649e2c7c5f163dc66" prot="public">
+          <name>IPHONE_3G</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0caa981783ed6c0d61bffb6893410eccf61" prot="public">
+          <name>IPHONE_3GS</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0cac5b21f70fb751fb878a7669144243608" prot="public">
+          <name>IPHONE_4</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0ca223379e6176ea445fc6b1a7af3503012" prot="public">
+          <name>IPHONE_4_CDMA</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0ca386774c5b16b8c3aabf53332885321d0" prot="public">
+          <name>IPHONE_4S</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0ca0d628c7ff720d67de72f9dc8b635e9e7" prot="public">
+          <name>IPHONE_5</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0caad45fe214a57cb9325ac867a1d330f23" prot="public">
+          <name>IPHONE_5_CDMA_GSM</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0ca0338d8138fa8f36f4e3b8514e1417198" prot="public">
+          <name>IPHONE_5C</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0ca6f8a88942645a9798bb399ed6aa9e1b3" prot="public">
+          <name>IPHONE_5C_CDMA_GSM</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0caff755804a5ab53538322d0066ccc71d5" prot="public">
+          <name>IPHONE_5S</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0caf78175a566e9264040c6b1df61e8469f" prot="public">
+          <name>IPHONE_5S_CDMA_GSM</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0ca1766694a2fb0c0772c70f113d4829220" prot="public">
+          <name>IPHONE_6</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0ca9c31d6b949ce0dff230bd74387178299" prot="public">
+          <name>IPHONE_6_PLUS</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0ca01c04e4f71353bf4d8bd477fed1ac00b" prot="public">
+          <name>IPOD_TOUCH_1G</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0ca47d90633a0b984a7f3a34aae82d4e5c8" prot="public">
+          <name>IPOD_TOUCH_2G</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0ca83f63fe5b7e4d4e004721d2a72c4735e" prot="public">
+          <name>IPOD_TOUCH_3G</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0ca04e28c02c5ed335d3a5f37e50ad00fa5" prot="public">
+          <name>IPOD_TOUCH_4G</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0ca964bec9c62fe395260a4aeed899c18af" prot="public">
+          <name>IPOD_TOUCH_5G</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0cae52d616a04ff305223c059ca08b05967" prot="public">
+          <name>IPAD</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0caf997ea86e9a82f4ccca69d75f3d36454" prot="public">
+          <name>IPAD_2</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0ca3927a983c5065040c2d875feb1e72f3e" prot="public">
+          <name>IPAD_2_WIFI</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0cac24d8ffc213fa84602033203eef5bbd9" prot="public">
+          <name>IPAD_2_CDMA</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0cade990a0bc4f8879bec536374bad7da47" prot="public">
+          <name>IPAD_3</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0cab5c2649e5f31d30787da2e80dd028bb4" prot="public">
+          <name>IPAD_3G</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0ca3e710023084c28a70ed588a3de166de0" prot="public">
+          <name>IPAD_3_WIFI</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0cafe55f6733d52fa5e652fbe32ff47892d" prot="public">
+          <name>IPAD_3_WIFI_CDMA</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0ca27762ef4fb864307fc14c33fddc178ec" prot="public">
+          <name>IPAD_4</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0ca0231e1bf8ad3fcffad59e92d3e943216" prot="public">
+          <name>IPAD_4_WIFI</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0ca1b1c11234c6b517775761bf920303e21" prot="public">
+          <name>IPAD_4_GSM_CDMA</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0caa22480ba8919dd38d69a89d32df15428" prot="public">
+          <name>IPAD_MINI</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0caa17382dbbe06617d612c52f86c90df45" prot="public">
+          <name>IPAD_MINI_WIFI</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0ca0e90f29acd0fad3ba04d732dcbe5f92a" prot="public">
+          <name>IPAD_MINI_WIFI_CDMA</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0ca8a4ad08ce374689c5ebf3b4533a6f7dd" prot="public">
+          <name>IPAD_MINI_RETINA_WIFI</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0caffe71c655e51e2cc8711309f54371bf0" prot="public">
+          <name>IPAD_MINI_RETINA_WIFI_CDMA</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0ca55c1ac3c9ef27ba2cbfe198cb16be09d" prot="public">
+          <name>IPAD_AIR_WIFI</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0ca7ed94f6ca6e2b35c2153d903a76c0f6c" prot="public">
+          <name>IPAD_AIR_WIFI_GSM</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0ca5480de311f01c9409daa24e2686d76d2" prot="public">
+          <name>IPAD_AIR_WIFI_CDMA</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0ca85dac105fdab043225616ead56715a4b" prot="public">
+          <name>SIMULATOR</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIDevice/UIDevice+Hardware.h" line="22" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIDevice/UIDevice+Hardware.h" bodystart="21" bodyend="70"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>UIDevice+Hardware.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>TestTable</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Inder<sp/>Kumar<sp/>Rathore<sp/>on<sp/>19/01/13.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2013<sp/>Rathore.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;UIKit/UIKit.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="_u_i_device_09_hardware_8h_1aa64dda75db305b2e091955e6a2fbe61d" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>IS_IPAD<sp/>(UI_USER_INTERFACE_IDIOM()==UIUserInterfaceIdiomPad)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="_u_i_device_09_hardware_8h_1a1bb7b1e7b3e2bfc98daf5c928b72320a" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DEVICE_IOS_VERSION<sp/>[[UIDevice<sp/>currentDevice].systemVersion<sp/>floatValue]</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="_u_i_device_09_hardware_8h_1ad5449978957339eba94e1952cdf8aeda" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DEVICE_HARDWARE_BETTER_THAN(i)<sp/>[[UIDevice<sp/>currentDevice]<sp/>isCurrentDeviceHardwareBetterThan:i]</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="_u_i_device_09_hardware_8h_1a1aeb146bc9e8bc7aaf5e3fed8699c5c9" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DEVICE_HAS_RETINA_DISPLAY<sp/>(fabs([UIScreen<sp/>mainScreen].scale<sp/>-<sp/>2.0)<sp/>&lt;=<sp/>fabs([UIScreen<sp/>mainScreen].scale<sp/>-<sp/>2.0)*DBL_EPSILON)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="_u_i_device_09_hardware_8h_1a4958db0ce8e78ec7e1ec9a7853216dfb" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>IS_IOS7_OR_LATER<sp/>(((double)(DEVICE_IOS_VERSION)-7.0)<sp/>&gt;<sp/>-((double)(DEVICE_IOS_VERSION)-7.0)*DBL_EPSILON)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="_u_i_device_09_hardware_8h_1ac0835feda210148859b936db4492918f" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>NSStringAdd568hIfIphone4inch(str)<sp/>[NSString<sp/>stringWithFormat:[UIDevice<sp/>currentDevice].isIphoneWith4inchDisplay<sp/>?<sp/>@&quot;%@-568h&quot;<sp/>:<sp/>@&quot;%@&quot;,<sp/>str]</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="_u_i_device_09_hardware_8h_1ad40c167cbffce5ee265e37bc96b313fc" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>IS_IPHONE_5<sp/>[[UIScreen<sp/>mainScreen]<sp/>applicationFrame].size.height<sp/>==<sp/>568</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0c" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="23" refid="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0cae5197dad9f2c55ef495a12d1ae8b23b3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0cae5197dad9f2c55ef495a12d1ae8b23b3" kindref="member">NOT_AVAILABLE</ref>,</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="25" refid="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0ca081921ac1697032e93a1bfe06e5476db" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0ca081921ac1697032e93a1bfe06e5476db" kindref="member">IPHONE_2G</ref>,</highlight></codeline>
+<codeline lineno="26" refid="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0ca9596ffa85a9f56f649e2c7c5f163dc66" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0ca9596ffa85a9f56f649e2c7c5f163dc66" kindref="member">IPHONE_3G</ref>,</highlight></codeline>
+<codeline lineno="27" refid="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0caa981783ed6c0d61bffb6893410eccf61" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0caa981783ed6c0d61bffb6893410eccf61" kindref="member">IPHONE_3GS</ref>,</highlight></codeline>
+<codeline lineno="28" refid="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0cac5b21f70fb751fb878a7669144243608" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0cac5b21f70fb751fb878a7669144243608" kindref="member">IPHONE_4</ref>,</highlight></codeline>
+<codeline lineno="29" refid="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0ca223379e6176ea445fc6b1a7af3503012" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0ca223379e6176ea445fc6b1a7af3503012" kindref="member">IPHONE_4_CDMA</ref>,</highlight></codeline>
+<codeline lineno="30" refid="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0ca386774c5b16b8c3aabf53332885321d0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0ca386774c5b16b8c3aabf53332885321d0" kindref="member">IPHONE_4S</ref>,</highlight></codeline>
+<codeline lineno="31" refid="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0ca0d628c7ff720d67de72f9dc8b635e9e7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0ca0d628c7ff720d67de72f9dc8b635e9e7" kindref="member">IPHONE_5</ref>,</highlight></codeline>
+<codeline lineno="32" refid="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0caad45fe214a57cb9325ac867a1d330f23" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0caad45fe214a57cb9325ac867a1d330f23" kindref="member">IPHONE_5_CDMA_GSM</ref>,</highlight></codeline>
+<codeline lineno="33" refid="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0ca0338d8138fa8f36f4e3b8514e1417198" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0ca0338d8138fa8f36f4e3b8514e1417198" kindref="member">IPHONE_5C</ref>,</highlight></codeline>
+<codeline lineno="34" refid="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0ca6f8a88942645a9798bb399ed6aa9e1b3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0ca6f8a88942645a9798bb399ed6aa9e1b3" kindref="member">IPHONE_5C_CDMA_GSM</ref>,</highlight></codeline>
+<codeline lineno="35" refid="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0caff755804a5ab53538322d0066ccc71d5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0caff755804a5ab53538322d0066ccc71d5" kindref="member">IPHONE_5S</ref>,</highlight></codeline>
+<codeline lineno="36" refid="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0caf78175a566e9264040c6b1df61e8469f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0caf78175a566e9264040c6b1df61e8469f" kindref="member">IPHONE_5S_CDMA_GSM</ref>,</highlight></codeline>
+<codeline lineno="37" refid="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0ca1766694a2fb0c0772c70f113d4829220" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0ca1766694a2fb0c0772c70f113d4829220" kindref="member">IPHONE_6</ref>,</highlight></codeline>
+<codeline lineno="38" refid="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0ca9c31d6b949ce0dff230bd74387178299" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0ca9c31d6b949ce0dff230bd74387178299" kindref="member">IPHONE_6_PLUS</ref>,</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="41" refid="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0ca01c04e4f71353bf4d8bd477fed1ac00b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0ca01c04e4f71353bf4d8bd477fed1ac00b" kindref="member">IPOD_TOUCH_1G</ref>,</highlight></codeline>
+<codeline lineno="42" refid="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0ca47d90633a0b984a7f3a34aae82d4e5c8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0ca47d90633a0b984a7f3a34aae82d4e5c8" kindref="member">IPOD_TOUCH_2G</ref>,</highlight></codeline>
+<codeline lineno="43" refid="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0ca83f63fe5b7e4d4e004721d2a72c4735e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0ca83f63fe5b7e4d4e004721d2a72c4735e" kindref="member">IPOD_TOUCH_3G</ref>,</highlight></codeline>
+<codeline lineno="44" refid="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0ca04e28c02c5ed335d3a5f37e50ad00fa5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0ca04e28c02c5ed335d3a5f37e50ad00fa5" kindref="member">IPOD_TOUCH_4G</ref>,</highlight></codeline>
+<codeline lineno="45" refid="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0ca964bec9c62fe395260a4aeed899c18af" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0ca964bec9c62fe395260a4aeed899c18af" kindref="member">IPOD_TOUCH_5G</ref>,</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="47" refid="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0cae52d616a04ff305223c059ca08b05967" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0cae52d616a04ff305223c059ca08b05967" kindref="member">IPAD</ref>,</highlight></codeline>
+<codeline lineno="48" refid="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0caf997ea86e9a82f4ccca69d75f3d36454" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0caf997ea86e9a82f4ccca69d75f3d36454" kindref="member">IPAD_2</ref>,</highlight></codeline>
+<codeline lineno="49" refid="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0ca3927a983c5065040c2d875feb1e72f3e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0ca3927a983c5065040c2d875feb1e72f3e" kindref="member">IPAD_2_WIFI</ref>,</highlight></codeline>
+<codeline lineno="50" refid="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0cac24d8ffc213fa84602033203eef5bbd9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0cac24d8ffc213fa84602033203eef5bbd9" kindref="member">IPAD_2_CDMA</ref>,</highlight></codeline>
+<codeline lineno="51" refid="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0cade990a0bc4f8879bec536374bad7da47" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0cade990a0bc4f8879bec536374bad7da47" kindref="member">IPAD_3</ref>,</highlight></codeline>
+<codeline lineno="52" refid="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0cab5c2649e5f31d30787da2e80dd028bb4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0cab5c2649e5f31d30787da2e80dd028bb4" kindref="member">IPAD_3G</ref>,</highlight></codeline>
+<codeline lineno="53" refid="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0ca3e710023084c28a70ed588a3de166de0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0ca3e710023084c28a70ed588a3de166de0" kindref="member">IPAD_3_WIFI</ref>,</highlight></codeline>
+<codeline lineno="54" refid="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0cafe55f6733d52fa5e652fbe32ff47892d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0cafe55f6733d52fa5e652fbe32ff47892d" kindref="member">IPAD_3_WIFI_CDMA</ref>,</highlight></codeline>
+<codeline lineno="55" refid="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0ca27762ef4fb864307fc14c33fddc178ec" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0ca27762ef4fb864307fc14c33fddc178ec" kindref="member">IPAD_4</ref>,</highlight></codeline>
+<codeline lineno="56" refid="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0ca0231e1bf8ad3fcffad59e92d3e943216" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0ca0231e1bf8ad3fcffad59e92d3e943216" kindref="member">IPAD_4_WIFI</ref>,</highlight></codeline>
+<codeline lineno="57" refid="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0ca1b1c11234c6b517775761bf920303e21" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0ca1b1c11234c6b517775761bf920303e21" kindref="member">IPAD_4_GSM_CDMA</ref>,</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="59" refid="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0caa22480ba8919dd38d69a89d32df15428" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0caa22480ba8919dd38d69a89d32df15428" kindref="member">IPAD_MINI</ref>,</highlight></codeline>
+<codeline lineno="60" refid="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0caa17382dbbe06617d612c52f86c90df45" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0caa17382dbbe06617d612c52f86c90df45" kindref="member">IPAD_MINI_WIFI</ref>,</highlight></codeline>
+<codeline lineno="61" refid="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0ca0e90f29acd0fad3ba04d732dcbe5f92a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0ca0e90f29acd0fad3ba04d732dcbe5f92a" kindref="member">IPAD_MINI_WIFI_CDMA</ref>,</highlight></codeline>
+<codeline lineno="62" refid="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0ca8a4ad08ce374689c5ebf3b4533a6f7dd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0ca8a4ad08ce374689c5ebf3b4533a6f7dd" kindref="member">IPAD_MINI_RETINA_WIFI</ref>,</highlight></codeline>
+<codeline lineno="63" refid="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0caffe71c655e51e2cc8711309f54371bf0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0caffe71c655e51e2cc8711309f54371bf0" kindref="member">IPAD_MINI_RETINA_WIFI_CDMA</ref>,</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="65" refid="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0ca55c1ac3c9ef27ba2cbfe198cb16be09d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0ca55c1ac3c9ef27ba2cbfe198cb16be09d" kindref="member">IPAD_AIR_WIFI</ref>,</highlight></codeline>
+<codeline lineno="66" refid="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0ca7ed94f6ca6e2b35c2153d903a76c0f6c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0ca7ed94f6ca6e2b35c2153d903a76c0f6c" kindref="member">IPAD_AIR_WIFI_GSM</ref>,</highlight></codeline>
+<codeline lineno="67" refid="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0ca5480de311f01c9409daa24e2686d76d2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0ca5480de311f01c9409daa24e2686d76d2" kindref="member">IPAD_AIR_WIFI_CDMA</ref>,</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="69" refid="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0ca85dac105fdab043225616ead56715a4b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0ca85dac105fdab043225616ead56715a4b" kindref="member">SIMULATOR</ref></highlight></codeline>
+<codeline lineno="70"><highlight class="normal">}<sp/><ref refid="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0c" kindref="member">Hardware</ref>;</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="category_u_i_device_07_hardware_08" kindref="compound">UIDevice (Hardware)</ref></highlight></codeline>
+<codeline lineno="76"><highlight class="normal">-<sp/>(NSString*)<ref refid="category_u_i_device_07_hardware_08_1ac3488bc56af480f1a7c1c80db559669d" kindref="member">hardwareString</ref>;</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal">-<sp/>(<ref refid="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0c" kindref="member">Hardware</ref>)<ref refid="category_u_i_device_07_hardware_08_1a7921b9e7cf3655a71efcef5982db5902" kindref="member">hardware</ref>;</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal">-<sp/>(NSString*)<ref refid="category_u_i_device_07_hardware_08_1a2350ec1e085199f5b93868cc1912e203" kindref="member">hardwareDescription</ref>;</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal">-<sp/>(NSString<sp/>*)<ref refid="category_u_i_device_07_hardware_08_1abb9e9b39c0086f2673de1c7f13e5fc71" kindref="member">hardwareSimpleDescription</ref>;</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal">-<sp/>(BOOL)isCurrentDeviceHardwareBetterThan:(<ref refid="_u_i_device_09_hardware_8h_1a8bcb58a1359efbbcfc4b4da017946f0c" kindref="member">Hardware</ref>)hardware;</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal">-<sp/>(CGSize)<ref refid="category_u_i_device_07_hardware_08_1ae346460ad22e88a6cb39a23d02870bd9" kindref="member">backCameraStillImageResolutionInPixels</ref>;</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal">-<sp/>(BOOL)<ref refid="category_u_i_device_07_hardware_08_1a438eed6007b1591af9308909d9665428" kindref="member">isIphoneWith4inchDisplay</ref>;</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal">+<sp/>(NSString<sp/>*)<ref refid="category_u_i_device_07_hardware_08_1a2792d7592b6432864ae6c667be4c4e08" kindref="member">macAddress</ref>;</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight><highlight class="comment">//Return<sp/>the<sp/>current<sp/>device<sp/>CPU<sp/>frequency</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal">+<sp/>(NSUInteger)<ref refid="category_u_i_device_07_hardware_08_1a2f8def92019515ce3e5c2e28528e0e91" kindref="member">cpuFrequency</ref>;</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Return<sp/>the<sp/>current<sp/>device<sp/>BUS<sp/>frequency</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal">+<sp/>(NSUInteger)<ref refid="category_u_i_device_07_hardware_08_1acc6bc6e2294de3103d5da218192fe8b0" kindref="member">busFrequency</ref>;</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight><highlight class="comment">//current<sp/>device<sp/>RAM<sp/>size</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal">+<sp/>(NSUInteger)<ref refid="category_u_i_device_07_hardware_08_1ae2574793f5b8397f2ca0911e43e64e4f" kindref="member">ramSize</ref>;</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight><highlight class="comment">//Return<sp/>the<sp/>current<sp/>device<sp/>CPU<sp/>number</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal">+<sp/>(NSUInteger)<ref refid="category_u_i_device_07_hardware_08_1a5a062129793a6b50ce502ec51fb04dac" kindref="member">cpuNumber</ref>;</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight><highlight class="comment">//Return<sp/>the<sp/>current<sp/>device<sp/>total<sp/>memory</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal">+<sp/>(NSString<sp/>*)<ref refid="category_u_i_device_07_hardware_08_1ad982c61464314079175918c5a7d76b15" kindref="member">systemVersion</ref>;</highlight></codeline>
+<codeline lineno="112"><highlight class="normal">+<sp/>(BOOL)<ref refid="category_u_i_device_07_hardware_08_1a880a4a0ddb34f07e29991aa1ff618240" kindref="member">hasCamera</ref>;</highlight></codeline>
+<codeline lineno="114"><highlight class="normal">+<sp/>(NSUInteger)<ref refid="category_u_i_device_07_hardware_08_1a03b489e6364b7d3aae1cab36f505aef5" kindref="member">totalMemoryBytes</ref>;</highlight></codeline>
+<codeline lineno="116"><highlight class="normal">+<sp/>(NSUInteger)<ref refid="category_u_i_device_07_hardware_08_1a80193dab6223249ea87d42761183ad09" kindref="member">freeMemoryBytes</ref>;</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight></codeline>
+<codeline lineno="119"><highlight class="normal">+<sp/>(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>long)<ref refid="category_u_i_device_07_hardware_08_1a12cd6173ca7beb781c6bcd60d116f036" kindref="member">freeDiskSpaceBytes</ref>;</highlight></codeline>
+<codeline lineno="121"><highlight class="normal">+<sp/>(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>long)<ref refid="category_u_i_device_07_hardware_08_1a3bab928c502f4416664675c9c6c1f255" kindref="member">totalDiskSpaceBytes</ref>;</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight></codeline>
+<codeline lineno="126"><highlight class="normal">+<sp/>(float)<ref refid="category_u_i_device_07_hardware_08_1ac1e50f7a4c2b499d712f389c7c4f859e" kindref="member">currentAppCPUUsage</ref>;</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIDevice/UIDevice+Hardware.h"/>
+  </compounddef>
+</doxygen>

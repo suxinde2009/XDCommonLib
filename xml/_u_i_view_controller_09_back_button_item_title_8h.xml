@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_u_i_view_controller_09_back_button_item_title_8h" kind="file" language="C++">
+    <compoundname>UIViewController+BackButtonItemTitle.h</compoundname>
+    <includes local="no">UIKit/UIKit.h</includes>
+    <includedby refid="_u_i_view_controller_09_back_button_item_title_8m" local="yes">XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+BackButtonItemTitle.m</includedby>
+    <incdepgraph>
+      <node id="2120">
+        <label>UIKit/UIKit.h</label>
+      </node>
+      <node id="2119">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+BackButtonItemTitle.h</label>
+        <link refid="UIViewController+BackButtonItemTitle.h"/>
+        <childnode refid="2120" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2121">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+BackButtonItemTitle.h</label>
+        <link refid="UIViewController+BackButtonItemTitle.h"/>
+        <childnode refid="2122" relation="include">
+        </childnode>
+      </node>
+      <node id="2122">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+BackButtonItemTitle.m</label>
+        <link refid="_u_i_view_controller_09_back_button_item_title_8m"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="protocol_back_button_item_title_protocol-p" prot="public">BackButtonItemTitleProtocol-p</innerclass>
+    <innerclass refid="category_u_i_view_controller_07_back_button_item_title_08" prot="public">UIViewController(BackButtonItemTitle)</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>UIViewController+BackButtonItemTitle.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Author<sp/>：<sp/>https://github.com/KevinHM</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>KevinHM<sp/>on<sp/>15/8/6.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2015年<sp/>KevinHM.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;UIKit/UIKit.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="protocol_back_button_item_title_protocol-p" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">@protocol<sp/></highlight><highlight class="normal"><ref refid="protocol_back_button_item_title_protocol-p" kindref="compound">BackButtonItemTitleProtocol</ref><sp/>&lt;NSObject&gt;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">@optional</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal">-<sp/>(NSString<sp/>*)<ref refid="protocol_back_button_item_title_protocol-p_1a31f6fc486891037962b4f60c9489b815" kindref="member">navigationItemBackBarButtonTitle</ref>;<sp/></highlight><highlight class="comment">//The<sp/>length<sp/>of<sp/>the<sp/>text<sp/>is<sp/>limited,<sp/>otherwise<sp/>it<sp/>will<sp/>be<sp/>set<sp/>to<sp/>&quot;Back&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="category_u_i_view_controller_07_back_button_item_title_08" kindref="compound">UIViewController (BackButtonItemTitle)</ref><sp/>&lt;<ref refid="protocol_back_button_item_title_protocol-p" kindref="compound">BackButtonItemTitleProtocol</ref>&gt;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+BackButtonItemTitle.h"/>
+  </compounddef>
+</doxygen>

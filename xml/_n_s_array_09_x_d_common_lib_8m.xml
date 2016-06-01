@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_n_s_array_09_x_d_common_lib_8m" kind="file" language="Objective-C">
+    <compoundname>NSArray+XDCommonLib.m</compoundname>
+    <includes refid="_n_s_array_09_x_d_common_lib_8h" local="yes">NSArray+XDCommonLib.h</includes>
+    <incdepgraph>
+      <node id="250">
+        <label>NSArray+XDCommonLib.h</label>
+        <link refid="_n_s_array_09_x_d_common_lib_8h"/>
+        <childnode refid="251" relation="include">
+        </childnode>
+      </node>
+      <node id="249">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSArray/NSArray+XDCommonLib.m</label>
+        <link refid="NSArray+XDCommonLib.m"/>
+        <childnode refid="250" relation="include">
+        </childnode>
+      </node>
+      <node id="251">
+        <label>Foundation/Foundation.h</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>NSArray+XDCommonLib.m</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>XDCommonLib</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>suxinde<sp/>on<sp/>16/4/11.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>©<sp/>2016年<sp/>su<sp/>xinde.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_n_s_array_09_x_d_common_lib_8h" kindref="compound">NSArray+XDCommonLib.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="category_n_s_array_07_x_d_common_lib_08" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">@implementation<sp/></highlight><highlight class="normal"><ref refid="category_n_s_array_07_x_d_common_lib_08" kindref="compound">NSArray (XDCommonLib)</ref></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="category_n_s_array_07_x_d_common_lib_08_1a967d03cc87a87fa0824686fe91d173ae" refkind="member"><highlight class="normal">-<sp/>(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>_Nullable)safeObjectAtIndex:(NSUInteger)index<sp/>{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>([</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>count]<sp/>&gt;<sp/>0<sp/>&amp;&amp;<sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>count]<sp/>&gt;<sp/>index)<sp/>{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>objectAtIndex:index];</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>nil;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="19"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="category_n_s_array_07_x_d_common_lib_08_1a8400d33f108f40c72373d889bce5e1ff" refkind="member"><highlight class="normal">-<sp/>(NSArray<sp/>*<sp/>_Nonnull)<ref refid="category_n_s_array_07_x_d_common_lib_08_1a8400d33f108f40c72373d889bce5e1ff" kindref="member">reversedArray</ref><sp/>{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[NSArray<sp/>reversedArray:self];</highlight></codeline>
+<codeline lineno="23"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25" refid="category_n_s_array_07_x_d_common_lib_08_1afc4dd816b34a3010185c8759c1cf854b" refkind="member"><highlight class="normal">-<sp/>(NSString<sp/>*<sp/>_Nonnull)<ref refid="category_n_s_array_07_x_d_common_lib_08_1afc4dd816b34a3010185c8759c1cf854b" kindref="member">arrayToJson</ref><sp/>{</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[NSArray<sp/>arrayToJson:self];</highlight></codeline>
+<codeline lineno="27"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal">-<sp/>(NSInteger)superCircle:(NSInteger)index<sp/>maxSize:(NSInteger)maxSize<sp/>{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(index<sp/>&lt;<sp/>0)<sp/>{</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>index<sp/>=<sp/>index<sp/>%<sp/>maxSize;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>index<sp/>+=<sp/>maxSize;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(index<sp/>&gt;=<sp/>maxSize)<sp/>{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>index<sp/>=<sp/>index<sp/>%<sp/>maxSize;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>index;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="category_n_s_array_07_x_d_common_lib_08_1a42aa3b57511ed2f402f14dd4898b420d" refkind="member"><highlight class="normal">-<sp/>(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>_Nullable)objectAtCircleIndex:(NSInteger)index<sp/>{</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>objectAtIndex:[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>superCircle:index<sp/>maxSize:self.count]];</highlight></codeline>
+<codeline lineno="43"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45" refid="category_n_s_array_07_x_d_common_lib_08_1a4ffac4104adda37a2547ae20b99f55e7" refkind="member"><highlight class="normal">+<sp/>(NSString<sp/>*<sp/>_Nonnull)<ref refid="category_n_s_array_07_x_d_common_lib_08_1afc4dd816b34a3010185c8759c1cf854b" kindref="member">arrayToJson</ref>:(NSArray<sp/>*<sp/>_Nonnull)array<sp/>{</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>NSString<sp/>*json<sp/>=<sp/>nil;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>NSError<sp/>*error<sp/>=<sp/>nil;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>NSData<sp/>*data<sp/>=<sp/>[NSJSONSerialization<sp/>dataWithJSONObject:array<sp/>options:0<sp/>error:&amp;error];</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!error)<sp/>{</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>json<sp/>=<sp/>[[NSString<sp/>alloc]<sp/>initWithData:data<sp/>encoding:NSUTF8StringEncoding];</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>json;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>DEBUG</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NSLog(</highlight><highlight class="stringliteral">@&quot;%s:<sp/>%@&quot;</highlight><highlight class="normal">,<sp/>__func__,<sp/>error.localizedDescription);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>nil;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="58"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60" refid="category_n_s_array_07_x_d_common_lib_08_1a002d6e3d0cca633e5d9fff33db183d06" refkind="member"><highlight class="normal">+<sp/>(NSArray<sp/>*<sp/>_Nonnull)<ref refid="category_n_s_array_07_x_d_common_lib_08_1a8400d33f108f40c72373d889bce5e1ff" kindref="member">reversedArray</ref>:(NSArray<sp/>*<sp/>_Nonnull)array<sp/>{</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/>NSMutableArray<sp/>*arrayTemp<sp/>=<sp/>[NSMutableArray<sp/>arrayWithCapacity:[array<sp/>count]];</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/>NSEnumerator<sp/>*enumerator<sp/>=<sp/>[array<sp/>reverseObjectEnumerator];</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>element<sp/>in<sp/>enumerator)<sp/>[arrayTemp<sp/>addObject:element];</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>arrayTemp;</highlight></codeline>
+<codeline lineno="67"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSArray/NSArray+XDCommonLib.m"/>
+  </compounddef>
+</doxygen>

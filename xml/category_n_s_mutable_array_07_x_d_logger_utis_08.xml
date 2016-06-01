@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_n_s_mutable_array_07_x_d_logger_utis_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>NSMutableArray(XDLoggerUtis)</compoundname>
+    <includes refid="_x_d_logger_8h" local="no">XDLogger.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="category_n_s_mutable_array_07_x_d_logger_utis_08_1a9150e0d820408fa8e7342b89b473f3c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSMutableArray *</type>
+        <definition>NSMutableArray * NSMutableArray(XDLoggerUtis)::pushTail:</definition>
+        <argsstring>(NSObject *obj)</argsstring>
+        <name>pushTail:</name>
+        <param>
+          <type>NSObject *</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLogger/XDLogger.h" line="152" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLogger/XDLogger.m" bodystart="406" bodyend="414"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_mutable_array_07_x_d_logger_utis_08_1aa9c731dfbf950de104a384e4ce34129b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSMutableArray *</type>
+        <definition>NSMutableArray * NSMutableArray(XDLoggerUtis)::keepTail:</definition>
+        <argsstring>(NSUInteger n)</argsstring>
+        <name>keepTail:</name>
+        <param>
+          <type>NSUInteger</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLogger/XDLogger.h" line="152" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLogger/XDLogger.m" bodystart="416" bodyend="428"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLogger/XDLogger.m" line="404" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLogger/XDLogger.m" bodystart="404" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_n_s_mutable_array_07_x_d_logger_utis_08_1aa9c731dfbf950de104a384e4ce34129b" prot="public" virt="virtual"><scope>NSMutableArray(XDLoggerUtis)</scope><name>keepTail:</name></member>
+      <member refid="category_n_s_mutable_array_07_x_d_logger_utis_08_1a9150e0d820408fa8e7342b89b473f3c7" prot="public" virt="virtual"><scope>NSMutableArray(XDLoggerUtis)</scope><name>pushTail:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

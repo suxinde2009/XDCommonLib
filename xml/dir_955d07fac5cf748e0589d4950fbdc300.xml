@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="dir_955d07fac5cf748e0589d4950fbdc300" kind="dir">
+    <compoundname>XDCommonLib/CommonBasicComponentLayer/Categories/CoreData</compoundname>
+    <innerdir refid="dir_38844e83f3ccd3fe26e0f9eb15ddffc3">XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSFetchRequest</innerdir>
+    <innerdir refid="dir_562f18cc2be5ae96f07841a2006659af">XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSManagedObject</innerdir>
+    <innerdir refid="dir_875eebfc4e1dcc7fc7decd849ea1e011">XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSManagedObjectContext</innerdir>
+    <innerdir refid="dir_7da42d7ae7cd77ec02a88915f7290864">XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSPersistentStoreCoordinator</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/"/>
+  </compounddef>
+</doxygen>

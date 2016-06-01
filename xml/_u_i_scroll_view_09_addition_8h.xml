@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_u_i_scroll_view_09_addition_8h" kind="file" language="C++">
+    <compoundname>UIScrollView+Addition.h</compoundname>
+    <includes local="no">UIKit/UIKit.h</includes>
+    <includedby refid="_u_i_scroll_view_09_addition_8m" local="yes">XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIScrollView/UIScrollView+Addition.m</includedby>
+    <incdepgraph>
+      <node id="1819">
+        <label>UIKit/UIKit.h</label>
+      </node>
+      <node id="1818">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIScrollView/UIScrollView+Addition.h</label>
+        <link refid="UIScrollView+Addition.h"/>
+        <childnode refid="1819" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1820">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIScrollView/UIScrollView+Addition.h</label>
+        <link refid="UIScrollView+Addition.h"/>
+        <childnode refid="1821" relation="include">
+        </childnode>
+      </node>
+      <node id="1821">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIScrollView/UIScrollView+Addition.m</label>
+        <link refid="_u_i_scroll_view_09_addition_8m"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="category_u_i_scroll_view_07_addition_08" prot="public">UIScrollView(Addition)</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_u_i_scroll_view_09_addition_8h_1a1e8c0650e2e8c17f31a91ae172853c36" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typedef</type>
+        <definition>typedef NS_ENUM</definition>
+        <argsstring>(NSInteger, ScrollDirection)</argsstring>
+        <name>NS_ENUM</name>
+        <param>
+          <type>NSInteger</type>
+        </param>
+        <param>
+          <type>ScrollDirection</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIScrollView/UIScrollView+Addition.h" line="10" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIScrollView/UIScrollView+Addition.h" bodystart="10" bodyend="16"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>UIScrollView+Addition.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>iOS-Categories<sp/>(https://github.com/shaojiankui/iOS-Categories)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Jakey<sp/>on<sp/>14/12/30.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2014年<sp/>www.skyfox.org.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;UIKit/UIKit.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="_u_i_scroll_view_09_addition_8h_1a1e8c0650e2e8c17f31a91ae172853c36" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="_u_i_scroll_view_09_addition_8h_1a1e8c0650e2e8c17f31a91ae172853c36" kindref="member">NS_ENUM</ref>(NSInteger,<sp/>ScrollDirection)<sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>ScrollDirectionUp,</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>ScrollDirectionDown,</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>ScrollDirectionLeft,</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>ScrollDirectionRight,</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>ScrollDirectionWTF</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="category_u_i_scroll_view_07_addition_08" kindref="compound">UIScrollView (Addition)</ref></highlight></codeline>
+<codeline lineno="19" refid="category_u_i_scroll_view_07_addition_08_1a712dc54a0799a06ac984db277a0b7075" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal">(nonatomic)<sp/>CGFloat<sp/><ref refid="category_u_i_scroll_view_07_addition_08_1a712dc54a0799a06ac984db277a0b7075" kindref="member">contentWidth</ref>;</highlight></codeline>
+<codeline lineno="20" refid="category_u_i_scroll_view_07_addition_08_1ac1bfe8aac701a3f69dcd6905a77a5c02" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal">(nonatomic)<sp/>CGFloat<sp/><ref refid="category_u_i_scroll_view_07_addition_08_1ac1bfe8aac701a3f69dcd6905a77a5c02" kindref="member">contentHeight</ref>;</highlight></codeline>
+<codeline lineno="21" refid="category_u_i_scroll_view_07_addition_08_1add43ea32be003f91393c3dcd6c24cbeb" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal">(nonatomic)<sp/>CGFloat<sp/><ref refid="category_u_i_scroll_view_07_addition_08_1add43ea32be003f91393c3dcd6c24cbeb" kindref="member">contentOffsetX</ref>;</highlight></codeline>
+<codeline lineno="22" refid="category_u_i_scroll_view_07_addition_08_1a6aec8fb5f8bb28ad0f213fb7e8f27f15" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal">(nonatomic)<sp/>CGFloat<sp/><ref refid="category_u_i_scroll_view_07_addition_08_1a6aec8fb5f8bb28ad0f213fb7e8f27f15" kindref="member">contentOffsetY</ref>;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal">-<sp/>(CGPoint)<ref refid="category_u_i_scroll_view_07_addition_08_1a1089f39b4d65d19bad6926c5dff2ad54" kindref="member">topContentOffset</ref>;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal">-<sp/>(CGPoint)<ref refid="category_u_i_scroll_view_07_addition_08_1a80033c709ce1499f9891f4f96d020833" kindref="member">bottomContentOffset</ref>;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal">-<sp/>(CGPoint)<ref refid="category_u_i_scroll_view_07_addition_08_1a43872ca8bd179a8035259116e159ccde" kindref="member">leftContentOffset</ref>;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal">-<sp/>(CGPoint)<ref refid="category_u_i_scroll_view_07_addition_08_1ab334aa6c6cc33b65d394a7a7b16f0bc8" kindref="member">rightContentOffset</ref>;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal">-<sp/>(<ref refid="category_u_i_scroll_view_07_addition_08_1a2b4195d60bc63844a24807a7ab6f441d" kindref="member">ScrollDirection</ref>)<ref refid="category_u_i_scroll_view_07_addition_08_1a2b4195d60bc63844a24807a7ab6f441d" kindref="member">ScrollDirection</ref>;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal">-<sp/>(BOOL)<ref refid="category_u_i_scroll_view_07_addition_08_1a6a1997f0f6f6b31fcd4175112f5d09dd" kindref="member">isScrolledToTop</ref>;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal">-<sp/>(BOOL)<ref refid="category_u_i_scroll_view_07_addition_08_1add53555142c0daa4df9b36be213fde25" kindref="member">isScrolledToBottom</ref>;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal">-<sp/>(BOOL)<ref refid="category_u_i_scroll_view_07_addition_08_1acc8f987398a17327e146a4427ed756c8" kindref="member">isScrolledToLeft</ref>;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal">-<sp/>(BOOL)<ref refid="category_u_i_scroll_view_07_addition_08_1af3638e061783f5d9d55fe40518c7d658" kindref="member">isScrolledToRight</ref>;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal">-<sp/>(void)scrollToTopAnimated:(BOOL)animated;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal">-<sp/>(void)scrollToBottomAnimated:(BOOL)animated;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal">-<sp/>(void)scrollToLeftAnimated:(BOOL)animated;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal">-<sp/>(void)scrollToRightAnimated:(BOOL)animated;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal">-<sp/>(NSUInteger)<ref refid="category_u_i_scroll_view_07_addition_08_1a1126522a77dbb87a872cee09e0721b1f" kindref="member">verticalPageIndex</ref>;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal">-<sp/>(NSUInteger)<ref refid="category_u_i_scroll_view_07_addition_08_1a357146e29056c1d38028ea166078db84" kindref="member">horizontalPageIndex</ref>;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal">-<sp/>(void)scrollToVerticalPageIndex:(NSUInteger)pageIndex<sp/>animated:(BOOL)animated;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal">-<sp/>(void)scrollToHorizontalPageIndex:(NSUInteger)pageIndex<sp/>animated:(BOOL)animated;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIScrollView/UIScrollView+Addition.h"/>
+  </compounddef>
+</doxygen>

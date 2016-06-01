@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_n_s_data_09_hash_8m" kind="file" language="Objective-C">
+    <compoundname>NSData+Hash.m</compoundname>
+    <includes refid="_n_s_data_09_hash_8h" local="yes">NSData+Hash.h</includes>
+    <includes local="no">CommonCrypto/CommonCrypto.h</includes>
+    <incdepgraph>
+      <node id="315">
+        <label>NSData+Hash.h</label>
+        <link refid="_n_s_data_09_hash_8h"/>
+        <childnode refid="316" relation="include">
+        </childnode>
+      </node>
+      <node id="314">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSData/NSData+Hash.m</label>
+        <link refid="NSData+Hash.m"/>
+        <childnode refid="315" relation="include">
+        </childnode>
+        <childnode refid="317" relation="include">
+        </childnode>
+      </node>
+      <node id="317">
+        <label>CommonCrypto/CommonCrypto.h</label>
+      </node>
+      <node id="316">
+        <label>Foundation/Foundation.h</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>NSData+Hash.m</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>iOS-Categories<sp/>(https://github.com/shaojiankui/iOS-Categories)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Jakey<sp/>on<sp/>15/6/1.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2015年<sp/>www.skyfox.org.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_n_s_data_09_hash_8h" kindref="compound">NSData+Hash.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;CommonCrypto/CommonCrypto.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="category_n_s_data_07_hash_08" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">@implementation<sp/></highlight><highlight class="normal"><ref refid="category_n_s_data_07_hash_08" kindref="compound">NSData (Hash)</ref></highlight></codeline>
+<codeline lineno="15"><highlight class="normal">-<sp/>(NSData<sp/>*)<ref refid="category_n_s_data_07_hash_08_1a29966075d55ea73ae6f666184adc10d5" kindref="member">md5Data</ref></highlight></codeline>
+<codeline lineno="16"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>bytes[CC_MD5_DIGEST_LENGTH];</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>CC_MD5(</highlight><highlight class="keyword">self</highlight><highlight class="normal">.bytes,<sp/>(CC_LONG)</highlight><highlight class="keyword">self</highlight><highlight class="normal">.length,<sp/>bytes);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[NSData<sp/>dataWithBytes:bytes<sp/>length:CC_MD5_DIGEST_LENGTH];</highlight></codeline>
+<codeline lineno="20"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="24"><highlight class="normal">-<sp/>(NSData<sp/>*)<ref refid="category_n_s_data_07_hash_08_1ac9d78b0ea48e4390f9ceb52da20042d2" kindref="member">sha1Data</ref></highlight></codeline>
+<codeline lineno="25"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>bytes[CC_SHA1_DIGEST_LENGTH];</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>CC_SHA1(</highlight><highlight class="keyword">self</highlight><highlight class="normal">.bytes,<sp/>(CC_LONG)</highlight><highlight class="keyword">self</highlight><highlight class="normal">.length,<sp/>bytes);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[NSData<sp/>dataWithBytes:bytes<sp/>length:CC_SHA1_DIGEST_LENGTH];</highlight></codeline>
+<codeline lineno="29"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="33"><highlight class="normal">-<sp/>(NSData<sp/>*)<ref refid="category_n_s_data_07_hash_08_1ab815782d5c0e169e812290b178cc0a35" kindref="member">sha256Data</ref></highlight></codeline>
+<codeline lineno="34"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>bytes[CC_SHA256_DIGEST_LENGTH];</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>CC_SHA256(</highlight><highlight class="keyword">self</highlight><highlight class="normal">.bytes,<sp/>(CC_LONG)</highlight><highlight class="keyword">self</highlight><highlight class="normal">.length,<sp/>bytes);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[NSData<sp/>dataWithBytes:bytes<sp/>length:CC_SHA256_DIGEST_LENGTH];</highlight></codeline>
+<codeline lineno="38"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="42"><highlight class="normal">-<sp/>(NSData<sp/>*)<ref refid="category_n_s_data_07_hash_08_1a519ff9cd1228d1c20a8b109347378988" kindref="member">sha512Data</ref></highlight></codeline>
+<codeline lineno="43"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>bytes[CC_SHA512_DIGEST_LENGTH];</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>CC_SHA512(</highlight><highlight class="keyword">self</highlight><highlight class="normal">.bytes,<sp/>(CC_LONG)</highlight><highlight class="keyword">self</highlight><highlight class="normal">.length,<sp/>bytes);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[NSData<sp/>dataWithBytes:bytes<sp/>length:CC_SHA512_DIGEST_LENGTH];</highlight></codeline>
+<codeline lineno="47"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="55" refid="category_n_s_data_07_hash_08_1add065257ef6f366d3ce97fca41b23c2d" refkind="member"><highlight class="normal">-<sp/>(NSData<sp/>*)hmacMD5DataWithKey:(NSData<sp/>*)key<sp/>{</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>hmacDataUsingAlg:kCCHmacAlgMD5<sp/>withKey:key];</highlight></codeline>
+<codeline lineno="57"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="65" refid="category_n_s_data_07_hash_08_1a459ab22dbafea9ba42c07cb545861b33" refkind="member"><highlight class="normal">-<sp/>(NSData<sp/>*)hmacSHA1DataWithKey:(NSData<sp/>*)key</highlight></codeline>
+<codeline lineno="66"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>hmacDataUsingAlg:kCCHmacAlgSHA1<sp/>withKey:key];</highlight></codeline>
+<codeline lineno="68"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="76" refid="category_n_s_data_07_hash_08_1a34778ea05e43e2a05695c7177cf421c4" refkind="member"><highlight class="normal">-<sp/>(NSData<sp/>*)hmacSHA256DataWithKey:(NSData<sp/>*)key</highlight></codeline>
+<codeline lineno="77"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>hmacDataUsingAlg:kCCHmacAlgSHA256<sp/>withKey:key];</highlight></codeline>
+<codeline lineno="79"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="87" refid="category_n_s_data_07_hash_08_1af1e75646762dff01c645b506e65b0e3c" refkind="member"><highlight class="normal">-<sp/>(NSData<sp/>*)hmacSHA512DataWithKey:(NSData<sp/>*)key</highlight></codeline>
+<codeline lineno="88"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>hmacDataUsingAlg:kCCHmacAlgSHA512<sp/>withKey:key];</highlight></codeline>
+<codeline lineno="90"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal">-<sp/>(NSData<sp/>*)hmacDataUsingAlg:(CCHmacAlgorithm)alg<sp/>withKey:(NSData<sp/>*)key<sp/>{</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>size;</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">switch</highlight><highlight class="normal"><sp/>(alg)<sp/>{</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>kCCHmacAlgMD5:<sp/>size<sp/>=<sp/>CC_MD5_DIGEST_LENGTH;<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>kCCHmacAlgSHA1:<sp/>size<sp/>=<sp/>CC_SHA1_DIGEST_LENGTH;<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>kCCHmacAlgSHA224:<sp/>size<sp/>=<sp/>CC_SHA224_DIGEST_LENGTH;<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>kCCHmacAlgSHA256:<sp/>size<sp/>=<sp/>CC_SHA256_DIGEST_LENGTH;<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>kCCHmacAlgSHA384:<sp/>size<sp/>=<sp/>CC_SHA384_DIGEST_LENGTH;<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>kCCHmacAlgSHA512:<sp/>size<sp/>=<sp/>CC_SHA512_DIGEST_LENGTH;<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">:<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>nil;</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>result[size];</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/>CCHmac(alg,<sp/>[key<sp/>bytes],<sp/>key.length,<sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.bytes,<sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.length,<sp/>result);</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[NSData<sp/>dataWithBytes:result<sp/>length:size];</highlight></codeline>
+<codeline lineno="108"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSData/NSData+Hash.m"/>
+  </compounddef>
+</doxygen>

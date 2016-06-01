@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_u_i_view_07_snapshot_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>UIView(Snapshot)</compoundname>
+    <includes refid="_u_i_view_09_snapshot_8h" local="no">UIView+Snapshot.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="category_u_i_view_07_snapshot_08_1ad3d0e357244eb2e870c7e8264e246c67" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>UIImage *</type>
+        <definition>UIImage * UIView(Snapshot)::snapshot</definition>
+        <argsstring>()</argsstring>
+        <name>snapshot</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Snapshot.h" line="10" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Snapshot.m" bodystart="13" bodyend="21"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Snapshot.m" line="11" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Snapshot.m" bodystart="11" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_u_i_view_07_snapshot_08_1ad3d0e357244eb2e870c7e8264e246c67" prot="public" virt="virtual"><scope>UIView(Snapshot)</scope><name>snapshot</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

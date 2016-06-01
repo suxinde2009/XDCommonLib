@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_____g_e_n_e_r_i_c_s_07_n_s_mutable_array_object_type_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>__GENERICS(NSMutableArrayObjectType)</compoundname>
+    <includes refid="_n_s_mutable_array_09_blocks_kit_8h" local="no">NSMutableArray+BlocksKit.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="category_____g_e_n_e_r_i_c_s_07_n_s_mutable_array_object_type_08_1adfb51f1c5afb83a6e376c44f65870a18" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void __GENERICS(NSMutableArrayObjectType)::bk_performSelect:</definition>
+        <argsstring>(BOOL(^block)(id ObjectType))</argsstring>
+        <name>bk_performSelect:</name>
+        <param>
+          <type>BOOL(^)(id ObjectType)</type>
+          <declname>block</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Filters a mutable array to the objects matching the block.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>block</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A single-argument, BOOL-returning code block. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para>&lt;NSArray(BlocksKit)&gt;bk_reject: </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSMutableArray+BlocksKit.h" line="24" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="category_____g_e_n_e_r_i_c_s_07_n_s_mutable_array_object_type_08_1acd026c2db789dbde279a0a4d189ebf41" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void __GENERICS(NSMutableArrayObjectType)::bk_performReject:</definition>
+        <argsstring>(BOOL(^block)(id ObjectType))</argsstring>
+        <name>bk_performReject:</name>
+        <param>
+          <type>BOOL(^)(id ObjectType)</type>
+          <declname>block</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Filters a mutable array to all objects but the ones matching the block, the logical inverse to bk_select:.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>block</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A single-argument, BOOL-returning code block. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para>&lt;NSArray(BlocksKit)&gt;bk_select: </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSMutableArray+BlocksKit.h" line="24" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="category_____g_e_n_e_r_i_c_s_07_n_s_mutable_array_object_type_08_1afd392e9411ec1b54c4410053767d3f2e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void __GENERICS(NSMutableArrayObjectType)::bk_performMap:</definition>
+        <argsstring>(id(^block)(id ObjectType))</argsstring>
+        <name>bk_performMap:</name>
+        <param>
+          <type>id(^)(id ObjectType)</type>
+          <declname>block</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Transform the objects in the array to the results of the block.</para><para>This is sometimes referred to as a transform, mutating one of each object: [foo bk_performMap:^id(id obj) { return [dateTransformer dateFromString:obj]; }];</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>block</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A single-argument, object-returning code block. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para>&lt;NSArray(BlocksKit)&gt;bk_map: </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSMutableArray+BlocksKit.h" line="24" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Block extensions for NSMutableArray.</para><para>These utilities expound upon the BlocksKit additions to the immutable superclass by allowing certain utilities to work on an instance of the mutable class, saving memory by not creating an immutable copy of the results.</para><para>Includes code by the following:</para><para><itemizedlist>
+<listitem><para><ulink url="https://github.com/MSch">Martin Schürrer</ulink></para></listitem><listitem><para><ulink url="https://github.com/zwaldowski">Zach Waldowski</ulink></para></listitem></itemizedlist>
+</para><para><simplesect kind="see"><para>NSArray(BlocksKit) </para></simplesect>
+</para>    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSMutableArray+BlocksKit.h" line="24" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSMutableArray+BlocksKit.h" bodystart="24" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_____g_e_n_e_r_i_c_s_07_n_s_mutable_array_object_type_08_1afd392e9411ec1b54c4410053767d3f2e" prot="public" virt="virtual"><scope>__GENERICS(NSMutableArrayObjectType)</scope><name>bk_performMap:</name></member>
+      <member refid="category_____g_e_n_e_r_i_c_s_07_n_s_mutable_array_object_type_08_1acd026c2db789dbde279a0a4d189ebf41" prot="public" virt="virtual"><scope>__GENERICS(NSMutableArrayObjectType)</scope><name>bk_performReject:</name></member>
+      <member refid="category_____g_e_n_e_r_i_c_s_07_n_s_mutable_array_object_type_08_1adfb51f1c5afb83a6e376c44f65870a18" prot="public" virt="virtual"><scope>__GENERICS(NSMutableArrayObjectType)</scope><name>bk_performSelect:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

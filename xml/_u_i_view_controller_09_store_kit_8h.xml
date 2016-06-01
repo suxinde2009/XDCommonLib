@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_u_i_view_controller_09_store_kit_8h" kind="file" language="C++">
+    <compoundname>UIViewController+StoreKit.h</compoundname>
+    <includes local="no">UIKit/UIKit.h</includes>
+    <includedby refid="_u_i_view_controller_09_store_kit_8m" local="yes">XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+StoreKit.m</includedby>
+    <incdepgraph>
+      <node id="2190">
+        <label>UIKit/UIKit.h</label>
+      </node>
+      <node id="2189">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+StoreKit.h</label>
+        <link refid="UIViewController+StoreKit.h"/>
+        <childnode refid="2190" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2191">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+StoreKit.h</label>
+        <link refid="UIViewController+StoreKit.h"/>
+        <childnode refid="2192" relation="include">
+        </childnode>
+      </node>
+      <node id="2192">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+StoreKit.m</label>
+        <link refid="_u_i_view_controller_09_store_kit_8m"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="category_u_i_view_controller_07_store_kit_08" prot="public">UIViewController(StoreKit)</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="_u_i_view_controller_09_store_kit_8h_1a6b65c602fb0ac8784c56ec9955f65650" prot="public" static="no">
+        <name>affiliateToken</name>
+        <initializer>@&quot;10laQX&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+StoreKit.h" line="14" column="9" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+StoreKit.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>UIViewController+StoreKit.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Picks</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Joe<sp/>Fabisevich<sp/>on<sp/>8/12/14.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2014<sp/>Snarkbots.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>https://github.com/mergesort/UIViewController-StoreKit</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;UIKit/UIKit.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="preprocessor">#pragma<sp/>mark<sp/>-<sp/>Constants</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="_u_i_view_controller_09_store_kit_8h_1a6b65c602fb0ac8784c56ec9955f65650" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>affiliateToken<sp/>@&quot;10laQX&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="preprocessor">#pragma<sp/>mark<sp/>-<sp/>Interface</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="category_u_i_view_controller_07_store_kit_08" kindref="compound">UIViewController (StoreKit)</ref></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="category_u_i_view_controller_07_store_kit_08_1aad780989e1f480e440463d4af39f35ab" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>NSString*<sp/><ref refid="category_u_i_view_controller_07_store_kit_08_1aad780989e1f480e440463d4af39f35ab" kindref="member">campaignToken</ref>;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>copy)<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(^<ref refid="category_u_i_view_controller_07_store_kit_08_1a8dbcde90bf7e0cbb8c4866386c4ecc41" kindref="member">loadingStoreKitItemBlock</ref>)(void);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>copy)<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(^<ref refid="category_u_i_view_controller_07_store_kit_08_1a44e05073b7148558bc560afd25d1c710" kindref="member">loadedStoreKitItemBlock</ref>)(void);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal">-<sp/>(void)presentStoreKitItemWithIdentifier:(NSInteger)itemIdentifier;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal">+<sp/>(NSURL*)appURLForIdentifier:(NSInteger)identifier;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal">+<sp/>(void)openAppURLForIdentifier:(NSInteger)identifier;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal">+<sp/>(void)openAppReviewURLForIdentifier:(NSInteger)identifier;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal">+<sp/>(BOOL)containsITunesURLString:(NSString*)URLString;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal">+<sp/>(NSInteger)IDFromITunesURL:(NSString*)URLString;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+StoreKit.h"/>
+  </compounddef>
+</doxygen>

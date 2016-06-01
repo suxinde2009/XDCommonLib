@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="dir_9b240973132aed34d9cf5449b8eb6ddf" kind="dir">
+    <compoundname>XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString</compoundname>
+    <innerfile refid="_n_s_mutable_string_09_ruby_8h">NSMutableString+Ruby.h</innerfile>
+    <innerfile refid="_n_s_mutable_string_09_ruby_8m">NSMutableString+Ruby.m</innerfile>
+    <innerfile refid="_n_s_string_09_base64_8h">NSString+Base64.h</innerfile>
+    <innerfile refid="_n_s_string_09_base64_8m">NSString+Base64.m</innerfile>
+    <innerfile refid="_n_s_string_09_contains_8h">NSString+Contains.h</innerfile>
+    <innerfile refid="_n_s_string_09_contains_8m">NSString+Contains.m</innerfile>
+    <innerfile refid="_n_s_string_09_dictionary_value_8h">NSString+DictionaryValue.h</innerfile>
+    <innerfile refid="_n_s_string_09_dictionary_value_8m">NSString+DictionaryValue.m</innerfile>
+    <innerfile refid="_n_s_string_09_emoji_8h">NSString+Emoji.h</innerfile>
+    <innerfile refid="_n_s_string_09_emoji_8m">NSString+Emoji.m</innerfile>
+    <innerfile refid="_n_s_string_09_encrypt_8h">NSString+Encrypt.h</innerfile>
+    <innerfile refid="_n_s_string_09_encrypt_8m">NSString+Encrypt.m</innerfile>
+    <innerfile refid="_n_s_string_09_hash_8h">NSString+Hash.h</innerfile>
+    <innerfile refid="_n_s_string_09_hash_8m">NSString+Hash.m</innerfile>
+    <innerfile refid="_n_s_string_09_matcher_8h">NSString+Matcher.h</innerfile>
+    <innerfile refid="_n_s_string_09_matcher_8m">NSString+Matcher.m</innerfile>
+    <innerfile refid="_n_s_string_09_m_i_m_e_8h">NSString+MIME.h</innerfile>
+    <innerfile refid="_n_s_string_09_m_i_m_e_8m">NSString+MIME.m</innerfile>
+    <innerfile refid="_n_s_string_09_pinyin_8h">NSString+Pinyin.h</innerfile>
+    <innerfile refid="_n_s_string_09_pinyin_8m">NSString+Pinyin.m</innerfile>
+    <innerfile refid="_n_s_string_09_regex_category_8h">NSString+RegexCategory.h</innerfile>
+    <innerfile refid="_n_s_string_09_regex_category_8m">NSString+RegexCategory.m</innerfile>
+    <innerfile refid="_n_s_string_09_remove_emoji_8h">NSString+RemoveEmoji.h</innerfile>
+    <innerfile refid="_n_s_string_09_remove_emoji_8m">NSString+RemoveEmoji.m</innerfile>
+    <innerfile refid="_n_s_string_09_ruby_8h">NSString+Ruby.h</innerfile>
+    <innerfile refid="_n_s_string_09_ruby_8m">NSString+Ruby.m</innerfile>
+    <innerfile refid="_n_s_string_09_score_8h">NSString+Score.h</innerfile>
+    <innerfile refid="_n_s_string_09_score_8m">NSString+Score.m</innerfile>
+    <innerfile refid="_n_s_string_09_size_8h">NSString+Size.h</innerfile>
+    <innerfile refid="_n_s_string_09_size_8m">NSString+Size.m</innerfile>
+    <innerfile refid="_n_s_string_09_tokenize_8h">NSString+Tokenize.h</innerfile>
+    <innerfile refid="_n_s_string_09_tokenize_8m">NSString+Tokenize.m</innerfile>
+    <innerfile refid="_n_s_string_09_trims_8h">NSString+Trims.h</innerfile>
+    <innerfile refid="_n_s_string_09_trims_8m">NSString+Trims.m</innerfile>
+    <innerfile refid="_n_s_string_09_url_encode_8h">NSString+UrlEncode.h</innerfile>
+    <innerfile refid="_n_s_string_09_url_encode_8m">NSString+UrlEncode.m</innerfile>
+    <innerfile refid="_n_s_string_09_u_r_l_utilities_8h">NSString+URLUtilities.h</innerfile>
+    <innerfile refid="_n_s_string_09_u_r_l_utilities_8m">NSString+URLUtilities.m</innerfile>
+    <innerfile refid="_n_s_string_09_utils_8h">NSString+Utils.h</innerfile>
+    <innerfile refid="_n_s_string_09_utils_8m">NSString+Utils.m</innerfile>
+    <innerfile refid="_n_s_string_09_u_u_i_d_8h">NSString+UUID.h</innerfile>
+    <innerfile refid="_n_s_string_09_u_u_i_d_8m">NSString+UUID.m</innerfile>
+    <innerfile refid="_n_s_string_09_version_util_8h">NSString+VersionUtil.h</innerfile>
+    <innerfile refid="_n_s_string_09_version_util_8m">NSString+VersionUtil.m</innerfile>
+    <innerfile refid="_n_s_string_09_x_d_common_lib_8h">NSString+XDCommonLib.h</innerfile>
+    <innerfile refid="_n_s_string_09_x_d_common_lib_8m">NSString+XDCommonLib.m</innerfile>
+    <innerfile refid="_n_s_string_09_x_m_l_8h">NSString+XML.h</innerfile>
+    <innerfile refid="_n_s_string_09_x_m_l_8m">NSString+XML.m</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/"/>
+  </compounddef>
+</doxygen>

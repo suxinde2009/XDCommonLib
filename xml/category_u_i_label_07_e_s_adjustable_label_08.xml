@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_u_i_label_07_e_s_adjustable_label_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>UILabel(ESAdjustableLabel)</compoundname>
+    <includes refid="_u_i_label_09_e_s_adjustable_label_8h" local="no">UILabel+ESAdjustableLabel.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="category_u_i_label_07_e_s_adjustable_label_08_1a6e55809d0a0aa5c2f0dd15efe8839516" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UILabel(ESAdjustableLabel)::adjustLabelToMaximumSize:minimumSize:minimumFontSize:</definition>
+        <argsstring>(CGSize maxSize,[minimumSize] CGSize minSize,[minimumFontSize] int minFontSize)</argsstring>
+        <name>adjustLabelToMaximumSize:minimumSize:minimumFontSize:</name>
+        <param>
+          <type>CGSize</type>
+          <declname>maxSize</declname>
+        </param>
+        <param>
+          <attributes>[minimumSize]</attributes>
+          <type>CGSize</type>
+          <declname>minSize</declname>
+        </param>
+        <param>
+          <attributes>[minimumFontSize]</attributes>
+          <type>int</type>
+          <declname>minFontSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UILabel/UILabel+ESAdjustableLabel.h" line="34" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UILabel/UILabel+ESAdjustableLabel.m" bodystart="25" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_label_07_e_s_adjustable_label_08_1a6eb99af8b9b0b2454dc8f0b649182caf" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UILabel(ESAdjustableLabel)::adjustLabelToMaximumSize:minimumFontSize:</definition>
+        <argsstring>(CGSize maxSize,[minimumFontSize] int minFontSize)</argsstring>
+        <name>adjustLabelToMaximumSize:minimumFontSize:</name>
+        <param>
+          <type>CGSize</type>
+          <declname>maxSize</declname>
+        </param>
+        <param>
+          <attributes>[minimumFontSize]</attributes>
+          <type>int</type>
+          <declname>minFontSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UILabel/UILabel+ESAdjustableLabel.h" line="34" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UILabel/UILabel+ESAdjustableLabel.m" bodystart="98" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_label_07_e_s_adjustable_label_08_1a7cdfcfc626cf0f8a99d568c7fcd20ec1" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UILabel(ESAdjustableLabel)::adjustLabelSizeWithMinimumFontSize:</definition>
+        <argsstring>(int minFontSize)</argsstring>
+        <name>adjustLabelSizeWithMinimumFontSize:</name>
+        <param>
+          <type>int</type>
+          <declname>minFontSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UILabel/UILabel+ESAdjustableLabel.h" line="34" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UILabel/UILabel+ESAdjustableLabel.m" bodystart="110" bodyend="115"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_label_07_e_s_adjustable_label_08_1ada56cee646afcfa1012087b610238729" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UILabel(ESAdjustableLabel)::adjustLabel</definition>
+        <argsstring>()</argsstring>
+        <name>adjustLabel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UILabel/UILabel+ESAdjustableLabel.h" line="34" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UILabel/UILabel+ESAdjustableLabel.m" bodystart="121" bodyend="126"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UILabel/UILabel+ESAdjustableLabel.m" line="20" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UILabel/UILabel+ESAdjustableLabel.m" bodystart="20" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_u_i_label_07_e_s_adjustable_label_08_1ada56cee646afcfa1012087b610238729" prot="public" virt="virtual"><scope>UILabel(ESAdjustableLabel)</scope><name>adjustLabel</name></member>
+      <member refid="category_u_i_label_07_e_s_adjustable_label_08_1a7cdfcfc626cf0f8a99d568c7fcd20ec1" prot="public" virt="virtual"><scope>UILabel(ESAdjustableLabel)</scope><name>adjustLabelSizeWithMinimumFontSize:</name></member>
+      <member refid="category_u_i_label_07_e_s_adjustable_label_08_1a6eb99af8b9b0b2454dc8f0b649182caf" prot="public" virt="virtual"><scope>UILabel(ESAdjustableLabel)</scope><name>adjustLabelToMaximumSize:minimumFontSize:</name></member>
+      <member refid="category_u_i_label_07_e_s_adjustable_label_08_1a6e55809d0a0aa5c2f0dd15efe8839516" prot="public" virt="virtual"><scope>UILabel(ESAdjustableLabel)</scope><name>adjustLabelToMaximumSize:minimumSize:minimumFontSize:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

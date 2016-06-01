@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_u_i_color_09_modify_8h" kind="file" language="C++">
+    <compoundname>UIColor+Modify.h</compoundname>
+    <includes local="no">UIKit/UIKit.h</includes>
+    <includedby refid="_u_i_color_09_modify_8m" local="yes">XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIColor/UIColor+Modify.m</includedby>
+    <incdepgraph>
+      <node id="1342">
+        <label>UIKit/UIKit.h</label>
+      </node>
+      <node id="1341">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIColor/UIColor+Modify.h</label>
+        <link refid="UIColor+Modify.h"/>
+        <childnode refid="1342" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1343">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIColor/UIColor+Modify.h</label>
+        <link refid="UIColor+Modify.h"/>
+        <childnode refid="1344" relation="include">
+        </childnode>
+      </node>
+      <node id="1344">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIColor/UIColor+Modify.m</label>
+        <link refid="_u_i_color_09_modify_8m"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="category_u_i_color_07_modify_08" prot="public">UIColor(Modify)</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>UIColor+Modify.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>iOS-Categories<sp/>(https://github.com/shaojiankui/iOS-Categories)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Jakey<sp/>on<sp/>15/1/2.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2015年<sp/>www.skyfox.org.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;UIKit/UIKit.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="category_u_i_color_07_modify_08" kindref="compound">UIColor (Modify)</ref></highlight></codeline>
+<codeline lineno="12"><highlight class="normal">-<sp/>(UIColor<sp/>*)<ref refid="category_u_i_color_07_modify_08_1a2380d7e685ed5eeee4ad0914ae0ee3f1" kindref="member">invertedColor</ref>;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal">-<sp/>(UIColor<sp/>*)<ref refid="category_u_i_color_07_modify_08_1acde42fc7b58d245b2202ed558810cb2b" kindref="member">colorForTranslucency</ref>;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">-<sp/>(UIColor<sp/>*)lightenColor:(CGFloat)lighten;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal">-<sp/>(UIColor<sp/>*)darkenColor:(CGFloat)darken;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIColor/UIColor+Modify.h"/>
+  </compounddef>
+</doxygen>

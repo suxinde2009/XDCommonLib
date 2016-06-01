@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_x_d_multicast_delegate_base_8h" kind="file" language="C++">
+    <compoundname>XDMulticastDelegateBase.h</compoundname>
+    <includes local="no">Foundation/Foundation.h</includes>
+    <includedby refid="_x_d_multicast_delegate_base_8m" local="yes">XDCommonLib/CommonBasicComponentLayer/Utils/XDMulticastDelegate/XDMulticastDelegateBase.m</includedby>
+    <incdepgraph>
+      <node id="3521">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/XDMulticastDelegate/XDMulticastDelegateBase.h</label>
+        <link refid="XDMulticastDelegateBase.h"/>
+        <childnode refid="3522" relation="include">
+        </childnode>
+      </node>
+      <node id="3522">
+        <label>Foundation/Foundation.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3523">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/XDMulticastDelegate/XDMulticastDelegateBase.h</label>
+        <link refid="XDMulticastDelegateBase.h"/>
+        <childnode refid="3524" relation="include">
+        </childnode>
+      </node>
+      <node id="3524">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/XDMulticastDelegate/XDMulticastDelegateBase.m</label>
+        <link refid="_x_d_multicast_delegate_base_8m"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_x_d_multicast_delegate_base" prot="public">XDMulticastDelegateBase</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>XDMulticastDelegateBase.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>XDCommonLib</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>suxinde<sp/>on<sp/>16/4/11.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>©<sp/>2016年<sp/>su<sp/>xinde.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;Foundation/Foundation.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="class_x_d_multicast_delegate_base" kindref="compound">XDMulticastDelegateBase</ref><sp/>:<sp/>NSObject<sp/>{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/>@</highlight><highlight class="keyword">package</highlight></codeline>
+<codeline lineno="13" refid="class_x_d_multicast_delegate_base_1ad72bc4e10b675807e8de514b7b65e707" refkind="member"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">id<sp/>_multicastDelegate;</highlight></codeline>
+<codeline lineno="14" refid="class_x_d_multicast_delegate_base_1a752dbbfd98cffdd945ab521a52c9d8d1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>dispatch_queue_t<sp/><ref refid="class_x_d_multicast_delegate_base_1a752dbbfd98cffdd945ab521a52c9d8d1" kindref="member">_moduleQueue</ref>;</highlight></codeline>
+<codeline lineno="15" refid="class_x_d_multicast_delegate_base_1a37850b88790bdf24b89d84bf7e3c4995" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*<ref refid="class_x_d_multicast_delegate_base_1a37850b88790bdf24b89d84bf7e3c4995" kindref="member">_moduleQueueTag</ref>;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="17" refid="class_x_d_multicast_delegate_base_1a2d3b9b4a90efcf3a01036c225c3ffb30" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>readonly)<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/><ref refid="class_x_d_multicast_delegate_base_1a2d3b9b4a90efcf3a01036c225c3ffb30" kindref="member">multicastDelegate</ref>;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal">-<sp/>(id)<ref refid="class_x_d_multicast_delegate_base_1a81b59c38f0360653d2c75a596fee189c" kindref="member">init</ref>;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal">-<sp/>(id)initWithDispatchQueue:(dispatch_queue_t)queue;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23" refid="class_x_d_multicast_delegate_base_1a1cbb8213236ade6cbdfd090bd8a40010" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(readonly)<sp/>dispatch_queue_t<sp/><ref refid="class_x_d_multicast_delegate_base_1a1cbb8213236ade6cbdfd090bd8a40010" kindref="member">moduleQueue</ref>;</highlight></codeline>
+<codeline lineno="24" refid="class_x_d_multicast_delegate_base_1a6786fbc980168c90f0d14d994d8a000f" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(readonly)<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*<ref refid="class_x_d_multicast_delegate_base_1a6786fbc980168c90f0d14d994d8a000f" kindref="member">moduleQueueTag</ref>;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal">-<sp/>(void)addDelegate:(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)delegate;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal">-<sp/>(void)addDelegate:(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)delegate</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>delegateQueue:(dispatch_queue_t)delegateQueue;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal">-<sp/>(void)removeDelegate:(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)delegate</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>delegateQueue:(dispatch_queue_t)delegateQueue;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal">-<sp/>(void)removeDelegate:(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)delegate;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDMulticastDelegate/XDMulticastDelegateBase.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_u_i_image_07_better_face_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>UIImage(BetterFace)</compoundname>
+    <includes refid="_u_i_image_09_better_face_8h" local="no">UIImage+BetterFace.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="category_u_i_image_07_better_face_08_1afc0a14bfc60ef6e2504b6b998938a76d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>UIImage *</type>
+        <definition>UIImage * UIImage(BetterFace)::betterFaceImageForSize:accuracy:</definition>
+        <argsstring>(CGSize size,[accuracy] BFAccuracy accurary)</argsstring>
+        <name>betterFaceImageForSize:accuracy:</name>
+        <param>
+          <type>CGSize</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <attributes>[accuracy]</attributes>
+          <type>BFAccuracy</type>
+          <declname>accurary</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImage/UIImage+BetterFace.h" line="13" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImage/UIImage+BetterFace.m" bodystart="21" bodyend="34"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImage/UIImage+BetterFace.m" line="19" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImage/UIImage+BetterFace.m" bodystart="19" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_u_i_image_07_better_face_08_1afc0a14bfc60ef6e2504b6b998938a76d" prot="public" virt="virtual"><scope>UIImage(BetterFace)</scope><name>betterFaceImageForSize:accuracy:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

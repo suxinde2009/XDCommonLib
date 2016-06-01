@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_u_i_control_07_blocks_kit_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>UIControl(BlocksKit)</compoundname>
+    <includes refid="_u_i_control_09_blocks_kit_8h" local="no">UIControl+BlocksKit.h</includes>
+      <sectiondef kind="user-defined">
+      <header>Block event handling</header>
+      <description><para><hruler/>
+ <hruler/>
+ </para></description>
+      <memberdef kind="function" id="category_u_i_control_07_blocks_kit_08_1a3a67d5c71bb0c9e991c6d5905728aa4d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UIControl(BlocksKit)::bk_addEventHandler:forControlEvents:</definition>
+        <argsstring>(void(^handler)(id sender),[forControlEvents] UIControlEvents controlEvents)</argsstring>
+        <name>bk_addEventHandler:forControlEvents:</name>
+        <param>
+          <type>void(^)(id sender)</type>
+          <declname>handler</declname>
+        </param>
+        <param>
+          <attributes>[forControlEvents]</attributes>
+          <type>UIControlEvents</type>
+          <declname>controlEvents</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Adds a block for a particular event to an internal dispatch table.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>handler</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A block representing an action message, with an argument for the sender. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>controlEvents</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A bitmask specifying the control events for which the action message is sent. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para>removeEventHandlersForControlEvents: </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIControl+BlocksKit.h" line="54" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIControl+BlocksKit.m" bodystart="51" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_control_07_blocks_kit_08_1a0374fabb8e752d319d717eaa7002eb01" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UIControl(BlocksKit)::bk_removeEventHandlersForControlEvents:</definition>
+        <argsstring>(UIControlEvents controlEvents)</argsstring>
+        <name>bk_removeEventHandlersForControlEvents:</name>
+        <param>
+          <type>UIControlEvents</type>
+          <declname>controlEvents</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Removes all control event blocks associated with the given mask of control events.</para><para>Do note that, like <computeroutput>UIControl</computeroutput>, this method will not decompose control events; thus, only a handler matching an exact given bitmask will be removed.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>controlEvents</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A bitmask specifying the control events for which the block will be removed. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para>addEventHandler:forControlEvents: </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIControl+BlocksKit.h" line="54" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIControl+BlocksKit.m" bodystart="73" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_control_07_blocks_kit_08_1a30ee9d661b1e41faa2f0d90b46ae45b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL UIControl(BlocksKit)::bk_hasEventHandlersForControlEvents:</definition>
+        <argsstring>(UIControlEvents controlEvents)</argsstring>
+        <name>bk_hasEventHandlersForControlEvents:</name>
+        <param>
+          <type>UIControlEvents</type>
+          <declname>controlEvents</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Checks to see if the control has any blocks for a particular event combination. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>controlEvents</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A bitmask specifying the control events for which to check for blocks. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para>addEventHandler:forControlEvents: </para></simplesect>
+<simplesect kind="return"><para>Returns YES if there are blocks for these control events, NO otherwise. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIControl+BlocksKit.h" line="54" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIControl+BlocksKit.m" bodystart="94" bodyend="109"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Block control event handling for UIControl.</para><para>Includes code by the following:</para><para><itemizedlist>
+<listitem><para><ulink url="https://github.com/kevinoneill">Kevin O&apos;Neill</ulink></para></listitem><listitem><para><ulink url="https://github.com/zwaldowski">Zach Waldowski</ulink></para></listitem></itemizedlist>
+</para><para><simplesect kind="warning"><para>UIControl is only available on a platform with UIKit. </para></simplesect>
+</para>    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIControl+BlocksKit.m" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIControl+BlocksKit.m" bodystart="49" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_u_i_control_07_blocks_kit_08_1a3a67d5c71bb0c9e991c6d5905728aa4d" prot="public" virt="virtual"><scope>UIControl(BlocksKit)</scope><name>bk_addEventHandler:forControlEvents:</name></member>
+      <member refid="category_u_i_control_07_blocks_kit_08_1a30ee9d661b1e41faa2f0d90b46ae45b2" prot="public" virt="virtual"><scope>UIControl(BlocksKit)</scope><name>bk_hasEventHandlersForControlEvents:</name></member>
+      <member refid="category_u_i_control_07_blocks_kit_08_1a0374fabb8e752d319d717eaa7002eb01" prot="public" virt="virtual"><scope>UIControl(BlocksKit)</scope><name>bk_removeEventHandlersForControlEvents:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

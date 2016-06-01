@@ -1,0 +1,527 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_n_s_object_09_b_k_block_observation_8m" kind="file" language="Objective-C">
+    <compoundname>NSObject+BKBlockObservation.m</compoundname>
+    <includes refid="_n_s_object_09_b_k_block_observation_8h" local="yes">NSObject+BKBlockObservation.h</includes>
+    <includes refid="_n_s_array_09_blocks_kit_8h" local="yes">NSArray+BlocksKit.h</includes>
+    <includes refid="_n_s_dictionary_09_blocks_kit_8h" local="yes">NSDictionary+BlocksKit.h</includes>
+    <includes refid="_n_s_set_09_blocks_kit_8h" local="yes">NSSet+BlocksKit.h</includes>
+    <includes refid="_n_s_object_09_b_k_associated_objects_8h" local="yes">NSObject+BKAssociatedObjects.h</includes>
+    <incdepgraph>
+      <node id="2807">
+        <label>Foundation/NSObjCRuntime.h</label>
+      </node>
+      <node id="2809">
+        <label>NSArray+BlocksKit.h</label>
+        <link refid="_n_s_array_09_blocks_kit_8h"/>
+        <childnode refid="2806" relation="include">
+        </childnode>
+        <childnode refid="2808" relation="include">
+        </childnode>
+        <childnode refid="2810" relation="include">
+        </childnode>
+      </node>
+      <node id="2813">
+        <label>NSObject+BKAssociatedObjects.h</label>
+        <link refid="_n_s_object_09_b_k_associated_objects_8h"/>
+        <childnode refid="2806" relation="include">
+        </childnode>
+        <childnode refid="2808" relation="include">
+        </childnode>
+      </node>
+      <node id="2805">
+        <label>NSObject+BKBlockObservation.h</label>
+        <link refid="_n_s_object_09_b_k_block_observation_8h"/>
+        <childnode refid="2806" relation="include">
+        </childnode>
+        <childnode refid="2808" relation="include">
+        </childnode>
+      </node>
+      <node id="2804">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSObject+BKBlockObservation.m</label>
+        <link refid="NSObject+BKBlockObservation.m"/>
+        <childnode refid="2805" relation="include">
+        </childnode>
+        <childnode refid="2809" relation="include">
+        </childnode>
+        <childnode refid="2811" relation="include">
+        </childnode>
+        <childnode refid="2812" relation="include">
+        </childnode>
+        <childnode refid="2813" relation="include">
+        </childnode>
+      </node>
+      <node id="2811">
+        <label>NSDictionary+BlocksKit.h</label>
+        <link refid="_n_s_dictionary_09_blocks_kit_8h"/>
+        <childnode refid="2806" relation="include">
+        </childnode>
+        <childnode refid="2808" relation="include">
+        </childnode>
+      </node>
+      <node id="2812">
+        <label>NSSet+BlocksKit.h</label>
+        <link refid="_n_s_set_09_blocks_kit_8h"/>
+        <childnode refid="2806" relation="include">
+        </childnode>
+        <childnode refid="2808" relation="include">
+        </childnode>
+      </node>
+      <node id="2806">
+        <label>BKDefines.h</label>
+        <link refid="_b_k_defines_8h"/>
+        <childnode refid="2807" relation="include">
+        </childnode>
+      </node>
+      <node id="2808">
+        <label>Foundation/Foundation.h</label>
+      </node>
+      <node id="2810">
+        <label>CoreGraphics/CGBase.h</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="interface___b_k_observer" prot="public">_BKObserver</innerclass>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="_n_s_object_09_b_k_block_observation_8m_1add92c5a4b943d3d7adbb37e41099657e" prot="public" static="no" mutable="no">
+        <type>import ObjectiveC</type>
+        <definition>import ObjectiveC runtime</definition>
+        <argsstring></argsstring>
+        <name>runtime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSObject+BKBlockObservation.m" line="7" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSObject+BKBlockObservation.m" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_n_s_object_09_b_k_block_observation_8m_1a19dd2af25ac6d5ede1801fd092465656" prot="public" static="no" mutable="no">
+        <type>import ObjectiveC</type>
+        <definition>import ObjectiveC message</definition>
+        <argsstring></argsstring>
+        <name>message</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSObject+BKBlockObservation.m" line="8" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSObject+BKBlockObservation.m" bodystart="8" bodyend="-1"/>
+        <referencedby refid="category_u_i_view_controller_07_top_bar_message_08_1ac7ca964be28dd8da891d70a9048f2150" compoundref="_u_i_view_controller_09_top_bar_message_8m" startline="202" endline="274">UIViewController(TopBarMessage)::showTopMessage:topBarConfig:mode:dismissDelay:withTapBlock:</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="_n_s_object_09_b_k_block_observation_8m_1aff626da43f6146494050d8ad1db56119" prot="public" static="yes" mutable="no">
+        <type>void *</type>
+        <definition>void* BKObserverBlocksKey</definition>
+        <argsstring></argsstring>
+        <name>BKObserverBlocksKey</name>
+        <initializer>= &amp;BKObserverBlocksKey</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSObject+BKBlockObservation.m" line="34" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSObject+BKBlockObservation.m" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_n_s_object_09_b_k_block_observation_8m_1a445c0b65d793c6823b9c18930ff5e57f" prot="public" static="yes" mutable="no">
+        <type>void *</type>
+        <definition>void* BKBlockObservationContext</definition>
+        <argsstring></argsstring>
+        <name>BKBlockObservationContext</name>
+        <initializer>= &amp;BKBlockObservationContext</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSObject+BKBlockObservation.m" line="35" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSObject+BKBlockObservation.m" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_n_s_object_09_b_k_block_observation_8m_1a62a9c979aa27c59b66aa71c31d7e141a" prot="public" static="yes" mutable="no">
+        <type>const NSUInteger</type>
+        <definition>const NSUInteger BKKeyValueObservingOptionWantsChangeDictionary</definition>
+        <argsstring></argsstring>
+        <name>BKKeyValueObservingOptionWantsChangeDictionary</name>
+        <initializer>= 0x1000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSObject+BKBlockObservation.m" line="152" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSObject+BKBlockObservation.m" bodystart="152" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_n_s_object_09_b_k_block_observation_8m_1afbac998afdd2e814e3a2db30f32c5d45" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typedef</type>
+        <definition>typedef NS_ENUM</definition>
+        <argsstring>(int, BKObserverContext)</argsstring>
+        <name>NS_ENUM</name>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>BKObserverContext</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSObject+BKBlockObservation.m" line="14" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSObject+BKBlockObservation.m" bodystart="14" bodyend="19"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>NSObject+BKBlockObservation.m</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>BlocksKit</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_n_s_object_09_b_k_block_observation_8h" kindref="compound">NSObject+BKBlockObservation.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="_n_s_object_09_b_k_block_observation_8m_1add92c5a4b943d3d7adbb37e41099657e" refkind="member"><highlight class="normal">@</highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>ObjectiveC.runtime;</highlight></codeline>
+<codeline lineno="8" refid="_n_s_object_09_b_k_block_observation_8m_1a19dd2af25ac6d5ede1801fd092465656" refkind="member"><highlight class="normal">@</highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>ObjectiveC.message;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_n_s_array_09_blocks_kit_8h" kindref="compound">NSArray+BlocksKit.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_n_s_dictionary_09_blocks_kit_8h" kindref="compound">NSDictionary+BlocksKit.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_n_s_set_09_blocks_kit_8h" kindref="compound">NSSet+BlocksKit.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_n_s_object_09_b_k_associated_objects_8h" kindref="compound">NSObject+BKAssociatedObjects.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="_n_s_object_09_b_k_block_observation_8m_1afbac998afdd2e814e3a2db30f32c5d45" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="_n_s_object_09_b_k_block_observation_8m_1afbac998afdd2e814e3a2db30f32c5d45" kindref="member">NS_ENUM</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,<sp/>BKObserverContext)<sp/>{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>BKObserverContextKey,</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>BKObserverContextKeyWithChange,</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>BKObserverContextManyKeys,</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>BKObserverContextManyKeysWithChange</highlight></codeline>
+<codeline lineno="19"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="interface___b_k_observer" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="interface___b_k_observer" kindref="compound">_BKObserver</ref><sp/>:<sp/>NSObject<sp/>{</highlight></codeline>
+<codeline lineno="22" refid="interface___b_k_observer_1a4b28deded32911b3dc65c0fc0c523c2f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>BOOL<sp/><ref refid="interface___b_k_observer_1a4b28deded32911b3dc65c0fc0c523c2f" kindref="member">_isObserving</ref>;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25" refid="interface___b_k_observer_1aa0083a9731dda0eaa1fc8e5642099d1a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>readonly,<sp/>unsafe_unretained)<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>observee;</highlight></codeline>
+<codeline lineno="26" refid="interface___b_k_observer_1abfe1e7cafd49ba0cbe1a3dc797b3745f" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>readonly)<sp/>NSMutableArray<sp/>*keyPaths;</highlight></codeline>
+<codeline lineno="27" refid="interface___b_k_observer_1a9317ff3a2e8b4706550cab9426c45a04" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>readonly)<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>task;</highlight></codeline>
+<codeline lineno="28" refid="interface___b_k_observer_1af86c9c7c4cd783d3e3c58324c5459671" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>readonly)<sp/>BKObserverContext<sp/>context;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal">-<sp/>(id)initWithObservee:(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)observee<sp/>keyPaths:(NSArray<sp/>*)keyPaths<sp/>context:(BKObserverContext)context<sp/>task:(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)task;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*BKObserverBlocksKey<sp/>=<sp/>&amp;BKObserverBlocksKey;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*BKBlockObservationContext<sp/>=<sp/>&amp;BKBlockObservationContext;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="keyword">@implementation<sp/></highlight><highlight class="normal"><ref refid="interface___b_k_observer" kindref="compound">_BKObserver</ref></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39" refid="interface___b_k_observer_1a1269f9c17ab567e678684a176ea4c8a8" refkind="member"><highlight class="normal">-<sp/>(id)initWithObservee:(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)observee<sp/>keyPaths:(NSArray<sp/>*)keyPaths<sp/>context:(BKObserverContext)context<sp/>task:(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)task</highlight></codeline>
+<codeline lineno="40"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>((</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>=<sp/>[super<sp/>init]))<sp/>{</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_observee<sp/>=<sp/><ref refid="interface___b_k_observer_1aa0083a9731dda0eaa1fc8e5642099d1a" kindref="member">observee</ref>;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_keyPaths<sp/>=<sp/>[<ref refid="interface___b_k_observer_1abfe1e7cafd49ba0cbe1a3dc797b3745f" kindref="member">keyPaths</ref><sp/>mutableCopy];</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_context<sp/>=<sp/><ref refid="interface___b_k_observer_1af86c9c7c4cd783d3e3c58324c5459671" kindref="member">context</ref>;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_task<sp/>=<sp/>[<ref refid="interface___b_k_observer_1a9317ff3a2e8b4706550cab9426c45a04" kindref="member">task</ref><sp/>copy];</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal">-<sp/>(void)observeValueForKeyPath:(NSString<sp/>*)keyPath<sp/>ofObject:(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)object<sp/>change:(NSDictionary<sp/>*)change<sp/>context:(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*)context</highlight></codeline>
+<codeline lineno="51"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="interface___b_k_observer_1af86c9c7c4cd783d3e3c58324c5459671" kindref="member">context</ref><sp/>!=<sp/>BKBlockObservationContext)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>@</highlight><highlight class="keyword">synchronized</highlight><highlight class="normal">(</highlight><highlight class="keyword">self</highlight><highlight class="normal">)<sp/>{</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">switch</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">self</highlight><highlight class="normal">.<ref refid="interface___b_k_observer_1af86c9c7c4cd783d3e3c58324c5459671" kindref="member">context</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>BKObserverContextKey:<sp/>{</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>void<sp/>(^<ref refid="interface___b_k_observer_1a9317ff3a2e8b4706550cab9426c45a04" kindref="member">task</ref>)(id)<sp/>=<sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.<ref refid="interface___b_k_observer_1a9317ff3a2e8b4706550cab9426c45a04" kindref="member">task</ref>;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="interface___b_k_observer_1a9317ff3a2e8b4706550cab9426c45a04" kindref="member">task</ref>(</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>BKObserverContextKeyWithChange:<sp/>{</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>void<sp/>(^<ref refid="interface___b_k_observer_1a9317ff3a2e8b4706550cab9426c45a04" kindref="member">task</ref>)(id,<sp/>NSDictionary<sp/>*)<sp/>=<sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.<ref refid="interface___b_k_observer_1a9317ff3a2e8b4706550cab9426c45a04" kindref="member">task</ref>;</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="interface___b_k_observer_1a9317ff3a2e8b4706550cab9426c45a04" kindref="member">task</ref>(</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">,<sp/>change);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>BKObserverContextManyKeys:<sp/>{</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>void<sp/>(^<ref refid="interface___b_k_observer_1a9317ff3a2e8b4706550cab9426c45a04" kindref="member">task</ref>)(id,<sp/>NSString<sp/>*)<sp/>=<sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.<ref refid="interface___b_k_observer_1a9317ff3a2e8b4706550cab9426c45a04" kindref="member">task</ref>;</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="interface___b_k_observer_1a9317ff3a2e8b4706550cab9426c45a04" kindref="member">task</ref>(</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">,<sp/>keyPath);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>BKObserverContextManyKeysWithChange:<sp/>{</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>void<sp/>(^<ref refid="interface___b_k_observer_1a9317ff3a2e8b4706550cab9426c45a04" kindref="member">task</ref>)(id,<sp/>NSString<sp/>*,<sp/>NSDictionary<sp/>*)<sp/>=<sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.<ref refid="interface___b_k_observer_1a9317ff3a2e8b4706550cab9426c45a04" kindref="member">task</ref>;</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="interface___b_k_observer_1a9317ff3a2e8b4706550cab9426c45a04" kindref="member">task</ref>(</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">,<sp/>keyPath,<sp/>change);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="78"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal">-<sp/>(void)startObservingWithOptions:(NSKeyValueObservingOptions)options</highlight></codeline>
+<codeline lineno="81"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/>@</highlight><highlight class="keyword">synchronized</highlight><highlight class="normal">(</highlight><highlight class="keyword">self</highlight><highlight class="normal">)<sp/>{</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="interface___b_k_observer_1a4b28deded32911b3dc65c0fc0c523c2f" kindref="member">_isObserving</ref>)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal">.keyPaths<sp/>bk_each:^(NSString<sp/>*keyPath)<sp/>{</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal">.observee<sp/>addObserver:self<sp/>forKeyPath:keyPath<sp/>options:options<sp/>context:BKBlockObservationContext];</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}];</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="interface___b_k_observer_1a4b28deded32911b3dc65c0fc0c523c2f" kindref="member">_isObserving</ref><sp/>=<sp/>YES;</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="91"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal">-<sp/>(void)stopObservingKeyPath:(NSString<sp/>*)keyPath</highlight></codeline>
+<codeline lineno="94"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/>NSParameterAssert(keyPath);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/>@</highlight><highlight class="keyword">synchronized</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">self</highlight><highlight class="normal">)<sp/>{</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!<ref refid="interface___b_k_observer_1a4b28deded32911b3dc65c0fc0c523c2f" kindref="member">_isObserving</ref>)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(![</highlight><highlight class="keyword">self</highlight><highlight class="normal">.<ref refid="interface___b_k_observer_1abfe1e7cafd49ba0cbe1a3dc797b3745f" kindref="member">keyPaths</ref><sp/>containsObject:keyPath])<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NSObject<sp/>*<ref refid="interface___b_k_observer_1aa0083a9731dda0eaa1fc8e5642099d1a" kindref="member">observee</ref><sp/>=<sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.observee;</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!observee)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal">.keyPaths<sp/>removeObject:<sp/>keyPath];</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>keyPath<sp/>=<sp/>[keyPath<sp/>copy];</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!</highlight><highlight class="keyword">self</highlight><highlight class="normal">.<ref refid="interface___b_k_observer_1abfe1e7cafd49ba0cbe1a3dc797b3745f" kindref="member">keyPaths</ref>.count)<sp/>{</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_task<sp/>=<sp/>nil;</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_observee<sp/>=<sp/>nil;</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_keyPaths<sp/>=<sp/>nil;</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[observee<sp/>removeObserver:self<sp/>forKeyPath:keyPath<sp/>context:BKBlockObservationContext];</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="115"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal">-<sp/>(void)_stopObservingLocked</highlight></codeline>
+<codeline lineno="118"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!<ref refid="interface___b_k_observer_1a4b28deded32911b3dc65c0fc0c523c2f" kindref="member">_isObserving</ref>)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/>_task<sp/>=<sp/>nil;</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/>NSObject<sp/>*observee<sp/>=<sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.observee;</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/>NSArray<sp/>*<ref refid="interface___b_k_observer_1abfe1e7cafd49ba0cbe1a3dc797b3745f" kindref="member">keyPaths</ref><sp/>=<sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal">.keyPaths<sp/>copy];</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/>_observee<sp/>=<sp/>nil;</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/>_keyPaths<sp/>=<sp/>nil;</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/>[keyPaths<sp/>bk_each:^(NSString<sp/>*keyPath)<sp/>{</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[observee<sp/>removeObserver:self<sp/>forKeyPath:keyPath<sp/>context:BKBlockObservationContext];</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/>}];</highlight></codeline>
+<codeline lineno="132"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight></codeline>
+<codeline lineno="134"><highlight class="normal">-<sp/>(void)stopObserving</highlight></codeline>
+<codeline lineno="135"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(_observee<sp/>==<sp/>nil)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/>@</highlight><highlight class="keyword">synchronized</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">self</highlight><highlight class="normal">)<sp/>{</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>_stopObservingLocked];</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="141"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight></codeline>
+<codeline lineno="143"><highlight class="normal">-<sp/>(void)dealloc</highlight></codeline>
+<codeline lineno="144"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">self</highlight><highlight class="normal">.<ref refid="interface___b_k_observer_1abfe1e7cafd49ba0cbe1a3dc797b3745f" kindref="member">keyPaths</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>_stopObservingLocked];</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="148"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"></highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight></codeline>
+<codeline lineno="152"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>NSUInteger<sp/>BKKeyValueObservingOptionWantsChangeDictionary<sp/>=<sp/>0x1000;</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"></highlight></codeline>
+<codeline lineno="154" refid="category_n_s_object_07_block_observation_08" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">@implementation<sp/></highlight><highlight class="normal"><ref refid="category_n_s_object_07_block_observation_08" kindref="compound">NSObject (BlockObservation)</ref></highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight></codeline>
+<codeline lineno="156" refid="category_n_s_object_07_block_observation_08_1a569300cab5e155799366116aad26848c" refkind="member"><highlight class="normal">-<sp/>(NSString<sp/>*)bk_addObserverForKeyPath:(NSString<sp/>*)keyPath<sp/>task:(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(^)(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>target))task</highlight></codeline>
+<codeline lineno="157"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/>NSString<sp/>*token<sp/>=<sp/>[[NSProcessInfo<sp/>processInfo]<sp/>globallyUniqueString];</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>bk_addObserverForKeyPaths:@[<sp/>keyPath<sp/>]<sp/>identifier:token<sp/>options:0<sp/>context:BKObserverContextKey<sp/>task:task];</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>token;</highlight></codeline>
+<codeline lineno="161"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"></highlight></codeline>
+<codeline lineno="163" refid="category_n_s_object_07_block_observation_08_1ae3048f1985d69fdce0997782600966b2" refkind="member"><highlight class="normal">-<sp/>(NSString<sp/>*)bk_addObserverForKeyPaths:(NSArray<sp/>*)keyPaths<sp/>task:(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(^)(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>obj,<sp/>NSString<sp/>*keyPath))task</highlight></codeline>
+<codeline lineno="164"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/>NSString<sp/>*token<sp/>=<sp/>[[NSProcessInfo<sp/>processInfo]<sp/>globallyUniqueString];</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>bk_addObserverForKeyPaths:keyPaths<sp/>identifier:token<sp/>options:0<sp/>context:BKObserverContextManyKeys<sp/>task:task];</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>token;</highlight></codeline>
+<codeline lineno="168"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"></highlight></codeline>
+<codeline lineno="170" refid="category_n_s_object_07_block_observation_08_1a8395ef1fd787ced723ef8970a69fc611" refkind="member"><highlight class="normal">-<sp/>(NSString<sp/>*)bk_addObserverForKeyPath:(NSString<sp/>*)keyPath<sp/>options:(NSKeyValueObservingOptions)options<sp/>task:(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(^)(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>obj,<sp/>NSDictionary<sp/>*change))task</highlight></codeline>
+<codeline lineno="171"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/>NSString<sp/>*token<sp/>=<sp/>[[NSProcessInfo<sp/>processInfo]<sp/>globallyUniqueString];</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/>options<sp/>=<sp/>options<sp/>|<sp/>BKKeyValueObservingOptionWantsChangeDictionary;</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/><ref refid="category_n_s_object_07_block_observation_08_1afe2acd040645a0b45ea36f669eb27bb3" kindref="member">bk_addObserverForKeyPath</ref>:keyPath<sp/><ref refid="category_n_s_object_07_block_observation_08_1afe2acd040645a0b45ea36f669eb27bb3" kindref="member">identifier</ref>:token<sp/><ref refid="category_n_s_object_07_block_observation_08_1afe2acd040645a0b45ea36f669eb27bb3" kindref="member">options</ref>:options<sp/><ref refid="category_n_s_object_07_block_observation_08_1afe2acd040645a0b45ea36f669eb27bb3" kindref="member">task</ref>:task];</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>token;</highlight></codeline>
+<codeline lineno="176"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"></highlight></codeline>
+<codeline lineno="178" refid="category_n_s_object_07_block_observation_08_1a1ba62ddd892fd6c5948d712f892aaa7e" refkind="member"><highlight class="normal">-<sp/>(NSString<sp/>*)bk_addObserverForKeyPaths:(NSArray<sp/>*)keyPaths<sp/>options:(NSKeyValueObservingOptions)options<sp/>task:(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(^)(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>obj,<sp/>NSString<sp/>*keyPath,<sp/>NSDictionary<sp/>*change))task</highlight></codeline>
+<codeline lineno="179"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/>NSString<sp/>*token<sp/>=<sp/>[[NSProcessInfo<sp/>processInfo]<sp/>globallyUniqueString];</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/>options<sp/>=<sp/>options<sp/>|<sp/>BKKeyValueObservingOptionWantsChangeDictionary;</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/><ref refid="category_n_s_object_07_block_observation_08_1aa23544bb371b5d1b3e4b257c18f12026" kindref="member">bk_addObserverForKeyPaths</ref>:keyPaths<sp/><ref refid="category_n_s_object_07_block_observation_08_1aa23544bb371b5d1b3e4b257c18f12026" kindref="member">identifier</ref>:token<sp/><ref refid="category_n_s_object_07_block_observation_08_1aa23544bb371b5d1b3e4b257c18f12026" kindref="member">options</ref>:options<sp/><ref refid="category_n_s_object_07_block_observation_08_1aa23544bb371b5d1b3e4b257c18f12026" kindref="member">task</ref>:task];</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>token;</highlight></codeline>
+<codeline lineno="184"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"></highlight></codeline>
+<codeline lineno="186" refid="category_n_s_object_07_block_observation_08_1afe2acd040645a0b45ea36f669eb27bb3" refkind="member"><highlight class="normal">-<sp/>(void)bk_addObserverForKeyPath:(NSString<sp/>*)keyPath<sp/>identifier:(NSString<sp/>*)identifier<sp/>options:(NSKeyValueObservingOptions)options<sp/>task:(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(^)(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>obj,<sp/>NSDictionary<sp/>*change))task</highlight></codeline>
+<codeline lineno="187"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/>BKObserverContext<sp/>context<sp/>=<sp/>(options<sp/>==<sp/>0)<sp/>?<sp/>BKObserverContextKey<sp/>:<sp/>BKObserverContextKeyWithChange;</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/>options<sp/>=<sp/>options<sp/>&amp;<sp/>(~BKKeyValueObservingOptionWantsChangeDictionary);</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>bk_addObserverForKeyPaths:@[keyPath]<sp/>identifier:identifier<sp/>options:options<sp/>context:context<sp/>task:task];</highlight></codeline>
+<codeline lineno="191"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"></highlight></codeline>
+<codeline lineno="193" refid="category_n_s_object_07_block_observation_08_1aa23544bb371b5d1b3e4b257c18f12026" refkind="member"><highlight class="normal">-<sp/>(void)bk_addObserverForKeyPaths:(NSArray<sp/>*)keyPaths<sp/>identifier:(NSString<sp/>*)identifier<sp/>options:(NSKeyValueObservingOptions)options<sp/>task:(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(^)(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>obj,<sp/>NSString<sp/>*keyPath,<sp/>NSDictionary<sp/>*change))task</highlight></codeline>
+<codeline lineno="194"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/>BKObserverContext<sp/>context<sp/>=<sp/>(options<sp/>==<sp/>0)<sp/>?<sp/>BKObserverContextManyKeys<sp/>:<sp/>BKObserverContextManyKeysWithChange;</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/>options<sp/>=<sp/>options<sp/>&amp;<sp/>(~BKKeyValueObservingOptionWantsChangeDictionary);</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>bk_addObserverForKeyPaths:keyPaths<sp/>identifier:identifier<sp/>options:options<sp/>context:context<sp/>task:task];</highlight></codeline>
+<codeline lineno="198"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"></highlight></codeline>
+<codeline lineno="200" refid="category_n_s_object_07_block_observation_08_1a809b0a2e5178e0698561c4b2a1d42c7a" refkind="member"><highlight class="normal">-<sp/>(void)bk_removeObserverForKeyPath:(NSString<sp/>*)keyPath<sp/>identifier:(NSString<sp/>*)token</highlight></codeline>
+<codeline lineno="201"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/><sp/><sp/>NSParameterAssert(keyPath.length);</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/><sp/>NSParameterAssert(token.length);</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"></highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/>NSMutableDictionary<sp/>*dict;</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"></highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/><sp/><sp/>@</highlight><highlight class="keyword">synchronized</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">self</highlight><highlight class="normal">)<sp/>{</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dict<sp/>=<sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>bk_observerBlocks];</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!dict)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"></highlight></codeline>
+<codeline lineno="212"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="interface___b_k_observer" kindref="compound">_BKObserver</ref><sp/>*observer<sp/>=<sp/>dict[token];</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/><sp/><sp/>[observer<sp/>stopObservingKeyPath:keyPath];</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"></highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(observer.<ref refid="interface___b_k_observer_1abfe1e7cafd49ba0cbe1a3dc797b3745f" kindref="member">keyPaths</ref>.count<sp/>==<sp/>0)<sp/>{</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[dict<sp/>removeObjectForKey:token];</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"></highlight></codeline>
+<codeline lineno="219"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(dict.count<sp/>==<sp/>0)<sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>bk_setObserverBlocks:nil];</highlight></codeline>
+<codeline lineno="220"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"></highlight></codeline>
+<codeline lineno="222" refid="category_n_s_object_07_block_observation_08_1ae654f69491a63e028a7108ed876b06c1" refkind="member"><highlight class="normal">-<sp/>(void)bk_removeObserversWithIdentifier:(NSString<sp/>*)token</highlight></codeline>
+<codeline lineno="223"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"><sp/><sp/><sp/><sp/>NSParameterAssert(token);</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"></highlight></codeline>
+<codeline lineno="226"><highlight class="normal"><sp/><sp/><sp/><sp/>NSMutableDictionary<sp/>*dict;</highlight></codeline>
+<codeline lineno="227"><highlight class="normal"></highlight></codeline>
+<codeline lineno="228"><highlight class="normal"><sp/><sp/><sp/><sp/>@</highlight><highlight class="keyword">synchronized</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">self</highlight><highlight class="normal">)<sp/>{</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dict<sp/>=<sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>bk_observerBlocks];</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!dict)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"></highlight></codeline>
+<codeline lineno="233"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="interface___b_k_observer" kindref="compound">_BKObserver</ref><sp/>*observer<sp/>=<sp/>dict[token];</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"><sp/><sp/><sp/><sp/>[observer<sp/>stopObserving];</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"></highlight></codeline>
+<codeline lineno="236"><highlight class="normal"><sp/><sp/><sp/><sp/>[dict<sp/>removeObjectForKey:token];</highlight></codeline>
+<codeline lineno="237"><highlight class="normal"></highlight></codeline>
+<codeline lineno="238"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(dict.count<sp/>==<sp/>0)<sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>bk_setObserverBlocks:nil];</highlight></codeline>
+<codeline lineno="239"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="240"><highlight class="normal"></highlight></codeline>
+<codeline lineno="241" refid="category_n_s_object_07_block_observation_08_1a0cd139ae1fae02f5400b1725e5c2633b" refkind="member"><highlight class="normal">-<sp/>(void)<ref refid="category_n_s_object_07_block_observation_08_1a0cd139ae1fae02f5400b1725e5c2633b" kindref="member">bk_removeAllBlockObservers</ref></highlight></codeline>
+<codeline lineno="242"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="243"><highlight class="normal"><sp/><sp/><sp/><sp/>NSDictionary<sp/>*dict;</highlight></codeline>
+<codeline lineno="244"><highlight class="normal"></highlight></codeline>
+<codeline lineno="245"><highlight class="normal"><sp/><sp/><sp/><sp/>@</highlight><highlight class="keyword">synchronized</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">self</highlight><highlight class="normal">)<sp/>{</highlight></codeline>
+<codeline lineno="246"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dict<sp/>=<sp/>[[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>bk_observerBlocks]<sp/>copy];</highlight></codeline>
+<codeline lineno="247"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>bk_setObserverBlocks:nil];</highlight></codeline>
+<codeline lineno="248"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="249"><highlight class="normal"></highlight></codeline>
+<codeline lineno="250"><highlight class="normal"><sp/><sp/><sp/><sp/>[dict.allValues<sp/>bk_each:^(_BKObserver<sp/>*trampoline)<sp/>{</highlight></codeline>
+<codeline lineno="251"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[trampoline<sp/>stopObserving];</highlight></codeline>
+<codeline lineno="252"><highlight class="normal"><sp/><sp/><sp/><sp/>}];</highlight></codeline>
+<codeline lineno="253"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="254"><highlight class="normal"></highlight></codeline>
+<codeline lineno="255"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/>-<sp/>&quot;Private&quot;s</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="256"><highlight class="normal"></highlight></codeline>
+<codeline lineno="257"><highlight class="normal">+<sp/>(NSMutableSet<sp/>*)bk_observedClassesHash</highlight></codeline>
+<codeline lineno="258"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="259"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>dispatch_once_t<sp/>onceToken;</highlight></codeline>
+<codeline lineno="260"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>NSMutableSet<sp/>*swizzledClasses<sp/>=<sp/>nil;</highlight></codeline>
+<codeline lineno="261"><highlight class="normal"><sp/><sp/><sp/><sp/>dispatch_once(&amp;onceToken,<sp/>^{</highlight></codeline>
+<codeline lineno="262"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>swizzledClasses<sp/>=<sp/>[[NSMutableSet<sp/>alloc]<sp/>init];</highlight></codeline>
+<codeline lineno="263"><highlight class="normal"><sp/><sp/><sp/><sp/>});</highlight></codeline>
+<codeline lineno="264"><highlight class="normal"></highlight></codeline>
+<codeline lineno="265"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>swizzledClasses;</highlight></codeline>
+<codeline lineno="266"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="267"><highlight class="normal"></highlight></codeline>
+<codeline lineno="268"><highlight class="normal">-<sp/>(void)bk_addObserverForKeyPaths:(NSArray<sp/>*)keyPaths<sp/>identifier:(NSString<sp/>*)identifier<sp/>options:(NSKeyValueObservingOptions)options<sp/>context:(BKObserverContext)context<sp/>task:(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)task</highlight></codeline>
+<codeline lineno="269"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="270"><highlight class="normal"><sp/><sp/><sp/><sp/>NSParameterAssert(keyPaths.count);</highlight></codeline>
+<codeline lineno="271"><highlight class="normal"><sp/><sp/><sp/><sp/>NSParameterAssert(identifier.length);</highlight></codeline>
+<codeline lineno="272"><highlight class="normal"><sp/><sp/><sp/><sp/>NSParameterAssert(task);</highlight></codeline>
+<codeline lineno="273"><highlight class="normal"></highlight></codeline>
+<codeline lineno="274"><highlight class="normal"><sp/><sp/><sp/><sp/>Class<sp/>classToSwizzle<sp/>=<sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.class;</highlight></codeline>
+<codeline lineno="275"><highlight class="normal"><sp/><sp/><sp/><sp/>NSMutableSet<sp/>*classes<sp/>=<sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.class.bk_observedClassesHash;</highlight></codeline>
+<codeline lineno="276"><highlight class="normal"><sp/><sp/><sp/><sp/>@</highlight><highlight class="keyword">synchronized</highlight><highlight class="normal"><sp/>(classes)<sp/>{</highlight></codeline>
+<codeline lineno="277"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NSString<sp/>*className<sp/>=<sp/>NSStringFromClass(classToSwizzle);</highlight></codeline>
+<codeline lineno="278"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(![classes<sp/>containsObject:className])<sp/>{</highlight></codeline>
+<codeline lineno="279"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">SEL</highlight><highlight class="normal"><sp/>deallocSelector<sp/>=<sp/>sel_registerName(</highlight><highlight class="stringliteral">&quot;dealloc&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="280"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="281"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>__block<sp/>void<sp/>(*originalDealloc)(__unsafe_unretained<sp/>id,<sp/>SEL)<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="282"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="283"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>newDealloc<sp/>=<sp/>^(__unsafe_unretained<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>objSelf)<sp/>{</highlight></codeline>
+<codeline lineno="284"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[objSelf<sp/>bk_removeAllBlockObservers];</highlight></codeline>
+<codeline lineno="285"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="286"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(originalDealloc<sp/>==<sp/>NULL)<sp/>{</highlight></codeline>
+<codeline lineno="287"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">objc_super<sp/>superInfo<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="288"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.receiver<sp/>=<sp/>objSelf,</highlight></codeline>
+<codeline lineno="289"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.super_class<sp/>=<sp/>class_getSuperclass(classToSwizzle)</highlight></codeline>
+<codeline lineno="290"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="291"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="292"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>void<sp/>(*msgSend)(</highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">objc_super<sp/>*,<sp/>SEL)<sp/>=<sp/>(__typeof__(msgSend))objc_msgSendSuper;</highlight></codeline>
+<codeline lineno="293"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>msgSend(&amp;superInfo,<sp/>deallocSelector);</highlight></codeline>
+<codeline lineno="294"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="295"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>originalDealloc(objSelf,<sp/>deallocSelector);</highlight></codeline>
+<codeline lineno="296"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="297"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="298"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="299"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>IMP<sp/>newDeallocIMP<sp/>=<sp/>imp_implementationWithBlock(newDealloc);</highlight></codeline>
+<codeline lineno="300"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="301"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!class_addMethod(classToSwizzle,<sp/>deallocSelector,<sp/>newDeallocIMP,<sp/></highlight><highlight class="stringliteral">&quot;v@:&quot;</highlight><highlight class="normal">))<sp/>{</highlight></codeline>
+<codeline lineno="302"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>The<sp/>class<sp/>already<sp/>contains<sp/>a<sp/>method<sp/>implementation.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="303"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Method<sp/>deallocMethod<sp/>=<sp/>class_getInstanceMethod(classToSwizzle,<sp/>deallocSelector);</highlight></codeline>
+<codeline lineno="304"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="305"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>We<sp/>need<sp/>to<sp/>store<sp/>original<sp/>implementation<sp/>before<sp/>setting<sp/>new<sp/>implementation</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="306"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>in<sp/>case<sp/>method<sp/>is<sp/>called<sp/>at<sp/>the<sp/>time<sp/>of<sp/>setting.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="307"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>originalDealloc<sp/>=<sp/>(void(*)(__unsafe_unretained<sp/>id,<sp/>SEL))method_getImplementation(deallocMethod);</highlight></codeline>
+<codeline lineno="308"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="309"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>We<sp/>need<sp/>to<sp/>store<sp/>original<sp/>implementation<sp/>again,<sp/>in<sp/>case<sp/>it<sp/>just<sp/>changed.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="310"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>originalDealloc<sp/>=<sp/>(void(*)(__unsafe_unretained<sp/>id,<sp/>SEL))method_setImplementation(deallocMethod,<sp/>newDeallocIMP);</highlight></codeline>
+<codeline lineno="311"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="312"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="313"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[classes<sp/>addObject:className];</highlight></codeline>
+<codeline lineno="314"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="315"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="316"><highlight class="normal"></highlight></codeline>
+<codeline lineno="317"><highlight class="normal"><sp/><sp/><sp/><sp/>NSMutableDictionary<sp/>*dict;</highlight></codeline>
+<codeline lineno="318"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="interface___b_k_observer" kindref="compound">_BKObserver</ref><sp/>*observer<sp/>=<sp/>[[<ref refid="interface___b_k_observer" kindref="compound">_BKObserver</ref><sp/>alloc]<sp/>initWithObservee:self<sp/>keyPaths:keyPaths<sp/>context:context<sp/>task:task];</highlight></codeline>
+<codeline lineno="319"><highlight class="normal"><sp/><sp/><sp/><sp/>[observer<sp/>startObservingWithOptions:options];</highlight></codeline>
+<codeline lineno="320"><highlight class="normal"></highlight></codeline>
+<codeline lineno="321"><highlight class="normal"><sp/><sp/><sp/><sp/>@</highlight><highlight class="keyword">synchronized</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">self</highlight><highlight class="normal">)<sp/>{</highlight></codeline>
+<codeline lineno="322"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dict<sp/>=<sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>bk_observerBlocks];</highlight></codeline>
+<codeline lineno="323"><highlight class="normal"></highlight></codeline>
+<codeline lineno="324"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(dict<sp/>==<sp/>nil)<sp/>{</highlight></codeline>
+<codeline lineno="325"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dict<sp/>=<sp/>[NSMutableDictionary<sp/>dictionary];</highlight></codeline>
+<codeline lineno="326"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>bk_setObserverBlocks:dict];</highlight></codeline>
+<codeline lineno="327"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="328"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="329"><highlight class="normal"></highlight></codeline>
+<codeline lineno="330"><highlight class="normal"><sp/><sp/><sp/><sp/>dict[identifier]<sp/>=<sp/>observer;</highlight></codeline>
+<codeline lineno="331"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="332"><highlight class="normal"></highlight></codeline>
+<codeline lineno="333"><highlight class="normal">-<sp/>(void)bk_setObserverBlocks:(NSMutableDictionary<sp/>*)dict</highlight></codeline>
+<codeline lineno="334"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="335"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>bk_associateValue:dict<sp/>withKey:BKObserverBlocksKey];</highlight></codeline>
+<codeline lineno="336"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="337"><highlight class="normal"></highlight></codeline>
+<codeline lineno="338"><highlight class="normal">-<sp/>(NSMutableDictionary<sp/>*)bk_observerBlocks</highlight></codeline>
+<codeline lineno="339"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="340"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>bk_associatedValueForKey:BKObserverBlocksKey];</highlight></codeline>
+<codeline lineno="341"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="342"><highlight class="normal"></highlight></codeline>
+<codeline lineno="343"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSObject+BKBlockObservation.m"/>
+  </compounddef>
+</doxygen>

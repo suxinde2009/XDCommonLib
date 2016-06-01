@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_u_i_image_view_09_compress_without_deformation_8h" kind="file" language="C++">
+    <compoundname>UIImageView+CompressWithoutDeformation.h</compoundname>
+    <includes local="no">UIKit/UIKit.h</includes>
+    <includedby refid="_u_i_image_view_09_compress_without_deformation_8m" local="yes">XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImageView/UIImageView+CompressWithoutDeformation.m</includedby>
+    <incdepgraph>
+      <node id="1616">
+        <label>UIKit/UIKit.h</label>
+      </node>
+      <node id="1615">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImageView/UIImageView+CompressWithoutDeformation.h</label>
+        <link refid="UIImageView+CompressWithoutDeformation.h"/>
+        <childnode refid="1616" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1617">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImageView/UIImageView+CompressWithoutDeformation.h</label>
+        <link refid="UIImageView+CompressWithoutDeformation.h"/>
+        <childnode refid="1618" relation="include">
+        </childnode>
+      </node>
+      <node id="1618">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImageView/UIImageView+CompressWithoutDeformation.m</label>
+        <link refid="_u_i_image_view_09_compress_without_deformation_8m"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="category_u_i_image_07_compress_without_deformation_08" prot="public">UIImage(CompressWithoutDeformation)</innerclass>
+    <innerclass refid="category_u_i_image_view_07_compress_without_deformation_08" prot="public">UIImageView(CompressWithoutDeformation)</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>UIImageView+CompressWithoutDeformation.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>XDCommonLib</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>su<sp/>xinde<sp/>on<sp/>15/11/23.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>©<sp/>2015年<sp/>su<sp/>xinde.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;UIKit/UIKit.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="category_u_i_image_07_compress_without_deformation_08" kindref="compound">UIImage (CompressWithoutDeformation)</ref></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal">+<sp/>(UIImage<sp/>*)imageCompressForSize:(UIImage<sp/>*)sourceImage</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>targetSize:(CGSize)size;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="category_u_i_image_view_07_compress_without_deformation_08" kindref="compound">UIImageView (CompressWithoutDeformation)</ref></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal">-<sp/>(void)setImageWithoutDeformation:(UIImage<sp/>*)image</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>placeHolderImage:(UIImage<sp/>*)placeHolderImage;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImageView/UIImageView+CompressWithoutDeformation.h"/>
+  </compounddef>
+</doxygen>

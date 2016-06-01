@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_n_s_timer_07_addition_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>NSTimer(Addition)</compoundname>
+    <includes refid="_n_s_timer_09_addition_8h" local="no">NSTimer+Addition.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="category_n_s_timer_07_addition_08_1acc2862ca6e0419bac84b142162ab2c95" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void NSTimer(Addition)::pauseTimer</definition>
+        <argsstring>()</argsstring>
+        <name>pauseTimer</name>
+        <briefdescription>
+<para>暂停NSTimer </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSTimer/NSTimer+Addition.h" line="15" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSTimer/NSTimer+Addition.m" bodystart="15" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_timer_07_addition_08_1a5e71dbe57f99be46a2a49b0be0bc3f23" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void NSTimer(Addition)::resumeTimer</definition>
+        <argsstring>()</argsstring>
+        <name>resumeTimer</name>
+        <briefdescription>
+<para>开始NSTimer </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSTimer/NSTimer+Addition.h" line="15" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSTimer/NSTimer+Addition.m" bodystart="25" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_timer_07_addition_08_1ac45397f04aae13d4f6fe3725d6b4a899" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void NSTimer(Addition)::resumeTimerAfterTimeInterval:</definition>
+        <argsstring>(NSTimeInterval interval)</argsstring>
+        <name>resumeTimerAfterTimeInterval:</name>
+        <param>
+          <type>NSTimeInterval</type>
+          <declname>interval</declname>
+        </param>
+        <briefdescription>
+<para>延迟开始NSTimer </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSTimer/NSTimer+Addition.h" line="15" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSTimer/NSTimer+Addition.m" bodystart="35" bodyend="40"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSTimer/NSTimer+Addition.m" line="11" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSTimer/NSTimer+Addition.m" bodystart="11" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_n_s_timer_07_addition_08_1acc2862ca6e0419bac84b142162ab2c95" prot="public" virt="virtual"><scope>NSTimer(Addition)</scope><name>pauseTimer</name></member>
+      <member refid="category_n_s_timer_07_addition_08_1a5e71dbe57f99be46a2a49b0be0bc3f23" prot="public" virt="virtual"><scope>NSTimer(Addition)</scope><name>resumeTimer</name></member>
+      <member refid="category_n_s_timer_07_addition_08_1ac45397f04aae13d4f6fe3725d6b4a899" prot="public" virt="virtual"><scope>NSTimer(Addition)</scope><name>resumeTimerAfterTimeInterval:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,350 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_____g_e_n_e_r_i_c_s_07_n_s_ordered_set_object_type_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>__GENERICS(NSOrderedSetObjectType)</compoundname>
+    <includes refid="_n_s_ordered_set_09_blocks_kit_8h" local="no">NSOrderedSet+BlocksKit.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="category_____g_e_n_e_r_i_c_s_07_n_s_ordered_set_object_type_08_1ab669b516c65726fb5eaa0b2cde9b45ef" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void __GENERICS(NSOrderedSetObjectType)::bk_each:</definition>
+        <argsstring>(void(^block)(ObjectType obj))</argsstring>
+        <name>bk_each:</name>
+        <param>
+          <type>void(^)(ObjectType obj)</type>
+          <declname>block</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Loops through an ordered set and executes the given block with each object.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>block</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A single-argument, void-returning code block. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSOrderedSet+BlocksKit.h" line="27" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="category_____g_e_n_e_r_i_c_s_07_n_s_ordered_set_object_type_08_1a00425aedb04d6cba06fce43f6c206c83" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void __GENERICS(NSOrderedSetObjectType)::bk_apply:</definition>
+        <argsstring>(void(^block)(ObjectType obj))</argsstring>
+        <name>bk_apply:</name>
+        <param>
+          <type>void(^)(ObjectType obj)</type>
+          <declname>block</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Enumerates through an ordered set concurrently and executes the given block once for each object.</para><para>Enumeration will occur on appropriate background queues. This will have a noticeable speed increase, especially on multi-core devices, but you <emphasis>must</emphasis> be aware of the thread safety of the objects you message from within the block. Be aware that the order of objects is not necessarily the order each block will be called in.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>block</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A single-argument, void-returning code block. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSOrderedSet+BlocksKit.h" line="27" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="category_____g_e_n_e_r_i_c_s_07_n_s_ordered_set_object_type_08_1ab60e1ce748b304f891244f5887ae7b02" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="_b_k_defines_8h_1a02648067ad66739ed70a10195891098a" kindref="member">nullable</ref> id</type>
+        <definition>nullable id __GENERICS(NSOrderedSetObjectType)::bk_match:</definition>
+        <argsstring>(BOOL(^block)(ObjectType obj))</argsstring>
+        <name>bk_match:</name>
+        <param>
+          <type>BOOL(^)(ObjectType obj)</type>
+          <declname>block</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Loops through an ordered set to find the object matching the block.</para><para>bk_match: is functionally identical to bk_select:, but will stop and return on the first match.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>block</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A single-argument, <computeroutput>BOOL</computeroutput>-returning code block. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Returns the object, if found, or <computeroutput>nil</computeroutput>. </para></simplesect>
+<simplesect kind="see"><para><ref refid="category_____g_e_n_e_r_i_c_s_07_n_s_ordered_set_object_type_08_1ac95eade8a60ac0f8a50f64656894b9a8" kindref="member">- bk_select:</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSOrderedSet+BlocksKit.h" line="27" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="category_____g_e_n_e_r_i_c_s_07_n_s_ordered_set_object_type_08_1ac95eade8a60ac0f8a50f64656894b9a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSOrderedSet *</type>
+        <definition>NSOrderedSet * __GENERICS(NSOrderedSetObjectType)::bk_select:</definition>
+        <argsstring>(BOOL(^block)(ObjectType obj))</argsstring>
+        <name>bk_select:</name>
+        <param>
+          <type>BOOL(^)(ObjectType obj)</type>
+          <declname>block</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Loops through an ordered set to find the objects matching the block.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>block</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A single-argument, BOOL-returning code block. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Returns an ordered set of the objects found. </para></simplesect>
+<simplesect kind="see"><para><ref refid="category_____g_e_n_e_r_i_c_s_07_n_s_ordered_set_object_type_08_1ab60e1ce748b304f891244f5887ae7b02" kindref="member">- bk_match:</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSOrderedSet+BlocksKit.h" line="27" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="category_____g_e_n_e_r_i_c_s_07_n_s_ordered_set_object_type_08_1aacc9c44642698e36286fbcc287964b60" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSOrderedSet *</type>
+        <definition>NSOrderedSet * __GENERICS(NSOrderedSetObjectType)::bk_reject:</definition>
+        <argsstring>(BOOL(^block)(ObjectType obj))</argsstring>
+        <name>bk_reject:</name>
+        <param>
+          <type>BOOL(^)(ObjectType obj)</type>
+          <declname>block</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Loops through an ordered set to to find the objects not matching the block.</para><para>This selector performs <emphasis>literally</emphasis> the exact same function as bk_select: but in reverse.</para><para>This is useful, as one may expect, for removing objects from an ordered set to. NSOrderedSet *new = [computers bk_reject:^BOOL(id obj) { return ([obj isUgly]); }];</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>block</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A single-argument, BOOL-returning code block. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Returns an ordered set of all objects not found. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSOrderedSet+BlocksKit.h" line="27" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="category_____g_e_n_e_r_i_c_s_07_n_s_ordered_set_object_type_08_1a2cc4868850f5badb2ee77d134b509956" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSOrderedSet *</type>
+        <definition>NSOrderedSet * __GENERICS(NSOrderedSetObjectType)::bk_map:</definition>
+        <argsstring>(id(^block)(ObjectType obj))</argsstring>
+        <name>bk_map:</name>
+        <param>
+          <type>id(^)(ObjectType obj)</type>
+          <declname>block</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Call the block once for each object and create an ordered set of the return values.</para><para>This is sometimes referred to as a transform, mutating one of each object: NSOrderedSet *new = [stringArray bk_map:^id(id obj) { return [obj stringByAppendingString:".png"]); }];</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>block</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A single-argument, object-returning code block. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Returns an ordered set of the objects returned by the block. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSOrderedSet+BlocksKit.h" line="27" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="category_____g_e_n_e_r_i_c_s_07_n_s_ordered_set_object_type_08_1a12058d42d1bf8789e70aa9008e7ee73f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="_b_k_defines_8h_1a02648067ad66739ed70a10195891098a" kindref="member">nullable</ref> id</type>
+        <definition>nullable id __GENERICS(NSOrderedSetObjectType)::bk_reduce:withBlock:</definition>
+        <argsstring>(nullable id initial,[withBlock] __nullable id(^block)(__nullable id sum, ObjectType obj))</argsstring>
+        <name>bk_reduce:withBlock:</name>
+        <param>
+          <type><ref refid="_b_k_defines_8h_1a02648067ad66739ed70a10195891098a" kindref="member">nullable</ref> id</type>
+          <declname>initial</declname>
+        </param>
+        <param>
+          <attributes>[withBlock]</attributes>
+          <type><ref refid="_b_k_defines_8h_1adef3a2f6f7f351e138d1df7e339bc555" kindref="member">__nullable</ref> id(^)(<ref refid="_b_k_defines_8h_1adef3a2f6f7f351e138d1df7e339bc555" kindref="member">__nullable</ref> id sum, ObjectType obj)</type>
+          <declname>block</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Arbitrarily accumulate objects using a block.</para><para>The concept of this selector is difficult to illustrate in words. The sum can be any <ref refid="class_n_s_object-p" kindref="compound">NSObject</ref>, including (but not limited to) a string, number, or value.</para><para>For example, you can concentate the strings in an ordered set: NSString *concentrated = [stringArray bk_reduce:"" withBlock:^id(id sum, id obj) { return [sum stringByAppendingString:obj]; }];</para><para>You can also do something like summing the lengths of strings in an ordered set: NSUInteger value = [[[stringArray bk_reduce:nil withBlock:^id(id sum, id obj) { return @([sum integerValue] + obj.length); }]] unsignedIntegerValue];</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>initial</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The value of the reduction at its start. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>block</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A block that takes the current sum and the next object to return the new sum. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>An accumulated value. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSOrderedSet+BlocksKit.h" line="27" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="category_____g_e_n_e_r_i_c_s_07_n_s_ordered_set_object_type_08_1a5aa872e962da1849450f62cd2feadce0" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL __GENERICS(NSOrderedSetObjectType)::bk_any:</definition>
+        <argsstring>(BOOL(^block)(ObjectType obj))</argsstring>
+        <name>bk_any:</name>
+        <param>
+          <type>BOOL(^)(ObjectType obj)</type>
+          <declname>block</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Loops through an ordered set to find whether any object matches the block.</para><para>This method is similar to the Scala list <computeroutput>exists</computeroutput>. It is functionally identical to bk_match: but returns a <computeroutput>BOOL</computeroutput> instead. It is not recommended to use bk_any: as a check condition before executing bk_match:, since it would require two loops through the ordered set.</para><para>For example, you can find if a string in an ordered set starts with a certain letter: <verbatim>NSString *letter = @&quot;A&quot;;
+BOOL containsLetter = [stringArray bk_any:^(id obj) {
+ return [obj hasPrefix:@&quot;A&quot;];
+}];
+</verbatim></para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>block</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A single-argument, BOOL-returning code block. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>YES for the first time the block returns YES for an object, NO otherwise. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSOrderedSet+BlocksKit.h" line="27" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="category_____g_e_n_e_r_i_c_s_07_n_s_ordered_set_object_type_08_1ace25f96d82e78db699f6c8f32cf1d10f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL __GENERICS(NSOrderedSetObjectType)::bk_none:</definition>
+        <argsstring>(BOOL(^block)(ObjectType obj))</argsstring>
+        <name>bk_none:</name>
+        <param>
+          <type>BOOL(^)(ObjectType obj)</type>
+          <declname>block</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Loops through an ordered set to find whether no objects match the block.</para><para>This selector performs <emphasis>literally</emphasis> the exact same function as bk_all: but in reverse.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>block</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A single-argument, BOOL-returning code block. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>YES if the block returns NO for all objects in the ordered set, NO otherwise. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSOrderedSet+BlocksKit.h" line="27" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="category_____g_e_n_e_r_i_c_s_07_n_s_ordered_set_object_type_08_1ada46e7437a227dbbf944c30890eb2473" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL __GENERICS(NSOrderedSetObjectType)::bk_all:</definition>
+        <argsstring>(BOOL(^block)(ObjectType obj))</argsstring>
+        <name>bk_all:</name>
+        <param>
+          <type>BOOL(^)(ObjectType obj)</type>
+          <declname>block</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Loops through an ordered set to find whether all objects match the block.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>block</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A single-argument, BOOL-returning code block. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>YES if the block returns YES for all objects in the ordered set, NO otherwise. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSOrderedSet+BlocksKit.h" line="27" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="category_____g_e_n_e_r_i_c_s_07_n_s_ordered_set_object_type_08_1a4f435eba690af8a00ba7adb4cc6c7415" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL __GENERICS(NSOrderedSetObjectType)::bk_corresponds:withBlock:</definition>
+        <argsstring>(NSOrderedSet *list,[withBlock] BOOL(^block)(ObjectType obj1, id obj2))</argsstring>
+        <name>bk_corresponds:withBlock:</name>
+        <param>
+          <type>NSOrderedSet *</type>
+          <declname>list</declname>
+        </param>
+        <param>
+          <attributes>[withBlock]</attributes>
+          <type>BOOL(^)(ObjectType obj1, id obj2)</type>
+          <declname>block</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether every element of this ordered set relates to the corresponding element of another array according to match by block.</para><para>For example, finding if a list of numbers corresponds to their sequenced string values; <verbatim>NSArray *numbers = @[ @(1), @(2), @(3) ];
+NSArray *letters = @[ @&quot;1&quot;, @&quot;2&quot;, @&quot;3&quot; ];
+BOOL doesCorrespond = [numbers bk_corresponds:letters withBlock:^(id number, id letter) {
+ return [[number stringValue] isEqualToString:letter];
+}];
+</verbatim></para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>list</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>An array of objects to compare with. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>block</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A two-argument, BOOL-returning code block. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Returns a BOOL, true if every element of the ordered set relates to corresponding element in another ordered set. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSOrderedSet+BlocksKit.h" line="27" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Block extensions for NSOrderedSet.</para><para>Both inspired by and resembling Smalltalk syntax, these utilities allow for iteration through an ordered set (also known as a uniqued array) in a concise way that saves a ton of boilerplate code for filtering or finding objects.</para><para>Includes code by the following:</para><para><itemizedlist>
+<listitem><para>Robin Lu. <ulink url="https://github.com/robin">https://github.com/robin</ulink>. 2009.</para></listitem><listitem><para>Michael Ash. <ulink url="https://github.com/mikeash">https://github.com/mikeash</ulink>. 2010. BSD.</para></listitem><listitem><para>Aleks Nesterow. <ulink url="https://github.com/nesterow">https://github.com/nesterow</ulink>. 2010. BSD.</para></listitem><listitem><para>Zach Waldowski. <ulink url="https://github.com/zwaldowski">https://github.com/zwaldowski</ulink>. 2011.</para></listitem></itemizedlist>
+</para><para><simplesect kind="see"><para>NSArray(BlocksKit) </para></simplesect>
+<simplesect kind="see"><para>NSSet(BlocksKit) </para></simplesect>
+</para>    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSOrderedSet+BlocksKit.h" line="27" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSOrderedSet+BlocksKit.h" bodystart="27" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_____g_e_n_e_r_i_c_s_07_n_s_ordered_set_object_type_08_1ada46e7437a227dbbf944c30890eb2473" prot="public" virt="virtual"><scope>__GENERICS(NSOrderedSetObjectType)</scope><name>bk_all:</name></member>
+      <member refid="category_____g_e_n_e_r_i_c_s_07_n_s_ordered_set_object_type_08_1a5aa872e962da1849450f62cd2feadce0" prot="public" virt="virtual"><scope>__GENERICS(NSOrderedSetObjectType)</scope><name>bk_any:</name></member>
+      <member refid="category_____g_e_n_e_r_i_c_s_07_n_s_ordered_set_object_type_08_1a00425aedb04d6cba06fce43f6c206c83" prot="public" virt="virtual"><scope>__GENERICS(NSOrderedSetObjectType)</scope><name>bk_apply:</name></member>
+      <member refid="category_____g_e_n_e_r_i_c_s_07_n_s_ordered_set_object_type_08_1a4f435eba690af8a00ba7adb4cc6c7415" prot="public" virt="virtual"><scope>__GENERICS(NSOrderedSetObjectType)</scope><name>bk_corresponds:withBlock:</name></member>
+      <member refid="category_____g_e_n_e_r_i_c_s_07_n_s_ordered_set_object_type_08_1ab669b516c65726fb5eaa0b2cde9b45ef" prot="public" virt="virtual"><scope>__GENERICS(NSOrderedSetObjectType)</scope><name>bk_each:</name></member>
+      <member refid="category_____g_e_n_e_r_i_c_s_07_n_s_ordered_set_object_type_08_1a2cc4868850f5badb2ee77d134b509956" prot="public" virt="virtual"><scope>__GENERICS(NSOrderedSetObjectType)</scope><name>bk_map:</name></member>
+      <member refid="category_____g_e_n_e_r_i_c_s_07_n_s_ordered_set_object_type_08_1ab60e1ce748b304f891244f5887ae7b02" prot="public" virt="virtual"><scope>__GENERICS(NSOrderedSetObjectType)</scope><name>bk_match:</name></member>
+      <member refid="category_____g_e_n_e_r_i_c_s_07_n_s_ordered_set_object_type_08_1ace25f96d82e78db699f6c8f32cf1d10f" prot="public" virt="virtual"><scope>__GENERICS(NSOrderedSetObjectType)</scope><name>bk_none:</name></member>
+      <member refid="category_____g_e_n_e_r_i_c_s_07_n_s_ordered_set_object_type_08_1a12058d42d1bf8789e70aa9008e7ee73f" prot="public" virt="virtual"><scope>__GENERICS(NSOrderedSetObjectType)</scope><name>bk_reduce:withBlock:</name></member>
+      <member refid="category_____g_e_n_e_r_i_c_s_07_n_s_ordered_set_object_type_08_1aacc9c44642698e36286fbcc287964b60" prot="public" virt="virtual"><scope>__GENERICS(NSOrderedSetObjectType)</scope><name>bk_reject:</name></member>
+      <member refid="category_____g_e_n_e_r_i_c_s_07_n_s_ordered_set_object_type_08_1ac95eade8a60ac0f8a50f64656894b9a8" prot="public" virt="virtual"><scope>__GENERICS(NSOrderedSetObjectType)</scope><name>bk_select:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

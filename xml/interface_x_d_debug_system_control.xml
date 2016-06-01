@@ -1,0 +1,169 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="interface_x_d_debug_system_control" kind="class" language="Objective-C" prot="public">
+    <compoundname>XDDebugSystemControl</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">NSObject</basecompoundref>
+    <includes refid="_x_d_debug_system_control_8h" local="no">XDDebugSystemControl.h</includes>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="interface_x_d_debug_system_control_1ad92adf4102d2ebd8008ec2bcaf092312" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * XDDebugSystemControl::platform</definition>
+        <argsstring>()</argsstring>
+        <name>platform</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>获取平台信息 </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Debug/XDDebugSystemControl.h" line="17" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Debug/XDDebugSystemControl.m" bodystart="28" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_x_d_debug_system_control_1a3e1f489d130be350d861372b2bfcb0b3" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSUInteger</type>
+        <definition>NSUInteger XDDebugSystemControl::getSysInfo:</definition>
+        <argsstring>(uint typeSpecifier)</argsstring>
+        <name>getSysInfo:</name>
+        <param>
+          <type>uint</type>
+          <declname>typeSpecifier</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>获取平台信息 </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Debug/XDDebugSystemControl.h" line="17" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Debug/XDDebugSystemControl.m" bodystart="33" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_x_d_debug_system_control_1ad2f40bd0bdf214a0efc846e68dffc9c5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSUInteger</type>
+        <definition>NSUInteger XDDebugSystemControl::getCpuFrequency</definition>
+        <argsstring>()</argsstring>
+        <name>getCpuFrequency</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>获取CPU频率 </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Debug/XDDebugSystemControl.h" line="17" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Debug/XDDebugSystemControl.m" bodystart="43" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_x_d_debug_system_control_1a2f795d690ffea50e960399028d977f2a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSUInteger</type>
+        <definition>NSUInteger XDDebugSystemControl::getBusFrequency</definition>
+        <argsstring>()</argsstring>
+        <name>getBusFrequency</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>获取总线频率 </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Debug/XDDebugSystemControl.h" line="17" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Debug/XDDebugSystemControl.m" bodystart="49" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_x_d_debug_system_control_1ae090f9cf52f1c19dc36de1d1f5efe14b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSUInteger</type>
+        <definition>NSUInteger XDDebugSystemControl::getTotalMemory</definition>
+        <argsstring>()</argsstring>
+        <name>getTotalMemory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>获取总的内存大小 </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Debug/XDDebugSystemControl.h" line="17" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Debug/XDDebugSystemControl.m" bodystart="55" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_x_d_debug_system_control_1a61114a5c63b56232b7d4514f51861d98" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSUInteger</type>
+        <definition>NSUInteger XDDebugSystemControl::getUserMemory</definition>
+        <argsstring>()</argsstring>
+        <name>getUserMemory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>获取用户内存 </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Debug/XDDebugSystemControl.h" line="17" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Debug/XDDebugSystemControl.m" bodystart="61" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_x_d_debug_system_control_1a9e89083ffea821857eebfd06c946a497" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSUInteger</type>
+        <definition>NSUInteger XDDebugSystemControl::maxSocketBufferSize</definition>
+        <argsstring>()</argsstring>
+        <name>maxSocketBufferSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>获取socketBufferSize </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Debug/XDDebugSystemControl.h" line="17" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Debug/XDDebugSystemControl.m" bodystart="67" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_x_d_debug_system_control_1aa65f9d40daa24cac06ecde7795dfc7e7" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSUInteger</type>
+        <definition>NSUInteger XDDebugSystemControl::getAvailableMemory</definition>
+        <argsstring>()</argsstring>
+        <name>getAvailableMemory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>iphone下获取可用的内存大小 </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Debug/XDDebugSystemControl.h" line="17" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Debug/XDDebugSystemControl.m" bodystart="73" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_x_d_debug_system_control_1a01dd285e31864e8b023312084db2e58c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>float</type>
+        <definition>float XDDebugSystemControl::cpuUsage</definition>
+        <argsstring>()</argsstring>
+        <name>cpuUsage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>获取CPU使用率 </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Debug/XDDebugSystemControl.h" line="17" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Debug/XDDebugSystemControl.m" bodystart="84" bodyend="148"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>系统信息工具类 </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="1297">
+        <label>NSObject</label>
+      </node>
+      <node id="1296">
+        <label>XDDebugSystemControl</label>
+        <link refid="interface_x_d_debug_system_control"/>
+        <childnode refid="1297" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1299">
+        <label>NSObject</label>
+      </node>
+      <node id="1298">
+        <label>XDDebugSystemControl</label>
+        <link refid="interface_x_d_debug_system_control"/>
+        <childnode refid="1299" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Debug/XDDebugSystemControl.h" line="15" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Debug/XDDebugSystemControl.h" bodystart="14" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="interface_x_d_debug_system_control_1a01dd285e31864e8b023312084db2e58c" prot="public" virt="virtual"><scope>XDDebugSystemControl</scope><name>cpuUsage</name></member>
+      <member refid="interface_x_d_debug_system_control_1aa65f9d40daa24cac06ecde7795dfc7e7" prot="public" virt="virtual"><scope>XDDebugSystemControl</scope><name>getAvailableMemory</name></member>
+      <member refid="interface_x_d_debug_system_control_1a2f795d690ffea50e960399028d977f2a" prot="public" virt="virtual"><scope>XDDebugSystemControl</scope><name>getBusFrequency</name></member>
+      <member refid="interface_x_d_debug_system_control_1ad2f40bd0bdf214a0efc846e68dffc9c5" prot="public" virt="virtual"><scope>XDDebugSystemControl</scope><name>getCpuFrequency</name></member>
+      <member refid="interface_x_d_debug_system_control_1a3e1f489d130be350d861372b2bfcb0b3" prot="public" virt="virtual"><scope>XDDebugSystemControl</scope><name>getSysInfo:</name></member>
+      <member refid="interface_x_d_debug_system_control_1ae090f9cf52f1c19dc36de1d1f5efe14b" prot="public" virt="virtual"><scope>XDDebugSystemControl</scope><name>getTotalMemory</name></member>
+      <member refid="interface_x_d_debug_system_control_1a61114a5c63b56232b7d4514f51861d98" prot="public" virt="virtual"><scope>XDDebugSystemControl</scope><name>getUserMemory</name></member>
+      <member refid="interface_x_d_debug_system_control_1a9e89083ffea821857eebfd06c946a497" prot="public" virt="virtual"><scope>XDDebugSystemControl</scope><name>maxSocketBufferSize</name></member>
+      <member refid="interface_x_d_debug_system_control_1ad92adf4102d2ebd8008ec2bcaf092312" prot="public" virt="virtual"><scope>XDDebugSystemControl</scope><name>platform</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

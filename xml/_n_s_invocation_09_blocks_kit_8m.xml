@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_n_s_invocation_09_blocks_kit_8m" kind="file" language="Objective-C">
+    <compoundname>NSInvocation+BlocksKit.m</compoundname>
+    <includes refid="_n_s_invocation_09_blocks_kit_8h" local="yes">NSInvocation+BlocksKit.h</includes>
+    <incdepgraph>
+      <node id="2689">
+        <label>Foundation/NSObjCRuntime.h</label>
+      </node>
+      <node id="2687">
+        <label>NSInvocation+BlocksKit.h</label>
+        <link refid="_n_s_invocation_09_blocks_kit_8h"/>
+        <childnode refid="2688" relation="include">
+        </childnode>
+        <childnode refid="2690" relation="include">
+        </childnode>
+      </node>
+      <node id="2686">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSInvocation+BlocksKit.m</label>
+        <link refid="NSInvocation+BlocksKit.m"/>
+        <childnode refid="2687" relation="include">
+        </childnode>
+      </node>
+      <node id="2688">
+        <label>BKDefines.h</label>
+        <link refid="_b_k_defines_8h"/>
+        <childnode refid="2689" relation="include">
+        </childnode>
+      </node>
+      <node id="2690">
+        <label>Foundation/Foundation.h</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="interface_b_k_invocation_grabber" prot="public">BKInvocationGrabber</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>NSInvocation+BlocksKit.m</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>BlocksKit</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_n_s_invocation_09_blocks_kit_8h" kindref="compound">NSInvocation+BlocksKit.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="interface_b_k_invocation_grabber" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="interface_b_k_invocation_grabber" kindref="compound">BKInvocationGrabber</ref><sp/>:<sp/>NSProxy</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal">+<sp/>(<ref refid="interface_b_k_invocation_grabber" kindref="compound">BKInvocationGrabber</ref><sp/>*)grabberWithTarget:(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)target;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="interface_b_k_invocation_grabber_1a131fb585d2d30def82cc1528d6ffe08d" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>strong)<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/><ref refid="interface_b_k_invocation_grabber_1a131fb585d2d30def82cc1528d6ffe08d" kindref="member">target</ref>;</highlight></codeline>
+<codeline lineno="13" refid="interface_b_k_invocation_grabber_1a589843f65ce32476361dbe67afd4af40" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>strong)<sp/>NSInvocation<sp/>*<ref refid="interface_b_k_invocation_grabber_1a589843f65ce32476361dbe67afd4af40" kindref="member">invocation</ref>;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">@implementation<sp/></highlight><highlight class="normal"><ref refid="interface_b_k_invocation_grabber" kindref="compound">BKInvocationGrabber</ref></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="interface_b_k_invocation_grabber_1a1f5b7dbc4be109d6bf64a938d6d3db19" refkind="member"><highlight class="normal">+<sp/>(<ref refid="interface_b_k_invocation_grabber" kindref="compound">BKInvocationGrabber</ref><sp/>*)grabberWithTarget:(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)target<sp/>{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="interface_b_k_invocation_grabber" kindref="compound">BKInvocationGrabber</ref><sp/>*instance<sp/>=<sp/>[<ref refid="interface_b_k_invocation_grabber" kindref="compound">BKInvocationGrabber</ref><sp/>alloc];</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>instance.<ref refid="interface_b_k_invocation_grabber_1a131fb585d2d30def82cc1528d6ffe08d" kindref="member">target</ref><sp/>=<sp/><ref refid="interface_b_k_invocation_grabber_1a131fb585d2d30def82cc1528d6ffe08d" kindref="member">target</ref>;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>instance;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal">-<sp/>(NSMethodSignature*)methodSignatureForSelector:(</highlight><highlight class="keywordtype">SEL</highlight><highlight class="normal">)selector<sp/>{</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal">.target<sp/>methodSignatureForSelector:selector];</highlight></codeline>
+<codeline lineno="27"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal">-<sp/>(void)forwardInvocation:(NSInvocation*)invocation<sp/>{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>[invocation<sp/>setTarget:self.target];</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>NSParameterAssert(</highlight><highlight class="keyword">self</highlight><highlight class="normal">.<ref refid="interface_b_k_invocation_grabber_1a589843f65ce32476361dbe67afd4af40" kindref="member">invocation</ref><sp/>==<sp/>nil);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.invocation<sp/>=<sp/><ref refid="interface_b_k_invocation_grabber_1a589843f65ce32476361dbe67afd4af40" kindref="member">invocation</ref>;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38" refid="category_n_s_invocation_07_blocks_kit_08" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">@implementation<sp/></highlight><highlight class="normal"><ref refid="category_n_s_invocation_07_blocks_kit_08" kindref="compound">NSInvocation (BlocksKit)</ref></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40" refid="category_n_s_invocation_07_blocks_kit_08_1a5b9f55e6363548f030efa34c220556a6" refkind="member"><highlight class="normal">+<sp/>(NSInvocation<sp/>*)bk_invocationWithTarget:(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)target<sp/>block:(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(^)(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>target))block</highlight></codeline>
+<codeline lineno="41"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>NSParameterAssert(block<sp/>!=<sp/>nil);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="interface_b_k_invocation_grabber" kindref="compound">BKInvocationGrabber</ref><sp/>*grabber<sp/>=<sp/>[<ref refid="interface_b_k_invocation_grabber" kindref="compound">BKInvocationGrabber</ref><sp/><ref refid="interface_b_k_invocation_grabber_1a1f5b7dbc4be109d6bf64a938d6d3db19" kindref="member">grabberWithTarget</ref>:target];</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>block(grabber);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>grabber.<ref refid="interface_b_k_invocation_grabber_1a589843f65ce32476361dbe67afd4af40" kindref="member">invocation</ref>;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSInvocation+BlocksKit.m"/>
+  </compounddef>
+</doxygen>

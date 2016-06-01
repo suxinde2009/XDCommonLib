@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_u_i_bezier_path_07_basic_shapes_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>UIBezierPath(BasicShapes)</compoundname>
+    <includes refid="_u_i_bezier_path_09_basic_shapes_8h" local="no">UIBezierPath+BasicShapes.h</includes>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="category_u_i_bezier_path_07_basic_shapes_08_1a1ab4ee9960d4908f4b65c6a3c91283d0" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>UIBezierPath *</type>
+        <definition>UIBezierPath * UIBezierPath(BasicShapes)::heartShape:</definition>
+        <argsstring>(CGRect originalFrame)</argsstring>
+        <name>heartShape:</name>
+        <param>
+          <type>CGRect</type>
+          <declname>originalFrame</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIBezierPath/UIBezierPath+BasicShapes.h" line="10" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIBezierPath/UIBezierPath+BasicShapes.m" bodystart="19" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_bezier_path_07_basic_shapes_08_1a2847c219437909fc504eb19950e3d5c7" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>UIBezierPath *</type>
+        <definition>UIBezierPath * UIBezierPath(BasicShapes)::userShape:</definition>
+        <argsstring>(CGRect originalFrame)</argsstring>
+        <name>userShape:</name>
+        <param>
+          <type>CGRect</type>
+          <declname>originalFrame</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIBezierPath/UIBezierPath+BasicShapes.h" line="10" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIBezierPath/UIBezierPath+BasicShapes.m" bodystart="40" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_bezier_path_07_basic_shapes_08_1a076182214f24a5adc0de9b4234abb512" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>UIBezierPath *</type>
+        <definition>UIBezierPath * UIBezierPath(BasicShapes)::martiniShape:</definition>
+        <argsstring>(CGRect originalFrame)</argsstring>
+        <name>martiniShape:</name>
+        <param>
+          <type>CGRect</type>
+          <declname>originalFrame</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIBezierPath/UIBezierPath+BasicShapes.h" line="10" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIBezierPath/UIBezierPath+BasicShapes.m" bodystart="84" bodyend="126"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_bezier_path_07_basic_shapes_08_1a8b9d369d1bf8eeb1d3cbe68998e8da80" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>UIBezierPath *</type>
+        <definition>UIBezierPath * UIBezierPath(BasicShapes)::beakerShape:</definition>
+        <argsstring>(CGRect originalFrame)</argsstring>
+        <name>beakerShape:</name>
+        <param>
+          <type>CGRect</type>
+          <declname>originalFrame</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIBezierPath/UIBezierPath+BasicShapes.h" line="10" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIBezierPath/UIBezierPath+BasicShapes.m" bodystart="128" bodyend="174"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_bezier_path_07_basic_shapes_08_1a66fdf60390f36e8d0a9da6cde3e2ba1a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>UIBezierPath *</type>
+        <definition>UIBezierPath * UIBezierPath(BasicShapes)::starShape:</definition>
+        <argsstring>(CGRect originalFrame)</argsstring>
+        <name>starShape:</name>
+        <param>
+          <type>CGRect</type>
+          <declname>originalFrame</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIBezierPath/UIBezierPath+BasicShapes.h" line="10" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIBezierPath/UIBezierPath+BasicShapes.m" bodystart="176" bodyend="194"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_bezier_path_07_basic_shapes_08_1ac6a0428b1ca9c7730482cf7504eb1219" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>UIBezierPath *</type>
+        <definition>UIBezierPath * UIBezierPath(BasicShapes)::stars:shapeInFrame:</definition>
+        <argsstring>(NSUInteger numberOfStars,[shapeInFrame] CGRect originalFrame)</argsstring>
+        <name>stars:shapeInFrame:</name>
+        <param>
+          <type>NSUInteger</type>
+          <declname>numberOfStars</declname>
+        </param>
+        <param>
+          <attributes>[shapeInFrame]</attributes>
+          <type>CGRect</type>
+          <declname>originalFrame</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIBezierPath/UIBezierPath+BasicShapes.h" line="10" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIBezierPath/UIBezierPath+BasicShapes.m" bodystart="196" bodyend="213"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIBezierPath/UIBezierPath+BasicShapes.m" line="11" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIBezierPath/UIBezierPath+BasicShapes.m" bodystart="11" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_u_i_bezier_path_07_basic_shapes_08_1a8b9d369d1bf8eeb1d3cbe68998e8da80" prot="public" virt="virtual"><scope>UIBezierPath(BasicShapes)</scope><name>beakerShape:</name></member>
+      <member refid="category_u_i_bezier_path_07_basic_shapes_08_1a1ab4ee9960d4908f4b65c6a3c91283d0" prot="public" virt="virtual"><scope>UIBezierPath(BasicShapes)</scope><name>heartShape:</name></member>
+      <member refid="category_u_i_bezier_path_07_basic_shapes_08_1a076182214f24a5adc0de9b4234abb512" prot="public" virt="virtual"><scope>UIBezierPath(BasicShapes)</scope><name>martiniShape:</name></member>
+      <member refid="category_u_i_bezier_path_07_basic_shapes_08_1ac6a0428b1ca9c7730482cf7504eb1219" prot="public" virt="virtual"><scope>UIBezierPath(BasicShapes)</scope><name>stars:shapeInFrame:</name></member>
+      <member refid="category_u_i_bezier_path_07_basic_shapes_08_1a66fdf60390f36e8d0a9da6cde3e2ba1a" prot="public" virt="virtual"><scope>UIBezierPath(BasicShapes)</scope><name>starShape:</name></member>
+      <member refid="category_u_i_bezier_path_07_basic_shapes_08_1a2847c219437909fc504eb19950e3d5c7" prot="public" virt="virtual"><scope>UIBezierPath(BasicShapes)</scope><name>userShape:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

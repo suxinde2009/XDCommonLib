@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_n_s_exception_07_trace_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>NSException(Trace)</compoundname>
+    <includes refid="_n_s_exception_09_trace_8h" local="no">NSException+Trace.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="category_n_s_exception_07_trace_08_1a88869362a9ec63f13942c69fe1900e59" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSArray *</type>
+        <definition>NSArray * NSException(Trace)::backtrace</definition>
+        <argsstring>()</argsstring>
+        <name>backtrace</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSException/NSException+Trace.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSException/NSException+Trace.m" bodystart="14" bodyend="33"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSException/NSException+Trace.m" line="12" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSException/NSException+Trace.m" bodystart="12" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_n_s_exception_07_trace_08_1a88869362a9ec63f13942c69fe1900e59" prot="public" virt="virtual"><scope>NSException(Trace)</scope><name>backtrace</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_u_i_button_07_indicator_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>UIButton(Indicator)</compoundname>
+    <includes refid="_u_i_button_09_indicator_8h" local="no">UIButton+Indicator.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="category_u_i_button_07_indicator_08_1aba193373f48b4387022e0ee3d96be6b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UIButton(Indicator)::showIndicator</definition>
+        <argsstring>()</argsstring>
+        <name>showIndicator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This method will show the activity indicator in place of the button text. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIButton/UIButton+Indicator.h" line="13" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIButton/UIButton+Indicator.m" bodystart="17" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_button_07_indicator_08_1ae002cea90da9acf1cad1b836ab621f0b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UIButton(Indicator)::hideIndicator</definition>
+        <argsstring>()</argsstring>
+        <name>hideIndicator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This method will remove the indicator and put thebutton text back in place. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIButton/UIButton+Indicator.h" line="13" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIButton/UIButton+Indicator.m" bodystart="35" bodyend="44"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Simple category that lets you replace the text of a button with an activity indicator. </para>    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIButton/UIButton+Indicator.m" line="15" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIButton/UIButton+Indicator.m" bodystart="15" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_u_i_button_07_indicator_08_1ae002cea90da9acf1cad1b836ab621f0b" prot="public" virt="virtual"><scope>UIButton(Indicator)</scope><name>hideIndicator</name></member>
+      <member refid="category_u_i_button_07_indicator_08_1aba193373f48b4387022e0ee3d96be6b8" prot="public" virt="virtual"><scope>UIButton(Indicator)</scope><name>showIndicator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

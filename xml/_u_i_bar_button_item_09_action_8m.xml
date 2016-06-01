@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_u_i_bar_button_item_09_action_8m" kind="file" language="Objective-C">
+    <compoundname>UIBarButtonItem+Action.m</compoundname>
+    <includes refid="_u_i_bar_button_item_09_action_8h" local="yes">UIBarButtonItem+Action.h</includes>
+    <includes local="no">objc/runtime.h</includes>
+    <incdepgraph>
+      <node id="1229">
+        <label>UIKit/UIKit.h</label>
+      </node>
+      <node id="1228">
+        <label>UIBarButtonItem+Action.h</label>
+        <link refid="_u_i_bar_button_item_09_action_8h"/>
+        <childnode refid="1229" relation="include">
+        </childnode>
+      </node>
+      <node id="1227">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIBarButtonItem/UIBarButtonItem+Action.m</label>
+        <link refid="UIBarButtonItem+Action.m"/>
+        <childnode refid="1228" relation="include">
+        </childnode>
+        <childnode refid="1230" relation="include">
+        </childnode>
+      </node>
+      <node id="1230">
+        <label>objc/runtime.h</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="_u_i_bar_button_item_09_action_8m_1abaab1eafa5f4eb5df3fdfdc9920dc0a1" prot="public" static="no" mutable="no">
+        <type>char *const</type>
+        <definition>char* const UIBarButtonItemActionBlock</definition>
+        <argsstring></argsstring>
+        <name>UIBarButtonItemActionBlock</name>
+        <initializer>= &quot;UIBarButtonItemActionBlock&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIBarButtonItem/UIBarButtonItem+Action.m" line="9" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIBarButtonItem/UIBarButtonItem+Action.m" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>UIBarButtonItem+Action.m</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>iOS-Categories<sp/>(https://github.com/shaojiankui/iOS-Categories)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Jakey<sp/>on<sp/>15/5/22.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2015年<sp/>www.skyfox.org.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="_u_i_bar_button_item_09_action_8m_1abaab1eafa5f4eb5df3fdfdc9920dc0a1" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="_u_i_bar_button_item_09_action_8m_1abaab1eafa5f4eb5df3fdfdc9920dc0a1" kindref="member">UIBarButtonItemActionBlock</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;UIBarButtonItemActionBlock&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_u_i_bar_button_item_09_action_8h" kindref="compound">UIBarButtonItem+Action.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;objc/runtime.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="category_u_i_bar_button_item_07_action_08" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">@implementation<sp/></highlight><highlight class="normal"><ref refid="category_u_i_bar_button_item_07_action_08" kindref="compound">UIBarButtonItem (Action)</ref></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal">-<sp/>(void)performActionBlock<sp/>{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>dispatch_block_t<sp/>block<sp/>=<sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.actionBlock;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(block)</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>block();</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="22"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal">-<sp/>(<ref refid="_u_i_bar_button_item_09_action_8h_1a33fc04bcf68c2fba64feca579edf2f33" kindref="member">BarButtonActionBlock</ref>)actionBlock<sp/>{</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>objc_getAssociatedObject(</highlight><highlight class="keyword">self</highlight><highlight class="normal">,<sp/><ref refid="_u_i_bar_button_item_09_action_8m_1abaab1eafa5f4eb5df3fdfdc9920dc0a1" kindref="member">UIBarButtonItemActionBlock</ref>);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28" refid="category_u_i_bar_button_item_07_action_08_1a69a91bc2e06db4c80ec65ac7e14a22a5" refkind="member"><highlight class="normal">-<sp/>(void)setActionBlock:(<ref refid="_u_i_bar_button_item_09_action_8h_1a33fc04bcf68c2fba64feca579edf2f33" kindref="member">BarButtonActionBlock</ref>)actionBlock</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(actionBlock<sp/>!=<sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.actionBlock)<sp/>{</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>willChangeValueForKey:@&quot;actionBlock&quot;];</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>objc_setAssociatedObject(</highlight><highlight class="keyword">self</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_u_i_bar_button_item_09_action_8m_1abaab1eafa5f4eb5df3fdfdc9920dc0a1" kindref="member">UIBarButtonItemActionBlock</ref>,</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>actionBlock,</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>OBJC_ASSOCIATION_COPY);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Sets<sp/>up<sp/>the<sp/>action.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>setTarget:self];</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>setAction:@selector(performActionBlock)];</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>didChangeValueForKey:@&quot;actionBlock&quot;];</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="45"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIBarButtonItem/UIBarButtonItem+Action.m"/>
+  </compounddef>
+</doxygen>

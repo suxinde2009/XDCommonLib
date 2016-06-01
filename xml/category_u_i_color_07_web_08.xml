@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_u_i_color_07_web_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>UIColor(Web)</compoundname>
+    <includes refid="_u_i_color_09_web_8h" local="no">UIColor+Web.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="category_u_i_color_07_web_08_1afd37d6b8527fc67a3a04038e74666555" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * UIColor(Web)::canvasColorString</definition>
+        <argsstring>()</argsstring>
+        <name>canvasColorString</name>
+        <briefdescription>
+<para>获取canvas用的颜色字符串 </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>canvas颜色 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIColor/UIColor+Web.h" line="10" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIColor/UIColor+Web.m" bodystart="17" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_color_07_web_08_1a9bc152c6631fcc3098c5c977a4680e04" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * UIColor(Web)::webColorString</definition>
+        <argsstring>()</argsstring>
+        <name>webColorString</name>
+        <briefdescription>
+<para>获取网页颜色字串 </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>网页颜色 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIColor/UIColor+Web.h" line="10" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIColor/UIColor+Web.m" bodystart="31" bodyend="40"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIColor/UIColor+Web.m" line="11" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIColor/UIColor+Web.m" bodystart="11" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_u_i_color_07_web_08_1afd37d6b8527fc67a3a04038e74666555" prot="public" virt="virtual"><scope>UIColor(Web)</scope><name>canvasColorString</name></member>
+      <member refid="category_u_i_color_07_web_08_1a9bc152c6631fcc3098c5c977a4680e04" prot="public" virt="virtual"><scope>UIColor(Web)</scope><name>webColorString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

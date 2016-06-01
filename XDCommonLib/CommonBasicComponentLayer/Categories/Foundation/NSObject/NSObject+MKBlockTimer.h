@@ -36,6 +36,18 @@
 
 #import <Foundation/Foundation.h>
 
+/**
+ *  @brief 获取一个block的执行时间
+ */
+
 @interface NSObject (MKBlockTimer)
--(void) logTimeTakenToRunBlock:(void (^)(void)) block withPrefix:(NSString*) prefixString;
+
+/**
+ *  获取一个block的执行时间
+ *
+ *  @param block        <#block description#>
+ *  @param prefixString <#prefixString description#>
+ */
+- (void)logTimeTakenToRunBlock:(void (^)(void)) block withPrefix:(NSString*) prefixString;
+
 @end

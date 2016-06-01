@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_u_i_responder_07_u_i_adapt_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>UIResponder(UIAdapt)</compoundname>
+    <includes refid="_u_i_responder_09_u_i_adapt_8h" local="no">UIResponder+UIAdapt.h</includes>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="category_u_i_responder_07_u_i_adapt_08_1af3b25832b78bf56b1291df9d249b2c73" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>CGRect</type>
+        <definition>CGRect UIResponder(UIAdapt)::CGAdaptRectMake</definition>
+        <argsstring>(CGFloat x, CGFloat y, CGFloat width, CGFloat height)</argsstring>
+        <name>CGAdaptRectMake</name>
+        <param>
+          <type>CGFloat</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>CGFloat</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>CGFloat</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>CGFloat</type>
+          <declname>height</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIResponder/UIResponder+UIAdapt.h" line="12" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIResponder/UIResponder+UIAdapt.m" bodystart="13" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_responder_07_u_i_adapt_08_1aedab30d65409ec9fa3d9434a4d7738ae" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>CGPoint</type>
+        <definition>CGPoint UIResponder(UIAdapt)::CGAdaptPointMake</definition>
+        <argsstring>(CGFloat x, CGFloat y)</argsstring>
+        <name>CGAdaptPointMake</name>
+        <param>
+          <type>CGFloat</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>CGFloat</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIResponder/UIResponder+UIAdapt.h" line="13" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIResponder/UIResponder+UIAdapt.m" bodystart="21" bodyend="26"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="category_u_i_responder_07_u_i_adapt_08_1ab2717351f77f42c42bcb4f80dd5a4262" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>CGFloat</type>
+        <definition>CGFloat UIResponder(UIAdapt)::factorAdapt</definition>
+        <argsstring>()</argsstring>
+        <name>factorAdapt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIResponder/UIResponder+UIAdapt.h" line="13" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIResponder/UIResponder+UIAdapt.m" bodystart="28" bodyend="33"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIResponder/UIResponder+UIAdapt.m" line="12" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIResponder/UIResponder+UIAdapt.m" bodystart="12" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_u_i_responder_07_u_i_adapt_08_1aedab30d65409ec9fa3d9434a4d7738ae" prot="protected" virt="non-virtual"><scope>UIResponder(UIAdapt)</scope><name>CGAdaptPointMake</name></member>
+      <member refid="category_u_i_responder_07_u_i_adapt_08_1af3b25832b78bf56b1291df9d249b2c73" prot="protected" virt="non-virtual"><scope>UIResponder(UIAdapt)</scope><name>CGAdaptRectMake</name></member>
+      <member refid="category_u_i_responder_07_u_i_adapt_08_1ab2717351f77f42c42bcb4f80dd5a4262" prot="public" virt="virtual"><scope>UIResponder(UIAdapt)</scope><name>factorAdapt</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

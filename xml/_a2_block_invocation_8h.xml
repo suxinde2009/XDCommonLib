@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_a2_block_invocation_8h" kind="file" language="C++">
+    <compoundname>A2BlockInvocation.h</compoundname>
+    <includes refid="_b_k_defines_8h" local="yes">BKDefines.h</includes>
+    <includes local="no">Foundation/Foundation.h</includes>
+    <includedby refid="_a2_block_invocation_8m" local="yes">XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/DynamicDelegate/A2BlockInvocation.m</includedby>
+    <includedby refid="_a2_dynamic_delegate_8m" local="yes">XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/DynamicDelegate/A2DynamicDelegate.m</includedby>
+    <incdepgraph>
+      <node id="2855">
+        <label>Foundation/NSObjCRuntime.h</label>
+      </node>
+      <node id="2853">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/DynamicDelegate/A2BlockInvocation.h</label>
+        <link refid="A2BlockInvocation.h"/>
+        <childnode refid="2854" relation="include">
+        </childnode>
+        <childnode refid="2856" relation="include">
+        </childnode>
+      </node>
+      <node id="2854">
+        <label>BKDefines.h</label>
+        <link refid="_b_k_defines_8h"/>
+        <childnode refid="2855" relation="include">
+        </childnode>
+      </node>
+      <node id="2856">
+        <label>Foundation/Foundation.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2859">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/DynamicDelegate/A2DynamicDelegate.m</label>
+        <link refid="_a2_dynamic_delegate_8m"/>
+      </node>
+      <node id="2857">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/DynamicDelegate/A2BlockInvocation.h</label>
+        <link refid="A2BlockInvocation.h"/>
+        <childnode refid="2858" relation="include">
+        </childnode>
+        <childnode refid="2859" relation="include">
+        </childnode>
+      </node>
+      <node id="2858">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/DynamicDelegate/A2BlockInvocation.m</label>
+        <link refid="_a2_block_invocation_8m"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_a2_block_invocation" prot="public">A2BlockInvocation</innerclass>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="_a2_block_invocation_8h_1ac32e9006804a9751b016ab977251c1f6" prot="public" static="no" mutable="no">
+        <type><ref refid="_b_k_defines_8h_1a33c08c6ca8f22acd327c850ca2151f17" kindref="member">NS_ASSUME_NONNULL_BEGIN</ref> NSString *const</type>
+        <definition>NS_ASSUME_NONNULL_BEGIN NSString* const A2IncompatibleMethodSignatureKey</definition>
+        <argsstring></argsstring>
+        <name>A2IncompatibleMethodSignatureKey</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>If a block invocation is instiated with an invalid method signature, an <computeroutput>NSInvalidArgumentException</computeroutput> is thrown containing this key in the user info. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/DynamicDelegate/A2BlockInvocation.h" line="14" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/DynamicDelegate/A2BlockInvocation.m" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>A2BlockInvocation.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>BlocksKit</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_b_k_defines_8h" kindref="compound">BKDefines.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;Foundation/Foundation.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><ref refid="_b_k_defines_8h_1a33c08c6ca8f22acd327c850ca2151f17" kindref="member">NS_ASSUME_NONNULL_BEGIN</ref></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="keyword">extern</highlight><highlight class="normal"><sp/>NSString<sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="_a2_block_invocation_8h_1ac32e9006804a9751b016ab977251c1f6" kindref="member">A2IncompatibleMethodSignatureKey</ref>;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="class_a2_block_invocation" kindref="compound">A2BlockInvocation</ref><sp/>:<sp/>NSObject</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal">+<sp/>(<ref refid="_c_a_shape_layer_09_u_i_bezier_path_8h_1a02648067ad66739ed70a10195891098a" kindref="member">nullable</ref><sp/>NSMethodSignature<sp/>*)methodSignatureForBlock:(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)block;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal">-<sp/>(instancetype)initWithBlock:(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)block;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal">-<sp/>(instancetype)initWithBlock:(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)block<sp/>methodSignature:(NSMethodSignature<sp/>*)methodSignature;</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>strong,<sp/>readonly)<sp/>NSMethodSignature<sp/>*<ref refid="class_a2_block_invocation_1a65f8b92237ea6135b7615830fb86ddeb" kindref="member">methodSignature</ref>;</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80" refid="class_a2_block_invocation_1a2816454241d99d2da43c35d51691acb4" refkind="member"><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>copy,<sp/>readonly)<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/><ref refid="class_a2_block_invocation_1a2816454241d99d2da43c35d51691acb4" kindref="member">block</ref>;</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal">-<sp/>(BOOL)invokeWithInvocation:(NSInvocation<sp/>*)inv<sp/>returnValue:(out<sp/>NSValue<sp/>*<ref refid="_c_a_shape_layer_09_u_i_bezier_path_8h_1adef3a2f6f7f351e138d1df7e339bc555" kindref="member">__nullable</ref><sp/>*<ref refid="_b_k_defines_8h_1a52f97c05d27719b2d82d9c7bfb3db1eb" kindref="member">__nonnull</ref>)returnValue;</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal">-<sp/>(void)invokeWithInvocation:(NSInvocation<sp/>*)inv;</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><ref refid="_b_k_defines_8h_1a34f05dab7f212780aa8f76bbb465ce67" kindref="member">NS_ASSUME_NONNULL_END</ref></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/DynamicDelegate/A2BlockInvocation.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_s_b_collection_view_table_layout_attributes_8m" kind="file" language="Objective-C">
+    <compoundname>SBCollectionViewTableLayoutAttributes.m</compoundname>
+    <includes refid="_s_b_collection_view_table_layout_attributes_8h" local="yes">SBCollectionViewTableLayoutAttributes.h</includes>
+    <incdepgraph>
+      <node id="3613">
+        <label>UIKit/UIKit.h</label>
+      </node>
+      <node id="3612">
+        <label>SBCollectionViewTableLayoutAttributes.h</label>
+        <link refid="_s_b_collection_view_table_layout_attributes_8h"/>
+        <childnode refid="3613" relation="include">
+        </childnode>
+      </node>
+      <node id="3611">
+        <label>XDCommonLib/CommonBasicComponentLayer/Venders/SBTableLayout/SBCollectionViewTableLayoutAttributes.m</label>
+        <link refid="SBCollectionViewTableLayoutAttributes.m"/>
+        <childnode refid="3612" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>SBCollectionViewTableLayoutAttributes.m</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>SBTableLayout</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Simon<sp/>Blommegård<sp/>on<sp/>2013-11-11.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2013<sp/>Simon<sp/>Blommegård.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_s_b_collection_view_table_layout_attributes_8h" kindref="compound">SBCollectionViewTableLayoutAttributes.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">@implementation<sp/></highlight><highlight class="normal"><ref refid="interface_s_b_collection_view_table_layout_attributes" kindref="compound">SBCollectionViewTableLayoutAttributes</ref></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/>-<sp/>NSCopying</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal">-<sp/>(id)copyWithZone:(NSZone<sp/>*)zone<sp/>{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><ref refid="interface_s_b_collection_view_table_layout_attributes" kindref="compound">SBCollectionViewTableLayoutAttributes</ref><sp/>*attribute<sp/>=<sp/>[</highlight><highlight class="keyword">super</highlight><highlight class="normal"><sp/>copyWithZone:zone];</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/>attribute-&gt;_cellType<sp/>=<sp/>_cellType;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/>attribute-&gt;_middleSeparatorInset<sp/>=<sp/>_middleSeparatorInset;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/>attribute-&gt;_borderSeparatorWidth<sp/>=<sp/>_borderSeparatorWidth;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/>attribute-&gt;_middleSeparatorWidth<sp/>=<sp/>_middleSeparatorWidth;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>attribute;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/SBTableLayout/SBCollectionViewTableLayoutAttributes.m"/>
+  </compounddef>
+</doxygen>

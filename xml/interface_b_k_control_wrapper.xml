@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="interface_b_k_control_wrapper" kind="class" language="Objective-C" prot="public">
+    <compoundname>BKControlWrapper</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">NSObject</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">&lt;NSCopying&gt;</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="interface_b_k_control_wrapper_1aa5b8e0beb496a536e967740d7c3c93f7" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="assign">
+        <type>UIControlEvents</type>
+        <definition>UIControlEvents BKControlWrapper::controlEvents</definition>
+        <argsstring></argsstring>
+        <name>controlEvents</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIControl+BlocksKit.m" line="17" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIControl+BlocksKit.m" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_b_k_control_wrapper_1adfc8d0af2510b9386fd6b5d92db5a1e9" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="copy">
+        <type>void(^</type>
+        <definition>void(^ BKControlWrapper::handler) (id sender)</definition>
+        <argsstring>)(id sender)</argsstring>
+        <name>handler</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIControl+BlocksKit.m" line="18" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_b_k_control_wrapper_1a2fc605eb4cef819d96bc454150a8c380" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>id</type>
+        <definition>id BKControlWrapper::initWithHandler:forControlEvents:</definition>
+        <argsstring>(void(^handler)(id sender),[forControlEvents] UIControlEvents controlEvents)</argsstring>
+        <name>initWithHandler:forControlEvents:</name>
+        <param>
+          <type>void(^)(id sender)</type>
+          <declname>handler</declname>
+        </param>
+        <param>
+          <attributes>[forControlEvents]</attributes>
+          <type>UIControlEvents</type>
+          <declname>controlEvents</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIControl+BlocksKit.m" line="9" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIControl+BlocksKit.m" bodystart="24" bodyend="33"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="217">
+        <label>NSObject</label>
+      </node>
+      <node id="218">
+        <label>&lt;NSCopying&gt;</label>
+      </node>
+      <node id="216">
+        <label>BKControlWrapper</label>
+        <link refid="interface_b_k_control_wrapper"/>
+        <childnode refid="217" relation="public-inheritance">
+        </childnode>
+        <childnode refid="218" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="220">
+        <label>NSObject</label>
+      </node>
+      <node id="221">
+        <label>&lt;NSCopying&gt;</label>
+      </node>
+      <node id="219">
+        <label>BKControlWrapper</label>
+        <link refid="interface_b_k_control_wrapper"/>
+        <childnode refid="220" relation="public-inheritance">
+        </childnode>
+        <childnode refid="221" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIControl+BlocksKit.m" line="13" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIControl+BlocksKit.m" bodystart="13" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="interface_b_k_control_wrapper_1aa5b8e0beb496a536e967740d7c3c93f7" prot="public" virt="non-virtual"><scope>BKControlWrapper</scope><name>controlEvents</name></member>
+      <member refid="interface_b_k_control_wrapper_1adfc8d0af2510b9386fd6b5d92db5a1e9" prot="public" virt="non-virtual"><scope>BKControlWrapper</scope><name>handler</name></member>
+      <member refid="interface_b_k_control_wrapper_1a2fc605eb4cef819d96bc454150a8c380" prot="public" virt="virtual"><scope>BKControlWrapper</scope><name>initWithHandler:forControlEvents:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_n_s_decimal_number_07_calculating_by_string_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>NSDecimalNumber(CalculatingByString)</compoundname>
+    <includes refid="_n_s_decimal_number_09_calculating_by_string_8h" local="no">NSDecimalNumber+CalculatingByString.h</includes>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="category_n_s_decimal_number_07_calculating_by_string_08_1a726b6bd2c96222ca956ce41a97de3010" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSDecimalNumber *</type>
+        <definition>NSDecimalNumber * NSDecimalNumber(CalculatingByString)::decimalNumberWithEquation:decimalNumbers:</definition>
+        <argsstring>(NSString *equation,[decimalNumbers] NSDictionary *numbers)</argsstring>
+        <name>decimalNumberWithEquation:decimalNumbers:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>equation</declname>
+        </param>
+        <param>
+          <attributes>[decimalNumbers]</attributes>
+          <type>NSDictionary *</type>
+          <declname>numbers</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSNumber/NSDecimalNumber+CalculatingByString.h" line="296" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSNumber/NSDecimalNumber+CalculatingByString.m" bodystart="31" bodyend="79"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSNumber/NSDecimalNumber+CalculatingByString.m" line="29" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSNumber/NSDecimalNumber+CalculatingByString.m" bodystart="29" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_n_s_decimal_number_07_calculating_by_string_08_1a726b6bd2c96222ca956ce41a97de3010" prot="public" virt="virtual"><scope>NSDecimalNumber(CalculatingByString)</scope><name>decimalNumberWithEquation:decimalNumbers:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

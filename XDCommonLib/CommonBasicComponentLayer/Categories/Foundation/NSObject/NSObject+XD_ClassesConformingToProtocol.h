@@ -8,6 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
+/**
+ *  @brief 获取实现某Protocol的一组类
+ */
+
 @interface NSObject (XD_ClassesConformingToProtocol)
 
 /**

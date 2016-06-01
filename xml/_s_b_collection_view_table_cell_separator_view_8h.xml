@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_s_b_collection_view_table_cell_separator_view_8h" kind="file" language="C++">
+    <compoundname>SBCollectionViewTableCellSeparatorView.h</compoundname>
+    <includes local="no">UIKit/UIKit.h</includes>
+    <includedby refid="_s_b_collection_view_table_cell_8m" local="yes">XDCommonLib/CommonBasicComponentLayer/Venders/SBTableLayout/SBCollectionViewTableCell.m</includedby>
+    <includedby refid="_s_b_collection_view_table_cell_separator_view_8m" local="yes">XDCommonLib/CommonBasicComponentLayer/Venders/SBTableLayout/SBCollectionViewTableCellSeparatorView.m</includedby>
+    <incdepgraph>
+      <node id="3587">
+        <label>UIKit/UIKit.h</label>
+      </node>
+      <node id="3586">
+        <label>XDCommonLib/CommonBasicComponentLayer/Venders/SBTableLayout/SBCollectionViewTableCellSeparatorView.h</label>
+        <link refid="SBCollectionViewTableCellSeparatorView.h"/>
+        <childnode refid="3587" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3588">
+        <label>XDCommonLib/CommonBasicComponentLayer/Venders/SBTableLayout/SBCollectionViewTableCellSeparatorView.h</label>
+        <link refid="SBCollectionViewTableCellSeparatorView.h"/>
+        <childnode refid="3589" relation="include">
+        </childnode>
+        <childnode refid="3590" relation="include">
+        </childnode>
+      </node>
+      <node id="3590">
+        <label>XDCommonLib/CommonBasicComponentLayer/Venders/SBTableLayout/SBCollectionViewTableCellSeparatorView.m</label>
+        <link refid="_s_b_collection_view_table_cell_separator_view_8m"/>
+      </node>
+      <node id="3589">
+        <label>XDCommonLib/CommonBasicComponentLayer/Venders/SBTableLayout/SBCollectionViewTableCell.m</label>
+        <link refid="_s_b_collection_view_table_cell_8m"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="interface_s_b_collection_view_table_cell_separator_view" prot="public">SBCollectionViewTableCellSeparatorView</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>SBCollectionViewTableCellSeparatorView.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>SBTableLayout</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Simon<sp/>Blommegård<sp/>on<sp/>2013-11-11.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2013<sp/>Simon<sp/>Blommegård.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;UIKit/UIKit.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="interface_s_b_collection_view_table_cell_separator_view" refkind="compound"><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="interface_s_b_collection_view_table_cell_separator_view" kindref="compound">SBCollectionViewTableCellSeparatorView</ref><sp/>:<sp/>UIView</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/SBTableLayout/SBCollectionViewTableCellSeparatorView.h"/>
+  </compounddef>
+</doxygen>

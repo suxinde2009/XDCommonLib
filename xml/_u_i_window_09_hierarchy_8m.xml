@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_u_i_window_09_hierarchy_8m" kind="file" language="Objective-C">
+    <compoundname>UIWindow+Hierarchy.m</compoundname>
+    <includes refid="_u_i_window_09_hierarchy_8h" local="yes">UIWindow+Hierarchy.h</includes>
+    <incdepgraph>
+      <node id="2295">
+        <label>UIKit/UIKit.h</label>
+      </node>
+      <node id="2294">
+        <label>UIWindow+Hierarchy.h</label>
+        <link refid="_u_i_window_09_hierarchy_8h"/>
+        <childnode refid="2295" relation="include">
+        </childnode>
+      </node>
+      <node id="2293">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIWindow/UIWindow+Hierarchy.m</label>
+        <link refid="UIWindow+Hierarchy.m"/>
+        <childnode refid="2294" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>UIWindow+Hierarchy.m</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>iOS-Categories<sp/>(https://github.com/shaojiankui/iOS-Categories)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Jakey<sp/>on<sp/>15/1/16.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2015年<sp/>www.skyfox.org.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_u_i_window_09_hierarchy_8h" kindref="compound">UIWindow+Hierarchy.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="category_u_i_window_07_hierarchy_08" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">@implementation<sp/></highlight><highlight class="normal"><ref refid="category_u_i_window_07_hierarchy_08" kindref="compound">UIWindow (Hierarchy)</ref></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="category_u_i_window_07_hierarchy_08_1a13d4daa2731b7ec7024032c27fdd825a" refkind="member"><highlight class="normal">-<sp/>(UIViewController*)<sp/><ref refid="category_u_i_window_07_hierarchy_08_1a13d4daa2731b7ec7024032c27fdd825a" kindref="member">topMostController</ref></highlight></codeline>
+<codeline lineno="14"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>UIViewController<sp/>*topController<sp/>=<sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>rootViewController];</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/>Getting<sp/>topMost<sp/>ViewController</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>([topController<sp/>presentedViewController])<sp/>topController<sp/>=<sp/>[topController<sp/>presentedViewController];</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/>Returning<sp/>topMost<sp/>ViewController</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>topController;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="category_u_i_window_07_hierarchy_08_1a1f345b348af5aed6e9db2a6912638259" refkind="member"><highlight class="normal">-<sp/>(UIViewController*)<ref refid="category_u_i_window_07_hierarchy_08_1a1f345b348af5aed6e9db2a6912638259" kindref="member">currentViewController</ref>;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>UIViewController<sp/>*<ref refid="category_u_i_window_07_hierarchy_08_1a1f345b348af5aed6e9db2a6912638259" kindref="member">currentViewController</ref><sp/>=<sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/><ref refid="category_u_i_window_07_hierarchy_08_1a13d4daa2731b7ec7024032c27fdd825a" kindref="member">topMostController</ref>];</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>([currentViewController<sp/>isKindOfClass:[UINavigationController<sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal">]]<sp/>&amp;&amp;<sp/>[(UINavigationController*)currentViewController<sp/>topViewController])</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>currentViewController<sp/>=<sp/>[(UINavigationController*)currentViewController<sp/>topViewController];</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="category_u_i_window_07_hierarchy_08_1a1f345b348af5aed6e9db2a6912638259" kindref="member">currentViewController</ref>;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIWindow/UIWindow+Hierarchy.m"/>
+  </compounddef>
+</doxygen>

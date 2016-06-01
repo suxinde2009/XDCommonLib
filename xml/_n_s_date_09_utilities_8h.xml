@@ -1,0 +1,208 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_n_s_date_09_utilities_8h" kind="file" language="C++">
+    <compoundname>NSDate+Utilities.h</compoundname>
+    <includes local="no">Foundation/Foundation.h</includes>
+    <includedby refid="_n_s_date_09_utilities_8m" local="yes">XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.m</includedby>
+    <incdepgraph>
+      <node id="412">
+        <label>Foundation/Foundation.h</label>
+      </node>
+      <node id="411">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.h</label>
+        <link refid="NSDate+Utilities.h"/>
+        <childnode refid="412" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="413">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.h</label>
+        <link refid="NSDate+Utilities.h"/>
+        <childnode refid="414" relation="include">
+        </childnode>
+      </node>
+      <node id="414">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.m</label>
+        <link refid="_n_s_date_09_utilities_8m"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="category_n_s_date_07_utilities_08" prot="public">NSDate(Utilities)</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="_n_s_date_09_utilities_8h_1a7e1e9e46c4670c49c803bddfe9bd8473" prot="public" static="no">
+        <name>D_MINUTE</name>
+        <initializer>60</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.h" line="10" column="10" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_n_s_date_09_utilities_8h_1a683db9e8545818d92df531109843d5c3" prot="public" static="no">
+        <name>D_HOUR</name>
+        <initializer>3600</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.h" line="11" column="9" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_n_s_date_09_utilities_8h_1a89aea96b3289b9175bb54e53b76ac771" prot="public" static="no">
+        <name>D_DAY</name>
+        <initializer>86400</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.h" line="12" column="9" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_n_s_date_09_utilities_8h_1ab163f79badd5be0c0a9780d3448cd920" prot="public" static="no">
+        <name>D_WEEK</name>
+        <initializer>604800</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.h" line="13" column="9" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_n_s_date_09_utilities_8h_1ac643dd469a21d76269fda8b2d8921fae" prot="public" static="no">
+        <name>D_YEAR</name>
+        <initializer>31556926</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.h" line="14" column="9" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>NSDate+Utilities.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>iOS-Categories<sp/>(https://github.com/shaojiankui/iOS-Categories)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Jakey<sp/>on<sp/>14/12/30.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2014年<sp/>www.skyfox.org.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;Foundation/Foundation.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="_n_s_date_09_utilities_8h_1a7e1e9e46c4670c49c803bddfe9bd8473" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>D_MINUTE<sp/><sp/><sp/><sp/>60</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="_n_s_date_09_utilities_8h_1a683db9e8545818d92df531109843d5c3" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>D_HOUR<sp/><sp/>3600</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="_n_s_date_09_utilities_8h_1a89aea96b3289b9175bb54e53b76ac771" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>D_DAY<sp/><sp/><sp/>86400</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="_n_s_date_09_utilities_8h_1ab163f79badd5be0c0a9780d3448cd920" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>D_WEEK<sp/><sp/>604800</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="_n_s_date_09_utilities_8h_1ac643dd469a21d76269fda8b2d8921fae" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>D_YEAR<sp/><sp/>31556926</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="category_n_s_date_07_utilities_08" kindref="compound">NSDate (Utilities)</ref></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal">+<sp/>(NSCalendar<sp/>*)<sp/><ref refid="category_n_s_date_07_utilities_08_1ae2f2dace29752c681d5719bb5bfd9b52" kindref="member">currentCalendar</ref>;<sp/></highlight><highlight class="comment">//<sp/>avoid<sp/>bottlenecks</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Relative<sp/>dates<sp/>from<sp/>the<sp/>current<sp/>date</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal">+<sp/>(NSDate<sp/>*)<sp/><ref refid="category_n_s_date_07_utilities_08_1a4b4abd20d290ca056ac154acee842b6a" kindref="member">dateTomorrow</ref>;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal">+<sp/>(NSDate<sp/>*)<sp/><ref refid="category_n_s_date_07_utilities_08_1ae880ea79f675d23f9ffb7cb0ad139fba" kindref="member">dateYesterday</ref>;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">+<sp/>(NSDate<sp/>*)<sp/>dateWithDaysFromNow:<sp/>(NSInteger)<sp/>days;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal">+<sp/>(NSDate<sp/>*)<sp/>dateWithDaysBeforeNow:<sp/>(NSInteger)<sp/>days;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal">+<sp/>(NSDate<sp/>*)<sp/>dateWithHoursFromNow:<sp/>(NSInteger)<sp/>dHours;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal">+<sp/>(NSDate<sp/>*)<sp/>dateWithHoursBeforeNow:<sp/>(NSInteger)<sp/>dHours;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal">+<sp/>(NSDate<sp/>*)<sp/>dateWithMinutesFromNow:<sp/>(NSInteger)<sp/>dMinutes;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal">+<sp/>(NSDate<sp/>*)<sp/>dateWithMinutesBeforeNow:<sp/>(NSInteger)<sp/>dMinutes;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Short<sp/>string<sp/>utilities</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal">-<sp/>(NSString<sp/>*)<sp/>stringWithDateStyle:<sp/>(NSDateFormatterStyle)<sp/>dateStyle<sp/>timeStyle:<sp/>(NSDateFormatterStyle)<sp/>timeStyle;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">-<sp/>(NSString<sp/>*)<sp/>stringWithFormat:<sp/>(NSString<sp/>*)<sp/>format;</highlight></codeline>
+<codeline lineno="32" refid="category_n_s_date_07_utilities_08_1a00b31986c4a32130fda1a978d3a65e0c" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>readonly)<sp/>NSString<sp/>*<ref refid="category_n_s_date_07_utilities_08_1a00b31986c4a32130fda1a978d3a65e0c" kindref="member">shortString</ref>;</highlight></codeline>
+<codeline lineno="33" refid="category_n_s_date_07_utilities_08_1ae2ec9070d4fbb91fb8119f973c1644ed" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>readonly)<sp/>NSString<sp/>*<ref refid="category_n_s_date_07_utilities_08_1ae2ec9070d4fbb91fb8119f973c1644ed" kindref="member">shortDateString</ref>;</highlight></codeline>
+<codeline lineno="34" refid="category_n_s_date_07_utilities_08_1a5a8ac2ab8f37e1c5bf9fbb7fb4339d9a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>readonly)<sp/>NSString<sp/>*<ref refid="category_n_s_date_07_utilities_08_1a5a8ac2ab8f37e1c5bf9fbb7fb4339d9a" kindref="member">shortTimeString</ref>;</highlight></codeline>
+<codeline lineno="35" refid="category_n_s_date_07_utilities_08_1af9d43f9a64a11ab4af108eb2335d5f74" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>readonly)<sp/>NSString<sp/>*<ref refid="category_n_s_date_07_utilities_08_1af9d43f9a64a11ab4af108eb2335d5f74" kindref="member">mediumString</ref>;</highlight></codeline>
+<codeline lineno="36" refid="category_n_s_date_07_utilities_08_1a909eae4aa0408d4baec909d1411c3b6e" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>readonly)<sp/>NSString<sp/>*<ref refid="category_n_s_date_07_utilities_08_1a909eae4aa0408d4baec909d1411c3b6e" kindref="member">mediumDateString</ref>;</highlight></codeline>
+<codeline lineno="37" refid="category_n_s_date_07_utilities_08_1af4445a804968f1306f732ce4cee194ef" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>readonly)<sp/>NSString<sp/>*<ref refid="category_n_s_date_07_utilities_08_1af4445a804968f1306f732ce4cee194ef" kindref="member">mediumTimeString</ref>;</highlight></codeline>
+<codeline lineno="38" refid="category_n_s_date_07_utilities_08_1aec2b5ac4dbf277d5b1e82440ddec35cd" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>readonly)<sp/>NSString<sp/>*<ref refid="category_n_s_date_07_utilities_08_1aec2b5ac4dbf277d5b1e82440ddec35cd" kindref="member">longString</ref>;</highlight></codeline>
+<codeline lineno="39" refid="category_n_s_date_07_utilities_08_1a6888ae93af39f27ce232489ad0893cbb" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>readonly)<sp/>NSString<sp/>*<ref refid="category_n_s_date_07_utilities_08_1a6888ae93af39f27ce232489ad0893cbb" kindref="member">longDateString</ref>;</highlight></codeline>
+<codeline lineno="40" refid="category_n_s_date_07_utilities_08_1ad5c45c1ed20ba6644a40f53edd433c19" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>readonly)<sp/>NSString<sp/>*<ref refid="category_n_s_date_07_utilities_08_1ad5c45c1ed20ba6644a40f53edd433c19" kindref="member">longTimeString</ref>;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Comparing<sp/>dates</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal">-<sp/>(BOOL)<sp/>isEqualToDateIgnoringTime:<sp/>(NSDate<sp/>*)<sp/>aDate;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal">-<sp/>(BOOL)<sp/><ref refid="category_n_s_date_07_utilities_08_1af42167de8e9b05111b6d989a6fea8b06" kindref="member">isToday</ref>;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal">-<sp/>(BOOL)<sp/><ref refid="category_n_s_date_07_utilities_08_1a1d42fd7fa609befbb62b1ba8657399f6" kindref="member">isTomorrow</ref>;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal">-<sp/>(BOOL)<sp/><ref refid="category_n_s_date_07_utilities_08_1a0e83ce579b1ce9bb052ce28e5d54dc0e" kindref="member">isYesterday</ref>;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal">-<sp/>(BOOL)<sp/>isSameWeekAsDate:<sp/>(NSDate<sp/>*)<sp/>aDate;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal">-<sp/>(BOOL)<sp/><ref refid="category_n_s_date_07_utilities_08_1a89f215351a9c1e2c68d3f860aed583b5" kindref="member">isThisWeek</ref>;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal">-<sp/>(BOOL)<sp/><ref refid="category_n_s_date_07_utilities_08_1a879ec040d08fc37b77358fd73738390f" kindref="member">isNextWeek</ref>;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal">-<sp/>(BOOL)<sp/><ref refid="category_n_s_date_07_utilities_08_1aa7cae1a3be8eb598304d63ca4f45c1ff" kindref="member">isLastWeek</ref>;</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal">-<sp/>(BOOL)<sp/>isSameMonthAsDate:<sp/>(NSDate<sp/>*)<sp/>aDate;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal">-<sp/>(BOOL)<sp/><ref refid="category_n_s_date_07_utilities_08_1add28e36576112e5f393e9c6375a1357b" kindref="member">isThisMonth</ref>;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal">-<sp/>(BOOL)<sp/><ref refid="category_n_s_date_07_utilities_08_1add71876b0a9a793f2f2cd5fa4f310ee2" kindref="member">isNextMonth</ref>;</highlight></codeline>
+<codeline lineno="59"><highlight class="normal">-<sp/>(BOOL)<sp/><ref refid="category_n_s_date_07_utilities_08_1a6cf0346d33dcbd18d6115e8ecb903a04" kindref="member">isLastMonth</ref>;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal">-<sp/>(BOOL)<sp/>isSameYearAsDate:<sp/>(NSDate<sp/>*)<sp/>aDate;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal">-<sp/>(BOOL)<sp/><ref refid="category_n_s_date_07_utilities_08_1a4ffdbfea3c2eeac15997f15d523343c6" kindref="member">isThisYear</ref>;</highlight></codeline>
+<codeline lineno="63"><highlight class="normal">-<sp/>(BOOL)<sp/><ref refid="category_n_s_date_07_utilities_08_1a38fc3484be6b9081a63ed14f0a996432" kindref="member">isNextYear</ref>;</highlight></codeline>
+<codeline lineno="64"><highlight class="normal">-<sp/>(BOOL)<sp/><ref refid="category_n_s_date_07_utilities_08_1a7364084880fd6979ee56dbac9824db47" kindref="member">isLastYear</ref>;</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal">-<sp/>(BOOL)<sp/>isEarlierThanDate:<sp/>(NSDate<sp/>*)<sp/>aDate;</highlight></codeline>
+<codeline lineno="67"><highlight class="normal">-<sp/>(BOOL)<sp/>isLaterThanDate:<sp/>(NSDate<sp/>*)<sp/>aDate;</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal">-<sp/>(BOOL)<sp/><ref refid="category_n_s_date_07_utilities_08_1a6107d1953781c22703856db5f2b696cf" kindref="member">isInFuture</ref>;</highlight></codeline>
+<codeline lineno="70"><highlight class="normal">-<sp/>(BOOL)<sp/><ref refid="category_n_s_date_07_utilities_08_1a9bdf78cc45bd20b171bd82592273e591" kindref="member">isInPast</ref>;</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Date<sp/>roles</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal">-<sp/>(BOOL)<sp/><ref refid="category_n_s_date_07_utilities_08_1ac52767b8ce2731e294f1fb94ecd425d4" kindref="member">isTypicallyWorkday</ref>;</highlight></codeline>
+<codeline lineno="74"><highlight class="normal">-<sp/>(BOOL)<sp/><ref refid="category_n_s_date_07_utilities_08_1a80f53168836838635d7ee0a7a07b6097" kindref="member">isTypicallyWeekend</ref>;</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Adjusting<sp/>dates</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal">-<sp/>(NSDate<sp/>*)<sp/>dateByAddingYears:<sp/>(NSInteger)<sp/>dYears;</highlight></codeline>
+<codeline lineno="78"><highlight class="normal">-<sp/>(NSDate<sp/>*)<sp/>dateBySubtractingYears:<sp/>(NSInteger)<sp/>dYears;</highlight></codeline>
+<codeline lineno="79"><highlight class="normal">-<sp/>(NSDate<sp/>*)<sp/>dateByAddingMonths:<sp/>(NSInteger)<sp/>dMonths;</highlight></codeline>
+<codeline lineno="80"><highlight class="normal">-<sp/>(NSDate<sp/>*)<sp/>dateBySubtractingMonths:<sp/>(NSInteger)<sp/>dMonths;</highlight></codeline>
+<codeline lineno="81"><highlight class="normal">-<sp/>(NSDate<sp/>*)<sp/>dateByAddingDays:<sp/>(NSInteger)<sp/>dDays;</highlight></codeline>
+<codeline lineno="82"><highlight class="normal">-<sp/>(NSDate<sp/>*)<sp/>dateBySubtractingDays:<sp/>(NSInteger)<sp/>dDays;</highlight></codeline>
+<codeline lineno="83"><highlight class="normal">-<sp/>(NSDate<sp/>*)<sp/>dateByAddingHours:<sp/>(NSInteger)<sp/>dHours;</highlight></codeline>
+<codeline lineno="84"><highlight class="normal">-<sp/>(NSDate<sp/>*)<sp/>dateBySubtractingHours:<sp/>(NSInteger)<sp/>dHours;</highlight></codeline>
+<codeline lineno="85"><highlight class="normal">-<sp/>(NSDate<sp/>*)<sp/>dateByAddingMinutes:<sp/>(NSInteger)<sp/>dMinutes;</highlight></codeline>
+<codeline lineno="86"><highlight class="normal">-<sp/>(NSDate<sp/>*)<sp/>dateBySubtractingMinutes:<sp/>(NSInteger)<sp/>dMinutes;</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Date<sp/>extremes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal">-<sp/>(NSDate<sp/>*)<sp/><ref refid="category_n_s_date_07_utilities_08_1a2431d8cdb089b7d9b97f214d6b6afc6c" kindref="member">dateAtStartOfDay</ref>;</highlight></codeline>
+<codeline lineno="90"><highlight class="normal">-<sp/>(NSDate<sp/>*)<sp/><ref refid="category_n_s_date_07_utilities_08_1a8b8255c8d1f9298334465c669fe2daed" kindref="member">dateAtEndOfDay</ref>;</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Retrieving<sp/>intervals</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal">-<sp/>(NSInteger)<sp/>minutesAfterDate:<sp/>(NSDate<sp/>*)<sp/>aDate;</highlight></codeline>
+<codeline lineno="94"><highlight class="normal">-<sp/>(NSInteger)<sp/>minutesBeforeDate:<sp/>(NSDate<sp/>*)<sp/>aDate;</highlight></codeline>
+<codeline lineno="95"><highlight class="normal">-<sp/>(NSInteger)<sp/>hoursAfterDate:<sp/>(NSDate<sp/>*)<sp/>aDate;</highlight></codeline>
+<codeline lineno="96"><highlight class="normal">-<sp/>(NSInteger)<sp/>hoursBeforeDate:<sp/>(NSDate<sp/>*)<sp/>aDate;</highlight></codeline>
+<codeline lineno="97"><highlight class="normal">-<sp/>(NSInteger)<sp/>daysAfterDate:<sp/>(NSDate<sp/>*)<sp/>aDate;</highlight></codeline>
+<codeline lineno="98"><highlight class="normal">-<sp/>(NSInteger)<sp/>daysBeforeDate:<sp/>(NSDate<sp/>*)<sp/>aDate;</highlight></codeline>
+<codeline lineno="99"><highlight class="normal">-<sp/>(NSInteger)<sp/>distanceInDaysToDate:(NSDate<sp/>*)anotherDate;</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Decomposing<sp/>dates</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="102" refid="category_n_s_date_07_utilities_08_1acf4cca2d1acd127224d24edbf0699b57" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(readonly)<sp/>NSInteger<sp/><ref refid="category_n_s_date_07_utilities_08_1acf4cca2d1acd127224d24edbf0699b57" kindref="member">nearestHour</ref>;</highlight></codeline>
+<codeline lineno="103" refid="category_n_s_date_07_utilities_08_1a6bfef4bb6cce1b5b9e1d602e169d7477" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(readonly)<sp/>NSInteger<sp/><ref refid="category_n_s_date_07_utilities_08_1a6bfef4bb6cce1b5b9e1d602e169d7477" kindref="member">hour</ref>;</highlight></codeline>
+<codeline lineno="104" refid="category_n_s_date_07_utilities_08_1a6a617d715ab8674cbabeb379cbe7af20" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(readonly)<sp/>NSInteger<sp/><ref refid="category_n_s_date_07_utilities_08_1a6a617d715ab8674cbabeb379cbe7af20" kindref="member">minute</ref>;</highlight></codeline>
+<codeline lineno="105" refid="category_n_s_date_07_utilities_08_1a8edbca637da69d8cc3824fc625f5d3e7" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(readonly)<sp/>NSInteger<sp/><ref refid="category_n_s_date_07_utilities_08_1a8edbca637da69d8cc3824fc625f5d3e7" kindref="member">seconds</ref>;</highlight></codeline>
+<codeline lineno="106" refid="category_n_s_date_07_utilities_08_1a1ffc9a202f429f7f8884375c0bef8dac" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(readonly)<sp/>NSInteger<sp/><ref refid="category_n_s_date_07_utilities_08_1a1ffc9a202f429f7f8884375c0bef8dac" kindref="member">day</ref>;</highlight></codeline>
+<codeline lineno="107" refid="category_n_s_date_07_utilities_08_1a3aa5a70f2081df29eb4fd440a5223bac" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(readonly)<sp/>NSInteger<sp/><ref refid="category_n_s_date_07_utilities_08_1a3aa5a70f2081df29eb4fd440a5223bac" kindref="member">month</ref>;</highlight></codeline>
+<codeline lineno="108" refid="category_n_s_date_07_utilities_08_1a0768859e79690f0fac0ac7dd9ef53b3a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(readonly)<sp/>NSInteger<sp/><ref refid="category_n_s_date_07_utilities_08_1a0768859e79690f0fac0ac7dd9ef53b3a" kindref="member">week</ref>;</highlight></codeline>
+<codeline lineno="109" refid="category_n_s_date_07_utilities_08_1ad6ca21a931c9b37b76b9e55615a52d13" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(readonly)<sp/>NSInteger<sp/><ref refid="category_n_s_date_07_utilities_08_1ad6ca21a931c9b37b76b9e55615a52d13" kindref="member">weekday</ref>;</highlight></codeline>
+<codeline lineno="110" refid="category_n_s_date_07_utilities_08_1a26580aa12fac7c955daa0212b8c17dbd" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(readonly)<sp/>NSInteger<sp/><ref refid="category_n_s_date_07_utilities_08_1a26580aa12fac7c955daa0212b8c17dbd" kindref="member">nthWeekday</ref>;<sp/></highlight><highlight class="comment">//<sp/>e.g.<sp/>2nd<sp/>Tuesday<sp/>of<sp/>the<sp/>month<sp/>==<sp/>2</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="111" refid="category_n_s_date_07_utilities_08_1adabbbcc2e531b0a7be2400e7157625d3" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(readonly)<sp/>NSInteger<sp/><ref refid="category_n_s_date_07_utilities_08_1adabbbcc2e531b0a7be2400e7157625d3" kindref="member">year</ref>;</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.h"/>
+  </compounddef>
+</doxygen>

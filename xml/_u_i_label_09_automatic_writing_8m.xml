@@ -1,0 +1,369 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_u_i_label_09_automatic_writing_8m" kind="file" language="Objective-C">
+    <compoundname>UILabel+AutomaticWriting.m</compoundname>
+    <includes refid="_u_i_label_09_automatic_writing_8h" local="yes">UILabel+AutomaticWriting.h</includes>
+    <includes local="no">objc/runtime.h</includes>
+    <incdepgraph>
+      <node id="1665">
+        <label>UIKit/UIKit.h</label>
+      </node>
+      <node id="1666">
+        <label>objc/runtime.h</label>
+      </node>
+      <node id="1664">
+        <label>UILabel+AutomaticWriting.h</label>
+        <link refid="_u_i_label_09_automatic_writing_8h"/>
+        <childnode refid="1665" relation="include">
+        </childnode>
+      </node>
+      <node id="1663">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UILabel/UILabel+AutomaticWriting.m</label>
+        <link refid="UILabel+AutomaticWriting.m"/>
+        <childnode refid="1664" relation="include">
+        </childnode>
+        <childnode refid="1666" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="_u_i_label_09_automatic_writing_8m_1ac45e5ceb1c6e746df3604fa1342597c9" prot="public" static="no" mutable="no">
+        <type>NSTimeInterval const</type>
+        <definition>NSTimeInterval const UILabelAWDefaultDuration</definition>
+        <argsstring></argsstring>
+        <name>UILabelAWDefaultDuration</name>
+        <initializer>= 0.4f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UILabel/UILabel+AutomaticWriting.m" line="13" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UILabel/UILabel+AutomaticWriting.m" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_u_i_label_09_automatic_writing_8m_1a95519ac33e789ae9b92e6dad25d3b20f" prot="public" static="no" mutable="no">
+        <type>unichar const</type>
+        <definition>unichar const UILabelAWDefaultCharacter</definition>
+        <argsstring></argsstring>
+        <name>UILabelAWDefaultCharacter</name>
+        <initializer>= 124</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UILabel/UILabel+AutomaticWriting.m" line="15" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UILabel/UILabel+AutomaticWriting.m" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_u_i_label_09_automatic_writing_8m_1abfb4f2c86989bc596118dfe5a06f110b" prot="public" static="yes" mutable="no">
+        <type>char</type>
+        <definition>char kAutomaticWritingOperationQueueKey</definition>
+        <argsstring></argsstring>
+        <name>kAutomaticWritingOperationQueueKey</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UILabel/UILabel+AutomaticWriting.m" line="27" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UILabel/UILabel+AutomaticWriting.m" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_u_i_label_09_automatic_writing_8m_1a73b50eec7802f77a904193101c52d677" prot="public" static="yes" mutable="no">
+        <type>char</type>
+        <definition>char kAutomaticWritingEdgeInsetsKey</definition>
+        <argsstring></argsstring>
+        <name>kAutomaticWritingEdgeInsetsKey</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UILabel/UILabel+AutomaticWriting.m" line="28" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UILabel/UILabel+AutomaticWriting.m" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_u_i_label_09_automatic_writing_8m_1a1b6cafa9c849ebffc9dc555d9ca12ab2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void AutomaticWritingSwizzleSelector</definition>
+        <argsstring>(Class class, SEL originalSelector, SEL swizzledSelector)</argsstring>
+        <name>AutomaticWritingSwizzleSelector</name>
+        <param>
+          <type>Class</type>
+          <declname>class</declname>
+        </param>
+        <param>
+          <type>SEL</type>
+          <declname>originalSelector</declname>
+        </param>
+        <param>
+          <type>SEL</type>
+          <declname>swizzledSelector</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UILabel/UILabel+AutomaticWriting.m" line="17" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UILabel/UILabel+AutomaticWriting.m" bodystart="17" bodyend="25"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>UILabel+AutomaticWriting.m</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>UILabel-AutomaticWriting</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>alexruperez<sp/>on<sp/>10/3/15.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2015<sp/>alexruperez.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_u_i_label_09_automatic_writing_8h" kindref="compound">UILabel+AutomaticWriting.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;objc/runtime.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="_u_i_label_09_automatic_writing_8h_1ac45e5ceb1c6e746df3604fa1342597c9" refkind="member"><highlight class="normal">NSTimeInterval<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="_u_i_label_09_automatic_writing_8m_1ac45e5ceb1c6e746df3604fa1342597c9" kindref="member">UILabelAWDefaultDuration</ref><sp/>=<sp/>0.4f;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="_u_i_label_09_automatic_writing_8h_1a95519ac33e789ae9b92e6dad25d3b20f" refkind="member"><highlight class="normal">unichar<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="_u_i_label_09_automatic_writing_8m_1a95519ac33e789ae9b92e6dad25d3b20f" kindref="member">UILabelAWDefaultCharacter</ref><sp/>=<sp/>124;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>AutomaticWritingSwizzleSelector(Class<sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">SEL</highlight><highlight class="normal"><sp/>originalSelector,<sp/></highlight><highlight class="keywordtype">SEL</highlight><highlight class="normal"><sp/>swizzledSelector)<sp/>{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>Method<sp/>originalMethod<sp/>=<sp/>class_getInstanceMethod(</highlight><highlight class="keyword">class</highlight><highlight class="normal">,<sp/>originalSelector);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>Method<sp/>swizzledMethod<sp/>=<sp/>class_getInstanceMethod(</highlight><highlight class="keyword">class</highlight><highlight class="normal">,<sp/>swizzledSelector);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(class_addMethod(</highlight><highlight class="keyword">class</highlight><highlight class="normal">,<sp/>originalSelector,<sp/>method_getImplementation(swizzledMethod),<sp/>method_getTypeEncoding(swizzledMethod)))<sp/>{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>class_replaceMethod(</highlight><highlight class="keyword">class</highlight><highlight class="normal">,<sp/>swizzledSelector,<sp/>method_getImplementation(originalMethod),<sp/>method_getTypeEncoding(originalMethod));</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>method_exchangeImplementations(originalMethod,<sp/>swizzledMethod);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="25"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>kAutomaticWritingOperationQueueKey;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>kAutomaticWritingEdgeInsetsKey;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31" refid="category_u_i_label_07_automatic_writing_08" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">@implementation<sp/></highlight><highlight class="normal"><ref refid="category_u_i_label_07_automatic_writing_08" kindref="compound">UILabel (AutomaticWriting)</ref></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal">@dynamic<sp/><ref refid="category_u_i_label_07_automatic_writing_08_1a6d2813a772a7e4cd5d97742b10a630f7" kindref="member">automaticWritingOperationQueue</ref>,<sp/><ref refid="category_u_i_label_07_automatic_writing_08_1aaca46895c3c6b0854c82eb42aa0a4e9d" kindref="member">edgeInsets</ref>;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/>-<sp/>Public<sp/>Methods</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal">+<sp/>(void)load</highlight></codeline>
+<codeline lineno="38"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>dispatch_once_t<sp/>onceToken;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>dispatch_once(&amp;onceToken,<sp/>^{</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>AutomaticWritingSwizzleSelector([</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal">],<sp/></highlight><highlight class="keyword">@selector</highlight><highlight class="normal">(textRectForBounds:limitedToNumberOfLines:),<sp/></highlight><highlight class="keyword">@selector</highlight><highlight class="normal">(automaticWritingTextRectForBounds:limitedToNumberOfLines:));</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>AutomaticWritingSwizzleSelector([</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal">],<sp/></highlight><highlight class="keyword">@selector</highlight><highlight class="normal">(drawTextInRect:),<sp/></highlight><highlight class="keyword">@selector</highlight><highlight class="normal">(drawAutomaticWritingTextInRect:));</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>});</highlight></codeline>
+<codeline lineno="44"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal">-(void)drawAutomaticWritingTextInRect:(CGRect)rect</highlight></codeline>
+<codeline lineno="47"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>drawAutomaticWritingTextInRect:UIEdgeInsetsInsetRect(rect,<sp/>self.edgeInsets)];</highlight></codeline>
+<codeline lineno="49"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal">-<sp/>(CGRect)automaticWritingTextRectForBounds:(CGRect)bounds<sp/>limitedToNumberOfLines:(NSInteger)numberOfLines</highlight></codeline>
+<codeline lineno="52"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/>CGRect<sp/>textRect<sp/>=<sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>automaticWritingTextRectForBounds:UIEdgeInsetsInsetRect(bounds,<sp/>self.edgeInsets)<sp/>limitedToNumberOfLines:numberOfLines];</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>textRect;</highlight></codeline>
+<codeline lineno="55"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal">-<sp/>(void)setEdgeInsets:(UIEdgeInsets)edgeInsets</highlight></codeline>
+<codeline lineno="58"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/>objc_setAssociatedObject(</highlight><highlight class="keyword">self</highlight><highlight class="normal">,<sp/>&amp;kAutomaticWritingEdgeInsetsKey,<sp/>[NSValue<sp/>valueWithUIEdgeInsets:<ref refid="category_u_i_label_07_automatic_writing_08_1aaca46895c3c6b0854c82eb42aa0a4e9d" kindref="member">edgeInsets</ref>],<sp/>OBJC_ASSOCIATION_RETAIN_NONATOMIC);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal">-<sp/>(UIEdgeInsets)<ref refid="category_u_i_label_07_automatic_writing_08_1aaca46895c3c6b0854c82eb42aa0a4e9d" kindref="member">edgeInsets</ref></highlight></codeline>
+<codeline lineno="63"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/>NSValue<sp/>*edgeInsetsValue<sp/>=<sp/>objc_getAssociatedObject(</highlight><highlight class="keyword">self</highlight><highlight class="normal">,<sp/>&amp;kAutomaticWritingEdgeInsetsKey);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(edgeInsetsValue)</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>edgeInsetsValue.UIEdgeInsetsValue;</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/>edgeInsetsValue<sp/>=<sp/>[NSValue<sp/>valueWithUIEdgeInsets:UIEdgeInsetsZero];</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/>objc_setAssociatedObject(</highlight><highlight class="keyword">self</highlight><highlight class="normal">,<sp/>&amp;kAutomaticWritingEdgeInsetsKey,<sp/>edgeInsetsValue,<sp/>OBJC_ASSOCIATION_RETAIN_NONATOMIC);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>edgeInsetsValue.UIEdgeInsetsValue;</highlight></codeline>
+<codeline lineno="76"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal">-<sp/>(void)setAutomaticWritingOperationQueue:(NSOperationQueue<sp/>*)automaticWritingOperationQueue</highlight></codeline>
+<codeline lineno="79"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/>objc_setAssociatedObject(</highlight><highlight class="keyword">self</highlight><highlight class="normal">,<sp/>&amp;kAutomaticWritingOperationQueueKey,<sp/><ref refid="category_u_i_label_07_automatic_writing_08_1a6d2813a772a7e4cd5d97742b10a630f7" kindref="member">automaticWritingOperationQueue</ref>,<sp/>OBJC_ASSOCIATION_RETAIN_NONATOMIC);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal">-<sp/>(NSOperationQueue<sp/>*)<ref refid="category_u_i_label_07_automatic_writing_08_1a6d2813a772a7e4cd5d97742b10a630f7" kindref="member">automaticWritingOperationQueue</ref></highlight></codeline>
+<codeline lineno="84"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/>NSOperationQueue<sp/>*operationQueue<sp/>=<sp/>objc_getAssociatedObject(</highlight><highlight class="keyword">self</highlight><highlight class="normal">,<sp/>&amp;kAutomaticWritingOperationQueueKey);</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(operationQueue)</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>operationQueue;</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/>operationQueue<sp/>=<sp/>NSOperationQueue.new;</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/>operationQueue.name<sp/>=<sp/></highlight><highlight class="stringliteral">@&quot;Automatic<sp/>Writing<sp/>Operation<sp/>Queue&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/>operationQueue.maxConcurrentOperationCount<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/>objc_setAssociatedObject(</highlight><highlight class="keyword">self</highlight><highlight class="normal">,<sp/>&amp;kAutomaticWritingOperationQueueKey,<sp/>operationQueue,<sp/>OBJC_ASSOCIATION_RETAIN_NONATOMIC);</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>operationQueue;</highlight></codeline>
+<codeline lineno="99"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101" refid="category_u_i_label_07_automatic_writing_08_1a1e6ccbe6a53398391a21d8a5cb3e621a" refkind="member"><highlight class="normal">-<sp/>(void)setTextWithAutomaticWritingAnimation:(NSString<sp/>*)text</highlight></codeline>
+<codeline lineno="102"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/><ref refid="category_u_i_label_07_automatic_writing_08_1ab0878de2c20baf74340d3893e39b16bb" kindref="member">setText</ref>:text<sp/><ref refid="category_u_i_label_07_automatic_writing_08_1ab0878de2c20baf74340d3893e39b16bb" kindref="member">automaticWritingAnimationWithBlinkingMode</ref>:UILabelAWBlinkingModeNone];</highlight></codeline>
+<codeline lineno="104"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106" refid="category_u_i_label_07_automatic_writing_08_1ab0878de2c20baf74340d3893e39b16bb" refkind="member"><highlight class="normal">-<sp/>(void)setText:(NSString<sp/>*)text<sp/>automaticWritingAnimationWithBlinkingMode:(UILabelAWBlinkingMode)blinkingMode</highlight></codeline>
+<codeline lineno="107"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/><ref refid="category_u_i_label_07_automatic_writing_08_1ac3931bdc28397d5284f4c951c38c6cf8" kindref="member">setText</ref>:text<sp/><ref refid="category_u_i_label_07_automatic_writing_08_1ac3931bdc28397d5284f4c951c38c6cf8" kindref="member">automaticWritingAnimationWithDuration</ref>:UILabelAWDefaultDuration<sp/><ref refid="category_u_i_label_07_automatic_writing_08_1ac3931bdc28397d5284f4c951c38c6cf8" kindref="member">blinkingMode</ref>:blinkingMode];</highlight></codeline>
+<codeline lineno="109"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111" refid="category_u_i_label_07_automatic_writing_08_1a66394382c4cab857d78a6da2a821a9ef" refkind="member"><highlight class="normal">-<sp/>(void)setText:(NSString<sp/>*)text<sp/>automaticWritingAnimationWithDuration:(NSTimeInterval)duration</highlight></codeline>
+<codeline lineno="112"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/><ref refid="category_u_i_label_07_automatic_writing_08_1ac3931bdc28397d5284f4c951c38c6cf8" kindref="member">setText</ref>:text<sp/><ref refid="category_u_i_label_07_automatic_writing_08_1ac3931bdc28397d5284f4c951c38c6cf8" kindref="member">automaticWritingAnimationWithDuration</ref>:duration<sp/><ref refid="category_u_i_label_07_automatic_writing_08_1ac3931bdc28397d5284f4c951c38c6cf8" kindref="member">blinkingMode</ref>:UILabelAWBlinkingModeNone];</highlight></codeline>
+<codeline lineno="114"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116" refid="category_u_i_label_07_automatic_writing_08_1ac3931bdc28397d5284f4c951c38c6cf8" refkind="member"><highlight class="normal">-<sp/>(void)setText:(NSString<sp/>*)text<sp/>automaticWritingAnimationWithDuration:(NSTimeInterval)duration<sp/>blinkingMode:(UILabelAWBlinkingMode)blinkingMode</highlight></codeline>
+<codeline lineno="117"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/><ref refid="category_u_i_label_07_automatic_writing_08_1a8d81813fd7f3167416a4c9719a21563a" kindref="member">setText</ref>:text<sp/><ref refid="category_u_i_label_07_automatic_writing_08_1a8d81813fd7f3167416a4c9719a21563a" kindref="member">automaticWritingAnimationWithDuration</ref>:duration<sp/><ref refid="category_u_i_label_07_automatic_writing_08_1a8d81813fd7f3167416a4c9719a21563a" kindref="member">blinkingMode</ref>:blinkingMode<sp/><ref refid="category_u_i_label_07_automatic_writing_08_1a8d81813fd7f3167416a4c9719a21563a" kindref="member">blinkingCharacter</ref>:UILabelAWDefaultCharacter];</highlight></codeline>
+<codeline lineno="119"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight></codeline>
+<codeline lineno="121" refid="category_u_i_label_07_automatic_writing_08_1a8d81813fd7f3167416a4c9719a21563a" refkind="member"><highlight class="normal">-<sp/>(void)setText:(NSString<sp/>*)text<sp/>automaticWritingAnimationWithDuration:(NSTimeInterval)duration<sp/>blinkingMode:(UILabelAWBlinkingMode)blinkingMode<sp/>blinkingCharacter:(unichar)blinkingCharacter</highlight></codeline>
+<codeline lineno="122"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/><ref refid="category_u_i_label_07_automatic_writing_08_1a1505931e792410a9c087d5b8e4f9ddee" kindref="member">setText</ref>:text<sp/><ref refid="category_u_i_label_07_automatic_writing_08_1a1505931e792410a9c087d5b8e4f9ddee" kindref="member">automaticWritingAnimationWithDuration</ref>:duration<sp/><ref refid="category_u_i_label_07_automatic_writing_08_1a1505931e792410a9c087d5b8e4f9ddee" kindref="member">blinkingMode</ref>:blinkingMode<sp/><ref refid="category_u_i_label_07_automatic_writing_08_1a1505931e792410a9c087d5b8e4f9ddee" kindref="member">blinkingCharacter</ref>:blinkingCharacter<sp/><ref refid="category_u_i_label_07_automatic_writing_08_1a1505931e792410a9c087d5b8e4f9ddee" kindref="member">completion</ref>:nil];</highlight></codeline>
+<codeline lineno="124"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight></codeline>
+<codeline lineno="126" refid="category_u_i_label_07_automatic_writing_08_1a1505931e792410a9c087d5b8e4f9ddee" refkind="member"><highlight class="normal">-<sp/>(void)setText:(NSString<sp/>*)text<sp/>automaticWritingAnimationWithDuration:(NSTimeInterval)duration<sp/>blinkingMode:(UILabelAWBlinkingMode)blinkingMode<sp/>blinkingCharacter:(unichar)blinkingCharacter<sp/>completion:(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(^)(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">))completion</highlight></codeline>
+<codeline lineno="127"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.automaticWritingOperationQueue.suspended<sp/>=<sp/>YES;</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.automaticWritingOperationQueue<sp/>=<sp/>nil;</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.text<sp/>=<sp/></highlight><highlight class="stringliteral">@&quot;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/>NSMutableString<sp/>*automaticWritingText<sp/>=<sp/>NSMutableString.new;</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(text)</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[automaticWritingText<sp/>appendString:text];</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal">.automaticWritingOperationQueue<sp/>addOperationWithBlock:^{</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>automaticWriting:automaticWritingText<sp/>duration:duration<sp/>mode:blinkingMode<sp/>character:blinkingCharacter<sp/>completion:completion];</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/>}];</highlight></codeline>
+<codeline lineno="143"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight></codeline>
+<codeline lineno="145"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/>-<sp/>Private<sp/>Methods</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight></codeline>
+<codeline lineno="147"><highlight class="normal">-<sp/>(void)automaticWriting:(NSMutableString<sp/>*)text<sp/>duration:(NSTimeInterval)duration<sp/>mode:(UILabelAWBlinkingMode)mode<sp/>character:(unichar)character<sp/>completion:(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(^)(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">))completion</highlight></codeline>
+<codeline lineno="148"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/>NSOperationQueue<sp/>*currentQueue<sp/>=<sp/>NSOperationQueue.currentQueue;</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>((text.length<sp/>||<sp/>mode<sp/>&gt;=<sp/>UILabelAWBlinkingModeWhenFinish)<sp/>&amp;&amp;<sp/>!currentQueue.isSuspended)</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dispatch_after(dispatch_time(DISPATCH_TIME_NOW,<sp/>(int64_t)(duration<sp/>*<sp/>NSEC_PER_SEC)),<sp/>dispatch_get_main_queue(),<sp/>^{</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(mode<sp/>!=<sp/>UILabelAWBlinkingModeNone)</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>([</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>isLastCharacter:character])</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>deleteLastCharacter];</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(mode<sp/>!=<sp/>UILabelAWBlinkingModeWhenFinish<sp/>||<sp/>!text.length)</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[text<sp/>insertString:[self<sp/>stringWithCharacter:character]<sp/>atIndex:0];</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(text.length)</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[self<sp/>appendCharacter:[text<sp/>characterAtIndex:0]];</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[text<sp/>deleteCharactersInRange:NSMakeRange(0,<sp/>1)];</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>if<sp/>((![self<sp/>isLastCharacter:character]<sp/>&amp;&amp;<sp/>mode<sp/>==<sp/>UILabelAWBlinkingModeWhenFinishShowing)<sp/>||<sp/>(!text.length<sp/>&amp;&amp;<sp/>mode<sp/>==<sp/>UILabelAWBlinkingModeUntilFinishKeeping))</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[self<sp/>appendCharacter:character];</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!currentQueue.isSuspended)</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[currentQueue<sp/>addOperationWithBlock:^{</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[self<sp/>automaticWriting:text<sp/>duration:duration<sp/>mode:mode<sp/>character:character<sp/>completion:completion];</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}];</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(completion)</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>completion();</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>});</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(completion)</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>completion();</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="191"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"></highlight></codeline>
+<codeline lineno="193"><highlight class="normal">-<sp/>(NSString<sp/>*)stringWithCharacter:(unichar)character</highlight></codeline>
+<codeline lineno="194"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>stringWithCharacters:@[@(character)]];</highlight></codeline>
+<codeline lineno="196"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"></highlight></codeline>
+<codeline lineno="198"><highlight class="normal">-<sp/>(NSString<sp/>*)stringWithCharacters:(NSArray<sp/>*)characters</highlight></codeline>
+<codeline lineno="199"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/>NSMutableString<sp/>*</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>=<sp/>NSMutableString.new;</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(NSNumber<sp/>*character<sp/>in<sp/>characters)</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[string<sp/>appendFormat:@&quot;%C&quot;,<sp/>character.unsignedShortValue];</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal">.copy;</highlight></codeline>
+<codeline lineno="208"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"></highlight></codeline>
+<codeline lineno="210"><highlight class="normal">-<sp/>(void)appendCharacter:(unichar)character</highlight></codeline>
+<codeline lineno="211"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>appendCharacters:@[@(character)]];</highlight></codeline>
+<codeline lineno="213"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"></highlight></codeline>
+<codeline lineno="215"><highlight class="normal">-<sp/>(void)appendCharacters:(NSArray<sp/>*)characters</highlight></codeline>
+<codeline lineno="216"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.text<sp/>=<sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal">.text<sp/>stringByAppendingString:[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>stringWithCharacters:characters]];</highlight></codeline>
+<codeline lineno="218"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"></highlight></codeline>
+<codeline lineno="220"><highlight class="normal">-<sp/>(BOOL)isLastCharacters:(NSArray<sp/>*)characters</highlight></codeline>
+<codeline lineno="221"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">self</highlight><highlight class="normal">.text.length<sp/>&gt;=<sp/>characters.count)</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal">.text<sp/>hasSuffix:[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>stringWithCharacters:characters]];</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>NO;</highlight></codeline>
+<codeline lineno="227"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"></highlight></codeline>
+<codeline lineno="229"><highlight class="normal">-<sp/>(BOOL)isLastCharacter:(unichar)character</highlight></codeline>
+<codeline lineno="230"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>isLastCharacters:@[@(character)]];</highlight></codeline>
+<codeline lineno="232"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"></highlight></codeline>
+<codeline lineno="234"><highlight class="normal">-<sp/>(BOOL)deleteLastCharacters:(NSUInteger)characters</highlight></codeline>
+<codeline lineno="235"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="236"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">self</highlight><highlight class="normal">.text.length<sp/>&gt;=<sp/>characters)</highlight></codeline>
+<codeline lineno="237"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="238"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.text<sp/>=<sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal">.text<sp/>substringToIndex:self.text.length-characters];</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>YES;</highlight></codeline>
+<codeline lineno="240"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="241"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>NO;</highlight></codeline>
+<codeline lineno="242"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="243"><highlight class="normal"></highlight></codeline>
+<codeline lineno="244"><highlight class="normal">-<sp/>(BOOL)deleteLastCharacter</highlight></codeline>
+<codeline lineno="245"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="246"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>deleteLastCharacters:1];</highlight></codeline>
+<codeline lineno="247"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="248"><highlight class="normal"></highlight></codeline>
+<codeline lineno="249"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UILabel/UILabel+AutomaticWriting.m"/>
+  </compounddef>
+</doxygen>

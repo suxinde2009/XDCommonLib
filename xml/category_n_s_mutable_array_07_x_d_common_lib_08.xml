@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_n_s_mutable_array_07_x_d_common_lib_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>NSMutableArray(XDCommonLib)</compoundname>
+    <includes refid="_n_s_mutable_array_09_x_d_common_lib_8h" local="no">NSMutableArray+XDCommonLib.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="category_n_s_mutable_array_07_x_d_common_lib_08_1a83983fbbb779bedced8e017936768e1b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void NSMutableArray(XDCommonLib)::moveObjectFromIndex:toIndex:</definition>
+        <argsstring>(NSUInteger from,[toIndex] NSUInteger to)</argsstring>
+        <name>moveObjectFromIndex:toIndex:</name>
+        <param>
+          <type>NSUInteger</type>
+          <declname>from</declname>
+        </param>
+        <param>
+          <attributes>[toIndex]</attributes>
+          <type>NSUInteger</type>
+          <declname>to</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Move an object from an index to another</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>from</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The index to move from </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>to</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The index to move to </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSArray/NSMutableArray+XDCommonLib.h" line="229" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSArray/NSMutableArray+XDCommonLib.m" bodystart="14" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_mutable_array_07_x_d_common_lib_08_1a81680c6fa9b2b005fdfd1a16d46d53f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSMutableArray *_Nonnull</type>
+        <definition>NSMutableArray *_Nonnull NSMutableArray(XDCommonLib)::reversedArray</definition>
+        <argsstring>()</argsstring>
+        <name>reversedArray</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Create a reversed array from self</para><para><simplesect kind="return"><para>Returns the reversed array </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSArray/NSMutableArray+XDCommonLib.h" line="229" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSArray/NSMutableArray+XDCommonLib.m" bodystart="27" bodyend="29"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="category_n_s_mutable_array_07_x_d_common_lib_08_1a46d4ce47047ac6fd8c98cb6ed4d3c465" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSMutableArray *_Nonnull</type>
+        <definition>NSMutableArray *_Nonnull NSMutableArray(XDCommonLib)::sortArrayByKey:array:ascending:</definition>
+        <argsstring>(NSString *_Nonnull key,[array] NSMutableArray *_Nonnull array,[ascending] BOOL ascending)</argsstring>
+        <name>sortArrayByKey:array:ascending:</name>
+        <param>
+          <type>NSString *_Nonnull</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <attributes>[array]</attributes>
+          <type>NSMutableArray *_Nonnull</type>
+          <declname>array</declname>
+        </param>
+        <param>
+          <attributes>[ascending]</attributes>
+          <type>BOOL</type>
+          <declname>ascending</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sort an array by a given key with option for ascending or descending</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The key to order the array </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>array</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The array to be ordered </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ascending</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A BOOL to choose if ascending or descending</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Returns the given array ordered by the given key ascending or descending </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSArray/NSMutableArray+XDCommonLib.h" line="229" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSArray/NSMutableArray+XDCommonLib.m" bodystart="31" bodyend="46"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSArray/NSMutableArray+XDCommonLib.m" line="12" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSArray/NSMutableArray+XDCommonLib.m" bodystart="12" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_n_s_mutable_array_07_x_d_common_lib_08_1a83983fbbb779bedced8e017936768e1b" prot="public" virt="virtual"><scope>NSMutableArray(XDCommonLib)</scope><name>moveObjectFromIndex:toIndex:</name></member>
+      <member refid="category_n_s_mutable_array_07_x_d_common_lib_08_1a81680c6fa9b2b005fdfd1a16d46d53f3" prot="public" virt="virtual"><scope>NSMutableArray(XDCommonLib)</scope><name>reversedArray</name></member>
+      <member refid="category_n_s_mutable_array_07_x_d_common_lib_08_1a46d4ce47047ac6fd8c98cb6ed4d3c465" prot="public" virt="virtual"><scope>NSMutableArray(XDCommonLib)</scope><name>sortArrayByKey:array:ascending:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

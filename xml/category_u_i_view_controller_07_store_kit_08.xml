@@ -1,0 +1,176 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_u_i_view_controller_07_store_kit_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>UIViewController(StoreKit)</compoundname>
+    <includes refid="_u_i_view_controller_09_store_kit_8h" local="no">UIViewController+StoreKit.h</includes>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="category_u_i_view_controller_07_store_kit_08_1aad780989e1f480e440463d4af39f35ab" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>NSString *</type>
+        <definition>NSString * UIViewController(StoreKit)::campaignToken</definition>
+        <argsstring></argsstring>
+        <name>campaignToken</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+StoreKit.h" line="21" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+StoreKit.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_u_i_view_controller_07_store_kit_08_1a8dbcde90bf7e0cbb8c4866386c4ecc41" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="copy">
+        <type>void(^</type>
+        <definition>void UIViewController(StoreKit)::loadingStoreKitItemBlock</definition>
+        <argsstring>)(void)</argsstring>
+        <name>loadingStoreKitItemBlock</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+StoreKit.h" line="22" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+StoreKit.m" bodystart="128" bodyend="131"/>
+      </memberdef>
+      <memberdef kind="property" id="category_u_i_view_controller_07_store_kit_08_1a44e05073b7148558bc560afd25d1c710" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="copy">
+        <type>void(^</type>
+        <definition>void UIViewController(StoreKit)::loadedStoreKitItemBlock</definition>
+        <argsstring>)(void)</argsstring>
+        <name>loadedStoreKitItemBlock</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+StoreKit.h" line="23" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+StoreKit.m" bodystart="138" bodyend="141"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="category_u_i_view_controller_07_store_kit_08_1a09a0bee4a60f437700191164a2aebd94" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UIViewController(StoreKit)::presentStoreKitItemWithIdentifier:</definition>
+        <argsstring>(NSInteger itemIdentifier)</argsstring>
+        <name>presentStoreKitItemWithIdentifier:</name>
+        <param>
+          <type>NSInteger</type>
+          <declname>itemIdentifier</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+StoreKit.h" line="23" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+StoreKit.m" bodystart="34" bodyend="60"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="category_u_i_view_controller_07_store_kit_08_1ad83a48bd2f3f6c6c00488e2761f401e8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSURL *</type>
+        <definition>NSURL * UIViewController(StoreKit)::appURLForIdentifier:</definition>
+        <argsstring>(NSInteger identifier)</argsstring>
+        <name>appURLForIdentifier:</name>
+        <param>
+          <type>NSInteger</type>
+          <declname>identifier</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+StoreKit.h" line="23" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+StoreKit.m" bodystart="73" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_view_controller_07_store_kit_08_1a4b41dcb133961b66e932843b4ce76cf5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UIViewController(StoreKit)::openAppURLForIdentifier:</definition>
+        <argsstring>(NSInteger identifier)</argsstring>
+        <name>openAppURLForIdentifier:</name>
+        <param>
+          <type>NSInteger</type>
+          <declname>identifier</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+StoreKit.h" line="23" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+StoreKit.m" bodystart="85" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_view_controller_07_store_kit_08_1a406befdc57a33dc5044776439adc33a1" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UIViewController(StoreKit)::openAppReviewURLForIdentifier:</definition>
+        <argsstring>(NSInteger identifier)</argsstring>
+        <name>openAppReviewURLForIdentifier:</name>
+        <param>
+          <type>NSInteger</type>
+          <declname>identifier</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+StoreKit.h" line="23" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+StoreKit.m" bodystart="79" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_view_controller_07_store_kit_08_1a14325bdbdb30f1a3885f926d6b02e81d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL UIViewController(StoreKit)::containsITunesURLString:</definition>
+        <argsstring>(NSString *URLString)</argsstring>
+        <name>containsITunesURLString:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>URLString</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+StoreKit.h" line="23" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+StoreKit.m" bodystart="91" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_view_controller_07_store_kit_08_1a1c4431f5f969a31ca61fce2a77ee2e59" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSInteger</type>
+        <definition>NSInteger UIViewController(StoreKit)::IDFromITunesURL:</definition>
+        <argsstring>(NSString *URLString)</argsstring>
+        <name>IDFromITunesURL:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>URLString</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+StoreKit.h" line="23" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+StoreKit.m" bodystart="96" bodyend="108"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+StoreKit.m" line="32" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+StoreKit.m" bodystart="32" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_u_i_view_controller_07_store_kit_08_1ad83a48bd2f3f6c6c00488e2761f401e8" prot="public" virt="virtual"><scope>UIViewController(StoreKit)</scope><name>appURLForIdentifier:</name></member>
+      <member refid="category_u_i_view_controller_07_store_kit_08_1aad780989e1f480e440463d4af39f35ab" prot="public" virt="non-virtual"><scope>UIViewController(StoreKit)</scope><name>campaignToken</name></member>
+      <member refid="category_u_i_view_controller_07_store_kit_08_1a14325bdbdb30f1a3885f926d6b02e81d" prot="public" virt="virtual"><scope>UIViewController(StoreKit)</scope><name>containsITunesURLString:</name></member>
+      <member refid="category_u_i_view_controller_07_store_kit_08_1a1c4431f5f969a31ca61fce2a77ee2e59" prot="public" virt="virtual"><scope>UIViewController(StoreKit)</scope><name>IDFromITunesURL:</name></member>
+      <member refid="category_u_i_view_controller_07_store_kit_08_1a44e05073b7148558bc560afd25d1c710" prot="public" virt="non-virtual"><scope>UIViewController(StoreKit)</scope><name>loadedStoreKitItemBlock</name></member>
+      <member refid="category_u_i_view_controller_07_store_kit_08_1a8dbcde90bf7e0cbb8c4866386c4ecc41" prot="public" virt="non-virtual"><scope>UIViewController(StoreKit)</scope><name>loadingStoreKitItemBlock</name></member>
+      <member refid="category_u_i_view_controller_07_store_kit_08_1a406befdc57a33dc5044776439adc33a1" prot="public" virt="virtual"><scope>UIViewController(StoreKit)</scope><name>openAppReviewURLForIdentifier:</name></member>
+      <member refid="category_u_i_view_controller_07_store_kit_08_1a4b41dcb133961b66e932843b4ce76cf5" prot="public" virt="virtual"><scope>UIViewController(StoreKit)</scope><name>openAppURLForIdentifier:</name></member>
+      <member refid="category_u_i_view_controller_07_store_kit_08_1a09a0bee4a60f437700191164a2aebd94" prot="public" virt="virtual"><scope>UIViewController(StoreKit)</scope><name>presentStoreKitItemWithIdentifier:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

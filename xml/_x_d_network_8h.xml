@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_x_d_network_8h" kind="file" language="C++">
+    <compoundname>XDNetwork.h</compoundname>
+    <includes local="no">Foundation/Foundation.h</includes>
+    <includedby refid="_x_d_network_8m" local="yes">XDCommonLib/CommonBasicComponentLayer/Utils/XDNetwork.m</includedby>
+    <incdepgraph>
+      <node id="3530">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/XDNetwork.h</label>
+        <link refid="XDNetwork.h"/>
+        <childnode refid="3531" relation="include">
+        </childnode>
+      </node>
+      <node id="3531">
+        <label>Foundation/Foundation.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3532">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/XDNetwork.h</label>
+        <link refid="XDNetwork.h"/>
+        <childnode refid="3533" relation="include">
+        </childnode>
+      </node>
+      <node id="3533">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/XDNetwork.m</label>
+        <link refid="_x_d_network_8m"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_x_d_network" prot="public">XDNetwork</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>XDNetwork.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>XDCommonLib</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>suxinde<sp/>on<sp/>16/5/19.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>©<sp/>2016年<sp/>su<sp/>xinde.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;Foundation/Foundation.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="class_x_d_network" kindref="compound">XDNetwork</ref><sp/>:<sp/>NSObject</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal">+<sp/>(BOOL)<ref refid="class_x_d_network_1a987fae7fbb871985a5720b2eb58dcbb4" kindref="member">isNetworkAvailable</ref>;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal">+<sp/>(BOOL)<ref refid="class_x_d_network_1a6014d2904c9a04f8573fbed9e1780345" kindref="member">isNetworkWIFI</ref>;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal">+<sp/>(BOOL)<ref refid="class_x_d_network_1af08474537b4f11840b08bccc98726b5f" kindref="member">isNetworkWWAN</ref>;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal">+<sp/>(BOOL)checkNetworkAvailability:(BOOL)showAlert;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDNetwork.h"/>
+  </compounddef>
+</doxygen>

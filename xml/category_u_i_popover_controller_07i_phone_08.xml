@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_u_i_popover_controller_07i_phone_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>UIPopoverController(iPhone)</compoundname>
+    <includes refid="_u_i_popover_controller_09i_phone_8h" local="no">UIPopoverController+iPhone.h</includes>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="category_u_i_popover_controller_07i_phone_08_1ab5d285617a139178b9dc2a344863a3dc" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL UIPopoverController(iPhone)::_popoversDisabled</definition>
+        <argsstring>()</argsstring>
+        <name>_popoversDisabled</name>
+        <briefdescription>
+<para>开启UIPopoverController支持iPhone </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>开启状态 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIPopoverController/UIPopoverController+iPhone.h" line="33" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIPopoverController/UIPopoverController+iPhone.m" bodystart="17" bodyend="19"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIPopoverController/UIPopoverController+iPhone.m" line="11" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIPopoverController/UIPopoverController+iPhone.m" bodystart="11" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_u_i_popover_controller_07i_phone_08_1ab5d285617a139178b9dc2a344863a3dc" prot="public" virt="virtual"><scope>UIPopoverController(iPhone)</scope><name>_popoversDisabled</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

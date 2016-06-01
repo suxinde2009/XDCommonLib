@@ -1,0 +1,164 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_u_i_color_09_h_e_x_8m" kind="file" language="Objective-C">
+    <compoundname>UIColor+HEX.m</compoundname>
+    <includes refid="_u_i_color_09_h_e_x_8h" local="yes">UIColor+HEX.h</includes>
+    <incdepgraph>
+      <node id="1338">
+        <label>UIColor+HEX.h</label>
+        <link refid="_u_i_color_09_h_e_x_8h"/>
+        <childnode refid="1339" relation="include">
+        </childnode>
+      </node>
+      <node id="1337">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIColor/UIColor+HEX.m</label>
+        <link refid="UIColor+HEX.m"/>
+        <childnode refid="1338" relation="include">
+        </childnode>
+      </node>
+      <node id="1339">
+        <label>UIKit/UIKit.h</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_u_i_color_09_h_e_x_8m_1a77d9e18a8e630a01988d013a3c7d0772" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>CGFloat</type>
+        <definition>CGFloat colorComponentFrom</definition>
+        <argsstring>(NSString *string, NSUInteger start, NSUInteger length)</argsstring>
+        <name>colorComponentFrom</name>
+        <param>
+          <type>NSString *</type>
+          <declname>string</declname>
+        </param>
+        <param>
+          <type>NSUInteger</type>
+          <declname>start</declname>
+        </param>
+        <param>
+          <type>NSUInteger</type>
+          <declname>length</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIColor/UIColor+HEX.m" line="10" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIColor/UIColor+HEX.m" bodystart="10" bodyend="17"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>UIColor+HEX.m</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>iOS-Categories<sp/>(https://github.com/shaojiankui/iOS-Categories)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Jakey<sp/>on<sp/>14/12/15.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2014年<sp/>www.skyfox.org.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_u_i_color_09_h_e_x_8h" kindref="compound">UIColor+HEX.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="_u_i_color_09_h_e_x_8m_1a77d9e18a8e630a01988d013a3c7d0772" refkind="member"><highlight class="normal">CGFloat<sp/><ref refid="_u_i_color_09_h_e_x_8m_1a77d9e18a8e630a01988d013a3c7d0772" kindref="member">colorComponentFrom</ref>(NSString<sp/>*</highlight><highlight class="keywordtype">string</highlight><highlight class="normal">,<sp/>NSUInteger<sp/>start,<sp/>NSUInteger<sp/>length)<sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>NSString<sp/>*substring<sp/>=<sp/>[string<sp/>substringWithRange:NSMakeRange(start,<sp/>length)];</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>NSString<sp/>*fullHex<sp/>=<sp/>length<sp/>==<sp/>2<sp/>?<sp/>substring<sp/>:<sp/>[NSString<sp/>stringWithFormat:<sp/>@&quot;%@%@&quot;,<sp/>substring,<sp/>substring];</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/>hexComponent;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>[[NSScanner<sp/>scannerWithString:<sp/>fullHex]<sp/>scanHexInt:<sp/>&amp;hexComponent];</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>hexComponent<sp/>/<sp/>255.0;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="category_u_i_color_07_h_e_x_08" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">@implementation<sp/></highlight><highlight class="normal"><ref refid="category_u_i_color_07_h_e_x_08" kindref="compound">UIColor (HEX)</ref></highlight></codeline>
+<codeline lineno="20" refid="category_u_i_color_07_h_e_x_08_1a12e1b6975b3e8e9292c63f1f39af98f1" refkind="member"><highlight class="normal">+<sp/>(UIColor<sp/>*)colorWithHex:(UInt32)hex{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[UIColor<sp/>colorWithHex:hex<sp/>andAlpha:1];</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="23" refid="category_u_i_color_07_h_e_x_08_1ac86e944af049a3dbeaa719389a94618f" refkind="member"><highlight class="normal">+<sp/>(UIColor<sp/>*)colorWithHex:(UInt32)hex<sp/>andAlpha:(CGFloat)alpha{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[UIColor<sp/>colorWithRed:((hex<sp/>&gt;&gt;<sp/>16)<sp/>&amp;<sp/>0xFF)/255.0</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>green:((hex<sp/>&gt;&gt;<sp/>8)<sp/>&amp;<sp/>0xFF)/255.0</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>blue:(hex<sp/>&amp;<sp/>0xFF)/255.0</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>alpha:alpha];</highlight></codeline>
+<codeline lineno="28"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="category_u_i_color_07_h_e_x_08_1a2df297a05dd0bf67c9fe35308f6c6490" refkind="member"><highlight class="normal">+<sp/>(UIColor<sp/>*)colorWithHexString:(NSString<sp/>*)hexString<sp/>{</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>CGFloat<sp/>alpha,<sp/>red,<sp/>blue,<sp/>green;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>NSString<sp/>*colorString<sp/>=<sp/>[[hexString<sp/>stringByReplacingOccurrencesOfString:@&quot;#&quot;<sp/>withString:@&quot;&quot;]<sp/>uppercaseString];</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">switch</highlight><highlight class="normal"><sp/>([colorString<sp/>length])<sp/>{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>3:<sp/></highlight><highlight class="comment">//<sp/>#RGB</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>alpha<sp/>=<sp/>1.0f;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>red<sp/><sp/><sp/>=<sp/><ref refid="_u_i_color_09_h_e_x_8m_1a77d9e18a8e630a01988d013a3c7d0772" kindref="member">colorComponentFrom</ref>(colorString,<sp/>0,<sp/>1);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>green<sp/>=<sp/><ref refid="_u_i_color_09_h_e_x_8m_1a77d9e18a8e630a01988d013a3c7d0772" kindref="member">colorComponentFrom</ref>(colorString,<sp/>1,<sp/>1);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>blue<sp/><sp/>=<sp/><ref refid="_u_i_color_09_h_e_x_8m_1a77d9e18a8e630a01988d013a3c7d0772" kindref="member">colorComponentFrom</ref>(colorString,<sp/>2,<sp/>1);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>4:<sp/></highlight><highlight class="comment">//<sp/>#ARGB</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>alpha<sp/>=<sp/><ref refid="_u_i_color_09_h_e_x_8m_1a77d9e18a8e630a01988d013a3c7d0772" kindref="member">colorComponentFrom</ref>(colorString,<sp/>0,<sp/>1);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>red<sp/><sp/><sp/>=<sp/><ref refid="_u_i_color_09_h_e_x_8m_1a77d9e18a8e630a01988d013a3c7d0772" kindref="member">colorComponentFrom</ref>(colorString,<sp/>1,<sp/>1);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>green<sp/>=<sp/><ref refid="_u_i_color_09_h_e_x_8m_1a77d9e18a8e630a01988d013a3c7d0772" kindref="member">colorComponentFrom</ref>(colorString,<sp/>2,<sp/>1);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>blue<sp/><sp/>=<sp/><ref refid="_u_i_color_09_h_e_x_8m_1a77d9e18a8e630a01988d013a3c7d0772" kindref="member">colorComponentFrom</ref>(colorString,<sp/>3,<sp/>1);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>6:<sp/></highlight><highlight class="comment">//<sp/>#RRGGBB</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>alpha<sp/>=<sp/>1.0f;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>red<sp/><sp/><sp/>=<sp/><ref refid="_u_i_color_09_h_e_x_8m_1a77d9e18a8e630a01988d013a3c7d0772" kindref="member">colorComponentFrom</ref>(colorString,<sp/>0,<sp/>2);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>green<sp/>=<sp/><ref refid="_u_i_color_09_h_e_x_8m_1a77d9e18a8e630a01988d013a3c7d0772" kindref="member">colorComponentFrom</ref>(colorString,<sp/>2,<sp/>2);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>blue<sp/><sp/>=<sp/><ref refid="_u_i_color_09_h_e_x_8m_1a77d9e18a8e630a01988d013a3c7d0772" kindref="member">colorComponentFrom</ref>(colorString,<sp/>4,<sp/>2);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>8:<sp/></highlight><highlight class="comment">//<sp/>#AARRGGBB</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>alpha<sp/>=<sp/><ref refid="_u_i_color_09_h_e_x_8m_1a77d9e18a8e630a01988d013a3c7d0772" kindref="member">colorComponentFrom</ref>(colorString,<sp/>0,<sp/>2);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>red<sp/><sp/><sp/>=<sp/><ref refid="_u_i_color_09_h_e_x_8m_1a77d9e18a8e630a01988d013a3c7d0772" kindref="member">colorComponentFrom</ref>(colorString,<sp/>2,<sp/>2);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>green<sp/>=<sp/><ref refid="_u_i_color_09_h_e_x_8m_1a77d9e18a8e630a01988d013a3c7d0772" kindref="member">colorComponentFrom</ref>(colorString,<sp/>4,<sp/>2);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>blue<sp/><sp/>=<sp/><ref refid="_u_i_color_09_h_e_x_8m_1a77d9e18a8e630a01988d013a3c7d0772" kindref="member">colorComponentFrom</ref>(colorString,<sp/>6,<sp/>2);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>nil;</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[UIColor<sp/>colorWithRed:red<sp/>green:green<sp/>blue:blue<sp/>alpha:alpha];</highlight></codeline>
+<codeline lineno="67"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69" refid="category_u_i_color_07_h_e_x_08_1ae7491385ad563019c1199f9300abec41" refkind="member"><highlight class="normal">-<sp/>(NSString<sp/>*)<ref refid="category_u_i_color_07_h_e_x_08_1ae7491385ad563019c1199f9300abec41" kindref="member">HEXString</ref>{</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>UIColor*<sp/>color<sp/>=<sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(CGColorGetNumberOfComponents(color.CGColor)<sp/>&lt;<sp/>4)<sp/>{</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>CGFloat<sp/>*components<sp/>=<sp/>CGColorGetComponents(color.CGColor);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>color<sp/>=<sp/>[UIColor<sp/>colorWithRed:components[0]</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>green:components[0]</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>blue:components[0]</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>alpha:components[1]];</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(CGColorSpaceGetModel(CGColorGetColorSpace(color.CGColor))<sp/>!=<sp/>kCGColorSpaceModelRGB)<sp/>{</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[NSString<sp/>stringWithFormat:@&quot;#FFFFFF&quot;];</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[NSString<sp/>stringWithFormat:@&quot;#%02X%02X%02X&quot;,<sp/>(int)((CGColorGetComponents(color.CGColor))[0]*255.0),</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(int)((CGColorGetComponents(color.CGColor))[1]*255.0),</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(int)((CGColorGetComponents(color.CGColor))[2]*255.0)];</highlight></codeline>
+<codeline lineno="84"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86" refid="category_u_i_color_07_h_e_x_08_1a9ee07644f31744b3344ebfcb69ebf949" refkind="member"><highlight class="normal">+<sp/>(UIColor<sp/>*)colorWithWholeRed:(CGFloat)red</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>green:(CGFloat)green</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>blue:(CGFloat)blue</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>alpha:(CGFloat)alpha</highlight></codeline>
+<codeline lineno="90"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[UIColor<sp/>colorWithRed:red/255.f</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>green:green/255.f</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>blue:blue/255.f</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>alpha:alpha];</highlight></codeline>
+<codeline lineno="95"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97" refid="category_u_i_color_07_h_e_x_08_1af4bcc6e6b2804c2d60f4670a6b53ca18" refkind="member"><highlight class="normal">+<sp/>(UIColor<sp/>*)colorWithWholeRed:(CGFloat)red</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>green:(CGFloat)green</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>blue:(CGFloat)blue</highlight></codeline>
+<codeline lineno="100"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/><ref refid="category_u_i_color_07_h_e_x_08_1a9ee07644f31744b3344ebfcb69ebf949" kindref="member">colorWithWholeRed</ref>:red</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="category_u_i_color_07_h_e_x_08_1a9ee07644f31744b3344ebfcb69ebf949" kindref="member">green</ref>:green</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="category_u_i_color_07_h_e_x_08_1a9ee07644f31744b3344ebfcb69ebf949" kindref="member">blue</ref>:blue</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="category_u_i_color_07_h_e_x_08_1a9ee07644f31744b3344ebfcb69ebf949" kindref="member">alpha</ref>:1.0];</highlight></codeline>
+<codeline lineno="105"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIColor/UIColor+HEX.m"/>
+  </compounddef>
+</doxygen>

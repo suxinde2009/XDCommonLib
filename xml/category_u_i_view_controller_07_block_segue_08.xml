@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_u_i_view_controller_07_block_segue_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>UIViewController(BlockSegue)</compoundname>
+    <includes refid="_u_i_view_controller_09_block_segue_8h" local="no">UIViewController+BlockSegue.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="category_u_i_view_controller_07_block_segue_08_1a32862307e3d418f707b63ab5a7c42661" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UIViewController(BlockSegue)::configureSegue:withBlock:</definition>
+        <argsstring>(NSString *identifier,[withBlock] UIViewControllerSegueBlock block)</argsstring>
+        <name>configureSegue:withBlock:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>identifier</declname>
+        </param>
+        <param>
+          <attributes>[withBlock]</attributes>
+          <type><ref refid="_u_i_view_controller_09_block_segue_8h_1a3ec29b0670ba3d8cd2c04e2b267cfb63" kindref="member">UIViewControllerSegueBlock</ref></type>
+          <declname>block</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+BlockSegue.h" line="32" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+BlockSegue.m" bodystart="76" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_view_controller_07_block_segue_08_1acfa32d5e3e044bc262c77a8d6c903760" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UIViewController(BlockSegue)::performSegueWithIdentifier:sender:withBlock:</definition>
+        <argsstring>(NSString *identifier,[sender] id sender,[withBlock] UIViewControllerSegueBlock block)</argsstring>
+        <name>performSegueWithIdentifier:sender:withBlock:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>identifier</declname>
+        </param>
+        <param>
+          <attributes>[sender]</attributes>
+          <type>id</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <attributes>[withBlock]</attributes>
+          <type><ref refid="_u_i_view_controller_09_block_segue_8h_1a3ec29b0670ba3d8cd2c04e2b267cfb63" kindref="member">UIViewControllerSegueBlock</ref></type>
+          <declname>block</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+BlockSegue.h" line="32" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+BlockSegue.m" bodystart="89" bodyend="100"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+BlockSegue.m" line="33" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+BlockSegue.m" bodystart="33" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_u_i_view_controller_07_block_segue_08_1a32862307e3d418f707b63ab5a7c42661" prot="public" virt="virtual"><scope>UIViewController(BlockSegue)</scope><name>configureSegue:withBlock:</name></member>
+      <member refid="category_u_i_view_controller_07_block_segue_08_1acfa32d5e3e044bc262c77a8d6c903760" prot="public" virt="virtual"><scope>UIViewController(BlockSegue)</scope><name>performSegueWithIdentifier:sender:withBlock:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

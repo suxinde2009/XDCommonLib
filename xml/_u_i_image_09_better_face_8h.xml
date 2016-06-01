@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_u_i_image_09_better_face_8h" kind="file" language="C++">
+    <compoundname>UIImage+BetterFace.h</compoundname>
+    <includes local="no">UIKit/UIKit.h</includes>
+    <includedby refid="_u_i_image_09_better_face_8m" local="yes">XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImage/UIImage+BetterFace.m</includedby>
+    <incdepgraph>
+      <node id="1468">
+        <label>UIKit/UIKit.h</label>
+      </node>
+      <node id="1467">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImage/UIImage+BetterFace.h</label>
+        <link refid="UIImage+BetterFace.h"/>
+        <childnode refid="1468" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1469">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImage/UIImage+BetterFace.h</label>
+        <link refid="UIImage+BetterFace.h"/>
+        <childnode refid="1470" relation="include">
+        </childnode>
+      </node>
+      <node id="1470">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImage/UIImage+BetterFace.m</label>
+        <link refid="_u_i_image_09_better_face_8m"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="category_u_i_image_07_better_face_08" prot="public">UIImage(BetterFace)</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_u_i_image_09_better_face_8h_1a9e00160df8f2451ae6e1dd083d70a1d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typedef</type>
+        <definition>typedef NS_ENUM</definition>
+        <argsstring>(NSUInteger, BFAccuracy)</argsstring>
+        <name>NS_ENUM</name>
+        <param>
+          <type>NSUInteger</type>
+        </param>
+        <param>
+          <type>BFAccuracy</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImage/UIImage+BetterFace.h" line="13" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImage/UIImage+BetterFace.h" bodystart="13" bodyend="16"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>UIImage+BetterFace.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>bf</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>liuyan<sp/>on<sp/>13-11-25.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2013年<sp/>Croath.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="comment">//<sp/>https://github.com/croath/UIImageView-BetterFace</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>a<sp/>UIImageView<sp/>category<sp/>to<sp/>let<sp/>the<sp/>picture-cutting<sp/>with<sp/>faces<sp/>showing<sp/>better</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;UIKit/UIKit.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="_u_i_image_09_better_face_8h_1a9e00160df8f2451ae6e1dd083d70a1d4" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="_u_i_image_09_better_face_8h_1a9e00160df8f2451ae6e1dd083d70a1d4" kindref="member">NS_ENUM</ref>(NSUInteger,<sp/>BFAccuracy)<sp/>{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>kBFAccuracyLow<sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>kBFAccuracyHigh,</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="category_u_i_image_07_better_face_08" kindref="compound">UIImage (BetterFace)</ref></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal">-<sp/>(UIImage<sp/>*)betterFaceImageForSize:(CGSize)size</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>accuracy:(BFAccuracy)accurary;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImage/UIImage+BetterFace.h"/>
+  </compounddef>
+</doxygen>

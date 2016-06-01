@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_n_s_object_09_associated_object_8m" kind="file" language="Objective-C">
+    <compoundname>NSObject+AssociatedObject.m</compoundname>
+    <includes refid="_n_s_object_09_associated_object_8h" local="yes">NSObject+AssociatedObject.h</includes>
+    <includes local="no">objc/runtime.h</includes>
+    <incdepgraph>
+      <node id="664">
+        <label>NSObject+AssociatedObject.h</label>
+        <link refid="_n_s_object_09_associated_object_8h"/>
+        <childnode refid="665" relation="include">
+        </childnode>
+      </node>
+      <node id="663">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSObject/NSObject+AssociatedObject.m</label>
+        <link refid="NSObject+AssociatedObject.m"/>
+        <childnode refid="664" relation="include">
+        </childnode>
+        <childnode refid="666" relation="include">
+        </childnode>
+      </node>
+      <node id="666">
+        <label>objc/runtime.h</label>
+      </node>
+      <node id="665">
+        <label>Foundation/Foundation.h</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>NSObject+AssociatedObject.m</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>iOS-Categories<sp/>(https://github.com/shaojiankui/iOS-Categories)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Jakey<sp/>on<sp/>14/12/11.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2014年<sp/>www.skyfox.org.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_n_s_object_09_associated_object_8h" kindref="compound">NSObject+AssociatedObject.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/><sp/>&lt;objc/runtime.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="category_n_s_object_07_associated_object_08" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">@implementation<sp/></highlight><highlight class="normal"><ref refid="category_n_s_object_07_associated_object_08" kindref="compound">NSObject (AssociatedObject)</ref></highlight></codeline>
+<codeline lineno="18" refid="category_n_s_object_07_associated_object_08_1ac8780bbf7edd393018b43e9f5db15b07" refkind="member"><highlight class="normal">-<sp/>(void)associateValue:(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)value<sp/>withKey:(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*)key</highlight></codeline>
+<codeline lineno="19"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>objc_setAssociatedObject(</highlight><highlight class="keyword">self</highlight><highlight class="normal">,<sp/>key,<sp/>value,<sp/>OBJC_ASSOCIATION_RETAIN);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="28" refid="category_n_s_object_07_associated_object_08_1ad129cdd63e0e701d12bace7d1e426970" refkind="member"><highlight class="normal">-<sp/>(void)weaklyAssociateValue:(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)value<sp/>withKey:(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*)key</highlight></codeline>
+<codeline lineno="29"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>objc_setAssociatedObject(</highlight><highlight class="keyword">self</highlight><highlight class="normal">,<sp/>key,<sp/>value,<sp/>OBJC_ASSOCIATION_ASSIGN);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="39" refid="category_n_s_object_07_associated_object_08_1aca49c85e0c6f662ae23e9d97073f70ff" refkind="member"><highlight class="normal">-<sp/>(id)associatedValueForKey:(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*)key</highlight></codeline>
+<codeline lineno="40"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>objc_getAssociatedObject(</highlight><highlight class="keyword">self</highlight><highlight class="normal">,<sp/>key);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSObject/NSObject+AssociatedObject.m"/>
+  </compounddef>
+</doxygen>

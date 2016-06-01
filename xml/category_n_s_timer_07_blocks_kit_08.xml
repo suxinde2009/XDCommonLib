@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_n_s_timer_07_blocks_kit_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>NSTimer(BlocksKit)</compoundname>
+    <includes refid="_n_s_timer_09_blocks_kit_8h" local="no">NSTimer+BlocksKit.h</includes>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="category_n_s_timer_07_blocks_kit_08_1a3a25dd057e0c021078d994c781997214" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>instancetype</type>
+        <definition>instancetype NSTimer(BlocksKit)::bk_scheduleTimerWithTimeInterval:repeats:usingBlock:</definition>
+        <argsstring>(NSTimeInterval seconds,[repeats] BOOL repeats,[usingBlock] void(^block)(NSTimer *timer))</argsstring>
+        <name>bk_scheduleTimerWithTimeInterval:repeats:usingBlock:</name>
+        <param>
+          <type>NSTimeInterval</type>
+          <declname>seconds</declname>
+        </param>
+        <param>
+          <attributes>[repeats]</attributes>
+          <type>BOOL</type>
+          <declname>repeats</declname>
+        </param>
+        <param>
+          <attributes>[usingBlock]</attributes>
+          <type>void(^)(NSTimer *timer)</type>
+          <declname>block</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates a new <computeroutput>NSTimer</computeroutput> object using the specified handler, schedules it on the current run loop, and returns it.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>seconds</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>For a repeating timer, the seconds between firings of the timer. If seconds is less than or equal to <computeroutput>0.0</computeroutput>, <computeroutput>0.1</computeroutput> is used instead. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>repeats</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>If <computeroutput>YES</computeroutput>, the timer will repeatedly reschedule itself until invalidated. If <computeroutput>NO</computeroutput>, the timer will be invalidated after it fires. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>block</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The code unit to execute when the timer fires. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>A new <computeroutput>NSTimer</computeroutput> object, configured according to the specified parameters. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSTimer+BlocksKit.h" line="53" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSTimer+BlocksKit.m" bodystart="13" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_timer_07_blocks_kit_08_1a954f9b4222f729600d53df5abc2363e8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>instancetype</type>
+        <definition>instancetype NSTimer(BlocksKit)::bk_timerWithTimeInterval:repeats:usingBlock:</definition>
+        <argsstring>(NSTimeInterval seconds,[repeats] BOOL repeats,[usingBlock] void(^block)(NSTimer *timer))</argsstring>
+        <name>bk_timerWithTimeInterval:repeats:usingBlock:</name>
+        <param>
+          <type>NSTimeInterval</type>
+          <declname>seconds</declname>
+        </param>
+        <param>
+          <attributes>[repeats]</attributes>
+          <type>BOOL</type>
+          <declname>repeats</declname>
+        </param>
+        <param>
+          <attributes>[usingBlock]</attributes>
+          <type>void(^)(NSTimer *timer)</type>
+          <declname>block</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates and returns a new <computeroutput>NSTimer</computeroutput> object using the specified handler.</para><para>You must add the new timer to a run loop, using <computeroutput>addTimer:forMode:</computeroutput>. Upon firing, the timer fires the block. If the timer is configured to repeat, there is no need to subsequently re-add the timer to the run loop.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>seconds</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>For a repeating timer, the seconds between firings of the timer. If seconds is less than or equal to <computeroutput>0.0</computeroutput>, <computeroutput>0.1</computeroutput> is used instead. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>repeats</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>If <computeroutput>YES</computeroutput>, the timer will repeatedly reschedule itself until invalidated. If <computeroutput>NO</computeroutput>, the timer will be invalidated after it fires. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>block</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The code unit to execute when the timer fires. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>A new <computeroutput>NSTimer</computeroutput> object, configured according to the specified parameters. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSTimer+BlocksKit.h" line="53" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSTimer+BlocksKit.m" bodystart="20" bodyend="27"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Simple category on NSTimer to give it blocks capability.</para><para>Created by <ulink url="https://github.com/jivadevoe">Jiva DeVoe</ulink> as <computeroutput>NSTimer-Blocks</computeroutput>. </para>    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSTimer+BlocksKit.m" line="11" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSTimer+BlocksKit.m" bodystart="11" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_n_s_timer_07_blocks_kit_08_1a3a25dd057e0c021078d994c781997214" prot="public" virt="virtual"><scope>NSTimer(BlocksKit)</scope><name>bk_scheduleTimerWithTimeInterval:repeats:usingBlock:</name></member>
+      <member refid="category_n_s_timer_07_blocks_kit_08_1a954f9b4222f729600d53df5abc2363e8" prot="public" virt="virtual"><scope>NSTimer(BlocksKit)</scope><name>bk_timerWithTimeInterval:repeats:usingBlock:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

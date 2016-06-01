@@ -8,6 +8,11 @@
 
 #import <Foundation/Foundation.h>
 
+/**
+ *  @brief NSString的Base64工具方法
+ */
+
+
 @interface NSString (Base64)
 + (NSString *)stringWithBase64EncodedString:(NSString *)string;
 - (NSString *)base64EncodedStringWithWrapWidth:(NSUInteger)wrapWidth;

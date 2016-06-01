@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_u_i_view_07_view_controller_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>UIView(ViewController)</compoundname>
+    <includes refid="_u_i_view_09_view_controller_8h" local="no">UIView+ViewController.h</includes>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="category_u_i_view_07_view_controller_08_1ac63f7be65f6c72e5447ed8697714732e" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="assign">
+        <type>UIViewController *</type>
+        <definition>UIViewController * UIView(ViewController)::viewController</definition>
+        <argsstring></argsstring>
+        <name>viewController</name>
+        <read></read>
+        <briefdescription>
+<para>找到当前view所在的viewcontroler </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+ViewController.h" line="15" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+ViewController.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+ViewController.m" line="11" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+ViewController.m" bodystart="11" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_u_i_view_07_view_controller_08_1ac63f7be65f6c72e5447ed8697714732e" prot="public" virt="non-virtual"><scope>UIView(ViewController)</scope><name>viewController</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

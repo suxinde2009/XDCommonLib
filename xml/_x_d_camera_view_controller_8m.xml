@@ -1,0 +1,495 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_x_d_camera_view_controller_8m" kind="file" language="Objective-C">
+    <compoundname>XDCameraViewController.m</compoundname>
+    <includes refid="_x_d_camera_view_controller_8h" local="yes">XDCameraViewController.h</includes>
+    <includes local="no">AVFoundation/AVFoundation.h</includes>
+    <includes local="no">CoreGraphics/CoreGraphics.h</includes>
+    <includes local="no">QuartzCore/QuartzCore.h</includes>
+    <incdepgraph>
+      <node id="6">
+        <label>UIKit/UIKit.h</label>
+      </node>
+      <node id="5">
+        <label>XDCameraViewController.h</label>
+        <link refid="_x_d_camera_view_controller_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>XDCommonLib/BasicComponentLayer/Media/Camera/XDCameraViewController.m</label>
+        <link refid="XDCameraViewController.m"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>CoreGraphics/CoreGraphics.h</label>
+      </node>
+      <node id="7">
+        <label>AVFoundation/AVFoundation.h</label>
+      </node>
+      <node id="9">
+        <label>QuartzCore/QuartzCore.h</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="category_x_d_camera_view_controller_07_08" prot="public">XDCameraViewController()</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="_x_d_camera_view_controller_8m_1a7331309c1f62060240da61e26c233507" prot="public" static="no">
+        <name>kWidth</name>
+        <initializer>([UIScreen mainScreen].bounds.size.width)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/BasicComponentLayer/Media/Camera/XDCameraViewController.m" line="14" column="9" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/BasicComponentLayer/Media/Camera/XDCameraViewController.m" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_x_d_camera_view_controller_8m_1a0d36403dcf70018c93ffb5e62326cac0" prot="public" static="no">
+        <name>kHeight</name>
+        <initializer>([UIScreen mainScreen].bounds.size.height)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/BasicComponentLayer/Media/Camera/XDCameraViewController.m" line="15" column="9" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/BasicComponentLayer/Media/Camera/XDCameraViewController.m" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="_x_d_camera_view_controller_8m_1a5cbd8c80bc5bec4d715d69d1769041e5" prot="public" static="yes" mutable="no">
+        <type>float</type>
+        <definition>float kCameraScale</definition>
+        <argsstring></argsstring>
+        <name>kCameraScale</name>
+        <initializer>=1.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/BasicComponentLayer/Media/Camera/XDCameraViewController.m" line="33" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/BasicComponentLayer/Media/Camera/XDCameraViewController.m" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>XDCameraViewController.m</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>XDCommonLib</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>suxinde<sp/>on<sp/>16/5/10.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>©<sp/>2016年<sp/>su<sp/>xinde.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_x_d_camera_view_controller_8h" kindref="compound">XDCameraViewController.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;AVFoundation/AVFoundation.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;CoreGraphics/CoreGraphics.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;QuartzCore/QuartzCore.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="_x_d_camera_view_controller_8m_1a7331309c1f62060240da61e26c233507" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>kWidth<sp/>([UIScreen<sp/>mainScreen].bounds.size.width)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="_x_d_camera_view_controller_8m_1a0d36403dcf70018c93ffb5e62326cac0" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>kHeight<sp/>([UIScreen<sp/>mainScreen].bounds.size.height)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="category_x_d_camera_view_controller_07_08" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="class_x_d_camera_view_controller" kindref="compound">XDCameraViewController</ref><sp/>()</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="category_x_d_camera_view_controller_07_08_1ad1a1615e73ecd7611c6f57ec86a45565" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal">(nonatomic,strong)AVCaptureSession<sp/>*session;</highlight></codeline>
+<codeline lineno="20" refid="category_x_d_camera_view_controller_07_08_1a22cf6fa83992415e507b73dd37eaf771" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal">(nonatomic,strong)AVCaptureDeviceInput<sp/>*input;</highlight></codeline>
+<codeline lineno="21" refid="category_x_d_camera_view_controller_07_08_1ac254bbb21e236ee396760fe3be0b9d70" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal">(nonatomic,strong)AVCaptureStillImageOutput<sp/>*output;</highlight></codeline>
+<codeline lineno="22" refid="category_x_d_camera_view_controller_07_08_1a8d34c10d53a146fb69cad2863e750981" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal">(nonatomic,strong)AVCaptureVideoPreviewLayer<sp/>*previewLayer;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="comment">//拍照</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="category_x_d_camera_view_controller_07_08_1a2f2dd94cd9fbf57e6f34e80c7f3932ea" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal">(nonatomic,strong)UIButton<sp/>*shutterBtn;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="comment">//对焦</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="category_x_d_camera_view_controller_07_08_1a24939fcd2af13d168c25e0cfc76d03b9" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal">(nonatomic,strong)UIView<sp/>*focalReticule;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="comment">//焦距Button</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28" refid="category_x_d_camera_view_controller_07_08_1a76607b214f2e18694835c71ce3d7dc5f" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal">(nonatomic,strong)UIButton<sp/>*focalBtn;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="comment">//焦距</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>kCameraScale=1.0;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="class_x_d_camera_view_controller" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">@implementation<sp/></highlight><highlight class="normal"><ref refid="class_x_d_camera_view_controller" kindref="compound">XDCameraViewController</ref></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal">-<sp/>(void)viewDidLoad</highlight></codeline>
+<codeline lineno="38"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">super</highlight><highlight class="normal"><sp/>viewDidLoad];</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>setUpSession];</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>initCameraLayer];</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>ceateUI];</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>createFunctionalUI];</highlight></codeline>
+<codeline lineno="44"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="comment">//开始任务</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal">-<sp/>(void)viewDidAppear:(BOOL)animated</highlight></codeline>
+<codeline lineno="47"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">super</highlight><highlight class="normal"><sp/>viewDidAppear:animated];</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>[_session<sp/>startRunning];</highlight></codeline>
+<codeline lineno="50"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight><highlight class="comment">//停止任务</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal">-<sp/>(void)viewWillDisappear:(BOOL)animated</highlight></codeline>
+<codeline lineno="53"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">super</highlight><highlight class="normal"><sp/>viewWillDisappear:animated];</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/>[_session<sp/>stopRunning];</highlight></codeline>
+<codeline lineno="56"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight><highlight class="comment">//初始化抓取任务</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal">-<sp/>(void)setUpSession</highlight></codeline>
+<codeline lineno="59"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>_session=[[AVCaptureSession<sp/>alloc]init];</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/>AVCaptureDevice<sp/>*device=nil;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/>NSArray<sp/>*devices=[AVCaptureDevice<sp/>devicesWithMediaType:AVMediaTypeVideo];</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(AVCaptureDevice<sp/>*tmp<sp/>in<sp/>devices)</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(tmp.position==AVCaptureDevicePositionBack)</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>device=tmp;</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/>_input=[[AVCaptureDeviceInput<sp/>alloc]initWithDevice:device<sp/>error:nil];</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/>_output=[[AVCaptureStillImageOutput<sp/>alloc]init];</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>_output.outputSettings=@{AVVideoCodecKey:AVVideoCodecJPEG};</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">([_session<sp/>canAddInput:_input])</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[_session<sp/>addInput:_input];</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">([_session<sp/>canAddOutput:_output])</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[_session<sp/>addOutput:_output];</highlight></codeline>
+<codeline lineno="75"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight><highlight class="comment">//初始化相机预览层</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal">-<sp/>(void)initCameraLayer</highlight></codeline>
+<codeline lineno="78"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/>_previewLayer=[[AVCaptureVideoPreviewLayer<sp/>alloc]initWithSession:_session];</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//self.view.layer.masksToBounds=YES;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal">.previewLayer<sp/>setFrame:self.view.bounds];</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal">.previewLayer<sp/>setVideoGravity:AVLayerVideoGravityResizeAspect];</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal">.view.layer<sp/>addSublayer:_previewLayer];</highlight></codeline>
+<codeline lineno="84"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight><highlight class="comment">//搭建UI</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal">-<sp/>(void)ceateUI</highlight></codeline>
+<codeline lineno="87"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//拍照按钮</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/>_shutterBtn=[[UIButton<sp/>alloc]initWithFrame:CGRectMake(kWidth-50,<sp/>kHeight-60,<sp/>30,<sp/>40)];</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/>[_shutterBtn<sp/>setImage:[UIImage<sp/>imageNamed:@&quot;camera&quot;]<sp/>forState:UIControlStateNormal];</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/>[_shutterBtn<sp/>setImage:[UIImage<sp/>imageNamed:@&quot;camera_h&quot;]<sp/>forState:UIControlStateHighlighted];</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal">.view<sp/>addSubview:_shutterBtn];</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/>[_shutterBtn<sp/>addTarget:self<sp/>action:@selector(shutter)<sp/>forControlEvents:UIControlEventTouchUpInside];</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/>_shutterBtn.backgroundColor=[UIColor<sp/>colorWithWhite:0.8<sp/>alpha:0.8];</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/>_shutterBtn.layer.cornerRadius=10;</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/>_shutterBtn.imageEdgeInsets=UIEdgeInsetsMake(10,<sp/>5,<sp/>10,<sp/>5);</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/>_shutterBtn.layer.borderColor=[UIColor<sp/>whiteColor].CGColor;</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/>_shutterBtn.layer.borderWidth=1;</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//对焦十字</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/>_focalReticule=[[UIView<sp/>alloc]initWithFrame:CGRectMake(0,<sp/>0,<sp/>60,<sp/>60)];</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/>_focalReticule.backgroundColor=[UIColor<sp/>clearColor];</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//十字</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/>UIView<sp/>*line1=[[UIView<sp/>alloc]initWithFrame:CGRectMake(0,<sp/>29.5,<sp/>60,<sp/>1)];</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/>line1.backgroundColor=[UIColor<sp/>whiteColor];</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/>[_focalReticule<sp/>addSubview:line1];</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/>UIView<sp/>*line2=[[UIView<sp/>alloc]initWithFrame:CGRectMake(29.5,<sp/>0,<sp/>1,<sp/>60)];</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/>line2.backgroundColor=[UIColor<sp/>whiteColor];</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/>[_focalReticule<sp/>addSubview:line2];</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal">.view<sp/>addSubview:_focalReticule];</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//默认隐藏</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/>_focalReticule.hidden=YES;</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//点击屏幕对焦的手势</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/>UITapGestureRecognizer<sp/>*foucusTap=[[UITapGestureRecognizer<sp/>alloc]initWithTarget:self<sp/>action:@selector(foucus:)];</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal">.view<sp/>addGestureRecognizer:foucusTap];</highlight></codeline>
+<codeline lineno="118"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight><highlight class="comment">//功能性UI</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal">-<sp/>(void)createFunctionalUI</highlight></codeline>
+<codeline lineno="121"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//1x<sp/>2x<sp/>3x<sp/>4x焦距按钮</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/>_focalBtn=[[UIButton<sp/>alloc]initWithFrame:CGRectMake(20,<sp/>kHeight-110,<sp/>40,<sp/>30)];</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/>[_focalBtn<sp/>setTitle:@&quot;1X&quot;<sp/>forState:UIControlStateNormal];</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/>[_focalBtn<sp/>setTitleColor:[UIColor<sp/>whiteColor]<sp/>forState:UIControlStateNormal];</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/>_focalBtn.backgroundColor=[UIColor<sp/>colorWithWhite:0.8<sp/>alpha:0.8];</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/>_focalBtn.layer.cornerRadius=10;</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/>_focalBtn.layer.borderColor=[UIColor<sp/>whiteColor].CGColor;</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/>_focalBtn.layer.borderWidth=1.0;</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/>_focalBtn.transform=CGAffineTransformMakeRotation(M_PI_2);</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/>[_focalBtn<sp/>addTarget:self<sp/>action:@selector(adjustFocalDistance:)<sp/>forControlEvents:UIControlEventTouchUpInside];</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal">.view<sp/>addSubview:_focalBtn];</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/>CGRect<sp/>frame=_focalBtn.frame;</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/>frame.origin.x=_shutterBtn.frame.origin.x;</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/>_focalBtn.frame=frame;</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//闪光灯开启关闭按钮</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/>UIButton<sp/>*flashBtn=[[UIButton<sp/>alloc]initWithFrame:CGRectMake(CGRectGetMinX(_shutterBtn.frame),<sp/>100,<sp/>40,<sp/>30)];</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/>flashBtn.transform=CGAffineTransformMakeRotation(M_PI_2);</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/>[flashBtn<sp/>setTitle:@&quot;� ���� ���� ���&quot;<sp/>forState:UIControlStateNormal];</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/>[flashBtn<sp/>setTitle:@&quot;� ���� ���� ���&quot;<sp/>forState:UIControlStateSelected];</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/>[flashBtn<sp/>setTitleColor:[UIColor<sp/>whiteColor]<sp/>forState:UIControlStateNormal];</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/>flashBtn.titleLabel.font=[UIFont<sp/>systemFontOfSize:12];</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/>flashBtn.backgroundColor=[UIColor<sp/>colorWithWhite:0.8<sp/>alpha:0.8];</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/>flashBtn.layer.cornerRadius=10;</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/>flashBtn.layer.borderColor=[UIColor<sp/>whiteColor].CGColor;</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/>flashBtn.layer.borderWidth=1;</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal">.view<sp/>addSubview:flashBtn];</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/>[flashBtn<sp/>addTarget:self<sp/>action:@selector(flasAction:)<sp/>forControlEvents:UIControlEventTouchUpInside];</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//切换前后摄像头</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/>UIButton<sp/>*shiftBtn=[[UIButton<sp/>alloc]initWithFrame:CGRectMake(CGRectGetMinX(_shutterBtn.frame),<sp/>170,<sp/>40,<sp/>30)];</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/>shiftBtn.transform=CGAffineTransformMakeRotation(M_PI_2);</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/>[shiftBtn<sp/>setImage:[UIImage<sp/>imageNamed:@&quot;shift&quot;]<sp/>forState:UIControlStateNormal];</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/>shiftBtn.imageEdgeInsets=UIEdgeInsetsMake(5,<sp/>10,<sp/>5,<sp/>10);</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/>[shiftBtn<sp/>setTitleColor:[UIColor<sp/>whiteColor]<sp/>forState:UIControlStateNormal];</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/>shiftBtn.titleLabel.font=[UIFont<sp/>systemFontOfSize:12];</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/>shiftBtn.backgroundColor=[UIColor<sp/>colorWithWhite:0.8<sp/>alpha:0.8];</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/>shiftBtn.layer.cornerRadius=10;</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/>shiftBtn.layer.borderColor=[UIColor<sp/>whiteColor].CGColor;</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/>shiftBtn.layer.borderWidth=1;</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal">.view<sp/>addSubview:shiftBtn];</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/>[shiftBtn<sp/>addTarget:self<sp/>action:@selector(shiftCamera:)<sp/>forControlEvents:UIControlEventTouchUpInside];</highlight></codeline>
+<codeline lineno="164"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"></highlight><highlight class="comment">//切换前后相机</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="166"><highlight class="normal">-<sp/>(void)shiftCamera:(UIButton<sp/>*)sender</highlight></codeline>
+<codeline lineno="167"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/>sender.selected=!sender.isSelected;</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/>AVCaptureDevice<sp/>*device=nil;</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/>NSArray<sp/>*devices=[AVCaptureDevice<sp/>devicesWithMediaType:AVMediaTypeVideo];</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//切换至前置摄像头</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(sender.isSelected)</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(AVCaptureDevice<sp/>*tmp<sp/>in<sp/>devices)</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(tmp.position==AVCaptureDevicePositionFront)</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>device=tmp;</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[_session<sp/>beginConfiguration];</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[_session<sp/>removeInput:_input];</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_input=nil;</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_input=[[AVCaptureDeviceInput<sp/>alloc]initWithDevice:device<sp/>error:nil];</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">([_session<sp/>canAddInput:_input])</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[_session<sp/>addInput:_input];</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[_session<sp/>commitConfiguration];</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//切换至后置摄像头</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(AVCaptureDevice<sp/>*tmp<sp/>in<sp/>devices)</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(tmp.position==AVCaptureDevicePositionBack)</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>device=tmp;</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[_session<sp/>beginConfiguration];</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[_session<sp/>removeInput:_input];</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_input=nil;</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_input=[[AVCaptureDeviceInput<sp/>alloc]initWithDevice:device<sp/>error:nil];</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">([_session<sp/>canAddInput:_input])</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[_session<sp/>addInput:_input];</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[_session<sp/>commitConfiguration];</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="203"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"></highlight><highlight class="comment">//闪光灯按钮的操作</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="205"><highlight class="normal">-<sp/>(void)flasAction:(UIButton<sp/>*)sender</highlight></codeline>
+<codeline lineno="206"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/><sp/><sp/>sender.selected=!sender.isSelected;</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/><sp/><sp/>AVCaptureDevice<sp/>*device<sp/>=<sp/>[AVCaptureDevice<sp/>defaultDeviceWithMediaType:AVMediaTypeVideo];</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>([device<sp/>hasTorch]<sp/>&amp;&amp;<sp/>[device<sp/>hasFlash])</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[device<sp/>lockForConfiguration:nil];</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//闪光灯开</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(sender.isSelected)</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[device<sp/>setFlashMode:AVCaptureFlashModeOn];</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//闪光灯关</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="218"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="219"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[device<sp/>setFlashMode:AVCaptureFlashModeOff];</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//闪光灯自动，这里就不写了，可以自己尝试</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="223"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//[device<sp/>setFlashMode:AVCaptureFlashModeAuto];</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="224"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[device<sp/>unlockForConfiguration];</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="226"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="227"><highlight class="normal"></highlight><highlight class="comment">//调整焦距</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="228"><highlight class="normal">-<sp/>(void)adjustFocalDistance:(UIButton<sp/>*)sender</highlight></codeline>
+<codeline lineno="229"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"><sp/><sp/><sp/><sp/>kCameraScale+=1.0;</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(kCameraScale&gt;4.0)</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>kCameraScale=1.0;</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//改变焦距</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="234"><highlight class="normal"><sp/><sp/><sp/><sp/>AVCaptureConnection<sp/>*connect=[_output<sp/>connectionWithMediaType:AVMediaTypeVideo];</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"><sp/><sp/><sp/><sp/>[CATransaction<sp/>begin];</highlight></codeline>
+<codeline lineno="236"><highlight class="normal"><sp/><sp/><sp/><sp/>[CATransaction<sp/>setAnimationDuration:0.2];</highlight></codeline>
+<codeline lineno="237"><highlight class="normal"><sp/><sp/><sp/><sp/>[_focalBtn<sp/>setTitle:[NSString<sp/>stringWithFormat:@&quot;%dX&quot;,(int)kCameraScale]<sp/>forState:UIControlStateNormal];</highlight></codeline>
+<codeline lineno="238"><highlight class="normal"><sp/><sp/><sp/><sp/>[_previewLayer<sp/>setAffineTransform:CGAffineTransformMakeScale(kCameraScale,<sp/>kCameraScale)];</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"><sp/><sp/><sp/><sp/>connect.videoScaleAndCropFactor=kCameraScale;</highlight></codeline>
+<codeline lineno="240"><highlight class="normal"><sp/><sp/><sp/><sp/>[CATransaction<sp/>commit];</highlight></codeline>
+<codeline lineno="241"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"></highlight><highlight class="comment">//对焦</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="243"><highlight class="normal">-<sp/>(void)foucus:(UITapGestureRecognizer<sp/>*)sender</highlight></codeline>
+<codeline lineno="244"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="245"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(_input.device.position==AVCaptureDevicePositionFront)</highlight></codeline>
+<codeline lineno="246"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="247"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(sender.state==UIGestureRecognizerStateRecognized)</highlight></codeline>
+<codeline lineno="248"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="249"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CGPoint<sp/>location=[sender<sp/>locationInView:self.view];</highlight></codeline>
+<codeline lineno="250"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//对焦</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="251"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>__weak<sp/>typeof(</highlight><highlight class="keyword">self</highlight><highlight class="normal">)<sp/>weakSelf=self;</highlight></codeline>
+<codeline lineno="252"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[self<sp/>focusOnPoint:location<sp/>completionHandler:^{</highlight></codeline>
+<codeline lineno="253"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>weakSelf.focalReticule.center=location;</highlight></codeline>
+<codeline lineno="254"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>weakSelf.focalReticule.alpha=0.0;</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>weakSelf.focalReticule.hidden=NO;</highlight></codeline>
+<codeline lineno="256"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[UIView<sp/>animateWithDuration:0.3<sp/>animations:^{</highlight></codeline>
+<codeline lineno="257"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>weakSelf.focalReticule.alpha=1.0;</highlight></codeline>
+<codeline lineno="258"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}completion:^(BOOL<sp/>finished)<sp/>{</highlight></codeline>
+<codeline lineno="259"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[UIView<sp/>animateWithDuration:0.3<sp/>animations:^{</highlight></codeline>
+<codeline lineno="260"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>weakSelf.focalReticule.alpha=0.0;</highlight></codeline>
+<codeline lineno="261"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}];</highlight></codeline>
+<codeline lineno="262"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}];</highlight></codeline>
+<codeline lineno="263"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}];</highlight></codeline>
+<codeline lineno="264"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="265"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="266"><highlight class="normal"></highlight><highlight class="comment">//对某一点对焦</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="267"><highlight class="normal">-<sp/>(void)focusOnPoint:(CGPoint)point<sp/>completionHandler:(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">(^)())completionHandler</highlight></codeline>
+<codeline lineno="268"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="269"><highlight class="normal"><sp/><sp/><sp/><sp/>AVCaptureDevice<sp/>*device<sp/>=<sp/>[AVCaptureDevice<sp/>defaultDeviceWithMediaType:AVMediaTypeVideo];;</highlight></codeline>
+<codeline lineno="270"><highlight class="normal"><sp/><sp/><sp/><sp/>CGPoint<sp/>pointOfInterest<sp/>=<sp/>CGPointZero;</highlight></codeline>
+<codeline lineno="271"><highlight class="normal"><sp/><sp/><sp/><sp/>CGSize<sp/>frameSize<sp/>=<sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.view.bounds.size;</highlight></codeline>
+<codeline lineno="272"><highlight class="normal"><sp/><sp/><sp/><sp/>pointOfInterest<sp/>=<sp/>CGPointMake(point.y<sp/>/<sp/>frameSize.height,<sp/>1.f<sp/>-<sp/>(point.x<sp/>/<sp/>frameSize.width));</highlight></codeline>
+<codeline lineno="273"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="274"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>([device<sp/>isFocusPointOfInterestSupported]<sp/>&amp;&amp;<sp/>[device<sp/>isFocusModeSupported:AVCaptureFocusModeAutoFocus])</highlight></codeline>
+<codeline lineno="275"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="276"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="277"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NSError<sp/>*error;</highlight></codeline>
+<codeline lineno="278"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>([device<sp/>lockForConfiguration:&amp;error])</highlight></codeline>
+<codeline lineno="279"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="280"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="281"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>([device<sp/>isWhiteBalanceModeSupported:AVCaptureWhiteBalanceModeAutoWhiteBalance])</highlight></codeline>
+<codeline lineno="282"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="283"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[device<sp/>setWhiteBalanceMode:AVCaptureWhiteBalanceModeAutoWhiteBalance];</highlight></codeline>
+<codeline lineno="284"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="285"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="286"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>([device<sp/>isFocusModeSupported:AVCaptureFocusModeContinuousAutoFocus])</highlight></codeline>
+<codeline lineno="287"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="288"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[device<sp/>setFocusMode:AVCaptureFocusModeAutoFocus];</highlight></codeline>
+<codeline lineno="289"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[device<sp/>setFocusPointOfInterest:pointOfInterest];</highlight></codeline>
+<codeline lineno="290"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="291"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="292"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">([device<sp/>isExposurePointOfInterestSupported]<sp/>&amp;&amp;<sp/>[device<sp/>isExposureModeSupported:AVCaptureExposureModeContinuousAutoExposure])</highlight></codeline>
+<codeline lineno="293"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="294"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[device<sp/>setExposurePointOfInterest:pointOfInterest];</highlight></codeline>
+<codeline lineno="295"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[device<sp/>setExposureMode:AVCaptureExposureModeContinuousAutoExposure];</highlight></codeline>
+<codeline lineno="296"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="297"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="298"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[device<sp/>unlockForConfiguration];</highlight></codeline>
+<codeline lineno="299"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(completionHandler)</highlight></codeline>
+<codeline lineno="300"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>completionHandler();</highlight></codeline>
+<codeline lineno="301"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="302"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="303"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="304"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="305"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(completionHandler)</highlight></codeline>
+<codeline lineno="306"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>completionHandler();</highlight></codeline>
+<codeline lineno="307"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="308"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="309"><highlight class="normal"></highlight><highlight class="comment">//拍照</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="310"><highlight class="normal">-<sp/>(void)shutter</highlight></codeline>
+<codeline lineno="311"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="312"><highlight class="normal"><sp/><sp/><sp/><sp/>AVCaptureConnection<sp/>*connect=[_output<sp/>connectionWithMediaType:AVMediaTypeVideo];</highlight></codeline>
+<codeline lineno="313"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!connect)</highlight></codeline>
+<codeline lineno="314"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="315"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NSLog(</highlight><highlight class="stringliteral">@&quot;拍照失败&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="316"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="317"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="318"><highlight class="normal"><sp/><sp/><sp/><sp/>__weak<sp/>typeof(</highlight><highlight class="keyword">self</highlight><highlight class="normal">)<sp/>weakSelf=self;</highlight></codeline>
+<codeline lineno="319"><highlight class="normal"><sp/><sp/><sp/><sp/>[_output<sp/>captureStillImageAsynchronouslyFromConnection:connect<sp/>completionHandler:^(CMSampleBufferRef<sp/>imageDataSampleBuffer,<sp/>NSError<sp/>*error)<sp/>{</highlight></codeline>
+<codeline lineno="320"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(imageDataSampleBuffer==NULL)</highlight></codeline>
+<codeline lineno="321"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="322"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NSData<sp/>*imageData=[AVCaptureStillImageOutput<sp/>jpegStillImageNSDataRepresentation:imageDataSampleBuffer];</highlight></codeline>
+<codeline lineno="323"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UIImage<sp/>*image=[UIImage<sp/>imageWithData:imageData];</highlight></codeline>
+<codeline lineno="324"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[weakSelf<sp/>shutterSuccessAlert];</highlight></codeline>
+<codeline lineno="325"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[weakSelf<sp/>showCapturedImage:image];</highlight></codeline>
+<codeline lineno="326"><highlight class="normal"><sp/><sp/><sp/><sp/>}];</highlight></codeline>
+<codeline lineno="327"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="328"><highlight class="normal"></highlight><highlight class="comment">//显示拍摄到的照片</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="329"><highlight class="normal">-<sp/>(void)showCapturedImage:(UIImage<sp/>*)image</highlight></codeline>
+<codeline lineno="330"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="331"><highlight class="normal"><sp/><sp/><sp/><sp/>UIImageView<sp/>*imv=[[UIImageView<sp/>alloc]initWithFrame:self.view.bounds];</highlight></codeline>
+<codeline lineno="332"><highlight class="normal"><sp/><sp/><sp/><sp/>imv.image=image;</highlight></codeline>
+<codeline lineno="333"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(_input.device.position==AVCaptureDevicePositionFront)</highlight></codeline>
+<codeline lineno="334"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>imv.transform=CGAffineTransformMakeRotation(M_PI);</highlight></codeline>
+<codeline lineno="335"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal">.view<sp/>addSubview:imv];</highlight></codeline>
+<codeline lineno="336"><highlight class="normal"><sp/><sp/><sp/><sp/>imv.userInteractionEnabled=YES;</highlight></codeline>
+<codeline lineno="337"><highlight class="normal"><sp/><sp/><sp/><sp/>CGFloat<sp/>xpos=20;</highlight></codeline>
+<codeline lineno="338"><highlight class="normal"><sp/><sp/><sp/><sp/>CGFloat<sp/>ypos=100;</highlight></codeline>
+<codeline lineno="339"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(_input.device.position==AVCaptureDevicePositionFront)</highlight></codeline>
+<codeline lineno="340"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="341"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xpos=<ref refid="_x_d_camera_view_controller_8m_1a7331309c1f62060240da61e26c233507" kindref="member">kWidth</ref>-80;</highlight></codeline>
+<codeline lineno="342"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ypos=<ref refid="_x_d_camera_view_controller_8m_1a0d36403dcf70018c93ffb5e62326cac0" kindref="member">kHeight</ref>-100;</highlight></codeline>
+<codeline lineno="343"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="344"><highlight class="normal"><sp/><sp/><sp/><sp/>UIButton<sp/>*cancelBtn=[[UIButton<sp/>alloc]initWithFrame:CGRectMake(xpos,<sp/>ypos,<sp/>60,<sp/>40)];</highlight></codeline>
+<codeline lineno="345"><highlight class="normal"><sp/><sp/><sp/><sp/>[cancelBtn<sp/>setTitle:@&quot;� ���� ���&quot;<sp/>forState:UIControlStateNormal];</highlight></codeline>
+<codeline lineno="346"><highlight class="normal"><sp/><sp/><sp/><sp/>[cancelBtn<sp/>setTitleColor:[UIColor<sp/>whiteColor]<sp/>forState:UIControlStateNormal];</highlight></codeline>
+<codeline lineno="347"><highlight class="normal"><sp/><sp/><sp/><sp/>cancelBtn.backgroundColor=[UIColor<sp/>colorWithWhite:0.8<sp/>alpha:0.8];</highlight></codeline>
+<codeline lineno="348"><highlight class="normal"><sp/><sp/><sp/><sp/>cancelBtn.layer.cornerRadius=5;</highlight></codeline>
+<codeline lineno="349"><highlight class="normal"><sp/><sp/><sp/><sp/>cancelBtn.layer.borderColor=[UIColor<sp/>whiteColor].CGColor;</highlight></codeline>
+<codeline lineno="350"><highlight class="normal"><sp/><sp/><sp/><sp/>cancelBtn.layer.borderWidth=1.0;</highlight></codeline>
+<codeline lineno="351"><highlight class="normal"><sp/><sp/><sp/><sp/>[cancelBtn<sp/>addTarget:self<sp/>action:@selector(cancel:)<sp/>forControlEvents:UIControlEventTouchUpInside];</highlight></codeline>
+<codeline lineno="352"><highlight class="normal"><sp/><sp/><sp/><sp/>CGFloat<sp/>raduis=M_PI_2;</highlight></codeline>
+<codeline lineno="353"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(_input.device.position==AVCaptureDevicePositionFront)</highlight></codeline>
+<codeline lineno="354"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>raduis=M_PI_2*3;</highlight></codeline>
+<codeline lineno="355"><highlight class="normal"><sp/><sp/><sp/><sp/>cancelBtn.transform=CGAffineTransformMakeRotation(raduis);</highlight></codeline>
+<codeline lineno="356"><highlight class="normal"><sp/><sp/><sp/><sp/>[imv<sp/>addSubview:cancelBtn];</highlight></codeline>
+<codeline lineno="357"><highlight class="normal"><sp/><sp/><sp/><sp/>UIButton<sp/>*saveBtn=[[UIButton<sp/>alloc]initWithFrame:CGRectMake(xpos,<sp/>kHeight-ypos,<sp/>60,<sp/>40)];</highlight></codeline>
+<codeline lineno="358"><highlight class="normal"><sp/><sp/><sp/><sp/>[saveBtn<sp/>setTitle:@&quot;� ���� ���&quot;<sp/>forState:UIControlStateNormal];</highlight></codeline>
+<codeline lineno="359"><highlight class="normal"><sp/><sp/><sp/><sp/>[saveBtn<sp/>setTitleColor:[UIColor<sp/>whiteColor]<sp/>forState:UIControlStateNormal];</highlight></codeline>
+<codeline lineno="360"><highlight class="normal"><sp/><sp/><sp/><sp/>saveBtn.backgroundColor=[UIColor<sp/>colorWithWhite:0.8<sp/>alpha:0.8];</highlight></codeline>
+<codeline lineno="361"><highlight class="normal"><sp/><sp/><sp/><sp/>saveBtn.layer.cornerRadius=5;</highlight></codeline>
+<codeline lineno="362"><highlight class="normal"><sp/><sp/><sp/><sp/>saveBtn.layer.borderColor=[UIColor<sp/>whiteColor].CGColor;</highlight></codeline>
+<codeline lineno="363"><highlight class="normal"><sp/><sp/><sp/><sp/>saveBtn.layer.borderWidth=1.0;</highlight></codeline>
+<codeline lineno="364"><highlight class="normal"><sp/><sp/><sp/><sp/>[saveBtn<sp/>addTarget:self<sp/>action:@selector(save:)<sp/>forControlEvents:UIControlEventTouchUpInside];</highlight></codeline>
+<codeline lineno="365"><highlight class="normal"><sp/><sp/><sp/><sp/>saveBtn.transform=CGAffineTransformMakeRotation(raduis);</highlight></codeline>
+<codeline lineno="366"><highlight class="normal"><sp/><sp/><sp/><sp/>[imv<sp/>addSubview:saveBtn];</highlight></codeline>
+<codeline lineno="367"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="368"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="369"><highlight class="normal"></highlight><highlight class="comment">//取消</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="370"><highlight class="normal">-<sp/>(void)cancel:(UIButton<sp/>*)sender</highlight></codeline>
+<codeline lineno="371"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="372"><highlight class="normal"><sp/><sp/><sp/><sp/>[sender.superview<sp/>removeFromSuperview];</highlight></codeline>
+<codeline lineno="373"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="374"><highlight class="normal"></highlight><highlight class="comment">//保存</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="375"><highlight class="normal">-<sp/>(void)save:(UIButton<sp/>*)sender</highlight></codeline>
+<codeline lineno="376"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="377"><highlight class="normal"><sp/><sp/><sp/><sp/>UIImageView<sp/>*imv=(UIImageView<sp/>*)sender.superview;</highlight></codeline>
+<codeline lineno="378"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//保存到相册</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="379"><highlight class="normal"><sp/><sp/><sp/><sp/>UIImageWriteToSavedPhotosAlbum(imv.image,<sp/>nil,<sp/>nil,<sp/>nil);</highlight></codeline>
+<codeline lineno="380"><highlight class="normal"><sp/><sp/><sp/><sp/>[imv<sp/>removeFromSuperview];</highlight></codeline>
+<codeline lineno="381"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="382"><highlight class="normal"></highlight><highlight class="comment">//播放拍照音效</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="383"><highlight class="normal">-<sp/>(void)shutterSuccessAlert</highlight></codeline>
+<codeline lineno="384"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="385"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//播放音效</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="386"><highlight class="normal"><sp/><sp/><sp/><sp/>SystemSoundID<sp/>soundID;</highlight></codeline>
+<codeline lineno="387"><highlight class="normal"><sp/><sp/><sp/><sp/>AudioServicesCreateSystemSoundID((__bridge<sp/>CFURLRef)[NSURL<sp/>fileURLWithPath:[[NSBundle<sp/>mainBundle]<sp/>pathForResource:</highlight><highlight class="stringliteral">@&quot;sound.mp3&quot;</highlight><highlight class="normal"><sp/>ofType:nil]],&amp;soundID);</highlight></codeline>
+<codeline lineno="388"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//播放短音频</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="389"><highlight class="normal"><sp/><sp/><sp/><sp/>AudioServicesPlaySystemSound(soundID);</highlight></codeline>
+<codeline lineno="390"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//增加震动效果</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="391"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//AudioServicesPlaySystemSound(kSystemSoundID_Vibrate);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="392"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="393"><highlight class="normal"></highlight><highlight class="comment">//隐藏状态栏</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="394"><highlight class="normal">-<sp/>(BOOL)prefersStatusBarHidden</highlight></codeline>
+<codeline lineno="395"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="396"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>YES;</highlight></codeline>
+<codeline lineno="397"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="398"><highlight class="normal"></highlight></codeline>
+<codeline lineno="399"><highlight class="normal"></highlight></codeline>
+<codeline lineno="400"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="401"><highlight class="normal"></highlight></codeline>
+<codeline lineno="402"><highlight class="normal"></highlight></codeline>
+<codeline lineno="403"><highlight class="normal"></highlight></codeline>
+<codeline lineno="404"><highlight class="normal"></highlight></codeline>
+<codeline lineno="405"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/BasicComponentLayer/Media/Camera/XDCameraViewController.m"/>
+  </compounddef>
+</doxygen>

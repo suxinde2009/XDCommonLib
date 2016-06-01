@@ -1,0 +1,353 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_constraint_utilities_09_install_8m" kind="file" language="Objective-C">
+    <compoundname>ConstraintUtilities+Install.m</compoundname>
+    <includes refid="_constraint_utilities_09_install_8h" local="yes">ConstraintUtilities+Install.h</includes>
+    <incdepgraph>
+      <node id="3373">
+        <label>ConstraintUtilities+Install.h</label>
+        <link refid="_constraint_utilities_09_install_8h"/>
+        <childnode refid="3374" relation="include">
+        </childnode>
+      </node>
+      <node id="3372">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Constraint Install/ConstraintUtilities+Install.m</label>
+        <link refid="ConstraintUtilities+Install.m"/>
+        <childnode refid="3373" relation="include">
+        </childnode>
+      </node>
+      <node id="3374">
+        <label>Foundation/Foundation.h</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_constraint_utilities_09_install_8m_1a9b41f98df2b32cccc8fede559eca4db0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void InstallConstraints</definition>
+        <argsstring>(NSArray *constraints, NSUInteger priority, NSString *nametag)</argsstring>
+        <name>InstallConstraints</name>
+        <param>
+          <type>NSArray *</type>
+          <declname>constraints</declname>
+        </param>
+        <param>
+          <type>NSUInteger</type>
+          <declname>priority</declname>
+        </param>
+        <param>
+          <type>NSString *</type>
+          <declname>nametag</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Constraint Install/ConstraintUtilities+Install.m" line="11" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Constraint Install/ConstraintUtilities+Install.m" bodystart="11" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="_constraint_utilities_09_install_8m_1ada20b77308488692121895dd062bfabe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void InstallConstraint</definition>
+        <argsstring>(NSLayoutConstraint *constraint, NSUInteger priority, NSString *nametag)</argsstring>
+        <name>InstallConstraint</name>
+        <param>
+          <type>NSLayoutConstraint *</type>
+          <declname>constraint</declname>
+        </param>
+        <param>
+          <type>NSUInteger</type>
+          <declname>priority</declname>
+        </param>
+        <param>
+          <type>NSString *</type>
+          <declname>nametag</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Constraint Install/ConstraintUtilities+Install.m" line="29" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Constraint Install/ConstraintUtilities+Install.m" bodystart="29" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="_constraint_utilities_09_install_8m_1aa82c149ad69537178c851bece1c2c6f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void RemoveConstraints</definition>
+        <argsstring>(NSArray *constraints)</argsstring>
+        <name>RemoveConstraints</name>
+        <param>
+          <type>NSArray *</type>
+          <declname>constraints</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Constraint Install/ConstraintUtilities+Install.m" line="35" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Constraint Install/ConstraintUtilities+Install.m" bodystart="35" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="_constraint_utilities_09_install_8m_1aced595f153ef8b314be4ac1e88a35848" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>NSArray *</type>
+        <definition>NSArray* ConstraintsSourcedFromIB</definition>
+        <argsstring>(NSArray *constraints)</argsstring>
+        <name>ConstraintsSourcedFromIB</name>
+        <param>
+          <type>NSArray *</type>
+          <declname>constraints</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Constraint Install/ConstraintUtilities+Install.m" line="45" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Constraint Install/ConstraintUtilities+Install.m" bodystart="45" bodyend="54"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/></highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>Erica<sp/>Sadun,<sp/>http://ericasadun.com</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/></highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_constraint_utilities_09_install_8h" kindref="compound">ConstraintUtilities+Install.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>GCC<sp/>diagnostic<sp/>push</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>GCC<sp/>diagnostic<sp/>ignored<sp/>&quot;-Wundeclared-selector&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="_constraint_utilities_09_install_8m_1a9b41f98df2b32cccc8fede559eca4db0" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_constraint_utilities_09_install_8m_1a9b41f98df2b32cccc8fede559eca4db0" kindref="member">InstallConstraints</ref>(NSArray<sp/>*constraints,<sp/>NSUInteger<sp/>priority,<sp/>NSString<sp/>*nametag)</highlight></codeline>
+<codeline lineno="12"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(NSLayoutConstraint<sp/>*constraint<sp/>in<sp/>constraints)</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(![constraint<sp/>isKindOfClass:[NSLayoutConstraint<sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal">]])</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">continue</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(priority)</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[constraint<sp/>install:priority];</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[constraint<sp/>install];</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>([constraint<sp/>respondsToSelector:</highlight><highlight class="keyword">@selector</highlight><highlight class="normal">(setNametag:)])</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[constraint<sp/>performSelector:@selector(setNametag:)<sp/>withObject:nametag];</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="27"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="_constraint_utilities_09_install_8m_1ada20b77308488692121895dd062bfabe" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_constraint_utilities_09_install_8m_1ada20b77308488692121895dd062bfabe" kindref="member">InstallConstraint</ref>(NSLayoutConstraint<sp/>*constraint,<sp/>NSUInteger<sp/>priority,<sp/>NSString<sp/>*nametag)</highlight></codeline>
+<codeline lineno="30"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_constraint_utilities_09_install_8m_1a9b41f98df2b32cccc8fede559eca4db0" kindref="member">InstallConstraints</ref>(@[constraint],<sp/>priority,<sp/>nametag);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>GCC<sp/>diagnostic<sp/>pop</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="_constraint_utilities_09_install_8m_1aa82c149ad69537178c851bece1c2c6f1" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_constraint_utilities_09_install_8m_1aa82c149ad69537178c851bece1c2c6f1" kindref="member">RemoveConstraints</ref>(NSArray<sp/>*constraints)</highlight></codeline>
+<codeline lineno="36"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(NSLayoutConstraint<sp/>*constraint<sp/>in<sp/>constraints)</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(![constraint<sp/>isKindOfClass:[NSLayoutConstraint<sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal">]])</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">continue</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[constraint<sp/>remove];</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="43"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45" refid="_constraint_utilities_09_install_8m_1aced595f153ef8b314be4ac1e88a35848" refkind="member"><highlight class="normal">NSArray<sp/>*<ref refid="_constraint_utilities_09_install_8m_1aced595f153ef8b314be4ac1e88a35848" kindref="member">ConstraintsSourcedFromIB</ref>(NSArray<sp/>*constraints)</highlight></codeline>
+<codeline lineno="46"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>NSMutableArray<sp/>*results<sp/>=<sp/>[NSMutableArray<sp/>array];</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(NSLayoutConstraint<sp/>*constraint<sp/>in<sp/>constraints)</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(constraint.shouldBeArchived)</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[results<sp/>addObject:constraint];</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>results;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/>-<sp/>Views</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/>-<sp/>Hierarchy</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight><highlight class="keyword">@implementation<sp/></highlight><highlight class="normal"><ref refid="category_v_i_e_w___c_l_a_s_s_07_hierarchy_support_08" kindref="compound">VIEW_CLASS (HierarchySupport)</ref></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Return<sp/>an<sp/>array<sp/>of<sp/>all<sp/>superviews</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal">-<sp/>(NSArray<sp/>*)<sp/><ref refid="category_v_i_e_w___c_l_a_s_s_07_hierarchy_support_08_1a31c8d27a0e4b9d64da21dd850528093e" kindref="member">superviews</ref></highlight></codeline>
+<codeline lineno="63"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/>NSMutableArray<sp/>*array<sp/>=<sp/>[NSMutableArray<sp/>array];</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/>VIEW_CLASS<sp/>*view<sp/>=<sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.superview;</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(view)</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[array<sp/>addObject:view];</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>view<sp/>=<sp/>view.superview;</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>array;</highlight></codeline>
+<codeline lineno="73"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Return<sp/>an<sp/>array<sp/>of<sp/>all<sp/>subviews</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal">-<sp/>(NSArray<sp/>*)<sp/><ref refid="category_v_i_e_w___c_l_a_s_s_07_hierarchy_support_08_1abf1acd8c4659756d63089a7d3513c90f" kindref="member">allSubviews</ref></highlight></codeline>
+<codeline lineno="77"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/>NSMutableArray<sp/>*array<sp/>=<sp/>[NSMutableArray<sp/>array];</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(VIEW_CLASS<sp/>*view<sp/>in<sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.subviews)</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[array<sp/>addObject:view];</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[array<sp/>addObjectsFromArray:[view<sp/>allSubviews]];</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>array;</highlight></codeline>
+<codeline lineno="87"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Test<sp/>if<sp/>the<sp/>current<sp/>view<sp/>has<sp/>a<sp/>superview<sp/>relationship<sp/>to<sp/>a<sp/>view</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="90" refid="category_v_i_e_w___c_l_a_s_s_07_hierarchy_support_08_1ab6f31e815dd7f79d3efb0d1a582d4bf6" refkind="member"><highlight class="normal">-<sp/>(BOOL)<sp/>isAncestorOfView:<sp/>(VIEW_CLASS<sp/>*)<sp/>aView</highlight></codeline>
+<codeline lineno="91"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[aView.superviews<sp/>containsObject:self];</highlight></codeline>
+<codeline lineno="93"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Return<sp/>the<sp/>nearest<sp/>common<sp/>ancestor<sp/>between<sp/>self<sp/>and<sp/>another<sp/>view</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="96" refid="category_v_i_e_w___c_l_a_s_s_07_hierarchy_support_08_1a7753bff3455779f56847912292d0f2ac" refkind="member"><highlight class="normal">-<sp/>(VIEW_CLASS<sp/>*)<sp/>nearestCommonAncestorToView:<sp/>(VIEW_CLASS<sp/>*)<sp/>aView</highlight></codeline>
+<codeline lineno="97"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Check<sp/>for<sp/>same<sp/>view</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>==<sp/>aView)</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Check<sp/>for<sp/>direct<sp/>superview<sp/>relationship</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>([</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>isAncestorOfView:aView])</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>([aView<sp/>isAncestorOfView:</highlight><highlight class="keyword">self</highlight><highlight class="normal">])</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>aView;</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Search<sp/>for<sp/>indirect<sp/>common<sp/>ancestor</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/>NSArray<sp/>*ancestors<sp/>=<sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.superviews;</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(VIEW_CLASS<sp/>*view<sp/>in<sp/>aView.superviews)</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>([ancestors<sp/>containsObject:view])</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>view;</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>No<sp/>common<sp/>ancestor</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>nil;</highlight></codeline>
+<codeline lineno="116"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/>-<sp/>Constraint-Ready<sp/>Views</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight><highlight class="keyword">@implementation<sp/></highlight><highlight class="normal"><ref refid="category_v_i_e_w___c_l_a_s_s_07_constraint_ready_views_08" kindref="compound">VIEW_CLASS (ConstraintReadyViews)</ref></highlight></codeline>
+<codeline lineno="121" refid="category_v_i_e_w___c_l_a_s_s_07_constraint_ready_views_08_1ab70cc17d503f8bdf85b922229d6c948a" refkind="member"><highlight class="normal">+<sp/>(instancetype)<sp/><ref refid="category_v_i_e_w___c_l_a_s_s_07_constraint_ready_views_08_1ab70cc17d503f8bdf85b922229d6c948a" kindref="member">view</ref></highlight></codeline>
+<codeline lineno="122"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/>VIEW_CLASS<sp/>*newView<sp/>=<sp/>[[VIEW_CLASS<sp/>alloc]<sp/>initWithFrame:CGRectZero];</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/>newView.translatesAutoresizingMaskIntoConstraints<sp/>=<sp/>NO;</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>newView;</highlight></codeline>
+<codeline lineno="126"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/>-<sp/>NSLayoutConstraint</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/>-<sp/>View<sp/>Hierarchy</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight><highlight class="keyword">@implementation<sp/></highlight><highlight class="normal"><ref refid="category_n_s_layout_constraint_07_view_hierarchy_08" kindref="compound">NSLayoutConstraint (ViewHierarchy)</ref></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Cast<sp/>the<sp/>first<sp/>item<sp/>to<sp/>a<sp/>view</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="134"><highlight class="normal">-<sp/>(VIEW_CLASS<sp/>*)<sp/><ref refid="category_n_s_layout_constraint_07_view_hierarchy_08_1a74fd0b7e1a26ba3d20dec068d4701ffe" kindref="member">firstView</ref></highlight></codeline>
+<codeline lineno="135"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.firstItem;</highlight></codeline>
+<codeline lineno="137"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Cast<sp/>the<sp/>second<sp/>item<sp/>to<sp/>a<sp/>view</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal">-<sp/>(VIEW_CLASS<sp/>*)<sp/><ref refid="category_n_s_layout_constraint_07_view_hierarchy_08_1a5fb750ee3015fd9d7d4893b61705710e" kindref="member">secondView</ref></highlight></codeline>
+<codeline lineno="141"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.secondItem;</highlight></codeline>
+<codeline lineno="143"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight></codeline>
+<codeline lineno="145"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Are<sp/>two<sp/>items<sp/>involved<sp/>or<sp/>not</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="146"><highlight class="normal">-<sp/>(BOOL)<sp/><ref refid="category_n_s_layout_constraint_07_view_hierarchy_08_1a02428deaa245d30c259643340b963dbf" kindref="member">isUnary</ref></highlight></codeline>
+<codeline lineno="147"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.secondItem<sp/>==<sp/>nil;</highlight></codeline>
+<codeline lineno="149"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Return<sp/>NCA</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="152"><highlight class="normal">-<sp/>(VIEW_CLASS<sp/>*)<sp/><ref refid="category_n_s_layout_constraint_07_view_hierarchy_08_1a61165720a534636518075048bb066069" kindref="member">likelyOwner</ref></highlight></codeline>
+<codeline lineno="153"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">self</highlight><highlight class="normal">.<ref refid="category_n_s_layout_constraint_07_view_hierarchy_08_1a02428deaa245d30c259643340b963dbf" kindref="member">isUnary</ref>)</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.firstView;</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal">.firstView<sp/>nearestCommonAncestorToView:self.secondView];</highlight></codeline>
+<codeline lineno="158"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"></highlight></codeline>
+<codeline lineno="160"><highlight class="normal"></highlight></codeline>
+<codeline lineno="161"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="162"><highlight class="comment"><sp/>From<sp/>NSLayoutConstraint.h:</highlight></codeline>
+<codeline lineno="163"><highlight class="comment"><sp/></highlight></codeline>
+<codeline lineno="164"><highlight class="comment"><sp/>When<sp/>a<sp/>view<sp/>is<sp/>archived,<sp/>it<sp/>archives<sp/>some<sp/>but<sp/>not<sp/>all<sp/>constraints<sp/>in<sp/>its<sp/>-constraints<sp/>array.<sp/><sp/>The<sp/>value<sp/>of<sp/>shouldBeArchived<sp/>informs<sp/>UIView<sp/>if<sp/>a<sp/>particular<sp/>constraint<sp/>should<sp/>be<sp/>archived<sp/>by<sp/>UIView<sp/>/<sp/>NSView.<sp/>If<sp/>a<sp/>constraint<sp/>is<sp/>created<sp/>at<sp/>runtime<sp/>in<sp/>response<sp/>to<sp/>the<sp/>state<sp/>of<sp/>the<sp/>object,<sp/>it<sp/>isn&apos;t<sp/>appropriate<sp/>to<sp/>archive<sp/>the<sp/>constraint<sp/>-<sp/>rather<sp/>you<sp/>archive<sp/>the<sp/>state<sp/>that<sp/>gives<sp/>rise<sp/>to<sp/>the<sp/>constraint.<sp/><sp/>Since<sp/>the<sp/>majority<sp/>of<sp/>constraints<sp/>that<sp/>should<sp/>be<sp/>archived<sp/>are<sp/>created<sp/>in<sp/>Interface<sp/>Builder<sp/>(which<sp/>is<sp/>smart<sp/>enough<sp/>to<sp/>set<sp/>this<sp/>prop<sp/>to<sp/>YES),<sp/>the<sp/>default<sp/>value<sp/>for<sp/>this<sp/>property<sp/>is<sp/>NO.</highlight></codeline>
+<codeline lineno="165"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="166"><highlight class="normal"></highlight></codeline>
+<codeline lineno="167"><highlight class="normal">-<sp/>(<ref refid="_constraint_utilities_09_install_8h_1aaebb416f298aa8762dbdc00d5a08cac8" kindref="member">ConstraintSourceType</ref>)<sp/><ref refid="category_n_s_layout_constraint_07_view_hierarchy_08_1adad09c72c5d5f7a5e03111e22e4f66aa" kindref="member">sourceType</ref></highlight></codeline>
+<codeline lineno="168"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_constraint_utilities_09_install_8h_1aaebb416f298aa8762dbdc00d5a08cac8" kindref="member">ConstraintSourceType</ref><sp/>result<sp/>=<sp/><ref refid="_constraint_utilities_09_install_8h_1aaebb416f298aa8762dbdc00d5a08cac8ad2ba175e5396c9ccfb5c7ffa4b1b0dd8" kindref="member">ConstraintSourceTypeCustom</ref>;</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">self</highlight><highlight class="normal">.shouldBeArchived)</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>result<sp/>=<sp/><ref refid="_constraint_utilities_09_install_8h_1aaebb416f298aa8762dbdc00d5a08cac8a2a6d2492884990b19eb6b3751d2c2659" kindref="member">ConstraintSourceTypeSatisfaction</ref>;</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NSString<sp/>*description<sp/>=<sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.debugDescription;</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>([description<sp/>rangeOfString:</highlight><highlight class="stringliteral">@&quot;ambiguity&quot;</highlight><highlight class="normal">].location<sp/>!=<sp/>NSNotFound)</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>result<sp/>=<sp/><ref refid="_constraint_utilities_09_install_8h_1aaebb416f298aa8762dbdc00d5a08cac8a79d7d36f70f716eff9809717653408a3" kindref="member">ConstraintSourceTypeDisambiguation</ref>;</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>([description<sp/>rangeOfString:</highlight><highlight class="stringliteral">@&quot;fixed<sp/>frame&quot;</highlight><highlight class="normal">].location<sp/>!=<sp/>NSNotFound)</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>result<sp/>=<sp/><ref refid="_constraint_utilities_09_install_8h_1aaebb416f298aa8762dbdc00d5a08cac8a1a201a481ca9976c2fbf6f3f22ca5f45" kindref="member">ConstraintSourceTypeInferred</ref>;</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>result;</highlight></codeline>
+<codeline lineno="180"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="182"><highlight class="normal"></highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/>-<sp/>Self<sp/>Install</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="184"><highlight class="normal"></highlight><highlight class="keyword">@implementation<sp/></highlight><highlight class="normal"><ref refid="category_n_s_layout_constraint_07_self_install_08" kindref="compound">NSLayoutConstraint (SelfInstall)</ref></highlight></codeline>
+<codeline lineno="185" refid="category_n_s_layout_constraint_07_self_install_08_1a4a2c0103fd0884e74b709527ebcdf411" refkind="member"><highlight class="normal">-<sp/>(BOOL)<sp/><ref refid="category_n_s_layout_constraint_07_self_install_08_1a4a2c0103fd0884e74b709527ebcdf411" kindref="member">install</ref></highlight></codeline>
+<codeline lineno="186"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Handle<sp/>Unary<sp/>constraint</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">self</highlight><highlight class="normal">.isUnary)</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Add<sp/>weak<sp/>owner<sp/>reference</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal">.firstView<sp/>addConstraint:self];</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>YES;</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Install<sp/>onto<sp/>nearest<sp/>common<sp/>ancestor</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/>VIEW_CLASS<sp/>*view<sp/>=<sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal">.firstView<sp/>nearestCommonAncestorToView:self.secondView];</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!view)</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NSLog(</highlight><highlight class="stringliteral">@&quot;Error:<sp/>Constraint<sp/>cannot<sp/>be<sp/>installed.<sp/>No<sp/>common<sp/>ancestor<sp/>between<sp/>items.&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>NO;</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/><sp/>[view<sp/>addConstraint:self];<sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>YES;</highlight></codeline>
+<codeline lineno="205"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"></highlight></codeline>
+<codeline lineno="207"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Set<sp/>priority<sp/>and<sp/>install</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="208" refid="category_n_s_layout_constraint_07_self_install_08_1a097ac6e4740c2a138deacbf8f911b667" refkind="member"><highlight class="normal">-<sp/>(BOOL)<sp/><ref refid="category_n_s_layout_constraint_07_self_install_08_1a4a2c0103fd0884e74b709527ebcdf411" kindref="member">install</ref>:<sp/>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal">)<sp/>priority</highlight></codeline>
+<codeline lineno="209"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.priority<sp/>=<sp/>priority;</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/><ref refid="category_n_s_layout_constraint_07_self_install_08_1a4a2c0103fd0884e74b709527ebcdf411" kindref="member">install</ref>];</highlight></codeline>
+<codeline lineno="212"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"></highlight></codeline>
+<codeline lineno="214" refid="category_n_s_layout_constraint_07_self_install_08_1aad2c29bbef5a936586c1224065f4e696" refkind="member"><highlight class="normal">-<sp/>(void)<sp/><ref refid="category_n_s_layout_constraint_07_self_install_08_1aad2c29bbef5a936586c1224065f4e696" kindref="member">remove</ref></highlight></codeline>
+<codeline lineno="215"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(![</highlight><highlight class="keyword">self</highlight><highlight class="normal">.</highlight><highlight class="keyword">class</highlight><highlight class="normal"><sp/>isEqual:[NSLayoutConstraint<sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal">]])</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NSLog(</highlight><highlight class="stringliteral">@&quot;Error:<sp/>Can<sp/>only<sp/>uninstall<sp/>NSLayoutConstraint.<sp/>%@<sp/>is<sp/>an<sp/>invalid<sp/>class.&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.</highlight><highlight class="keyword">class</highlight><highlight class="normal">.description);</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="222"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">self</highlight><highlight class="normal">.isUnary)</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>VIEW_CLASS<sp/>*view<sp/>=<sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.firstView;</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[view<sp/>removeConstraint:self];</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="227"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="229"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Remove<sp/>from<sp/>preferred<sp/>recipient</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="230"><highlight class="normal"><sp/><sp/><sp/><sp/>VIEW_CLASS<sp/>*view<sp/>=<sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal">.firstView<sp/>nearestCommonAncestorToView:self.secondView];</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!view)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="233"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>If<sp/>the<sp/>constraint<sp/>not<sp/>on<sp/>view,<sp/>this<sp/>is<sp/>a<sp/>no-op</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="234"><highlight class="normal"><sp/><sp/><sp/><sp/>[view<sp/>removeConstraint:self];</highlight></codeline>
+<codeline lineno="235"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="236"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Constraint Install/ConstraintUtilities+Install.m"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_u_i_view_07_u_i_screen_displaying_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>UIView(UIScreenDisplaying)</compoundname>
+    <includes refid="_u_i_view_09_u_i_screen_displaying_8h" local="no">UIView+UIScreenDisplaying.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="category_u_i_view_07_u_i_screen_displaying_08_1acb10c23f2fcd3d0aaaed31d7432e2310" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL UIView(UIScreenDisplaying)::isDisplayedInScreen</definition>
+        <argsstring>()</argsstring>
+        <name>isDisplayedInScreen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+UIScreenDisplaying.h" line="33" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+UIScreenDisplaying.m" bodystart="15" bodyend="51"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+UIScreenDisplaying.m" line="12" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+UIScreenDisplaying.m" bodystart="12" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_u_i_view_07_u_i_screen_displaying_08_1acb10c23f2fcd3d0aaaed31d7432e2310" prot="public" virt="virtual"><scope>UIView(UIScreenDisplaying)</scope><name>isDisplayedInScreen</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

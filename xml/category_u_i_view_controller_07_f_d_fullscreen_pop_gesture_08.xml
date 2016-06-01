@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_u_i_view_controller_07_f_d_fullscreen_pop_gesture_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>UIViewController(FDFullscreenPopGesture)</compoundname>
+    <includes refid="_u_i_navigation_controller_09_f_d_fullscreen_pop_gesture_8h" local="no">UINavigationController+FDFullscreenPopGesture.h</includes>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="category_u_i_view_controller_07_f_d_fullscreen_pop_gesture_08_1acf4f5bff563baba9e08a36eb19227888" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="assign">
+        <type>BOOL</type>
+        <definition>BOOL UIViewController(FDFullscreenPopGesture)::fd_interactivePopDisabled</definition>
+        <argsstring></argsstring>
+        <name>fd_interactivePopDisabled</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Whether the interactive pop gesture is disabled when contained in a navigation stack. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UINavigationController/UINavigationController+FDFullscreenPopGesture.h" line="51" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UINavigationController/UINavigationController+FDFullscreenPopGesture.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_u_i_view_controller_07_f_d_fullscreen_pop_gesture_08_1a03f28adb658220a67d59f687ef9c583d" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="assign">
+        <type>BOOL</type>
+        <definition>BOOL UIViewController(FDFullscreenPopGesture)::fd_prefersNavigationBarHidden</definition>
+        <argsstring></argsstring>
+        <name>fd_prefersNavigationBarHidden</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Indicate this view controller prefers its navigation bar hidden or not, checked when view controller based navigation bar&apos;s appearance is enabled. Default to NO, bars are more likely to show. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UINavigationController/UINavigationController+FDFullscreenPopGesture.h" line="56" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UINavigationController/UINavigationController+FDFullscreenPopGesture.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_u_i_view_controller_07_f_d_fullscreen_pop_gesture_08_1a28cf09a80e9197ef87e8f780901092d4" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="assign">
+        <type>CGFloat</type>
+        <definition>CGFloat UIViewController(FDFullscreenPopGesture)::fd_interactivePopMaxAllowedInitialDistanceToLeftEdge</definition>
+        <argsstring></argsstring>
+        <name>fd_interactivePopMaxAllowedInitialDistanceToLeftEdge</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Max allowed initial distance to left edge when you begin the interactive pop gesture. 0 by default, which means it will ignore this limit. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UINavigationController/UINavigationController+FDFullscreenPopGesture.h" line="60" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UINavigationController/UINavigationController+FDFullscreenPopGesture.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Allows any view controller to disable interactive pop gesture, which might be necessary when the view controller itself handles pan gesture in some cases. </para>    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UINavigationController/UINavigationController+FDFullscreenPopGesture.m" line="242" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UINavigationController/UINavigationController+FDFullscreenPopGesture.m" bodystart="242" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_u_i_view_controller_07_f_d_fullscreen_pop_gesture_08_1acf4f5bff563baba9e08a36eb19227888" prot="public" virt="non-virtual"><scope>UIViewController(FDFullscreenPopGesture)</scope><name>fd_interactivePopDisabled</name></member>
+      <member refid="category_u_i_view_controller_07_f_d_fullscreen_pop_gesture_08_1a28cf09a80e9197ef87e8f780901092d4" prot="public" virt="non-virtual"><scope>UIViewController(FDFullscreenPopGesture)</scope><name>fd_interactivePopMaxAllowedInitialDistanceToLeftEdge</name></member>
+      <member refid="category_u_i_view_controller_07_f_d_fullscreen_pop_gesture_08_1a03f28adb658220a67d59f687ef9c583d" prot="public" virt="non-virtual"><scope>UIViewController(FDFullscreenPopGesture)</scope><name>fd_prefersNavigationBarHidden</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

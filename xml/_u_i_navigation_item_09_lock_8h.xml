@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_u_i_navigation_item_09_lock_8h" kind="file" language="C++">
+    <compoundname>UINavigationItem+Lock.h</compoundname>
+    <includes local="no">UIKit/UIKit.h</includes>
+    <includedby refid="_u_i_navigation_item_09_lock_8m" local="yes">XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UINavigationItem/UINavigationItem+Lock.m</includedby>
+    <incdepgraph>
+      <node id="1762">
+        <label>UIKit/UIKit.h</label>
+      </node>
+      <node id="1761">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UINavigationItem/UINavigationItem+Lock.h</label>
+        <link refid="UINavigationItem+Lock.h"/>
+        <childnode refid="1762" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1763">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UINavigationItem/UINavigationItem+Lock.h</label>
+        <link refid="UINavigationItem+Lock.h"/>
+        <childnode refid="1764" relation="include">
+        </childnode>
+      </node>
+      <node id="1764">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UINavigationItem/UINavigationItem+Lock.m</label>
+        <link refid="_u_i_navigation_item_09_lock_8m"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="category_u_i_navigation_item_07_lock_08" prot="public">UINavigationItem(Lock)</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>UINavigationItem+Lock.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>iOS-Categories<sp/>(https://github.com/shaojiankui/iOS-Categories)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Jakey<sp/>on<sp/>15/5/22.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2015年<sp/>www.skyfox.org.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;UIKit/UIKit.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="category_u_i_navigation_item_07_lock_08" kindref="compound">UINavigationItem (Lock)</ref></highlight></codeline>
+<codeline lineno="17"><highlight class="normal">-<sp/>(void)lockRightItem:(BOOL)lock;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal">-<sp/>(void)lockLeftItem:(BOOL)lock;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UINavigationItem/UINavigationItem+Lock.h"/>
+  </compounddef>
+</doxygen>

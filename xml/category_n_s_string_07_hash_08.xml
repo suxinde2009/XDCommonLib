@@ -1,0 +1,150 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_n_s_string_07_hash_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>NSString(Hash)</compoundname>
+    <includes refid="_n_s_string_09_hash_8h" local="no">NSString+Hash.h</includes>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="category_n_s_string_07_hash_08_1a1d9a79ca0f7192664160af96fab927f7" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="assign">
+        <type>NSString *</type>
+        <definition>NSString * NSString(Hash)::md5String</definition>
+        <argsstring></argsstring>
+        <name>md5String</name>
+        <read></read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Hash.h" line="12" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Hash.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_n_s_string_07_hash_08_1af0b1aec5c845f274c9dd29b190315f01" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="assign">
+        <type>NSString *</type>
+        <definition>NSString * NSString(Hash)::sha1String</definition>
+        <argsstring></argsstring>
+        <name>sha1String</name>
+        <read></read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Hash.h" line="13" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Hash.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_n_s_string_07_hash_08_1aed3569251645a92fde49622d34fa9b40" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="assign">
+        <type>NSString *</type>
+        <definition>NSString * NSString(Hash)::sha256String</definition>
+        <argsstring></argsstring>
+        <name>sha256String</name>
+        <read></read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Hash.h" line="14" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Hash.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_n_s_string_07_hash_08_1a34cf91246fcde37ca3b47fde57ac61c0" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="assign">
+        <type>NSString *</type>
+        <definition>NSString * NSString(Hash)::sha512String</definition>
+        <argsstring></argsstring>
+        <name>sha512String</name>
+        <read></read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Hash.h" line="15" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Hash.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="category_n_s_string_07_hash_08_1affbbbf1fc511fbc8c18bf9c611f94d94" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * NSString(Hash)::hmacMD5StringWithKey:</definition>
+        <argsstring>(NSString *key)</argsstring>
+        <name>hmacMD5StringWithKey:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Hash.h" line="15" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Hash.m" bodystart="47" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_string_07_hash_08_1a0010c4cb5ee8b8d8d0829a1f180f092f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * NSString(Hash)::hmacSHA1StringWithKey:</definition>
+        <argsstring>(NSString *key)</argsstring>
+        <name>hmacSHA1StringWithKey:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Hash.h" line="15" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Hash.m" bodystart="51" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_string_07_hash_08_1a6b675d2f50fd830641bc44c9c069d232" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * NSString(Hash)::hmacSHA256StringWithKey:</definition>
+        <argsstring>(NSString *key)</argsstring>
+        <name>hmacSHA256StringWithKey:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Hash.h" line="15" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Hash.m" bodystart="56" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_string_07_hash_08_1a3ad6942e0e97f84ad6183343e7860570" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * NSString(Hash)::hmacSHA512StringWithKey:</definition>
+        <argsstring>(NSString *key)</argsstring>
+        <name>hmacSHA512StringWithKey:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Hash.h" line="15" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Hash.m" bodystart="61" bodyend="64"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Hash.m" line="13" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Hash.m" bodystart="13" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_n_s_string_07_hash_08_1affbbbf1fc511fbc8c18bf9c611f94d94" prot="public" virt="virtual"><scope>NSString(Hash)</scope><name>hmacMD5StringWithKey:</name></member>
+      <member refid="category_n_s_string_07_hash_08_1a0010c4cb5ee8b8d8d0829a1f180f092f" prot="public" virt="virtual"><scope>NSString(Hash)</scope><name>hmacSHA1StringWithKey:</name></member>
+      <member refid="category_n_s_string_07_hash_08_1a6b675d2f50fd830641bc44c9c069d232" prot="public" virt="virtual"><scope>NSString(Hash)</scope><name>hmacSHA256StringWithKey:</name></member>
+      <member refid="category_n_s_string_07_hash_08_1a3ad6942e0e97f84ad6183343e7860570" prot="public" virt="virtual"><scope>NSString(Hash)</scope><name>hmacSHA512StringWithKey:</name></member>
+      <member refid="category_n_s_string_07_hash_08_1a1d9a79ca0f7192664160af96fab927f7" prot="public" virt="non-virtual"><scope>NSString(Hash)</scope><name>md5String</name></member>
+      <member refid="category_n_s_string_07_hash_08_1af0b1aec5c845f274c9dd29b190315f01" prot="public" virt="non-virtual"><scope>NSString(Hash)</scope><name>sha1String</name></member>
+      <member refid="category_n_s_string_07_hash_08_1aed3569251645a92fde49622d34fa9b40" prot="public" virt="non-virtual"><scope>NSString(Hash)</scope><name>sha256String</name></member>
+      <member refid="category_n_s_string_07_hash_08_1a34cf91246fcde37ca3b47fde57ac61c0" prot="public" virt="non-virtual"><scope>NSString(Hash)</scope><name>sha512String</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

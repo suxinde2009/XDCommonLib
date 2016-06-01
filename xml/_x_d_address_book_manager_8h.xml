@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_x_d_address_book_manager_8h" kind="file" language="C++">
+    <compoundname>XDAddressBookManager.h</compoundname>
+    <includes local="no">Foundation/Foundation.h</includes>
+    <includes local="no">UIKit/UIKit.h</includes>
+    <includedby refid="_x_d_address_book_manager_8m" local="yes">XDCommonLib/CommonBasicComponentLayer/AddressBook/XDAddressBookManager.m</includedby>
+    <incdepgraph>
+      <node id="90">
+        <label>XDCommonLib/CommonBasicComponentLayer/AddressBook/XDAddressBookManager.h</label>
+        <link refid="XDAddressBookManager.h"/>
+        <childnode refid="91" relation="include">
+        </childnode>
+        <childnode refid="92" relation="include">
+        </childnode>
+      </node>
+      <node id="92">
+        <label>UIKit/UIKit.h</label>
+      </node>
+      <node id="91">
+        <label>Foundation/Foundation.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="93">
+        <label>XDCommonLib/CommonBasicComponentLayer/AddressBook/XDAddressBookManager.h</label>
+        <link refid="XDAddressBookManager.h"/>
+        <childnode refid="94" relation="include">
+        </childnode>
+      </node>
+      <node id="94">
+        <label>XDCommonLib/CommonBasicComponentLayer/AddressBook/XDAddressBookManager.m</label>
+        <link refid="_x_d_address_book_manager_8m"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_x_d_address_book_manager" prot="public">XDAddressBookManager</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>XDAddressBookManager.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>XDCommonLib</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>suxinde<sp/>on<sp/>16/5/10.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>©<sp/>2016年<sp/>su<sp/>xinde.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;Foundation/Foundation.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;UIKit/UIKit.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="class_x_d_address_book_manager" kindref="compound">XDAddressBookManager</ref><sp/>:<sp/>NSObject</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal">+<sp/>(NSString<sp/>*)nameForContactWithPhoneNumber:(NSString<sp/>*)phoneNumber;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal">+<sp/>(UIImage<sp/>*)photoForContactWithPhoneNumber:(NSString<sp/>*)phoneNumber;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal">+<sp/>(NSString<sp/>*)nameForContactWithEmailAddress:(NSString<sp/>*)emailAddress;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal">+<sp/>(UIImage<sp/>*)photoForContactWithEmailAddress:(NSString<sp/>*)emailAddress;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/AddressBook/XDAddressBookManager.h"/>
+  </compounddef>
+</doxygen>

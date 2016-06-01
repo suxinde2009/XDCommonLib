@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_n_s_managed_object_09_extensions_8m" kind="file" language="Objective-C">
+    <compoundname>NSManagedObject+Extensions.m</compoundname>
+    <includes refid="_n_s_managed_object_09_extensions_8h" local="yes">NSManagedObject+Extensions.h</includes>
+    <incdepgraph>
+      <node id="154">
+        <label>NSManagedObject+Extensions.h</label>
+        <link refid="_n_s_managed_object_09_extensions_8h"/>
+        <childnode refid="155" relation="include">
+        </childnode>
+        <childnode refid="156" relation="include">
+        </childnode>
+      </node>
+      <node id="153">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSManagedObject/NSManagedObject+Extensions.m</label>
+        <link refid="NSManagedObject+Extensions.m"/>
+        <childnode refid="154" relation="include">
+        </childnode>
+      </node>
+      <node id="155">
+        <label>CoreData/CoreData.h</label>
+      </node>
+      <node id="156">
+        <label>NSManagedObjectContext+Extensions.h</label>
+        <link refid="_n_s_managed_object_context_09_extensions_8h"/>
+        <childnode refid="157" relation="include">
+        </childnode>
+        <childnode refid="155" relation="include">
+        </childnode>
+        <childnode refid="158" relation="include">
+        </childnode>
+      </node>
+      <node id="157">
+        <label>Foundation/Foundation.h</label>
+      </node>
+      <node id="158">
+        <label>NSFetchRequest+Extensions.h</label>
+        <link refid="_n_s_fetch_request_09_extensions_8h"/>
+        <childnode refid="155" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>NSManagedObject+Extensions.m</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>kemmler</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Lars<sp/>Kuhnt<sp/>on<sp/>28.10.13.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2013<sp/>Coeus<sp/>Solutions<sp/>GmbH.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_n_s_managed_object_09_extensions_8h" kindref="compound">NSManagedObject+Extensions.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="category_n_s_managed_object_07_extensions_08" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">@implementation<sp/></highlight><highlight class="normal"><ref refid="category_n_s_managed_object_07_extensions_08" kindref="compound">NSManagedObject (Extensions)</ref></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="category_n_s_managed_object_07_extensions_08_1a70addff0dcd091ea376149e7c19800d8" refkind="member"><highlight class="normal">+<sp/>(id)create:(NSManagedObjectContext*)context<sp/>{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[NSEntityDescription<sp/>insertNewObjectForEntityForName:[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/><ref refid="category_n_s_managed_object_07_extensions_08_1ae8d433faf7c80f5eabf99bfda59a0b94" kindref="member">entityName</ref>]<sp/>inManagedObjectContext:context];</highlight></codeline>
+<codeline lineno="15"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="category_n_s_managed_object_07_extensions_08_1a379a2e7ae9c0430d7d0776e3e6857fd3" refkind="member"><highlight class="normal">+<sp/>(id)create:(NSDictionary*)dict</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/>inContext:(NSManagedObjectContext*)context<sp/>{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>instance<sp/>=<sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/><ref refid="category_n_s_managed_object_07_extensions_08_1a70addff0dcd091ea376149e7c19800d8" kindref="member">create</ref>:context];</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/>[dict<sp/>enumerateKeysAndObjectsUsingBlock:^(id<sp/>key,<sp/>id<sp/>obj,<sp/>BOOL<sp/>*stop)<sp/>{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>[instance<sp/>setValue:obj<sp/>forKey:key];</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/>}];</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>instance;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="category_n_s_managed_object_07_extensions_08_1a9cacf887c3ab46aa82932aaf21752cd7" refkind="member"><highlight class="normal">+<sp/>(id)find:(NSPredicate<sp/>*)predicate</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/>inContext:(NSManagedObjectContext<sp/>*)context<sp/>{</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[context<sp/>fetchObjectForEntity:[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/><ref refid="category_n_s_managed_object_07_extensions_08_1ae8d433faf7c80f5eabf99bfda59a0b94" kindref="member">entityName</ref>]<sp/>predicate:predicate];</highlight></codeline>
+<codeline lineno="29"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31" refid="category_n_s_managed_object_07_extensions_08_1a84bd5bf99fabd4d436f6a5f4bbd4ceef" refkind="member"><highlight class="normal">+<sp/>(id)<sp/><sp/><sp/><sp/><sp/>find:(NSPredicate<sp/>*)predicate</highlight></codeline>
+<codeline lineno="32"><highlight class="normal">sortDescriptors:(NSArray<sp/>*)sortDescriptors<sp/></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>inContext:(NSManagedObjectContext<sp/>*)context<sp/>{</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[context<sp/>fetchObjectForEntity:[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/><ref refid="category_n_s_managed_object_07_extensions_08_1ae8d433faf7c80f5eabf99bfda59a0b94" kindref="member">entityName</ref>]<sp/>predicate:predicate<sp/>sortDescriptors:sortDescriptors];</highlight></codeline>
+<codeline lineno="35"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37" refid="category_n_s_managed_object_07_extensions_08_1a639e850d0bb1ef64aa4a0e3dd411c550" refkind="member"><highlight class="normal">+<sp/>(NSArray*)all:(NSPredicate<sp/>*)predicate</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>inContext:(NSManagedObjectContext<sp/>*)context<sp/>{</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[context<sp/>fetchObjectsForEntity:[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/><ref refid="category_n_s_managed_object_07_extensions_08_1ae8d433faf7c80f5eabf99bfda59a0b94" kindref="member">entityName</ref>]<sp/>predicate:predicate];</highlight></codeline>
+<codeline lineno="40"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42" refid="category_n_s_managed_object_07_extensions_08_1a1cf70243f49be63ed42dfa000f144e0c" refkind="member"><highlight class="normal">+<sp/>(NSArray<sp/>*)all:(NSPredicate<sp/>*)predicate</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/>sortDescriptors:(NSArray<sp/>*)sortDescriptors</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>inContext:(NSManagedObjectContext<sp/>*)context<sp/>{</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[context<sp/>fetchObjectsForEntity:[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/><ref refid="category_n_s_managed_object_07_extensions_08_1ae8d433faf7c80f5eabf99bfda59a0b94" kindref="member">entityName</ref>]<sp/>predicate:predicate<sp/>sortDescriptors:sortDescriptors];</highlight></codeline>
+<codeline lineno="46"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48" refid="category_n_s_managed_object_07_extensions_08_1ae329da9ca98a5b7daf6d4c52727d2d08" refkind="member"><highlight class="normal">+<sp/>(NSUInteger)count:(NSPredicate<sp/>*)predicate</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>inContext:(NSManagedObjectContext<sp/>*)context<sp/>{</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/>NSFetchRequest<sp/>*request<sp/>=<sp/>[[NSFetchRequest<sp/>alloc]<sp/>init];</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/>NSEntityDescription<sp/>*entity<sp/>=<sp/>[NSEntityDescription<sp/>entityForName:[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/><ref refid="category_n_s_managed_object_07_extensions_08_1ae8d433faf7c80f5eabf99bfda59a0b94" kindref="member">entityName</ref>]<sp/>inManagedObjectContext:context];</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/>[request<sp/>setPredicate:predicate];</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/>[request<sp/>setEntity:entity];</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/>NSError<sp/>*error<sp/>=<sp/>nil;</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[context<sp/>countForFetchRequest:request<sp/>error:&amp;error];</highlight></codeline>
+<codeline lineno="56"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58" refid="category_n_s_managed_object_07_extensions_08_1ae8d433faf7c80f5eabf99bfda59a0b94" refkind="member"><highlight class="normal">+<sp/>(NSString<sp/>*)<ref refid="category_n_s_managed_object_07_extensions_08_1ae8d433faf7c80f5eabf99bfda59a0b94" kindref="member">entityName</ref><sp/>{</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[NSString<sp/>stringWithCString:object_getClassName(self)<sp/>encoding:NSASCIIStringEncoding];</highlight></codeline>
+<codeline lineno="60"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62" refid="category_n_s_managed_object_07_extensions_08_1a9f52e643cb06698501f8e07380c73cd7" refkind="member"><highlight class="normal">+<sp/>(NSError*)deleteAll:(NSManagedObjectContext*)context<sp/>{</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/>NSFetchRequest<sp/>*<sp/>req<sp/>=<sp/>[[NSFetchRequest<sp/>alloc]<sp/>init];</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/>[req<sp/>setEntity:[NSEntityDescription<sp/>entityForName:[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/><ref refid="category_n_s_managed_object_07_extensions_08_1ae8d433faf7c80f5eabf99bfda59a0b94" kindref="member">entityName</ref>]<sp/>inManagedObjectContext:context]];</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/>[req<sp/>setIncludesPropertyValues:NO];<sp/></highlight><highlight class="comment">//only<sp/>fetch<sp/>the<sp/>managedObjectID</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/>NSError<sp/>*<sp/>error<sp/>=<sp/>nil;</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/>NSArray<sp/>*<sp/>objects<sp/>=<sp/>[context<sp/>executeFetchRequest:req<sp/>error:&amp;error];</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//error<sp/>handling<sp/>goes<sp/>here</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(NSManagedObject<sp/>*<sp/>obj<sp/>in<sp/>objects)<sp/>{</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/>[context<sp/>deleteObject:obj];</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/>NSError<sp/>*saveError<sp/>=<sp/>nil;</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/>[context<sp/>save:&amp;saveError];</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>error;</highlight></codeline>
+<codeline lineno="76"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSManagedObject/NSManagedObject+Extensions.m"/>
+  </compounddef>
+</doxygen>

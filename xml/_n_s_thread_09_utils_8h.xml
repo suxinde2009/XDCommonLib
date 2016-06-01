@@ -1,0 +1,145 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_n_s_thread_09_utils_8h" kind="file" language="C++">
+    <compoundname>NSThread+Utils.h</compoundname>
+    <includes local="no">Foundation/Foundation.h</includes>
+    <includedby refid="_n_s_thread_09_utils_8m" local="yes">XDCommonLib/CommonBasicComponentLayer/Categories/Thread/NSThread+Utils.m</includedby>
+    <incdepgraph>
+      <node id="1172">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/Thread/NSThread+Utils.h</label>
+        <link refid="NSThread+Utils.h"/>
+        <childnode refid="1173" relation="include">
+        </childnode>
+      </node>
+      <node id="1173">
+        <label>Foundation/Foundation.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1174">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/Thread/NSThread+Utils.h</label>
+        <link refid="NSThread+Utils.h"/>
+        <childnode refid="1175" relation="include">
+        </childnode>
+      </node>
+      <node id="1175">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/Thread/NSThread+Utils.m</label>
+        <link refid="_n_s_thread_09_utils_8m"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="category_n_s_thread_07_utils_08" prot="public">NSThread(Utils)</innerclass>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="_n_s_thread_09_utils_8h_1a3da3605a57b8ae37fc673bbb0f427c7f" prot="public" static="no">
+        <type>BOOL(^</type>
+        <definition>typedef BOOL(^ dispatch_cancel_block_t) (BOOL cancelBlock)</definition>
+        <argsstring>)(BOOL cancelBlock)</argsstring>
+        <name>dispatch_cancel_block_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Thread/NSThread+Utils.h" line="13" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Thread/NSThread+Utils.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_n_s_thread_09_utils_8h_1a9dc2254abb3850369bc9fbba41b98246" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>NS_INLINE void</type>
+        <definition>NS_INLINE void XDRunOnMainThread</definition>
+        <argsstring>(void(^_Nonnull block)(void))</argsstring>
+        <name>XDRunOnMainThread</name>
+        <param>
+          <type>void(^)(void)</type>
+          <declname>block</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Runs a block in the main thread</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>^block</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Block to be executed </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Thread/NSThread+Utils.h" line="20" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Thread/NSThread+Utils.h" bodystart="20" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="_n_s_thread_09_utils_8h_1acc78f1eb039808fd7cf1f438d4e41143" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>NS_INLINE void</type>
+        <definition>NS_INLINE void xd_dispatch_async_cancelLable</definition>
+        <argsstring>(_Nonnull dispatch_queue_t queue, BOOL *_Nullable cancel, _Nonnull dispatch_block_t block)</argsstring>
+        <name>xd_dispatch_async_cancelLable</name>
+        <param>
+          <type>_Nonnull dispatch_queue_t</type>
+          <declname>queue</declname>
+        </param>
+        <param>
+          <type>BOOL *_Nullable</type>
+          <declname>cancel</declname>
+        </param>
+        <param>
+          <type>_Nonnull dispatch_block_t</type>
+          <declname>block</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Thread/NSThread+Utils.h" line="26" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Thread/NSThread+Utils.h" bodystart="26" bodyend="39"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>NSThread+Utils.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>XDCommonLib</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>su<sp/>xinde<sp/>on<sp/>15/11/18.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>©<sp/>2015年<sp/>su<sp/>xinde.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;Foundation/Foundation.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="comment">//<sp/>The<sp/>dispatch_cancel_block_t<sp/>takes<sp/>as<sp/>parameter<sp/>the<sp/>&quot;cancel&quot;<sp/>directive<sp/>to<sp/>suspend<sp/>the<sp/>block<sp/>execution<sp/>or<sp/>not<sp/>whenever<sp/>the<sp/>block<sp/>to<sp/>execute<sp/>is<sp/>dispatched.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="comment">//<sp/>The<sp/>return<sp/>value<sp/>is<sp/>a<sp/>boolean<sp/>indicating<sp/>if<sp/>the<sp/>block<sp/>has<sp/>already<sp/>been<sp/>executed<sp/>or<sp/>not.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="_n_s_thread_09_utils_8h_1a3da3605a57b8ae37fc673bbb0f427c7f" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>BOOL<sp/>(^<ref refid="_n_s_thread_09_utils_8h_1a3da3605a57b8ae37fc673bbb0f427c7f" kindref="member">dispatch_cancel_block_t</ref>)(BOOL<sp/>cancelBlock);</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="_n_s_thread_09_utils_8h_1a9dc2254abb3850369bc9fbba41b98246" refkind="member"><highlight class="normal">NS_INLINE<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_n_s_thread_09_utils_8h_1a9dc2254abb3850369bc9fbba41b98246" kindref="member">XDRunOnMainThread</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/>(^<sp/>_Nonnull<sp/>block)(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">))<sp/>{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>dispatch_async(dispatch_get_main_queue(),<sp/>^{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>block();</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>});</highlight></codeline>
+<codeline lineno="24"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="_n_s_thread_09_utils_8h_1acc78f1eb039808fd7cf1f438d4e41143" refkind="member"><highlight class="normal">NS_INLINE<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_n_s_thread_09_utils_8h_1acc78f1eb039808fd7cf1f438d4e41143" kindref="member">xd_dispatch_async_cancelLable</ref>(_Nonnull<sp/>dispatch_queue_t<sp/>queue,<sp/><sp/>BOOL<sp/>*<sp/>_Nullable<sp/>cancel,<sp/>_Nonnull<sp/>dispatch_block_t<sp/>block)<sp/>{</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>((*cancel)<sp/>==<sp/>YES)<sp/>{</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>dispatch_async(queue,<sp/>^{</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>((*cancel)<sp/>==<sp/>YES)<sp/>{</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(block)<sp/>{</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>block();</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>});</highlight></codeline>
+<codeline lineno="39"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="category_n_s_thread_07_utils_08" kindref="compound">NSThread (Utils)</ref></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Thread/NSThread+Utils.h"/>
+  </compounddef>
+</doxygen>

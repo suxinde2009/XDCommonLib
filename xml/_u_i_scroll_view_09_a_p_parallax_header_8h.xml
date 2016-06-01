@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_u_i_scroll_view_09_a_p_parallax_header_8h" kind="file" language="C++">
+    <compoundname>UIScrollView+APParallaxHeader.h</compoundname>
+    <includes local="no">UIKit/UIKit.h</includes>
+    <includedby refid="_u_i_scroll_view_09_a_p_parallax_header_8m" local="yes">XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIScrollView/UIScrollView+APParallaxHeader.m</includedby>
+    <incdepgraph>
+      <node id="1826">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIScrollView/UIScrollView+APParallaxHeader.h</label>
+        <link refid="UIScrollView+APParallaxHeader.h"/>
+        <childnode refid="1827" relation="include">
+        </childnode>
+      </node>
+      <node id="1827">
+        <label>UIKit/UIKit.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1828">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIScrollView/UIScrollView+APParallaxHeader.h</label>
+        <link refid="UIScrollView+APParallaxHeader.h"/>
+        <childnode refid="1829" relation="include">
+        </childnode>
+      </node>
+      <node id="1829">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIScrollView/UIScrollView+APParallaxHeader.m</label>
+        <link refid="_u_i_scroll_view_09_a_p_parallax_header_8m"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="category_u_i_scroll_view_07_a_p_parallax_header_08" prot="public">UIScrollView(APParallaxHeader)</innerclass>
+    <innerclass refid="class_a_p_parallax_view" prot="public">APParallaxView</innerclass>
+    <innerclass refid="protocol_a_p_parallax_view_delegate-p" prot="public">APParallaxViewDelegate-p</innerclass>
+    <innerclass refid="class_a_p_parallax_shadow_view" prot="public">APParallaxShadowView</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_u_i_scroll_view_09_a_p_parallax_header_8h_1a7f229fcd628a280aa087115ebf2b1912" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typedef</type>
+        <definition>typedef NS_ENUM</definition>
+        <argsstring>(NSUInteger, APParallaxTrackingState)</argsstring>
+        <name>NS_ENUM</name>
+        <param>
+          <type>NSUInteger</type>
+        </param>
+        <param>
+          <type>APParallaxTrackingState</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIScrollView/UIScrollView+APParallaxHeader.h" line="31" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIScrollView/UIScrollView+APParallaxHeader.h" bodystart="31" bodyend="34"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>UIScrollView+APParallaxHeader.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Mathias<sp/>Amnell<sp/>on<sp/>2013-04-12.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2013<sp/>Apping<sp/>AB.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>https://github.com/apping/APParallaxHeader</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/>Category<sp/>that<sp/>makes<sp/>it<sp/>super<sp/>easy<sp/>to<sp/>add<sp/>a<sp/>parallax<sp/>effect<sp/>to<sp/>your<sp/>UIScrollView/UITableView</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;UIKit/UIKit.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">@class</highlight><highlight class="normal"><sp/><ref refid="class_a_p_parallax_view" kindref="compound">APParallaxView</ref>;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">@class</highlight><highlight class="normal"><sp/><ref refid="class_a_p_parallax_shadow_view" kindref="compound">APParallaxShadowView</ref>;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/>UIScrollView<sp/>Category</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="category_u_i_scroll_view_07_a_p_parallax_header_08" kindref="compound">UIScrollView (APParallaxHeader)</ref></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal">-<sp/>(void)addParallaxWithImage:(UIImage<sp/>*)image<sp/>andHeight:(CGFloat)height<sp/>andShadow:(BOOL)shadow;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal">-<sp/>(void)addParallaxWithImage:(UIImage<sp/>*)image<sp/>andHeight:(CGFloat)height;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal">-<sp/>(void)addParallaxWithView:(UIView*)view<sp/>andHeight:(CGFloat)height;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="category_u_i_scroll_view_07_a_p_parallax_header_08_1acc78cbabdb2905d31764dbdf27eb9fca" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>strong,<sp/>readonly)<sp/><ref refid="class_a_p_parallax_view" kindref="compound">APParallaxView</ref><sp/>*<ref refid="category_u_i_scroll_view_07_a_p_parallax_header_08_1acc78cbabdb2905d31764dbdf27eb9fca" kindref="member">parallaxView</ref>;</highlight></codeline>
+<codeline lineno="23" refid="category_u_i_scroll_view_07_a_p_parallax_header_08_1aed3f2728f77b8f28bdad1d2e861cdbba" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>assign)<sp/>BOOL<sp/><ref refid="category_u_i_scroll_view_07_a_p_parallax_header_08_1aed3f2728f77b8f28bdad1d2e861cdbba" kindref="member">showsParallax</ref>;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/>APParallaxView</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="keyword">@protocol<sp/></highlight><highlight class="normal"><ref refid="protocol_a_p_parallax_view_delegate-p" kindref="compound">APParallaxViewDelegate</ref>;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31" refid="_u_i_scroll_view_09_a_p_parallax_header_8h_1a7f229fcd628a280aa087115ebf2b1912" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="_u_i_scroll_view_09_a_p_parallax_header_8h_1a7f229fcd628a280aa087115ebf2b1912" kindref="member">NS_ENUM</ref>(NSUInteger,<sp/>APParallaxTrackingState)<sp/>{</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>APParallaxTrackingActive<sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>APParallaxTrackingInactive</highlight></codeline>
+<codeline lineno="34"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="class_a_p_parallax_view" kindref="compound">APParallaxView</ref><sp/>:<sp/>UIView</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38" refid="class_a_p_parallax_view_1afef9fb811aa746326cc3e3501b278ecf" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(weak)<sp/>id&lt;APParallaxViewDelegate&gt;<sp/>delegate;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40" refid="class_a_p_parallax_view_1acc03a90df56476dfecd0670c21439c93" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>readonly)<sp/>APParallaxTrackingState<sp/>state;</highlight></codeline>
+<codeline lineno="41" refid="class_a_p_parallax_view_1a8ba221da04681a86fe986b7cae1c8255" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>strong)<sp/>UIImageView<sp/>*imageView;</highlight></codeline>
+<codeline lineno="42" refid="class_a_p_parallax_view_1ab2da3d3c4de37b2dab2f383c4811d7b1" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>strong)<sp/>UIView<sp/>*currentSubView;</highlight></codeline>
+<codeline lineno="43" refid="class_a_p_parallax_view_1ad9088a80e63044aadb0eb6ee05a789ee" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>strong)<sp/><ref refid="class_a_p_parallax_shadow_view" kindref="compound">APParallaxShadowView</ref><sp/>*shadowView;</highlight></codeline>
+<codeline lineno="44" refid="class_a_p_parallax_view_1a03819edbe273393468cfa9f1e928dde6" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>strong)<sp/>UIView<sp/>*customView;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal">-<sp/>(id)initWithFrame:(CGRect)frame<sp/>andShadow:(BOOL)shadow;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50" refid="protocol_a_p_parallax_view_delegate-p" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">@protocol<sp/></highlight><highlight class="normal"><ref refid="protocol_a_p_parallax_view_delegate-p" kindref="compound">APParallaxViewDelegate</ref><sp/>&lt;NSObject&gt;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight><highlight class="keyword">@optional</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal">-<sp/>(void)<ref refid="category_u_i_scroll_view_07_a_p_parallax_header_08_1acc78cbabdb2905d31764dbdf27eb9fca" kindref="member">parallaxView</ref>:(<ref refid="class_a_p_parallax_view" kindref="compound">APParallaxView</ref><sp/>*)view<sp/>willChangeFrame:(CGRect)frame;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal">-<sp/>(void)<ref refid="category_u_i_scroll_view_07_a_p_parallax_header_08_1acc78cbabdb2905d31764dbdf27eb9fca" kindref="member">parallaxView</ref>:(<ref refid="class_a_p_parallax_view" kindref="compound">APParallaxView</ref><sp/>*)view<sp/>didChangeFrame:(CGRect)frame;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/>APParallaxShadowView</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="class_a_p_parallax_shadow_view" kindref="compound">APParallaxShadowView</ref><sp/>:<sp/>UIView</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIScrollView/UIScrollView+APParallaxHeader.h"/>
+  </compounddef>
+</doxygen>

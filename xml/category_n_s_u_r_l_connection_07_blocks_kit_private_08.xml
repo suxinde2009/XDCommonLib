@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_n_s_u_r_l_connection_07_blocks_kit_private_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>NSURLConnection(BlocksKitPrivate)</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="category_n_s_u_r_l_connection_07_blocks_kit_private_08_1a8c1512dcb448835bf619a43e10592452" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="retain">
+        <type>NSMutableData *</type>
+        <definition>NSMutableData * NSURLConnection(BlocksKitPrivate)::bk_responseData</definition>
+        <argsstring></argsstring>
+        <name>bk_responseData</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/DynamicDelegate/Foundation/NSURLConnection+BlocksKit.m" line="23" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/DynamicDelegate/Foundation/NSURLConnection+BlocksKit.m" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_n_s_u_r_l_connection_07_blocks_kit_private_08_1ad0359cfe92e97badef2d9bac39ef8119" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="retain">
+        <type>NSURLResponse *</type>
+        <definition>NSURLResponse * NSURLConnection(BlocksKitPrivate)::bk_response</definition>
+        <argsstring></argsstring>
+        <name>bk_response</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/DynamicDelegate/Foundation/NSURLConnection+BlocksKit.m" line="24" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/DynamicDelegate/Foundation/NSURLConnection+BlocksKit.m" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_n_s_u_r_l_connection_07_blocks_kit_private_08_1a475430f63901b3ac3b3845a45d97be6a" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="assign">
+        <type>NSUInteger</type>
+        <definition>NSUInteger NSURLConnection(BlocksKitPrivate)::bk_responseLength</definition>
+        <argsstring></argsstring>
+        <name>bk_responseLength</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/DynamicDelegate/Foundation/NSURLConnection+BlocksKit.m" line="25" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/DynamicDelegate/Foundation/NSURLConnection+BlocksKit.m" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/DynamicDelegate/Foundation/NSURLConnection+BlocksKit.m" line="21" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/DynamicDelegate/Foundation/NSURLConnection+BlocksKit.m" bodystart="21" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_n_s_u_r_l_connection_07_blocks_kit_private_08_1ad0359cfe92e97badef2d9bac39ef8119" prot="public" virt="non-virtual"><scope>NSURLConnection(BlocksKitPrivate)</scope><name>bk_response</name></member>
+      <member refid="category_n_s_u_r_l_connection_07_blocks_kit_private_08_1a8c1512dcb448835bf619a43e10592452" prot="public" virt="non-virtual"><scope>NSURLConnection(BlocksKitPrivate)</scope><name>bk_responseData</name></member>
+      <member refid="category_n_s_u_r_l_connection_07_blocks_kit_private_08_1a475430f63901b3ac3b3845a45d97be6a" prot="public" virt="non-virtual"><scope>NSURLConnection(BlocksKitPrivate)</scope><name>bk_responseLength</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

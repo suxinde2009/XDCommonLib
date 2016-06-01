@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="dir_efa2b11349cba4ca0745d67de97bad4d" kind="dir">
+    <compoundname>XDCommonLib/CommonBasicComponentLayer/Categories</compoundname>
+    <innerdir refid="dir_59205bd049700c3a0f24e33f8c883b26">XDCommonLib/CommonBasicComponentLayer/Categories/AVFoundation</innerdir>
+    <innerdir refid="dir_955d07fac5cf748e0589d4950fbdc300">XDCommonLib/CommonBasicComponentLayer/Categories/CoreData</innerdir>
+    <innerdir refid="dir_d29617477630eb63d5d5701c1303d28c">XDCommonLib/CommonBasicComponentLayer/Categories/CoreLocation</innerdir>
+    <innerdir refid="dir_ff01eefc1f2f4b6b7bd758eb3cdb3868">XDCommonLib/CommonBasicComponentLayer/Categories/Foundation</innerdir>
+    <innerdir refid="dir_e3fdf78a678b872b8f04964bf77f0d48">XDCommonLib/CommonBasicComponentLayer/Categories/MapKit</innerdir>
+    <innerdir refid="dir_8130aac9c612694eefba258360a251c6">XDCommonLib/CommonBasicComponentLayer/Categories/QuartzCore</innerdir>
+    <innerdir refid="dir_65424a9480ff5a38e6df1dac03a764ba">XDCommonLib/CommonBasicComponentLayer/Categories/Thread</innerdir>
+    <innerdir refid="dir_957840cefbe442b5a5ed654d3c45d410">XDCommonLib/CommonBasicComponentLayer/Categories/UIKit</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/"/>
+  </compounddef>
+</doxygen>

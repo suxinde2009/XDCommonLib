@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_u_i_view_controller_07_scrolling_status_bar_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>UIViewController(ScrollingStatusBar)</compoundname>
+    <includes refid="_u_i_view_controller_09_scrolling_status_bar_8h" local="no">UIViewController+ScrollingStatusBar.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="category_u_i_view_controller_07_scrolling_status_bar_08_1ab5043a76ab8eb02caf4bb4a7e7247633" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UIViewController(ScrollingStatusBar)::enableStatusBarScrollingAlongScrollView:</definition>
+        <argsstring>(UIScrollView *scrollView)</argsstring>
+        <name>enableStatusBarScrollingAlongScrollView:</name>
+        <param>
+          <type>UIScrollView *</type>
+          <declname>scrollView</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+ScrollingStatusBar.h" line="124" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+ScrollingStatusBar.m" bodystart="178" bodyend="189"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_view_controller_07_scrolling_status_bar_08_1a80fdafabf881284ef9c94678a259d323" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UIViewController(ScrollingStatusBar)::disableStatusBarScrollingAlongScrollView:</definition>
+        <argsstring>(UIScrollView *scrollView)</argsstring>
+        <name>disableStatusBarScrollingAlongScrollView:</name>
+        <param>
+          <type>UIScrollView *</type>
+          <declname>scrollView</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+ScrollingStatusBar.h" line="124" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+ScrollingStatusBar.m" line="81" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+ScrollingStatusBar.m" bodystart="81" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_u_i_view_controller_07_scrolling_status_bar_08_1a80fdafabf881284ef9c94678a259d323" prot="public" virt="virtual"><scope>UIViewController(ScrollingStatusBar)</scope><name>disableStatusBarScrollingAlongScrollView:</name></member>
+      <member refid="category_u_i_view_controller_07_scrolling_status_bar_08_1ab5043a76ab8eb02caf4bb4a7e7247633" prot="public" virt="virtual"><scope>UIViewController(ScrollingStatusBar)</scope><name>enableStatusBarScrollingAlongScrollView:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_n_s_object_07_super_classes_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>NSObject(SuperClasses)</compoundname>
+    <includes refid="_n_s_object_09_super_classes_8h" local="no">NSObject+SuperClasses.h</includes>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="category_n_s_object_07_super_classes_08_1a2abb25e40e14d469de55429b21479cbf" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSArray *</type>
+        <definition>NSArray * NSObject(SuperClasses)::superClasses</definition>
+        <argsstring>()</argsstring>
+        <name>superClasses</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSObject/NSObject+SuperClasses.h" line="85" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSObject/NSObject+SuperClasses.m" bodystart="13" bodyend="27"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="category_n_s_object_07_super_classes_08_1a2abb25e40e14d469de55429b21479cbf" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSArray *</type>
+        <definition>NSArray * NSObject(SuperClasses)::superClasses</definition>
+        <argsstring>()</argsstring>
+        <name>superClasses</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSObject/NSObject+SuperClasses.h" line="85" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSObject/NSObject+SuperClasses.m" line="11" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSObject/NSObject+SuperClasses.m" bodystart="11" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_n_s_object_07_super_classes_08_1a2abb25e40e14d469de55429b21479cbf" prot="public" virt="virtual"><scope>NSObject(SuperClasses)</scope><name>superClasses</name></member>
+      <member refid="category_n_s_object_07_super_classes_08_1a2abb25e40e14d469de55429b21479cbf" prot="public" virt="virtual"><scope>NSObject(SuperClasses)</scope><name>superClasses</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

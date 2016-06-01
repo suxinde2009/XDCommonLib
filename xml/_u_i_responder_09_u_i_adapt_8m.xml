@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_u_i_responder_09_u_i_adapt_8m" kind="file" language="Objective-C">
+    <compoundname>UIResponder+UIAdapt.m</compoundname>
+    <includes refid="_u_i_responder_09_u_i_adapt_8h" local="yes">UIResponder+UIAdapt.h</includes>
+    <incdepgraph>
+      <node id="1808">
+        <label>UIKit/UIKit.h</label>
+      </node>
+      <node id="1807">
+        <label>UIResponder+UIAdapt.h</label>
+        <link refid="_u_i_responder_09_u_i_adapt_8h"/>
+        <childnode refid="1808" relation="include">
+        </childnode>
+      </node>
+      <node id="1806">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIResponder/UIResponder+UIAdapt.m</label>
+        <link refid="UIResponder+UIAdapt.m"/>
+        <childnode refid="1807" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="_u_i_responder_09_u_i_adapt_8m_1a1bf78fa5fb2061453718b25fc0df2041" prot="public" static="no">
+        <name>XIB_WIDTH</name>
+        <initializer>320</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIResponder/UIResponder+UIAdapt.m" line="10" column="9" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIResponder/UIResponder+UIAdapt.m" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>UIResponder+UIAdapt.m</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>iOS-Categories<sp/>(https://github.com/shaojiankui/iOS-Categories)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Jakey<sp/>on<sp/>15/1/28.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2015年<sp/>www.skyfox.org.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_u_i_responder_09_u_i_adapt_8h" kindref="compound">UIResponder+UIAdapt.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="_u_i_responder_09_u_i_adapt_8m_1a1bf78fa5fb2061453718b25fc0df2041" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XIB_WIDTH<sp/>320</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="category_u_i_responder_07_u_i_adapt_08" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">@implementation<sp/></highlight><highlight class="normal"><ref refid="category_u_i_responder_07_u_i_adapt_08" kindref="compound">UIResponder (UIAdapt)</ref></highlight></codeline>
+<codeline lineno="13" refid="category_u_i_responder_07_u_i_adapt_08_1af3b25832b78bf56b1291df9d249b2c73" refkind="member"><highlight class="normal">CGRect<sp/><ref refid="category_u_i_responder_07_u_i_adapt_08_1af3b25832b78bf56b1291df9d249b2c73" kindref="member">CGAdaptRectMake</ref>(CGFloat<sp/>x,<sp/>CGFloat<sp/>y,<sp/>CGFloat<sp/>width,<sp/>CGFloat<sp/>height)</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//UIScreenMode<sp/>*currentMode<sp/>=<sp/>[[UIScreen<sp/>mainScreen]currentMode];</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>CGRect<sp/>sreenBounds<sp/>=<sp/>[UIScreen<sp/>mainScreen].bounds;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>CGFloat<sp/>scale<sp/><sp/>=<sp/>sreenBounds.size.width/<ref refid="_u_i_responder_09_u_i_adapt_8m_1a1bf78fa5fb2061453718b25fc0df2041" kindref="member">XIB_WIDTH</ref>;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>CGRectMake(x*scale,<sp/>y*scale,<sp/>width<sp/>*scale,<sp/>height*scale);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="category_u_i_responder_07_u_i_adapt_08_1aedab30d65409ec9fa3d9434a4d7738ae" refkind="member"><highlight class="normal">CGPoint<sp/><ref refid="category_u_i_responder_07_u_i_adapt_08_1aedab30d65409ec9fa3d9434a4d7738ae" kindref="member">CGAdaptPointMake</ref>(CGFloat<sp/>x,<sp/>CGFloat<sp/>y){</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//UIScreenMode<sp/>*currentMode<sp/>=<sp/>[[UIScreen<sp/>mainScreen]currentMode];</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>CGRect<sp/>sreenBounds<sp/>=<sp/>[UIScreen<sp/>mainScreen].bounds;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>CGFloat<sp/>scale<sp/><sp/>=<sp/>sreenBounds.size.width/<ref refid="_u_i_responder_09_u_i_adapt_8m_1a1bf78fa5fb2061453718b25fc0df2041" kindref="member">XIB_WIDTH</ref>;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>CGPointMake(x*scale,<sp/>y*scale);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28" refid="category_u_i_responder_07_u_i_adapt_08_1ab2717351f77f42c42bcb4f80dd5a4262" refkind="member"><highlight class="normal">-(CGFloat)<ref refid="category_u_i_responder_07_u_i_adapt_08_1ab2717351f77f42c42bcb4f80dd5a4262" kindref="member">factorAdapt</ref>{</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//IScreenMode<sp/>*currentMode<sp/>=<sp/>[[UIScreen<sp/>mainScreen]currentMode];</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>CGRect<sp/>sreenBounds<sp/>=<sp/>[UIScreen<sp/>mainScreen].bounds;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>CGFloat<sp/>scale<sp/><sp/>=<sp/>sreenBounds.size.width/<ref refid="_u_i_responder_09_u_i_adapt_8m_1a1bf78fa5fb2061453718b25fc0df2041" kindref="member">XIB_WIDTH</ref>;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>scale;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIResponder/UIResponder+UIAdapt.m"/>
+  </compounddef>
+</doxygen>

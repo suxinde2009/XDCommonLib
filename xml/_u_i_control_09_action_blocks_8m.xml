@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_u_i_control_09_action_blocks_8m" kind="file" language="Objective-C">
+    <compoundname>UIControl+ActionBlocks.m</compoundname>
+    <includes refid="_u_i_control_09_action_blocks_8h" local="yes">UIControl+ActionBlocks.h</includes>
+    <includes local="no">objc/runtime.h</includes>
+    <incdepgraph>
+      <node id="1373">
+        <label>UIKit/UIKit.h</label>
+      </node>
+      <node id="1374">
+        <label>objc/runtime.h</label>
+      </node>
+      <node id="1372">
+        <label>UIControl+ActionBlocks.h</label>
+        <link refid="_u_i_control_09_action_blocks_8h"/>
+        <childnode refid="1373" relation="include">
+        </childnode>
+      </node>
+      <node id="1371">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIControl/UIControl+ActionBlocks.m</label>
+        <link refid="UIControl+ActionBlocks.m"/>
+        <childnode refid="1372" relation="include">
+        </childnode>
+        <childnode refid="1374" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="_u_i_control_09_action_blocks_8m_1ada2cd7ad16c9398fad6d3d40afa95616" prot="public" static="yes" mutable="no">
+        <type>const void *</type>
+        <definition>const void* UIControlActionBlockArray</definition>
+        <argsstring></argsstring>
+        <name>UIControlActionBlockArray</name>
+        <initializer>= &amp;UIControlActionBlockArray</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIControl/UIControl+ActionBlocks.m" line="12" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIControl/UIControl+ActionBlocks.m" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>UIControl+ActionBlocks.m</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>iOS-Categories<sp/>(https://github.com/shaojiankui/iOS-Categories)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Jakey<sp/>on<sp/>15/5/23.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2015年<sp/>www.skyfox.org.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_u_i_control_09_action_blocks_8h" kindref="compound">UIControl+ActionBlocks.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;objc/runtime.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*UIControlActionBlockArray<sp/>=<sp/>&amp;UIControlActionBlockArray;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="class_u_i_control_action_block_wrapper" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">@implementation<sp/></highlight><highlight class="normal"><ref refid="class_u_i_control_action_block_wrapper" kindref="compound">UIControlActionBlockWrapper</ref></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="class_u_i_control_action_block_wrapper_1a44da0d839cc34e5ca3ffb17de2a05b51" refkind="member"><highlight class="normal">-<sp/>(void)invokeBlock:(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)sender<sp/>{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">self</highlight><highlight class="normal">.<ref refid="class_u_i_control_action_block_wrapper_1a7012534ae3ad71601ae5a8e9c1178796" kindref="member">actionBlock</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.<ref refid="class_u_i_control_action_block_wrapper_1a7012534ae3ad71601ae5a8e9c1178796" kindref="member">actionBlock</ref>(sender);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="20"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25" refid="category_u_i_control_07_action_blocks_08" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">@implementation<sp/></highlight><highlight class="normal"><ref refid="category_u_i_control_07_action_blocks_08" kindref="compound">UIControl (ActionBlocks)</ref></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27" refid="category_u_i_control_07_action_blocks_08_1a549b138fa6fd28e993563603ddf42d9a" refkind="member"><highlight class="normal">-<sp/>(void)handleControlEvents:(UIControlEvents)controlEvents<sp/>withBlock:(<ref refid="_u_i_control_09_action_blocks_8h_1abb1117ca6998869680e3bb6ebef7b691" kindref="member">UIControlActionBlock</ref>)actionBlock<sp/>{</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>NSMutableArray<sp/>*actionBlocksArray<sp/>=<sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>actionBlocksArray];</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_u_i_control_action_block_wrapper" kindref="compound">UIControlActionBlockWrapper</ref><sp/>*blockActionWrapper<sp/>=<sp/>[[<ref refid="class_u_i_control_action_block_wrapper" kindref="compound">UIControlActionBlockWrapper</ref><sp/>alloc]<sp/>init];</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>blockActionWrapper.<ref refid="class_u_i_control_action_block_wrapper_1a7012534ae3ad71601ae5a8e9c1178796" kindref="member">actionBlock</ref><sp/>=<sp/>actionBlock;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>blockActionWrapper.<ref refid="class_u_i_control_action_block_wrapper_1aa13fc3352880691204edf2dd7a986eb5" kindref="member">controlEvents</ref><sp/>=<sp/>controlEvents;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>[actionBlocksArray<sp/>addObject:blockActionWrapper];</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>addTarget:blockActionWrapper<sp/>action:@selector(invokeBlock:)<sp/>forControlEvents:controlEvents];</highlight></codeline>
+<codeline lineno="36"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39" refid="category_u_i_control_07_action_blocks_08_1a67f9aacdff2e3beda096ae4cb679364e" refkind="member"><highlight class="normal">-<sp/>(void)removeActionBlocksForControlEvents:(UIControlEvents)controlEvents<sp/>{</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>NSMutableArray<sp/>*actionBlocksArray<sp/>=<sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>actionBlocksArray];</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>NSMutableArray<sp/>*wrappersToRemove<sp/>=<sp/>[NSMutableArray<sp/>arrayWithCapacity:[actionBlocksArray<sp/>count]];</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>[actionBlocksArray<sp/>enumerateObjectsUsingBlock:^(id<sp/>obj,<sp/>NSUInteger<sp/>idx,<sp/>BOOL<sp/>*stop)<sp/>{</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UIControlActionBlockWrapper<sp/>*wrapperTmp<sp/>=<sp/>obj;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>if<sp/>(wrapperTmp.controlEvents<sp/>==<sp/>controlEvents)<sp/>{</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[wrappersToRemove<sp/>addObject:wrapperTmp];</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>removeTarget:wrapperTmp<sp/>action:@selector(invokeBlock:)<sp/>forControlEvents:controlEvents];</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>}];</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>[actionBlocksArray<sp/>removeObjectsInArray:wrappersToRemove];</highlight></codeline>
+<codeline lineno="52"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal">-<sp/>(NSMutableArray<sp/>*)actionBlocksArray<sp/>{</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/>NSMutableArray<sp/>*actionBlocksArray<sp/>=<sp/>objc_getAssociatedObject(</highlight><highlight class="keyword">self</highlight><highlight class="normal">,<sp/>UIControlActionBlockArray);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!actionBlocksArray)<sp/>{</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>actionBlocksArray<sp/>=<sp/>[NSMutableArray<sp/>array];</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>objc_setAssociatedObject(</highlight><highlight class="keyword">self</highlight><highlight class="normal">,<sp/>UIControlActionBlockArray,<sp/>actionBlocksArray,<sp/>OBJC_ASSOCIATION_RETAIN);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>actionBlocksArray;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIControl/UIControl+ActionBlocks.m"/>
+  </compounddef>
+</doxygen>

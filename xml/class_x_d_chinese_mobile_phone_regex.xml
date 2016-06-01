@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="class_x_d_chinese_mobile_phone_regex" kind="class" language="Objective-C" prot="public">
+    <compoundname>XDChineseMobilePhoneRegex</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">NSObject</basecompoundref>
+    <includes refid="_x_d_chinese_mobile_phone_regex_8h" local="no">XDChineseMobilePhoneRegex.h</includes>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_x_d_chinese_mobile_phone_regex_1a2f345a6b4f260dc923a12db97348204d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL XDChineseMobilePhoneRegex::isValidChineseMobilePhont:</definition>
+        <argsstring>(NSString *mobilePhone)</argsstring>
+        <name>isValidChineseMobilePhont:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>mobilePhone</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/PhoneNumberKit/XDChineseMobilePhoneRegex.h" line="13" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/PhoneNumberKit/XDChineseMobilePhoneRegex.m" bodystart="13" bodyend="19"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1247">
+        <label>XDChineseMobilePhoneRegex</label>
+        <link refid="class_x_d_chinese_mobile_phone_regex"/>
+        <childnode refid="1248" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1248">
+        <label>NSObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1249">
+        <label>XDChineseMobilePhoneRegex</label>
+        <link refid="class_x_d_chinese_mobile_phone_regex"/>
+        <childnode refid="1250" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1250">
+        <label>NSObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/PhoneNumberKit/XDChineseMobilePhoneRegex.m" line="11" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/PhoneNumberKit/XDChineseMobilePhoneRegex.m" bodystart="11" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="class_x_d_chinese_mobile_phone_regex_1a2f345a6b4f260dc923a12db97348204d" prot="public" virt="virtual"><scope>XDChineseMobilePhoneRegex</scope><name>isValidChineseMobilePhont:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

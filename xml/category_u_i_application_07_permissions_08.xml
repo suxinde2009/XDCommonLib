@@ -1,0 +1,256 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_u_i_application_07_permissions_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>UIApplication(Permissions)</compoundname>
+    <includes refid="_u_i_application_09_permissions_8h" local="no">UIApplication+Permissions.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="category_u_i_application_07_permissions_08_1ab2ea4ac8160c470654ba54dc027eef06" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="_u_i_application_09_permissions_8h_1a533fab312f1149cda1d45f35f538cd28" kindref="member">kPermissionAccess</ref></type>
+        <definition>kPermissionAccess UIApplication(Permissions)::hasAccessToBluetoothLE</definition>
+        <argsstring>()</argsstring>
+        <name>hasAccessToBluetoothLE</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIApplication/UIApplication+Permissions.h" line="13" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIApplication/UIApplication+Permissions.m" bodystart="39" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_application_07_permissions_08_1a665ce750f296b0093268b7a0f2f888cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="_u_i_application_09_permissions_8h_1a533fab312f1149cda1d45f35f538cd28" kindref="member">kPermissionAccess</ref></type>
+        <definition>kPermissionAccess UIApplication(Permissions)::hasAccessToCalendar</definition>
+        <argsstring>()</argsstring>
+        <name>hasAccessToCalendar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIApplication/UIApplication+Permissions.h" line="13" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIApplication/UIApplication+Permissions.m" bodystart="55" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_application_07_permissions_08_1ac4ab3f2b5403ca3e2dbe817dfb80dfa0" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="_u_i_application_09_permissions_8h_1a533fab312f1149cda1d45f35f538cd28" kindref="member">kPermissionAccess</ref></type>
+        <definition>kPermissionAccess UIApplication(Permissions)::hasAccessToContacts</definition>
+        <argsstring>()</argsstring>
+        <name>hasAccessToContacts</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIApplication/UIApplication+Permissions.h" line="13" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIApplication/UIApplication+Permissions.m" bodystart="75" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_application_07_permissions_08_1aafc1e713070af28e9c12f2269feca29c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="_u_i_application_09_permissions_8h_1a533fab312f1149cda1d45f35f538cd28" kindref="member">kPermissionAccess</ref></type>
+        <definition>kPermissionAccess UIApplication(Permissions)::hasAccessToLocation</definition>
+        <argsstring>()</argsstring>
+        <name>hasAccessToLocation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIApplication/UIApplication+Permissions.h" line="13" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIApplication/UIApplication+Permissions.m" bodystart="95" bodyend="116"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_application_07_permissions_08_1a8a1b329100edcd8124ccbcc597ae6be1" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="_u_i_application_09_permissions_8h_1a533fab312f1149cda1d45f35f538cd28" kindref="member">kPermissionAccess</ref></type>
+        <definition>kPermissionAccess UIApplication(Permissions)::hasAccessToPhotos</definition>
+        <argsstring>()</argsstring>
+        <name>hasAccessToPhotos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIApplication/UIApplication+Permissions.h" line="13" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIApplication/UIApplication+Permissions.m" bodystart="118" bodyend="136"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_application_07_permissions_08_1af9975a5008504b9159e22da480753ae5" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="_u_i_application_09_permissions_8h_1a533fab312f1149cda1d45f35f538cd28" kindref="member">kPermissionAccess</ref></type>
+        <definition>kPermissionAccess UIApplication(Permissions)::hasAccessToReminders</definition>
+        <argsstring>()</argsstring>
+        <name>hasAccessToReminders</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIApplication/UIApplication+Permissions.h" line="13" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIApplication/UIApplication+Permissions.m" bodystart="138" bodyend="157"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_application_07_permissions_08_1ad59c9c2f2ae8484dbabcd67f74926f8f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UIApplication(Permissions)::requestAccessToCalendarWithSuccess:andFailure:</definition>
+        <argsstring>(void(^accessGranted)(),[andFailure] void(^accessDenied)())</argsstring>
+        <name>requestAccessToCalendarWithSuccess:andFailure:</name>
+        <param>
+          <type>void(^)()</type>
+          <declname>accessGranted</declname>
+        </param>
+        <param>
+          <attributes>[andFailure]</attributes>
+          <type>void(^)()</type>
+          <declname>accessDenied</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIApplication/UIApplication+Permissions.h" line="13" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIApplication/UIApplication+Permissions.m" bodystart="161" bodyend="172"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_application_07_permissions_08_1a331a1270991f298cc56581f16f5960aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UIApplication(Permissions)::requestAccessToContactsWithSuccess:andFailure:</definition>
+        <argsstring>(void(^accessGranted)(),[andFailure] void(^accessDenied)())</argsstring>
+        <name>requestAccessToContactsWithSuccess:andFailure:</name>
+        <param>
+          <type>void(^)()</type>
+          <declname>accessGranted</declname>
+        </param>
+        <param>
+          <attributes>[andFailure]</attributes>
+          <type>void(^)()</type>
+          <declname>accessDenied</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIApplication/UIApplication+Permissions.h" line="13" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIApplication/UIApplication+Permissions.m" bodystart="174" bodyend="187"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_application_07_permissions_08_1af30f646093c92d3ade4c75920d2fde6f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UIApplication(Permissions)::requestAccessToMicrophoneWithSuccess:andFailure:</definition>
+        <argsstring>(void(^accessGranted)(),[andFailure] void(^accessDenied)())</argsstring>
+        <name>requestAccessToMicrophoneWithSuccess:andFailure:</name>
+        <param>
+          <type>void(^)()</type>
+          <declname>accessGranted</declname>
+        </param>
+        <param>
+          <attributes>[andFailure]</attributes>
+          <type>void(^)()</type>
+          <declname>accessDenied</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIApplication/UIApplication+Permissions.h" line="13" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIApplication/UIApplication+Permissions.m" bodystart="189" bodyend="200"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_application_07_permissions_08_1ac980c6aed411b9457a1700fda341bbae" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UIApplication(Permissions)::requestAccessToPhotosWithSuccess:andFailure:</definition>
+        <argsstring>(void(^accessGranted)(),[andFailure] void(^accessDenied)())</argsstring>
+        <name>requestAccessToPhotosWithSuccess:andFailure:</name>
+        <param>
+          <type>void(^)()</type>
+          <declname>accessGranted</declname>
+        </param>
+        <param>
+          <attributes>[andFailure]</attributes>
+          <type>void(^)()</type>
+          <declname>accessDenied</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIApplication/UIApplication+Permissions.h" line="13" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIApplication/UIApplication+Permissions.m" bodystart="211" bodyend="218"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_application_07_permissions_08_1a40b6d42c6a0259671d63141877589b89" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UIApplication(Permissions)::requestAccessToRemindersWithSuccess:andFailure:</definition>
+        <argsstring>(void(^accessGranted)(),[andFailure] void(^accessDenied)())</argsstring>
+        <name>requestAccessToRemindersWithSuccess:andFailure:</name>
+        <param>
+          <type>void(^)()</type>
+          <declname>accessGranted</declname>
+        </param>
+        <param>
+          <attributes>[andFailure]</attributes>
+          <type>void(^)()</type>
+          <declname>accessDenied</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIApplication/UIApplication+Permissions.h" line="13" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIApplication/UIApplication+Permissions.m" bodystart="220" bodyend="231"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_application_07_permissions_08_1a536a7884493f1e77175080edd6567400" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UIApplication(Permissions)::requestAccessToLocationWithSuccess:andFailure:</definition>
+        <argsstring>(void(^accessGranted)(),[andFailure] void(^accessDenied)())</argsstring>
+        <name>requestAccessToLocationWithSuccess:andFailure:</name>
+        <param>
+          <type>void(^)()</type>
+          <declname>accessGranted</declname>
+        </param>
+        <param>
+          <attributes>[andFailure]</attributes>
+          <type>void(^)()</type>
+          <declname>accessDenied</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIApplication/UIApplication+Permissions.h" line="13" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIApplication/UIApplication+Permissions.m" bodystart="241" bodyend="248"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_application_07_permissions_08_1aeeb2fbb3b44d9c6d67b9537d5b2a6091" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UIApplication(Permissions)::requestAccessToMotionWithSuccess:</definition>
+        <argsstring>(void(^accessGranted)())</argsstring>
+        <name>requestAccessToMotionWithSuccess:</name>
+        <param>
+          <type>void(^)()</type>
+          <declname>accessGranted</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIApplication/UIApplication+Permissions.h" line="13" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIApplication/UIApplication+Permissions.m" bodystart="202" bodyend="209"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIApplication/UIApplication+Permissions.m" line="35" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIApplication/UIApplication+Permissions.m" bodystart="35" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_u_i_application_07_permissions_08_1ab2ea4ac8160c470654ba54dc027eef06" prot="public" virt="virtual"><scope>UIApplication(Permissions)</scope><name>hasAccessToBluetoothLE</name></member>
+      <member refid="category_u_i_application_07_permissions_08_1a665ce750f296b0093268b7a0f2f888cd" prot="public" virt="virtual"><scope>UIApplication(Permissions)</scope><name>hasAccessToCalendar</name></member>
+      <member refid="category_u_i_application_07_permissions_08_1ac4ab3f2b5403ca3e2dbe817dfb80dfa0" prot="public" virt="virtual"><scope>UIApplication(Permissions)</scope><name>hasAccessToContacts</name></member>
+      <member refid="category_u_i_application_07_permissions_08_1aafc1e713070af28e9c12f2269feca29c" prot="public" virt="virtual"><scope>UIApplication(Permissions)</scope><name>hasAccessToLocation</name></member>
+      <member refid="category_u_i_application_07_permissions_08_1a8a1b329100edcd8124ccbcc597ae6be1" prot="public" virt="virtual"><scope>UIApplication(Permissions)</scope><name>hasAccessToPhotos</name></member>
+      <member refid="category_u_i_application_07_permissions_08_1af9975a5008504b9159e22da480753ae5" prot="public" virt="virtual"><scope>UIApplication(Permissions)</scope><name>hasAccessToReminders</name></member>
+      <member refid="category_u_i_application_07_permissions_08_1ad59c9c2f2ae8484dbabcd67f74926f8f" prot="public" virt="virtual"><scope>UIApplication(Permissions)</scope><name>requestAccessToCalendarWithSuccess:andFailure:</name></member>
+      <member refid="category_u_i_application_07_permissions_08_1a331a1270991f298cc56581f16f5960aa" prot="public" virt="virtual"><scope>UIApplication(Permissions)</scope><name>requestAccessToContactsWithSuccess:andFailure:</name></member>
+      <member refid="category_u_i_application_07_permissions_08_1a536a7884493f1e77175080edd6567400" prot="public" virt="virtual"><scope>UIApplication(Permissions)</scope><name>requestAccessToLocationWithSuccess:andFailure:</name></member>
+      <member refid="category_u_i_application_07_permissions_08_1af30f646093c92d3ade4c75920d2fde6f" prot="public" virt="virtual"><scope>UIApplication(Permissions)</scope><name>requestAccessToMicrophoneWithSuccess:andFailure:</name></member>
+      <member refid="category_u_i_application_07_permissions_08_1aeeb2fbb3b44d9c6d67b9537d5b2a6091" prot="public" virt="virtual"><scope>UIApplication(Permissions)</scope><name>requestAccessToMotionWithSuccess:</name></member>
+      <member refid="category_u_i_application_07_permissions_08_1ac980c6aed411b9457a1700fda341bbae" prot="public" virt="virtual"><scope>UIApplication(Permissions)</scope><name>requestAccessToPhotosWithSuccess:andFailure:</name></member>
+      <member refid="category_u_i_application_07_permissions_08_1a40b6d42c6a0259671d63141877589b89" prot="public" virt="virtual"><scope>UIApplication(Permissions)</scope><name>requestAccessToRemindersWithSuccess:andFailure:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

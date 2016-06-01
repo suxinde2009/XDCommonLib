@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="interface___b_k_weak_associated_object" kind="class" language="Objective-C" prot="public">
+    <compoundname>_BKWeakAssociatedObject</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">NSObject</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="interface___b_k_weak_associated_object_1a674b264eb1f8f20597c9bd93352fefb5" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="weak">
+        <type>id</type>
+        <definition>id _BKWeakAssociatedObject::value</definition>
+        <argsstring></argsstring>
+        <name>value</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSObject+BKAssociatedObjects.m" line="13" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSObject+BKAssociatedObjects.m" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="24">
+        <label>_BKWeakAssociatedObject</label>
+        <link refid="interface___b_k_weak_associated_object"/>
+        <childnode refid="25" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>NSObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="26">
+        <label>_BKWeakAssociatedObject</label>
+        <link refid="interface___b_k_weak_associated_object"/>
+        <childnode refid="27" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="27">
+        <label>NSObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSObject+BKAssociatedObjects.m" line="12" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSObject+BKAssociatedObjects.m" bodystart="11" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="interface___b_k_weak_associated_object_1a674b264eb1f8f20597c9bd93352fefb5" prot="public" virt="non-virtual"><scope>_BKWeakAssociatedObject</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

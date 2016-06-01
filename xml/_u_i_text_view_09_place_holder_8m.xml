@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_u_i_text_view_09_place_holder_8m" kind="file" language="Objective-C">
+    <compoundname>UITextView+PlaceHolder.m</compoundname>
+    <includes refid="_u_i_text_view_09_place_holder_8h" local="yes">UITextView+PlaceHolder.h</includes>
+    <incdepgraph>
+      <node id="1931">
+        <label>UITextView+PlaceHolder.h</label>
+        <link refid="_u_i_text_view_09_place_holder_8h"/>
+        <childnode refid="1932" relation="include">
+        </childnode>
+        <childnode refid="1933" relation="include">
+        </childnode>
+      </node>
+      <node id="1930">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UITextView/UITextView+PlaceHolder.m</label>
+        <link refid="UITextView+PlaceHolder.m"/>
+        <childnode refid="1931" relation="include">
+        </childnode>
+      </node>
+      <node id="1932">
+        <label>UIKit/UIKit.h</label>
+      </node>
+      <node id="1933">
+        <label>objc/runtime.h</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="_u_i_text_view_09_place_holder_8m_1a69d5efa552a0ec5efa624a1e7f19086e" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* phTextView</definition>
+        <argsstring></argsstring>
+        <name>phTextView</name>
+        <initializer>= &quot;placeHolderTextView&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UITextView/UITextView+PlaceHolder.m" line="10" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UITextView/UITextView+PlaceHolder.m" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>UITextView+PlaceHolder.m</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>iOS-Categories<sp/>(https://github.com/shaojiankui/iOS-Categories)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Jakey<sp/>on<sp/>14/12/15.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2014年<sp/>www.skyfox.org.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_u_i_text_view_09_place_holder_8h" kindref="compound">UITextView+PlaceHolder.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*phTextView<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;placeHolderTextView&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="11" refid="category_u_i_text_view_07_place_holder_08" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">@implementation<sp/></highlight><highlight class="normal"><ref refid="category_u_i_text_view_07_place_holder_08" kindref="compound">UITextView (PlaceHolder)</ref></highlight></codeline>
+<codeline lineno="12"><highlight class="normal">-<sp/>(UITextView<sp/>*)<ref refid="category_u_i_text_view_07_place_holder_08_1a409ddc9b2eb371126c7a50288ac853ef" kindref="member">placeHolderTextView</ref><sp/>{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>objc_getAssociatedObject(</highlight><highlight class="keyword">self</highlight><highlight class="normal">,<sp/>phTextView);</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="15"><highlight class="normal">-<sp/>(void)setPlaceHolderTextView:(UITextView<sp/>*)placeHolderTextView<sp/>{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>objc_setAssociatedObject(</highlight><highlight class="keyword">self</highlight><highlight class="normal">,<sp/>phTextView,<sp/><ref refid="category_u_i_text_view_07_place_holder_08_1a409ddc9b2eb371126c7a50288ac853ef" kindref="member">placeHolderTextView</ref>,<sp/>OBJC_ASSOCIATION_RETAIN_NONATOMIC);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="18" refid="category_u_i_text_view_07_place_holder_08_1ab794b42f1cd8f0d107f5963179163f56" refkind="member"><highlight class="normal">-<sp/>(void)addPlaceHolder:(NSString<sp/>*)placeHolder<sp/>{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(![</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/><ref refid="category_u_i_text_view_07_place_holder_08_1a409ddc9b2eb371126c7a50288ac853ef" kindref="member">placeHolderTextView</ref>])<sp/>{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.delegate<sp/>=<sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UITextView<sp/>*textView<sp/>=<sp/>[[UITextView<sp/>alloc]<sp/>initWithFrame:self.bounds];</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>textView.autoresizingMask<sp/>=<sp/>UIViewAutoresizingFlexibleHeight<sp/>|<sp/>UIViewAutoresizingFlexibleWidth;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>textView.font<sp/>=<sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.font;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>textView.backgroundColor<sp/>=<sp/>[UIColor<sp/>clearColor];</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>textView.textColor<sp/>=<sp/>[UIColor<sp/>grayColor];</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>textView.userInteractionEnabled<sp/>=<sp/>NO;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>textView.text<sp/>=<sp/>placeHolder;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>addSubview:textView];</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>setPlaceHolderTextView:textView];</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/>pragma<sp/>mark<sp/>-</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/>pragma<sp/>mark<sp/>-<sp/>UITextViewDelegate</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal">-<sp/>(void)textViewDidBeginEditing:(UITextView<sp/>*)textView<sp/>{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.placeHolderTextView.hidden<sp/>=<sp/>YES;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>if<sp/>(self.textViewDelegate)<sp/>{</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="40"><highlight class="normal">-<sp/>(void)textViewDidEndEditing:(UITextView<sp/>*)textView<sp/>{</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(textView.text<sp/>&amp;&amp;<sp/>[textView.text<sp/>isEqualToString:</highlight><highlight class="stringliteral">@&quot;&quot;</highlight><highlight class="normal">])<sp/>{</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.placeHolderTextView.hidden<sp/>=<sp/>NO;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="44"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UITextView/UITextView+PlaceHolder.m"/>
+  </compounddef>
+</doxygen>

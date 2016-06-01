@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_u_i_image_view_09_better_face_8h" kind="file" language="C++">
+    <compoundname>UIImageView+BetterFace.h</compoundname>
+    <includes local="no">UIKit/UIKit.h</includes>
+    <includedby refid="_u_i_image_view_09_better_face_8m" local="yes">XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImageView/UIImageView+BetterFace.m</includedby>
+    <incdepgraph>
+      <node id="1607">
+        <label>UIKit/UIKit.h</label>
+      </node>
+      <node id="1606">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImageView/UIImageView+BetterFace.h</label>
+        <link refid="UIImageView+BetterFace.h"/>
+        <childnode refid="1607" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1608">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImageView/UIImageView+BetterFace.h</label>
+        <link refid="UIImageView+BetterFace.h"/>
+        <childnode refid="1609" relation="include">
+        </childnode>
+      </node>
+      <node id="1609">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImageView/UIImageView+BetterFace.m</label>
+        <link refid="_u_i_image_view_09_better_face_8m"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="category_u_i_image_view_07_better_face_08" prot="public">UIImageView(BetterFace)</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>UIImageView+BetterFace.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>bf</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>croath<sp/>on<sp/>13-10-22.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2013年<sp/>Croath.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="comment">//<sp/>https://github.com/croath/UIImageView-BetterFace</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>a<sp/>UIImageView<sp/>category<sp/>to<sp/>let<sp/>the<sp/>picture-cutting<sp/>with<sp/>faces<sp/>showing<sp/>better</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;UIKit/UIKit.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="category_u_i_image_view_07_better_face_08" kindref="compound">UIImageView (BetterFace)</ref></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="category_u_i_image_view_07_better_face_08_1ac90d56f95bf0ca708a8db316dd9c7ba9" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic)<sp/>BOOL<sp/><ref refid="category_u_i_image_view_07_better_face_08_1ac90d56f95bf0ca708a8db316dd9c7ba9" kindref="member">needsBetterFace</ref>;</highlight></codeline>
+<codeline lineno="16" refid="category_u_i_image_view_07_better_face_08_1ab02defd7672229a5cf06017a51a54173" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic)<sp/>BOOL<sp/><ref refid="category_u_i_image_view_07_better_face_08_1ab02defd7672229a5cf06017a51a54173" kindref="member">fast</ref>;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="category_u_i_image_view_07_better_face_08_1a81c2f9ffbd719999d4854a69533a8561" kindref="member">hack_uiimageview_bf</ref>();</highlight></codeline>
+<codeline lineno="19"><highlight class="normal">-<sp/>(void)setBetterFaceImage:(UIImage<sp/>*)image;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImageView/UIImageView+BetterFace.h"/>
+  </compounddef>
+</doxygen>

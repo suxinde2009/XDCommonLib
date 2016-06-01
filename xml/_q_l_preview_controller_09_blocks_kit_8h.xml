@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_q_l_preview_controller_09_blocks_kit_8h" kind="file" language="C++">
+    <compoundname>QLPreviewController+BlocksKit.h</compoundname>
+    <includes refid="_b_k_defines_8h" local="yes">BKDefines.h</includes>
+    <includes local="no">QuickLook/QuickLook.h</includes>
+    <includedby refid="_q_l_preview_controller_09_blocks_kit_8m" local="yes">XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/QuickLook/QLPreviewController+BlocksKit.m</includedby>
+    <incdepgraph>
+      <node id="3008">
+        <label>Foundation/NSObjCRuntime.h</label>
+      </node>
+      <node id="3009">
+        <label>QuickLook/QuickLook.h</label>
+      </node>
+      <node id="3006">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/QuickLook/QLPreviewController+BlocksKit.h</label>
+        <link refid="QLPreviewController+BlocksKit.h"/>
+        <childnode refid="3007" relation="include">
+        </childnode>
+        <childnode refid="3009" relation="include">
+        </childnode>
+      </node>
+      <node id="3007">
+        <label>BKDefines.h</label>
+        <link refid="_b_k_defines_8h"/>
+        <childnode refid="3008" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3010">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/QuickLook/QLPreviewController+BlocksKit.h</label>
+        <link refid="QLPreviewController+BlocksKit.h"/>
+        <childnode refid="3011" relation="include">
+        </childnode>
+      </node>
+      <node id="3011">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/QuickLook/QLPreviewController+BlocksKit.m</label>
+        <link refid="_q_l_preview_controller_09_blocks_kit_8m"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="category_q_l_preview_controller_07_blocks_kit_08" prot="public">QLPreviewController(BlocksKit)</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>QLPreviewController+BlocksKit.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>BlocksKit</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_b_k_defines_8h" kindref="compound">BKDefines.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;QuickLook/QuickLook.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><ref refid="_b_k_defines_8h_1a33c08c6ca8f22acd327c850ca2151f17" kindref="member">NS_ASSUME_NONNULL_BEGIN</ref></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="category_q_l_preview_controller_07_blocks_kit_08" kindref="compound">QLPreviewController (BlocksKit)</ref></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>copy,<sp/>setter<sp/>=<sp/>bk_setFrameForPreviewItemInSourceView:,<sp/><ref refid="_c_a_shape_layer_09_u_i_bezier_path_8h_1a02648067ad66739ed70a10195891098a" kindref="member">nullable</ref>)<sp/>CGRect<sp/>(^<ref refid="category_q_l_preview_controller_07_blocks_kit_08_1a3298ee129cef7f5d27a71e7ee735fd9b" kindref="member">bk_frameForPreviewItem</ref>)(QLPreviewController<sp/>*controller,<sp/>id&lt;QLPreviewItem&gt;item,<sp/>UIView<sp/>*_Nullable<sp/>*_Nonnull);</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>copy,<sp/>setter<sp/>=<sp/>bk_setTransitionImageForPreviewItem:,<sp/><ref refid="_c_a_shape_layer_09_u_i_bezier_path_8h_1a02648067ad66739ed70a10195891098a" kindref="member">nullable</ref>)<sp/>UIImage<sp/>*(^<ref refid="category_q_l_preview_controller_07_blocks_kit_08_1a3278417e367041ade22e75c285178efb" kindref="member">bk_transitionImageForPreviewItem</ref>)(QLPreviewController<sp/>*controller,<sp/>id&lt;QLPreviewItem&gt;<sp/>item,<sp/>CGRect<sp/>*contentRect);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>copy,<sp/>setter<sp/>=<sp/>bk_setShouldOpenURLForPreviewItem:,<sp/><ref refid="_c_a_shape_layer_09_u_i_bezier_path_8h_1a02648067ad66739ed70a10195891098a" kindref="member">nullable</ref>)<sp/>BOOL<sp/>(^<ref refid="category_q_l_preview_controller_07_blocks_kit_08_1aa8459a81bcb857156979c48b83fc8728" kindref="member">bk_shouldOpenURLForPreviewItem</ref>)(QLPreviewController<sp/>*controller,<sp/>NSURL<sp/>*url,<sp/>id&lt;QLPreviewItem&gt;<sp/>item);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>copy,<sp/>setter<sp/>=<sp/>bk_setWillDismissBlock:,<sp/><ref refid="_c_a_shape_layer_09_u_i_bezier_path_8h_1a02648067ad66739ed70a10195891098a" kindref="member">nullable</ref>)<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(^<ref refid="category_q_l_preview_controller_07_blocks_kit_08_1a054f8bce428901885c98c575904e06f9" kindref="member">bk_willDismissBlock</ref>)(QLPreviewController<sp/>*controller);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>copy,<sp/>setter<sp/>=<sp/>bk_setDidDismissBlock:,<sp/><ref refid="_c_a_shape_layer_09_u_i_bezier_path_8h_1a02648067ad66739ed70a10195891098a" kindref="member">nullable</ref>)<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(^<ref refid="category_q_l_preview_controller_07_blocks_kit_08_1add7ccb9fb2cfd1b039c87bc243dee0b1" kindref="member">bk_didDismissBlock</ref>)(QLPreviewController<sp/>*controller);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><ref refid="_b_k_defines_8h_1a34f05dab7f212780aa8f76bbb465ce67" kindref="member">NS_ASSUME_NONNULL_END</ref></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/QuickLook/QLPreviewController+BlocksKit.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_x_d_pin_yin_8h" kind="file" language="C++">
+    <compoundname>XDPinYin.h</compoundname>
+    <includes local="no">Foundation/Foundation.h</includes>
+    <includedby refid="_x_d_pin_yin_8m" local="yes">XDCommonLib/CommonBasicComponentLayer/Utils/XDPinYin/XDPinYin.m</includedby>
+    <incdepgraph>
+      <node id="3539">
+        <label>Foundation/Foundation.h</label>
+      </node>
+      <node id="3538">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/XDPinYin/XDPinYin.h</label>
+        <link refid="XDPinYin.h"/>
+        <childnode refid="3539" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3540">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/XDPinYin/XDPinYin.h</label>
+        <link refid="XDPinYin.h"/>
+        <childnode refid="3541" relation="include">
+        </childnode>
+      </node>
+      <node id="3541">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/XDPinYin/XDPinYin.m</label>
+        <link refid="_x_d_pin_yin_8m"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_x_d_pin_yin" prot="public">XDPinYin</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>XDPinYin.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>XDCommonLib</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>SuXinDe<sp/>on<sp/>16/5/25.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>©<sp/>2016年<sp/>su<sp/>xinde.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;Foundation/Foundation.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="class_x_d_pin_yin" kindref="compound">XDPinYin</ref><sp/>:<sp/>NSObject</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal">+<sp/>(NSString<sp/>*)convert:(NSString<sp/>*)<sp/>hzStr;</highlight><highlight class="comment">//输入中文，返回拼音。</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal">+<sp/>(NSString<sp/>*)quickConvert:(NSString<sp/>*)hzStr;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal">+<sp/>(void)<ref refid="class_x_d_pin_yin_1ac8748f3658e1043fba638c58eb9a7b71" kindref="member">clearCache</ref>;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDPinYin/XDPinYin.h"/>
+  </compounddef>
+</doxygen>

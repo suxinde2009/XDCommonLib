@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_u_i_text_field_09_select_8m" kind="file" language="Objective-C">
+    <compoundname>UITextField+Select.m</compoundname>
+    <includes refid="_u_i_text_field_09_select_8h" local="yes">UITextField+Select.h</includes>
+    <incdepgraph>
+      <node id="1908">
+        <label>UIKit/UIKit.h</label>
+      </node>
+      <node id="1907">
+        <label>UITextField+Select.h</label>
+        <link refid="_u_i_text_field_09_select_8h"/>
+        <childnode refid="1908" relation="include">
+        </childnode>
+      </node>
+      <node id="1906">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UITextField/UITextField+Select.m</label>
+        <link refid="UITextField+Select.m"/>
+        <childnode refid="1907" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>UITextField+Select.m</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>iOS-Categories<sp/>(https://github.com/shaojiankui/iOS-Categories)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Jakey<sp/>on<sp/>15/6/1.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2015年<sp/>www.skyfox.org.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_u_i_text_field_09_select_8h" kindref="compound">UITextField+Select.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="category_u_i_text_field_07_select_08" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">@implementation<sp/></highlight><highlight class="normal"><ref refid="category_u_i_text_field_07_select_08" kindref="compound">UITextField (Select)</ref></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="category_u_i_text_field_07_select_08_1a881fb80187e9cd9c1d40f000f8504d38" refkind="member"><highlight class="normal">-<sp/>(NSRange)<ref refid="category_u_i_text_field_07_select_08_1a881fb80187e9cd9c1d40f000f8504d38" kindref="member">selectedRange</ref></highlight></codeline>
+<codeline lineno="19"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>UITextPosition*<sp/>beginning<sp/>=<sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.beginningOfDocument;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>UITextRange*<sp/><ref refid="category_u_i_text_field_07_select_08_1a881fb80187e9cd9c1d40f000f8504d38" kindref="member">selectedRange</ref><sp/>=<sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.selectedTextRange;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>UITextPosition*<sp/>selectionStart<sp/>=<sp/><ref refid="category_u_i_text_field_07_select_08_1a881fb80187e9cd9c1d40f000f8504d38" kindref="member">selectedRange</ref>.start;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>UITextPosition*<sp/>selectionEnd<sp/>=<sp/><ref refid="category_u_i_text_field_07_select_08_1a881fb80187e9cd9c1d40f000f8504d38" kindref="member">selectedRange</ref>.end;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>NSInteger<sp/>location<sp/>=<sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>offsetFromPosition:beginning<sp/>toPosition:selectionStart];</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>NSInteger<sp/>length<sp/>=<sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>offsetFromPosition:selectionStart<sp/>toPosition:selectionEnd];</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>NSMakeRange(location,<sp/>length);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="34" refid="category_u_i_text_field_07_select_08_1a153c002e50a7ecab028f72cc1a20b211" refkind="member"><highlight class="normal">-<sp/>(void)<ref refid="category_u_i_text_field_07_select_08_1a153c002e50a7ecab028f72cc1a20b211" kindref="member">selectAllText</ref><sp/>{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>UITextRange<sp/>*range<sp/>=<sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>textRangeFromPosition:self.beginningOfDocument<sp/>toPosition:self.endOfDocument];</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>setSelectedTextRange:range];</highlight></codeline>
+<codeline lineno="37"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="43" refid="category_u_i_text_field_07_select_08_1a9e9dfca6cba05998254f5a9d577866ef" refkind="member"><highlight class="normal">-<sp/>(void)setSelectedRange:(NSRange)range<sp/>{</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>UITextPosition<sp/>*beginning<sp/>=<sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.beginningOfDocument;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>UITextPosition<sp/>*startPosition<sp/>=<sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>positionFromPosition:beginning<sp/>offset:range.location];</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>UITextPosition<sp/>*endPosition<sp/>=<sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>positionFromPosition:beginning<sp/>offset:NSMaxRange(range)];</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>UITextRange<sp/>*selectionRange<sp/>=<sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>textRangeFromPosition:startPosition<sp/>toPosition:endPosition];</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>setSelectedTextRange:selectionRange];</highlight></codeline>
+<codeline lineno="49"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UITextField/UITextField+Select.m"/>
+  </compounddef>
+</doxygen>

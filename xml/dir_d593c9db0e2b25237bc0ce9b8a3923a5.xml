@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="dir_d593c9db0e2b25237bc0ce9b8a3923a5" kind="dir">
+    <compoundname>XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSData</compoundname>
+    <innerfile refid="_n_s_data_09_a_p_n_s_token_8h">NSData+APNSToken.h</innerfile>
+    <innerfile refid="_n_s_data_09_a_p_n_s_token_8m">NSData+APNSToken.m</innerfile>
+    <innerfile refid="_n_s_data_09_base64_8h">NSData+Base64.h</innerfile>
+    <innerfile refid="_n_s_data_09_base64_8m">NSData+Base64.m</innerfile>
+    <innerfile refid="_n_s_data_09_encrypt_8h">NSData+Encrypt.h</innerfile>
+    <innerfile refid="_n_s_data_09_encrypt_8m">NSData+Encrypt.m</innerfile>
+    <innerfile refid="_n_s_data_09_gzip_8h">NSData+Gzip.h</innerfile>
+    <innerfile refid="_n_s_data_09_gzip_8m">NSData+Gzip.m</innerfile>
+    <innerfile refid="_n_s_data_09_hash_8h">NSData+Hash.h</innerfile>
+    <innerfile refid="_n_s_data_09_hash_8m">NSData+Hash.m</innerfile>
+    <innerfile refid="_n_s_data_09_image_content_type_8h">NSData+ImageContentType.h</innerfile>
+    <innerfile refid="_n_s_data_09_image_content_type_8m">NSData+ImageContentType.m</innerfile>
+    <innerfile refid="_n_s_data_09_s_d_data_cache_8h">NSData+SDDataCache.h</innerfile>
+    <innerfile refid="_n_s_data_09_s_d_data_cache_8m">NSData+SDDataCache.m</innerfile>
+    <innerfile refid="_n_s_data_09_x_d_common_lib_8h">NSData+XDCommonLib.h</innerfile>
+    <innerfile refid="_n_s_data_09_x_d_common_lib_8m">NSData+XDCommonLib.m</innerfile>
+    <innerfile refid="_n_s_data_09zlib_8h">NSData+zlib.h</innerfile>
+    <innerfile refid="_n_s_data_09zlib_8m">NSData+zlib.m</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSData/"/>
+  </compounddef>
+</doxygen>

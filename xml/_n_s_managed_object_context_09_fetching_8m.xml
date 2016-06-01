@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_n_s_managed_object_context_09_fetching_8m" kind="file" language="Objective-C">
+    <compoundname>NSManagedObjectContext+Fetching.m</compoundname>
+    <includes refid="_n_s_managed_object_context_09_fetching_8h" local="yes">NSManagedObjectContext+Fetching.h</includes>
+    <incdepgraph>
+      <node id="180">
+        <label>CoreData/CoreData.h</label>
+      </node>
+      <node id="179">
+        <label>NSManagedObjectContext+Fetching.h</label>
+        <link refid="_n_s_managed_object_context_09_fetching_8h"/>
+        <childnode refid="180" relation="include">
+        </childnode>
+      </node>
+      <node id="178">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSManagedObjectContext/NSManagedObjectContext+Fetching.m</label>
+        <link refid="NSManagedObjectContext+Fetching.m"/>
+        <childnode refid="179" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>NSManagedObjectContext+Fetching.m</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Nicolas<sp/>Goutaland<sp/>on<sp/>04/04/15.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>2015<sp/>Nicolas<sp/>Goutaland.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_n_s_managed_object_context_09_fetching_8h" kindref="compound">NSManagedObjectContext+Fetching.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="category_n_s_managed_object_context_07_fetching_08" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">@implementation<sp/></highlight><highlight class="normal"><ref refid="category_n_s_managed_object_context_07_fetching_08" kindref="compound">NSManagedObjectContext(Fetching)</ref></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/>Fetching</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="category_n_s_managed_object_context_07_fetching_08_1a8ca186adbe079228c9465fbc350f2074" refkind="member"><highlight class="normal">-<sp/>(id)fetchObject:(NSString*)entityName<sp/>usingValue:(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)value<sp/>forKey:(NSString<sp/>*)key<sp/>returningAsFault:(BOOL)fault</highlight></codeline>
+<codeline lineno="13"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/><ref refid="category_n_s_managed_object_context_07_fetching_08_1aae38969596713752b9309b57111b1713" kindref="member">fetchObject</ref>:entityName</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="category_n_s_managed_object_context_07_fetching_08_1aae38969596713752b9309b57111b1713" kindref="member">usingPredicate</ref>:[NSPredicate<sp/>predicateWithFormat:@&quot;%K<sp/>==<sp/>%@&quot;,<sp/>key,<sp/>value]</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="category_n_s_managed_object_context_07_fetching_08_1aae38969596713752b9309b57111b1713" kindref="member">returningAsFault</ref>:fault];</highlight></codeline>
+<codeline lineno="17"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="category_n_s_managed_object_context_07_fetching_08_1aae38969596713752b9309b57111b1713" refkind="member"><highlight class="normal">-<sp/>(id)fetchObject:(NSString*)entityName<sp/>usingPredicate:(NSPredicate*)predicate<sp/>returningAsFault:(BOOL)fault</highlight></codeline>
+<codeline lineno="20"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Create<sp/>request</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>NSFetchRequest<sp/>*req<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>[[NSFetchRequest<sp/>alloc]<sp/>init];</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>req.entity<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>[NSEntityDescription<sp/>entityForName:entityName<sp/>inManagedObjectContext:self];</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>req.predicate<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>predicate;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>req.fetchLimit<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>req.returnsObjectsAsFaults<sp/>=<sp/>fault;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Execute<sp/>request</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>executeFetchRequest:req</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>error:nil]<sp/>lastObject];</highlight></codeline>
+<codeline lineno="32"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34" refid="category_n_s_managed_object_context_07_fetching_08_1a9c4e61bfec0dc203f87d695a8436a582" refkind="member"><highlight class="normal">-<sp/>(NSArray<sp/>*)fetchObjects:(NSString*)entityName<sp/>usingPredicate:(NSPredicate*)predicate<sp/>returningAsFault:(BOOL)fault</highlight></codeline>
+<codeline lineno="35"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Create<sp/>request</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>NSFetchRequest<sp/>*req<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>[[NSFetchRequest<sp/>alloc]<sp/>init];</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>req.entity<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>[NSEntityDescription<sp/>entityForName:entityName<sp/>inManagedObjectContext:self];</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>req.predicate<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>predicate;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>req.returnsObjectsAsFaults<sp/>=<sp/>fault;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Execute<sp/>request</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>executeFetchRequest:req</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>error:nil];</highlight></codeline>
+<codeline lineno="46"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48" refid="category_n_s_managed_object_context_07_fetching_08_1afefcf25cc1376db14629bd8b4e6fa674" refkind="member"><highlight class="normal">-<sp/>(NSArray<sp/>*)fetchObjects:(NSString*)entityName<sp/>usingSortDescriptors:(NSArray*)sortDescriptors<sp/>returningAsFault:(BOOL)fault</highlight></codeline>
+<codeline lineno="49"><highlight class="normal">{<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Create<sp/>request</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>NSFetchRequest<sp/>*req<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>[[NSFetchRequest<sp/>alloc]<sp/>init];</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/>req.entity<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>[NSEntityDescription<sp/>entityForName:entityName<sp/>inManagedObjectContext:self];</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>req.sortDescriptors<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>sortDescriptors;</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/>req.returnsObjectsAsFaults<sp/>=<sp/>fault;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Execute<sp/>request</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>executeFetchRequest:req</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>error:nil];</highlight></codeline>
+<codeline lineno="60"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62" refid="category_n_s_managed_object_context_07_fetching_08_1aeaa9c64224cffa7f42d9d4bd323041e6" refkind="member"><highlight class="normal">-<sp/>(NSArray<sp/>*)fetchObjects:(NSString*)entityName<sp/>usingPredicate:(NSPredicate*)predicate<sp/>usingSortDescriptors:(NSArray*)sortDescriptors<sp/>returningAsFault:(BOOL)fault</highlight></codeline>
+<codeline lineno="63"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Create<sp/>request</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/>NSFetchRequest<sp/>*req<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>[[NSFetchRequest<sp/>alloc]<sp/>init];</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>req.entity<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>[NSEntityDescription<sp/>entityForName:entityName<sp/>inManagedObjectContext:self];</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/>req.sortDescriptors<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>sortDescriptors;</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/>req.predicate<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>predicate;</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>req.returnsObjectsAsFaults<sp/>=<sp/>fault;</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Execute<sp/>request</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>executeFetchRequest:req</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>error:nil];</highlight></codeline>
+<codeline lineno="75"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77" refid="category_n_s_managed_object_context_07_fetching_08_1a385c4cbbb71bc31184bafa951234c05d" refkind="member"><highlight class="normal">-<sp/>(NSArray*)fetchObjects:(NSString*)entityName<sp/>returningAsFault:(BOOL)fault</highlight></codeline>
+<codeline lineno="78"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/><ref refid="category_n_s_managed_object_context_07_fetching_08_1afefcf25cc1376db14629bd8b4e6fa674" kindref="member">fetchObjects</ref>:entityName<sp/><ref refid="category_n_s_managed_object_context_07_fetching_08_1afefcf25cc1376db14629bd8b4e6fa674" kindref="member">usingSortDescriptors</ref>:nil<sp/><ref refid="category_n_s_managed_object_context_07_fetching_08_1afefcf25cc1376db14629bd8b4e6fa674" kindref="member">returningAsFault</ref>:fault];</highlight></codeline>
+<codeline lineno="80"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/>-<sp/>Count</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="83" refid="category_n_s_managed_object_context_07_fetching_08_1afea764b1783355f8b5fe2a49c3122227" refkind="member"><highlight class="normal">-<sp/>(NSInteger)countObjects:(NSString*)entityName</highlight></codeline>
+<codeline lineno="84"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/><ref refid="category_n_s_managed_object_context_07_fetching_08_1a2ed69403227951fbbb5a4c46e5b45007" kindref="member">countObjects</ref>:entityName<sp/><ref refid="category_n_s_managed_object_context_07_fetching_08_1a2ed69403227951fbbb5a4c46e5b45007" kindref="member">usingPredicate</ref>:nil];</highlight></codeline>
+<codeline lineno="86"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88" refid="category_n_s_managed_object_context_07_fetching_08_1a2ed69403227951fbbb5a4c46e5b45007" refkind="member"><highlight class="normal">-<sp/>(NSInteger)countObjects:(NSString*)entityName<sp/>usingPredicate:(NSPredicate*)predicate</highlight></codeline>
+<codeline lineno="89"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Create<sp/>request</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/>NSFetchRequest<sp/>*req<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>[[NSFetchRequest<sp/>alloc]<sp/>init];</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/>req.entity<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>[NSEntityDescription<sp/>entityForName:entityName<sp/>inManagedObjectContext:self];</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/>req.resultType<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>NSDictionaryResultType;</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/>req.predicate<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>predicate;</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/>req.returnsObjectsAsFaults<sp/>=<sp/>YES;</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Execute<sp/>request</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>countForFetchRequest:req<sp/>error:nil];</highlight></codeline>
+<codeline lineno="100"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSManagedObjectContext/NSManagedObjectContext+Fetching.m"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,167 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_n_s_date_formatter_07_make_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>NSDateFormatter(Make)</compoundname>
+    <includes refid="_n_s_date_formatter_09_make_8h" local="no">NSDateFormatter+Make.h</includes>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="category_n_s_date_formatter_07_make_08_1ab991489ad3e14ec1849a4a446d32afc1" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSDateFormatter *</type>
+        <definition>NSDateFormatter * NSDateFormatter(Make)::dateFormatterWithFormat:</definition>
+        <argsstring>(NSString *format)</argsstring>
+        <name>dateFormatterWithFormat:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>format</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDateFormatter/NSDateFormatter+Make.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDateFormatter/NSDateFormatter+Make.m" bodystart="13" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_formatter_07_make_08_1ac6356a13485e3e5e6b0b9e3617087bd1" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSDateFormatter *</type>
+        <definition>NSDateFormatter * NSDateFormatter(Make)::dateFormatterWithFormat:timeZone:</definition>
+        <argsstring>(NSString *format,[timeZone] NSTimeZone *timeZone)</argsstring>
+        <name>dateFormatterWithFormat:timeZone:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>format</declname>
+        </param>
+        <param>
+          <attributes>[timeZone]</attributes>
+          <type>NSTimeZone *</type>
+          <declname>timeZone</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDateFormatter/NSDateFormatter+Make.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDateFormatter/NSDateFormatter+Make.m" bodystart="17" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_formatter_07_make_08_1a84ce5a8ba923f74f4fb4b5802e2a6c2d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSDateFormatter *</type>
+        <definition>NSDateFormatter * NSDateFormatter(Make)::dateFormatterWithFormat:timeZone:locale:</definition>
+        <argsstring>(NSString *format,[timeZone] NSTimeZone *timeZone,[locale] NSLocale *locale)</argsstring>
+        <name>dateFormatterWithFormat:timeZone:locale:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>format</declname>
+        </param>
+        <param>
+          <attributes>[timeZone]</attributes>
+          <type>NSTimeZone *</type>
+          <declname>timeZone</declname>
+        </param>
+        <param>
+          <attributes>[locale]</attributes>
+          <type>NSLocale *</type>
+          <declname>locale</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDateFormatter/NSDateFormatter+Make.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDateFormatter/NSDateFormatter+Make.m" bodystart="21" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_formatter_07_make_08_1ab516a8bca0158d7ac1afa131d669d80b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSDateFormatter *</type>
+        <definition>NSDateFormatter * NSDateFormatter(Make)::dateFormatterWithDateStyle:</definition>
+        <argsstring>(NSDateFormatterStyle style)</argsstring>
+        <name>dateFormatterWithDateStyle:</name>
+        <param>
+          <type>NSDateFormatterStyle</type>
+          <declname>style</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDateFormatter/NSDateFormatter+Make.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDateFormatter/NSDateFormatter+Make.m" bodystart="39" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_formatter_07_make_08_1a07b337c669cbc0b57e834ee58f51f223" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSDateFormatter *</type>
+        <definition>NSDateFormatter * NSDateFormatter(Make)::dateFormatterWithDateStyle:timeZone:</definition>
+        <argsstring>(NSDateFormatterStyle style,[timeZone] NSTimeZone *timeZone)</argsstring>
+        <name>dateFormatterWithDateStyle:timeZone:</name>
+        <param>
+          <type>NSDateFormatterStyle</type>
+          <declname>style</declname>
+        </param>
+        <param>
+          <attributes>[timeZone]</attributes>
+          <type>NSTimeZone *</type>
+          <declname>timeZone</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDateFormatter/NSDateFormatter+Make.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDateFormatter/NSDateFormatter+Make.m" bodystart="43" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_formatter_07_make_08_1a2451000091d8b6bf2c23aba694bad169" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSDateFormatter *</type>
+        <definition>NSDateFormatter * NSDateFormatter(Make)::dateFormatterWithTimeStyle:</definition>
+        <argsstring>(NSDateFormatterStyle style)</argsstring>
+        <name>dateFormatterWithTimeStyle:</name>
+        <param>
+          <type>NSDateFormatterStyle</type>
+          <declname>style</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDateFormatter/NSDateFormatter+Make.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDateFormatter/NSDateFormatter+Make.m" bodystart="59" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_formatter_07_make_08_1ae1e0b367ad9a302d7635237615e3ab13" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSDateFormatter *</type>
+        <definition>NSDateFormatter * NSDateFormatter(Make)::dateFormatterWithTimeStyle:timeZone:</definition>
+        <argsstring>(NSDateFormatterStyle style,[timeZone] NSTimeZone *timeZone)</argsstring>
+        <name>dateFormatterWithTimeStyle:timeZone:</name>
+        <param>
+          <type>NSDateFormatterStyle</type>
+          <declname>style</declname>
+        </param>
+        <param>
+          <attributes>[timeZone]</attributes>
+          <type>NSTimeZone *</type>
+          <declname>timeZone</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDateFormatter/NSDateFormatter+Make.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDateFormatter/NSDateFormatter+Make.m" bodystart="63" bodyend="77"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDateFormatter/NSDateFormatter+Make.m" line="11" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDateFormatter/NSDateFormatter+Make.m" bodystart="11" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_n_s_date_formatter_07_make_08_1ab516a8bca0158d7ac1afa131d669d80b" prot="public" virt="virtual"><scope>NSDateFormatter(Make)</scope><name>dateFormatterWithDateStyle:</name></member>
+      <member refid="category_n_s_date_formatter_07_make_08_1a07b337c669cbc0b57e834ee58f51f223" prot="public" virt="virtual"><scope>NSDateFormatter(Make)</scope><name>dateFormatterWithDateStyle:timeZone:</name></member>
+      <member refid="category_n_s_date_formatter_07_make_08_1ab991489ad3e14ec1849a4a446d32afc1" prot="public" virt="virtual"><scope>NSDateFormatter(Make)</scope><name>dateFormatterWithFormat:</name></member>
+      <member refid="category_n_s_date_formatter_07_make_08_1ac6356a13485e3e5e6b0b9e3617087bd1" prot="public" virt="virtual"><scope>NSDateFormatter(Make)</scope><name>dateFormatterWithFormat:timeZone:</name></member>
+      <member refid="category_n_s_date_formatter_07_make_08_1a84ce5a8ba923f74f4fb4b5802e2a6c2d" prot="public" virt="virtual"><scope>NSDateFormatter(Make)</scope><name>dateFormatterWithFormat:timeZone:locale:</name></member>
+      <member refid="category_n_s_date_formatter_07_make_08_1a2451000091d8b6bf2c23aba694bad169" prot="public" virt="virtual"><scope>NSDateFormatter(Make)</scope><name>dateFormatterWithTimeStyle:</name></member>
+      <member refid="category_n_s_date_formatter_07_make_08_1ae1e0b367ad9a302d7635237615e3ab13" prot="public" virt="virtual"><scope>NSDateFormatter(Make)</scope><name>dateFormatterWithTimeStyle:timeZone:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

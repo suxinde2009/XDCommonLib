@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_u_i_view_07_screenshot_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>UIView(Screenshot)</compoundname>
+    <includes refid="_u_i_view_09_screenshot_8h" local="no">UIView+Screenshot.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="category_u_i_view_07_screenshot_08_1a88a0323a772410a28a53469b81729c4a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>UIImage *</type>
+        <definition>UIImage * UIView(Screenshot)::screenshot</definition>
+        <argsstring>()</argsstring>
+        <name>screenshot</name>
+        <briefdescription>
+<para>view截图 </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>截图 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Screenshot.h" line="11" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Screenshot.m" bodystart="17" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_view_07_screenshot_08_1a51d41f06226a551a7d25ff2364ccb1e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>UIImage *</type>
+        <definition>UIImage * UIView(Screenshot)::screenshot:</definition>
+        <argsstring>(CGFloat maxWidth)</argsstring>
+        <name>screenshot:</name>
+        <param>
+          <type>CGFloat</type>
+          <declname>maxWidth</declname>
+        </param>
+        <briefdescription>
+<para>截图一个view中所有视图 包括旋转缩放效果 </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="author"><para>Jakey</para></simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>aView</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>一个view </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>limitWidth</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>限制缩放的最大宽度 保持默认传0</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>截图 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Screenshot.h" line="11" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Screenshot.m" bodystart="42" bodyend="88"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Screenshot.m" line="11" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Screenshot.m" bodystart="11" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_u_i_view_07_screenshot_08_1a88a0323a772410a28a53469b81729c4a" prot="public" virt="virtual"><scope>UIView(Screenshot)</scope><name>screenshot</name></member>
+      <member refid="category_u_i_view_07_screenshot_08_1a51d41f06226a551a7d25ff2364ccb1e3" prot="public" virt="virtual"><scope>UIView(Screenshot)</scope><name>screenshot:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

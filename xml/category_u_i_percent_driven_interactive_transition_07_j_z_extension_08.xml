@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_u_i_percent_driven_interactive_transition_07_j_z_extension_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>UIPercentDrivenInteractiveTransition(JZExtension)</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="category_u_i_percent_driven_interactive_transition_07_j_z_extension_08_1a2052d08d680772eddc86094e210df3c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UIPercentDrivenInteractiveTransition(JZExtension)::_updateInteractiveTransition:</definition>
+        <argsstring>(CGFloat percentComplete)</argsstring>
+        <name>_updateInteractiveTransition:</name>
+        <param>
+          <type>CGFloat</type>
+          <declname>percentComplete</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UINavigationController/UINavigationController+JZExtension.m" line="41" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UINavigationController/UINavigationController+JZExtension.m" bodystart="420" bodyend="429"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_percent_driven_interactive_transition_07_j_z_extension_08_1a35ee5058ce0def067f805f77153259ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UIPercentDrivenInteractiveTransition(JZExtension)::_cancelInteractiveTransition</definition>
+        <argsstring>()</argsstring>
+        <name>_cancelInteractiveTransition</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UINavigationController/UINavigationController+JZExtension.m" line="41" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UINavigationController/UINavigationController+JZExtension.m" bodystart="431" bodyend="434"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_percent_driven_interactive_transition_07_j_z_extension_08_1ad13407250ee8f805909eb84f87aa6ae0" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UIPercentDrivenInteractiveTransition(JZExtension)::_finishInteractiveTransition</definition>
+        <argsstring>()</argsstring>
+        <name>_finishInteractiveTransition</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UINavigationController/UINavigationController+JZExtension.m" line="41" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UINavigationController/UINavigationController+JZExtension.m" bodystart="436" bodyend="439"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UINavigationController/UINavigationController+JZExtension.m" line="45" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UINavigationController/UINavigationController+JZExtension.m" bodystart="45" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_u_i_percent_driven_interactive_transition_07_j_z_extension_08_1a35ee5058ce0def067f805f77153259ac" prot="public" virt="virtual"><scope>UIPercentDrivenInteractiveTransition(JZExtension)</scope><name>_cancelInteractiveTransition</name></member>
+      <member refid="category_u_i_percent_driven_interactive_transition_07_j_z_extension_08_1ad13407250ee8f805909eb84f87aa6ae0" prot="public" virt="virtual"><scope>UIPercentDrivenInteractiveTransition(JZExtension)</scope><name>_finishInteractiveTransition</name></member>
+      <member refid="category_u_i_percent_driven_interactive_transition_07_j_z_extension_08_1a2052d08d680772eddc86094e210df3c2" prot="public" virt="virtual"><scope>UIPercentDrivenInteractiveTransition(JZExtension)</scope><name>_updateInteractiveTransition:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

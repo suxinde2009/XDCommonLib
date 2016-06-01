@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="class_r_s_swizzle_info" kind="class" language="Objective-C" prot="public">
+    <compoundname>RSSwizzleInfo</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">NSObject</basecompoundref>
+    <includes refid="_r_s_swizzle_8h" local="no">RSSwizzle.h</includes>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_r_s_swizzle_info_1a8d4cede24d7e456abf49f86afb1f0db0" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="assign">
+        <type>SEL</type>
+        <definition>SEL RSSwizzleInfo::selector</definition>
+        <argsstring></argsstring>
+        <name>selector</name>
+        <read></read>
+        <briefdescription>
+<para>The selector of the swizzled method. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/RSSwizzle/RSSwizzle.h" line="156" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/RSSwizzle/RSSwizzle.h" bodystart="156" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_r_s_swizzle_info_1a2471835903186cad09e92dd7e7a491e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="_r_s_swizzle_8h_1a4ddcda67f7e6f952bf934c2f1fd589ee" kindref="member">RSSwizzleOriginalIMP</ref></type>
+        <definition>RSSwizzleOriginalIMP RSSwizzleInfo::getOriginalImplementation</definition>
+        <argsstring>()</argsstring>
+        <name>getOriginalImplementation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the original implementation of the swizzled method.</para><para>It is actually either an original implementation if the swizzled class implements the method itself; or a super implementation fetched from one of the superclasses.</para><para><simplesect kind="note"><para>You must always cast returned implementation to the appropriate function pointer when calling.</para></simplesect>
+<simplesect kind="return"><para>A function pointer to the original implementation of the swizzled method. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/RSSwizzle/RSSwizzle.h" line="173" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/RSSwizzle/RSSwizzle.m" bodystart="172" bodyend="176"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><ref refid="class_r_s_swizzle_info" kindref="compound">RSSwizzleInfo</ref> is used in the new implementation block to get and call original implementation of the swizzled method. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="700">
+        <label>RSSwizzleInfo</label>
+        <link refid="class_r_s_swizzle_info"/>
+        <childnode refid="701" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="701">
+        <label>NSObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="702">
+        <label>RSSwizzleInfo</label>
+        <link refid="class_r_s_swizzle_info"/>
+        <childnode refid="703" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="703">
+        <label>NSObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/RSSwizzle/RSSwizzle.m" line="170" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/RSSwizzle/RSSwizzle.m" bodystart="170" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="class_r_s_swizzle_info_1a2471835903186cad09e92dd7e7a491e2" prot="public" virt="virtual"><scope>RSSwizzleInfo</scope><name>getOriginalImplementation</name></member>
+      <member refid="class_r_s_swizzle_info_1a8d4cede24d7e456abf49f86afb1f0db0" prot="public" virt="non-virtual"><scope>RSSwizzleInfo</scope><name>selector</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

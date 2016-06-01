@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="interface_x_d_command_translator" kind="class" language="Objective-C" prot="public">
+    <compoundname>XDCommandTranslator</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">NSObject</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_x_d_command_translator_1a28597fc43a783096b0acac6735812c69" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * XDCommandTranslator::toCommandHandler:</definition>
+        <argsstring>(id command)</argsstring>
+        <name>toCommandHandler:</name>
+        <param>
+          <type>id</type>
+          <declname>command</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/LooseCoupling CommuniateLayer/CommandBus/XDCommandBus.m" line="19" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/LooseCoupling CommuniateLayer/CommandBus/XDCommandBus.m" bodystart="21" bodyend="26"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1259">
+        <label>XDCommandTranslator</label>
+        <link refid="interface_x_d_command_translator"/>
+        <childnode refid="1260" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1260">
+        <label>NSObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1261">
+        <label>XDCommandTranslator</label>
+        <link refid="interface_x_d_command_translator"/>
+        <childnode refid="1262" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1262">
+        <label>NSObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/LooseCoupling CommuniateLayer/CommandBus/XDCommandBus.m" line="12" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/LooseCoupling CommuniateLayer/CommandBus/XDCommandBus.m" bodystart="11" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="interface_x_d_command_translator_1a28597fc43a783096b0acac6735812c69" prot="public" virt="virtual"><scope>XDCommandTranslator</scope><name>toCommandHandler:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

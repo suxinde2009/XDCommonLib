@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_u_i_view_09_hierachy_8m" kind="file" language="Objective-C">
+    <compoundname>UIView+Hierachy.m</compoundname>
+    <includes refid="_u_i_view_09_hierachy_8h" local="yes">UIView+Hierachy.h</includes>
+    <incdepgraph>
+      <node id="2018">
+        <label>UIKit/UIKit.h</label>
+      </node>
+      <node id="2017">
+        <label>UIView+Hierachy.h</label>
+        <link refid="_u_i_view_09_hierachy_8h"/>
+        <childnode refid="2018" relation="include">
+        </childnode>
+      </node>
+      <node id="2016">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Hierachy.m</label>
+        <link refid="UIView+Hierachy.m"/>
+        <childnode refid="2017" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>UIView+Hierachy.m</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>XDCommonLib</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>su<sp/>xinde<sp/>on<sp/>15/11/27.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>©<sp/>2015年<sp/>su<sp/>xinde.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_u_i_view_09_hierachy_8h" kindref="compound">UIView+Hierachy.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="category_u_i_view_07_hierachy_08" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">@implementation<sp/></highlight><highlight class="normal"><ref refid="category_u_i_view_07_hierachy_08" kindref="compound">UIView (Hierachy)</ref></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Recursively<sp/>travel<sp/>down<sp/>the<sp/>view<sp/>tree,<sp/>increasing<sp/>the<sp/>indentation<sp/>level<sp/>for<sp/>children</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal">-<sp/>(void)dumpView:(UIView<sp/>*)aView</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>atIndent:(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)indent</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>into:(NSMutableString<sp/>*)outstring</highlight></codeline>
+<codeline lineno="17"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>indent;<sp/>i++)<sp/>[outstring<sp/>appendString:</highlight><highlight class="stringliteral">@&quot;--&quot;</highlight><highlight class="normal">];</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>[outstring<sp/>appendFormat:@&quot;[%2d]<sp/>%@\n&quot;,<sp/>indent,<sp/>[[aView<sp/>class]<sp/>description]];</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(UIView<sp/>*view<sp/>in<sp/>[aView<sp/>subviews])<sp/>{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>dumpView:view<sp/>atIndent:indent<sp/>+<sp/>1<sp/>into:outstring];</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="23"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Start<sp/>the<sp/>tree<sp/>recursion<sp/>at<sp/>level<sp/>0<sp/>with<sp/>the<sp/>root<sp/>view</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal">-<sp/>(NSString<sp/>*)displayViews:<sp/>(UIView<sp/>*)<sp/>aView</highlight></codeline>
+<codeline lineno="27"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>NSMutableString<sp/>*outstring<sp/>=<sp/>[[NSMutableString<sp/>alloc]<sp/>init];</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>dumpView:<sp/>aView<sp/>atIndent:0<sp/>into:outstring];</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>outstring;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="category_u_i_view_07_hierachy_08_1a22afc0ad26b00abcc31327b20090abfe" refkind="member"><highlight class="normal">-<sp/>(void)<ref refid="category_u_i_view_07_hierachy_08_1a22afc0ad26b00abcc31327b20090abfe" kindref="member">showViewHierarchy</ref></highlight></codeline>
+<codeline lineno="34"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>CFShow((__bridge<sp/>CFTypeRef)([</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>displayViews:<sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">]));</highlight></codeline>
+<codeline lineno="36"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Hierachy.m"/>
+  </compounddef>
+</doxygen>

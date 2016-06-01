@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_n_s_dictionary_07_u_r_l_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>NSDictionary(URL)</compoundname>
+    <includes refid="_n_s_dictionary_09_u_r_l_8h" local="no">NSDictionary+URL.h</includes>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="category_n_s_dictionary_07_u_r_l_08_1ad340dbf3c0c2238a3a7035cef2d146d6" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSDictionary *</type>
+        <definition>NSDictionary * NSDictionary(URL)::dictionaryWithURLQuery:</definition>
+        <argsstring>(NSString *query)</argsstring>
+        <name>dictionaryWithURLQuery:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>将url参数转换成NSDictionary </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>url参数</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>NSDictionary </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDictionary/NSDictionary+URL.h" line="49" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="category_n_s_dictionary_07_u_r_l_08_1aa5e3474f45abe73825cb032b3abb9d8a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * NSDictionary(URL)::URLQueryString</definition>
+        <argsstring>()</argsstring>
+        <name>URLQueryString</name>
+        <briefdescription>
+<para>将NSDictionary转换成url 参数字符串 </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>url 参数字符串 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDictionary/NSDictionary+URL.h" line="49" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDictionary/NSDictionary+URL.h" line="11" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDictionary/NSDictionary+URL.h" bodystart="11" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_n_s_dictionary_07_u_r_l_08_1ad340dbf3c0c2238a3a7035cef2d146d6" prot="public" virt="virtual"><scope>NSDictionary(URL)</scope><name>dictionaryWithURLQuery:</name></member>
+      <member refid="category_n_s_dictionary_07_u_r_l_08_1aa5e3474f45abe73825cb032b3abb9d8a" prot="public" virt="virtual"><scope>NSDictionary(URL)</scope><name>URLQueryString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

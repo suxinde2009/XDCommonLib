@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_n_s_dictionary_07_u_q___u_r_l_query_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>NSDictionary(UQ_URLQuery)</compoundname>
+    <includes refid="_n_s_u_r_l_09_query_dictionary_8h" local="no">NSURL+QueryDictionary.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="category_n_s_dictionary_07_u_q___u_r_l_query_08_1a627eda396886d43b03242a0bf4b95b35" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString* NSDictionary(UQ_URLQuery)::uq_URLQueryStringWithSortedKeys:</definition>
+        <argsstring>(BOOL sortedKeys)</argsstring>
+        <name>uq_URLQueryStringWithSortedKeys:</name>
+        <param>
+          <type>BOOL</type>
+          <declname>sortedKeys</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>URL query string component created from the keys and values in the dictionary. Returns nil for an empty dictionary. </para></simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sortedKeys</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Sorted the keys alphabetically? </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para>cavetas from the main <computeroutput>NSURL</computeroutput> category as well. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSURL/NSURL+QueryDictionary.h" line="11" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_dictionary_07_u_q___u_r_l_query_08_1a1d1b071dc91116dff7b816ad1a330e2a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString* NSDictionary(UQ_URLQuery)::uq_URLQueryString</definition>
+        <argsstring>()</argsstring>
+        <name>uq_URLQueryString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>As above, but <computeroutput>sortedKeys=NO</computeroutput> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSURL/NSURL+QueryDictionary.h" line="11" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSURL/NSURL+QueryDictionary.h" line="64" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSURL/NSURL+QueryDictionary.h" bodystart="64" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_n_s_dictionary_07_u_q___u_r_l_query_08_1a1d1b071dc91116dff7b816ad1a330e2a" prot="public" virt="virtual"><scope>NSDictionary(UQ_URLQuery)</scope><name>uq_URLQueryString</name></member>
+      <member refid="category_n_s_dictionary_07_u_q___u_r_l_query_08_1a627eda396886d43b03242a0bf4b95b35" prot="public" virt="virtual"><scope>NSDictionary(UQ_URLQuery)</scope><name>uq_URLQueryStringWithSortedKeys:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

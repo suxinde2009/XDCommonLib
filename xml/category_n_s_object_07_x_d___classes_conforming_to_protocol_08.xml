@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_n_s_object_07_x_d___classes_conforming_to_protocol_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>NSObject(XD_ClassesConformingToProtocol)</compoundname>
+    <includes refid="_n_s_object_09_x_d___classes_conforming_to_protocol_8h" local="no">NSObject+XD_ClassesConformingToProtocol.h</includes>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="category_n_s_object_07_x_d___classes_conforming_to_protocol_08_1a367dae8c0a99c636f89c8cdaf13e36cc" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSArray *</type>
+        <definition>NSArray * NSObject(XD_ClassesConformingToProtocol)::xd_ClassesConformingToProtocol:</definition>
+        <argsstring>(Protocol *protocol)</argsstring>
+        <name>xd_ClassesConformingToProtocol:</name>
+        <param>
+          <type>Protocol *</type>
+          <declname>protocol</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>获取实现某Protocol的一组类</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>protocol</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>指定的Protocol</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>实现该Protocol的一组类 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSObject/NSObject+XD_ClassesConformingToProtocol.h" line="85" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSObject/NSObject+XD_ClassesConformingToProtocol.m" bodystart="14" bodyend="31"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSObject/NSObject+XD_ClassesConformingToProtocol.m" line="12" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSObject/NSObject+XD_ClassesConformingToProtocol.m" bodystart="12" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_n_s_object_07_x_d___classes_conforming_to_protocol_08_1a367dae8c0a99c636f89c8cdaf13e36cc" prot="public" virt="virtual"><scope>NSObject(XD_ClassesConformingToProtocol)</scope><name>xd_ClassesConformingToProtocol:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

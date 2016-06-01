@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_x_d_camera_orientation_monitor_8h" kind="file" language="C++">
+    <compoundname>XDCameraOrientationMonitor.h</compoundname>
+    <includes local="no">Foundation/Foundation.h</includes>
+    <includes local="no">UIKit/UIKit.h</includes>
+    <includedby refid="_x_d_camera_orientation_monitor_8m" local="yes">XDCommonLib/CommonBasicComponentLayer/Utils/XDCameraOrientationMonitor.m</includedby>
+    <incdepgraph>
+      <node id="3314">
+        <label>UIKit/UIKit.h</label>
+      </node>
+      <node id="3313">
+        <label>Foundation/Foundation.h</label>
+      </node>
+      <node id="3312">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/XDCameraOrientationMonitor.h</label>
+        <link refid="XDCameraOrientationMonitor.h"/>
+        <childnode refid="3313" relation="include">
+        </childnode>
+        <childnode refid="3314" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3315">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/XDCameraOrientationMonitor.h</label>
+        <link refid="XDCameraOrientationMonitor.h"/>
+        <childnode refid="3316" relation="include">
+        </childnode>
+      </node>
+      <node id="3316">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/XDCameraOrientationMonitor.m</label>
+        <link refid="_x_d_camera_orientation_monitor_8m"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_x_d_camera_orientation_monitor" prot="public">XDCameraOrientationMonitor</innerclass>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="_x_d_camera_orientation_monitor_8h_1a6e4d77ddf3481d96e5a1b77e37e6a534" prot="public" static="no" mutable="no">
+        <type>NSString *const</type>
+        <definition>NSString* const kXDCameraOrientationMonitorDidChangeNotification</definition>
+        <argsstring></argsstring>
+        <name>kXDCameraOrientationMonitorDidChangeNotification</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDCameraOrientationMonitor.h" line="12" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDCameraOrientationMonitor.m" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>XDCameraOrientationMonitor.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>XDCommonLib</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>suxinde<sp/>on<sp/>16/5/19.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>©<sp/>2016年<sp/>su<sp/>xinde.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;Foundation/Foundation.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;UIKit/UIKit.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/>NSString<sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="_x_d_camera_orientation_monitor_8h_1a6e4d77ddf3481d96e5a1b77e37e6a534" kindref="member">kXDCameraOrientationMonitorDidChangeNotification</ref>;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="class_x_d_camera_orientation_monitor" kindref="compound">XDCameraOrientationMonitor</ref><sp/>:<sp/>NSObject</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="class_x_d_camera_orientation_monitor_1a3d0a131b2d5f7ef31fb071c0cc4d28b0" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(readonly,<sp/>nonatomic)<sp/>UIDeviceOrientation<sp/><ref refid="class_x_d_camera_orientation_monitor_1a3d0a131b2d5f7ef31fb071c0cc4d28b0" kindref="member">orientation</ref>;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal">+<sp/>(instancetype)<ref refid="class_x_d_camera_orientation_monitor_1a68e6fa27ea31cffcf37c3787f91dcd2a" kindref="member">monitor</ref>;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal">-<sp/>(NSInteger)updateEmitterOrientationWithCamera:(BOOL)isFront<sp/>frontMirror:(BOOL)isForntMirror;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal">-<sp/>(NSString*)<ref refid="class_x_d_camera_orientation_monitor_1a0ed40d3f3c3fa347f0433c5f2e8ad826" kindref="member">getOrientationString</ref>;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal">-<sp/>(UIImageOrientation)getUIImageOrientationFromUIDeviceOrientation:(BOOL)isFront<sp/>frontMirror:(BOOL)isForntMirror;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDCameraOrientationMonitor.h"/>
+  </compounddef>
+</doxygen>

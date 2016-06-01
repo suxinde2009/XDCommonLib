@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_c_a_shape_layer_07_u_i_bezier_path_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>CAShapeLayer(UIBezierPath)</compoundname>
+    <includes refid="_c_a_shape_layer_09_u_i_bezier_path_8h" local="no">CAShapeLayer+UIBezierPath.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="category_c_a_shape_layer_07_u_i_bezier_path_08_1a1e23e2f4a0998307bc0ca9d87353c5d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void CAShapeLayer(UIBezierPath)::dt_updateWithBezierPath:</definition>
+        <argsstring>(UIBezierPath *path)</argsstring>
+        <name>dt_updateWithBezierPath:</name>
+        <param>
+          <type>UIBezierPath *</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Update CAShapeLayer with UIBezierPath. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/QuartzCore/CAShapeLayer/CAShapeLayer+UIBezierPath.h" line="16" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/QuartzCore/CAShapeLayer/CAShapeLayer+UIBezierPath.m" bodystart="30" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="category_c_a_shape_layer_07_u_i_bezier_path_08_1aad5b9990b4d1af73b8d8fc9b96930609" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>UIBezierPath *</type>
+        <definition>UIBezierPath * CAShapeLayer(UIBezierPath)::dt_bezierPath</definition>
+        <argsstring>()</argsstring>
+        <name>dt_bezierPath</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get UIBezierPath object, constructed from CAShapeLayer. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/QuartzCore/CAShapeLayer/CAShapeLayer+UIBezierPath.h" line="16" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/QuartzCore/CAShapeLayer/CAShapeLayer+UIBezierPath.m" bodystart="55" bodyend="75"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Category on <computeroutput>CAShapeLayer</computeroutput>, that allows setting and getting UIBezierPath on CAShapeLayer. </para>    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/QuartzCore/CAShapeLayer/CAShapeLayer+UIBezierPath.m" line="28" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/QuartzCore/CAShapeLayer/CAShapeLayer+UIBezierPath.m" bodystart="28" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_c_a_shape_layer_07_u_i_bezier_path_08_1aad5b9990b4d1af73b8d8fc9b96930609" prot="public" virt="virtual"><scope>CAShapeLayer(UIBezierPath)</scope><name>dt_bezierPath</name></member>
+      <member refid="category_c_a_shape_layer_07_u_i_bezier_path_08_1a1e23e2f4a0998307bc0ca9d87353c5d8" prot="public" virt="virtual"><scope>CAShapeLayer(UIBezierPath)</scope><name>dt_updateWithBezierPath:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_u_i_image_view_09_geometry_conversion_8h" kind="file" language="C++">
+    <compoundname>UIImageView+GeometryConversion.h</compoundname>
+    <includes local="no">Foundation/Foundation.h</includes>
+    <includes local="no">UIKit/UIKit.h</includes>
+    <includedby refid="_u_i_image_view_09_geometry_conversion_8m" local="yes">XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImageView/UIImageView+GeometryConversion.m</includedby>
+    <incdepgraph>
+      <node id="1635">
+        <label>UIKit/UIKit.h</label>
+      </node>
+      <node id="1633">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImageView/UIImageView+GeometryConversion.h</label>
+        <link refid="UIImageView+GeometryConversion.h"/>
+        <childnode refid="1634" relation="include">
+        </childnode>
+        <childnode refid="1635" relation="include">
+        </childnode>
+      </node>
+      <node id="1634">
+        <label>Foundation/Foundation.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1636">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImageView/UIImageView+GeometryConversion.h</label>
+        <link refid="UIImageView+GeometryConversion.h"/>
+        <childnode refid="1637" relation="include">
+        </childnode>
+      </node>
+      <node id="1637">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImageView/UIImageView+GeometryConversion.m</label>
+        <link refid="_u_i_image_view_09_geometry_conversion_8m"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="category_u_i_image_view_07_geometry_conversion_08" prot="public">UIImageView(GeometryConversion)</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>UIImageView+GeometryConversion.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Dominique<sp/>d&apos;Argent<sp/>on<sp/>18.04.12.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2012.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Thomas<sp/>Sarlandie<sp/>-<sp/>2012:</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>-<sp/>Added<sp/>convertPointFromView:viewPoint</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>-<sp/>Added<sp/>convertRectFromView:viewPoint</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Contribution<sp/>released<sp/>in<sp/>the<sp/>public<sp/>domain.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="comment">//<sp/>https://github.com/nubbel/UIImageView-GeometryConversion</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>A<sp/>category<sp/>on<sp/>UIImageView<sp/>that<sp/>provides<sp/>methods<sp/>for<sp/>converting<sp/>points<sp/>and<sp/>rects<sp/>from<sp/>the<sp/>image<sp/>to<sp/>view<sp/>coordinates.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;Foundation/Foundation.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;UIKit/UIKit.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="category_u_i_image_view_07_geometry_conversion_08" kindref="compound">UIImageView (GeometryConversion)</ref></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal">-<sp/>(CGPoint)convertPointFromImage:(CGPoint)imagePoint;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal">-<sp/>(CGRect)convertRectFromImage:(CGRect)imageRect;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal">-<sp/>(CGPoint)convertPointFromView:(CGPoint)viewPoint;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal">-<sp/>(CGRect)convertRectFromView:(CGRect)viewRect;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImageView/UIImageView+GeometryConversion.h"/>
+  </compounddef>
+</doxygen>

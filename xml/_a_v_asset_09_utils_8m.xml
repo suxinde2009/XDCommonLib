@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_a_v_asset_09_utils_8m" kind="file" language="Objective-C">
+    <compoundname>AVAsset+Utils.m</compoundname>
+    <includes refid="_a_v_asset_09_utils_8h" local="yes">AVAsset+Utils.h</includes>
+    <includes local="no">UIKit/UIKit.h</includes>
+    <incdepgraph>
+      <node id="123">
+        <label>UIKit/UIKit.h</label>
+      </node>
+      <node id="121">
+        <label>AVFoundation/AVFoundation.h</label>
+      </node>
+      <node id="122">
+        <label>Foundation/Foundation.h</label>
+      </node>
+      <node id="120">
+        <label>AVAsset+Utils.h</label>
+        <link refid="_a_v_asset_09_utils_8h"/>
+        <childnode refid="121" relation="include">
+        </childnode>
+        <childnode refid="122" relation="include">
+        </childnode>
+      </node>
+      <node id="119">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/AVFoundation/AVAsset+Utils.m</label>
+        <link refid="AVAsset+Utils.m"/>
+        <childnode refid="120" relation="include">
+        </childnode>
+        <childnode refid="123" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>AVAsset+Utils.m</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>XDCommonLib</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>suxinde<sp/>on<sp/>16/5/25.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>©<sp/>2016年<sp/>su<sp/>xinde.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_a_v_asset_09_utils_8h" kindref="compound">AVAsset+Utils.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;UIKit/UIKit.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="category_a_v_asset_07_utils_08" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">@implementation<sp/></highlight><highlight class="normal"><ref refid="category_a_v_asset_07_utils_08" kindref="compound">AVAsset (Utils)</ref></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="category_a_v_asset_07_utils_08_1a7584860768b6360c99299ed0398026a8" refkind="member"><highlight class="normal">-<sp/>(Float64)<ref refid="category_a_v_asset_07_utils_08_1a7584860768b6360c99299ed0398026a8" kindref="member">xd_durationInSeconds</ref><sp/>{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>CMTimeGetSeconds(</highlight><highlight class="keyword">self</highlight><highlight class="normal">.duration);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="category_a_v_asset_07_utils_08_1a91be368345f1d1cd69b0b79ae4b531c9" refkind="member"><highlight class="normal">-<sp/>(CGSize)xd_calculatePlayerSizeForDimension:(XDVideoTrimDimension)dimension</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>windowSize:(CGFloat)windowSize<sp/>{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>CGSize<sp/>aspectSize;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>AVAssetTrack<sp/>*track<sp/>=<sp/>[[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>tracksWithMediaType:AVMediaTypeVideo]<sp/>firstObject];</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>注意这里需要用preferredTransform计算一下,<sp/>才能获得用户见到的视频宽高,<sp/>否则不区分landscape和portrait</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>CGSize<sp/>videoSize<sp/>=<sp/>CGSizeApplyAffineTransform(track.naturalSize,<sp/>track.preferredTransform);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>直接transform后的value可能是负的</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>videoSize<sp/>=<sp/>CGRectStandardize((CGRect){CGPointZero,<sp/>videoSize}).size;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>NSLog(</highlight><highlight class="stringliteral">@&quot;track<sp/>videoSize:<sp/>%@&quot;</highlight><highlight class="normal">,<sp/>NSStringFromCGSize(videoSize));</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>CGFloat<sp/>squareWidth<sp/>=<sp/>windowSize;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>CGFloat<sp/>widthScale<sp/>=<sp/>videoSize.width<sp/>/<sp/>squareWidth;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>CGFloat<sp/>heightScale<sp/>=<sp/>videoSize.height<sp/>/<sp/>squareWidth;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>CGFloat<sp/>finalScale<sp/>=<sp/>(XDVideoTrimDimensionSquare<sp/>==<sp/>dimension<sp/>?</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>MIN(heightScale,<sp/>widthScale)<sp/>:<sp/>MAX(heightScale,<sp/>widthScale));</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>aspectSize<sp/>=<sp/>(CGSize){videoSize.width<sp/>/<sp/>finalScale,<sp/>videoSize.height<sp/>/<sp/>finalScale};</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>NSLog(</highlight><highlight class="stringliteral">@&quot;aspectSize:<sp/>%@&quot;</highlight><highlight class="normal">,<sp/>NSStringFromCGSize(aspectSize));</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>aspectSize;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/AVFoundation/AVAsset+Utils.m"/>
+  </compounddef>
+</doxygen>

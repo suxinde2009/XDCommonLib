@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_n_s_string_09_m_i_m_e_8h" kind="file" language="C++">
+    <compoundname>NSString+MIME.h</compoundname>
+    <includes local="no">Foundation/Foundation.h</includes>
+    <includedby refid="_n_s_string_09_m_i_m_e_8m" local="yes">XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+MIME.m</includedby>
+    <incdepgraph>
+      <node id="863">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+MIME.h</label>
+        <link refid="NSString+MIME.h"/>
+        <childnode refid="864" relation="include">
+        </childnode>
+      </node>
+      <node id="864">
+        <label>Foundation/Foundation.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="865">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+MIME.h</label>
+        <link refid="NSString+MIME.h"/>
+        <childnode refid="866" relation="include">
+        </childnode>
+      </node>
+      <node id="866">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+MIME.m</label>
+        <link refid="_n_s_string_09_m_i_m_e_8m"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="category_n_s_string_07_m_i_m_e_08" prot="public">NSString(MIME)</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>NSString+MIME.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>iOS-Categories<sp/>(https://github.com/shaojiankui/iOS-Categories)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Jakey<sp/>on<sp/>15/5/22.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2015年<sp/>www.skyfox.org.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;Foundation/Foundation.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="category_n_s_string_07_m_i_m_e_08" kindref="compound">NSString (MIME)</ref></highlight></codeline>
+<codeline lineno="17"><highlight class="normal">-<sp/>(NSString<sp/>*)<ref refid="category_n_s_string_07_m_i_m_e_08_1a5764a9e0d76b6fd740a32f98fa76d711" kindref="member">MIMEType</ref>;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal">+<sp/>(NSString<sp/>*)MIMETypeForExtension:(NSString<sp/>*)extension;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal">+<sp/>(NSDictionary<sp/>*)<ref refid="category_n_s_string_07_m_i_m_e_08_1ad6b3cb8897a4efba70ae40c2594e6d89" kindref="member">MIMEDict</ref>;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+MIME.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_n_s_string_07_emoji_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>NSString(Emoji)</compoundname>
+    <includes refid="_n_s_string_09_emoji_8h" local="no">NSString+Emoji.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="category_n_s_string_07_emoji_08_1a9d0173b406eb2a80ff3f941e0440a648" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * NSString(Emoji)::stringByReplacingEmojiCheatCodesWithUnicode</definition>
+        <argsstring>()</argsstring>
+        <name>stringByReplacingEmojiCheatCodesWithUnicode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a NSString in which any occurrences that match the cheat codes from Emoji Cheat Sheet <ulink url="http://www.emoji-cheat-sheet.com">http://www.emoji-cheat-sheet.com</ulink> are replaced by the corresponding unicode characters.</para><para>Example: &quot;This is a smiley face :smiley:&quot;</para><para>Will be replaced with: &quot;This is a smiley face \U0001F604&quot; </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Emoji.h" line="14" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Emoji.m" bodystart="868" bodyend="883"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_string_07_emoji_08_1a9a4827e5e1ec0c32f5873f20a82b3455" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * NSString(Emoji)::stringByReplacingEmojiUnicodeWithCheatCodes</definition>
+        <argsstring>()</argsstring>
+        <name>stringByReplacingEmojiUnicodeWithCheatCodes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a NSString in which any occurrences that match the unicode characters of the emoji emoticons are replaced by the corresponding cheat codes from Emoji Cheat Sheet <ulink url="http://www.emoji-cheat-sheet.com">http://www.emoji-cheat-sheet.com</ulink>.</para><para>Example: &quot;This is a smiley face \U0001F604&quot;</para><para>Will be replaced with: &quot;This is a smiley face :smiley:&quot; </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Emoji.h" line="14" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Emoji.m" bodystart="885" bodyend="900"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>NSString (Emoji) extends the NSString class to provide custom functionality related to the Emoji emoticons.</para><para>Through this category, it is possible to turn cheat codes from Emoji Cheat Sheet <ulink url="http://www.emoji-cheat-sheet.com">http://www.emoji-cheat-sheet.com</ulink> into unicode emoji characters and vice versa (useful if you need to POST a message typed by the user to a remote service). </para>    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Emoji.m" line="11" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Emoji.m" bodystart="11" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_n_s_string_07_emoji_08_1a9d0173b406eb2a80ff3f941e0440a648" prot="public" virt="virtual"><scope>NSString(Emoji)</scope><name>stringByReplacingEmojiCheatCodesWithUnicode</name></member>
+      <member refid="category_n_s_string_07_emoji_08_1a9a4827e5e1ec0c32f5873f20a82b3455" prot="public" virt="virtual"><scope>NSString(Emoji)</scope><name>stringByReplacingEmojiUnicodeWithCheatCodes</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

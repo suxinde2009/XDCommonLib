@@ -1,0 +1,2556 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_n_s_file_manager_07_x_d___handy_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>NSFileManager(XD_Handy)</compoundname>
+    <includes refid="_n_s_file_manager_09_x_d___handy_8h" local="no">NSFileManager+XD_Handy.h</includes>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1a578da7941405953d6d169eaf8418eafb" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>id</type>
+        <definition>id NSFileManager(XD_Handy)::attributeOfItemAtPath:forKey:</definition>
+        <argsstring>(NSString *path,[forKey] NSString *key)</argsstring>
+        <name>attributeOfItemAtPath:forKey:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <attributes>[forKey]</attributes>
+          <type>NSString *</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="89" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1accff04f2c39698dec9bf9329b4c80556" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>id</type>
+        <definition>id NSFileManager(XD_Handy)::attributeOfItemAtPath:forKey:error:</definition>
+        <argsstring>(NSString *path,[forKey] NSString *key,[error] NSError **error)</argsstring>
+        <name>attributeOfItemAtPath:forKey:error:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <attributes>[forKey]</attributes>
+          <type>NSString *</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <attributes>[error]</attributes>
+          <type>NSError **</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="95" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1ac07bdca9f97189f1917d4036e4d1031f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSDictionary *</type>
+        <definition>NSDictionary * NSFileManager(XD_Handy)::attributesOfItemAtPath:</definition>
+        <argsstring>(NSString *path)</argsstring>
+        <name>attributesOfItemAtPath:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="101" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1ae90d42fd65867149c7a0b8248ef59367" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSDictionary *</type>
+        <definition>NSDictionary * NSFileManager(XD_Handy)::attributesOfItemAtPath:error:</definition>
+        <argsstring>(NSString *path,[error] NSError **error)</argsstring>
+        <name>attributesOfItemAtPath:error:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <attributes>[error]</attributes>
+          <type>NSError **</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="107" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1a5508ab8964241fb4aceaac23acdc69f6" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL NSFileManager(XD_Handy)::copyItemAtPath:toPath:</definition>
+        <argsstring>(NSString *path,[toPath] NSString *toPath)</argsstring>
+        <name>copyItemAtPath:toPath:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <attributes>[toPath]</attributes>
+          <type>NSString *</type>
+          <declname>toPath</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="113" bodyend="116"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1ad3c71b1ad2fdb5a16bb4fa56cd3990e2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL NSFileManager(XD_Handy)::copyItemAtPath:toPath:error:</definition>
+        <argsstring>(NSString *path,[toPath] NSString *toPath,[error] NSError **error)</argsstring>
+        <name>copyItemAtPath:toPath:error:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <attributes>[toPath]</attributes>
+          <type>NSString *</type>
+          <declname>toPath</declname>
+        </param>
+        <param>
+          <attributes>[error]</attributes>
+          <type>NSError **</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="119" bodyend="122"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1a7e1d807bae2bdc3fff3bf228cb83cb27" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL NSFileManager(XD_Handy)::copyItemAtPath:toPath:overwrite:</definition>
+        <argsstring>(NSString *path,[toPath] NSString *toPath,[overwrite] BOOL overwrite)</argsstring>
+        <name>copyItemAtPath:toPath:overwrite:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <attributes>[toPath]</attributes>
+          <type>NSString *</type>
+          <declname>toPath</declname>
+        </param>
+        <param>
+          <attributes>[overwrite]</attributes>
+          <type>BOOL</type>
+          <declname>overwrite</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="125" bodyend="128"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1aaac17cad387ebda103a2d3519737c0e3" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL NSFileManager(XD_Handy)::copyItemAtPath:toPath:overwrite:error:</definition>
+        <argsstring>(NSString *path,[toPath] NSString *toPath,[overwrite] BOOL overwrite,[error] NSError **error)</argsstring>
+        <name>copyItemAtPath:toPath:overwrite:error:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <attributes>[toPath]</attributes>
+          <type>NSString *</type>
+          <declname>toPath</declname>
+        </param>
+        <param>
+          <attributes>[overwrite]</attributes>
+          <type>BOOL</type>
+          <declname>overwrite</declname>
+        </param>
+        <param>
+          <attributes>[error]</attributes>
+          <type>NSError **</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="131" bodyend="148"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1a2ad2d214bd7ced5f681f52b9e3aea2ea" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL NSFileManager(XD_Handy)::createDirectoriesForFileAtPath:</definition>
+        <argsstring>(NSString *path)</argsstring>
+        <name>createDirectoriesForFileAtPath:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="151" bodyend="154"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1a638cfda0fd222763749b06c013bdad27" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL NSFileManager(XD_Handy)::createDirectoriesForFileAtPath:error:</definition>
+        <argsstring>(NSString *path,[error] NSError **error)</argsstring>
+        <name>createDirectoriesForFileAtPath:error:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <attributes>[error]</attributes>
+          <type>NSError **</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="157" bodyend="169"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1a68859fb5861bbfd14cd1864f74118954" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL NSFileManager(XD_Handy)::createDirectoriesForPath:</definition>
+        <argsstring>(NSString *path)</argsstring>
+        <name>createDirectoriesForPath:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="172" bodyend="175"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1a907638b70e2d1cb76f3a260984c03abb" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL NSFileManager(XD_Handy)::createDirectoriesForPath:error:</definition>
+        <argsstring>(NSString *path,[error] NSError **error)</argsstring>
+        <name>createDirectoriesForPath:error:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <attributes>[error]</attributes>
+          <type>NSError **</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="178" bodyend="181"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1aa1edc82152156d1e31c5949b39e4fc91" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL NSFileManager(XD_Handy)::createFileAtPath:</definition>
+        <argsstring>(NSString *path)</argsstring>
+        <name>createFileAtPath:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="184" bodyend="187"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1af6721aecf1e5fa60e11835bc44c0cf5c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL NSFileManager(XD_Handy)::createFileAtPath:error:</definition>
+        <argsstring>(NSString *path,[error] NSError **error)</argsstring>
+        <name>createFileAtPath:error:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <attributes>[error]</attributes>
+          <type>NSError **</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="190" bodyend="193"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1a8f5bfd21c3d24937ae9895066ee674b3" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL NSFileManager(XD_Handy)::createFileAtPath:overwrite:</definition>
+        <argsstring>(NSString *path,[overwrite] BOOL overwrite)</argsstring>
+        <name>createFileAtPath:overwrite:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <attributes>[overwrite]</attributes>
+          <type>BOOL</type>
+          <declname>overwrite</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="196" bodyend="199"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1ac501a5ccb1e315a029d596b68996cdb5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL NSFileManager(XD_Handy)::createFileAtPath:overwrite:error:</definition>
+        <argsstring>(NSString *path,[overwrite] BOOL overwrite,[error] NSError **error)</argsstring>
+        <name>createFileAtPath:overwrite:error:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <attributes>[overwrite]</attributes>
+          <type>BOOL</type>
+          <declname>overwrite</declname>
+        </param>
+        <param>
+          <attributes>[error]</attributes>
+          <type>NSError **</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="202" bodyend="205"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1a0f3360accb6232012b32e2ead7f617e5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL NSFileManager(XD_Handy)::createFileAtPath:withContent:</definition>
+        <argsstring>(NSString *path,[withContent] NSObject *content)</argsstring>
+        <name>createFileAtPath:withContent:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <attributes>[withContent]</attributes>
+          <type>NSObject *</type>
+          <declname>content</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="208" bodyend="211"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1a9c7418ed0cb4dec81f9a426f93706ccc" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL NSFileManager(XD_Handy)::createFileAtPath:withContent:error:</definition>
+        <argsstring>(NSString *path,[withContent] NSObject *content,[error] NSError **error)</argsstring>
+        <name>createFileAtPath:withContent:error:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <attributes>[withContent]</attributes>
+          <type>NSObject *</type>
+          <declname>content</declname>
+        </param>
+        <param>
+          <attributes>[error]</attributes>
+          <type>NSError **</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="214" bodyend="217"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1a377c8eb4a1a8dc201b7a4c1b5ce1d416" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL NSFileManager(XD_Handy)::createFileAtPath:withContent:overwrite:</definition>
+        <argsstring>(NSString *path,[withContent] NSObject *content,[overwrite] BOOL overwrite)</argsstring>
+        <name>createFileAtPath:withContent:overwrite:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <attributes>[withContent]</attributes>
+          <type>NSObject *</type>
+          <declname>content</declname>
+        </param>
+        <param>
+          <attributes>[overwrite]</attributes>
+          <type>BOOL</type>
+          <declname>overwrite</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="220" bodyend="223"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1a5adb5befd85c48f109f12a22f80540c6" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL NSFileManager(XD_Handy)::createFileAtPath:withContent:overwrite:error:</definition>
+        <argsstring>(NSString *path,[withContent] NSObject *content,[overwrite] BOOL overwrite,[error] NSError **error)</argsstring>
+        <name>createFileAtPath:withContent:overwrite:error:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <attributes>[withContent]</attributes>
+          <type>NSObject *</type>
+          <declname>content</declname>
+        </param>
+        <param>
+          <attributes>[overwrite]</attributes>
+          <type>BOOL</type>
+          <declname>overwrite</declname>
+        </param>
+        <param>
+          <attributes>[error]</attributes>
+          <type>NSError **</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="226" bodyend="248"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1a9c5b11eaad1df6b4582f3c5013912164" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSDate *</type>
+        <definition>NSDate * NSFileManager(XD_Handy)::creationDateOfItemAtPath:</definition>
+        <argsstring>(NSString *path)</argsstring>
+        <name>creationDateOfItemAtPath:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="251" bodyend="254"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1a457ac05d87bcd9e242e85b03e42735f9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSDate *</type>
+        <definition>NSDate * NSFileManager(XD_Handy)::creationDateOfItemAtPath:error:</definition>
+        <argsstring>(NSString *path,[error] NSError **error)</argsstring>
+        <name>creationDateOfItemAtPath:error:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <attributes>[error]</attributes>
+          <type>NSError **</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="257" bodyend="260"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1aeaac5c05ba35ff6825782464c0ee78f9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL NSFileManager(XD_Handy)::emptyCachesDirectory</definition>
+        <argsstring>()</argsstring>
+        <name>emptyCachesDirectory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="263" bodyend="266"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1ae861b40eec727a5b7fbc1b51cb22efbc" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL NSFileManager(XD_Handy)::emptyTemporaryDirectory</definition>
+        <argsstring>()</argsstring>
+        <name>emptyTemporaryDirectory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="269" bodyend="272"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1a06a188b659add831638b6f5c63c574a0" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL NSFileManager(XD_Handy)::existsItemAtPath:</definition>
+        <argsstring>(NSString *path)</argsstring>
+        <name>existsItemAtPath:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="275" bodyend="278"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1affffe7bc6a8aef8f45586a7d17c490f4" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL NSFileManager(XD_Handy)::isDirectoryItemAtPath:</definition>
+        <argsstring>(NSString *path)</argsstring>
+        <name>isDirectoryItemAtPath:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="281" bodyend="284"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1a2a91123f8296991b15e46b2a209d287a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL NSFileManager(XD_Handy)::isDirectoryItemAtPath:error:</definition>
+        <argsstring>(NSString *path,[error] NSError **error)</argsstring>
+        <name>isDirectoryItemAtPath:error:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <attributes>[error]</attributes>
+          <type>NSError **</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="287" bodyend="290"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1a05d2c3837664d89b3a42a041b1bff7c6" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL NSFileManager(XD_Handy)::isEmptyItemAtPath:</definition>
+        <argsstring>(NSString *path)</argsstring>
+        <name>isEmptyItemAtPath:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="293" bodyend="296"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1a3f8ef0371769e7020e677e5cbcfb836f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL NSFileManager(XD_Handy)::isEmptyItemAtPath:error:</definition>
+        <argsstring>(NSString *path,[error] NSError **error)</argsstring>
+        <name>isEmptyItemAtPath:error:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <attributes>[error]</attributes>
+          <type>NSError **</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="299" bodyend="302"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1a28124264b2d3ac29d1cb8af889767d14" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL NSFileManager(XD_Handy)::isFileItemAtPath:</definition>
+        <argsstring>(NSString *path)</argsstring>
+        <name>isFileItemAtPath:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="305" bodyend="308"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1a6fbef4b765af948672d79747c4a9c9ee" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL NSFileManager(XD_Handy)::isFileItemAtPath:error:</definition>
+        <argsstring>(NSString *path,[error] NSError **error)</argsstring>
+        <name>isFileItemAtPath:error:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <attributes>[error]</attributes>
+          <type>NSError **</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="311" bodyend="314"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1a56f6b51a075097dc69cb08a3457c140e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL NSFileManager(XD_Handy)::isExecutableItemAtPath:</definition>
+        <argsstring>(NSString *path)</argsstring>
+        <name>isExecutableItemAtPath:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="317" bodyend="320"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1a2f92e69b19b0ced23dee3a972f8620b2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL NSFileManager(XD_Handy)::isReadableItemAtPath:</definition>
+        <argsstring>(NSString *path)</argsstring>
+        <name>isReadableItemAtPath:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="331" bodyend="334"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1a83648aa861f32887c178a8d4667c1c9e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL NSFileManager(XD_Handy)::isWritableItemAtPath:</definition>
+        <argsstring>(NSString *path)</argsstring>
+        <name>isWritableItemAtPath:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="337" bodyend="340"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1a83ff54e16b6d8debf5ff00ee66e21806" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSArray *</type>
+        <definition>NSArray * NSFileManager(XD_Handy)::listDirectoriesInDirectoryAtPath:</definition>
+        <argsstring>(NSString *path)</argsstring>
+        <name>listDirectoriesInDirectoryAtPath:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="343" bodyend="346"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1a42b90f1c6b5078a8e52d6700c1488bbf" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSArray *</type>
+        <definition>NSArray * NSFileManager(XD_Handy)::listDirectoriesInDirectoryAtPath:deep:</definition>
+        <argsstring>(NSString *path,[deep] BOOL deep)</argsstring>
+        <name>listDirectoriesInDirectoryAtPath:deep:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <attributes>[deep]</attributes>
+          <type>BOOL</type>
+          <declname>deep</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="349" bodyend="359"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1a89167ef546ec3b17c642330d31cdffdb" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSArray *</type>
+        <definition>NSArray * NSFileManager(XD_Handy)::listFilesInDirectoryAtPath:</definition>
+        <argsstring>(NSString *path)</argsstring>
+        <name>listFilesInDirectoryAtPath:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="362" bodyend="365"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1a1f96fdc7be10fb67f534a631d92136a5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSArray *</type>
+        <definition>NSArray * NSFileManager(XD_Handy)::listFilesInDirectoryAtPath:deep:</definition>
+        <argsstring>(NSString *path,[deep] BOOL deep)</argsstring>
+        <name>listFilesInDirectoryAtPath:deep:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <attributes>[deep]</attributes>
+          <type>BOOL</type>
+          <declname>deep</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="368" bodyend="378"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1acdfecf24eaca852b946ce3fe1385c806" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSArray *</type>
+        <definition>NSArray * NSFileManager(XD_Handy)::listFilesInDirectoryAtPath:withExtension:</definition>
+        <argsstring>(NSString *path,[withExtension] NSString *extension)</argsstring>
+        <name>listFilesInDirectoryAtPath:withExtension:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <attributes>[withExtension]</attributes>
+          <type>NSString *</type>
+          <declname>extension</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="381" bodyend="384"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1a470948bdfee3c30a38eea8aeec0c3de6" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSArray *</type>
+        <definition>NSArray * NSFileManager(XD_Handy)::listFilesInDirectoryAtPath:withExtension:deep:</definition>
+        <argsstring>(NSString *path,[withExtension] NSString *extension,[deep] BOOL deep)</argsstring>
+        <name>listFilesInDirectoryAtPath:withExtension:deep:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <attributes>[withExtension]</attributes>
+          <type>NSString *</type>
+          <declname>extension</declname>
+        </param>
+        <param>
+          <attributes>[deep]</attributes>
+          <type>BOOL</type>
+          <declname>deep</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="387" bodyend="399"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1adcc8cbf0020cfbfe9107def971365d7c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSArray *</type>
+        <definition>NSArray * NSFileManager(XD_Handy)::listFilesInDirectoryAtPath:withPrefix:</definition>
+        <argsstring>(NSString *path,[withPrefix] NSString *prefix)</argsstring>
+        <name>listFilesInDirectoryAtPath:withPrefix:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <attributes>[withPrefix]</attributes>
+          <type>NSString *</type>
+          <declname>prefix</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="402" bodyend="405"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1ac2bf71451eefe7241a0a728e9c850d2b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSArray *</type>
+        <definition>NSArray * NSFileManager(XD_Handy)::listFilesInDirectoryAtPath:withPrefix:deep:</definition>
+        <argsstring>(NSString *path,[withPrefix] NSString *prefix,[deep] BOOL deep)</argsstring>
+        <name>listFilesInDirectoryAtPath:withPrefix:deep:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <attributes>[withPrefix]</attributes>
+          <type>NSString *</type>
+          <declname>prefix</declname>
+        </param>
+        <param>
+          <attributes>[deep]</attributes>
+          <type>BOOL</type>
+          <declname>deep</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="408" bodyend="418"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1a90d211f6355a7dcabc955d6aeb7561ce" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSArray *</type>
+        <definition>NSArray * NSFileManager(XD_Handy)::listFilesInDirectoryAtPath:withSuffix:</definition>
+        <argsstring>(NSString *path,[withSuffix] NSString *suffix)</argsstring>
+        <name>listFilesInDirectoryAtPath:withSuffix:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <attributes>[withSuffix]</attributes>
+          <type>NSString *</type>
+          <declname>suffix</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="421" bodyend="424"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1a3d6218866d5df2997b4acec3a1cf507a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSArray *</type>
+        <definition>NSArray * NSFileManager(XD_Handy)::listFilesInDirectoryAtPath:withSuffix:deep:</definition>
+        <argsstring>(NSString *path,[withSuffix] NSString *suffix,[deep] BOOL deep)</argsstring>
+        <name>listFilesInDirectoryAtPath:withSuffix:deep:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <attributes>[withSuffix]</attributes>
+          <type>NSString *</type>
+          <declname>suffix</declname>
+        </param>
+        <param>
+          <attributes>[deep]</attributes>
+          <type>BOOL</type>
+          <declname>deep</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="427" bodyend="438"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1a19f27732357acd0392f98eba9c35a62e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSArray *</type>
+        <definition>NSArray * NSFileManager(XD_Handy)::listItemsInDirectoryAtPath:deep:</definition>
+        <argsstring>(NSString *path,[deep] BOOL deep)</argsstring>
+        <name>listItemsInDirectoryAtPath:deep:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <attributes>[deep]</attributes>
+          <type>BOOL</type>
+          <declname>deep</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="441" bodyend="455"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1a13149f99be0d20bc3ae4862fa6970a11" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL NSFileManager(XD_Handy)::moveItemAtPath:toPath:</definition>
+        <argsstring>(NSString *path,[toPath] NSString *toPath)</argsstring>
+        <name>moveItemAtPath:toPath:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <attributes>[toPath]</attributes>
+          <type>NSString *</type>
+          <declname>toPath</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="458" bodyend="461"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1a1c884147150829e607f81ea3b257177c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL NSFileManager(XD_Handy)::moveItemAtPath:toPath:error:</definition>
+        <argsstring>(NSString *path,[toPath] NSString *toPath,[error] NSError **error)</argsstring>
+        <name>moveItemAtPath:toPath:error:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <attributes>[toPath]</attributes>
+          <type>NSString *</type>
+          <declname>toPath</declname>
+        </param>
+        <param>
+          <attributes>[error]</attributes>
+          <type>NSError **</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="464" bodyend="467"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1a68188a189ed5fda9ed15ebfff2db71e0" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL NSFileManager(XD_Handy)::moveItemAtPath:toPath:overwrite:</definition>
+        <argsstring>(NSString *path,[toPath] NSString *toPath,[overwrite] BOOL overwrite)</argsstring>
+        <name>moveItemAtPath:toPath:overwrite:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <attributes>[toPath]</attributes>
+          <type>NSString *</type>
+          <declname>toPath</declname>
+        </param>
+        <param>
+          <attributes>[overwrite]</attributes>
+          <type>BOOL</type>
+          <declname>overwrite</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="470" bodyend="473"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1a5ed47fc6528c307b1b1114a2e9366383" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL NSFileManager(XD_Handy)::moveItemAtPath:toPath:overwrite:error:</definition>
+        <argsstring>(NSString *path,[toPath] NSString *toPath,[overwrite] BOOL overwrite,[error] NSError **error)</argsstring>
+        <name>moveItemAtPath:toPath:overwrite:error:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <attributes>[toPath]</attributes>
+          <type>NSString *</type>
+          <declname>toPath</declname>
+        </param>
+        <param>
+          <attributes>[overwrite]</attributes>
+          <type>BOOL</type>
+          <declname>overwrite</declname>
+        </param>
+        <param>
+          <attributes>[error]</attributes>
+          <type>NSError **</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="476" bodyend="485"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1a5c6ebce541a9ffbcf0fbf5e2bb6fc9c7" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * NSFileManager(XD_Handy)::pathForApplicationSupportDirectory</definition>
+        <argsstring>()</argsstring>
+        <name>pathForApplicationSupportDirectory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="488" bodyend="501"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1a20b09e517b92bf527835e824867d3a92" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * NSFileManager(XD_Handy)::pathForApplicationSupportDirectoryWithPath:</definition>
+        <argsstring>(NSString *path)</argsstring>
+        <name>pathForApplicationSupportDirectoryWithPath:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="504" bodyend="507"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1a712fd260cd57da76e9232087e55a4610" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * NSFileManager(XD_Handy)::pathForCachesDirectory</definition>
+        <argsstring>()</argsstring>
+        <name>pathForCachesDirectory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="510" bodyend="523"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1a227cec54c3e20807321ce5319023b59a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * NSFileManager(XD_Handy)::pathForCachesDirectoryWithPath:</definition>
+        <argsstring>(NSString *path)</argsstring>
+        <name>pathForCachesDirectoryWithPath:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="526" bodyend="529"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1a7320b73793a979cb4465f45565e0c05e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * NSFileManager(XD_Handy)::pathForDocumentsDirectory</definition>
+        <argsstring>()</argsstring>
+        <name>pathForDocumentsDirectory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="532" bodyend="545"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1aeb0b257f1aa4772224c1264d8f9323f0" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * NSFileManager(XD_Handy)::pathForDocumentsDirectoryWithPath:</definition>
+        <argsstring>(NSString *path)</argsstring>
+        <name>pathForDocumentsDirectoryWithPath:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="548" bodyend="551"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1a569211b1fde88fad58f9219ab3ded7f8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * NSFileManager(XD_Handy)::pathForLibraryDirectory</definition>
+        <argsstring>()</argsstring>
+        <name>pathForLibraryDirectory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="554" bodyend="567"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1aa246e813b66b10f3629ddd19f2a67d8f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * NSFileManager(XD_Handy)::pathForLibraryDirectoryWithPath:</definition>
+        <argsstring>(NSString *path)</argsstring>
+        <name>pathForLibraryDirectoryWithPath:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="570" bodyend="573"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1ace73fab33405f9a47b139527ff0950cb" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * NSFileManager(XD_Handy)::pathForMainBundleDirectory</definition>
+        <argsstring>()</argsstring>
+        <name>pathForMainBundleDirectory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="576" bodyend="579"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1ac75015a83c1a092374392e9ca87954c9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * NSFileManager(XD_Handy)::pathForMainBundleDirectoryWithPath:</definition>
+        <argsstring>(NSString *path)</argsstring>
+        <name>pathForMainBundleDirectoryWithPath:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="582" bodyend="585"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1a9a4ca811fea23d2a8b38bf5e7b06fb1f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * NSFileManager(XD_Handy)::pathForPlistNamed:</definition>
+        <argsstring>(NSString *name)</argsstring>
+        <name>pathForPlistNamed:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="588" bodyend="599"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1aa68c23dfa858ed2340bc37dd8f44fc84" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * NSFileManager(XD_Handy)::pathForTemporaryDirectory</definition>
+        <argsstring>()</argsstring>
+        <name>pathForTemporaryDirectory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="602" bodyend="613"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1af5350e8e5346ea3e8ab4395ba2f3dc2a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * NSFileManager(XD_Handy)::pathForTemporaryDirectoryWithPath:</definition>
+        <argsstring>(NSString *path)</argsstring>
+        <name>pathForTemporaryDirectoryWithPath:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="616" bodyend="619"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1ac4b902101e9e0e8ecd58c4efaf8de8a8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * NSFileManager(XD_Handy)::readFileAtPath:</definition>
+        <argsstring>(NSString *path)</argsstring>
+        <name>readFileAtPath:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="622" bodyend="625"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1a2f4bbdf92b25379a13cd6da924ff2b45" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * NSFileManager(XD_Handy)::readFileAtPath:error:</definition>
+        <argsstring>(NSString *path,[error] NSError **error)</argsstring>
+        <name>readFileAtPath:error:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <attributes>[error]</attributes>
+          <type>NSError **</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="628" bodyend="631"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1a48bfee0b996c6f8f789e12f218fa2800" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSArray *</type>
+        <definition>NSArray * NSFileManager(XD_Handy)::readFileAtPathAsArray:</definition>
+        <argsstring>(NSString *path)</argsstring>
+        <name>readFileAtPathAsArray:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="634" bodyend="637"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1a634df3a02e7c8dc8aea495480cfd6efb" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSObject *</type>
+        <definition>NSObject * NSFileManager(XD_Handy)::readFileAtPathAsCustomModel:</definition>
+        <argsstring>(NSString *path)</argsstring>
+        <name>readFileAtPathAsCustomModel:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="640" bodyend="643"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1ace359f04c3cd77056d416e82c3407b6e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSData *</type>
+        <definition>NSData * NSFileManager(XD_Handy)::readFileAtPathAsData:</definition>
+        <argsstring>(NSString *path)</argsstring>
+        <name>readFileAtPathAsData:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="646" bodyend="649"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1a9e4cae29f8aff0122e71b05807566d33" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSData *</type>
+        <definition>NSData * NSFileManager(XD_Handy)::readFileAtPathAsData:error:</definition>
+        <argsstring>(NSString *path,[error] NSError **error)</argsstring>
+        <name>readFileAtPathAsData:error:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <attributes>[error]</attributes>
+          <type>NSError **</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="652" bodyend="655"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1af642282eef0a0e0702fe75d3190ca02f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSDictionary *</type>
+        <definition>NSDictionary * NSFileManager(XD_Handy)::readFileAtPathAsDictionary:</definition>
+        <argsstring>(NSString *path)</argsstring>
+        <name>readFileAtPathAsDictionary:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="658" bodyend="661"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1a99e8101d745a2fd17cdab80d2cbf6ac6" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>UIImage *</type>
+        <definition>UIImage * NSFileManager(XD_Handy)::readFileAtPathAsImage:</definition>
+        <argsstring>(NSString *path)</argsstring>
+        <name>readFileAtPathAsImage:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="664" bodyend="667"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1ae031e304ee499c6fe3cb8f6c178f02d5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>UIImage *</type>
+        <definition>UIImage * NSFileManager(XD_Handy)::readFileAtPathAsImage:error:</definition>
+        <argsstring>(NSString *path,[error] NSError **error)</argsstring>
+        <name>readFileAtPathAsImage:error:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <attributes>[error]</attributes>
+          <type>NSError **</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="670" bodyend="680"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1a8d9c4dac9ac4ed7b7539f7d184c9a3ec" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>UIImageView *</type>
+        <definition>UIImageView * NSFileManager(XD_Handy)::readFileAtPathAsImageView:</definition>
+        <argsstring>(NSString *path)</argsstring>
+        <name>readFileAtPathAsImageView:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="683" bodyend="686"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1ab0a28370360d1a1a9fa7cb32147ecda5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>UIImageView *</type>
+        <definition>UIImageView * NSFileManager(XD_Handy)::readFileAtPathAsImageView:error:</definition>
+        <argsstring>(NSString *path,[error] NSError **error)</argsstring>
+        <name>readFileAtPathAsImageView:error:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <attributes>[error]</attributes>
+          <type>NSError **</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="689" bodyend="701"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1a4aaf69c216c0d8f2cb538ce47a614359" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSJSONSerialization *</type>
+        <definition>NSJSONSerialization * NSFileManager(XD_Handy)::readFileAtPathAsJSON:</definition>
+        <argsstring>(NSString *path)</argsstring>
+        <name>readFileAtPathAsJSON:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="704" bodyend="707"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1a06bb35ae400afdacf982cb5bb00cabae" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSJSONSerialization *</type>
+        <definition>NSJSONSerialization * NSFileManager(XD_Handy)::readFileAtPathAsJSON:error:</definition>
+        <argsstring>(NSString *path,[error] NSError **error)</argsstring>
+        <name>readFileAtPathAsJSON:error:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <attributes>[error]</attributes>
+          <type>NSError **</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="710" bodyend="725"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1a6c21c310ad45f5145b329f1f1968ef86" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSMutableArray *</type>
+        <definition>NSMutableArray * NSFileManager(XD_Handy)::readFileAtPathAsMutableArray:</definition>
+        <argsstring>(NSString *path)</argsstring>
+        <name>readFileAtPathAsMutableArray:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="728" bodyend="731"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1a10a7f7c1d69ba845914272ead5e3d849" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSMutableData *</type>
+        <definition>NSMutableData * NSFileManager(XD_Handy)::readFileAtPathAsMutableData:</definition>
+        <argsstring>(NSString *path)</argsstring>
+        <name>readFileAtPathAsMutableData:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="734" bodyend="737"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1aec31b0e8837a8a1509dc32d4194aa328" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSMutableData *</type>
+        <definition>NSMutableData * NSFileManager(XD_Handy)::readFileAtPathAsMutableData:error:</definition>
+        <argsstring>(NSString *path,[error] NSError **error)</argsstring>
+        <name>readFileAtPathAsMutableData:error:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <attributes>[error]</attributes>
+          <type>NSError **</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="740" bodyend="743"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1a31325425b409132e16c4159ad006197c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSMutableDictionary *</type>
+        <definition>NSMutableDictionary * NSFileManager(XD_Handy)::readFileAtPathAsMutableDictionary:</definition>
+        <argsstring>(NSString *path)</argsstring>
+        <name>readFileAtPathAsMutableDictionary:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="746" bodyend="749"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1a81febba0d166d07b0cfe534fe7af20ba" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * NSFileManager(XD_Handy)::readFileAtPathAsString:</definition>
+        <argsstring>(NSString *path)</argsstring>
+        <name>readFileAtPathAsString:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="752" bodyend="755"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1a2b02e2a0d7ae74d14a5d6408dbec9545" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * NSFileManager(XD_Handy)::readFileAtPathAsString:error:</definition>
+        <argsstring>(NSString *path,[error] NSError **error)</argsstring>
+        <name>readFileAtPathAsString:error:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <attributes>[error]</attributes>
+          <type>NSError **</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="758" bodyend="761"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1a25c3de00ba68766a99a9504b08067df5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL NSFileManager(XD_Handy)::removeFilesInDirectoryAtPath:</definition>
+        <argsstring>(NSString *path)</argsstring>
+        <name>removeFilesInDirectoryAtPath:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="764" bodyend="767"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1adfeb142d83e32272619aeead5b1ca2fb" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL NSFileManager(XD_Handy)::removeFilesInDirectoryAtPath:error:</definition>
+        <argsstring>(NSString *path,[error] NSError **error)</argsstring>
+        <name>removeFilesInDirectoryAtPath:error:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <attributes>[error]</attributes>
+          <type>NSError **</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="770" bodyend="773"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1ada273a80eabc38dbbd7537640e1aa6be" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL NSFileManager(XD_Handy)::removeFilesInDirectoryAtPath:withExtension:</definition>
+        <argsstring>(NSString *path,[withExtension] NSString *extension)</argsstring>
+        <name>removeFilesInDirectoryAtPath:withExtension:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <attributes>[withExtension]</attributes>
+          <type>NSString *</type>
+          <declname>extension</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="776" bodyend="779"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1adcbb61f7c5f7475e92f4479a76beb166" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL NSFileManager(XD_Handy)::removeFilesInDirectoryAtPath:withExtension:error:</definition>
+        <argsstring>(NSString *path,[withExtension] NSString *extension,[error] NSError **error)</argsstring>
+        <name>removeFilesInDirectoryAtPath:withExtension:error:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <attributes>[withExtension]</attributes>
+          <type>NSString *</type>
+          <declname>extension</declname>
+        </param>
+        <param>
+          <attributes>[error]</attributes>
+          <type>NSError **</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="782" bodyend="785"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1a4d212fdf05a10b1edd4be2a4a0fcf5d0" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL NSFileManager(XD_Handy)::removeFilesInDirectoryAtPath:withPrefix:</definition>
+        <argsstring>(NSString *path,[withPrefix] NSString *prefix)</argsstring>
+        <name>removeFilesInDirectoryAtPath:withPrefix:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <attributes>[withPrefix]</attributes>
+          <type>NSString *</type>
+          <declname>prefix</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="788" bodyend="791"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1ab67b1447e64da706cca9a77ed8aa3580" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL NSFileManager(XD_Handy)::removeFilesInDirectoryAtPath:withPrefix:error:</definition>
+        <argsstring>(NSString *path,[withPrefix] NSString *prefix,[error] NSError **error)</argsstring>
+        <name>removeFilesInDirectoryAtPath:withPrefix:error:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <attributes>[withPrefix]</attributes>
+          <type>NSString *</type>
+          <declname>prefix</declname>
+        </param>
+        <param>
+          <attributes>[error]</attributes>
+          <type>NSError **</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="794" bodyend="797"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1af80d872d25c1c89197edc5dfc3201eb5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL NSFileManager(XD_Handy)::removeFilesInDirectoryAtPath:withSuffix:</definition>
+        <argsstring>(NSString *path,[withSuffix] NSString *suffix)</argsstring>
+        <name>removeFilesInDirectoryAtPath:withSuffix:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <attributes>[withSuffix]</attributes>
+          <type>NSString *</type>
+          <declname>suffix</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="800" bodyend="803"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1a0c0c142cf9c16e08fc038bf18051bb58" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL NSFileManager(XD_Handy)::removeFilesInDirectoryAtPath:withSuffix:error:</definition>
+        <argsstring>(NSString *path,[withSuffix] NSString *suffix,[error] NSError **error)</argsstring>
+        <name>removeFilesInDirectoryAtPath:withSuffix:error:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <attributes>[withSuffix]</attributes>
+          <type>NSString *</type>
+          <declname>suffix</declname>
+        </param>
+        <param>
+          <attributes>[error]</attributes>
+          <type>NSError **</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="806" bodyend="809"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1af7d44c1c46d43bc04534e04a26b8cfc0" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL NSFileManager(XD_Handy)::removeItemsInDirectoryAtPath:</definition>
+        <argsstring>(NSString *path)</argsstring>
+        <name>removeItemsInDirectoryAtPath:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="812" bodyend="815"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1a5b360c249732522b6e8633fee6693bca" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL NSFileManager(XD_Handy)::removeItemsInDirectoryAtPath:error:</definition>
+        <argsstring>(NSString *path,[error] NSError **error)</argsstring>
+        <name>removeItemsInDirectoryAtPath:error:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <attributes>[error]</attributes>
+          <type>NSError **</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="818" bodyend="821"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1ab4e7dda8d72eb3996b06f3f886c62919" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL NSFileManager(XD_Handy)::removeItemAtPath:</definition>
+        <argsstring>(NSString *path)</argsstring>
+        <name>removeItemAtPath:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="824" bodyend="827"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1a38b6207dd771df0de6ba00604cffe95c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL NSFileManager(XD_Handy)::removeItemAtPath:error:</definition>
+        <argsstring>(NSString *path,[error] NSError **error)</argsstring>
+        <name>removeItemAtPath:error:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <attributes>[error]</attributes>
+          <type>NSError **</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="830" bodyend="833"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1a1d0858e6ff0f6401498738715d354905" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL NSFileManager(XD_Handy)::renameItemAtPath:withName:</definition>
+        <argsstring>(NSString *path,[withName] NSString *name)</argsstring>
+        <name>renameItemAtPath:withName:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <attributes>[withName]</attributes>
+          <type>NSString *</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="855" bodyend="858"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1a49e21b8e5a5bb96e214c5b512f169bab" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL NSFileManager(XD_Handy)::renameItemAtPath:withName:error:</definition>
+        <argsstring>(NSString *path,[withName] NSString *name,[error] NSError **error)</argsstring>
+        <name>renameItemAtPath:withName:error:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <attributes>[withName]</attributes>
+          <type>NSString *</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <attributes>[error]</attributes>
+          <type>NSError **</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="861" bodyend="873"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1a00b59fd9bcec15a5be63562b2c81c548" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * NSFileManager(XD_Handy)::sizeFormatted:</definition>
+        <argsstring>(NSNumber *size)</argsstring>
+        <name>sizeFormatted:</name>
+        <param>
+          <type>NSNumber *</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="876" bodyend="895"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1a327531a66ab7a0756613d45adf6edf68" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * NSFileManager(XD_Handy)::sizeFormattedOfDirectoryAtPath:</definition>
+        <argsstring>(NSString *path)</argsstring>
+        <name>sizeFormattedOfDirectoryAtPath:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="898" bodyend="901"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1a775a1467621cd312bd41c8f156d8ff4f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * NSFileManager(XD_Handy)::sizeFormattedOfDirectoryAtPath:error:</definition>
+        <argsstring>(NSString *path,[error] NSError **error)</argsstring>
+        <name>sizeFormattedOfDirectoryAtPath:error:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <attributes>[error]</attributes>
+          <type>NSError **</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="904" bodyend="914"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1a39911faff88a5c377768e29ab312ecb8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * NSFileManager(XD_Handy)::sizeFormattedOfFileAtPath:</definition>
+        <argsstring>(NSString *path)</argsstring>
+        <name>sizeFormattedOfFileAtPath:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="917" bodyend="920"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1af3c49e81e2c0332b3abb0d107982fcef" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * NSFileManager(XD_Handy)::sizeFormattedOfFileAtPath:error:</definition>
+        <argsstring>(NSString *path,[error] NSError **error)</argsstring>
+        <name>sizeFormattedOfFileAtPath:error:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <attributes>[error]</attributes>
+          <type>NSError **</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="923" bodyend="933"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1a46299d3a8d8a87fcf72a3d74b682b30a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * NSFileManager(XD_Handy)::sizeFormattedOfItemAtPath:</definition>
+        <argsstring>(NSString *path)</argsstring>
+        <name>sizeFormattedOfItemAtPath:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="936" bodyend="939"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1acea148ce2cc16146df1e2207b419f79a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * NSFileManager(XD_Handy)::sizeFormattedOfItemAtPath:error:</definition>
+        <argsstring>(NSString *path,[error] NSError **error)</argsstring>
+        <name>sizeFormattedOfItemAtPath:error:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <attributes>[error]</attributes>
+          <type>NSError **</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="942" bodyend="952"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1aae1fc0b2355215658049dfcfb5da18b6" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSNumber *</type>
+        <definition>NSNumber * NSFileManager(XD_Handy)::sizeOfDirectoryAtPath:</definition>
+        <argsstring>(NSString *path)</argsstring>
+        <name>sizeOfDirectoryAtPath:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="955" bodyend="958"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1a36804952db2b108491c56763f4e25721" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSNumber *</type>
+        <definition>NSNumber * NSFileManager(XD_Handy)::sizeOfDirectoryAtPath:error:</definition>
+        <argsstring>(NSString *path,[error] NSError **error)</argsstring>
+        <name>sizeOfDirectoryAtPath:error:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <attributes>[error]</attributes>
+          <type>NSError **</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="961" bodyend="995"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1a6c424259aefdc647319a2368af697c2a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSNumber *</type>
+        <definition>NSNumber * NSFileManager(XD_Handy)::sizeOfFileAtPath:</definition>
+        <argsstring>(NSString *path)</argsstring>
+        <name>sizeOfFileAtPath:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="998" bodyend="1001"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1a40668f68863b7e17fd6e140f65982082" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSNumber *</type>
+        <definition>NSNumber * NSFileManager(XD_Handy)::sizeOfFileAtPath:error:</definition>
+        <argsstring>(NSString *path,[error] NSError **error)</argsstring>
+        <name>sizeOfFileAtPath:error:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <attributes>[error]</attributes>
+          <type>NSError **</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="1004" bodyend="1015"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1a8c7d312f2117a5c83e903a11f9d62018" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSNumber *</type>
+        <definition>NSNumber * NSFileManager(XD_Handy)::sizeOfItemAtPath:</definition>
+        <argsstring>(NSString *path)</argsstring>
+        <name>sizeOfItemAtPath:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="1018" bodyend="1021"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1aa659d81b63e91d10b7ffd211fa11d9cb" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSNumber *</type>
+        <definition>NSNumber * NSFileManager(XD_Handy)::sizeOfItemAtPath:error:</definition>
+        <argsstring>(NSString *path,[error] NSError **error)</argsstring>
+        <name>sizeOfItemAtPath:error:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <attributes>[error]</attributes>
+          <type>NSError **</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="1024" bodyend="1027"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1a8ff20ea31e45ca5710790e9ae6c8b3fa" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSURL *</type>
+        <definition>NSURL * NSFileManager(XD_Handy)::urlForItemAtPath:</definition>
+        <argsstring>(NSString *path)</argsstring>
+        <name>urlForItemAtPath:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="1030" bodyend="1033"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1a9d54347bb25fd0a83d096724c94ede36" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL NSFileManager(XD_Handy)::writeFileAtPath:content:</definition>
+        <argsstring>(NSString *path,[content] NSObject *content)</argsstring>
+        <name>writeFileAtPath:content:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <attributes>[content]</attributes>
+          <type>NSObject *</type>
+          <declname>content</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="1036" bodyend="1039"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1ae21038c32793fe5faa94936640460178" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL NSFileManager(XD_Handy)::writeFileAtPath:content:error:</definition>
+        <argsstring>(NSString *path,[content] NSObject *content,[error] NSError **error)</argsstring>
+        <name>writeFileAtPath:content:error:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <attributes>[content]</attributes>
+          <type>NSObject *</type>
+          <declname>content</declname>
+        </param>
+        <param>
+          <attributes>[error]</attributes>
+          <type>NSError **</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="1042" bodyend="1108"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1a6fe9efedaaf743f8b4c4b6c42b250bbd" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSDictionary *</type>
+        <definition>NSDictionary * NSFileManager(XD_Handy)::metadataOfImageAtPath:</definition>
+        <argsstring>(NSString *path)</argsstring>
+        <name>metadataOfImageAtPath:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="1111" bodyend="1125"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1adcd5ce2c2dc9a390ada9af4d6ab23261" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSDictionary *</type>
+        <definition>NSDictionary * NSFileManager(XD_Handy)::exifDataOfImageAtPath:</definition>
+        <argsstring>(NSString *path)</argsstring>
+        <name>exifDataOfImageAtPath:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="1128" bodyend="1138"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1aa6c05fd12d3a03a2f5e30810acbe2e0c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSDictionary *</type>
+        <definition>NSDictionary * NSFileManager(XD_Handy)::tiffDataOfImageAtPath:</definition>
+        <argsstring>(NSString *path)</argsstring>
+        <name>tiffDataOfImageAtPath:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="1141" bodyend="1151"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1a349d160631b10afee53072b49e9eaa8c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSDictionary *</type>
+        <definition>NSDictionary * NSFileManager(XD_Handy)::xattrOfItemAtPath:</definition>
+        <argsstring>(NSString *path)</argsstring>
+        <name>xattrOfItemAtPath:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="1154" bodyend="1185"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1af714636db8fb03461fbbd462a861f1da" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * NSFileManager(XD_Handy)::xattrOfItemAtPath:getValueForKey:</definition>
+        <argsstring>(NSString *path,[getValueForKey] NSString *key)</argsstring>
+        <name>xattrOfItemAtPath:getValueForKey:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <attributes>[getValueForKey]</attributes>
+          <type>NSString *</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="1188" bodyend="1218"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1a539c2a0a81b532f8d934428cecb87731" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL NSFileManager(XD_Handy)::xattrOfItemAtPath:hasValueForKey:</definition>
+        <argsstring>(NSString *path,[hasValueForKey] NSString *key)</argsstring>
+        <name>xattrOfItemAtPath:hasValueForKey:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <attributes>[hasValueForKey]</attributes>
+          <type>NSString *</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="1221" bodyend="1224"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1a5a650825b7188083e6fb95d7d7a14a2b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL NSFileManager(XD_Handy)::xattrOfItemAtPath:removeValueForKey:</definition>
+        <argsstring>(NSString *path,[removeValueForKey] NSString *key)</argsstring>
+        <name>xattrOfItemAtPath:removeValueForKey:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <attributes>[removeValueForKey]</attributes>
+          <type>NSString *</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="1227" bodyend="1232"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d___handy_08_1ae8496ca6679e849bdf632ca46a1c501c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL NSFileManager(XD_Handy)::xattrOfItemAtPath:setValue:forKey:</definition>
+        <argsstring>(NSString *path,[setValue] NSString *value,[forKey] NSString *key)</argsstring>
+        <name>xattrOfItemAtPath:setValue:forKey:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <attributes>[setValue]</attributes>
+          <type>NSString *</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <attributes>[forKey]</attributes>
+          <type>NSString *</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="1235" bodyend="1245"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" line="12" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XD_Handy.m" bodystart="12" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1a578da7941405953d6d169eaf8418eafb" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>attributeOfItemAtPath:forKey:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1accff04f2c39698dec9bf9329b4c80556" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>attributeOfItemAtPath:forKey:error:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1ac07bdca9f97189f1917d4036e4d1031f" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>attributesOfItemAtPath:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1ae90d42fd65867149c7a0b8248ef59367" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>attributesOfItemAtPath:error:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1a5508ab8964241fb4aceaac23acdc69f6" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>copyItemAtPath:toPath:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1ad3c71b1ad2fdb5a16bb4fa56cd3990e2" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>copyItemAtPath:toPath:error:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1a7e1d807bae2bdc3fff3bf228cb83cb27" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>copyItemAtPath:toPath:overwrite:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1aaac17cad387ebda103a2d3519737c0e3" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>copyItemAtPath:toPath:overwrite:error:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1a2ad2d214bd7ced5f681f52b9e3aea2ea" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>createDirectoriesForFileAtPath:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1a638cfda0fd222763749b06c013bdad27" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>createDirectoriesForFileAtPath:error:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1a68859fb5861bbfd14cd1864f74118954" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>createDirectoriesForPath:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1a907638b70e2d1cb76f3a260984c03abb" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>createDirectoriesForPath:error:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1aa1edc82152156d1e31c5949b39e4fc91" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>createFileAtPath:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1af6721aecf1e5fa60e11835bc44c0cf5c" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>createFileAtPath:error:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1a8f5bfd21c3d24937ae9895066ee674b3" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>createFileAtPath:overwrite:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1ac501a5ccb1e315a029d596b68996cdb5" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>createFileAtPath:overwrite:error:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1a0f3360accb6232012b32e2ead7f617e5" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>createFileAtPath:withContent:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1a9c7418ed0cb4dec81f9a426f93706ccc" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>createFileAtPath:withContent:error:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1a377c8eb4a1a8dc201b7a4c1b5ce1d416" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>createFileAtPath:withContent:overwrite:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1a5adb5befd85c48f109f12a22f80540c6" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>createFileAtPath:withContent:overwrite:error:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1a9c5b11eaad1df6b4582f3c5013912164" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>creationDateOfItemAtPath:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1a457ac05d87bcd9e242e85b03e42735f9" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>creationDateOfItemAtPath:error:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1aeaac5c05ba35ff6825782464c0ee78f9" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>emptyCachesDirectory</name></member>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1ae861b40eec727a5b7fbc1b51cb22efbc" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>emptyTemporaryDirectory</name></member>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1adcd5ce2c2dc9a390ada9af4d6ab23261" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>exifDataOfImageAtPath:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1a06a188b659add831638b6f5c63c574a0" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>existsItemAtPath:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1affffe7bc6a8aef8f45586a7d17c490f4" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>isDirectoryItemAtPath:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1a2a91123f8296991b15e46b2a209d287a" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>isDirectoryItemAtPath:error:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1a05d2c3837664d89b3a42a041b1bff7c6" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>isEmptyItemAtPath:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1a3f8ef0371769e7020e677e5cbcfb836f" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>isEmptyItemAtPath:error:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1a56f6b51a075097dc69cb08a3457c140e" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>isExecutableItemAtPath:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1a28124264b2d3ac29d1cb8af889767d14" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>isFileItemAtPath:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1a6fbef4b765af948672d79747c4a9c9ee" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>isFileItemAtPath:error:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1a2f92e69b19b0ced23dee3a972f8620b2" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>isReadableItemAtPath:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1a83648aa861f32887c178a8d4667c1c9e" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>isWritableItemAtPath:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1a83ff54e16b6d8debf5ff00ee66e21806" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>listDirectoriesInDirectoryAtPath:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1a42b90f1c6b5078a8e52d6700c1488bbf" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>listDirectoriesInDirectoryAtPath:deep:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1a89167ef546ec3b17c642330d31cdffdb" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>listFilesInDirectoryAtPath:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1a1f96fdc7be10fb67f534a631d92136a5" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>listFilesInDirectoryAtPath:deep:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1acdfecf24eaca852b946ce3fe1385c806" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>listFilesInDirectoryAtPath:withExtension:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1a470948bdfee3c30a38eea8aeec0c3de6" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>listFilesInDirectoryAtPath:withExtension:deep:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1adcc8cbf0020cfbfe9107def971365d7c" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>listFilesInDirectoryAtPath:withPrefix:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1ac2bf71451eefe7241a0a728e9c850d2b" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>listFilesInDirectoryAtPath:withPrefix:deep:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1a90d211f6355a7dcabc955d6aeb7561ce" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>listFilesInDirectoryAtPath:withSuffix:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1a3d6218866d5df2997b4acec3a1cf507a" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>listFilesInDirectoryAtPath:withSuffix:deep:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1a19f27732357acd0392f98eba9c35a62e" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>listItemsInDirectoryAtPath:deep:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1a6fe9efedaaf743f8b4c4b6c42b250bbd" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>metadataOfImageAtPath:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1a13149f99be0d20bc3ae4862fa6970a11" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>moveItemAtPath:toPath:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1a1c884147150829e607f81ea3b257177c" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>moveItemAtPath:toPath:error:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1a68188a189ed5fda9ed15ebfff2db71e0" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>moveItemAtPath:toPath:overwrite:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1a5ed47fc6528c307b1b1114a2e9366383" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>moveItemAtPath:toPath:overwrite:error:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1a5c6ebce541a9ffbcf0fbf5e2bb6fc9c7" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>pathForApplicationSupportDirectory</name></member>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1a20b09e517b92bf527835e824867d3a92" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>pathForApplicationSupportDirectoryWithPath:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1a712fd260cd57da76e9232087e55a4610" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>pathForCachesDirectory</name></member>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1a227cec54c3e20807321ce5319023b59a" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>pathForCachesDirectoryWithPath:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1a7320b73793a979cb4465f45565e0c05e" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>pathForDocumentsDirectory</name></member>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1aeb0b257f1aa4772224c1264d8f9323f0" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>pathForDocumentsDirectoryWithPath:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1a569211b1fde88fad58f9219ab3ded7f8" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>pathForLibraryDirectory</name></member>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1aa246e813b66b10f3629ddd19f2a67d8f" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>pathForLibraryDirectoryWithPath:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1ace73fab33405f9a47b139527ff0950cb" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>pathForMainBundleDirectory</name></member>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1ac75015a83c1a092374392e9ca87954c9" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>pathForMainBundleDirectoryWithPath:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1a9a4ca811fea23d2a8b38bf5e7b06fb1f" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>pathForPlistNamed:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1aa68c23dfa858ed2340bc37dd8f44fc84" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>pathForTemporaryDirectory</name></member>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1af5350e8e5346ea3e8ab4395ba2f3dc2a" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>pathForTemporaryDirectoryWithPath:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1ac4b902101e9e0e8ecd58c4efaf8de8a8" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>readFileAtPath:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1a2f4bbdf92b25379a13cd6da924ff2b45" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>readFileAtPath:error:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1a48bfee0b996c6f8f789e12f218fa2800" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>readFileAtPathAsArray:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1a634df3a02e7c8dc8aea495480cfd6efb" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>readFileAtPathAsCustomModel:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1ace359f04c3cd77056d416e82c3407b6e" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>readFileAtPathAsData:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1a9e4cae29f8aff0122e71b05807566d33" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>readFileAtPathAsData:error:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1af642282eef0a0e0702fe75d3190ca02f" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>readFileAtPathAsDictionary:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1a99e8101d745a2fd17cdab80d2cbf6ac6" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>readFileAtPathAsImage:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1ae031e304ee499c6fe3cb8f6c178f02d5" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>readFileAtPathAsImage:error:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1a8d9c4dac9ac4ed7b7539f7d184c9a3ec" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>readFileAtPathAsImageView:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1ab0a28370360d1a1a9fa7cb32147ecda5" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>readFileAtPathAsImageView:error:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1a4aaf69c216c0d8f2cb538ce47a614359" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>readFileAtPathAsJSON:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1a06bb35ae400afdacf982cb5bb00cabae" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>readFileAtPathAsJSON:error:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1a6c21c310ad45f5145b329f1f1968ef86" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>readFileAtPathAsMutableArray:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1a10a7f7c1d69ba845914272ead5e3d849" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>readFileAtPathAsMutableData:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1aec31b0e8837a8a1509dc32d4194aa328" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>readFileAtPathAsMutableData:error:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1a31325425b409132e16c4159ad006197c" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>readFileAtPathAsMutableDictionary:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1a81febba0d166d07b0cfe534fe7af20ba" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>readFileAtPathAsString:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1a2b02e2a0d7ae74d14a5d6408dbec9545" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>readFileAtPathAsString:error:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1a25c3de00ba68766a99a9504b08067df5" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>removeFilesInDirectoryAtPath:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1adfeb142d83e32272619aeead5b1ca2fb" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>removeFilesInDirectoryAtPath:error:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1ada273a80eabc38dbbd7537640e1aa6be" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>removeFilesInDirectoryAtPath:withExtension:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1adcbb61f7c5f7475e92f4479a76beb166" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>removeFilesInDirectoryAtPath:withExtension:error:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1a4d212fdf05a10b1edd4be2a4a0fcf5d0" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>removeFilesInDirectoryAtPath:withPrefix:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1ab67b1447e64da706cca9a77ed8aa3580" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>removeFilesInDirectoryAtPath:withPrefix:error:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1af80d872d25c1c89197edc5dfc3201eb5" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>removeFilesInDirectoryAtPath:withSuffix:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1a0c0c142cf9c16e08fc038bf18051bb58" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>removeFilesInDirectoryAtPath:withSuffix:error:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1ab4e7dda8d72eb3996b06f3f886c62919" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>removeItemAtPath:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1a38b6207dd771df0de6ba00604cffe95c" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>removeItemAtPath:error:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1af7d44c1c46d43bc04534e04a26b8cfc0" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>removeItemsInDirectoryAtPath:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1a5b360c249732522b6e8633fee6693bca" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>removeItemsInDirectoryAtPath:error:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1a1d0858e6ff0f6401498738715d354905" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>renameItemAtPath:withName:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1a49e21b8e5a5bb96e214c5b512f169bab" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>renameItemAtPath:withName:error:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1a00b59fd9bcec15a5be63562b2c81c548" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>sizeFormatted:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1a327531a66ab7a0756613d45adf6edf68" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>sizeFormattedOfDirectoryAtPath:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1a775a1467621cd312bd41c8f156d8ff4f" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>sizeFormattedOfDirectoryAtPath:error:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1a39911faff88a5c377768e29ab312ecb8" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>sizeFormattedOfFileAtPath:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1af3c49e81e2c0332b3abb0d107982fcef" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>sizeFormattedOfFileAtPath:error:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1a46299d3a8d8a87fcf72a3d74b682b30a" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>sizeFormattedOfItemAtPath:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1acea148ce2cc16146df1e2207b419f79a" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>sizeFormattedOfItemAtPath:error:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1aae1fc0b2355215658049dfcfb5da18b6" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>sizeOfDirectoryAtPath:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1a36804952db2b108491c56763f4e25721" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>sizeOfDirectoryAtPath:error:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1a6c424259aefdc647319a2368af697c2a" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>sizeOfFileAtPath:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1a40668f68863b7e17fd6e140f65982082" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>sizeOfFileAtPath:error:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1a8c7d312f2117a5c83e903a11f9d62018" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>sizeOfItemAtPath:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1aa659d81b63e91d10b7ffd211fa11d9cb" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>sizeOfItemAtPath:error:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1aa6c05fd12d3a03a2f5e30810acbe2e0c" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>tiffDataOfImageAtPath:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1a8ff20ea31e45ca5710790e9ae6c8b3fa" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>urlForItemAtPath:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1a9d54347bb25fd0a83d096724c94ede36" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>writeFileAtPath:content:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1ae21038c32793fe5faa94936640460178" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>writeFileAtPath:content:error:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1a349d160631b10afee53072b49e9eaa8c" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>xattrOfItemAtPath:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1af714636db8fb03461fbbd462a861f1da" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>xattrOfItemAtPath:getValueForKey:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1a539c2a0a81b532f8d934428cecb87731" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>xattrOfItemAtPath:hasValueForKey:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1a5a650825b7188083e6fb95d7d7a14a2b" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>xattrOfItemAtPath:removeValueForKey:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d___handy_08_1ae8496ca6679e849bdf632ca46a1c501c" prot="public" virt="virtual"><scope>NSFileManager(XD_Handy)</scope><name>xattrOfItemAtPath:setValue:forKey:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

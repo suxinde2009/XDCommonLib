@@ -1,0 +1,334 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_n_s_date_07_formatter_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>NSDate(Formatter)</compoundname>
+    <includes refid="_n_s_date_09_formatter_8h" local="no">NSDate+Formatter.h</includes>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="category_n_s_date_07_formatter_08_1ac6e80d80f264b945e6317d5211b17cff" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSDateFormatter *</type>
+        <definition>NSDateFormatter * NSDate(Formatter)::formatter</definition>
+        <argsstring>()</argsstring>
+        <name>formatter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Formatter.h" line="15" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Formatter.m" bodystart="12" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_07_formatter_08_1a8716ec54cb987d1a261be2cab72fc97f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSDateFormatter *</type>
+        <definition>NSDateFormatter * NSDate(Formatter)::formatterWithoutTime</definition>
+        <argsstring>()</argsstring>
+        <name>formatterWithoutTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Formatter.h" line="15" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Formatter.m" bodystart="27" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_07_formatter_08_1a81eec8ee84e0d82ba92dbdb1917e3508" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSDateFormatter *</type>
+        <definition>NSDateFormatter * NSDate(Formatter)::formatterWithoutDate</definition>
+        <argsstring>()</argsstring>
+        <name>formatterWithoutDate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Formatter.h" line="15" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Formatter.m" bodystart="40" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_07_formatter_08_1abd9fe853ebaedc099f974031d1688f0c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * NSDate(Formatter)::currentDateStringWithFormat:</definition>
+        <argsstring>(NSString *format)</argsstring>
+        <name>currentDateStringWithFormat:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>format</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Formatter.h" line="15" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Formatter.m" bodystart="113" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_07_formatter_08_1a209d3e1e1738aed37d82f28012fe89ed" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSDate *</type>
+        <definition>NSDate * NSDate(Formatter)::dateWithSecondsFromNow:</definition>
+        <argsstring>(NSInteger seconds)</argsstring>
+        <name>dateWithSecondsFromNow:</name>
+        <param>
+          <type>NSInteger</type>
+          <declname>seconds</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Formatter.h" line="15" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Formatter.m" bodystart="121" bodyend="128"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_07_formatter_08_1aad389f2740aaedbb9fa828d19d6573b7" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSDate *</type>
+        <definition>NSDate * NSDate(Formatter)::dateWithYear:month:day:</definition>
+        <argsstring>(NSInteger year,[month] NSUInteger month,[day] NSUInteger day)</argsstring>
+        <name>dateWithYear:month:day:</name>
+        <param>
+          <type>NSInteger</type>
+          <declname>year</declname>
+        </param>
+        <param>
+          <attributes>[month]</attributes>
+          <type>NSUInteger</type>
+          <declname>month</declname>
+        </param>
+        <param>
+          <attributes>[day]</attributes>
+          <type>NSUInteger</type>
+          <declname>day</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Formatter.h" line="15" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Formatter.m" bodystart="130" bodyend="137"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="category_n_s_date_07_formatter_08_1a889d8c86b86dce21607eed559afffa59" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * NSDate(Formatter)::formatWithUTCTimeZone</definition>
+        <argsstring>()</argsstring>
+        <name>formatWithUTCTimeZone</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Formatter.h" line="15" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Formatter.m" bodystart="55" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_07_formatter_08_1acacac7bafeabd052f8b8f49a6d7f0dbe" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * NSDate(Formatter)::formatWithLocalTimeZone</definition>
+        <argsstring>()</argsstring>
+        <name>formatWithLocalTimeZone</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Formatter.h" line="15" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Formatter.m" bodystart="59" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_07_formatter_08_1a4a584ba6d7eb8823aea4fc11c683a8b3" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * NSDate(Formatter)::formatWithTimeZoneOffset:</definition>
+        <argsstring>(NSTimeInterval offset)</argsstring>
+        <name>formatWithTimeZoneOffset:</name>
+        <param>
+          <type>NSTimeInterval</type>
+          <declname>offset</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Formatter.h" line="15" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Formatter.m" bodystart="63" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_07_formatter_08_1aa8d9c20abc4455036aa9c818ae8f093b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * NSDate(Formatter)::formatWithTimeZone:</definition>
+        <argsstring>(NSTimeZone *timezone)</argsstring>
+        <name>formatWithTimeZone:</name>
+        <param>
+          <type>NSTimeZone *</type>
+          <declname>timezone</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Formatter.h" line="15" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Formatter.m" bodystart="67" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_07_formatter_08_1a6444aa71aa9fe93643ffd3c94e3456de" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * NSDate(Formatter)::formatWithUTCTimeZoneWithoutTime</definition>
+        <argsstring>()</argsstring>
+        <name>formatWithUTCTimeZoneWithoutTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Formatter.h" line="15" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Formatter.m" bodystart="75" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_07_formatter_08_1a7e36743d2c054e1acdadd2154532f1f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * NSDate(Formatter)::formatWithLocalTimeZoneWithoutTime</definition>
+        <argsstring>()</argsstring>
+        <name>formatWithLocalTimeZoneWithoutTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Formatter.h" line="15" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Formatter.m" bodystart="79" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_07_formatter_08_1ac271dccd66d35bbb79c48df26ec567f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * NSDate(Formatter)::formatWithTimeZoneOffsetWithoutTime:</definition>
+        <argsstring>(NSTimeInterval offset)</argsstring>
+        <name>formatWithTimeZoneOffsetWithoutTime:</name>
+        <param>
+          <type>NSTimeInterval</type>
+          <declname>offset</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Formatter.h" line="15" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Formatter.m" bodystart="83" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_07_formatter_08_1a5566c25a0dca69267bb7c91a41e74bd9" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * NSDate(Formatter)::formatWithTimeZoneWithoutTime:</definition>
+        <argsstring>(NSTimeZone *timezone)</argsstring>
+        <name>formatWithTimeZoneWithoutTime:</name>
+        <param>
+          <type>NSTimeZone *</type>
+          <declname>timezone</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Formatter.h" line="15" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Formatter.m" bodystart="87" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_07_formatter_08_1abb0acb56bbd169d11b60dc9ff458abee" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * NSDate(Formatter)::formatWithUTCWithoutDate</definition>
+        <argsstring>()</argsstring>
+        <name>formatWithUTCWithoutDate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Formatter.h" line="15" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Formatter.m" bodystart="95" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_07_formatter_08_1acd4fcb090783681f11cc62eb13ce8d53" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * NSDate(Formatter)::formatWithLocalTimeWithoutDate</definition>
+        <argsstring>()</argsstring>
+        <name>formatWithLocalTimeWithoutDate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Formatter.h" line="15" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Formatter.m" bodystart="98" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_07_formatter_08_1a8fc43c97dd248232061ce0358d9ab7d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * NSDate(Formatter)::formatWithTimeZoneOffsetWithoutDate:</definition>
+        <argsstring>(NSTimeInterval offset)</argsstring>
+        <name>formatWithTimeZoneOffsetWithoutDate:</name>
+        <param>
+          <type>NSTimeInterval</type>
+          <declname>offset</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Formatter.h" line="15" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Formatter.m" bodystart="102" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_07_formatter_08_1a00a7bbbb0429e2e79e203ff2e639c609" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * NSDate(Formatter)::formatTimeWithTimeZone:</definition>
+        <argsstring>(NSTimeZone *timezone)</argsstring>
+        <name>formatTimeWithTimeZone:</name>
+        <param>
+          <type>NSTimeZone *</type>
+          <declname>timezone</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Formatter.h" line="15" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Formatter.m" bodystart="106" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_07_formatter_08_1a882eb560e1a3879f461a29ad659ef3b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * NSDate(Formatter)::dateWithFormat:</definition>
+        <argsstring>(NSString *format)</argsstring>
+        <name>dateWithFormat:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>format</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Formatter.h" line="15" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Formatter.m" bodystart="138" bodyend="144"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Formatter.m" line="11" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Formatter.m" bodystart="11" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_n_s_date_07_formatter_08_1abd9fe853ebaedc099f974031d1688f0c" prot="public" virt="virtual"><scope>NSDate(Formatter)</scope><name>currentDateStringWithFormat:</name></member>
+      <member refid="category_n_s_date_07_formatter_08_1a882eb560e1a3879f461a29ad659ef3b7" prot="public" virt="virtual"><scope>NSDate(Formatter)</scope><name>dateWithFormat:</name></member>
+      <member refid="category_n_s_date_07_formatter_08_1a209d3e1e1738aed37d82f28012fe89ed" prot="public" virt="virtual"><scope>NSDate(Formatter)</scope><name>dateWithSecondsFromNow:</name></member>
+      <member refid="category_n_s_date_07_formatter_08_1aad389f2740aaedbb9fa828d19d6573b7" prot="public" virt="virtual"><scope>NSDate(Formatter)</scope><name>dateWithYear:month:day:</name></member>
+      <member refid="category_n_s_date_07_formatter_08_1ac6e80d80f264b945e6317d5211b17cff" prot="public" virt="virtual"><scope>NSDate(Formatter)</scope><name>formatter</name></member>
+      <member refid="category_n_s_date_07_formatter_08_1a81eec8ee84e0d82ba92dbdb1917e3508" prot="public" virt="virtual"><scope>NSDate(Formatter)</scope><name>formatterWithoutDate</name></member>
+      <member refid="category_n_s_date_07_formatter_08_1a8716ec54cb987d1a261be2cab72fc97f" prot="public" virt="virtual"><scope>NSDate(Formatter)</scope><name>formatterWithoutTime</name></member>
+      <member refid="category_n_s_date_07_formatter_08_1a00a7bbbb0429e2e79e203ff2e639c609" prot="public" virt="virtual"><scope>NSDate(Formatter)</scope><name>formatTimeWithTimeZone:</name></member>
+      <member refid="category_n_s_date_07_formatter_08_1acd4fcb090783681f11cc62eb13ce8d53" prot="public" virt="virtual"><scope>NSDate(Formatter)</scope><name>formatWithLocalTimeWithoutDate</name></member>
+      <member refid="category_n_s_date_07_formatter_08_1acacac7bafeabd052f8b8f49a6d7f0dbe" prot="public" virt="virtual"><scope>NSDate(Formatter)</scope><name>formatWithLocalTimeZone</name></member>
+      <member refid="category_n_s_date_07_formatter_08_1a7e36743d2c054e1acdadd2154532f1f3" prot="public" virt="virtual"><scope>NSDate(Formatter)</scope><name>formatWithLocalTimeZoneWithoutTime</name></member>
+      <member refid="category_n_s_date_07_formatter_08_1aa8d9c20abc4455036aa9c818ae8f093b" prot="public" virt="virtual"><scope>NSDate(Formatter)</scope><name>formatWithTimeZone:</name></member>
+      <member refid="category_n_s_date_07_formatter_08_1a4a584ba6d7eb8823aea4fc11c683a8b3" prot="public" virt="virtual"><scope>NSDate(Formatter)</scope><name>formatWithTimeZoneOffset:</name></member>
+      <member refid="category_n_s_date_07_formatter_08_1a8fc43c97dd248232061ce0358d9ab7d6" prot="public" virt="virtual"><scope>NSDate(Formatter)</scope><name>formatWithTimeZoneOffsetWithoutDate:</name></member>
+      <member refid="category_n_s_date_07_formatter_08_1ac271dccd66d35bbb79c48df26ec567f1" prot="public" virt="virtual"><scope>NSDate(Formatter)</scope><name>formatWithTimeZoneOffsetWithoutTime:</name></member>
+      <member refid="category_n_s_date_07_formatter_08_1a5566c25a0dca69267bb7c91a41e74bd9" prot="public" virt="virtual"><scope>NSDate(Formatter)</scope><name>formatWithTimeZoneWithoutTime:</name></member>
+      <member refid="category_n_s_date_07_formatter_08_1a889d8c86b86dce21607eed559afffa59" prot="public" virt="virtual"><scope>NSDate(Formatter)</scope><name>formatWithUTCTimeZone</name></member>
+      <member refid="category_n_s_date_07_formatter_08_1a6444aa71aa9fe93643ffd3c94e3456de" prot="public" virt="virtual"><scope>NSDate(Formatter)</scope><name>formatWithUTCTimeZoneWithoutTime</name></member>
+      <member refid="category_n_s_date_07_formatter_08_1abb0acb56bbd169d11b60dc9ff458abee" prot="public" virt="virtual"><scope>NSDate(Formatter)</scope><name>formatWithUTCWithoutDate</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

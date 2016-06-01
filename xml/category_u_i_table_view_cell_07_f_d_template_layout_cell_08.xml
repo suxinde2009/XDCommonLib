@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_u_i_table_view_cell_07_f_d_template_layout_cell_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>UITableViewCell(FDTemplateLayoutCell)</compoundname>
+    <includes refid="_u_i_table_view_09_f_d_template_layout_cell_8h" local="no">UITableView+FDTemplateLayoutCell.h</includes>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="category_u_i_table_view_cell_07_f_d_template_layout_cell_08_1a3df80a1b2001f226aee16c45932d150d" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="assign">
+        <type>BOOL</type>
+        <definition>BOOL UITableViewCell(FDTemplateLayoutCell)::fd_isTemplateLayoutCell</definition>
+        <argsstring></argsstring>
+        <name>fd_isTemplateLayoutCell</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Indicate this is a template layout cell for calculation only. You may need this when there are non-UI side effects when configure a cell. Like:<itemizedlist>
+<listitem><para>(void)configureCell:(FooCell *)cell atIndexPath:(NSIndexPath *)indexPath { cell.entity = [self entityAtIndexPath:indexPath]; if (!cell.fd_isTemplateLayoutCell) { [self notifySomething]; // non-UI side effects } } </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UITableView/UITableView+FDTemplateLayoutCell.h" line="76" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UITableView/UITableView+FDTemplateLayoutCell.h" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_u_i_table_view_cell_07_f_d_template_layout_cell_08_1ab877716b4c9f481fc439104389412739" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="assign">
+        <type>BOOL</type>
+        <definition>BOOL UITableViewCell(FDTemplateLayoutCell)::fd_enforceFrameLayout</definition>
+        <argsstring></argsstring>
+        <name>fd_enforceFrameLayout</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Enable to enforce this template layout cell to use &quot;frame layout&quot; rather than &quot;auto layout&quot;, and will ask cell&apos;s height by calling &quot;-sizeThatFits:&quot;, so you must override this method. Note: If no layout constraints have been added to cell&apos;s content view, it will automatically switch to &quot;frame layout&quot; mode. Use this property only when you want to manually control this template layout cell&apos;s height calculation mode. Default to NO. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UITableView/UITableView+FDTemplateLayoutCell.h" line="85" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UITableView/UITableView+FDTemplateLayoutCell.h" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UITableView/UITableView+FDTemplateLayoutCell.m" line="575" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UITableView/UITableView+FDTemplateLayoutCell.m" bodystart="575" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_u_i_table_view_cell_07_f_d_template_layout_cell_08_1ab877716b4c9f481fc439104389412739" prot="public" virt="non-virtual"><scope>UITableViewCell(FDTemplateLayoutCell)</scope><name>fd_enforceFrameLayout</name></member>
+      <member refid="category_u_i_table_view_cell_07_f_d_template_layout_cell_08_1a3df80a1b2001f226aee16c45932d150d" prot="public" virt="non-virtual"><scope>UITableViewCell(FDTemplateLayoutCell)</scope><name>fd_isTemplateLayoutCell</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

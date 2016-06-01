@@ -1,0 +1,298 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="class_x_d_logger" kind="class" language="Objective-C" prot="public">
+    <compoundname>XDLogger</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">NSObject</basecompoundref>
+    <includes refid="_x_d_logger_8h" local="no">XDLogger.h</includes>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_x_d_logger_1a055bacf7edfe064e2d32024802378ba8" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="assign">
+        <type>BOOL</type>
+        <definition>BOOL XDLogger::showLevel</definition>
+        <argsstring></argsstring>
+        <name>showLevel</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLogger/XDLogger.h" line="148" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLogger/XDLogger.h" bodystart="148" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_x_d_logger_1ae2aacb26782167c694fcc74b0b66fd6c" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="assign">
+        <type>BOOL</type>
+        <definition>BOOL XDLogger::showModule</definition>
+        <argsstring></argsstring>
+        <name>showModule</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLogger/XDLogger.h" line="149" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLogger/XDLogger.h" bodystart="149" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_x_d_logger_1a09c636b7943760bdd3fd49cc354ae110" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="assign">
+        <type>BOOL</type>
+        <definition>BOOL XDLogger::enabled</definition>
+        <argsstring></argsstring>
+        <name>enabled</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLogger/XDLogger.h" line="150" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLogger/XDLogger.h" bodystart="150" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_x_d_logger_1a14ec0a8afcf0c6e9185bfb1f9a142eaa" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="retain">
+        <type>NSMutableArray *</type>
+        <definition>NSMutableArray* XDLogger::backlogs</definition>
+        <argsstring></argsstring>
+        <name>backlogs</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLogger/XDLogger.h" line="151" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLogger/XDLogger.h" bodystart="151" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_x_d_logger_1aa33718c44218ac510528557370973ac0" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="assign">
+        <type>NSUInteger</type>
+        <definition>NSUInteger XDLogger::indentTabs</definition>
+        <argsstring></argsstring>
+        <name>indentTabs</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLogger/XDLogger.h" line="152" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLogger/XDLogger.h" bodystart="152" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_x_d_logger_1aeef7c921f2883059025bb12215d2cebe" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>instancetype</type>
+        <definition>instancetype XDLogger::sharedInstance</definition>
+        <argsstring>()</argsstring>
+        <name>sharedInstance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLogger/XDLogger.h" line="152" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLogger/XDLogger.m" bodystart="126" bodyend="134"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_x_d_logger_1a59bd54bd3b3d57f68819dc7786743c8d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void XDLogger::toggle</definition>
+        <argsstring>()</argsstring>
+        <name>toggle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLogger/XDLogger.h" line="152" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLogger/XDLogger.m" bodystart="171" bodyend="174"/>
+      </memberdef>
+      <memberdef kind="function" id="class_x_d_logger_1ac1600442a105901fda5e657b5aa45946" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void XDLogger::enable</definition>
+        <argsstring>()</argsstring>
+        <name>enable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLogger/XDLogger.h" line="152" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLogger/XDLogger.m" bodystart="176" bodyend="179"/>
+      </memberdef>
+      <memberdef kind="function" id="class_x_d_logger_1a5177036d7ae4b85c8b991a11fe7f3372" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void XDLogger::disable</definition>
+        <argsstring>()</argsstring>
+        <name>disable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLogger/XDLogger.h" line="152" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLogger/XDLogger.m" bodystart="181" bodyend="184"/>
+      </memberdef>
+      <memberdef kind="function" id="class_x_d_logger_1a73a12aead23209dd1dbbb3588d4999d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void XDLogger::indent</definition>
+        <argsstring>()</argsstring>
+        <name>indent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLogger/XDLogger.h" line="152" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLogger/XDLogger.m" bodystart="186" bodyend="189"/>
+      </memberdef>
+      <memberdef kind="function" id="class_x_d_logger_1adfbbb0aac4675f21a4f55fedca2efc3e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void XDLogger::indent:</definition>
+        <argsstring>(NSUInteger tabs)</argsstring>
+        <name>indent:</name>
+        <param>
+          <type>NSUInteger</type>
+          <declname>tabs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLogger/XDLogger.h" line="152" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLogger/XDLogger.m" bodystart="191" bodyend="194"/>
+      </memberdef>
+      <memberdef kind="function" id="class_x_d_logger_1a404af4bbb6657655c77a2b5747cf1572" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void XDLogger::unindent</definition>
+        <argsstring>()</argsstring>
+        <name>unindent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLogger/XDLogger.h" line="152" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLogger/XDLogger.m" bodystart="196" bodyend="202"/>
+      </memberdef>
+      <memberdef kind="function" id="class_x_d_logger_1a117940a194f634ceb25b99ef10d22331" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void XDLogger::unindent:</definition>
+        <argsstring>(NSUInteger tabs)</argsstring>
+        <name>unindent:</name>
+        <param>
+          <type>NSUInteger</type>
+          <declname>tabs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLogger/XDLogger.h" line="152" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLogger/XDLogger.m" bodystart="204" bodyend="214"/>
+      </memberdef>
+      <memberdef kind="function" id="class_x_d_logger_1a05c2a1b52bfce8545453bf02ff1d82f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void XDLogger::level:format:</definition>
+        <argsstring>(XDLogLevel level,[format] NSString *format,[,]...)</argsstring>
+        <name>level:format:</name>
+        <param>
+          <type><ref refid="_x_d_logger_8h_1a13554196f8c92c0e68136012ff3c71ae" kindref="member">XDLogLevel</ref></type>
+          <declname>level</declname>
+        </param>
+        <param>
+          <attributes>[format]</attributes>
+          <type>NSString *</type>
+          <declname>format</declname>
+        </param>
+        <param>
+          <attributes>[,]</attributes>
+          <type>...</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLogger/XDLogger.h" line="152" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_x_d_logger_1af17eefd99105c19c7ef0347b2b6420cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void XDLogger::level:format:args:</definition>
+        <argsstring>(XDLogLevel level,[format] NSString *format,[args] va_list args)</argsstring>
+        <name>level:format:args:</name>
+        <param>
+          <type><ref refid="_x_d_logger_8h_1a13554196f8c92c0e68136012ff3c71ae" kindref="member">XDLogLevel</ref></type>
+          <declname>level</declname>
+        </param>
+        <param>
+          <attributes>[format]</attributes>
+          <type>NSString *</type>
+          <declname>format</declname>
+        </param>
+        <param>
+          <attributes>[args]</attributes>
+          <type>va_list</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLogger/XDLogger.h" line="152" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1328">
+        <label>XDLogger</label>
+        <link refid="class_x_d_logger"/>
+        <childnode refid="1329" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1329">
+        <label>NSObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1330">
+        <label>XDLogger</label>
+        <link refid="class_x_d_logger"/>
+        <childnode refid="1331" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1331">
+        <label>NSObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLogger/XDLogger.m" line="122" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLogger/XDLogger.m" bodystart="122" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="class_x_d_logger_1a14ec0a8afcf0c6e9185bfb1f9a142eaa" prot="public" virt="non-virtual"><scope>XDLogger</scope><name>backlogs</name></member>
+      <member refid="class_x_d_logger_1a5177036d7ae4b85c8b991a11fe7f3372" prot="public" virt="virtual"><scope>XDLogger</scope><name>disable</name></member>
+      <member refid="class_x_d_logger_1ac1600442a105901fda5e657b5aa45946" prot="public" virt="virtual"><scope>XDLogger</scope><name>enable</name></member>
+      <member refid="class_x_d_logger_1a09c636b7943760bdd3fd49cc354ae110" prot="public" virt="non-virtual"><scope>XDLogger</scope><name>enabled</name></member>
+      <member refid="class_x_d_logger_1a73a12aead23209dd1dbbb3588d4999d1" prot="public" virt="virtual"><scope>XDLogger</scope><name>indent</name></member>
+      <member refid="class_x_d_logger_1adfbbb0aac4675f21a4f55fedca2efc3e" prot="public" virt="virtual"><scope>XDLogger</scope><name>indent:</name></member>
+      <member refid="class_x_d_logger_1aa33718c44218ac510528557370973ac0" prot="public" virt="non-virtual"><scope>XDLogger</scope><name>indentTabs</name></member>
+      <member refid="class_x_d_logger_1a05c2a1b52bfce8545453bf02ff1d82f8" prot="public" virt="virtual"><scope>XDLogger</scope><name>level:format:</name></member>
+      <member refid="class_x_d_logger_1af17eefd99105c19c7ef0347b2b6420cb" prot="public" virt="virtual"><scope>XDLogger</scope><name>level:format:args:</name></member>
+      <member refid="class_x_d_logger_1aeef7c921f2883059025bb12215d2cebe" prot="public" virt="virtual"><scope>XDLogger</scope><name>sharedInstance</name></member>
+      <member refid="class_x_d_logger_1a055bacf7edfe064e2d32024802378ba8" prot="public" virt="non-virtual"><scope>XDLogger</scope><name>showLevel</name></member>
+      <member refid="class_x_d_logger_1ae2aacb26782167c694fcc74b0b66fd6c" prot="public" virt="non-virtual"><scope>XDLogger</scope><name>showModule</name></member>
+      <member refid="class_x_d_logger_1a59bd54bd3b3d57f68819dc7786743c8d" prot="public" virt="virtual"><scope>XDLogger</scope><name>toggle</name></member>
+      <member refid="class_x_d_logger_1a404af4bbb6657655c77a2b5747cf1572" prot="public" virt="virtual"><scope>XDLogger</scope><name>unindent</name></member>
+      <member refid="class_x_d_logger_1a117940a194f634ceb25b99ef10d22331" prot="public" virt="virtual"><scope>XDLogger</scope><name>unindent:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

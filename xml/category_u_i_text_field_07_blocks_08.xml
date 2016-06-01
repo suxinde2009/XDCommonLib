@@ -1,0 +1,256 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_u_i_text_field_07_blocks_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>UITextField(Blocks)</compoundname>
+    <includes refid="_u_i_text_field_09_blocks_8h" local="no">UITextField+Blocks.h</includes>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="category_u_i_text_field_07_blocks_08_1a5d7b2128f444646ef77c134159260c00" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="copy">
+        <type>BOOL(^</type>
+        <definition>UITextField * UITextField(Blocks)::shouldBegindEditingBlock</definition>
+        <argsstring>)(UITextField *textField)</argsstring>
+        <name>shouldBegindEditingBlock</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UITextField/UITextField+Blocks.h" line="13" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UITextField/UITextField+Blocks.m" bodystart="127" bodyend="130"/>
+      </memberdef>
+      <memberdef kind="property" id="category_u_i_text_field_07_blocks_08_1a38fccd2f4de554e2d5125c8f4b7d2e27" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="copy">
+        <type>BOOL(^</type>
+        <definition>UITextField * UITextField(Blocks)::shouldEndEditingBlock</definition>
+        <argsstring>)(UITextField *textField)</argsstring>
+        <name>shouldEndEditingBlock</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UITextField/UITextField+Blocks.h" line="14" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UITextField/UITextField+Blocks.m" bodystart="136" bodyend="139"/>
+      </memberdef>
+      <memberdef kind="property" id="category_u_i_text_field_07_blocks_08_1a93e9d541b79c603affc3f4d477b42746" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="copy">
+        <type>void(^</type>
+        <definition>UITextField * UITextField(Blocks)::didBeginEditingBlock</definition>
+        <argsstring>)(UITextField *textField)</argsstring>
+        <name>didBeginEditingBlock</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UITextField/UITextField+Blocks.h" line="15" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UITextField/UITextField+Blocks.m" bodystart="145" bodyend="148"/>
+      </memberdef>
+      <memberdef kind="property" id="category_u_i_text_field_07_blocks_08_1ae57ec6a0752adc8870ad26a79a32d987" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="copy">
+        <type>void(^</type>
+        <definition>UITextField * UITextField(Blocks)::didEndEditingBlock</definition>
+        <argsstring>)(UITextField *textField)</argsstring>
+        <name>didEndEditingBlock</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UITextField/UITextField+Blocks.h" line="16" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UITextField/UITextField+Blocks.m" bodystart="154" bodyend="157"/>
+      </memberdef>
+      <memberdef kind="property" id="category_u_i_text_field_07_blocks_08_1a9740cf1fcae118cb8e94787324d8646b" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="copy">
+        <type>BOOL(^</type>
+        <definition>UITextField *NSRange NSString * UITextField(Blocks)::shouldChangeCharactersInRangeBlock</definition>
+        <argsstring>)(UITextField *textField, NSRange range, NSString *replacementString)</argsstring>
+        <name>shouldChangeCharactersInRangeBlock</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UITextField/UITextField+Blocks.h" line="17" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UITextField/UITextField+Blocks.m" bodystart="163" bodyend="166"/>
+      </memberdef>
+      <memberdef kind="property" id="category_u_i_text_field_07_blocks_08_1a9169a309ad9b8fd0f1440b2d6fcab216" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="copy">
+        <type>BOOL(^</type>
+        <definition>UITextField * UITextField(Blocks)::shouldReturnBlock</definition>
+        <argsstring>)(UITextField *textField)</argsstring>
+        <name>shouldReturnBlock</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UITextField/UITextField+Blocks.h" line="18" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UITextField/UITextField+Blocks.m" bodystart="172" bodyend="175"/>
+      </memberdef>
+      <memberdef kind="property" id="category_u_i_text_field_07_blocks_08_1ab880e9020358f9ca939f7bc6a8dc90f5" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="copy">
+        <type>BOOL(^</type>
+        <definition>UITextField * UITextField(Blocks)::shouldClearBlock</definition>
+        <argsstring>)(UITextField *textField)</argsstring>
+        <name>shouldClearBlock</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UITextField/UITextField+Blocks.h" line="19" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UITextField/UITextField+Blocks.m" bodystart="181" bodyend="184"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="category_u_i_text_field_07_blocks_08_1a5d8b13aead5710792231b9e992b2b4f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UITextField(Blocks)::setShouldBegindEditingBlock:</definition>
+        <argsstring>(BOOL(^shouldBegindEditingBlock)(UITextField *textField))</argsstring>
+        <name>setShouldBegindEditingBlock:</name>
+        <param>
+          <type>BOOL(^)(UITextField *textField)</type>
+          <declname>shouldBegindEditingBlock</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UITextField/UITextField+Blocks.h" line="19" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_text_field_07_blocks_08_1a63204babdcb2988c6044a4cec9ee5927" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UITextField(Blocks)::setShouldEndEditingBlock:</definition>
+        <argsstring>(BOOL(^shouldEndEditingBlock)(UITextField *textField))</argsstring>
+        <name>setShouldEndEditingBlock:</name>
+        <param>
+          <type>BOOL(^)(UITextField *textField)</type>
+          <declname>shouldEndEditingBlock</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UITextField/UITextField+Blocks.h" line="19" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_text_field_07_blocks_08_1a1559553a0debeedc71ee5ab88616602b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UITextField(Blocks)::setDidBeginEditingBlock:</definition>
+        <argsstring>(void(^didBeginEditingBlock)(UITextField *textField))</argsstring>
+        <name>setDidBeginEditingBlock:</name>
+        <param>
+          <type>void(^)(UITextField *textField)</type>
+          <declname>didBeginEditingBlock</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UITextField/UITextField+Blocks.h" line="19" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_text_field_07_blocks_08_1a2e2389d2a68637a0bbddfddcf114060d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UITextField(Blocks)::setDidEndEditingBlock:</definition>
+        <argsstring>(void(^didEndEditingBlock)(UITextField *textField))</argsstring>
+        <name>setDidEndEditingBlock:</name>
+        <param>
+          <type>void(^)(UITextField *textField)</type>
+          <declname>didEndEditingBlock</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UITextField/UITextField+Blocks.h" line="19" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_text_field_07_blocks_08_1a1ffa5e03e28158d2b7064d17cad1490e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UITextField(Blocks)::setShouldChangeCharactersInRangeBlock:</definition>
+        <argsstring>(BOOL(^shouldChangeCharactersInRangeBlock)(UITextField *textField, NSRange range, NSString *string))</argsstring>
+        <name>setShouldChangeCharactersInRangeBlock:</name>
+        <param>
+          <type>BOOL(^)(UITextField *textField, NSRange range, NSString *string)</type>
+          <declname>shouldChangeCharactersInRangeBlock</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UITextField/UITextField+Blocks.h" line="19" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_text_field_07_blocks_08_1a4c41bf2b15ff415494fe9b139f589224" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UITextField(Blocks)::setShouldClearBlock:</definition>
+        <argsstring>(BOOL(^shouldClearBlock)(UITextField *textField))</argsstring>
+        <name>setShouldClearBlock:</name>
+        <param>
+          <type>BOOL(^)(UITextField *textField)</type>
+          <declname>shouldClearBlock</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UITextField/UITextField+Blocks.h" line="19" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UITextField/UITextField+Blocks.m" bodystart="185" bodyend="189"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_text_field_07_blocks_08_1ad1405bddd68010a347718435fc010b2f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UITextField(Blocks)::setShouldReturnBlock:</definition>
+        <argsstring>(BOOL(^shouldReturnBlock)(UITextField *textField))</argsstring>
+        <name>setShouldReturnBlock:</name>
+        <param>
+          <type>BOOL(^)(UITextField *textField)</type>
+          <declname>shouldReturnBlock</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UITextField/UITextField+Blocks.h" line="19" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UITextField/UITextField+Blocks.m" line="31" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UITextField/UITextField+Blocks.m" bodystart="31" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_u_i_text_field_07_blocks_08_1a93e9d541b79c603affc3f4d477b42746" prot="public" virt="non-virtual"><scope>UITextField(Blocks)</scope><name>didBeginEditingBlock</name></member>
+      <member refid="category_u_i_text_field_07_blocks_08_1ae57ec6a0752adc8870ad26a79a32d987" prot="public" virt="non-virtual"><scope>UITextField(Blocks)</scope><name>didEndEditingBlock</name></member>
+      <member refid="category_u_i_text_field_07_blocks_08_1a1559553a0debeedc71ee5ab88616602b" prot="public" virt="virtual"><scope>UITextField(Blocks)</scope><name>setDidBeginEditingBlock:</name></member>
+      <member refid="category_u_i_text_field_07_blocks_08_1a2e2389d2a68637a0bbddfddcf114060d" prot="public" virt="virtual"><scope>UITextField(Blocks)</scope><name>setDidEndEditingBlock:</name></member>
+      <member refid="category_u_i_text_field_07_blocks_08_1a5d8b13aead5710792231b9e992b2b4f5" prot="public" virt="virtual"><scope>UITextField(Blocks)</scope><name>setShouldBegindEditingBlock:</name></member>
+      <member refid="category_u_i_text_field_07_blocks_08_1a1ffa5e03e28158d2b7064d17cad1490e" prot="public" virt="virtual"><scope>UITextField(Blocks)</scope><name>setShouldChangeCharactersInRangeBlock:</name></member>
+      <member refid="category_u_i_text_field_07_blocks_08_1a4c41bf2b15ff415494fe9b139f589224" prot="public" virt="virtual"><scope>UITextField(Blocks)</scope><name>setShouldClearBlock:</name></member>
+      <member refid="category_u_i_text_field_07_blocks_08_1a63204babdcb2988c6044a4cec9ee5927" prot="public" virt="virtual"><scope>UITextField(Blocks)</scope><name>setShouldEndEditingBlock:</name></member>
+      <member refid="category_u_i_text_field_07_blocks_08_1ad1405bddd68010a347718435fc010b2f" prot="public" virt="virtual"><scope>UITextField(Blocks)</scope><name>setShouldReturnBlock:</name></member>
+      <member refid="category_u_i_text_field_07_blocks_08_1a5d7b2128f444646ef77c134159260c00" prot="public" virt="non-virtual"><scope>UITextField(Blocks)</scope><name>shouldBegindEditingBlock</name></member>
+      <member refid="category_u_i_text_field_07_blocks_08_1a9740cf1fcae118cb8e94787324d8646b" prot="public" virt="non-virtual"><scope>UITextField(Blocks)</scope><name>shouldChangeCharactersInRangeBlock</name></member>
+      <member refid="category_u_i_text_field_07_blocks_08_1ab880e9020358f9ca939f7bc6a8dc90f5" prot="public" virt="non-virtual"><scope>UITextField(Blocks)</scope><name>shouldClearBlock</name></member>
+      <member refid="category_u_i_text_field_07_blocks_08_1a38fccd2f4de554e2d5125c8f4b7d2e27" prot="public" virt="non-virtual"><scope>UITextField(Blocks)</scope><name>shouldEndEditingBlock</name></member>
+      <member refid="category_u_i_text_field_07_blocks_08_1a9169a309ad9b8fd0f1440b2d6fcab216" prot="public" virt="non-virtual"><scope>UITextField(Blocks)</scope><name>shouldReturnBlock</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

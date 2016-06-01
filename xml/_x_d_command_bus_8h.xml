@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_x_d_command_bus_8h" kind="file" language="C++">
+    <compoundname>XDCommandBus.h</compoundname>
+    <includes local="no">Foundation/Foundation.h</includes>
+    <includedby refid="_x_d_command_bus_8m" local="yes">XDCommonLib/LooseCoupling CommuniateLayer/CommandBus/XDCommandBus.m</includedby>
+    <incdepgraph>
+      <node id="3716">
+        <label>XDCommonLib/LooseCoupling CommuniateLayer/CommandBus/XDCommandBus.h</label>
+        <link refid="XDCommandBus.h"/>
+        <childnode refid="3717" relation="include">
+        </childnode>
+      </node>
+      <node id="3717">
+        <label>Foundation/Foundation.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3718">
+        <label>XDCommonLib/LooseCoupling CommuniateLayer/CommandBus/XDCommandBus.h</label>
+        <link refid="XDCommandBus.h"/>
+        <childnode refid="3719" relation="include">
+        </childnode>
+      </node>
+      <node id="3719">
+        <label>XDCommonLib/LooseCoupling CommuniateLayer/CommandBus/XDCommandBus.m</label>
+        <link refid="_x_d_command_bus_8m"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="protocol_x_d_handler_protocol-p" prot="public">XDHandlerProtocol-p</innerclass>
+    <innerclass refid="class_x_d_command_bus" prot="public">XDCommandBus</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>XDCommandBus.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>XDCommonLib</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>suxinde<sp/>on<sp/>16/5/11.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>©<sp/>2016年<sp/>su<sp/>xinde.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;Foundation/Foundation.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>The<sp/>Command</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>A<sp/>command<sp/>is<sp/>a<sp/>DTO<sp/>that<sp/>carries<sp/>the<sp/>data<sp/>needed<sp/>to<sp/>perform<sp/>a<sp/>specific<sp/>business<sp/>logic.</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/></highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>The<sp/>CommandHandler</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>The<sp/>command<sp/>handler<sp/>uses<sp/>the<sp/>Command<sp/>DTO<sp/>object<sp/>and<sp/>performs<sp/>a<sp/>set<sp/>of<sp/>operations<sp/>over<sp/>or<sp/>along<sp/>the<sp/>object.<sp/>The<sp/>CommandHandler<sp/>conforms<sp/>to<sp/>RBHandlerProtocol</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/></highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>The<sp/>CommandBus</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>The<sp/>command<sp/>bus<sp/>uses<sp/>the<sp/>command<sp/>translator<sp/>to<sp/>map<sp/>a<sp/>specific<sp/>command<sp/>to<sp/>its<sp/>handler<sp/>class,<sp/>and<sp/>executes<sp/>commands<sp/>that<sp/>are<sp/>issues<sp/>to<sp/>it.</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="protocol_x_d_handler_protocol-p" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">@protocol<sp/></highlight><highlight class="normal"><ref refid="protocol_x_d_handler_protocol-p" kindref="compound">XDHandlerProtocol</ref><sp/>&lt;NSObject&gt;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keyword">@required</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal">-<sp/>(id)handle:(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)command;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="class_x_d_command_bus" kindref="compound">XDCommandBus</ref><sp/>:<sp/>NSObject</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="comment">//execute<sp/>a<sp/>command<sp/>object<sp/>with<sp/>its<sp/>specific<sp/>handler</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal">-<sp/>(id)executeCommand:(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)command;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="comment">//execute<sp/>command<sp/>with<sp/>Completion<sp/>Blocks</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal">-<sp/>(void)executeCommand:(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)command<sp/>withCompletion:(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">(^)(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>result))completion;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/LooseCoupling CommuniateLayer/CommandBus/XDCommandBus.h"/>
+  </compounddef>
+</doxygen>

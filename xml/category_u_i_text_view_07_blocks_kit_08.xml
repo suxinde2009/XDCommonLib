@@ -1,0 +1,161 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_u_i_text_view_07_blocks_kit_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>UITextView(BlocksKit)</compoundname>
+    <includes refid="_u_i_text_view_09_blocks_kit_8h" local="no">UITextView+BlocksKit.h</includes>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="category_u_i_text_view_07_blocks_kit_08_1a40d68983b379e2dc9d2875926d6d96f8" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="copy">
+        <type>BOOL(^</type>
+        <definition>BOOL(^ UITextView(BlocksKit)::bk_shouldBeginEditingBlock) (__kindof UITextView *textView)</definition>
+        <argsstring>)(__kindof UITextView *textView)</argsstring>
+        <name>bk_shouldBeginEditingBlock</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The block that fires before the receiver begins editing</para><para>The return value indicates whether the receiver should begin editing </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UITextView+BlocksKit.h" line="24" column="1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_u_i_text_view_07_blocks_kit_08_1a32808ba9c662d2a018951291a9289942" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="copy">
+        <type>void(^</type>
+        <definition>void(^ UITextView(BlocksKit)::bk_didBeginEditingBlock) (__kindof UITextView *textView)</definition>
+        <argsstring>)(__kindof UITextView *textView)</argsstring>
+        <name>bk_didBeginEditingBlock</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The block that fires after the receiver begins editing </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UITextView+BlocksKit.h" line="29" column="1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_u_i_text_view_07_blocks_kit_08_1aec6113c366a291c4b99441845c564ada" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="copy">
+        <type>BOOL(^</type>
+        <definition>BOOL(^ UITextView(BlocksKit)::bk_shouldEndEditingBlock) (__kindof UITextView *textView)</definition>
+        <argsstring>)(__kindof UITextView *textView)</argsstring>
+        <name>bk_shouldEndEditingBlock</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The block that fires before the receiver ends editing</para><para>The return value indicates whether the receiver should end editing </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UITextView+BlocksKit.h" line="36" column="1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_u_i_text_view_07_blocks_kit_08_1a807b3d381d357682a2a884ff8f980055" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="copy">
+        <type>void(^</type>
+        <definition>void(^ UITextView(BlocksKit)::bk_didEndEditingBlock) (__kindof UITextView *textView)</definition>
+        <argsstring>)(__kindof UITextView *textView)</argsstring>
+        <name>bk_didEndEditingBlock</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The block that fires after the receiver ends editing </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UITextView+BlocksKit.h" line="41" column="1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_u_i_text_view_07_blocks_kit_08_1ab024064440559845206467fb090f8209" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="copy">
+        <type>BOOL(^</type>
+        <definition>BOOL(^ UITextView(BlocksKit)::bk_shouldChangeCharactersInRangeWithReplacementTextBlock) (__kindof UITextView *textView, NSRange range, NSString *text)</definition>
+        <argsstring>)(__kindof UITextView *textView, NSRange range, NSString *text)</argsstring>
+        <name>bk_shouldChangeCharactersInRangeWithReplacementTextBlock</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The block that fires when the receiver&apos;s text will change</para><para>The return value indicates whether the receiver should replace the characters in the given range with the replacement string </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UITextView+BlocksKit.h" line="48" column="1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_u_i_text_view_07_blocks_kit_08_1a4cf22d35ff2f295fdcd5666982932998" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="copy">
+        <type>void(^</type>
+        <definition>void(^ UITextView(BlocksKit)::bk_didChangeBlock) (__kindof UITextView *textView)</definition>
+        <argsstring>)(__kindof UITextView *textView)</argsstring>
+        <name>bk_didChangeBlock</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The block that fires after the receiver&apos;s text changed </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UITextView+BlocksKit.h" line="53" column="1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_u_i_text_view_07_blocks_kit_08_1a3404bcbdb032df963e3e0f0f694c245e" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="copy">
+        <type>void(^</type>
+        <definition>void(^ UITextView(BlocksKit)::bk_didChangeSelecionBlock) (__kindof UITextView *textView)</definition>
+        <argsstring>)(__kindof UITextView *textView)</argsstring>
+        <name>bk_didChangeSelecionBlock</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The block that fires after the receiver changes selection </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UITextView+BlocksKit.h" line="58" column="1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_u_i_text_view_07_blocks_kit_08_1a076a9dfad1186bacf24a228657f93291" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="copy">
+        <type>BOOL(^</type>
+        <definition>BOOL(^ UITextView(BlocksKit)::bk_shouldInteractWithTextAttachmentInRangeBlock) (__kindof UITextView *textView, NSTextAttachment *attachment, NSRange range)</definition>
+        <argsstring>)(__kindof UITextView *textView, NSTextAttachment *attachment, NSRange range)</argsstring>
+        <name>bk_shouldInteractWithTextAttachmentInRangeBlock</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The block that fires when the user tring to interact with the receiver&apos;s text attachment</para><para>The return value indicates whether the user should interact with the text attachment </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UITextView+BlocksKit.h" line="65" column="1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_u_i_text_view_07_blocks_kit_08_1a8a7dbc35e5e8ed604d5412523096157f" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="copy">
+        <type>BOOL(^</type>
+        <definition>BOOL(^ UITextView(BlocksKit)::bk_shouldInteractWithURLInRangeBlock) (__kindof UITextView *textView, NSURL *url, NSRange range)</definition>
+        <argsstring>)(__kindof UITextView *textView, NSURL *url, NSRange range)</argsstring>
+        <name>bk_shouldInteractWithURLInRangeBlock</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The block that fires when the user tring to interact with an URL in the given range</para><para>The return value indicates whether the receiver should response to the interaction or not </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UITextView+BlocksKit.h" line="72" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Block callbacks for UITextView.</para><para><simplesect kind="warning"><para>UITextView is only available on a platform with UIKit.</para></simplesect>
+Created by Su, Hsing-Yu (<ulink url="https://github.com/aipeople">https://github.com/aipeople</ulink>) and contributed to BlocksKit. </para>    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UITextView+BlocksKit.m" line="122" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UITextView+BlocksKit.m" bodystart="122" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_u_i_text_view_07_blocks_kit_08_1a32808ba9c662d2a018951291a9289942" prot="public" virt="non-virtual"><scope>UITextView(BlocksKit)</scope><name>bk_didBeginEditingBlock</name></member>
+      <member refid="category_u_i_text_view_07_blocks_kit_08_1a4cf22d35ff2f295fdcd5666982932998" prot="public" virt="non-virtual"><scope>UITextView(BlocksKit)</scope><name>bk_didChangeBlock</name></member>
+      <member refid="category_u_i_text_view_07_blocks_kit_08_1a3404bcbdb032df963e3e0f0f694c245e" prot="public" virt="non-virtual"><scope>UITextView(BlocksKit)</scope><name>bk_didChangeSelecionBlock</name></member>
+      <member refid="category_u_i_text_view_07_blocks_kit_08_1a807b3d381d357682a2a884ff8f980055" prot="public" virt="non-virtual"><scope>UITextView(BlocksKit)</scope><name>bk_didEndEditingBlock</name></member>
+      <member refid="category_u_i_text_view_07_blocks_kit_08_1a40d68983b379e2dc9d2875926d6d96f8" prot="public" virt="non-virtual"><scope>UITextView(BlocksKit)</scope><name>bk_shouldBeginEditingBlock</name></member>
+      <member refid="category_u_i_text_view_07_blocks_kit_08_1ab024064440559845206467fb090f8209" prot="public" virt="non-virtual"><scope>UITextView(BlocksKit)</scope><name>bk_shouldChangeCharactersInRangeWithReplacementTextBlock</name></member>
+      <member refid="category_u_i_text_view_07_blocks_kit_08_1aec6113c366a291c4b99441845c564ada" prot="public" virt="non-virtual"><scope>UITextView(BlocksKit)</scope><name>bk_shouldEndEditingBlock</name></member>
+      <member refid="category_u_i_text_view_07_blocks_kit_08_1a076a9dfad1186bacf24a228657f93291" prot="public" virt="non-virtual"><scope>UITextView(BlocksKit)</scope><name>bk_shouldInteractWithTextAttachmentInRangeBlock</name></member>
+      <member refid="category_u_i_text_view_07_blocks_kit_08_1a8a7dbc35e5e8ed604d5412523096157f" prot="public" virt="non-virtual"><scope>UITextView(BlocksKit)</scope><name>bk_shouldInteractWithURLInRangeBlock</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

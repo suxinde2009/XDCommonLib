@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_u_i_image_picker_controller_07_blocks_kit_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>UIImagePickerController(BlocksKit)</compoundname>
+    <includes refid="_u_i_image_picker_controller_09_blocks_kit_8h" local="no">UIImagePickerController+BlocksKit.h</includes>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="category_u_i_image_picker_controller_07_blocks_kit_08_1a74ea846438b265f751eb0233d919f4ed" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="copy">
+        <type>void(^</type>
+        <definition>void(^ UIImagePickerController(BlocksKit)::bk_didFinishPickingMediaBlock) (UIImagePickerController *, NSDictionary *)</definition>
+        <argsstring>)(UIImagePickerController *, NSDictionary *)</argsstring>
+        <name>bk_didFinishPickingMediaBlock</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The block that fires after the receiver finished picking up an image </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIImagePickerController+BlocksKit.h" line="26" column="1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_u_i_image_picker_controller_07_blocks_kit_08_1a821bf3c140de2e91b18bc22aa1e6db0b" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="copy">
+        <type>void(^</type>
+        <definition>void(^ UIImagePickerController(BlocksKit)::bk_didCancelBlock) (UIImagePickerController *)</definition>
+        <argsstring>)(UIImagePickerController *)</argsstring>
+        <name>bk_didCancelBlock</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The block that fires after the user cancels out of picker </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIImagePickerController+BlocksKit.h" line="31" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>UIImagePickerController with block callback.</para><para>Created by <ulink url="https://github.com/YasKuraishi">Yas Kuraishi</ulink> and contributed to BlocksKit.</para><para><simplesect kind="warning"><para>UIImagePickerController is only available on a platform with UIKit. </para></simplesect>
+</para>    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIImagePickerController+BlocksKit.m" line="41" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIImagePickerController+BlocksKit.m" bodystart="41" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_u_i_image_picker_controller_07_blocks_kit_08_1a821bf3c140de2e91b18bc22aa1e6db0b" prot="public" virt="non-virtual"><scope>UIImagePickerController(BlocksKit)</scope><name>bk_didCancelBlock</name></member>
+      <member refid="category_u_i_image_picker_controller_07_blocks_kit_08_1a74ea846438b265f751eb0233d919f4ed" prot="public" virt="non-virtual"><scope>UIImagePickerController(BlocksKit)</scope><name>bk_didFinishPickingMediaBlock</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

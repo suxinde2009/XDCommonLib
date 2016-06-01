@@ -1,0 +1,126 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="class_x_d_video_editor" kind="class" language="Objective-C" prot="public">
+    <compoundname>XDVideoEditor</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">NSObject</basecompoundref>
+    <includes refid="_x_d_video_editor_8h" local="no">XDVideoEditor.h</includes>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_x_d_video_editor_1af9707f67a4c3dbdb481bc1cf25802b33" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>AVAsset *</type>
+        <definition>AVAsset * XDVideoEditor::assetByReversingAsset:videoComposition:duration:outputURL:progressHandle:cancel:</definition>
+        <argsstring>(AVAsset *asset,[videoComposition] AVMutableVideoComposition *videoComposition,[duration] CMTime duration,[outputURL] NSURL *outputURL,[progressHandle] XDVideoEditProgressHandle progressHandle,[cancel] BOOL *cancel)</argsstring>
+        <name>assetByReversingAsset:videoComposition:duration:outputURL:progressHandle:cancel:</name>
+        <param>
+          <type>AVAsset *</type>
+          <declname>asset</declname>
+        </param>
+        <param>
+          <attributes>[videoComposition]</attributes>
+          <type>AVMutableVideoComposition *</type>
+          <declname>videoComposition</declname>
+        </param>
+        <param>
+          <attributes>[duration]</attributes>
+          <type>CMTime</type>
+          <declname>duration</declname>
+        </param>
+        <param>
+          <attributes>[outputURL]</attributes>
+          <type>NSURL *</type>
+          <declname>outputURL</declname>
+        </param>
+        <param>
+          <attributes>[progressHandle]</attributes>
+          <type><ref refid="_x_d_video_editor_8h_1abee505dca02983449daf1e4f320b1462" kindref="member">XDVideoEditProgressHandle</ref></type>
+          <declname>progressHandle</declname>
+        </param>
+        <param>
+          <attributes>[cancel]</attributes>
+          <type>BOOL *</type>
+          <declname>cancel</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>导出倒序播放的视频</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>asset</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>待导出媒体文件的AVAsset </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>videoComposition</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>AVMutableVideoComposition </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>duration</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>时长 </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>outputURL</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>导出路径URL </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>progressHandle</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>进度回调 </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>cancel</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>是否取消操作</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>导出文件的AVAsset </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/BasicComponentLayer/Media/VideoEdit/XDVideoEditor.h" line="13" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/BasicComponentLayer/Media/VideoEdit/XDVideoEditor.m" bodystart="13" bodyend="191"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1382">
+        <label>XDVideoEditor</label>
+        <link refid="class_x_d_video_editor"/>
+        <childnode refid="1383" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1383">
+        <label>NSObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1384">
+        <label>XDVideoEditor</label>
+        <link refid="class_x_d_video_editor"/>
+        <childnode refid="1385" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1385">
+        <label>NSObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/BasicComponentLayer/Media/VideoEdit/XDVideoEditor.m" line="11" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/BasicComponentLayer/Media/VideoEdit/XDVideoEditor.m" bodystart="11" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="class_x_d_video_editor_1af9707f67a4c3dbdb481bc1cf25802b33" prot="public" virt="virtual"><scope>XDVideoEditor</scope><name>assetByReversingAsset:videoComposition:duration:outputURL:progressHandle:cancel:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

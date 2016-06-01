@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_u_i_button_09_background_color_8h" kind="file" language="C++">
+    <compoundname>UIButton+BackgroundColor.h</compoundname>
+    <includes local="no">UIKit/UIKit.h</includes>
+    <includedby refid="_u_i_button_09_background_color_8m" local="yes">XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIButton/UIButton+BackgroundColor.m</includedby>
+    <incdepgraph>
+      <node id="1265">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIButton/UIButton+BackgroundColor.h</label>
+        <link refid="UIButton+BackgroundColor.h"/>
+        <childnode refid="1266" relation="include">
+        </childnode>
+      </node>
+      <node id="1266">
+        <label>UIKit/UIKit.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1267">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIButton/UIButton+BackgroundColor.h</label>
+        <link refid="UIButton+BackgroundColor.h"/>
+        <childnode refid="1268" relation="include">
+        </childnode>
+      </node>
+      <node id="1268">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIButton/UIButton+BackgroundColor.m</label>
+        <link refid="_u_i_button_09_background_color_8m"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="category_u_i_button_07_background_color_08" prot="public">UIButton(BackgroundColor)</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>UIButton+BackgroundColor.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>iOS-Categories<sp/>(https://github.com/shaojiankui/iOS-Categories)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>符现超<sp/>on<sp/>15/5/9.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2015年<sp/>http://weibo.com/u/1655766025<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;UIKit/UIKit.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="category_u_i_button_07_background_color_08" kindref="compound">UIButton (BackgroundColor)</ref></highlight></codeline>
+<codeline lineno="18"><highlight class="normal">-<sp/>(void)setBackgroundColor:(UIColor<sp/>*)backgroundColor<sp/>forState:(UIControlState)state;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIButton/UIButton+BackgroundColor.h"/>
+  </compounddef>
+</doxygen>

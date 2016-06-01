@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_n_s_string_09_dictionary_value_8m" kind="file" language="Objective-C">
+    <compoundname>NSString+DictionaryValue.m</compoundname>
+    <includes refid="_n_s_string_09_dictionary_value_8h" local="yes">NSString+DictionaryValue.h</includes>
+    <incdepgraph>
+      <node id="822">
+        <label>NSString+DictionaryValue.h</label>
+        <link refid="_n_s_string_09_dictionary_value_8h"/>
+        <childnode refid="823" relation="include">
+        </childnode>
+      </node>
+      <node id="821">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+DictionaryValue.m</label>
+        <link refid="NSString+DictionaryValue.m"/>
+        <childnode refid="822" relation="include">
+        </childnode>
+      </node>
+      <node id="823">
+        <label>Foundation/Foundation.h</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>NSString+Dictionary.m</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>iOS-Categories<sp/>(https://github.com/shaojiankui/iOS-Categories)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Jakey<sp/>on<sp/>14-6-13.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2014年<sp/>jakey.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_n_s_string_09_dictionary_value_8h" kindref="compound">NSString+DictionaryValue.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="category_n_s_string_07_dictionary_value_08" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">@implementation<sp/></highlight><highlight class="normal"><ref refid="category_n_s_string_07_dictionary_value_08" kindref="compound">NSString (DictionaryValue)</ref></highlight></codeline>
+<codeline lineno="17" refid="category_n_s_string_07_dictionary_value_08_1aeed58b6b45fa2893b5578aef537c4d78" refkind="member"><highlight class="normal">-<sp/>(NSDictionary<sp/>*)<sp/><ref refid="category_n_s_string_07_dictionary_value_08_1aeed58b6b45fa2893b5578aef537c4d78" kindref="member">dictionaryValue</ref>{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>NSError<sp/>*errorJson;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>NSDictionary<sp/>*jsonDict<sp/>=<sp/>[NSJSONSerialization<sp/>JSONObjectWithData:[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>dataUsingEncoding:NSUTF8StringEncoding]<sp/>options:kNilOptions<sp/>error:&amp;errorJson];</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(errorJson<sp/>!=<sp/>nil)<sp/>{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>DEBUG</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NSLog(</highlight><highlight class="stringliteral">@&quot;fail<sp/>to<sp/>get<sp/>dictioanry<sp/>from<sp/>JSON:<sp/>%@,<sp/>error:<sp/>%@&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">,<sp/>errorJson);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>nil;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>jsonDict;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+DictionaryValue.m"/>
+  </compounddef>
+</doxygen>

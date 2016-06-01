@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_u_i_font_07_dynamic_font_control_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>UIFont(DynamicFontControl)</compoundname>
+    <includes refid="_u_i_font_09_dynamic_font_control_8h" local="no">UIFont+DynamicFontControl.h</includes>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="category_u_i_font_07_dynamic_font_control_08_1ad298aa09ca40111570cb2ef1883bdb43" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>UIFont *</type>
+        <definition>UIFont * UIFont(DynamicFontControl)::preferredFontForTextStyle:withFontName:scale:</definition>
+        <argsstring>(NSString *style,[withFontName] NSString *fontName,[scale] CGFloat scale)</argsstring>
+        <name>preferredFontForTextStyle:withFontName:scale:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>style</declname>
+        </param>
+        <param>
+          <attributes>[withFontName]</attributes>
+          <type>NSString *</type>
+          <declname>fontName</declname>
+        </param>
+        <param>
+          <attributes>[scale]</attributes>
+          <type>CGFloat</type>
+          <declname>scale</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIFont/UIFont+DynamicFontControl.h" line="43" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIFont/UIFont+DynamicFontControl.m" bodystart="16" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_font_07_dynamic_font_control_08_1a671d9736690a5b6da7198633bbad14f3" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>UIFont *</type>
+        <definition>UIFont * UIFont(DynamicFontControl)::preferredFontForTextStyle:withFontName:</definition>
+        <argsstring>(NSString *style,[withFontName] NSString *fontName)</argsstring>
+        <name>preferredFontForTextStyle:withFontName:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>style</declname>
+        </param>
+        <param>
+          <attributes>[withFontName]</attributes>
+          <type>NSString *</type>
+          <declname>fontName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIFont/UIFont+DynamicFontControl.h" line="43" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIFont/UIFont+DynamicFontControl.m" bodystart="12" bodyend="14"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="category_u_i_font_07_dynamic_font_control_08_1a84b83c12e482848f405bd8ffee0b6595" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>UIFont *</type>
+        <definition>UIFont * UIFont(DynamicFontControl)::adjustFontForTextStyle:</definition>
+        <argsstring>(NSString *style)</argsstring>
+        <name>adjustFontForTextStyle:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>style</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIFont/UIFont+DynamicFontControl.h" line="43" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIFont/UIFont+DynamicFontControl.m" bodystart="31" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_font_07_dynamic_font_control_08_1ac205e6e9dfbf4ab9e7468ee30a97fd50" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>UIFont *</type>
+        <definition>UIFont * UIFont(DynamicFontControl)::adjustFontForTextStyle:scale:</definition>
+        <argsstring>(NSString *style,[scale] CGFloat scale)</argsstring>
+        <name>adjustFontForTextStyle:scale:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>style</declname>
+        </param>
+        <param>
+          <attributes>[scale]</attributes>
+          <type>CGFloat</type>
+          <declname>scale</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIFont/UIFont+DynamicFontControl.h" line="43" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIFont/UIFont+DynamicFontControl.m" bodystart="35" bodyend="53"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>(作者) Michael Kral</para><para>(地址) <ulink url="https://github.com/mkral/UIFont-DynamicFontControlDemo">https://github.com/mkral/UIFont-DynamicFontControlDemo</ulink></para><para>(版本) 20150622</para><para>(运行要求)</para><para>(描述) Simple Category for using UIFontTextStyle with other Fonts.</para><para>(使用) .. </para>    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIFont/UIFont+DynamicFontControl.m" line="10" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIFont/UIFont+DynamicFontControl.m" bodystart="10" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_u_i_font_07_dynamic_font_control_08_1a84b83c12e482848f405bd8ffee0b6595" prot="public" virt="virtual"><scope>UIFont(DynamicFontControl)</scope><name>adjustFontForTextStyle:</name></member>
+      <member refid="category_u_i_font_07_dynamic_font_control_08_1ac205e6e9dfbf4ab9e7468ee30a97fd50" prot="public" virt="virtual"><scope>UIFont(DynamicFontControl)</scope><name>adjustFontForTextStyle:scale:</name></member>
+      <member refid="category_u_i_font_07_dynamic_font_control_08_1a671d9736690a5b6da7198633bbad14f3" prot="public" virt="virtual"><scope>UIFont(DynamicFontControl)</scope><name>preferredFontForTextStyle:withFontName:</name></member>
+      <member refid="category_u_i_font_07_dynamic_font_control_08_1ad298aa09ca40111570cb2ef1883bdb43" prot="public" virt="virtual"><scope>UIFont(DynamicFontControl)</scope><name>preferredFontForTextStyle:withFontName:scale:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

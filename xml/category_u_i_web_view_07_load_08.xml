@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_u_i_web_view_07_load_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>UIWebView(Load)</compoundname>
+    <includes refid="_u_i_web_view_09load_8h" local="no">UIWebView+load.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="category_u_i_web_view_07_load_08_1a9f55579f00e87e5c429f9e6f55a5dcb7" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UIWebView(Load)::loadURL:</definition>
+        <argsstring>(NSString *URLString)</argsstring>
+        <name>loadURL:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>URLString</declname>
+        </param>
+        <briefdescription>
+<para>读取一个网页地址 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>URLString</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>网页地址 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIWebView/UIWebView+load.h" line="15" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIWebView/UIWebView+Load.m" bodystart="17" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_web_view_07_load_08_1a9e838076077ef0523da942e3c911e2fd" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UIWebView(Load)::loadLocalHtml:</definition>
+        <argsstring>(NSString *htmlName)</argsstring>
+        <name>loadLocalHtml:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>htmlName</declname>
+        </param>
+        <briefdescription>
+<para>读取bundle中的webview </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>htmlName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>webview名称 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIWebView/UIWebView+load.h" line="15" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIWebView/UIWebView+Load.m" bodystart="28" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_web_view_07_load_08_1aee05a8b83c29f83f01ab049799a0425a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UIWebView(Load)::clearCookies</definition>
+        <argsstring>()</argsstring>
+        <name>clearCookies</name>
+        <briefdescription>
+<para>清空cookie </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIWebView/UIWebView+load.h" line="15" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIWebView/UIWebView+Load.m" bodystart="37" bodyend="45"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIWebView/UIWebView+Load.m" line="11" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIWebView/UIWebView+Load.m" bodystart="11" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_u_i_web_view_07_load_08_1aee05a8b83c29f83f01ab049799a0425a" prot="public" virt="virtual"><scope>UIWebView(Load)</scope><name>clearCookies</name></member>
+      <member refid="category_u_i_web_view_07_load_08_1a9e838076077ef0523da942e3c911e2fd" prot="public" virt="virtual"><scope>UIWebView(Load)</scope><name>loadLocalHtml:</name></member>
+      <member refid="category_u_i_web_view_07_load_08_1a9f55579f00e87e5c429f9e6f55a5dcb7" prot="public" virt="virtual"><scope>UIWebView(Load)</scope><name>loadURL:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

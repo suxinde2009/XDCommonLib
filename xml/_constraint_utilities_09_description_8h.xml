@@ -1,0 +1,264 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_constraint_utilities_09_description_8h" kind="file" language="C++">
+    <compoundname>ConstraintUtilities+Description.h</compoundname>
+    <includes refid="_constraint_utilities_09_install_8h" local="yes">ConstraintUtilities+Install.h</includes>
+    <includedby refid="_constraint_utilities_09_description_8m" local="yes">XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Constraint Description/ConstraintUtilities+Description.m</includedby>
+    <includedby refid="_constraint_pack_8h" local="yes">XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/ConstraintPack.h</includedby>
+    <incdepgraph>
+      <node id="3344">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Constraint Description/ConstraintUtilities+Description.h</label>
+        <link refid="ConstraintUtilities+Description.h"/>
+        <childnode refid="3345" relation="include">
+        </childnode>
+      </node>
+      <node id="3345">
+        <label>ConstraintUtilities+Install.h</label>
+        <link refid="_constraint_utilities_09_install_8h"/>
+        <childnode refid="3346" relation="include">
+        </childnode>
+      </node>
+      <node id="3346">
+        <label>Foundation/Foundation.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3347">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Constraint Description/ConstraintUtilities+Description.h</label>
+        <link refid="ConstraintUtilities+Description.h"/>
+        <childnode refid="3348" relation="include">
+        </childnode>
+        <childnode refid="3349" relation="include">
+        </childnode>
+      </node>
+      <node id="3348">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Constraint Description/ConstraintUtilities+Description.m</label>
+        <link refid="_constraint_utilities_09_description_8m"/>
+      </node>
+      <node id="3349">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/ConstraintPack.h</label>
+        <link refid="_constraint_pack_8h"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="category_n_s_layout_constraint_07_string_description_08" prot="public">NSLayoutConstraint(StringDescription)</innerclass>
+    <innerclass refid="category_n_s_layout_constraint_07_format_description_08" prot="public">NSLayoutConstraint(FormatDescription)</innerclass>
+    <innerclass refid="category_n_s_layout_constraint_07_code_description_08" prot="public">NSLayoutConstraint(CodeDescription)</innerclass>
+    <innerclass refid="category_v_i_e_w___c_l_a_s_s_07_constraint_utility_08" prot="public">VIEW_CLASS(ConstraintUtility)</innerclass>
+    <innerclass refid="category_n_s_layout_constraint_07_self_description_08" prot="public">NSLayoutConstraint(SelfDescription)</innerclass>
+    <innerclass refid="category_v_i_e_w___c_l_a_s_s_07_auto_naming_08" prot="public">VIEW_CLASS(AutoNaming)</innerclass>
+    <innerclass refid="category_v_i_e_w___c_l_a_s_s_07_description_08" prot="public">VIEW_CLASS(Description)</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="_constraint_utilities_09_description_8h_1a19cf136efb4c9e7332f64e9a44bcd7b4" prot="public" static="no">
+        <name>AFFINESTRING</name>
+        <param><defname>_transform_</defname></param>
+        <initializer>NSStringFromCGAffineTransform(_transform_)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Constraint Description/ConstraintUtilities+Description.h" line="34" column="10" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Constraint Description/ConstraintUtilities+Description.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_constraint_utilities_09_description_8h_1a986f2dd200204e17c0a41313845a537b" prot="public" static="no">
+        <name>READABLERECT</name>
+        <param><defname>_aRect_</defname></param>
+        <initializer>[NSString stringWithFormat:@&quot;(%d %d; %d %d)&quot; , (int) (_aRect_).origin.x, (int) (_aRect_).origin.y, (int) (_aRect_).size.width, (int) (_aRect_).size.height]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Constraint Description/ConstraintUtilities+Description.h" line="49" column="9" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Constraint Description/ConstraintUtilities+Description.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_constraint_utilities_09_description_8h_1aced7b6f47748f219e76c632eeb828454" prot="public" static="no">
+        <name>READABLEINSETS</name>
+        <param><defname>_insets_</defname></param>
+        <initializer>[NSString stringWithFormat:@&quot;[t:%d, l:%d, b:%d, r:%d]&quot;, (int) _insets_.top, (int) _insets_.left, (int) _insets_.bottom, (int) _insets_.right]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Constraint Description/ConstraintUtilities+Description.h" line="50" column="9" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Constraint Description/ConstraintUtilities+Description.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_constraint_utilities_09_description_8h_1a2c62a66a40e943368c0f7b17ca28f2ed" prot="public" static="no">
+        <name>OVERRIDE_SAFETY</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Constraint Description/ConstraintUtilities+Description.h" line="124" column="9" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Constraint Description/ConstraintUtilities+Description.h" bodystart="124" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/></highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>Erica<sp/>Sadun,<sp/>http://ericasadun.com</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/></highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>TARGET_OS_IPHONE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal">@</highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/><ref refid="_n_s_data_09zlib_8m_1ab15a25d2ee756af5a5d6adb0611256f3" kindref="member">Foundation</ref>;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal">@</highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>QuartzCore;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#elif<sp/>TARGET_OS_MAC</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;Foundation/Foundation.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;QuartzCore/QuartzCore.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_constraint_utilities_09_install_8h" kindref="compound">ConstraintUtilities+Install.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/></highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>Description<sp/>Category<sp/>--<sp/>Supports<sp/>debugging.</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/>Not<sp/>for<sp/>real-world<sp/>deployment.<sp/>Please<sp/>use<sp/>these<sp/>with<sp/>care.</highlight></codeline>
+<codeline lineno="21"><highlight class="comment"><sp/></highlight></codeline>
+<codeline lineno="22"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="comment">//<sp/>String<sp/>utility<sp/>conversions<sp/>cross-platform</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>TARGET_OS_IPHONE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>RECTSTRING(_aRect_)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NSStringFromCGRect(_aRect_)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>POINTSTRING(_aPoint_)<sp/><sp/><sp/><sp/><sp/><sp/><sp/>NSStringFromCGPoint(_aPoint_)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>SIZESTRING(_aSize_)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NSStringFromCGSize(_aSize_)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#elif<sp/>TARGET_OS_MAC</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>RECTSTRING(_aRect_)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NSStringFromRect(_aRect_)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>POINTSTRING(_aPoint_)<sp/><sp/><sp/><sp/><sp/><sp/><sp/>NSStringFromPoint(_aPoint_)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>SIZESTRING(_aSize_)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NSStringFromSize(_aSize_)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34" refid="_constraint_utilities_09_description_8h_1a19cf136efb4c9e7332f64e9a44bcd7b4" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>AFFINESTRING(_transform_)<sp/><sp/><sp/><sp/><sp/><sp/><sp/>NSStringFromCGAffineTransform(_transform_)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Retrieving<sp/>Hug<sp/>and<sp/>Resistance<sp/>values<sp/>cross-platform</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>TARGET_OS_IPHONE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>HUG_VALUE_H(VIEW)<sp/>[VIEW<sp/>contentHuggingPriorityForAxis:UILayoutConstraintAxisHorizontal]</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>HUG_VALUE_V(VIEW)<sp/>[VIEW<sp/>contentHuggingPriorityForAxis:UILayoutConstraintAxisVertical]</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>RESIST_VALUE_H(VIEW)<sp/>[VIEW<sp/>contentCompressionResistancePriorityForAxis:UILayoutConstraintAxisHorizontal]</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>RESIST_VALUE_V(VIEW)<sp/>[VIEW<sp/>contentCompressionResistancePriorityForAxis:UILayoutConstraintAxisVertical]</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="preprocessor">#elif<sp/>TARGET_OS_MAC</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>HUG_VALUE_H(VIEW)<sp/>[VIEW<sp/>contentHuggingPriorityForOrientation:NSLayoutConstraintOrientationHorizontal]</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>HUG_VALUE_V(VIEW)<sp/>[VIEW<sp/>contentHuggingPriorityForOrientation:NSLayoutConstraintOrientationVertical]</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>RESIST_VALUE_H(VIEW)<sp/>[VIEW<sp/>contentCompressionResistancePriorityForOrientation:NSLayoutConstraintOrientationHorizontal]</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>RESIST_VALUE_V(VIEW)<sp/>[VIEW<sp/>contentCompressionResistancePriorityForOrientation:NSLayoutConstraintOrientationVertical]</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49" refid="_constraint_utilities_09_description_8h_1a986f2dd200204e17c0a41313845a537b" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>READABLERECT(_aRect_)<sp/>[NSString<sp/>stringWithFormat:@&quot;(%d<sp/>%d;<sp/>%d<sp/>%d)&quot;<sp/>,<sp/>(int)<sp/>(_aRect_).origin.x,<sp/>(int)<sp/>(_aRect_).origin.y,<sp/>(int)<sp/>(_aRect_).size.width,<sp/>(int)<sp/>(_aRect_).size.height]</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50" refid="_constraint_utilities_09_description_8h_1aced7b6f47748f219e76c632eeb828454" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>READABLEINSETS(_insets_)<sp/>[NSString<sp/>stringWithFormat:@&quot;[t:%d,<sp/>l:%d,<sp/>b:%d,<sp/>r:%d]&quot;,<sp/>(int)<sp/>_insets_.top,<sp/>(int)<sp/>_insets_.left,<sp/>(int)<sp/>_insets_.bottom,<sp/>(int)<sp/>_insets_.right]</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="54"><highlight class="comment"><sp/>STRING<sp/>DESCRIPTION</highlight></codeline>
+<codeline lineno="55"><highlight class="comment"><sp/>Produces<sp/>an<sp/>item.attribute<sp/>Relation<sp/>m<sp/>*<sp/>item.attribute<sp/>+<sp/>b<sp/>description</highlight></codeline>
+<codeline lineno="56"><highlight class="comment"><sp/>of<sp/>the<sp/>constraint<sp/>in<sp/>question</highlight></codeline>
+<codeline lineno="57"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="category_n_s_layout_constraint_07_string_description_08" kindref="compound">NSLayoutConstraint (StringDescription)</ref></highlight></codeline>
+<codeline lineno="60"><highlight class="normal">+<sp/>(NSString<sp/>*)<sp/>nameForLayoutAttribute:<sp/>(NSLayoutAttribute)<sp/>anAttribute;</highlight></codeline>
+<codeline lineno="61"><highlight class="normal">+<sp/>(NSString<sp/>*)<sp/>nameForFormatOption:<sp/>(NSLayoutFormatOptions)<sp/>anOption;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal">+<sp/>(NSString<sp/>*)<sp/>nameForLayoutRelation:<sp/>(NSLayoutRelation)<sp/>aRelation;</highlight></codeline>
+<codeline lineno="63" refid="category_n_s_layout_constraint_07_string_description_08_1a1638c320af8d97502f28098a8812be1b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>readonly)<sp/>NSString<sp/>*<ref refid="category_n_s_layout_constraint_07_string_description_08_1a1638c320af8d97502f28098a8812be1b" kindref="member">stringValue</ref>;</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="67"><highlight class="comment"><sp/>VISUAL<sp/>FORMAT</highlight></codeline>
+<codeline lineno="68"><highlight class="comment"><sp/>Apple-style<sp/>+<sp/>a<sp/>few<sp/>minor<sp/>additions</highlight></codeline>
+<codeline lineno="69"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="category_n_s_layout_constraint_07_format_description_08" kindref="compound">NSLayoutConstraint (FormatDescription)</ref></highlight></codeline>
+<codeline lineno="72" refid="category_n_s_layout_constraint_07_format_description_08_1a58b4feadcc1ab91a2c68783a87649851" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>readonly)<sp/>NSString<sp/>*<ref refid="category_n_s_layout_constraint_07_format_description_08_1a58b4feadcc1ab91a2c68783a87649851" kindref="member">visualFormat</ref>;</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="76"><highlight class="comment"><sp/>CODE<sp/>DESCRIPTION</highlight></codeline>
+<codeline lineno="77"><highlight class="comment"><sp/>From<sp/>constraint<sp/>to<sp/>code.<sp/>For<sp/>books.</highlight></codeline>
+<codeline lineno="78"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="category_n_s_layout_constraint_07_code_description_08" kindref="compound">NSLayoutConstraint (CodeDescription)</ref></highlight></codeline>
+<codeline lineno="81"><highlight class="normal">+<sp/>(NSString<sp/>*)<sp/>codeNameForLayoutAttribute:<sp/>(NSLayoutAttribute)<sp/>anAttribute;</highlight></codeline>
+<codeline lineno="82"><highlight class="normal">+<sp/>(NSString<sp/>*)<sp/>codeNameForLayoutRelation:<sp/>(NSLayoutRelation)<sp/>aRelation;</highlight></codeline>
+<codeline lineno="83"><highlight class="normal">-<sp/>(NSString<sp/>*)<sp/>codeDescriptionWithBindings:<sp/>(NSDictionary<sp/>*)<sp/>dict;</highlight></codeline>
+<codeline lineno="84" refid="category_n_s_layout_constraint_07_code_description_08_1aa8887f7911f696c41de81c54dc3d1efe" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>readonly)<sp/>NSString<sp/>*<ref refid="category_n_s_layout_constraint_07_code_description_08_1aa8887f7911f696c41de81c54dc3d1efe" kindref="member">codeDescription</ref>;</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="88"><highlight class="comment"><sp/>CONSTRAINT<sp/>VIEW<sp/>UTILITY</highlight></codeline>
+<codeline lineno="89"><highlight class="comment"><sp/>Readable<sp/>representations<sp/>for<sp/>descriptions</highlight></codeline>
+<codeline lineno="90"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="category_v_i_e_w___c_l_a_s_s_07_constraint_utility_08" kindref="compound">VIEW_CLASS (ConstraintUtility)</ref></highlight></codeline>
+<codeline lineno="93"><highlight class="normal">-<sp/>(NSString<sp/>*)<sp/><ref refid="category_v_i_e_w___c_l_a_s_s_07_constraint_utility_08_1a9aa256ef5d2aab5bb15f26709952bf05" kindref="member">readableFrame</ref>;</highlight></codeline>
+<codeline lineno="94"><highlight class="normal">-<sp/>(NSString<sp/>*)<sp/><ref refid="category_v_i_e_w___c_l_a_s_s_07_constraint_utility_08_1a47eb3bbf462d348e960329b2ff8d2327" kindref="member">readableAlignmentInsets</ref>;</highlight></codeline>
+<codeline lineno="95"><highlight class="normal">-<sp/>(NSString<sp/>*)<sp/><ref refid="category_v_i_e_w___c_l_a_s_s_07_constraint_utility_08_1a9a77f7c12c7ff0438d1ab9e4b7e6fd48" kindref="member">readableAlignmentRect</ref>;</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="99"><highlight class="comment"><sp/>FUNCTIONALITY<sp/>DESCRIPTION</highlight></codeline>
+<codeline lineno="100"><highlight class="comment"><sp/>Add<sp/>role<sp/>descriptions<sp/>that<sp/>explain<sp/>what<sp/>each<sp/>constraint<sp/>does</highlight></codeline>
+<codeline lineno="101"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="category_n_s_layout_constraint_07_self_description_08" kindref="compound">NSLayoutConstraint (SelfDescription)</ref></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Describe<sp/>the<sp/>role<sp/>of<sp/>the<sp/>constraint,<sp/>suitable<sp/>for<sp/>auto-naming</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="105" refid="category_n_s_layout_constraint_07_self_description_08_1a05121ea7d0eefdf3c332a5aef09d3df6" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>readonly)<sp/>NSString<sp/>*<ref refid="category_n_s_layout_constraint_07_self_description_08_1a05121ea7d0eefdf3c332a5aef09d3df6" kindref="member">constraintDescription</ref>;</highlight></codeline>
+<codeline lineno="106"><highlight class="normal">+<sp/>(void)<sp/>autoAddConstraintNames:<sp/>(NSArray<sp/>*)<sp/>constraints;</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="110"><highlight class="comment"><sp/>AUTO<sp/>NAMING</highlight></codeline>
+<codeline lineno="111"><highlight class="comment"><sp/>Assign<sp/>names<sp/>to<sp/>constraints<sp/>and<sp/>views<sp/></highlight></codeline>
+<codeline lineno="112"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="category_v_i_e_w___c_l_a_s_s_07_auto_naming_08" kindref="compound">VIEW_CLASS (AutoNaming)</ref></highlight></codeline>
+<codeline lineno="115"><highlight class="normal">-<sp/>(void)<sp/><ref refid="category_v_i_e_w___c_l_a_s_s_07_auto_naming_08_1a68e5988db111f742544cc0a493f1f432" kindref="member">addConstraintNames</ref>;</highlight></codeline>
+<codeline lineno="116"><highlight class="normal">-<sp/>(void)<sp/><ref refid="category_v_i_e_w___c_l_a_s_s_07_auto_naming_08_1a961e0761fb6e0f657aed7b3853c566c9" kindref="member">addViewNames</ref>;</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="120"><highlight class="comment"><sp/>VIEW<sp/>DESCRIPTION</highlight></codeline>
+<codeline lineno="121"><highlight class="comment"><sp/>Explain<sp/>all<sp/>view<sp/>features</highlight></codeline>
+<codeline lineno="122"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="124" refid="_constraint_utilities_09_description_8h_1a2c62a66a40e943368c0f7b17ca28f2ed" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>OVERRIDE_SAFETY<sp/>0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="category_v_i_e_w___c_l_a_s_s_07_description_08" kindref="compound">VIEW_CLASS (Description)</ref></highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>TARGET_OS_IPHONE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="129"><highlight class="normal">+<sp/>(NSString<sp/>*)<sp/>nameForContentMode:<sp/>(UIViewContentMode)<sp/>mode;</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight></codeline>
+<codeline lineno="132" refid="category_v_i_e_w___c_l_a_s_s_07_description_08_1a48dac70972ddcd8cc4abc300c6ffd7a3" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>readonly)<sp/>NSString<sp/>*<ref refid="category_v_i_e_w___c_l_a_s_s_07_description_08_1a48dac70972ddcd8cc4abc300c6ffd7a3" kindref="member">viewLayoutDescription</ref>;</highlight></codeline>
+<codeline lineno="133" refid="category_v_i_e_w___c_l_a_s_s_07_description_08_1a17c64ba90b65b69adb46de628c100c46" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>readonly)<sp/>NSString<sp/>*<ref refid="category_v_i_e_w___c_l_a_s_s_07_description_08_1a17c64ba90b65b69adb46de628c100c46" kindref="member">superviewsDescription</ref>;</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal">-<sp/>(void)<sp/><ref refid="category_v_i_e_w___c_l_a_s_s_07_description_08_1a36ad9e9faad8a36f81663d235eaee702" kindref="member">listConstraints</ref>;</highlight></codeline>
+<codeline lineno="136"><highlight class="normal">-<sp/>(void)<sp/><ref refid="category_v_i_e_w___c_l_a_s_s_07_description_08_1a04d5b9a53da9750dbdb06a2622817f3b" kindref="member">listAllConstraints</ref>;</highlight></codeline>
+<codeline lineno="137"><highlight class="normal">-<sp/>(void)<sp/>showViewReport:<sp/>(BOOL)<sp/>descend;</highlight></codeline>
+<codeline lineno="138"><highlight class="normal">-<sp/>(void)<sp/>generateViewReportForUser:<sp/>(NSString<sp/>*)<sp/>userName<sp/>addNames:<sp/>(BOOL)<sp/>addNames;</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>OVERRIDE_SAFETY</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>readonly)<sp/>NSString<sp/>*trace;</highlight></codeline>
+<codeline lineno="142"><highlight class="normal">-<sp/>(void)<sp/>testAmbiguity;</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="145"><highlight class="normal"></highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="147"><highlight class="comment"><sp/>VISUAL<sp/>LAYOUT<sp/>HINTS</highlight></codeline>
+<codeline lineno="148"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="149"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>TARGET_OS_IPHONE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight><highlight class="keyword">@interface<sp/></highlight><highlight class="normal">UIView<sp/>(VisualLayoutHint)</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>readonly)<sp/>CALayer<sp/>*hintLayer;</highlight></codeline>
+<codeline lineno="152"><highlight class="normal">-<sp/>(void)<sp/>deployVisualLayoutHints;</highlight></codeline>
+<codeline lineno="153"><highlight class="normal">-<sp/>(void)<sp/>hideVisualLayoutHints;</highlight></codeline>
+<codeline lineno="154"><highlight class="normal">-<sp/>(void)<sp/>updateVisualLayoutHints;</highlight></codeline>
+<codeline lineno="155"><highlight class="normal">-<sp/>(void)<sp/>toggleVisualLayoutHints;</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Constraint Description/ConstraintUtilities+Description.h"/>
+  </compounddef>
+</doxygen>

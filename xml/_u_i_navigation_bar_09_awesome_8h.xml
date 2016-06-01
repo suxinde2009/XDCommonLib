@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_u_i_navigation_bar_09_awesome_8h" kind="file" language="C++">
+    <compoundname>UINavigationBar+Awesome.h</compoundname>
+    <includes local="no">UIKit/UIKit.h</includes>
+    <includedby refid="_u_i_navigation_bar_09_awesome_8m" local="yes">XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UINavigationBar/UINavigationBar+Awesome.m</includedby>
+    <incdepgraph>
+      <node id="1693">
+        <label>UIKit/UIKit.h</label>
+      </node>
+      <node id="1692">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UINavigationBar/UINavigationBar+Awesome.h</label>
+        <link refid="UINavigationBar+Awesome.h"/>
+        <childnode refid="1693" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1694">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UINavigationBar/UINavigationBar+Awesome.h</label>
+        <link refid="UINavigationBar+Awesome.h"/>
+        <childnode refid="1695" relation="include">
+        </childnode>
+      </node>
+      <node id="1695">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UINavigationBar/UINavigationBar+Awesome.m</label>
+        <link refid="_u_i_navigation_bar_09_awesome_8m"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="category_u_i_navigation_bar_07_awesome_08" prot="public">UINavigationBar(Awesome)</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>UINavigationBar+Awesome.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>LTNavigationBar</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>ltebean<sp/>on<sp/>15-2-15.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2015<sp/>ltebean.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>https://github.com/ltebean/LTNavigationBar</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;UIKit/UIKit.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="category_u_i_navigation_bar_07_awesome_08" kindref="compound">UINavigationBar (Awesome)</ref></highlight></codeline>
+<codeline lineno="12"><highlight class="normal">-<sp/>(void)lt_setBackgroundColor:(UIColor<sp/>*)backgroundColor;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal">-<sp/>(void)lt_setElementsAlpha:(CGFloat)alpha;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">-<sp/>(void)lt_setTranslationY:(CGFloat)translationY;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal">-<sp/>(void)<ref refid="category_u_i_navigation_bar_07_awesome_08_1a3a0f8792ecd80b517d8e738a2e63dfbc" kindref="member">lt_reset</ref>;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UINavigationBar/UINavigationBar+Awesome.h"/>
+  </compounddef>
+</doxygen>

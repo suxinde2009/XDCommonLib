@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_u_i_button_07_count_down_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>UIButton(CountDown)</compoundname>
+    <includes refid="_u_i_button_09_count_down_8h" local="no">UIButton+CountDown.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="category_u_i_button_07_count_down_08_1abc01ae059adb869245cc43db2c71697c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UIButton(CountDown)::startTime:title:waitTittle:</definition>
+        <argsstring>(NSInteger timeout,[title] NSString *tittle,[waitTittle] NSString *waitTittle)</argsstring>
+        <name>startTime:title:waitTittle:</name>
+        <param>
+          <type>NSInteger</type>
+          <declname>timeout</declname>
+        </param>
+        <param>
+          <attributes>[title]</attributes>
+          <type>NSString *</type>
+          <declname>tittle</declname>
+        </param>
+        <param>
+          <attributes>[waitTittle]</attributes>
+          <type>NSString *</type>
+          <declname>waitTittle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIButton/UIButton+CountDown.h" line="10" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIButton/UIButton+CountDown.h" line="11" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIButton/UIButton+CountDown.h" bodystart="11" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_u_i_button_07_count_down_08_1abc01ae059adb869245cc43db2c71697c" prot="public" virt="virtual"><scope>UIButton(CountDown)</scope><name>startTime:title:waitTittle:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

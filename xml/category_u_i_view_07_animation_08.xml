@@ -1,0 +1,363 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_u_i_view_07_animation_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>UIView(Animation)</compoundname>
+    <includes refid="_u_i_view_09_animation_8h" local="no">UIView+Animation.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="category_u_i_view_07_animation_08_1aa7e2dbbf5ebf2acd1fec95f9547b860a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UIView(Animation)::moveTo:duration:option:</definition>
+        <argsstring>(CGPoint destination,[duration] float secs,[option] UIViewAnimationOptions option)</argsstring>
+        <name>moveTo:duration:option:</name>
+        <param>
+          <type>CGPoint</type>
+          <declname>destination</declname>
+        </param>
+        <param>
+          <attributes>[duration]</attributes>
+          <type>float</type>
+          <declname>secs</declname>
+        </param>
+        <param>
+          <attributes>[option]</attributes>
+          <type>UIViewAnimationOptions</type>
+          <declname>option</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Animation.h" line="11" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Animation.m" bodystart="23" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_view_07_animation_08_1ad78a54811ff1fd829a23f956d0200ae2" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UIView(Animation)::moveTo:duration:option:delegate:callback:</definition>
+        <argsstring>(CGPoint destination,[duration] float secs,[option] UIViewAnimationOptions option,[delegate] id delegate,[callback] SEL method)</argsstring>
+        <name>moveTo:duration:option:delegate:callback:</name>
+        <param>
+          <type>CGPoint</type>
+          <declname>destination</declname>
+        </param>
+        <param>
+          <attributes>[duration]</attributes>
+          <type>float</type>
+          <declname>secs</declname>
+        </param>
+        <param>
+          <attributes>[option]</attributes>
+          <type>UIViewAnimationOptions</type>
+          <declname>option</declname>
+        </param>
+        <param>
+          <attributes>[delegate]</attributes>
+          <type>id</type>
+          <declname>delegate</declname>
+        </param>
+        <param>
+          <attributes>[callback]</attributes>
+          <type>SEL</type>
+          <declname>method</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Animation.h" line="11" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Animation.m" bodystart="27" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_view_07_animation_08_1aab8f83fc9e36232b185f1e8dcb102f30" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UIView(Animation)::raceTo:withSnapBack:</definition>
+        <argsstring>(CGPoint destination,[withSnapBack] BOOL withSnapBack)</argsstring>
+        <name>raceTo:withSnapBack:</name>
+        <param>
+          <type>CGPoint</type>
+          <declname>destination</declname>
+        </param>
+        <param>
+          <attributes>[withSnapBack]</attributes>
+          <type>BOOL</type>
+          <declname>withSnapBack</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Animation.h" line="11" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Animation.m" bodystart="43" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_view_07_animation_08_1a7d0e89cf6c01c448e2c6b9add67f097b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UIView(Animation)::raceTo:withSnapBack:delegate:callback:</definition>
+        <argsstring>(CGPoint destination,[withSnapBack] BOOL withSnapBack,[delegate] id delegate,[callback] SEL method)</argsstring>
+        <name>raceTo:withSnapBack:delegate:callback:</name>
+        <param>
+          <type>CGPoint</type>
+          <declname>destination</declname>
+        </param>
+        <param>
+          <attributes>[withSnapBack]</attributes>
+          <type>BOOL</type>
+          <declname>withSnapBack</declname>
+        </param>
+        <param>
+          <attributes>[delegate]</attributes>
+          <type>id</type>
+          <declname>delegate</declname>
+        </param>
+        <param>
+          <attributes>[callback]</attributes>
+          <type>SEL</type>
+          <declname>method</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Animation.h" line="11" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Animation.m" bodystart="47" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_view_07_animation_08_1a8d19a60798ac3ba83f670005173a9b1f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UIView(Animation)::rotate:secs:delegate:callback:</definition>
+        <argsstring>(int degrees,[secs] float secs,[delegate] id delegate,[callback] SEL method)</argsstring>
+        <name>rotate:secs:delegate:callback:</name>
+        <param>
+          <type>int</type>
+          <declname>degrees</declname>
+        </param>
+        <param>
+          <attributes>[secs]</attributes>
+          <type>float</type>
+          <declname>secs</declname>
+        </param>
+        <param>
+          <attributes>[delegate]</attributes>
+          <type>id</type>
+          <declname>delegate</declname>
+        </param>
+        <param>
+          <attributes>[callback]</attributes>
+          <type>SEL</type>
+          <declname>method</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Animation.h" line="11" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Animation.m" bodystart="101" bodyend="116"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_view_07_animation_08_1a0999d247fb3f37dc64ab7fd35b50869a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UIView(Animation)::scale:x:y:delegate:callback:</definition>
+        <argsstring>(float secs,[x] float scaleX,[y] float scaleY,[delegate] id delegate,[callback] SEL method)</argsstring>
+        <name>scale:x:y:delegate:callback:</name>
+        <param>
+          <type>float</type>
+          <declname>secs</declname>
+        </param>
+        <param>
+          <attributes>[x]</attributes>
+          <type>float</type>
+          <declname>scaleX</declname>
+        </param>
+        <param>
+          <attributes>[y]</attributes>
+          <type>float</type>
+          <declname>scaleY</declname>
+        </param>
+        <param>
+          <attributes>[delegate]</attributes>
+          <type>id</type>
+          <declname>delegate</declname>
+        </param>
+        <param>
+          <attributes>[callback]</attributes>
+          <type>SEL</type>
+          <declname>method</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Animation.h" line="11" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Animation.m" bodystart="118" bodyend="133"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_view_07_animation_08_1a8f73effc7304ce399ecb340c9df69831" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UIView(Animation)::spinClockwise:</definition>
+        <argsstring>(float secs)</argsstring>
+        <name>spinClockwise:</name>
+        <param>
+          <type>float</type>
+          <declname>secs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Animation.h" line="11" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Animation.m" bodystart="135" bodyend="145"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_view_07_animation_08_1a8b4f2038bd442b76c1ec2cbdcdbf85b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UIView(Animation)::spinCounterClockwise:</definition>
+        <argsstring>(float secs)</argsstring>
+        <name>spinCounterClockwise:</name>
+        <param>
+          <type>float</type>
+          <declname>secs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Animation.h" line="11" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Animation.m" bodystart="147" bodyend="157"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_view_07_animation_08_1a194087557403ab2a36a7447281943ed9" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UIView(Animation)::curlDown:</definition>
+        <argsstring>(float secs)</argsstring>
+        <name>curlDown:</name>
+        <param>
+          <type>float</type>
+          <declname>secs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Animation.h" line="11" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Animation.m" bodystart="162" bodyend="167"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_view_07_animation_08_1a4d4e60cfff406aa4187c2cd1289716d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UIView(Animation)::curlUpAndAway:</definition>
+        <argsstring>(float secs)</argsstring>
+        <name>curlUpAndAway:</name>
+        <param>
+          <type>float</type>
+          <declname>secs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Animation.h" line="11" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Animation.m" bodystart="169" bodyend="174"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_view_07_animation_08_1aaa2d2ba210a97256bfb847f3af728177" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UIView(Animation)::drainAway:</definition>
+        <argsstring>(float secs)</argsstring>
+        <name>drainAway:</name>
+        <param>
+          <type>float</type>
+          <declname>secs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Animation.h" line="11" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Animation.m" bodystart="176" bodyend="179"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_view_07_animation_08_1a9ff7e3325edb30b0ed997d68e99097d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UIView(Animation)::changeAlpha:secs:</definition>
+        <argsstring>(float newAlpha,[secs] float secs)</argsstring>
+        <name>changeAlpha:secs:</name>
+        <param>
+          <type>float</type>
+          <declname>newAlpha</declname>
+        </param>
+        <param>
+          <attributes>[secs]</attributes>
+          <type>float</type>
+          <declname>secs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Animation.h" line="11" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Animation.m" bodystart="194" bodyend="202"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_view_07_animation_08_1a2a5e607075b2ea31212e16a77c0efaa2" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UIView(Animation)::pulse:continuously:</definition>
+        <argsstring>(float secs,[continuously] BOOL continuously)</argsstring>
+        <name>pulse:continuously:</name>
+        <param>
+          <type>float</type>
+          <declname>secs</declname>
+        </param>
+        <param>
+          <attributes>[continuously]</attributes>
+          <type>BOOL</type>
+          <declname>continuously</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Animation.h" line="11" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Animation.m" bodystart="204" bodyend="226"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_view_07_animation_08_1a4aefcc07d9944562f034bb14cd64fe74" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UIView(Animation)::addSubviewWithFadeAnimation:</definition>
+        <argsstring>(UIView *subview)</argsstring>
+        <name>addSubviewWithFadeAnimation:</name>
+        <param>
+          <type>UIView *</type>
+          <declname>subview</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Animation.h" line="11" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Animation.m" bodystart="229" bodyend="238"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Animation.m" line="19" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Animation.m" bodystart="19" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_u_i_view_07_animation_08_1a4aefcc07d9944562f034bb14cd64fe74" prot="public" virt="virtual"><scope>UIView(Animation)</scope><name>addSubviewWithFadeAnimation:</name></member>
+      <member refid="category_u_i_view_07_animation_08_1a9ff7e3325edb30b0ed997d68e99097d1" prot="public" virt="virtual"><scope>UIView(Animation)</scope><name>changeAlpha:secs:</name></member>
+      <member refid="category_u_i_view_07_animation_08_1a194087557403ab2a36a7447281943ed9" prot="public" virt="virtual"><scope>UIView(Animation)</scope><name>curlDown:</name></member>
+      <member refid="category_u_i_view_07_animation_08_1a4d4e60cfff406aa4187c2cd1289716d0" prot="public" virt="virtual"><scope>UIView(Animation)</scope><name>curlUpAndAway:</name></member>
+      <member refid="category_u_i_view_07_animation_08_1aaa2d2ba210a97256bfb847f3af728177" prot="public" virt="virtual"><scope>UIView(Animation)</scope><name>drainAway:</name></member>
+      <member refid="category_u_i_view_07_animation_08_1aa7e2dbbf5ebf2acd1fec95f9547b860a" prot="public" virt="virtual"><scope>UIView(Animation)</scope><name>moveTo:duration:option:</name></member>
+      <member refid="category_u_i_view_07_animation_08_1ad78a54811ff1fd829a23f956d0200ae2" prot="public" virt="virtual"><scope>UIView(Animation)</scope><name>moveTo:duration:option:delegate:callback:</name></member>
+      <member refid="category_u_i_view_07_animation_08_1a2a5e607075b2ea31212e16a77c0efaa2" prot="public" virt="virtual"><scope>UIView(Animation)</scope><name>pulse:continuously:</name></member>
+      <member refid="category_u_i_view_07_animation_08_1aab8f83fc9e36232b185f1e8dcb102f30" prot="public" virt="virtual"><scope>UIView(Animation)</scope><name>raceTo:withSnapBack:</name></member>
+      <member refid="category_u_i_view_07_animation_08_1a7d0e89cf6c01c448e2c6b9add67f097b" prot="public" virt="virtual"><scope>UIView(Animation)</scope><name>raceTo:withSnapBack:delegate:callback:</name></member>
+      <member refid="category_u_i_view_07_animation_08_1a8d19a60798ac3ba83f670005173a9b1f" prot="public" virt="virtual"><scope>UIView(Animation)</scope><name>rotate:secs:delegate:callback:</name></member>
+      <member refid="category_u_i_view_07_animation_08_1a0999d247fb3f37dc64ab7fd35b50869a" prot="public" virt="virtual"><scope>UIView(Animation)</scope><name>scale:x:y:delegate:callback:</name></member>
+      <member refid="category_u_i_view_07_animation_08_1a8f73effc7304ce399ecb340c9df69831" prot="public" virt="virtual"><scope>UIView(Animation)</scope><name>spinClockwise:</name></member>
+      <member refid="category_u_i_view_07_animation_08_1a8b4f2038bd442b76c1ec2cbdcdbf85b8" prot="public" virt="virtual"><scope>UIView(Animation)</scope><name>spinCounterClockwise:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_m_f_message_compose_view_controller_07_blocks_kit_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>MFMessageComposeViewController(BlocksKit)</compoundname>
+    <includes refid="_m_f_message_compose_view_controller_09_blocks_kit_8h" local="no">MFMessageComposeViewController+BlocksKit.h</includes>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="category_m_f_message_compose_view_controller_07_blocks_kit_08_1ad271121bae91abc34eb620efcb42e288" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="copy">
+        <type>void(^</type>
+        <definition>void(^ MFMessageComposeViewController(BlocksKit)::bk_completionBlock) (MFMessageComposeViewController *controller, MessageComposeResult result)</definition>
+        <argsstring>)(MFMessageComposeViewController *controller, MessageComposeResult result)</argsstring>
+        <name>bk_completionBlock</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The block fired on the dismissal of the SMS composition interface.</para><para>This block callback is an analog for the messageComposeViewController:didFinishWithResult: method of <ref refid="class_m_f_message_compose_view_controller_delegate-p" kindref="compound">MFMessageComposeViewControllerDelegate</ref>. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/MessageUI/MFMessageComposeViewController+BlocksKit.h" line="31" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>MFMessageComposeViewController with block callback in addition to delegation.</para><para>If you provide a completion handler to an instance of MFMessageComposeViewController but do not implement a delegate callback for messageComposeViewController:didFinishWithResult:error:, the message compose view controller will automatically be dismissed if it was launched modally.</para><para>Created by <ulink url="https://github.com/evsukov89">Igor Evsukov</ulink> and contributed to BlocksKit.</para><para><simplesect kind="warning"><para>MFMessageComposeViewController is only available on a platform with MessageUI. </para></simplesect>
+</para>    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/MessageUI/MFMessageComposeViewController+BlocksKit.m" line="59" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/MessageUI/MFMessageComposeViewController+BlocksKit.m" bodystart="59" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_m_f_message_compose_view_controller_07_blocks_kit_08_1ad271121bae91abc34eb620efcb42e288" prot="public" virt="non-virtual"><scope>MFMessageComposeViewController(BlocksKit)</scope><name>bk_completionBlock</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_n_s_string_09_x_d_common_lib_8h" kind="file" language="C++">
+    <compoundname>NSString+XDCommonLib.h</compoundname>
+    <includes local="no">Foundation/Foundation.h</includes>
+    <includes local="no">UIKit/UIKit.h</includes>
+    <includedby refid="_n_s_string_09_x_d_common_lib_8m" local="yes">XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+XDCommonLib.m</includedby>
+    <incdepgraph>
+      <node id="994">
+        <label>UIKit/UIKit.h</label>
+      </node>
+      <node id="992">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+XDCommonLib.h</label>
+        <link refid="NSString+XDCommonLib.h"/>
+        <childnode refid="993" relation="include">
+        </childnode>
+        <childnode refid="994" relation="include">
+        </childnode>
+      </node>
+      <node id="993">
+        <label>Foundation/Foundation.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="995">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+XDCommonLib.h</label>
+        <link refid="NSString+XDCommonLib.h"/>
+        <childnode refid="996" relation="include">
+        </childnode>
+      </node>
+      <node id="996">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+XDCommonLib.m</label>
+        <link refid="_n_s_string_09_x_d_common_lib_8m"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="category_n_s_string_07_x_d_common_lib_08" prot="public">NSString(XDCommonLib)</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>NSString+XDCommonLib.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>XDCommonLib</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>suxinde<sp/>on<sp/>16/4/11.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>©<sp/>2016年<sp/>su<sp/>xinde.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;Foundation/Foundation.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;UIKit/UIKit.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="category_n_s_string_07_x_d_common_lib_08" kindref="compound">NSString (XDCommonLib)</ref></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal">+<sp/>(NSString<sp/>*<sp/>_Nonnull)searchInString:(NSString<sp/>*_Nonnull)string</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>charStart:(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">)start</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>charEnd:(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">)end;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal">-<sp/>(NSString<sp/>*<sp/>_Nonnull)searchCharStart:(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">)start</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>charEnd:(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">)end;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal">-<sp/>(NSInteger)indexOfCharacter:(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">)character;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal">-<sp/>(NSString<sp/>*<sp/>_Nonnull)substringFromCharacter:(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">)character;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal">-<sp/>(NSString<sp/>*<sp/>_Nonnull)substringToCharacter:(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">)character;</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal">-<sp/>(NSString<sp/>*<sp/>_Nullable)MD5<sp/><ref refid="category_n_s_string_07_x_d_common_lib_08_1a4bc8385b9c01d52e5b68a81635d5acb0" kindref="member">DEPRECATED_MSG_ATTRIBUTE</ref>(&quot;Use<sp/>BFCryptor<sp/>MD5&quot;);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal">-<sp/>(NSString<sp/>*<sp/>_Nullable)SHA1<sp/><ref refid="category_n_s_string_07_x_d_common_lib_08_1a4bc8385b9c01d52e5b68a81635d5acb0" kindref="member">DEPRECATED_MSG_ATTRIBUTE</ref>(&quot;Use<sp/>BFCryptor<sp/>SHA1&quot;);</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal">-<sp/>(NSString<sp/>*<sp/>_Nullable)SHA256<sp/><ref refid="category_n_s_string_07_x_d_common_lib_08_1a4bc8385b9c01d52e5b68a81635d5acb0" kindref="member">DEPRECATED_MSG_ATTRIBUTE</ref>(&quot;Use<sp/>BFCryptor<sp/>SHA256&quot;);</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal">-<sp/>(NSString<sp/>*<sp/>_Nullable)SHA512<sp/><ref refid="category_n_s_string_07_x_d_common_lib_08_1a4bc8385b9c01d52e5b68a81635d5acb0" kindref="member">DEPRECATED_MSG_ATTRIBUTE</ref>(&quot;Use<sp/>BFCryptor<sp/>SHA512&quot;);</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal">-<sp/>(BOOL)hasString:(NSString<sp/>*<sp/>_Nonnull)substring;</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal">-<sp/>(BOOL)hasString:(NSString<sp/>*<sp/>_Nonnull)substring</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/>caseSensitive:(BOOL)caseSensitive;</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal">-<sp/>(BOOL)<ref refid="category_n_s_string_07_x_d_common_lib_08_1a9308161f6116dfc1c87ec4db14fbb48f" kindref="member">isEmail</ref>;</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight></codeline>
+<codeline lineno="129"><highlight class="normal">+<sp/>(BOOL)<ref refid="category_n_s_string_07_x_d_common_lib_08_1a9308161f6116dfc1c87ec4db14fbb48f" kindref="member">isEmail</ref>:(NSString<sp/>*<sp/>_Nonnull)email;</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight></codeline>
+<codeline lineno="138"><highlight class="normal">+<sp/>(NSString<sp/>*<sp/>_Nonnull)convertToUTF8Entities:(NSString<sp/>*<sp/>_Nonnull)string;</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight></codeline>
+<codeline lineno="147"><highlight class="normal">+<sp/>(NSString<sp/>*<sp/>_Nonnull)<ref refid="category_n_s_string_07_x_d_common_lib_08_1aea689c63cda8a1db4411b0b5b52b5042" kindref="member">encodeToBase64</ref>:(NSString<sp/>*<sp/>_Nonnull)string;</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight></codeline>
+<codeline lineno="154"><highlight class="normal">-<sp/>(NSString<sp/>*<sp/>_Nonnull)<ref refid="category_n_s_string_07_x_d_common_lib_08_1aea689c63cda8a1db4411b0b5b52b5042" kindref="member">encodeToBase64</ref>;</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight></codeline>
+<codeline lineno="163"><highlight class="normal">+<sp/>(NSString<sp/>*<sp/>_Nonnull)<ref refid="category_n_s_string_07_x_d_common_lib_08_1a4a470bb3e8feec63803d254d464189d9" kindref="member">decodeBase64</ref>:(NSString<sp/>*<sp/>_Nonnull)string;</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight></codeline>
+<codeline lineno="170"><highlight class="normal">-<sp/>(NSString<sp/>*<sp/>_Nonnull)<ref refid="category_n_s_string_07_x_d_common_lib_08_1a4a470bb3e8feec63803d254d464189d9" kindref="member">decodeBase64</ref>;</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"></highlight></codeline>
+<codeline lineno="179"><highlight class="normal">+<sp/>(NSData<sp/>*<sp/>_Nonnull)<ref refid="category_n_s_string_07_x_d_common_lib_08_1acad3fb412c8584e80178ef2c9faac421" kindref="member">convertToNSData</ref>:(NSString<sp/>*<sp/>_Nonnull)string;</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"></highlight></codeline>
+<codeline lineno="186"><highlight class="normal">-<sp/>(NSData<sp/>*<sp/>_Nonnull)<ref refid="category_n_s_string_07_x_d_common_lib_08_1acad3fb412c8584e80178ef2c9faac421" kindref="member">convertToNSData</ref>;</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"></highlight></codeline>
+<codeline lineno="194"><highlight class="normal">-<sp/>(NSString<sp/>*<sp/>_Nonnull)<ref refid="category_n_s_string_07_x_d_common_lib_08_1a3fb2572ff8beaded2a61cd5f112c92d6" kindref="member">sentenceCapitalizedString</ref>;</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"></highlight></codeline>
+<codeline lineno="201"><highlight class="normal">-<sp/>(NSString<sp/>*<sp/>_Nonnull)<ref refid="category_n_s_string_07_x_d_common_lib_08_1af5a2051305fbe46718b9031e575069c8" kindref="member">dateFromTimestamp</ref>;</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"></highlight></codeline>
+<codeline lineno="208"><highlight class="normal">-<sp/>(NSString<sp/>*<sp/>_Nonnull)urlEncode<sp/><ref refid="category_n_s_string_07_x_d_common_lib_08_1a4bc8385b9c01d52e5b68a81635d5acb0" kindref="member">DEPRECATED_MSG_ATTRIBUTE</ref>(&quot;Use<sp/>-<ref refid="category_n_s_string_07_x_d_common_lib_08_1a1bccb69f4d29824b3a1e82e0f7bd640e" kindref="member">URLEncode</ref>&quot;);</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"></highlight></codeline>
+<codeline lineno="215"><highlight class="normal">-<sp/>(NSString<sp/>*<sp/>_Nonnull)<ref refid="category_n_s_string_07_x_d_common_lib_08_1a1bccb69f4d29824b3a1e82e0f7bd640e" kindref="member">URLEncode</ref>;</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"></highlight></codeline>
+<codeline lineno="222"><highlight class="normal">-<sp/>(NSString<sp/>*<sp/>_Nonnull)<ref refid="category_n_s_string_07_x_d_common_lib_08_1a72af34822cea788322c63faffe8bf097" kindref="member">removeExtraSpaces</ref>;</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"></highlight></codeline>
+<codeline lineno="232"><highlight class="normal">-<sp/>(NSString<sp/>*<sp/>_Nonnull)stringByReplacingWithRegex:(NSString<sp/>*<sp/>_Nonnull)regexString</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>withString:(NSString<sp/>*<sp/>_Nonnull)replacement;</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"></highlight></codeline>
+<codeline lineno="241"><highlight class="normal">-<sp/>(NSString<sp/>*<sp/>_Nonnull)<ref refid="category_n_s_string_07_x_d_common_lib_08_1aab4b36485594fabeafcf468563ffdbbf" kindref="member">HEXToString</ref>;</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"></highlight></codeline>
+<codeline lineno="249"><highlight class="normal">-<sp/>(NSString<sp/>*<sp/>_Nonnull)<ref refid="category_n_s_string_07_x_d_common_lib_08_1a05f8b7b74c3f6372fa1166d7ebfcf5ee" kindref="member">stringToHEX</ref>;</highlight></codeline>
+<codeline lineno="250"><highlight class="normal"></highlight></codeline>
+<codeline lineno="256"><highlight class="normal">+<sp/>(NSString<sp/>*<sp/>_Nonnull)<ref refid="category_n_s_string_07_x_d_common_lib_08_1a939b5f04edecc1708bca5d12ef392360" kindref="member">generateUUID</ref>;</highlight></codeline>
+<codeline lineno="257"><highlight class="normal"></highlight></codeline>
+<codeline lineno="263"><highlight class="normal">-<sp/>(BOOL)<ref refid="category_n_s_string_07_x_d_common_lib_08_1a46644daacbc285265f69e92f0063e33b" kindref="member">isUUID</ref>;</highlight></codeline>
+<codeline lineno="264"><highlight class="normal"></highlight></codeline>
+<codeline lineno="270"><highlight class="normal">-<sp/>(BOOL)<ref refid="category_n_s_string_07_x_d_common_lib_08_1a0609a8d6cf74a02876a1c8e795073987" kindref="member">isUUIDForAPNS</ref>;</highlight></codeline>
+<codeline lineno="271"><highlight class="normal"></highlight></codeline>
+<codeline lineno="277"><highlight class="normal">-<sp/>(NSString<sp/>*<sp/>_Nonnull)<ref refid="category_n_s_string_07_x_d_common_lib_08_1a37bdd96529836c431d69e8550085ea91" kindref="member">convertToAPNSUUID</ref>;</highlight></codeline>
+<codeline lineno="278"><highlight class="normal"></highlight></codeline>
+<codeline lineno="279"><highlight class="normal"></highlight></codeline>
+<codeline lineno="288"><highlight class="normal">-<sp/>(CGFloat)heightForWidth:(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal">)width</highlight></codeline>
+<codeline lineno="289"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>andFont:(UIFont<sp/>*<sp/>_Nonnull)font;</highlight></codeline>
+<codeline lineno="290"><highlight class="normal"></highlight></codeline>
+<codeline lineno="291"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+XDCommonLib.h"/>
+  </compounddef>
+</doxygen>

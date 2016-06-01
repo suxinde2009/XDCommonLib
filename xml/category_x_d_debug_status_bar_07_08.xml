@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_x_d_debug_status_bar_07_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>XDDebugStatusBar()</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="category_x_d_debug_status_bar_07_08_1a2c7288719031f6f8e133367d0fba7e0b" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="strong">
+        <type>UIButton *</type>
+        <definition>UIButton* XDDebugStatusBar()::debugButton</definition>
+        <argsstring></argsstring>
+        <name>debugButton</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Debug/XDDebugStatusBar.m" line="46" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Debug/XDDebugStatusBar.m" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_x_d_debug_status_bar_07_08_1a03c2e004be5fec9fd6b3d5770f294837" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="strong">
+        <type><ref refid="interface_x_d_debug_memory_view" kindref="compound">XDDebugMemoryView</ref> *</type>
+        <definition>XDDebugMemoryView* XDDebugStatusBar()::memoryView</definition>
+        <argsstring></argsstring>
+        <name>memoryView</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Debug/XDDebugStatusBar.m" line="47" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Debug/XDDebugStatusBar.m" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_x_d_debug_status_bar_07_08_1a3c817d225e3803d949f71bd6a09ec2f0" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="strong">
+        <type><ref refid="interface_x_d_debug_cpu_view" kindref="compound">XDDebugCpuView</ref> *</type>
+        <definition>XDDebugCpuView* XDDebugStatusBar()::cpuView</definition>
+        <argsstring></argsstring>
+        <name>cpuView</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Debug/XDDebugStatusBar.m" line="48" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Debug/XDDebugStatusBar.m" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_x_d_debug_status_bar_07_08_1a06d31968eee98fe6270a8f0031512609" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="strong">
+        <type>UIWindow *</type>
+        <definition>UIWindow* XDDebugStatusBar()::window</definition>
+        <argsstring></argsstring>
+        <name>window</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Debug/XDDebugStatusBar.m" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Debug/XDDebugStatusBar.m" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_x_d_debug_status_bar_07_08_1a26d7f01f7bbbb79d5254ad325f779e9f" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="strong">
+        <type>UIView *</type>
+        <definition>UIView* XDDebugStatusBar()::statusbar</definition>
+        <argsstring></argsstring>
+        <name>statusbar</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Debug/XDDebugStatusBar.m" line="50" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Debug/XDDebugStatusBar.m" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1292">
+        <label>drawLines</label>
+        <link refid="interfacedraw_lines"/>
+        <childnode refid="1293" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1290">
+        <label>XDDebugMemoryView</label>
+        <link refid="interface_x_d_debug_memory_view"/>
+        <childnode refid="1291" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1292" relation="usage">
+          <edgelabel>mdraw</edgelabel>
+        </childnode>
+        <childnode refid="1294" relation="usage">
+          <edgelabel>memInfo</edgelabel>
+        </childnode>
+      </node>
+      <node id="1289">
+        <label>XDDebugStatusBar()</label>
+        <link refid="category_x_d_debug_status_bar_07_08"/>
+        <childnode refid="1290" relation="usage">
+          <edgelabel>memoryView</edgelabel>
+        </childnode>
+        <childnode refid="1295" relation="usage">
+          <edgelabel>cpuView</edgelabel>
+        </childnode>
+      </node>
+      <node id="1295">
+        <label>XDDebugCpuView</label>
+        <link refid="interface_x_d_debug_cpu_view"/>
+        <childnode refid="1291" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1292" relation="usage">
+          <edgelabel>cdraw</edgelabel>
+        </childnode>
+      </node>
+      <node id="1291">
+        <label>UIView</label>
+      </node>
+      <node id="1293">
+        <label>NSObject</label>
+      </node>
+      <node id="1294">
+        <label>XDMemroyInfo</label>
+        <link refid="struct_x_d_memroy_info"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Debug/XDDebugStatusBar.m" line="44" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Debug/XDDebugStatusBar.m" bodystart="44" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_x_d_debug_status_bar_07_08_1a3c817d225e3803d949f71bd6a09ec2f0" prot="public" virt="non-virtual"><scope>XDDebugStatusBar()</scope><name>cpuView</name></member>
+      <member refid="category_x_d_debug_status_bar_07_08_1a2c7288719031f6f8e133367d0fba7e0b" prot="public" virt="non-virtual"><scope>XDDebugStatusBar()</scope><name>debugButton</name></member>
+      <member refid="category_x_d_debug_status_bar_07_08_1a03c2e004be5fec9fd6b3d5770f294837" prot="public" virt="non-virtual"><scope>XDDebugStatusBar()</scope><name>memoryView</name></member>
+      <member refid="category_x_d_debug_status_bar_07_08_1a26d7f01f7bbbb79d5254ad325f779e9f" prot="public" virt="non-virtual"><scope>XDDebugStatusBar()</scope><name>statusbar</name></member>
+      <member refid="category_x_d_debug_status_bar_07_08_1a06d31968eee98fe6270a8f0031512609" prot="public" virt="non-virtual"><scope>XDDebugStatusBar()</scope><name>window</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

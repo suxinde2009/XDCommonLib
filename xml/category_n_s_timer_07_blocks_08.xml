@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_n_s_timer_07_blocks_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>NSTimer(Blocks)</compoundname>
+    <includes refid="_n_s_timer_09_blocks_8h" local="no">NSTimer+Blocks.h</includes>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="category_n_s_timer_07_blocks_08_1a7db2f539a374de1271e9cf5550749c10" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>id</type>
+        <definition>id NSTimer(Blocks)::scheduledTimerWithTimeInterval:block:repeats:</definition>
+        <argsstring>(NSTimeInterval inTimeInterval,[block] void(^inBlock)(),[repeats] BOOL inRepeats)</argsstring>
+        <name>scheduledTimerWithTimeInterval:block:repeats:</name>
+        <param>
+          <type>NSTimeInterval</type>
+          <declname>inTimeInterval</declname>
+        </param>
+        <param>
+          <attributes>[block]</attributes>
+          <type>void(^)()</type>
+          <declname>inBlock</declname>
+        </param>
+        <param>
+          <attributes>[repeats]</attributes>
+          <type>BOOL</type>
+          <declname>inRepeats</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSTimer/NSTimer+Blocks.h" line="15" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSTimer/NSTimer+Blocks.m" bodystart="12" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_timer_07_blocks_08_1a69eb25c682a277b05cbf7b715a98ea8e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>id</type>
+        <definition>id NSTimer(Blocks)::timerWithTimeInterval:block:repeats:</definition>
+        <argsstring>(NSTimeInterval inTimeInterval,[block] void(^inBlock)(),[repeats] BOOL inRepeats)</argsstring>
+        <name>timerWithTimeInterval:block:repeats:</name>
+        <param>
+          <type>NSTimeInterval</type>
+          <declname>inTimeInterval</declname>
+        </param>
+        <param>
+          <attributes>[block]</attributes>
+          <type>void(^)()</type>
+          <declname>inBlock</declname>
+        </param>
+        <param>
+          <attributes>[repeats]</attributes>
+          <type>BOOL</type>
+          <declname>inRepeats</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSTimer/NSTimer+Blocks.h" line="15" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSTimer/NSTimer+Blocks.m" bodystart="19" bodyend="24"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSTimer/NSTimer+Blocks.m" line="10" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSTimer/NSTimer+Blocks.m" bodystart="10" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_n_s_timer_07_blocks_08_1a7db2f539a374de1271e9cf5550749c10" prot="public" virt="virtual"><scope>NSTimer(Blocks)</scope><name>scheduledTimerWithTimeInterval:block:repeats:</name></member>
+      <member refid="category_n_s_timer_07_blocks_08_1a69eb25c682a277b05cbf7b715a98ea8e" prot="public" virt="virtual"><scope>NSTimer(Blocks)</scope><name>timerWithTimeInterval:block:repeats:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

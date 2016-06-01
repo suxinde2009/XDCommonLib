@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_n_s_object_09_add_property_8h" kind="file" language="C++">
+    <compoundname>NSObject+AddProperty.h</compoundname>
+    <includes local="no">Foundation/Foundation.h</includes>
+    <includedby refid="_n_s_object_09_add_property_8m" local="yes">XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSObject/NSObject+AddProperty.m</includedby>
+    <incdepgraph>
+      <node id="641">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSObject/NSObject+AddProperty.h</label>
+        <link refid="NSObject+AddProperty.h"/>
+        <childnode refid="642" relation="include">
+        </childnode>
+      </node>
+      <node id="642">
+        <label>Foundation/Foundation.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="643">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSObject/NSObject+AddProperty.h</label>
+        <link refid="NSObject+AddProperty.h"/>
+        <childnode refid="644" relation="include">
+        </childnode>
+      </node>
+      <node id="644">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSObject/NSObject+AddProperty.m</label>
+        <link refid="_n_s_object_09_add_property_8m"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="category_n_s_object_07_add_property_08" prot="public">NSObject(AddProperty)</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>NSObject+AddProperty.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>iOS-Categories<sp/>(https://github.com/shaojiankui/iOS-Categories)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Jakey<sp/>on<sp/>14/12/15.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2014年<sp/>www.skyfox.org.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;Foundation/Foundation.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="category_n_s_object_07_add_property_08" kindref="compound">NSObject (AddProperty)</ref></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="category_n_s_object_07_add_property_08_1a72d0aa08365c3f86a64c413dfd014a14" refkind="member"><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,strong)<sp/>NSString<sp/>*<ref refid="category_n_s_object_07_add_property_08_1a72d0aa08365c3f86a64c413dfd014a14" kindref="member">stringProperty</ref>;</highlight></codeline>
+<codeline lineno="20" refid="category_n_s_object_07_add_property_08_1af10b687e72e2cc6603743ca2ac397a75" refkind="member"><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,assign)<sp/>NSInteger<sp/><ref refid="category_n_s_object_07_add_property_08_1af10b687e72e2cc6603743ca2ac397a75" kindref="member">integerProperty</ref>;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSObject/NSObject+AddProperty.h"/>
+  </compounddef>
+</doxygen>

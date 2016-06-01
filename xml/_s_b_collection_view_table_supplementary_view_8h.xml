@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_s_b_collection_view_table_supplementary_view_8h" kind="file" language="C++">
+    <compoundname>SBCollectionViewTableSupplementaryView.h</compoundname>
+    <includes local="no">UIKit/UIKit.h</includes>
+    <includedby refid="_s_b_collection_view_table_supplementary_view_8m" local="yes">XDCommonLib/CommonBasicComponentLayer/Venders/SBTableLayout/SBCollectionViewTableSupplementaryView.m</includedby>
+    <incdepgraph>
+      <node id="3615">
+        <label>XDCommonLib/CommonBasicComponentLayer/Venders/SBTableLayout/SBCollectionViewTableSupplementaryView.h</label>
+        <link refid="SBCollectionViewTableSupplementaryView.h"/>
+        <childnode refid="3616" relation="include">
+        </childnode>
+      </node>
+      <node id="3616">
+        <label>UIKit/UIKit.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3617">
+        <label>XDCommonLib/CommonBasicComponentLayer/Venders/SBTableLayout/SBCollectionViewTableSupplementaryView.h</label>
+        <link refid="SBCollectionViewTableSupplementaryView.h"/>
+        <childnode refid="3618" relation="include">
+        </childnode>
+      </node>
+      <node id="3618">
+        <label>XDCommonLib/CommonBasicComponentLayer/Venders/SBTableLayout/SBCollectionViewTableSupplementaryView.m</label>
+        <link refid="_s_b_collection_view_table_supplementary_view_8m"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_s_b_collection_view_table_supplementary_view" prot="public">SBCollectionViewTableSupplementaryView</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>SBCollectionViewTableSupplementaryView.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>SBTableLayout</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Simon<sp/>Blommegård<sp/>on<sp/>2013-11-11.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2013<sp/>Simon<sp/>Blommegård.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;UIKit/UIKit.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="class_s_b_collection_view_table_supplementary_view" kindref="compound">SBCollectionViewTableSupplementaryView</ref><sp/>:<sp/>UICollectionReusableView</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="class_s_b_collection_view_table_supplementary_view_1ad294a131a063db97f232c8da285ba1e5" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>strong)<sp/>UILabel<sp/>*<ref refid="class_s_b_collection_view_table_supplementary_view_1ad294a131a063db97f232c8da285ba1e5" kindref="member">label</ref>;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal">+<sp/>(CGSize)sizeForWidth:(CGFloat)width<sp/>atteributedString:(NSAttributedString<sp/>*)</highlight><highlight class="keywordtype">string</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal">+<sp/>(NSAttributedString<sp/>*)atteributedStringForKind:(NSString<sp/>*)kind<sp/>text:(NSString<sp/>*)text;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/SBTableLayout/SBCollectionViewTableSupplementaryView.h"/>
+  </compounddef>
+</doxygen>

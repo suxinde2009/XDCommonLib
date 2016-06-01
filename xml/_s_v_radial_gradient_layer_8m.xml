@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_s_v_radial_gradient_layer_8m" kind="file" language="Objective-C">
+    <compoundname>SVRadialGradientLayer.m</compoundname>
+    <includes refid="_s_v_radial_gradient_layer_8h" local="yes">SVRadialGradientLayer.h</includes>
+    <incdepgraph>
+      <node id="3794">
+        <label>SVRadialGradientLayer.h</label>
+        <link refid="_s_v_radial_gradient_layer_8h"/>
+        <childnode refid="3795" relation="include">
+        </childnode>
+      </node>
+      <node id="3793">
+        <label>XDCommonLib/Venders/SVProgressHUD/SVRadialGradientLayer.m</label>
+        <link refid="SVRadialGradientLayer.m"/>
+        <childnode refid="3794" relation="include">
+        </childnode>
+      </node>
+      <node id="3795">
+        <label>QuartzCore/QuartzCore.h</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>SVRadialGradientLayer.m</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>SVProgressHUD,<sp/>https://github.com/SVProgressHUD/SVProgressHUD</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2014-2016<sp/>Tobias<sp/>Tiemerding.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_s_v_radial_gradient_layer_8h" kindref="compound">SVRadialGradientLayer.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">@implementation<sp/></highlight><highlight class="normal"><ref refid="interface_s_v_radial_gradient_layer" kindref="compound">SVRadialGradientLayer</ref></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal">-<sp/>(void)drawInContext:(CGContextRef)context<sp/>{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>locationsCount<sp/>=<sp/>2;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>CGFloat<sp/>locations[2]<sp/>=<sp/>{0.0f,<sp/>1.0f};</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>CGFloat<sp/>colors[8]<sp/>=<sp/>{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.75f};</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>CGColorSpaceRef<sp/>colorSpace<sp/>=<sp/>CGColorSpaceCreateDeviceRGB();</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>CGGradientRef<sp/>gradient<sp/>=<sp/>CGGradientCreateWithColorComponents(colorSpace,<sp/>colors,<sp/>locations,<sp/>locationsCount);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>CGColorSpaceRelease(colorSpace);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>radius<sp/>=<sp/>MIN(</highlight><highlight class="keyword">self</highlight><highlight class="normal">.bounds.size.width<sp/>,<sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.bounds.size.height);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>CGContextDrawRadialGradient<sp/>(context,<sp/>gradient,<sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.<ref refid="interface_s_v_radial_gradient_layer_1a0c236fbc939b400e498081ce6519639f" kindref="member">gradientCenter</ref>,<sp/>0,<sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.<ref refid="interface_s_v_radial_gradient_layer_1a0c236fbc939b400e498081ce6519639f" kindref="member">gradientCenter</ref>,<sp/>radius,<sp/>kCGGradientDrawsAfterEndLocation);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>CGGradientRelease(gradient);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/Venders/SVProgressHUD/SVRadialGradientLayer.m"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_n_s_data_09_base64_8h" kind="file" language="C++">
+    <compoundname>NSData+Base64.h</compoundname>
+    <includes local="no">Foundation/Foundation.h</includes>
+    <includedby refid="_n_s_data_09_base64_8m" local="yes">XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSData/NSData+Base64.m</includedby>
+    <includedby refid="_n_s_string_09_base64_8m" local="yes">XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Base64.m</includedby>
+    <includedby refid="_n_s_string_09_encrypt_8m" local="yes">XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Encrypt.m</includedby>
+    <incdepgraph>
+      <node id="280">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSData/NSData+Base64.h</label>
+        <link refid="NSData+Base64.h"/>
+        <childnode refid="281" relation="include">
+        </childnode>
+      </node>
+      <node id="281">
+        <label>Foundation/Foundation.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="282">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSData/NSData+Base64.h</label>
+        <link refid="NSData+Base64.h"/>
+        <childnode refid="283" relation="include">
+        </childnode>
+        <childnode refid="284" relation="include">
+        </childnode>
+        <childnode refid="285" relation="include">
+        </childnode>
+      </node>
+      <node id="283">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSData/NSData+Base64.m</label>
+        <link refid="_n_s_data_09_base64_8m"/>
+      </node>
+      <node id="285">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Encrypt.m</label>
+        <link refid="_n_s_string_09_encrypt_8m"/>
+      </node>
+      <node id="284">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Base64.m</label>
+        <link refid="_n_s_string_09_base64_8m"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="category_n_s_data_07_base64_08" prot="public">NSData(Base64)</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>NSData+Base64.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>iOS-Categories<sp/>(https://github.com/shaojiankui/iOS-Categories)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Jakey<sp/>on<sp/>15/1/26.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2015年<sp/>www.skyfox.org.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;Foundation/Foundation.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="category_n_s_data_07_base64_08" kindref="compound">NSData (Base64)</ref></highlight></codeline>
+<codeline lineno="19"><highlight class="normal">+<sp/>(NSData<sp/>*)dataWithBase64EncodedString:(NSString<sp/>*)string;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal">-<sp/>(NSString<sp/>*)base64EncodedStringWithWrapWidth:(NSUInteger)wrapWidth;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal">-<sp/>(NSString<sp/>*)<ref refid="category_n_s_data_07_base64_08_1ab7a0aa388187023406409afe1d8e83d6" kindref="member">base64EncodedString</ref>;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSData/NSData+Base64.h"/>
+  </compounddef>
+</doxygen>

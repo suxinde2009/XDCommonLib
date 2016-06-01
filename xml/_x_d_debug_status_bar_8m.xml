@@ -1,0 +1,445 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_x_d_debug_status_bar_8m" kind="file" language="Objective-C">
+    <compoundname>XDDebugStatusBar.m</compoundname>
+    <includes refid="_x_d_debug_status_bar_8h" local="yes">XDDebugStatusBar.h</includes>
+    <includes refid="_x_d_debug_utils_8h" local="yes">XDDebugUtils.h</includes>
+    <includes refid="_x_d_debug_system_control_8h" local="yes">XDDebugSystemControl.h</includes>
+    <incdepgraph>
+      <node id="2318">
+        <label>XDDebugUtils.h</label>
+        <link refid="_x_d_debug_utils_8h"/>
+        <childnode refid="2315" relation="include">
+        </childnode>
+        <childnode refid="2316" relation="include">
+        </childnode>
+      </node>
+      <node id="2316">
+        <label>UIKit/UIKit.h</label>
+      </node>
+      <node id="2317">
+        <label>XDSingleton.h</label>
+        <link refid="_x_d_singleton_8h"/>
+      </node>
+      <node id="2315">
+        <label>Foundation/Foundation.h</label>
+      </node>
+      <node id="2314">
+        <label>XDDebugStatusBar.h</label>
+        <link refid="_x_d_debug_status_bar_8h"/>
+        <childnode refid="2315" relation="include">
+        </childnode>
+        <childnode refid="2316" relation="include">
+        </childnode>
+        <childnode refid="2317" relation="include">
+        </childnode>
+      </node>
+      <node id="2313">
+        <label>XDCommonLib/CommonBasicComponentLayer/Debug/XDDebugStatusBar.m</label>
+        <link refid="XDDebugStatusBar.m"/>
+        <childnode refid="2314" relation="include">
+        </childnode>
+        <childnode refid="2318" relation="include">
+        </childnode>
+        <childnode refid="2319" relation="include">
+        </childnode>
+      </node>
+      <node id="2319">
+        <label>XDDebugSystemControl.h</label>
+        <link refid="_x_d_debug_system_control_8h"/>
+        <childnode refid="2315" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innerclass refid="interfacedraw_lines" prot="public">drawLines</innerclass>
+    <innerclass refid="interface_x_d_debug_memory_view" prot="public">XDDebugMemoryView</innerclass>
+    <innerclass refid="interface_x_d_debug_cpu_view" prot="public">XDDebugCpuView</innerclass>
+    <innerclass refid="category_x_d_debug_status_bar_07_08" prot="public">XDDebugStatusBar()</innerclass>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="_x_d_debug_status_bar_8m_1a8e7f4c60b21359596e6096ce2c680afd" prot="public" static="yes" mutable="no">
+        <type>BOOL</type>
+        <definition>BOOL _isLongPress</definition>
+        <argsstring></argsstring>
+        <name>_isLongPress</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Debug/XDDebugStatusBar.m" line="22" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Debug/XDDebugStatusBar.m" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>XDDebugStatusBar.m</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>XDCommonLib</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>su<sp/>xinde<sp/>on<sp/>15/11/26.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>©<sp/>2015年<sp/>su<sp/>xinde.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_x_d_debug_status_bar_8h" kindref="compound">XDDebugStatusBar.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_x_d_debug_utils_8h" kindref="compound">XDDebugUtils.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_x_d_debug_system_control_8h" kindref="compound">XDDebugSystemControl.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="interfacedraw_lines" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="interfacedraw_lines" kindref="compound">drawLines</ref><sp/>:<sp/>NSObject{</highlight></codeline>
+<codeline lineno="14" refid="interfacedraw_lines_1aa68c7276d1a40b728003ed47e053b802" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="interfacedraw_lines_1aa68c7276d1a40b728003ed47e053b802" kindref="member">lineCl</ref>[4];</highlight></codeline>
+<codeline lineno="15" refid="interfacedraw_lines_1afa7c3e566bbcd565fe033ac8ba8e733b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>CGFloat<sp/><ref refid="interfacedraw_lines_1afa7c3e566bbcd565fe033ac8ba8e733b" kindref="member">fillCl</ref>[4];</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal">-<sp/>(void)drawLinesWithPoints:(NSMutableArray<sp/>*)points;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>BOOL<sp/>_isLongPress;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="interface_x_d_debug_memory_view" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="interface_x_d_debug_memory_view" kindref="compound">XDDebugMemoryView</ref><sp/>:<sp/>UIView<sp/>{</highlight></codeline>
+<codeline lineno="25" refid="interface_x_d_debug_memory_view_1ad5bcc04d692a8f38688db7293cdadc26" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>NSMutableArray<sp/>*<ref refid="interface_x_d_debug_memory_view_1ad5bcc04d692a8f38688db7293cdadc26" kindref="member">mPointList</ref>;</highlight></codeline>
+<codeline lineno="26" refid="interface_x_d_debug_memory_view_1adafc6c490b5382f33eef07dfd15aff13" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="interface_x_d_debug_memory_view_1adafc6c490b5382f33eef07dfd15aff13" kindref="member">mPCount</ref>;</highlight></codeline>
+<codeline lineno="27" refid="interface_x_d_debug_memory_view_1a823bb1735b16acd8abf18de77b4e2d02" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="interfacedraw_lines" kindref="compound">drawLines</ref><sp/>*<ref refid="interface_x_d_debug_memory_view_1a823bb1735b16acd8abf18de77b4e2d02" kindref="member">mdraw</ref>;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="29" refid="interface_x_d_debug_memory_view_1a4d57af1a2ebe2b625fded4cba64773ce" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(assign,<sp/>nonatomic)<sp/><ref refid="struct_x_d_memroy_info" kindref="compound">XDMemroyInfo</ref><sp/>memInfo;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="interface_x_d_debug_cpu_view" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="interface_x_d_debug_cpu_view" kindref="compound">XDDebugCpuView</ref><sp/>:<sp/>UIView<sp/>{</highlight></codeline>
+<codeline lineno="34" refid="interface_x_d_debug_cpu_view_1af8724c825a43e3249a14e03a441d37cc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>NSMutableArray<sp/>*<ref refid="interface_x_d_debug_cpu_view_1af8724c825a43e3249a14e03a441d37cc" kindref="member">pointList</ref>;</highlight></codeline>
+<codeline lineno="35" refid="interface_x_d_debug_cpu_view_1a7ce2095ce3e8a787871be567319b2567" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="interface_x_d_debug_cpu_view_1a7ce2095ce3e8a787871be567319b2567" kindref="member">pCount</ref>;</highlight></codeline>
+<codeline lineno="36" refid="interface_x_d_debug_cpu_view_1a99b9b5af67cec1e7358959f58cf1f1dd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="interfacedraw_lines" kindref="compound">drawLines</ref><sp/>*<ref refid="interface_x_d_debug_cpu_view_1a99b9b5af67cec1e7358959f58cf1f1dd" kindref="member">cdraw</ref>;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal">-<sp/>(void)setUsage:(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal">)usage;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44" refid="category_x_d_debug_status_bar_07_08" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="class_x_d_debug_status_bar" kindref="compound">XDDebugStatusBar</ref><sp/>()</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46" refid="category_x_d_debug_status_bar_07_08_1a2c7288719031f6f8e133367d0fba7e0b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(strong,<sp/>nonatomic)<sp/>UIButton<sp/>*<ref refid="class_x_d_debug_status_bar_1a23df35fbaa885ed53730c1570ef365cf" kindref="member">debugButton</ref>;</highlight></codeline>
+<codeline lineno="47" refid="category_x_d_debug_status_bar_07_08_1a03c2e004be5fec9fd6b3d5770f294837" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(strong,<sp/>nonatomic)<sp/><ref refid="interface_x_d_debug_memory_view" kindref="compound">XDDebugMemoryView</ref><sp/>*memoryView;</highlight></codeline>
+<codeline lineno="48" refid="category_x_d_debug_status_bar_07_08_1a3c817d225e3803d949f71bd6a09ec2f0" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(strong,<sp/>nonatomic)<sp/><ref refid="interface_x_d_debug_cpu_view" kindref="compound">XDDebugCpuView</ref><sp/>*cpuView;</highlight></codeline>
+<codeline lineno="49" refid="category_x_d_debug_status_bar_07_08_1a06d31968eee98fe6270a8f0031512609" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(strong,<sp/>nonatomic)<sp/>UIWindow<sp/>*window;</highlight></codeline>
+<codeline lineno="50" refid="category_x_d_debug_status_bar_07_08_1a26d7f01f7bbbb79d5254ad325f779e9f" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(strong,<sp/>nonatomic)<sp/>UIView<sp/>*statusbar;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54" refid="class_x_d_debug_status_bar" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">@implementation<sp/></highlight><highlight class="normal"><ref refid="class_x_d_debug_status_bar" kindref="compound">XDDebugStatusBar</ref></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><ref refid="_x_d_singleton_8h_1a6e37a2eb29f21d447686ac94d58a8d29" kindref="member">IMP_SINGLETON</ref></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58" refid="class_x_d_debug_status_bar_1a8b88dcbc3eeb6c6782a2c7ae476089cd" refkind="member"><highlight class="normal">+<sp/>(void)<ref refid="class_x_d_debug_status_bar_1a8b88dcbc3eeb6c6782a2c7ae476089cd" kindref="member">attach</ref></highlight></codeline>
+<codeline lineno="59"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>CGRect<sp/>frame<sp/>=<sp/>[UIScreen<sp/>mainScreen].bounds;</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/>frame.size.height<sp/>=<sp/>20;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_x_d_debug_status_bar" kindref="compound">XDDebugStatusBar</ref><sp/>*bar<sp/>=<sp/>[<ref refid="class_x_d_debug_status_bar" kindref="compound">XDDebugStatusBar</ref><sp/>sharedInstance];</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/>bar.frame<sp/>=<sp/>frame;</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/>bar.windowLevel<sp/>=<sp/>UIWindowLevelStatusBar;</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/>[bar<sp/>makeKeyAndVisible];</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal">-<sp/>(id)initWithFrame:(CGRect)frame</highlight></codeline>
+<codeline lineno="69"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>=<sp/>[</highlight><highlight class="keyword">super</highlight><highlight class="normal"><sp/>initWithFrame:frame];</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">self</highlight><highlight class="normal">)<sp/>{</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_isLongPress<sp/>=<sp/>NO;</highlight><highlight class="comment">//初始化长按键未按下</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.windowLevel<sp/>=<sp/>UIWindowLevelStatusBar;</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.statusbar=[<ref refid="interface_x_d_debug_utils" kindref="compound">XDDebugUtils</ref><sp/><ref refid="interface_x_d_debug_utils_1ac6170a0fb3d2bc3de5847846b1ff76d3" kindref="member">sysStatusBar</ref>];</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//轻击手势</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UITapGestureRecognizer<sp/>*tapPress<sp/>=<sp/>[[UITapGestureRecognizer<sp/>alloc]initWithTarget:self<sp/>action:@selector(offShowDebuggerStatus:)];</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[self.statusbar<sp/>addGestureRecognizer:tapPress];</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//内存视图</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.memoryView<sp/>=<sp/>[[<ref refid="interface_x_d_debug_memory_view" kindref="compound">XDDebugMemoryView</ref><sp/>alloc]<sp/>initWithFrame:CGRectZero];</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//self.memoryView.alpha=0.6;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal">.statusbar<sp/>insertSubview:self.memoryView<sp/>atIndex:0];</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//cpu视图</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.cpuView=[[<ref refid="interface_x_d_debug_cpu_view" kindref="compound">XDDebugCpuView</ref><sp/>alloc]<sp/>initWithFrame:CGRectZero];</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.cpuView.userInteractionEnabled=NO;</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal">.statusbar<sp/>insertSubview:self.cpuView<sp/>atIndex:1];</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Debugger按钮</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UIButton<sp/>*btn<sp/>=<sp/>[UIButton<sp/>buttonWithType:UIButtonTypeCustom];</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[btn<sp/>setImage:[UIImage<sp/>imageNamed:@&quot;bug&quot;]<sp/>forState:UIControlStateNormal];</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[btn<sp/>addTarget:self<sp/>action:@selector(onShowDebugger:)<sp/>forControlEvents:UIControlEventTouchUpInside];</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NSNotificationCenter<sp/>*center<sp/>=<sp/>[NSNotificationCenter<sp/>defaultCenter];</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[center<sp/>addObserver:self<sp/>selector:@selector(handleMemoryWarning)</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>name:UIApplicationDidReceiveMemoryWarningNotification</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>object:nil];</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>onUpdateInfo:nil];</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="102"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal">-<sp/>(void)handleMemoryWarning</highlight></codeline>
+<codeline lineno="106"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/>[UIView<sp/>animateWithDuration:0.3<sp/>animations:^{</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.memoryView.frame=CGRectMake(0,<sp/>0,<sp/>self.memoryView.frame.size.width,<sp/>self.frame.size.height);</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.memoryView.alpha=1;</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/>}];</highlight></codeline>
+<codeline lineno="111"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal">-<sp/>(float)getDebugButtonRight</highlight></codeline>
+<codeline lineno="114"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>left=</highlight><highlight class="keyword">self</highlight><highlight class="normal">.frame.size.width,temp,center=</highlight><highlight class="keyword">self</highlight><highlight class="normal">.frame.size.width/2;</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">self</highlight><highlight class="normal">.statusbar)<sp/>{</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NSArray<sp/>*vs<sp/>=<sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal">.statusbar<sp/>subviews];</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Class<sp/>clazz=[UIView<sp/>class];</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Class<sp/>clazz2=NSClassFromString(</highlight><highlight class="stringliteral">@&quot;UIStatusBarActivityItemView&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Class<sp/>clazz3=[<ref refid="interface_x_d_debug_cpu_view" kindref="compound">XDDebugCpuView</ref><sp/>class];</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(UIView<sp/>*v<sp/>in<sp/>vs)<sp/>{</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>([v<sp/>isKindOfClass:(clazz)]&amp;&amp;</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>v!=</highlight><highlight class="keyword">self</highlight><highlight class="normal">.<ref refid="class_x_d_debug_status_bar_1a23df35fbaa885ed53730c1570ef365cf" kindref="member">debugButton</ref>&amp;&amp;</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>![v<sp/>isKindOfClass:clazz2]&amp;&amp;</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>![v<sp/>isKindOfClass:clazz3])<sp/>{</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>temp=v.frame.origin.x;</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(temp&gt;center)<sp/>{</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(temp&lt;left)<sp/>{</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>left=temp;</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>left;</highlight></codeline>
+<codeline lineno="136"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight></codeline>
+<codeline lineno="138"><highlight class="normal">-<sp/>(void)layoutSubviews</highlight></codeline>
+<codeline lineno="139"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">super</highlight><highlight class="normal"><sp/>layoutSubviews];</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">self</highlight><highlight class="normal">.statusbar<sp/>!=<sp/>[<ref refid="interface_x_d_debug_utils" kindref="compound">XDDebugUtils</ref><sp/>sysStatusBar])<sp/>{</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.statusbar<sp/>=<sp/>[<ref refid="interface_x_d_debug_utils" kindref="compound">XDDebugUtils</ref><sp/><ref refid="interface_x_d_debug_utils_1ac6170a0fb3d2bc3de5847846b1ff76d3" kindref="member">sysStatusBar</ref>];</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal">.statusbar<sp/>addSubview:self.debugButton];</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal">.statusbar<sp/>insertSubview:self.memoryView<sp/>atIndex:0];</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal">.statusbar<sp/>insertSubview:self.cpuView<sp/>atIndex:1];</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal">.statusbar<sp/>bringSubviewToFront:self.debugButton];</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal">.statusbar<sp/>bringSubviewToFront:self.cpuView];</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal">.statusbar<sp/>sendSubviewToBack:self.memoryView];</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.cpuView.frame<sp/>=<sp/>CGRectMake(250,<sp/>0,<sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.bounds.size.width-250,<sp/>20);</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.memoryView.frame<sp/>=<sp/>CGRectMake(0,<sp/>0,<sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.bounds.size.width,<sp/>1);</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/>[UIView<sp/>animateWithDuration:0.2<sp/>animations:^{</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.debugButton.frame<sp/>=<sp/>CGRectMake([</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>getDebugButtonRight]-20,<sp/>2,<sp/>16,<sp/>16);</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/>}];</highlight></codeline>
+<codeline lineno="156"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight></codeline>
+<codeline lineno="158"><highlight class="normal"></highlight><highlight class="comment">//打开调试视图</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="159"><highlight class="normal">-<sp/>(void)onShowDebugger:(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)sender</highlight></codeline>
+<codeline lineno="160"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(UIWindow<sp/>*w<sp/>in<sp/>[UIApplication<sp/>sharedApplication].windows)<sp/>{</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!w.hidden<sp/>&amp;&amp;<sp/>w.windowLevel<sp/>==<sp/>UIWindowLevelNormal)<sp/>{</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.window<sp/>=<sp/>w;</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="167"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"></highlight></codeline>
+<codeline lineno="169"><highlight class="normal"></highlight><highlight class="comment">//关闭调试视图</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="170"><highlight class="normal">-<sp/>(void)onCloseDebugger:(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)sender</highlight></codeline>
+<codeline lineno="171"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal">.window.rootViewController<sp/>dismissViewControllerAnimated:YES<sp/>completion:nil];</highlight></codeline>
+<codeline lineno="173"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"></highlight></codeline>
+<codeline lineno="175"><highlight class="normal">-<sp/>(void)onUpdateInfo:(NSTimer<sp/>*)timer</highlight></codeline>
+<codeline lineno="176"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/>dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_BACKGROUND,<sp/>0),<sp/>^{</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(1)<sp/>{</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.memoryView.memInfo<sp/>=<sp/>[<ref refid="interface_x_d_debug_utils" kindref="compound">XDDebugUtils</ref><sp/><ref refid="interface_x_d_debug_utils_1a50afd33471b00f9f83d03ec4d4f753fe" kindref="member">memoryInfo</ref>];</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal">.cpuView<sp/>setUsage:[<ref refid="interface_x_d_debug_system_control" kindref="compound">XDDebugSystemControl</ref><sp/><ref refid="interface_x_d_debug_system_control_1a01dd285e31864e8b023312084db2e58c" kindref="member">cpuUsage</ref>]];</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dispatch_async(dispatch_get_main_queue(),<sp/>^{</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>setNeedsLayout];</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>});</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[NSThread<sp/>sleepForTimeInterval:0.3];</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/>});</highlight></codeline>
+<codeline lineno="187"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"></highlight></codeline>
+<codeline lineno="189"><highlight class="normal"></highlight><highlight class="comment">//长按手势</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="190"><highlight class="normal">-<sp/>(void)onShowDebuggerStatus:(UILongPressGestureRecognizer<sp/>*)longPressGestureRecognizer</highlight></codeline>
+<codeline lineno="191"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>([longPressGestureRecognizer<sp/>state]<sp/>==<sp/>UIGestureRecognizerStateEnded)<sp/>{</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_isLongPress<sp/>=<sp/>YES;</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//分左右两栏显示cpu利用率和内存占用率</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.statusbar.backgroundColor<sp/>=<sp/>[UIColor<sp/>blackColor];</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal">.cpuView<sp/>setNeedsLayout];</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal">.memoryView<sp/>setNeedsLayout];</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="199"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"></highlight></codeline>
+<codeline lineno="201"><highlight class="normal"></highlight><highlight class="comment">//轻击手势</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="202"><highlight class="normal">-<sp/>(void)offShowDebuggerStatus:(UITapGestureRecognizer<sp/>*)tabGestureRecognizer</highlight></codeline>
+<codeline lineno="203"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(_isLongPress)<sp/>{</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_isLongPress<sp/>=<sp/>NO;</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//关闭</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.statusbar.backgroundColor<sp/>=<sp/>[UIColor<sp/>clearColor];</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal">.memoryView<sp/>setNeedsLayout];</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal">.cpuView<sp/>setNeedsLayout];</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="211"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"></highlight></codeline>
+<codeline lineno="213"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="214"><highlight class="normal"></highlight></codeline>
+<codeline lineno="215"><highlight class="normal"></highlight><highlight class="keyword">@implementation<sp/></highlight><highlight class="normal"><ref refid="interface_x_d_debug_memory_view" kindref="compound">XDDebugMemoryView</ref></highlight></codeline>
+<codeline lineno="216"><highlight class="normal"></highlight></codeline>
+<codeline lineno="217"><highlight class="normal">-<sp/>(id)initWithFrame:(CGRect)frame</highlight></codeline>
+<codeline lineno="218"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">=[</highlight><highlight class="keyword">super</highlight><highlight class="normal"><sp/>initWithFrame:frame];</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">self</highlight><highlight class="normal">)<sp/>{</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.backgroundColor=[UIColor<sp/>clearColor];</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="interface_x_d_debug_memory_view_1ad5bcc04d692a8f38688db7293cdadc26" kindref="member">mPointList</ref>=[[NSMutableArray<sp/>alloc]<sp/>initWithCapacity:200];</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="interface_x_d_debug_memory_view_1a823bb1735b16acd8abf18de77b4e2d02" kindref="member">mdraw</ref><sp/>=<sp/>[[<ref refid="interfacedraw_lines" kindref="compound">drawLines</ref><sp/>alloc]init];</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="227"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"></highlight></codeline>
+<codeline lineno="229"><highlight class="normal"></highlight><highlight class="comment">//设置当前内存占用率</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="230"><highlight class="normal">-<sp/>(void)setMemInfo:(<ref refid="struct_x_d_memroy_info" kindref="compound">XDMemroyInfo</ref>)info</highlight></codeline>
+<codeline lineno="231"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"><sp/><sp/><sp/><sp/>_memInfo<sp/>=<sp/>info;</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"><sp/><sp/><sp/><sp/>natural_t<sp/>total<sp/>=<sp/>info.<ref refid="struct_x_d_memroy_info_1a3a9b1e3565c8e7f18fddd44da1cba57e" kindref="member">free</ref><sp/>+<sp/>info.used;</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>percent<sp/>=<sp/>(float)info.<ref refid="struct_x_d_memroy_info_1a1cac645393d02fd774b1a97fa90aef16" kindref="member">used</ref><sp/>/<sp/>total;</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"><sp/><sp/><sp/><sp/>[<ref refid="interface_x_d_debug_memory_view_1ad5bcc04d692a8f38688db7293cdadc26" kindref="member">mPointList</ref><sp/>insertObject:@(20-percent*20)<sp/>atIndex:0];</highlight></codeline>
+<codeline lineno="236"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>([<ref refid="interface_x_d_debug_memory_view_1ad5bcc04d692a8f38688db7293cdadc26" kindref="member">mPointList</ref><sp/>count]&gt;</highlight><highlight class="keyword">self</highlight><highlight class="normal">.frame.size.width/2+2)<sp/>{</highlight></codeline>
+<codeline lineno="237"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[mPointList<sp/>removeLastObject];</highlight></codeline>
+<codeline lineno="238"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"><sp/><sp/><sp/><sp/>dispatch_async(dispatch_get_main_queue(),<sp/>^{</highlight></codeline>
+<codeline lineno="240"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>setNeedsDisplay];<sp/></highlight><highlight class="comment">//调用drawRect方法,绘制view</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="241"><highlight class="normal"><sp/><sp/><sp/><sp/>});</highlight></codeline>
+<codeline lineno="242"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="243"><highlight class="normal">-<sp/>(void)layoutSubviews</highlight></codeline>
+<codeline lineno="244"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="245"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">super</highlight><highlight class="normal"><sp/>layoutSubviews];</highlight></codeline>
+<codeline lineno="246"><highlight class="normal"><sp/><sp/><sp/><sp/>CGFloat<sp/>width<sp/>=<sp/>[[UIScreen<sp/>mainScreen]<sp/>bounds].size.width;</highlight></codeline>
+<codeline lineno="247"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(_isLongPress)<sp/>{</highlight></codeline>
+<codeline lineno="248"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//长按</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="249"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.frame<sp/>=<sp/>CGRectMake(0,<sp/>0,width/2,<sp/>20);</highlight></codeline>
+<codeline lineno="250"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight><highlight class="keywordflow">else</highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="251"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.frame<sp/>=<sp/>CGRectMake(0,<sp/>0,<sp/>width,<sp/>1);</highlight></codeline>
+<codeline lineno="252"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="253"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="254"><highlight class="normal">-<sp/>(void)drawRect:(CGRect)rect</highlight></codeline>
+<codeline lineno="255"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="256"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">super</highlight><highlight class="normal"><sp/>drawRect:rect];</highlight></codeline>
+<codeline lineno="257"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(_isLongPress)<sp/>{</highlight></codeline>
+<codeline lineno="258"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//长按，折线图</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="259"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[mdraw<sp/>drawLinesWithPoints:mPointList];</highlight></codeline>
+<codeline lineno="260"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight><highlight class="keywordflow">else</highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="261"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//正常按下，线条显示</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="262"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_x_d_memroy_info" kindref="compound">XDMemroyInfo</ref><sp/>info<sp/>=<sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.memInfo;</highlight></codeline>
+<codeline lineno="263"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>natural_t<sp/>total<sp/>=<sp/>info.<ref refid="struct_x_d_memroy_info_1a3a9b1e3565c8e7f18fddd44da1cba57e" kindref="member">free</ref><sp/>+<sp/>info.used;</highlight></codeline>
+<codeline lineno="264"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>percent<sp/>=<sp/>(float)info.<ref refid="struct_x_d_memroy_info_1a1cac645393d02fd774b1a97fa90aef16" kindref="member">used</ref><sp/>/<sp/>total;</highlight></codeline>
+<codeline lineno="265"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CGFloat<sp/>width<sp/>=<sp/>floorf(percent<sp/>*<sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.frame.size.width);</highlight></codeline>
+<codeline lineno="266"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[[UIColor<sp/>redColor]<sp/>set];</highlight><highlight class="comment">//占用的部分是红色</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="267"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UIRectFill(CGRectMake(0,<sp/>0,<sp/>width,<sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.frame.size.height));</highlight></codeline>
+<codeline lineno="268"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="269"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[[UIColor<sp/>greenColor]<sp/>set];</highlight><highlight class="comment">//未占用的部分是绿色</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="270"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UIRectFill(CGRectMake(width,<sp/>0,<sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.frame.size.width<sp/>-<sp/>width,<sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.frame.size.height));</highlight></codeline>
+<codeline lineno="271"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="272"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="273"><highlight class="normal"></highlight></codeline>
+<codeline lineno="274"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="275"><highlight class="normal"></highlight></codeline>
+<codeline lineno="276"><highlight class="normal"></highlight><highlight class="keyword">@implementation<sp/></highlight><highlight class="normal"><ref refid="interface_x_d_debug_cpu_view" kindref="compound">XDDebugCpuView</ref></highlight></codeline>
+<codeline lineno="277"><highlight class="normal"></highlight></codeline>
+<codeline lineno="278"><highlight class="normal">-<sp/>(id)initWithFrame:(CGRect)frame</highlight></codeline>
+<codeline lineno="279"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="280"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">=[</highlight><highlight class="keyword">super</highlight><highlight class="normal"><sp/>initWithFrame:frame];</highlight></codeline>
+<codeline lineno="281"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">self</highlight><highlight class="normal">)<sp/>{</highlight></codeline>
+<codeline lineno="282"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.backgroundColor=[UIColor<sp/>clearColor];</highlight></codeline>
+<codeline lineno="283"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="interface_x_d_debug_cpu_view_1af8724c825a43e3249a14e03a441d37cc" kindref="member">pointList</ref>=[[NSMutableArray<sp/>alloc]<sp/>initWithCapacity:200];</highlight></codeline>
+<codeline lineno="284"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="interface_x_d_debug_cpu_view_1a99b9b5af67cec1e7358959f58cf1f1dd" kindref="member">cdraw</ref><sp/>=<sp/>[[<ref refid="interfacedraw_lines" kindref="compound">drawLines</ref><sp/>alloc]init];</highlight></codeline>
+<codeline lineno="285"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="286"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="287"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="288"><highlight class="normal"></highlight></codeline>
+<codeline lineno="289"><highlight class="normal">-<sp/>(void)layoutSubviews</highlight></codeline>
+<codeline lineno="290"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="291"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">super</highlight><highlight class="normal"><sp/>layoutSubviews];</highlight></codeline>
+<codeline lineno="292"><highlight class="normal"><sp/><sp/><sp/><sp/>CGFloat<sp/>width<sp/>=<sp/>[[UIScreen<sp/>mainScreen]<sp/>bounds].size.width;</highlight></codeline>
+<codeline lineno="293"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(_isLongPress)<sp/>{</highlight></codeline>
+<codeline lineno="294"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//长按</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="295"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="296"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.frame<sp/>=<sp/>CGRectMake(width/2,<sp/>0,<sp/>width/2,<sp/>20);</highlight></codeline>
+<codeline lineno="297"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight><highlight class="keywordflow">else</highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="298"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.frame<sp/>=<sp/>CGRectMake(width-70,<sp/>0,<sp/>70,<sp/>20);</highlight></codeline>
+<codeline lineno="299"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="300"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="301"><highlight class="normal"></highlight><highlight class="comment">//设置当前cpu使用率</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="302" refid="interface_x_d_debug_cpu_view_1a075b98370b8d3de05dcf08a64e884cc7" refkind="member"><highlight class="normal">-<sp/>(void)setUsage:(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal">)usage</highlight></codeline>
+<codeline lineno="303"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="304"><highlight class="normal"><sp/><sp/><sp/><sp/>[<ref refid="interface_x_d_debug_cpu_view_1af8724c825a43e3249a14e03a441d37cc" kindref="member">pointList</ref><sp/>insertObject:@(20.5-usage/5)<sp/>atIndex:0];</highlight></codeline>
+<codeline lineno="305"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>([<ref refid="interface_x_d_debug_cpu_view_1af8724c825a43e3249a14e03a441d37cc" kindref="member">pointList</ref><sp/>count]&gt;</highlight><highlight class="keyword">self</highlight><highlight class="normal">.frame.size.width/2+2)<sp/>{</highlight></codeline>
+<codeline lineno="306"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[<ref refid="interface_x_d_debug_cpu_view_1af8724c825a43e3249a14e03a441d37cc" kindref="member">pointList</ref><sp/>removeLastObject];</highlight></codeline>
+<codeline lineno="307"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="308"><highlight class="normal"><sp/><sp/><sp/><sp/>dispatch_async(dispatch_get_main_queue(),<sp/>^{</highlight></codeline>
+<codeline lineno="309"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>setNeedsDisplay];</highlight><highlight class="comment">//调用drawRect方法</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="310"><highlight class="normal"><sp/><sp/><sp/><sp/>});</highlight></codeline>
+<codeline lineno="311"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="312"><highlight class="normal"></highlight></codeline>
+<codeline lineno="313"><highlight class="normal"></highlight><highlight class="comment">//绘制cpu占用折线图</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="314"><highlight class="normal">-<sp/>(void)drawRect:(CGRect)rect</highlight></codeline>
+<codeline lineno="315"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="316"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">super</highlight><highlight class="normal"><sp/>drawRect:rect];</highlight></codeline>
+<codeline lineno="317"><highlight class="normal"><sp/><sp/><sp/><sp/>[cdraw<sp/>drawLinesWithPoints:pointList];</highlight></codeline>
+<codeline lineno="318"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="319"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="320"><highlight class="normal"></highlight></codeline>
+<codeline lineno="321"><highlight class="normal"></highlight><highlight class="keyword">@implementation<sp/></highlight><highlight class="normal"><ref refid="interfacedraw_lines" kindref="compound">drawLines</ref></highlight></codeline>
+<codeline lineno="322"><highlight class="normal"></highlight></codeline>
+<codeline lineno="323"><highlight class="normal">-<sp/>(instancetype)init</highlight></codeline>
+<codeline lineno="324"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="325"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>=<sp/>[super<sp/>init])<sp/>{</highlight></codeline>
+<codeline lineno="326"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//路径的颜色</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="327"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="interfacedraw_lines_1aa68c7276d1a40b728003ed47e053b802" kindref="member">lineCl</ref>[0]=1.0f;</highlight></codeline>
+<codeline lineno="328"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="interfacedraw_lines_1aa68c7276d1a40b728003ed47e053b802" kindref="member">lineCl</ref>[1]=0.0f;</highlight></codeline>
+<codeline lineno="329"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="interfacedraw_lines_1aa68c7276d1a40b728003ed47e053b802" kindref="member">lineCl</ref>[2]=0.0f;</highlight></codeline>
+<codeline lineno="330"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="interfacedraw_lines_1aa68c7276d1a40b728003ed47e053b802" kindref="member">lineCl</ref>[3]=1.0f;</highlight></codeline>
+<codeline lineno="331"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//用来填充路径所包围的区域</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="332"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="interfacedraw_lines_1afa7c3e566bbcd565fe033ac8ba8e733b" kindref="member">fillCl</ref>[0]=1.0f;</highlight></codeline>
+<codeline lineno="333"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="interfacedraw_lines_1afa7c3e566bbcd565fe033ac8ba8e733b" kindref="member">fillCl</ref>[1]=0.0f;</highlight></codeline>
+<codeline lineno="334"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="interfacedraw_lines_1afa7c3e566bbcd565fe033ac8ba8e733b" kindref="member">fillCl</ref>[2]=0.0f;</highlight></codeline>
+<codeline lineno="335"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="interfacedraw_lines_1afa7c3e566bbcd565fe033ac8ba8e733b" kindref="member">fillCl</ref>[3]=0.3f;</highlight></codeline>
+<codeline lineno="336"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="337"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="338"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="339"><highlight class="normal"></highlight></codeline>
+<codeline lineno="340" refid="interfacedraw_lines_1a5e5d69a02570c70f74ffaa9223bf1e9d" refkind="member"><highlight class="normal">-<sp/>(void)drawLinesWithPoints:(NSMutableArray<sp/>*)pointList</highlight></codeline>
+<codeline lineno="341"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="342"><highlight class="normal"><sp/><sp/><sp/><sp/>NSUInteger<sp/>count<sp/>=<sp/>[pointList<sp/>count];</highlight></codeline>
+<codeline lineno="343"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(count==0)<sp/>{</highlight></codeline>
+<codeline lineno="344"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="345"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="346"><highlight class="normal"><sp/><sp/><sp/><sp/>CGPoint<sp/>points[count+2];</highlight></codeline>
+<codeline lineno="347"><highlight class="normal"><sp/><sp/><sp/><sp/>points[0]=CGPointMake(-0.5,20.5);</highlight></codeline>
+<codeline lineno="348"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=0<sp/>;i&lt;count;i++)<sp/>{</highlight></codeline>
+<codeline lineno="349"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>points[i+1]=CGPointMake(i*2,<sp/>[pointList[i]<sp/>floatValue]);</highlight></codeline>
+<codeline lineno="350"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="351"><highlight class="normal"><sp/><sp/><sp/><sp/>points[1]=CGPointMake(-0.5,<sp/>points[1].y);</highlight></codeline>
+<codeline lineno="352"><highlight class="normal"><sp/><sp/><sp/><sp/>points[count+1]=CGPointMake(points[count].x,20.5);</highlight></codeline>
+<codeline lineno="353"><highlight class="normal"><sp/><sp/><sp/><sp/>CGContextRef<sp/>context<sp/>=<sp/>UIGraphicsGetCurrentContext();</highlight></codeline>
+<codeline lineno="354"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(NULL<sp/>==<sp/>context)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="355"><highlight class="normal"><sp/><sp/><sp/><sp/>CGContextSetLineWidth(context,<sp/>0.5);</highlight></codeline>
+<codeline lineno="356"><highlight class="normal"><sp/><sp/><sp/><sp/>CGContextSetAlpha(context,<sp/>0.8);</highlight></codeline>
+<codeline lineno="357"><highlight class="normal"><sp/><sp/><sp/><sp/>CGContextAddLines(context,<sp/>points,<sp/>count+2);</highlight></codeline>
+<codeline lineno="358"><highlight class="normal"><sp/><sp/><sp/><sp/>CGContextSetStrokeColor(context,<sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>CGFloat<sp/>*)<ref refid="interfacedraw_lines_1aa68c7276d1a40b728003ed47e053b802" kindref="member">lineCl</ref>);</highlight></codeline>
+<codeline lineno="359"><highlight class="normal"><sp/><sp/><sp/><sp/>CGContextSetFillColor(context,(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>CGFloat<sp/>*)<ref refid="interfacedraw_lines_1afa7c3e566bbcd565fe033ac8ba8e733b" kindref="member">fillCl</ref>);</highlight></codeline>
+<codeline lineno="360"><highlight class="normal"><sp/><sp/><sp/><sp/>CGContextClosePath(context);</highlight></codeline>
+<codeline lineno="361"><highlight class="normal"><sp/><sp/><sp/><sp/>CGContextDrawPath(context,<sp/>kCGPathFillStroke);</highlight></codeline>
+<codeline lineno="362"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="363"><highlight class="normal"></highlight></codeline>
+<codeline lineno="364"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Debug/XDDebugStatusBar.m"/>
+  </compounddef>
+</doxygen>

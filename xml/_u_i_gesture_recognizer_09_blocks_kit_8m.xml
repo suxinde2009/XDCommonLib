@@ -1,0 +1,217 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_u_i_gesture_recognizer_09_blocks_kit_8m" kind="file" language="Objective-C">
+    <compoundname>UIGestureRecognizer+BlocksKit.m</compoundname>
+    <includes refid="_u_i_gesture_recognizer_09_blocks_kit_8h" local="yes">UIGestureRecognizer+BlocksKit.h</includes>
+    <includes refid="_n_s_object_09_b_k_block_execution_8h" local="yes">NSObject+BKBlockExecution.h</includes>
+    <incdepgraph>
+      <node id="3088">
+        <label>Foundation/NSObjCRuntime.h</label>
+      </node>
+      <node id="3089">
+        <label>UIKit/UIKit.h</label>
+      </node>
+      <node id="3087">
+        <label>BKDefines.h</label>
+        <link refid="_b_k_defines_8h"/>
+        <childnode refid="3088" relation="include">
+        </childnode>
+      </node>
+      <node id="3091">
+        <label>Foundation/Foundation.h</label>
+      </node>
+      <node id="3090">
+        <label>NSObject+BKBlockExecution.h</label>
+        <link refid="_n_s_object_09_b_k_block_execution_8h"/>
+        <childnode refid="3087" relation="include">
+        </childnode>
+        <childnode refid="3091" relation="include">
+        </childnode>
+      </node>
+      <node id="3086">
+        <label>UIGestureRecognizer+BlocksKit.h</label>
+        <link refid="_u_i_gesture_recognizer_09_blocks_kit_8h"/>
+        <childnode refid="3087" relation="include">
+        </childnode>
+        <childnode refid="3089" relation="include">
+        </childnode>
+      </node>
+      <node id="3085">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIGestureRecognizer+BlocksKit.m</label>
+        <link refid="UIGestureRecognizer+BlocksKit.m"/>
+        <childnode refid="3086" relation="include">
+        </childnode>
+        <childnode refid="3090" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innerclass refid="category_u_i_gesture_recognizer_07_blocks_kit_internal_08" prot="public">UIGestureRecognizer(BlocksKitInternal)</innerclass>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="_u_i_gesture_recognizer_09_blocks_kit_8m_1add92c5a4b943d3d7adbb37e41099657e" prot="public" static="no" mutable="no">
+        <type>import ObjectiveC</type>
+        <definition>import ObjectiveC runtime</definition>
+        <argsstring></argsstring>
+        <name>runtime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIGestureRecognizer+BlocksKit.m" line="8" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIGestureRecognizer+BlocksKit.m" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_u_i_gesture_recognizer_09_blocks_kit_8m_1a83d60b349d6183d2a4aedc30ecf372cc" prot="public" static="yes" mutable="no">
+        <type>const void *</type>
+        <definition>const void* BKGestureRecognizerBlockKey</definition>
+        <argsstring></argsstring>
+        <name>BKGestureRecognizerBlockKey</name>
+        <initializer>= &amp;BKGestureRecognizerBlockKey</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIGestureRecognizer+BlocksKit.m" line="10" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIGestureRecognizer+BlocksKit.m" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_u_i_gesture_recognizer_09_blocks_kit_8m_1ad42bf3e8b3f672892a169987adac0041" prot="public" static="yes" mutable="no">
+        <type>const void *</type>
+        <definition>const void* BKGestureRecognizerDelayKey</definition>
+        <argsstring></argsstring>
+        <name>BKGestureRecognizerDelayKey</name>
+        <initializer>= &amp;BKGestureRecognizerDelayKey</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIGestureRecognizer+BlocksKit.m" line="11" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIGestureRecognizer+BlocksKit.m" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_u_i_gesture_recognizer_09_blocks_kit_8m_1a2772a5bcd00eb1a7a2572a46ca07a50e" prot="public" static="yes" mutable="no">
+        <type>const void *</type>
+        <definition>const void* BKGestureRecognizerShouldHandleActionKey</definition>
+        <argsstring></argsstring>
+        <name>BKGestureRecognizerShouldHandleActionKey</name>
+        <initializer>= &amp;BKGestureRecognizerShouldHandleActionKey</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIGestureRecognizer+BlocksKit.m" line="12" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIGestureRecognizer+BlocksKit.m" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>UIGestureRecognizer+BlocksKit.m</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>BlocksKit</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_u_i_gesture_recognizer_09_blocks_kit_8h" kindref="compound">UIGestureRecognizer+BlocksKit.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_n_s_object_09_b_k_block_execution_8h" kindref="compound">NSObject+BKBlockExecution.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="_u_i_gesture_recognizer_09_blocks_kit_8m_1add92c5a4b943d3d7adbb37e41099657e" refkind="member"><highlight class="normal">@</highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>ObjectiveC.runtime;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*BKGestureRecognizerBlockKey<sp/>=<sp/>&amp;BKGestureRecognizerBlockKey;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*BKGestureRecognizerDelayKey<sp/>=<sp/>&amp;BKGestureRecognizerDelayKey;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*BKGestureRecognizerShouldHandleActionKey<sp/>=<sp/>&amp;BKGestureRecognizerShouldHandleActionKey;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="category_u_i_gesture_recognizer_07_blocks_kit_internal_08" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="category_u_i_gesture_recognizer_07_blocks_kit_internal_08" kindref="compound">UIGestureRecognizer (BlocksKitInternal)</ref></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="category_u_i_gesture_recognizer_07_blocks_kit_internal_08_1af07aa8b583f01295d4d8ac277c5c53d3" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>setter<sp/>=<sp/>bk_setShouldHandleAction:)<sp/>BOOL<sp/><ref refid="category_u_i_gesture_recognizer_07_blocks_kit_internal_08_1af07aa8b583f01295d4d8ac277c5c53d3" kindref="member">bk_shouldHandleAction</ref>;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal">-<sp/>(void)bk_handleAction:(UIGestureRecognizer<sp/>*)recognizer;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="category_u_i_gesture_recognizer_07_blocks_kit_08" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">@implementation<sp/></highlight><highlight class="normal"><ref refid="category_u_i_gesture_recognizer_07_blocks_kit_08" kindref="compound">UIGestureRecognizer (BlocksKit)</ref></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="category_u_i_gesture_recognizer_07_blocks_kit_08_1aa40cda57c362c2844e77ea9da56311b0" refkind="member"><highlight class="normal">+<sp/>(instancetype)bk_recognizerWithHandler:(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(^)(UIGestureRecognizer<sp/>*sender,<sp/>UIGestureRecognizerState<sp/>state,<sp/>CGPoint<sp/>location))block<sp/>delay:(NSTimeInterval)delay</highlight></codeline>
+<codeline lineno="25"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[[[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>class]<sp/>alloc]<sp/>bk_initWithHandler:block<sp/>delay:delay];</highlight></codeline>
+<codeline lineno="27"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="category_u_i_gesture_recognizer_07_blocks_kit_08_1a32dfccba57333c3c0bcb1743ece2c20f" refkind="member"><highlight class="normal">-<sp/>(instancetype)bk_initWithHandler:(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(^)(UIGestureRecognizer<sp/>*sender,<sp/>UIGestureRecognizerState<sp/>state,<sp/>CGPoint<sp/>location))block<sp/>delay:(NSTimeInterval)delay</highlight></codeline>
+<codeline lineno="30"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>=<sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>initWithTarget:self<sp/>action:@selector(bk_handleAction:)];</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!</highlight><highlight class="keyword">self</highlight><highlight class="normal">)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>nil;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.<ref refid="category_u_i_gesture_recognizer_07_blocks_kit_08_1a111e06a76b57fb49cb3bcef412179db8" kindref="member">bk_handler</ref><sp/>=<sp/>block;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.bk_handlerDelay<sp/>=<sp/>delay;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40" refid="category_u_i_gesture_recognizer_07_blocks_kit_08_1af4c92a11e50e2298ab9a6b0fee001c35" refkind="member"><highlight class="normal">+<sp/>(instancetype)bk_recognizerWithHandler:(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(^)(UIGestureRecognizer<sp/>*sender,<sp/>UIGestureRecognizerState<sp/>state,<sp/>CGPoint<sp/>location))block</highlight></codeline>
+<codeline lineno="41"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/><ref refid="category_u_i_gesture_recognizer_07_blocks_kit_08_1aa40cda57c362c2844e77ea9da56311b0" kindref="member">bk_recognizerWithHandler</ref>:block<sp/><ref refid="category_u_i_gesture_recognizer_07_blocks_kit_08_1aa40cda57c362c2844e77ea9da56311b0" kindref="member">delay</ref>:0.0];</highlight></codeline>
+<codeline lineno="43"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45" refid="category_u_i_gesture_recognizer_07_blocks_kit_08_1a8052ee5fc93a672623e360862d576de2" refkind="member"><highlight class="normal">-<sp/>(instancetype)bk_initWithHandler:(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(^)(UIGestureRecognizer<sp/>*sender,<sp/>UIGestureRecognizerState<sp/>state,<sp/>CGPoint<sp/>location))block</highlight></codeline>
+<codeline lineno="46"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>=<sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>bk_initWithHandler:block<sp/>delay:0.0]);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal">-<sp/>(void)bk_handleAction:(UIGestureRecognizer<sp/>*)recognizer</highlight></codeline>
+<codeline lineno="51"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>void<sp/>(^handler)(UIGestureRecognizer<sp/>*sender,<sp/>UIGestureRecognizerState<sp/>state,<sp/>CGPoint<sp/>location)<sp/>=<sp/>recognizer.bk_handler;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/>if<sp/>(!handler)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/>NSTimeInterval<sp/>delay<sp/>=<sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.bk_handlerDelay;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/>CGPoint<sp/>location<sp/>=<sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>locationInView:self.view];</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>void<sp/>(^block)(void)<sp/>=<sp/>^{</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!</highlight><highlight class="keyword">self</highlight><highlight class="normal">.<ref refid="category_u_i_gesture_recognizer_07_blocks_kit_internal_08_1af07aa8b583f01295d4d8ac277c5c53d3" kindref="member">bk_shouldHandleAction</ref>)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>handler(</highlight><highlight class="keyword">self</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.state,<sp/>location);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.bk_shouldHandleAction<sp/>=<sp/>YES;</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/>[NSObject<sp/>bk_performAfterDelay:delay<sp/>usingBlock:block];</highlight></codeline>
+<codeline lineno="65"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal">-<sp/>(void)bk_setHandler:(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(^)(UIGestureRecognizer<sp/>*sender,<sp/>UIGestureRecognizerState<sp/>state,<sp/>CGPoint<sp/>location))handler</highlight></codeline>
+<codeline lineno="68"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/>objc_setAssociatedObject(</highlight><highlight class="keyword">self</highlight><highlight class="normal">,<sp/>BKGestureRecognizerBlockKey,<sp/>handler,<sp/>OBJC_ASSOCIATION_COPY_NONATOMIC);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72" refid="category_u_i_gesture_recognizer_07_blocks_kit_08_1a111e06a76b57fb49cb3bcef412179db8" refkind="member"><highlight class="normal">-<sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(^)(UIGestureRecognizer<sp/>*sender,<sp/>UIGestureRecognizerState<sp/>state,<sp/>CGPoint<sp/>location))<ref refid="category_u_i_gesture_recognizer_07_blocks_kit_08_1a111e06a76b57fb49cb3bcef412179db8" kindref="member">bk_handler</ref></highlight></codeline>
+<codeline lineno="73"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>objc_getAssociatedObject(</highlight><highlight class="keyword">self</highlight><highlight class="normal">,<sp/>BKGestureRecognizerBlockKey);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal">-<sp/>(void)bk_setHandlerDelay:(NSTimeInterval)delay</highlight></codeline>
+<codeline lineno="78"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/>NSNumber<sp/>*delayValue<sp/>=<sp/>delay<sp/>?<sp/>@(delay)<sp/>:<sp/>nil;</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/>objc_setAssociatedObject(</highlight><highlight class="keyword">self</highlight><highlight class="normal">,<sp/>BKGestureRecognizerDelayKey,<sp/>delayValue,<sp/>OBJC_ASSOCIATION_RETAIN_NONATOMIC);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal">-<sp/>(NSTimeInterval)<ref refid="category_u_i_gesture_recognizer_07_blocks_kit_08_1aa56e04931ab818c3933c9324d96fd2a3" kindref="member">bk_handlerDelay</ref></highlight></codeline>
+<codeline lineno="84"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[objc_getAssociatedObject(self,<sp/>BKGestureRecognizerDelayKey)<sp/>doubleValue];</highlight></codeline>
+<codeline lineno="86"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal">-<sp/>(void)bk_setShouldHandleAction:(BOOL)flag</highlight></codeline>
+<codeline lineno="89"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/>objc_setAssociatedObject(</highlight><highlight class="keyword">self</highlight><highlight class="normal">,<sp/>BKGestureRecognizerShouldHandleActionKey,<sp/>@(flag),<sp/>OBJC_ASSOCIATION_COPY_NONATOMIC);</highlight></codeline>
+<codeline lineno="91"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal">-<sp/>(BOOL)<ref refid="category_u_i_gesture_recognizer_07_blocks_kit_internal_08_1af07aa8b583f01295d4d8ac277c5c53d3" kindref="member">bk_shouldHandleAction</ref></highlight></codeline>
+<codeline lineno="94"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[objc_getAssociatedObject(self,<sp/>BKGestureRecognizerShouldHandleActionKey)<sp/>boolValue];</highlight></codeline>
+<codeline lineno="96"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98" refid="category_u_i_gesture_recognizer_07_blocks_kit_08_1a4e46a66c8db3a5ff1a1910ac30eb1914" refkind="member"><highlight class="normal">-<sp/>(void)<ref refid="category_u_i_gesture_recognizer_07_blocks_kit_08_1a4e46a66c8db3a5ff1a1910ac30eb1914" kindref="member">bk_cancel</ref></highlight></codeline>
+<codeline lineno="99"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.bk_shouldHandleAction<sp/>=<sp/>NO;</highlight></codeline>
+<codeline lineno="101"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIGestureRecognizer+BlocksKit.m"/>
+  </compounddef>
+</doxygen>

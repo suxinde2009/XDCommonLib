@@ -1,0 +1,156 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_n_s_object_07_property_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>NSObject(Property)</compoundname>
+    <includes refid="_n_s_object_09_property_8h" local="no">NSObject+Property.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="category_n_s_object_07_property_08_1a96139b8a8d7a35bb1b194516db7fd2fb" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSDictionary *</type>
+        <definition>NSDictionary * NSObject(Property)::propertyDictionary</definition>
+        <argsstring>()</argsstring>
+        <name>propertyDictionary</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSObject/NSObject+Property.h" line="28" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSObject/NSObject+Property.m" bodystart="14" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_object_07_property_08_1ad4297c625c312fe78b9184de41ccee3f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSDictionary *</type>
+        <definition>NSDictionary * NSObject(Property)::dictionaryValue</definition>
+        <argsstring>()</argsstring>
+        <name>dictionaryValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSObject/NSObject+Property.h" line="28" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSObject/NSObject+Property.m" bodystart="51" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_object_07_property_08_1ae0ce6ecc3bec1e148428c1c4e74a2466" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSArray *</type>
+        <definition>NSArray * NSObject(Property)::allPropertyKeys</definition>
+        <argsstring>()</argsstring>
+        <name>allPropertyKeys</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSObject/NSObject+Property.h" line="28" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSObject/NSObject+Property.m" bodystart="55" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_object_07_property_08_1a8ccc2ba64848349a34aeeeedba4bd00c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSArray *</type>
+        <definition>NSArray * NSObject(Property)::allPropertyKeyPaths</definition>
+        <argsstring>()</argsstring>
+        <name>allPropertyKeyPaths</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSObject/NSObject+Property.h" line="28" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSObject/NSObject+Property.m" bodystart="68" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_object_07_property_08_1aa6af562987bd682b53575b1cccd0bd51" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSArray *</type>
+        <definition>NSArray * NSObject(Property)::allBasePropertyKeyPaths</definition>
+        <argsstring>()</argsstring>
+        <name>allBasePropertyKeyPaths</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSObject/NSObject+Property.h" line="28" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSObject/NSObject+Property.m" bodystart="91" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_object_07_property_08_1ade6ec865ea3fc1f87e40fc089667f3c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL NSObject(Property)::hasPropertyForKey:</definition>
+        <argsstring>(NSString *key)</argsstring>
+        <name>hasPropertyForKey:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSObject/NSObject+Property.h" line="28" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSObject/NSObject+Property.m" bodystart="129" bodyend="133"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_object_07_property_08_1a4d84e4ba02163941de2344f0777616b6" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL NSObject(Property)::hasIvarForKey:</definition>
+        <argsstring>(NSString *key)</argsstring>
+        <name>hasIvarForKey:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSObject/NSObject+Property.h" line="28" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSObject/NSObject+Property.m" bodystart="134" bodyend="138"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_object_07_property_08_1a9d5afcc4ea4ae58b8020c0ed7a0a8d17" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>id</type>
+        <definition>id NSObject(Property)::valueForArrayIndexedKeyPath:</definition>
+        <argsstring>(NSString *keyPath)</argsstring>
+        <name>valueForArrayIndexedKeyPath:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>keyPath</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSObject/NSObject+Property.h" line="28" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSObject/NSObject+Property.m" bodystart="139" bodyend="167"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="category_n_s_object_07_property_08_1ad6d5c925d8d291a5e515301faa1a4e63" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSArray *</type>
+        <definition>NSArray * NSObject(Property)::classPropertyList</definition>
+        <argsstring>()</argsstring>
+        <name>classPropertyList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSObject/NSObject+Property.h" line="28" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSObject/NSObject+Property.m" bodystart="32" bodyend="48"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSObject/NSObject+Property.m" line="13" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSObject/NSObject+Property.m" bodystart="13" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_n_s_object_07_property_08_1aa6af562987bd682b53575b1cccd0bd51" prot="public" virt="virtual"><scope>NSObject(Property)</scope><name>allBasePropertyKeyPaths</name></member>
+      <member refid="category_n_s_object_07_property_08_1a8ccc2ba64848349a34aeeeedba4bd00c" prot="public" virt="virtual"><scope>NSObject(Property)</scope><name>allPropertyKeyPaths</name></member>
+      <member refid="category_n_s_object_07_property_08_1ae0ce6ecc3bec1e148428c1c4e74a2466" prot="public" virt="virtual"><scope>NSObject(Property)</scope><name>allPropertyKeys</name></member>
+      <member refid="category_n_s_object_07_property_08_1ad6d5c925d8d291a5e515301faa1a4e63" prot="public" virt="virtual"><scope>NSObject(Property)</scope><name>classPropertyList</name></member>
+      <member refid="category_n_s_object_07_property_08_1ad4297c625c312fe78b9184de41ccee3f" prot="public" virt="virtual"><scope>NSObject(Property)</scope><name>dictionaryValue</name></member>
+      <member refid="category_n_s_object_07_property_08_1a4d84e4ba02163941de2344f0777616b6" prot="public" virt="virtual"><scope>NSObject(Property)</scope><name>hasIvarForKey:</name></member>
+      <member refid="category_n_s_object_07_property_08_1ade6ec865ea3fc1f87e40fc089667f3c0" prot="public" virt="virtual"><scope>NSObject(Property)</scope><name>hasPropertyForKey:</name></member>
+      <member refid="category_n_s_object_07_property_08_1a96139b8a8d7a35bb1b194516db7fd2fb" prot="public" virt="virtual"><scope>NSObject(Property)</scope><name>propertyDictionary</name></member>
+      <member refid="category_n_s_object_07_property_08_1a9d5afcc4ea4ae58b8020c0ed7a0a8d17" prot="public" virt="virtual"><scope>NSObject(Property)</scope><name>valueForArrayIndexedKeyPath:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

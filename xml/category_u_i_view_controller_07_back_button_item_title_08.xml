@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_u_i_view_controller_07_back_button_item_title_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>UIViewController(BackButtonItemTitle)</compoundname>
+    <basecompoundref refid="protocol_back_button_item_title_protocol-p" prot="public" virt="non-virtual">&lt;BackButtonItemTitleProtocol&gt;</basecompoundref>
+    <includes refid="_u_i_view_controller_09_back_button_item_title_8h" local="no">UIViewController+BackButtonItemTitle.h</includes>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1116">
+        <label>&lt;BackButtonItemTitleProtocol&gt;</label>
+        <link refid="protocol_back_button_item_title_protocol-p"/>
+        <childnode refid="1117" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1117">
+        <label>&lt;NSObject&gt;</label>
+      </node>
+      <node id="1115">
+        <label>UIViewController(BackButtonItemTitle)</label>
+        <link refid="category_u_i_view_controller_07_back_button_item_title_08"/>
+        <childnode refid="1116" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1119">
+        <label>&lt;BackButtonItemTitleProtocol&gt;</label>
+        <link refid="protocol_back_button_item_title_protocol-p"/>
+        <childnode refid="1120" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1120">
+        <label>&lt;NSObject&gt;</label>
+      </node>
+      <node id="1118">
+        <label>UIViewController(BackButtonItemTitle)</label>
+        <link refid="category_u_i_view_controller_07_back_button_item_title_08"/>
+        <childnode refid="1119" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+BackButtonItemTitle.m" line="11" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+BackButtonItemTitle.m" bodystart="11" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="protocol_back_button_item_title_protocol-p_1a31f6fc486891037962b4f60c9489b815" prot="public" virt="virtual"><scope>UIViewController(BackButtonItemTitle)</scope><name>navigationItemBackBarButtonTitle</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

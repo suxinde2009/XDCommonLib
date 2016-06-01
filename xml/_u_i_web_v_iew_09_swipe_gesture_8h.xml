@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_u_i_web_v_iew_09_swipe_gesture_8h" kind="file" language="C++">
+    <compoundname>UIWebVIew+SwipeGesture.h</compoundname>
+    <includes local="no">UIKit/UIKit.h</includes>
+    <includedby refid="_u_i_web_v_iew_09_swipe_gesture_8m" local="yes">XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIWebView/UIWebVIew+SwipeGesture.m</includedby>
+    <incdepgraph>
+      <node id="2276">
+        <label>UIKit/UIKit.h</label>
+      </node>
+      <node id="2275">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIWebView/UIWebVIew+SwipeGesture.h</label>
+        <link refid="UIWebVIew+SwipeGesture.h"/>
+        <childnode refid="2276" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2277">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIWebView/UIWebVIew+SwipeGesture.h</label>
+        <link refid="UIWebVIew+SwipeGesture.h"/>
+        <childnode refid="2278" relation="include">
+        </childnode>
+      </node>
+      <node id="2278">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIWebView/UIWebVIew+SwipeGesture.m</label>
+        <link refid="_u_i_web_v_iew_09_swipe_gesture_8m"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="category_u_i_web_view_07_swipe_gesture_08" prot="public">UIWebView(SwipeGesture)</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>UIWebVIew+SwipeGesture.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>SNSwipeGestureSample</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Noda<sp/>Shimpei<sp/>on<sp/>2013/05/18.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2013年<sp/>Noda<sp/>Shimpei.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="preprocessor">#import<sp/>&lt;UIKit/UIKit.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="category_u_i_web_view_07_swipe_gesture_08" kindref="compound">UIWebView (SwipeGesture)</ref></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal">-<sp/>(void)<ref refid="category_u_i_web_view_07_swipe_gesture_08_1ab2e87fcdbac727db7e20961ad66911ae" kindref="member">useSwipeGesture</ref>;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIWebView/UIWebVIew+SwipeGesture.h"/>
+  </compounddef>
+</doxygen>

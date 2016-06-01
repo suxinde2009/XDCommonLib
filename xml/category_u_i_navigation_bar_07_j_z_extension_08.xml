@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_u_i_navigation_bar_07_j_z_extension_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>UINavigationBar(JZExtension)</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="category_u_i_navigation_bar_07_j_z_extension_08_1a81b9f2649e96a238dcae2e2e35328f6f" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="assign">
+        <type>CGSize</type>
+        <definition>CGSize UINavigationBar(JZExtension)::size</definition>
+        <argsstring></argsstring>
+        <name>size</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UINavigationController/UINavigationController+JZExtension.m" line="382" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UINavigationController/UINavigationController+JZExtension.m" bodystart="382" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UINavigationController/UINavigationController+JZExtension.m" line="381" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UINavigationController/UINavigationController+JZExtension.m" bodystart="381" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_u_i_navigation_bar_07_j_z_extension_08_1a81b9f2649e96a238dcae2e2e35328f6f" prot="public" virt="non-virtual"><scope>UINavigationBar(JZExtension)</scope><name>size</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

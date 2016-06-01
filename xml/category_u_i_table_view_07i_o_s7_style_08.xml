@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_u_i_table_view_07i_o_s7_style_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>UITableView(iOS7Style)</compoundname>
+    <includes refid="_u_i_table_view_09i_o_s7_style_8h" local="no">UITableView+iOS7Style.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="category_u_i_table_view_07i_o_s7_style_08_1a7fc7ef938156ee3310c5cd1809afdc35" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UITableView(iOS7Style)::applyiOS7SettingsStyleGrouping:forRowAtIndexPath:</definition>
+        <argsstring>(UITableViewCell *cell,[forRowAtIndexPath] NSIndexPath *indexPath)</argsstring>
+        <name>applyiOS7SettingsStyleGrouping:forRowAtIndexPath:</name>
+        <param>
+          <type>UITableViewCell *</type>
+          <declname>cell</declname>
+        </param>
+        <param>
+          <attributes>[forRowAtIndexPath]</attributes>
+          <type>NSIndexPath *</type>
+          <declname>indexPath</declname>
+        </param>
+        <briefdescription>
+<para>ios7设置页面的UITableViewCell样式 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cell</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>cell </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>indexPath</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>indexPath </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UITableView/UITableView+iOS7Style.h" line="85" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UITableView/UITableView+iOS7Style.m" bodystart="20" bodyend="63"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UITableView/UITableView+iOS7Style.m" line="11" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UITableView/UITableView+iOS7Style.m" bodystart="11" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_u_i_table_view_07i_o_s7_style_08_1a7fc7ef938156ee3310c5cd1809afdc35" prot="public" virt="virtual"><scope>UITableView(iOS7Style)</scope><name>applyiOS7SettingsStyleGrouping:forRowAtIndexPath:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

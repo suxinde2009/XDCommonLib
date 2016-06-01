@@ -26,7 +26,9 @@
 
 @end
 
-
+/**
+ *  命令总线 （松耦合的命令执行管理类）
+ */
 @interface XDCommandBus : NSObject
 
 //execute a command object with its specific handler

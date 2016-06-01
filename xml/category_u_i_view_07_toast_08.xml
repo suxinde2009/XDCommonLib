@@ -1,0 +1,291 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_u_i_view_07_toast_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>UIView(Toast)</compoundname>
+    <includes refid="_u_i_view_09_toast_8h" local="no">UIView+Toast.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="category_u_i_view_07_toast_08_1a4bf18be07cad8f5f5851e8f4cec06bb3" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UIView(Toast)::makeToast:</definition>
+        <argsstring>(NSString *message)</argsstring>
+        <name>makeToast:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Toast.h" line="33" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Toast.m" bodystart="77" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_view_07_toast_08_1a66d1719b1589c06f761a9462fe34f9e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UIView(Toast)::makeToast:duration:position:</definition>
+        <argsstring>(NSString *message,[duration] NSTimeInterval interval,[position] id position)</argsstring>
+        <name>makeToast:duration:position:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>message</declname>
+        </param>
+        <param>
+          <attributes>[duration]</attributes>
+          <type>NSTimeInterval</type>
+          <declname>interval</declname>
+        </param>
+        <param>
+          <attributes>[position]</attributes>
+          <type>id</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Toast.h" line="33" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Toast.m" bodystart="81" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_view_07_toast_08_1ae0d3188c328d44664c5c139a984dde6a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UIView(Toast)::makeToast:duration:position:image:</definition>
+        <argsstring>(NSString *message,[duration] NSTimeInterval interval,[position] id position,[image] UIImage *image)</argsstring>
+        <name>makeToast:duration:position:image:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>message</declname>
+        </param>
+        <param>
+          <attributes>[duration]</attributes>
+          <type>NSTimeInterval</type>
+          <declname>interval</declname>
+        </param>
+        <param>
+          <attributes>[position]</attributes>
+          <type>id</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <attributes>[image]</attributes>
+          <type>UIImage *</type>
+          <declname>image</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Toast.h" line="33" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Toast.m" bodystart="91" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_view_07_toast_08_1a5739853b9e9b05240e12b02ffe91d51e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UIView(Toast)::makeToast:duration:position:title:</definition>
+        <argsstring>(NSString *message,[duration] NSTimeInterval interval,[position] id position,[title] NSString *title)</argsstring>
+        <name>makeToast:duration:position:title:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>message</declname>
+        </param>
+        <param>
+          <attributes>[duration]</attributes>
+          <type>NSTimeInterval</type>
+          <declname>interval</declname>
+        </param>
+        <param>
+          <attributes>[position]</attributes>
+          <type>id</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <attributes>[title]</attributes>
+          <type>NSString *</type>
+          <declname>title</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Toast.h" line="33" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Toast.m" bodystart="86" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_view_07_toast_08_1a794d5d45179eb747dcdc9d7c5ede8a5a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UIView(Toast)::makeToast:duration:position:title:image:</definition>
+        <argsstring>(NSString *message,[duration] NSTimeInterval interval,[position] id position,[title] NSString *title,[image] UIImage *image)</argsstring>
+        <name>makeToast:duration:position:title:image:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>message</declname>
+        </param>
+        <param>
+          <attributes>[duration]</attributes>
+          <type>NSTimeInterval</type>
+          <declname>interval</declname>
+        </param>
+        <param>
+          <attributes>[position]</attributes>
+          <type>id</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <attributes>[title]</attributes>
+          <type>NSString *</type>
+          <declname>title</declname>
+        </param>
+        <param>
+          <attributes>[image]</attributes>
+          <type>UIImage *</type>
+          <declname>image</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Toast.h" line="33" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Toast.m" bodystart="96" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_view_07_toast_08_1abdc950775335890065df6b64d05f33b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UIView(Toast)::makeToastActivity</definition>
+        <argsstring>()</argsstring>
+        <name>makeToastActivity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Toast.h" line="33" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Toast.m" bodystart="171" bodyend="173"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_view_07_toast_08_1a85b36ec0b0168fcb4ff18ad4f0b1eb98" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UIView(Toast)::makeToastActivity:</definition>
+        <argsstring>(id position)</argsstring>
+        <name>makeToastActivity:</name>
+        <param>
+          <type>id</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Toast.h" line="33" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Toast.m" bodystart="175" bodyend="210"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_view_07_toast_08_1a004708e1d2ad0193ffaac11b870559e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UIView(Toast)::hideToastActivity</definition>
+        <argsstring>()</argsstring>
+        <name>hideToastActivity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Toast.h" line="33" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Toast.m" bodystart="212" bodyend="225"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_view_07_toast_08_1ac289d1611f37287e804c02dc9baed296" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UIView(Toast)::showToast:</definition>
+        <argsstring>(UIView *toast)</argsstring>
+        <name>showToast:</name>
+        <param>
+          <type>UIView *</type>
+          <declname>toast</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Toast.h" line="33" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Toast.m" bodystart="101" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_view_07_toast_08_1a7d8d51cd0e10b4790a1aba8da92c30e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UIView(Toast)::showToast:duration:position:</definition>
+        <argsstring>(UIView *toast,[duration] NSTimeInterval interval,[position] id point)</argsstring>
+        <name>showToast:duration:position:</name>
+        <param>
+          <type>UIView *</type>
+          <declname>toast</declname>
+        </param>
+        <param>
+          <attributes>[duration]</attributes>
+          <type>NSTimeInterval</type>
+          <declname>interval</declname>
+        </param>
+        <param>
+          <attributes>[position]</attributes>
+          <type>id</type>
+          <declname>point</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Toast.h" line="33" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Toast.m" bodystart="106" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_view_07_toast_08_1af99dd1d63a1d978b1bd8237cb2f38585" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UIView(Toast)::showToast:duration:position:tapCallback:</definition>
+        <argsstring>(UIView *toast,[duration] NSTimeInterval interval,[position] id point,[tapCallback] void(^tapCallback)(void))</argsstring>
+        <name>showToast:duration:position:tapCallback:</name>
+        <param>
+          <type>UIView *</type>
+          <declname>toast</declname>
+        </param>
+        <param>
+          <attributes>[duration]</attributes>
+          <type>NSTimeInterval</type>
+          <declname>interval</declname>
+        </param>
+        <param>
+          <attributes>[position]</attributes>
+          <type>id</type>
+          <declname>point</declname>
+        </param>
+        <param>
+          <attributes>[tapCallback]</attributes>
+          <type>void(^)(void)</type>
+          <declname>tapCallback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Toast.h" line="33" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Toast.m" bodystart="112" bodyend="138"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Toast.m" line="73" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Toast.m" bodystart="73" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_u_i_view_07_toast_08_1a004708e1d2ad0193ffaac11b870559e1" prot="public" virt="virtual"><scope>UIView(Toast)</scope><name>hideToastActivity</name></member>
+      <member refid="category_u_i_view_07_toast_08_1a4bf18be07cad8f5f5851e8f4cec06bb3" prot="public" virt="virtual"><scope>UIView(Toast)</scope><name>makeToast:</name></member>
+      <member refid="category_u_i_view_07_toast_08_1a66d1719b1589c06f761a9462fe34f9e0" prot="public" virt="virtual"><scope>UIView(Toast)</scope><name>makeToast:duration:position:</name></member>
+      <member refid="category_u_i_view_07_toast_08_1ae0d3188c328d44664c5c139a984dde6a" prot="public" virt="virtual"><scope>UIView(Toast)</scope><name>makeToast:duration:position:image:</name></member>
+      <member refid="category_u_i_view_07_toast_08_1a5739853b9e9b05240e12b02ffe91d51e" prot="public" virt="virtual"><scope>UIView(Toast)</scope><name>makeToast:duration:position:title:</name></member>
+      <member refid="category_u_i_view_07_toast_08_1a794d5d45179eb747dcdc9d7c5ede8a5a" prot="public" virt="virtual"><scope>UIView(Toast)</scope><name>makeToast:duration:position:title:image:</name></member>
+      <member refid="category_u_i_view_07_toast_08_1abdc950775335890065df6b64d05f33b0" prot="public" virt="virtual"><scope>UIView(Toast)</scope><name>makeToastActivity</name></member>
+      <member refid="category_u_i_view_07_toast_08_1a85b36ec0b0168fcb4ff18ad4f0b1eb98" prot="public" virt="virtual"><scope>UIView(Toast)</scope><name>makeToastActivity:</name></member>
+      <member refid="category_u_i_view_07_toast_08_1ac289d1611f37287e804c02dc9baed296" prot="public" virt="virtual"><scope>UIView(Toast)</scope><name>showToast:</name></member>
+      <member refid="category_u_i_view_07_toast_08_1a7d8d51cd0e10b4790a1aba8da92c30e6" prot="public" virt="virtual"><scope>UIView(Toast)</scope><name>showToast:duration:position:</name></member>
+      <member refid="category_u_i_view_07_toast_08_1af99dd1d63a1d978b1bd8237cb2f38585" prot="public" virt="virtual"><scope>UIView(Toast)</scope><name>showToast:duration:position:tapCallback:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

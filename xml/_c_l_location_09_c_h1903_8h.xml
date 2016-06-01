@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_c_l_location_09_c_h1903_8h" kind="file" language="C++">
+    <compoundname>CLLocation+CH1903.h</compoundname>
+    <includes local="no">Foundation/Foundation.h</includes>
+    <includes local="no">CoreLocation/CoreLocation.h</includes>
+    <includedby refid="_c_l_location_09_c_h1903_8m" local="yes">XDCommonLib/CommonBasicComponentLayer/Categories/CoreLocation/CLLocation/CLLocation+CH1903.m</includedby>
+    <incdepgraph>
+      <node id="206">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/CoreLocation/CLLocation/CLLocation+CH1903.h</label>
+        <link refid="CLLocation+CH1903.h"/>
+        <childnode refid="207" relation="include">
+        </childnode>
+        <childnode refid="208" relation="include">
+        </childnode>
+      </node>
+      <node id="208">
+        <label>CoreLocation/CoreLocation.h</label>
+      </node>
+      <node id="207">
+        <label>Foundation/Foundation.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="209">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/CoreLocation/CLLocation/CLLocation+CH1903.h</label>
+        <link refid="CLLocation+CH1903.h"/>
+        <childnode refid="210" relation="include">
+        </childnode>
+      </node>
+      <node id="210">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/CoreLocation/CLLocation/CLLocation+CH1903.m</label>
+        <link refid="_c_l_location_09_c_h1903_8m"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="category_c_l_location_07_c_h1903_08" prot="public">CLLocation(CH1903)</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>CLLocation+CH1903.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>g7</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Jonas<sp/>Schnelli<sp/>on<sp/>22.04.10.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>2010<sp/>include7<sp/>AG.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="comment">//<sp/>check:<sp/>http://github.com/jonasschnelli/CLLocation-CH1903</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">//<sp/>瑞士坐标系转换</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="comment">//This<sp/>small<sp/>extension<sp/>allows<sp/>you<sp/>to<sp/>easly<sp/>manage<sp/>CH1903<sp/>(swiss<sp/>coordinate<sp/>system)<sp/>within<sp/>the<sp/>CLLocation<sp/>object.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="comment">//All<sp/>the<sp/>calculation<sp/>are<sp/>based<sp/>on<sp/>the<sp/>official<sp/>swiss<sp/>federal<sp/>informations:</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="comment">//http://www.swisstopo.admin.ch/internet/swisstopo/de/home/products/software/products/skripts.html</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;Foundation/Foundation.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;CoreLocation/CoreLocation.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="category_c_l_location_07_c_h1903_08" kindref="compound">CLLocation (CH1903)</ref></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal">-<sp/>(id)<sp/>initWithCH1903x:(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">)x<sp/>y:(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">)y;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal">-<sp/>(double)<ref refid="category_c_l_location_07_c_h1903_08_1adac35398032f857c147abe731112bf4f" kindref="member">CH1903Y</ref>;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal">-<sp/>(double)<ref refid="category_c_l_location_07_c_h1903_08_1aab6c28b5e8c0c6011c11bf327cc154d1" kindref="member">CH1903X</ref>;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/>-</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/>static<sp/>methodes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal">+<sp/>(double)CHtoWGSlatWithX:(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">)x<sp/>y:(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">)y;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal">+<sp/>(double)CHtoWGSlongWithX:(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">)x<sp/>y:(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">)y;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal">+<sp/>(double)WGStoCHyWithLatitude:(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">)lat<sp/>longitude:(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">)lng;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal">+<sp/>(double)WGStoCHxWithLatitude:(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">)lat<sp/>longitude:(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">)lng;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal">+<sp/>(double)decToSex:(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">)angle;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal">+<sp/>(double)degToSec:(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">)angle;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal">+<sp/>(double)sexToDec:(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">)angle;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreLocation/CLLocation/CLLocation+CH1903.h"/>
+  </compounddef>
+</doxygen>

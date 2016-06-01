@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_u_i_text_field_09_blocks_kit_8h" kind="file" language="C++">
+    <compoundname>UITextField+BlocksKit.h</compoundname>
+    <includes refid="_b_k_defines_8h" local="yes">BKDefines.h</includes>
+    <includes local="no">UIKit/UIKit.h</includes>
+    <includedby refid="_u_i_text_field_09_blocks_kit_8m" local="yes">XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UITextField+BlocksKit.m</includedby>
+    <incdepgraph>
+      <node id="3139">
+        <label>Foundation/NSObjCRuntime.h</label>
+      </node>
+      <node id="3137">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UITextField+BlocksKit.h</label>
+        <link refid="UITextField+BlocksKit.h"/>
+        <childnode refid="3138" relation="include">
+        </childnode>
+        <childnode refid="3140" relation="include">
+        </childnode>
+      </node>
+      <node id="3140">
+        <label>UIKit/UIKit.h</label>
+      </node>
+      <node id="3138">
+        <label>BKDefines.h</label>
+        <link refid="_b_k_defines_8h"/>
+        <childnode refid="3139" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3141">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UITextField+BlocksKit.h</label>
+        <link refid="UITextField+BlocksKit.h"/>
+        <childnode refid="3142" relation="include">
+        </childnode>
+      </node>
+      <node id="3142">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UITextField+BlocksKit.m</label>
+        <link refid="_u_i_text_field_09_blocks_kit_8m"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="category_u_i_text_field_07_blocks_kit_08" prot="public">UITextField(BlocksKit)</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>UITextField+BlocksKit.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>BlocksKit</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Contributed<sp/>by<sp/>Samuel<sp/>E.<sp/>Giddins.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_b_k_defines_8h" kindref="compound">BKDefines.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;UIKit/UIKit.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><ref refid="_b_k_defines_8h_1a33c08c6ca8f22acd327c850ca2151f17" kindref="member">NS_ASSUME_NONNULL_BEGIN</ref></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="category_u_i_text_field_07_blocks_kit_08" kindref="compound">UITextField (BlocksKit)</ref></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>copy,<sp/><ref refid="_c_a_shape_layer_09_u_i_bezier_path_8h_1a02648067ad66739ed70a10195891098a" kindref="member">nullable</ref>)<sp/>BOOL(^<ref refid="category_u_i_text_field_07_blocks_kit_08_1a37c868021ba7b4e821cc46a130223089" kindref="member">bk_shouldBeginEditingBlock</ref>)(UITextField<sp/>*textField);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>copy,<sp/><ref refid="_c_a_shape_layer_09_u_i_bezier_path_8h_1a02648067ad66739ed70a10195891098a" kindref="member">nullable</ref>)<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">(^<ref refid="category_u_i_text_field_07_blocks_kit_08_1aae4aff728b08a6322b88af745d77f185" kindref="member">bk_didBeginEditingBlock</ref>)(UITextField<sp/>*textField);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>copy,<sp/><ref refid="_c_a_shape_layer_09_u_i_bezier_path_8h_1a02648067ad66739ed70a10195891098a" kindref="member">nullable</ref>)<sp/>BOOL(^<ref refid="category_u_i_text_field_07_blocks_kit_08_1aca4520195d564b4acb1c8523228a6fde" kindref="member">bk_shouldEndEditingBlock</ref>)(UITextField<sp/>*textField);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>copy,<sp/><ref refid="_c_a_shape_layer_09_u_i_bezier_path_8h_1a02648067ad66739ed70a10195891098a" kindref="member">nullable</ref>)<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">(^<ref refid="category_u_i_text_field_07_blocks_kit_08_1a2e5989c3c7bd94e0d994047282c67857" kindref="member">bk_didEndEditingBlock</ref>)(UITextField<sp/>*textField);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>copy,<sp/><ref refid="_c_a_shape_layer_09_u_i_bezier_path_8h_1a02648067ad66739ed70a10195891098a" kindref="member">nullable</ref>)<sp/>BOOL(^<ref refid="category_u_i_text_field_07_blocks_kit_08_1a297da2f9b9852f4c71862008aaee74c0" kindref="member">bk_shouldChangeCharactersInRangeWithReplacementStringBlock</ref>)(UITextField<sp/>*textField,<sp/>NSRange<sp/>range,<sp/>NSString<sp/>*string);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>copy,<sp/><ref refid="_c_a_shape_layer_09_u_i_bezier_path_8h_1a02648067ad66739ed70a10195891098a" kindref="member">nullable</ref>)<sp/>BOOL(^<ref refid="category_u_i_text_field_07_blocks_kit_08_1a555fea25cf9b40b76967df38a0fb34bc" kindref="member">bk_shouldClearBlock</ref>)(UITextField<sp/>*textField);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>copy,<sp/><ref refid="_c_a_shape_layer_09_u_i_bezier_path_8h_1a02648067ad66739ed70a10195891098a" kindref="member">nullable</ref>)<sp/>BOOL(^<ref refid="category_u_i_text_field_07_blocks_kit_08_1ab1ad55f4b6b2f60e6faf79e0becf3085" kindref="member">bk_shouldReturnBlock</ref>)(UITextField<sp/>*textField);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><ref refid="_b_k_defines_8h_1a34f05dab7f212780aa8f76bbb465ce67" kindref="member">NS_ASSUME_NONNULL_END</ref></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UITextField+BlocksKit.h"/>
+  </compounddef>
+</doxygen>

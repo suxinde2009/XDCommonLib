@@ -1,0 +1,201 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_c_a_animation_07_easing_equations_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>CAAnimation(EasingEquations)</compoundname>
+    <includes refid="_c_a_animation_09_easing_equations_8h" local="no">CAAnimation+EasingEquations.h</includes>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="category_c_a_animation_07_easing_equations_08_1a4a87cab266a85f8e76b622d702b71e46" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>CAKeyframeAnimation *</type>
+        <definition>CAKeyframeAnimation * CAAnimation(EasingEquations)::transformAnimationWithDuration:from:to:easingFunction:</definition>
+        <argsstring>(CGFloat duration,[from] CATransform3D startValue,[to] CATransform3D endValue,[easingFunction] CAAnimationEasingFunction easingFunction)</argsstring>
+        <name>transformAnimationWithDuration:from:to:easingFunction:</name>
+        <param>
+          <type>CGFloat</type>
+          <declname>duration</declname>
+        </param>
+        <param>
+          <attributes>[from]</attributes>
+          <type>CATransform3D</type>
+          <declname>startValue</declname>
+        </param>
+        <param>
+          <attributes>[to]</attributes>
+          <type>CATransform3D</type>
+          <declname>endValue</declname>
+        </param>
+        <param>
+          <attributes>[easingFunction]</attributes>
+          <type>CAAnimationEasingFunction</type>
+          <declname>easingFunction</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/QuartzCore/CAAnimation/CAAnimation+EasingEquations.h" line="14" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/QuartzCore/CAAnimation/CAAnimation+EasingEquations.m" bodystart="379" bodyend="456"/>
+      </memberdef>
+      <memberdef kind="function" id="category_c_a_animation_07_easing_equations_08_1ae8198525c102aa228d2b3a6c4ec3f8f6" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void CAAnimation(EasingEquations)::addAnimationToLayer:duration:transform:easingFunction:</definition>
+        <argsstring>(CALayer *layer,[duration] CGFloat duration,[transform] CATransform3D transform,[easingFunction] CAAnimationEasingFunction easingFunction)</argsstring>
+        <name>addAnimationToLayer:duration:transform:easingFunction:</name>
+        <param>
+          <type>CALayer *</type>
+          <declname>layer</declname>
+        </param>
+        <param>
+          <attributes>[duration]</attributes>
+          <type>CGFloat</type>
+          <declname>duration</declname>
+        </param>
+        <param>
+          <attributes>[transform]</attributes>
+          <type>CATransform3D</type>
+          <declname>transform</declname>
+        </param>
+        <param>
+          <attributes>[easingFunction]</attributes>
+          <type>CAAnimationEasingFunction</type>
+          <declname>easingFunction</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/QuartzCore/CAAnimation/CAAnimation+EasingEquations.h" line="14" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/QuartzCore/CAAnimation/CAAnimation+EasingEquations.m" bodystart="458" bodyend="469"/>
+      </memberdef>
+      <memberdef kind="function" id="category_c_a_animation_07_easing_equations_08_1acac64f1ff8f26633b4acf441bd395f8f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>CAKeyframeAnimation *</type>
+        <definition>CAKeyframeAnimation * CAAnimation(EasingEquations)::animationWithKeyPath:duration:from:to:easingFunction:</definition>
+        <argsstring>(NSString *keyPath,[duration] CGFloat duration,[from] CGFloat startValue,[to] CGFloat endValue,[easingFunction] CAAnimationEasingFunction easingFunction)</argsstring>
+        <name>animationWithKeyPath:duration:from:to:easingFunction:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>keyPath</declname>
+        </param>
+        <param>
+          <attributes>[duration]</attributes>
+          <type>CGFloat</type>
+          <declname>duration</declname>
+        </param>
+        <param>
+          <attributes>[from]</attributes>
+          <type>CGFloat</type>
+          <declname>startValue</declname>
+        </param>
+        <param>
+          <attributes>[to]</attributes>
+          <type>CGFloat</type>
+          <declname>endValue</declname>
+        </param>
+        <param>
+          <attributes>[easingFunction]</attributes>
+          <type>CAAnimationEasingFunction</type>
+          <declname>easingFunction</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/QuartzCore/CAAnimation/CAAnimation+EasingEquations.h" line="14" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/QuartzCore/CAAnimation/CAAnimation+EasingEquations.m" bodystart="471" bodyend="494"/>
+      </memberdef>
+      <memberdef kind="function" id="category_c_a_animation_07_easing_equations_08_1a0ad219726c85449cc751fd68cbc4f277" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void CAAnimation(EasingEquations)::addAnimationToLayer:withKeyPath:duration:to:easingFunction:</definition>
+        <argsstring>(CALayer *layer,[withKeyPath] NSString *keyPath,[duration] CGFloat duration,[to] CGFloat endValue,[easingFunction] CAAnimationEasingFunction easingFunction)</argsstring>
+        <name>addAnimationToLayer:withKeyPath:duration:to:easingFunction:</name>
+        <param>
+          <type>CALayer *</type>
+          <declname>layer</declname>
+        </param>
+        <param>
+          <attributes>[withKeyPath]</attributes>
+          <type>NSString *</type>
+          <declname>keyPath</declname>
+        </param>
+        <param>
+          <attributes>[duration]</attributes>
+          <type>CGFloat</type>
+          <declname>duration</declname>
+        </param>
+        <param>
+          <attributes>[to]</attributes>
+          <type>CGFloat</type>
+          <declname>endValue</declname>
+        </param>
+        <param>
+          <attributes>[easingFunction]</attributes>
+          <type>CAAnimationEasingFunction</type>
+          <declname>easingFunction</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/QuartzCore/CAAnimation/CAAnimation+EasingEquations.h" line="14" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/QuartzCore/CAAnimation/CAAnimation+EasingEquations.m" bodystart="496" bodyend="508"/>
+      </memberdef>
+      <memberdef kind="function" id="category_c_a_animation_07_easing_equations_08_1a4d7d9b47cb08c23b253f006f35fdc6c2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void CAAnimation(EasingEquations)::addAnimationToLayer:withKeyPath:duration:from:to:easingFunction:</definition>
+        <argsstring>(CALayer *layer,[withKeyPath] NSString *keyPath,[duration] CGFloat duration,[from] CGFloat startValue,[to] CGFloat endValue,[easingFunction] CAAnimationEasingFunction easingFunction)</argsstring>
+        <name>addAnimationToLayer:withKeyPath:duration:from:to:easingFunction:</name>
+        <param>
+          <type>CALayer *</type>
+          <declname>layer</declname>
+        </param>
+        <param>
+          <attributes>[withKeyPath]</attributes>
+          <type>NSString *</type>
+          <declname>keyPath</declname>
+        </param>
+        <param>
+          <attributes>[duration]</attributes>
+          <type>CGFloat</type>
+          <declname>duration</declname>
+        </param>
+        <param>
+          <attributes>[from]</attributes>
+          <type>CGFloat</type>
+          <declname>startValue</declname>
+        </param>
+        <param>
+          <attributes>[to]</attributes>
+          <type>CGFloat</type>
+          <declname>endValue</declname>
+        </param>
+        <param>
+          <attributes>[easingFunction]</attributes>
+          <type>CAAnimationEasingFunction</type>
+          <declname>easingFunction</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/QuartzCore/CAAnimation/CAAnimation+EasingEquations.h" line="14" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/QuartzCore/CAAnimation/CAAnimation+EasingEquations.m" bodystart="510" bodyend="524"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/QuartzCore/CAAnimation/CAAnimation+EasingEquations.m" line="325" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/QuartzCore/CAAnimation/CAAnimation+EasingEquations.m" bodystart="325" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_c_a_animation_07_easing_equations_08_1ae8198525c102aa228d2b3a6c4ec3f8f6" prot="public" virt="virtual"><scope>CAAnimation(EasingEquations)</scope><name>addAnimationToLayer:duration:transform:easingFunction:</name></member>
+      <member refid="category_c_a_animation_07_easing_equations_08_1a4d7d9b47cb08c23b253f006f35fdc6c2" prot="public" virt="virtual"><scope>CAAnimation(EasingEquations)</scope><name>addAnimationToLayer:withKeyPath:duration:from:to:easingFunction:</name></member>
+      <member refid="category_c_a_animation_07_easing_equations_08_1a0ad219726c85449cc751fd68cbc4f277" prot="public" virt="virtual"><scope>CAAnimation(EasingEquations)</scope><name>addAnimationToLayer:withKeyPath:duration:to:easingFunction:</name></member>
+      <member refid="category_c_a_animation_07_easing_equations_08_1acac64f1ff8f26633b4acf441bd395f8f" prot="public" virt="virtual"><scope>CAAnimation(EasingEquations)</scope><name>animationWithKeyPath:duration:from:to:easingFunction:</name></member>
+      <member refid="category_c_a_animation_07_easing_equations_08_1a4a87cab266a85f8e76b622d702b71e46" prot="public" virt="virtual"><scope>CAAnimation(EasingEquations)</scope><name>transformAnimationWithDuration:from:to:easingFunction:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

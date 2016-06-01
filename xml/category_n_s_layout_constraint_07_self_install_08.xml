@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_n_s_layout_constraint_07_self_install_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>NSLayoutConstraint(SelfInstall)</compoundname>
+    <includes refid="_constraint_utilities_09_install_8h" local="no">ConstraintUtilities+Install.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="category_n_s_layout_constraint_07_self_install_08_1a4a2c0103fd0884e74b709527ebcdf411" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL NSLayoutConstraint(SelfInstall)::install</definition>
+        <argsstring>()</argsstring>
+        <name>install</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Constraint Install/ConstraintUtilities+Install.h" line="89" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Constraint Install/ConstraintUtilities+Install.m" bodystart="185" bodyend="205"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_layout_constraint_07_self_install_08_1a097ac6e4740c2a138deacbf8f911b667" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL NSLayoutConstraint(SelfInstall)::install:</definition>
+        <argsstring>(float priority)</argsstring>
+        <name>install:</name>
+        <param>
+          <type>float</type>
+          <declname>priority</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Constraint Install/ConstraintUtilities+Install.h" line="89" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Constraint Install/ConstraintUtilities+Install.m" bodystart="208" bodyend="212"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_layout_constraint_07_self_install_08_1aad2c29bbef5a936586c1224065f4e696" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void NSLayoutConstraint(SelfInstall)::remove</definition>
+        <argsstring>()</argsstring>
+        <name>remove</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Constraint Install/ConstraintUtilities+Install.h" line="89" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Constraint Install/ConstraintUtilities+Install.m" bodystart="214" bodyend="235"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Constraint Install/ConstraintUtilities+Install.h" line="93" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Constraint Install/ConstraintUtilities+Install.h" bodystart="93" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_n_s_layout_constraint_07_self_install_08_1a4a2c0103fd0884e74b709527ebcdf411" prot="public" virt="virtual"><scope>NSLayoutConstraint(SelfInstall)</scope><name>install</name></member>
+      <member refid="category_n_s_layout_constraint_07_self_install_08_1a097ac6e4740c2a138deacbf8f911b667" prot="public" virt="virtual"><scope>NSLayoutConstraint(SelfInstall)</scope><name>install:</name></member>
+      <member refid="category_n_s_layout_constraint_07_self_install_08_1aad2c29bbef5a936586c1224065f4e696" prot="public" virt="virtual"><scope>NSLayoutConstraint(SelfInstall)</scope><name>remove</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

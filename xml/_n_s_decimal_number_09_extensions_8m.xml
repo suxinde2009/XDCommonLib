@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_n_s_decimal_number_09_extensions_8m" kind="file" language="Objective-C">
+    <compoundname>NSDecimalNumber+Extensions.m</compoundname>
+    <includes refid="_n_s_decimal_number_09_extensions_8h" local="yes">NSDecimalNumber+Extensions.h</includes>
+    <incdepgraph>
+      <node id="593">
+        <label>NSDecimalNumber+Extensions.h</label>
+        <link refid="_n_s_decimal_number_09_extensions_8h"/>
+        <childnode refid="594" relation="include">
+        </childnode>
+      </node>
+      <node id="592">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSNumber/NSDecimalNumber+Extensions.m</label>
+        <link refid="NSDecimalNumber+Extensions.m"/>
+        <childnode refid="593" relation="include">
+        </childnode>
+      </node>
+      <node id="594">
+        <label>Foundation/Foundation.h</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>NSDecimalNumber+Extensions.m</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>CocoaExtensions</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Lars<sp/>Kuhnt<sp/>on<sp/>11.03.14.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2014<sp/>Promptus.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_n_s_decimal_number_09_extensions_8h" kindref="compound">NSDecimalNumber+Extensions.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="category_n_s_decimal_number_07_extensions_08" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">@implementation<sp/></highlight><highlight class="normal"><ref refid="category_n_s_decimal_number_07_extensions_08" kindref="compound">NSDecimalNumber (Extensions)</ref></highlight></codeline>
+<codeline lineno="19" refid="category_n_s_decimal_number_07_extensions_08_1aef2b80992c28fc84b74c41fb63b3a37a" refkind="member"><highlight class="normal">-<sp/>(NSDecimalNumber<sp/>*)roundToScale:(NSUInteger)scale{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/><ref refid="category_n_s_decimal_number_07_extensions_08_1ab57674e5fe1de62cf48a602a711b2af1" kindref="member">roundToScale</ref>:scale<sp/><ref refid="category_n_s_decimal_number_07_extensions_08_1ab57674e5fe1de62cf48a602a711b2af1" kindref="member">mode</ref>:NSRoundPlain];</highlight></codeline>
+<codeline lineno="21"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="30" refid="category_n_s_decimal_number_07_extensions_08_1ab57674e5fe1de62cf48a602a711b2af1" refkind="member"><highlight class="normal">-<sp/>(NSDecimalNumber<sp/>*)roundToScale:(NSUInteger)scale<sp/>mode:(NSRoundingMode)roundingMode{</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/>NSDecimalNumberHandler<sp/>*<sp/>handler<sp/>=<sp/>[[NSDecimalNumberHandler<sp/>alloc]<sp/>initWithRoundingMode:roundingMode<sp/>scale:scale<sp/>raiseOnExactness:NO<sp/>raiseOnOverflow:YES<sp/>raiseOnUnderflow:YES<sp/>raiseOnDivideByZero:YES];</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>decimalNumberByRoundingAccordingToBehavior:handler];</highlight></codeline>
+<codeline lineno="33"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="category_n_s_decimal_number_07_extensions_08_1a21c958dbd4606f9e489cf2f6baac6047" refkind="member"><highlight class="normal">-<sp/>(NSDecimalNumber*)decimalNumberWithPercentage:(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal">)percent<sp/>{</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/>NSDecimalNumber<sp/>*<sp/>percentage<sp/>=<sp/>[NSDecimalNumber<sp/>decimalNumberWithDecimal:[[NSNumber<sp/>numberWithFloat:percent]<sp/>decimalValue]];</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>decimalNumberByMultiplyingBy:percentage];</highlight></codeline>
+<codeline lineno="38"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40" refid="category_n_s_decimal_number_07_extensions_08_1a5220e7b7004525daf9f9191ba7c5082d" refkind="member"><highlight class="normal">-<sp/>(NSDecimalNumber<sp/>*)decimalNumberWithDiscountPercentage:(NSDecimalNumber<sp/>*)discountPercentage<sp/>{</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/>NSDecimalNumber<sp/>*<sp/>hundred<sp/>=<sp/>[NSDecimalNumber<sp/>decimalNumberWithString:@&quot;100&quot;];</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/>NSDecimalNumber<sp/>*<sp/>percent<sp/>=<sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>decimalNumberByMultiplyingBy:[discountPercentage<sp/>decimalNumberByDividingBy:hundred]];</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>decimalNumberBySubtracting:percent];</highlight></codeline>
+<codeline lineno="44"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46" refid="category_n_s_decimal_number_07_extensions_08_1a0a7a08dc0ee949427a788eccfc62d3a7" refkind="member"><highlight class="normal">-<sp/>(NSDecimalNumber<sp/>*)decimalNumberWithDiscountPercentage:(NSDecimalNumber<sp/>*)discountPercentage<sp/>roundToScale:(NSUInteger)scale<sp/>{</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/>NSDecimalNumber<sp/>*<sp/>value<sp/>=<sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/><ref refid="category_n_s_decimal_number_07_extensions_08_1a5220e7b7004525daf9f9191ba7c5082d" kindref="member">decimalNumberWithDiscountPercentage</ref>:discountPercentage];</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[value<sp/>roundToScale:scale];</highlight></codeline>
+<codeline lineno="49"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51" refid="category_n_s_decimal_number_07_extensions_08_1a10b2f5901953a5248b1d025c6794a930" refkind="member"><highlight class="normal">-<sp/>(NSDecimalNumber<sp/>*)discountPercentageWithBaseValue:(NSDecimalNumber<sp/>*)baseValue<sp/>{</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/>NSDecimalNumber<sp/>*<sp/>hundred<sp/>=<sp/>[NSDecimalNumber<sp/>decimalNumberWithString:@&quot;100&quot;];</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/>NSDecimalNumber<sp/>*<sp/>percentage<sp/>=<sp/>[[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>decimalNumberByDividingBy:baseValue]<sp/>decimalNumberByMultiplyingBy:hundred];</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[hundred<sp/>decimalNumberBySubtracting:percentage];</highlight></codeline>
+<codeline lineno="55"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57" refid="category_n_s_decimal_number_07_extensions_08_1aa912204aaf91c901bde7995fc49d5270" refkind="member"><highlight class="normal">-<sp/>(NSDecimalNumber<sp/>*)discountPercentageWithBaseValue:(NSDecimalNumber<sp/>*)baseValue<sp/>roundToScale:(NSUInteger)scale<sp/>{</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/>NSDecimalNumber<sp/>*<sp/>discount<sp/>=<sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/><ref refid="category_n_s_decimal_number_07_extensions_08_1a10b2f5901953a5248b1d025c6794a930" kindref="member">discountPercentageWithBaseValue</ref>:baseValue];</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[discount<sp/>roundToScale:scale];</highlight></codeline>
+<codeline lineno="60"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSNumber/NSDecimalNumber+Extensions.m"/>
+  </compounddef>
+</doxygen>

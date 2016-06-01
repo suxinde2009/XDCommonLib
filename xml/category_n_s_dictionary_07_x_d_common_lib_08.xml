@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_n_s_dictionary_07_x_d_common_lib_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>NSDictionary(XDCommonLib)</compoundname>
+    <includes refid="_n_s_dictionary_09_x_d_common_lib_8h" local="no">NSDictionary+XDCommonLib.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="category_n_s_dictionary_07_x_d_common_lib_08_1a0242fd057d765617ec8d89fb838d2cbd" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>&quot;Use -<ref refid="category_n_s_dictionary_07_x_d_common_lib_08_1a6bc2c0d907fcfcae8f78ef4392d90ddf" kindref="member">dictionaryToJSON</ref>&quot;</type>
+        <definition>&quot;Use -dictionaryToJSON&quot; NSDictionary(XDCommonLib)::DEPRECATED_MSG_ATTRIBUTE</definition>
+        <argsstring>()</argsstring>
+        <name>DEPRECATED_MSG_ATTRIBUTE</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Convert self to JSON as NSString</para><para><simplesect kind="return"><para>Returns the JSON as NSString or nil if error while parsing </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDictionary/NSDictionary+XDCommonLib.h" line="49" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_dictionary_07_x_d_common_lib_08_1a6bc2c0d907fcfcae8f78ef4392d90ddf" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *_Nonnull</type>
+        <definition>NSString *_Nonnull NSDictionary(XDCommonLib)::dictionaryToJSON</definition>
+        <argsstring>()</argsstring>
+        <name>dictionaryToJSON</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Convert self to JSON as NSString</para><para><simplesect kind="return"><para>Returns the JSON as NSString or nil if error while parsing </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDictionary/NSDictionary+XDCommonLib.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDictionary/NSDictionary+XDCommonLib.m" bodystart="17" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_dictionary_07_x_d_common_lib_08_1a337197b13e7147a2eb1d68172882dc19" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>id _Nullable</type>
+        <definition>id _Nullable NSDictionary(XDCommonLib)::safeObjectForKey:</definition>
+        <argsstring>(NSString *_Nonnull key)</argsstring>
+        <name>safeObjectForKey:</name>
+        <param>
+          <type>NSString *_Nonnull</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns an object if key exists or nil if not</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Key to get value of</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Value for the key Or nil </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDictionary/NSDictionary+XDCommonLib.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDictionary/NSDictionary+XDCommonLib.m" bodystart="43" bodyend="50"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="category_n_s_dictionary_07_x_d_common_lib_08_1a0480dbca548a4d4ae27774a07e9c6c8b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *_Nonnull</type>
+        <definition>NSString * _Nonnull NSDictionary(XDCommonLib)::dictionaryToJson:</definition>
+        <argsstring>(&quot;Use +dictionaryToJSON:&quot;DEPRECATED_MSG_ATTRIBUTE)</argsstring>
+        <name>dictionaryToJson:</name>
+        <param>
+          <type>&quot;Use +<ref refid="category_n_s_dictionary_07_x_d_common_lib_08_1a115d2d767c922614d473569ce6d91c00" kindref="member">dictionaryToJSON:</ref>&quot;</type>
+          <declname>DEPRECATED_MSG_ATTRIBUTE</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Convert the given dictionary to JSON as NSString</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dictionary</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The dictionary to be converted</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Returns the JSON as NSString or nil if error while parsing </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDictionary/NSDictionary+XDCommonLib.h" line="49" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_dictionary_07_x_d_common_lib_08_1a115d2d767c922614d473569ce6d91c00" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *_Nonnull</type>
+        <definition>NSString *_Nonnull NSDictionary(XDCommonLib)::dictionaryToJSON:</definition>
+        <argsstring>(NSDictionary *_Nonnull dictionary)</argsstring>
+        <name>dictionaryToJSON:</name>
+        <param>
+          <type>NSDictionary *_Nonnull</type>
+          <declname>dictionary</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Convert the given dictionary to JSON as NSString</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dictionary</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The dictionary to be converted</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Returns the JSON as NSString or nil if error while parsing </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDictionary/NSDictionary+XDCommonLib.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDictionary/NSDictionary+XDCommonLib.m" bodystart="25" bodyend="41"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDictionary/NSDictionary+XDCommonLib.m" line="11" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDictionary/NSDictionary+XDCommonLib.m" bodystart="11" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_n_s_dictionary_07_x_d_common_lib_08_1a0242fd057d765617ec8d89fb838d2cbd" prot="public" virt="virtual"><scope>NSDictionary(XDCommonLib)</scope><name>DEPRECATED_MSG_ATTRIBUTE</name></member>
+      <member refid="category_n_s_dictionary_07_x_d_common_lib_08_1a6bc2c0d907fcfcae8f78ef4392d90ddf" prot="public" virt="virtual"><scope>NSDictionary(XDCommonLib)</scope><name>dictionaryToJSON</name></member>
+      <member refid="category_n_s_dictionary_07_x_d_common_lib_08_1a115d2d767c922614d473569ce6d91c00" prot="public" virt="virtual"><scope>NSDictionary(XDCommonLib)</scope><name>dictionaryToJSON:</name></member>
+      <member refid="category_n_s_dictionary_07_x_d_common_lib_08_1a0480dbca548a4d4ae27774a07e9c6c8b" prot="public" virt="virtual"><scope>NSDictionary(XDCommonLib)</scope><name>dictionaryToJson:</name></member>
+      <member refid="category_n_s_dictionary_07_x_d_common_lib_08_1a337197b13e7147a2eb1d68172882dc19" prot="public" virt="virtual"><scope>NSDictionary(XDCommonLib)</scope><name>safeObjectForKey:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

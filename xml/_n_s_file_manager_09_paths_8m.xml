@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_n_s_file_manager_09_paths_8m" kind="file" language="Objective-C">
+    <compoundname>NSFileManager+Paths.m</compoundname>
+    <includes refid="_n_s_file_manager_09_paths_8h" local="yes">NSFileManager+Paths.h</includes>
+    <includes local="no">sys/xattr.h</includes>
+    <incdepgraph>
+      <node id="531">
+        <label>NSFileManager+Paths.h</label>
+        <link refid="_n_s_file_manager_09_paths_8h"/>
+        <childnode refid="532" relation="include">
+        </childnode>
+      </node>
+      <node id="530">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+Paths.m</label>
+        <link refid="NSFileManager+Paths.m"/>
+        <childnode refid="531" relation="include">
+        </childnode>
+        <childnode refid="533" relation="include">
+        </childnode>
+      </node>
+      <node id="533">
+        <label>sys/xattr.h</label>
+      </node>
+      <node id="532">
+        <label>Foundation/Foundation.h</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>NSFileManager+Paths.m</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>iOS-Categories<sp/>(https://github.com/shaojiankui/iOS-Categories)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Jakey<sp/>on<sp/>14/12/30.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2014年<sp/>www.skyfox.org.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_n_s_file_manager_09_paths_8h" kindref="compound">NSFileManager+Paths.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;sys/xattr.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="category_n_s_file_manager_07_paths_08" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">@implementation<sp/></highlight><highlight class="normal"><ref refid="category_n_s_file_manager_07_paths_08" kindref="compound">NSFileManager (Paths)</ref></highlight></codeline>
+<codeline lineno="13"><highlight class="normal">+<sp/>(NSURL<sp/>*)URLForDirectory:(NSSearchPathDirectory)directory</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal">.defaultManager<sp/>URLsForDirectory:directory<sp/>inDomains:NSUserDomainMask].lastObject;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal">+<sp/>(NSString<sp/>*)pathForDirectory:(NSSearchPathDirectory)directory</highlight></codeline>
+<codeline lineno="19"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[NSSearchPathForDirectoriesInDomains(directory,<sp/>NSUserDomainMask,<sp/>YES)<sp/>firstObject];</highlight></codeline>
+<codeline lineno="21"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23" refid="category_n_s_file_manager_07_paths_08_1af4170c1eabecdb261ab0d3e7531c1828" refkind="member"><highlight class="normal">+<sp/>(NSURL<sp/>*)<ref refid="category_n_s_file_manager_07_paths_08_1af4170c1eabecdb261ab0d3e7531c1828" kindref="member">documentsURL</ref></highlight></codeline>
+<codeline lineno="24"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>URLForDirectory:NSDocumentDirectory];</highlight></codeline>
+<codeline lineno="26"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28" refid="category_n_s_file_manager_07_paths_08_1a9edfa4ec9afd0c71f5aa50c57832ef3d" refkind="member"><highlight class="normal">+<sp/>(NSString<sp/>*)<ref refid="category_n_s_file_manager_07_paths_08_1a9edfa4ec9afd0c71f5aa50c57832ef3d" kindref="member">documentsPath</ref></highlight></codeline>
+<codeline lineno="29"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>pathForDirectory:NSDocumentDirectory];</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="category_n_s_file_manager_07_paths_08_1a935b308b8d8ec500ce58de034df59c1c" refkind="member"><highlight class="normal">+<sp/>(NSURL<sp/>*)<ref refid="category_n_s_file_manager_07_paths_08_1a935b308b8d8ec500ce58de034df59c1c" kindref="member">libraryURL</ref></highlight></codeline>
+<codeline lineno="34"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>URLForDirectory:NSLibraryDirectory];</highlight></codeline>
+<codeline lineno="36"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38" refid="category_n_s_file_manager_07_paths_08_1a5ce257c245249346b025a9b82e24a5c5" refkind="member"><highlight class="normal">+<sp/>(NSString<sp/>*)<ref refid="category_n_s_file_manager_07_paths_08_1a5ce257c245249346b025a9b82e24a5c5" kindref="member">libraryPath</ref></highlight></codeline>
+<codeline lineno="39"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>pathForDirectory:NSLibraryDirectory];</highlight></codeline>
+<codeline lineno="41"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43" refid="category_n_s_file_manager_07_paths_08_1a6485e8f787a31dab1b22f04962ff568e" refkind="member"><highlight class="normal">+<sp/>(NSURL<sp/>*)<ref refid="category_n_s_file_manager_07_paths_08_1a6485e8f787a31dab1b22f04962ff568e" kindref="member">cachesURL</ref></highlight></codeline>
+<codeline lineno="44"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>URLForDirectory:NSCachesDirectory];</highlight></codeline>
+<codeline lineno="46"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48" refid="category_n_s_file_manager_07_paths_08_1a39699f7640de1f2354fb5af323d7d267" refkind="member"><highlight class="normal">+<sp/>(NSString<sp/>*)<ref refid="category_n_s_file_manager_07_paths_08_1a39699f7640de1f2354fb5af323d7d267" kindref="member">cachesPath</ref></highlight></codeline>
+<codeline lineno="49"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>pathForDirectory:NSCachesDirectory];</highlight></codeline>
+<codeline lineno="51"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="category_n_s_file_manager_07_paths_08_1aac003e1b748d551b5e22a82c3d0d3e02" refkind="member"><highlight class="normal">+<sp/>(BOOL)addSkipBackupAttributeToFile:(NSString<sp/>*)path</highlight></codeline>
+<codeline lineno="54"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[[NSURL.alloc<sp/>initFileURLWithPath:path]<sp/>setResourceValue:@(YES)<sp/>forKey:NSURLIsExcludedFromBackupKey<sp/>error:nil];</highlight></codeline>
+<codeline lineno="56"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58" refid="category_n_s_file_manager_07_paths_08_1a4f07764b611190dbfb5e64ec8f3e0c1b" refkind="member"><highlight class="normal">+<sp/>(double)<ref refid="category_n_s_file_manager_07_paths_08_1a4f07764b611190dbfb5e64ec8f3e0c1b" kindref="member">availableDiskSpace</ref></highlight></codeline>
+<codeline lineno="59"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>NSDictionary<sp/>*attributes<sp/>=<sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal">.defaultManager<sp/>attributesOfFileSystemForPath:self.documentsPath<sp/>error:nil];</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[attributes[NSFileSystemFreeSize]<sp/>unsignedLongLongValue]<sp/>/<sp/>(double)0x100000;</highlight></codeline>
+<codeline lineno="63"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+Paths.m"/>
+  </compounddef>
+</doxygen>

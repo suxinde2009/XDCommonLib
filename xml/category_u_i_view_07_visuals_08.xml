@@ -1,0 +1,245 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_u_i_view_07_visuals_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>UIView(Visuals)</compoundname>
+    <includes refid="_u_i_view_09_visuals_8h" local="no">UIView+Visuals.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="category_u_i_view_07_visuals_08_1a71bf6e7134c7b58362a5778c441cc061" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UIView(Visuals)::cornerRadius:strokeSize:color:</definition>
+        <argsstring>(CGFloat radius,[strokeSize] CGFloat size,[color] UIColor *color)</argsstring>
+        <name>cornerRadius:strokeSize:color:</name>
+        <param>
+          <type>CGFloat</type>
+          <declname>radius</declname>
+        </param>
+        <param>
+          <attributes>[strokeSize]</attributes>
+          <type>CGFloat</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <attributes>[color]</attributes>
+          <type>UIColor *</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Visuals.h" line="15" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Visuals.m" bodystart="18" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_view_07_visuals_08_1a0ddc40a6674086c1dc7d3ce4d3d76301" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UIView(Visuals)::setRoundedCorners:radius:</definition>
+        <argsstring>(UIRectCorner corners,[radius] CGFloat radius)</argsstring>
+        <name>setRoundedCorners:radius:</name>
+        <param>
+          <type>UIRectCorner</type>
+          <declname>corners</declname>
+        </param>
+        <param>
+          <attributes>[radius]</attributes>
+          <type>CGFloat</type>
+          <declname>radius</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Visuals.h" line="15" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Visuals.m" bodystart="26" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_view_07_visuals_08_1aa98c2fac1c97322e734a31b9aba29c6c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UIView(Visuals)::shadowWithColor:offset:opacity:radius:</definition>
+        <argsstring>(UIColor *color,[offset] CGSize offset,[opacity] CGFloat opacity,[radius] CGFloat radius)</argsstring>
+        <name>shadowWithColor:offset:opacity:radius:</name>
+        <param>
+          <type>UIColor *</type>
+          <declname>color</declname>
+        </param>
+        <param>
+          <attributes>[offset]</attributes>
+          <type>CGSize</type>
+          <declname>offset</declname>
+        </param>
+        <param>
+          <attributes>[opacity]</attributes>
+          <type>CGFloat</type>
+          <declname>opacity</declname>
+        </param>
+        <param>
+          <attributes>[radius]</attributes>
+          <type>CGFloat</type>
+          <declname>radius</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Visuals.h" line="15" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Visuals.m" bodystart="45" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_view_07_visuals_08_1a164907b06e98dcab73a9bbcd3141c31b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UIView(Visuals)::removeFromSuperviewWithFadeDuration:</definition>
+        <argsstring>(NSTimeInterval duration)</argsstring>
+        <name>removeFromSuperviewWithFadeDuration:</name>
+        <param>
+          <type>NSTimeInterval</type>
+          <declname>duration</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Visuals.h" line="15" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Visuals.m" bodystart="59" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_view_07_visuals_08_1a034ca263443c9ff86e7579538a04c6a0" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UIView(Visuals)::addSubview:withTransition:duration:</definition>
+        <argsstring>(UIView *view,[withTransition] UIViewAnimationTransition transition,[duration] NSTimeInterval duration)</argsstring>
+        <name>addSubview:withTransition:duration:</name>
+        <param>
+          <type>UIView *</type>
+          <declname>view</declname>
+        </param>
+        <param>
+          <attributes>[withTransition]</attributes>
+          <type>UIViewAnimationTransition</type>
+          <declname>transition</declname>
+        </param>
+        <param>
+          <attributes>[duration]</attributes>
+          <type>NSTimeInterval</type>
+          <declname>duration</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Visuals.h" line="15" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Visuals.m" bodystart="72" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_view_07_visuals_08_1a875b50f49de4ce71c89b68ce50131a4f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UIView(Visuals)::removeFromSuperviewWithTransition:duration:</definition>
+        <argsstring>(UIViewAnimationTransition transition,[duration] NSTimeInterval duration)</argsstring>
+        <name>removeFromSuperviewWithTransition:duration:</name>
+        <param>
+          <type>UIViewAnimationTransition</type>
+          <declname>transition</declname>
+        </param>
+        <param>
+          <attributes>[duration]</attributes>
+          <type>NSTimeInterval</type>
+          <declname>duration</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Visuals.h" line="15" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Visuals.m" bodystart="83" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_view_07_visuals_08_1a1850d2aabb640ec764a73677af348a26" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UIView(Visuals)::rotateByAngle:duration:autoreverse:repeatCount:timingFunction:</definition>
+        <argsstring>(CGFloat angle,[duration] NSTimeInterval duration,[autoreverse] BOOL autoreverse,[repeatCount] CGFloat repeatCount,[timingFunction] CAMediaTimingFunction *timingFunction)</argsstring>
+        <name>rotateByAngle:duration:autoreverse:repeatCount:timingFunction:</name>
+        <param>
+          <type>CGFloat</type>
+          <declname>angle</declname>
+        </param>
+        <param>
+          <attributes>[duration]</attributes>
+          <type>NSTimeInterval</type>
+          <declname>duration</declname>
+        </param>
+        <param>
+          <attributes>[autoreverse]</attributes>
+          <type>BOOL</type>
+          <declname>autoreverse</declname>
+        </param>
+        <param>
+          <attributes>[repeatCount]</attributes>
+          <type>CGFloat</type>
+          <declname>repeatCount</declname>
+        </param>
+        <param>
+          <attributes>[timingFunction]</attributes>
+          <type>CAMediaTimingFunction *</type>
+          <declname>timingFunction</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Visuals.h" line="15" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Visuals.m" bodystart="94" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_view_07_visuals_08_1af64af7cf2d8beacdad475c508ff24e4c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UIView(Visuals)::moveToPoint:duration:autoreverse:repeatCount:timingFunction:</definition>
+        <argsstring>(CGPoint newPoint,[duration] NSTimeInterval duration,[autoreverse] BOOL autoreverse,[repeatCount] CGFloat repeatCount,[timingFunction] CAMediaTimingFunction *timingFunction)</argsstring>
+        <name>moveToPoint:duration:autoreverse:repeatCount:timingFunction:</name>
+        <param>
+          <type>CGPoint</type>
+          <declname>newPoint</declname>
+        </param>
+        <param>
+          <attributes>[duration]</attributes>
+          <type>NSTimeInterval</type>
+          <declname>duration</declname>
+        </param>
+        <param>
+          <attributes>[autoreverse]</attributes>
+          <type>BOOL</type>
+          <declname>autoreverse</declname>
+        </param>
+        <param>
+          <attributes>[repeatCount]</attributes>
+          <type>CGFloat</type>
+          <declname>repeatCount</declname>
+        </param>
+        <param>
+          <attributes>[timingFunction]</attributes>
+          <type>CAMediaTimingFunction *</type>
+          <declname>timingFunction</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Visuals.h" line="15" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Visuals.m" bodystart="113" bodyend="128"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Visuals.m" line="13" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Visuals.m" bodystart="13" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_u_i_view_07_visuals_08_1a034ca263443c9ff86e7579538a04c6a0" prot="public" virt="virtual"><scope>UIView(Visuals)</scope><name>addSubview:withTransition:duration:</name></member>
+      <member refid="category_u_i_view_07_visuals_08_1a71bf6e7134c7b58362a5778c441cc061" prot="public" virt="virtual"><scope>UIView(Visuals)</scope><name>cornerRadius:strokeSize:color:</name></member>
+      <member refid="category_u_i_view_07_visuals_08_1af64af7cf2d8beacdad475c508ff24e4c" prot="public" virt="virtual"><scope>UIView(Visuals)</scope><name>moveToPoint:duration:autoreverse:repeatCount:timingFunction:</name></member>
+      <member refid="category_u_i_view_07_visuals_08_1a164907b06e98dcab73a9bbcd3141c31b" prot="public" virt="virtual"><scope>UIView(Visuals)</scope><name>removeFromSuperviewWithFadeDuration:</name></member>
+      <member refid="category_u_i_view_07_visuals_08_1a875b50f49de4ce71c89b68ce50131a4f" prot="public" virt="virtual"><scope>UIView(Visuals)</scope><name>removeFromSuperviewWithTransition:duration:</name></member>
+      <member refid="category_u_i_view_07_visuals_08_1a1850d2aabb640ec764a73677af348a26" prot="public" virt="virtual"><scope>UIView(Visuals)</scope><name>rotateByAngle:duration:autoreverse:repeatCount:timingFunction:</name></member>
+      <member refid="category_u_i_view_07_visuals_08_1a0ddc40a6674086c1dc7d3ce4d3d76301" prot="public" virt="virtual"><scope>UIView(Visuals)</scope><name>setRoundedCorners:radius:</name></member>
+      <member refid="category_u_i_view_07_visuals_08_1aa98c2fac1c97322e734a31b9aba29c6c" prot="public" virt="virtual"><scope>UIView(Visuals)</scope><name>shadowWithColor:offset:opacity:radius:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,183 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_u_i_control_09_blocks_kit_8m" kind="file" language="Objective-C">
+    <compoundname>UIControl+BlocksKit.m</compoundname>
+    <includes refid="_u_i_control_09_blocks_kit_8h" local="yes">UIControl+BlocksKit.h</includes>
+    <incdepgraph>
+      <node id="3075">
+        <label>Foundation/NSObjCRuntime.h</label>
+      </node>
+      <node id="3073">
+        <label>UIControl+BlocksKit.h</label>
+        <link refid="_u_i_control_09_blocks_kit_8h"/>
+        <childnode refid="3074" relation="include">
+        </childnode>
+        <childnode refid="3076" relation="include">
+        </childnode>
+      </node>
+      <node id="3072">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIControl+BlocksKit.m</label>
+        <link refid="UIControl+BlocksKit.m"/>
+        <childnode refid="3073" relation="include">
+        </childnode>
+      </node>
+      <node id="3076">
+        <label>UIKit/UIKit.h</label>
+      </node>
+      <node id="3074">
+        <label>BKDefines.h</label>
+        <link refid="_b_k_defines_8h"/>
+        <childnode refid="3075" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innerclass refid="interface_b_k_control_wrapper" prot="public">BKControlWrapper</innerclass>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="_u_i_control_09_blocks_kit_8m_1add92c5a4b943d3d7adbb37e41099657e" prot="public" static="no" mutable="no">
+        <type>import ObjectiveC</type>
+        <definition>import ObjectiveC runtime</definition>
+        <argsstring></argsstring>
+        <name>runtime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIControl+BlocksKit.m" line="7" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIControl+BlocksKit.m" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_u_i_control_09_blocks_kit_8m_1ac709cb17f289f7ee1c7fd64470e81352" prot="public" static="yes" mutable="no">
+        <type>const void *</type>
+        <definition>const void* BKControlHandlersKey</definition>
+        <argsstring></argsstring>
+        <name>BKControlHandlersKey</name>
+        <initializer>= &amp;BKControlHandlersKey</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIControl+BlocksKit.m" line="9" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIControl+BlocksKit.m" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>UIControl+BlocksKit.m</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>BlocksKit</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_u_i_control_09_blocks_kit_8h" kindref="compound">UIControl+BlocksKit.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="_u_i_control_09_blocks_kit_8m_1add92c5a4b943d3d7adbb37e41099657e" refkind="member"><highlight class="normal">@</highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>ObjectiveC.runtime;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*BKControlHandlersKey<sp/>=<sp/>&amp;BKControlHandlersKey;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/>Private</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="interface_b_k_control_wrapper" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="interface_b_k_control_wrapper" kindref="compound">BKControlWrapper</ref><sp/>:<sp/>NSObject<sp/>&lt;NSCopying&gt;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal">-<sp/>(id)initWithHandler:(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(^)(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>sender))handler<sp/>forControlEvents:(UIControlEvents)controlEvents;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="interface_b_k_control_wrapper_1aa5b8e0beb496a536e967740d7c3c93f7" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic)<sp/>UIControlEvents<sp/><ref refid="interface_b_k_control_wrapper_1aa5b8e0beb496a536e967740d7c3c93f7" kindref="member">controlEvents</ref>;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>copy)<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(^<ref refid="interface_b_k_control_wrapper_1adfc8d0af2510b9386fd6b5d92db5a1e9" kindref="member">handler</ref>)(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>sender);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">@implementation<sp/></highlight><highlight class="normal"><ref refid="interface_b_k_control_wrapper" kindref="compound">BKControlWrapper</ref></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="interface_b_k_control_wrapper_1a2fc605eb4cef819d96bc454150a8c380" refkind="member"><highlight class="normal">-<sp/>(id)initWithHandler:(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(^)(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>sender))handler<sp/>forControlEvents:(UIControlEvents)controlEvents</highlight></codeline>
+<codeline lineno="25"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>=<sp/>[</highlight><highlight class="keyword">super</highlight><highlight class="normal"><sp/>init];</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!</highlight><highlight class="keyword">self</highlight><highlight class="normal">)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>nil;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.<ref refid="interface_b_k_control_wrapper_1adfc8d0af2510b9386fd6b5d92db5a1e9" kindref="member">handler</ref><sp/>=<sp/><ref refid="interface_b_k_control_wrapper_1adfc8d0af2510b9386fd6b5d92db5a1e9" kindref="member">handler</ref>;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.controlEvents<sp/>=<sp/><ref refid="interface_b_k_control_wrapper_1aa5b8e0beb496a536e967740d7c3c93f7" kindref="member">controlEvents</ref>;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal">-<sp/>(id)copyWithZone:(NSZone<sp/>*)zone</highlight></codeline>
+<codeline lineno="36"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[[<ref refid="interface_b_k_control_wrapper" kindref="compound">BKControlWrapper</ref><sp/>alloc]<sp/>initWithHandler:self.handler<sp/>forControlEvents:self.controlEvents];</highlight></codeline>
+<codeline lineno="38"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal">-<sp/>(void)invoke:(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)sender</highlight></codeline>
+<codeline lineno="41"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.handler(sender);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/>Category</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49" refid="category_u_i_control_07_blocks_kit_08" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">@implementation<sp/></highlight><highlight class="normal"><ref refid="category_u_i_control_07_blocks_kit_08" kindref="compound">UIControl (BlocksKit)</ref></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51" refid="category_u_i_control_07_blocks_kit_08_1a3a67d5c71bb0c9e991c6d5905728aa4d" refkind="member"><highlight class="normal">-<sp/>(void)bk_addEventHandler:(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(^)(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>sender))handler<sp/>forControlEvents:(UIControlEvents)controlEvents</highlight></codeline>
+<codeline lineno="52"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/>NSParameterAssert(handler);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/>NSMutableDictionary<sp/>*events<sp/>=<sp/>objc_getAssociatedObject(</highlight><highlight class="keyword">self</highlight><highlight class="normal">,<sp/>BKControlHandlersKey);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!events)<sp/>{</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>events<sp/>=<sp/>[NSMutableDictionary<sp/>dictionary];</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>objc_setAssociatedObject(</highlight><highlight class="keyword">self</highlight><highlight class="normal">,<sp/>BKControlHandlersKey,<sp/>events,<sp/>OBJC_ASSOCIATION_RETAIN_NONATOMIC);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/>NSNumber<sp/>*key<sp/>=<sp/>@(controlEvents);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/>NSMutableSet<sp/>*handlers<sp/>=<sp/>events[key];</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!handlers)<sp/>{</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>handlers<sp/>=<sp/>[NSMutableSet<sp/>set];</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>events[key]<sp/>=<sp/>handlers;</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="interface_b_k_control_wrapper" kindref="compound">BKControlWrapper</ref><sp/>*target<sp/>=<sp/>[[<ref refid="interface_b_k_control_wrapper" kindref="compound">BKControlWrapper</ref><sp/>alloc]<sp/>initWithHandler:handler<sp/>forControlEvents:controlEvents];</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/>[handlers<sp/>addObject:target];</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>addTarget:target<sp/>action:@selector(invoke:)<sp/>forControlEvents:controlEvents];</highlight></codeline>
+<codeline lineno="71"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73" refid="category_u_i_control_07_blocks_kit_08_1a0374fabb8e752d319d717eaa7002eb01" refkind="member"><highlight class="normal">-<sp/>(void)bk_removeEventHandlersForControlEvents:(UIControlEvents)controlEvents</highlight></codeline>
+<codeline lineno="74"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/>NSMutableDictionary<sp/>*events<sp/>=<sp/>objc_getAssociatedObject(</highlight><highlight class="keyword">self</highlight><highlight class="normal">,<sp/>BKControlHandlersKey);</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!events)<sp/>{</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>events<sp/>=<sp/>[NSMutableDictionary<sp/>dictionary];</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>objc_setAssociatedObject(</highlight><highlight class="keyword">self</highlight><highlight class="normal">,<sp/>BKControlHandlersKey,<sp/>events,<sp/>OBJC_ASSOCIATION_RETAIN_NONATOMIC);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/>NSNumber<sp/>*key<sp/>=<sp/>@(controlEvents);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/>NSSet<sp/>*handlers<sp/>=<sp/>events[key];</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!handlers)</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/>[handlers<sp/>enumerateObjectsUsingBlock:^(id<sp/>sender,<sp/>BOOL<sp/>*stop)<sp/>{</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>removeTarget:sender<sp/>action:NULL<sp/>forControlEvents:controlEvents];</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/>}];</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/>[events<sp/>removeObjectForKey:key];</highlight></codeline>
+<codeline lineno="92"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94" refid="category_u_i_control_07_blocks_kit_08_1a30ee9d661b1e41faa2f0d90b46ae45b2" refkind="member"><highlight class="normal">-<sp/>(BOOL)bk_hasEventHandlersForControlEvents:(UIControlEvents)controlEvents</highlight></codeline>
+<codeline lineno="95"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/>NSMutableDictionary<sp/>*events<sp/>=<sp/>objc_getAssociatedObject(</highlight><highlight class="keyword">self</highlight><highlight class="normal">,<sp/>BKControlHandlersKey);</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!events)<sp/>{</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>events<sp/>=<sp/>[NSMutableDictionary<sp/>dictionary];</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>objc_setAssociatedObject(</highlight><highlight class="keyword">self</highlight><highlight class="normal">,<sp/>BKControlHandlersKey,<sp/>events,<sp/>OBJC_ASSOCIATION_RETAIN_NONATOMIC);</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/>NSNumber<sp/>*key<sp/>=<sp/>@(controlEvents);</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/>NSSet<sp/>*handlers<sp/>=<sp/>events[key];</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!handlers)</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>NO;</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>!!handlers.count;</highlight></codeline>
+<codeline lineno="109"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIControl+BlocksKit.m"/>
+  </compounddef>
+</doxygen>

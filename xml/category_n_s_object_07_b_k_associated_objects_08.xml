@@ -1,0 +1,488 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_n_s_object_07_b_k_associated_objects_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>NSObject(BKAssociatedObjects)</compoundname>
+    <includes refid="_n_s_object_09_b_k_associated_objects_8h" local="no">NSObject+BKAssociatedObjects.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="category_n_s_object_07_b_k_associated_objects_08_1aaf731808659e4ec08f137d08d82d2d3f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void NSObject(BKAssociatedObjects)::bk_associateValue:withKey:</definition>
+        <argsstring>(nullable id value,[withKey] const void *key)</argsstring>
+        <name>bk_associateValue:withKey:</name>
+        <param>
+          <type><ref refid="_b_k_defines_8h_1a02648067ad66739ed70a10195891098a" kindref="member">nullable</ref> id</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <attributes>[withKey]</attributes>
+          <type>const void *</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Strongly associates an object with the reciever.</para><para>The associated value is retained as if it were a property synthesized with <computeroutput>nonatomic</computeroutput> and <computeroutput>retain</computeroutput>.</para><para>Using retained association is strongly recommended for most Objective-C object derivative of <ref refid="class_n_s_object-p" kindref="compound">NSObject</ref>, particularly when it is subject to being externally released or is in an <computeroutput>NSAutoreleasePool</computeroutput>.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Any object. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A unique key pointer. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSObject+BKAssociatedObjects.h" line="163" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_object_07_b_k_associated_objects_08_1af2c9eef19fd31ee5c31aab4591616a84" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void NSObject(BKAssociatedObjects)::bk_atomicallyAssociateValue:withKey:</definition>
+        <argsstring>(nullable id value,[withKey] const void *key)</argsstring>
+        <name>bk_atomicallyAssociateValue:withKey:</name>
+        <param>
+          <type><ref refid="_b_k_defines_8h_1a02648067ad66739ed70a10195891098a" kindref="member">nullable</ref> id</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <attributes>[withKey]</attributes>
+          <type>const void *</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Strongly, thread-safely associates an object with the reciever.</para><para>The associated value is retained as if it were a property synthesized with <computeroutput>atomic</computeroutput> and <computeroutput>retain</computeroutput>.</para><para>Using retained association is strongly recommended for most Objective-C object derivative of <ref refid="class_n_s_object-p" kindref="compound">NSObject</ref>, particularly when it is subject to being externally released or is in an <computeroutput>NSAutoreleasePool</computeroutput>.</para><para><simplesect kind="see"><para>associateValue:withKey: </para></simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Any object. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A unique key pointer. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSObject+BKAssociatedObjects.h" line="163" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_object_07_b_k_associated_objects_08_1a2e26ad080cd147eaa808357a742d1841" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void NSObject(BKAssociatedObjects)::bk_associateCopyOfValue:withKey:</definition>
+        <argsstring>(nullable id value,[withKey] const void *key)</argsstring>
+        <name>bk_associateCopyOfValue:withKey:</name>
+        <param>
+          <type><ref refid="_b_k_defines_8h_1a02648067ad66739ed70a10195891098a" kindref="member">nullable</ref> id</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <attributes>[withKey]</attributes>
+          <type>const void *</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Associates a copy of an object with the reciever.</para><para>The associated value is copied as if it were a property synthesized with <computeroutput>nonatomic</computeroutput> and <computeroutput>copy</computeroutput>.</para><para>Using copied association is recommended for a block or otherwise <computeroutput><ref refid="class_n_s_copying-p" kindref="compound">NSCopying</ref></computeroutput>-compliant instances like NSString.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Any object, pointer, or value. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A unique key pointer. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSObject+BKAssociatedObjects.h" line="163" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_object_07_b_k_associated_objects_08_1a529826173dabec3cefbc2e4352fc1b58" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void NSObject(BKAssociatedObjects)::bk_atomicallyAssociateCopyOfValue:withKey:</definition>
+        <argsstring>(nullable id value,[withKey] const void *key)</argsstring>
+        <name>bk_atomicallyAssociateCopyOfValue:withKey:</name>
+        <param>
+          <type><ref refid="_b_k_defines_8h_1a02648067ad66739ed70a10195891098a" kindref="member">nullable</ref> id</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <attributes>[withKey]</attributes>
+          <type>const void *</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Thread-safely associates a copy of an object with the reciever.</para><para>The associated value is copied as if it were a property synthesized with <computeroutput>atomic</computeroutput> and <computeroutput>copy</computeroutput>.</para><para>Using copied association is recommended for a block or otherwise <computeroutput><ref refid="class_n_s_copying-p" kindref="compound">NSCopying</ref></computeroutput>-compliant instances like NSString.</para><para><simplesect kind="see"><para>associateCopyOfValue:withKey: </para></simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Any object, pointer, or value. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A unique key pointer. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSObject+BKAssociatedObjects.h" line="163" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_object_07_b_k_associated_objects_08_1a222fe21436d144393e30afcec1c710ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void NSObject(BKAssociatedObjects)::bk_weaklyAssociateValue:withKey:</definition>
+        <argsstring>(nullable __autoreleasing id value,[withKey] const void *key)</argsstring>
+        <name>bk_weaklyAssociateValue:withKey:</name>
+        <param>
+          <type><ref refid="_b_k_defines_8h_1a02648067ad66739ed70a10195891098a" kindref="member">nullable</ref> __autoreleasing id</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <attributes>[withKey]</attributes>
+          <type>const void *</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Weakly associates an object with the reciever.</para><para>A weak association will cause the pointer to be set to zero or nil upon the disappearance of what it references; in other words, the associated object is not kept alive.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Any object. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A unique key pointer. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSObject+BKAssociatedObjects.h" line="163" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_object_07_b_k_associated_objects_08_1a5e79f84d1048e1a9b6b681abe755b0c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="_b_k_defines_8h_1a02648067ad66739ed70a10195891098a" kindref="member">nullable</ref> id</type>
+        <definition>id NSObject(BKAssociatedObjects)::bk_associatedValueForKey:</definition>
+        <argsstring>(const void *key)</argsstring>
+        <name>bk_associatedValueForKey:</name>
+        <param>
+          <type>const void *</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the associated value for a key on the reciever.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A unique key pointer. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The object associated with the key, or <computeroutput>nil</computeroutput> if not found. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSObject+BKAssociatedObjects.h" line="163" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSObject+BKAssociatedObjects.m" bodystart="55" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_object_07_b_k_associated_objects_08_1a21a9e080fc652c4466322d1739a6248a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void NSObject(BKAssociatedObjects)::bk_removeAllAssociatedObjects</definition>
+        <argsstring>()</argsstring>
+        <name>bk_removeAllAssociatedObjects</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the reciever to a clean state by removing all associated objects, releasing them if necessary. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSObject+BKAssociatedObjects.h" line="163" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSObject+BKAssociatedObjects.m" bodystart="64" bodyend="67"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="category_n_s_object_07_b_k_associated_objects_08_1aaf731808659e4ec08f137d08d82d2d3f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void NSObject(BKAssociatedObjects)::bk_associateValue:withKey:</definition>
+        <argsstring>(nullable id value,[withKey] const void *key)</argsstring>
+        <name>bk_associateValue:withKey:</name>
+        <param>
+          <type><ref refid="_b_k_defines_8h_1a02648067ad66739ed70a10195891098a" kindref="member">nullable</ref> id</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <attributes>[withKey]</attributes>
+          <type>const void *</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Strongly associates an object with the receiving class.</para><para><simplesect kind="see"><para>associateValue:withKey: </para></simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Any object. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A unique key pointer. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSObject+BKAssociatedObjects.h" line="163" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_object_07_b_k_associated_objects_08_1af2c9eef19fd31ee5c31aab4591616a84" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void NSObject(BKAssociatedObjects)::bk_atomicallyAssociateValue:withKey:</definition>
+        <argsstring>(nullable id value,[withKey] const void *key)</argsstring>
+        <name>bk_atomicallyAssociateValue:withKey:</name>
+        <param>
+          <type><ref refid="_b_k_defines_8h_1a02648067ad66739ed70a10195891098a" kindref="member">nullable</ref> id</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <attributes>[withKey]</attributes>
+          <type>const void *</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Strongly, thread-safely associates an object with the receiving class.</para><para><simplesect kind="see"><para>associateValue:withKey: </para></simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Any object. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A unique key pointer. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSObject+BKAssociatedObjects.h" line="163" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_object_07_b_k_associated_objects_08_1a2e26ad080cd147eaa808357a742d1841" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void NSObject(BKAssociatedObjects)::bk_associateCopyOfValue:withKey:</definition>
+        <argsstring>(nullable id value,[withKey] const void *key)</argsstring>
+        <name>bk_associateCopyOfValue:withKey:</name>
+        <param>
+          <type><ref refid="_b_k_defines_8h_1a02648067ad66739ed70a10195891098a" kindref="member">nullable</ref> id</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <attributes>[withKey]</attributes>
+          <type>const void *</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Associates a copy of an object with the receiving class.</para><para><simplesect kind="see"><para>associateCopyOfValue:withKey: </para></simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Any object, pointer, or value. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A unique key pointer. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSObject+BKAssociatedObjects.h" line="163" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_object_07_b_k_associated_objects_08_1a529826173dabec3cefbc2e4352fc1b58" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void NSObject(BKAssociatedObjects)::bk_atomicallyAssociateCopyOfValue:withKey:</definition>
+        <argsstring>(nullable id value,[withKey] const void *key)</argsstring>
+        <name>bk_atomicallyAssociateCopyOfValue:withKey:</name>
+        <param>
+          <type><ref refid="_b_k_defines_8h_1a02648067ad66739ed70a10195891098a" kindref="member">nullable</ref> id</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <attributes>[withKey]</attributes>
+          <type>const void *</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Thread-safely associates a copy of an object with the receiving class.</para><para><simplesect kind="see"><para>associateCopyOfValue:withKey: </para></simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Any object, pointer, or value. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A unique key pointer. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSObject+BKAssociatedObjects.h" line="163" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_object_07_b_k_associated_objects_08_1a222fe21436d144393e30afcec1c710ba" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void NSObject(BKAssociatedObjects)::bk_weaklyAssociateValue:withKey:</definition>
+        <argsstring>(nullable __autoreleasing id value,[withKey] const void *key)</argsstring>
+        <name>bk_weaklyAssociateValue:withKey:</name>
+        <param>
+          <type><ref refid="_b_k_defines_8h_1a02648067ad66739ed70a10195891098a" kindref="member">nullable</ref> __autoreleasing id</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <attributes>[withKey]</attributes>
+          <type>const void *</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Weakly associates an object with the receiving class.</para><para><simplesect kind="see"><para>weaklyAssociateValue:withKey: </para></simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Any object. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A unique key pointer. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSObject+BKAssociatedObjects.h" line="163" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_object_07_b_k_associated_objects_08_1ab492fb5ea02158e607d44f9d73429c12" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="_b_k_defines_8h_1a02648067ad66739ed70a10195891098a" kindref="member">nullable</ref> id</type>
+        <definition>nullable id NSObject(BKAssociatedObjects)::bk_associatedValueForKey:</definition>
+        <argsstring>(const void *key)</argsstring>
+        <name>bk_associatedValueForKey:</name>
+        <param>
+          <type>const void *</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the associated value for a key on the receiving class.</para><para><simplesect kind="see"><para>associatedValueForKey: </para></simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A unique key pointer. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The object associated with the key, or <computeroutput>nil</computeroutput> if not found. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSObject+BKAssociatedObjects.h" line="163" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_object_07_b_k_associated_objects_08_1a21a9e080fc652c4466322d1739a6248a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void NSObject(BKAssociatedObjects)::bk_removeAllAssociatedObjects</definition>
+        <argsstring>()</argsstring>
+        <name>bk_removeAllAssociatedObjects</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the recieving class to a clean state by removing all associated objects, releasing them if necessary. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSObject+BKAssociatedObjects.h" line="163" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Objective-C wrapper for 10.6+ associated object API.</para><para>In Mac OS X Snow Leopard and iOS 3.0, Apple introduced an addition to the Objective-C Runtime called associated objects. Associated objects allow for the pairing of a random key and object pair to be saved on an instance.</para><para>In BlocksKit, associated objects allow us to emulate instance variables in the ategories we use.</para><para>Class methods also exist for each association. These associations are unique to each class, and exist for the lifetime of the application unless set to <computeroutput>nil</computeroutput>. Each class is a unique meta-object; the ultimate singleton.</para><para>Created by <ulink url="https://github.com/andymatuschak">Andy Matuschak</ulink> as <computeroutput>AMAssociatedObjects</computeroutput>. </para>    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSObject+BKAssociatedObjects.m" line="21" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSObject+BKAssociatedObjects.m" bodystart="21" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_n_s_object_07_b_k_associated_objects_08_1a2e26ad080cd147eaa808357a742d1841" prot="public" virt="virtual"><scope>NSObject(BKAssociatedObjects)</scope><name>bk_associateCopyOfValue:withKey:</name></member>
+      <member refid="category_n_s_object_07_b_k_associated_objects_08_1a2e26ad080cd147eaa808357a742d1841" prot="public" virt="virtual"><scope>NSObject(BKAssociatedObjects)</scope><name>bk_associateCopyOfValue:withKey:</name></member>
+      <member refid="category_n_s_object_07_b_k_associated_objects_08_1a5e79f84d1048e1a9b6b681abe755b0c3" prot="public" virt="virtual"><scope>NSObject(BKAssociatedObjects)</scope><name>bk_associatedValueForKey:</name></member>
+      <member refid="category_n_s_object_07_b_k_associated_objects_08_1ab492fb5ea02158e607d44f9d73429c12" prot="public" virt="virtual"><scope>NSObject(BKAssociatedObjects)</scope><name>bk_associatedValueForKey:</name></member>
+      <member refid="category_n_s_object_07_b_k_associated_objects_08_1aaf731808659e4ec08f137d08d82d2d3f" prot="public" virt="virtual"><scope>NSObject(BKAssociatedObjects)</scope><name>bk_associateValue:withKey:</name></member>
+      <member refid="category_n_s_object_07_b_k_associated_objects_08_1aaf731808659e4ec08f137d08d82d2d3f" prot="public" virt="virtual"><scope>NSObject(BKAssociatedObjects)</scope><name>bk_associateValue:withKey:</name></member>
+      <member refid="category_n_s_object_07_b_k_associated_objects_08_1a529826173dabec3cefbc2e4352fc1b58" prot="public" virt="virtual"><scope>NSObject(BKAssociatedObjects)</scope><name>bk_atomicallyAssociateCopyOfValue:withKey:</name></member>
+      <member refid="category_n_s_object_07_b_k_associated_objects_08_1a529826173dabec3cefbc2e4352fc1b58" prot="public" virt="virtual"><scope>NSObject(BKAssociatedObjects)</scope><name>bk_atomicallyAssociateCopyOfValue:withKey:</name></member>
+      <member refid="category_n_s_object_07_b_k_associated_objects_08_1af2c9eef19fd31ee5c31aab4591616a84" prot="public" virt="virtual"><scope>NSObject(BKAssociatedObjects)</scope><name>bk_atomicallyAssociateValue:withKey:</name></member>
+      <member refid="category_n_s_object_07_b_k_associated_objects_08_1af2c9eef19fd31ee5c31aab4591616a84" prot="public" virt="virtual"><scope>NSObject(BKAssociatedObjects)</scope><name>bk_atomicallyAssociateValue:withKey:</name></member>
+      <member refid="category_n_s_object_07_b_k_associated_objects_08_1a21a9e080fc652c4466322d1739a6248a" prot="public" virt="virtual"><scope>NSObject(BKAssociatedObjects)</scope><name>bk_removeAllAssociatedObjects</name></member>
+      <member refid="category_n_s_object_07_b_k_associated_objects_08_1a21a9e080fc652c4466322d1739a6248a" prot="public" virt="virtual"><scope>NSObject(BKAssociatedObjects)</scope><name>bk_removeAllAssociatedObjects</name></member>
+      <member refid="category_n_s_object_07_b_k_associated_objects_08_1a222fe21436d144393e30afcec1c710ba" prot="public" virt="virtual"><scope>NSObject(BKAssociatedObjects)</scope><name>bk_weaklyAssociateValue:withKey:</name></member>
+      <member refid="category_n_s_object_07_b_k_associated_objects_08_1a222fe21436d144393e30afcec1c710ba" prot="public" virt="virtual"><scope>NSObject(BKAssociatedObjects)</scope><name>bk_weaklyAssociateValue:withKey:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

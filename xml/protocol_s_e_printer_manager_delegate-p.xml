@@ -1,0 +1,190 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="protocol_s_e_printer_manager_delegate-p" kind="protocol" language="Objective-C" prot="public">
+    <compoundname>SEPrinterManagerDelegate-p</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">&lt;NSObject&gt;</basecompoundref>
+    <includes refid="_s_e_printer_manager_8h" local="no">SEPrinterManager.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="protocol_s_e_printer_manager_delegate-p_1ae8abd2a48e42702a823bd08c6d6634e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void SEPrinterManagerDelegate-p::printerManager:perpherals:isTimeout:</definition>
+        <argsstring>(SEPrinterManager *manager,[perpherals] NSArray&lt; CBPeripheral * &gt; *perpherals,[isTimeout] BOOL isTimeout)</argsstring>
+        <name>printerManager:perpherals:isTimeout:</name>
+        <param>
+          <type><ref refid="class_s_e_printer_manager" kindref="compound">SEPrinterManager</ref> *</type>
+          <declname>manager</declname>
+        </param>
+        <param>
+          <attributes>[perpherals]</attributes>
+          <type>NSArray&lt; CBPeripheral * &gt; *</type>
+          <declname>perpherals</declname>
+        </param>
+        <param>
+          <attributes>[isTimeout]</attributes>
+          <type>BOOL</type>
+          <declname>isTimeout</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>返回扫描到的蓝牙 设备列表 因为蓝牙模块一次返回一个设备，所以该方法会调用多次 </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/BLLSDKLayer/BLE/BLEPrinter/SEPrinterManager.h" line="33" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="protocol_s_e_printer_manager_delegate-p_1a87660b5f9a8b18bbc850f7c7b865927e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void SEPrinterManagerDelegate-p::printerManager:scanError:</definition>
+        <argsstring>(SEPrinterManager *manager,[scanError] SEScanError error)</argsstring>
+        <name>printerManager:scanError:</name>
+        <param>
+          <type><ref refid="class_s_e_printer_manager" kindref="compound">SEPrinterManager</ref> *</type>
+          <declname>manager</declname>
+        </param>
+        <param>
+          <attributes>[scanError]</attributes>
+          <type>SEScanError</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>扫描蓝牙设备失败 </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/BLLSDKLayer/BLE/BLEPrinter/SEPrinterManager.h" line="33" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="protocol_s_e_printer_manager_delegate-p_1a8fb4b20d22cbdb42704596802765dac6" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void SEPrinterManagerDelegate-p::printerManager:completeConnectPerpheral:error:</definition>
+        <argsstring>(SEPrinterManager *manager,[completeConnectPerpheral] CBPeripheral *perpheral,[error] NSError *error)</argsstring>
+        <name>printerManager:completeConnectPerpheral:error:</name>
+        <param>
+          <type><ref refid="class_s_e_printer_manager" kindref="compound">SEPrinterManager</ref> *</type>
+          <declname>manager</declname>
+        </param>
+        <param>
+          <attributes>[completeConnectPerpheral]</attributes>
+          <type>CBPeripheral *</type>
+          <declname>perpheral</declname>
+        </param>
+        <param>
+          <attributes>[error]</attributes>
+          <type>NSError *</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>连接蓝牙外设完成</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>manager</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>perpheral</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>蓝牙外设 </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>error</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/BLLSDKLayer/BLE/BLEPrinter/SEPrinterManager.h" line="33" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="protocol_s_e_printer_manager_delegate-p_1aa7d2c44397a4df65e9072f13cd8b437e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void SEPrinterManagerDelegate-p::printerManager:disConnectPeripheral:error:</definition>
+        <argsstring>(SEPrinterManager *manager,[disConnectPeripheral] CBPeripheral *peripheral,[error] NSError *error)</argsstring>
+        <name>printerManager:disConnectPeripheral:error:</name>
+        <param>
+          <type><ref refid="class_s_e_printer_manager" kindref="compound">SEPrinterManager</ref> *</type>
+          <declname>manager</declname>
+        </param>
+        <param>
+          <attributes>[disConnectPeripheral]</attributes>
+          <type>CBPeripheral *</type>
+          <declname>peripheral</declname>
+        </param>
+        <param>
+          <attributes>[error]</attributes>
+          <type>NSError *</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>断开连接</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>manager</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>peripheral</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>设备 </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>error</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>错误信息 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/BLLSDKLayer/BLE/BLEPrinter/SEPrinterManager.h" line="33" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="747">
+        <label>&lt;NSObject&gt;</label>
+      </node>
+      <node id="746">
+        <label>&lt;SEPrinterManagerDelegate&gt;</label>
+        <link refid="protocol_s_e_printer_manager_delegate-p"/>
+        <childnode refid="747" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="749">
+        <label>&lt;NSObject&gt;</label>
+      </node>
+      <node id="748">
+        <label>&lt;SEPrinterManagerDelegate&gt;</label>
+        <link refid="protocol_s_e_printer_manager_delegate-p"/>
+        <childnode refid="749" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/BLLSDKLayer/BLE/BLEPrinter/SEPrinterManager.h" line="16" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/BLLSDKLayer/BLE/BLEPrinter/SEPrinterManager.h" bodystart="16" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="protocol_s_e_printer_manager_delegate-p_1a8fb4b20d22cbdb42704596802765dac6" prot="public" virt="virtual"><scope>SEPrinterManagerDelegate-p</scope><name>printerManager:completeConnectPerpheral:error:</name></member>
+      <member refid="protocol_s_e_printer_manager_delegate-p_1aa7d2c44397a4df65e9072f13cd8b437e" prot="public" virt="virtual"><scope>SEPrinterManagerDelegate-p</scope><name>printerManager:disConnectPeripheral:error:</name></member>
+      <member refid="protocol_s_e_printer_manager_delegate-p_1ae8abd2a48e42702a823bd08c6d6634e9" prot="public" virt="virtual"><scope>SEPrinterManagerDelegate-p</scope><name>printerManager:perpherals:isTimeout:</name></member>
+      <member refid="protocol_s_e_printer_manager_delegate-p_1a87660b5f9a8b18bbc850f7c7b865927e" prot="public" virt="virtual"><scope>SEPrinterManagerDelegate-p</scope><name>printerManager:scanError:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

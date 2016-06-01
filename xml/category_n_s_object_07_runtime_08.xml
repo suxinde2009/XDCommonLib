@@ -1,0 +1,276 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_n_s_object_07_runtime_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>NSObject(Runtime)</compoundname>
+    <includes refid="_n_s_object_09_runtime_8h" local="no">NSObject+Runtime.h</includes>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="category_n_s_object_07_runtime_08_1aa11d9a172a4d9ff464014129fb79c913" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void NSObject(Runtime)::swizzleMethod:withMethod:</definition>
+        <argsstring>(SEL originalMethod,[withMethod] SEL newMethod)</argsstring>
+        <name>swizzleMethod:withMethod:</name>
+        <param>
+          <type>SEL</type>
+          <declname>originalMethod</declname>
+        </param>
+        <param>
+          <attributes>[withMethod]</attributes>
+          <type>SEL</type>
+          <declname>newMethod</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Exchange methods&apos; implementations.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>originalMethod</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Method to exchange. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>newMethod</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Method to exchange. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSObject/NSObject+Runtime.h" line="85" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSObject/NSObject+Runtime.m" bodystart="100" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_object_07_runtime_08_1ab2d9ac00ac31bea44a19747e0fb24b80" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void NSObject(Runtime)::appendMethod:fromClass:</definition>
+        <argsstring>(SEL newMethod,[fromClass] Class klass)</argsstring>
+        <name>appendMethod:fromClass:</name>
+        <param>
+          <type>SEL</type>
+          <declname>newMethod</declname>
+        </param>
+        <param>
+          <attributes>[fromClass]</attributes>
+          <type>Class</type>
+          <declname>klass</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Append a new method to an object.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>newMethod</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Method to exchange. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>klass</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Host class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSObject/NSObject+Runtime.h" line="85" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSObject/NSObject+Runtime.m" bodystart="105" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_object_07_runtime_08_1ae2a1d9ba841a01e4513320a1318c1813" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void NSObject(Runtime)::replaceMethod:fromClass:</definition>
+        <argsstring>(SEL method,[fromClass] Class klass)</argsstring>
+        <name>replaceMethod:fromClass:</name>
+        <param>
+          <type>SEL</type>
+          <declname>method</declname>
+        </param>
+        <param>
+          <attributes>[fromClass]</attributes>
+          <type>Class</type>
+          <declname>klass</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Replace a method in an object.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>method</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Method to exchange. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>klass</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Host class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSObject/NSObject+Runtime.h" line="85" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSObject/NSObject+Runtime.m" bodystart="110" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_object_07_runtime_08_1a540c453284a375a81e22652f157ab5b4" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL NSObject(Runtime)::instancesRespondToSelector:untilClass:</definition>
+        <argsstring>(SEL selector,[untilClass] Class stopClass)</argsstring>
+        <name>instancesRespondToSelector:untilClass:</name>
+        <param>
+          <type>SEL</type>
+          <declname>selector</declname>
+        </param>
+        <param>
+          <attributes>[untilClass]</attributes>
+          <type>Class</type>
+          <declname>stopClass</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Check whether the receiver&apos;s instances implement or inherit a specified method up to and exluding a particular class in hierarchy.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>selector</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A selector that identifies a method. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>stopClass</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A final super class to stop quering (excluding it). </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>YES if one of super classes in hierarchy responds a specified selector. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSObject/NSObject+Runtime.h" line="85" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSObject/NSObject+Runtime.m" bodystart="130" bodyend="153"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="category_n_s_object_07_runtime_08_1ad910eac47d61f2fb535c09abe51b9dda" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL NSObject(Runtime)::respondsToSelector:untilClass:</definition>
+        <argsstring>(SEL selector,[untilClass] Class stopClass)</argsstring>
+        <name>respondsToSelector:untilClass:</name>
+        <param>
+          <type>SEL</type>
+          <declname>selector</declname>
+        </param>
+        <param>
+          <attributes>[untilClass]</attributes>
+          <type>Class</type>
+          <declname>stopClass</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Check whether the receiver implements or inherits a specified method up to and exluding a particular class in hierarchy.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>selector</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A selector that identifies a method. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>stopClass</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A final super class to stop quering (excluding it). </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>YES if one of super classes in hierarchy responds a specified selector. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSObject/NSObject+Runtime.h" line="85" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSObject/NSObject+Runtime.m" bodystart="115" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_object_07_runtime_08_1a1223276cba94b464acde12a205d774cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL NSObject(Runtime)::superRespondsToSelector:</definition>
+        <argsstring>(SEL selector)</argsstring>
+        <name>superRespondsToSelector:</name>
+        <param>
+          <type>SEL</type>
+          <declname>selector</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Check whether a superclass implements or inherits a specified method.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>selector</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A selector that identifies a method. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>YES if one of super classes in hierarchy responds a specified selector. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSObject/NSObject+Runtime.h" line="85" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSObject/NSObject+Runtime.m" bodystart="120" bodyend="123"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_object_07_runtime_08_1a868e1b856c0a5d9cc298f6cd0d48454e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL NSObject(Runtime)::superRespondsToSelector:untilClass:</definition>
+        <argsstring>(SEL selector,[untilClass] Class stopClass)</argsstring>
+        <name>superRespondsToSelector:untilClass:</name>
+        <param>
+          <type>SEL</type>
+          <declname>selector</declname>
+        </param>
+        <param>
+          <attributes>[untilClass]</attributes>
+          <type>Class</type>
+          <declname>stopClass</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Check whether a superclass implements or inherits a specified method.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>selector</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A selector that identifies a method. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>stopClass</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A final super class to stop quering (excluding it). </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>YES if one of super classes in hierarchy responds a specified selector. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSObject/NSObject+Runtime.h" line="85" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSObject/NSObject+Runtime.m" bodystart="125" bodyend="128"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSObject/NSObject+Runtime.m" line="98" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSObject/NSObject+Runtime.m" bodystart="98" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_n_s_object_07_runtime_08_1ab2d9ac00ac31bea44a19747e0fb24b80" prot="public" virt="virtual"><scope>NSObject(Runtime)</scope><name>appendMethod:fromClass:</name></member>
+      <member refid="category_n_s_object_07_runtime_08_1a540c453284a375a81e22652f157ab5b4" prot="public" virt="virtual"><scope>NSObject(Runtime)</scope><name>instancesRespondToSelector:untilClass:</name></member>
+      <member refid="category_n_s_object_07_runtime_08_1ae2a1d9ba841a01e4513320a1318c1813" prot="public" virt="virtual"><scope>NSObject(Runtime)</scope><name>replaceMethod:fromClass:</name></member>
+      <member refid="category_n_s_object_07_runtime_08_1ad910eac47d61f2fb535c09abe51b9dda" prot="public" virt="virtual"><scope>NSObject(Runtime)</scope><name>respondsToSelector:untilClass:</name></member>
+      <member refid="category_n_s_object_07_runtime_08_1a1223276cba94b464acde12a205d774cb" prot="public" virt="virtual"><scope>NSObject(Runtime)</scope><name>superRespondsToSelector:</name></member>
+      <member refid="category_n_s_object_07_runtime_08_1a868e1b856c0a5d9cc298f6cd0d48454e" prot="public" virt="virtual"><scope>NSObject(Runtime)</scope><name>superRespondsToSelector:untilClass:</name></member>
+      <member refid="category_n_s_object_07_runtime_08_1aa11d9a172a4d9ff464014129fb79c913" prot="public" virt="virtual"><scope>NSObject(Runtime)</scope><name>swizzleMethod:withMethod:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_u_i_button_09_count_down_8h" kind="file" language="C++">
+    <compoundname>UIButton+CountDown.h</compoundname>
+    <includes local="no">UIKit/UIKit.h</includes>
+    <includedby refid="_u_i_button_09_count_down_8m" local="yes">XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIButton/UIButton+CountDown.m</includedby>
+    <incdepgraph>
+      <node id="1283">
+        <label>UIKit/UIKit.h</label>
+      </node>
+      <node id="1282">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIButton/UIButton+CountDown.h</label>
+        <link refid="UIButton+CountDown.h"/>
+        <childnode refid="1283" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1284">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIButton/UIButton+CountDown.h</label>
+        <link refid="UIButton+CountDown.h"/>
+        <childnode refid="1285" relation="include">
+        </childnode>
+      </node>
+      <node id="1285">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIButton/UIButton+CountDown.m</label>
+        <link refid="_u_i_button_09_count_down_8m"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="category_u_i_button_07_count_down_08" prot="public">UIButton(CountDown)</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>UIButton+countDown.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>NetworkEgOc</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>iosdev<sp/>on<sp/>15/3/17.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2015年<sp/>iosdev.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;UIKit/UIKit.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="category_u_i_button_07_count_down_08" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="category_u_i_button_07_count_down_08" kindref="compound">UIButton (CountDown)</ref></highlight></codeline>
+<codeline lineno="12"><highlight class="normal">-(void)startTime:(NSInteger<sp/>)timeout<sp/>title:(NSString<sp/>*)tittle<sp/>waitTittle:(NSString<sp/>*)waitTittle;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIButton/UIButton+CountDown.h"/>
+  </compounddef>
+</doxygen>

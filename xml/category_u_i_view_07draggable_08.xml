@@ -1,0 +1,186 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_u_i_view_07draggable_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>UIView(draggable)</compoundname>
+    <includes refid="_u_i_view_09draggable_8h" local="no">UIView+draggable.h</includes>
+      <sectiondef kind="user-defined">
+      <header>UIView+draggable Properties</header>
+      <description><para><hruler/>
+ <hruler/>
+ </para></description>
+      <memberdef kind="property" id="category_u_i_view_07draggable_08_1a372e612496756eef6396fa26a4c0e301" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="assign">
+        <type>UIPanGestureRecognizer *</type>
+        <definition>UIPanGestureRecognizer * UIView(draggable)::panGesture</definition>
+        <argsstring></argsstring>
+        <name>panGesture</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The pan gestures that handles the view dragging</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>panGesture</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The tint color of the blurred view. Set to nil to reset. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+draggable.h" line="25" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+draggable.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_u_i_view_07draggable_08_1a2da06507a7ff9fa712e278913c22ac1c" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="assign">
+        <type>CGRect</type>
+        <definition>CGRect UIView(draggable)::cagingArea</definition>
+        <argsstring></argsstring>
+        <name>cagingArea</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A caging area such that the view can not be moved outside of this frame.</para><para>If <computeroutput>cagingArea</computeroutput> is not <computeroutput>CGRectZero</computeroutput>, and <computeroutput>cagingArea</computeroutput> does not contain the view&apos;s frame then this does nothing (ie. if the bounds of the view extend the bounds of <computeroutput>cagingArea</computeroutput>).</para><para>Optional. If not set, defaults to <computeroutput>CGRectZero</computeroutput>, which will result in no caging behavior. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+draggable.h" line="38" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+draggable.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_u_i_view_07draggable_08_1ae89f6ec710fcbedaa4c2b6f8fd2421fe" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="assign">
+        <type>CGRect</type>
+        <definition>CGRect UIView(draggable)::handle</definition>
+        <argsstring></argsstring>
+        <name>handle</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Restricts the area of the view where the drag action starts.</para><para>Optional. If not set, defaults to self.view. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+draggable.h" line="45" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+draggable.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_u_i_view_07draggable_08_1aa7f0dab21170209fd8f34aca40ce025e" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="assign">
+        <type>BOOL</type>
+        <definition>BOOL UIView(draggable)::shouldMoveAlongX</definition>
+        <argsstring></argsstring>
+        <name>shouldMoveAlongX</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Restricts the movement along the X axis </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+draggable.h" line="50" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+draggable.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_u_i_view_07draggable_08_1a5bfd32bb208046eadbe0a1017e497752" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="assign">
+        <type>BOOL</type>
+        <definition>BOOL UIView(draggable)::shouldMoveAlongY</definition>
+        <argsstring></argsstring>
+        <name>shouldMoveAlongY</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Restricts the movement along the Y axis </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+draggable.h" line="55" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+draggable.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_u_i_view_07draggable_08_1afeebd7d46c79fbb4663bd8c33a2f8f56" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="copy">
+        <type>void(^</type>
+        <definition>void(^ UIView(draggable)::draggingStartedBlock) ()</definition>
+        <argsstring>)()</argsstring>
+        <name>draggingStartedBlock</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Notifies when dragging started </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+draggable.h" line="60" column="1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_u_i_view_07draggable_08_1ae72d6453973aa75205168cb7065c9b15" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="copy">
+        <type>void(^</type>
+        <definition>void(^ UIView(draggable)::draggingEndedBlock) ()</definition>
+        <argsstring>)()</argsstring>
+        <name>draggingEndedBlock</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Notifies when dragging ended </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+draggable.h" line="65" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="user-defined">
+      <header>UIView+draggable Methods</header>
+      <description><para><hruler/>
+ <hruler/>
+ </para></description>
+      <memberdef kind="function" id="category_u_i_view_07draggable_08_1a5eb84f5a8316e023cb2d8e9d18bfdb64" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UIView(draggable)::enableDragging</definition>
+        <argsstring>()</argsstring>
+        <name>enableDragging</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Enables the dragging</para><para>Enables the dragging state of the view </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+draggable.h" line="65" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+draggable.m" bodystart="168" bodyend="176"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_view_07draggable_08_1aa1d3bc4b89b6171ee2742f5a335c374a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UIView(draggable)::setDraggable:</definition>
+        <argsstring>(BOOL draggable)</argsstring>
+        <name>setDraggable:</name>
+        <param>
+          <type>BOOL</type>
+          <declname>draggable</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Disable or enable the view dragging</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>draggable</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The boolean that enables or disables the draggable state </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+draggable.h" line="65" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+draggable.m" bodystart="163" bodyend="166"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+draggable.m" line="12" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+draggable.m" bodystart="12" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_u_i_view_07draggable_08_1a2da06507a7ff9fa712e278913c22ac1c" prot="public" virt="non-virtual"><scope>UIView(draggable)</scope><name>cagingArea</name></member>
+      <member refid="category_u_i_view_07draggable_08_1ae72d6453973aa75205168cb7065c9b15" prot="public" virt="non-virtual"><scope>UIView(draggable)</scope><name>draggingEndedBlock</name></member>
+      <member refid="category_u_i_view_07draggable_08_1afeebd7d46c79fbb4663bd8c33a2f8f56" prot="public" virt="non-virtual"><scope>UIView(draggable)</scope><name>draggingStartedBlock</name></member>
+      <member refid="category_u_i_view_07draggable_08_1a5eb84f5a8316e023cb2d8e9d18bfdb64" prot="public" virt="virtual"><scope>UIView(draggable)</scope><name>enableDragging</name></member>
+      <member refid="category_u_i_view_07draggable_08_1ae89f6ec710fcbedaa4c2b6f8fd2421fe" prot="public" virt="non-virtual"><scope>UIView(draggable)</scope><name>handle</name></member>
+      <member refid="category_u_i_view_07draggable_08_1a372e612496756eef6396fa26a4c0e301" prot="public" virt="non-virtual"><scope>UIView(draggable)</scope><name>panGesture</name></member>
+      <member refid="category_u_i_view_07draggable_08_1aa1d3bc4b89b6171ee2742f5a335c374a" prot="public" virt="virtual"><scope>UIView(draggable)</scope><name>setDraggable:</name></member>
+      <member refid="category_u_i_view_07draggable_08_1aa7f0dab21170209fd8f34aca40ce025e" prot="public" virt="non-virtual"><scope>UIView(draggable)</scope><name>shouldMoveAlongX</name></member>
+      <member refid="category_u_i_view_07draggable_08_1a5bfd32bb208046eadbe0a1017e497752" prot="public" virt="non-virtual"><scope>UIView(draggable)</scope><name>shouldMoveAlongY</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

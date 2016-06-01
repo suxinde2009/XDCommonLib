@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_____g_e_n_e_r_i_c_s_07_n_s_mutable_dictionary_key_type_object_type_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>__GENERICS(NSMutableDictionaryKeyTypeObjectType)</compoundname>
+    <includes refid="_n_s_mutable_dictionary_09_blocks_kit_8h" local="no">NSMutableDictionary+BlocksKit.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="category_____g_e_n_e_r_i_c_s_07_n_s_mutable_dictionary_key_type_object_type_08_1a18326329e60bd7eb1dc35ed787c4c207" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void __GENERICS(NSMutableDictionaryKeyTypeObjectType)::bk_performSelect:</definition>
+        <argsstring>(BOOL(^block)(KeyType key, ObjectType obj))</argsstring>
+        <name>bk_performSelect:</name>
+        <param>
+          <type>BOOL(^)(KeyType key, ObjectType obj)</type>
+          <declname>block</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Filters a mutable dictionary to the key/value pairs matching the block.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>block</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A BOOL-returning code block for a key/value pair. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para>&lt;NSDictionary(BlocksKit)&gt;bk_reject: </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSMutableDictionary+BlocksKit.h" line="24" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="category_____g_e_n_e_r_i_c_s_07_n_s_mutable_dictionary_key_type_object_type_08_1a6ae44c549ea89772c8c72d1849dca9e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void __GENERICS(NSMutableDictionaryKeyTypeObjectType)::bk_performReject:</definition>
+        <argsstring>(BOOL(^block)(KeyType key, ObjectType obj))</argsstring>
+        <name>bk_performReject:</name>
+        <param>
+          <type>BOOL(^)(KeyType key, ObjectType obj)</type>
+          <declname>block</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Filters a mutable dictionary to the key/value pairs not matching the block, the logical inverse to bk_select:.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>block</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A BOOL-returning code block for a key/value pair. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para>&lt;NSDictionary(BlocksKit)&gt;bk_select: </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSMutableDictionary+BlocksKit.h" line="24" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="category_____g_e_n_e_r_i_c_s_07_n_s_mutable_dictionary_key_type_object_type_08_1a735281094c61aa29fa4658c90b450201" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void __GENERICS(NSMutableDictionaryKeyTypeObjectType)::bk_performMap:</definition>
+        <argsstring>(id(^block)(KeyType key, ObjectType obj))</argsstring>
+        <name>bk_performMap:</name>
+        <param>
+          <type>id(^)(KeyType key, ObjectType obj)</type>
+          <declname>block</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Transform each value of the dictionary to a new value, as returned by the block.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>block</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A block that returns a new value for a given key/value pair. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para>&lt;NSDictionary(BlocksKit)&gt;bk_map: </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSMutableDictionary+BlocksKit.h" line="24" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Block extensions for NSMutableDictionary.</para><para>These utilities expound upon the BlocksKit additions to the immutable superclass by allowing certain utilities to work on an instance of the mutable class, saving memory by not creating an immutable copy of the results.</para><para>Includes code by the following:</para><para><itemizedlist>
+<listitem><para><ulink url="https://github.com/MSch">Martin Schürrer</ulink></para></listitem><listitem><para><ulink url="https://github.com/zwaldowski">Zach Waldowski</ulink></para></listitem></itemizedlist>
+</para><para><simplesect kind="see"><para>NSDictionary(BlocksKit) </para></simplesect>
+</para>    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSMutableDictionary+BlocksKit.h" line="24" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSMutableDictionary+BlocksKit.h" bodystart="24" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_____g_e_n_e_r_i_c_s_07_n_s_mutable_dictionary_key_type_object_type_08_1a735281094c61aa29fa4658c90b450201" prot="public" virt="virtual"><scope>__GENERICS(NSMutableDictionaryKeyTypeObjectType)</scope><name>bk_performMap:</name></member>
+      <member refid="category_____g_e_n_e_r_i_c_s_07_n_s_mutable_dictionary_key_type_object_type_08_1a6ae44c549ea89772c8c72d1849dca9e0" prot="public" virt="virtual"><scope>__GENERICS(NSMutableDictionaryKeyTypeObjectType)</scope><name>bk_performReject:</name></member>
+      <member refid="category_____g_e_n_e_r_i_c_s_07_n_s_mutable_dictionary_key_type_object_type_08_1a18326329e60bd7eb1dc35ed787c4c207" prot="public" virt="virtual"><scope>__GENERICS(NSMutableDictionaryKeyTypeObjectType)</scope><name>bk_performSelect:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

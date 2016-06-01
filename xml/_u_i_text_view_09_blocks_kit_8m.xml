@@ -1,0 +1,224 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_u_i_text_view_09_blocks_kit_8m" kind="file" language="Objective-C">
+    <compoundname>UITextView+BlocksKit.m</compoundname>
+    <includes refid="_u_i_text_view_09_blocks_kit_8h" local="yes">UITextView+BlocksKit.h</includes>
+    <includes refid="_a2_dynamic_delegate_8h" local="yes">A2DynamicDelegate.h</includes>
+    <includes refid="_n_s_object_09_a2_block_delegate_8h" local="yes">NSObject+A2BlockDelegate.h</includes>
+    <incdepgraph>
+      <node id="3160">
+        <label>A2DynamicDelegate.h</label>
+        <link refid="_a2_dynamic_delegate_8h"/>
+        <childnode refid="3161" relation="include">
+        </childnode>
+        <childnode refid="3163" relation="include">
+        </childnode>
+      </node>
+      <node id="3162">
+        <label>Foundation/NSObjCRuntime.h</label>
+      </node>
+      <node id="3159">
+        <label>UIKit/UITextView.h</label>
+      </node>
+      <node id="3158">
+        <label>UITextView+BlocksKit.h</label>
+        <link refid="_u_i_text_view_09_blocks_kit_8h"/>
+        <childnode refid="3159" relation="include">
+        </childnode>
+      </node>
+      <node id="3157">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UITextView+BlocksKit.m</label>
+        <link refid="UITextView+BlocksKit.m"/>
+        <childnode refid="3158" relation="include">
+        </childnode>
+        <childnode refid="3160" relation="include">
+        </childnode>
+        <childnode refid="3164" relation="include">
+        </childnode>
+      </node>
+      <node id="3161">
+        <label>BKDefines.h</label>
+        <link refid="_b_k_defines_8h"/>
+        <childnode refid="3162" relation="include">
+        </childnode>
+      </node>
+      <node id="3164">
+        <label>NSObject+A2BlockDelegate.h</label>
+        <link refid="_n_s_object_09_a2_block_delegate_8h"/>
+        <childnode refid="3161" relation="include">
+        </childnode>
+        <childnode refid="3163" relation="include">
+        </childnode>
+      </node>
+      <node id="3163">
+        <label>Foundation/Foundation.h</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="interface_a2_dynamic_u_i_text_view_delegate" prot="public">A2DynamicUITextViewDelegate</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>UITextView+BlocksKit.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>BlocksKit</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_u_i_text_view_09_blocks_kit_8h" kindref="compound">UITextView+BlocksKit.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_a2_dynamic_delegate_8h" kindref="compound">A2DynamicDelegate.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_n_s_object_09_a2_block_delegate_8h" kindref="compound">NSObject+A2BlockDelegate.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/>Delegate</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="interface_a2_dynamic_u_i_text_view_delegate" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="interface_a2_dynamic_u_i_text_view_delegate" kindref="compound">A2DynamicUITextViewDelegate</ref><sp/>:<sp/><ref refid="class_a2_dynamic_delegate" kindref="compound">A2DynamicDelegate</ref></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">@implementation<sp/></highlight><highlight class="normal"><ref refid="interface_a2_dynamic_u_i_text_view_delegate" kindref="compound">A2DynamicUITextViewDelegate</ref></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal">-<sp/>(BOOL)textViewShouldBeginEditing:(UITextView<sp/>*)textView</highlight></codeline>
+<codeline lineno="19"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>BOOL<sp/>ret<sp/>=<sp/>YES;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/><ref refid="class_a2_dynamic_delegate_1a4c7e2f4153dc34cc4c05a72d1647d62c" kindref="member">realDelegate</ref><sp/>=<sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.realDelegate;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(realDelegate<sp/>&amp;&amp;<sp/>[realDelegate<sp/>respondsToSelector:</highlight><highlight class="keyword">@selector</highlight><highlight class="normal">(textViewShouldBeginEditing:)])</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ret<sp/>=<sp/>[realDelegate<sp/>textViewShouldBeginEditing:textView];</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>BOOL<sp/>(^block)(UITextView<sp/>*)<sp/>=<sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>blockImplementationForMethod:_cmd];</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(block)</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ret<sp/>&amp;=<sp/>block(textView);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>ret;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal">-<sp/>(void)textViewDidBeginEditing:(UITextView<sp/>*)textView</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/><ref refid="class_a2_dynamic_delegate_1a4c7e2f4153dc34cc4c05a72d1647d62c" kindref="member">realDelegate</ref><sp/>=<sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.realDelegate;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(realDelegate<sp/>&amp;&amp;<sp/>[realDelegate<sp/>respondsToSelector:</highlight><highlight class="keyword">@selector</highlight><highlight class="normal">(textViewDidBeginEditing:)])</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[realDelegate<sp/>textViewDidBeginEditing:textView];</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>void<sp/>(^block)(UITextView<sp/>*)<sp/>=<sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>blockImplementationForMethod:_cmd];</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(block)</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>block(textView);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal">-<sp/>(BOOL)textViewShouldEndEditing:(UITextView<sp/>*)textView</highlight></codeline>
+<codeline lineno="41"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>BOOL<sp/>ret<sp/>=<sp/>YES;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/><ref refid="class_a2_dynamic_delegate_1a4c7e2f4153dc34cc4c05a72d1647d62c" kindref="member">realDelegate</ref><sp/>=<sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.realDelegate;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(realDelegate<sp/>&amp;&amp;<sp/>[realDelegate<sp/>respondsToSelector:</highlight><highlight class="keyword">@selector</highlight><highlight class="normal">(textViewShouldEndEditing:)])</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ret<sp/>=<sp/>[realDelegate<sp/>textViewShouldEndEditing:textView];</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>BOOL<sp/>(^block)(UITextView<sp/>*)<sp/>=<sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>blockImplementationForMethod:_cmd];</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(block)</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ret<sp/>&amp;=<sp/>block(textView);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>ret;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal">-<sp/>(void)textViewDidEndEditing:(UITextView<sp/>*)textView</highlight></codeline>
+<codeline lineno="53"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/><ref refid="class_a2_dynamic_delegate_1a4c7e2f4153dc34cc4c05a72d1647d62c" kindref="member">realDelegate</ref><sp/>=<sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.realDelegate;</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(realDelegate<sp/>&amp;&amp;<sp/>[realDelegate<sp/>respondsToSelector:</highlight><highlight class="keyword">@selector</highlight><highlight class="normal">(textViewDidEndEditing:)])</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[realDelegate<sp/>textViewDidEndEditing:textView];</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>void<sp/>(^block)(UITextView<sp/>*)<sp/>=<sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>blockImplementationForMethod:_cmd];</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(block)</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>block(textView);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal">-<sp/>(BOOL)textView:(UITextView<sp/>*)textView<sp/>shouldChangeTextInRange:(NSRange)range<sp/>replacementText:(NSString<sp/>*)text</highlight></codeline>
+<codeline lineno="63"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/>BOOL<sp/>ret<sp/>=<sp/>YES;</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/><ref refid="class_a2_dynamic_delegate_1a4c7e2f4153dc34cc4c05a72d1647d62c" kindref="member">realDelegate</ref><sp/>=<sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.realDelegate;</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(realDelegate<sp/>&amp;&amp;<sp/>[realDelegate<sp/>respondsToSelector:</highlight><highlight class="keyword">@selector</highlight><highlight class="normal">(textView:shouldChangeTextInRange:replacementText:)])</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ret<sp/>=<sp/>[realDelegate<sp/>textView:textView<sp/>shouldChangeTextInRange:range<sp/>replacementText:text];</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/>BOOL<sp/>(^block)(UITextView<sp/>*,<sp/>NSRange,<sp/>NSString<sp/>*)<sp/>=<sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>blockImplementationForMethod:_cmd];</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(block)</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ret<sp/>&amp;=<sp/>block(textView,<sp/>range,<sp/>text);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>ret;</highlight></codeline>
+<codeline lineno="72"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal">-<sp/>(void)textViewDidChange:(UITextView<sp/>*)textView</highlight></codeline>
+<codeline lineno="75"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/><ref refid="class_a2_dynamic_delegate_1a4c7e2f4153dc34cc4c05a72d1647d62c" kindref="member">realDelegate</ref><sp/>=<sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.realDelegate;</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(realDelegate<sp/>&amp;&amp;<sp/>[realDelegate<sp/>respondsToSelector:</highlight><highlight class="keyword">@selector</highlight><highlight class="normal">(textViewDidChange:)])</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[realDelegate<sp/>textViewDidChange:textView];</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/>void<sp/>(^block)(UITextView<sp/>*)<sp/>=<sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>blockImplementationForMethod:_cmd];</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(block)</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>block(textView);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal">-<sp/>(void)textViewDidChangeSelection:(UITextView<sp/>*)textView</highlight></codeline>
+<codeline lineno="85"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/><ref refid="class_a2_dynamic_delegate_1a4c7e2f4153dc34cc4c05a72d1647d62c" kindref="member">realDelegate</ref><sp/>=<sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.realDelegate;</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(realDelegate<sp/>&amp;&amp;<sp/>[realDelegate<sp/>respondsToSelector:</highlight><highlight class="keyword">@selector</highlight><highlight class="normal">(textViewDidChangeSelection:)])</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[realDelegate<sp/>textViewDidChangeSelection:textView];</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/>void<sp/>(^block)(UITextView<sp/>*)<sp/>=<sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>blockImplementationForMethod:_cmd];</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(block)</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>block(textView);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal">-<sp/>(BOOL)textView:(UITextView<sp/>*)textView<sp/>shouldInteractWithTextAttachment:(NSTextAttachment<sp/>*)textAttachment<sp/>inRange:(NSRange)characterRange</highlight></codeline>
+<codeline lineno="95"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/>BOOL<sp/>ret<sp/>=<sp/>YES;</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/><ref refid="class_a2_dynamic_delegate_1a4c7e2f4153dc34cc4c05a72d1647d62c" kindref="member">realDelegate</ref><sp/>=<sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.realDelegate;</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(realDelegate<sp/>&amp;&amp;<sp/>[realDelegate<sp/>respondsToSelector:</highlight><highlight class="keyword">@selector</highlight><highlight class="normal">(textView:shouldInteractWithTextAttachment:inRange:)])</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ret<sp/>=<sp/>[realDelegate<sp/>textView:textView<sp/>shouldInteractWithTextAttachment:textAttachment<sp/>inRange:characterRange];</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/>BOOL<sp/>(^block)(UITextView<sp/>*,<sp/>NSTextAttachment<sp/>*,<sp/>NSRange)<sp/>=<sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>blockImplementationForMethod:_cmd];</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(block)</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ret<sp/>&amp;=<sp/>block(textView,<sp/>textAttachment,<sp/>characterRange);</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>ret;</highlight></codeline>
+<codeline lineno="104"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal">-<sp/>(BOOL)textView:(UITextView<sp/>*)textView<sp/>shouldInteractWithURL:(NSURL<sp/>*)URL<sp/>inRange:(NSRange)characterRange</highlight></codeline>
+<codeline lineno="107"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/>BOOL<sp/>ret<sp/>=<sp/>YES;</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/><ref refid="class_a2_dynamic_delegate_1a4c7e2f4153dc34cc4c05a72d1647d62c" kindref="member">realDelegate</ref><sp/>=<sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.realDelegate;</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(realDelegate<sp/>&amp;&amp;<sp/>[realDelegate<sp/>respondsToSelector:</highlight><highlight class="keyword">@selector</highlight><highlight class="normal">(textView:shouldInteractWithURL:inRange:)])</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ret<sp/>=<sp/>[realDelegate<sp/>textView:textView<sp/>shouldInteractWithURL:URL<sp/>inRange:characterRange];</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/>BOOL<sp/>(^block)(UITextView<sp/>*,<sp/>NSURL<sp/>*,<sp/>NSRange)<sp/>=<sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>blockImplementationForMethod:_cmd];</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(block)</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ret<sp/>&amp;=<sp/>block(textView,<sp/>URL,<sp/>characterRange);</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>ret;</highlight></codeline>
+<codeline lineno="116"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/>-<sp/>Category</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122" refid="category_u_i_text_view_07_blocks_kit_08" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">@implementation<sp/></highlight><highlight class="normal"><ref refid="category_u_i_text_view_07_blocks_kit_08" kindref="compound">UITextView (BlocksKit)</ref></highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal">@dynamic<sp/><ref refid="category_u_i_text_view_07_blocks_kit_08_1a40d68983b379e2dc9d2875926d6d96f8" kindref="member">bk_shouldBeginEditingBlock</ref>,<sp/><ref refid="category_u_i_text_view_07_blocks_kit_08_1a32808ba9c662d2a018951291a9289942" kindref="member">bk_didBeginEditingBlock</ref>,<sp/><ref refid="category_u_i_text_view_07_blocks_kit_08_1aec6113c366a291c4b99441845c564ada" kindref="member">bk_shouldEndEditingBlock</ref>,<sp/><ref refid="category_u_i_text_view_07_blocks_kit_08_1a807b3d381d357682a2a884ff8f980055" kindref="member">bk_didEndEditingBlock</ref>,<sp/><ref refid="category_u_i_text_view_07_blocks_kit_08_1ab024064440559845206467fb090f8209" kindref="member">bk_shouldChangeCharactersInRangeWithReplacementTextBlock</ref>,<sp/><ref refid="category_u_i_text_view_07_blocks_kit_08_1a4cf22d35ff2f295fdcd5666982932998" kindref="member">bk_didChangeBlock</ref>,<sp/><ref refid="category_u_i_text_view_07_blocks_kit_08_1a3404bcbdb032df963e3e0f0f694c245e" kindref="member">bk_didChangeSelecionBlock</ref>,<sp/><ref refid="category_u_i_text_view_07_blocks_kit_08_1a076a9dfad1186bacf24a228657f93291" kindref="member">bk_shouldInteractWithTextAttachmentInRangeBlock</ref>,<sp/><ref refid="category_u_i_text_view_07_blocks_kit_08_1a8a7dbc35e5e8ed604d5412523096157f" kindref="member">bk_shouldInteractWithURLInRangeBlock</ref>;</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight></codeline>
+<codeline lineno="126"><highlight class="normal">+<sp/>(void)load<sp/>{</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>bk_registerDynamicDelegate];</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>bk_linkDelegateMethods:<sp/>@{</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>@&quot;bk_shouldBeginEditingBlock&quot;:</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>@&quot;textViewShouldBeginEditing:&quot;,</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>@&quot;bk_didBeginEditingBlock&quot;:</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>@&quot;textViewDidBeginEditing:&quot;,</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>@&quot;bk_shouldEndEditingBlock&quot;:</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>@&quot;textViewDidBeginEditing:&quot;,</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>@&quot;bk_didEndEditingBlock&quot;<sp/>:</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>@&quot;textViewDidEndEditing:&quot;,</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>@&quot;bk_shouldChangeCharactersInRangeWithReplacementTextBlock&quot;<sp/>:</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>@&quot;textView:shouldChangeTextInRange:replacementText:&quot;,</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>@&quot;bk_didChangeBlock&quot;<sp/>:</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>@&quot;textViewDidChange:&quot;,</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>@&quot;bk_didChangeSelecionBlock&quot;<sp/>:</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>@&quot;textViewDidChangeSelection:&quot;,</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>@&quot;bk_shouldInteractWithTextAttachmentInRangeBlock&quot;<sp/>:</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>@&quot;textView:shouldInteractWithTextAttachment:inRange:&quot;,</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>@&quot;bk_shouldInteractWithURLInRangeBlock&quot;<sp/>:</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>@&quot;textView:shouldInteractWithURL:inRange:&quot;,</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}];</highlight></codeline>
+<codeline lineno="156"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight></codeline>
+<codeline lineno="158"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UITextView+BlocksKit.m"/>
+  </compounddef>
+</doxygen>

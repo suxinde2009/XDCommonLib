@@ -1,0 +1,350 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_a2_block_invocation_8m" kind="file" language="Objective-C">
+    <compoundname>A2BlockInvocation.m</compoundname>
+    <includes refid="_a2_block_invocation_8h" local="yes">A2BlockInvocation.h</includes>
+    <incdepgraph>
+      <node id="2863">
+        <label>Foundation/NSObjCRuntime.h</label>
+      </node>
+      <node id="2861">
+        <label>A2BlockInvocation.h</label>
+        <link refid="_a2_block_invocation_8h"/>
+        <childnode refid="2862" relation="include">
+        </childnode>
+        <childnode refid="2864" relation="include">
+        </childnode>
+      </node>
+      <node id="2860">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/DynamicDelegate/A2BlockInvocation.m</label>
+        <link refid="A2BlockInvocation.m"/>
+        <childnode refid="2861" relation="include">
+        </childnode>
+      </node>
+      <node id="2862">
+        <label>BKDefines.h</label>
+        <link refid="_b_k_defines_8h"/>
+        <childnode refid="2863" relation="include">
+        </childnode>
+      </node>
+      <node id="2864">
+        <label>Foundation/Foundation.h</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="struct___b_k_block" prot="public">_BKBlock</innerclass>
+    <innerclass refid="category_a2_block_invocation_07_08" prot="public">A2BlockInvocation()</innerclass>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="_a2_block_invocation_8m_1a98f0629fb3ef3f154e2786b11d743181" prot="public" static="no">
+        <type>struct <ref refid="struct___b_k_block" kindref="compound">_BKBlock</ref> *</type>
+        <definition>typedef struct _BKBlock * BKBlockRef</definition>
+        <argsstring></argsstring>
+        <name>BKBlockRef</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/DynamicDelegate/A2BlockInvocation.m" line="33" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="_a2_block_invocation_8m_1aa899197a659ef5aedbe468f39c88e04d" prot="public" static="no" mutable="no">
+        <type>NSString *const</type>
+        <definition>NSString* const A2IncompatibleMethodSignatureKey</definition>
+        <argsstring></argsstring>
+        <name>A2IncompatibleMethodSignatureKey</name>
+        <initializer>= @&quot;incompatibleMethodSignature&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>If a block invocation is instiated with an invalid method signature, an <computeroutput>NSInvalidArgumentException</computeroutput> is thrown containing this key in the user info. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/DynamicDelegate/A2BlockInvocation.m" line="8" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/DynamicDelegate/A2BlockInvocation.m" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_a2_block_invocation_8m_1aab0e948bc89f843e32b7839bc1a62d54" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typedef</type>
+        <definition>typedef NS_OPTIONS</definition>
+        <argsstring>(int, BKBlockFlags)</argsstring>
+        <name>NS_OPTIONS</name>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>BKBlockFlags</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/DynamicDelegate/A2BlockInvocation.m" line="12" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/DynamicDelegate/A2BlockInvocation.m" bodystart="12" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="_a2_block_invocation_8m_1ade6a26967e532f8bcfd46e21a16150f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>NS_INLINE BOOL</type>
+        <definition>NS_INLINE BOOL typesCompatible</definition>
+        <argsstring>(const char *a, const char *b)</argsstring>
+        <name>typesCompatible</name>
+        <param>
+          <type>const char *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/DynamicDelegate/A2BlockInvocation.m" line="35" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/DynamicDelegate/A2BlockInvocation.m" bodystart="35" bodyend="42"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>A2BlockInvocation.m</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>BlocksKit</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_a2_block_invocation_8h" kindref="compound">A2BlockInvocation.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="_a2_block_invocation_8h_1ac32e9006804a9751b016ab977251c1f6" refkind="member"><highlight class="normal">NSString<sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="_a2_block_invocation_8m_1aa899197a659ef5aedbe468f39c88e04d" kindref="member">A2IncompatibleMethodSignatureKey</ref><sp/>=<sp/></highlight><highlight class="stringliteral">@&quot;incompatibleMethodSignature&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/>Block<sp/>Internals</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="_a2_block_invocation_8m_1aab0e948bc89f843e32b7839bc1a62d54" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="_a2_block_invocation_8m_1aab0e948bc89f843e32b7839bc1a62d54" kindref="member">NS_OPTIONS</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,<sp/>BKBlockFlags)<sp/>{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>BKBlockFlagsHasCopyDisposeHelpers<sp/>=<sp/>(1<sp/>&lt;&lt;<sp/>25),</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>BKBlockFlagsHasSignature<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>(1<sp/>&lt;&lt;<sp/>30)</highlight></codeline>
+<codeline lineno="15"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="struct___b_k_block" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct___b_k_block" kindref="compound">_BKBlock</ref><sp/>{</highlight></codeline>
+<codeline lineno="18" refid="struct___b_k_block_1a424984fea69cfa7e779ec4edeca6332c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>__unused<sp/>Class<sp/><ref refid="struct___b_k_block_1a424984fea69cfa7e779ec4edeca6332c" kindref="member">isa</ref>;</highlight></codeline>
+<codeline lineno="19" refid="struct___b_k_block_1a479bde9049bac6b6b14f5ea4cbb078e0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>BKBlockFlags<sp/><ref refid="struct___b_k_block_1a479bde9049bac6b6b14f5ea4cbb078e0" kindref="member">flags</ref>;</highlight></codeline>
+<codeline lineno="20" refid="struct___b_k_block_1a5f26ddaabfed60228a316cb610fc47c2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>__unused<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="struct___b_k_block_1a5f26ddaabfed60228a316cb610fc47c2" kindref="member">reserved</ref>;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct___b_k_block_1a0eac33ff580f4ba3fd1d5396d51e1de7" kindref="member">void</ref><sp/>(__unused<sp/>*invoke)(</highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct___b_k_block" kindref="compound">_BKBlock</ref><sp/>*block,<sp/>...);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="23" refid="struct___b_k_block_1ad62a97b545c3c0374d3c7afc5a63583b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="struct___b_k_block_1ad62a97b545c3c0374d3c7afc5a63583b" kindref="member">reserved</ref>;</highlight></codeline>
+<codeline lineno="24" refid="struct___b_k_block_1a543573aafcd3c0632bd5317907493d26" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="struct___b_k_block_1a543573aafcd3c0632bd5317907493d26" kindref="member">size</ref>;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>requires<sp/>BKBlockFlagsHasCopyDisposeHelpers</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="struct___b_k_block_1a8011a1dd4eccc66b397e53ff1ab4e777" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct___b_k_block_1a0eac33ff580f4ba3fd1d5396d51e1de7" kindref="member">void</ref><sp/>(*<ref refid="struct___b_k_block_1a8011a1dd4eccc66b397e53ff1ab4e777" kindref="member">copy</ref>)(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*dst,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*src);</highlight></codeline>
+<codeline lineno="27" refid="struct___b_k_block_1a9e7911d36824296dce74d0d205c07a01" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct___b_k_block_1a0eac33ff580f4ba3fd1d5396d51e1de7" kindref="member">void</ref><sp/>(*<ref refid="struct___b_k_block_1a9e7911d36824296dce74d0d205c07a01" kindref="member">dispose</ref>)(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>requires<sp/>BKBlockFlagsHasSignature</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="struct___b_k_block_1a5affffe9f49e1b4e07c08aa13d1ada29" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="struct___b_k_block_1a5affffe9f49e1b4e07c08aa13d1ada29" kindref="member">signature</ref>;</highlight></codeline>
+<codeline lineno="30" refid="struct___b_k_block_1acb09680bb1586c37fd422a2e26807335" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="struct___b_k_block_1acb09680bb1586c37fd422a2e26807335" kindref="member">layout</ref>;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/>*<ref refid="struct___b_k_block_1abcbc022ea5bccc4cde62f03da06e9d3d" kindref="member">descriptor</ref>;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>imported<sp/>variables</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal">}<sp/>*<ref refid="_a2_block_invocation_8m_1a98f0629fb3ef3f154e2786b11d743181" kindref="member">BKBlockRef</ref>;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="_a2_block_invocation_8m_1ade6a26967e532f8bcfd46e21a16150f2" refkind="member"><highlight class="normal">NS_INLINE<sp/>BOOL<sp/><ref refid="_a2_block_invocation_8m_1ade6a26967e532f8bcfd46e21a16150f2" kindref="member">typesCompatible</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*b)<sp/>{</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(a[0]<sp/>==<sp/>b[0])<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>YES;<sp/>}</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>NSUInteger<sp/>aSize,<sp/>aAlign,<sp/>bSize,<sp/>bAlign;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>NSGetSizeAndAlignment(a,<sp/>&amp;aSize,<sp/>&amp;aAlign);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>NSGetSizeAndAlignment(a,<sp/>&amp;bSize,<sp/>&amp;bAlign);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(aSize<sp/>==<sp/>bSize<sp/>&amp;&amp;<sp/>aAlign<sp/>==<sp/>bAlign)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>YES;<sp/>}</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>!!strcmp(a,<sp/>b);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44" refid="category_a2_block_invocation_07_08" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="class_a2_block_invocation" kindref="compound">A2BlockInvocation</ref><sp/>()</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46" refid="category_a2_block_invocation_07_08_1a0bf2b99ce99a0528b54ad0eadd3b8d8c" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>readonly)<sp/>NSMethodSignature<sp/>*blockSignature;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50" refid="class_a2_block_invocation" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">@implementation<sp/></highlight><highlight class="normal"><ref refid="class_a2_block_invocation" kindref="compound">A2BlockInvocation</ref></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal">+<sp/>(BOOL)isSignature:(NSMethodSignature<sp/>*)signatureA<sp/>compatibleWithSignature:(NSMethodSignature<sp/>*)signatureB<sp/>__attribute__((pure))</highlight></codeline>
+<codeline lineno="63"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!signatureA<sp/>||<sp/>!signatureB)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>NO;</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>([signatureA<sp/>isEqual:signatureB])<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>YES;</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!<ref refid="_a2_block_invocation_8m_1ade6a26967e532f8bcfd46e21a16150f2" kindref="member">typesCompatible</ref>(signatureA.methodReturnType,<sp/>signatureB.methodReturnType))<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>NO;</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/>NSMethodSignature<sp/>*<ref refid="class_a2_block_invocation_1a65f8b92237ea6135b7615830fb86ddeb" kindref="member">methodSignature</ref><sp/>=<sp/>nil,<sp/>*blockSignature<sp/>=<sp/>nil;</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(signatureA.numberOfArguments<sp/>&gt;<sp/>signatureB.numberOfArguments)<sp/>{</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_a2_block_invocation_1a65f8b92237ea6135b7615830fb86ddeb" kindref="member">methodSignature</ref><sp/>=<sp/>signatureA;</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>blockSignature<sp/>=<sp/>signatureB;</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(signatureB.numberOfArguments<sp/>&gt;<sp/>signatureA.numberOfArguments)<sp/>{</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_a2_block_invocation_1a65f8b92237ea6135b7615830fb86ddeb" kindref="member">methodSignature</ref><sp/>=<sp/>signatureB;</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>blockSignature<sp/>=<sp/>signatureA;</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>NO;</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/>NSUInteger<sp/>numberOfArguments<sp/>=<sp/><ref refid="class_a2_block_invocation_1a65f8b92237ea6135b7615830fb86ddeb" kindref="member">methodSignature</ref>.numberOfArguments;</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(NSUInteger<sp/>i<sp/>=<sp/>2;<sp/>i<sp/>&lt;<sp/>numberOfArguments;<sp/>i++)<sp/>{</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!<ref refid="_a2_block_invocation_8m_1ade6a26967e532f8bcfd46e21a16150f2" kindref="member">typesCompatible</ref>([<ref refid="class_a2_block_invocation_1a65f8b92237ea6135b7615830fb86ddeb" kindref="member">methodSignature</ref><sp/>getArgumentTypeAtIndex:i],<sp/>[blockSignature<sp/>getArgumentTypeAtIndex:i<sp/>-<sp/>1]))<sp/>{</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>NO;</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>YES;</highlight></codeline>
+<codeline lineno="87"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal">+<sp/>(NSMethodSignature<sp/>*)typeSignatureForBlock:(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)block<sp/>__attribute__((pure,<sp/><ref refid="_b_k_defines_8h_1a1a7066a31c058653905186805a59f858" kindref="member">nonnull</ref>(1)))</highlight></codeline>
+<codeline lineno="99"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct___b_k_block" kindref="compound">BKBlockRef</ref><sp/>layout<sp/>=<sp/>(__bridge<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*)<ref refid="class_a2_block_invocation_1a2816454241d99d2da43c35d51691acb4" kindref="member">block</ref>;</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!(layout-&gt;<ref refid="struct___b_k_block_1a479bde9049bac6b6b14f5ea4cbb078e0" kindref="member">flags</ref><sp/>&amp;<sp/>BKBlockFlagsHasSignature))</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>nil;</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*desc<sp/>=<sp/>layout-&gt;<ref refid="struct___b_k_block_1abcbc022ea5bccc4cde62f03da06e9d3d" kindref="member">descriptor</ref>;</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/>desc<sp/>+=<sp/>2<sp/>*<sp/>sizeof(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>int);</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(layout-&gt;<ref refid="struct___b_k_block_1a479bde9049bac6b6b14f5ea4cbb078e0" kindref="member">flags</ref><sp/>&amp;<sp/>BKBlockFlagsHasCopyDisposeHelpers)</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>desc<sp/>+=<sp/>2<sp/>*<sp/>sizeof(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*);</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!desc)</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>nil;</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*signature<sp/>=<sp/>(*(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>**)desc);</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[NSMethodSignature<sp/>signatureWithObjCTypes:signature];</highlight></codeline>
+<codeline lineno="117"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal">+<sp/>(NSMethodSignature<sp/>*)methodSignatureForBlockSignature:(NSMethodSignature<sp/>*)original</highlight></codeline>
+<codeline lineno="121"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!original)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>nil;</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(original.numberOfArguments<sp/>&lt;<sp/>1)<sp/>{</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>nil;</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(original.numberOfArguments<sp/>&gt;=<sp/>2<sp/>&amp;&amp;<sp/>strcmp(@encode(</highlight><highlight class="keywordtype">SEL</highlight><highlight class="normal">),<sp/>[original<sp/>getArgumentTypeAtIndex:1])<sp/>==<sp/>0)<sp/>{</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>original;</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>initial<sp/>capacity<sp/>is<sp/>num.<sp/>arguments<sp/>-<sp/>1<sp/>(@?<sp/>-&gt;<sp/>@)<sp/>+<sp/>1<sp/>(:)<sp/>+<sp/>1<sp/>(ret<sp/>type)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>optimistically<sp/>assuming<sp/>most<sp/>signature<sp/>components<sp/>are<sp/>char[1]</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/>NSMutableString<sp/>*signature<sp/>=<sp/>[[NSMutableString<sp/>alloc]<sp/>initWithCapacity:original.numberOfArguments<sp/>+<sp/>1];</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*retTypeStr<sp/>=<sp/>original.methodReturnType;</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/>[signature<sp/>appendFormat:@&quot;%s%s%s&quot;,<sp/>retTypeStr,<sp/>@encode(id),<sp/>@encode(SEL)];</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(NSUInteger<sp/>i<sp/>=<sp/>1;<sp/>i<sp/>&lt;<sp/>original.numberOfArguments;<sp/>i++)<sp/>{</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*typeStr<sp/>=<sp/>[original<sp/>getArgumentTypeAtIndex:i];</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NSString<sp/>*type<sp/>=<sp/>[[NSString<sp/>alloc]<sp/>initWithBytesNoCopy:(void<sp/>*)typeStr<sp/>length:strlen(typeStr)<sp/>encoding:NSUTF8StringEncoding<sp/>freeWhenDone:NO];</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[signature<sp/>appendString:type];</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[NSMethodSignature<sp/>signatureWithObjCTypes:signature.UTF8String];</highlight></codeline>
+<codeline lineno="146"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight></codeline>
+<codeline lineno="148" refid="class_a2_block_invocation_1a37dbc2e2b89e6c4b57884e2b48a174d1" refkind="member"><highlight class="normal">+<sp/>(NSMethodSignature<sp/>*)methodSignatureForBlock:(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)block</highlight></codeline>
+<codeline lineno="149"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/>NSMethodSignature<sp/>*original<sp/>=<sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>typeSignatureForBlock:block];</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!original)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>nil;</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>methodSignatureForBlockSignature:original];</highlight></codeline>
+<codeline lineno="153"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight></codeline>
+<codeline lineno="155"><highlight class="normal">-<sp/>(instancetype)initWithBlock:(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)block<sp/>methodSignature:(NSMethodSignature<sp/>*)methodSignature<sp/>blockSignature:(NSMethodSignature<sp/>*)blockSignature</highlight></codeline>
+<codeline lineno="156"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>=<sp/>[</highlight><highlight class="keyword">super</highlight><highlight class="normal"><sp/>init];</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">self</highlight><highlight class="normal">)<sp/>{</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_block<sp/>=<sp/>[block<sp/>copy];</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_methodSignature<sp/>=<sp/><ref refid="class_a2_block_invocation_1a65f8b92237ea6135b7615830fb86ddeb" kindref="member">methodSignature</ref>;</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_blockSignature<sp/>=<sp/>blockSignature;</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="164"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"></highlight></codeline>
+<codeline lineno="166" refid="class_a2_block_invocation_1ab0418d04b694400d61a196cd0435298c" refkind="member"><highlight class="normal">-<sp/>(instancetype)initWithBlock:(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)block</highlight></codeline>
+<codeline lineno="167"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/>NSParameterAssert(block);</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/>NSMethodSignature<sp/>*blockSignature<sp/>=<sp/>[[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>class]<sp/>typeSignatureForBlock:block];</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/>NSMethodSignature<sp/>*methodSignature<sp/>=<sp/>[[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>class]<sp/>methodSignatureForBlockSignature:blockSignature];</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/>NSAssert(methodSignature,<sp/></highlight><highlight class="stringliteral">@&quot;Incompatible<sp/>block:<sp/>%@&quot;</highlight><highlight class="normal">,<sp/>block);</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>=<sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>initWithBlock:block<sp/>methodSignature:methodSignature<sp/>blockSignature:blockSignature]);</highlight></codeline>
+<codeline lineno="173"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"></highlight></codeline>
+<codeline lineno="175" refid="class_a2_block_invocation_1ab7f174b30b7f9dcd12d13f69f1e49243" refkind="member"><highlight class="normal">-<sp/>(instancetype)initWithBlock:(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)block<sp/>methodSignature:(NSMethodSignature<sp/>*)methodSignature</highlight></codeline>
+<codeline lineno="176"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/>NSParameterAssert(block);</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/>NSMethodSignature<sp/>*blockSignature<sp/>=<sp/>[[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>class]<sp/>typeSignatureForBlock:block];</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(![[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal">]<sp/>isSignature:methodSignature<sp/>compatibleWithSignature:blockSignature])<sp/>{</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">@throw</highlight><highlight class="normal"><sp/>[NSException<sp/>exceptionWithName:NSInvalidArgumentException<sp/>reason:@&quot;Attempted<sp/>to<sp/>create<sp/>block<sp/>invocation<sp/>with<sp/>incompatible<sp/>signatures&quot;<sp/>userInfo:@{A2IncompatibleMethodSignatureKey:<sp/>methodSignature}];</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>=<sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>initWithBlock:block<sp/>methodSignature:methodSignature<sp/>blockSignature:blockSignature]);</highlight></codeline>
+<codeline lineno="183"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"></highlight></codeline>
+<codeline lineno="185"><highlight class="normal">-<sp/>(BOOL)invokeWithInvocation:(NSInvocation<sp/>*)outerInv<sp/>returnValue:(out<sp/>NSValue<sp/>**)outReturnValue<sp/>setOnInvocation:(BOOL)setOnInvocation</highlight></codeline>
+<codeline lineno="186"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/>NSParameterAssert(outerInv);</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"></highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/>NSMethodSignature<sp/>*sig<sp/>=<sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.methodSignature;</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"></highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(![outerInv.methodSignature<sp/>isEqual:sig])<sp/>{</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NSAssert(0,<sp/></highlight><highlight class="stringliteral">@&quot;Attempted<sp/>to<sp/>invoke<sp/>block<sp/>invocation<sp/>with<sp/>incompatible<sp/>frame&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>NO;</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"></highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/>NSInvocation<sp/>*innerInv<sp/>=<sp/>[NSInvocation<sp/>invocationWithMethodSignature:self.blockSignature];</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"></highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*argBuf<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"></highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(NSUInteger<sp/>i<sp/>=<sp/>2;<sp/>i<sp/>&lt;<sp/>sig.numberOfArguments;<sp/>i++)<sp/>{</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*type<sp/>=<sp/>[sig<sp/>getArgumentTypeAtIndex:i];</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NSUInteger<sp/>argSize;</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NSGetSizeAndAlignment(type,<sp/>&amp;argSize,<sp/>NULL);</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"></highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!(argBuf<sp/>=<sp/>reallocf(argBuf,<sp/>argSize)))<sp/>{</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>NO;</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"></highlight></codeline>
+<codeline lineno="209"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[outerInv<sp/>getArgument:argBuf<sp/>atIndex:i];</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[innerInv<sp/>setArgument:argBuf<sp/>atIndex:i<sp/>-<sp/>1];</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"></highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/><sp/><sp/>[innerInv<sp/>invokeWithTarget:self.block];</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"></highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><sp/><sp/><sp/><sp/>NSUInteger<sp/>retSize<sp/>=<sp/>sig.methodReturnLength;</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(retSize)<sp/>{</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(outReturnValue<sp/>||<sp/>setOnInvocation)<sp/>{</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!(argBuf<sp/>=<sp/>reallocf(argBuf,<sp/>retSize)))<sp/>{</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>NO;</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"></highlight></codeline>
+<codeline lineno="222"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[innerInv<sp/>getReturnValue:argBuf];</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"></highlight></codeline>
+<codeline lineno="224"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(setOnInvocation)<sp/>{</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[outerInv<sp/>setReturnValue:argBuf];</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="227"><highlight class="normal"></highlight></codeline>
+<codeline lineno="228"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(outReturnValue)<sp/>{</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*outReturnValue<sp/>=<sp/>[NSValue<sp/>valueWithBytes:argBuf<sp/>objCType:sig.methodReturnType];</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(outReturnValue)<sp/>{</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*outReturnValue<sp/>=<sp/>nil;</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="236"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="237"><highlight class="normal"></highlight></codeline>
+<codeline lineno="238"><highlight class="normal"><sp/><sp/><sp/><sp/>free(argBuf);</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"></highlight></codeline>
+<codeline lineno="240"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>YES;</highlight></codeline>
+<codeline lineno="241"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"></highlight></codeline>
+<codeline lineno="243" refid="class_a2_block_invocation_1aa0e34d21caa34f802163e54ce67c1021" refkind="member"><highlight class="normal">-<sp/>(void)invokeWithInvocation:(NSInvocation<sp/>*)inv</highlight></codeline>
+<codeline lineno="244"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="245"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>invokeWithInvocation:inv<sp/>returnValue:NULL<sp/>setOnInvocation:YES];</highlight></codeline>
+<codeline lineno="246"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="247"><highlight class="normal"></highlight></codeline>
+<codeline lineno="248"><highlight class="normal">-<sp/>(BOOL)invokeWithInvocation:(NSInvocation<sp/>*)inv<sp/>returnValue:(out<sp/>NSValue<sp/>**)returnValue</highlight></codeline>
+<codeline lineno="249"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="250"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>invokeWithInvocation:inv<sp/>returnValue:returnValue<sp/>setOnInvocation:NO];</highlight></codeline>
+<codeline lineno="251"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="252"><highlight class="normal"></highlight></codeline>
+<codeline lineno="253"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/DynamicDelegate/A2BlockInvocation.m"/>
+  </compounddef>
+</doxygen>

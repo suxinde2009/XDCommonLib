@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_x_d_multicast_delegate_07_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>XDMulticastDelegate()</compoundname>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="category_x_d_multicast_delegate_07_08_1a1f37e074e33de9dca0825e737ca51d6a" prot="protected" static="no" mutable="no">
+        <type>NSMutableArray *</type>
+        <definition>NSMutableArray* XDMulticastDelegate()::delegateNodes</definition>
+        <argsstring></argsstring>
+        <name>delegateNodes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDMulticastDelegate/XDMulticastDelegate.m" line="94" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDMulticastDelegate/XDMulticastDelegate.m" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="category_x_d_multicast_delegate_07_08_1a5c6cd87351e7e37a55a14dd180d61fb2" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSInvocation *</type>
+        <definition>NSInvocation * XDMulticastDelegate()::duplicateInvocation:</definition>
+        <argsstring>(NSInvocation *origInvocation)</argsstring>
+        <name>duplicateInvocation:</name>
+        <param>
+          <type>NSInvocation *</type>
+          <declname>origInvocation</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDMulticastDelegate/XDMulticastDelegate.m" line="94" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDMulticastDelegate/XDMulticastDelegate.m" line="93" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDMulticastDelegate/XDMulticastDelegate.m" bodystart="92" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_x_d_multicast_delegate_07_08_1a1f37e074e33de9dca0825e737ca51d6a" prot="protected" virt="non-virtual"><scope>XDMulticastDelegate()</scope><name>delegateNodes</name></member>
+      <member refid="category_x_d_multicast_delegate_07_08_1a5c6cd87351e7e37a55a14dd180d61fb2" prot="public" virt="virtual"><scope>XDMulticastDelegate()</scope><name>duplicateInvocation:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

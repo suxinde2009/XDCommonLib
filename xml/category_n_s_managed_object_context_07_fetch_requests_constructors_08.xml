@@ -1,0 +1,189 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_n_s_managed_object_context_07_fetch_requests_constructors_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>NSManagedObjectContext(FetchRequestsConstructors)</compoundname>
+    <includes refid="_n_s_managed_object_context_09_fetch_requests_constructors_8h" local="no">NSManagedObjectContext+FetchRequestsConstructors.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="category_n_s_managed_object_context_07_fetch_requests_constructors_08_1a68f136a472d9b4e8cb1704a28f6cf50c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSFetchRequest *</type>
+        <definition>NSFetchRequest * NSManagedObjectContext(FetchRequestsConstructors)::fetchRequestForEntityObject:usingValue:forKey:returningAsFault:</definition>
+        <argsstring>(NSString *entityName,[usingValue] id value,[forKey] NSString *key,[returningAsFault] BOOL fault)</argsstring>
+        <name>fetchRequestForEntityObject:usingValue:forKey:returningAsFault:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>entityName</declname>
+        </param>
+        <param>
+          <attributes>[usingValue]</attributes>
+          <type>id</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <attributes>[forKey]</attributes>
+          <type>NSString *</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <attributes>[returningAsFault]</attributes>
+          <type>BOOL</type>
+          <declname>fault</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSManagedObjectContext/NSManagedObjectContext+FetchRequestsConstructors.h" line="20" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSManagedObjectContext/NSManagedObjectContext+FetchRequestsConstructors.m" bodystart="15" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_managed_object_context_07_fetch_requests_constructors_08_1ad8a26509ff5e3c956e3d8fa47f0170cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSFetchRequest *</type>
+        <definition>NSFetchRequest * NSManagedObjectContext(FetchRequestsConstructors)::fetchRequestForEntityObject:usingPredicate:returningAsFault:</definition>
+        <argsstring>(NSString *entityName,[usingPredicate] NSPredicate *predicate,[returningAsFault] BOOL fault)</argsstring>
+        <name>fetchRequestForEntityObject:usingPredicate:returningAsFault:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>entityName</declname>
+        </param>
+        <param>
+          <attributes>[usingPredicate]</attributes>
+          <type>NSPredicate *</type>
+          <declname>predicate</declname>
+        </param>
+        <param>
+          <attributes>[returningAsFault]</attributes>
+          <type>BOOL</type>
+          <declname>fault</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSManagedObjectContext/NSManagedObjectContext+FetchRequestsConstructors.h" line="20" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSManagedObjectContext/NSManagedObjectContext+FetchRequestsConstructors.m" bodystart="28" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_managed_object_context_07_fetch_requests_constructors_08_1a35d4fa85d8ee596344dd4bbeb4008cf6" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSFetchRequest *</type>
+        <definition>NSFetchRequest * NSManagedObjectContext(FetchRequestsConstructors)::fetchRequestForEntityObjects:returningAsFault:</definition>
+        <argsstring>(NSString *entityName,[returningAsFault] BOOL fault)</argsstring>
+        <name>fetchRequestForEntityObjects:returningAsFault:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>entityName</declname>
+        </param>
+        <param>
+          <attributes>[returningAsFault]</attributes>
+          <type>BOOL</type>
+          <declname>fault</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSManagedObjectContext/NSManagedObjectContext+FetchRequestsConstructors.h" line="20" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSManagedObjectContext/NSManagedObjectContext+FetchRequestsConstructors.m" bodystart="41" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_managed_object_context_07_fetch_requests_constructors_08_1a972136b6450d669573a31d19ddb9b790" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSFetchRequest *</type>
+        <definition>NSFetchRequest * NSManagedObjectContext(FetchRequestsConstructors)::fetchRequestForEntityObjects:usingPredicate:returningAsFault:</definition>
+        <argsstring>(NSString *entityName,[usingPredicate] NSPredicate *predicate,[returningAsFault] BOOL fault)</argsstring>
+        <name>fetchRequestForEntityObjects:usingPredicate:returningAsFault:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>entityName</declname>
+        </param>
+        <param>
+          <attributes>[usingPredicate]</attributes>
+          <type>NSPredicate *</type>
+          <declname>predicate</declname>
+        </param>
+        <param>
+          <attributes>[returningAsFault]</attributes>
+          <type>BOOL</type>
+          <declname>fault</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSManagedObjectContext/NSManagedObjectContext+FetchRequestsConstructors.h" line="20" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSManagedObjectContext/NSManagedObjectContext+FetchRequestsConstructors.m" bodystart="50" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_managed_object_context_07_fetch_requests_constructors_08_1abdfb6d3f6a0ccc2299ca1962dc7b4573" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSFetchRequest *</type>
+        <definition>NSFetchRequest * NSManagedObjectContext(FetchRequestsConstructors)::fetchRequestForEntityObjects:usingSortDescriptors:returningAsFault:</definition>
+        <argsstring>(NSString *entityName,[usingSortDescriptors] NSArray *sortDescriptors,[returningAsFault] BOOL fault)</argsstring>
+        <name>fetchRequestForEntityObjects:usingSortDescriptors:returningAsFault:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>entityName</declname>
+        </param>
+        <param>
+          <attributes>[usingSortDescriptors]</attributes>
+          <type>NSArray *</type>
+          <declname>sortDescriptors</declname>
+        </param>
+        <param>
+          <attributes>[returningAsFault]</attributes>
+          <type>BOOL</type>
+          <declname>fault</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSManagedObjectContext/NSManagedObjectContext+FetchRequestsConstructors.h" line="20" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSManagedObjectContext/NSManagedObjectContext+FetchRequestsConstructors.m" bodystart="58" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_managed_object_context_07_fetch_requests_constructors_08_1a529b80780d61d3b6b5e3bde6ddf0c40d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSFetchRequest *</type>
+        <definition>NSFetchRequest * NSManagedObjectContext(FetchRequestsConstructors)::fetchRequestForEntityObjects:usingPredicate:usingSortDescriptors:returningAsFault:</definition>
+        <argsstring>(NSString *entityName,[usingPredicate] NSPredicate *predicate,[usingSortDescriptors] NSArray *sortDescriptors,[returningAsFault] BOOL fault)</argsstring>
+        <name>fetchRequestForEntityObjects:usingPredicate:usingSortDescriptors:returningAsFault:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>entityName</declname>
+        </param>
+        <param>
+          <attributes>[usingPredicate]</attributes>
+          <type>NSPredicate *</type>
+          <declname>predicate</declname>
+        </param>
+        <param>
+          <attributes>[usingSortDescriptors]</attributes>
+          <type>NSArray *</type>
+          <declname>sortDescriptors</declname>
+        </param>
+        <param>
+          <attributes>[returningAsFault]</attributes>
+          <type>BOOL</type>
+          <declname>fault</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSManagedObjectContext/NSManagedObjectContext+FetchRequestsConstructors.h" line="20" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSManagedObjectContext/NSManagedObjectContext+FetchRequestsConstructors.m" bodystart="66" bodyend="77"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSManagedObjectContext/NSManagedObjectContext+FetchRequestsConstructors.m" line="13" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSManagedObjectContext/NSManagedObjectContext+FetchRequestsConstructors.m" bodystart="13" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_n_s_managed_object_context_07_fetch_requests_constructors_08_1ad8a26509ff5e3c956e3d8fa47f0170cb" prot="public" virt="virtual"><scope>NSManagedObjectContext(FetchRequestsConstructors)</scope><name>fetchRequestForEntityObject:usingPredicate:returningAsFault:</name></member>
+      <member refid="category_n_s_managed_object_context_07_fetch_requests_constructors_08_1a68f136a472d9b4e8cb1704a28f6cf50c" prot="public" virt="virtual"><scope>NSManagedObjectContext(FetchRequestsConstructors)</scope><name>fetchRequestForEntityObject:usingValue:forKey:returningAsFault:</name></member>
+      <member refid="category_n_s_managed_object_context_07_fetch_requests_constructors_08_1a35d4fa85d8ee596344dd4bbeb4008cf6" prot="public" virt="virtual"><scope>NSManagedObjectContext(FetchRequestsConstructors)</scope><name>fetchRequestForEntityObjects:returningAsFault:</name></member>
+      <member refid="category_n_s_managed_object_context_07_fetch_requests_constructors_08_1a972136b6450d669573a31d19ddb9b790" prot="public" virt="virtual"><scope>NSManagedObjectContext(FetchRequestsConstructors)</scope><name>fetchRequestForEntityObjects:usingPredicate:returningAsFault:</name></member>
+      <member refid="category_n_s_managed_object_context_07_fetch_requests_constructors_08_1a529b80780d61d3b6b5e3bde6ddf0c40d" prot="public" virt="virtual"><scope>NSManagedObjectContext(FetchRequestsConstructors)</scope><name>fetchRequestForEntityObjects:usingPredicate:usingSortDescriptors:returningAsFault:</name></member>
+      <member refid="category_n_s_managed_object_context_07_fetch_requests_constructors_08_1abdfb6d3f6a0ccc2299ca1962dc7b4573" prot="public" virt="virtual"><scope>NSManagedObjectContext(FetchRequestsConstructors)</scope><name>fetchRequestForEntityObjects:usingSortDescriptors:returningAsFault:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

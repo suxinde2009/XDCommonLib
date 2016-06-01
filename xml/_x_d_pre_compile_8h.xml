@@ -1,0 +1,728 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_x_d_pre_compile_8h" kind="file" language="C++">
+    <compoundname>XDPreCompile.h</compoundname>
+    <includes local="no">stdio.h</includes>
+    <includes local="no">stdlib.h</includes>
+    <includes local="no">stdint.h</includes>
+    <includes local="no">string.h</includes>
+    <includes local="no">assert.h</includes>
+    <includes local="no">errno.h</includes>
+    <includes local="no">sys/errno.h</includes>
+    <includes local="no">sys/sockio.h</includes>
+    <includes local="no">sys/ioctl.h</includes>
+    <includes local="no">sys/types.h</includes>
+    <includes local="no">sys/socket.h</includes>
+    <includes local="no">math.h</includes>
+    <includes local="no">unistd.h</includes>
+    <includes local="no">limits.h</includes>
+    <includes local="no">execinfo.h</includes>
+    <includes local="no">netdb.h</includes>
+    <includes local="no">net/if.h</includes>
+    <includes local="no">net/if_dl.h</includes>
+    <includes local="no">netinet/in.h</includes>
+    <includes local="no">arpa/inet.h</includes>
+    <includes local="no">ifaddrs.h</includes>
+    <includes local="no">mach/mach.h</includes>
+    <includes local="no">malloc/malloc.h</includes>
+    <includes local="no">mach/mach_host.h</includes>
+    <includedby refid="_x_d_performance_8h" local="yes">XDCommonLib/CommonBasicComponentLayer/Debug/XDPerformance.h</includedby>
+    <includedby refid="_x_d_pre_compile_8m" local="yes">XDCommonLib/CommonBasicComponentLayer/XDPreCompile.m</includedby>
+    <incdepgraph>
+      <node id="3680">
+        <label>mach/mach_host.h</label>
+      </node>
+      <node id="3675">
+        <label>netinet/in.h</label>
+      </node>
+      <node id="3676">
+        <label>arpa/inet.h</label>
+      </node>
+      <node id="3661">
+        <label>assert.h</label>
+      </node>
+      <node id="3673">
+        <label>net/if.h</label>
+      </node>
+      <node id="3663">
+        <label>sys/errno.h</label>
+      </node>
+      <node id="3659">
+        <label>stdint.h</label>
+      </node>
+      <node id="3658">
+        <label>stdlib.h</label>
+      </node>
+      <node id="3678">
+        <label>mach/mach.h</label>
+      </node>
+      <node id="3662">
+        <label>errno.h</label>
+      </node>
+      <node id="3679">
+        <label>malloc/malloc.h</label>
+      </node>
+      <node id="3674">
+        <label>net/if_dl.h</label>
+      </node>
+      <node id="3665">
+        <label>sys/ioctl.h</label>
+      </node>
+      <node id="3672">
+        <label>netdb.h</label>
+      </node>
+      <node id="3670">
+        <label>limits.h</label>
+      </node>
+      <node id="3677">
+        <label>ifaddrs.h</label>
+      </node>
+      <node id="3666">
+        <label>sys/types.h</label>
+      </node>
+      <node id="3656">
+        <label>XDCommonLib/CommonBasicComponentLayer/XDPreCompile.h</label>
+        <link refid="XDPreCompile.h"/>
+        <childnode refid="3657" relation="include">
+        </childnode>
+        <childnode refid="3658" relation="include">
+        </childnode>
+        <childnode refid="3659" relation="include">
+        </childnode>
+        <childnode refid="3660" relation="include">
+        </childnode>
+        <childnode refid="3661" relation="include">
+        </childnode>
+        <childnode refid="3662" relation="include">
+        </childnode>
+        <childnode refid="3663" relation="include">
+        </childnode>
+        <childnode refid="3664" relation="include">
+        </childnode>
+        <childnode refid="3665" relation="include">
+        </childnode>
+        <childnode refid="3666" relation="include">
+        </childnode>
+        <childnode refid="3667" relation="include">
+        </childnode>
+        <childnode refid="3668" relation="include">
+        </childnode>
+        <childnode refid="3669" relation="include">
+        </childnode>
+        <childnode refid="3670" relation="include">
+        </childnode>
+        <childnode refid="3671" relation="include">
+        </childnode>
+        <childnode refid="3672" relation="include">
+        </childnode>
+        <childnode refid="3673" relation="include">
+        </childnode>
+        <childnode refid="3674" relation="include">
+        </childnode>
+        <childnode refid="3675" relation="include">
+        </childnode>
+        <childnode refid="3676" relation="include">
+        </childnode>
+        <childnode refid="3677" relation="include">
+        </childnode>
+        <childnode refid="3678" relation="include">
+        </childnode>
+        <childnode refid="3679" relation="include">
+        </childnode>
+        <childnode refid="3680" relation="include">
+        </childnode>
+      </node>
+      <node id="3660">
+        <label>string.h</label>
+      </node>
+      <node id="3669">
+        <label>unistd.h</label>
+      </node>
+      <node id="3664">
+        <label>sys/sockio.h</label>
+      </node>
+      <node id="3668">
+        <label>math.h</label>
+      </node>
+      <node id="3667">
+        <label>sys/socket.h</label>
+      </node>
+      <node id="3657">
+        <label>stdio.h</label>
+      </node>
+      <node id="3671">
+        <label>execinfo.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3682">
+        <label>XDCommonLib/CommonBasicComponentLayer/Debug/XDPerformance.h</label>
+        <link refid="_x_d_performance_8h"/>
+        <childnode refid="3683" relation="include">
+        </childnode>
+      </node>
+      <node id="3683">
+        <label>XDCommonLib/CommonBasicComponentLayer/Debug/XDPerformance.m</label>
+        <link refid="_x_d_performance_8m"/>
+      </node>
+      <node id="3681">
+        <label>XDCommonLib/CommonBasicComponentLayer/XDPreCompile.h</label>
+        <link refid="XDPreCompile.h"/>
+        <childnode refid="3682" relation="include">
+        </childnode>
+        <childnode refid="3684" relation="include">
+        </childnode>
+      </node>
+      <node id="3684">
+        <label>XDCommonLib/CommonBasicComponentLayer/XDPreCompile.m</label>
+        <link refid="_x_d_pre_compile_8m"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="_x_d_pre_compile_8h_1a31c394abd362c1665c526f2ee8d067ed" prot="public" static="no">
+        <name>__XD_DEBUG__</name>
+        <initializer>(1)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/XDPreCompile.h" line="86" column="9" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/XDPreCompile.h" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_x_d_pre_compile_8h_1a3cec80b44cd69e68dc8cba2d1c1ed781" prot="public" static="no">
+        <name>__XD_DEBUG_SHOWBORDER__</name>
+        <initializer>(0)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/XDPreCompile.h" line="89" column="9" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/XDPreCompile.h" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_x_d_pre_compile_8h_1ac6f7255a1b7e0f03c7582516ec697b60" prot="public" static="no">
+        <name>__XD_UNITTESTING__</name>
+        <initializer>(1)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/XDPreCompile.h" line="92" column="10" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/XDPreCompile.h" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_x_d_pre_compile_8h_1a4b1921843d489c026f767443b006a99a" prot="public" static="no">
+        <name>__XD_PERFORMANCE__</name>
+        <initializer>(1)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/XDPreCompile.h" line="95" column="9" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/XDPreCompile.h" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_x_d_pre_compile_8h_1abf801cf1fad62f29f69bb0bda6650c4c" prot="public" static="no">
+        <name>__Class_Deprecated__</name>
+        <initializer><ref refid="_p_k_protocol_extension_8m_1ab1f0134a8e50225975b78c8472160902" kindref="member">__attribute__</ref>((deprecated))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/XDPreCompile.h" line="133" column="9" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/XDPreCompile.h" bodystart="133" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_x_d_pre_compile_8h_1aa525aa5587385e60662880dae235c51e" prot="public" static="no">
+        <name>__Property_Deprecated__</name>
+        <initializer><ref refid="_p_k_protocol_extension_8m_1ab1f0134a8e50225975b78c8472160902" kindref="member">__attribute__</ref>((deprecated))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/XDPreCompile.h" line="137" column="9" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/XDPreCompile.h" bodystart="137" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_x_d_pre_compile_8h_1a9dbeff8549da320031522bdcf2e829a9" prot="public" static="no">
+        <name>__Method_Deprecated__</name>
+        <initializer><ref refid="_p_k_protocol_extension_8m_1ab1f0134a8e50225975b78c8472160902" kindref="member">__attribute__</ref>((deprecated))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/XDPreCompile.h" line="141" column="9" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/XDPreCompile.h" bodystart="141" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_x_d_pre_compile_8h_1afc66c36d64210ad0dac791c9ec32b16d" prot="public" static="no">
+        <name>AS_SINGLETON</name>
+        <param><defname>__class</defname></param>
+        <initializer>- (__class *)sharedInstance; \
+            + (__class *)sharedInstance;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/XDPreCompile.h" line="190" column="18" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/XDPreCompile.h" bodystart="190" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_x_d_pre_compile_8h_1a6bf77b62a0fa38c47888b05396f71225" prot="public" static="no">
+        <name>DEF_SINGLETON</name>
+        <param><defname>__class</defname></param>
+        <initializer>- (__class *)sharedInstance \
+            { \
+                return [__class sharedInstance]; \
+            } \
+            + (__class *)sharedInstance \
+            { \
+                static dispatch_once_t once; \
+                static __class * __singleton__; \
+                dispatch_once( &amp;once, ^{ __singleton__ = [[[self class] alloc] init]; } ); \
+                return __singleton__; \
+            }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/XDPreCompile.h" line="195" column="34" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/XDPreCompile.h" bodystart="195" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_x_d_pre_compile_8h_1a39da4515946efc2351648a01b946f77f" prot="public" static="no">
+        <name>XD_ONCE_BEGIN</name>
+        <param><defname>__name</defname></param>
+        <initializer>static dispatch_once_t once_##__name; \
+dispatch_once( &amp;once_##__name , ^{</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/XDPreCompile.h" line="217" column="10" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/XDPreCompile.h" bodystart="217" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_x_d_pre_compile_8h_1abd61adc216f91f16e274c5c5261dc49a" prot="public" static="no">
+        <name>XD_ONCE_END</name>
+        <initializer>});</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/XDPreCompile.h" line="222" column="10" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/XDPreCompile.h" bodystart="222" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_x_d_pre_compile_8h_1a3b9b2e5238141b95064479048b5286be" prot="public" static="no">
+        <name>XDUserDefalutsSetObjctetForKey</name>
+        <param><defname>__Obj__</defname></param>
+        <param><defname>__Key__</defname></param>
+        <initializer>NSUserDefaults *prefs = [NSUserDefaults standardUserDefaults]; \
+        [prefs setObject: __Obj__ forKey: __Key__]; \
+        [prefs synchronize];</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/XDPreCompile.h" line="227" column="9" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/XDPreCompile.h" bodystart="227" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_x_d_pre_compile_8h_1ae7b3bad2344e6c774615140c665af7d6" prot="public" static="no">
+        <name>XDUserDefalutsSetIntegerForKey</name>
+        <param><defname>__Integer__</defname></param>
+        <param><defname>__Key__</defname></param>
+        <initializer>NSUserDefaults *prefs = [NSUserDefaults standardUserDefaults]; \
+        [prefs setInteger: __Integer__ forKey: __Key__]; \
+        [prefs synchronize];</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/XDPreCompile.h" line="232" column="9" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/XDPreCompile.h" bodystart="232" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_x_d_pre_compile_8h_1ae77da632d14f0686f0c27df32efb0308" prot="public" static="no">
+        <name>XDUserDefalutsSetFloatForKey</name>
+        <param><defname>__Float__</defname></param>
+        <param><defname>__Key__</defname></param>
+        <initializer>NSUserDefaults *prefs = [NSUserDefaults standardUserDefaults]; \
+        [prefs setFloat: __Float__ forKey: __Key__]; \
+        [prefs synchronize];</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/XDPreCompile.h" line="237" column="9" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/XDPreCompile.h" bodystart="237" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_x_d_pre_compile_8h_1a7dd06fc7deb3a8501d21ffc0a9905c63" prot="public" static="no">
+        <name>XDUserDefalutsSetDoubleForKey</name>
+        <param><defname>__Double__</defname></param>
+        <param><defname>__Key__</defname></param>
+        <initializer>NSUserDefaults *prefs = [NSUserDefaults standardUserDefaults]; \
+        [prefs setDouble: __Double__ forKey: __Key__]; \
+        [prefs synchronize];</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/XDPreCompile.h" line="242" column="9" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/XDPreCompile.h" bodystart="242" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_x_d_pre_compile_8h_1a312f02c11e423218805f72e3ced136ab" prot="public" static="no">
+        <name>XDUserDefalutsSetBoolForKey</name>
+        <param><defname>__Bool__</defname></param>
+        <param><defname>__Key__</defname></param>
+        <initializer>NSUserDefaults *prefs = [NSUserDefaults standardUserDefaults]; \
+        [prefs setBool: __Bool__ forKey: __Key__]; \
+        [prefs synchronize];</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/XDPreCompile.h" line="247" column="9" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/XDPreCompile.h" bodystart="247" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_x_d_pre_compile_8h_1a381ce6037c0099349449a620ba07e948" prot="public" static="no">
+        <name>XDUserDefaultsObjectForKey</name>
+        <param><defname>__Key__</defname></param>
+        <initializer>[[NSUserDefaults standardUserDefaults] objectForKey: __Key__];</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/XDPreCompile.h" line="254" column="9" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/XDPreCompile.h" bodystart="254" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_x_d_pre_compile_8h_1a79faeb21e2d9bd60ceec3743df8f3df0" prot="public" static="no">
+        <name>XDUserDefaultsIntegerForKey</name>
+        <param><defname>__Key__</defname></param>
+        <initializer>[[NSUserDefaults standardUserDefaults] integerForKey: __Key__];</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/XDPreCompile.h" line="257" column="9" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/XDPreCompile.h" bodystart="257" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_x_d_pre_compile_8h_1a6a31cb523eabd464611ed6110cf27661" prot="public" static="no">
+        <name>XDUserDefaultsFloatForKey</name>
+        <param><defname>__Key__</defname></param>
+        <initializer>[[NSUserDefaults standardUserDefaults] floatForKey: __Key__];</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/XDPreCompile.h" line="260" column="9" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/XDPreCompile.h" bodystart="260" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_x_d_pre_compile_8h_1a7346bd16947f66cee5653869eac45306" prot="public" static="no">
+        <name>XDUserDefaultsDoubleForKey</name>
+        <param><defname>__Key__</defname></param>
+        <initializer>[[NSUserDefaults standardUserDefaults] doubleForKey: __Key__];</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/XDPreCompile.h" line="263" column="9" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/XDPreCompile.h" bodystart="263" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_x_d_pre_compile_8h_1acaa2593aaf2821ce5e83e0cca9b9613e" prot="public" static="no">
+        <name>XDUserDefaultsBoolForKey</name>
+        <param><defname>__Key__</defname></param>
+        <initializer>[[NSUserDefaults standardUserDefaults] boolForKey: __Key__];</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/XDPreCompile.h" line="266" column="9" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/XDPreCompile.h" bodystart="266" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>XDPreDefine.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>suxinde<sp/>on<sp/>15/5/4.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2015年<sp/>Su<sp/>XinDe.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>XDCommonLib_XDPreDefine_h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XDCommonLib_XDPreDefine_h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="comment">//<sp/>----------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Global<sp/>include<sp/>headers</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="comment">//<sp/>----------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;stdio.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;stdlib.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;stdint.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;string.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;assert.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;errno.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;sys/errno.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;sys/sockio.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;sys/ioctl.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;sys/types.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;sys/socket.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;math.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;unistd.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;limits.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;execinfo.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;netdb.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;net/if.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;net/if_dl.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;netinet/in.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;arpa/inet.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;ifaddrs.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;mach/mach.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;malloc/malloc.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;ifaddrs.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;arpa/inet.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;mach/mach.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;mach/mach_host.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;execinfo.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__OBJC__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;Foundation/Foundation.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;UIKit/UIKit.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;QuartzCore/QuartzCore.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;AudioToolbox/AudioToolbox.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;TargetConditionals.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;AssetsLibrary/AssetsLibrary.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;AVFoundation/AVFoundation.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;CoreGraphics/CoreGraphics.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;CoreVideo/CoreVideo.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;CoreMedia/CoreMedia.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;CoreImage/CoreImage.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;CoreLocation/CoreLocation.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;AVFoundation/AVFoundation.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;AVFoundation/AVSpeechSynthesis.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;CoreMotion/CoreMotion.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;Social/Social.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;objc/runtime.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;objc/message.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;CommonCrypto/CommonDigest.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;CommonCrypto/CommonCryptor.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/><sp/>//<sp/>#ifdef<sp/>__OBJC__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight><highlight class="comment">//<sp/>----------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/><sp/>-<sp/>开发调试信息的开关宏定义<sp/>-</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight><highlight class="comment">//<sp/>----------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight><highlight class="comment">//<sp/>测试用</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="86" refid="_x_d_pre_compile_8h_1a31c394abd362c1665c526f2ee8d067ed" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>__XD_DEBUG__<sp/><sp/>(1)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight><highlight class="comment">//<sp/>测试用</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="89" refid="_x_d_pre_compile_8h_1a3cec80b44cd69e68dc8cba2d1c1ed781" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>__XD_DEBUG_SHOWBORDER__<sp/><sp/>(0)<sp/>//<sp/>点击视图所点视图显示红色边框动画，默认关闭</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight><highlight class="comment">//<sp/>开启调试</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="92" refid="_x_d_pre_compile_8h_1ac6f7255a1b7e0f03c7582516ec697b60" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/><sp/>__XD_UNITTESTING__<sp/>(1)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight><highlight class="comment">//<sp/>开启性能测试</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="95" refid="_x_d_pre_compile_8h_1a4b1921843d489c026f767443b006a99a" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>__XD_PERFORMANCE__<sp/><sp/>(1)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight><highlight class="comment">//<sp/>---------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight><highlight class="comment">//<sp/>----------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Common<sp/>use<sp/>macros</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight><highlight class="comment">//<sp/>----------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="preprocessor">#pragma<sp/>mark<sp/><sp/>-<sp/>TextAlignmentLeft<sp/>&amp;<sp/>LineBreakMode<sp/>Marcos<sp/>-</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>__IPHONE_OS_VERSION_MAX_ALLOWED<sp/>&gt;=<sp/>60000</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>UILineBreakMode<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NSLineBreakMode</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>UILineBreakModeWordWrap<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NSLineBreakByWordWrapping</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>UILineBreakModeCharacterWrap<sp/><sp/><sp/><sp/>NSLineBreakByCharWrapping</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>UILineBreakModeClip<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NSLineBreakByClipping</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>UILineBreakModeHeadTruncation<sp/><sp/><sp/>NSLineBreakByTruncatingHead</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>UILineBreakModeTailTruncation<sp/><sp/><sp/>NSLineBreakByTruncatingTail</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>UILineBreakModeMiddleTruncation<sp/>NSLineBreakByTruncatingMiddle</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>UITextAlignmentLeft<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NSTextAlignmentLeft</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>UITextAlignmentCenter<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NSTextAlignmentCenter</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>UITextAlignmentRight<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NSTextAlignmentRight</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>UITextAlignment<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NSTextAlignment</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/><sp/>//<sp/>#if<sp/>__IPHONE_OS_VERSION_MAX_ALLOWED<sp/>&gt;=<sp/>60000</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight></codeline>
+<codeline lineno="129"><highlight class="preprocessor">#pragma<sp/>mark<sp/><sp/>-<sp/>Deprecated<sp/>-</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>__Class_Deprecated__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="133" refid="_x_d_pre_compile_8h_1abf801cf1fad62f29f69bb0bda6650c4c" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>__Class_Deprecated__<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>__attribute__((deprecated))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>__Property_Deprecated__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="137" refid="_x_d_pre_compile_8h_1aa525aa5587385e60662880dae235c51e" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>__Property_Deprecated__<sp/><sp/><sp/><sp/><sp/>__attribute__((deprecated))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>__Method_Deprecated__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="141" refid="_x_d_pre_compile_8h_1a9dbeff8549da320031522bdcf2e829a9" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>__Method_Deprecated__<sp/><sp/><sp/><sp/><sp/><sp/><sp/>__attribute__((deprecated))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight></codeline>
+<codeline lineno="145"><highlight class="normal"></highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight></codeline>
+<codeline lineno="149"><highlight class="normal"></highlight><highlight class="comment">//<sp/>------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight><highlight class="comment">//<sp/>单例模式</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight><highlight class="comment">//<sp/>------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="152"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>__has_feature(objc_instancetype)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="153"><highlight class="normal"></highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#undef<sp/><sp/>AS_SINGLETON</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>AS_SINGLETON(<sp/>...<sp/>)<sp/>\</highlight></codeline>
+<codeline lineno="156"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>-<sp/>(instancetype)sharedInstance;<sp/>\</highlight></codeline>
+<codeline lineno="157"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>+<sp/>(instancetype)sharedInstance;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="158"><highlight class="normal"></highlight></codeline>
+<codeline lineno="159"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#undef<sp/><sp/>DEF_SINGLETON</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="160"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>DEF_SINGLETON<sp/>\</highlight></codeline>
+<codeline lineno="161"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>-<sp/>(instancetype)sharedInstance<sp/>\</highlight></codeline>
+<codeline lineno="162"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{<sp/>\</highlight></codeline>
+<codeline lineno="163"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>return<sp/>[[self<sp/>class]<sp/>sharedInstance];<sp/>\</highlight></codeline>
+<codeline lineno="164"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/>\</highlight></codeline>
+<codeline lineno="165"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>+<sp/>(instancetype)sharedInstance<sp/>\</highlight></codeline>
+<codeline lineno="166"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{<sp/>\</highlight></codeline>
+<codeline lineno="167"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>static<sp/>dispatch_once_t<sp/>once;<sp/>\</highlight></codeline>
+<codeline lineno="168"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>static<sp/>id<sp/>__singleton__;<sp/>\</highlight></codeline>
+<codeline lineno="169"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dispatch_once(<sp/>&amp;once,<sp/>^{<sp/>__singleton__<sp/>=<sp/>[[self<sp/>alloc]<sp/>init];<sp/>}<sp/>);<sp/>\</highlight></codeline>
+<codeline lineno="170"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>return<sp/>__singleton__;<sp/>\</highlight></codeline>
+<codeline lineno="171"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="172"><highlight class="normal"></highlight></codeline>
+<codeline lineno="173"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#undef<sp/><sp/>DEF_SINGLETON</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="174"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>DEF_SINGLETON(<sp/>...<sp/>)<sp/>\</highlight></codeline>
+<codeline lineno="175"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>-<sp/>(instancetype)sharedInstance<sp/>\</highlight></codeline>
+<codeline lineno="176"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{<sp/>\</highlight></codeline>
+<codeline lineno="177"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>return<sp/>[[self<sp/>class]<sp/>sharedInstance];<sp/>\</highlight></codeline>
+<codeline lineno="178"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/>\</highlight></codeline>
+<codeline lineno="179"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>+<sp/>(instancetype)sharedInstance<sp/>\</highlight></codeline>
+<codeline lineno="180"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{<sp/>\</highlight></codeline>
+<codeline lineno="181"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>static<sp/>dispatch_once_t<sp/>once;<sp/>\</highlight></codeline>
+<codeline lineno="182"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>static<sp/>id<sp/>__singleton__;<sp/>\</highlight></codeline>
+<codeline lineno="183"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dispatch_once(<sp/>&amp;once,<sp/>^{<sp/>__singleton__<sp/>=<sp/>[[self<sp/>alloc]<sp/>init];<sp/>}<sp/>);<sp/>\</highlight></codeline>
+<codeline lineno="184"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>return<sp/>__singleton__;<sp/>\</highlight></codeline>
+<codeline lineno="185"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="186"><highlight class="normal"></highlight></codeline>
+<codeline lineno="187"><highlight class="normal"></highlight><highlight class="preprocessor">#else<sp/><sp/><sp/>//<sp/>#if<sp/>__has_feature(objc_instancetype)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="188"><highlight class="normal"></highlight></codeline>
+<codeline lineno="189"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#undef<sp/><sp/>AS_SINGLETON</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="190" refid="_x_d_pre_compile_8h_1afc66c36d64210ad0dac791c9ec32b16d" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>AS_SINGLETON(<sp/>__class<sp/>)<sp/>\</highlight></codeline>
+<codeline lineno="191"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>-<sp/>(__class<sp/>*)sharedInstance;<sp/>\</highlight></codeline>
+<codeline lineno="192"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>+<sp/>(__class<sp/>*)sharedInstance;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="193"><highlight class="normal"></highlight></codeline>
+<codeline lineno="194"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#undef<sp/><sp/>DEF_SINGLETON</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="195" refid="_x_d_pre_compile_8h_1a6bf77b62a0fa38c47888b05396f71225" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#define<sp/>DEF_SINGLETON(<sp/>__class<sp/>)<sp/>\</highlight></codeline>
+<codeline lineno="196"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>-<sp/>(__class<sp/>*)sharedInstance<sp/>\</highlight></codeline>
+<codeline lineno="197"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{<sp/>\</highlight></codeline>
+<codeline lineno="198"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>return<sp/>[__class<sp/>sharedInstance];<sp/>\</highlight></codeline>
+<codeline lineno="199"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/>\</highlight></codeline>
+<codeline lineno="200"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>+<sp/>(__class<sp/>*)sharedInstance<sp/>\</highlight></codeline>
+<codeline lineno="201"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{<sp/>\</highlight></codeline>
+<codeline lineno="202"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>static<sp/>dispatch_once_t<sp/>once;<sp/>\</highlight></codeline>
+<codeline lineno="203"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>static<sp/>__class<sp/>*<sp/>__singleton__;<sp/>\</highlight></codeline>
+<codeline lineno="204"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dispatch_once(<sp/>&amp;once,<sp/>^{<sp/>__singleton__<sp/>=<sp/>[[[self<sp/>class]<sp/>alloc]<sp/>init];<sp/>}<sp/>);<sp/>\</highlight></codeline>
+<codeline lineno="205"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>return<sp/>__singleton__;<sp/>\</highlight></codeline>
+<codeline lineno="206"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="207"><highlight class="normal"></highlight></codeline>
+<codeline lineno="208"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/><sp/>//<sp/>#if<sp/>__has_feature(objc_instancetype)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="209"><highlight class="normal"></highlight></codeline>
+<codeline lineno="210"><highlight class="normal"></highlight></codeline>
+<codeline lineno="211"><highlight class="normal"></highlight></codeline>
+<codeline lineno="212"><highlight class="normal"></highlight></codeline>
+<codeline lineno="213"><highlight class="normal"></highlight><highlight class="comment">//<sp/>------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="214"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/><sp/>-<sp/>执行一次<sp/>dispatch_once_t<sp/>-</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="215"><highlight class="normal"></highlight><highlight class="comment">//<sp/>------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="216"><highlight class="normal"></highlight><highlight class="preprocessor">#undef<sp/><sp/>XD_ONCE_BEGIN</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="217" refid="_x_d_pre_compile_8h_1a39da4515946efc2351648a01b946f77f" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XD_ONCE_BEGIN(<sp/>__name<sp/>)<sp/>\</highlight></codeline>
+<codeline lineno="218"><highlight class="preprocessor">static<sp/>dispatch_once_t<sp/>once_##__name;<sp/>\</highlight></codeline>
+<codeline lineno="219"><highlight class="preprocessor">dispatch_once(<sp/>&amp;once_##__name<sp/>,<sp/>^{</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="220"><highlight class="normal"></highlight></codeline>
+<codeline lineno="221"><highlight class="normal"></highlight><highlight class="preprocessor">#undef<sp/><sp/>XD_ONCE_END</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="222" refid="_x_d_pre_compile_8h_1abd61adc216f91f16e274c5c5261dc49a" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XD_ONCE_END<sp/><sp/><sp/><sp/><sp/>});</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="223"><highlight class="normal"></highlight></codeline>
+<codeline lineno="224"><highlight class="normal"></highlight><highlight class="comment">//<sp/>------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="225"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/><sp/>-<sp/>NSUserDefaults<sp/>-</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="226"><highlight class="normal"></highlight><highlight class="comment">//<sp/>------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="227" refid="_x_d_pre_compile_8h_1a3b9b2e5238141b95064479048b5286be" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XDUserDefalutsSetObjctetForKey(__Obj__,<sp/>__Key__)<sp/>\</highlight></codeline>
+<codeline lineno="228"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NSUserDefaults<sp/>*prefs<sp/>=<sp/>[NSUserDefaults<sp/>standardUserDefaults];<sp/>\</highlight></codeline>
+<codeline lineno="229"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[prefs<sp/>setObject:<sp/>__Obj__<sp/>forKey:<sp/>__Key__];<sp/>\</highlight></codeline>
+<codeline lineno="230"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[prefs<sp/>synchronize];</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="231"><highlight class="normal"></highlight></codeline>
+<codeline lineno="232" refid="_x_d_pre_compile_8h_1ae7b3bad2344e6c774615140c665af7d6" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XDUserDefalutsSetIntegerForKey(__Integer__,<sp/>__Key__)<sp/>\</highlight></codeline>
+<codeline lineno="233"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NSUserDefaults<sp/>*prefs<sp/>=<sp/>[NSUserDefaults<sp/>standardUserDefaults];<sp/>\</highlight></codeline>
+<codeline lineno="234"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[prefs<sp/>setInteger:<sp/>__Integer__<sp/>forKey:<sp/>__Key__];<sp/>\</highlight></codeline>
+<codeline lineno="235"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[prefs<sp/>synchronize];</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="236"><highlight class="normal"></highlight></codeline>
+<codeline lineno="237" refid="_x_d_pre_compile_8h_1ae77da632d14f0686f0c27df32efb0308" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XDUserDefalutsSetFloatForKey(__Float__,<sp/>__Key__)<sp/>\</highlight></codeline>
+<codeline lineno="238"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NSUserDefaults<sp/>*prefs<sp/>=<sp/>[NSUserDefaults<sp/>standardUserDefaults];<sp/>\</highlight></codeline>
+<codeline lineno="239"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[prefs<sp/>setFloat:<sp/>__Float__<sp/>forKey:<sp/>__Key__];<sp/>\</highlight></codeline>
+<codeline lineno="240"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[prefs<sp/>synchronize];</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="241"><highlight class="normal"></highlight></codeline>
+<codeline lineno="242" refid="_x_d_pre_compile_8h_1a7dd06fc7deb3a8501d21ffc0a9905c63" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XDUserDefalutsSetDoubleForKey(__Double__,<sp/>__Key__)<sp/>\</highlight></codeline>
+<codeline lineno="243"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NSUserDefaults<sp/>*prefs<sp/>=<sp/>[NSUserDefaults<sp/>standardUserDefaults];<sp/>\</highlight></codeline>
+<codeline lineno="244"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[prefs<sp/>setDouble:<sp/>__Double__<sp/>forKey:<sp/>__Key__];<sp/>\</highlight></codeline>
+<codeline lineno="245"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[prefs<sp/>synchronize];</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="246"><highlight class="normal"></highlight></codeline>
+<codeline lineno="247" refid="_x_d_pre_compile_8h_1a312f02c11e423218805f72e3ced136ab" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XDUserDefalutsSetBoolForKey(__Bool__,<sp/>__Key__)<sp/>\</highlight></codeline>
+<codeline lineno="248"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NSUserDefaults<sp/>*prefs<sp/>=<sp/>[NSUserDefaults<sp/>standardUserDefaults];<sp/>\</highlight></codeline>
+<codeline lineno="249"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[prefs<sp/>setBool:<sp/>__Bool__<sp/>forKey:<sp/>__Key__];<sp/>\</highlight></codeline>
+<codeline lineno="250"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[prefs<sp/>synchronize];</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="251"><highlight class="normal"></highlight></codeline>
+<codeline lineno="252"><highlight class="normal"></highlight><highlight class="comment">//------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="253"><highlight class="normal"></highlight></codeline>
+<codeline lineno="254" refid="_x_d_pre_compile_8h_1a381ce6037c0099349449a620ba07e948" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XDUserDefaultsObjectForKey(__Key__)<sp/>\</highlight></codeline>
+<codeline lineno="255"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[[NSUserDefaults<sp/>standardUserDefaults]<sp/>objectForKey:<sp/>__Key__];</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="256"><highlight class="normal"></highlight></codeline>
+<codeline lineno="257" refid="_x_d_pre_compile_8h_1a79faeb21e2d9bd60ceec3743df8f3df0" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XDUserDefaultsIntegerForKey(__Key__)<sp/>\</highlight></codeline>
+<codeline lineno="258"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[[NSUserDefaults<sp/>standardUserDefaults]<sp/>integerForKey:<sp/>__Key__];</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="259"><highlight class="normal"></highlight></codeline>
+<codeline lineno="260" refid="_x_d_pre_compile_8h_1a6a31cb523eabd464611ed6110cf27661" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XDUserDefaultsFloatForKey(__Key__)<sp/>\</highlight></codeline>
+<codeline lineno="261"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[[NSUserDefaults<sp/>standardUserDefaults]<sp/>floatForKey:<sp/>__Key__];</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="262"><highlight class="normal"></highlight></codeline>
+<codeline lineno="263" refid="_x_d_pre_compile_8h_1a7346bd16947f66cee5653869eac45306" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XDUserDefaultsDoubleForKey(__Key__)<sp/>\</highlight></codeline>
+<codeline lineno="264"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[[NSUserDefaults<sp/>standardUserDefaults]<sp/>doubleForKey:<sp/>__Key__];</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="265"><highlight class="normal"></highlight></codeline>
+<codeline lineno="266" refid="_x_d_pre_compile_8h_1acaa2593aaf2821ce5e83e0cca9b9613e" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XDUserDefaultsBoolForKey(__Key__)<sp/>\</highlight></codeline>
+<codeline lineno="267"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[[NSUserDefaults<sp/>standardUserDefaults]<sp/>boolForKey:<sp/>__Key__];</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="268"><highlight class="normal"></highlight></codeline>
+<codeline lineno="269"><highlight class="normal"></highlight><highlight class="comment">//------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="270"><highlight class="normal"></highlight></codeline>
+<codeline lineno="271"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/XDPreCompile.h"/>
+  </compounddef>
+</doxygen>

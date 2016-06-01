@@ -1,0 +1,232 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_u_i_image_07_vector_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>UIImage(Vector)</compoundname>
+    <includes refid="_u_i_image_09_vector_8h" local="no">UIImage+Vector.h</includes>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="category_u_i_image_07_vector_08_1ad1ee8780c7ba297cb824c191d5302786" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>UIImage *</type>
+        <definition>UIImage * UIImage(Vector)::iconWithFont:named:withTintColor:clipToBounds:forSize:</definition>
+        <argsstring>(UIFont *font,[named] NSString *iconNamed,[withTintColor] UIColor *tintColor,[clipToBounds] BOOL clipToBounds,[forSize] CGFloat fontSize)</argsstring>
+        <name>iconWithFont:named:withTintColor:clipToBounds:forSize:</name>
+        <param>
+          <type>UIFont *</type>
+          <declname>font</declname>
+        </param>
+        <param>
+          <attributes>[named]</attributes>
+          <type>NSString *</type>
+          <declname>iconNamed</declname>
+        </param>
+        <param>
+          <attributes>[withTintColor]</attributes>
+          <type>UIColor *</type>
+          <declname>tintColor</declname>
+        </param>
+        <param>
+          <attributes>[clipToBounds]</attributes>
+          <type>BOOL</type>
+          <declname>clipToBounds</declname>
+        </param>
+        <param>
+          <attributes>[forSize]</attributes>
+          <type>CGFloat</type>
+          <declname>fontSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Create a UIImage from an icon font. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>font</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The icon font. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>iconNamed</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the icon in the font. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>tintColor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The tint color to use for the icon. Defaults to black. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>clipToBounds</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>If YES the image will be clipped to the pixel bounds of the icon. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>fontSize</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The font size to draw the icon at. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The resulting image. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImage/UIImage+Vector.h" line="11" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImage/UIImage+Vector.m" bodystart="23" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_image_07_vector_08_1ad631e6f4bd00c5e000177bd0e7a78fd5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>UIImage *</type>
+        <definition>UIImage * UIImage(Vector)::imageWithPDFNamed:forHeight:</definition>
+        <argsstring>(NSString *pdfNamed,[forHeight] CGFloat height)</argsstring>
+        <name>imageWithPDFNamed:forHeight:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>pdfNamed</declname>
+        </param>
+        <param>
+          <attributes>[forHeight]</attributes>
+          <type>CGFloat</type>
+          <declname>height</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Create a UIImage from a PDF icon. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>pdfNamed</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the PDF file in the application&apos;s resources directory. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>height</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The height of the resulting image, the width will be based on the aspect ratio of the PDF. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The resulting image. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImage/UIImage+Vector.h" line="11" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImage/UIImage+Vector.m" bodystart="66" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_image_07_vector_08_1a1aea9e4ac84d2b7e4ab8f9647562a53c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>UIImage *</type>
+        <definition>UIImage * UIImage(Vector)::imageWithPDFNamed:withTintColor:forHeight:</definition>
+        <argsstring>(NSString *pdfNamed,[withTintColor] UIColor *tintColor,[forHeight] CGFloat height)</argsstring>
+        <name>imageWithPDFNamed:withTintColor:forHeight:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>pdfNamed</declname>
+        </param>
+        <param>
+          <attributes>[withTintColor]</attributes>
+          <type>UIColor *</type>
+          <declname>tintColor</declname>
+        </param>
+        <param>
+          <attributes>[forHeight]</attributes>
+          <type>CGFloat</type>
+          <declname>height</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Create a UIImage from a PDF icon. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>pdfNamed</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the PDF file in the application&apos;s resources directory. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>tintColor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The tint color to use for the icon. If nil no tint color will be used. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>height</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The height of the resulting image, the width will be based on the aspect ratio of the PDF. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The resulting image. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImage/UIImage+Vector.h" line="11" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImage/UIImage+Vector.m" bodystart="70" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_image_07_vector_08_1a87e9b0e060b29c5b3556c97041e59c1e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>UIImage *</type>
+        <definition>UIImage * UIImage(Vector)::imageWithPDFFile:withTintColor:forSize:</definition>
+        <argsstring>(NSString *pdfFile,[withTintColor] UIColor *tintColor,[forSize] CGSize size)</argsstring>
+        <name>imageWithPDFFile:withTintColor:forSize:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>pdfFile</declname>
+        </param>
+        <param>
+          <attributes>[withTintColor]</attributes>
+          <type>UIColor *</type>
+          <declname>tintColor</declname>
+        </param>
+        <param>
+          <attributes>[forSize]</attributes>
+          <type>CGSize</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Create a UIImage from a PDF icon. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>pdfFile</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The path of the PDF file. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>tintColor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The tint color to use for the icon. If nil no tint color will be used. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>maxSize</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The maximum size the resulting image can be. The image will maintain it&apos;s aspect ratio and may not encumpas the full size. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The resulting image. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImage/UIImage+Vector.h" line="11" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImage/UIImage+Vector.m" bodystart="75" bodyend="138"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>(作者) David Keegan</para><para>(地址) <ulink url="https://github.com/kgn/UIImage-Vector">https://github.com/kgn/UIImage-Vector</ulink></para><para>(版本) 20150620</para><para>(运行要求)</para><para>(描述) UIImage category for dealing with vector formats like PDF and icon fonts. (使用) .. </para>    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImage/UIImage+Vector.m" line="12" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImage/UIImage+Vector.m" bodystart="12" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_u_i_image_07_vector_08_1ad1ee8780c7ba297cb824c191d5302786" prot="public" virt="virtual"><scope>UIImage(Vector)</scope><name>iconWithFont:named:withTintColor:clipToBounds:forSize:</name></member>
+      <member refid="category_u_i_image_07_vector_08_1a87e9b0e060b29c5b3556c97041e59c1e" prot="public" virt="virtual"><scope>UIImage(Vector)</scope><name>imageWithPDFFile:withTintColor:forSize:</name></member>
+      <member refid="category_u_i_image_07_vector_08_1ad631e6f4bd00c5e000177bd0e7a78fd5" prot="public" virt="virtual"><scope>UIImage(Vector)</scope><name>imageWithPDFNamed:forHeight:</name></member>
+      <member refid="category_u_i_image_07_vector_08_1a1aea9e4ac84d2b7e4ab8f9647562a53c" prot="public" virt="virtual"><scope>UIImage(Vector)</scope><name>imageWithPDFNamed:withTintColor:forHeight:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

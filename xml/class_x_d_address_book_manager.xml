@@ -1,0 +1,147 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="class_x_d_address_book_manager" kind="class" language="Objective-C" prot="public">
+    <compoundname>XDAddressBookManager</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">NSObject</basecompoundref>
+    <includes refid="_x_d_address_book_manager_8h" local="no">XDAddressBookManager.h</includes>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_x_d_address_book_manager_1a2fd0efcccd2abe285fd32a4c346cf430" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * XDAddressBookManager::nameForContactWithPhoneNumber:</definition>
+        <argsstring>(NSString *phoneNumber)</argsstring>
+        <name>nameForContactWithPhoneNumber:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>phoneNumber</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get name of contact with specific phone number.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>phoneNumber</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Phone number for the contact.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Name of contact. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/AddressBook/XDAddressBookManager.h" line="72" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/AddressBook/XDAddressBookManager.m" bodystart="117" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="function" id="class_x_d_address_book_manager_1a7bee5e21eaa42a60d49bddbecb7b2458" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>UIImage *</type>
+        <definition>UIImage * XDAddressBookManager::photoForContactWithPhoneNumber:</definition>
+        <argsstring>(NSString *phoneNumber)</argsstring>
+        <name>photoForContactWithPhoneNumber:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>phoneNumber</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get photo of contact with specific phone number.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>phoneNumber</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Phone number for the contact.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Photo of contact. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/AddressBook/XDAddressBookManager.h" line="72" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/AddressBook/XDAddressBookManager.m" bodystart="122" bodyend="125"/>
+      </memberdef>
+      <memberdef kind="function" id="class_x_d_address_book_manager_1a870486ed45c6748b5c09147c7ece0489" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * XDAddressBookManager::nameForContactWithEmailAddress:</definition>
+        <argsstring>(NSString *emailAddress)</argsstring>
+        <name>nameForContactWithEmailAddress:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>emailAddress</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get name of contact with specific email address.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>emailAddress</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Email address for the contact.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Name of contact. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/AddressBook/XDAddressBookManager.h" line="72" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/AddressBook/XDAddressBookManager.m" bodystart="127" bodyend="130"/>
+      </memberdef>
+      <memberdef kind="function" id="class_x_d_address_book_manager_1adc4e6e3b5780942de1daac91d9ed96d3" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>UIImage *</type>
+        <definition>UIImage * XDAddressBookManager::photoForContactWithEmailAddress:</definition>
+        <argsstring>(NSString *emailAddress)</argsstring>
+        <name>photoForContactWithEmailAddress:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>emailAddress</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get photo of contact with specific email address.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>emailAddress</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Email address for the contact.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Photo of contact. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/AddressBook/XDAddressBookManager.h" line="72" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/AddressBook/XDAddressBookManager.m" bodystart="139" bodyend="143"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1211">
+        <label>XDAddressBookManager</label>
+        <link refid="class_x_d_address_book_manager"/>
+        <childnode refid="1212" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1212">
+        <label>NSObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1213">
+        <label>XDAddressBookManager</label>
+        <link refid="class_x_d_address_book_manager"/>
+        <childnode refid="1214" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1214">
+        <label>NSObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/AddressBook/XDAddressBookManager.m" line="14" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/AddressBook/XDAddressBookManager.m" bodystart="14" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="class_x_d_address_book_manager_1a870486ed45c6748b5c09147c7ece0489" prot="public" virt="virtual"><scope>XDAddressBookManager</scope><name>nameForContactWithEmailAddress:</name></member>
+      <member refid="class_x_d_address_book_manager_1a2fd0efcccd2abe285fd32a4c346cf430" prot="public" virt="virtual"><scope>XDAddressBookManager</scope><name>nameForContactWithPhoneNumber:</name></member>
+      <member refid="class_x_d_address_book_manager_1adc4e6e3b5780942de1daac91d9ed96d3" prot="public" virt="virtual"><scope>XDAddressBookManager</scope><name>photoForContactWithEmailAddress:</name></member>
+      <member refid="class_x_d_address_book_manager_1a7bee5e21eaa42a60d49bddbecb7b2458" prot="public" virt="virtual"><scope>XDAddressBookManager</scope><name>photoForContactWithPhoneNumber:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

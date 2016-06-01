@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="interface_s_v_radial_gradient_layer" kind="class" language="Objective-C" prot="public">
+    <compoundname>SVRadialGradientLayer</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">CALayer</basecompoundref>
+    <includes refid="_s_v_radial_gradient_layer_8h" local="no">SVRadialGradientLayer.h</includes>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="interface_s_v_radial_gradient_layer_1a0c236fbc939b400e498081ce6519639f" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="assign">
+        <type>CGPoint</type>
+        <definition>CGPoint SVRadialGradientLayer::gradientCenter</definition>
+        <argsstring></argsstring>
+        <name>gradientCenter</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/Venders/SVProgressHUD/SVRadialGradientLayer.h" line="12" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/Venders/SVProgressHUD/SVRadialGradientLayer.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="770">
+        <label>SVRadialGradientLayer</label>
+        <link refid="interface_s_v_radial_gradient_layer"/>
+        <childnode refid="771" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="771">
+        <label>CALayer</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="772">
+        <label>SVRadialGradientLayer</label>
+        <link refid="interface_s_v_radial_gradient_layer"/>
+        <childnode refid="773" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="773">
+        <label>CALayer</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/Venders/SVProgressHUD/SVRadialGradientLayer.h" line="11" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/Venders/SVProgressHUD/SVRadialGradientLayer.h" bodystart="10" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="interface_s_v_radial_gradient_layer_1a0c236fbc939b400e498081ce6519639f" prot="public" virt="non-virtual"><scope>SVRadialGradientLayer</scope><name>gradientCenter</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

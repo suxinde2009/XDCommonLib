@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_u_i_alert_view_09_block_8h" kind="file" language="C++">
+    <compoundname>UIAlertView+Block.h</compoundname>
+    <includes local="no">UIKit/UIKit.h</includes>
+    <includedby refid="_u_i_alert_view_09_block_8m" local="yes">XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIAlertView/UIAlertView+Block.m</includedby>
+    <incdepgraph>
+      <node id="1181">
+        <label>UIKit/UIKit.h</label>
+      </node>
+      <node id="1180">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIAlertView/UIAlertView+Block.h</label>
+        <link refid="UIAlertView+Block.h"/>
+        <childnode refid="1181" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1182">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIAlertView/UIAlertView+Block.h</label>
+        <link refid="UIAlertView+Block.h"/>
+        <childnode refid="1183" relation="include">
+        </childnode>
+      </node>
+      <node id="1183">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIAlertView/UIAlertView+Block.m</label>
+        <link refid="_u_i_alert_view_09_block_8m"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="category_u_i_alert_view_07_block_08" prot="public">UIAlertView(Block)</innerclass>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="_u_i_alert_view_09_block_8h_1ad71234f4634134cccee9bda3604c54fd" prot="public" static="no">
+        <type>void(^</type>
+        <definition>typedef void(^ UIAlertViewCallBackBlock) (NSInteger buttonIndex)</definition>
+        <argsstring>)(NSInteger buttonIndex)</argsstring>
+        <name>UIAlertViewCallBackBlock</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIAlertView/UIAlertView+Block.h" line="11" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIAlertView/UIAlertView+Block.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>UIAlertView+Block.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>iOS-Categories<sp/>(https://github.com/shaojiankui/iOS-Categories)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>符现超<sp/>on<sp/>15/5/9.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2015年<sp/>http://weibo.com/u/1655766025<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;UIKit/UIKit.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="_u_i_alert_view_09_block_8h_1ad71234f4634134cccee9bda3604c54fd" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>void(^<ref refid="_u_i_alert_view_09_block_8h_1ad71234f4634134cccee9bda3604c54fd" kindref="member">UIAlertViewCallBackBlock</ref>)(NSInteger<sp/>buttonIndex);</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="category_u_i_alert_view_07_block_08" kindref="compound">UIAlertView (Block)</ref>&lt;UIAlertViewDelegate&gt;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="category_u_i_alert_view_07_block_08_1a3bfa000ef012ccf44b4c05205b5c5b51" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>copy)<sp/><ref refid="_u_i_alert_view_09_block_8h_1ad71234f4634134cccee9bda3604c54fd" kindref="member">UIAlertViewCallBackBlock</ref><sp/><ref refid="category_u_i_alert_view_07_block_08_1a3bfa000ef012ccf44b4c05205b5c5b51" kindref="member">alertViewCallBackBlock</ref>;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal">+<sp/>(void)alertWithCallBackBlock:(<ref refid="_u_i_alert_view_09_block_8h_1ad71234f4634134cccee9bda3604c54fd" kindref="member">UIAlertViewCallBackBlock</ref>)alertViewCallBackBlock<sp/>title:(NSString<sp/>*)title<sp/>message:(NSString<sp/>*)message<sp/><sp/>cancelButtonName:(NSString<sp/>*)cancelButtonName<sp/>otherButtonTitles:(NSString<sp/>*)otherButtonTitles,<sp/>...NS_REQUIRES_NIL_TERMINATION;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIAlertView/UIAlertView+Block.h"/>
+  </compounddef>
+</doxygen>

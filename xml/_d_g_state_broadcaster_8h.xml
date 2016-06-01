@@ -1,0 +1,215 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_d_g_state_broadcaster_8h" kind="file" language="C++">
+    <compoundname>DGStateBroadcaster.h</compoundname>
+    <includes local="no">Foundation/Foundation.h</includes>
+    <includes local="no">CoreLocation/CoreLocation.h</includes>
+    <includes local="no">netinet/in.h</includes>
+    <includedby refid="_d_g_state_broadcaster_8m" local="yes">XDCommonLib/LooseCoupling CommuniateLayer/StateBroadcaster/DGStateBroadcaster.m</includedby>
+    <incdepgraph>
+      <node id="3735">
+        <label>netinet/in.h</label>
+      </node>
+      <node id="3734">
+        <label>CoreLocation/CoreLocation.h</label>
+      </node>
+      <node id="3733">
+        <label>Foundation/Foundation.h</label>
+      </node>
+      <node id="3732">
+        <label>XDCommonLib/LooseCoupling CommuniateLayer/StateBroadcaster/DGStateBroadcaster.h</label>
+        <link refid="DGStateBroadcaster.h"/>
+        <childnode refid="3733" relation="include">
+        </childnode>
+        <childnode refid="3734" relation="include">
+        </childnode>
+        <childnode refid="3735" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3736">
+        <label>XDCommonLib/LooseCoupling CommuniateLayer/StateBroadcaster/DGStateBroadcaster.h</label>
+        <link refid="DGStateBroadcaster.h"/>
+        <childnode refid="3737" relation="include">
+        </childnode>
+      </node>
+      <node id="3737">
+        <label>XDCommonLib/LooseCoupling CommuniateLayer/StateBroadcaster/DGStateBroadcaster.m</label>
+        <link refid="_d_g_state_broadcaster_8m"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="protocol_d_g_state_broadcaster_delegate-p" prot="public">DGStateBroadcasterDelegate-p</innerclass>
+    <innerclass refid="class_d_g_state_broadcaster" prot="public">DGStateBroadcaster</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="_d_g_state_broadcaster_8h_1a4766155ac4039a00e682b4a297c6f5fe" prot="public" static="no">
+        <name>_DGStateBroadcasterState</name>
+        <enumvalue id="_d_g_state_broadcaster_8h_1a4766155ac4039a00e682b4a297c6f5fea85ef51e07e77cc1c92542920fc942f7c" prot="public">
+          <name>DGStateBroadcasterLowBattery</name>
+          <initializer>= 0x01</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_d_g_state_broadcaster_8h_1a4766155ac4039a00e682b4a297c6f5fead3da0225bb1f545ee1fa38fe40c643b6" prot="public">
+          <name>DGStateBroadcasterDistanceTravelled</name>
+          <initializer>= 0x02</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_d_g_state_broadcaster_8h_1a4766155ac4039a00e682b4a297c6f5fea2f24a1a0fc791a334f235a389f5a099d" prot="public">
+          <name>DGStateBroadcasterLocationAccuracy</name>
+          <initializer>= 0x04</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_d_g_state_broadcaster_8h_1a4766155ac4039a00e682b4a297c6f5feade23fe7e9c96bf2d6509b6d3d4776fe6" prot="public">
+          <name>DGStateBroadcasterNetworkReachability</name>
+          <initializer>= 0x08</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/LooseCoupling CommuniateLayer/StateBroadcaster/DGStateBroadcaster.h" line="39" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/LooseCoupling CommuniateLayer/StateBroadcaster/DGStateBroadcaster.h" bodystart="38" bodyend="44"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="_d_g_state_broadcaster_8h_1a872746871940aea21d181eef66a9fd3b" prot="public" static="no">
+        <type>enum <ref refid="_d_g_state_broadcaster_8h_1a4766155ac4039a00e682b4a297c6f5fe" kindref="member">_DGStateBroadcasterState</ref></type>
+        <definition>typedef enum _DGStateBroadcasterState  DGStateBroadcasterState</definition>
+        <argsstring></argsstring>
+        <name>DGStateBroadcasterState</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/LooseCoupling CommuniateLayer/StateBroadcaster/DGStateBroadcaster.h" line="44" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>DGStateBroadcaster.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Daniel<sp/>Cohen<sp/>Gindi<sp/>on<sp/>5/8/13.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2013<sp/>danielgindi@gmail.com.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>https://github.com/danielgindi/DGStateBroadcaster</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>The<sp/>MIT<sp/>License<sp/>(MIT)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2014<sp/>Daniel<sp/>Cohen<sp/>Gindi<sp/>(danielgindi@gmail.com)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Permission<sp/>is<sp/>hereby<sp/>granted,<sp/>free<sp/>of<sp/>charge,<sp/>to<sp/>any<sp/>person<sp/>obtaining<sp/>a<sp/>copy</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>of<sp/>this<sp/>software<sp/>and<sp/>associated<sp/>documentation<sp/>files<sp/>(the<sp/>&quot;Software&quot;),<sp/>to<sp/>deal</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>in<sp/>the<sp/>Software<sp/>without<sp/>restriction,<sp/>including<sp/>without<sp/>limitation<sp/>the<sp/>rights</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>to<sp/>use,<sp/>copy,<sp/>modify,<sp/>merge,<sp/>publish,<sp/>distribute,<sp/>sublicense,<sp/>and/or<sp/>sell</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>copies<sp/>of<sp/>the<sp/>Software,<sp/>and<sp/>to<sp/>permit<sp/>persons<sp/>to<sp/>whom<sp/>the<sp/>Software<sp/>is</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>furnished<sp/>to<sp/>do<sp/>so,<sp/>subject<sp/>to<sp/>the<sp/>following<sp/>conditions:</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>The<sp/>above<sp/>copyright<sp/>notice<sp/>and<sp/>this<sp/>permission<sp/>notice<sp/>shall<sp/>be<sp/>included<sp/>in<sp/>all</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>copies<sp/>or<sp/>substantial<sp/>portions<sp/>of<sp/>the<sp/>Software.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>THE<sp/>SOFTWARE<sp/>IS<sp/>PROVIDED<sp/>&quot;AS<sp/>IS&quot;,<sp/>WITHOUT<sp/>WARRANTY<sp/>OF<sp/>ANY<sp/>KIND,<sp/>EXPRESS<sp/>OR</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>IMPLIED,<sp/>INCLUDING<sp/>BUT<sp/>NOT<sp/>LIMITED<sp/>TO<sp/>THE<sp/>WARRANTIES<sp/>OF<sp/>MERCHANTABILITY,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE<sp/>AND<sp/>NONINFRINGEMENT.<sp/>IN<sp/>NO<sp/>EVENT<sp/>SHALL<sp/>THE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>AUTHORS<sp/>OR<sp/>COPYRIGHT<sp/>HOLDERS<sp/>BE<sp/>LIABLE<sp/>FOR<sp/>ANY<sp/>CLAIM,<sp/>DAMAGES<sp/>OR<sp/>OTHER</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>LIABILITY,<sp/>WHETHER<sp/>IN<sp/>AN<sp/>ACTION<sp/>OF<sp/>CONTRACT,<sp/>TORT<sp/>OR<sp/>OTHERWISE,<sp/>ARISING<sp/>FROM,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>OUT<sp/>OF<sp/>OR<sp/>IN<sp/>CONNECTION<sp/>WITH<sp/>THE<sp/>SOFTWARE<sp/>OR<sp/>THE<sp/>USE<sp/>OR<sp/>OTHER<sp/>DEALINGS<sp/>IN<sp/>THE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>SOFTWARE.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="comment">//<sp/>A<sp/>broadcaster<sp/>for<sp/>several<sp/>sensors<sp/>(Low<sp/>battery,<sp/>distance<sp/>travelled,<sp/>location<sp/>accuracy,<sp/>network<sp/>reachability)<sp/>for<sp/>iOS<sp/>/<sp/>ObjC</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;Foundation/Foundation.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;CoreLocation/CoreLocation.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;netinet/in.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38" refid="_d_g_state_broadcaster_8h_1a4766155ac4039a00e682b4a297c6f5fe" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="_d_g_state_broadcaster_8h_1a4766155ac4039a00e682b4a297c6f5fe" kindref="member">_DGStateBroadcasterState</ref></highlight></codeline>
+<codeline lineno="39"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="40" refid="_d_g_state_broadcaster_8h_1a4766155ac4039a00e682b4a297c6f5fea85ef51e07e77cc1c92542920fc942f7c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_d_g_state_broadcaster_8h_1a4766155ac4039a00e682b4a297c6f5fea85ef51e07e77cc1c92542920fc942f7c" kindref="member">DGStateBroadcasterLowBattery</ref><sp/>=<sp/>0x01,</highlight></codeline>
+<codeline lineno="41" refid="_d_g_state_broadcaster_8h_1a4766155ac4039a00e682b4a297c6f5fead3da0225bb1f545ee1fa38fe40c643b6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_d_g_state_broadcaster_8h_1a4766155ac4039a00e682b4a297c6f5fead3da0225bb1f545ee1fa38fe40c643b6" kindref="member">DGStateBroadcasterDistanceTravelled</ref><sp/>=<sp/>0x02,</highlight></codeline>
+<codeline lineno="42" refid="_d_g_state_broadcaster_8h_1a4766155ac4039a00e682b4a297c6f5fea2f24a1a0fc791a334f235a389f5a099d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_d_g_state_broadcaster_8h_1a4766155ac4039a00e682b4a297c6f5fea2f24a1a0fc791a334f235a389f5a099d" kindref="member">DGStateBroadcasterLocationAccuracy</ref><sp/>=<sp/>0x04,</highlight></codeline>
+<codeline lineno="43" refid="_d_g_state_broadcaster_8h_1a4766155ac4039a00e682b4a297c6f5feade23fe7e9c96bf2d6509b6d3d4776fe6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_d_g_state_broadcaster_8h_1a4766155ac4039a00e682b4a297c6f5feade23fe7e9c96bf2d6509b6d3d4776fe6" kindref="member">DGStateBroadcasterNetworkReachability</ref><sp/>=<sp/>0x08,</highlight></codeline>
+<codeline lineno="44"><highlight class="normal">}<sp/><ref refid="_d_g_state_broadcaster_8h_1a872746871940aea21d181eef66a9fd3b" kindref="member">DGStateBroadcasterState</ref>;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight><highlight class="keyword">@class</highlight><highlight class="normal"><sp/><ref refid="class_d_g_state_broadcaster" kindref="compound">DGStateBroadcaster</ref>;</highlight></codeline>
+<codeline lineno="47" refid="protocol_d_g_state_broadcaster_delegate-p" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">@protocol<sp/></highlight><highlight class="normal"><ref refid="protocol_d_g_state_broadcaster_delegate-p" kindref="compound">DGStateBroadcasterDelegate</ref><sp/>&lt;NSObject&gt;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight><highlight class="keyword">@optional</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal">-<sp/>(void)stateBroadcasterBatteryChargedLow:(BOOL)isLow<sp/>charging:(BOOL)isCharging;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal">-<sp/>(void)stateBroadcasterDistanceTravelledToLocation:(CLLocation<sp/>*)location;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal">-<sp/>(void)stateBroadcasterLocationAccurateEnough:(BOOL)accurateEnough;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal">-<sp/>(void)stateBroadcasterNetworkReachable:(BOOL)reachable<sp/>isOnWifi:(BOOL)wifi;</highlight></codeline>
+<codeline lineno="55"><highlight class="normal">-<sp/>(void)stateBroadcasterLocationManagerDidChangeAuthorizationStatus:(CLAuthorizationStatus)status;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="class_d_g_state_broadcaster" kindref="compound">DGStateBroadcaster</ref><sp/>:<sp/>NSObject</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal">+<sp/>(void)addDelegate:(__unsafe_unretained<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">&lt;<ref refid="protocol_d_g_state_broadcaster_delegate-p" kindref="compound">DGStateBroadcasterDelegate</ref>&gt;)delegate;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal">+<sp/>(void)removeDelegate:(__unsafe_unretained<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">&lt;<ref refid="protocol_d_g_state_broadcaster_delegate-p" kindref="compound">DGStateBroadcasterDelegate</ref>&gt;)delegate;</highlight></codeline>
+<codeline lineno="63"><highlight class="normal">+<sp/>(void)<ref refid="class_d_g_state_broadcaster_1ab49ffdc5ebde1703272ffd7f8ceb8428" kindref="member">removeAllDelegates</ref>;</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal">+<sp/>(void)startListeningTo:(<ref refid="_d_g_state_broadcaster_8h_1a872746871940aea21d181eef66a9fd3b" kindref="member">DGStateBroadcasterState</ref>)states;</highlight></codeline>
+<codeline lineno="66"><highlight class="normal">+<sp/>(void)stopListeningTo:(<ref refid="_d_g_state_broadcaster_8h_1a872746871940aea21d181eef66a9fd3b" kindref="member">DGStateBroadcasterState</ref>)states;</highlight></codeline>
+<codeline lineno="67"><highlight class="normal">+<sp/>(void)<ref refid="class_d_g_state_broadcaster_1a1ce92b6c7f62c9c26e12a5aa43e84ef7" kindref="member">stopListeningToAllStates</ref>;</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal">+<sp/>(void)startListeningToLowBatteryWithBar:(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal">)batteryCharge;<sp/></highlight><highlight class="comment">//<sp/>Default:<sp/>0.05</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal">+<sp/>(void)startListeningToDistanceTravelledWithBarInMeters:(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">)meters;<sp/></highlight><highlight class="comment">//<sp/>Default:<sp/>30</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal">+<sp/>(void)startListeningToLocationAccuracyWithBarInMeters:(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">)meters;<sp/></highlight><highlight class="comment">//<sp/>Default:<sp/>100m</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/>Setters</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal">+<sp/>(void)setDistanceTravelledBarInMeters:(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">)meters;</highlight></codeline>
+<codeline lineno="76"><highlight class="normal">+<sp/>(void)setLocationAccuracyBarInMeters:(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">)meters;</highlight></codeline>
+<codeline lineno="77"><highlight class="normal">+<sp/>(void)setLowBatteryBar:(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal">)batteryCharge;</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal">+<sp/>(void)setReachabilityWithHostname:(NSString<sp/>*)hostname;</highlight></codeline>
+<codeline lineno="80"><highlight class="normal">+<sp/>(void)setReachabilityWithAddress:(const<sp/>struct<sp/>sockaddr_in<sp/>*)hostAddress;</highlight></codeline>
+<codeline lineno="81"><highlight class="normal">+<sp/>(void)<ref refid="class_d_g_state_broadcaster_1a7d477939a91324b780b1d540dd670b32" kindref="member">setReachabilityForInternetConnection</ref>;<sp/></highlight><highlight class="comment">//<sp/>This<sp/>is<sp/>the<sp/>default<sp/>mode</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal">+<sp/>(void)<ref refid="class_d_g_state_broadcaster_1a63d9a4499826bd7bd04a72a40569935c" kindref="member">setReachabilityForWifiInternetConnection</ref>;</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>__IPHONE_OS_VERSION_MIN_REQUIRED<sp/>&lt;<sp/>60000</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal">+<sp/>(void)setLocationPurpose:(NSString<sp/>*)purpose;</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal">+<sp/>(void)setLocationActivityType:(CLActivityType)activityType;</highlight></codeline>
+<codeline lineno="88"><highlight class="normal">+<sp/>(CLAuthorizationStatus)<ref refid="class_d_g_state_broadcaster_1ab545fcedfbb1b3a60a48d4ec9e578ed8" kindref="member">locationAuthorizationStatus</ref>;</highlight></codeline>
+<codeline lineno="89"><highlight class="normal">+<sp/>(void)<ref refid="class_d_g_state_broadcaster_1a4ff98f39f79324ea47eaa248116ec4bd" kindref="member">requestLocationWhenInUseAuthorization</ref>;</highlight></codeline>
+<codeline lineno="90"><highlight class="normal">+<sp/>(void)<ref refid="class_d_g_state_broadcaster_1a2af18e89b5babebe58ac7bc534023f33" kindref="member">requestLocationAlwaysAuthorization</ref>;</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/>Getters</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal">+<sp/>(BOOL)<ref refid="class_d_g_state_broadcaster_1a9627aa20571164781e2fb0bab5e90131" kindref="member">isBatteryCurrentlyLow</ref>;</highlight></codeline>
+<codeline lineno="95"><highlight class="normal">+<sp/>(BOOL)<ref refid="class_d_g_state_broadcaster_1ab28afc3c1c3cc97513cbfb9e0ccb97c3" kindref="member">isBatteryCurrentlyCharging</ref>;</highlight></codeline>
+<codeline lineno="96"><highlight class="normal">+<sp/>(float)<ref refid="class_d_g_state_broadcaster_1a8b0e0b72b4f57cae2528f1db41ca2ca5" kindref="member">currentBatteryLevel</ref>;</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal">+<sp/>(BOOL)<ref refid="class_d_g_state_broadcaster_1a971febf159559c0576a0af8c02a9c9a0" kindref="member">isReachable</ref>;</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal">+<sp/>(BOOL)<ref refid="class_d_g_state_broadcaster_1a6bffd6e5504ce0850f42c88c2ba0a9ae" kindref="member">isOnWifi</ref>;</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal">+<sp/>(NSString<sp/>*)<ref refid="class_d_g_state_broadcaster_1a86baf2bfe6eb6a88496287f5cdc2fa05" kindref="member">wifiIpAddress</ref>;</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/LooseCoupling CommuniateLayer/StateBroadcaster/DGStateBroadcaster.h"/>
+  </compounddef>
+</doxygen>

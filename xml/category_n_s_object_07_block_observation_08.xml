@@ -1,0 +1,409 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_n_s_object_07_block_observation_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>NSObject(BlockObservation)</compoundname>
+    <includes refid="_n_s_object_09_b_k_block_observation_8h" local="no">NSObject+BKBlockObservation.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="category_n_s_object_07_block_observation_08_1a569300cab5e155799366116aad26848c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * NSObject(BlockObservation)::bk_addObserverForKeyPath:task:</definition>
+        <argsstring>(NSString *keyPath,[task] void(^task)(id target))</argsstring>
+        <name>bk_addObserverForKeyPath:task:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>keyPath</declname>
+        </param>
+        <param>
+          <attributes>[task]</attributes>
+          <type>void(^)(id target)</type>
+          <declname>task</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Adds an observer to an object conforming to NSKeyValueObserving.</para><para>Adds a block observer that executes a block upon a state change.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>keyPath</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The property to observe, relative to the reciever. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>task</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A block with no return argument, and a single parameter: the reciever. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Returns a globally unique process identifier for removing observation with removeObserverWithBlockToken:. </para></simplesect>
+<simplesect kind="see"><para>addObserverForKeyPath:identifier:options:task: </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSObject+BKBlockObservation.h" line="142" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSObject+BKBlockObservation.m" bodystart="156" bodyend="161"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_object_07_block_observation_08_1ae3048f1985d69fdce0997782600966b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * NSObject(BlockObservation)::bk_addObserverForKeyPaths:task:</definition>
+        <argsstring>(NSArray *keyPaths,[task] void(^task)(id obj, NSString *keyPath))</argsstring>
+        <name>bk_addObserverForKeyPaths:task:</name>
+        <param>
+          <type>NSArray *</type>
+          <declname>keyPaths</declname>
+        </param>
+        <param>
+          <attributes>[task]</attributes>
+          <type>void(^)(id obj, NSString *keyPath)</type>
+          <declname>task</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Adds an observer to an object conforming to NSKeyValueObserving.</para><para>Adds a block observer that executes the same block upon multiple state changes.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>keyPaths</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>An array of properties to observe, relative to the reciever. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>task</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A block with no return argument and two parameters: the reciever and the key path of the value change. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>A unique identifier for removing observation with removeObserverWithBlockToken:. </para></simplesect>
+<simplesect kind="see"><para>addObserverForKeyPath:identifier:options:task: </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSObject+BKBlockObservation.h" line="142" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSObject+BKBlockObservation.m" bodystart="163" bodyend="168"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_object_07_block_observation_08_1a8395ef1fd787ced723ef8970a69fc611" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * NSObject(BlockObservation)::bk_addObserverForKeyPath:options:task:</definition>
+        <argsstring>(NSString *keyPath,[options] NSKeyValueObservingOptions options,[task] void(^task)(id obj, NSDictionary *change))</argsstring>
+        <name>bk_addObserverForKeyPath:options:task:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>keyPath</declname>
+        </param>
+        <param>
+          <attributes>[options]</attributes>
+          <type>NSKeyValueObservingOptions</type>
+          <declname>options</declname>
+        </param>
+        <param>
+          <attributes>[task]</attributes>
+          <type>void(^)(id obj, NSDictionary *change)</type>
+          <declname>task</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Adds an observer to an object conforming to NSKeyValueObserving.</para><para>Adds a block observer that executes a block upon a state change with specific options.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>keyPath</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The property to observe, relative to the reciever. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>options</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The NSKeyValueObservingOptions to use. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>task</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A block with no return argument and two parameters: the reciever and the change dictionary. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Returns a globally unique process identifier for removing observation with removeObserverWithBlockToken:. </para></simplesect>
+<simplesect kind="see"><para>addObserverForKeyPath:identifier:options:task: </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSObject+BKBlockObservation.h" line="142" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSObject+BKBlockObservation.m" bodystart="170" bodyend="176"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_object_07_block_observation_08_1a1ba62ddd892fd6c5948d712f892aaa7e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * NSObject(BlockObservation)::bk_addObserverForKeyPaths:options:task:</definition>
+        <argsstring>(NSArray *keyPaths,[options] NSKeyValueObservingOptions options,[task] void(^task)(id obj, NSString *keyPath, NSDictionary *change))</argsstring>
+        <name>bk_addObserverForKeyPaths:options:task:</name>
+        <param>
+          <type>NSArray *</type>
+          <declname>keyPaths</declname>
+        </param>
+        <param>
+          <attributes>[options]</attributes>
+          <type>NSKeyValueObservingOptions</type>
+          <declname>options</declname>
+        </param>
+        <param>
+          <attributes>[task]</attributes>
+          <type>void(^)(id obj, NSString *keyPath, NSDictionary *change)</type>
+          <declname>task</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Adds an observer to an object conforming to NSKeyValueObserving.</para><para>Adds a block observer that executes the same block upon multiple state changes with specific options.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>keyPaths</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>An array of properties to observe, relative to the reciever. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>options</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The NSKeyValueObservingOptions to use. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>task</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A block with no return argument and three parameters: the reciever, the key path of the value change, and the change dictionary. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>A unique identifier for removing observation with removeObserverWithBlockToken:. </para></simplesect>
+<simplesect kind="see"><para>addObserverForKeyPath:identifier:options:task: </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSObject+BKBlockObservation.h" line="142" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSObject+BKBlockObservation.m" bodystart="178" bodyend="184"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_object_07_block_observation_08_1afe2acd040645a0b45ea36f669eb27bb3" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void NSObject(BlockObservation)::bk_addObserverForKeyPath:identifier:options:task:</definition>
+        <argsstring>(NSString *keyPath,[identifier] NSString *token,[options] NSKeyValueObservingOptions options,[task] void(^task)(id obj, NSDictionary *change))</argsstring>
+        <name>bk_addObserverForKeyPath:identifier:options:task:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>keyPath</declname>
+        </param>
+        <param>
+          <attributes>[identifier]</attributes>
+          <type>NSString *</type>
+          <declname>token</declname>
+        </param>
+        <param>
+          <attributes>[options]</attributes>
+          <type>NSKeyValueObservingOptions</type>
+          <declname>options</declname>
+        </param>
+        <param>
+          <attributes>[task]</attributes>
+          <type>void(^)(id obj, NSDictionary *change)</type>
+          <declname>task</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Adds an observer to an object conforming to NSKeyValueObserving.</para><para>Adds a block observer that executes the block upon a state change.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>keyPath</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The property to observe, relative to the reciever. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>token</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>An identifier for the observation block. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>options</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The NSKeyValueObservingOptions to use. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>task</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A block responding to the reciever and the KVO change. observation with removeObserverWithBlockToken:. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para>addObserverForKeyPath:task: </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSObject+BKBlockObservation.h" line="142" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSObject+BKBlockObservation.m" bodystart="186" bodyend="191"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_object_07_block_observation_08_1aa23544bb371b5d1b3e4b257c18f12026" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void NSObject(BlockObservation)::bk_addObserverForKeyPaths:identifier:options:task:</definition>
+        <argsstring>(NSArray *keyPaths,[identifier] NSString *token,[options] NSKeyValueObservingOptions options,[task] void(^task)(id obj, NSString *keyPath, NSDictionary *change))</argsstring>
+        <name>bk_addObserverForKeyPaths:identifier:options:task:</name>
+        <param>
+          <type>NSArray *</type>
+          <declname>keyPaths</declname>
+        </param>
+        <param>
+          <attributes>[identifier]</attributes>
+          <type>NSString *</type>
+          <declname>token</declname>
+        </param>
+        <param>
+          <attributes>[options]</attributes>
+          <type>NSKeyValueObservingOptions</type>
+          <declname>options</declname>
+        </param>
+        <param>
+          <attributes>[task]</attributes>
+          <type>void(^)(id obj, NSString *keyPath, NSDictionary *change)</type>
+          <declname>task</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Adds an observer to an object conforming to NSKeyValueObserving.</para><para>Adds a block observer that executes the same block upon multiple state changes.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>keyPaths</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>An array of properties to observe, relative to the reciever. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>token</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>An identifier for the observation block. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>options</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The NSKeyValueObservingOptions to use. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>task</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A block responding to the reciever, the key path, and the KVO change. observation with removeObserversWithIdentifier:. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para>addObserverForKeyPath:task: </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSObject+BKBlockObservation.h" line="142" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSObject+BKBlockObservation.m" bodystart="193" bodyend="198"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_object_07_block_observation_08_1a809b0a2e5178e0698561c4b2a1d42c7a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void NSObject(BlockObservation)::bk_removeObserverForKeyPath:identifier:</definition>
+        <argsstring>(NSString *keyPath,[identifier] NSString *token)</argsstring>
+        <name>bk_removeObserverForKeyPath:identifier:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>keyPath</declname>
+        </param>
+        <param>
+          <attributes>[identifier]</attributes>
+          <type>NSString *</type>
+          <declname>token</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Removes a block observer.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>keyPath</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The property to stop observing, relative to the reciever. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>token</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The unique key returned by addObserverForKeyPath:task: or the identifier given in addObserverForKeyPath:identifier:task:. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para>removeObserversWithIdentifier: </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSObject+BKBlockObservation.h" line="142" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSObject+BKBlockObservation.m" bodystart="200" bodyend="220"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_object_07_block_observation_08_1ae654f69491a63e028a7108ed876b06c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void NSObject(BlockObservation)::bk_removeObserversWithIdentifier:</definition>
+        <argsstring>(NSString *token)</argsstring>
+        <name>bk_removeObserversWithIdentifier:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>token</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Removes multiple block observers with a certain identifier.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>token</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A unique key returned by addObserverForKeyPath:task: and addObserverForKeyPaths:task: or the identifier given in addObserverForKeyPath:identifier:task: and addObserverForKeyPaths:identifier:task:. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para>removeObserverForKeyPath:identifier: </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSObject+BKBlockObservation.h" line="142" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSObject+BKBlockObservation.m" bodystart="222" bodyend="239"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_object_07_block_observation_08_1a0cd139ae1fae02f5400b1725e5c2633b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void NSObject(BlockObservation)::bk_removeAllBlockObservers</definition>
+        <argsstring>()</argsstring>
+        <name>bk_removeAllBlockObservers</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Remove all registered block observers. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSObject+BKBlockObservation.h" line="142" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSObject+BKBlockObservation.m" bodystart="241" bodyend="253"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Blocks wrapper for key-value observation.</para><para>In Mac OS X Panther, Apple introduced an API called &quot;key-value
+observing.&quot; It implements an <ulink url="http://en.wikipedia.org/wiki/Observer_pattern">observer pattern</ulink>, where an object will notify observers of any changes in state.</para><para>NSNotification is a rudimentary form of this design style; KVO, however, allows for the observation of any change in key-value state. The API for key-value observation, however, is flawed, ugly, and lengthy.</para><para>Like most of the other block abilities in BlocksKit, observation saves and a bunch of code and a bunch of potential bugs.</para><para>Includes code by the following:</para><para><itemizedlist>
+<listitem><para><ulink url="https://github.com/andymatuschak">Andy Matuschak</ulink></para></listitem><listitem><para><ulink url="https://github.com/jonsterling">Jon Sterling</ulink></para></listitem><listitem><para><ulink url="https://github.com/zwaldowski">Zach Waldowski</ulink></para></listitem><listitem><para><ulink url="https://github.com/schwa">Jonathan Wight</ulink> </para></listitem></itemizedlist>
+</para>    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSObject+BKBlockObservation.m" line="154" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSObject+BKBlockObservation.m" bodystart="154" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_n_s_object_07_block_observation_08_1afe2acd040645a0b45ea36f669eb27bb3" prot="public" virt="virtual"><scope>NSObject(BlockObservation)</scope><name>bk_addObserverForKeyPath:identifier:options:task:</name></member>
+      <member refid="category_n_s_object_07_block_observation_08_1a8395ef1fd787ced723ef8970a69fc611" prot="public" virt="virtual"><scope>NSObject(BlockObservation)</scope><name>bk_addObserverForKeyPath:options:task:</name></member>
+      <member refid="category_n_s_object_07_block_observation_08_1a569300cab5e155799366116aad26848c" prot="public" virt="virtual"><scope>NSObject(BlockObservation)</scope><name>bk_addObserverForKeyPath:task:</name></member>
+      <member refid="category_n_s_object_07_block_observation_08_1aa23544bb371b5d1b3e4b257c18f12026" prot="public" virt="virtual"><scope>NSObject(BlockObservation)</scope><name>bk_addObserverForKeyPaths:identifier:options:task:</name></member>
+      <member refid="category_n_s_object_07_block_observation_08_1a1ba62ddd892fd6c5948d712f892aaa7e" prot="public" virt="virtual"><scope>NSObject(BlockObservation)</scope><name>bk_addObserverForKeyPaths:options:task:</name></member>
+      <member refid="category_n_s_object_07_block_observation_08_1ae3048f1985d69fdce0997782600966b2" prot="public" virt="virtual"><scope>NSObject(BlockObservation)</scope><name>bk_addObserverForKeyPaths:task:</name></member>
+      <member refid="category_n_s_object_07_block_observation_08_1a0cd139ae1fae02f5400b1725e5c2633b" prot="public" virt="virtual"><scope>NSObject(BlockObservation)</scope><name>bk_removeAllBlockObservers</name></member>
+      <member refid="category_n_s_object_07_block_observation_08_1a809b0a2e5178e0698561c4b2a1d42c7a" prot="public" virt="virtual"><scope>NSObject(BlockObservation)</scope><name>bk_removeObserverForKeyPath:identifier:</name></member>
+      <member refid="category_n_s_object_07_block_observation_08_1ae654f69491a63e028a7108ed876b06c1" prot="public" virt="virtual"><scope>NSObject(BlockObservation)</scope><name>bk_removeObserversWithIdentifier:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

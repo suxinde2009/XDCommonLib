@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="class_x_d_pin_yin" kind="class" language="Objective-C" prot="public">
+    <compoundname>XDPinYin</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">NSObject</basecompoundref>
+    <includes refid="_x_d_pin_yin_8h" local="no">XDPinYin.h</includes>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_x_d_pin_yin_1a4d1b59813ded9bf0ed3318a7cb792055" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * XDPinYin::convert:</definition>
+        <argsstring>(NSString *hzStr)</argsstring>
+        <name>convert:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>hzStr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDPinYin/XDPinYin.h" line="500" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDPinYin/XDPinYin.m" bodystart="572" bodyend="637"/>
+      </memberdef>
+      <memberdef kind="function" id="class_x_d_pin_yin_1af91a839732c0b769c66ac00fb5a1a472" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * XDPinYin::quickConvert:</definition>
+        <argsstring>(NSString *hzStr)</argsstring>
+        <name>quickConvert:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>hzStr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDPinYin/XDPinYin.h" line="500" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDPinYin/XDPinYin.m" bodystart="509" bodyend="569"/>
+      </memberdef>
+      <memberdef kind="function" id="class_x_d_pin_yin_1ac8748f3658e1043fba638c58eb9a7b71" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void XDPinYin::clearCache</definition>
+        <argsstring>()</argsstring>
+        <name>clearCache</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDPinYin/XDPinYin.h" line="500" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDPinYin/XDPinYin.m" bodystart="502" bodyend="507"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1376">
+        <label>XDPinYin</label>
+        <link refid="class_x_d_pin_yin"/>
+        <childnode refid="1377" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1377">
+        <label>NSObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1378">
+        <label>XDPinYin</label>
+        <link refid="class_x_d_pin_yin"/>
+        <childnode refid="1379" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1379">
+        <label>NSObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDPinYin/XDPinYin.m" line="498" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDPinYin/XDPinYin.m" bodystart="498" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="class_x_d_pin_yin_1ac8748f3658e1043fba638c58eb9a7b71" prot="public" virt="virtual"><scope>XDPinYin</scope><name>clearCache</name></member>
+      <member refid="class_x_d_pin_yin_1a4d1b59813ded9bf0ed3318a7cb792055" prot="public" virt="virtual"><scope>XDPinYin</scope><name>convert:</name></member>
+      <member refid="class_x_d_pin_yin_1af91a839732c0b769c66ac00fb5a1a472" prot="public" virt="virtual"><scope>XDPinYin</scope><name>quickConvert:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

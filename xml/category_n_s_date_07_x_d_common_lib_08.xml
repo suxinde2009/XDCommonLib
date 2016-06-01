@@ -1,0 +1,525 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_n_s_date_07_x_d_common_lib_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>NSDate(XDCommonLib)</compoundname>
+    <includes refid="_n_s_date_09_x_d_common_lib_8h" local="no">NSDate+XDCommonLib.h</includes>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="category_n_s_date_07_x_d_common_lib_08_1a8c05f74945870c8f5074996bb4612f17" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSDate *_Nonnull</type>
+        <definition>NSDate *_Nonnull NSDate(XDCommonLib)::yesterday</definition>
+        <argsstring>()</argsstring>
+        <name>yesterday</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Create a NSDate with the yesterday date</para><para><simplesect kind="return"><para>Returns a NSDate with the yesterday date </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+XDCommonLib.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+XDCommonLib.m" bodystart="14" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_07_x_d_common_lib_08_1a4056537c9e0460f9c70a2d0610f0feab" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSDate *_Nonnull</type>
+        <definition>NSDate *_Nonnull NSDate(XDCommonLib)::month</definition>
+        <argsstring>()</argsstring>
+        <name>month</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get the month from today</para><para><simplesect kind="return"><para>Returns the month </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+XDCommonLib.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+XDCommonLib.m" bodystart="20" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_07_x_d_common_lib_08_1a825ad120d419fcb02be3cffe7cf1bbf3" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSDate *_Nonnull</type>
+        <definition>NSDate * _Nonnull NSDate(XDCommonLib)::dateWithDatePart:andTimePart:</definition>
+        <argsstring>(NSDate *_Nonnull aDate,[andTimePart] NSDate *_Nonnull aTime)</argsstring>
+        <name>dateWithDatePart:andTimePart:</name>
+        <param>
+          <type>NSDate *_Nonnull</type>
+          <declname>aDate</declname>
+        </param>
+        <param>
+          <attributes>[andTimePart]</attributes>
+          <type>NSDate *_Nonnull</type>
+          <declname>aTime</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Create an NSDate with other two NSDate objects. Taken from the first date: day, month and year. Taken from the second date: hours and minutes.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>aDate</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The first date for date </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>aTime</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The second date for time</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Returns the created NSDate </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+XDCommonLib.h" line="49" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_07_x_d_common_lib_08_1a65908d1a3156d2a7ab5b167b5f3ed691" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *_Nonnull</type>
+        <definition>NSString *_Nonnull NSDate(XDCommonLib)::monthStringWithMonthNumber:</definition>
+        <argsstring>(NSInteger month)</argsstring>
+        <name>monthStringWithMonthNumber:</name>
+        <param>
+          <type>NSInteger</type>
+          <declname>month</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get the month as a localized string from the given month number</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>month</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The month to be converted in string [1 - January] [2 - February] [3 - March] [4 - April] [5 - May] [6 - June] [7 - July] [8 - August] [9 - September] [10 - October] [11 - November] [12 - December]</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Returns the given month as a localized string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+XDCommonLib.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+XDCommonLib.m" bodystart="132" bodyend="174"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_07_x_d_common_lib_08_1a23163b878b7659ac4ef7979c535c72fb" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSDate *_Nonnull</type>
+        <definition>NSDate *_Nonnull NSDate(XDCommonLib)::dateFromDateInformation:</definition>
+        <argsstring>(BFDateInformation info)</argsstring>
+        <name>dateFromDateInformation:</name>
+        <param>
+          <type><ref refid="struct_b_f_date_information" kindref="compound">BFDateInformation</ref></type>
+          <declname>info</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a date from a given <ref refid="struct_b_f_date_information" kindref="compound">BFDateInformation</ref> structure</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>info</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="struct_b_f_date_information" kindref="compound">BFDateInformation</ref> to be converted</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Returns a NSDate from a given <ref refid="struct_b_f_date_information" kindref="compound">BFDateInformation</ref> structure </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+XDCommonLib.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+XDCommonLib.m" bodystart="207" bodyend="209"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_07_x_d_common_lib_08_1ae4a16df30f6b4cf2fabde8d8010dbf33" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSDate *_Nonnull</type>
+        <definition>NSDate *_Nonnull NSDate(XDCommonLib)::dateFromDateInformation:timeZone:</definition>
+        <argsstring>(BFDateInformation info,[timeZone] NSTimeZone *_Nonnull timezone)</argsstring>
+        <name>dateFromDateInformation:timeZone:</name>
+        <param>
+          <type><ref refid="struct_b_f_date_information" kindref="compound">BFDateInformation</ref></type>
+          <declname>info</declname>
+        </param>
+        <param>
+          <attributes>[timeZone]</attributes>
+          <type>NSTimeZone *_Nonnull</type>
+          <declname>timezone</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a date from a given <ref refid="struct_b_f_date_information" kindref="compound">BFDateInformation</ref> structure with a given time zone</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>info</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="struct_b_f_date_information" kindref="compound">BFDateInformation</ref> to be converted </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>timezone</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The timezone</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Returns a NSDate from a given <ref refid="struct_b_f_date_information" kindref="compound">BFDateInformation</ref> structure with a given time zone </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+XDCommonLib.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+XDCommonLib.m" bodystart="211" bodyend="227"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_07_x_d_common_lib_08_1a33131618e21bfc2165206315c1c794c7" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *_Nonnull</type>
+        <definition>NSString *_Nonnull NSDate(XDCommonLib)::dateInformationDescriptionWithInformation:</definition>
+        <argsstring>(BFDateInformation info)</argsstring>
+        <name>dateInformationDescriptionWithInformation:</name>
+        <param>
+          <type><ref refid="struct_b_f_date_information" kindref="compound">BFDateInformation</ref></type>
+          <declname>info</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get the given <ref refid="struct_b_f_date_information" kindref="compound">BFDateInformation</ref> structure as a formatted string Default dateSeparator = &quot;/&quot; and usFormat to NO</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>info</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="struct_b_f_date_information" kindref="compound">BFDateInformation</ref> to be formatted</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Returns a NSString in the following format: D/M/Y H:M:S Example: 15/10/2013 10:38:43 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+XDCommonLib.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+XDCommonLib.m" bodystart="229" bodyend="231"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_07_x_d_common_lib_08_1a9c88a53c9508ea0c134521a8bbb49f46" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *_Nonnull</type>
+        <definition>NSString * _Nonnull NSDate(XDCommonLib)::dateInformationDescriptionWithInformation:dateSeparator:usFormat:nanosecond:</definition>
+        <argsstring>(BFDateInformation info,[dateSeparator] NSString *_Nonnull dateSeparator,[usFormat] BOOL usFormat,[nanosecond] BOOL nanosecond)</argsstring>
+        <name>dateInformationDescriptionWithInformation:dateSeparator:usFormat:nanosecond:</name>
+        <param>
+          <type><ref refid="struct_b_f_date_information" kindref="compound">BFDateInformation</ref></type>
+          <declname>info</declname>
+        </param>
+        <param>
+          <attributes>[dateSeparator]</attributes>
+          <type>NSString *_Nonnull</type>
+          <declname>dateSeparator</declname>
+        </param>
+        <param>
+          <attributes>[usFormat]</attributes>
+          <type>BOOL</type>
+          <declname>usFormat</declname>
+        </param>
+        <param>
+          <attributes>[nanosecond]</attributes>
+          <type>BOOL</type>
+          <declname>nanosecond</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get the given <ref refid="struct_b_f_date_information" kindref="compound">BFDateInformation</ref> structure as a formatted string</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>info</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="struct_b_f_date_information" kindref="compound">BFDateInformation</ref> to be formatted </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dateSeparator</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The string to be used as date separator </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>usFormat</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Set if the timestamp is in US format or not </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>nanosecond</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Set if the timestamp has to have the nanosecond</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Returns a NSString in the following format (dateSeparator = &quot;/&quot;, usFormat to false and nanosecond to false). D/M/Y H:M:S. Example: 15/10/2013 10:38:43 D/M/Y H:M:S Example: 15/10/2013 10:38:43 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+XDCommonLib.h" line="49" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="category_n_s_date_07_x_d_common_lib_08_1ac3c911e1f6054c470c8f7fcfb857da13" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSDate *_Nonnull</type>
+        <definition>NSDate * _Nonnull NSDate(XDCommonLib)::month</definition>
+        <argsstring>()</argsstring>
+        <name>month</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get the month from self</para><para><simplesect kind="return"><para>Returns the month </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+XDCommonLib.h" line="49" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_07_x_d_common_lib_08_1ab214f384550e8eb452ad693ab58c06e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSInteger</type>
+        <definition>NSInteger NSDate(XDCommonLib)::weekday</definition>
+        <argsstring>()</argsstring>
+        <name>weekday</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get the weekday number from self</para><para><simplesect kind="return"><para>Returns weekday number [1 - Sunday] [2 - Monday] [3 - Tuerday] [4 - Wednesday] [5 - Thursday] [6 - Friday] [7 - Saturday] </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+XDCommonLib.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+XDCommonLib.m" bodystart="32" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_07_x_d_common_lib_08_1aec932ef6c663409c18ef98db3cea5584" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *_Nonnull</type>
+        <definition>NSString *_Nonnull NSDate(XDCommonLib)::dayFromWeekday</definition>
+        <argsstring>()</argsstring>
+        <name>dayFromWeekday</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get the weekday as a localized string from self</para><para><simplesect kind="return"><para>Returns weekday as a localized string [1 - Sunday] [2 - Monday] [3 - Tuerday] [4 - Wednesday] [5 - Thursday] [6 - Friday] [7 - Saturday] </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+XDCommonLib.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+XDCommonLib.m" bodystart="39" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_07_x_d_common_lib_08_1adec0c1d8f197fb6dc42430f503755ae0" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL NSDate(XDCommonLib)::isSameDay:</definition>
+        <argsstring>(NSDate *_Nonnull anotherDate)</argsstring>
+        <name>isSameDay:</name>
+        <param>
+          <type>NSDate *_Nonnull</type>
+          <declname>anotherDate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Compare self with another date</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>anotherDate</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The another date to compare as NSDate</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Returns YES if is same day, NO if not </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+XDCommonLib.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+XDCommonLib.m" bodystart="82" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_07_x_d_common_lib_08_1aa243048feb9e4a315e891c7e99a75dcd" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSInteger</type>
+        <definition>NSInteger NSDate(XDCommonLib)::monthsBetweenDate:</definition>
+        <argsstring>(NSDate *_Nonnull toDate)</argsstring>
+        <name>monthsBetweenDate:</name>
+        <param>
+          <type>NSDate *_Nonnull</type>
+          <declname>toDate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get the months number between self and another date</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>toDate</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The another date</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Returns the months between the two dates </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+XDCommonLib.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+XDCommonLib.m" bodystart="90" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_07_x_d_common_lib_08_1a7cd099ff16a7f7df4574adc71d2a374c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSInteger</type>
+        <definition>NSInteger NSDate(XDCommonLib)::daysBetweenDate:</definition>
+        <argsstring>(NSDate *_Nonnull toDate)</argsstring>
+        <name>daysBetweenDate:</name>
+        <param>
+          <type>NSDate *_Nonnull</type>
+          <declname>toDate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get the days number between self and another date</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>toDate</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The another date</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Returns the days between the two dates </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+XDCommonLib.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+XDCommonLib.m" bodystart="98" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_07_x_d_common_lib_08_1a1db0bbf617e40c6891579bac6994d271" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL NSDate(XDCommonLib)::isToday</definition>
+        <argsstring>()</argsstring>
+        <name>isToday</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns if self is today</para><para><simplesect kind="return"><para>Returns if self is today </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+XDCommonLib.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+XDCommonLib.m" bodystart="103" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_07_x_d_common_lib_08_1ab2a2f347edc2f4abe19537f534e6851f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSDate *_Nonnull</type>
+        <definition>NSDate *_Nonnull NSDate(XDCommonLib)::dateByAddingDays:</definition>
+        <argsstring>(NSUInteger days)</argsstring>
+        <name>dateByAddingDays:</name>
+        <param>
+          <type>NSUInteger</type>
+          <declname>days</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Add days to self</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>days</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The number of days to add</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Returns self by adding the gived days number </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+XDCommonLib.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+XDCommonLib.m" bodystart="107" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_07_x_d_common_lib_08_1a7d2c2a31f5ed5ec019f06b9efde2d76b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *_Nonnull</type>
+        <definition>NSString *_Nonnull NSDate(XDCommonLib)::monthString</definition>
+        <argsstring>()</argsstring>
+        <name>monthString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get the month string from self</para><para><simplesect kind="return"><para>Returns the month string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+XDCommonLib.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+XDCommonLib.m" bodystart="125" bodyend="130"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_07_x_d_common_lib_08_1a5236d26068650fc14faff25841a947ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *_Nonnull</type>
+        <definition>NSString *_Nonnull NSDate(XDCommonLib)::yearString</definition>
+        <argsstring>()</argsstring>
+        <name>yearString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get the year string from self</para><para><simplesect kind="return"><para>Returns the year string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+XDCommonLib.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+XDCommonLib.m" bodystart="176" bodyend="181"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_07_x_d_common_lib_08_1ad26cde8dd61ad1202b5df83d35e9c158" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="struct_b_f_date_information" kindref="compound">BFDateInformation</ref></type>
+        <definition>BFDateInformation NSDate(XDCommonLib)::dateInformation</definition>
+        <argsstring>()</argsstring>
+        <name>dateInformation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get self as a <ref refid="struct_b_f_date_information" kindref="compound">BFDateInformation</ref> structure</para><para><simplesect kind="return"><para>Returns self as a <ref refid="struct_b_f_date_information" kindref="compound">BFDateInformation</ref> structure </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+XDCommonLib.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+XDCommonLib.m" bodystart="183" bodyend="185"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_07_x_d_common_lib_08_1a84dfc86a284bcdb3aa82e683fa1963da" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="struct_b_f_date_information" kindref="compound">BFDateInformation</ref></type>
+        <definition>BFDateInformation NSDate(XDCommonLib)::dateInformationWithTimeZone:</definition>
+        <argsstring>(NSTimeZone *_Nonnull timezone)</argsstring>
+        <name>dateInformationWithTimeZone:</name>
+        <param>
+          <type>NSTimeZone *_Nonnull</type>
+          <declname>timezone</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get self as a <ref refid="struct_b_f_date_information" kindref="compound">BFDateInformation</ref> structure with a given time zone</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>timezone</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The timezone</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Returns self as a <ref refid="struct_b_f_date_information" kindref="compound">BFDateInformation</ref> structure with a given time zone </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+XDCommonLib.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+XDCommonLib.m" bodystart="187" bodyend="205"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_07_x_d_common_lib_08_1af89c63797db613e140929bf52574b2fd" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSDate *_Nonnull</type>
+        <definition>NSDate *_Nonnull NSDate(XDCommonLib)::shortDate</definition>
+        <argsstring>()</argsstring>
+        <name>shortDate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns date with the year, month and day only</para><para><simplesect kind="return"><para>Date after removing all components but not year, month and day </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+XDCommonLib.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+XDCommonLib.m" bodystart="249" bodyend="255"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>This category adds some useful methods to NSDate </para>    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+XDCommonLib.m" line="11" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+XDCommonLib.m" bodystart="11" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_n_s_date_07_x_d_common_lib_08_1ab2a2f347edc2f4abe19537f534e6851f" prot="public" virt="virtual"><scope>NSDate(XDCommonLib)</scope><name>dateByAddingDays:</name></member>
+      <member refid="category_n_s_date_07_x_d_common_lib_08_1a23163b878b7659ac4ef7979c535c72fb" prot="public" virt="virtual"><scope>NSDate(XDCommonLib)</scope><name>dateFromDateInformation:</name></member>
+      <member refid="category_n_s_date_07_x_d_common_lib_08_1ae4a16df30f6b4cf2fabde8d8010dbf33" prot="public" virt="virtual"><scope>NSDate(XDCommonLib)</scope><name>dateFromDateInformation:timeZone:</name></member>
+      <member refid="category_n_s_date_07_x_d_common_lib_08_1ad26cde8dd61ad1202b5df83d35e9c158" prot="public" virt="virtual"><scope>NSDate(XDCommonLib)</scope><name>dateInformation</name></member>
+      <member refid="category_n_s_date_07_x_d_common_lib_08_1a33131618e21bfc2165206315c1c794c7" prot="public" virt="virtual"><scope>NSDate(XDCommonLib)</scope><name>dateInformationDescriptionWithInformation:</name></member>
+      <member refid="category_n_s_date_07_x_d_common_lib_08_1a9c88a53c9508ea0c134521a8bbb49f46" prot="public" virt="virtual"><scope>NSDate(XDCommonLib)</scope><name>dateInformationDescriptionWithInformation:dateSeparator:usFormat:nanosecond:</name></member>
+      <member refid="category_n_s_date_07_x_d_common_lib_08_1a84dfc86a284bcdb3aa82e683fa1963da" prot="public" virt="virtual"><scope>NSDate(XDCommonLib)</scope><name>dateInformationWithTimeZone:</name></member>
+      <member refid="category_n_s_date_07_x_d_common_lib_08_1a825ad120d419fcb02be3cffe7cf1bbf3" prot="public" virt="virtual"><scope>NSDate(XDCommonLib)</scope><name>dateWithDatePart:andTimePart:</name></member>
+      <member refid="category_n_s_date_07_x_d_common_lib_08_1aec932ef6c663409c18ef98db3cea5584" prot="public" virt="virtual"><scope>NSDate(XDCommonLib)</scope><name>dayFromWeekday</name></member>
+      <member refid="category_n_s_date_07_x_d_common_lib_08_1a7cd099ff16a7f7df4574adc71d2a374c" prot="public" virt="virtual"><scope>NSDate(XDCommonLib)</scope><name>daysBetweenDate:</name></member>
+      <member refid="category_n_s_date_07_x_d_common_lib_08_1adec0c1d8f197fb6dc42430f503755ae0" prot="public" virt="virtual"><scope>NSDate(XDCommonLib)</scope><name>isSameDay:</name></member>
+      <member refid="category_n_s_date_07_x_d_common_lib_08_1a1db0bbf617e40c6891579bac6994d271" prot="public" virt="virtual"><scope>NSDate(XDCommonLib)</scope><name>isToday</name></member>
+      <member refid="category_n_s_date_07_x_d_common_lib_08_1a4056537c9e0460f9c70a2d0610f0feab" prot="public" virt="virtual"><scope>NSDate(XDCommonLib)</scope><name>month</name></member>
+      <member refid="category_n_s_date_07_x_d_common_lib_08_1ac3c911e1f6054c470c8f7fcfb857da13" prot="public" virt="virtual"><scope>NSDate(XDCommonLib)</scope><name>month</name></member>
+      <member refid="category_n_s_date_07_x_d_common_lib_08_1aa243048feb9e4a315e891c7e99a75dcd" prot="public" virt="virtual"><scope>NSDate(XDCommonLib)</scope><name>monthsBetweenDate:</name></member>
+      <member refid="category_n_s_date_07_x_d_common_lib_08_1a7d2c2a31f5ed5ec019f06b9efde2d76b" prot="public" virt="virtual"><scope>NSDate(XDCommonLib)</scope><name>monthString</name></member>
+      <member refid="category_n_s_date_07_x_d_common_lib_08_1a65908d1a3156d2a7ab5b167b5f3ed691" prot="public" virt="virtual"><scope>NSDate(XDCommonLib)</scope><name>monthStringWithMonthNumber:</name></member>
+      <member refid="category_n_s_date_07_x_d_common_lib_08_1af89c63797db613e140929bf52574b2fd" prot="public" virt="virtual"><scope>NSDate(XDCommonLib)</scope><name>shortDate</name></member>
+      <member refid="category_n_s_date_07_x_d_common_lib_08_1ab214f384550e8eb452ad693ab58c06e8" prot="public" virt="virtual"><scope>NSDate(XDCommonLib)</scope><name>weekday</name></member>
+      <member refid="category_n_s_date_07_x_d_common_lib_08_1a5236d26068650fc14faff25841a947ac" prot="public" virt="virtual"><scope>NSDate(XDCommonLib)</scope><name>yearString</name></member>
+      <member refid="category_n_s_date_07_x_d_common_lib_08_1a8c05f74945870c8f5074996bb4612f17" prot="public" virt="virtual"><scope>NSDate(XDCommonLib)</scope><name>yesterday</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

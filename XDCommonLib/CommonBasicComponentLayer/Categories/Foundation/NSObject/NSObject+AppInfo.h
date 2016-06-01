@@ -8,6 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
+/**
+ *  @brief 获取App信息工具类
+ */
+
 @interface NSObject (AppInfo)
 
 - (NSString *)xd_appVersion;

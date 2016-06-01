@@ -1,0 +1,334 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_u_i_navigation_controller_09_f_d_fullscreen_pop_gesture_8m" kind="file" language="Objective-C">
+    <compoundname>UINavigationController+FDFullscreenPopGesture.m</compoundname>
+    <includes refid="_u_i_navigation_controller_09_f_d_fullscreen_pop_gesture_8h" local="yes">UINavigationController+FDFullscreenPopGesture.h</includes>
+    <includes local="no">objc/runtime.h</includes>
+    <incdepgraph>
+      <node id="1723">
+        <label>UINavigationController+FDFullscreenPopGesture.h</label>
+        <link refid="_u_i_navigation_controller_09_f_d_fullscreen_pop_gesture_8h"/>
+        <childnode refid="1724" relation="include">
+        </childnode>
+      </node>
+      <node id="1722">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UINavigationController/UINavigationController+FDFullscreenPopGesture.m</label>
+        <link refid="UINavigationController+FDFullscreenPopGesture.m"/>
+        <childnode refid="1723" relation="include">
+        </childnode>
+        <childnode refid="1725" relation="include">
+        </childnode>
+      </node>
+      <node id="1724">
+        <label>UIKit/UIKit.h</label>
+      </node>
+      <node id="1725">
+        <label>objc/runtime.h</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="interface___f_d_fullscreen_pop_gesture_recognizer_delegate" prot="public">_FDFullscreenPopGestureRecognizerDelegate</innerclass>
+    <innerclass refid="category_u_i_view_controller_07_f_d_fullscreen_pop_gesture_private_08" prot="public">UIViewController(FDFullscreenPopGesturePrivate)</innerclass>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="_u_i_navigation_controller_09_f_d_fullscreen_pop_gesture_8m_1acb595dbf3182bc35424852734fd762c1" prot="public" static="no">
+        <type>void(^</type>
+        <definition>typedef void(^ _FDViewControllerWillAppearInjectBlock) (UIViewController *viewController, BOOL animated)</definition>
+        <argsstring>)(UIViewController *viewController, BOOL animated)</argsstring>
+        <name>_FDViewControllerWillAppearInjectBlock</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UINavigationController/UINavigationController+FDFullscreenPopGesture.m" line="70" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UINavigationController/UINavigationController+FDFullscreenPopGesture.m" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>The<sp/>MIT<sp/>License<sp/>(MIT)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Copyright<sp/>(c)<sp/>2015-2016<sp/>forkingdog<sp/>(<sp/>https://github.com/forkingdog<sp/>)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Permission<sp/>is<sp/>hereby<sp/>granted,<sp/>free<sp/>of<sp/>charge,<sp/>to<sp/>any<sp/>person<sp/>obtaining<sp/>a<sp/>copy</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/>of<sp/>this<sp/>software<sp/>and<sp/>associated<sp/>documentation<sp/>files<sp/>(the<sp/>&quot;Software&quot;),<sp/>to<sp/>deal</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//<sp/>in<sp/>the<sp/>Software<sp/>without<sp/>restriction,<sp/>including<sp/>without<sp/>limitation<sp/>the<sp/>rights</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="comment">//<sp/>to<sp/>use,<sp/>copy,<sp/>modify,<sp/>merge,<sp/>publish,<sp/>distribute,<sp/>sublicense,<sp/>and/or<sp/>sell</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">//<sp/>copies<sp/>of<sp/>the<sp/>Software,<sp/>and<sp/>to<sp/>permit<sp/>persons<sp/>to<sp/>whom<sp/>the<sp/>Software<sp/>is</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="comment">//<sp/>furnished<sp/>to<sp/>do<sp/>so,<sp/>subject<sp/>to<sp/>the<sp/>following<sp/>conditions:</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="comment">//<sp/>The<sp/>above<sp/>copyright<sp/>notice<sp/>and<sp/>this<sp/>permission<sp/>notice<sp/>shall<sp/>be<sp/>included<sp/>in<sp/>all</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="comment">//<sp/>copies<sp/>or<sp/>substantial<sp/>portions<sp/>of<sp/>the<sp/>Software.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="comment">//<sp/>THE<sp/>SOFTWARE<sp/>IS<sp/>PROVIDED<sp/>&quot;AS<sp/>IS&quot;,<sp/>WITHOUT<sp/>WARRANTY<sp/>OF<sp/>ANY<sp/>KIND,<sp/>EXPRESS<sp/>OR</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="comment">//<sp/>IMPLIED,<sp/>INCLUDING<sp/>BUT<sp/>NOT<sp/>LIMITED<sp/>TO<sp/>THE<sp/>WARRANTIES<sp/>OF<sp/>MERCHANTABILITY,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="comment">//<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE<sp/>AND<sp/>NONINFRINGEMENT.<sp/>IN<sp/>NO<sp/>EVENT<sp/>SHALL<sp/>THE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="comment">//<sp/>AUTHORS<sp/>OR<sp/>COPYRIGHT<sp/>HOLDERS<sp/>BE<sp/>LIABLE<sp/>FOR<sp/>ANY<sp/>CLAIM,<sp/>DAMAGES<sp/>OR<sp/>OTHER</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="comment">//<sp/>LIABILITY,<sp/>WHETHER<sp/>IN<sp/>AN<sp/>ACTION<sp/>OF<sp/>CONTRACT,<sp/>TORT<sp/>OR<sp/>OTHERWISE,<sp/>ARISING<sp/>FROM,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="comment">//<sp/>OUT<sp/>OF<sp/>OR<sp/>IN<sp/>CONNECTION<sp/>WITH<sp/>THE<sp/>SOFTWARE<sp/>OR<sp/>THE<sp/>USE<sp/>OR<sp/>OTHER<sp/>DEALINGS<sp/>IN<sp/>THE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="comment">//<sp/>SOFTWARE.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_u_i_navigation_controller_09_f_d_fullscreen_pop_gesture_8h" kindref="compound">UINavigationController+FDFullscreenPopGesture.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;objc/runtime.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="interface___f_d_fullscreen_pop_gesture_recognizer_delegate" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="interface___f_d_fullscreen_pop_gesture_recognizer_delegate" kindref="compound">_FDFullscreenPopGestureRecognizerDelegate</ref><sp/>:<sp/>NSObject<sp/>&lt;UIGestureRecognizerDelegate&gt;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28" refid="interface___f_d_fullscreen_pop_gesture_recognizer_delegate_1a2e726eac0bae472d96a0a930b2ef9c31" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>weak)<sp/>UINavigationController<sp/>*<ref refid="interface___f_d_fullscreen_pop_gesture_recognizer_delegate_1a2e726eac0bae472d96a0a930b2ef9c31" kindref="member">navigationController</ref>;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="keyword">@implementation<sp/></highlight><highlight class="normal"><ref refid="interface___f_d_fullscreen_pop_gesture_recognizer_delegate" kindref="compound">_FDFullscreenPopGestureRecognizerDelegate</ref></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal">-<sp/>(BOOL)gestureRecognizerShouldBegin:(UIPanGestureRecognizer<sp/>*)gestureRecognizer</highlight></codeline>
+<codeline lineno="35"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Ignore<sp/>when<sp/>no<sp/>view<sp/>controller<sp/>is<sp/>pushed<sp/>into<sp/>the<sp/>navigation<sp/>stack.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">self</highlight><highlight class="normal">.<ref refid="interface___f_d_fullscreen_pop_gesture_recognizer_delegate_1a2e726eac0bae472d96a0a930b2ef9c31" kindref="member">navigationController</ref>.viewControllers.count<sp/>&lt;=<sp/>1)<sp/>{</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>NO;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Ignore<sp/>when<sp/>the<sp/>active<sp/>view<sp/>controller<sp/>doesn&apos;t<sp/>allow<sp/>interactive<sp/>pop.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>UIViewController<sp/>*topViewController<sp/>=<sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.<ref refid="interface___f_d_fullscreen_pop_gesture_recognizer_delegate_1a2e726eac0bae472d96a0a930b2ef9c31" kindref="member">navigationController</ref>.viewControllers.lastObject;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(topViewController.fd_interactivePopDisabled)<sp/>{</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>NO;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Ignore<sp/>when<sp/>the<sp/>beginning<sp/>location<sp/>is<sp/>beyond<sp/>max<sp/>allowed<sp/>initial<sp/>distance<sp/>to<sp/>left<sp/>edge.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>CGPoint<sp/>beginningLocation<sp/>=<sp/>[gestureRecognizer<sp/>locationInView:gestureRecognizer.view];</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>CGFloat<sp/>maxAllowedInitialDistance<sp/>=<sp/>topViewController.fd_interactivePopMaxAllowedInitialDistanceToLeftEdge;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(maxAllowedInitialDistance<sp/>&gt;<sp/>0<sp/>&amp;&amp;<sp/>beginningLocation.x<sp/>&gt;<sp/>maxAllowedInitialDistance)<sp/>{</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>NO;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Ignore<sp/>pan<sp/>gesture<sp/>when<sp/>the<sp/>navigation<sp/>controller<sp/>is<sp/>currently<sp/>in<sp/>transition.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>([[</highlight><highlight class="keyword">self</highlight><highlight class="normal">.<ref refid="interface___f_d_fullscreen_pop_gesture_recognizer_delegate_1a2e726eac0bae472d96a0a930b2ef9c31" kindref="member">navigationController</ref><sp/>valueForKey:</highlight><highlight class="stringliteral">@&quot;_isTransitioning&quot;</highlight><highlight class="normal">]<sp/>boolValue])<sp/>{</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>NO;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Prevent<sp/>calling<sp/>the<sp/>handler<sp/>when<sp/>the<sp/>gesture<sp/>begins<sp/>in<sp/>an<sp/>opposite<sp/>direction.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>CGPoint<sp/>translation<sp/>=<sp/>[gestureRecognizer<sp/>translationInView:gestureRecognizer.view];</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(translation.x<sp/>&lt;=<sp/>0)<sp/>{</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>NO;</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>YES;</highlight></codeline>
+<codeline lineno="66"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70" refid="_u_i_navigation_controller_09_f_d_fullscreen_pop_gesture_8m_1acb595dbf3182bc35424852734fd762c1" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>void<sp/>(^<ref refid="_u_i_navigation_controller_09_f_d_fullscreen_pop_gesture_8m_1acb595dbf3182bc35424852734fd762c1" kindref="member">_FDViewControllerWillAppearInjectBlock</ref>)(UIViewController<sp/>*viewController,<sp/>BOOL<sp/>animated);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72" refid="category_u_i_view_controller_07_f_d_fullscreen_pop_gesture_private_08" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="category_u_i_view_controller_07_f_d_fullscreen_pop_gesture_private_08" kindref="compound">UIViewController (FDFullscreenPopGesturePrivate)</ref></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74" refid="category_u_i_view_controller_07_f_d_fullscreen_pop_gesture_private_08_1af0070a852cf51421a8d9291bef8ce727" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>copy)<sp/><ref refid="_u_i_navigation_controller_09_f_d_fullscreen_pop_gesture_8m_1acb595dbf3182bc35424852734fd762c1" kindref="member">_FDViewControllerWillAppearInjectBlock</ref><sp/><ref refid="category_u_i_view_controller_07_f_d_fullscreen_pop_gesture_private_08_1af0070a852cf51421a8d9291bef8ce727" kindref="member">fd_willAppearInjectBlock</ref>;</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight><highlight class="keyword">@implementation<sp/></highlight><highlight class="normal"><ref refid="category_u_i_view_controller_07_f_d_fullscreen_pop_gesture_private_08" kindref="compound">UIViewController (FDFullscreenPopGesturePrivate)</ref></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal">+<sp/>(void)load</highlight></codeline>
+<codeline lineno="81"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>dispatch_once_t<sp/>onceToken;</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/>dispatch_once(&amp;onceToken,<sp/>^{</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Class<sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">=<sp/>[self<sp/>class];</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">SEL</highlight><highlight class="normal"><sp/>originalSelector<sp/>=<sp/></highlight><highlight class="keyword">@selector</highlight><highlight class="normal">(viewWillAppear:);</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">SEL</highlight><highlight class="normal"><sp/>swizzledSelector<sp/>=<sp/></highlight><highlight class="keyword">@selector</highlight><highlight class="normal">(fd_viewWillAppear:);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Method<sp/>originalMethod<sp/>=<sp/>class_getInstanceMethod(</highlight><highlight class="keyword">class</highlight><highlight class="normal">,<sp/>originalSelector);</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Method<sp/>swizzledMethod<sp/>=<sp/>class_getInstanceMethod(</highlight><highlight class="keyword">class</highlight><highlight class="normal">,<sp/>swizzledSelector);</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>BOOL<sp/>success<sp/>=<sp/>class_addMethod(</highlight><highlight class="keyword">class</highlight><highlight class="normal">,<sp/>originalSelector,<sp/>method_getImplementation(swizzledMethod),<sp/>method_getTypeEncoding(swizzledMethod));</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(success)<sp/>{</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>class_replaceMethod(</highlight><highlight class="keyword">class</highlight><highlight class="normal">,<sp/>swizzledSelector,<sp/>method_getImplementation(originalMethod),<sp/>method_getTypeEncoding(originalMethod));</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>method_exchangeImplementations(originalMethod,<sp/>swizzledMethod);</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/>});</highlight></codeline>
+<codeline lineno="99"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal">-<sp/>(void)fd_viewWillAppear:(BOOL)animated</highlight></codeline>
+<codeline lineno="102"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Forward<sp/>to<sp/>primary<sp/>implementation.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>fd_viewWillAppear:animated];</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">self</highlight><highlight class="normal">.fd_willAppearInjectBlock)<sp/>{</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.<ref refid="category_u_i_view_controller_07_f_d_fullscreen_pop_gesture_private_08_1af0070a852cf51421a8d9291bef8ce727" kindref="member">fd_willAppearInjectBlock</ref>(</highlight><highlight class="keyword">self</highlight><highlight class="normal">,<sp/>animated);</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="109"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal">-<sp/>(<ref refid="_u_i_navigation_controller_09_f_d_fullscreen_pop_gesture_8m_1acb595dbf3182bc35424852734fd762c1" kindref="member">_FDViewControllerWillAppearInjectBlock</ref>)fd_willAppearInjectBlock</highlight></codeline>
+<codeline lineno="112"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>objc_getAssociatedObject(</highlight><highlight class="keyword">self</highlight><highlight class="normal">,<sp/>_cmd);</highlight></codeline>
+<codeline lineno="114"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal">-<sp/>(void)setFd_willAppearInjectBlock:(<ref refid="_u_i_navigation_controller_09_f_d_fullscreen_pop_gesture_8m_1acb595dbf3182bc35424852734fd762c1" kindref="member">_FDViewControllerWillAppearInjectBlock</ref>)block</highlight></codeline>
+<codeline lineno="117"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/>objc_setAssociatedObject(</highlight><highlight class="keyword">self</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">@selector</highlight><highlight class="normal">(fd_willAppearInjectBlock),<sp/>block,<sp/>OBJC_ASSOCIATION_COPY_NONATOMIC);</highlight></codeline>
+<codeline lineno="119"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight></codeline>
+<codeline lineno="123" refid="category_u_i_navigation_controller_07_f_d_fullscreen_pop_gesture_08" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">@implementation<sp/></highlight><highlight class="normal"><ref refid="category_u_i_navigation_controller_07_f_d_fullscreen_pop_gesture_08" kindref="compound">UINavigationController (FDFullscreenPopGesture)</ref></highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight></codeline>
+<codeline lineno="125"><highlight class="normal">+<sp/>(void)load</highlight></codeline>
+<codeline lineno="126"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Inject<sp/>&quot;-pushViewController:animated:&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>dispatch_once_t<sp/>onceToken;</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/>dispatch_once(&amp;onceToken,<sp/>^{</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Class<sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">=<sp/>[self<sp/>class];</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">SEL</highlight><highlight class="normal"><sp/>originalSelector<sp/>=<sp/></highlight><highlight class="keyword">@selector</highlight><highlight class="normal">(pushViewController:animated:);</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">SEL</highlight><highlight class="normal"><sp/>swizzledSelector<sp/>=<sp/></highlight><highlight class="keyword">@selector</highlight><highlight class="normal">(fd_pushViewController:animated:);</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Method<sp/>originalMethod<sp/>=<sp/>class_getInstanceMethod(</highlight><highlight class="keyword">class</highlight><highlight class="normal">,<sp/>originalSelector);</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Method<sp/>swizzledMethod<sp/>=<sp/>class_getInstanceMethod(</highlight><highlight class="keyword">class</highlight><highlight class="normal">,<sp/>swizzledSelector);</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>BOOL<sp/>success<sp/>=<sp/>class_addMethod(</highlight><highlight class="keyword">class</highlight><highlight class="normal">,<sp/>originalSelector,<sp/>method_getImplementation(swizzledMethod),<sp/>method_getTypeEncoding(swizzledMethod));</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(success)<sp/>{</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>class_replaceMethod(</highlight><highlight class="keyword">class</highlight><highlight class="normal">,<sp/>swizzledSelector,<sp/>method_getImplementation(originalMethod),<sp/>method_getTypeEncoding(originalMethod));</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>method_exchangeImplementations(originalMethod,<sp/>swizzledMethod);</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/>});</highlight></codeline>
+<codeline lineno="145"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight></codeline>
+<codeline lineno="147"><highlight class="normal">-<sp/>(void)fd_pushViewController:(UIViewController<sp/>*)viewController<sp/>animated:(BOOL)animated</highlight></codeline>
+<codeline lineno="148"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(![</highlight><highlight class="keyword">self</highlight><highlight class="normal">.interactivePopGestureRecognizer.view.gestureRecognizers<sp/>containsObject:</highlight><highlight class="keyword">self</highlight><highlight class="normal">.fd_fullscreenPopGestureRecognizer])<sp/>{</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Add<sp/>our<sp/>own<sp/>gesture<sp/>recognizer<sp/>to<sp/>where<sp/>the<sp/>onboard<sp/>screen<sp/>edge<sp/>pan<sp/>gesture<sp/>recognizer<sp/>is<sp/>attached<sp/>to.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal">.interactivePopGestureRecognizer.view<sp/>addGestureRecognizer:self.fd_fullscreenPopGestureRecognizer];</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Forward<sp/>the<sp/>gesture<sp/>events<sp/>to<sp/>the<sp/>private<sp/>handler<sp/>of<sp/>the<sp/>onboard<sp/>gesture<sp/>recognizer.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NSArray<sp/>*internalTargets<sp/>=<sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal">.interactivePopGestureRecognizer<sp/>valueForKey:@&quot;targets&quot;];</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>internalTarget<sp/>=<sp/>[internalTargets.firstObject<sp/>valueForKey:@&quot;target&quot;];</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">SEL</highlight><highlight class="normal"><sp/>internalAction<sp/>=<sp/>NSSelectorFromString(</highlight><highlight class="stringliteral">@&quot;handleNavigationTransition:&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.fd_fullscreenPopGestureRecognizer.delegate<sp/>=<sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.fd_popGestureRecognizerDelegate;</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal">.fd_fullscreenPopGestureRecognizer<sp/>addTarget:internalTarget<sp/>action:internalAction];</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Disable<sp/>the<sp/>onboard<sp/>gesture<sp/>recognizer.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.interactivePopGestureRecognizer.enabled<sp/>=<sp/>NO;</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Handle<sp/>perferred<sp/>navigation<sp/>bar<sp/>appearance.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>fd_setupViewControllerBasedNavigationBarAppearanceIfNeeded:viewController];</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Forward<sp/>to<sp/>primary<sp/>implementation.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(![</highlight><highlight class="keyword">self</highlight><highlight class="normal">.viewControllers<sp/>containsObject:viewController])<sp/>{</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>fd_pushViewController:viewController<sp/>animated:animated];</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="172"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"></highlight></codeline>
+<codeline lineno="174"><highlight class="normal">-<sp/>(void)fd_setupViewControllerBasedNavigationBarAppearanceIfNeeded:(UIViewController<sp/>*)appearingViewController</highlight></codeline>
+<codeline lineno="175"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!</highlight><highlight class="keyword">self</highlight><highlight class="normal">.fd_viewControllerBasedNavigationBarAppearanceEnabled)<sp/>{</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/>__weak<sp/>typeof(</highlight><highlight class="keyword">self</highlight><highlight class="normal">)<sp/>weakSelf<sp/>=<sp/>self;</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_u_i_navigation_controller_09_f_d_fullscreen_pop_gesture_8m_1acb595dbf3182bc35424852734fd762c1" kindref="member">_FDViewControllerWillAppearInjectBlock</ref><sp/>block<sp/>=<sp/>^(UIViewController<sp/>*viewController,<sp/>BOOL<sp/>animated)<sp/>{</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>__strong<sp/>typeof(weakSelf)<sp/>strongSelf<sp/>=<sp/>weakSelf;</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>if<sp/>(strongSelf)<sp/>{</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[strongSelf<sp/>setNavigationBarHidden:viewController.fd_prefersNavigationBarHidden<sp/>animated:animated];</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Setup<sp/>will<sp/>appear<sp/>inject<sp/>block<sp/>to<sp/>appearing<sp/>view<sp/>controller.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Setup<sp/>disappearing<sp/>view<sp/>controller<sp/>as<sp/>well,<sp/>because<sp/>not<sp/>every<sp/>view<sp/>controller<sp/>is<sp/>added<sp/>into</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>stack<sp/>by<sp/>pushing,<sp/>maybe<sp/>by<sp/>&quot;-setViewControllers:&quot;.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/>appearingViewController.fd_willAppearInjectBlock<sp/>=<sp/>block;</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/>UIViewController<sp/>*disappearingViewController<sp/>=<sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.viewControllers.lastObject;</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(disappearingViewController<sp/>&amp;&amp;<sp/>!disappearingViewController.fd_willAppearInjectBlock)<sp/>{</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>disappearingViewController.fd_willAppearInjectBlock<sp/>=<sp/>block;</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="196"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"></highlight></codeline>
+<codeline lineno="198"><highlight class="normal">-<sp/>(<ref refid="interface___f_d_fullscreen_pop_gesture_recognizer_delegate" kindref="compound">_FDFullscreenPopGestureRecognizerDelegate</ref><sp/>*)fd_popGestureRecognizerDelegate</highlight></codeline>
+<codeline lineno="199"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="interface___f_d_fullscreen_pop_gesture_recognizer_delegate" kindref="compound">_FDFullscreenPopGestureRecognizerDelegate</ref><sp/>*delegate<sp/>=<sp/>objc_getAssociatedObject(</highlight><highlight class="keyword">self</highlight><highlight class="normal">,<sp/>_cmd);</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!delegate)<sp/>{</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>delegate<sp/>=<sp/>[[<ref refid="interface___f_d_fullscreen_pop_gesture_recognizer_delegate" kindref="compound">_FDFullscreenPopGestureRecognizerDelegate</ref><sp/>alloc]<sp/>init];</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>delegate.<ref refid="interface___f_d_fullscreen_pop_gesture_recognizer_delegate_1a2e726eac0bae472d96a0a930b2ef9c31" kindref="member">navigationController</ref><sp/>=<sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>objc_setAssociatedObject(</highlight><highlight class="keyword">self</highlight><highlight class="normal">,<sp/>_cmd,<sp/>delegate,<sp/>OBJC_ASSOCIATION_RETAIN_NONATOMIC);</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>delegate;</highlight></codeline>
+<codeline lineno="209"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"></highlight></codeline>
+<codeline lineno="211"><highlight class="normal">-<sp/>(UIPanGestureRecognizer<sp/>*)fd_fullscreenPopGestureRecognizer</highlight></codeline>
+<codeline lineno="212"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/><sp/><sp/>UIPanGestureRecognizer<sp/>*panGestureRecognizer<sp/>=<sp/>objc_getAssociatedObject(</highlight><highlight class="keyword">self</highlight><highlight class="normal">,<sp/>_cmd);</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!panGestureRecognizer)<sp/>{</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>panGestureRecognizer<sp/>=<sp/>[[UIPanGestureRecognizer<sp/>alloc]<sp/>init];</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>panGestureRecognizer.maximumNumberOfTouches<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="219"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>objc_setAssociatedObject(</highlight><highlight class="keyword">self</highlight><highlight class="normal">,<sp/>_cmd,<sp/>panGestureRecognizer,<sp/>OBJC_ASSOCIATION_RETAIN_NONATOMIC);</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>panGestureRecognizer;</highlight></codeline>
+<codeline lineno="222"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"></highlight></codeline>
+<codeline lineno="224"><highlight class="normal">-<sp/>(BOOL)fd_viewControllerBasedNavigationBarAppearanceEnabled</highlight></codeline>
+<codeline lineno="225"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"><sp/><sp/><sp/><sp/>NSNumber<sp/>*number<sp/>=<sp/>objc_getAssociatedObject(</highlight><highlight class="keyword">self</highlight><highlight class="normal">,<sp/>_cmd);</highlight></codeline>
+<codeline lineno="227"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(number)<sp/>{</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>number.boolValue;</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.fd_viewControllerBasedNavigationBarAppearanceEnabled<sp/>=<sp/>YES;</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>YES;</highlight></codeline>
+<codeline lineno="232"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"></highlight></codeline>
+<codeline lineno="234"><highlight class="normal">-<sp/>(void)setFd_viewControllerBasedNavigationBarAppearanceEnabled:(BOOL)enabled</highlight></codeline>
+<codeline lineno="235"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="236"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">SEL</highlight><highlight class="normal"><sp/>key<sp/>=<sp/></highlight><highlight class="keyword">@selector</highlight><highlight class="normal">(fd_viewControllerBasedNavigationBarAppearanceEnabled);</highlight></codeline>
+<codeline lineno="237"><highlight class="normal"><sp/><sp/><sp/><sp/>objc_setAssociatedObject(</highlight><highlight class="keyword">self</highlight><highlight class="normal">,<sp/>key,<sp/>@(enabled),<sp/>OBJC_ASSOCIATION_RETAIN_NONATOMIC);</highlight></codeline>
+<codeline lineno="238"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"></highlight></codeline>
+<codeline lineno="240"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="241"><highlight class="normal"></highlight></codeline>
+<codeline lineno="242" refid="category_u_i_view_controller_07_f_d_fullscreen_pop_gesture_08" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">@implementation<sp/></highlight><highlight class="normal"><ref refid="category_u_i_view_controller_07_f_d_fullscreen_pop_gesture_08" kindref="compound">UIViewController (FDFullscreenPopGesture)</ref></highlight></codeline>
+<codeline lineno="243"><highlight class="normal"></highlight></codeline>
+<codeline lineno="244"><highlight class="normal">-<sp/>(BOOL)<ref refid="category_u_i_view_controller_07_f_d_fullscreen_pop_gesture_08_1acf4f5bff563baba9e08a36eb19227888" kindref="member">fd_interactivePopDisabled</ref></highlight></codeline>
+<codeline lineno="245"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="246"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[objc_getAssociatedObject(self,<sp/>_cmd)<sp/>boolValue];</highlight></codeline>
+<codeline lineno="247"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="248"><highlight class="normal"></highlight></codeline>
+<codeline lineno="249"><highlight class="normal">-<sp/>(void)setFd_interactivePopDisabled:(BOOL)disabled</highlight></codeline>
+<codeline lineno="250"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="251"><highlight class="normal"><sp/><sp/><sp/><sp/>objc_setAssociatedObject(</highlight><highlight class="keyword">self</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">@selector</highlight><highlight class="normal">(<ref refid="category_u_i_view_controller_07_f_d_fullscreen_pop_gesture_08_1acf4f5bff563baba9e08a36eb19227888" kindref="member">fd_interactivePopDisabled</ref>),<sp/>@(disabled),<sp/>OBJC_ASSOCIATION_RETAIN_NONATOMIC);</highlight></codeline>
+<codeline lineno="252"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="253"><highlight class="normal"></highlight></codeline>
+<codeline lineno="254"><highlight class="normal">-<sp/>(BOOL)<ref refid="category_u_i_view_controller_07_f_d_fullscreen_pop_gesture_08_1a03f28adb658220a67d59f687ef9c583d" kindref="member">fd_prefersNavigationBarHidden</ref></highlight></codeline>
+<codeline lineno="255"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="256"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[objc_getAssociatedObject(self,<sp/>_cmd)<sp/>boolValue];</highlight></codeline>
+<codeline lineno="257"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="258"><highlight class="normal"></highlight></codeline>
+<codeline lineno="259"><highlight class="normal">-<sp/>(void)setFd_prefersNavigationBarHidden:(BOOL)hidden</highlight></codeline>
+<codeline lineno="260"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="261"><highlight class="normal"><sp/><sp/><sp/><sp/>objc_setAssociatedObject(</highlight><highlight class="keyword">self</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">@selector</highlight><highlight class="normal">(<ref refid="category_u_i_view_controller_07_f_d_fullscreen_pop_gesture_08_1a03f28adb658220a67d59f687ef9c583d" kindref="member">fd_prefersNavigationBarHidden</ref>),<sp/>@(hidden),<sp/>OBJC_ASSOCIATION_RETAIN_NONATOMIC);</highlight></codeline>
+<codeline lineno="262"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="263"><highlight class="normal"></highlight></codeline>
+<codeline lineno="264"><highlight class="normal"></highlight></codeline>
+<codeline lineno="265"><highlight class="normal">-<sp/>(CGFloat)<ref refid="category_u_i_view_controller_07_f_d_fullscreen_pop_gesture_08_1a28cf09a80e9197ef87e8f780901092d4" kindref="member">fd_interactivePopMaxAllowedInitialDistanceToLeftEdge</ref></highlight></codeline>
+<codeline lineno="266"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="267"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>CGFLOAT_IS_DOUBLE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="268"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[objc_getAssociatedObject(self,<sp/>_cmd)<sp/>doubleValue];</highlight></codeline>
+<codeline lineno="269"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="270"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[objc_getAssociatedObject(self,<sp/>_cmd)<sp/>floatValue];</highlight></codeline>
+<codeline lineno="271"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="272"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="273"><highlight class="normal"></highlight></codeline>
+<codeline lineno="274"><highlight class="normal">-<sp/>(void)setFd_interactivePopMaxAllowedInitialDistanceToLeftEdge:(CGFloat)distance</highlight></codeline>
+<codeline lineno="275"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="276"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">SEL</highlight><highlight class="normal"><sp/>key<sp/>=<sp/></highlight><highlight class="keyword">@selector</highlight><highlight class="normal">(<ref refid="category_u_i_view_controller_07_f_d_fullscreen_pop_gesture_08_1a28cf09a80e9197ef87e8f780901092d4" kindref="member">fd_interactivePopMaxAllowedInitialDistanceToLeftEdge</ref>);</highlight></codeline>
+<codeline lineno="277"><highlight class="normal"><sp/><sp/><sp/><sp/>objc_setAssociatedObject(</highlight><highlight class="keyword">self</highlight><highlight class="normal">,<sp/>key,<sp/>@(MAX(0,<sp/>distance)),<sp/>OBJC_ASSOCIATION_RETAIN_NONATOMIC);</highlight></codeline>
+<codeline lineno="278"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="279"><highlight class="normal"></highlight></codeline>
+<codeline lineno="280"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UINavigationController/UINavigationController+FDFullscreenPopGesture.m"/>
+  </compounddef>
+</doxygen>

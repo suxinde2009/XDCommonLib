@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_u_i_text_view_09_blocks_kit_8h" kind="file" language="C++">
+    <compoundname>UITextView+BlocksKit.h</compoundname>
+    <includes local="no">UIKit/UITextView.h</includes>
+    <includedby refid="_u_i_text_view_09_blocks_kit_8m" local="yes">XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UITextView+BlocksKit.m</includedby>
+    <incdepgraph>
+      <node id="3154">
+        <label>UIKit/UITextView.h</label>
+      </node>
+      <node id="3153">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UITextView+BlocksKit.h</label>
+        <link refid="UITextView+BlocksKit.h"/>
+        <childnode refid="3154" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3155">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UITextView+BlocksKit.h</label>
+        <link refid="UITextView+BlocksKit.h"/>
+        <childnode refid="3156" relation="include">
+        </childnode>
+      </node>
+      <node id="3156">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UITextView+BlocksKit.m</label>
+        <link refid="_u_i_text_view_09_blocks_kit_8m"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="category_u_i_text_view_07_blocks_kit_08" prot="public">UITextView(BlocksKit)</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>UITextView+BlocksKit.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>BlocksKit</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Contributed<sp/>by<sp/>Su,<sp/>Hsing-Yu</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;UIKit/UITextView.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="category_u_i_text_view_07_blocks_kit_08" kindref="compound">UITextView (BlocksKit)</ref></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>copy)<sp/>BOOL(^<ref refid="category_u_i_text_view_07_blocks_kit_08_1a40d68983b379e2dc9d2875926d6d96f8" kindref="member">bk_shouldBeginEditingBlock</ref>)(__kindof<sp/>UITextView<sp/>*textView);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>copy)<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">(^<ref refid="category_u_i_text_view_07_blocks_kit_08_1a32808ba9c662d2a018951291a9289942" kindref="member">bk_didBeginEditingBlock</ref>)(__kindof<sp/>UITextView<sp/>*textView);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>copy)<sp/>BOOL(^<ref refid="category_u_i_text_view_07_blocks_kit_08_1aec6113c366a291c4b99441845c564ada" kindref="member">bk_shouldEndEditingBlock</ref>)(__kindof<sp/>UITextView<sp/>*textView);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>copy)<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">(^<ref refid="category_u_i_text_view_07_blocks_kit_08_1a807b3d381d357682a2a884ff8f980055" kindref="member">bk_didEndEditingBlock</ref>)(__kindof<sp/>UITextView<sp/>*textView);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>copy)<sp/>BOOL(^<ref refid="category_u_i_text_view_07_blocks_kit_08_1ab024064440559845206467fb090f8209" kindref="member">bk_shouldChangeCharactersInRangeWithReplacementTextBlock</ref>)(__kindof<sp/>UITextView<sp/>*textView,<sp/>NSRange<sp/>range,<sp/>NSString<sp/>*text);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>copy)<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">(^<ref refid="category_u_i_text_view_07_blocks_kit_08_1a4cf22d35ff2f295fdcd5666982932998" kindref="member">bk_didChangeBlock</ref>)(__kindof<sp/>UITextView<sp/>*textView);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>copy)<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">(^<ref refid="category_u_i_text_view_07_blocks_kit_08_1a3404bcbdb032df963e3e0f0f694c245e" kindref="member">bk_didChangeSelecionBlock</ref>)(__kindof<sp/>UITextView<sp/>*textView);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>copy)<sp/>BOOL(^<ref refid="category_u_i_text_view_07_blocks_kit_08_1a076a9dfad1186bacf24a228657f93291" kindref="member">bk_shouldInteractWithTextAttachmentInRangeBlock</ref>)(__kindof<sp/>UITextView<sp/>*textView,<sp/>NSTextAttachment<sp/>*attachment,<sp/>NSRange<sp/>range);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>copy)<sp/>BOOL(^<ref refid="category_u_i_text_view_07_blocks_kit_08_1a8a7dbc35e5e8ed604d5412523096157f" kindref="member">bk_shouldInteractWithURLInRangeBlock</ref>)(__kindof<sp/>UITextView<sp/>*textView,<sp/>NSURL<sp/>*url,<sp/>NSRange<sp/>range);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UITextView+BlocksKit.h"/>
+  </compounddef>
+</doxygen>

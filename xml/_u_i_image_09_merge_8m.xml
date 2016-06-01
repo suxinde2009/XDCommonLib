@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_u_i_image_09_merge_8m" kind="file" language="Objective-C">
+    <compoundname>UIImage+Merge.m</compoundname>
+    <includes refid="_u_i_image_09_merge_8h" local="yes">UIImage+Merge.h</includes>
+    <incdepgraph>
+      <node id="1530">
+        <label>UIImage+Merge.h</label>
+        <link refid="_u_i_image_09_merge_8h"/>
+        <childnode refid="1531" relation="include">
+        </childnode>
+      </node>
+      <node id="1529">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImage/UIImage+Merge.m</label>
+        <link refid="UIImage+Merge.m"/>
+        <childnode refid="1530" relation="include">
+        </childnode>
+      </node>
+      <node id="1531">
+        <label>UIKit/UIKit.h</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>UIImage+Merge.m</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>iOS-Categories<sp/>(https://github.com/shaojiankui/iOS-Categories)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Jakey<sp/>on<sp/>14/12/30.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2014年<sp/>www.skyfox.org.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_u_i_image_09_merge_8h" kindref="compound">UIImage+Merge.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="category_u_i_image_07_merge_08" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">@implementation<sp/></highlight><highlight class="normal"><ref refid="category_u_i_image_07_merge_08" kindref="compound">UIImage (Merge)</ref></highlight></codeline>
+<codeline lineno="20" refid="category_u_i_image_07_merge_08_1a6d355cc8d9adcdddff1fdc45939f14d7" refkind="member"><highlight class="normal">+<sp/>(UIImage*)mergeImage:(UIImage*)firstImage<sp/>withImage:(UIImage*)secondImage<sp/>{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>CGImageRef<sp/>firstImageRef<sp/>=<sp/>firstImage.CGImage;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>CGFloat<sp/>firstWidth<sp/>=<sp/>CGImageGetWidth(firstImageRef);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>CGFloat<sp/>firstHeight<sp/>=<sp/>CGImageGetHeight(firstImageRef);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>CGImageRef<sp/>secondImageRef<sp/>=<sp/>secondImage.CGImage;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>CGFloat<sp/>secondWidth<sp/>=<sp/>CGImageGetWidth(secondImageRef);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>CGFloat<sp/>secondHeight<sp/>=<sp/>CGImageGetHeight(secondImageRef);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>CGSize<sp/>mergedSize<sp/>=<sp/>CGSizeMake(MAX(firstWidth,<sp/>secondWidth),<sp/>MAX(firstHeight,<sp/>secondHeight));</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>UIGraphicsBeginImageContext(mergedSize);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>[firstImage<sp/>drawInRect:CGRectMake(0,<sp/>0,<sp/>firstWidth,<sp/>firstHeight)];</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>[secondImage<sp/>drawInRect:CGRectMake(0,<sp/>0,<sp/>secondWidth,<sp/>secondHeight)];</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>UIImage<sp/>*image<sp/>=<sp/>UIGraphicsGetImageFromCurrentImageContext();</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>UIGraphicsEndImageContext();</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>image;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImage/UIImage+Merge.m"/>
+  </compounddef>
+</doxygen>

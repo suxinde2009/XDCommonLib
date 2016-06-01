@@ -1,0 +1,165 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="class_top_warning_view" kind="class" language="Objective-C" prot="public">
+    <compoundname>TopWarningView</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">UIView</basecompoundref>
+    <includes refid="_u_i_view_controller_09_top_bar_message_8h" local="no">UIViewController+TopBarMessage.h</includes>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_top_warning_view_1ab14b23fb5db79165fdcc73cc9a208f27" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="strong">
+        <type>NSString *</type>
+        <definition>NSString* TopWarningView::warningText</definition>
+        <argsstring></argsstring>
+        <name>warningText</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+TopBarMessage.h" line="23" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+TopBarMessage.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_top_warning_view_1a272555b1b2d0e9d44d81e64815748066" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="strong">
+        <type>UIImageView *</type>
+        <definition>UIImageView* TopWarningView::iconIgv</definition>
+        <argsstring></argsstring>
+        <name>iconIgv</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+TopBarMessage.h" line="24" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+TopBarMessage.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_top_warning_view_1a3426780ab0da03ff4608b4e601fcaa02" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="copy">
+        <type>dispatch_block_t</type>
+        <definition>dispatch_block_t TopWarningView::tapHandler</definition>
+        <argsstring></argsstring>
+        <name>tapHandler</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+TopBarMessage.h" line="25" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+TopBarMessage.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_top_warning_view_1adf953805abf9fb4ac6feddfebb084246" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="assign">
+        <type>float</type>
+        <definition>float TopWarningView::dimissDelay</definition>
+        <argsstring></argsstring>
+        <name>dimissDelay</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+TopBarMessage.h" line="26" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+TopBarMessage.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_top_warning_view_1a801e352b9b4b53b1d87839d34a76a959" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="strong">
+        <type>UILabel *</type>
+        <definition>UILabel* TopWarningView::label</definition>
+        <argsstring></argsstring>
+        <name>label</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+TopBarMessage.h" line="27" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+TopBarMessage.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_top_warning_view_1a6aa730f1bc16fcda5be86fd9f23c0e1a" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="assign">
+        <type><ref refid="_u_i_view_controller_09_top_bar_message_8h_1a7852c68580f04fad719c6353b851c631" kindref="member">TopBarMessageMode</ref></type>
+        <definition>TopBarMessageMode TopWarningView::mode</definition>
+        <argsstring></argsstring>
+        <name>mode</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+TopBarMessage.h" line="29" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+TopBarMessage.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_top_warning_view_1a2258de1fb245d5165f7bdd58cb2e66f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void TopWarningView::resetViews</definition>
+        <argsstring>()</argsstring>
+        <name>resetViews</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+TopBarMessage.h" line="29" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+TopBarMessage.m" bodystart="65" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="class_top_warning_view_1afa46b0093f83a7966cbbcc9559c10bc1" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void TopWarningView::dismiss</definition>
+        <argsstring>()</argsstring>
+        <name>dismiss</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+TopBarMessage.h" line="29" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+TopBarMessage.m" bodystart="104" bodyend="122"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="774">
+        <label>TopWarningView</label>
+        <link refid="class_top_warning_view"/>
+        <childnode refid="775" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="775">
+        <label>UIView</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="776">
+        <label>TopWarningView</label>
+        <link refid="class_top_warning_view"/>
+        <childnode refid="777" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="777">
+        <label>UIView</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+TopBarMessage.m" line="30" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+TopBarMessage.m" bodystart="30" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="class_top_warning_view_1adf953805abf9fb4ac6feddfebb084246" prot="public" virt="non-virtual"><scope>TopWarningView</scope><name>dimissDelay</name></member>
+      <member refid="class_top_warning_view_1afa46b0093f83a7966cbbcc9559c10bc1" prot="public" virt="virtual"><scope>TopWarningView</scope><name>dismiss</name></member>
+      <member refid="class_top_warning_view_1a272555b1b2d0e9d44d81e64815748066" prot="public" virt="non-virtual"><scope>TopWarningView</scope><name>iconIgv</name></member>
+      <member refid="class_top_warning_view_1a801e352b9b4b53b1d87839d34a76a959" prot="public" virt="non-virtual"><scope>TopWarningView</scope><name>label</name></member>
+      <member refid="class_top_warning_view_1a6aa730f1bc16fcda5be86fd9f23c0e1a" prot="public" virt="non-virtual"><scope>TopWarningView</scope><name>mode</name></member>
+      <member refid="class_top_warning_view_1a2258de1fb245d5165f7bdd58cb2e66f9" prot="public" virt="virtual"><scope>TopWarningView</scope><name>resetViews</name></member>
+      <member refid="class_top_warning_view_1a3426780ab0da03ff4608b4e601fcaa02" prot="public" virt="non-virtual"><scope>TopWarningView</scope><name>tapHandler</name></member>
+      <member refid="class_top_warning_view_1ab14b23fb5db79165fdcc73cc9a208f27" prot="public" virt="non-virtual"><scope>TopWarningView</scope><name>warningText</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

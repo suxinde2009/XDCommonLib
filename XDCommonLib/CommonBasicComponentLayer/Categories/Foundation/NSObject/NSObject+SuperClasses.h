@@ -8,6 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
+/**
+ *  @brief 获取所有父类
+ */
+
 @interface NSObject (SuperClasses)
 
 + (NSArray *)superClasses;

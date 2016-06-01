@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_n_s_mutable_dictionary_07_x_d_common_lib_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>NSMutableDictionary(XDCommonLib)</compoundname>
+    <includes refid="_n_s_mutable_dictionary_09_x_d_common_lib_8h" local="no">NSMutableDictionary+XDCommonLib.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="category_n_s_mutable_dictionary_07_x_d_common_lib_08_1a719b0d26d357fa084c329f79c388cc97" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL NSMutableDictionary(XDCommonLib)::safeSetObject:forKey:</definition>
+        <argsstring>(id _Nonnull anObject,[forKey] id&lt; NSCopying &gt; _Nonnull aKey)</argsstring>
+        <name>safeSetObject:forKey:</name>
+        <param>
+          <type>id _Nonnull</type>
+          <declname>anObject</declname>
+        </param>
+        <param>
+          <attributes>[forKey]</attributes>
+          <type>id&lt; NSCopying &gt; _Nonnull</type>
+          <declname>aKey</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set the object for a given key in safe mode (if not nil)</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>anObject</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The object </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>aKey</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The key</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Returns YES if has been setted, otherwise NO </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDictionary/NSMutableDictionary+XDCommonLib.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDictionary/NSMutableDictionary+XDCommonLib.m" bodystart="13" bodyend="21"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDictionary/NSMutableDictionary+XDCommonLib.m" line="11" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDictionary/NSMutableDictionary+XDCommonLib.m" bodystart="11" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_n_s_mutable_dictionary_07_x_d_common_lib_08_1a719b0d26d357fa084c329f79c388cc97" prot="public" virt="virtual"><scope>NSMutableDictionary(XDCommonLib)</scope><name>safeSetObject:forKey:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

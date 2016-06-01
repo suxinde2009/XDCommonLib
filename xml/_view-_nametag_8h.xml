@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_view-_nametag_8h" kind="file" language="C++">
+    <compoundname>View-Nametag.h</compoundname>
+    <includedby refid="_nametag_utilities_8h" local="yes">XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Nametag Utilities/NametagUtilities.h</includedby>
+    <invincdepgraph>
+      <node id="3489">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Constraint Matching/ConstraintUtilities+Matching.h</label>
+        <link refid="_constraint_utilities_09_matching_8h"/>
+        <childnode refid="3490" relation="include">
+        </childnode>
+        <childnode refid="3491" relation="include">
+        </childnode>
+        <childnode refid="3492" relation="include">
+        </childnode>
+        <childnode refid="3493" relation="include">
+        </childnode>
+      </node>
+      <node id="3492">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Constraint Matching/ConstraintUtilities+Matching.m</label>
+        <link refid="_constraint_utilities_09_matching_8m"/>
+      </node>
+      <node id="3490">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Constraint Description/ConstraintUtilities+Description.m</label>
+        <link refid="_constraint_utilities_09_description_8m"/>
+      </node>
+      <node id="3488">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Nametag Utilities/NametagUtilities.h</label>
+        <link refid="_nametag_utilities_8h"/>
+        <childnode refid="3489" relation="include">
+        </childnode>
+        <childnode refid="3491" relation="include">
+        </childnode>
+        <childnode refid="3492" relation="include">
+        </childnode>
+        <childnode refid="3494" relation="include">
+        </childnode>
+        <childnode refid="3495" relation="include">
+        </childnode>
+        <childnode refid="3493" relation="include">
+        </childnode>
+      </node>
+      <node id="3494">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Nametag Utilities/NSObject/NSObject-Description.m</label>
+        <link refid="_n_s_object-_description_8m"/>
+      </node>
+      <node id="3491">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Constraint Layout/ConstraintUtilities+Layout.m</label>
+        <link refid="_constraint_utilities_09_layout_8m"/>
+      </node>
+      <node id="3487">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Nametag Utilities/View/View-Nametag.h</label>
+        <link refid="View-Nametag.h"/>
+        <childnode refid="3488" relation="include">
+        </childnode>
+      </node>
+      <node id="3495">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Nametag Utilities/View/View-Nametag.m</label>
+        <link refid="_view-_nametag_8m"/>
+      </node>
+      <node id="3493">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/ConstraintPack.h</label>
+        <link refid="_constraint_pack_8h"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="category_v_i_e_w___c_l_a_s_s_07_nametags_08" prot="public">VIEW_CLASS(Nametags)</innerclass>
+    <innerclass refid="category_v_i_e_w___c_l_a_s_s_07_description_utility_08" prot="public">VIEW_CLASS(DescriptionUtility)</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/></highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>Erica<sp/>Sadun,<sp/>http://ericasadun.com</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/></highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>TARGET_OS_IPHONE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal">@</highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/><ref refid="_n_s_data_09zlib_8m_1ab15a25d2ee756af5a5d6adb0611256f3" kindref="member">Foundation</ref>;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#elif<sp/>TARGET_OS_MAC</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;Foundation/Foundation.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>VIEW_CLASS</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>TARGET_OS_IPHONE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>@</highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/><ref refid="_u_i_split_view_controller_09_quick_access_8m_1a43fb15a03fb74ea70166477c5683ea81" kindref="member">UIKit</ref>;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>VIEW_CLASS<sp/>UIView</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>COLOR_CLASS<sp/>UIColor</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>IMAGE_CLASS<sp/>UIImage</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#elif<sp/>TARGET_OS_MAC</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>VIEW_CLASS<sp/>NSView</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>COLOR_CLASS<sp/>NSColor</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>IMAGE_CLASS<sp/>NSImage</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="comment">//<sp/>If<sp/>you<sp/>use<sp/>in<sp/>production<sp/>code,<sp/>please<sp/>make<sp/>sure<sp/>to<sp/>add</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="comment">//<sp/>namespace<sp/>indicators<sp/>to<sp/>class<sp/>category<sp/>methods</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="30"><highlight class="comment"><sp/></highlight></codeline>
+<codeline lineno="31"><highlight class="comment"><sp/>Named<sp/>Views</highlight></codeline>
+<codeline lineno="32"><highlight class="comment"><sp/>Adds<sp/>support<sp/>for<sp/>naming<sp/>views<sp/>(with<sp/>nametags<sp/>vs<sp/>numeric<sp/>number<sp/>tags)</highlight></codeline>
+<codeline lineno="33"><highlight class="comment"><sp/>and<sp/>retrieving<sp/>views<sp/>by<sp/>name</highlight></codeline>
+<codeline lineno="34"><highlight class="comment"><sp/></highlight></codeline>
+<codeline lineno="35"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/>-<sp/>Named<sp/>View<sp/>Support</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38" refid="category_v_i_e_w___c_l_a_s_s_07_nametags_08" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="category_v_i_e_w___c_l_a_s_s_07_nametags_08" kindref="compound">VIEW_CLASS (Nametags)</ref></highlight></codeline>
+<codeline lineno="39" refid="category_v_i_e_w___c_l_a_s_s_07_nametags_08_1acaa47c547f7fc9c4a2be2434c7d9cc25" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>readonly)<sp/>NSArray<sp/>*<ref refid="category_v_i_e_w___c_l_a_s_s_07_nametags_08_1acaa47c547f7fc9c4a2be2434c7d9cc25" kindref="member">nametags</ref>;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal">-<sp/>(VIEW_CLASS<sp/>*)<sp/>viewNamed:<sp/>(NSString<sp/>*)<sp/>aName;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal">-<sp/>(NSArray<sp/>*)<sp/>viewsNamed:<sp/>(NSString<sp/>*)<sp/>aName;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="45"><highlight class="comment"><sp/></highlight></codeline>
+<codeline lineno="46"><highlight class="comment"><sp/>View<sp/>Description</highlight></codeline>
+<codeline lineno="47"><highlight class="comment"><sp/>Dump<sp/>a<sp/>view<sp/>tree<sp/>and<sp/>provide<sp/>handy<sp/>descriptive<sp/>labels</highlight></codeline>
+<codeline lineno="48"><highlight class="comment"><sp/>for<sp/>debugging</highlight></codeline>
+<codeline lineno="49"><highlight class="comment"><sp/></highlight></codeline>
+<codeline lineno="50"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/>-<sp/>Description</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54" refid="category_v_i_e_w___c_l_a_s_s_07_description_utility_08" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="category_v_i_e_w___c_l_a_s_s_07_description_utility_08" kindref="compound">VIEW_CLASS (DescriptionUtility)</ref></highlight></codeline>
+<codeline lineno="55" refid="category_v_i_e_w___c_l_a_s_s_07_description_utility_08_1a079eea104c340516226be5503c2c65f0" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>readonly)<sp/>NSString<sp/>*<ref refid="category_v_i_e_w___c_l_a_s_s_07_description_utility_08_1a079eea104c340516226be5503c2c65f0" kindref="member">readableFrame</ref>;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal">-<sp/>(NSString<sp/>*)<sp/><ref refid="category_v_i_e_w___c_l_a_s_s_07_description_utility_08_1a12b4403e16b79a99d31016f903cedebc" kindref="member">viewTree</ref>;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Nametag Utilities/View/View-Nametag.h"/>
+  </compounddef>
+</doxygen>

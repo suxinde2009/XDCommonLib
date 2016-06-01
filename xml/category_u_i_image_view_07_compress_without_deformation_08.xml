@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_u_i_image_view_07_compress_without_deformation_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>UIImageView(CompressWithoutDeformation)</compoundname>
+    <includes refid="_u_i_image_view_09_compress_without_deformation_8h" local="no">UIImageView+CompressWithoutDeformation.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="category_u_i_image_view_07_compress_without_deformation_08_1a53b85a1f4d032b4df465b1e85dc2dd69" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UIImageView(CompressWithoutDeformation)::setImageWithoutDeformation:placeHolderImage:</definition>
+        <argsstring>(UIImage *image,[placeHolderImage] UIImage *placeHolderImage)</argsstring>
+        <name>setImageWithoutDeformation:placeHolderImage:</name>
+        <param>
+          <type>UIImage *</type>
+          <declname>image</declname>
+        </param>
+        <param>
+          <attributes>[placeHolderImage]</attributes>
+          <type>UIImage *</type>
+          <declname>placeHolderImage</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>正方形UIImageView放置长方形图片时防止形变</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>image</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>待展示的长方形图片 </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>placeHolderImage</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>预置图片 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImageView/UIImageView+CompressWithoutDeformation.h" line="18" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImageView/UIImageView+CompressWithoutDeformation.m" bodystart="70" bodyend="95"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImageView/UIImageView+CompressWithoutDeformation.m" line="68" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImageView/UIImageView+CompressWithoutDeformation.m" bodystart="68" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_u_i_image_view_07_compress_without_deformation_08_1a53b85a1f4d032b4df465b1e85dc2dd69" prot="public" virt="virtual"><scope>UIImageView(CompressWithoutDeformation)</scope><name>setImageWithoutDeformation:placeHolderImage:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_x_d_flux_dispatcher_07_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>XDFluxDispatcher()</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="category_x_d_flux_dispatcher_07_08_1ae160bcdf22192bb0943267418ad3daee" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="strong">
+        <type>NSMutableDictionary *</type>
+        <definition>NSMutableDictionary* XDFluxDispatcher()::callbacks</definition>
+        <argsstring></argsstring>
+        <name>callbacks</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/LooseCoupling CommuniateLayer/FluxDispatcher/XDFluxDispatcher.m" line="29" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/LooseCoupling CommuniateLayer/FluxDispatcher/XDFluxDispatcher.m" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_x_d_flux_dispatcher_07_08_1a489f17b32c5af030ace19e0ba28e5356" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="strong">
+        <type>NSMutableDictionary *</type>
+        <definition>NSMutableDictionary* XDFluxDispatcher()::isPending</definition>
+        <argsstring></argsstring>
+        <name>isPending</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/LooseCoupling CommuniateLayer/FluxDispatcher/XDFluxDispatcher.m" line="30" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/LooseCoupling CommuniateLayer/FluxDispatcher/XDFluxDispatcher.m" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_x_d_flux_dispatcher_07_08_1a862a3c754d6ff576cd663d73c33432c4" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="strong">
+        <type>NSMutableDictionary *</type>
+        <definition>NSMutableDictionary* XDFluxDispatcher()::isHandled</definition>
+        <argsstring></argsstring>
+        <name>isHandled</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/LooseCoupling CommuniateLayer/FluxDispatcher/XDFluxDispatcher.m" line="31" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/LooseCoupling CommuniateLayer/FluxDispatcher/XDFluxDispatcher.m" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_x_d_flux_dispatcher_07_08_1aff37820fa0adccbf4b98fe6413a27ce0" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="assign">
+        <type>BOOL</type>
+        <definition>BOOL XDFluxDispatcher()::isDispatching</definition>
+        <argsstring></argsstring>
+        <name>isDispatching</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/LooseCoupling CommuniateLayer/FluxDispatcher/XDFluxDispatcher.m" line="32" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/LooseCoupling CommuniateLayer/FluxDispatcher/XDFluxDispatcher.m" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_x_d_flux_dispatcher_07_08_1a59a5f3264b219a6a2f7dfc0b751a4053" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="strong">
+        <type>NSDictionary *</type>
+        <definition>NSDictionary* XDFluxDispatcher()::pendingPayload</definition>
+        <argsstring></argsstring>
+        <name>pendingPayload</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/LooseCoupling CommuniateLayer/FluxDispatcher/XDFluxDispatcher.m" line="33" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/LooseCoupling CommuniateLayer/FluxDispatcher/XDFluxDispatcher.m" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="category_x_d_flux_dispatcher_07_08_1abf2d63b0081a275c899802bec657924e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void XDFluxDispatcher()::invokeCallback:</definition>
+        <argsstring>(NSString *dispatchToken)</argsstring>
+        <name>invokeCallback:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>dispatchToken</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/LooseCoupling CommuniateLayer/FluxDispatcher/XDFluxDispatcher.m" line="33" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="category_x_d_flux_dispatcher_07_08_1ad9f659f98af7cbbbbdbc000592d6b76f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void XDFluxDispatcher()::startDispatching:</definition>
+        <argsstring>(NSDictionary *payload)</argsstring>
+        <name>startDispatching:</name>
+        <param>
+          <type>NSDictionary *</type>
+          <declname>payload</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/LooseCoupling CommuniateLayer/FluxDispatcher/XDFluxDispatcher.m" line="33" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/LooseCoupling CommuniateLayer/FluxDispatcher/XDFluxDispatcher.m" line="27" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/LooseCoupling CommuniateLayer/FluxDispatcher/XDFluxDispatcher.m" bodystart="27" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_x_d_flux_dispatcher_07_08_1ae160bcdf22192bb0943267418ad3daee" prot="public" virt="non-virtual"><scope>XDFluxDispatcher()</scope><name>callbacks</name></member>
+      <member refid="category_x_d_flux_dispatcher_07_08_1abf2d63b0081a275c899802bec657924e" prot="public" virt="virtual"><scope>XDFluxDispatcher()</scope><name>invokeCallback:</name></member>
+      <member refid="category_x_d_flux_dispatcher_07_08_1aff37820fa0adccbf4b98fe6413a27ce0" prot="public" virt="non-virtual"><scope>XDFluxDispatcher()</scope><name>isDispatching</name></member>
+      <member refid="category_x_d_flux_dispatcher_07_08_1a862a3c754d6ff576cd663d73c33432c4" prot="public" virt="non-virtual"><scope>XDFluxDispatcher()</scope><name>isHandled</name></member>
+      <member refid="category_x_d_flux_dispatcher_07_08_1a489f17b32c5af030ace19e0ba28e5356" prot="public" virt="non-virtual"><scope>XDFluxDispatcher()</scope><name>isPending</name></member>
+      <member refid="category_x_d_flux_dispatcher_07_08_1a59a5f3264b219a6a2f7dfc0b751a4053" prot="public" virt="non-virtual"><scope>XDFluxDispatcher()</scope><name>pendingPayload</name></member>
+      <member refid="category_x_d_flux_dispatcher_07_08_1ad9f659f98af7cbbbbdbc000592d6b76f" prot="public" virt="virtual"><scope>XDFluxDispatcher()</scope><name>startDispatching:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

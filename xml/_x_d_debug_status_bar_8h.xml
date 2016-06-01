@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_x_d_debug_status_bar_8h" kind="file" language="C++">
+    <compoundname>XDDebugStatusBar.h</compoundname>
+    <includes local="no">Foundation/Foundation.h</includes>
+    <includes local="no">UIKit/UIKit.h</includes>
+    <includes refid="_x_d_singleton_8h" local="yes">XDSingleton.h</includes>
+    <includedby refid="_x_d_debug_status_bar_8m" local="yes">XDCommonLib/CommonBasicComponentLayer/Debug/XDDebugStatusBar.m</includedby>
+    <incdepgraph>
+      <node id="2309">
+        <label>UIKit/UIKit.h</label>
+      </node>
+      <node id="2310">
+        <label>XDSingleton.h</label>
+        <link refid="_x_d_singleton_8h"/>
+      </node>
+      <node id="2308">
+        <label>Foundation/Foundation.h</label>
+      </node>
+      <node id="2307">
+        <label>XDCommonLib/CommonBasicComponentLayer/Debug/XDDebugStatusBar.h</label>
+        <link refid="XDDebugStatusBar.h"/>
+        <childnode refid="2308" relation="include">
+        </childnode>
+        <childnode refid="2309" relation="include">
+        </childnode>
+        <childnode refid="2310" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2311">
+        <label>XDCommonLib/CommonBasicComponentLayer/Debug/XDDebugStatusBar.h</label>
+        <link refid="XDDebugStatusBar.h"/>
+        <childnode refid="2312" relation="include">
+        </childnode>
+      </node>
+      <node id="2312">
+        <label>XDCommonLib/CommonBasicComponentLayer/Debug/XDDebugStatusBar.m</label>
+        <link refid="_x_d_debug_status_bar_8m"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_x_d_debug_status_bar" prot="public">XDDebugStatusBar</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>XDDebugStatusBar.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>XDCommonLib</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>su<sp/>xinde<sp/>on<sp/>15/11/26.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>©<sp/>2015年<sp/>su<sp/>xinde.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;Foundation/Foundation.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;UIKit/UIKit.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_x_d_singleton_8h" kindref="compound">XDSingleton.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="class_x_d_debug_status_bar" kindref="compound">XDDebugStatusBar</ref><sp/>:<sp/>UIWindow</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><ref refid="_x_d_singleton_8h_1af653148f96ca73a661c92aa78c273b3b" kindref="member">DEF_SINGLETON</ref></highlight></codeline>
+<codeline lineno="16" refid="class_x_d_debug_status_bar_1a23df35fbaa885ed53730c1570ef365cf" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(readonly,<sp/>nonatomic)<sp/>UIButton<sp/>*<ref refid="class_x_d_debug_status_bar_1a23df35fbaa885ed53730c1570ef365cf" kindref="member">debugButton</ref>;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal">+<sp/>(void)<ref refid="class_x_d_debug_status_bar_1a8b88dcbc3eeb6c6782a2c7ae476089cd" kindref="member">attach</ref>;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Debug/XDDebugStatusBar.h"/>
+  </compounddef>
+</doxygen>

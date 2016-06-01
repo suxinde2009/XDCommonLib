@@ -1,0 +1,253 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_s_e_printer_manager_07_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>SEPrinterManager()</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">&lt;CBCentralManagerDelegate&gt;</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">&lt;CBPeripheralDelegate&gt;</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="category_s_e_printer_manager_07_08_1a90e09f28f4eaaccfc225b3cc1bcfae76" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="copy">
+        <type><ref refid="_s_e_b_l_e_const_8h_1a6294aed3adb28e9b4347144f40aa16e5" kindref="member">SEScanPerpheralSuccess</ref></type>
+        <definition>SEScanPerpheralSuccess SEPrinterManager()::scanPerpheralSuccess</definition>
+        <argsstring></argsstring>
+        <name>scanPerpheralSuccess</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>扫描设备成功的回调 </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/BLLSDKLayer/BLE/BLEPrinter/SEPrinterManager.m" line="16" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/BLLSDKLayer/BLE/BLEPrinter/SEPrinterManager.m" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_s_e_printer_manager_07_08_1afb11fb483d6fbd4d8d96f6f38c537b23" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="copy">
+        <type><ref refid="_s_e_b_l_e_const_8h_1a35b5090ce2cf242ac80a3b90674e2ee4" kindref="member">SEScanPerpheralFailure</ref></type>
+        <definition>SEScanPerpheralFailure SEPrinterManager()::scanPerpheralFailure</definition>
+        <argsstring></argsstring>
+        <name>scanPerpheralFailure</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>扫描设备失败的回调 </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/BLLSDKLayer/BLE/BLEPrinter/SEPrinterManager.m" line="17" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/BLLSDKLayer/BLE/BLEPrinter/SEPrinterManager.m" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_s_e_printer_manager_07_08_1a14ab4db534aeb0cc7cdf677585d10c85" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="copy">
+        <type><ref refid="_s_e_b_l_e_const_8h_1ad57a5ae761ace96bba403778810efb65" kindref="member">SEConnectCompletion</ref></type>
+        <definition>SEConnectCompletion SEPrinterManager()::connectCompletion</definition>
+        <argsstring></argsstring>
+        <name>connectCompletion</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>连接完成的回调 </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/BLLSDKLayer/BLE/BLEPrinter/SEPrinterManager.m" line="18" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/BLLSDKLayer/BLE/BLEPrinter/SEPrinterManager.m" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_s_e_printer_manager_07_08_1a268a1b9ea3bc53d29a9d9b24400bd6a4" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="copy">
+        <type><ref refid="_s_e_b_l_e_const_8h_1a5194a49f52044a6a9ef61e3e40b7a106" kindref="member">SEFullOptionCompletion</ref></type>
+        <definition>SEFullOptionCompletion SEPrinterManager()::optionCompletion</definition>
+        <argsstring></argsstring>
+        <name>optionCompletion</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>连接、扫描、搜索 </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/BLLSDKLayer/BLE/BLEPrinter/SEPrinterManager.m" line="19" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/BLLSDKLayer/BLE/BLEPrinter/SEPrinterManager.m" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_s_e_printer_manager_07_08_1a2f5a9e84bb71d016aec7403325a67e37" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="copy">
+        <type><ref refid="_s_e_b_l_e_const_8h_1a046dc386ce14d28a5b3871cdc80a211e" kindref="member">SEDisconnect</ref></type>
+        <definition>SEDisconnect SEPrinterManager()::disconnectBlock</definition>
+        <argsstring></argsstring>
+        <name>disconnectBlock</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>断开连接的回调 </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/BLLSDKLayer/BLE/BLEPrinter/SEPrinterManager.m" line="21" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/BLLSDKLayer/BLE/BLEPrinter/SEPrinterManager.m" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_s_e_printer_manager_07_08_1af0ffd1104333d2de5f644ee3f492426b" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="strong">
+        <type>CBCentralManager *</type>
+        <definition>CBCentralManager* SEPrinterManager()::centralManager</definition>
+        <argsstring></argsstring>
+        <name>centralManager</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>中心管理器 </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/BLLSDKLayer/BLE/BLEPrinter/SEPrinterManager.m" line="23" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/BLLSDKLayer/BLE/BLEPrinter/SEPrinterManager.m" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_s_e_printer_manager_07_08_1a575795e29d2154fea5c050e9939c67bf" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="strong">
+        <type>CBPeripheral *</type>
+        <definition>CBPeripheral* SEPrinterManager()::connectedPerpheral</definition>
+        <argsstring></argsstring>
+        <name>connectedPerpheral</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>当前连接的外设 </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/BLLSDKLayer/BLE/BLEPrinter/SEPrinterManager.m" line="24" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/BLLSDKLayer/BLE/BLEPrinter/SEPrinterManager.m" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_s_e_printer_manager_07_08_1a0b12b1ff136b2c14adf8848c69c796a9" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="strong">
+        <type>NSMutableArray *</type>
+        <definition>NSMutableArray* SEPrinterManager()::perpherals</definition>
+        <argsstring></argsstring>
+        <name>perpherals</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>搜索到的蓝牙设备列表 </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/BLLSDKLayer/BLE/BLEPrinter/SEPrinterManager.m" line="25" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/BLLSDKLayer/BLE/BLEPrinter/SEPrinterManager.m" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_s_e_printer_manager_07_08_1ae532111dcd7749e84206d2eb370a4959" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="strong">
+        <type>NSMutableArray *</type>
+        <definition>NSMutableArray* SEPrinterManager()::writeChatacters</definition>
+        <argsstring></argsstring>
+        <name>writeChatacters</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>可写入数据的特性 </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/BLLSDKLayer/BLE/BLEPrinter/SEPrinterManager.m" line="27" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/BLLSDKLayer/BLE/BLEPrinter/SEPrinterManager.m" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_s_e_printer_manager_07_08_1a51d143e909c54ae6d0a6289a935ddb60" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="assign">
+        <type>NSTimeInterval</type>
+        <definition>NSTimeInterval SEPrinterManager()::timeout</definition>
+        <argsstring></argsstring>
+        <name>timeout</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>默认超时时间 </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/BLLSDKLayer/BLE/BLEPrinter/SEPrinterManager.m" line="29" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/BLLSDKLayer/BLE/BLEPrinter/SEPrinterManager.m" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_s_e_printer_manager_07_08_1a602458c132dd4da7fced12210b1202c4" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="strong">
+        <type><ref refid="class_h_l_printer" kindref="compound">HLPrinter</ref> *</type>
+        <definition>HLPrinter* SEPrinterManager()::printer</definition>
+        <argsstring></argsstring>
+        <name>printer</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>打印器 </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/BLLSDKLayer/BLE/BLEPrinter/SEPrinterManager.m" line="31" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/BLLSDKLayer/BLE/BLEPrinter/SEPrinterManager.m" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_s_e_printer_manager_07_08_1a7d60f9602db43be6578646e0fc738334" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="assign">
+        <type>BOOL</type>
+        <definition>BOOL SEPrinterManager()::autoConnect</definition>
+        <argsstring></argsstring>
+        <name>autoConnect</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>自动连接上次的外设 </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/BLLSDKLayer/BLE/BLEPrinter/SEPrinterManager.m" line="33" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/BLLSDKLayer/BLE/BLEPrinter/SEPrinterManager.m" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="739">
+        <label>&lt;CBCentralManagerDelegate&gt;</label>
+      </node>
+      <node id="738">
+        <label>SEPrinterManager()</label>
+        <link refid="category_s_e_printer_manager_07_08"/>
+        <childnode refid="739" relation="public-inheritance">
+        </childnode>
+        <childnode refid="740" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="740">
+        <label>&lt;CBPeripheralDelegate&gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="744">
+        <label>HLPrinter</label>
+        <link refid="class_h_l_printer"/>
+        <childnode refid="745" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="742">
+        <label>&lt;CBCentralManagerDelegate&gt;</label>
+      </node>
+      <node id="741">
+        <label>SEPrinterManager()</label>
+        <link refid="category_s_e_printer_manager_07_08"/>
+        <childnode refid="742" relation="public-inheritance">
+        </childnode>
+        <childnode refid="743" relation="public-inheritance">
+        </childnode>
+        <childnode refid="744" relation="usage">
+          <edgelabel>printer</edgelabel>
+        </childnode>
+      </node>
+      <node id="743">
+        <label>&lt;CBPeripheralDelegate&gt;</label>
+      </node>
+      <node id="745">
+        <label>NSObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/BLLSDKLayer/BLE/BLEPrinter/SEPrinterManager.m" line="14" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/BLLSDKLayer/BLE/BLEPrinter/SEPrinterManager.m" bodystart="14" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_s_e_printer_manager_07_08_1a7d60f9602db43be6578646e0fc738334" prot="public" virt="non-virtual"><scope>SEPrinterManager()</scope><name>autoConnect</name></member>
+      <member refid="category_s_e_printer_manager_07_08_1af0ffd1104333d2de5f644ee3f492426b" prot="public" virt="non-virtual"><scope>SEPrinterManager()</scope><name>centralManager</name></member>
+      <member refid="category_s_e_printer_manager_07_08_1a14ab4db534aeb0cc7cdf677585d10c85" prot="public" virt="non-virtual"><scope>SEPrinterManager()</scope><name>connectCompletion</name></member>
+      <member refid="category_s_e_printer_manager_07_08_1a575795e29d2154fea5c050e9939c67bf" prot="public" virt="non-virtual"><scope>SEPrinterManager()</scope><name>connectedPerpheral</name></member>
+      <member refid="category_s_e_printer_manager_07_08_1a2f5a9e84bb71d016aec7403325a67e37" prot="public" virt="non-virtual"><scope>SEPrinterManager()</scope><name>disconnectBlock</name></member>
+      <member refid="category_s_e_printer_manager_07_08_1a268a1b9ea3bc53d29a9d9b24400bd6a4" prot="public" virt="non-virtual"><scope>SEPrinterManager()</scope><name>optionCompletion</name></member>
+      <member refid="category_s_e_printer_manager_07_08_1a0b12b1ff136b2c14adf8848c69c796a9" prot="public" virt="non-virtual"><scope>SEPrinterManager()</scope><name>perpherals</name></member>
+      <member refid="category_s_e_printer_manager_07_08_1a602458c132dd4da7fced12210b1202c4" prot="public" virt="non-virtual"><scope>SEPrinterManager()</scope><name>printer</name></member>
+      <member refid="category_s_e_printer_manager_07_08_1afb11fb483d6fbd4d8d96f6f38c537b23" prot="public" virt="non-virtual"><scope>SEPrinterManager()</scope><name>scanPerpheralFailure</name></member>
+      <member refid="category_s_e_printer_manager_07_08_1a90e09f28f4eaaccfc225b3cc1bcfae76" prot="public" virt="non-virtual"><scope>SEPrinterManager()</scope><name>scanPerpheralSuccess</name></member>
+      <member refid="category_s_e_printer_manager_07_08_1a51d143e909c54ae6d0a6289a935ddb60" prot="public" virt="non-virtual"><scope>SEPrinterManager()</scope><name>timeout</name></member>
+      <member refid="category_s_e_printer_manager_07_08_1ae532111dcd7749e84206d2eb370a4959" prot="public" virt="non-virtual"><scope>SEPrinterManager()</scope><name>writeChatacters</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_n_s_object_09_property_8h" kind="file" language="C++">
+    <compoundname>NSObject+Property.h</compoundname>
+    <includes local="no">Foundation/Foundation.h</includes>
+    <includedby refid="_n_s_object_09_property_8m" local="yes">XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSObject/NSObject+Property.m</includedby>
+    <incdepgraph>
+      <node id="713">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSObject/NSObject+Property.h</label>
+        <link refid="NSObject+Property.h"/>
+        <childnode refid="714" relation="include">
+        </childnode>
+      </node>
+      <node id="714">
+        <label>Foundation/Foundation.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="715">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSObject/NSObject+Property.h</label>
+        <link refid="NSObject+Property.h"/>
+        <childnode refid="716" relation="include">
+        </childnode>
+      </node>
+      <node id="716">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSObject/NSObject+Property.m</label>
+        <link refid="_n_s_object_09_property_8m"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="category_n_s_object_07_property_08" prot="public">NSObject(Property)</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>NSObject+Property.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>iOS-Categories<sp/>(https://github.com/shaojiankui/iOS-Categories)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Jakey<sp/>on<sp/>14/12/20.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2014年<sp/>www.skyfox.org.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;Foundation/Foundation.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="category_n_s_object_07_property_08" kindref="compound">NSObject (Property)</ref></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal">-(NSDictionary<sp/>*)<ref refid="category_n_s_object_07_property_08_1a96139b8a8d7a35bb1b194516db7fd2fb" kindref="member">propertyDictionary</ref>;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">-<sp/>(NSDictionary*)<ref refid="category_n_s_object_07_property_08_1ad4297c625c312fe78b9184de41ccee3f" kindref="member">dictionaryValue</ref>;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal">-<sp/>(NSArray*)<ref refid="category_n_s_object_07_property_08_1ae0ce6ecc3bec1e148428c1c4e74a2466" kindref="member">allPropertyKeys</ref>;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal">+<sp/>(NSArray<sp/>*)<ref refid="category_n_s_object_07_property_08_1ad6d5c925d8d291a5e515301faa1a4e63" kindref="member">classPropertyList</ref>;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal">-<sp/>(NSArray*)<ref refid="category_n_s_object_07_property_08_1a8ccc2ba64848349a34aeeeedba4bd00c" kindref="member">allPropertyKeyPaths</ref>;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Exclude<sp/>container<sp/>type<sp/>keypaths</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal">-<sp/>(NSArray*)<ref refid="category_n_s_object_07_property_08_1aa6af562987bd682b53575b1cccd0bd51" kindref="member">allBasePropertyKeyPaths</ref>;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal">-<sp/>(BOOL)hasPropertyForKey:(NSString*)key;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal">-<sp/>(BOOL)hasIvarForKey:(NSString*)key;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal">-<sp/>(id)valueForArrayIndexedKeyPath:(NSString<sp/>*)keyPath;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSObject/NSObject+Property.h"/>
+  </compounddef>
+</doxygen>

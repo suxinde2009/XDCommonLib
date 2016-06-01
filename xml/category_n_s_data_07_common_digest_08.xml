@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_n_s_data_07_common_digest_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>NSData(CommonDigest)</compoundname>
+    <includes refid="_n_s_data_09_x_d___encrypt___common___crypto_8h" local="no">NSData+XD_Encrypt_Common_Crypto.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="category_n_s_data_07_common_digest_08_1aedfc0aa3516fc9e7621d2355adbf943d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSData *</type>
+        <definition>NSData * NSData(CommonDigest)::MD2Sum</definition>
+        <argsstring>()</argsstring>
+        <name>MD2Sum</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/EncryptUtils/EncryptBase/NSData+XD_Encrypt_Common_Crypto.h" line="14" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/EncryptUtils/EncryptBase/NSData+XD_Encrypt_Common_Crypto.m" bodystart="85" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_data_07_common_digest_08_1abd9f0b30f468c6c56f60aad9941a2bf4" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSData *</type>
+        <definition>NSData * NSData(CommonDigest)::MD4Sum</definition>
+        <argsstring>()</argsstring>
+        <name>MD4Sum</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/EncryptUtils/EncryptBase/NSData+XD_Encrypt_Common_Crypto.h" line="14" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/EncryptUtils/EncryptBase/NSData+XD_Encrypt_Common_Crypto.m" bodystart="92" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_data_07_common_digest_08_1a6eaa14403f62734abdffe54a634eb71a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSData *</type>
+        <definition>NSData * NSData(CommonDigest)::MD5Sum</definition>
+        <argsstring>()</argsstring>
+        <name>MD5Sum</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/EncryptUtils/EncryptBase/NSData+XD_Encrypt_Common_Crypto.h" line="14" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/EncryptUtils/EncryptBase/NSData+XD_Encrypt_Common_Crypto.m" bodystart="99" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_data_07_common_digest_08_1a9191b78a40b39d7a3885f6378ef7146d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSData *</type>
+        <definition>NSData * NSData(CommonDigest)::SHA1Hash</definition>
+        <argsstring>()</argsstring>
+        <name>SHA1Hash</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/EncryptUtils/EncryptBase/NSData+XD_Encrypt_Common_Crypto.h" line="14" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/EncryptUtils/EncryptBase/NSData+XD_Encrypt_Common_Crypto.m" bodystart="106" bodyend="111"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_data_07_common_digest_08_1adab3a830cd801beb2d7e5125826f2867" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSData *</type>
+        <definition>NSData * NSData(CommonDigest)::SHA224Hash</definition>
+        <argsstring>()</argsstring>
+        <name>SHA224Hash</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/EncryptUtils/EncryptBase/NSData+XD_Encrypt_Common_Crypto.h" line="14" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/EncryptUtils/EncryptBase/NSData+XD_Encrypt_Common_Crypto.m" bodystart="113" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_data_07_common_digest_08_1a68955b734af1485ab07ce9208da50ffa" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSData *</type>
+        <definition>NSData * NSData(CommonDigest)::SHA256Hash</definition>
+        <argsstring>()</argsstring>
+        <name>SHA256Hash</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/EncryptUtils/EncryptBase/NSData+XD_Encrypt_Common_Crypto.h" line="14" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/EncryptUtils/EncryptBase/NSData+XD_Encrypt_Common_Crypto.m" bodystart="120" bodyend="125"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_data_07_common_digest_08_1a323c12df39ef1b3a894ffd36c354ce05" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSData *</type>
+        <definition>NSData * NSData(CommonDigest)::SHA384Hash</definition>
+        <argsstring>()</argsstring>
+        <name>SHA384Hash</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/EncryptUtils/EncryptBase/NSData+XD_Encrypt_Common_Crypto.h" line="14" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/EncryptUtils/EncryptBase/NSData+XD_Encrypt_Common_Crypto.m" bodystart="127" bodyend="132"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_data_07_common_digest_08_1ade1da14e6e4fa2ad400d32d53b9d2206" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSData *</type>
+        <definition>NSData * NSData(CommonDigest)::SHA512Hash</definition>
+        <argsstring>()</argsstring>
+        <name>SHA512Hash</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/EncryptUtils/EncryptBase/NSData+XD_Encrypt_Common_Crypto.h" line="14" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/EncryptUtils/EncryptBase/NSData+XD_Encrypt_Common_Crypto.m" bodystart="134" bodyend="139"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/EncryptUtils/EncryptBase/NSData+XD_Encrypt_Common_Crypto.h" line="20" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/EncryptUtils/EncryptBase/NSData+XD_Encrypt_Common_Crypto.h" bodystart="20" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_n_s_data_07_common_digest_08_1aedfc0aa3516fc9e7621d2355adbf943d" prot="public" virt="virtual"><scope>NSData(CommonDigest)</scope><name>MD2Sum</name></member>
+      <member refid="category_n_s_data_07_common_digest_08_1abd9f0b30f468c6c56f60aad9941a2bf4" prot="public" virt="virtual"><scope>NSData(CommonDigest)</scope><name>MD4Sum</name></member>
+      <member refid="category_n_s_data_07_common_digest_08_1a6eaa14403f62734abdffe54a634eb71a" prot="public" virt="virtual"><scope>NSData(CommonDigest)</scope><name>MD5Sum</name></member>
+      <member refid="category_n_s_data_07_common_digest_08_1a9191b78a40b39d7a3885f6378ef7146d" prot="public" virt="virtual"><scope>NSData(CommonDigest)</scope><name>SHA1Hash</name></member>
+      <member refid="category_n_s_data_07_common_digest_08_1adab3a830cd801beb2d7e5125826f2867" prot="public" virt="virtual"><scope>NSData(CommonDigest)</scope><name>SHA224Hash</name></member>
+      <member refid="category_n_s_data_07_common_digest_08_1a68955b734af1485ab07ce9208da50ffa" prot="public" virt="virtual"><scope>NSData(CommonDigest)</scope><name>SHA256Hash</name></member>
+      <member refid="category_n_s_data_07_common_digest_08_1a323c12df39ef1b3a894ffd36c354ce05" prot="public" virt="virtual"><scope>NSData(CommonDigest)</scope><name>SHA384Hash</name></member>
+      <member refid="category_n_s_data_07_common_digest_08_1ade1da14e6e4fa2ad400d32d53b9d2206" prot="public" virt="virtual"><scope>NSData(CommonDigest)</scope><name>SHA512Hash</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

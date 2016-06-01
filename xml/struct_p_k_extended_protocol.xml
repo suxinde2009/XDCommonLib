@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="struct_p_k_extended_protocol" kind="struct" language="Objective-C" prot="public">
+    <compoundname>PKExtendedProtocol</compoundname>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="struct_p_k_extended_protocol_1adbfb86099db958a086b166d4b48c46ea" prot="protected" static="no" mutable="no">
+        <type>Protocol *__unsafe_unretained</type>
+        <definition>Protocol* __unsafe_unretained PKExtendedProtocol::protocol</definition>
+        <argsstring></argsstring>
+        <name>protocol</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/ProtocolKit/PKProtocolExtension.m" line="28" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/ProtocolKit/PKProtocolExtension.m" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_p_k_extended_protocol_1a644a0a862655f2794772c962fffcb125" prot="protected" static="no" mutable="no">
+        <type>Method *</type>
+        <definition>Method* PKExtendedProtocol::instanceMethods</definition>
+        <argsstring></argsstring>
+        <name>instanceMethods</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/ProtocolKit/PKProtocolExtension.m" line="29" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/ProtocolKit/PKProtocolExtension.m" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_p_k_extended_protocol_1af4af6e39141247e95bc5d86c4e7ecc9d" prot="protected" static="no" mutable="no">
+        <type>unsigned</type>
+        <definition>unsigned PKExtendedProtocol::instanceMethodCount</definition>
+        <argsstring></argsstring>
+        <name>instanceMethodCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/ProtocolKit/PKProtocolExtension.m" line="30" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/ProtocolKit/PKProtocolExtension.m" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_p_k_extended_protocol_1adcf9ce1e78a9bf56eec17bf60415e354" prot="protected" static="no" mutable="no">
+        <type>Method *</type>
+        <definition>Method* PKExtendedProtocol::classMethods</definition>
+        <argsstring></argsstring>
+        <name>classMethods</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/ProtocolKit/PKProtocolExtension.m" line="31" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/ProtocolKit/PKProtocolExtension.m" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_p_k_extended_protocol_1a7ff8887a919aa423cb5cee810e7d8e5e" prot="protected" static="no" mutable="no">
+        <type>unsigned</type>
+        <definition>unsigned PKExtendedProtocol::classMethodCount</definition>
+        <argsstring></argsstring>
+        <name>classMethodCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/ProtocolKit/PKProtocolExtension.m" line="32" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/ProtocolKit/PKProtocolExtension.m" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/ProtocolKit/PKProtocolExtension.m" line="27" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/ProtocolKit/PKProtocolExtension.m" bodystart="27" bodyend="33"/>
+    <listofallmembers>
+      <member refid="struct_p_k_extended_protocol_1a7ff8887a919aa423cb5cee810e7d8e5e" prot="protected" virt="non-virtual"><scope>PKExtendedProtocol</scope><name>classMethodCount</name></member>
+      <member refid="struct_p_k_extended_protocol_1adcf9ce1e78a9bf56eec17bf60415e354" prot="protected" virt="non-virtual"><scope>PKExtendedProtocol</scope><name>classMethods</name></member>
+      <member refid="struct_p_k_extended_protocol_1af4af6e39141247e95bc5d86c4e7ecc9d" prot="protected" virt="non-virtual"><scope>PKExtendedProtocol</scope><name>instanceMethodCount</name></member>
+      <member refid="struct_p_k_extended_protocol_1a644a0a862655f2794772c962fffcb125" prot="protected" virt="non-virtual"><scope>PKExtendedProtocol</scope><name>instanceMethods</name></member>
+      <member refid="struct_p_k_extended_protocol_1adbfb86099db958a086b166d4b48c46ea" prot="protected" virt="non-virtual"><scope>PKExtendedProtocol</scope><name>protocol</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

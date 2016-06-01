@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_n_s_string_07_pinyin_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>NSString(Pinyin)</compoundname>
+    <includes refid="_n_s_string_09_pinyin_8h" local="no">NSString+Pinyin.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="category_n_s_string_07_pinyin_08_1a970692e1cb5e3b1ded816bfb7d5e132a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * NSString(Pinyin)::pinyinWithPhoneticSymbol</definition>
+        <argsstring>()</argsstring>
+        <name>pinyinWithPhoneticSymbol</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Pinyin.h" line="15" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Pinyin.m" bodystart="13" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_string_07_pinyin_08_1a2bdaa0d25cb8181a442c5162d2130f9f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * NSString(Pinyin)::pinyin</definition>
+        <argsstring>()</argsstring>
+        <name>pinyin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Pinyin.h" line="15" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Pinyin.m" bodystart="19" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_string_07_pinyin_08_1a5d6a99e39c0e12971c18e5e948f4c456" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSArray *</type>
+        <definition>NSArray * NSString(Pinyin)::pinyinArray</definition>
+        <argsstring>()</argsstring>
+        <name>pinyinArray</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Pinyin.h" line="15" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Pinyin.m" bodystart="25" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_string_07_pinyin_08_1ae5b6c2f070da8810e306b059cd3ccab7" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * NSString(Pinyin)::pinyinWithoutBlank</definition>
+        <argsstring>()</argsstring>
+        <name>pinyinWithoutBlank</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Pinyin.h" line="15" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Pinyin.m" bodystart="30" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_string_07_pinyin_08_1a84639c06a2160ceecb57bdc5d5e997e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSArray *</type>
+        <definition>NSArray * NSString(Pinyin)::pinyinInitialsArray</definition>
+        <argsstring>()</argsstring>
+        <name>pinyinInitialsArray</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Pinyin.h" line="15" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Pinyin.m" bodystart="38" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_string_07_pinyin_08_1a46700cbb55cbdede09d7fd65eff28efd" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * NSString(Pinyin)::pinyinInitialsString</definition>
+        <argsstring>()</argsstring>
+        <name>pinyinInitialsString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Pinyin.h" line="15" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Pinyin.m" bodystart="48" bodyend="56"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Pinyin.m" line="11" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Pinyin.m" bodystart="11" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_n_s_string_07_pinyin_08_1a2bdaa0d25cb8181a442c5162d2130f9f" prot="public" virt="virtual"><scope>NSString(Pinyin)</scope><name>pinyin</name></member>
+      <member refid="category_n_s_string_07_pinyin_08_1a5d6a99e39c0e12971c18e5e948f4c456" prot="public" virt="virtual"><scope>NSString(Pinyin)</scope><name>pinyinArray</name></member>
+      <member refid="category_n_s_string_07_pinyin_08_1a84639c06a2160ceecb57bdc5d5e997e9" prot="public" virt="virtual"><scope>NSString(Pinyin)</scope><name>pinyinInitialsArray</name></member>
+      <member refid="category_n_s_string_07_pinyin_08_1a46700cbb55cbdede09d7fd65eff28efd" prot="public" virt="virtual"><scope>NSString(Pinyin)</scope><name>pinyinInitialsString</name></member>
+      <member refid="category_n_s_string_07_pinyin_08_1ae5b6c2f070da8810e306b059cd3ccab7" prot="public" virt="virtual"><scope>NSString(Pinyin)</scope><name>pinyinWithoutBlank</name></member>
+      <member refid="category_n_s_string_07_pinyin_08_1a970692e1cb5e3b1ded816bfb7d5e132a" prot="public" virt="virtual"><scope>NSString(Pinyin)</scope><name>pinyinWithPhoneticSymbol</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

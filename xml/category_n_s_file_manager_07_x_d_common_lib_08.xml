@@ -1,0 +1,703 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_n_s_file_manager_07_x_d_common_lib_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>NSFileManager(XDCommonLib)</compoundname>
+    <includes refid="_n_s_file_manager_09_x_d_common_lib_8h" local="no">NSFileManager+XDCommonLib.h</includes>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d_common_lib_08_1a89b487da88d4853b9a9d07b8ad81e970" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *_Nullable</type>
+        <definition>NSString *_Nullable NSFileManager(XDCommonLib)::readTextFile:ofType:</definition>
+        <argsstring>(NSString *_Nonnull file,[ofType] NSString *_Nonnull type)</argsstring>
+        <name>readTextFile:ofType:</name>
+        <param>
+          <type>NSString *_Nonnull</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <attributes>[ofType]</attributes>
+          <type>NSString *_Nonnull</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Read a file an returns the content as NSString</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>file</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>File name </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>type</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>File type</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Returns the content of the file a NSString </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XDCommonLib.h" line="14" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XDCommonLib.m" bodystart="13" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d_common_lib_08_1a197cc7035707fe9796d4f61f3ba8072b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL NSFileManager(XDCommonLib)::saveArrayToPath:withFilename:array:</definition>
+        <argsstring>(DirectoryType path,[withFilename] NSString *_Nonnull fileName,[array] NSArray *_Nonnull array)</argsstring>
+        <name>saveArrayToPath:withFilename:array:</name>
+        <param>
+          <type>DirectoryType</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <attributes>[withFilename]</attributes>
+          <type>NSString *_Nonnull</type>
+          <declname>fileName</declname>
+        </param>
+        <param>
+          <attributes>[array]</attributes>
+          <type>NSArray *_Nonnull</type>
+          <declname>array</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Save a given array into a PLIST with the given filename</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>path</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Path of the PLIST </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>filename</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>PLIST filename </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>array</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Array to save into PLIST</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Returns YES if the operation was successful, otherwise NO </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XDCommonLib.h" line="14" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XDCommonLib.m" bodystart="17" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d_common_lib_08_1a1818960d51109ddeadccf40ac2e4f5dd" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSArray *_Nullable</type>
+        <definition>NSArray *_Nullable NSFileManager(XDCommonLib)::loadArrayFromPath:withFilename:</definition>
+        <argsstring>(DirectoryType path,[withFilename] NSString *_Nonnull fileName)</argsstring>
+        <name>loadArrayFromPath:withFilename:</name>
+        <param>
+          <type>DirectoryType</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <attributes>[withFilename]</attributes>
+          <type>NSString *_Nonnull</type>
+          <declname>fileName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Load array from a PLIST with the given filename</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>path</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Path of the PLIST </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>fileName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>PLIST filename</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Returns the loaded array </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XDCommonLib.h" line="14" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XDCommonLib.m" bodystart="38" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d_common_lib_08_1a569b3023da3211d5bfce60ba6a57a984" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *_Nonnull</type>
+        <definition>NSString *_Nonnull NSFileManager(XDCommonLib)::getBundlePathForFile:</definition>
+        <argsstring>(NSString *_Nonnull fileName)</argsstring>
+        <name>getBundlePathForFile:</name>
+        <param>
+          <type>NSString *_Nonnull</type>
+          <declname>fileName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get the Bundle path for a filename</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fileName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Filename</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Returns the path as a NSString </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XDCommonLib.h" line="14" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XDCommonLib.m" bodystart="59" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d_common_lib_08_1a1f11c983f0b7f74843b47367fd5de8c7" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *_Nonnull</type>
+        <definition>NSString *_Nonnull NSFileManager(XDCommonLib)::getDocumentsDirectoryForFile:</definition>
+        <argsstring>(NSString *_Nonnull fileName)</argsstring>
+        <name>getDocumentsDirectoryForFile:</name>
+        <param>
+          <type>NSString *_Nonnull</type>
+          <declname>fileName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get the Documents directory for a filename</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fileName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Filename</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Returns the directory as a NSString </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XDCommonLib.h" line="14" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XDCommonLib.m" bodystart="64" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d_common_lib_08_1a4289907484dd5602cdb4e3619dc96aee" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *_Nonnull</type>
+        <definition>NSString *_Nonnull NSFileManager(XDCommonLib)::getLibraryDirectoryForFile:</definition>
+        <argsstring>(NSString *_Nonnull fileName)</argsstring>
+        <name>getLibraryDirectoryForFile:</name>
+        <param>
+          <type>NSString *_Nonnull</type>
+          <declname>fileName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get the Library directory for a filename</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fileName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Filename</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Returns the directory as a NSString </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XDCommonLib.h" line="14" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XDCommonLib.m" bodystart="69" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d_common_lib_08_1af57a7b45fc3a3e011f9fba330dffde61" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *_Nonnull</type>
+        <definition>NSString *_Nonnull NSFileManager(XDCommonLib)::getCacheDirectoryForFile:</definition>
+        <argsstring>(NSString *_Nonnull fileName)</argsstring>
+        <name>getCacheDirectoryForFile:</name>
+        <param>
+          <type>NSString *_Nonnull</type>
+          <declname>fileName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get the Cache directory for a filename</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fileName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Filename</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Returns the directory as a NSString </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XDCommonLib.h" line="14" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XDCommonLib.m" bodystart="74" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d_common_lib_08_1ae8c2eb99dc5cc39b9bb4d7682e530222" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSNumber *_Nullable</type>
+        <definition>NSNumber *_Nullable NSFileManager(XDCommonLib)::fileSize:fromDirectory:</definition>
+        <argsstring>(NSString *_Nonnull fileName,[fromDirectory] DirectoryType directory)</argsstring>
+        <name>fileSize:fromDirectory:</name>
+        <param>
+          <type>NSString *_Nonnull</type>
+          <declname>fileName</declname>
+        </param>
+        <param>
+          <attributes>[fromDirectory]</attributes>
+          <type>DirectoryType</type>
+          <declname>directory</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the size of the file</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fileName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Filename </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>directory</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Directory of the file</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Returns the file size </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XDCommonLib.h" line="14" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XDCommonLib.m" bodystart="79" bodyend="107"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d_common_lib_08_1a63cd12ce56ddfe08a1c505504709a3fa" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL NSFileManager(XDCommonLib)::deleteFile:fromDirectory:</definition>
+        <argsstring>(NSString *_Nonnull fileName,[fromDirectory] DirectoryType directory)</argsstring>
+        <name>deleteFile:fromDirectory:</name>
+        <param>
+          <type>NSString *_Nonnull</type>
+          <declname>fileName</declname>
+        </param>
+        <param>
+          <attributes>[fromDirectory]</attributes>
+          <type>DirectoryType</type>
+          <declname>directory</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Delete a file with the given filename</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>filename</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Filename to delete </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>origin</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Directory of the file</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Returns YES if the operation was successful, otherwise NO </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XDCommonLib.h" line="14" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XDCommonLib.m" bodystart="109" bodyend="134"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d_common_lib_08_1a2b278bc657ce46af3d04bcae8b700625" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL NSFileManager(XDCommonLib)::moveLocalFile:fromDirectory:toDirectory:</definition>
+        <argsstring>(NSString *_Nonnull fileName,[fromDirectory] DirectoryType origin,[toDirectory] DirectoryType destination)</argsstring>
+        <name>moveLocalFile:fromDirectory:toDirectory:</name>
+        <param>
+          <type>NSString *_Nonnull</type>
+          <declname>fileName</declname>
+        </param>
+        <param>
+          <attributes>[fromDirectory]</attributes>
+          <type>DirectoryType</type>
+          <declname>origin</declname>
+        </param>
+        <param>
+          <attributes>[toDirectory]</attributes>
+          <type>DirectoryType</type>
+          <declname>destination</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Move a file from a directory to another</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fileName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Filename to move </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>origin</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Origin directory of the file </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>destination</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Destination directory of the file</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Returns YES if the operation was successful, otherwise NO </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XDCommonLib.h" line="14" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XDCommonLib.m" bodystart="136" bodyend="138"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d_common_lib_08_1a918d0698b8b0b0bb0c4a4215450c81ba" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL NSFileManager(XDCommonLib)::moveLocalFile:fromDirectory:toDirectory:withFolderName:</definition>
+        <argsstring>(NSString *_Nonnull fileName,[fromDirectory] DirectoryType origin,[toDirectory] DirectoryType destination,[withFolderName] NSString *_Nullable folderName)</argsstring>
+        <name>moveLocalFile:fromDirectory:toDirectory:withFolderName:</name>
+        <param>
+          <type>NSString *_Nonnull</type>
+          <declname>fileName</declname>
+        </param>
+        <param>
+          <attributes>[fromDirectory]</attributes>
+          <type>DirectoryType</type>
+          <declname>origin</declname>
+        </param>
+        <param>
+          <attributes>[toDirectory]</attributes>
+          <type>DirectoryType</type>
+          <declname>destination</declname>
+        </param>
+        <param>
+          <attributes>[withFolderName]</attributes>
+          <type>NSString *_Nullable</type>
+          <declname>folderName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Move a file from a directory to another</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fileName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Filename to move </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>origin</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Origin directory of the file </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>destination</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Destination directory of the file </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>folderName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Folder name where to move the file. If folder not exist it will be created automatically</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Returns YES if the operation was successful, otherwise NO </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XDCommonLib.h" line="14" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XDCommonLib.m" bodystart="140" bodyend="206"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d_common_lib_08_1a3cec3d95b40f79bd0ed0cf321a066aa6" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL NSFileManager(XDCommonLib)::duplicateFileAtPath:toNewPath:</definition>
+        <argsstring>(NSString *_Nonnull origin,[toNewPath] NSString *_Nonnull destination)</argsstring>
+        <name>duplicateFileAtPath:toNewPath:</name>
+        <param>
+          <type>NSString *_Nonnull</type>
+          <declname>origin</declname>
+        </param>
+        <param>
+          <attributes>[toNewPath]</attributes>
+          <type>NSString *_Nonnull</type>
+          <declname>destination</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Duplicate a file into another directory</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>origin</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Origin path </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>destination</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Destination path</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Returns YES if the operation was successful, otherwise NO </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XDCommonLib.h" line="14" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XDCommonLib.m" bodystart="208" bodyend="213"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d_common_lib_08_1a6abb41c4190ca1763f03403e3c118bc3" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL NSFileManager(XDCommonLib)::renameFileFromDirectory:atPath:withOldName:andNewName:</definition>
+        <argsstring>(DirectoryType origin,[atPath] NSString *_Nonnull path,[withOldName] NSString *_Nonnull oldName,[andNewName] NSString *_Nonnull newName)</argsstring>
+        <name>renameFileFromDirectory:atPath:withOldName:andNewName:</name>
+        <param>
+          <type>DirectoryType</type>
+          <declname>origin</declname>
+        </param>
+        <param>
+          <attributes>[atPath]</attributes>
+          <type>NSString *_Nonnull</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <attributes>[withOldName]</attributes>
+          <type>NSString *_Nonnull</type>
+          <declname>oldName</declname>
+        </param>
+        <param>
+          <attributes>[andNewName]</attributes>
+          <type>NSString *_Nonnull</type>
+          <declname>newName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Rename a file with another filename</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>origin</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Origin path </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>path</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Subdirectory path </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>oldName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Old filename </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>newName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New filename</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Returns YES if the operation was successful, otherwise NO </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XDCommonLib.h" line="14" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XDCommonLib.m" bodystart="215" bodyend="242"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d_common_lib_08_1aa6d9033f726b3a6e43e8df16026fa798" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>id _Nullable</type>
+        <definition>id _Nullable NSFileManager(XDCommonLib)::getAppSettingsForObjectWithKey:</definition>
+        <argsstring>(NSString *_Nonnull objKey)</argsstring>
+        <name>getAppSettingsForObjectWithKey:</name>
+        <param>
+          <type>NSString *_Nonnull</type>
+          <declname>objKey</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get the App settings for a given key</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>objKey</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Key to get the object</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Returns the object for the given key </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XDCommonLib.h" line="14" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XDCommonLib.m" bodystart="276" bodyend="279"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d_common_lib_08_1a392043c638f88493f7e43c880d59c2c3" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL NSFileManager(XDCommonLib)::setAppSettingsForObject:forKey:</definition>
+        <argsstring>(id _Nonnull value,[forKey] NSString *_Nonnull objKey)</argsstring>
+        <name>setAppSettingsForObject:forKey:</name>
+        <param>
+          <type>id _Nonnull</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <attributes>[forKey]</attributes>
+          <type>NSString *_Nonnull</type>
+          <declname>objKey</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set the App settings for a given object and key. The file will be saved in the Library directory</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Object to set </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>objKey</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Key to set the object</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Returns YES if the operation was successful, otherwise NO </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XDCommonLib.h" line="14" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XDCommonLib.m" bodystart="281" bodyend="284"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d_common_lib_08_1a78495143e5c0c04c3888cdf67a0c3081" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>id _Nullable</type>
+        <definition>id _Nullable NSFileManager(XDCommonLib)::getSettings:objectForKey:</definition>
+        <argsstring>(NSString *_Nonnull settings,[objectForKey] NSString *_Nonnull objKey)</argsstring>
+        <name>getSettings:objectForKey:</name>
+        <param>
+          <type>NSString *_Nonnull</type>
+          <declname>settings</declname>
+        </param>
+        <param>
+          <attributes>[objectForKey]</attributes>
+          <type>NSString *_Nonnull</type>
+          <declname>objKey</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get the given settings for a given key</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>settings</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Settings filename </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>objKey</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Key to set the object</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Returns the object for the given key </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XDCommonLib.h" line="14" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XDCommonLib.m" bodystart="244" bodyend="257"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_file_manager_07_x_d_common_lib_08_1a91f3b1fdaf38c375261605f0937af179" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL NSFileManager(XDCommonLib)::setSettings:object:forKey:</definition>
+        <argsstring>(NSString *_Nonnull settings,[object] id _Nonnull value,[forKey] NSString *_Nonnull objKey)</argsstring>
+        <name>setSettings:object:forKey:</name>
+        <param>
+          <type>NSString *_Nonnull</type>
+          <declname>settings</declname>
+        </param>
+        <param>
+          <attributes>[object]</attributes>
+          <type>id _Nonnull</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <attributes>[forKey]</attributes>
+          <type>NSString *_Nonnull</type>
+          <declname>objKey</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set the given settings for a given object and key. The file will be saved in the Library directory</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>settings</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Settings filename </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Object to set </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>objKey</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Key to set the object</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Returns YES if the operation was successful, otherwise NO </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XDCommonLib.h" line="14" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XDCommonLib.m" bodystart="259" bodyend="274"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XDCommonLib.m" line="11" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileManager/NSFileManager+XDCommonLib.m" bodystart="11" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_n_s_file_manager_07_x_d_common_lib_08_1a63cd12ce56ddfe08a1c505504709a3fa" prot="public" virt="virtual"><scope>NSFileManager(XDCommonLib)</scope><name>deleteFile:fromDirectory:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d_common_lib_08_1a3cec3d95b40f79bd0ed0cf321a066aa6" prot="public" virt="virtual"><scope>NSFileManager(XDCommonLib)</scope><name>duplicateFileAtPath:toNewPath:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d_common_lib_08_1ae8c2eb99dc5cc39b9bb4d7682e530222" prot="public" virt="virtual"><scope>NSFileManager(XDCommonLib)</scope><name>fileSize:fromDirectory:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d_common_lib_08_1aa6d9033f726b3a6e43e8df16026fa798" prot="public" virt="virtual"><scope>NSFileManager(XDCommonLib)</scope><name>getAppSettingsForObjectWithKey:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d_common_lib_08_1a569b3023da3211d5bfce60ba6a57a984" prot="public" virt="virtual"><scope>NSFileManager(XDCommonLib)</scope><name>getBundlePathForFile:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d_common_lib_08_1af57a7b45fc3a3e011f9fba330dffde61" prot="public" virt="virtual"><scope>NSFileManager(XDCommonLib)</scope><name>getCacheDirectoryForFile:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d_common_lib_08_1a1f11c983f0b7f74843b47367fd5de8c7" prot="public" virt="virtual"><scope>NSFileManager(XDCommonLib)</scope><name>getDocumentsDirectoryForFile:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d_common_lib_08_1a4289907484dd5602cdb4e3619dc96aee" prot="public" virt="virtual"><scope>NSFileManager(XDCommonLib)</scope><name>getLibraryDirectoryForFile:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d_common_lib_08_1a78495143e5c0c04c3888cdf67a0c3081" prot="public" virt="virtual"><scope>NSFileManager(XDCommonLib)</scope><name>getSettings:objectForKey:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d_common_lib_08_1a1818960d51109ddeadccf40ac2e4f5dd" prot="public" virt="virtual"><scope>NSFileManager(XDCommonLib)</scope><name>loadArrayFromPath:withFilename:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d_common_lib_08_1a2b278bc657ce46af3d04bcae8b700625" prot="public" virt="virtual"><scope>NSFileManager(XDCommonLib)</scope><name>moveLocalFile:fromDirectory:toDirectory:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d_common_lib_08_1a918d0698b8b0b0bb0c4a4215450c81ba" prot="public" virt="virtual"><scope>NSFileManager(XDCommonLib)</scope><name>moveLocalFile:fromDirectory:toDirectory:withFolderName:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d_common_lib_08_1a89b487da88d4853b9a9d07b8ad81e970" prot="public" virt="virtual"><scope>NSFileManager(XDCommonLib)</scope><name>readTextFile:ofType:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d_common_lib_08_1a6abb41c4190ca1763f03403e3c118bc3" prot="public" virt="virtual"><scope>NSFileManager(XDCommonLib)</scope><name>renameFileFromDirectory:atPath:withOldName:andNewName:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d_common_lib_08_1a197cc7035707fe9796d4f61f3ba8072b" prot="public" virt="virtual"><scope>NSFileManager(XDCommonLib)</scope><name>saveArrayToPath:withFilename:array:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d_common_lib_08_1a392043c638f88493f7e43c880d59c2c3" prot="public" virt="virtual"><scope>NSFileManager(XDCommonLib)</scope><name>setAppSettingsForObject:forKey:</name></member>
+      <member refid="category_n_s_file_manager_07_x_d_common_lib_08_1a91f3b1fdaf38c375261605f0937af179" prot="public" virt="virtual"><scope>NSFileManager(XDCommonLib)</scope><name>setSettings:object:forKey:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

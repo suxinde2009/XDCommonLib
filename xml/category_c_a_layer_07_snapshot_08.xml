@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_c_a_layer_07_snapshot_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>CALayer(Snapshot)</compoundname>
+    <includes refid="_c_a_layer_09_snapshot_8h" local="no">CALayer+Snapshot.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="category_c_a_layer_07_snapshot_08_1ab323ba3f81383e1270c1a6b85a5a7168" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>UIImage *</type>
+        <definition>UIImage * CALayer(Snapshot)::snapshot</definition>
+        <argsstring>()</argsstring>
+        <name>snapshot</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/QuartzCore/CALayer/CALayer+Snapshot.h" line="14" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/QuartzCore/CALayer/CALayer+Snapshot.m" bodystart="13" bodyend="20"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/QuartzCore/CALayer/CALayer+Snapshot.m" line="11" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/QuartzCore/CALayer/CALayer+Snapshot.m" bodystart="11" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_c_a_layer_07_snapshot_08_1ab323ba3f81383e1270c1a6b85a5a7168" prot="public" virt="virtual"><scope>CALayer(Snapshot)</scope><name>snapshot</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,230 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_n_s_managed_object_context_07_fetching_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>NSManagedObjectContext(Fetching)</compoundname>
+    <includes refid="_n_s_managed_object_context_09_fetching_8h" local="no">NSManagedObjectContext+Fetching.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="category_n_s_managed_object_context_07_fetching_08_1a8ca186adbe079228c9465fbc350f2074" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>id</type>
+        <definition>id NSManagedObjectContext(Fetching)::fetchObject:usingValue:forKey:returningAsFault:</definition>
+        <argsstring>(NSString *entityName,[usingValue] id value,[forKey] NSString *key,[returningAsFault] BOOL fault)</argsstring>
+        <name>fetchObject:usingValue:forKey:returningAsFault:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>entityName</declname>
+        </param>
+        <param>
+          <attributes>[usingValue]</attributes>
+          <type>id</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <attributes>[forKey]</attributes>
+          <type>NSString *</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <attributes>[returningAsFault]</attributes>
+          <type>BOOL</type>
+          <declname>fault</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSManagedObjectContext/NSManagedObjectContext+Fetching.h" line="20" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSManagedObjectContext/NSManagedObjectContext+Fetching.m" bodystart="12" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_managed_object_context_07_fetching_08_1aae38969596713752b9309b57111b1713" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>id</type>
+        <definition>id NSManagedObjectContext(Fetching)::fetchObject:usingPredicate:returningAsFault:</definition>
+        <argsstring>(NSString *entityName,[usingPredicate] NSPredicate *predicate,[returningAsFault] BOOL fault)</argsstring>
+        <name>fetchObject:usingPredicate:returningAsFault:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>entityName</declname>
+        </param>
+        <param>
+          <attributes>[usingPredicate]</attributes>
+          <type>NSPredicate *</type>
+          <declname>predicate</declname>
+        </param>
+        <param>
+          <attributes>[returningAsFault]</attributes>
+          <type>BOOL</type>
+          <declname>fault</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSManagedObjectContext/NSManagedObjectContext+Fetching.h" line="20" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSManagedObjectContext/NSManagedObjectContext+Fetching.m" bodystart="19" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_managed_object_context_07_fetching_08_1afea764b1783355f8b5fe2a49c3122227" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSInteger</type>
+        <definition>NSInteger NSManagedObjectContext(Fetching)::countObjects:</definition>
+        <argsstring>(NSString *entityName)</argsstring>
+        <name>countObjects:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>entityName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSManagedObjectContext/NSManagedObjectContext+Fetching.h" line="20" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSManagedObjectContext/NSManagedObjectContext+Fetching.m" bodystart="83" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_managed_object_context_07_fetching_08_1a2ed69403227951fbbb5a4c46e5b45007" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSInteger</type>
+        <definition>NSInteger NSManagedObjectContext(Fetching)::countObjects:usingPredicate:</definition>
+        <argsstring>(NSString *entityName,[usingPredicate] NSPredicate *predicate)</argsstring>
+        <name>countObjects:usingPredicate:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>entityName</declname>
+        </param>
+        <param>
+          <attributes>[usingPredicate]</attributes>
+          <type>NSPredicate *</type>
+          <declname>predicate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSManagedObjectContext/NSManagedObjectContext+Fetching.h" line="20" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSManagedObjectContext/NSManagedObjectContext+Fetching.m" bodystart="88" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_managed_object_context_07_fetching_08_1a385c4cbbb71bc31184bafa951234c05d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSArray *</type>
+        <definition>NSArray * NSManagedObjectContext(Fetching)::fetchObjects:returningAsFault:</definition>
+        <argsstring>(NSString *entityName,[returningAsFault] BOOL fault)</argsstring>
+        <name>fetchObjects:returningAsFault:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>entityName</declname>
+        </param>
+        <param>
+          <attributes>[returningAsFault]</attributes>
+          <type>BOOL</type>
+          <declname>fault</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSManagedObjectContext/NSManagedObjectContext+Fetching.h" line="20" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSManagedObjectContext/NSManagedObjectContext+Fetching.m" bodystart="77" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_managed_object_context_07_fetching_08_1a9c4e61bfec0dc203f87d695a8436a582" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSArray *</type>
+        <definition>NSArray * NSManagedObjectContext(Fetching)::fetchObjects:usingPredicate:returningAsFault:</definition>
+        <argsstring>(NSString *entityName,[usingPredicate] NSPredicate *predicate,[returningAsFault] BOOL fault)</argsstring>
+        <name>fetchObjects:usingPredicate:returningAsFault:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>entityName</declname>
+        </param>
+        <param>
+          <attributes>[usingPredicate]</attributes>
+          <type>NSPredicate *</type>
+          <declname>predicate</declname>
+        </param>
+        <param>
+          <attributes>[returningAsFault]</attributes>
+          <type>BOOL</type>
+          <declname>fault</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSManagedObjectContext/NSManagedObjectContext+Fetching.h" line="20" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSManagedObjectContext/NSManagedObjectContext+Fetching.m" bodystart="34" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_managed_object_context_07_fetching_08_1afefcf25cc1376db14629bd8b4e6fa674" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSArray *</type>
+        <definition>NSArray * NSManagedObjectContext(Fetching)::fetchObjects:usingSortDescriptors:returningAsFault:</definition>
+        <argsstring>(NSString *entityName,[usingSortDescriptors] NSArray *sortDescriptors,[returningAsFault] BOOL fault)</argsstring>
+        <name>fetchObjects:usingSortDescriptors:returningAsFault:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>entityName</declname>
+        </param>
+        <param>
+          <attributes>[usingSortDescriptors]</attributes>
+          <type>NSArray *</type>
+          <declname>sortDescriptors</declname>
+        </param>
+        <param>
+          <attributes>[returningAsFault]</attributes>
+          <type>BOOL</type>
+          <declname>fault</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSManagedObjectContext/NSManagedObjectContext+Fetching.h" line="20" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSManagedObjectContext/NSManagedObjectContext+Fetching.m" bodystart="48" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_managed_object_context_07_fetching_08_1aeaa9c64224cffa7f42d9d4bd323041e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSArray *</type>
+        <definition>NSArray * NSManagedObjectContext(Fetching)::fetchObjects:usingPredicate:usingSortDescriptors:returningAsFault:</definition>
+        <argsstring>(NSString *entityName,[usingPredicate] NSPredicate *predicate,[usingSortDescriptors] NSArray *sortDescriptors,[returningAsFault] BOOL fault)</argsstring>
+        <name>fetchObjects:usingPredicate:usingSortDescriptors:returningAsFault:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>entityName</declname>
+        </param>
+        <param>
+          <attributes>[usingPredicate]</attributes>
+          <type>NSPredicate *</type>
+          <declname>predicate</declname>
+        </param>
+        <param>
+          <attributes>[usingSortDescriptors]</attributes>
+          <type>NSArray *</type>
+          <declname>sortDescriptors</declname>
+        </param>
+        <param>
+          <attributes>[returningAsFault]</attributes>
+          <type>BOOL</type>
+          <declname>fault</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSManagedObjectContext/NSManagedObjectContext+Fetching.h" line="20" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSManagedObjectContext/NSManagedObjectContext+Fetching.m" bodystart="62" bodyend="75"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSManagedObjectContext/NSManagedObjectContext+Fetching.m" line="10" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSManagedObjectContext/NSManagedObjectContext+Fetching.m" bodystart="10" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_n_s_managed_object_context_07_fetching_08_1afea764b1783355f8b5fe2a49c3122227" prot="public" virt="virtual"><scope>NSManagedObjectContext(Fetching)</scope><name>countObjects:</name></member>
+      <member refid="category_n_s_managed_object_context_07_fetching_08_1a2ed69403227951fbbb5a4c46e5b45007" prot="public" virt="virtual"><scope>NSManagedObjectContext(Fetching)</scope><name>countObjects:usingPredicate:</name></member>
+      <member refid="category_n_s_managed_object_context_07_fetching_08_1aae38969596713752b9309b57111b1713" prot="public" virt="virtual"><scope>NSManagedObjectContext(Fetching)</scope><name>fetchObject:usingPredicate:returningAsFault:</name></member>
+      <member refid="category_n_s_managed_object_context_07_fetching_08_1a8ca186adbe079228c9465fbc350f2074" prot="public" virt="virtual"><scope>NSManagedObjectContext(Fetching)</scope><name>fetchObject:usingValue:forKey:returningAsFault:</name></member>
+      <member refid="category_n_s_managed_object_context_07_fetching_08_1a385c4cbbb71bc31184bafa951234c05d" prot="public" virt="virtual"><scope>NSManagedObjectContext(Fetching)</scope><name>fetchObjects:returningAsFault:</name></member>
+      <member refid="category_n_s_managed_object_context_07_fetching_08_1a9c4e61bfec0dc203f87d695a8436a582" prot="public" virt="virtual"><scope>NSManagedObjectContext(Fetching)</scope><name>fetchObjects:usingPredicate:returningAsFault:</name></member>
+      <member refid="category_n_s_managed_object_context_07_fetching_08_1aeaa9c64224cffa7f42d9d4bd323041e6" prot="public" virt="virtual"><scope>NSManagedObjectContext(Fetching)</scope><name>fetchObjects:usingPredicate:usingSortDescriptors:returningAsFault:</name></member>
+      <member refid="category_n_s_managed_object_context_07_fetching_08_1afefcf25cc1376db14629bd8b4e6fa674" prot="public" virt="virtual"><scope>NSManagedObjectContext(Fetching)</scope><name>fetchObjects:usingSortDescriptors:returningAsFault:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

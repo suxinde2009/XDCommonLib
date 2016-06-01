@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_u_i_view_controller_07_m_j_popup_view_controller_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>UIViewController(MJPopupViewController)</compoundname>
+    <includes refid="_u_i_view_controller_09_m_j_popup_view_controller_8h" local="no">UIViewController+MJPopupViewController.h</includes>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="category_u_i_view_controller_07_m_j_popup_view_controller_08_1aaec523cd15842cc236b8a5c64dc8502b" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="retain">
+        <type>UIViewController *</type>
+        <definition>UIViewController * UIViewController(MJPopupViewController)::mj_popupViewController</definition>
+        <argsstring></argsstring>
+        <name>mj_popupViewController</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+MJPopupViewController.h" line="27" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+MJPopupViewController.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_u_i_view_controller_07_m_j_popup_view_controller_08_1abd6f769bba08a6e2a87e10ea58268234" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="retain">
+        <type><ref refid="class_m_j_popup_background_view" kindref="compound">MJPopupBackgroundView</ref> *</type>
+        <definition>MJPopupBackgroundView * UIViewController(MJPopupViewController)::mj_popupBackgroundView</definition>
+        <argsstring></argsstring>
+        <name>mj_popupBackgroundView</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+MJPopupViewController.h" line="28" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+MJPopupViewController.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="category_u_i_view_controller_07_m_j_popup_view_controller_08_1a18eda6b75436cf92b72524c768057dab" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UIViewController(MJPopupViewController)::presentPopupViewController:animationType:</definition>
+        <argsstring>(UIViewController *popupViewController,[animationType] MJPopupViewAnimation animationType)</argsstring>
+        <name>presentPopupViewController:animationType:</name>
+        <param>
+          <type>UIViewController *</type>
+          <declname>popupViewController</declname>
+        </param>
+        <param>
+          <attributes>[animationType]</attributes>
+          <type>MJPopupViewAnimation</type>
+          <declname>animationType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+MJPopupViewController.h" line="28" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+MJPopupViewController.m" bodystart="59" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_view_controller_07_m_j_popup_view_controller_08_1af1f28d319552d4b106b73f4cadb80fec" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UIViewController(MJPopupViewController)::presentPopupViewController:animationType:backgroundTouch:dismissed:</definition>
+        <argsstring>(UIViewController *popupViewController,[animationType] MJPopupViewAnimation animationType,[backgroundTouch] BOOL enable,[dismissed] void(^dismissed)(void))</argsstring>
+        <name>presentPopupViewController:animationType:backgroundTouch:dismissed:</name>
+        <param>
+          <type>UIViewController *</type>
+          <declname>popupViewController</declname>
+        </param>
+        <param>
+          <attributes>[animationType]</attributes>
+          <type>MJPopupViewAnimation</type>
+          <declname>animationType</declname>
+        </param>
+        <param>
+          <attributes>[backgroundTouch]</attributes>
+          <type>BOOL</type>
+          <declname>enable</declname>
+        </param>
+        <param>
+          <attributes>[dismissed]</attributes>
+          <type>void(^)(void)</type>
+          <declname>dismissed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+MJPopupViewController.h" line="28" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+MJPopupViewController.m" bodystart="53" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_view_controller_07_m_j_popup_view_controller_08_1a035c9979acd8f74f38a2045508d28bf8" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UIViewController(MJPopupViewController)::dismissPopupViewControllerWithanimationType:</definition>
+        <argsstring>(MJPopupViewAnimation animationType)</argsstring>
+        <name>dismissPopupViewControllerWithanimationType:</name>
+        <param>
+          <type>MJPopupViewAnimation</type>
+          <declname>animationType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+MJPopupViewController.h" line="28" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+MJPopupViewController.m" bodystart="64" bodyend="86"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1141">
+        <label>MJPopupBackgroundView</label>
+        <link refid="class_m_j_popup_background_view"/>
+        <childnode refid="1142" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1140">
+        <label>UIViewController(MJPopupViewController)</label>
+        <link refid="category_u_i_view_controller_07_m_j_popup_view_controller_08"/>
+        <childnode refid="1141" relation="usage">
+          <edgelabel>mj_popupBackgroundView</edgelabel>
+        </childnode>
+      </node>
+      <node id="1142">
+        <label>UIView</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+MJPopupViewController.m" line="31" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+MJPopupViewController.m" bodystart="31" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_u_i_view_controller_07_m_j_popup_view_controller_08_1a035c9979acd8f74f38a2045508d28bf8" prot="public" virt="virtual"><scope>UIViewController(MJPopupViewController)</scope><name>dismissPopupViewControllerWithanimationType:</name></member>
+      <member refid="category_u_i_view_controller_07_m_j_popup_view_controller_08_1abd6f769bba08a6e2a87e10ea58268234" prot="public" virt="non-virtual"><scope>UIViewController(MJPopupViewController)</scope><name>mj_popupBackgroundView</name></member>
+      <member refid="category_u_i_view_controller_07_m_j_popup_view_controller_08_1aaec523cd15842cc236b8a5c64dc8502b" prot="public" virt="non-virtual"><scope>UIViewController(MJPopupViewController)</scope><name>mj_popupViewController</name></member>
+      <member refid="category_u_i_view_controller_07_m_j_popup_view_controller_08_1a18eda6b75436cf92b72524c768057dab" prot="public" virt="virtual"><scope>UIViewController(MJPopupViewController)</scope><name>presentPopupViewController:animationType:</name></member>
+      <member refid="category_u_i_view_controller_07_m_j_popup_view_controller_08_1af1f28d319552d4b106b73f4cadb80fec" prot="public" virt="virtual"><scope>UIViewController(MJPopupViewController)</scope><name>presentPopupViewController:animationType:backgroundTouch:dismissed:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

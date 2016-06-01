@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_a_v_asset_09_utils_8h" kind="file" language="C++">
+    <compoundname>AVAsset+Utils.h</compoundname>
+    <includes local="no">AVFoundation/AVFoundation.h</includes>
+    <includes local="no">Foundation/Foundation.h</includes>
+    <includedby refid="_a_v_asset_09_utils_8m" local="yes">XDCommonLib/CommonBasicComponentLayer/Categories/AVFoundation/AVAsset+Utils.m</includedby>
+    <incdepgraph>
+      <node id="115">
+        <label>AVFoundation/AVFoundation.h</label>
+      </node>
+      <node id="116">
+        <label>Foundation/Foundation.h</label>
+      </node>
+      <node id="114">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/AVFoundation/AVAsset+Utils.h</label>
+        <link refid="AVAsset+Utils.h"/>
+        <childnode refid="115" relation="include">
+        </childnode>
+        <childnode refid="116" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="117">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/AVFoundation/AVAsset+Utils.h</label>
+        <link refid="AVAsset+Utils.h"/>
+        <childnode refid="118" relation="include">
+        </childnode>
+      </node>
+      <node id="118">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/AVFoundation/AVAsset+Utils.m</label>
+        <link refid="_a_v_asset_09_utils_8m"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="category_a_v_asset_07_utils_08" prot="public">AVAsset(Utils)</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_a_v_asset_09_utils_8h_1ac3daa6bd6eb4c0289d2211cf044791fc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typedef</type>
+        <definition>typedef NS_ENUM</definition>
+        <argsstring>(NSUInteger, XDVideoTrimDimension)</argsstring>
+        <name>NS_ENUM</name>
+        <param>
+          <type>NSUInteger</type>
+        </param>
+        <param>
+          <type>XDVideoTrimDimension</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>裁剪的样式 </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/AVFoundation/AVAsset+Utils.h" line="15" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/AVFoundation/AVAsset+Utils.h" bodystart="15" bodyend="18"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>AVAsset+Utils.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>XDCommonLib</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>suxinde<sp/>on<sp/>16/5/25.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>©<sp/>2016年<sp/>su<sp/>xinde.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;AVFoundation/AVFoundation.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;Foundation/Foundation.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="_a_v_asset_09_utils_8h_1ac3daa6bd6eb4c0289d2211cf044791fc" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="_a_v_asset_09_utils_8h_1ac3daa6bd6eb4c0289d2211cf044791fc" kindref="member">NS_ENUM</ref>(NSUInteger,<sp/>XDVideoTrimDimension)<sp/>{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>XDVideoTrimDimensionSquare<sp/>=<sp/>0,<sp/></highlight><highlight class="comment">//<sp/>正方形</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>XDVideoTrimDimensionOriginal<sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>原始比例</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="category_a_v_asset_07_utils_08" kindref="compound">AVAsset (Utils)</ref></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal">-<sp/>(Float64)<ref refid="category_a_v_asset_07_utils_08_1a7584860768b6360c99299ed0398026a8" kindref="member">xd_durationInSeconds</ref>;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal">-<sp/>(CGSize)xd_calculatePlayerSizeForDimension:(XDVideoTrimDimension)dimension</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>windowSize:(CGFloat)windowSize;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/AVFoundation/AVAsset+Utils.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_u_i_image_07_q_r_code_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>UIImage(QRCode)</compoundname>
+    <includes refid="_u_i_image_09_bitmap_8h" local="no">UIImage+Bitmap.h</includes>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="category_u_i_image_07_q_r_code_08_1ae6683a83a23a661e2864a4b345fe2918" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>UIImage *</type>
+        <definition>UIImage * UIImage(QRCode)::barCodeImageWithInfo:</definition>
+        <argsstring>(NSString *info)</argsstring>
+        <name>barCodeImageWithInfo:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>info</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>创建条形码</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>info</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>字符串信息</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>条形码图片 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/BLLSDKLayer/BLE/BLEPrinter/UIImage+Bitmap.h" line="11" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/BLLSDKLayer/BLE/BLEPrinter/UIImage+Bitmap.m" bodystart="214" bodyend="230"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_image_07_q_r_code_08_1aa638595926560bf6d36a8ca2a6f777e9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>UIImage *</type>
+        <definition>UIImage * UIImage(QRCode)::qrCodeImageWithInfo:centerImage:width:</definition>
+        <argsstring>(NSString *info,[centerImage] UIImage *image,[width] CGFloat width)</argsstring>
+        <name>qrCodeImageWithInfo:centerImage:width:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>info</declname>
+        </param>
+        <param>
+          <attributes>[centerImage]</attributes>
+          <type>UIImage *</type>
+          <declname>image</declname>
+        </param>
+        <param>
+          <attributes>[width]</attributes>
+          <type>CGFloat</type>
+          <declname>width</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>创建二维码</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>info</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>二维码内的信息 </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>image</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>二维码中心的logo图片 </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>width</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>二维码的宽度</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>二维码图片 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/BLLSDKLayer/BLE/BLEPrinter/UIImage+Bitmap.h" line="11" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/BLLSDKLayer/BLE/BLEPrinter/UIImage+Bitmap.m" bodystart="232" bodyend="273"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_image_07_q_r_code_08_1a7f6f27b873f50774eab69bbd755d4cb8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>UIImage *</type>
+        <definition>UIImage * UIImage(QRCode)::createNonInterpolatedUIImageFormCIImage:withSize:</definition>
+        <argsstring>(CIImage *image,[withSize] CGFloat size)</argsstring>
+        <name>createNonInterpolatedUIImageFormCIImage:withSize:</name>
+        <param>
+          <type>CIImage *</type>
+          <declname>image</declname>
+        </param>
+        <param>
+          <attributes>[withSize]</attributes>
+          <type>CGFloat</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>将CIImage 放大显示，并转换为UIImage。</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>image</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>原始CIImage </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>size</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>最终尺寸的宽度</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>UIImage </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/BLLSDKLayer/BLE/BLEPrinter/UIImage+Bitmap.h" line="11" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/BLLSDKLayer/BLE/BLEPrinter/UIImage+Bitmap.m" bodystart="275" bodyend="294"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/BLLSDKLayer/BLE/BLEPrinter/UIImage+Bitmap.h" line="54" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/BLLSDKLayer/BLE/BLEPrinter/UIImage+Bitmap.h" bodystart="54" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_u_i_image_07_q_r_code_08_1ae6683a83a23a661e2864a4b345fe2918" prot="public" virt="virtual"><scope>UIImage(QRCode)</scope><name>barCodeImageWithInfo:</name></member>
+      <member refid="category_u_i_image_07_q_r_code_08_1a7f6f27b873f50774eab69bbd755d4cb8" prot="public" virt="virtual"><scope>UIImage(QRCode)</scope><name>createNonInterpolatedUIImageFormCIImage:withSize:</name></member>
+      <member refid="category_u_i_image_07_q_r_code_08_1aa638595926560bf6d36a8ca2a6f777e9" prot="public" virt="virtual"><scope>UIImage(QRCode)</scope><name>qrCodeImageWithInfo:centerImage:width:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="interface_x_d_multicast_delegate_node" kind="class" language="Objective-C" prot="public">
+    <compoundname>XDMulticastDelegateNode</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">NSObject</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="interface_x_d_multicast_delegate_node_1aa2048f6d613403c1ba51b8449e88643c" prot="private" static="no" mutable="no">
+        <type>__unsafe_unretained id</type>
+        <definition>__unsafe_unretained id XDMulticastDelegateNode::delegate</definition>
+        <argsstring></argsstring>
+        <name>delegate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDMulticastDelegate/XDMulticastDelegate.m" line="70" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDMulticastDelegate/XDMulticastDelegate.m" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="interface_x_d_multicast_delegate_node_1ac2306d72092532ecf1793f402384f47e" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>id</type>
+        <definition>id XDMulticastDelegateNode::delegate</definition>
+        <argsstring></argsstring>
+        <name>delegate</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDMulticastDelegate/XDMulticastDelegate.m" line="84" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDMulticastDelegate/XDMulticastDelegate.m" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_x_d_multicast_delegate_node_1a1b1931b7b0966943612b891f457f4168" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="assign">
+        <type>dispatch_queue_t</type>
+        <definition>dispatch_queue_t XDMulticastDelegateNode::delegateQueue</definition>
+        <argsstring></argsstring>
+        <name>delegateQueue</name>
+        <read></read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDMulticastDelegate/XDMulticastDelegate.m" line="73" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDMulticastDelegate/XDMulticastDelegate.m" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_x_d_multicast_delegate_node_1a3820419479735299ca8eeb2e6d27ec36" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>id</type>
+        <definition>id XDMulticastDelegateNode::initWithDelegate:delegateQueue:</definition>
+        <argsstring>(id delegate,[delegateQueue] dispatch_queue_t delegateQueue)</argsstring>
+        <name>initWithDelegate:delegateQueue:</name>
+        <param>
+          <type>id</type>
+          <declname>delegate</declname>
+        </param>
+        <param>
+          <attributes>[delegateQueue]</attributes>
+          <type>dispatch_queue_t</type>
+          <declname>delegateQueue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDMulticastDelegate/XDMulticastDelegate.m" line="73" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDMulticastDelegate/XDMulticastDelegate.m" bodystart="498" bodyend="530"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>How does this class work?</para><para>In theory, this class is very straight-forward. It provides a way for multiple delegates to be called, each on its own delegate queue.</para><para>In other words, any delegate method call to this class will get forwarded (dispatch_async&apos;d) to each added delegate.</para><para>Important note concerning thread-safety:</para><para>This class is designed to be used from within a single dispatch queue. In other words, it is NOT thread-safe, and should only be used from within the external dedicated dispatch_queue. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="1359">
+        <label>NSObject</label>
+      </node>
+      <node id="1358">
+        <label>XDMulticastDelegateNode</label>
+        <link refid="interface_x_d_multicast_delegate_node"/>
+        <childnode refid="1359" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1361">
+        <label>NSObject</label>
+      </node>
+      <node id="1360">
+        <label>XDMulticastDelegateNode</label>
+        <link refid="interface_x_d_multicast_delegate_node"/>
+        <childnode refid="1361" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDMulticastDelegate/XDMulticastDelegate.m" line="61" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDMulticastDelegate/XDMulticastDelegate.m" bodystart="61" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="interface_x_d_multicast_delegate_node_1aa2048f6d613403c1ba51b8449e88643c" prot="private" virt="non-virtual"><scope>XDMulticastDelegateNode</scope><name>delegate</name></member>
+      <member refid="interface_x_d_multicast_delegate_node_1ac2306d72092532ecf1793f402384f47e" prot="public" virt="non-virtual"><scope>XDMulticastDelegateNode</scope><name>delegate</name></member>
+      <member refid="interface_x_d_multicast_delegate_node_1a1b1931b7b0966943612b891f457f4168" prot="private" virt="non-virtual"><scope>XDMulticastDelegateNode</scope><name>delegateQueue</name></member>
+      <member refid="interface_x_d_multicast_delegate_node_1a1b1931b7b0966943612b891f457f4168" prot="public" virt="non-virtual"><scope>XDMulticastDelegateNode</scope><name>delegateQueue</name></member>
+      <member refid="interface_x_d_multicast_delegate_node_1a3820419479735299ca8eeb2e6d27ec36" prot="public" virt="virtual"><scope>XDMulticastDelegateNode</scope><name>initWithDelegate:delegateQueue:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,806 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_u_i_view_09_toast_8m" kind="file" language="Objective-C">
+    <compoundname>UIView+Toast.m</compoundname>
+    <includes refid="_u_i_view_09_toast_8h" local="yes">UIView+Toast.h</includes>
+    <includes local="no">QuartzCore/QuartzCore.h</includes>
+    <includes local="no">objc/runtime.h</includes>
+    <incdepgraph>
+      <node id="2079">
+        <label>UIKit/UIKit.h</label>
+      </node>
+      <node id="2081">
+        <label>objc/runtime.h</label>
+      </node>
+      <node id="2078">
+        <label>UIView+Toast.h</label>
+        <link refid="_u_i_view_09_toast_8h"/>
+        <childnode refid="2079" relation="include">
+        </childnode>
+      </node>
+      <node id="2077">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Toast.m</label>
+        <link refid="UIView+Toast.m"/>
+        <childnode refid="2078" relation="include">
+        </childnode>
+        <childnode refid="2080" relation="include">
+        </childnode>
+        <childnode refid="2081" relation="include">
+        </childnode>
+      </node>
+      <node id="2080">
+        <label>QuartzCore/QuartzCore.h</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="category_u_i_view_07_toast_private_08" prot="public">UIView(ToastPrivate)</innerclass>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="_u_i_view_09_toast_8m_1ab6f18d4d2629f099c1d460be7988facd" prot="public" static="yes" mutable="no">
+        <type>const CGFloat</type>
+        <definition>const CGFloat CSToastMaxWidth</definition>
+        <argsstring></argsstring>
+        <name>CSToastMaxWidth</name>
+        <initializer>= 0.8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Toast.m" line="19" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Toast.m" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_u_i_view_09_toast_8m_1a20777bd04916ce6ab6abe572ed9e08db" prot="public" static="yes" mutable="no">
+        <type>const CGFloat</type>
+        <definition>const CGFloat CSToastMaxHeight</definition>
+        <argsstring></argsstring>
+        <name>CSToastMaxHeight</name>
+        <initializer>= 0.8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Toast.m" line="20" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Toast.m" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_u_i_view_09_toast_8m_1a2ed32f65efd7ca47349367ae375a34a7" prot="public" static="yes" mutable="no">
+        <type>const CGFloat</type>
+        <definition>const CGFloat CSToastHorizontalPadding</definition>
+        <argsstring></argsstring>
+        <name>CSToastHorizontalPadding</name>
+        <initializer>= 10.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Toast.m" line="21" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Toast.m" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_u_i_view_09_toast_8m_1af84ac6568b9dd4852f4a906ed7c1f08b" prot="public" static="yes" mutable="no">
+        <type>const CGFloat</type>
+        <definition>const CGFloat CSToastVerticalPadding</definition>
+        <argsstring></argsstring>
+        <name>CSToastVerticalPadding</name>
+        <initializer>= 10.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Toast.m" line="22" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Toast.m" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_u_i_view_09_toast_8m_1a65739b0b5f7d7619faa5ecca1ab2586b" prot="public" static="yes" mutable="no">
+        <type>const CGFloat</type>
+        <definition>const CGFloat CSToastCornerRadius</definition>
+        <argsstring></argsstring>
+        <name>CSToastCornerRadius</name>
+        <initializer>= 10.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Toast.m" line="23" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Toast.m" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_u_i_view_09_toast_8m_1aa682ed497b266e77b569a32c470bbb61" prot="public" static="yes" mutable="no">
+        <type>const CGFloat</type>
+        <definition>const CGFloat CSToastOpacity</definition>
+        <argsstring></argsstring>
+        <name>CSToastOpacity</name>
+        <initializer>= 0.8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Toast.m" line="24" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Toast.m" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_u_i_view_09_toast_8m_1ae2f5411b9a7a6e6bf09b339cb6723078" prot="public" static="yes" mutable="no">
+        <type>const CGFloat</type>
+        <definition>const CGFloat CSToastFontSize</definition>
+        <argsstring></argsstring>
+        <name>CSToastFontSize</name>
+        <initializer>= 16.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Toast.m" line="25" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Toast.m" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_u_i_view_09_toast_8m_1a8a08d7329e0fb9aec91d40c7932bca84" prot="public" static="yes" mutable="no">
+        <type>const CGFloat</type>
+        <definition>const CGFloat CSToastMaxTitleLines</definition>
+        <argsstring></argsstring>
+        <name>CSToastMaxTitleLines</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Toast.m" line="26" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Toast.m" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_u_i_view_09_toast_8m_1a2dbe6b307e4b6580416a66ee561e1e05" prot="public" static="yes" mutable="no">
+        <type>const CGFloat</type>
+        <definition>const CGFloat CSToastMaxMessageLines</definition>
+        <argsstring></argsstring>
+        <name>CSToastMaxMessageLines</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Toast.m" line="27" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Toast.m" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_u_i_view_09_toast_8m_1a8bc69ff5faea9248a4e1dc7c849d9399" prot="public" static="yes" mutable="no">
+        <type>const NSTimeInterval</type>
+        <definition>const NSTimeInterval CSToastFadeDuration</definition>
+        <argsstring></argsstring>
+        <name>CSToastFadeDuration</name>
+        <initializer>= 0.2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Toast.m" line="28" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Toast.m" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_u_i_view_09_toast_8m_1aceb3072fb1af220287f265efdb83fafb" prot="public" static="yes" mutable="no">
+        <type>const CGFloat</type>
+        <definition>const CGFloat CSToastShadowOpacity</definition>
+        <argsstring></argsstring>
+        <name>CSToastShadowOpacity</name>
+        <initializer>= 0.8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Toast.m" line="31" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Toast.m" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_u_i_view_09_toast_8m_1afc18b9ac63dfee77b452dd02d5bd9fc0" prot="public" static="yes" mutable="no">
+        <type>const CGFloat</type>
+        <definition>const CGFloat CSToastShadowRadius</definition>
+        <argsstring></argsstring>
+        <name>CSToastShadowRadius</name>
+        <initializer>= 6.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Toast.m" line="32" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Toast.m" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_u_i_view_09_toast_8m_1ac2b83674b6c87ec1da98e5e76bdac250" prot="public" static="yes" mutable="no">
+        <type>const CGSize</type>
+        <definition>const CGSize CSToastShadowOffset</definition>
+        <argsstring></argsstring>
+        <name>CSToastShadowOffset</name>
+        <initializer>= { 4.0, 4.0 }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Toast.m" line="33" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Toast.m" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_u_i_view_09_toast_8m_1aa08a7c20cf6ff8a2c538978971f96625" prot="public" static="yes" mutable="no">
+        <type>const BOOL</type>
+        <definition>const BOOL CSToastDisplayShadow</definition>
+        <argsstring></argsstring>
+        <name>CSToastDisplayShadow</name>
+        <initializer>= YES</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Toast.m" line="34" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Toast.m" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_u_i_view_09_toast_8m_1a8ebd58b9c65cdd7a2fdd352e7876ac26" prot="public" static="yes" mutable="no">
+        <type>const NSTimeInterval</type>
+        <definition>const NSTimeInterval CSToastDefaultDuration</definition>
+        <argsstring></argsstring>
+        <name>CSToastDefaultDuration</name>
+        <initializer>= 3.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Toast.m" line="37" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Toast.m" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_u_i_view_09_toast_8m_1a4e16457468149f2a5e838ed21e590ca6" prot="public" static="yes" mutable="no">
+        <type>const CGFloat</type>
+        <definition>const CGFloat CSToastImageViewWidth</definition>
+        <argsstring></argsstring>
+        <name>CSToastImageViewWidth</name>
+        <initializer>= 80.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Toast.m" line="40" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Toast.m" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_u_i_view_09_toast_8m_1a476d7313852444fe4a4c2da54ac58221" prot="public" static="yes" mutable="no">
+        <type>const CGFloat</type>
+        <definition>const CGFloat CSToastImageViewHeight</definition>
+        <argsstring></argsstring>
+        <name>CSToastImageViewHeight</name>
+        <initializer>= 80.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Toast.m" line="41" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Toast.m" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_u_i_view_09_toast_8m_1a3c90d15fb155566421d1538cbb9e173c" prot="public" static="yes" mutable="no">
+        <type>const CGFloat</type>
+        <definition>const CGFloat CSToastActivityWidth</definition>
+        <argsstring></argsstring>
+        <name>CSToastActivityWidth</name>
+        <initializer>= 100.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Toast.m" line="44" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Toast.m" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_u_i_view_09_toast_8m_1a8895e16adb958074f02b261634183f2e" prot="public" static="yes" mutable="no">
+        <type>const CGFloat</type>
+        <definition>const CGFloat CSToastActivityHeight</definition>
+        <argsstring></argsstring>
+        <name>CSToastActivityHeight</name>
+        <initializer>= 100.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Toast.m" line="45" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Toast.m" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_u_i_view_09_toast_8m_1ae6bf4709569264b18186223bb18d0022" prot="public" static="yes" mutable="no">
+        <type>const NSString *</type>
+        <definition>const NSString* CSToastActivityDefaultPosition</definition>
+        <argsstring></argsstring>
+        <name>CSToastActivityDefaultPosition</name>
+        <initializer>= @&quot;center&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Toast.m" line="46" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Toast.m" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_u_i_view_09_toast_8m_1aec768cda2dd6bbf13fca4d7143a88019" prot="public" static="yes" mutable="no">
+        <type>const BOOL</type>
+        <definition>const BOOL CSToastHidesOnTap</definition>
+        <argsstring></argsstring>
+        <name>CSToastHidesOnTap</name>
+        <initializer>= YES</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Toast.m" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Toast.m" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_u_i_view_09_toast_8m_1a557cd36d36c9c63cec0e54ad0ad54216" prot="public" static="yes" mutable="no">
+        <type>const NSString *</type>
+        <definition>const NSString* CSToastTimerKey</definition>
+        <argsstring></argsstring>
+        <name>CSToastTimerKey</name>
+        <initializer>= @&quot;CSToastTimerKey&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Toast.m" line="52" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Toast.m" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_u_i_view_09_toast_8m_1aa7618cdf9ecb74456b5cc97e22eb273b" prot="public" static="yes" mutable="no">
+        <type>const NSString *</type>
+        <definition>const NSString* CSToastActivityViewKey</definition>
+        <argsstring></argsstring>
+        <name>CSToastActivityViewKey</name>
+        <initializer>= @&quot;CSToastActivityViewKey&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Toast.m" line="53" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Toast.m" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_u_i_view_09_toast_8m_1a29190e1b1ec4efb1c61047020395826f" prot="public" static="yes" mutable="no">
+        <type>const NSString *</type>
+        <definition>const NSString* CSToastTapCallbackKey</definition>
+        <argsstring></argsstring>
+        <name>CSToastTapCallbackKey</name>
+        <initializer>= @&quot;CSToastTapCallbackKey&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Toast.m" line="54" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Toast.m" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_u_i_view_09_toast_8m_1a7b5fb5713845a29c0327412f4639c55f" prot="public" static="no" mutable="no">
+        <type>NSString *const</type>
+        <definition>NSString* const CSToastPositionTop</definition>
+        <argsstring></argsstring>
+        <name>CSToastPositionTop</name>
+        <initializer>= @&quot;top&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Toast.m" line="57" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Toast.m" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_u_i_view_09_toast_8m_1a10c1c416da9818aa917dea312e13c4a5" prot="public" static="no" mutable="no">
+        <type>NSString *const</type>
+        <definition>NSString* const CSToastPositionCenter</definition>
+        <argsstring></argsstring>
+        <name>CSToastPositionCenter</name>
+        <initializer>= @&quot;center&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Toast.m" line="58" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Toast.m" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_u_i_view_09_toast_8m_1afbf69e35c3c179e03fa683e0710e71d7" prot="public" static="no" mutable="no">
+        <type>NSString *const</type>
+        <definition>NSString* const CSToastPositionBottom</definition>
+        <argsstring></argsstring>
+        <name>CSToastPositionBottom</name>
+        <initializer>= @&quot;bottom&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Toast.m" line="59" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Toast.m" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>UIView+Toast.m</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Toast</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>2014<sp/>Charles<sp/>Scalesse.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_u_i_view_09_toast_8h" kindref="compound">UIView+Toast.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;QuartzCore/QuartzCore.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;objc/runtime.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/><sp/>CONFIGURE<sp/>THESE<sp/>VALUES<sp/>TO<sp/>ADJUST<sp/>LOOK<sp/>&amp;<sp/>FEEL,</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/><sp/>DISPLAY<sp/>DURATION,<sp/>ETC.</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="comment">//<sp/>general<sp/>appearance</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>CGFloat<sp/>CSToastMaxWidth<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>0.8;<sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>80%<sp/>of<sp/>parent<sp/>view<sp/>width</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>CGFloat<sp/>CSToastMaxHeight<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>0.8;<sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>80%<sp/>of<sp/>parent<sp/>view<sp/>height</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>CGFloat<sp/>CSToastHorizontalPadding<sp/><sp/><sp/>=<sp/>10.0;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>CGFloat<sp/>CSToastVerticalPadding<sp/><sp/><sp/><sp/><sp/>=<sp/>10.0;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>CGFloat<sp/>CSToastCornerRadius<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>10.0;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>CGFloat<sp/>CSToastOpacity<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>0.8;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>CGFloat<sp/>CSToastFontSize<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>16.0;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>CGFloat<sp/>CSToastMaxTitleLines<sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>CGFloat<sp/>CSToastMaxMessageLines<sp/><sp/><sp/><sp/><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>NSTimeInterval<sp/>CSToastFadeDuration<sp/>=<sp/>0.2;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="comment">//<sp/>shadow<sp/>appearance</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>CGFloat<sp/>CSToastShadowOpacity<sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>0.8;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>CGFloat<sp/>CSToastShadowRadius<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>6.0;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>CGSize<sp/><sp/>CSToastShadowOffset<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>{<sp/>4.0,<sp/>4.0<sp/>};</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>BOOL<sp/><sp/><sp/><sp/>CSToastDisplayShadow<sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>YES;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="comment">//<sp/>display<sp/>duration</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>NSTimeInterval<sp/>CSToastDefaultDuration<sp/><sp/>=<sp/>3.0;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="comment">//<sp/>image<sp/>view<sp/>size</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>CGFloat<sp/>CSToastImageViewWidth<sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>80.0;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>CGFloat<sp/>CSToastImageViewHeight<sp/><sp/><sp/><sp/><sp/>=<sp/>80.0;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="comment">//<sp/>activity</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>CGFloat<sp/>CSToastActivityWidth<sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>100.0;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>CGFloat<sp/>CSToastActivityHeight<sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>100.0;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>NSString<sp/>*<sp/>CSToastActivityDefaultPosition<sp/>=<sp/></highlight><highlight class="stringliteral">@&quot;center&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight><highlight class="comment">//<sp/>interaction</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>BOOL<sp/>CSToastHidesOnTap<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>YES;<sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>excludes<sp/>activity<sp/>views</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight><highlight class="comment">//<sp/>associative<sp/>reference<sp/>keys</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>NSString<sp/>*<sp/>CSToastTimerKey<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">@&quot;CSToastTimerKey&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>NSString<sp/>*<sp/>CSToastActivityViewKey<sp/><sp/>=<sp/></highlight><highlight class="stringliteral">@&quot;CSToastActivityViewKey&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>NSString<sp/>*<sp/>CSToastTapCallbackKey<sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">@&quot;CSToastTapCallbackKey&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight><highlight class="comment">//<sp/>positions</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57" refid="_u_i_view_09_toast_8h_1a7b5fb5713845a29c0327412f4639c55f" refkind="member"><highlight class="normal">NSString<sp/>*<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="_u_i_view_09_toast_8m_1a7b5fb5713845a29c0327412f4639c55f" kindref="member">CSToastPositionTop</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">@&quot;top&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="58" refid="_u_i_view_09_toast_8h_1a10c1c416da9818aa917dea312e13c4a5" refkind="member"><highlight class="normal">NSString<sp/>*<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="_u_i_view_09_toast_8m_1a10c1c416da9818aa917dea312e13c4a5" kindref="member">CSToastPositionCenter</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">@&quot;center&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="59" refid="_u_i_view_09_toast_8h_1afbf69e35c3c179e03fa683e0710e71d7" refkind="member"><highlight class="normal">NSString<sp/>*<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="_u_i_view_09_toast_8m_1afbf69e35c3c179e03fa683e0710e71d7" kindref="member">CSToastPositionBottom</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">@&quot;bottom&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61" refid="category_u_i_view_07_toast_private_08" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="category_u_i_view_07_toast_private_08" kindref="compound">UIView (ToastPrivate)</ref></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal">-<sp/>(void)hideToast:(UIView<sp/>*)toast;</highlight></codeline>
+<codeline lineno="64"><highlight class="normal">-<sp/>(void)toastTimerDidFinish:(NSTimer<sp/>*)timer;</highlight></codeline>
+<codeline lineno="65"><highlight class="normal">-<sp/>(void)handleToastTapped:(UITapGestureRecognizer<sp/>*)recognizer;</highlight></codeline>
+<codeline lineno="66"><highlight class="normal">-<sp/>(CGPoint)centerPointForPosition:(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)position<sp/>withToast:(UIView<sp/>*)toast;</highlight></codeline>
+<codeline lineno="67"><highlight class="normal">-<sp/>(UIView<sp/>*)viewForMessage:(NSString<sp/>*)message<sp/>title:(NSString<sp/>*)title<sp/>image:(UIImage<sp/>*)image;</highlight></codeline>
+<codeline lineno="68"><highlight class="normal">-<sp/>(CGSize)sizeForString:(NSString<sp/>*)string<sp/>font:(UIFont<sp/>*)font<sp/>constrainedToSize:(CGSize)constrainedSize<sp/>lineBreakMode:(NSLineBreakMode)lineBreakMode;</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73" refid="category_u_i_view_07_toast_08" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">@implementation<sp/></highlight><highlight class="normal"><ref refid="category_u_i_view_07_toast_08" kindref="compound">UIView (Toast)</ref></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/>-<sp/>Toast<sp/>Methods</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77" refid="category_u_i_view_07_toast_08_1a4bf18be07cad8f5f5851e8f4cec06bb3" refkind="member"><highlight class="normal">-<sp/>(void)makeToast:(NSString<sp/>*)message<sp/>{</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/><ref refid="category_u_i_view_07_toast_08_1a66d1719b1589c06f761a9462fe34f9e0" kindref="member">makeToast</ref>:message<sp/><ref refid="category_u_i_view_07_toast_08_1a66d1719b1589c06f761a9462fe34f9e0" kindref="member">duration</ref>:CSToastDefaultDuration<sp/><ref refid="category_u_i_view_07_toast_08_1a66d1719b1589c06f761a9462fe34f9e0" kindref="member">position</ref>:nil];</highlight></codeline>
+<codeline lineno="79"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81" refid="category_u_i_view_07_toast_08_1a66d1719b1589c06f761a9462fe34f9e0" refkind="member"><highlight class="normal">-<sp/>(void)makeToast:(NSString<sp/>*)message<sp/>duration:(NSTimeInterval)duration<sp/>position:(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)position<sp/>{</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/>UIView<sp/>*toast<sp/>=<sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>viewForMessage:message<sp/>title:nil<sp/>image:nil];</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/><ref refid="category_u_i_view_07_toast_08_1a7d8d51cd0e10b4790a1aba8da92c30e6" kindref="member">showToast</ref>:toast<sp/><ref refid="category_u_i_view_07_toast_08_1a7d8d51cd0e10b4790a1aba8da92c30e6" kindref="member">duration</ref>:duration<sp/><ref refid="category_u_i_view_07_toast_08_1a7d8d51cd0e10b4790a1aba8da92c30e6" kindref="member">position</ref>:position];<sp/><sp/></highlight></codeline>
+<codeline lineno="84"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86" refid="category_u_i_view_07_toast_08_1a5739853b9e9b05240e12b02ffe91d51e" refkind="member"><highlight class="normal">-<sp/>(void)makeToast:(NSString<sp/>*)message<sp/>duration:(NSTimeInterval)duration<sp/>position:(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)position<sp/>title:(NSString<sp/>*)title<sp/>{</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/>UIView<sp/>*toast<sp/>=<sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>viewForMessage:message<sp/>title:title<sp/>image:nil];</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/><ref refid="category_u_i_view_07_toast_08_1a7d8d51cd0e10b4790a1aba8da92c30e6" kindref="member">showToast</ref>:toast<sp/><ref refid="category_u_i_view_07_toast_08_1a7d8d51cd0e10b4790a1aba8da92c30e6" kindref="member">duration</ref>:duration<sp/><ref refid="category_u_i_view_07_toast_08_1a7d8d51cd0e10b4790a1aba8da92c30e6" kindref="member">position</ref>:position];<sp/><sp/></highlight></codeline>
+<codeline lineno="89"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91" refid="category_u_i_view_07_toast_08_1ae0d3188c328d44664c5c139a984dde6a" refkind="member"><highlight class="normal">-<sp/>(void)makeToast:(NSString<sp/>*)message<sp/>duration:(NSTimeInterval)duration<sp/>position:(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)position<sp/>image:(UIImage<sp/>*)image<sp/>{</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/>UIView<sp/>*toast<sp/>=<sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>viewForMessage:message<sp/>title:nil<sp/>image:image];</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/><ref refid="category_u_i_view_07_toast_08_1a7d8d51cd0e10b4790a1aba8da92c30e6" kindref="member">showToast</ref>:toast<sp/><ref refid="category_u_i_view_07_toast_08_1a7d8d51cd0e10b4790a1aba8da92c30e6" kindref="member">duration</ref>:duration<sp/><ref refid="category_u_i_view_07_toast_08_1a7d8d51cd0e10b4790a1aba8da92c30e6" kindref="member">position</ref>:position];<sp/><sp/></highlight></codeline>
+<codeline lineno="94"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96" refid="category_u_i_view_07_toast_08_1a794d5d45179eb747dcdc9d7c5ede8a5a" refkind="member"><highlight class="normal">-<sp/>(void)makeToast:(NSString<sp/>*)message<sp/>duration:(NSTimeInterval)duration<sp/><sp/>position:(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)position<sp/>title:(NSString<sp/>*)title<sp/>image:(UIImage<sp/>*)image<sp/>{</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/>UIView<sp/>*toast<sp/>=<sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>viewForMessage:message<sp/>title:title<sp/>image:image];</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/><ref refid="category_u_i_view_07_toast_08_1a7d8d51cd0e10b4790a1aba8da92c30e6" kindref="member">showToast</ref>:toast<sp/><ref refid="category_u_i_view_07_toast_08_1a7d8d51cd0e10b4790a1aba8da92c30e6" kindref="member">duration</ref>:duration<sp/><ref refid="category_u_i_view_07_toast_08_1a7d8d51cd0e10b4790a1aba8da92c30e6" kindref="member">position</ref>:position];<sp/><sp/></highlight></codeline>
+<codeline lineno="99"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101" refid="category_u_i_view_07_toast_08_1ac289d1611f37287e804c02dc9baed296" refkind="member"><highlight class="normal">-<sp/>(void)showToast:(UIView<sp/>*)toast<sp/>{</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/><ref refid="category_u_i_view_07_toast_08_1a7d8d51cd0e10b4790a1aba8da92c30e6" kindref="member">showToast</ref>:toast<sp/><ref refid="category_u_i_view_07_toast_08_1a7d8d51cd0e10b4790a1aba8da92c30e6" kindref="member">duration</ref>:CSToastDefaultDuration<sp/><ref refid="category_u_i_view_07_toast_08_1a7d8d51cd0e10b4790a1aba8da92c30e6" kindref="member">position</ref>:nil];</highlight></codeline>
+<codeline lineno="103"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106" refid="category_u_i_view_07_toast_08_1a7d8d51cd0e10b4790a1aba8da92c30e6" refkind="member"><highlight class="normal">-<sp/>(void)showToast:(UIView<sp/>*)toast<sp/>duration:(NSTimeInterval)duration<sp/>position:(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)position<sp/>{</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/><ref refid="category_u_i_view_07_toast_08_1af99dd1d63a1d978b1bd8237cb2f38585" kindref="member">showToast</ref>:toast<sp/><ref refid="category_u_i_view_07_toast_08_1af99dd1d63a1d978b1bd8237cb2f38585" kindref="member">duration</ref>:duration<sp/><ref refid="category_u_i_view_07_toast_08_1af99dd1d63a1d978b1bd8237cb2f38585" kindref="member">position</ref>:position<sp/><ref refid="category_u_i_view_07_toast_08_1af99dd1d63a1d978b1bd8237cb2f38585" kindref="member">tapCallback</ref>:nil];</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="109"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112" refid="category_u_i_view_07_toast_08_1af99dd1d63a1d978b1bd8237cb2f38585" refkind="member"><highlight class="normal">-<sp/>(void)showToast:(UIView<sp/>*)toast<sp/>duration:(NSTimeInterval)duration<sp/>position:(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)position</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>tapCallback:(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">(^)(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">))tapCallback</highlight></codeline>
+<codeline lineno="114"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/>toast.center<sp/>=<sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>centerPointForPosition:position<sp/>withToast:toast];</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/>toast.alpha<sp/>=<sp/>0.0;</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(CSToastHidesOnTap)<sp/>{</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UITapGestureRecognizer<sp/>*recognizer<sp/>=<sp/>[[UITapGestureRecognizer<sp/>alloc]<sp/>initWithTarget:toast<sp/>action:@selector(handleToastTapped:)];</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[toast<sp/>addGestureRecognizer:recognizer];</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>toast.userInteractionEnabled<sp/>=<sp/>YES;</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>toast.exclusiveTouch<sp/>=<sp/>YES;</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>addSubview:toast];</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>associate<sp/>the<sp/>timer<sp/>with<sp/>the<sp/>toast<sp/>view</highlight><highlight class="normal">[UIView<sp/>animateWithDuration:CSToastFadeDuration</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>delay:0.0</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>options:(UIViewAnimationOptionCurveEaseOut<sp/>|<sp/>UIViewAnimationOptionAllowUserInteraction)</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>animations:^{</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>toast.alpha<sp/>=<sp/>1.0;</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/>completion:^(BOOL<sp/>finished)<sp/>{</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NSTimer<sp/>*timer<sp/>=<sp/>[NSTimer<sp/>scheduledTimerWithTimeInterval:duration<sp/>target:self<sp/>selector:@selector(toastTimerDidFinish:)<sp/>userInfo:toast<sp/>repeats:NO];</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>objc_setAssociatedObject<sp/>(toast,<sp/>&amp;CSToastTimerKey,<sp/>timer,<sp/>OBJC_ASSOCIATION_RETAIN_NONATOMIC);</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>objc_setAssociatedObject<sp/>(toast,<sp/>&amp;CSToastTapCallbackKey,<sp/>tapCallback,<sp/>OBJC_ASSOCIATION_RETAIN_NONATOMIC);</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}];</highlight></codeline>
+<codeline lineno="138"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight></codeline>
+<codeline lineno="141"><highlight class="normal">-<sp/>(void)hideToast:(UIView<sp/>*)toast<sp/>{</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/>[UIView<sp/>animateWithDuration:CSToastFadeDuration</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>delay:0.0</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>options:(UIViewAnimationOptionCurveEaseIn<sp/>|<sp/>UIViewAnimationOptionBeginFromCurrentState)</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>animations:^{</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>toast.alpha<sp/>=<sp/>0.0;</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/>completion:^(BOOL<sp/>finished)<sp/>{</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[toast<sp/>removeFromSuperview];</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}];</highlight></codeline>
+<codeline lineno="150"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight></codeline>
+<codeline lineno="152"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/>-<sp/>Events</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="153"><highlight class="normal"></highlight></codeline>
+<codeline lineno="154"><highlight class="normal">-<sp/>(void)toastTimerDidFinish:(NSTimer<sp/>*)timer<sp/>{</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>hideToast:(UIView<sp/>*)timer.userInfo];</highlight></codeline>
+<codeline lineno="156"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight></codeline>
+<codeline lineno="158"><highlight class="normal">-<sp/>(void)handleToastTapped:(UITapGestureRecognizer<sp/>*)recognizer<sp/>{</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/>NSTimer<sp/>*timer<sp/>=<sp/>(NSTimer<sp/>*)objc_getAssociatedObject(</highlight><highlight class="keyword">self</highlight><highlight class="normal">,<sp/>&amp;CSToastTimerKey);</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/>[timer<sp/>invalidate];</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/>void<sp/>(^callback)(void)<sp/>=<sp/>objc_getAssociatedObject(</highlight><highlight class="keyword">self</highlight><highlight class="normal">,<sp/>&amp;CSToastTapCallbackKey);</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(callback)<sp/>{</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>callback();</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>hideToast:recognizer.view];</highlight></codeline>
+<codeline lineno="167"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"></highlight></codeline>
+<codeline lineno="169"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/>-<sp/>Toast<sp/>Activity<sp/>Methods</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="170"><highlight class="normal"></highlight></codeline>
+<codeline lineno="171" refid="category_u_i_view_07_toast_08_1abdc950775335890065df6b64d05f33b0" refkind="member"><highlight class="normal">-<sp/>(void)<ref refid="category_u_i_view_07_toast_08_1abdc950775335890065df6b64d05f33b0" kindref="member">makeToastActivity</ref><sp/>{</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/><ref refid="category_u_i_view_07_toast_08_1a85b36ec0b0168fcb4ff18ad4f0b1eb98" kindref="member">makeToastActivity</ref>:CSToastActivityDefaultPosition];</highlight></codeline>
+<codeline lineno="173"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"></highlight></codeline>
+<codeline lineno="175" refid="category_u_i_view_07_toast_08_1a85b36ec0b0168fcb4ff18ad4f0b1eb98" refkind="member"><highlight class="normal">-<sp/>(void)<ref refid="category_u_i_view_07_toast_08_1abdc950775335890065df6b64d05f33b0" kindref="member">makeToastActivity</ref>:(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)position<sp/>{</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>sanity</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/>UIView<sp/>*existingActivityView<sp/>=<sp/>(UIView<sp/>*)objc_getAssociatedObject(</highlight><highlight class="keyword">self</highlight><highlight class="normal">,<sp/>&amp;CSToastActivityViewKey);</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(existingActivityView<sp/>!=<sp/>nil)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/>UIView<sp/>*activityView<sp/>=<sp/>[[UIView<sp/>alloc]<sp/>initWithFrame:CGRectMake(0,<sp/>0,<sp/>CSToastActivityWidth,<sp/>CSToastActivityHeight)];</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/>activityView.center<sp/>=<sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>centerPointForPosition:position<sp/>withToast:activityView];</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/>activityView.backgroundColor<sp/>=<sp/>[[UIColor<sp/>blackColor]<sp/>colorWithAlphaComponent:CSToastOpacity];</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/>activityView.alpha<sp/>=<sp/>0.0;</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/>activityView.autoresizingMask<sp/>=<sp/>(UIViewAutoresizingFlexibleLeftMargin<sp/>|<sp/>UIViewAutoresizingFlexibleRightMargin<sp/>|<sp/>UIViewAutoresizingFlexibleTopMargin<sp/>|<sp/>UIViewAutoresizingFlexibleBottomMargin);</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/>activityView.layer.cornerRadius<sp/>=<sp/>CSToastCornerRadius;</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(CSToastDisplayShadow)<sp/>{</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>activityView.layer.shadowColor<sp/>=<sp/>[UIColor<sp/>blackColor].CGColor;</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>activityView.layer.shadowOpacity<sp/>=<sp/>CSToastShadowOpacity;</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>activityView.layer.shadowRadius<sp/>=<sp/>CSToastShadowRadius;</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>activityView.layer.shadowOffset<sp/>=<sp/>CSToastShadowOffset;</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/>UIActivityIndicatorView<sp/>*activityIndicatorView<sp/>=<sp/>[[UIActivityIndicatorView<sp/>alloc]<sp/>initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleWhiteLarge];</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/>activityIndicatorView.center<sp/>=<sp/>CGPointMake(activityView.bounds.size.width<sp/>/<sp/>2,<sp/>activityView.bounds.size.height<sp/>/<sp/>2);</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/>[activityView<sp/>addSubview:activityIndicatorView];</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/>[activityIndicatorView<sp/>startAnimating];</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>associate<sp/>the<sp/>activity<sp/>view<sp/>with<sp/>self</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/>objc_setAssociatedObject<sp/>(</highlight><highlight class="keyword">self</highlight><highlight class="normal">,<sp/>&amp;CSToastActivityViewKey,<sp/>activityView,<sp/>OBJC_ASSOCIATION_RETAIN_NONATOMIC);</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>addSubview:activityView];</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/><sp/>[UIView<sp/>animateWithDuration:CSToastFadeDuration</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>delay:0.0</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>options:UIViewAnimationOptionCurveEaseOut</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>animations:^{</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>activityView.alpha<sp/>=<sp/>1.0;</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/>completion:nil];</highlight></codeline>
+<codeline lineno="210"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"></highlight></codeline>
+<codeline lineno="212" refid="category_u_i_view_07_toast_08_1a004708e1d2ad0193ffaac11b870559e1" refkind="member"><highlight class="normal">-<sp/>(void)<ref refid="category_u_i_view_07_toast_08_1a004708e1d2ad0193ffaac11b870559e1" kindref="member">hideToastActivity</ref><sp/>{</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/><sp/><sp/>UIView<sp/>*existingActivityView<sp/>=<sp/>(UIView<sp/>*)objc_getAssociatedObject(</highlight><highlight class="keyword">self</highlight><highlight class="normal">,<sp/>&amp;CSToastActivityViewKey);</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(existingActivityView<sp/>!=<sp/>nil)<sp/>{</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[UIView<sp/>animateWithDuration:CSToastFadeDuration</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>delay:0.0</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>options:(UIViewAnimationOptionCurveEaseIn<sp/>|<sp/>UIViewAnimationOptionBeginFromCurrentState)</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>animations:^{</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>existingActivityView.alpha<sp/>=<sp/>0.0;</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/>completion:^(BOOL<sp/>finished)<sp/>{</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[existingActivityView<sp/>removeFromSuperview];</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>objc_setAssociatedObject<sp/>(self,<sp/>&amp;CSToastActivityViewKey,<sp/>nil,<sp/>OBJC_ASSOCIATION_RETAIN_NONATOMIC);</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}];</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="225"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"></highlight></codeline>
+<codeline lineno="227"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/>-<sp/>Helpers</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="228"><highlight class="normal"></highlight></codeline>
+<codeline lineno="229"><highlight class="normal">-<sp/>(CGPoint)centerPointForPosition:(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)point<sp/>withToast:(UIView<sp/>*)toast<sp/>{</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">([point<sp/>isKindOfClass:[NSString<sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal">]])<sp/>{</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">([point<sp/>caseInsensitiveCompare:<ref refid="_u_i_view_09_toast_8m_1a7b5fb5713845a29c0327412f4639c55f" kindref="member">CSToastPositionTop</ref>]<sp/>==<sp/>NSOrderedSame)<sp/>{</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>CGPointMake(</highlight><highlight class="keyword">self</highlight><highlight class="normal">.bounds.size.width/2,<sp/>(toast.frame.size.height<sp/>/<sp/>2)<sp/>+<sp/>CSToastVerticalPadding);</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">([point<sp/>caseInsensitiveCompare:<ref refid="_u_i_view_09_toast_8m_1a10c1c416da9818aa917dea312e13c4a5" kindref="member">CSToastPositionCenter</ref>]<sp/>==<sp/>NSOrderedSame)<sp/>{</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>CGPointMake(</highlight><highlight class="keyword">self</highlight><highlight class="normal">.bounds.size.width<sp/>/<sp/>2,<sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.bounds.size.height<sp/>/<sp/>2);</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="236"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>([point<sp/>isKindOfClass:[NSValue<sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal">]])<sp/>{</highlight></codeline>
+<codeline lineno="237"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[point<sp/>CGPointValue];</highlight></codeline>
+<codeline lineno="238"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="240"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>default<sp/>to<sp/>bottom</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="241"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>CGPointMake(</highlight><highlight class="keyword">self</highlight><highlight class="normal">.bounds.size.width/2,<sp/>(</highlight><highlight class="keyword">self</highlight><highlight class="normal">.bounds.size.height<sp/>-<sp/>(toast.frame.size.height<sp/>/<sp/>2))<sp/>-<sp/>CSToastVerticalPadding);</highlight></codeline>
+<codeline lineno="242"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="243"><highlight class="normal"></highlight></codeline>
+<codeline lineno="244"><highlight class="normal">-<sp/>(CGSize)sizeForString:(NSString<sp/>*)string<sp/>font:(UIFont<sp/>*)font<sp/>constrainedToSize:(CGSize)constrainedSize<sp/>lineBreakMode:(NSLineBreakMode)lineBreakMode<sp/>{</highlight></codeline>
+<codeline lineno="245"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>([</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>respondsToSelector:</highlight><highlight class="keyword">@selector</highlight><highlight class="normal">(boundingRectWithSize:options:attributes:context:)])<sp/>{</highlight></codeline>
+<codeline lineno="246"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NSMutableParagraphStyle<sp/>*paragraphStyle<sp/>=<sp/>[[NSMutableParagraphStyle<sp/>alloc]<sp/>init];</highlight></codeline>
+<codeline lineno="247"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>paragraphStyle.lineBreakMode<sp/>=<sp/>lineBreakMode;</highlight></codeline>
+<codeline lineno="248"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NSDictionary<sp/>*attributes<sp/>=<sp/>@{NSFontAttributeName:font,<sp/>NSParagraphStyleAttributeName:paragraphStyle};</highlight></codeline>
+<codeline lineno="249"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CGRect<sp/>boundingRect<sp/>=<sp/>[string<sp/>boundingRectWithSize:constrainedSize<sp/>options:NSStringDrawingUsesLineFragmentOrigin<sp/>attributes:attributes<sp/>context:nil];</highlight></codeline>
+<codeline lineno="250"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>CGSizeMake(ceilf(boundingRect.size.width),<sp/>ceilf(boundingRect.size.height));</highlight></codeline>
+<codeline lineno="251"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="252"><highlight class="normal"></highlight></codeline>
+<codeline lineno="253"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>clang<sp/>diagnostic<sp/>push</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="254"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>clang<sp/>diagnostic<sp/>ignored<sp/>&quot;-Wdeprecated-declarations&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="255"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[string<sp/>sizeWithFont:font<sp/>constrainedToSize:constrainedSize<sp/>lineBreakMode:lineBreakMode];</highlight></codeline>
+<codeline lineno="256"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>clang<sp/>diagnostic<sp/>pop</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="257"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="258"><highlight class="normal"></highlight></codeline>
+<codeline lineno="259"><highlight class="normal">-<sp/>(UIView<sp/>*)viewForMessage:(NSString<sp/>*)message<sp/>title:(NSString<sp/>*)title<sp/>image:(UIImage<sp/>*)image<sp/>{</highlight></codeline>
+<codeline lineno="260"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>sanity</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="261"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">((message<sp/>==<sp/>nil)<sp/>&amp;&amp;<sp/>(title<sp/>==<sp/>nil)<sp/>&amp;&amp;<sp/>(image<sp/>==<sp/>nil))<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>nil;</highlight></codeline>
+<codeline lineno="262"><highlight class="normal"></highlight></codeline>
+<codeline lineno="263"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>dynamically<sp/>build<sp/>a<sp/>toast<sp/>view<sp/>with<sp/>any<sp/>combination<sp/>of<sp/>message,<sp/>title,<sp/>&amp;<sp/>image.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="264"><highlight class="normal"><sp/><sp/><sp/><sp/>UILabel<sp/>*messageLabel<sp/>=<sp/>nil;</highlight></codeline>
+<codeline lineno="265"><highlight class="normal"><sp/><sp/><sp/><sp/>UILabel<sp/>*titleLabel<sp/>=<sp/>nil;</highlight></codeline>
+<codeline lineno="266"><highlight class="normal"><sp/><sp/><sp/><sp/>UIImageView<sp/>*imageView<sp/>=<sp/>nil;</highlight></codeline>
+<codeline lineno="267"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="268"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>create<sp/>the<sp/>parent<sp/>view</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="269"><highlight class="normal"><sp/><sp/><sp/><sp/>UIView<sp/>*wrapperView<sp/>=<sp/>[[UIView<sp/>alloc]<sp/>init];</highlight></codeline>
+<codeline lineno="270"><highlight class="normal"><sp/><sp/><sp/><sp/>wrapperView.autoresizingMask<sp/>=<sp/>(UIViewAutoresizingFlexibleLeftMargin<sp/>|<sp/>UIViewAutoresizingFlexibleRightMargin<sp/>|<sp/>UIViewAutoresizingFlexibleTopMargin<sp/>|<sp/>UIViewAutoresizingFlexibleBottomMargin);</highlight></codeline>
+<codeline lineno="271"><highlight class="normal"><sp/><sp/><sp/><sp/>wrapperView.layer.cornerRadius<sp/>=<sp/>CSToastCornerRadius;</highlight></codeline>
+<codeline lineno="272"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="273"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(CSToastDisplayShadow)<sp/>{</highlight></codeline>
+<codeline lineno="274"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>wrapperView.layer.shadowColor<sp/>=<sp/>[UIColor<sp/>blackColor].CGColor;</highlight></codeline>
+<codeline lineno="275"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>wrapperView.layer.shadowOpacity<sp/>=<sp/>CSToastShadowOpacity;</highlight></codeline>
+<codeline lineno="276"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>wrapperView.layer.shadowRadius<sp/>=<sp/>CSToastShadowRadius;</highlight></codeline>
+<codeline lineno="277"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>wrapperView.layer.shadowOffset<sp/>=<sp/>CSToastShadowOffset;</highlight></codeline>
+<codeline lineno="278"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="279"><highlight class="normal"></highlight></codeline>
+<codeline lineno="280"><highlight class="normal"><sp/><sp/><sp/><sp/>wrapperView.backgroundColor<sp/>=<sp/>[[UIColor<sp/>blackColor]<sp/>colorWithAlphaComponent:CSToastOpacity];</highlight></codeline>
+<codeline lineno="281"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="282"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(image<sp/>!=<sp/>nil)<sp/>{</highlight></codeline>
+<codeline lineno="283"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>imageView<sp/>=<sp/>[[UIImageView<sp/>alloc]<sp/>initWithImage:image];</highlight></codeline>
+<codeline lineno="284"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>imageView.contentMode<sp/>=<sp/>UIViewContentModeScaleAspectFit;</highlight></codeline>
+<codeline lineno="285"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>imageView.frame<sp/>=<sp/>CGRectMake(CSToastHorizontalPadding,<sp/>CSToastVerticalPadding,<sp/>CSToastImageViewWidth,<sp/>CSToastImageViewHeight);</highlight></codeline>
+<codeline lineno="286"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="287"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="288"><highlight class="normal"><sp/><sp/><sp/><sp/>CGFloat<sp/>imageWidth,<sp/>imageHeight,<sp/>imageLeft;</highlight></codeline>
+<codeline lineno="289"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="290"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>the<sp/>imageView<sp/>frame<sp/>values<sp/>will<sp/>be<sp/>used<sp/>to<sp/>size<sp/>&amp;<sp/>position<sp/>the<sp/>other<sp/>views</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="291"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(imageView<sp/>!=<sp/>nil)<sp/>{</highlight></codeline>
+<codeline lineno="292"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>imageWidth<sp/>=<sp/>imageView.bounds.size.width;</highlight></codeline>
+<codeline lineno="293"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>imageHeight<sp/>=<sp/>imageView.bounds.size.height;</highlight></codeline>
+<codeline lineno="294"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>imageLeft<sp/>=<sp/>CSToastHorizontalPadding;</highlight></codeline>
+<codeline lineno="295"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="296"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>imageWidth<sp/>=<sp/>imageHeight<sp/>=<sp/>imageLeft<sp/>=<sp/>0.0;</highlight></codeline>
+<codeline lineno="297"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="298"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="299"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(title<sp/>!=<sp/>nil)<sp/>{</highlight></codeline>
+<codeline lineno="300"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>titleLabel<sp/>=<sp/>[[UILabel<sp/>alloc]<sp/>init];</highlight></codeline>
+<codeline lineno="301"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>titleLabel.numberOfLines<sp/>=<sp/>CSToastMaxTitleLines;</highlight></codeline>
+<codeline lineno="302"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>titleLabel.font<sp/>=<sp/>[UIFont<sp/>boldSystemFontOfSize:CSToastFontSize];</highlight></codeline>
+<codeline lineno="303"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>titleLabel.textAlignment<sp/>=<sp/>NSTextAlignmentLeft;</highlight></codeline>
+<codeline lineno="304"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>titleLabel.lineBreakMode<sp/>=<sp/>NSLineBreakByWordWrapping;</highlight></codeline>
+<codeline lineno="305"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>titleLabel.textColor<sp/>=<sp/>[UIColor<sp/>whiteColor];</highlight></codeline>
+<codeline lineno="306"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>titleLabel.backgroundColor<sp/>=<sp/>[UIColor<sp/>clearColor];</highlight></codeline>
+<codeline lineno="307"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>titleLabel.alpha<sp/>=<sp/>1.0;</highlight></codeline>
+<codeline lineno="308"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>titleLabel.text<sp/>=<sp/>title;</highlight></codeline>
+<codeline lineno="309"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="310"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>size<sp/>the<sp/>title<sp/>label<sp/>according<sp/>to<sp/>the<sp/>length<sp/>of<sp/>the<sp/>text</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="311"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CGSize<sp/>maxSizeTitle<sp/>=<sp/>CGSizeMake((</highlight><highlight class="keyword">self</highlight><highlight class="normal">.bounds.size.width<sp/>*<sp/>CSToastMaxWidth)<sp/>-<sp/>imageWidth,<sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.bounds.size.height<sp/>*<sp/>CSToastMaxHeight);</highlight></codeline>
+<codeline lineno="312"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CGSize<sp/>expectedSizeTitle<sp/>=<sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>sizeForString:title<sp/>font:titleLabel.font<sp/>constrainedToSize:maxSizeTitle<sp/>lineBreakMode:titleLabel.lineBreakMode];</highlight></codeline>
+<codeline lineno="313"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>titleLabel.frame<sp/>=<sp/>CGRectMake(0.0,<sp/>0.0,<sp/>expectedSizeTitle.width,<sp/>expectedSizeTitle.height);</highlight></codeline>
+<codeline lineno="314"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="315"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="316"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(message<sp/>!=<sp/>nil)<sp/>{</highlight></codeline>
+<codeline lineno="317"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>messageLabel<sp/>=<sp/>[[UILabel<sp/>alloc]<sp/>init];</highlight></codeline>
+<codeline lineno="318"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>messageLabel.numberOfLines<sp/>=<sp/>CSToastMaxMessageLines;</highlight></codeline>
+<codeline lineno="319"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>messageLabel.font<sp/>=<sp/>[UIFont<sp/>systemFontOfSize:CSToastFontSize];</highlight></codeline>
+<codeline lineno="320"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>messageLabel.lineBreakMode<sp/>=<sp/>NSLineBreakByWordWrapping;</highlight></codeline>
+<codeline lineno="321"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>messageLabel.textColor<sp/>=<sp/>[UIColor<sp/>whiteColor];</highlight></codeline>
+<codeline lineno="322"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>messageLabel.backgroundColor<sp/>=<sp/>[UIColor<sp/>clearColor];</highlight></codeline>
+<codeline lineno="323"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>messageLabel.alpha<sp/>=<sp/>1.0;</highlight></codeline>
+<codeline lineno="324"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>messageLabel.text<sp/>=<sp/><ref refid="_n_s_object_09_b_k_block_observation_8m_1a19dd2af25ac6d5ede1801fd092465656" kindref="member">message</ref>;</highlight></codeline>
+<codeline lineno="325"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="326"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>size<sp/>the<sp/>message<sp/>label<sp/>according<sp/>to<sp/>the<sp/>length<sp/>of<sp/>the<sp/>text</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="327"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CGSize<sp/>maxSizeMessage<sp/>=<sp/>CGSizeMake((</highlight><highlight class="keyword">self</highlight><highlight class="normal">.bounds.size.width<sp/>*<sp/>CSToastMaxWidth)<sp/>-<sp/>imageWidth,<sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.bounds.size.height<sp/>*<sp/>CSToastMaxHeight);</highlight></codeline>
+<codeline lineno="328"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CGSize<sp/>expectedSizeMessage<sp/>=<sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>sizeForString:message<sp/>font:messageLabel.font<sp/>constrainedToSize:maxSizeMessage<sp/>lineBreakMode:messageLabel.lineBreakMode];</highlight></codeline>
+<codeline lineno="329"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>messageLabel.frame<sp/>=<sp/>CGRectMake(0.0,<sp/>0.0,<sp/>expectedSizeMessage.width,<sp/>expectedSizeMessage.height);</highlight></codeline>
+<codeline lineno="330"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="331"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="332"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>titleLabel<sp/>frame<sp/>values</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="333"><highlight class="normal"><sp/><sp/><sp/><sp/>CGFloat<sp/>titleWidth,<sp/>titleHeight,<sp/>titleTop,<sp/>titleLeft;</highlight></codeline>
+<codeline lineno="334"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="335"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(titleLabel<sp/>!=<sp/>nil)<sp/>{</highlight></codeline>
+<codeline lineno="336"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>titleWidth<sp/>=<sp/>titleLabel.bounds.size.width;</highlight></codeline>
+<codeline lineno="337"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>titleHeight<sp/>=<sp/>titleLabel.bounds.size.height;</highlight></codeline>
+<codeline lineno="338"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>titleTop<sp/>=<sp/>CSToastVerticalPadding;</highlight></codeline>
+<codeline lineno="339"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>titleLeft<sp/>=<sp/>imageLeft<sp/>+<sp/>imageWidth<sp/>+<sp/>CSToastHorizontalPadding;</highlight></codeline>
+<codeline lineno="340"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="341"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>titleWidth<sp/>=<sp/>titleHeight<sp/>=<sp/>titleTop<sp/>=<sp/>titleLeft<sp/>=<sp/>0.0;</highlight></codeline>
+<codeline lineno="342"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="343"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="344"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>messageLabel<sp/>frame<sp/>values</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="345"><highlight class="normal"><sp/><sp/><sp/><sp/>CGFloat<sp/>messageWidth,<sp/>messageHeight,<sp/>messageLeft,<sp/>messageTop;</highlight></codeline>
+<codeline lineno="346"><highlight class="normal"></highlight></codeline>
+<codeline lineno="347"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(messageLabel<sp/>!=<sp/>nil)<sp/>{</highlight></codeline>
+<codeline lineno="348"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>messageWidth<sp/>=<sp/>messageLabel.bounds.size.width;</highlight></codeline>
+<codeline lineno="349"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>messageHeight<sp/>=<sp/>messageLabel.bounds.size.height;</highlight></codeline>
+<codeline lineno="350"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>messageLeft<sp/>=<sp/>imageLeft<sp/>+<sp/>imageWidth<sp/>+<sp/>CSToastHorizontalPadding;</highlight></codeline>
+<codeline lineno="351"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>messageTop<sp/>=<sp/>titleTop<sp/>+<sp/>titleHeight<sp/>+<sp/>CSToastVerticalPadding;</highlight></codeline>
+<codeline lineno="352"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="353"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>messageWidth<sp/>=<sp/>messageHeight<sp/>=<sp/>messageLeft<sp/>=<sp/>messageTop<sp/>=<sp/>0.0;</highlight></codeline>
+<codeline lineno="354"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="355"><highlight class="normal"></highlight></codeline>
+<codeline lineno="356"><highlight class="normal"><sp/><sp/><sp/><sp/>CGFloat<sp/>longerWidth<sp/>=<sp/>MAX(titleWidth,<sp/>messageWidth);</highlight></codeline>
+<codeline lineno="357"><highlight class="normal"><sp/><sp/><sp/><sp/>CGFloat<sp/>longerLeft<sp/>=<sp/>MAX(titleLeft,<sp/>messageLeft);</highlight></codeline>
+<codeline lineno="358"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="359"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>wrapper<sp/>width<sp/>uses<sp/>the<sp/>longerWidth<sp/>or<sp/>the<sp/>image<sp/>width,<sp/>whatever<sp/>is<sp/>larger.<sp/>same<sp/>logic<sp/>applies<sp/>to<sp/>the<sp/>wrapper<sp/>height</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="360"><highlight class="normal"><sp/><sp/><sp/><sp/>CGFloat<sp/>wrapperWidth<sp/>=<sp/>MAX((imageWidth<sp/>+<sp/>(CSToastHorizontalPadding<sp/>*<sp/>2)),<sp/>(longerLeft<sp/>+<sp/>longerWidth<sp/>+<sp/>CSToastHorizontalPadding));<sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="361"><highlight class="normal"><sp/><sp/><sp/><sp/>CGFloat<sp/>wrapperHeight<sp/>=<sp/>MAX((messageTop<sp/>+<sp/>messageHeight<sp/>+<sp/>CSToastVerticalPadding),<sp/>(imageHeight<sp/>+<sp/>(CSToastVerticalPadding<sp/>*<sp/>2)));</highlight></codeline>
+<codeline lineno="362"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="363"><highlight class="normal"><sp/><sp/><sp/><sp/>wrapperView.frame<sp/>=<sp/>CGRectMake(0.0,<sp/>0.0,<sp/>wrapperWidth,<sp/>wrapperHeight);</highlight></codeline>
+<codeline lineno="364"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="365"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(titleLabel<sp/>!=<sp/>nil)<sp/>{</highlight></codeline>
+<codeline lineno="366"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>titleLabel.frame<sp/>=<sp/>CGRectMake(titleLeft,<sp/>titleTop,<sp/>titleWidth,<sp/>titleHeight);</highlight></codeline>
+<codeline lineno="367"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[wrapperView<sp/>addSubview:titleLabel];</highlight></codeline>
+<codeline lineno="368"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="369"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="370"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(messageLabel<sp/>!=<sp/>nil)<sp/>{</highlight></codeline>
+<codeline lineno="371"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>messageLabel.frame<sp/>=<sp/>CGRectMake(messageLeft,<sp/>messageTop,<sp/>messageWidth,<sp/>messageHeight);</highlight></codeline>
+<codeline lineno="372"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[wrapperView<sp/>addSubview:messageLabel];</highlight></codeline>
+<codeline lineno="373"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="374"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="375"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(imageView<sp/>!=<sp/>nil)<sp/>{</highlight></codeline>
+<codeline lineno="376"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[wrapperView<sp/>addSubview:imageView];</highlight></codeline>
+<codeline lineno="377"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="378"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="379"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>wrapperView;</highlight></codeline>
+<codeline lineno="380"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="381"><highlight class="normal"></highlight></codeline>
+<codeline lineno="382"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Toast.m"/>
+  </compounddef>
+</doxygen>

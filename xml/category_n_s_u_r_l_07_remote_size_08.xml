@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_n_s_u_r_l_07_remote_size_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>NSURL(RemoteSize)</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="category_n_s_u_r_l_07_remote_size_08_1a5c6bf1da88e2737b26f6289663ad1b33" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="strong">
+        <type>NSMutableData *</type>
+        <definition>NSMutableData * NSURL(RemoteSize)::sizeRequestData</definition>
+        <argsstring></argsstring>
+        <name>sizeRequestData</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImage/UIImage+RemoteSize.m" line="20" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImage/UIImage+RemoteSize.m" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_n_s_u_r_l_07_remote_size_08_1a2e6e303ccbf524a696deb48c27645410" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="strong">
+        <type>NSString *</type>
+        <definition>NSString * NSURL(RemoteSize)::sizeRequestType</definition>
+        <argsstring></argsstring>
+        <name>sizeRequestType</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImage/UIImage+RemoteSize.m" line="21" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImage/UIImage+RemoteSize.m" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_n_s_u_r_l_07_remote_size_08_1a3227bb708a06a423af8e82902170d4df" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="copy">
+        <type><ref refid="_u_i_image_09_remote_size_8h_1a5117fd129fb975b5652dc9f2f5002217" kindref="member">UIImageSizeRequestCompleted</ref></type>
+        <definition>UIImageSizeRequestCompleted NSURL(RemoteSize)::sizeRequestCompletion</definition>
+        <argsstring></argsstring>
+        <name>sizeRequestCompletion</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImage/UIImage+RemoteSize.m" line="22" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImage/UIImage+RemoteSize.m" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImage/UIImage+RemoteSize.m" line="19" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImage/UIImage+RemoteSize.m" bodystart="19" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_n_s_u_r_l_07_remote_size_08_1a3227bb708a06a423af8e82902170d4df" prot="public" virt="non-virtual"><scope>NSURL(RemoteSize)</scope><name>sizeRequestCompletion</name></member>
+      <member refid="category_n_s_u_r_l_07_remote_size_08_1a5c6bf1da88e2737b26f6289663ad1b33" prot="public" virt="non-virtual"><scope>NSURL(RemoteSize)</scope><name>sizeRequestData</name></member>
+      <member refid="category_n_s_u_r_l_07_remote_size_08_1a2e6e303ccbf524a696deb48c27645410" prot="public" virt="non-virtual"><scope>NSURL(RemoteSize)</scope><name>sizeRequestType</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

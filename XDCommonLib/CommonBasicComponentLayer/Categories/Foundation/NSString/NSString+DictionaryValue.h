@@ -8,6 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
+/**
+ *  @brief JSON格式的NSString转NSDictionary
+ */
+
 @interface NSString (DictionaryValue)
 /**
  *  @brief  JSON字符串转成NSDictionary

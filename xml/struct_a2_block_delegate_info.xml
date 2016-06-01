@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="struct_a2_block_delegate_info" kind="struct" language="Objective-C" prot="public">
+    <compoundname>A2BlockDelegateInfo</compoundname>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="struct_a2_block_delegate_info_1ab5c4675910eefd51cd90b340391f9640" prot="protected" static="no" mutable="no">
+        <type>SEL</type>
+        <definition>SEL A2BlockDelegateInfo::setter</definition>
+        <argsstring></argsstring>
+        <name>setter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/DynamicDelegate/NSObject+A2BlockDelegate.m" line="158" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/DynamicDelegate/NSObject+A2BlockDelegate.m" bodystart="158" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_a2_block_delegate_info_1a5aae26007268a67e7a15b6bcbb0be1c1" prot="protected" static="no" mutable="no">
+        <type>SEL</type>
+        <definition>SEL A2BlockDelegateInfo::a2_setter</definition>
+        <argsstring></argsstring>
+        <name>a2_setter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/DynamicDelegate/NSObject+A2BlockDelegate.m" line="159" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/DynamicDelegate/NSObject+A2BlockDelegate.m" bodystart="159" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_a2_block_delegate_info_1a180a95ee010a44ffec60d1b770dc03d8" prot="protected" static="no" mutable="no">
+        <type>SEL</type>
+        <definition>SEL A2BlockDelegateInfo::getter</definition>
+        <argsstring></argsstring>
+        <name>getter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/DynamicDelegate/NSObject+A2BlockDelegate.m" line="160" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/DynamicDelegate/NSObject+A2BlockDelegate.m" bodystart="160" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/DynamicDelegate/NSObject+A2BlockDelegate.m" line="157" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/DynamicDelegate/NSObject+A2BlockDelegate.m" bodystart="157" bodyend="161"/>
+    <listofallmembers>
+      <member refid="struct_a2_block_delegate_info_1a5aae26007268a67e7a15b6bcbb0be1c1" prot="protected" virt="non-virtual"><scope>A2BlockDelegateInfo</scope><name>a2_setter</name></member>
+      <member refid="struct_a2_block_delegate_info_1a180a95ee010a44ffec60d1b770dc03d8" prot="protected" virt="non-virtual"><scope>A2BlockDelegateInfo</scope><name>getter</name></member>
+      <member refid="struct_a2_block_delegate_info_1ab5c4675910eefd51cd90b340391f9640" prot="protected" virt="non-virtual"><scope>A2BlockDelegateInfo</scope><name>setter</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

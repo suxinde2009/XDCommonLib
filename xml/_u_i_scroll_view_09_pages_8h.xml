@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_u_i_scroll_view_09_pages_8h" kind="file" language="C++">
+    <compoundname>UIScrollView+Pages.h</compoundname>
+    <includes local="no">UIKit/UIKit.h</includes>
+    <includedby refid="_u_i_scroll_view_09_pages_8m" local="yes">XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIScrollView/UIScrollView+Pages.m</includedby>
+    <incdepgraph>
+      <node id="1837">
+        <label>UIKit/UIKit.h</label>
+      </node>
+      <node id="1836">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIScrollView/UIScrollView+Pages.h</label>
+        <link refid="UIScrollView+Pages.h"/>
+        <childnode refid="1837" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1838">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIScrollView/UIScrollView+Pages.h</label>
+        <link refid="UIScrollView+Pages.h"/>
+        <childnode refid="1839" relation="include">
+        </childnode>
+      </node>
+      <node id="1839">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIScrollView/UIScrollView+Pages.m</label>
+        <link refid="_u_i_scroll_view_09_pages_8m"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="category_u_i_scroll_view_07_pages_08" prot="public">UIScrollView(Pages)</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>UIScrollView+Pages.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>iOS-Categories<sp/>(https://github.com/shaojiankui/iOS-Categories)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Jakey<sp/>on<sp/>14/12/30.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2014年<sp/>www.skyfox.org.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;UIKit/UIKit.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="category_u_i_scroll_view_07_pages_08" kindref="compound">UIScrollView (Pages)</ref></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal">-<sp/>(NSInteger)<ref refid="category_u_i_scroll_view_07_pages_08_1abde6578385b2532ee073079fbd6f4744" kindref="member">pages</ref>;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">-<sp/>(NSInteger)<ref refid="category_u_i_scroll_view_07_pages_08_1a1cd8e4fc6d7fe3b6fe43b37caca4a7b6" kindref="member">currentPage</ref>;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal">-<sp/>(CGFloat)<ref refid="category_u_i_scroll_view_07_pages_08_1a89acda1b2f1c76c5195b05bd6b30ae43" kindref="member">scrollPercent</ref>;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal">-<sp/>(CGFloat)<ref refid="category_u_i_scroll_view_07_pages_08_1a5dd0ad0bd67bc3442bc5c2f2d944568f" kindref="member">pagesY</ref>;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal">-<sp/>(CGFloat)<ref refid="category_u_i_scroll_view_07_pages_08_1a44cb4352202f22272b56f4392ca558d2" kindref="member">pagesX</ref>;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal">-<sp/>(CGFloat)<ref refid="category_u_i_scroll_view_07_pages_08_1acbf5335db0f0dae52c60f0d47a2283c9" kindref="member">currentPageY</ref>;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal">-<sp/>(CGFloat)<ref refid="category_u_i_scroll_view_07_pages_08_1a42e89f2238807b8512cdc35c116ef34e" kindref="member">currentPageX</ref>;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal">-<sp/>(void)setPageY:(CGFloat)page;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal">-<sp/>(void)setPageX:(CGFloat)page;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal">-<sp/>(void)setPageY:(CGFloat)page<sp/>animated:(BOOL)animated;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal">-<sp/>(void)setPageX:(CGFloat)page<sp/>animated:(BOOL)animated;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIScrollView/UIScrollView+Pages.h"/>
+  </compounddef>
+</doxygen>

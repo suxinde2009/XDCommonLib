@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_n_s_data_07_gzip_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>NSData(Gzip)</compoundname>
+    <includes refid="_n_s_data_09_gzip_8h" local="no">NSData+Gzip.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="category_n_s_data_07_gzip_08_1a8191a94a9e1c912d8539325fcfebcd60" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSData *</type>
+        <definition>NSData * NSData(Gzip)::gzippedDataWithCompressionLevel:</definition>
+        <argsstring>(float level)</argsstring>
+        <name>gzippedDataWithCompressionLevel:</name>
+        <param>
+          <type>float</type>
+          <declname>level</declname>
+        </param>
+        <briefdescription>
+<para>GZIP压缩 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>level</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>压缩级别</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>压缩后的数据 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSData/NSData+Gzip.h" line="12" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSData/NSData+Gzip.m" bodystart="20" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_data_07_gzip_08_1a59d57c0cd010ecfb44fa0ef9163624c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSData *</type>
+        <definition>NSData * NSData(Gzip)::gzippedData</definition>
+        <argsstring>()</argsstring>
+        <name>gzippedData</name>
+        <briefdescription>
+<para>GZIP压缩 压缩级别 默认-1. </para>        </briefdescription>
+        <detaileddescription>
+<para>GZIP压缩 压缩级别</para><para><simplesect kind="return"><para>压缩后的数据 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSData/NSData+Gzip.h" line="12" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSData/NSData+Gzip.m" bodystart="60" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_data_07_gzip_08_1aa9f15e10ab670408a309cf52bb33d669" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSData *</type>
+        <definition>NSData * NSData(Gzip)::gunzippedData</definition>
+        <argsstring>()</argsstring>
+        <name>gunzippedData</name>
+        <briefdescription>
+<para>GZIP解压 </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>解压后数据 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSData/NSData+Gzip.h" line="12" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSData/NSData+Gzip.m" bodystart="70" bodyend="107"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSData/NSData+Gzip.m" line="11" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSData/NSData+Gzip.m" bodystart="11" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_n_s_data_07_gzip_08_1aa9f15e10ab670408a309cf52bb33d669" prot="public" virt="virtual"><scope>NSData(Gzip)</scope><name>gunzippedData</name></member>
+      <member refid="category_n_s_data_07_gzip_08_1a59d57c0cd010ecfb44fa0ef9163624c7" prot="public" virt="virtual"><scope>NSData(Gzip)</scope><name>gzippedData</name></member>
+      <member refid="category_n_s_data_07_gzip_08_1a8191a94a9e1c912d8539325fcfebcd60" prot="public" virt="virtual"><scope>NSData(Gzip)</scope><name>gzippedDataWithCompressionLevel:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

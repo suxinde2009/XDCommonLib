@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_u_i_button_09_background_color_8m" kind="file" language="Objective-C">
+    <compoundname>UIButton+BackgroundColor.m</compoundname>
+    <includes refid="_u_i_button_09_background_color_8h" local="yes">UIButton+BackgroundColor.h</includes>
+    <incdepgraph>
+      <node id="1270">
+        <label>UIButton+BackgroundColor.h</label>
+        <link refid="_u_i_button_09_background_color_8h"/>
+        <childnode refid="1271" relation="include">
+        </childnode>
+      </node>
+      <node id="1269">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIButton/UIButton+BackgroundColor.m</label>
+        <link refid="UIButton+BackgroundColor.m"/>
+        <childnode refid="1270" relation="include">
+        </childnode>
+      </node>
+      <node id="1271">
+        <label>UIKit/UIKit.h</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>UIButton+BackgroundColor.m</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>iOS-Categories<sp/>(https://github.com/shaojiankui/iOS-Categories)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>符现超<sp/>on<sp/>15/5/9.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2015年<sp/>http://weibo.com/u/1655766025<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_u_i_button_09_background_color_8h" kindref="compound">UIButton+BackgroundColor.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="category_u_i_button_07_background_color_08" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">@implementation<sp/></highlight><highlight class="normal"><ref refid="category_u_i_button_07_background_color_08" kindref="compound">UIButton (BackgroundColor)</ref></highlight></codeline>
+<codeline lineno="18" refid="category_u_i_button_07_background_color_08_1af617cc83a1107952508e1ab6fe916c2f" refkind="member"><highlight class="normal">-<sp/>(void)setBackgroundColor:(UIColor<sp/>*)backgroundColor<sp/>forState:(UIControlState)state</highlight></codeline>
+<codeline lineno="19"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>setBackgroundImage:[UIButton<sp/>imageWithColor:backgroundColor]<sp/>forState:state];</highlight></codeline>
+<codeline lineno="21"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal">+<sp/>(UIImage<sp/>*)imageWithColor:(UIColor<sp/>*)color</highlight></codeline>
+<codeline lineno="24"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>CGRect<sp/>rect<sp/>=<sp/>CGRectMake(0.0f,<sp/>0.0f,<sp/>1.0f,<sp/>1.0f);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>UIGraphicsBeginImageContext(rect.size);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>CGContextRef<sp/>context<sp/>=<sp/>UIGraphicsGetCurrentContext();</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>CGContextSetFillColorWithColor(context,<sp/>[color<sp/>CGColor]);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>CGContextFillRect(context,<sp/>rect);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>UIImage<sp/>*image<sp/>=<sp/>UIGraphicsGetImageFromCurrentImageContext();</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>UIGraphicsEndImageContext();</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>image;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIButton/UIButton+BackgroundColor.m"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_n_s_operation_queue_07_global_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>NSOperationQueue(Global)</compoundname>
+    <includes refid="_n_s_operation_queue_09_global_8h" local="no">NSOperationQueue+Global.h</includes>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="category_n_s_operation_queue_07_global_08_1a568a2a769d8b26c62b7293fbdf0fba87" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>instancetype</type>
+        <definition>instancetype NSOperationQueue(Global)::globalQueue</definition>
+        <argsstring>()</argsstring>
+        <name>globalQueue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>全局共享的NSOperationQueue </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSOperationQueue/NSOperationQueue+Global.h" line="13" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSOperationQueue/NSOperationQueue+Global.m" bodystart="13" bodyend="21"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSOperationQueue/NSOperationQueue+Global.m" line="11" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSOperationQueue/NSOperationQueue+Global.m" bodystart="11" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_n_s_operation_queue_07_global_08_1a568a2a769d8b26c62b7293fbdf0fba87" prot="public" virt="virtual"><scope>NSOperationQueue(Global)</scope><name>globalQueue</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

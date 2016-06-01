@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_n_s_persistent_store_coordinator_07_custom_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>NSPersistentStoreCoordinator(Custom)</compoundname>
+    <includes refid="_n_s_persistent_store_coordinator_09_custom_8h" local="no">NSPersistentStoreCoordinator+Custom.h</includes>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="category_n_s_persistent_store_coordinator_07_custom_08_1a8b8533f092fd4a2fe570f3f9f1772914" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * NSPersistentStoreCoordinator(Custom)::applicationDocumentsDirectory</definition>
+        <argsstring>()</argsstring>
+        <name>applicationDocumentsDirectory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSPersistentStoreCoordinator/NSPersistentStoreCoordinator+Custom.h" line="15" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSPersistentStoreCoordinator/NSPersistentStoreCoordinator+Custom.m" bodystart="17" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_persistent_store_coordinator_07_custom_08_1a7e5d75d7d9f9844f3a62faf17c15a719" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void NSPersistentStoreCoordinator(Custom)::setDataModelName:withStoreName:</definition>
+        <argsstring>(NSString *name,[withStoreName] NSString *storeFileName)</argsstring>
+        <name>setDataModelName:withStoreName:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <attributes>[withStoreName]</attributes>
+          <type>NSString *</type>
+          <declname>storeFileName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSPersistentStoreCoordinator/NSPersistentStoreCoordinator+Custom.h" line="15" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSPersistentStoreCoordinator/NSPersistentStoreCoordinator+Custom.m" bodystart="21" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_persistent_store_coordinator_07_custom_08_1a78893077ae5fded66d5694418a3369c2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSPersistentStoreCoordinator *</type>
+        <definition>NSPersistentStoreCoordinator * NSPersistentStoreCoordinator(Custom)::sharedPersisntentStoreCoordinator</definition>
+        <argsstring>()</argsstring>
+        <name>sharedPersisntentStoreCoordinator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSPersistentStoreCoordinator/NSPersistentStoreCoordinator+Custom.h" line="15" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSPersistentStoreCoordinator/NSPersistentStoreCoordinator+Custom.m" bodystart="27" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_persistent_store_coordinator_07_custom_08_1a3fcbee97f233448658c19006cec60873" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void NSPersistentStoreCoordinator(Custom)::setNewPresistentStore:</definition>
+        <argsstring>(NSPersistentStoreCoordinator *store)</argsstring>
+        <name>setNewPresistentStore:</name>
+        <param>
+          <type>NSPersistentStoreCoordinator *</type>
+          <declname>store</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSPersistentStoreCoordinator/NSPersistentStoreCoordinator+Custom.h" line="15" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSPersistentStoreCoordinator/NSPersistentStoreCoordinator+Custom.m" bodystart="58" bodyend="61"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSPersistentStoreCoordinator/NSPersistentStoreCoordinator+Custom.m" line="11" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSPersistentStoreCoordinator/NSPersistentStoreCoordinator+Custom.m" bodystart="11" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_n_s_persistent_store_coordinator_07_custom_08_1a8b8533f092fd4a2fe570f3f9f1772914" prot="public" virt="virtual"><scope>NSPersistentStoreCoordinator(Custom)</scope><name>applicationDocumentsDirectory</name></member>
+      <member refid="category_n_s_persistent_store_coordinator_07_custom_08_1a7e5d75d7d9f9844f3a62faf17c15a719" prot="public" virt="virtual"><scope>NSPersistentStoreCoordinator(Custom)</scope><name>setDataModelName:withStoreName:</name></member>
+      <member refid="category_n_s_persistent_store_coordinator_07_custom_08_1a3fcbee97f233448658c19006cec60873" prot="public" virt="virtual"><scope>NSPersistentStoreCoordinator(Custom)</scope><name>setNewPresistentStore:</name></member>
+      <member refid="category_n_s_persistent_store_coordinator_07_custom_08_1a78893077ae5fded66d5694418a3369c2" prot="public" virt="virtual"><scope>NSPersistentStoreCoordinator(Custom)</scope><name>sharedPersisntentStoreCoordinator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

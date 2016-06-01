@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_n_s_object_07_debugging_extensions_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>NSObject(DebuggingExtensions)</compoundname>
+    <includes refid="_n_s_object-_description_8h" local="no">NSObject-Description.h</includes>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="category_n_s_object_07_debugging_extensions_08_1a2ddba1ae9baf64d31555e31bd79a2b89" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="assign">
+        <type>NSString *</type>
+        <definition>NSString * NSObject(DebuggingExtensions)::objectIdentifier</definition>
+        <argsstring></argsstring>
+        <name>objectIdentifier</name>
+        <read></read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Nametag Utilities/NSObject/NSObject-Description.h" line="14" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Nametag Utilities/NSObject/NSObject-Description.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_n_s_object_07_debugging_extensions_08_1a52fe956257a4958e2063d65f5cfe3a0e" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="assign">
+        <type>NSString *</type>
+        <definition>NSString * NSObject(DebuggingExtensions)::objectName</definition>
+        <argsstring></argsstring>
+        <name>objectName</name>
+        <read></read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Nametag Utilities/NSObject/NSObject-Description.h" line="15" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Nametag Utilities/NSObject/NSObject-Description.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_n_s_object_07_debugging_extensions_08_1a01c77281544a36aca997bd9851599ba5" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="assign">
+        <type>NSString *</type>
+        <definition>NSString * NSObject(DebuggingExtensions)::consoleDescription</definition>
+        <argsstring></argsstring>
+        <name>consoleDescription</name>
+        <read></read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Nametag Utilities/NSObject/NSObject-Description.h" line="16" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Nametag Utilities/NSObject/NSObject-Description.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Nametag Utilities/NSObject/NSObject-Description.h" line="13" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Nametag Utilities/NSObject/NSObject-Description.h" bodystart="13" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_n_s_object_07_debugging_extensions_08_1a01c77281544a36aca997bd9851599ba5" prot="public" virt="non-virtual"><scope>NSObject(DebuggingExtensions)</scope><name>consoleDescription</name></member>
+      <member refid="category_n_s_object_07_debugging_extensions_08_1a2ddba1ae9baf64d31555e31bd79a2b89" prot="public" virt="non-virtual"><scope>NSObject(DebuggingExtensions)</scope><name>objectIdentifier</name></member>
+      <member refid="category_n_s_object_07_debugging_extensions_08_1a52fe956257a4958e2063d65f5cfe3a0e" prot="public" virt="non-virtual"><scope>NSObject(DebuggingExtensions)</scope><name>objectName</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_u_i_bezier_path_09_s_v_g_8h" kind="file" language="C++">
+    <compoundname>UIBezierPath+SVG.h</compoundname>
+    <includes local="no">UIKit/UIKit.h</includes>
+    <includedby refid="_u_i_bezier_path_09_s_v_g_8m" local="yes">XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIBezierPath/UIBezierPath+SVG.m</includedby>
+    <incdepgraph>
+      <node id="1249">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIBezierPath/UIBezierPath+SVG.h</label>
+        <link refid="UIBezierPath+SVG.h"/>
+        <childnode refid="1250" relation="include">
+        </childnode>
+      </node>
+      <node id="1250">
+        <label>UIKit/UIKit.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1251">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIBezierPath/UIBezierPath+SVG.h</label>
+        <link refid="UIBezierPath+SVG.h"/>
+        <childnode refid="1252" relation="include">
+        </childnode>
+      </node>
+      <node id="1252">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIBezierPath/UIBezierPath+SVG.m</label>
+        <link refid="_u_i_bezier_path_09_s_v_g_8m"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="category_u_i_bezier_path_07_s_v_g_08" prot="public">UIBezierPath(SVG)</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>UIBezierPath+SVG.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>iOS-Categories<sp/>(https://github.com/shaojiankui/iOS-Categories)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Jakey<sp/>on<sp/>14/12/30.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2014年<sp/>www.skyfox.org.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;UIKit/UIKit.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="category_u_i_bezier_path_07_s_v_g_08" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="category_u_i_bezier_path_07_s_v_g_08" kindref="compound">UIBezierPath (SVG)</ref></highlight></codeline>
+<codeline lineno="17"><highlight class="normal">-<sp/>(NSString*)<ref refid="category_u_i_bezier_path_07_s_v_g_08_1ae1754e242b490655c75848e8b165b2cd" kindref="member">toSVGString</ref>;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIBezierPath/UIBezierPath+SVG.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_n_s_user_defaults_09_safe_access_8h" kind="file" language="C++">
+    <compoundname>NSUserDefaults+SafeAccess.h</compoundname>
+    <includes local="no">Foundation/Foundation.h</includes>
+    <includedby refid="_n_s_user_defaults_09_safe_access_8m" local="yes">XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSUserDefaults/NSUserDefaults+SafeAccess.m</includedby>
+    <incdepgraph>
+      <node id="1068">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSUserDefaults/NSUserDefaults+SafeAccess.h</label>
+        <link refid="NSUserDefaults+SafeAccess.h"/>
+        <childnode refid="1069" relation="include">
+        </childnode>
+      </node>
+      <node id="1069">
+        <label>Foundation/Foundation.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1070">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSUserDefaults/NSUserDefaults+SafeAccess.h</label>
+        <link refid="NSUserDefaults+SafeAccess.h"/>
+        <childnode refid="1071" relation="include">
+        </childnode>
+      </node>
+      <node id="1071">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSUserDefaults/NSUserDefaults+SafeAccess.m</label>
+        <link refid="_n_s_user_defaults_09_safe_access_8m"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="category_n_s_user_defaults_07_safe_access_08" prot="public">NSUserDefaults(SafeAccess)</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>NSUserDefaults+SafeAccess.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>iOS-Categories<sp/>(https://github.com/shaojiankui/iOS-Categories)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Jakey<sp/>on<sp/>15/5/23.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2015年<sp/>www.skyfox.org.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;Foundation/Foundation.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="category_n_s_user_defaults_07_safe_access_08" kindref="compound">NSUserDefaults (SafeAccess)</ref></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal">+<sp/>(NSString<sp/>*)stringForKey:(NSString<sp/>*)defaultName;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal">+<sp/>(NSArray<sp/>*)arrayForKey:(NSString<sp/>*)defaultName;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal">+<sp/>(NSDictionary<sp/>*)dictionaryForKey:(NSString<sp/>*)defaultName;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal">+<sp/>(NSData<sp/>*)dataForKey:(NSString<sp/>*)defaultName;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal">+<sp/>(NSArray<sp/>*)stringArrayForKey:(NSString<sp/>*)defaultName;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal">+<sp/>(NSInteger)integerForKey:(NSString<sp/>*)defaultName;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal">+<sp/>(float)floatForKey:(NSString<sp/>*)defaultName;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal">+<sp/>(double)doubleForKey:(NSString<sp/>*)defaultName;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal">+<sp/>(BOOL)boolForKey:(NSString<sp/>*)defaultName;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal">+<sp/>(NSURL<sp/>*)URLForKey:(NSString<sp/>*)defaultName;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/>-<sp/>WRITE<sp/>FOR<sp/>STANDARD</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal">+<sp/>(void)setObject:(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)value<sp/>forKey:(NSString<sp/>*)defaultName;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/>-<sp/>READ<sp/>ARCHIVE<sp/>FOR<sp/>STANDARD</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal">+<sp/>(id)arcObjectForKey:(NSString<sp/>*)defaultName;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/>-<sp/>WRITE<sp/>ARCHIVE<sp/>FOR<sp/>STANDARD</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal">+<sp/>(void)setArcObject:(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)value<sp/>forKey:(NSString<sp/>*)defaultName;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSUserDefaults/NSUserDefaults+SafeAccess.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_n_s_object_09_add_property_8m" kind="file" language="Objective-C">
+    <compoundname>NSObject+AddProperty.m</compoundname>
+    <includes refid="_n_s_object_09_add_property_8h" local="yes">NSObject+AddProperty.h</includes>
+    <includes local="no">objc/runtime.h</includes>
+    <incdepgraph>
+      <node id="646">
+        <label>NSObject+AddProperty.h</label>
+        <link refid="_n_s_object_09_add_property_8h"/>
+        <childnode refid="647" relation="include">
+        </childnode>
+      </node>
+      <node id="645">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSObject/NSObject+AddProperty.m</label>
+        <link refid="NSObject+AddProperty.m"/>
+        <childnode refid="646" relation="include">
+        </childnode>
+        <childnode refid="648" relation="include">
+        </childnode>
+      </node>
+      <node id="648">
+        <label>objc/runtime.h</label>
+      </node>
+      <node id="647">
+        <label>Foundation/Foundation.h</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="_n_s_object_09_add_property_8m_1aa465e3bf5527b8e46ba7040df121f9a9" prot="public" static="yes" mutable="no">
+        <type>const void *</type>
+        <definition>const void* StringProperty</definition>
+        <argsstring></argsstring>
+        <name>StringProperty</name>
+        <initializer>= &amp;StringProperty</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSObject/NSObject+AddProperty.m" line="13" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSObject/NSObject+AddProperty.m" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_n_s_object_09_add_property_8m_1af22ef1fbbfa62f4ee96b0d0b47245c43" prot="public" static="yes" mutable="no">
+        <type>const void *</type>
+        <definition>const void* IntegerProperty</definition>
+        <argsstring></argsstring>
+        <name>IntegerProperty</name>
+        <initializer>= &amp;IntegerProperty</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSObject/NSObject+AddProperty.m" line="14" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSObject/NSObject+AddProperty.m" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>NSObject+AddProperty.m</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>iOS-Categories<sp/>(https://github.com/shaojiankui/iOS-Categories)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Jakey<sp/>on<sp/>14/12/15.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2014年<sp/>www.skyfox.org.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_n_s_object_09_add_property_8h" kindref="compound">NSObject+AddProperty.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;objc/runtime.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="comment">//objc_getAssociatedObject和objc_setAssociatedObject都需要指定一个固定的地址，这个固定的地址值用来表示属性的key，起到一个常量的作用。</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*StringProperty<sp/>=<sp/>&amp;StringProperty;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*IntegerProperty<sp/>=<sp/>&amp;IntegerProperty;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="comment">//static<sp/>char<sp/>IntegerProperty;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="category_n_s_object_07_add_property_08" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">@implementation<sp/></highlight><highlight class="normal"><ref refid="category_n_s_object_07_add_property_08" kindref="compound">NSObject (AddProperty)</ref></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal">@dynamic<sp/><ref refid="category_n_s_object_07_add_property_08_1a72d0aa08365c3f86a64c413dfd014a14" kindref="member">stringProperty</ref>;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="comment">//set</highlight></codeline>
+<codeline lineno="24"><highlight class="comment"></highlight><highlight class="normal">-(void)setStringProperty:(NSString<sp/>*)stringProperty{</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//use<sp/>that<sp/>a<sp/>static<sp/>const<sp/>as<sp/>the<sp/>key</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>objc_setAssociatedObject(</highlight><highlight class="keyword">self</highlight><highlight class="normal">,<sp/>StringProperty,<sp/><ref refid="category_n_s_object_07_add_property_08_1a72d0aa08365c3f86a64c413dfd014a14" kindref="member">stringProperty</ref>,<sp/>OBJC_ASSOCIATION_RETAIN_NONATOMIC);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//use<sp/>that<sp/>property&apos;s<sp/>selector<sp/>as<sp/>the<sp/>key:</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//objc_setAssociatedObject(self,<sp/>@selector(stringProperty),<sp/>stringProperty,<sp/>OBJC_ASSOCIATION_RETAIN_NONATOMIC);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="comment">//get</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal">-(NSString<sp/>*)<ref refid="category_n_s_object_07_add_property_08_1a72d0aa08365c3f86a64c413dfd014a14" kindref="member">stringProperty</ref>{</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>objc_getAssociatedObject(</highlight><highlight class="keyword">self</highlight><highlight class="normal">,<sp/>StringProperty);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="comment">//set</highlight></codeline>
+<codeline lineno="39"><highlight class="comment"></highlight><highlight class="normal">-(void)setIntegerProperty:(NSInteger)integerProperty{</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>NSNumber<sp/>*number<sp/>=<sp/>[[NSNumber<sp/>alloc]initWithInteger:integerProperty];</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>objc_setAssociatedObject(</highlight><highlight class="keyword">self</highlight><highlight class="normal">,<sp/>IntegerProperty,<sp/>number,<sp/>OBJC_ASSOCIATION_ASSIGN);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="comment">//get</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal">-(NSInteger)<ref refid="category_n_s_object_07_add_property_08_1af10b687e72e2cc6603743ca2ac397a75" kindref="member">integerProperty</ref>{</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[objc_getAssociatedObject(self,<sp/>IntegerProperty)<sp/>integerValue];</highlight></codeline>
+<codeline lineno="46"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSObject/NSObject+AddProperty.m"/>
+  </compounddef>
+</doxygen>

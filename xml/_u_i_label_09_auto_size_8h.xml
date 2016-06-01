@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_u_i_label_09_auto_size_8h" kind="file" language="C++">
+    <compoundname>UILabel+AutoSize.h</compoundname>
+    <includes local="no">UIKit/UIKit.h</includes>
+    <includedby refid="_u_i_label_09_auto_size_8m" local="yes">XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UILabel/UILabel+AutoSize.m</includedby>
+    <incdepgraph>
+      <node id="1669">
+        <label>UIKit/UIKit.h</label>
+      </node>
+      <node id="1668">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UILabel/UILabel+AutoSize.h</label>
+        <link refid="UILabel+AutoSize.h"/>
+        <childnode refid="1669" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1670">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UILabel/UILabel+AutoSize.h</label>
+        <link refid="UILabel+AutoSize.h"/>
+        <childnode refid="1671" relation="include">
+        </childnode>
+      </node>
+      <node id="1671">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UILabel/UILabel+AutoSize.m</label>
+        <link refid="_u_i_label_09_auto_size_8m"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="category_u_i_label_07_auto_size_08" prot="public">UILabel(AutoSize)</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>UILabel+AutoSize.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>iOS-Categories<sp/>(https://github.com/shaojiankui/iOS-Categories)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Jakey<sp/>on<sp/>15/5/22.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2015年<sp/>www.skyfox.org.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;UIKit/UIKit.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="category_u_i_label_07_auto_size_08" kindref="compound">UILabel (AutoSize)</ref></highlight></codeline>
+<codeline lineno="17"><highlight class="normal">-<sp/>(UILabel<sp/>*)<ref refid="category_u_i_label_07_auto_size_08_1a00555c63805abd45262d7e20bc575ad4" kindref="member">resizeLabelHorizontal</ref>;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal">-<sp/>(UILabel<sp/>*)<ref refid="category_u_i_label_07_auto_size_08_1a618a898ad51a154c10476268dff1724f" kindref="member">resizeLabelVertical</ref>;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal">-<sp/>(UILabel<sp/>*)<ref refid="category_u_i_label_07_auto_size_08_1a00555c63805abd45262d7e20bc575ad4" kindref="member">resizeLabelHorizontal</ref>:(CGFloat)minimumWidth;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal">-<sp/>(UILabel<sp/>*)<ref refid="category_u_i_label_07_auto_size_08_1a618a898ad51a154c10476268dff1724f" kindref="member">resizeLabelVertical</ref>:(CGFloat)minimumHeigh;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UILabel/UILabel+AutoSize.h"/>
+  </compounddef>
+</doxygen>

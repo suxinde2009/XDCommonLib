@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_u_i_image_09_color_8h" kind="file" language="C++">
+    <compoundname>UIImage+Color.h</compoundname>
+    <includes local="no">UIKit/UIKit.h</includes>
+    <includedby refid="_u_i_image_09_color_8m" local="yes">XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImage/UIImage+Color.m</includedby>
+    <incdepgraph>
+      <node id="1492">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImage/UIImage+Color.h</label>
+        <link refid="UIImage+Color.h"/>
+        <childnode refid="1493" relation="include">
+        </childnode>
+      </node>
+      <node id="1493">
+        <label>UIKit/UIKit.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1494">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImage/UIImage+Color.h</label>
+        <link refid="UIImage+Color.h"/>
+        <childnode refid="1495" relation="include">
+        </childnode>
+      </node>
+      <node id="1495">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImage/UIImage+Color.m</label>
+        <link refid="_u_i_image_09_color_8m"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="category_u_i_image_07_color_08" prot="public">UIImage(Color)</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>UIImage+Color.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>iOS-Categories<sp/>(https://github.com/shaojiankui/iOS-Categories)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Jakey<sp/>on<sp/>14/12/15.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2014年<sp/>www.skyfox.org.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;UIKit/UIKit.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="category_u_i_image_07_color_08" kindref="compound">UIImage (Color)</ref></highlight></codeline>
+<codeline lineno="19"><highlight class="normal">+<sp/>(UIImage<sp/>*)imageWithColor:(UIColor<sp/>*)color;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal">-<sp/>(UIColor<sp/>*)colorAtPoint:(CGPoint<sp/>)point;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="comment">//more<sp/>accurate<sp/>method<sp/>,colorAtPixel<sp/>1x1<sp/>pixel</highlight></codeline>
+<codeline lineno="36"><highlight class="comment"></highlight><highlight class="normal">-<sp/>(UIColor<sp/>*)colorAtPixel:(CGPoint)point;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal">-<sp/>(BOOL)<ref refid="category_u_i_image_07_color_08_1a99c81ceffe88425b92e7d81883987ae7" kindref="member">hasAlphaChannel</ref>;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal">+<sp/>(UIImage*)covertToGrayImageFromImage:(UIImage*)sourceImage;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImage/UIImage+Color.h"/>
+  </compounddef>
+</doxygen>

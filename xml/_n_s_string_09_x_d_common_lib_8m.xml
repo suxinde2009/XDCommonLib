@@ -1,0 +1,373 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_n_s_string_09_x_d_common_lib_8m" kind="file" language="Objective-C">
+    <compoundname>NSString+XDCommonLib.m</compoundname>
+    <includes local="no">CommonCrypto/CommonCrypto.h</includes>
+    <includes refid="_n_s_string_09_x_d_common_lib_8h" local="yes">NSString+XDCommonLib.h</includes>
+    <incdepgraph>
+      <node id="1001">
+        <label>UIKit/UIKit.h</label>
+      </node>
+      <node id="998">
+        <label>CommonCrypto/CommonCrypto.h</label>
+      </node>
+      <node id="999">
+        <label>NSString+XDCommonLib.h</label>
+        <link refid="_n_s_string_09_x_d_common_lib_8h"/>
+        <childnode refid="1000" relation="include">
+        </childnode>
+        <childnode refid="1001" relation="include">
+        </childnode>
+      </node>
+      <node id="997">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+XDCommonLib.m</label>
+        <link refid="NSString+XDCommonLib.m"/>
+        <childnode refid="998" relation="include">
+        </childnode>
+        <childnode refid="999" relation="include">
+        </childnode>
+      </node>
+      <node id="1000">
+        <label>Foundation/Foundation.h</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>NSString+XDCommonLib.m</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>XDCommonLib</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>suxinde<sp/>on<sp/>16/4/11.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>¬©<sp/>2016Âπ¥<sp/>su<sp/>xinde.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;CommonCrypto/CommonCrypto.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_n_s_string_09_x_d_common_lib_8h" kindref="compound">NSString+XDCommonLib.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="category_n_s_string_07_x_d_common_lib_08" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">@implementation<sp/></highlight><highlight class="normal"><ref refid="category_n_s_string_07_x_d_common_lib_08" kindref="compound">NSString (XDCommonLib)</ref></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal">+<sp/>(NSString<sp/>*<sp/>_Nonnull)searchInString:(NSString<sp/>*)string<sp/>charStart:(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">)charStart<sp/>charEnd:(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">)charEnd<sp/>{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>start<sp/>=<sp/>0,<sp/>end<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>[string<sp/>length];<sp/>i++)<sp/>{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>([</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>characterAtIndex:i]<sp/>==<sp/>charStart<sp/>&amp;&amp;<sp/>start<sp/>==<sp/>0)<sp/>{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>start<sp/>=<sp/>i+1;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>i<sp/>+=<sp/>1;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">continue</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>([</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>characterAtIndex:i]<sp/>==<sp/>charEnd)<sp/>{</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>end<sp/>=<sp/>i;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>end<sp/>-=<sp/>start;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(end<sp/>&lt;<sp/>0)<sp/>{</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>end<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[[string<sp/>substringFromIndex:start]<sp/>substringToIndex:end];</highlight></codeline>
+<codeline lineno="37"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39" refid="category_n_s_string_07_x_d_common_lib_08_1ab9cfad850c96e522eebf4ebdc3cf55f5" refkind="member"><highlight class="normal">-<sp/>(NSString<sp/>*<sp/>_Nonnull)searchCharStart:(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">)start<sp/>charEnd:(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">)end<sp/>{</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[NSString<sp/>searchInString:self<sp/>charStart:start<sp/>charEnd:end];</highlight></codeline>
+<codeline lineno="41"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43" refid="category_n_s_string_07_x_d_common_lib_08_1adee4b6beb5d9b2cb7420e52834a1cd31" refkind="member"><highlight class="normal">-<sp/>(NSInteger)indexOfCharacter:(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">)character<sp/>{</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(NSUInteger<sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>length];<sp/>i++)<sp/>{</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>([</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>characterAtIndex:i]<sp/>==<sp/>character)<sp/>{</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>i;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>-1;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="category_n_s_string_07_x_d_common_lib_08_1ab7f1981329478324005d5e2c06727e08" refkind="member"><highlight class="normal">-<sp/>(NSString<sp/>*<sp/>_Nonnull)substringFromCharacter:(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">)character<sp/>{</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>NSInteger<sp/>index<sp/>=<sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/><ref refid="category_n_s_string_07_x_d_common_lib_08_1adee4b6beb5d9b2cb7420e52834a1cd31" kindref="member">indexOfCharacter</ref>:character];</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(index<sp/>!=<sp/>-1)<sp/>{</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>substringFromIndex:index];</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">@&quot;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="60"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62" refid="category_n_s_string_07_x_d_common_lib_08_1a7a47e254a5cfe1785cd2c0cdae7af158" refkind="member"><highlight class="normal">-<sp/>(NSString<sp/>*<sp/>_Nonnull)substringToCharacter:(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">)character<sp/>{</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/>NSInteger<sp/>index<sp/>=<sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/><ref refid="category_n_s_string_07_x_d_common_lib_08_1adee4b6beb5d9b2cb7420e52834a1cd31" kindref="member">indexOfCharacter</ref>:character];</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(index<sp/>!=<sp/>-1)<sp/>{</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>substringToIndex:index];</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">@&quot;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="69"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal">+<sp/>(NSString<sp/>*<sp/>_Nullable)MD5:(NSString<sp/>*<sp/>_Nonnull)string<sp/>{</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>==<sp/>nil<sp/>||<sp/>[</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>length]<sp/>==<sp/>0)<sp/>{</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>nil;</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>digest[CC_MD5_DIGEST_LENGTH],<sp/>i;</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/>CC_MD5([</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>UTF8String],<sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)[</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>lengthOfBytesUsingEncoding:NSUTF8StringEncoding],<sp/>digest);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/>NSMutableString<sp/>*ms<sp/>=<sp/>[NSMutableString<sp/>string];</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>CC_MD5_DIGEST_LENGTH;<sp/>i++)<sp/>{</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[ms<sp/>appendFormat:<sp/>@&quot;%02x&quot;,<sp/>(int)(digest[i])];</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[ms<sp/>copy];</highlight></codeline>
+<codeline lineno="84"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal">+<sp/>(NSString<sp/>*<sp/>_Nullable)SHA1:(NSString<sp/>*<sp/>_Nonnull)string<sp/>{</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>==<sp/>nil<sp/>||<sp/>[</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>length]<sp/>==<sp/>0)<sp/>{</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>nil;</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>digest[CC_SHA1_DIGEST_LENGTH],<sp/>i;</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/>CC_SHA1([</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>UTF8String],<sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)[</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>lengthOfBytesUsingEncoding:NSUTF8StringEncoding],<sp/>digest);</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/>NSMutableString<sp/>*ms<sp/>=<sp/>[NSMutableString<sp/>string];</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>CC_SHA1_DIGEST_LENGTH;<sp/>i++)<sp/>{</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[ms<sp/>appendFormat:<sp/>@&quot;%02x&quot;,<sp/>(int)(digest[i])];</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[ms<sp/>copy];</highlight></codeline>
+<codeline lineno="98"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal">+<sp/>(NSString<sp/>*<sp/>_Nullable)SHA256:(NSString<sp/>*<sp/>_Nonnull)string<sp/>{</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>==<sp/>nil<sp/>||<sp/>[</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>length]<sp/>==<sp/>0)<sp/>{</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>nil;</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>digest[CC_SHA256_DIGEST_LENGTH],<sp/>i;</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/>CC_SHA256([</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>UTF8String],<sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)[</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>lengthOfBytesUsingEncoding:NSUTF8StringEncoding],<sp/>digest);</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/>NSMutableString<sp/>*ms<sp/>=<sp/>[NSMutableString<sp/>string];</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>CC_SHA256_DIGEST_LENGTH;<sp/>i++)<sp/>{</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[ms<sp/>appendFormat:<sp/>@&quot;%02x&quot;,<sp/>(int)(digest[i])];</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[ms<sp/>copy];</highlight></codeline>
+<codeline lineno="112"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal">+<sp/>(NSString<sp/>*<sp/>_Nullable)SHA512:(NSString<sp/>*<sp/>_Nonnull)string<sp/>{</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>==<sp/>nil<sp/>||<sp/>[</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>length]<sp/>==<sp/>0)<sp/>{</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>nil;</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>digest[CC_SHA512_DIGEST_LENGTH],<sp/>i;</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/>CC_SHA512([</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>UTF8String],<sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)[</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>lengthOfBytesUsingEncoding:NSUTF8StringEncoding],<sp/>digest);</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/>NSMutableString<sp/>*ms<sp/>=<sp/>[NSMutableString<sp/>string];</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>CC_SHA512_DIGEST_LENGTH;<sp/>i++)</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[ms<sp/>appendFormat:<sp/>@&quot;%02x&quot;,<sp/>(int)(digest[i])];</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[ms<sp/>copy];</highlight></codeline>
+<codeline lineno="127"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130"><highlight class="normal">-<sp/>(NSString<sp/>*<sp/>_Nullable)MD5<sp/>{</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>class]<sp/>MD5:self];</highlight></codeline>
+<codeline lineno="132"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight></codeline>
+<codeline lineno="134"><highlight class="normal">-<sp/>(NSString<sp/>*<sp/>_Nullable)SHA1<sp/>{</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>class]<sp/>SHA1:self];</highlight></codeline>
+<codeline lineno="136"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight></codeline>
+<codeline lineno="138"><highlight class="normal">-<sp/>(NSString<sp/>*<sp/>_Nullable)SHA256<sp/>{</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>class]<sp/>SHA256:self];</highlight></codeline>
+<codeline lineno="140"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight></codeline>
+<codeline lineno="142"><highlight class="normal">-<sp/>(NSString<sp/>*<sp/>_Nullable)SHA512<sp/>{</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>class]<sp/>SHA512:self];</highlight></codeline>
+<codeline lineno="144"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"></highlight></codeline>
+<codeline lineno="146" refid="category_n_s_string_07_x_d_common_lib_08_1a3d16f7e3c0a82fb7686939dd7b09d2e0" refkind="member"><highlight class="normal">-<sp/>(BOOL)hasString:(NSString<sp/>*<sp/>_Nonnull)substring<sp/>{</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/><ref refid="category_n_s_string_07_x_d_common_lib_08_1ab17b81a3f7ec08d84fd3b25e3dba67c2" kindref="member">hasString</ref>:substring<sp/><ref refid="category_n_s_string_07_x_d_common_lib_08_1ab17b81a3f7ec08d84fd3b25e3dba67c2" kindref="member">caseSensitive</ref>:YES];</highlight></codeline>
+<codeline lineno="148"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"></highlight></codeline>
+<codeline lineno="150"><highlight class="normal">-<sp/>(BOOL)hasString:(NSString<sp/>*)substring<sp/>caseSensitive:(BOOL)caseSensitive<sp/>{</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(caseSensitive)<sp/>{</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>rangeOfString:substring].location<sp/>!=<sp/>NSNotFound;</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal">.lowercaseString<sp/>rangeOfString:substring.lowercaseString].location<sp/>!=<sp/>NSNotFound;</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="156"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight></codeline>
+<codeline lineno="158" refid="category_n_s_string_07_x_d_common_lib_08_1a9308161f6116dfc1c87ec4db14fbb48f" refkind="member"><highlight class="normal">-<sp/>(BOOL)<ref refid="category_n_s_string_07_x_d_common_lib_08_1a9308161f6116dfc1c87ec4db14fbb48f" kindref="member">isEmail</ref><sp/>{</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[NSString<sp/>isEmail:self];</highlight></codeline>
+<codeline lineno="160"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"></highlight></codeline>
+<codeline lineno="162" refid="category_n_s_string_07_x_d_common_lib_08_1a41b6d5dc96603959619f37f972cbb56f" refkind="member"><highlight class="normal">+<sp/>(BOOL)<ref refid="category_n_s_string_07_x_d_common_lib_08_1a9308161f6116dfc1c87ec4db14fbb48f" kindref="member">isEmail</ref>:(NSString<sp/>*<sp/>_Nonnull)email<sp/>{</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/>NSString<sp/>*emailRegEx<sp/>=<sp/></highlight><highlight class="stringliteral">@&quot;^[a-zA-Z0-9.!#$%&amp;&apos;*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/>NSPredicate<sp/>*regExPredicate<sp/>=<sp/>[NSPredicate<sp/>predicateWithFormat:@&quot;SELF<sp/>MATCHES<sp/>%@&quot;,<sp/>emailRegEx];</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[regExPredicate<sp/>evaluateWithObject:[email<sp/>lowercaseString]];</highlight></codeline>
+<codeline lineno="167"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"></highlight></codeline>
+<codeline lineno="169" refid="category_n_s_string_07_x_d_common_lib_08_1a8164b273fe75bdafe3dc0b5efa1ef736" refkind="member"><highlight class="normal">+<sp/>(NSString<sp/>*<sp/>_Nonnull)convertToUTF8Entities:(NSString<sp/>*<sp/>_Nonnull)string<sp/>{</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[string</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>stringByReplacingOccurrencesOfString:@&quot;%27&quot;<sp/>withString:@&quot;&apos;&quot;]</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>stringByReplacingOccurrencesOfString:[@&quot;%e2%80%99&quot;<sp/>capitalizedString]<sp/>withString:@&quot;‚ PM›Äô&quot;]</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>stringByReplacingOccurrencesOfString:[@&quot;%2d&quot;<sp/>capitalizedString]<sp/>withString:@&quot;-&quot;]</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>stringByReplacingOccurrencesOfString:[@&quot;%c2%ab&quot;<sp/>capitalizedString]<sp/>withString:@&quot;¬ PM›´&quot;]</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>stringByReplacingOccurrencesOfString:[@&quot;%c2%bb&quot;<sp/>capitalizedString]<sp/>withString:@&quot;¬ <sp/>t›ª&quot;]</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>stringByReplacingOccurrencesOfString:[@&quot;%c3%80&quot;<sp/>capitalizedString]<sp/>withString:@&quot;√ PM›Ä&quot;]</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>stringByReplacingOccurrencesOfString:[@&quot;%c3%82&quot;<sp/>capitalizedString]<sp/>withString:@&quot;√ <sp/>t›Ç&quot;]</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>stringByReplacingOccurrencesOfString:[@&quot;%c3%84&quot;<sp/>capitalizedString]<sp/>withString:@&quot;√ PM›Ñ&quot;]</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>stringByReplacingOccurrencesOfString:[@&quot;%c3%86&quot;<sp/>capitalizedString]<sp/>withString:@&quot;√ <sp/>t›Ü&quot;]</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>stringByReplacingOccurrencesOfString:[@&quot;%c3%87&quot;<sp/>capitalizedString]<sp/>withString:@&quot;√ PM›á&quot;]</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>stringByReplacingOccurrencesOfString:[@&quot;%c3%88&quot;<sp/>capitalizedString]<sp/>withString:@&quot;√ <sp/>t›à&quot;]</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>stringByReplacingOccurrencesOfString:[@&quot;%c3%89&quot;<sp/>capitalizedString]<sp/>withString:@&quot;√ PM›â&quot;]</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>stringByReplacingOccurrencesOfString:[@&quot;%c3%8a&quot;<sp/>capitalizedString]<sp/>withString:@&quot;√ <sp/>t›ä&quot;]</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>stringByReplacingOccurrencesOfString:[@&quot;%c3%8b&quot;<sp/>capitalizedString]<sp/>withString:@&quot;√ PM›ã&quot;]</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>stringByReplacingOccurrencesOfString:[@&quot;%c3%8f&quot;<sp/>capitalizedString]<sp/>withString:@&quot;√ <sp/>t›è&quot;]</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>stringByReplacingOccurrencesOfString:[@&quot;%c3%91&quot;<sp/>capitalizedString]<sp/>withString:@&quot;√ PM›ë&quot;]</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>stringByReplacingOccurrencesOfString:[@&quot;%c3%94&quot;<sp/>capitalizedString]<sp/>withString:@&quot;√ <sp/>t›î&quot;]</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>stringByReplacingOccurrencesOfString:[@&quot;%c3%96&quot;<sp/>capitalizedString]<sp/>withString:@&quot;√ PM›ñ&quot;]</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>stringByReplacingOccurrencesOfString:[@&quot;%c3%9b&quot;<sp/>capitalizedString]<sp/>withString:@&quot;√ <sp/>t›õ&quot;]</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>stringByReplacingOccurrencesOfString:[@&quot;%c3%9c&quot;<sp/>capitalizedString]<sp/>withString:@&quot;√ PM›ú&quot;]</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>stringByReplacingOccurrencesOfString:[@&quot;%c3%a0&quot;<sp/>capitalizedString]<sp/>withString:@&quot;√ <sp/>t›†&quot;]</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>stringByReplacingOccurrencesOfString:[@&quot;%c3%a2&quot;<sp/>capitalizedString]<sp/>withString:@&quot;√ PM›¢&quot;]</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>stringByReplacingOccurrencesOfString:[@&quot;%c3%a4&quot;<sp/>capitalizedString]<sp/>withString:@&quot;√ <sp/>t›§&quot;]</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>stringByReplacingOccurrencesOfString:[@&quot;%c3%a6&quot;<sp/>capitalizedString]<sp/>withString:@&quot;√ PM›¶&quot;]</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>stringByReplacingOccurrencesOfString:[@&quot;%c3%a7&quot;<sp/>capitalizedString]<sp/>withString:@&quot;√ <sp/>t›ß&quot;]</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>stringByReplacingOccurrencesOfString:[@&quot;%c3%a8&quot;<sp/>capitalizedString]<sp/>withString:@&quot;√ PM›®&quot;]</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>stringByReplacingOccurrencesOfString:[@&quot;%c3%a9&quot;<sp/>capitalizedString]<sp/>withString:@&quot;√ <sp/>t›©&quot;]</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>stringByReplacingOccurrencesOfString:[@&quot;%c3%af&quot;<sp/>capitalizedString]<sp/>withString:@&quot;√ PM›Ø&quot;]</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>stringByReplacingOccurrencesOfString:[@&quot;%c3%b4&quot;<sp/>capitalizedString]<sp/>withString:@&quot;√ <sp/>t›¥&quot;]</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>stringByReplacingOccurrencesOfString:[@&quot;%c3%b6&quot;<sp/>capitalizedString]<sp/>withString:@&quot;√ PM›∂&quot;]</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>stringByReplacingOccurrencesOfString:[@&quot;%c3%bb&quot;<sp/>capitalizedString]<sp/>withString:@&quot;√ <sp/>t›ª&quot;]</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>stringByReplacingOccurrencesOfString:[@&quot;%c3%bc&quot;<sp/>capitalizedString]<sp/>withString:@&quot;√ PM›º&quot;]</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>stringByReplacingOccurrencesOfString:[@&quot;%c3%bf&quot;<sp/>capitalizedString]<sp/>withString:@&quot;√ <sp/>t›ø&quot;]</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>stringByReplacingOccurrencesOfString:@&quot;%20&quot;<sp/>withString:@&quot;<sp/>&quot;];</highlight></codeline>
+<codeline lineno="205"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"></highlight></codeline>
+<codeline lineno="207" refid="category_n_s_string_07_x_d_common_lib_08_1a569a97dd71881994ffa9657f970f5026" refkind="member"><highlight class="normal">+<sp/>(NSString<sp/>*<sp/>_Nonnull)<ref refid="category_n_s_string_07_x_d_common_lib_08_1aea689c63cda8a1db4411b0b5b52b5042" kindref="member">encodeToBase64</ref>:(NSString<sp/>*<sp/>_Nonnull)string<sp/>{</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/><sp/><sp/>NSData<sp/>*data<sp/>=<sp/>[string<sp/>convertToNSData];</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[data<sp/>base64EncodedStringWithOptions:0];</highlight></codeline>
+<codeline lineno="210"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"></highlight></codeline>
+<codeline lineno="212" refid="category_n_s_string_07_x_d_common_lib_08_1aea689c63cda8a1db4411b0b5b52b5042" refkind="member"><highlight class="normal">-<sp/>(NSString<sp/>*<sp/>_Nonnull)<ref refid="category_n_s_string_07_x_d_common_lib_08_1aea689c63cda8a1db4411b0b5b52b5042" kindref="member">encodeToBase64</ref><sp/>{</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[NSString<sp/>encodeToBase64:self];</highlight></codeline>
+<codeline lineno="214"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"></highlight></codeline>
+<codeline lineno="216" refid="category_n_s_string_07_x_d_common_lib_08_1ab38ea880452ff5a7187d05c2b17d3b1e" refkind="member"><highlight class="normal">+<sp/>(NSString<sp/>*<sp/>_Nonnull)<ref refid="category_n_s_string_07_x_d_common_lib_08_1a4a470bb3e8feec63803d254d464189d9" kindref="member">decodeBase64</ref>:(NSString<sp/>*<sp/>_Nonnull)string<sp/>{</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/><sp/><sp/><sp/>NSData<sp/>*data<sp/>=<sp/>[[NSData<sp/>alloc]<sp/>initWithBase64EncodedString:string<sp/>options:0];</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[[NSString<sp/>alloc]<sp/>initWithData:data</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>encoding:NSUTF8StringEncoding];</highlight></codeline>
+<codeline lineno="220"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"></highlight></codeline>
+<codeline lineno="222" refid="category_n_s_string_07_x_d_common_lib_08_1a4a470bb3e8feec63803d254d464189d9" refkind="member"><highlight class="normal">-<sp/>(NSString<sp/>*<sp/>_Nonnull)<ref refid="category_n_s_string_07_x_d_common_lib_08_1a4a470bb3e8feec63803d254d464189d9" kindref="member">decodeBase64</ref><sp/>{</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[NSString<sp/>decodeBase64:self];</highlight></codeline>
+<codeline lineno="224"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"></highlight></codeline>
+<codeline lineno="226" refid="category_n_s_string_07_x_d_common_lib_08_1a59d31dd3a03cb91e2f523c8e4f4a55b4" refkind="member"><highlight class="normal">+<sp/>(NSData<sp/>*<sp/>_Nonnull)<ref refid="category_n_s_string_07_x_d_common_lib_08_1acad3fb412c8584e80178ef2c9faac421" kindref="member">convertToNSData</ref>:(NSString<sp/>*<sp/>_Nonnull)string<sp/>{</highlight></codeline>
+<codeline lineno="227"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[string<sp/>dataUsingEncoding:NSUTF8StringEncoding];</highlight></codeline>
+<codeline lineno="228"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"></highlight></codeline>
+<codeline lineno="230" refid="category_n_s_string_07_x_d_common_lib_08_1acad3fb412c8584e80178ef2c9faac421" refkind="member"><highlight class="normal">-<sp/>(NSData<sp/>*<sp/>_Nonnull)<ref refid="category_n_s_string_07_x_d_common_lib_08_1acad3fb412c8584e80178ef2c9faac421" kindref="member">convertToNSData</ref><sp/>{</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[NSString<sp/>convertToNSData:self];</highlight></codeline>
+<codeline lineno="232"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"></highlight></codeline>
+<codeline lineno="234" refid="category_n_s_string_07_x_d_common_lib_08_1a3fb2572ff8beaded2a61cd5f112c92d6" refkind="member"><highlight class="normal">-<sp/>(NSString<sp/>*<sp/>_Nonnull)<ref refid="category_n_s_string_07_x_d_common_lib_08_1a3fb2572ff8beaded2a61cd5f112c92d6" kindref="member">sentenceCapitalizedString</ref><sp/>{</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(![</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>length])<sp/>{</highlight></codeline>
+<codeline lineno="236"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">@&quot;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="237"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="238"><highlight class="normal"><sp/><sp/><sp/><sp/>NSString<sp/>*uppercase<sp/>=<sp/>[[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>substringToIndex:1]<sp/>uppercaseString];</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"><sp/><sp/><sp/><sp/>NSString<sp/>*lowercase<sp/>=<sp/>[[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>substringFromIndex:1]<sp/>lowercaseString];</highlight></codeline>
+<codeline lineno="240"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="241"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[uppercase<sp/>stringByAppendingString:lowercase];</highlight></codeline>
+<codeline lineno="242"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="243"><highlight class="normal"></highlight></codeline>
+<codeline lineno="244" refid="category_n_s_string_07_x_d_common_lib_08_1af5a2051305fbe46718b9031e575069c8" refkind="member"><highlight class="normal">-<sp/>(NSString<sp/>*<sp/>_Nonnull)<ref refid="category_n_s_string_07_x_d_common_lib_08_1af5a2051305fbe46718b9031e575069c8" kindref="member">dateFromTimestamp</ref><sp/>{</highlight></codeline>
+<codeline lineno="245"><highlight class="normal"><sp/><sp/><sp/><sp/>NSString<sp/>*year<sp/>=<sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>substringToIndex:4];</highlight></codeline>
+<codeline lineno="246"><highlight class="normal"><sp/><sp/><sp/><sp/>NSString<sp/>*month<sp/>=<sp/>[[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>substringFromIndex:5]<sp/>substringToIndex:2];</highlight></codeline>
+<codeline lineno="247"><highlight class="normal"><sp/><sp/><sp/><sp/>NSString<sp/>*day<sp/>=<sp/>[[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>substringFromIndex:8]<sp/>substringToIndex:2];</highlight></codeline>
+<codeline lineno="248"><highlight class="normal"><sp/><sp/><sp/><sp/>NSString<sp/>*hours<sp/>=<sp/>[[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>substringFromIndex:11]<sp/>substringToIndex:2];</highlight></codeline>
+<codeline lineno="249"><highlight class="normal"><sp/><sp/><sp/><sp/>NSString<sp/>*minutes<sp/>=<sp/>[[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>substringFromIndex:14]<sp/>substringToIndex:2];</highlight></codeline>
+<codeline lineno="250"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="251"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[NSString<sp/>stringWithFormat:@&quot;%@/%@/%@<sp/>%@:%@&quot;,<sp/>day,<sp/>month,<sp/>year,<sp/>hours,<sp/>minutes];</highlight></codeline>
+<codeline lineno="252"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="253"><highlight class="normal"></highlight></codeline>
+<codeline lineno="254"><highlight class="normal">-<sp/>(NSString<sp/>*<sp/>_Nonnull)urlEncode<sp/>{</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>URLEncode];</highlight></codeline>
+<codeline lineno="256"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="257"><highlight class="normal"></highlight></codeline>
+<codeline lineno="258" refid="category_n_s_string_07_x_d_common_lib_08_1a1bccb69f4d29824b3a1e82e0f7bd640e" refkind="member"><highlight class="normal">-<sp/>(NSString<sp/>*<sp/>_Nonnull)<ref refid="category_n_s_string_07_x_d_common_lib_08_1a1bccb69f4d29824b3a1e82e0f7bd640e" kindref="member">URLEncode</ref><sp/>{</highlight></codeline>
+<codeline lineno="259"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>stringByAddingPercentEncodingWithAllowedCharacters:[NSCharacterSet<sp/>URLHostAllowedCharacterSet]];</highlight></codeline>
+<codeline lineno="260"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="261"><highlight class="normal"></highlight></codeline>
+<codeline lineno="262" refid="category_n_s_string_07_x_d_common_lib_08_1a72af34822cea788322c63faffe8bf097" refkind="member"><highlight class="normal">-<sp/>(NSString<sp/>*<sp/>_Nonnull)<ref refid="category_n_s_string_07_x_d_common_lib_08_1a72af34822cea788322c63faffe8bf097" kindref="member">removeExtraSpaces</ref><sp/>{</highlight></codeline>
+<codeline lineno="263"><highlight class="normal"><sp/><sp/><sp/><sp/>NSString<sp/>*squashed<sp/>=<sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>stringByReplacingOccurrencesOfString:@&quot;[<sp/>]+&quot;<sp/>withString:@&quot;<sp/>&quot;<sp/>options:NSRegularExpressionSearch<sp/>range:NSMakeRange(0,<sp/>self.length)];</highlight></codeline>
+<codeline lineno="264"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[squashed<sp/>stringByTrimmingCharactersInSet:[NSCharacterSet<sp/>whitespaceAndNewlineCharacterSet]];</highlight></codeline>
+<codeline lineno="265"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="266"><highlight class="normal"></highlight></codeline>
+<codeline lineno="267" refid="category_n_s_string_07_x_d_common_lib_08_1a388154db1c00889523afa95fa4ec1cc9" refkind="member"><highlight class="normal">-<sp/>(NSString<sp/>*<sp/>_Nonnull)stringByReplacingWithRegex:(NSString<sp/>*<sp/>_Nonnull)regexString<sp/>withString:(NSString<sp/>*<sp/>_Nonnull)replacement<sp/>{</highlight></codeline>
+<codeline lineno="268"><highlight class="normal"><sp/><sp/><sp/><sp/>NSRegularExpression<sp/>*regex<sp/>=<sp/>[NSRegularExpression<sp/>regularExpressionWithPattern:regexString<sp/>options:NSRegularExpressionCaseInsensitive<sp/>error:nil];</highlight></codeline>
+<codeline lineno="269"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[regex<sp/>stringByReplacingMatchesInString:self<sp/>options:0<sp/>range:NSMakeRange(0,<sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>length])<sp/>withTemplate:@&quot;&quot;];</highlight></codeline>
+<codeline lineno="270"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="271"><highlight class="normal"></highlight></codeline>
+<codeline lineno="272" refid="category_n_s_string_07_x_d_common_lib_08_1aab4b36485594fabeafcf468563ffdbbf" refkind="member"><highlight class="normal">-<sp/>(NSString<sp/>*<sp/>_Nonnull)<ref refid="category_n_s_string_07_x_d_common_lib_08_1aab4b36485594fabeafcf468563ffdbbf" kindref="member">HEXToString</ref><sp/>{</highlight></codeline>
+<codeline lineno="273"><highlight class="normal"><sp/><sp/><sp/><sp/>NSMutableString<sp/>*newString<sp/>=<sp/>[NSMutableString<sp/>string];</highlight></codeline>
+<codeline lineno="274"><highlight class="normal"><sp/><sp/><sp/><sp/>NSArray<sp/>*components<sp/>=<sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>componentsSeparatedByString:@&quot;<sp/>&quot;];</highlight></codeline>
+<codeline lineno="275"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(NSString<sp/>*<sp/>component<sp/>in<sp/>components)<sp/>{</highlight></codeline>
+<codeline lineno="276"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="277"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sscanf([component<sp/>cStringUsingEncoding:NSASCIIStringEncoding],<sp/></highlight><highlight class="stringliteral">&quot;%x&quot;</highlight><highlight class="normal">,<sp/>&amp;value);</highlight></codeline>
+<codeline lineno="278"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[newString<sp/>appendFormat:@&quot;%c&quot;,<sp/>(char)value];</highlight></codeline>
+<codeline lineno="279"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="280"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>newString;</highlight></codeline>
+<codeline lineno="281"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="282"><highlight class="normal"></highlight></codeline>
+<codeline lineno="283" refid="category_n_s_string_07_x_d_common_lib_08_1a05f8b7b74c3f6372fa1166d7ebfcf5ee" refkind="member"><highlight class="normal">-<sp/>(NSString<sp/>*<sp/>_Nonnull)<ref refid="category_n_s_string_07_x_d_common_lib_08_1a05f8b7b74c3f6372fa1166d7ebfcf5ee" kindref="member">stringToHEX</ref><sp/>{</highlight></codeline>
+<codeline lineno="284"><highlight class="normal"><sp/><sp/><sp/><sp/>NSUInteger<sp/>len<sp/>=<sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>length];</highlight></codeline>
+<codeline lineno="285"><highlight class="normal"><sp/><sp/><sp/><sp/>unichar<sp/>*chars<sp/>=<sp/>malloc(len<sp/>*<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(unichar));</highlight></codeline>
+<codeline lineno="286"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>getCharacters:chars];</highlight></codeline>
+<codeline lineno="287"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="288"><highlight class="normal"><sp/><sp/><sp/><sp/>NSMutableString<sp/>*hexString<sp/>=<sp/>[[NSMutableString<sp/>alloc]<sp/>init];</highlight></codeline>
+<codeline lineno="289"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="290"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(NSUInteger<sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>len;<sp/>i++<sp/>)<sp/>{</highlight></codeline>
+<codeline lineno="291"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[hexString<sp/>appendFormat:@&quot;%02x&quot;,<sp/>chars[i]];</highlight></codeline>
+<codeline lineno="292"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="293"><highlight class="normal"><sp/><sp/><sp/><sp/>free(chars);</highlight></codeline>
+<codeline lineno="294"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="295"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>hexString;</highlight></codeline>
+<codeline lineno="296"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="297"><highlight class="normal"></highlight></codeline>
+<codeline lineno="298" refid="category_n_s_string_07_x_d_common_lib_08_1a939b5f04edecc1708bca5d12ef392360" refkind="member"><highlight class="normal">+<sp/>(NSString<sp/>*<sp/>_Nonnull)<ref refid="category_n_s_string_07_x_d_common_lib_08_1a939b5f04edecc1708bca5d12ef392360" kindref="member">generateUUID</ref><sp/>{</highlight></codeline>
+<codeline lineno="299"><highlight class="normal"><sp/><sp/><sp/><sp/>CFUUIDRef<sp/>theUUID<sp/>=<sp/>CFUUIDCreate(NULL);</highlight></codeline>
+<codeline lineno="300"><highlight class="normal"><sp/><sp/><sp/><sp/>CFStringRef<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>=<sp/>CFUUIDCreateString(NULL,<sp/>theUUID);</highlight></codeline>
+<codeline lineno="301"><highlight class="normal"><sp/><sp/><sp/><sp/>CFRelease(theUUID);</highlight></codeline>
+<codeline lineno="302"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(__bridge_transfer<sp/>NSString<sp/>*)string;</highlight></codeline>
+<codeline lineno="303"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="304"><highlight class="normal"></highlight></codeline>
+<codeline lineno="305" refid="category_n_s_string_07_x_d_common_lib_08_1a46644daacbc285265f69e92f0063e33b" refkind="member"><highlight class="normal">-<sp/>(BOOL)<ref refid="category_n_s_string_07_x_d_common_lib_08_1a46644daacbc285265f69e92f0063e33b" kindref="member">isUUID</ref><sp/>{</highlight></codeline>
+<codeline lineno="306"><highlight class="normal"><sp/><sp/><sp/><sp/>NSRegularExpression<sp/>*regex<sp/>=<sp/>[NSRegularExpression<sp/>regularExpressionWithPattern:@&quot;^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$&quot;<sp/>options:NSRegularExpressionCaseInsensitive<sp/>error:nil];</highlight></codeline>
+<codeline lineno="307"><highlight class="normal"><sp/><sp/><sp/><sp/>NSUInteger<sp/>matches<sp/>=<sp/>[regex<sp/>numberOfMatchesInString:self<sp/>options:0<sp/>range:NSMakeRange(0,<sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>length])];</highlight></codeline>
+<codeline lineno="308"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>matches<sp/>==<sp/>1;</highlight></codeline>
+<codeline lineno="309"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="310"><highlight class="normal"></highlight></codeline>
+<codeline lineno="311" refid="category_n_s_string_07_x_d_common_lib_08_1a0609a8d6cf74a02876a1c8e795073987" refkind="member"><highlight class="normal">-<sp/>(BOOL)<ref refid="category_n_s_string_07_x_d_common_lib_08_1a0609a8d6cf74a02876a1c8e795073987" kindref="member">isUUIDForAPNS</ref><sp/>{</highlight></codeline>
+<codeline lineno="312"><highlight class="normal"><sp/><sp/><sp/><sp/>NSRegularExpression<sp/>*regex<sp/>=<sp/>[NSRegularExpression<sp/>regularExpressionWithPattern:@&quot;^[0-9a-f]{32}$&quot;<sp/>options:NSRegularExpressionCaseInsensitive<sp/>error:nil];</highlight></codeline>
+<codeline lineno="313"><highlight class="normal"><sp/><sp/><sp/><sp/>NSUInteger<sp/>matches<sp/>=<sp/>[regex<sp/>numberOfMatchesInString:self<sp/>options:0<sp/>range:NSMakeRange(0,<sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>length])];</highlight></codeline>
+<codeline lineno="314"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>matches<sp/>==<sp/>1;</highlight></codeline>
+<codeline lineno="315"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="316"><highlight class="normal"></highlight></codeline>
+<codeline lineno="317" refid="category_n_s_string_07_x_d_common_lib_08_1a37bdd96529836c431d69e8550085ea91" refkind="member"><highlight class="normal">-<sp/>(NSString<sp/>*<sp/>_Nonnull)<ref refid="category_n_s_string_07_x_d_common_lib_08_1a37bdd96529836c431d69e8550085ea91" kindref="member">convertToAPNSUUID</ref><sp/>{</highlight></codeline>
+<codeline lineno="318"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[[[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>stringByTrimmingCharactersInSet:[NSCharacterSet<sp/>characterSetWithCharactersInString:@&quot;&lt;&gt;&quot;]]<sp/>stringByReplacingOccurrencesOfString:@&quot;<sp/>&quot;<sp/>withString:@&quot;&quot;]<sp/>stringByReplacingOccurrencesOfString:@&quot;-&quot;<sp/>withString:@&quot;&quot;];</highlight></codeline>
+<codeline lineno="319"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="320"><highlight class="normal"></highlight></codeline>
+<codeline lineno="321" refid="category_n_s_string_07_x_d_common_lib_08_1a6850d26b9f93b10a1720ee9af4cd2a62" refkind="member"><highlight class="normal">-<sp/>(CGFloat)heightForWidth:(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal">)width<sp/>andFont:(UIFont<sp/>*<sp/>_Nonnull)font<sp/>{</highlight></codeline>
+<codeline lineno="322"><highlight class="normal"><sp/><sp/><sp/><sp/>CGSize<sp/>size<sp/>=<sp/>CGSizeZero;</highlight></codeline>
+<codeline lineno="323"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">self</highlight><highlight class="normal">.length<sp/>&gt;<sp/>0)<sp/>{</highlight></codeline>
+<codeline lineno="324"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CGRect<sp/>frame<sp/>=<sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>boundingRectWithSize:CGSizeMake(width,<sp/>999999)<sp/>options:NSStringDrawingUsesLineFragmentOrigin<sp/>attributes:@{<sp/>NSFontAttributeName:<sp/>font<sp/>}<sp/>context:nil];</highlight></codeline>
+<codeline lineno="325"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>size<sp/>=<sp/>CGSizeMake(frame.size.width,<sp/>frame.size.height<sp/>+<sp/>1);</highlight></codeline>
+<codeline lineno="326"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="327"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>size.height;</highlight></codeline>
+<codeline lineno="328"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="329"><highlight class="normal"></highlight></codeline>
+<codeline lineno="330"><highlight class="normal"></highlight></codeline>
+<codeline lineno="331"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+XDCommonLib.m"/>
+  </compounddef>
+</doxygen>

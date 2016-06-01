@@ -7,6 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
+/**
+ *  @brief NSString的hash方法
+ */
+
 @interface NSString (Hash)
 
 @property (readonly) NSString *md5String;

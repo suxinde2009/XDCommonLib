@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_n_s_timer_09_blocks_kit_8m" kind="file" language="Objective-C">
+    <compoundname>NSTimer+BlocksKit.m</compoundname>
+    <includes refid="_n_s_timer_09_blocks_kit_8h" local="yes">NSTimer+BlocksKit.h</includes>
+    <incdepgraph>
+      <node id="2850">
+        <label>Foundation/NSObjCRuntime.h</label>
+      </node>
+      <node id="2848">
+        <label>NSTimer+BlocksKit.h</label>
+        <link refid="_n_s_timer_09_blocks_kit_8h"/>
+        <childnode refid="2849" relation="include">
+        </childnode>
+        <childnode refid="2851" relation="include">
+        </childnode>
+      </node>
+      <node id="2847">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSTimer+BlocksKit.m</label>
+        <link refid="NSTimer+BlocksKit.m"/>
+        <childnode refid="2848" relation="include">
+        </childnode>
+      </node>
+      <node id="2849">
+        <label>BKDefines.h</label>
+        <link refid="_b_k_defines_8h"/>
+        <childnode refid="2850" relation="include">
+        </childnode>
+      </node>
+      <node id="2851">
+        <label>Foundation/Foundation.h</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>NSTimer+BlocksKit.m</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>BlocksKit</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_n_s_timer_09_blocks_kit_8h" kindref="compound">NSTimer+BlocksKit.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>clang<sp/>diagnostic<sp/>push</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>clang<sp/>diagnostic<sp/>ignored<sp/>&quot;-Wobjc-designated-initializers&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="category_n_s_timer_07_blocks_kit_08" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">@implementation<sp/></highlight><highlight class="normal"><ref refid="category_n_s_timer_07_blocks_kit_08" kindref="compound">NSTimer (BlocksKit)</ref></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="category_n_s_timer_07_blocks_kit_08_1a3a25dd057e0c021078d994c781997214" refkind="member"><highlight class="normal">+<sp/>(instancetype)bk_scheduleTimerWithTimeInterval:(NSTimeInterval)seconds<sp/>repeats:(BOOL)repeats<sp/>usingBlock:(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(^)(NSTimer<sp/>*timer))block</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>NSTimer<sp/>*timer<sp/>=<sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/><ref refid="category_n_s_timer_07_blocks_kit_08_1a954f9b4222f729600d53df5abc2363e8" kindref="member">bk_timerWithTimeInterval</ref>:seconds<sp/><ref refid="category_n_s_timer_07_blocks_kit_08_1a954f9b4222f729600d53df5abc2363e8" kindref="member">repeats</ref>:repeats<sp/><ref refid="category_n_s_timer_07_blocks_kit_08_1a954f9b4222f729600d53df5abc2363e8" kindref="member">usingBlock</ref>:block];</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>[NSRunLoop.currentRunLoop<sp/>addTimer:timer<sp/>forMode:NSDefaultRunLoopMode];</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>timer;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="category_n_s_timer_07_blocks_kit_08_1a954f9b4222f729600d53df5abc2363e8" refkind="member"><highlight class="normal">+<sp/>(instancetype)bk_timerWithTimeInterval:(NSTimeInterval)inSeconds<sp/>repeats:(BOOL)repeats<sp/>usingBlock:(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(^)(NSTimer<sp/>*timer))block</highlight></codeline>
+<codeline lineno="21"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>NSParameterAssert(block<sp/>!=<sp/>nil);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>CFAbsoluteTime<sp/>seconds<sp/>=<sp/>fmax(inSeconds,<sp/>0.0001);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>CFAbsoluteTime<sp/>interval<sp/>=<sp/>repeats<sp/>?<sp/>seconds<sp/>:<sp/>0;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>CFAbsoluteTime<sp/>fireDate<sp/>=<sp/>CFAbsoluteTimeGetCurrent()<sp/>+<sp/>seconds;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(__bridge_transfer<sp/>NSTimer<sp/>*)CFRunLoopTimerCreateWithHandler(NULL,<sp/>fireDate,<sp/>interval,<sp/>0,<sp/>0,<sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">(^)(CFRunLoopTimerRef))block);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>clang<sp/>diagnostic<sp/>pop</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>clang<sp/>diagnostic<sp/>push</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>clang<sp/>diagnostic<sp/>ignored<sp/>&quot;-Wdeprecated-implementations&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36" refid="category_n_s_timer_07_blocks_kit___deprecated_08" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">@implementation<sp/></highlight><highlight class="normal"><ref refid="category_n_s_timer_07_blocks_kit___deprecated_08" kindref="compound">NSTimer (BlocksKit_Deprecated)</ref></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal">+<sp/>(instancetype)bk_scheduledTimerWithTimeInterval:(NSTimeInterval)seconds<sp/>block:(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(^)(NSTimer<sp/>*timer))block<sp/>repeats:(BOOL)repeats</highlight></codeline>
+<codeline lineno="39"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>bk_scheduleTimerWithTimeInterval:seconds<sp/>repeats:repeats<sp/>usingBlock:block];</highlight></codeline>
+<codeline lineno="41"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal">+<sp/>(instancetype)bk_timerWithTimeInterval:(NSTimeInterval)seconds<sp/>block:(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(^)(NSTimer<sp/>*timer))block<sp/>repeats:(BOOL)repeats</highlight></codeline>
+<codeline lineno="44"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>bk_timerWithTimeInterval:seconds<sp/>repeats:repeats<sp/>usingBlock:block];</highlight></codeline>
+<codeline lineno="46"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>clang<sp/>diagnostic<sp/>pop</highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSTimer+BlocksKit.m"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_u_i_image_09_blocks_kit_8m" kind="file" language="Objective-C">
+    <compoundname>UIImage+BlocksKit.m</compoundname>
+    <includes refid="_u_i_image_09_blocks_kit_8h" local="yes">UIImage+BlocksKit.h</includes>
+    <incdepgraph>
+      <node id="3102">
+        <label>Foundation/NSObjCRuntime.h</label>
+      </node>
+      <node id="3103">
+        <label>UIKit/UIKit.h</label>
+      </node>
+      <node id="3100">
+        <label>UIImage+BlocksKit.h</label>
+        <link refid="_u_i_image_09_blocks_kit_8h"/>
+        <childnode refid="3101" relation="include">
+        </childnode>
+        <childnode refid="3103" relation="include">
+        </childnode>
+      </node>
+      <node id="3099">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIImage+BlocksKit.m</label>
+        <link refid="UIImage+BlocksKit.m"/>
+        <childnode refid="3100" relation="include">
+        </childnode>
+      </node>
+      <node id="3101">
+        <label>BKDefines.h</label>
+        <link refid="_b_k_defines_8h"/>
+        <childnode refid="3102" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_u_i_image_09_blocks_kit_8m_1aaa649be5eb7e9d043addbdb6a8236121" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void BKImageWriteToSavedPhotosAlbum</definition>
+        <argsstring>(UIImage *image, void(^completionBlock)(NSError *))</argsstring>
+        <name>BKImageWriteToSavedPhotosAlbum</name>
+        <param>
+          <type>UIImage *</type>
+          <declname>image</declname>
+        </param>
+        <param>
+          <type>void(^)(NSError *)</type>
+          <declname>completionBlock</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Camera Roll export without selectors.</para><para>Includes code by the following:</para><para><itemizedlist>
+<listitem><para><ulink url="https://github.com/muratayusuke">Yusuke Murata</ulink></para></listitem></itemizedlist>
+</para><para><simplesect kind="warning"><para>UIImage is only available on a platform with UIKit. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIImage+BlocksKit.m" line="26" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIImage+BlocksKit.m" bodystart="26" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="_u_i_image_09_blocks_kit_8m_1a3fd39b9de6fbd374fa84aeb85ead5877" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void BKSaveVideoAtURLToSavedPhotosAlbum</definition>
+        <argsstring>(NSURL *videoURL, void(^completionBlock)(NSError *))</argsstring>
+        <name>BKSaveVideoAtURLToSavedPhotosAlbum</name>
+        <param>
+          <type>NSURL *</type>
+          <declname>videoURL</declname>
+        </param>
+        <param>
+          <type>void(^)(NSError *)</type>
+          <declname>completionBlock</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIImage+BlocksKit.m" line="32" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIImage+BlocksKit.m" bodystart="32" bodyend="36"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>UIImage+Blockskit.m</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>BlocksKit</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_u_i_image_09_blocks_kit_8h" kindref="compound">UIImage+BlocksKit.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="category_u_i_image_07_b_k_photo_library_export_08" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">@implementation<sp/></highlight><highlight class="normal"><ref refid="category_u_i_image_07_b_k_photo_library_export_08" kindref="compound">UIImage (BKPhotoLibraryExport)</ref></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal">+<sp/>(void)bk_image:(UIImage<sp/>*)image<sp/>didFinishSavingWithError:(NSError<sp/>*)error<sp/>contextInfo:(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*)contextInfo</highlight></codeline>
+<codeline lineno="11"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>void(^block)(NSError<sp/>*)<sp/>=<sp/>(__bridge_transfer<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)contextInfo;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!block)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>block(error);</highlight></codeline>
+<codeline lineno="15"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal">+<sp/>(void)bk_videoAtPath:(NSString<sp/>*)videoPath<sp/>didFinishSavingWithError:(NSError<sp/>*)error<sp/>contextInfo:(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*)contextInfo;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>void(^block)(NSError<sp/>*)<sp/>=<sp/>(__bridge_transfer<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)contextInfo;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!block)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>block(error);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="_u_i_image_09_blocks_kit_8h_1a7c1b9a9e09bbe94ee73a1f81a93f3607" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_u_i_image_09_blocks_kit_8m_1aaa649be5eb7e9d043addbdb6a8236121" kindref="member">BKImageWriteToSavedPhotosAlbum</ref>(UIImage<sp/>*image,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">(^completionBlock)(NSError<sp/>*))</highlight></codeline>
+<codeline lineno="27"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*blockAsContext<sp/>=<sp/>(__bridge_retained<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*)[completionBlock<sp/>copy];</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>UIImageWriteToSavedPhotosAlbum(image,<sp/>UIImage.class,<sp/></highlight><highlight class="keyword">@selector</highlight><highlight class="normal">(bk_image:didFinishSavingWithError:contextInfo:),<sp/>blockAsContext);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32" refid="_u_i_image_09_blocks_kit_8h_1a8b830c2b2b057d7442f0fe87b744d8af" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_u_i_image_09_blocks_kit_8m_1a3fd39b9de6fbd374fa84aeb85ead5877" kindref="member">BKSaveVideoAtURLToSavedPhotosAlbum</ref>(NSURL<sp/>*videoURL,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">(^completionBlock)(NSError<sp/>*))</highlight></codeline>
+<codeline lineno="33"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*blockAsContext<sp/>=<sp/>(__bridge_retained<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*)[completionBlock<sp/>copy];</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>UISaveVideoAtPathToSavedPhotosAlbum(videoURL.path,<sp/>UIImage.class,<sp/></highlight><highlight class="keyword">@selector</highlight><highlight class="normal">(bk_videoAtPath:didFinishSavingWithError:contextInfo:),<sp/>blockAsContext);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIImage+BlocksKit.m"/>
+  </compounddef>
+</doxygen>

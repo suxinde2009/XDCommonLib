@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_n_s_number_07_ruby_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>NSNumber(Ruby)</compoundname>
+    <basecompoundref refid="protocol_concatenatable-p" prot="public" virt="non-virtual">&lt;Concatenatable&gt;</basecompoundref>
+    <includes refid="_n_s_string_09_ruby_8h" local="no">NSString+Ruby.h</includes>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="519">
+        <label>&lt;Concatenatable&gt;</label>
+        <link refid="protocol_concatenatable-p"/>
+        <childnode refid="520" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="520">
+        <label>&lt;NSObject&gt;</label>
+      </node>
+      <node id="518">
+        <label>NSNumber(Ruby)</label>
+        <link refid="category_n_s_number_07_ruby_08"/>
+        <childnode refid="519" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="522">
+        <label>&lt;Concatenatable&gt;</label>
+        <link refid="protocol_concatenatable-p"/>
+        <childnode refid="523" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="523">
+        <label>&lt;NSObject&gt;</label>
+      </node>
+      <node id="521">
+        <label>NSNumber(Ruby)</label>
+        <link refid="category_n_s_number_07_ruby_08"/>
+        <childnode refid="522" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.h" line="17" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.h" bodystart="17" bodyend="-1"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

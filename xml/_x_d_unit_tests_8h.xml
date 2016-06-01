@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_x_d_unit_tests_8h" kind="file" language="C++">
+    <compoundname>XDUnitTests.h</compoundname>
+    <includes local="no">Foundation/Foundation.h</includes>
+    <includes local="no">objc/runtime.h</includes>
+    <includedby refid="_x_d_unit_tests_8m" local="yes">XDCommonLib/CommonBasicComponentLayer/UnitTests/XDUnitTests.m</includedby>
+    <incdepgraph>
+      <node id="2420">
+        <label>XDCommonLib/CommonBasicComponentLayer/UnitTests/XDUnitTests.h</label>
+        <link refid="XDUnitTests.h"/>
+        <childnode refid="2421" relation="include">
+        </childnode>
+        <childnode refid="2422" relation="include">
+        </childnode>
+      </node>
+      <node id="2422">
+        <label>objc/runtime.h</label>
+      </node>
+      <node id="2421">
+        <label>Foundation/Foundation.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2423">
+        <label>XDCommonLib/CommonBasicComponentLayer/UnitTests/XDUnitTests.h</label>
+        <link refid="XDUnitTests.h"/>
+        <childnode refid="2424" relation="include">
+        </childnode>
+      </node>
+      <node id="2424">
+        <label>XDCommonLib/CommonBasicComponentLayer/UnitTests/XDUnitTests.m</label>
+        <link refid="_x_d_unit_tests_8m"/>
+      </node>
+    </invincdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>XDUnitTests.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>XDCommonLib</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>su<sp/>xinde<sp/>on<sp/>15/11/22.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>©<sp/>2015年<sp/>su<sp/>xinde.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;Foundation/Foundation.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;objc/runtime.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="comment">//#define<sp/>XDUnitTest(c)<sp/>c##UnitTest</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="comment">//struct<sp/>testName<sp/>{</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/>const<sp/>char<sp/>*methodName;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/>int<sp/>line;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/>struct<sp/>testName<sp/>*next;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="comment">//};</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="comment">//#define<sp/>testcase(name,<sp/>...)<sp/>\</highlight></codeline>
+<codeline lineno="21"><highlight class="comment">//interface<sp/>XDUnitTest(name)<sp/>:<sp/>NSObject<sp/>@end<sp/>\</highlight></codeline>
+<codeline lineno="22"><highlight class="comment">//static<sp/>struct<sp/>testName<sp/>name##TestNames<sp/>=<sp/>{0};<sp/>\</highlight></codeline>
+<codeline lineno="23"><highlight class="comment">//static<sp/>struct<sp/>testName<sp/>*_testNames<sp/>=<sp/>&amp;name##TestNames;<sp/>\</highlight></codeline>
+<codeline lineno="24"><highlight class="comment">//static<sp/>void<sp/>name##Register(void)<sp/>__attribute((constructor));<sp/>\</highlight></codeline>
+<codeline lineno="25"><highlight class="comment">//static<sp/>void<sp/>name##Register(void)<sp/>{<sp/>registerTestClass([XDUnitTest(name)<sp/>class]);<sp/>}<sp/>\</highlight></codeline>
+<codeline lineno="26"><highlight class="comment">//@implementation<sp/>XDUnitTest(name)<sp/>\</highlight></codeline>
+<codeline lineno="27"><highlight class="comment">//__VA_ARGS__<sp/>\</highlight></codeline>
+<codeline lineno="28"><highlight class="comment">//+<sp/>(struct<sp/>testName<sp/>*)testNames<sp/>{<sp/>return<sp/>_testNames;<sp/>}<sp/>\</highlight></codeline>
+<codeline lineno="29"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="comment">//#define<sp/>test(name)<sp/>\</highlight></codeline>
+<codeline lineno="31"><highlight class="comment">//static<sp/>void<sp/><sp/>__attribute((constructor))<sp/>name##Register(void){<sp/>\</highlight></codeline>
+<codeline lineno="32"><highlight class="comment">//struct<sp/>testName<sp/>*name<sp/>=<sp/>malloc(sizeof(*name));<sp/>\</highlight></codeline>
+<codeline lineno="33"><highlight class="comment">//*name<sp/>=<sp/>(struct<sp/>testName)<sp/>{<sp/>.methodName<sp/>=<sp/>#name,<sp/>.line<sp/>=<sp/>__LINE__,<sp/>.next<sp/>=<sp/>_testNames,<sp/>};<sp/>\</highlight></codeline>
+<codeline lineno="34"><highlight class="comment">//_testNames<sp/>=<sp/>name;<sp/>\</highlight></codeline>
+<codeline lineno="35"><highlight class="comment">//}<sp/>\</highlight></codeline>
+<codeline lineno="36"><highlight class="comment">//-<sp/>(BOOL)name<sp/>\</highlight></codeline>
+<codeline lineno="37"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="comment">//#define<sp/>testassert(b,<sp/>...)<sp/>do<sp/>{<sp/>if<sp/>(!_testassert(b<sp/>,<sp/>##__VA_ARGS__,<sp/>__FILE__,<sp/>__LINE__))<sp/>return<sp/>NO;<sp/>}<sp/>while<sp/>(NO)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="comment">//BOOL<sp/>_testassert(BOOL<sp/>b,<sp/>const<sp/>char<sp/>*file,<sp/>int<sp/>line)<sp/>__attribute__((analyzer_noreturn));</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="comment">//#define<sp/>track(sup)<sp/>({<sp/>\</highlight></codeline>
+<codeline lineno="42"><highlight class="comment">//SubclassTracker<sp/>*__tracker<sp/>=<sp/>subclassTrackerForObject(self,<sp/>YES);<sp/>\</highlight></codeline>
+<codeline lineno="43"><highlight class="comment">//[__tracker<sp/>track:_cmd];<sp/>\</highlight></codeline>
+<codeline lineno="44"><highlight class="comment">//YES;<sp/>\</highlight></codeline>
+<codeline lineno="45"><highlight class="comment">//})<sp/>?<sp/>sup<sp/>:<sp/>sup</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="comment">//#if<sp/>TARGET_IPHONE_SIMULATOR</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight><highlight class="comment">//#define<sp/>IOS_SIMULATOR_BUG_FAILURE()<sp/>NSLog(@&quot;SKIPPING<sp/>FAILURE<sp/>DUE<sp/>TO<sp/>SIMULATOR<sp/>BUG!&quot;);<sp/>testassert(0)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight><highlight class="comment">//#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight><highlight class="comment">//#define<sp/>IOS_SIMULATOR_BUG_FAILURE()</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight><highlight class="comment">//#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight><highlight class="comment">//void<sp/>runXDUnitTests(void);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight><highlight class="comment">//@interface<sp/>InequalObject<sp/>:<sp/>NSObject</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight><highlight class="comment">//@end</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight><highlight class="comment">//@interface<sp/>SubclassTracker<sp/>:<sp/>NSObject</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight><highlight class="comment">//-<sp/>(id)initWithClass:(Class)cls;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight><highlight class="comment">//-<sp/>(void)track:(SEL)cmd;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight><highlight class="comment">//+<sp/>(BOOL)verify:(id)target<sp/>commands:(SEL)cmd,<sp/>...<sp/>NS_REQUIRES_NIL_TERMINATION;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight><highlight class="comment">//+<sp/>(BOOL)dumpVerification:(id)target;<sp/>//<sp/>used<sp/>to<sp/>build<sp/>testasserts</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight><highlight class="comment">//@end</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight><highlight class="comment">//SubclassTracker<sp/>*subclassTrackerForObject(id&lt;NSObject&gt;<sp/>object,<sp/>BOOL<sp/>createIfMissing);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight><highlight class="comment">//@interface<sp/>TrackerProxy<sp/>:<sp/>NSProxy</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight><highlight class="comment">//-<sp/>(id)initWithObject:(NSObject*)object;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight><highlight class="comment">//-<sp/>(BOOL)verifyCommands:(SEL)cmd,<sp/>...<sp/>NS_REQUIRES_NIL_TERMINATION;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight><highlight class="comment">//-<sp/>(BOOL)dumpVerification;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight><highlight class="comment">//@end</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight><highlight class="comment">//@interface<sp/>DeallocWatcher<sp/>:<sp/>NSObject</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight><highlight class="comment">//-<sp/>(id)initWithBlock:(dispatch_block_t)block;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight><highlight class="comment">//@end</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight><highlight class="comment">//extern<sp/>void<sp/>registerTestClass(Class<sp/>cls);</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/UnitTests/XDUnitTests.h"/>
+  </compounddef>
+</doxygen>

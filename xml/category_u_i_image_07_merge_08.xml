@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_u_i_image_07_merge_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>UIImage(Merge)</compoundname>
+    <includes refid="_u_i_image_09_merge_8h" local="no">UIImage+Merge.h</includes>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="category_u_i_image_07_merge_08_1a6d355cc8d9adcdddff1fdc45939f14d7" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>UIImage *</type>
+        <definition>UIImage * UIImage(Merge)::mergeImage:withImage:</definition>
+        <argsstring>(UIImage *firstImage,[withImage] UIImage *secondImage)</argsstring>
+        <name>mergeImage:withImage:</name>
+        <param>
+          <type>UIImage *</type>
+          <declname>firstImage</declname>
+        </param>
+        <param>
+          <attributes>[withImage]</attributes>
+          <type>UIImage *</type>
+          <declname>secondImage</declname>
+        </param>
+        <briefdescription>
+<para>合并两个图片 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>firstImage</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>一个图片 </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>secondImage</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>二个图片</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>合并后图片 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImage/UIImage+Merge.h" line="12" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImage/UIImage+Merge.m" bodystart="20" bodyend="34"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImage/UIImage+Merge.m" line="11" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImage/UIImage+Merge.m" bodystart="11" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_u_i_image_07_merge_08_1a6d355cc8d9adcdddff1fdc45939f14d7" prot="public" virt="virtual"><scope>UIImage(Merge)</scope><name>mergeImage:withImage:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

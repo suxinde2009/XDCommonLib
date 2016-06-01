@@ -8,6 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
+/**
+ *  @brief 获取一个全局共用的NSOperationQueue
+ */
+
 @interface NSOperationQueue (Global)
 
 /**

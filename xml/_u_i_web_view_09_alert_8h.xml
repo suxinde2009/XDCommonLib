@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_u_i_web_view_09_alert_8h" kind="file" language="C++">
+    <compoundname>UIWebView+Alert.h</compoundname>
+    <includes local="no">UIKit/UIKit.h</includes>
+    <includedby refid="_u_i_web_view_09_alert_8m" local="yes">XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIWebView/UIWebView+Alert.m</includedby>
+    <incdepgraph>
+      <node id="2216">
+        <label>UIKit/UIKit.h</label>
+      </node>
+      <node id="2215">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIWebView/UIWebView+Alert.h</label>
+        <link refid="UIWebView+Alert.h"/>
+        <childnode refid="2216" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2217">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIWebView/UIWebView+Alert.h</label>
+        <link refid="UIWebView+Alert.h"/>
+        <childnode refid="2218" relation="include">
+        </childnode>
+      </node>
+      <node id="2218">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIWebView/UIWebView+Alert.m</label>
+        <link refid="_u_i_web_view_09_alert_8m"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="category_u_i_web_view_07_java_script_alert_08" prot="public">UIWebView(JavaScriptAlert)</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>WebView+Alert.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>AlertProject</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Peter.Kang<sp/>on<sp/>14-1-23.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2014年<sp/>Peter.Kang.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;UIKit/UIKit.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="category_u_i_web_view_07_java_script_alert_08" kindref="compound">UIWebView (JavaScriptAlert)</ref>&lt;UIAlertViewDelegate&gt;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal">-(void)webView:(UIWebView<sp/>*)sender<sp/>runJavaScriptAlertPanelWithMessage:(NSString<sp/>*)message<sp/>initiatedByFrame:(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)frame;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal">-(BOOL)webView:(UIWebView<sp/>*)sender<sp/>runJavaScriptConfirmPanelWithMessage:(NSString<sp/>*)message<sp/>initiatedByFrame:(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)frame;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIWebView/UIWebView+Alert.h"/>
+  </compounddef>
+</doxygen>

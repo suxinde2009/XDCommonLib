@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="interface_b_k_invocation_grabber" kind="class" language="Objective-C" prot="public">
+    <compoundname>BKInvocationGrabber</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">NSProxy</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="interface_b_k_invocation_grabber_1a131fb585d2d30def82cc1528d6ffe08d" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="strong">
+        <type>id</type>
+        <definition>id BKInvocationGrabber::target</definition>
+        <argsstring></argsstring>
+        <name>target</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSInvocation+BlocksKit.m" line="12" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSInvocation+BlocksKit.m" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_b_k_invocation_grabber_1a589843f65ce32476361dbe67afd4af40" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="strong">
+        <type>NSInvocation *</type>
+        <definition>NSInvocation* BKInvocationGrabber::invocation</definition>
+        <argsstring></argsstring>
+        <name>invocation</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSInvocation+BlocksKit.m" line="13" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSInvocation+BlocksKit.m" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="interface_b_k_invocation_grabber_1a1f5b7dbc4be109d6bf64a938d6d3db19" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="interface_b_k_invocation_grabber" kindref="compound">BKInvocationGrabber</ref> *</type>
+        <definition>BKInvocationGrabber * BKInvocationGrabber::grabberWithTarget:</definition>
+        <argsstring>(id target)</argsstring>
+        <name>grabberWithTarget:</name>
+        <param>
+          <type>id</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSInvocation+BlocksKit.m" line="124" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSInvocation+BlocksKit.m" bodystart="19" bodyend="23"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="222">
+        <label>BKInvocationGrabber</label>
+        <link refid="interface_b_k_invocation_grabber"/>
+        <childnode refid="223" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="223">
+        <label>NSProxy</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="224">
+        <label>BKInvocationGrabber</label>
+        <link refid="interface_b_k_invocation_grabber"/>
+        <childnode refid="225" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="225">
+        <label>NSProxy</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSInvocation+BlocksKit.m" line="9" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSInvocation+BlocksKit.m" bodystart="8" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="interface_b_k_invocation_grabber_1a1f5b7dbc4be109d6bf64a938d6d3db19" prot="public" virt="virtual"><scope>BKInvocationGrabber</scope><name>grabberWithTarget:</name></member>
+      <member refid="interface_b_k_invocation_grabber_1a589843f65ce32476361dbe67afd4af40" prot="public" virt="non-virtual"><scope>BKInvocationGrabber</scope><name>invocation</name></member>
+      <member refid="interface_b_k_invocation_grabber_1a131fb585d2d30def82cc1528d6ffe08d" prot="public" virt="non-virtual"><scope>BKInvocationGrabber</scope><name>target</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

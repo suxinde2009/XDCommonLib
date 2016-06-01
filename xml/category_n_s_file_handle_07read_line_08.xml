@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_n_s_file_handle_07read_line_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>NSFileHandle(readLine)</compoundname>
+    <includes refid="_n_s_file_handle_09read_line_8h" local="no">NSFileHandle+readLine.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="category_n_s_file_handle_07read_line_08_1a233cf4e123107b2dcbe976b220e1e29f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSData *</type>
+        <definition>NSData * NSFileHandle(readLine)::readLineWithDelimiter:</definition>
+        <argsstring>(NSString *theDelimier)</argsstring>
+        <name>readLineWithDelimiter:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>theDelimier</declname>
+          <defname>theDelimiter</defname>
+        </param>
+        <briefdescription>
+<para>A Cocoa / Objective-C NSFileHandle category that adds the ability to read a file line by line. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>theDelimier</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>分隔符</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>An NSData* object is returned with the line if found, or nil if no more lines were found </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileHandle/NSFileHandle+readLine.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileHandle/NSFileHandle+readLine.m" bodystart="19" bodyend="98"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileHandle/NSFileHandle+readLine.m" line="10" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSFileHandle/NSFileHandle+readLine.m" bodystart="10" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_n_s_file_handle_07read_line_08_1a233cf4e123107b2dcbe976b220e1e29f" prot="public" virt="virtual"><scope>NSFileHandle(readLine)</scope><name>readLineWithDelimiter:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

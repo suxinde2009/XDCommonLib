@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_n_s_data_07_common_h_m_a_c_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>NSData(CommonHMAC)</compoundname>
+    <includes refid="_n_s_data_09_x_d___encrypt___common___crypto_8h" local="no">NSData+XD_Encrypt_Common_Crypto.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="category_n_s_data_07_common_h_m_a_c_08_1aa4a84d51f52f9bf164384601be6b1d23" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSData *</type>
+        <definition>NSData * NSData(CommonHMAC)::HMACWithAlgorithm:</definition>
+        <argsstring>(CCHmacAlgorithm algorithm)</argsstring>
+        <name>HMACWithAlgorithm:</name>
+        <param>
+          <type>CCHmacAlgorithm</type>
+          <declname>algorithm</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/EncryptUtils/EncryptBase/NSData+XD_Encrypt_Common_Crypto.h" line="14" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/EncryptUtils/EncryptBase/NSData+XD_Encrypt_Common_Crypto.m" bodystart="534" bodyend="537"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_data_07_common_h_m_a_c_08_1a5c4c9458cb4e6313bb92b3faa3369db1" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSData *</type>
+        <definition>NSData * NSData(CommonHMAC)::HMACWithAlgorithm:key:</definition>
+        <argsstring>(CCHmacAlgorithm algorithm,[key] id key)</argsstring>
+        <name>HMACWithAlgorithm:key:</name>
+        <param>
+          <type>CCHmacAlgorithm</type>
+          <declname>algorithm</declname>
+        </param>
+        <param>
+          <attributes>[key]</attributes>
+          <type>id</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/EncryptUtils/EncryptBase/NSData+XD_Encrypt_Common_Crypto.h" line="14" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/EncryptUtils/EncryptBase/NSData+XD_Encrypt_Common_Crypto.m" bodystart="539" bodyend="554"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/EncryptUtils/EncryptBase/NSData+XD_Encrypt_Common_Crypto.h" line="83" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/EncryptUtils/EncryptBase/NSData+XD_Encrypt_Common_Crypto.h" bodystart="83" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_n_s_data_07_common_h_m_a_c_08_1aa4a84d51f52f9bf164384601be6b1d23" prot="public" virt="virtual"><scope>NSData(CommonHMAC)</scope><name>HMACWithAlgorithm:</name></member>
+      <member refid="category_n_s_data_07_common_h_m_a_c_08_1a5c4c9458cb4e6313bb92b3faa3369db1" prot="public" virt="virtual"><scope>NSData(CommonHMAC)</scope><name>HMACWithAlgorithm:key:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

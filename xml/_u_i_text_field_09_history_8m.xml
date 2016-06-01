@@ -1,0 +1,359 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_u_i_text_field_09_history_8m" kind="file" language="Objective-C">
+    <compoundname>UITextField+History.m</compoundname>
+    <includes refid="_u_i_text_field_09_history_8h" local="yes">UITextField+History.h</includes>
+    <includes local="no">objc/runtime.h</includes>
+    <incdepgraph>
+      <node id="1898">
+        <label>UITextField+History.h</label>
+        <link refid="_u_i_text_field_09_history_8h"/>
+        <childnode refid="1899" relation="include">
+        </childnode>
+      </node>
+      <node id="1897">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UITextField/UITextField+History.m</label>
+        <link refid="UITextField+History.m"/>
+        <childnode refid="1898" relation="include">
+        </childnode>
+        <childnode refid="1900" relation="include">
+        </childnode>
+      </node>
+      <node id="1899">
+        <label>UIKit/UIKit.h</label>
+      </node>
+      <node id="1900">
+        <label>objc/runtime.h</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="category_u_i_text_field_07_08" prot="public">UITextField()</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="_u_i_text_field_09_history_8m_1adf4a8d7d50aa51b5c06a391e0f908dbe" prot="public" static="no">
+        <name>X</name>
+        <param><defname>view</defname></param>
+        <initializer>(view.frame.origin.x)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UITextField/UITextField+History.m" line="12" column="9" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UITextField/UITextField+History.m" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_u_i_text_field_09_history_8m_1ab065b98b9ec8506204d88688a8a0ea45" prot="public" static="no">
+        <name>Y</name>
+        <param><defname>view</defname></param>
+        <initializer>(view.frame.origin.y)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UITextField/UITextField+History.m" line="13" column="9" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UITextField/UITextField+History.m" bodystart="13" bodyend="-1"/>
+        <referencedby refid="category_n_s_string_07_regex_category_08_1a3fe31af1c0e21fc31bb416de0efbf97a" compoundref="_n_s_string_09_regex_category_8m" startline="167" endline="258">NSString(RegexCategory)::accurateVerifyIDCardNumber:</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="_u_i_text_field_09_history_8m_1a1c79eba00243031a0f3d7e15e4bd9622" prot="public" static="no">
+        <name>W</name>
+        <param><defname>view</defname></param>
+        <initializer>(view.frame.size.width)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UITextField/UITextField+History.m" line="14" column="9" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UITextField/UITextField+History.m" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_u_i_text_field_09_history_8m_1aa809f9f726f92042cc163ed93661acbf" prot="public" static="no">
+        <name>H</name>
+        <param><defname>view</defname></param>
+        <initializer>(view.frame.size.height)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UITextField/UITextField+History.m" line="15" column="9" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UITextField/UITextField+History.m" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_u_i_text_field_09_history_8m_1a6e6996596e1b89d8cdef48cc657b41c5" prot="public" static="no">
+        <name>ANIMATION_DURATION</name>
+        <initializer>0.3f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UITextField/UITextField+History.m" line="20" column="9" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UITextField/UITextField+History.m" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_u_i_text_field_09_history_8m_1a6cbbd6943025fde36982763d53ffed58" prot="public" static="no">
+        <name>ITEM_HEIGHT</name>
+        <initializer>40</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UITextField/UITextField+History.m" line="21" column="9" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UITextField/UITextField+History.m" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_u_i_text_field_09_history_8m_1a55a0aca5c9fcc56e499655cdb27b2037" prot="public" static="no">
+        <name>CLEAR_BUTTON_HEIGHT</name>
+        <initializer>45</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UITextField/UITextField+History.m" line="22" column="9" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UITextField/UITextField+History.m" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_u_i_text_field_09_history_8m_1a9059fa76eb5e8e86f870405d63e72c4c" prot="public" static="no">
+        <name>MAX_HEIGHT</name>
+        <initializer>300</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UITextField/UITextField+History.m" line="23" column="9" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UITextField/UITextField+History.m" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="_u_i_text_field_09_history_8m_1a697fc01f65621e09aa6a26b59f296474" prot="public" static="yes" mutable="no">
+        <type>char</type>
+        <definition>char kTextFieldIdentifyKey</definition>
+        <argsstring></argsstring>
+        <name>kTextFieldIdentifyKey</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UITextField/UITextField+History.m" line="17" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UITextField/UITextField+History.m" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_u_i_text_field_09_history_8m_1a45d9e74f1937a5d1c45f606516f45c99" prot="public" static="yes" mutable="no">
+        <type>char</type>
+        <definition>char kTextFieldHistoryviewIdentifyKey</definition>
+        <argsstring></argsstring>
+        <name>kTextFieldHistoryviewIdentifyKey</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UITextField/UITextField+History.m" line="18" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UITextField/UITextField+History.m" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>UITextField+History.m</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Demo</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>DamonDing<sp/>on<sp/>15/5/26.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2015年<sp/>morenotepad.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_u_i_text_field_09_history_8h" kindref="compound">UITextField+History.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;objc/runtime.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="_u_i_text_field_09_history_8m_1adf4a8d7d50aa51b5c06a391e0f908dbe" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>X(view)<sp/>(view.frame.origin.x)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="_u_i_text_field_09_history_8m_1ab065b98b9ec8506204d88688a8a0ea45" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Y(view)<sp/>(view.frame.origin.y)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="_u_i_text_field_09_history_8m_1a1c79eba00243031a0f3d7e15e4bd9622" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>W(view)<sp/>(view.frame.size.width)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="_u_i_text_field_09_history_8m_1aa809f9f726f92042cc163ed93661acbf" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>H(view)<sp/>(view.frame.size.height)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>kTextFieldIdentifyKey;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>kTextFieldHistoryviewIdentifyKey;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="_u_i_text_field_09_history_8m_1a6e6996596e1b89d8cdef48cc657b41c5" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>ANIMATION_DURATION<sp/>0.3f</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="_u_i_text_field_09_history_8m_1a6cbbd6943025fde36982763d53ffed58" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>ITEM_HEIGHT<sp/>40</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="_u_i_text_field_09_history_8m_1a55a0aca5c9fcc56e499655cdb27b2037" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CLEAR_BUTTON_HEIGHT<sp/>45</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23" refid="_u_i_text_field_09_history_8m_1a9059fa76eb5e8e86f870405d63e72c4c" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MAX_HEIGHT<sp/>300</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="category_u_i_text_field_07_08" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">@interface<sp/></highlight><highlight class="normal">UITextField<sp/>()<sp/>&lt;UITableViewDelegate,<sp/>UITableViewDataSource&gt;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28" refid="category_u_i_text_field_07_08_1ac1526df24e5e75cb71ffebfcce042cc9" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(retain,<sp/>nonatomic)<sp/>UITableView*<sp/>historyTableView;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="category_u_i_text_field_07_history_08" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">@implementation<sp/></highlight><highlight class="normal"><ref refid="category_u_i_text_field_07_history_08" kindref="compound">UITextField (History)</ref></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal">-<sp/>(NSString*)<sp/><ref refid="category_u_i_text_field_07_history_08_1a9e59706f397456c85420cd7070e75b39" kindref="member">identify</ref><sp/>{</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>objc_getAssociatedObject(</highlight><highlight class="keyword">self</highlight><highlight class="normal">,<sp/>&amp;kTextFieldIdentifyKey);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal">-<sp/>(void)<sp/>setIdentify:(NSString<sp/>*)identify<sp/>{</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>objc_setAssociatedObject(</highlight><highlight class="keyword">self</highlight><highlight class="normal">,<sp/>&amp;kTextFieldIdentifyKey,<sp/><ref refid="category_u_i_text_field_07_history_08_1a9e59706f397456c85420cd7070e75b39" kindref="member">identify</ref>,<sp/>OBJC_ASSOCIATION_RETAIN);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal">-<sp/>(UITableView*)<sp/>historyTableView<sp/>{</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>UITableView*<sp/>table<sp/>=<sp/>objc_getAssociatedObject(</highlight><highlight class="keyword">self</highlight><highlight class="normal">,<sp/>&amp;kTextFieldHistoryviewIdentifyKey);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(table<sp/>==<sp/>nil)<sp/>{</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>table<sp/>=<sp/>[[UITableView<sp/>alloc]<sp/>initWithFrame:CGRectZero<sp/>style:UITableViewStylePlain];</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[table<sp/>registerClass:[UITableViewCell<sp/>class]<sp/>forCellReuseIdentifier:@&quot;UITextFieldHistoryCell&quot;];</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>table.layer.borderColor<sp/>=<sp/>[UIColor<sp/>grayColor].CGColor;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>table.layer.borderWidth<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>table.delegate<sp/>=<sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>table.dataSource<sp/>=<sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>objc_setAssociatedObject(</highlight><highlight class="keyword">self</highlight><highlight class="normal">,<sp/>&amp;kTextFieldHistoryviewIdentifyKey,<sp/>table,<sp/>OBJC_ASSOCIATION_RETAIN);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>table;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59" refid="category_u_i_text_field_07_history_08_1a698049fb1e3df51f013ee44ac5815bd7" refkind="member"><highlight class="normal">-<sp/>(NSArray*)<sp/><ref refid="category_u_i_text_field_07_history_08_1a698049fb1e3df51f013ee44ac5815bd7" kindref="member">loadHistroy</ref><sp/>{</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">self</highlight><highlight class="normal">.<ref refid="category_u_i_text_field_07_history_08_1a9e59706f397456c85420cd7070e75b39" kindref="member">identify</ref><sp/>==<sp/>nil)<sp/>{</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>nil;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/>NSUserDefaults*<sp/>def<sp/>=<sp/>[NSUserDefaults<sp/>standardUserDefaults];</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/>NSDictionary*<sp/>dic<sp/>=<sp/>[def<sp/>objectForKey:@&quot;UITextField+History&quot;];</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(dic<sp/>!=<sp/>nil)<sp/>{</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[dic<sp/>objectForKey:self.identify];</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>nil;</highlight></codeline>
+<codeline lineno="72"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74" refid="category_u_i_text_field_07_history_08_1aa3ad37580969dabbbc2a2e951a56cbb8" refkind="member"><highlight class="normal">-<sp/>(void)<sp/><ref refid="category_u_i_text_field_07_history_08_1aa3ad37580969dabbbc2a2e951a56cbb8" kindref="member">synchronize</ref><sp/>{</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">self</highlight><highlight class="normal">.<ref refid="category_u_i_text_field_07_history_08_1a9e59706f397456c85420cd7070e75b39" kindref="member">identify</ref><sp/>==<sp/>nil<sp/>||<sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal">.text<sp/>length]<sp/>==<sp/>0)<sp/>{</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/>NSUserDefaults*<sp/>def<sp/>=<sp/>[NSUserDefaults<sp/>standardUserDefaults];</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/>NSDictionary*<sp/>dic<sp/>=<sp/>[def<sp/>objectForKey:@&quot;UITextField+History&quot;];</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/>NSArray*<sp/>history<sp/>=<sp/>[dic<sp/>objectForKey:self.identify];</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/>NSMutableArray*<sp/>newHistory<sp/>=<sp/>[NSMutableArray<sp/>arrayWithArray:history];</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/>__block<sp/>BOOL<sp/>haveSameRecord<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/>__weak<sp/>typeof(</highlight><highlight class="keyword">self</highlight><highlight class="normal">)<sp/>weakSelf<sp/>=<sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/>[newHistory<sp/>enumerateObjectsUsingBlock:^(id<sp/>obj,<sp/>NSUInteger<sp/>idx,<sp/>BOOL<sp/>*stop)<sp/>{</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>if<sp/>([(NSString*)obj<sp/>isEqualToString:weakSelf.text])<sp/>{</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*stop<sp/>=<sp/>true;</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>haveSameRecord<sp/>=<sp/>true;</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/>}];</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(haveSameRecord)<sp/>{</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/>[newHistory<sp/>addObject:self.text];</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/>NSMutableDictionary*<sp/>dic2<sp/>=<sp/>[NSMutableDictionary<sp/>dictionaryWithDictionary:dic];</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/>[dic2<sp/>setObject:newHistory<sp/>forKey:self.identify];</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/>[def<sp/>setObject:dic2<sp/>forKey:@&quot;UITextField+History&quot;];</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/>[def<sp/>synchronize];</highlight></codeline>
+<codeline lineno="107"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="109" refid="category_u_i_text_field_07_history_08_1a04075b14e0c02a8baa4aa1267d7d43dc" refkind="member"><highlight class="normal">-<sp/>(void)<sp/><ref refid="category_u_i_text_field_07_history_08_1a04075b14e0c02a8baa4aa1267d7d43dc" kindref="member">showHistory</ref>;<sp/>{</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/>NSArray*<sp/>history<sp/>=<sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/><ref refid="category_u_i_text_field_07_history_08_1a698049fb1e3df51f013ee44ac5815bd7" kindref="member">loadHistroy</ref>];</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">self</highlight><highlight class="normal">.historyTableView.superview<sp/>!=<sp/>nil<sp/>||<sp/>history<sp/>==<sp/>nil<sp/>||<sp/>history.count<sp/>==<sp/>0)<sp/>{</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/>CGRect<sp/>frame1<sp/>=<sp/>CGRectMake(<ref refid="_u_i_text_field_09_history_8m_1adf4a8d7d50aa51b5c06a391e0f908dbe" kindref="member">X</ref>(</highlight><highlight class="keyword">self</highlight><highlight class="normal">),<sp/><ref refid="_u_i_text_field_09_history_8m_1ab065b98b9ec8506204d88688a8a0ea45" kindref="member">Y</ref>(</highlight><highlight class="keyword">self</highlight><highlight class="normal">)<sp/>+<sp/><ref refid="_u_i_text_field_09_history_8m_1aa809f9f726f92042cc163ed93661acbf" kindref="member">H</ref>(</highlight><highlight class="keyword">self</highlight><highlight class="normal">)<sp/>+<sp/>1,<sp/><ref refid="_u_i_text_field_09_history_8m_1a1c79eba00243031a0f3d7e15e4bd9622" kindref="member">W</ref>(</highlight><highlight class="keyword">self</highlight><highlight class="normal">),<sp/>1);</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/>CGRect<sp/>frame2<sp/>=<sp/>CGRectMake(<ref refid="_u_i_text_field_09_history_8m_1adf4a8d7d50aa51b5c06a391e0f908dbe" kindref="member">X</ref>(</highlight><highlight class="keyword">self</highlight><highlight class="normal">),<sp/><ref refid="_u_i_text_field_09_history_8m_1ab065b98b9ec8506204d88688a8a0ea45" kindref="member">Y</ref>(</highlight><highlight class="keyword">self</highlight><highlight class="normal">)<sp/>+<sp/><ref refid="_u_i_text_field_09_history_8m_1aa809f9f726f92042cc163ed93661acbf" kindref="member">H</ref>(</highlight><highlight class="keyword">self</highlight><highlight class="normal">)<sp/>+<sp/>1,<sp/><ref refid="_u_i_text_field_09_history_8m_1a1c79eba00243031a0f3d7e15e4bd9622" kindref="member">W</ref>(</highlight><highlight class="keyword">self</highlight><highlight class="normal">),<sp/>MIN(<ref refid="_u_i_text_field_09_history_8m_1a9059fa76eb5e8e86f870405d63e72c4c" kindref="member">MAX_HEIGHT</ref>,<sp/><ref refid="_u_i_text_field_09_history_8m_1a6cbbd6943025fde36982763d53ffed58" kindref="member">ITEM_HEIGHT</ref><sp/>*<sp/>history.count<sp/>+<sp/><ref refid="_u_i_text_field_09_history_8m_1a55a0aca5c9fcc56e499655cdb27b2037" kindref="member">CLEAR_BUTTON_HEIGHT</ref>));</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.historyTableView.frame<sp/>=<sp/>frame1;</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal">.superview<sp/>addSubview:self.historyTableView];</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/>[UIView<sp/>animateWithDuration:ANIMATION_DURATION<sp/>animations:^{</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.historyTableView.frame<sp/>=<sp/>frame2;</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/>}];</highlight></codeline>
+<codeline lineno="126"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight></codeline>
+<codeline lineno="128"><highlight class="normal">-<sp/>(void)<sp/>clearHistoryButtonClick:(UIButton*)<sp/>button<sp/>{</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>clearHistory];</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>hideHistroy];</highlight></codeline>
+<codeline lineno="131"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight></codeline>
+<codeline lineno="133" refid="category_u_i_text_field_07_history_08_1acfcc111c47e5d31094d1dc4d7b8b25fb" refkind="member"><highlight class="normal">-<sp/>(void)<sp/><ref refid="category_u_i_text_field_07_history_08_1acfcc111c47e5d31094d1dc4d7b8b25fb" kindref="member">hideHistroy</ref>;<sp/>{</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">self</highlight><highlight class="normal">.historyTableView.superview<sp/>==<sp/>nil)<sp/>{</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/>CGRect<sp/>frame1<sp/>=<sp/>CGRectMake(<ref refid="_u_i_text_field_09_history_8m_1adf4a8d7d50aa51b5c06a391e0f908dbe" kindref="member">X</ref>(</highlight><highlight class="keyword">self</highlight><highlight class="normal">),<sp/><ref refid="_u_i_text_field_09_history_8m_1ab065b98b9ec8506204d88688a8a0ea45" kindref="member">Y</ref>(</highlight><highlight class="keyword">self</highlight><highlight class="normal">)<sp/>+<sp/><ref refid="_u_i_text_field_09_history_8m_1aa809f9f726f92042cc163ed93661acbf" kindref="member">H</ref>(</highlight><highlight class="keyword">self</highlight><highlight class="normal">)<sp/>+<sp/>1,<sp/><ref refid="_u_i_text_field_09_history_8m_1a1c79eba00243031a0f3d7e15e4bd9622" kindref="member">W</ref>(</highlight><highlight class="keyword">self</highlight><highlight class="normal">),<sp/>1);</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/>[UIView<sp/>animateWithDuration:ANIMATION_DURATION<sp/>animations:^{</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.historyTableView.frame<sp/>=<sp/>frame1;</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/>completion:^(BOOL<sp/>finished)<sp/>{</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal">.historyTableView<sp/>removeFromSuperview];</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/>}];</highlight></codeline>
+<codeline lineno="145"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight></codeline>
+<codeline lineno="147" refid="category_u_i_text_field_07_history_08_1a96a34c747d8454a6c4ec08cf3aa0fe3e" refkind="member"><highlight class="normal">-<sp/>(void)<sp/><ref refid="category_u_i_text_field_07_history_08_1a96a34c747d8454a6c4ec08cf3aa0fe3e" kindref="member">clearHistory</ref>;<sp/>{</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/>NSUserDefaults*<sp/>def<sp/>=<sp/>[NSUserDefaults<sp/>standardUserDefaults];</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/>[def<sp/>setObject:nil<sp/>forKey:@&quot;UITextField+History&quot;];</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/>[def<sp/>synchronize];</highlight></codeline>
+<codeline lineno="152"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"></highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/>tableview<sp/>datasource</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="156"><highlight class="normal">-<sp/>(NSInteger)numberOfSectionsInTableView:(UITableView<sp/>*)tableView;<sp/>{</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>1;</highlight></codeline>
+<codeline lineno="158"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"></highlight></codeline>
+<codeline lineno="160"><highlight class="normal">-<sp/>(NSInteger)tableView:(UITableView<sp/>*)tableView<sp/>numberOfRowsInSection:(NSInteger)section;<sp/>{</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>loadHistroy].count;</highlight></codeline>
+<codeline lineno="162"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight></codeline>
+<codeline lineno="164"><highlight class="normal">-<sp/>(UITableViewCell<sp/>*)tableView:(UITableView<sp/>*)tableView<sp/>cellForRowAtIndexPath:(NSIndexPath<sp/>*)indexPath;<sp/>{</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/>UITableViewCell*<sp/>cell<sp/>=<sp/>[tableView<sp/>dequeueReusableCellWithIdentifier:@&quot;UITextFieldHistoryCell&quot;];</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(cell<sp/>==<sp/>nil)<sp/>{</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cell<sp/>=<sp/>[[UITableViewCell<sp/>alloc]<sp/>initWithStyle:UITableViewCellStyleDefault<sp/>reuseIdentifier:@&quot;UITextFieldHistoryCell&quot;];</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/>cell.textLabel.text<sp/>=<sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>loadHistroy][indexPath.row];</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>cell;</highlight></codeline>
+<codeline lineno="174"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"></highlight></codeline>
+<codeline lineno="176"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/>tableview<sp/>delegate</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="177"><highlight class="normal">-<sp/>(UIView<sp/>*)tableView:(UITableView<sp/>*)tableView<sp/>viewForFooterInSection:(NSInteger)section;<sp/>{</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/>UIButton*<sp/>clearButton<sp/>=<sp/>[UIButton<sp/>buttonWithType:UIButtonTypeRoundedRect];</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/>[clearButton<sp/>setTitle:@&quot;Clear&quot;<sp/>forState:UIControlStateNormal];</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/>[clearButton<sp/>addTarget:self<sp/>action:@selector(clearHistoryButtonClick:)<sp/>forControlEvents:UIControlEventTouchUpInside];</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>clearButton;</highlight></codeline>
+<codeline lineno="183"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"></highlight></codeline>
+<codeline lineno="185"><highlight class="normal">-<sp/>(CGFloat)tableView:(UITableView<sp/>*)tableView<sp/>heightForRowAtIndexPath:(NSIndexPath<sp/>*)indexPath;<sp/>{</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="_u_i_text_field_09_history_8m_1a6cbbd6943025fde36982763d53ffed58" kindref="member">ITEM_HEIGHT</ref>;</highlight></codeline>
+<codeline lineno="187"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"></highlight></codeline>
+<codeline lineno="189"><highlight class="normal">-<sp/>(CGFloat)tableView:(UITableView<sp/>*)tableView<sp/>heightForFooterInSection:(NSInteger)section;<sp/>{</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="_u_i_text_field_09_history_8m_1a55a0aca5c9fcc56e499655cdb27b2037" kindref="member">CLEAR_BUTTON_HEIGHT</ref>;</highlight></codeline>
+<codeline lineno="191"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"></highlight></codeline>
+<codeline lineno="193"><highlight class="normal">-<sp/>(void)tableView:(UITableView<sp/>*)tableView<sp/>didSelectRowAtIndexPath:(NSIndexPath<sp/>*)indexPath;<sp/>{</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.text<sp/>=<sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>loadHistroy][indexPath.row];</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>hideHistroy];</highlight></codeline>
+<codeline lineno="196"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"></highlight></codeline>
+<codeline lineno="198"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UITextField/UITextField+History.m"/>
+  </compounddef>
+</doxygen>

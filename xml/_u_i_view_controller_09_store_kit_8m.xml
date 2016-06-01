@@ -1,0 +1,232 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_u_i_view_controller_09_store_kit_8m" kind="file" language="Objective-C">
+    <compoundname>UIViewController+StoreKit.m</compoundname>
+    <includes refid="_u_i_view_controller_09_store_kit_8h" local="yes">UIViewController+StoreKit.h</includes>
+    <includes local="no">objc/runtime.h</includes>
+    <incdepgraph>
+      <node id="2195">
+        <label>UIKit/UIKit.h</label>
+      </node>
+      <node id="2194">
+        <label>UIViewController+StoreKit.h</label>
+        <link refid="_u_i_view_controller_09_store_kit_8h"/>
+        <childnode refid="2195" relation="include">
+        </childnode>
+      </node>
+      <node id="2193">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+StoreKit.m</label>
+        <link refid="UIViewController+StoreKit.m"/>
+        <childnode refid="2194" relation="include">
+        </childnode>
+        <childnode refid="2196" relation="include">
+        </childnode>
+      </node>
+      <node id="2196">
+        <label>objc/runtime.h</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="category_u_i_view_controller_07_s_k_store_product_view_controller_delegate_08" prot="public">UIViewController(SKStoreProductViewControllerDelegate)</innerclass>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="_u_i_view_controller_09_store_kit_8m_1ad35a928a5b206cae2320175194e429c0" prot="public" static="no" mutable="no">
+        <type>import</type>
+        <definition>import StoreKit</definition>
+        <argsstring></argsstring>
+        <name>StoreKit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+StoreKit.m" line="13" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+StoreKit.m" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_u_i_view_controller_09_store_kit_8m_1acd855f635a5fe5bda838ba1f5645f220" prot="public" static="no" mutable="no">
+        <type>NSString *const</type>
+        <definition>NSString* const affiliateTokenKey</definition>
+        <argsstring></argsstring>
+        <name>affiliateTokenKey</name>
+        <initializer>= @&quot;at&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+StoreKit.m" line="18" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+StoreKit.m" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_u_i_view_controller_09_store_kit_8m_1a9a0c183ee4f28688afcd6d4775cb5b33" prot="public" static="no" mutable="no">
+        <type>NSString *const</type>
+        <definition>NSString* const campaignTokenKey</definition>
+        <argsstring></argsstring>
+        <name>campaignTokenKey</name>
+        <initializer>= @&quot;ct&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+StoreKit.m" line="19" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+StoreKit.m" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_u_i_view_controller_09_store_kit_8m_1ae6a9ad5d5ca6d49dae95e33147c51d03" prot="public" static="no" mutable="no">
+        <type>NSString *const</type>
+        <definition>NSString* const iTunesAppleString</definition>
+        <argsstring></argsstring>
+        <name>iTunesAppleString</name>
+        <initializer>= @&quot;itunes.apple.com&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+StoreKit.m" line="20" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+StoreKit.m" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>UIViewController+StoreKit.m</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Picks</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Joe<sp/>Fabisevich<sp/>on<sp/>8/12/14.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2014<sp/>Snarkbots.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_u_i_view_controller_09_store_kit_8h" kindref="compound">UIViewController+StoreKit.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;objc/runtime.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="_u_i_view_controller_09_store_kit_8m_1ad35a928a5b206cae2320175194e429c0" refkind="member"><highlight class="normal">@</highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/><ref refid="_u_i_view_controller_09_store_kit_8m_1ad35a928a5b206cae2320175194e429c0" kindref="member">StoreKit</ref>;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="preprocessor">#pragma<sp/>mark<sp/>-<sp/>Constants</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="_u_i_view_controller_09_store_kit_8m_1acd855f635a5fe5bda838ba1f5645f220" refkind="member"><highlight class="normal">NSString*<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="_u_i_view_controller_09_store_kit_8m_1acd855f635a5fe5bda838ba1f5645f220" kindref="member">affiliateTokenKey</ref><sp/>=<sp/></highlight><highlight class="stringliteral">@&quot;at&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="19" refid="_u_i_view_controller_09_store_kit_8m_1a9a0c183ee4f28688afcd6d4775cb5b33" refkind="member"><highlight class="normal">NSString*<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="_u_i_view_controller_09_store_kit_8m_1a9a0c183ee4f28688afcd6d4775cb5b33" kindref="member">campaignTokenKey</ref><sp/>=<sp/></highlight><highlight class="stringliteral">@&quot;ct&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="20" refid="_u_i_view_controller_09_store_kit_8m_1ae6a9ad5d5ca6d49dae95e33147c51d03" refkind="member"><highlight class="normal">NSString*<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="_u_i_view_controller_09_store_kit_8m_1ae6a9ad5d5ca6d49dae95e33147c51d03" kindref="member">iTunesAppleString</ref><sp/>=<sp/></highlight><highlight class="stringliteral">@&quot;itunes.apple.com&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="preprocessor">#pragma<sp/>mark<sp/>-<sp/>Interface</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25" refid="category_u_i_view_controller_07_s_k_store_product_view_controller_delegate_08" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="category_u_i_view_controller_07_s_k_store_product_view_controller_delegate_08" kindref="compound">UIViewController (SKStoreProductViewControllerDelegate)</ref><sp/>&lt;SKStoreProductViewControllerDelegate&gt;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="preprocessor">#pragma<sp/>mark<sp/>-<sp/>Implementation</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32" refid="category_u_i_view_controller_07_store_kit_08" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">@implementation<sp/></highlight><highlight class="normal"><ref refid="category_u_i_view_controller_07_store_kit_08" kindref="compound">UIViewController (StoreKit)</ref></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34" refid="category_u_i_view_controller_07_store_kit_08_1a09a0bee4a60f437700191164a2aebd94" refkind="member"><highlight class="normal">-<sp/>(void)presentStoreKitItemWithIdentifier:(NSInteger)itemIdentifier</highlight></codeline>
+<codeline lineno="35"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>SKStoreProductViewController*<sp/>storeViewController<sp/>=<sp/>[[SKStoreProductViewController<sp/>alloc]<sp/>init];</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>storeViewController.delegate<sp/>=<sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>NSString*<sp/><ref refid="category_u_i_view_controller_07_store_kit_08_1aad780989e1f480e440463d4af39f35ab" kindref="member">campaignToken</ref><sp/>=<sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.campaignToken<sp/>?:<sp/></highlight><highlight class="stringliteral">@&quot;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>NSDictionary*<sp/>parameters<sp/>=<sp/>@{</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SKStoreProductParameterITunesItemIdentifier<sp/>:<sp/>@(itemIdentifier),</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_u_i_view_controller_09_store_kit_8m_1acd855f635a5fe5bda838ba1f5645f220" kindref="member">affiliateTokenKey</ref><sp/>:<sp/><ref refid="_u_i_view_controller_09_store_kit_8m_1acd855f635a5fe5bda838ba1f5645f220" kindref="member">affiliateTokenKey</ref>,</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_u_i_view_controller_09_store_kit_8m_1a9a0c183ee4f28688afcd6d4775cb5b33" kindref="member">campaignTokenKey</ref><sp/>:<sp/><ref refid="category_u_i_view_controller_07_store_kit_08_1aad780989e1f480e440463d4af39f35ab" kindref="member">campaignToken</ref>,</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">self</highlight><highlight class="normal">.<ref refid="category_u_i_view_controller_07_store_kit_08_1a8dbcde90bf7e0cbb8c4866386c4ecc41" kindref="member">loadingStoreKitItemBlock</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.loadingStoreKitItemBlock();</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>[storeViewController<sp/>loadProductWithParameters:parameters<sp/>completionBlock:^(BOOL<sp/>result,<sp/>NSError*<sp/>error)<sp/>{</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>if<sp/>(self.loadedStoreKitItemBlock)<sp/>{</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.loadedStoreKitItemBlock();</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>if<sp/>(result<sp/>&amp;&amp;<sp/>!error)</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>presentViewController:storeViewController<sp/>animated:YES<sp/>completion:nil];</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/>}];</highlight></codeline>
+<codeline lineno="60"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="preprocessor">#pragma<sp/>mark<sp/>-<sp/>Delegation<sp/>-<sp/>SKStoreProductViewControllerDelegate</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal">-<sp/>(void)productViewControllerDidFinish:(SKStoreProductViewController*)viewController</highlight></codeline>
+<codeline lineno="66"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>[viewController<sp/>dismissViewControllerAnimated:YES<sp/>completion:nil];</highlight></codeline>
+<codeline lineno="68"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="preprocessor">#pragma<sp/>mark<sp/>-<sp/>Public<sp/>methods</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73" refid="category_u_i_view_controller_07_store_kit_08_1ad83a48bd2f3f6c6c00488e2761f401e8" refkind="member"><highlight class="normal">+<sp/>(NSURL*)appURLForIdentifier:(NSInteger)identifier</highlight></codeline>
+<codeline lineno="74"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/>NSString*<sp/>appURLString<sp/>=<sp/>[NSString<sp/>stringWithFormat:@&quot;https://itunes.apple.com/app/id%li&quot;,<sp/>(long)identifier];</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[NSURL<sp/>URLWithString:appURLString];</highlight></codeline>
+<codeline lineno="77"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79" refid="category_u_i_view_controller_07_store_kit_08_1a406befdc57a33dc5044776439adc33a1" refkind="member"><highlight class="normal">+<sp/>(void)openAppReviewURLForIdentifier:(NSInteger)identifier</highlight></codeline>
+<codeline lineno="80"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/>NSString*<sp/>reviewURLString<sp/>=<sp/>[NSString<sp/>stringWithFormat:@&quot;itms-apps://itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?type=Purple+Software&amp;id=%li&quot;,<sp/>(long)identifier];</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/>[[UIApplication<sp/>sharedApplication]<sp/>openURL:[NSURL<sp/>URLWithString:reviewURLString]];</highlight></codeline>
+<codeline lineno="83"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85" refid="category_u_i_view_controller_07_store_kit_08_1a4b41dcb133961b66e932843b4ce76cf5" refkind="member"><highlight class="normal">+<sp/>(void)openAppURLForIdentifier:(NSInteger)identifier</highlight></codeline>
+<codeline lineno="86"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/>NSString*<sp/>appURLString<sp/>=<sp/>[NSString<sp/>stringWithFormat:@&quot;itms-apps://itunes.apple.com/app/id%li&quot;,<sp/>(long)identifier];</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/>[[UIApplication<sp/>sharedApplication]<sp/>openURL:[NSURL<sp/>URLWithString:appURLString]];</highlight></codeline>
+<codeline lineno="89"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91" refid="category_u_i_view_controller_07_store_kit_08_1a14325bdbdb30f1a3885f926d6b02e81d" refkind="member"><highlight class="normal">+<sp/>(BOOL)containsITunesURLString:(NSString*)URLString</highlight></codeline>
+<codeline lineno="92"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>([URLString<sp/>rangeOfString:<ref refid="_u_i_view_controller_09_store_kit_8m_1ae6a9ad5d5ca6d49dae95e33147c51d03" kindref="member">iTunesAppleString</ref>].location<sp/>!=<sp/>NSNotFound);</highlight></codeline>
+<codeline lineno="94"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96" refid="category_u_i_view_controller_07_store_kit_08_1a1c4431f5f969a31ca61fce2a77ee2e59" refkind="member"><highlight class="normal">+<sp/>(NSInteger)IDFromITunesURL:(NSString*)URLString</highlight></codeline>
+<codeline lineno="97"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/>NSError*<sp/>error;</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/>NSRegularExpression*<sp/>regex<sp/>=<sp/>[NSRegularExpression<sp/>regularExpressionWithPattern:@&quot;id\\d+&quot;<sp/>options:0<sp/>error:&amp;error];</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/>NSTextCheckingResult*<sp/>match<sp/>=<sp/>[regex<sp/>firstMatchInString:URLString<sp/>options:0<sp/>range:NSMakeRange(0,<sp/>URLString.length)];</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/>NSString*<sp/>idString<sp/>=<sp/>[URLString<sp/>substringWithRange:match.range];</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(idString.length<sp/>&gt;<sp/>0)<sp/>{</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>idString<sp/>=<sp/>[idString<sp/>stringByReplacingOccurrencesOfString:@&quot;id&quot;<sp/>withString:@&quot;&quot;];</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[idString<sp/>integerValue];</highlight></codeline>
+<codeline lineno="108"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="preprocessor">#pragma<sp/>mark<sp/>-<sp/>Associated<sp/>objects</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal">-<sp/>(void)setCampaignToken:(NSString*)campaignToken</highlight></codeline>
+<codeline lineno="114"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/>objc_setAssociatedObject(</highlight><highlight class="keyword">self</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">@selector</highlight><highlight class="normal">(setCampaignToken:),<sp/><ref refid="category_u_i_view_controller_07_store_kit_08_1aad780989e1f480e440463d4af39f35ab" kindref="member">campaignToken</ref>,<sp/>OBJC_ASSOCIATION_RETAIN_NONATOMIC);</highlight></codeline>
+<codeline lineno="116"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal">-<sp/>(NSString*)<ref refid="category_u_i_view_controller_07_store_kit_08_1aad780989e1f480e440463d4af39f35ab" kindref="member">campaignToken</ref></highlight></codeline>
+<codeline lineno="119"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>objc_getAssociatedObject(</highlight><highlight class="keyword">self</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">@selector</highlight><highlight class="normal">(setCampaignToken:));</highlight></codeline>
+<codeline lineno="121"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal">-<sp/>(void)setLoadingStoreKitItemBlock:(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(^)(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">))loadingStoreKitItemBlock</highlight></codeline>
+<codeline lineno="124"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/>objc_setAssociatedObject(</highlight><highlight class="keyword">self</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">@selector</highlight><highlight class="normal">(setLoadingStoreKitItemBlock:),<sp/><ref refid="category_u_i_view_controller_07_store_kit_08_1a8dbcde90bf7e0cbb8c4866386c4ecc41" kindref="member">loadingStoreKitItemBlock</ref>,<sp/>OBJC_ASSOCIATION_RETAIN_NONATOMIC);</highlight></codeline>
+<codeline lineno="126"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight></codeline>
+<codeline lineno="128" refid="category_u_i_view_controller_07_store_kit_08_1a8dbcde90bf7e0cbb8c4866386c4ecc41" refkind="member"><highlight class="normal">-<sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(^)(void))<ref refid="category_u_i_view_controller_07_store_kit_08_1a8dbcde90bf7e0cbb8c4866386c4ecc41" kindref="member">loadingStoreKitItemBlock</ref></highlight></codeline>
+<codeline lineno="129"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>objc_getAssociatedObject(</highlight><highlight class="keyword">self</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">@selector</highlight><highlight class="normal">(setLoadingStoreKitItemBlock:));</highlight></codeline>
+<codeline lineno="131"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal">-<sp/>(void)setLoadedStoreKitItemBlock:(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(^)(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">))loadedStoreKitItemBlock</highlight></codeline>
+<codeline lineno="134"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/>objc_setAssociatedObject(</highlight><highlight class="keyword">self</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">@selector</highlight><highlight class="normal">(setLoadedStoreKitItemBlock:),<sp/><ref refid="category_u_i_view_controller_07_store_kit_08_1a44e05073b7148558bc560afd25d1c710" kindref="member">loadedStoreKitItemBlock</ref>,<sp/>OBJC_ASSOCIATION_RETAIN_NONATOMIC);</highlight></codeline>
+<codeline lineno="136"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight></codeline>
+<codeline lineno="138" refid="category_u_i_view_controller_07_store_kit_08_1a44e05073b7148558bc560afd25d1c710" refkind="member"><highlight class="normal">-<sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(^)(void))<ref refid="category_u_i_view_controller_07_store_kit_08_1a44e05073b7148558bc560afd25d1c710" kindref="member">loadedStoreKitItemBlock</ref></highlight></codeline>
+<codeline lineno="139"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>objc_getAssociatedObject(</highlight><highlight class="keyword">self</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">@selector</highlight><highlight class="normal">(setLoadedStoreKitItemBlock:));</highlight></codeline>
+<codeline lineno="141"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+StoreKit.m"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_u_i_font_07_t_t_f_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>UIFont(TTF)</compoundname>
+    <includes refid="_u_i_font-_t_t_f_8h" local="no">UIFont-TTF.h</includes>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="category_u_i_font_07_t_t_f_08_1a11f35e7c72549968974327d4ebcae7b5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>UIFont *</type>
+        <definition>UIFont * UIFont(TTF)::fontWithTTFAtPath:size:</definition>
+        <argsstring>(NSString *path,[size] CGFloat size)</argsstring>
+        <name>fontWithTTFAtPath:size:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <attributes>[size]</attributes>
+          <type>CGFloat</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>Obtain a UIFont from a TTF file. If the path to the font is not valid, an exception will be raised, assuming NS_BLOCK_ASSERTIONS has not been defined. If assertions are disabled, systemFontOfSize is returned. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>path</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The path to the TTF file. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>size</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The size of the font.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>A UIFont reference derived from the TrueType Font at the given path with the requested size. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIFont/UIFont-TTF.h" line="29" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIFont/UIFont-TTF.m" bodystart="34" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_font_07_t_t_f_08_1a11822a2516acfc268894e24ebb61c26d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>UIFont *</type>
+        <definition>UIFont * UIFont(TTF)::fontWithTTFAtURL:size:</definition>
+        <argsstring>(NSURL *URL,[size] CGFloat size)</argsstring>
+        <name>fontWithTTFAtURL:size:</name>
+        <param>
+          <type>NSURL *</type>
+          <declname>URL</declname>
+        </param>
+        <param>
+          <attributes>[size]</attributes>
+          <type>CGFloat</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>Convenience method that calls fontWithTTFAtPath:size: after creating a path from the provided URL. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>URL</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>URL to the file (local only). </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>size</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The size of the font.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>A UIFont reference derived from the TrueType Font at the given path with the requested size. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIFont/UIFont-TTF.h" line="29" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIFont/UIFont-TTF.m" bodystart="25" bodyend="32"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Copyright (C) 2015  (<ulink url="http://twitter.com/nin9tyfour">http://twitter.com/nin9tyfour</ulink>)</para><para>This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.</para><para>This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.</para><para>You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.</para><para>Copyright (C) 2015  (<ulink url="http://twitter.com/nin9tyfour">http://twitter.com/nin9tyfour</ulink>)</para><para>This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.</para><para>This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.</para><para>You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA. (作者) nin9tyfour</para><para>(地址) <ulink url="https://github.com/nin9tyfour/UIFont-TTF">https://github.com/nin9tyfour/UIFont-TTF</ulink></para><para>(版本) 20150622</para><para>(运行要求)</para><para>(描述) UIFont category that allows loading local TrueType font files. This does NOT require defining fonts in the Info.plist file of the project. It is also specifically useful for Cydia Substrate extensions, where modifying the Info.plist is not viable.</para><para>(使用) .. </para>    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIFont/UIFont-TTF.m" line="23" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIFont/UIFont-TTF.m" bodystart="23" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_u_i_font_07_t_t_f_08_1a11f35e7c72549968974327d4ebcae7b5" prot="public" virt="virtual"><scope>UIFont(TTF)</scope><name>fontWithTTFAtPath:size:</name></member>
+      <member refid="category_u_i_font_07_t_t_f_08_1a11822a2516acfc268894e24ebb61c26d" prot="public" virt="virtual"><scope>UIFont(TTF)</scope><name>fontWithTTFAtURL:size:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

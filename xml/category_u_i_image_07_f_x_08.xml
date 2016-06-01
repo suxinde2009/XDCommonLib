@@ -1,0 +1,258 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_u_i_image_07_f_x_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>UIImage(FX)</compoundname>
+    <includes refid="_u_i_image_09_f_x_8h" local="no">UIImage+FX.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="category_u_i_image_07_f_x_08_1a2eb82465c0407f2c9a25997bde62c71d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>UIImage *</type>
+        <definition>UIImage * UIImage(FX)::imageCroppedToRect:</definition>
+        <argsstring>(CGRect rect)</argsstring>
+        <name>imageCroppedToRect:</name>
+        <param>
+          <type>CGRect</type>
+          <declname>rect</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImage/UIImage+FX.h" line="12" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImage/UIImage+FX.m" bodystart="37" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_image_07_f_x_08_1a3967b24f4a9b3f7a0ecbdca6ca4717d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>UIImage *</type>
+        <definition>UIImage * UIImage(FX)::imageScaledToSize:</definition>
+        <argsstring>(CGSize size)</argsstring>
+        <name>imageScaledToSize:</name>
+        <param>
+          <type>CGSize</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImage/UIImage+FX.h" line="12" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImage/UIImage+FX.m" bodystart="53" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_image_07_f_x_08_1abbd673ac09b4b1631766399a8e4506e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>UIImage *</type>
+        <definition>UIImage * UIImage(FX)::imageScaledToFitSize:</definition>
+        <argsstring>(CGSize size)</argsstring>
+        <name>imageScaledToFitSize:</name>
+        <param>
+          <type>CGSize</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImage/UIImage+FX.h" line="12" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImage/UIImage+FX.m" bodystart="75" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_image_07_f_x_08_1aa6b5e19027256fe2a0e84af32b99df8b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>UIImage *</type>
+        <definition>UIImage * UIImage(FX)::imageScaledToFillSize:</definition>
+        <argsstring>(CGSize size)</argsstring>
+        <name>imageScaledToFillSize:</name>
+        <param>
+          <type>CGSize</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImage/UIImage+FX.h" line="12" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImage/UIImage+FX.m" bodystart="89" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_image_07_f_x_08_1aa9976a08a8b4e41373d9d2779a21a20c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>UIImage *</type>
+        <definition>UIImage * UIImage(FX)::imageCroppedAndScaledToSize:contentMode:padToFit:</definition>
+        <argsstring>(CGSize size,[contentMode] UIViewContentMode contentMode,[padToFit] BOOL padToFit)</argsstring>
+        <name>imageCroppedAndScaledToSize:contentMode:padToFit:</name>
+        <param>
+          <type>CGSize</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <attributes>[contentMode]</attributes>
+          <type>UIViewContentMode</type>
+          <declname>contentMode</declname>
+        </param>
+        <param>
+          <attributes>[padToFit]</attributes>
+          <type>BOOL</type>
+          <declname>padToFit</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImage/UIImage+FX.h" line="12" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImage/UIImage+FX.m" bodystart="107" bodyend="226"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_image_07_f_x_08_1ae11cafa5950eab49eaddad1a30109d51" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>UIImage *</type>
+        <definition>UIImage * UIImage(FX)::reflectedImageWithScale:</definition>
+        <argsstring>(CGFloat scale)</argsstring>
+        <name>reflectedImageWithScale:</name>
+        <param>
+          <type>CGFloat</type>
+          <declname>scale</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImage/UIImage+FX.h" line="12" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImage/UIImage+FX.m" bodystart="251" bodyend="276"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_image_07_f_x_08_1a1b7371d9413fe1ceb76ca4b7ec6f32a1" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>UIImage *</type>
+        <definition>UIImage * UIImage(FX)::imageWithReflectionWithScale:gap:alpha:</definition>
+        <argsstring>(CGFloat scale,[gap] CGFloat gap,[alpha] CGFloat alpha)</argsstring>
+        <name>imageWithReflectionWithScale:gap:alpha:</name>
+        <param>
+          <type>CGFloat</type>
+          <declname>scale</declname>
+        </param>
+        <param>
+          <attributes>[gap]</attributes>
+          <type>CGFloat</type>
+          <declname>gap</declname>
+        </param>
+        <param>
+          <attributes>[alpha]</attributes>
+          <type>CGFloat</type>
+          <declname>alpha</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImage/UIImage+FX.h" line="12" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImage/UIImage+FX.m" bodystart="278" bodyend="299"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_image_07_f_x_08_1a2909b1636eb8b10e8a6b3c14b3d5beac" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>UIImage *</type>
+        <definition>UIImage * UIImage(FX)::imageWithShadowColor:offset:blur:</definition>
+        <argsstring>(UIColor *color,[offset] CGSize offset,[blur] CGFloat blur)</argsstring>
+        <name>imageWithShadowColor:offset:blur:</name>
+        <param>
+          <type>UIColor *</type>
+          <declname>color</declname>
+        </param>
+        <param>
+          <attributes>[offset]</attributes>
+          <type>CGSize</type>
+          <declname>offset</declname>
+        </param>
+        <param>
+          <attributes>[blur]</attributes>
+          <type>CGFloat</type>
+          <declname>blur</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImage/UIImage+FX.h" line="12" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImage/UIImage+FX.m" bodystart="301" bodyend="325"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_image_07_f_x_08_1a643ebd2f36f8ee8740f6833cf6b4e241" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>UIImage *</type>
+        <definition>UIImage * UIImage(FX)::imageWithCornerRadius:</definition>
+        <argsstring>(CGFloat radius)</argsstring>
+        <name>imageWithCornerRadius:</name>
+        <param>
+          <type>CGFloat</type>
+          <declname>radius</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImage/UIImage+FX.h" line="12" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImage/UIImage+FX.m" bodystart="327" bodyend="355"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_image_07_f_x_08_1a1aba5aabf1c1133cf331682887362ea0" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>UIImage *</type>
+        <definition>UIImage * UIImage(FX)::imageWithAlpha:</definition>
+        <argsstring>(CGFloat alpha)</argsstring>
+        <name>imageWithAlpha:</name>
+        <param>
+          <type>CGFloat</type>
+          <declname>alpha</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImage/UIImage+FX.h" line="12" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImage/UIImage+FX.m" bodystart="357" bodyend="371"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_image_07_f_x_08_1a7bf234b1cbaf5d4af6ea319b7d40bc7e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>UIImage *</type>
+        <definition>UIImage * UIImage(FX)::imageWithMask:</definition>
+        <argsstring>(UIImage *maskImage)</argsstring>
+        <name>imageWithMask:</name>
+        <param>
+          <type>UIImage *</type>
+          <declname>maskImage</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImage/UIImage+FX.h" line="12" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImage/UIImage+FX.m" bodystart="373" bodyend="391"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_image_07_f_x_08_1a823cdf236ca9995ac901c95003db79d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>UIImage *</type>
+        <definition>UIImage * UIImage(FX)::maskImageFromImageAlpha</definition>
+        <argsstring>()</argsstring>
+        <name>maskImageFromImageAlpha</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImage/UIImage+FX.h" line="12" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImage/UIImage+FX.m" bodystart="393" bodyend="424"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImage/UIImage+FX.m" line="35" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImage/UIImage+FX.m" bodystart="35" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_u_i_image_07_f_x_08_1aa9976a08a8b4e41373d9d2779a21a20c" prot="public" virt="virtual"><scope>UIImage(FX)</scope><name>imageCroppedAndScaledToSize:contentMode:padToFit:</name></member>
+      <member refid="category_u_i_image_07_f_x_08_1a2eb82465c0407f2c9a25997bde62c71d" prot="public" virt="virtual"><scope>UIImage(FX)</scope><name>imageCroppedToRect:</name></member>
+      <member refid="category_u_i_image_07_f_x_08_1aa6b5e19027256fe2a0e84af32b99df8b" prot="public" virt="virtual"><scope>UIImage(FX)</scope><name>imageScaledToFillSize:</name></member>
+      <member refid="category_u_i_image_07_f_x_08_1abbd673ac09b4b1631766399a8e4506e1" prot="public" virt="virtual"><scope>UIImage(FX)</scope><name>imageScaledToFitSize:</name></member>
+      <member refid="category_u_i_image_07_f_x_08_1a3967b24f4a9b3f7a0ecbdca6ca4717d4" prot="public" virt="virtual"><scope>UIImage(FX)</scope><name>imageScaledToSize:</name></member>
+      <member refid="category_u_i_image_07_f_x_08_1a1aba5aabf1c1133cf331682887362ea0" prot="public" virt="virtual"><scope>UIImage(FX)</scope><name>imageWithAlpha:</name></member>
+      <member refid="category_u_i_image_07_f_x_08_1a643ebd2f36f8ee8740f6833cf6b4e241" prot="public" virt="virtual"><scope>UIImage(FX)</scope><name>imageWithCornerRadius:</name></member>
+      <member refid="category_u_i_image_07_f_x_08_1a7bf234b1cbaf5d4af6ea319b7d40bc7e" prot="public" virt="virtual"><scope>UIImage(FX)</scope><name>imageWithMask:</name></member>
+      <member refid="category_u_i_image_07_f_x_08_1a1b7371d9413fe1ceb76ca4b7ec6f32a1" prot="public" virt="virtual"><scope>UIImage(FX)</scope><name>imageWithReflectionWithScale:gap:alpha:</name></member>
+      <member refid="category_u_i_image_07_f_x_08_1a2909b1636eb8b10e8a6b3c14b3d5beac" prot="public" virt="virtual"><scope>UIImage(FX)</scope><name>imageWithShadowColor:offset:blur:</name></member>
+      <member refid="category_u_i_image_07_f_x_08_1a823cdf236ca9995ac901c95003db79d7" prot="public" virt="virtual"><scope>UIImage(FX)</scope><name>maskImageFromImageAlpha</name></member>
+      <member refid="category_u_i_image_07_f_x_08_1ae11cafa5950eab49eaddad1a30109d51" prot="public" virt="virtual"><scope>UIImage(FX)</scope><name>reflectedImageWithScale:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

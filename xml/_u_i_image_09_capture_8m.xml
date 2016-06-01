@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_u_i_image_09_capture_8m" kind="file" language="Objective-C">
+    <compoundname>UIImage+Capture.m</compoundname>
+    <includes refid="_u_i_image_09_capture_8h" local="yes">UIImage+Capture.h</includes>
+    <includes local="no">QuartzCore/QuartzCore.h</includes>
+    <incdepgraph>
+      <node id="1488">
+        <label>UIImage+Capture.h</label>
+        <link refid="_u_i_image_09_capture_8h"/>
+        <childnode refid="1489" relation="include">
+        </childnode>
+      </node>
+      <node id="1487">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImage/UIImage+Capture.m</label>
+        <link refid="UIImage+Capture.m"/>
+        <childnode refid="1488" relation="include">
+        </childnode>
+        <childnode refid="1490" relation="include">
+        </childnode>
+      </node>
+      <node id="1489">
+        <label>UIKit/UIKit.h</label>
+      </node>
+      <node id="1490">
+        <label>QuartzCore/QuartzCore.h</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>UIImage+Capture.m</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>iOS-Categories<sp/>(https://github.com/shaojiankui/iOS-Categories)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Jakey<sp/>on<sp/>15/1/10.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2015年<sp/>www.skyfox.org.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_u_i_image_09_capture_8h" kindref="compound">UIImage+Capture.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;QuartzCore/QuartzCore.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="category_u_i_image_07_capture_08" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">@implementation<sp/></highlight><highlight class="normal"><ref refid="category_u_i_image_07_capture_08" kindref="compound">UIImage (Capture)</ref></highlight></codeline>
+<codeline lineno="19" refid="category_u_i_image_07_capture_08_1ab6a10ca8568cf5f0ad5935fdeb0fda15" refkind="member"><highlight class="normal">+<sp/>(UIImage<sp/>*)captureWithView:(UIView<sp/>*)view</highlight></codeline>
+<codeline lineno="20"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>UIGraphicsBeginImageContextWithOptions(view.bounds.size,<sp/>view.opaque,<sp/>[UIScreen<sp/>mainScreen].scale);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>IOS7及其后续版本</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>([view<sp/>respondsToSelector:</highlight><highlight class="keyword">@selector</highlight><highlight class="normal">(drawViewHierarchyInRect:afterScreenUpdates:)])<sp/>{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[view<sp/>drawViewHierarchyInRect:view.bounds<sp/>afterScreenUpdates:NO];</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{<sp/></highlight><highlight class="comment">//<sp/>IOS7之前的版本</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[view.layer<sp/>renderInContext:UIGraphicsGetCurrentContext()];</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>UIImage<sp/>*screenshot<sp/>=<sp/>UIGraphicsGetImageFromCurrentImageContext();</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>UIGraphicsEndImageContext();</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>screenshot;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34" refid="category_u_i_image_07_capture_08_1a46659f4e71bc6bc42da9a79e94a1fc4f" refkind="member"><highlight class="normal">+<sp/>(UIImage<sp/>*)getImageWithSize:(CGRect)myImageRect<sp/>FromImage:(UIImage<sp/>*)bigImage</highlight></codeline>
+<codeline lineno="35"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//大图bigImage</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//定义myImageRect，截图的区域</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>CGImageRef<sp/>imageRef<sp/>=<sp/>bigImage.CGImage;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>CGImageRef<sp/>subImageRef<sp/>=<sp/>CGImageCreateWithImageInRect(imageRef,<sp/>myImageRect);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>CGSize<sp/>size;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>size.width<sp/>=<sp/>CGRectGetWidth(myImageRect);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>size.height<sp/>=<sp/>CGRectGetHeight(myImageRect);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>UIGraphicsBeginImageContext(size);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>CGContextRef<sp/>context<sp/>=<sp/>UIGraphicsGetCurrentContext();</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>CGContextDrawImage(context,<sp/>myImageRect,<sp/>subImageRef);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>UIImage*<sp/>smallImage<sp/>=<sp/>[UIImage<sp/>imageWithCGImage:subImageRef];</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>CGImageRelease(subImageRef);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>UIGraphicsEndImageContext();</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>smallImage;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62" refid="category_u_i_image_07_capture_08_1a4f7e70e15e8259204594b83c6a52a596" refkind="member"><highlight class="normal">+<sp/>(UIImage<sp/>*)screenshotWithView:(UIView<sp/>*)aView<sp/>limitWidth:(CGFloat)maxWidth{</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/>CGAffineTransform<sp/>oldTransform<sp/>=<sp/>aView.transform;</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/>CGAffineTransform<sp/>scaleTransform<sp/>=<sp/>CGAffineTransformIdentity;</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!isnan(maxWidth)<sp/>&amp;&amp;<sp/>maxWidth&gt;0)<sp/>{</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CGFloat<sp/>maxScale<sp/>=<sp/>maxWidth/CGRectGetWidth(aView.frame);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CGAffineTransform<sp/>transformScale<sp/>=<sp/>CGAffineTransformMakeScale(maxScale,<sp/>maxScale);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>scaleTransform<sp/>=<sp/>CGAffineTransformConcat(oldTransform,<sp/>transformScale);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!CGAffineTransformEqualToTransform(scaleTransform,<sp/>CGAffineTransformIdentity)){</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>aView.transform<sp/>=<sp/>scaleTransform;</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/>CGRect<sp/>actureFrame<sp/>=<sp/>aView.frame;<sp/></highlight><highlight class="comment">//已经变换过后的frame</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/>CGRect<sp/>actureBounds=<sp/>aView.bounds;</highlight><highlight class="comment">//CGRectApplyAffineTransform();</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//begin</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/>UIGraphicsBeginImageContextWithOptions(actureFrame.size,<sp/>NO,<sp/>0.0);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/>CGContextRef<sp/>context<sp/>=<sp/>UIGraphicsGetCurrentContext();</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/>CGContextSaveGState(context);</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/>CGContextScaleCTM(UIGraphicsGetCurrentContext(),<sp/>1,<sp/>-1);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/>CGContextTranslateCTM(context,actureFrame.size.width/2,<sp/>actureFrame.size.height/2);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/>CGContextConcatCTM(context,<sp/>aView.transform);</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/>CGPoint<sp/>anchorPoint<sp/>=<sp/>aView.layer.anchorPoint;</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/>CGContextTranslateCTM(context,</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>-actureBounds.size.width<sp/>*<sp/>anchorPoint.x,</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>-actureBounds.size.height<sp/>*<sp/>anchorPoint.y);</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">([aView<sp/>respondsToSelector:</highlight><highlight class="keyword">@selector</highlight><highlight class="normal">(drawViewHierarchyInRect:afterScreenUpdates:)])</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[aView<sp/>drawViewHierarchyInRect:aView.bounds<sp/>afterScreenUpdates:NO];</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[aView.layer<sp/>renderInContext:UIGraphicsGetCurrentContext()];</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/>UIImage<sp/>*screenshot<sp/>=<sp/>UIGraphicsGetImageFromCurrentImageContext();</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/>UIGraphicsEndImageContext();</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//end</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/>aView.transform<sp/>=<sp/>oldTransform;</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>screenshot;</highlight></codeline>
+<codeline lineno="104"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImage/UIImage+Capture.m"/>
+  </compounddef>
+</doxygen>

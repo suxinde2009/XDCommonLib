@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_u_i_image_09_vector_8h" kind="file" language="C++">
+    <compoundname>UIImage+Vector.h</compoundname>
+    <includes local="no">UIKit/UIKit.h</includes>
+    <includedby refid="_u_i_image_09_vector_8m" local="yes">XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImage/UIImage+Vector.m</includedby>
+    <incdepgraph>
+      <node id="1590">
+        <label>UIKit/UIKit.h</label>
+      </node>
+      <node id="1589">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImage/UIImage+Vector.h</label>
+        <link refid="UIImage+Vector.h"/>
+        <childnode refid="1590" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1591">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImage/UIImage+Vector.h</label>
+        <link refid="UIImage+Vector.h"/>
+        <childnode refid="1592" relation="include">
+        </childnode>
+      </node>
+      <node id="1592">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImage/UIImage+Vector.m</label>
+        <link refid="_u_i_image_09_vector_8m"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="category_u_i_image_07_vector_08" prot="public">UIImage(Vector)</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>UIImage+Vector.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>UIImage+Vector</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>David<sp/>Keegan<sp/>on<sp/>8/7/13.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2013<sp/>David<sp/>Keegan<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="preprocessor">#import<sp/>&lt;UIKit/UIKit.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="category_u_i_image_07_vector_08" kindref="compound">UIImage(Vector)</ref></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal">+<sp/>(UIImage<sp/>*)iconWithFont:(UIFont<sp/>*)font<sp/>named:(NSString<sp/>*)iconNamed</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>withTintColor:(UIColor<sp/>*)tintColor<sp/>clipToBounds:(BOOL)clipToBounds<sp/>forSize:(CGFloat)fontSize;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal">+<sp/>(UIImage<sp/>*)imageWithPDFNamed:(NSString<sp/>*)pdfNamed<sp/>forHeight:(CGFloat)height;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal">+<sp/>(UIImage<sp/>*)imageWithPDFNamed:(NSString<sp/>*)pdfNamed<sp/>withTintColor:(UIColor<sp/>*)tintColor<sp/>forHeight:(CGFloat)height;</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal">+<sp/>(UIImage<sp/>*)imageWithPDFFile:(NSString<sp/>*)pdfFile<sp/>withTintColor:(UIColor<sp/>*)tintColor<sp/>forSize:(CGSize)size;</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImage/UIImage+Vector.h"/>
+  </compounddef>
+</doxygen>

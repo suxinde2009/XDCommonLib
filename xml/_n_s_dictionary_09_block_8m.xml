@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_n_s_dictionary_09_block_8m" kind="file" language="Objective-C">
+    <compoundname>NSDictionary+Block.m</compoundname>
+    <includes refid="_n_s_dictionary_09_block_8h" local="yes">NSDictionary+Block.h</includes>
+    <incdepgraph>
+      <node id="448">
+        <label>NSDictionary+Block.h</label>
+        <link refid="_n_s_dictionary_09_block_8h"/>
+        <childnode refid="449" relation="include">
+        </childnode>
+      </node>
+      <node id="447">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDictionary/NSDictionary+Block.m</label>
+        <link refid="NSDictionary+Block.m"/>
+        <childnode refid="448" relation="include">
+        </childnode>
+      </node>
+      <node id="449">
+        <label>Foundation/Foundation.h</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>NSDictionary+Block.m</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>iOS-Categories<sp/>(https://github.com/shaojiankui/iOS-Categories)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Jakey<sp/>on<sp/>15/5/22.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2015年<sp/>www.skyfox.org.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_n_s_dictionary_09_block_8h" kindref="compound">NSDictionary+Block.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="category_n_s_dictionary_07_block_08" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">@implementation<sp/></highlight><highlight class="normal"><ref refid="category_n_s_dictionary_07_block_08" kindref="compound">NSDictionary (Block)</ref></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/>-<sp/>Manipulation</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="category_n_s_dictionary_07_block_08_1a6f0d158f2b8d0f1f9ce161c3463c9179" refkind="member"><highlight class="normal">-<sp/>(NSDictionary<sp/>*)dictionaryByAddingEntriesFromDictionary:(NSDictionary<sp/>*)dictionary<sp/>{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>NSMutableDictionary<sp/>*result<sp/>=<sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>mutableCopy];</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>[result<sp/>addEntriesFromDictionary:dictionary];</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>result;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="category_n_s_dictionary_07_block_08_1a841eb927acba7373acf53f350761eecf" refkind="member"><highlight class="normal">-<sp/>(NSDictionary<sp/>*)dictionaryByRemovingEntriesWithKeys:(NSSet<sp/>*)keys<sp/>{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>NSMutableDictionary<sp/>*result<sp/>=<sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>mutableCopy];</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>[result<sp/>removeObjectsForKeys:keys.allObjects];</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>result;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/>-<sp/>RX</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27" refid="category_n_s_dictionary_07_block_08_1a8d9ae9658909e2922cffd0a8a036772b" refkind="member"><highlight class="normal">-<sp/>(void)each:(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(^)(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>k,<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>v))block<sp/>{</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>enumerateKeysAndObjectsUsingBlock:^(id<sp/>key,<sp/>id<sp/>obj,<sp/>BOOL<sp/>*stop)<sp/>{</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>block(key,<sp/>obj);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>}];</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="category_n_s_dictionary_07_block_08_1ae50ca0d23de66a7e3d095799aa297c04" refkind="member"><highlight class="normal">-<sp/>(void)eachKey:(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(^)(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>k))block<sp/>{</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>enumerateKeysAndObjectsUsingBlock:^(id<sp/>key,<sp/>id<sp/>obj,<sp/>BOOL<sp/>*stop)<sp/>{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>block(key);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>}];</highlight></codeline>
+<codeline lineno="37"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39" refid="category_n_s_dictionary_07_block_08_1abbaa85a24843dae33bed96562aa3a6aa" refkind="member"><highlight class="normal">-<sp/>(void)eachValue:(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(^)(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>v))block<sp/>{</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>enumerateKeysAndObjectsUsingBlock:^(id<sp/>key,<sp/>id<sp/>obj,<sp/>BOOL<sp/>*stop)<sp/>{</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>block(obj);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>}];</highlight></codeline>
+<codeline lineno="43"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45" refid="category_n_s_dictionary_07_block_08_1a4d3229f4675ea346da1b5375eaf492ff" refkind="member"><highlight class="normal">-<sp/>(NSArray<sp/>*)map:(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>(^)(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>key,<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>value))block<sp/>{</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>NSMutableArray<sp/>*array<sp/>=<sp/>[NSMutableArray<sp/>array];</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>enumerateKeysAndObjectsUsingBlock:^(id<sp/>key,<sp/>id<sp/>obj,<sp/>BOOL<sp/>*stop)<sp/>{</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>id<sp/>object<sp/>=<sp/>block(key,<sp/>obj);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>if<sp/>(object)<sp/>{</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[array<sp/>addObject:object];</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/>}];</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>array;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58" refid="category_n_s_dictionary_07_block_08_1a7d19c7d345a498b338cd8680ba3f9f52" refkind="member"><highlight class="normal">-<sp/>(BOOL)hasKey:(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)key<sp/>{</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>!!</highlight><highlight class="keyword">self</highlight><highlight class="normal">[key];</highlight></codeline>
+<codeline lineno="60"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62" refid="category_n_s_dictionary_07_block_08_1a400bf2db18ad2325155e41f914d3da74" refkind="member"><highlight class="normal">-<sp/>(NSDictionary<sp/>*)pick:(NSArray<sp/>*)keys<sp/>{</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/>NSMutableDictionary<sp/>*picked<sp/>=<sp/>[[NSMutableDictionary<sp/>alloc]<sp/>initWithCapacity:keys.count];</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>enumerateKeysAndObjectsUsingBlock:^(id<sp/>key,<sp/>id<sp/>obj,<sp/>BOOL<sp/>*stop)<sp/>{</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>if<sp/>([keys<sp/>containsObject:key])<sp/>{</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>picked[key]<sp/>=<sp/>obj;</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/>}];</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>picked;</highlight></codeline>
+<codeline lineno="72"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74" refid="category_n_s_dictionary_07_block_08_1a61c88e7db3b0713b5cc0ab8eb8edf419" refkind="member"><highlight class="normal">-<sp/>(NSDictionary<sp/>*)omit:(NSArray<sp/>*)keys<sp/>{</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/>NSMutableDictionary<sp/>*omitted<sp/>=<sp/>[[NSMutableDictionary<sp/>alloc]<sp/>initWithCapacity:([</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>allKeys].count<sp/>-<sp/>keys.count)];</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>enumerateKeysAndObjectsUsingBlock:^(id<sp/>key,<sp/>id<sp/>obj,<sp/>BOOL<sp/>*stop)<sp/>{</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>if<sp/>(![keys<sp/>containsObject:key])<sp/>{</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>omitted[key]<sp/>=<sp/>obj;</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/>}];</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>omitted;</highlight></codeline>
+<codeline lineno="84"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDictionary/NSDictionary+Block.m"/>
+  </compounddef>
+</doxygen>

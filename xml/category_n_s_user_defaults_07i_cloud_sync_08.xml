@@ -1,0 +1,136 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_n_s_user_defaults_07i_cloud_sync_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>NSUserDefaults(iCloudSync)</compoundname>
+    <includes refid="_n_s_user_defaults_09i_cloud_sync_8h" local="no">NSUserDefaults+iCloudSync.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="category_n_s_user_defaults_07i_cloud_sync_08_1a76d43f02c352098f9115b27293b27b60" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void NSUserDefaults(iCloudSync)::setValue:forKey:iCloudSync:</definition>
+        <argsstring>(id value,[forKey] NSString *key,[iCloudSync] BOOL sync)</argsstring>
+        <name>setValue:forKey:iCloudSync:</name>
+        <param>
+          <type>id</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <attributes>[forKey]</attributes>
+          <type>NSString *</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <attributes>[iCloudSync]</attributes>
+          <type>BOOL</type>
+          <declname>sync</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSUserDefaults/NSUserDefaults+iCloudSync.h" line="68" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSUserDefaults/NSUserDefaults+iCloudSync.m" bodystart="15" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_user_defaults_07i_cloud_sync_08_1a5c03e34a0548bcd0ebf517be360dc554" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void NSUserDefaults(iCloudSync)::setObject:forKey:iCloudSync:</definition>
+        <argsstring>(id value,[forKey] NSString *key,[iCloudSync] BOOL sync)</argsstring>
+        <name>setObject:forKey:iCloudSync:</name>
+        <param>
+          <type>id</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <attributes>[forKey]</attributes>
+          <type>NSString *</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <attributes>[iCloudSync]</attributes>
+          <type>BOOL</type>
+          <declname>sync</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSUserDefaults/NSUserDefaults+iCloudSync.h" line="68" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSUserDefaults/NSUserDefaults+iCloudSync.m" bodystart="43" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_user_defaults_07i_cloud_sync_08_1a53d396b52f2102d0300944553e2cde83" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>id</type>
+        <definition>id NSUserDefaults(iCloudSync)::valueForKey:iCloudSync:</definition>
+        <argsstring>(NSString *key,[iCloudSync] BOOL sync)</argsstring>
+        <name>valueForKey:iCloudSync:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <attributes>[iCloudSync]</attributes>
+          <type>BOOL</type>
+          <declname>sync</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSUserDefaults/NSUserDefaults+iCloudSync.h" line="68" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSUserDefaults/NSUserDefaults+iCloudSync.m" bodystart="22" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_user_defaults_07i_cloud_sync_08_1a871ae2f79488f289af2aee92bc3c514a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>id</type>
+        <definition>id NSUserDefaults(iCloudSync)::objectForKey:iCloudSync:</definition>
+        <argsstring>(NSString *key,[iCloudSync] BOOL sync)</argsstring>
+        <name>objectForKey:iCloudSync:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <attributes>[iCloudSync]</attributes>
+          <type>BOOL</type>
+          <declname>sync</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSUserDefaults/NSUserDefaults+iCloudSync.h" line="68" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSUserDefaults/NSUserDefaults+iCloudSync.m" bodystart="50" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_user_defaults_07i_cloud_sync_08_1a8df369ff333b1380ef95548763dfb135" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL NSUserDefaults(iCloudSync)::synchronizeAlsoiCloudSync:</definition>
+        <argsstring>(BOOL sync)</argsstring>
+        <name>synchronizeAlsoiCloudSync:</name>
+        <param>
+          <type>BOOL</type>
+          <declname>sync</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSUserDefaults/NSUserDefaults+iCloudSync.h" line="68" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSUserDefaults/NSUserDefaults+iCloudSync.m" bodystart="75" bodyend="84"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSUserDefaults/NSUserDefaults+iCloudSync.m" line="12" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSUserDefaults/NSUserDefaults+iCloudSync.m" bodystart="12" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_n_s_user_defaults_07i_cloud_sync_08_1a871ae2f79488f289af2aee92bc3c514a" prot="public" virt="virtual"><scope>NSUserDefaults(iCloudSync)</scope><name>objectForKey:iCloudSync:</name></member>
+      <member refid="category_n_s_user_defaults_07i_cloud_sync_08_1a5c03e34a0548bcd0ebf517be360dc554" prot="public" virt="virtual"><scope>NSUserDefaults(iCloudSync)</scope><name>setObject:forKey:iCloudSync:</name></member>
+      <member refid="category_n_s_user_defaults_07i_cloud_sync_08_1a76d43f02c352098f9115b27293b27b60" prot="public" virt="virtual"><scope>NSUserDefaults(iCloudSync)</scope><name>setValue:forKey:iCloudSync:</name></member>
+      <member refid="category_n_s_user_defaults_07i_cloud_sync_08_1a8df369ff333b1380ef95548763dfb135" prot="public" virt="virtual"><scope>NSUserDefaults(iCloudSync)</scope><name>synchronizeAlsoiCloudSync:</name></member>
+      <member refid="category_n_s_user_defaults_07i_cloud_sync_08_1a53d396b52f2102d0300944553e2cde83" prot="public" virt="virtual"><scope>NSUserDefaults(iCloudSync)</scope><name>valueForKey:iCloudSync:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

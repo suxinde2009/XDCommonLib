@@ -1,0 +1,247 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_y_r_j_s_o_n_adapter_8m" kind="file" language="Objective-C">
+    <compoundname>YRJSONAdapter.m</compoundname>
+    <includes refid="_y_r_j_s_o_n_adapter_8h" local="yes">YRJSONAdapter.h</includes>
+    <includes local="no">objc/runtime.h</includes>
+    <incdepgraph>
+      <node id="3648">
+        <label>YRJSONAdapter.h</label>
+        <link refid="_y_r_j_s_o_n_adapter_8h"/>
+        <childnode refid="3649" relation="include">
+        </childnode>
+      </node>
+      <node id="3647">
+        <label>XDCommonLib/CommonBasicComponentLayer/Venders/YRJSONAdapter/YRJSONAdapter.m</label>
+        <link refid="YRJSONAdapter.m"/>
+        <childnode refid="3648" relation="include">
+        </childnode>
+        <childnode refid="3650" relation="include">
+        </childnode>
+      </node>
+      <node id="3650">
+        <label>objc/runtime.h</label>
+      </node>
+      <node id="3649">
+        <label>Foundation/Foundation.h</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>YRJSONAdapt.m</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>YRSnippets</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>王晓宇<sp/>on<sp/>14-5-13.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2014年<sp/>王晓宇.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_y_r_j_s_o_n_adapter_8h" kindref="compound">YRJSONAdapter.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;objc/runtime.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="category_n_s_string_07_y_r_j_s_o_n_deserializing_08" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">@implementation<sp/></highlight><highlight class="normal"><ref refid="category_n_s_string_07_y_r_j_s_o_n_deserializing_08" kindref="compound">NSString (YRJSONDeserializing)</ref></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="category_n_s_string_07_y_r_j_s_o_n_deserializing_08_1a936ff56ea016124b5228443a2bc9d8b1" refkind="member"><highlight class="normal">-<sp/>(id)<ref refid="category_n_s_string_07_y_r_j_s_o_n_deserializing_08_1a936ff56ea016124b5228443a2bc9d8b1" kindref="member">objectFromJSONString</ref><sp/>{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>nil;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="category_n_s_string_07_y_r_j_s_o_n_deserializing_08_1a7132c99575ed3e715df9709462849079" refkind="member"><highlight class="normal">-<sp/>(id)<ref refid="category_n_s_string_07_y_r_j_s_o_n_deserializing_08_1a7132c99575ed3e715df9709462849079" kindref="member">mutableObjectFromJSONString</ref><sp/>{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>nil;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal">-<sp/>(id)yr_objectFromJSONString<sp/>{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[<ref refid="class_y_r_j_s_o_n_adapter" kindref="compound">YRJSONAdapter</ref><sp/><ref refid="class_y_r_j_s_o_n_adapter_1a5db938f7854476dadf2825af26524c4d" kindref="member">objectFromJSONString</ref>:self];</highlight></codeline>
+<codeline lineno="24"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal">-<sp/>(id)yr_mutableObjectFromJSONString<sp/>{</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[<ref refid="class_y_r_j_s_o_n_adapter" kindref="compound">YRJSONAdapter</ref><sp/><ref refid="class_y_r_j_s_o_n_adapter_1a6997e8dae7f18378b3e3e517d750a791" kindref="member">mutableObjectFromJSONString</ref>:self];</highlight></codeline>
+<codeline lineno="28"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="category_n_s_data_07_y_r_j_s_o_n_deserializing_08" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">@implementation<sp/></highlight><highlight class="normal"><ref refid="category_n_s_data_07_y_r_j_s_o_n_deserializing_08" kindref="compound">NSData (YRJSONDeserializing)</ref></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="category_n_s_data_07_y_r_j_s_o_n_deserializing_08_1a421c1c3ef2627357f3a8e78556cb1694" refkind="member"><highlight class="normal">-<sp/>(id)<ref refid="category_n_s_data_07_y_r_j_s_o_n_deserializing_08_1a421c1c3ef2627357f3a8e78556cb1694" kindref="member">objectFromJSONData</ref><sp/>{</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>nil;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39" refid="category_n_s_data_07_y_r_j_s_o_n_deserializing_08_1a7ec5a1100adb57c3ef9751fcd3f85923" refkind="member"><highlight class="normal">-<sp/>(id)<ref refid="category_n_s_data_07_y_r_j_s_o_n_deserializing_08_1a7ec5a1100adb57c3ef9751fcd3f85923" kindref="member">mutableObjectFromJSONData</ref><sp/>{</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>nil;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal">-<sp/>(id)yr_objectFromJSONData<sp/>{</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[<ref refid="class_y_r_j_s_o_n_adapter" kindref="compound">YRJSONAdapter</ref><sp/><ref refid="class_y_r_j_s_o_n_adapter_1a2479b7c2e17a998cda99139497354550" kindref="member">objectFromJSONData</ref>:self];</highlight></codeline>
+<codeline lineno="45"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal">-<sp/>(id)yr_mutableObjectFromJSONData<sp/>{</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[<ref refid="class_y_r_j_s_o_n_adapter" kindref="compound">YRJSONAdapter</ref><sp/><ref refid="class_y_r_j_s_o_n_adapter_1a132d8db8d090d8e576b395d91274d2f6" kindref="member">mutableObjectFromJSONData</ref>:self];</highlight></codeline>
+<codeline lineno="49"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54" refid="category_n_s_string_07_y_r_j_s_o_n_serializing_08" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">@implementation<sp/></highlight><highlight class="normal"><ref refid="category_n_s_string_07_y_r_j_s_o_n_serializing_08" kindref="compound">NSString (YRJSONSerializing)</ref></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56" refid="category_n_s_string_07_y_r_j_s_o_n_serializing_08_1a64098d43aa9ff2ba66532377c44dc245" refkind="member"><highlight class="normal">-<sp/>(NSData<sp/>*)<ref refid="category_n_s_string_07_y_r_j_s_o_n_serializing_08_1a64098d43aa9ff2ba66532377c44dc245" kindref="member">JSONData</ref><sp/>{</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>nil;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60" refid="category_n_s_string_07_y_r_j_s_o_n_serializing_08_1a352745c74a3e90a8ca5810936c1c3171" refkind="member"><highlight class="normal">-<sp/>(NSString<sp/>*)<ref refid="category_n_s_string_07_y_r_j_s_o_n_serializing_08_1a352745c74a3e90a8ca5810936c1c3171" kindref="member">JSONString</ref><sp/>{</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>nil;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal">-<sp/>(NSData<sp/>*)yr_JSONData<sp/>{</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[<ref refid="class_y_r_j_s_o_n_adapter" kindref="compound">YRJSONAdapter</ref><sp/><ref refid="class_y_r_j_s_o_n_adapter_1a5b12a9733027053fd0ad7b28e8528fd0" kindref="member">dataWithObject</ref>:self];</highlight></codeline>
+<codeline lineno="66"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal">-<sp/>(NSString<sp/>*)yr_JSONString<sp/>{</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[<ref refid="class_y_r_j_s_o_n_adapter" kindref="compound">YRJSONAdapter</ref><sp/><ref refid="class_y_r_j_s_o_n_adapter_1a3f18b7334da8db054c70b225534c6359" kindref="member">stringWithObject</ref>:self];</highlight></codeline>
+<codeline lineno="70"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74" refid="category_n_s_array_07_y_r_j_s_o_n_serializing_08" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">@implementation<sp/></highlight><highlight class="normal"><ref refid="category_n_s_array_07_y_r_j_s_o_n_serializing_08" kindref="compound">NSArray (YRJSONSerializing)</ref></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76" refid="category_n_s_array_07_y_r_j_s_o_n_serializing_08_1a3856e6da4d26536079e5964402705289" refkind="member"><highlight class="normal">-<sp/>(NSData<sp/>*)<ref refid="category_n_s_array_07_y_r_j_s_o_n_serializing_08_1a3856e6da4d26536079e5964402705289" kindref="member">JSONData</ref><sp/>{</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>nil;</highlight></codeline>
+<codeline lineno="78"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80" refid="category_n_s_array_07_y_r_j_s_o_n_serializing_08_1a634105659931f511aac705ba892303f5" refkind="member"><highlight class="normal">-<sp/>(NSString<sp/>*)<ref refid="category_n_s_array_07_y_r_j_s_o_n_serializing_08_1a634105659931f511aac705ba892303f5" kindref="member">JSONString</ref><sp/>{</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>nil;</highlight></codeline>
+<codeline lineno="82"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal">-<sp/>(NSData<sp/>*)yr_JSONData<sp/>{</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[<ref refid="class_y_r_j_s_o_n_adapter" kindref="compound">YRJSONAdapter</ref><sp/><ref refid="class_y_r_j_s_o_n_adapter_1a5b12a9733027053fd0ad7b28e8528fd0" kindref="member">dataWithObject</ref>:self];</highlight></codeline>
+<codeline lineno="86"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal">-<sp/>(NSString<sp/>*)yr_JSONString<sp/>{</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[<ref refid="class_y_r_j_s_o_n_adapter" kindref="compound">YRJSONAdapter</ref><sp/><ref refid="class_y_r_j_s_o_n_adapter_1a3f18b7334da8db054c70b225534c6359" kindref="member">stringWithObject</ref>:self];</highlight></codeline>
+<codeline lineno="90"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94" refid="category_n_s_dictionary_07_y_r_j_s_o_n_serializing_08" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">@implementation<sp/></highlight><highlight class="normal"><ref refid="category_n_s_dictionary_07_y_r_j_s_o_n_serializing_08" kindref="compound">NSDictionary (YRJSONSerializing)</ref></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96" refid="category_n_s_dictionary_07_y_r_j_s_o_n_serializing_08_1a4a2361e3dec03183c3414a193b3e34d6" refkind="member"><highlight class="normal">-<sp/>(NSData<sp/>*)<ref refid="category_n_s_dictionary_07_y_r_j_s_o_n_serializing_08_1a4a2361e3dec03183c3414a193b3e34d6" kindref="member">JSONData</ref><sp/>{</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>nil;</highlight></codeline>
+<codeline lineno="98"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="100" refid="category_n_s_dictionary_07_y_r_j_s_o_n_serializing_08_1a58451c82d719e4fbdda02db401d6875d" refkind="member"><highlight class="normal">-<sp/>(NSString<sp/>*)<ref refid="category_n_s_dictionary_07_y_r_j_s_o_n_serializing_08_1a58451c82d719e4fbdda02db401d6875d" kindref="member">JSONString</ref><sp/>{</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>nil;</highlight></codeline>
+<codeline lineno="102"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal">-<sp/>(NSData<sp/>*)yr_JSONData<sp/>{</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[<ref refid="class_y_r_j_s_o_n_adapter" kindref="compound">YRJSONAdapter</ref><sp/><ref refid="class_y_r_j_s_o_n_adapter_1a5b12a9733027053fd0ad7b28e8528fd0" kindref="member">dataWithObject</ref>:self];</highlight></codeline>
+<codeline lineno="106"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal">-<sp/>(NSString<sp/>*)yr_JSONString<sp/>{</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[<ref refid="class_y_r_j_s_o_n_adapter" kindref="compound">YRJSONAdapter</ref><sp/><ref refid="class_y_r_j_s_o_n_adapter_1a3f18b7334da8db054c70b225534c6359" kindref="member">stringWithObject</ref>:self];</highlight></codeline>
+<codeline lineno="110"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116" refid="class_y_r_j_s_o_n_adapter" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">@implementation<sp/></highlight><highlight class="normal"><ref refid="class_y_r_j_s_o_n_adapter" kindref="compound">YRJSONAdapter</ref></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal">+<sp/>(void)swizzleInstanceMethodForClass:(Class)class</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>origin:(</highlight><highlight class="keywordtype">SEL</highlight><highlight class="normal">)origin</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>replace:(</highlight><highlight class="keywordtype">SEL</highlight><highlight class="normal">)replace</highlight></codeline>
+<codeline lineno="121"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/>Method<sp/>orignMethod<sp/>=<sp/>class_getInstanceMethod(</highlight><highlight class="keyword">class</highlight><highlight class="normal">,<sp/>origin);</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/>Method<sp/>replaceMethod<sp/>=<sp/>class_getInstanceMethod(</highlight><highlight class="keyword">class</highlight><highlight class="normal">,<sp/>replace);</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(class_addMethod(</highlight><highlight class="keyword">class</highlight><highlight class="normal">,<sp/>origin,<sp/>method_getImplementation(replaceMethod),<sp/>method_getTypeEncoding(replaceMethod)))<sp/>{</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>class_replaceMethod(</highlight><highlight class="keyword">class</highlight><highlight class="normal">,<sp/>replace,<sp/>method_getImplementation(orignMethod),<sp/>method_getTypeEncoding(orignMethod));</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight><highlight class="keywordflow">else</highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>method_exchangeImplementations(orignMethod,<sp/>replaceMethod);</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="129"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal">+<sp/>(void)load<sp/>{</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>swizzleInstanceMethodForClass:[NSString<sp/>class]</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>origin:@selector(objectFromJSONString)</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>replace:@selector(yr_objectFromJSONString)];</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>swizzleInstanceMethodForClass:[NSString<sp/>class]</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>origin:@selector(mutableObjectFromJSONString)</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>replace:@selector(yr_mutableObjectFromJSONString)];</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>swizzleInstanceMethodForClass:[NSData<sp/>class]</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>origin:@selector(objectFromJSONData)</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>replace:@selector(yr_objectFromJSONData)];</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>swizzleInstanceMethodForClass:[NSData<sp/>class]</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>origin:@selector(mutableObjectFromJSONData)</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>replace:@selector(yr_mutableObjectFromJSONData)];</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>swizzleInstanceMethodForClass:[NSString<sp/>class]</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>origin:@selector(JSONData)</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>replace:@selector(yr_JSONData)];</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>swizzleInstanceMethodForClass:[NSString<sp/>class]</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>origin:@selector(JSONString)</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>replace:@selector(yr_JSONString)];</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>swizzleInstanceMethodForClass:[NSArray<sp/>class]</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>origin:@selector(JSONData)</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>replace:@selector(yr_JSONData)];</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>swizzleInstanceMethodForClass:[NSArray<sp/>class]</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>origin:@selector(JSONString)</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>replace:@selector(yr_JSONString)];</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>swizzleInstanceMethodForClass:[NSDictionary<sp/>class]</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>origin:@selector(JSONData)</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>replace:@selector(yr_JSONData)];</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>swizzleInstanceMethodForClass:[NSDictionary<sp/>class]</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>origin:@selector(JSONString)</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>replace:@selector(yr_JSONString)];</highlight></codeline>
+<codeline lineno="171"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"></highlight></codeline>
+<codeline lineno="173" refid="class_y_r_j_s_o_n_adapter_1a5db938f7854476dadf2825af26524c4d" refkind="member"><highlight class="normal">+<sp/>(id)<ref refid="category_n_s_string_07_y_r_j_s_o_n_deserializing_08_1a936ff56ea016124b5228443a2bc9d8b1" kindref="member">objectFromJSONString</ref>:(NSString*)string<sp/>{</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/>NSData<sp/>*data<sp/>=<sp/>[string<sp/>dataUsingEncoding:NSUTF8StringEncoding];</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/><ref refid="class_y_r_j_s_o_n_adapter_1a2479b7c2e17a998cda99139497354550" kindref="member">objectFromJSONData</ref>:data];</highlight></codeline>
+<codeline lineno="176"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"></highlight></codeline>
+<codeline lineno="178" refid="class_y_r_j_s_o_n_adapter_1a6997e8dae7f18378b3e3e517d750a791" refkind="member"><highlight class="normal">+<sp/>(id)<ref refid="category_n_s_string_07_y_r_j_s_o_n_deserializing_08_1a7132c99575ed3e715df9709462849079" kindref="member">mutableObjectFromJSONString</ref>:(NSString*)string<sp/>{</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/>NSData<sp/>*data<sp/>=<sp/>[string<sp/>dataUsingEncoding:NSUTF8StringEncoding];</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/><ref refid="class_y_r_j_s_o_n_adapter_1a132d8db8d090d8e576b395d91274d2f6" kindref="member">mutableObjectFromJSONData</ref>:data];</highlight></codeline>
+<codeline lineno="181"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"></highlight></codeline>
+<codeline lineno="183" refid="class_y_r_j_s_o_n_adapter_1a2479b7c2e17a998cda99139497354550" refkind="member"><highlight class="normal">+<sp/>(id)objectFromJSONData:(NSData*)data<sp/>{</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[NSJSONSerialization<sp/>JSONObjectWithData:data<sp/>options:NSJSONReadingAllowFragments<sp/>error:nil];</highlight></codeline>
+<codeline lineno="185"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"></highlight></codeline>
+<codeline lineno="187" refid="class_y_r_j_s_o_n_adapter_1a132d8db8d090d8e576b395d91274d2f6" refkind="member"><highlight class="normal">+<sp/>(id)mutableObjectFromJSONData:(NSData*)data<sp/>{</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[NSJSONSerialization<sp/>JSONObjectWithData:data<sp/>options:NSJSONReadingMutableContainers<sp/>error:nil];</highlight></codeline>
+<codeline lineno="189"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"></highlight></codeline>
+<codeline lineno="191" refid="class_y_r_j_s_o_n_adapter_1a3f18b7334da8db054c70b225534c6359" refkind="member"><highlight class="normal">+<sp/>(NSString*)stringWithObject:(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)object<sp/>{</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/>NSString<sp/>*</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>=<sp/>nil;</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/>NSData<sp/>*data<sp/>=<sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/><ref refid="class_y_r_j_s_o_n_adapter_1a5b12a9733027053fd0ad7b28e8528fd0" kindref="member">dataWithObject</ref>:object];</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(data)<sp/>{</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>=<sp/>[[NSString<sp/>alloc]initWithData:data<sp/>encoding:NSUTF8StringEncoding];</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>string;</highlight></codeline>
+<codeline lineno="198"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"></highlight></codeline>
+<codeline lineno="200" refid="class_y_r_j_s_o_n_adapter_1a5b12a9733027053fd0ad7b28e8528fd0" refkind="member"><highlight class="normal">+<sp/>(NSData*)dataWithObject:(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)object<sp/>{</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/>NSData<sp/>*data<sp/>=<sp/>nil;</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>([NSJSONSerialization<sp/>isValidJSONObject:</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">])<sp/>{</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>data<sp/>=<sp/>[NSJSONSerialization<sp/>dataWithJSONObject:object<sp/>options:kNilOptions<sp/>error:nil];</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight><highlight class="keywordflow">else</highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NSLog(</highlight><highlight class="stringliteral">@&quot;---&gt;&gt;object<sp/>%@<sp/>not<sp/>a<sp/>json<sp/>object&quot;</highlight><highlight class="normal">,</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>data;</highlight></codeline>
+<codeline lineno="208"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"></highlight></codeline>
+<codeline lineno="210"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/YRJSONAdapter/YRJSONAdapter.m"/>
+  </compounddef>
+</doxygen>

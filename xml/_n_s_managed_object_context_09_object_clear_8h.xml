@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_n_s_managed_object_context_09_object_clear_8h" kind="file" language="C++">
+    <compoundname>NSManagedObjectContext+ObjectClear.h</compoundname>
+    <includes local="no">CoreData/CoreData.h</includes>
+    <includedby refid="_n_s_managed_object_context_09_object_clear_8m" local="yes">XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSManagedObjectContext/NSManagedObjectContext+ObjectClear.m</includedby>
+    <incdepgraph>
+      <node id="191">
+        <label>CoreData/CoreData.h</label>
+      </node>
+      <node id="190">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSManagedObjectContext/NSManagedObjectContext+ObjectClear.h</label>
+        <link refid="NSManagedObjectContext+ObjectClear.h"/>
+        <childnode refid="191" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="192">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSManagedObjectContext/NSManagedObjectContext+ObjectClear.h</label>
+        <link refid="NSManagedObjectContext+ObjectClear.h"/>
+        <childnode refid="193" relation="include">
+        </childnode>
+      </node>
+      <node id="193">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSManagedObjectContext/NSManagedObjectContext+ObjectClear.m</label>
+        <link refid="_n_s_managed_object_context_09_object_clear_8m"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="category_n_s_managed_object_context_07_object_clear_08" prot="public">NSManagedObjectContext(ObjectClear)</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>GON_NSManagedObjectContext+ObjectClear.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Nicolas<sp/>Goutaland<sp/>on<sp/>04/04/15.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>2015<sp/>Nicolas<sp/>Goutaland.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;CoreData/CoreData.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="category_n_s_managed_object_context_07_object_clear_08" kindref="compound">NSManagedObjectContext (ObjectClear)</ref></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Delete<sp/>all<sp/>given<sp/>objects*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal">-<sp/>(void)deleteObjects:(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>&lt;NSFastEnumeration&gt;)objects;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSManagedObjectContext/NSManagedObjectContext+ObjectClear.h"/>
+  </compounddef>
+</doxygen>

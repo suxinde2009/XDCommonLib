@@ -45,7 +45,9 @@
 
 @end
 
-
+/**
+ *  @brief 蓝牙打印机管理类
+ */
 @interface SEPrinterManager : NSObject
 
 /**< 蓝牙操作代理 */

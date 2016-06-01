@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_n_s_u_r_l_09_query_dictionary_8h" kind="file" language="C++">
+    <compoundname>NSURL+QueryDictionary.h</compoundname>
+    <includes local="no">Foundation/Foundation.h</includes>
+    <includedby refid="_n_s_u_r_l_09_query_dictionary_8m" local="yes">XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSURL/NSURL+QueryDictionary.m</includedby>
+    <incdepgraph>
+      <node id="1036">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSURL/NSURL+QueryDictionary.h</label>
+        <link refid="NSURL+QueryDictionary.h"/>
+        <childnode refid="1037" relation="include">
+        </childnode>
+      </node>
+      <node id="1037">
+        <label>Foundation/Foundation.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1038">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSURL/NSURL+QueryDictionary.h</label>
+        <link refid="NSURL+QueryDictionary.h"/>
+        <childnode refid="1039" relation="include">
+        </childnode>
+      </node>
+      <node id="1039">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSURL/NSURL+QueryDictionary.m</label>
+        <link refid="_n_s_u_r_l_09_query_dictionary_8m"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="category_n_s_u_r_l_07_u_q___u_r_l_query_08" prot="public">NSURL(UQ_URLQuery)</innerclass>
+    <innerclass refid="category_n_s_string_07_u_q___u_r_l_query_08" prot="public">NSString(UQ_URLQuery)</innerclass>
+    <innerclass refid="category_n_s_dictionary_07_u_q___u_r_l_query_08" prot="public">NSDictionary(UQ_URLQuery)</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>NSURL+Query.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>NSURL+Query</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Jon<sp/>Crooke<sp/>on<sp/>10/12/2013.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2013<sp/>Jonathan<sp/>Crooke.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="comment">//<sp/>https://github.com/itsthejb/NSURL-QueryDictionary</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;Foundation/Foundation.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="category_n_s_u_r_l_07_u_q___u_r_l_query_08" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="category_n_s_u_r_l_07_u_q___u_r_l_query_08" kindref="compound">NSURL (UQ_URLQuery)</ref></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal">-<sp/>(NSDictionary*)<sp/><ref refid="category_n_s_u_r_l_07_u_q___u_r_l_query_08_1a61d644a22647f1eabe6cc30044bb79dd" kindref="member">uq_queryDictionary</ref>;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal">-<sp/>(NSURL*)<sp/>uq_URLByAppendingQueryDictionary:(NSDictionary*)<sp/>queryDictionary</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>withSortedKeys:(BOOL)<sp/>sortedKeys;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal">-<sp/>(NSURL*)<sp/>uq_URLByAppendingQueryDictionary:(NSDictionary*)<sp/>queryDictionary;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal">-<sp/>(NSURL*)<sp/>uq_URLByReplacingQueryWithDictionary:(NSDictionary*)<sp/>queryDictionary</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>withSortedKeys:(BOOL)<sp/>sortedKeys;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal">-<sp/>(NSURL*)<sp/>uq_URLByReplacingQueryWithDictionary:(NSDictionary*)<sp/>queryDictionary;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal">-<sp/>(NSURL*)<sp/><ref refid="category_n_s_u_r_l_07_u_q___u_r_l_query_08_1aef2ee6f30c03b71901a75431704896f7" kindref="member">uq_URLByRemovingQuery</ref>;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/>-</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51" refid="category_n_s_string_07_u_q___u_r_l_query_08" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="category_n_s_string_07_u_q___u_r_l_query_08" kindref="compound">NSString (UQ_URLQuery)</ref></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal">-<sp/>(NSDictionary*)<sp/><ref refid="category_n_s_string_07_u_q___u_r_l_query_08_1a5c118a49f125473df2b5b80b287679a2" kindref="member">uq_URLQueryDictionary</ref>;</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/>-</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64" refid="category_n_s_dictionary_07_u_q___u_r_l_query_08" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="category_n_s_dictionary_07_u_q___u_r_l_query_08" kindref="compound">NSDictionary (UQ_URLQuery)</ref></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal">-<sp/>(NSString*)<sp/>uq_URLQueryStringWithSortedKeys:(BOOL)<sp/>sortedKeys;</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal">-<sp/>(NSString*)<sp/><ref refid="category_n_s_dictionary_07_u_q___u_r_l_query_08_1a1d1b071dc91116dff7b816ad1a330e2a" kindref="member">uq_URLQueryString</ref>;</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSURL/NSURL+QueryDictionary.h"/>
+  </compounddef>
+</doxygen>

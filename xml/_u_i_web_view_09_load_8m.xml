@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_u_i_web_view_09_load_8m" kind="file" language="Objective-C">
+    <compoundname>UIWebView+Load.m</compoundname>
+    <includes refid="_u_i_web_view_09load_8h" local="yes">UIWebView+Load.h</includes>
+    <incdepgraph>
+      <node id="2257">
+        <label>UIKit/UIKit.h</label>
+      </node>
+      <node id="2255">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIWebView/UIWebView+Load.m</label>
+        <link refid="UIWebView+Load.m"/>
+        <childnode refid="2256" relation="include">
+        </childnode>
+      </node>
+      <node id="2256">
+        <label>UIWebView+Load.h</label>
+        <link refid="_u_i_web_view_09load_8h"/>
+        <childnode refid="2257" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>UIWebView+loadURL.m</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>iOS-Categories<sp/>(https://github.com/shaojiankui/iOS-Categories)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Jakey<sp/>on<sp/>14/12/15.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2014年<sp/>www.skyfox.org.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_u_i_web_view_09load_8h" kindref="compound">UIWebView+Load.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="category_u_i_web_view_07_load_08" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">@implementation<sp/></highlight><highlight class="normal"><ref refid="category_u_i_web_view_07_load_08" kindref="compound">UIWebView (Load)</ref></highlight></codeline>
+<codeline lineno="17" refid="category_u_i_web_view_07_load_08_1a9f55579f00e87e5c429f9e6f55a5dcb7" refkind="member"><highlight class="normal">-<sp/>(void)loadURL:(NSString*)URLString{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>NSString<sp/>*encodedUrl<sp/>=<sp/>(__bridge<sp/>NSString<sp/>*)<sp/>CFURLCreateStringByAddingPercentEscapes<sp/>(NULL,<sp/>(__bridge<sp/>CFStringRef)<sp/>URLString,<sp/>NULL,<sp/>NULL,kCFStringEncodingUTF8);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>NSURL<sp/>*url<sp/>=<sp/>[NSURL<sp/>URLWithString:encodedUrl];</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>NSURLRequest<sp/>*req<sp/>=<sp/>[NSURLRequest<sp/>requestWithURL:url];</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>loadRequest:req];</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="28" refid="category_u_i_web_view_07_load_08_1a9e838076077ef0523da942e3c911e2fd" refkind="member"><highlight class="normal">-<sp/>(void)loadLocalHtml:(NSString*)htmlName{</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>NSString<sp/>*filePath<sp/>=<sp/>[[NSBundle<sp/>mainBundle]pathForResource:htmlName<sp/>ofType:@&quot;html&quot;];</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>NSURL<sp/>*url<sp/>=<sp/>[NSURL<sp/>fileURLWithPath:filePath];</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>NSURLRequest<sp/>*request<sp/>=<sp/>[NSURLRequest<sp/>requestWithURL:url];</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>loadRequest:request];</highlight></codeline>
+<codeline lineno="33"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="37" refid="category_u_i_web_view_07_load_08_1aee05a8b83c29f83f01ab049799a0425a" refkind="member"><highlight class="normal">-<sp/>(void)<ref refid="category_u_i_web_view_07_load_08_1aee05a8b83c29f83f01ab049799a0425a" kindref="member">clearCookies</ref></highlight></codeline>
+<codeline lineno="38"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>NSHTTPCookieStorage<sp/>*storage<sp/>=<sp/>NSHTTPCookieStorage.sharedHTTPCookieStorage;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(NSHTTPCookie<sp/>*cookie<sp/>in<sp/>storage.cookies)</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[storage<sp/>deleteCookie:cookie];</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>[NSUserDefaults.standardUserDefaults<sp/>synchronize];</highlight></codeline>
+<codeline lineno="45"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIWebView/UIWebView+Load.m"/>
+  </compounddef>
+</doxygen>

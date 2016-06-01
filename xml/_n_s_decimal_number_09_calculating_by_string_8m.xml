@@ -1,0 +1,507 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_n_s_decimal_number_09_calculating_by_string_8m" kind="file" language="Objective-C">
+    <compoundname>NSDecimalNumber+CalculatingByString.m</compoundname>
+    <includes refid="_n_s_decimal_number_09_calculating_by_string_8h" local="yes">NSDecimalNumber+CalculatingByString.h</includes>
+    <incdepgraph>
+      <node id="585">
+        <label>NSDecimalNumber+CalculatingByString.h</label>
+        <link refid="_n_s_decimal_number_09_calculating_by_string_8h"/>
+        <childnode refid="586" relation="include">
+        </childnode>
+      </node>
+      <node id="584">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSNumber/NSDecimalNumber+CalculatingByString.m</label>
+        <link refid="NSDecimalNumber+CalculatingByString.m"/>
+        <childnode refid="585" relation="include">
+        </childnode>
+      </node>
+      <node id="586">
+        <label>Foundation/Foundation.h</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="_n_s_decimal_number_09_calculating_by_string_8m_1a6a0d563d5e7c57fc510988d6694cc9e9" prot="public" static="no">
+        <name>tokenType</name>
+        <enumvalue id="_n_s_decimal_number_09_calculating_by_string_8m_1a6a0d563d5e7c57fc510988d6694cc9e9aef26cd38857473a9f75909410a806bd5" prot="public">
+          <name>tokenTypeFirstLoop</name>
+          <initializer>= -1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_n_s_decimal_number_09_calculating_by_string_8m_1a6a0d563d5e7c57fc510988d6694cc9e9a9dc364cbafa6ca86117effdd57fbef4e" prot="public">
+          <name>tokenTypeEndOfEquation</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_n_s_decimal_number_09_calculating_by_string_8m_1a6a0d563d5e7c57fc510988d6694cc9e9a381380d34466cde78f4ff08d984e0665" prot="public">
+          <name>tokenTypeNumber</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_n_s_decimal_number_09_calculating_by_string_8m_1a6a0d563d5e7c57fc510988d6694cc9e9afcdff5e571c147428f25033da217d42c" prot="public">
+          <name>tokenTypeText</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_n_s_decimal_number_09_calculating_by_string_8m_1a6a0d563d5e7c57fc510988d6694cc9e9a4e87bd236b178da32fb8f72a6dbec198" prot="public">
+          <name>tokenTypeOperator</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_n_s_decimal_number_09_calculating_by_string_8m_1a6a0d563d5e7c57fc510988d6694cc9e9a40bc85df3348a584de480c8b7255c2b5" prot="public">
+          <name>tokenTypeUnknown</name>
+          <initializer>= 99</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSNumber/NSDecimalNumber+CalculatingByString.m" line="11" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSNumber/NSDecimalNumber+CalculatingByString.m" bodystart="11" bodyend="18"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="_n_s_decimal_number_09_calculating_by_string_8m_1a64fb6ffe54f018d4fd2cef951f4ee125" prot="public" static="yes" mutable="no">
+        <type>NSArray *</type>
+        <definition>NSArray* operators</definition>
+        <argsstring></argsstring>
+        <name>operators</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSNumber/NSDecimalNumber+CalculatingByString.m" line="26" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSNumber/NSDecimalNumber+CalculatingByString.m" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_n_s_decimal_number_09_calculating_by_string_8m_1aa2af38e4b4f8238ef1c428f83cf0ebcf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="_n_s_decimal_number_09_calculating_by_string_8m_1a6a0d563d5e7c57fc510988d6694cc9e9" kindref="member">tokenType</ref></type>
+        <definition>tokenType typeForCharacter</definition>
+        <argsstring>(const unichar character)</argsstring>
+        <name>typeForCharacter</name>
+        <param>
+          <type>const unichar</type>
+          <declname>character</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSNumber/NSDecimalNumber+CalculatingByString.m" line="20" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSNumber/NSDecimalNumber+CalculatingByString.m" bodystart="87" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="function" id="_n_s_decimal_number_09_calculating_by_string_8m_1ac0804095f03a67ce04a76673b0c70c0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>NSInteger</type>
+        <definition>NSInteger precedenceForOperator</definition>
+        <argsstring>(NSString *operator)</argsstring>
+        <name>precedenceForOperator</name>
+        <param>
+          <type>NSString *</type>
+          <declname>operator</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSNumber/NSDecimalNumber+CalculatingByString.m" line="21" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSNumber/NSDecimalNumber+CalculatingByString.m" bodystart="113" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="function" id="_n_s_decimal_number_09_calculating_by_string_8m_1ab2e0e998dfced3d98ce3df487e1b0fac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>NSInteger</type>
+        <definition>NSInteger precedenceForOperatorChar</definition>
+        <argsstring>(const unichar operator)</argsstring>
+        <name>precedenceForOperatorChar</name>
+        <param>
+          <type>const unichar</type>
+          <declname>operator</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSNumber/NSDecimalNumber+CalculatingByString.m" line="22" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSNumber/NSDecimalNumber+CalculatingByString.m" bodystart="121" bodyend="138"/>
+      </memberdef>
+      <memberdef kind="function" id="_n_s_decimal_number_09_calculating_by_string_8m_1a0d7acc5eca758e81fee672fe91cdeef7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>NSArray *</type>
+        <definition>NSArray * tokenizeEquation</definition>
+        <argsstring>(NSString *equation, NSDictionary *numbers)</argsstring>
+        <name>tokenizeEquation</name>
+        <param>
+          <type>NSString *</type>
+          <declname>equation</declname>
+        </param>
+        <param>
+          <type>NSDictionary *</type>
+          <declname>numbers</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSNumber/NSDecimalNumber+CalculatingByString.m" line="23" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSNumber/NSDecimalNumber+CalculatingByString.m" bodystart="141" bodyend="219"/>
+      </memberdef>
+      <memberdef kind="function" id="_n_s_decimal_number_09_calculating_by_string_8m_1ae2e0fb149f442d54fc6629768acc8d32" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>NSArray *</type>
+        <definition>NSArray * RPNFromTokens</definition>
+        <argsstring>(NSArray *tokens)</argsstring>
+        <name>RPNFromTokens</name>
+        <param>
+          <type>NSArray *</type>
+          <declname>tokens</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSNumber/NSDecimalNumber+CalculatingByString.m" line="24" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSNumber/NSDecimalNumber+CalculatingByString.m" bodystart="223" bodyend="291"/>
+      </memberdef>
+      <memberdef kind="function" id="_n_s_decimal_number_09_calculating_by_string_8m_1ab14f6dbc5a730b12f1a462b19e01be80" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void initOperators</definition>
+        <argsstring>()</argsstring>
+        <name>initOperators</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSNumber/NSDecimalNumber+CalculatingByString.m" line="27" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSNumber/NSDecimalNumber+CalculatingByString.m" bodystart="296" bodyend="301"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>NSDecimalNumber+CalculatingByString.m</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>NSDecimalNumber+StringCalculation</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Adi<sp/>Li<sp/>on<sp/>11/5/14.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2014<sp/>Adi<sp/>Li.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_n_s_decimal_number_09_calculating_by_string_8h" kindref="compound">NSDecimalNumber+CalculatingByString.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="_n_s_decimal_number_09_calculating_by_string_8m_1a6a0d563d5e7c57fc510988d6694cc9e9" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="12" refid="_n_s_decimal_number_09_calculating_by_string_8m_1a6a0d563d5e7c57fc510988d6694cc9e9aef26cd38857473a9f75909410a806bd5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_n_s_decimal_number_09_calculating_by_string_8m_1a6a0d563d5e7c57fc510988d6694cc9e9aef26cd38857473a9f75909410a806bd5" kindref="member">tokenTypeFirstLoop</ref><sp/>=<sp/>-1,</highlight></codeline>
+<codeline lineno="13" refid="_n_s_decimal_number_09_calculating_by_string_8m_1a6a0d563d5e7c57fc510988d6694cc9e9a9dc364cbafa6ca86117effdd57fbef4e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_n_s_decimal_number_09_calculating_by_string_8m_1a6a0d563d5e7c57fc510988d6694cc9e9a9dc364cbafa6ca86117effdd57fbef4e" kindref="member">tokenTypeEndOfEquation</ref>,</highlight></codeline>
+<codeline lineno="14" refid="_n_s_decimal_number_09_calculating_by_string_8m_1a6a0d563d5e7c57fc510988d6694cc9e9a381380d34466cde78f4ff08d984e0665" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_n_s_decimal_number_09_calculating_by_string_8m_1a6a0d563d5e7c57fc510988d6694cc9e9a381380d34466cde78f4ff08d984e0665" kindref="member">tokenTypeNumber</ref>,</highlight></codeline>
+<codeline lineno="15" refid="_n_s_decimal_number_09_calculating_by_string_8m_1a6a0d563d5e7c57fc510988d6694cc9e9afcdff5e571c147428f25033da217d42c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_n_s_decimal_number_09_calculating_by_string_8m_1a6a0d563d5e7c57fc510988d6694cc9e9afcdff5e571c147428f25033da217d42c" kindref="member">tokenTypeText</ref>,</highlight></codeline>
+<codeline lineno="16" refid="_n_s_decimal_number_09_calculating_by_string_8m_1a6a0d563d5e7c57fc510988d6694cc9e9a4e87bd236b178da32fb8f72a6dbec198" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_n_s_decimal_number_09_calculating_by_string_8m_1a6a0d563d5e7c57fc510988d6694cc9e9a4e87bd236b178da32fb8f72a6dbec198" kindref="member">tokenTypeOperator</ref>,</highlight></codeline>
+<codeline lineno="17" refid="_n_s_decimal_number_09_calculating_by_string_8m_1a6a0d563d5e7c57fc510988d6694cc9e9a40bc85df3348a584de480c8b7255c2b5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_n_s_decimal_number_09_calculating_by_string_8m_1a6a0d563d5e7c57fc510988d6694cc9e9a40bc85df3348a584de480c8b7255c2b5" kindref="member">tokenTypeUnknown</ref><sp/>=<sp/>99,</highlight></codeline>
+<codeline lineno="18"><highlight class="normal">}<sp/><ref refid="_n_s_decimal_number_09_calculating_by_string_8m_1a6a0d563d5e7c57fc510988d6694cc9e9" kindref="member">tokenType</ref>;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><ref refid="_n_s_decimal_number_09_calculating_by_string_8m_1a6a0d563d5e7c57fc510988d6694cc9e9" kindref="member">tokenType</ref><sp/><ref refid="_n_s_decimal_number_09_calculating_by_string_8m_1aa2af38e4b4f8238ef1c428f83cf0ebcf" kindref="member">typeForCharacter</ref><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>unichar<sp/>character);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal">NSInteger<sp/><ref refid="_n_s_decimal_number_09_calculating_by_string_8m_1ac0804095f03a67ce04a76673b0c70c0e" kindref="member">precedenceForOperator</ref><sp/>(NSString<sp/>*</highlight><highlight class="keyword">operator</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">NSInteger<sp/><ref refid="_n_s_decimal_number_09_calculating_by_string_8m_1ab2e0e998dfced3d98ce3df487e1b0fac" kindref="member">precedenceForOperatorChar</ref><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>unichar<sp/></highlight><highlight class="keyword">operator</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal">NSArray*<sp/><ref refid="_n_s_decimal_number_09_calculating_by_string_8m_1a0d7acc5eca758e81fee672fe91cdeef7" kindref="member">tokenizeEquation</ref><sp/>(NSString<sp/>*equation,<sp/>NSDictionary<sp/>*numbers);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal">NSArray*<sp/><ref refid="_n_s_decimal_number_09_calculating_by_string_8m_1ae2e0fb149f442d54fc6629768acc8d32" kindref="member">RPNFromTokens</ref><sp/>(NSArray<sp/>*tokens);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>NSArray<sp/>*operators;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_n_s_decimal_number_09_calculating_by_string_8m_1ab14f6dbc5a730b12f1a462b19e01be80" kindref="member">initOperators</ref>();</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="category_n_s_decimal_number_07_calculating_by_string_08" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">@implementation<sp/></highlight><highlight class="normal"><ref refid="category_n_s_decimal_number_07_calculating_by_string_08" kindref="compound">NSDecimalNumber (CalculatingByString)</ref></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31" refid="category_n_s_decimal_number_07_calculating_by_string_08_1a726b6bd2c96222ca956ce41a97de3010" refkind="member"><highlight class="normal">+<sp/>(NSDecimalNumber<sp/>*)decimalNumberWithEquation:(NSString<sp/>*)equation<sp/>decimalNumbers:(NSDictionary<sp/>*)numbers</highlight></codeline>
+<codeline lineno="32"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>NSDecimalNumber<sp/>*left,<sp/>*right;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>NSMutableArray<sp/>*equationStack<sp/>=<sp/>[RPNFromTokens(tokenizeEquation(equation,<sp/>numbers))<sp/>mutableCopy];</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>NSMutableArray<sp/>*resultArray<sp/>=<sp/>[@[]<sp/>mutableCopy];</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>NSString<sp/>*token;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_n_s_decimal_number_09_calculating_by_string_8m_1ab14f6dbc5a730b12f1a462b19e01be80" kindref="member">initOperators</ref>();</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">do</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>token<sp/>=<sp/>[equationStack<sp/>firstObject];</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>([operators<sp/>indexOfObject:token]<sp/>!=<sp/>NSNotFound)<sp/>{</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>right<sp/>=<sp/>[NSDecimalNumber<sp/>decimalNumberWithString:[resultArray<sp/>lastObject]];</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[resultArray<sp/>removeLastObject];</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>left<sp/>=<sp/>[NSDecimalNumber<sp/>decimalNumberWithString:[resultArray<sp/>lastObject]];</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[resultArray<sp/>removeLastObject];</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>assert(![left<sp/>isEqual:[NSDecimalNumber<sp/>notANumber]]);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>assert(![right<sp/>isEqual:[NSDecimalNumber<sp/>notANumber]]);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>([</highlight><highlight class="stringliteral">@&quot;+&quot;</highlight><highlight class="normal"><sp/>isEqualToString:token])<sp/>{</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>token<sp/>=<sp/>[[left<sp/>decimalNumberByAdding:right]<sp/>stringValue];</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>([</highlight><highlight class="stringliteral">@&quot;-&quot;</highlight><highlight class="normal"><sp/>isEqualToString:token])<sp/>{</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>token<sp/>=<sp/>[[left<sp/>decimalNumberBySubtracting:right]<sp/>stringValue];</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>([</highlight><highlight class="stringliteral">@&quot;*&quot;</highlight><highlight class="normal"><sp/>isEqualToString:token])<sp/>{</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>token<sp/>=<sp/>[[left<sp/>decimalNumberByMultiplyingBy:right]<sp/>stringValue];</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>([</highlight><highlight class="stringliteral">@&quot;/&quot;</highlight><highlight class="normal"><sp/>isEqualToString:token])<sp/>{</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>token<sp/>=<sp/>[[left<sp/>decimalNumberByDividingBy:right]<sp/>stringValue];</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>([</highlight><highlight class="stringliteral">@&quot;^&quot;</highlight><highlight class="normal"><sp/>isEqualToString:token])<sp/>{</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>token<sp/>=<sp/>[[left<sp/>decimalNumberByRaisingToPower:right.integerValue]<sp/>stringValue];</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[resultArray<sp/>addObject:token];</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[equationStack<sp/>removeObjectAtIndex:0];</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(equationStack.count<sp/>&gt;<sp/>0);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[NSDecimalNumber<sp/>decimalNumberWithString:[resultArray<sp/>objectAtIndex:0]];</highlight></codeline>
+<codeline lineno="79"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/>-<sp/>helper<sp/>functions</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight><highlight class="comment">//<sp/>find<sp/>the<sp/>token<sp/>type<sp/>for<sp/>a<sp/>character</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="87" refid="_n_s_decimal_number_09_calculating_by_string_8m_1aa2af38e4b4f8238ef1c428f83cf0ebcf" refkind="member"><highlight class="normal"><ref refid="_n_s_decimal_number_09_calculating_by_string_8m_1a6a0d563d5e7c57fc510988d6694cc9e9" kindref="member">tokenType</ref><sp/><ref refid="_n_s_decimal_number_09_calculating_by_string_8m_1aa2af38e4b4f8238ef1c428f83cf0ebcf" kindref="member">typeForCharacter</ref><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>unichar<sp/>character)</highlight></codeline>
+<codeline lineno="88"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>((character<sp/>&gt;=<sp/></highlight><highlight class="charliteral">&apos;0&apos;</highlight><highlight class="normal"><sp/>&amp;&amp;<sp/>character<sp/>&lt;=<sp/></highlight><highlight class="charliteral">&apos;9&apos;</highlight><highlight class="normal">)<sp/>||<sp/>character<sp/>==<sp/></highlight><highlight class="charliteral">&apos;.&apos;</highlight><highlight class="normal">)<sp/>{</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="_n_s_decimal_number_09_calculating_by_string_8m_1a6a0d563d5e7c57fc510988d6694cc9e9a381380d34466cde78f4ff08d984e0665" kindref="member">tokenTypeNumber</ref>;</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>((character<sp/>&gt;=<sp/></highlight><highlight class="charliteral">&apos;A&apos;</highlight><highlight class="normal"><sp/>&amp;&amp;<sp/>character<sp/>&lt;=<sp/></highlight><highlight class="charliteral">&apos;z&apos;</highlight><highlight class="normal">)<sp/>||<sp/>character<sp/>==<sp/></highlight><highlight class="charliteral">&apos;_&apos;</highlight><highlight class="normal">)<sp/>{</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="_n_s_decimal_number_09_calculating_by_string_8m_1a6a0d563d5e7c57fc510988d6694cc9e9afcdff5e571c147428f25033da217d42c" kindref="member">tokenTypeText</ref>;</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(character<sp/>==<sp/></highlight><highlight class="charliteral">&apos;+&apos;</highlight><highlight class="normal"><sp/>||<sp/>character<sp/>==<sp/></highlight><highlight class="charliteral">&apos;-&apos;</highlight><highlight class="normal"><sp/>||<sp/>character<sp/>==<sp/></highlight><highlight class="charliteral">&apos;*&apos;</highlight><highlight class="normal"><sp/>||<sp/>character<sp/>==<sp/></highlight><highlight class="charliteral">&apos;/&apos;</highlight><highlight class="normal"><sp/>||</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>character<sp/>==<sp/></highlight><highlight class="charliteral">&apos;(&apos;</highlight><highlight class="normal"><sp/>||<sp/>character<sp/>==<sp/></highlight><highlight class="charliteral">&apos;)&apos;</highlight><highlight class="normal"><sp/>||<sp/>character<sp/>==<sp/></highlight><highlight class="charliteral">&apos;^&apos;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="_n_s_decimal_number_09_calculating_by_string_8m_1a6a0d563d5e7c57fc510988d6694cc9e9a4e87bd236b178da32fb8f72a6dbec198" kindref="member">tokenTypeOperator</ref>;</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(character<sp/>==<sp/>0)<sp/>{</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="_n_s_decimal_number_09_calculating_by_string_8m_1a6a0d563d5e7c57fc510988d6694cc9e9a9dc364cbafa6ca86117effdd57fbef4e" kindref="member">tokenTypeEndOfEquation</ref>;</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>DEBUG</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/>NSLog(</highlight><highlight class="stringliteral">@&quot;Invalid<sp/>Operator:<sp/>%@<sp/>is<sp/>not<sp/>a<sp/>valid<sp/>character.&quot;</highlight><highlight class="normal"><sp/>,[NSString<sp/>stringWithCharacters:&amp;character<sp/>length:1]);</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/>exit(EXIT_FAILURE);</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="_n_s_decimal_number_09_calculating_by_string_8m_1a6a0d563d5e7c57fc510988d6694cc9e9a40bc85df3348a584de480c8b7255c2b5" kindref="member">tokenTypeUnknown</ref>;</highlight></codeline>
+<codeline lineno="110"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight><highlight class="comment">//<sp/>find<sp/>the<sp/>precedence<sp/>for<sp/>a<sp/>operator</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="113" refid="_n_s_decimal_number_09_calculating_by_string_8m_1ac0804095f03a67ce04a76673b0c70c0e" refkind="member"><highlight class="normal">NSInteger<sp/><ref refid="_n_s_decimal_number_09_calculating_by_string_8m_1ac0804095f03a67ce04a76673b0c70c0e" kindref="member">precedenceForOperator</ref><sp/>(NSString<sp/>*</highlight><highlight class="keyword">operator</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="114"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/>unichar<sp/>operatorChar<sp/>=<sp/></highlight><highlight class="keyword">operator</highlight><highlight class="normal">.UTF8String[0];</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="_n_s_decimal_number_09_calculating_by_string_8m_1ab2e0e998dfced3d98ce3df487e1b0fac" kindref="member">precedenceForOperatorChar</ref>(operatorChar);</highlight></codeline>
+<codeline lineno="118"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight><highlight class="comment">//<sp/>find<sp/>the<sp/>precedence<sp/>for<sp/>a<sp/>operator</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="121" refid="_n_s_decimal_number_09_calculating_by_string_8m_1ab2e0e998dfced3d98ce3df487e1b0fac" refkind="member"><highlight class="normal">NSInteger<sp/><ref refid="_n_s_decimal_number_09_calculating_by_string_8m_1ab2e0e998dfced3d98ce3df487e1b0fac" kindref="member">precedenceForOperatorChar</ref><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>unichar<sp/></highlight><highlight class="keyword">operator</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="122"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">switch</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">operator</highlight><highlight class="normal">)<sp/>{</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/></highlight><highlight class="charliteral">&apos;+&apos;</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/></highlight><highlight class="charliteral">&apos;-&apos;</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>2;</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/></highlight><highlight class="charliteral">&apos;*&apos;</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/></highlight><highlight class="charliteral">&apos;/&apos;</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>3;</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/></highlight><highlight class="charliteral">&apos;^&apos;</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>4;</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="138"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight><highlight class="comment">//<sp/>split<sp/>the<sp/>equation<sp/>into<sp/>token<sp/>(e.g.<sp/>@[@&quot;1&quot;,<sp/>@&quot;+&quot;,<sp/>@&quot;2&quot;,<sp/>@&quot;*&quot;,<sp/>@&quot;3&quot;])</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="141" refid="_n_s_decimal_number_09_calculating_by_string_8m_1a0d7acc5eca758e81fee672fe91cdeef7" refkind="member"><highlight class="normal">NSArray*<sp/><ref refid="_n_s_decimal_number_09_calculating_by_string_8m_1a0d7acc5eca758e81fee672fe91cdeef7" kindref="member">tokenizeEquation</ref><sp/>(NSString<sp/>*equation,<sp/>NSDictionary<sp/>*numbers)</highlight></codeline>
+<codeline lineno="142"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/>unichar<sp/>equationChars[equation.length<sp/>+<sp/>1],<sp/>tempChars[equation.length<sp/>+<sp/>1];</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_n_s_decimal_number_09_calculating_by_string_8m_1a6a0d563d5e7c57fc510988d6694cc9e9" kindref="member">tokenType</ref><sp/>lastTokenType<sp/>=<sp/><ref refid="_n_s_decimal_number_09_calculating_by_string_8m_1a6a0d563d5e7c57fc510988d6694cc9e9aef26cd38857473a9f75909410a806bd5" kindref="member">tokenTypeFirstLoop</ref>,<sp/>currentTokenType<sp/>=<sp/><ref refid="_n_s_decimal_number_09_calculating_by_string_8m_1a6a0d563d5e7c57fc510988d6694cc9e9aef26cd38857473a9f75909410a806bd5" kindref="member">tokenTypeFirstLoop</ref>;</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/>NSUInteger<sp/>tempCharsLength<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/>NSMutableArray<sp/>*equationStack<sp/>=<sp/>[@[]<sp/>mutableCopy];</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/>equation<sp/>=<sp/>[equation<sp/>stringByReplacingOccurrencesOfString:@&quot;<sp/>&quot;<sp/>withString:@&quot;&quot;];</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/>[equation<sp/>getCharacters:equationChars];</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>i=0;<sp/>i<sp/>&lt;=<sp/>equation.length;<sp/>i++)<sp/>{</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>unichar<sp/>character<sp/>=<sp/>equationChars[i];</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>currentTokenType<sp/>=<sp/><ref refid="_n_s_decimal_number_09_calculating_by_string_8m_1aa2af38e4b4f8238ef1c428f83cf0ebcf" kindref="member">typeForCharacter</ref>(character);</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>compare<sp/>to<sp/>last<sp/>token<sp/>type<sp/>to<sp/>re-define<sp/>the<sp/>token<sp/>type</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(character<sp/>==<sp/></highlight><highlight class="charliteral">&apos;-&apos;</highlight><highlight class="normal"><sp/>&amp;&amp;<sp/>lastTokenType<sp/>!=<sp/><ref refid="_n_s_decimal_number_09_calculating_by_string_8m_1a6a0d563d5e7c57fc510988d6694cc9e9a381380d34466cde78f4ff08d984e0665" kindref="member">tokenTypeNumber</ref><sp/>&amp;&amp;<sp/>lastTokenType<sp/>!=<sp/><ref refid="_n_s_decimal_number_09_calculating_by_string_8m_1a6a0d563d5e7c57fc510988d6694cc9e9afcdff5e571c147428f25033da217d42c" kindref="member">tokenTypeText</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>e.g.<sp/>-1<sp/>or<sp/>-variable</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>currentTokenType<sp/>=<sp/><ref refid="_n_s_decimal_number_09_calculating_by_string_8m_1a6a0d563d5e7c57fc510988d6694cc9e9a381380d34466cde78f4ff08d984e0665" kindref="member">tokenTypeNumber</ref>;</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(currentTokenType<sp/>==<sp/><ref refid="_n_s_decimal_number_09_calculating_by_string_8m_1a6a0d563d5e7c57fc510988d6694cc9e9a381380d34466cde78f4ff08d984e0665" kindref="member">tokenTypeNumber</ref><sp/>&amp;&amp;<sp/>lastTokenType<sp/>==<sp/><ref refid="_n_s_decimal_number_09_calculating_by_string_8m_1a6a0d563d5e7c57fc510988d6694cc9e9afcdff5e571c147428f25033da217d42c" kindref="member">tokenTypeText</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>e.g.<sp/>a1<sp/>should<sp/>be<sp/>a<sp/>variable</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>currentTokenType<sp/>=<sp/><ref refid="_n_s_decimal_number_09_calculating_by_string_8m_1a6a0d563d5e7c57fc510988d6694cc9e9afcdff5e571c147428f25033da217d42c" kindref="member">tokenTypeText</ref>;</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>if<sp/>first<sp/>loop,<sp/>last<sp/>==<sp/>current<sp/>token<sp/>type</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(lastTokenType<sp/>==<sp/><ref refid="_n_s_decimal_number_09_calculating_by_string_8m_1a6a0d563d5e7c57fc510988d6694cc9e9aef26cd38857473a9f75909410a806bd5" kindref="member">tokenTypeFirstLoop</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>lastTokenType<sp/>=<sp/>currentTokenType;</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>token<sp/>type<sp/>changed,<sp/>push<sp/>the<sp/>token<sp/>into<sp/>stack</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(currentTokenType<sp/>!=<sp/>lastTokenType<sp/>||<sp/>lastTokenType<sp/>==<sp/><ref refid="_n_s_decimal_number_09_calculating_by_string_8m_1a6a0d563d5e7c57fc510988d6694cc9e9a4e87bd236b178da32fb8f72a6dbec198" kindref="member">tokenTypeOperator</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NSString<sp/>*</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>=<sp/>[NSString<sp/>stringWithCharacters:tempChars<sp/>length:tempCharsLength];</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>variable<sp/>token</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(lastTokenType<sp/>==<sp/><ref refid="_n_s_decimal_number_09_calculating_by_string_8m_1a6a0d563d5e7c57fc510988d6694cc9e9afcdff5e571c147428f25033da217d42c" kindref="member">tokenTypeText</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">object</highlight><highlight class="normal"><sp/>=<sp/>[numbers<sp/>objectForKey:string];</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>([</highlight><highlight class="keywordtype">object</highlight><highlight class="normal"><sp/>isKindOfClass:[NSString<sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal">]])<sp/>{</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>=<sp/>object;</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>([</highlight><highlight class="keywordtype">object</highlight><highlight class="normal"><sp/>respondsToSelector:</highlight><highlight class="keyword">@selector</highlight><highlight class="normal">(stringValue)])<sp/>{</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>=<sp/>[object<sp/>stringValue];</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>assert(![[NSDecimalNumber<sp/>notANumber]<sp/>isEqual:[NSDecimalNumber<sp/>decimalNumberWithString:</highlight><highlight class="keywordtype">string</highlight><highlight class="normal">]]);</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>DEBUG</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NSLog(</highlight><highlight class="stringliteral">@&quot;Invalid<sp/>Variable:<sp/>object<sp/>%@<sp/>has<sp/>no<sp/>string<sp/>value.&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>exit(EXIT_FAILURE);</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[equationStack<sp/>addObject:string];</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tempCharsLength<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(lastTokenType<sp/>==<sp/><ref refid="_n_s_decimal_number_09_calculating_by_string_8m_1a6a0d563d5e7c57fc510988d6694cc9e9a381380d34466cde78f4ff08d984e0665" kindref="member">tokenTypeNumber</ref><sp/>&amp;&amp;<sp/>[</highlight><highlight class="stringliteral">@&quot;-&quot;</highlight><highlight class="normal"><sp/>isEqualToString:</highlight><highlight class="keywordtype">string</highlight><highlight class="normal">])<sp/>{</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>&apos;-&apos;:<sp/>unary<sp/>minus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[equationStack<sp/>addObject:@&quot;-1&quot;];</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[equationStack<sp/>addObject:@&quot;*&quot;];</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tempCharsLength<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[equationStack<sp/>addObject:string];</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tempCharsLength<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>read<sp/>next<sp/>character</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tempChars[tempCharsLength++]<sp/>=<sp/>character;</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>lastTokenType<sp/>=<sp/>currentTokenType;</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="218"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>equationStack;</highlight></codeline>
+<codeline lineno="219"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"></highlight></codeline>
+<codeline lineno="221"><highlight class="normal"></highlight><highlight class="comment">//<sp/>change<sp/>the<sp/>tokens<sp/>array<sp/>into<sp/>RPN<sp/>(Reverse<sp/>Polish<sp/>notation)<sp/>array</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="222"><highlight class="normal"></highlight><highlight class="comment">//<sp/>e.g.<sp/>@[@&quot;1&quot;,<sp/>@&quot;2&quot;,<sp/>@&quot;3&quot;,<sp/>@&quot;*&quot;,<sp/>@&quot;+&quot;]</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="223" refid="_n_s_decimal_number_09_calculating_by_string_8m_1ae2e0fb149f442d54fc6629768acc8d32" refkind="member"><highlight class="normal">NSArray*<sp/><ref refid="_n_s_decimal_number_09_calculating_by_string_8m_1ae2e0fb149f442d54fc6629768acc8d32" kindref="member">RPNFromTokens</ref><sp/>(NSArray<sp/>*tokens)</highlight></codeline>
+<codeline lineno="224"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/>NSMutableArray<sp/>*output<sp/>=<sp/>[@[]<sp/>mutableCopy];</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"><sp/><sp/><sp/><sp/>NSMutableArray<sp/>*operatorStack<sp/>=<sp/>[@[]<sp/>mutableCopy];</highlight></codeline>
+<codeline lineno="227"><highlight class="normal"><sp/><sp/><sp/><sp/>NSString<sp/>*</highlight><highlight class="keyword">operator</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="229"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_n_s_decimal_number_09_calculating_by_string_8m_1ab14f6dbc5a730b12f1a462b19e01be80" kindref="member">initOperators</ref>();</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="231"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(NSString<sp/>*token<sp/>in<sp/>tokens)<sp/>{</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="233"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>([</highlight><highlight class="stringliteral">@&quot;(&quot;</highlight><highlight class="normal"><sp/>isEqualToString:token])<sp/>{</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[operatorStack<sp/>addObject:token];</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">continue</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="236"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="237"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="238"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">operator</highlight><highlight class="normal"><sp/>=<sp/>nil;</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="240"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>([</highlight><highlight class="stringliteral">@&quot;)&quot;</highlight><highlight class="normal"><sp/>isEqualToString:token])<sp/>{</highlight></codeline>
+<codeline lineno="241"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="242"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">do</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="243"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">operator</highlight><highlight class="normal"><sp/>=<sp/>[operatorStack<sp/>lastObject];</highlight></codeline>
+<codeline lineno="244"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[operatorStack<sp/>removeLastObject];</highlight></codeline>
+<codeline lineno="245"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="246"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(![</highlight><highlight class="stringliteral">@&quot;(&quot;</highlight><highlight class="normal"><sp/>isEqualToString:</highlight><highlight class="keyword">operator</highlight><highlight class="normal">])<sp/>{</highlight></codeline>
+<codeline lineno="247"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[output<sp/>addObject:operator];</highlight></codeline>
+<codeline lineno="248"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="249"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="250"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(![</highlight><highlight class="stringliteral">@&quot;(&quot;</highlight><highlight class="normal"><sp/>isEqualToString:</highlight><highlight class="keyword">operator</highlight><highlight class="normal">]);</highlight></codeline>
+<codeline lineno="251"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="252"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">continue</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="253"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="254"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="255"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="256"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>([operators<sp/>indexOfObject:token]<sp/>!=<sp/>NSNotFound)<sp/>{</highlight></codeline>
+<codeline lineno="257"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">operator</highlight><highlight class="normal"><sp/>=<sp/>[operatorStack<sp/>lastObject];</highlight></codeline>
+<codeline lineno="258"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="259"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NSInteger<sp/>precedence<sp/>=<sp/><ref refid="_n_s_decimal_number_09_calculating_by_string_8m_1ac0804095f03a67ce04a76673b0c70c0e" kindref="member">precedenceForOperator</ref>(token);</highlight></codeline>
+<codeline lineno="260"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NSInteger<sp/>lastPrecedence<sp/>=<sp/>-1;</highlight></codeline>
+<codeline lineno="261"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="262"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">operator</highlight><highlight class="normal">)<sp/>{</highlight></codeline>
+<codeline lineno="263"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>lastPrecedence<sp/>=<sp/><ref refid="_n_s_decimal_number_09_calculating_by_string_8m_1ac0804095f03a67ce04a76673b0c70c0e" kindref="member">precedenceForOperator</ref>(</highlight><highlight class="keyword">operator</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="264"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="265"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="266"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(precedence<sp/>&gt;<sp/>lastPrecedence)<sp/>{</highlight></codeline>
+<codeline lineno="267"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[operatorStack<sp/>addObject:token];</highlight></codeline>
+<codeline lineno="268"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">continue</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="269"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="270"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="271"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">do</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="272"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">operator</highlight><highlight class="normal"><sp/>=<sp/>[operatorStack<sp/>lastObject];</highlight></codeline>
+<codeline lineno="273"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">operator</highlight><highlight class="normal"><sp/>&amp;&amp;<sp/>![</highlight><highlight class="stringliteral">@&quot;(&quot;</highlight><highlight class="normal"><sp/>isEqualToString:</highlight><highlight class="keyword">operator</highlight><highlight class="normal">])<sp/>{</highlight></codeline>
+<codeline lineno="274"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[output<sp/>addObject:operator];</highlight></codeline>
+<codeline lineno="275"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="276"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[operatorStack<sp/>removeLastObject];</highlight></codeline>
+<codeline lineno="277"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="278"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="279"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">operator</highlight><highlight class="normal"><sp/>&amp;&amp;<sp/>precedence<sp/>&lt;=<sp/>lastPrecedence<sp/>&amp;&amp;<sp/>![</highlight><highlight class="stringliteral">@&quot;(&quot;</highlight><highlight class="normal"><sp/>isEqualToString:</highlight><highlight class="keyword">operator</highlight><highlight class="normal">]);</highlight></codeline>
+<codeline lineno="280"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="281"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[operatorStack<sp/>addObject:token];</highlight></codeline>
+<codeline lineno="282"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">continue</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="283"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="284"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="285"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[output<sp/>addObject:token];</highlight></codeline>
+<codeline lineno="286"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="287"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="288"><highlight class="normal"><sp/><sp/><sp/><sp/>[output<sp/>addObjectsFromArray:[[operatorStack<sp/>reverseObjectEnumerator]<sp/>allObjects]];</highlight></codeline>
+<codeline lineno="289"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="290"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>output;</highlight></codeline>
+<codeline lineno="291"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="292"><highlight class="normal"></highlight></codeline>
+<codeline lineno="293"><highlight class="normal"></highlight></codeline>
+<codeline lineno="294"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/>-<sp/>Operators<sp/>static<sp/>array</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="295"><highlight class="normal"></highlight></codeline>
+<codeline lineno="296" refid="_n_s_decimal_number_09_calculating_by_string_8m_1ab14f6dbc5a730b12f1a462b19e01be80" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_n_s_decimal_number_09_calculating_by_string_8m_1ab14f6dbc5a730b12f1a462b19e01be80" kindref="member">initOperators</ref>()</highlight></codeline>
+<codeline lineno="297"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="298"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(operators<sp/>==<sp/>nil)<sp/>{</highlight></codeline>
+<codeline lineno="299"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>operators<sp/>=<sp/>@[@&quot;+&quot;,<sp/>@&quot;-&quot;,<sp/>@&quot;*&quot;,<sp/>@&quot;/&quot;,<sp/>@&quot;^&quot;];</highlight></codeline>
+<codeline lineno="300"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="301"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSNumber/NSDecimalNumber+CalculatingByString.m"/>
+  </compounddef>
+</doxygen>

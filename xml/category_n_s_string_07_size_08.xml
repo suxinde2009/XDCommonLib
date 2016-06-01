@@ -1,0 +1,197 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_n_s_string_07_size_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>NSString(Size)</compoundname>
+    <includes refid="_n_s_string_09_size_8h" local="no">NSString+Size.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="category_n_s_string_07_size_08_1ae287959eceff0b6728fda0cf55878a55" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>CGFloat</type>
+        <definition>CGFloat NSString(Size)::heightWithFont:constrainedToWidth:</definition>
+        <argsstring>(UIFont *font,[constrainedToWidth] CGFloat width)</argsstring>
+        <name>heightWithFont:constrainedToWidth:</name>
+        <param>
+          <type>UIFont *</type>
+          <declname>font</declname>
+        </param>
+        <param>
+          <attributes>[constrainedToWidth]</attributes>
+          <type>CGFloat</type>
+          <declname>width</declname>
+        </param>
+        <briefdescription>
+<para>计算文字的高度 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>font</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>字体(默认为系统字体) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>width</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>约束宽度 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Size.h" line="16" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Size.m" bodystart="19" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_string_07_size_08_1a4e3085ae4909b054f95c9a2fb47284c9" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>CGFloat</type>
+        <definition>CGFloat NSString(Size)::widthWithFont:constrainedToHeight:</definition>
+        <argsstring>(UIFont *font,[constrainedToHeight] CGFloat height)</argsstring>
+        <name>widthWithFont:constrainedToHeight:</name>
+        <param>
+          <type>UIFont *</type>
+          <declname>font</declname>
+        </param>
+        <param>
+          <attributes>[constrainedToHeight]</attributes>
+          <type>CGFloat</type>
+          <declname>height</declname>
+        </param>
+        <briefdescription>
+<para>计算文字的宽度 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>font</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>字体(默认为系统字体) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>height</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>约束高度 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Size.h" line="16" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Size.m" bodystart="62" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_string_07_size_08_1a264e13cbfb7bd091ffd8fdc5219660ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>CGSize</type>
+        <definition>CGSize NSString(Size)::sizeWithFont:constrainedToWidth:</definition>
+        <argsstring>(UIFont *font,[constrainedToWidth] CGFloat width)</argsstring>
+        <name>sizeWithFont:constrainedToWidth:</name>
+        <param>
+          <type>UIFont *</type>
+          <declname>font</declname>
+        </param>
+        <param>
+          <attributes>[constrainedToWidth]</attributes>
+          <type>CGFloat</type>
+          <declname>width</declname>
+        </param>
+        <briefdescription>
+<para>计算文字的大小 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>font</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>字体(默认为系统字体) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>width</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>约束宽度 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Size.h" line="16" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Size.m" bodystart="105" bodyend="140"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_string_07_size_08_1afe9a5f7969c8c144a112ddcce1b0862f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>CGSize</type>
+        <definition>CGSize NSString(Size)::sizeWithFont:constrainedToHeight:</definition>
+        <argsstring>(UIFont *font,[constrainedToHeight] CGFloat height)</argsstring>
+        <name>sizeWithFont:constrainedToHeight:</name>
+        <param>
+          <type>UIFont *</type>
+          <declname>font</declname>
+        </param>
+        <param>
+          <attributes>[constrainedToHeight]</attributes>
+          <type>CGFloat</type>
+          <declname>height</declname>
+        </param>
+        <briefdescription>
+<para>计算文字的大小 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>font</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>字体(默认为系统字体) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>height</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>约束高度 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Size.h" line="16" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Size.m" bodystart="148" bodyend="183"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="category_n_s_string_07_size_08_1a4321572c7a12718d7512f7980e32d559" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * NSString(Size)::reverseString:</definition>
+        <argsstring>(NSString *strSrc)</argsstring>
+        <name>reverseString:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>strSrc</declname>
+        </param>
+        <briefdescription>
+<para>反转字符串 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>strSrc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>被反转字符串</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>反转后字符串 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Size.h" line="16" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Size.m" bodystart="193" bodyend="203"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Size.m" line="11" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Size.m" bodystart="11" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_n_s_string_07_size_08_1ae287959eceff0b6728fda0cf55878a55" prot="public" virt="virtual"><scope>NSString(Size)</scope><name>heightWithFont:constrainedToWidth:</name></member>
+      <member refid="category_n_s_string_07_size_08_1a4321572c7a12718d7512f7980e32d559" prot="public" virt="virtual"><scope>NSString(Size)</scope><name>reverseString:</name></member>
+      <member refid="category_n_s_string_07_size_08_1afe9a5f7969c8c144a112ddcce1b0862f" prot="public" virt="virtual"><scope>NSString(Size)</scope><name>sizeWithFont:constrainedToHeight:</name></member>
+      <member refid="category_n_s_string_07_size_08_1a264e13cbfb7bd091ffd8fdc5219660ba" prot="public" virt="virtual"><scope>NSString(Size)</scope><name>sizeWithFont:constrainedToWidth:</name></member>
+      <member refid="category_n_s_string_07_size_08_1a4e3085ae4909b054f95c9a2fb47284c9" prot="public" virt="virtual"><scope>NSString(Size)</scope><name>widthWithFont:constrainedToHeight:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

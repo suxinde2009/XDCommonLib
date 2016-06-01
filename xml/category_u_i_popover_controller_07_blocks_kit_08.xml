@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_u_i_popover_controller_07_blocks_kit_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>UIPopoverController(BlocksKit)</compoundname>
+    <includes refid="_u_i_popover_controller_09_blocks_kit_8h" local="no">UIPopoverController+BlocksKit.h</includes>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="category_u_i_popover_controller_07_blocks_kit_08_1a5574f109106ecbe864e99c000c96fa29" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="copy">
+        <type>BOOL(^</type>
+        <definition>BOOL(^ UIPopoverController(BlocksKit)::bk_shouldDismissBlock) (UIPopoverController *popoverController)</definition>
+        <argsstring>)(UIPopoverController *popoverController)</argsstring>
+        <name>bk_shouldDismissBlock</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The block to be called when the popover controller will dismiss the popover. Return NO to prevent the dismissal of the view. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIPopoverController+BlocksKit.h" line="20" column="1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_u_i_popover_controller_07_blocks_kit_08_1a4b88ccda7f364e0e1a4eb2f4c50152f1" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="copy">
+        <type>void(^</type>
+        <definition>void(^ UIPopoverController(BlocksKit)::bk_didDismissBlock) (UIPopoverController *popoverController)</definition>
+        <argsstring>)(UIPopoverController *popoverController)</argsstring>
+        <name>bk_didDismissBlock</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The block to be called when the user has taken action to dismiss the popover. This is not called when -dismissPopoverAnimated: is called directly. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIPopoverController+BlocksKit.h" line="23" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Block functionality for UIPopoverController.</para><para>Created by <ulink url="https://github.com/a2">Alexsander Akers</ulink> and contributed to BlocksKit.</para><para><simplesect kind="warning"><para>UIPopovercontroller is only available on a platform with UIKit. </para></simplesect>
+</para>    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIPopoverController+BlocksKit.m" line="47" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIPopoverController+BlocksKit.m" bodystart="47" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_u_i_popover_controller_07_blocks_kit_08_1a4b88ccda7f364e0e1a4eb2f4c50152f1" prot="public" virt="non-virtual"><scope>UIPopoverController(BlocksKit)</scope><name>bk_didDismissBlock</name></member>
+      <member refid="category_u_i_popover_controller_07_blocks_kit_08_1a5574f109106ecbe864e99c000c96fa29" prot="public" virt="non-virtual"><scope>UIPopoverController(BlocksKit)</scope><name>bk_shouldDismissBlock</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

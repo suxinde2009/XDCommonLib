@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_u_i_label_09_suggest_size_8h" kind="file" language="C++">
+    <compoundname>UILabel+SuggestSize.h</compoundname>
+    <includes local="no">UIKit/UIKit.h</includes>
+    <includedby refid="_u_i_label_09_suggest_size_8m" local="yes">XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UILabel/UILabel+SuggestSize.m</includedby>
+    <incdepgraph>
+      <node id="1685">
+        <label>UIKit/UIKit.h</label>
+      </node>
+      <node id="1684">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UILabel/UILabel+SuggestSize.h</label>
+        <link refid="UILabel+SuggestSize.h"/>
+        <childnode refid="1685" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1686">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UILabel/UILabel+SuggestSize.h</label>
+        <link refid="UILabel+SuggestSize.h"/>
+        <childnode refid="1687" relation="include">
+        </childnode>
+      </node>
+      <node id="1687">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UILabel/UILabel+SuggestSize.m</label>
+        <link refid="_u_i_label_09_suggest_size_8m"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="category_u_i_label_07_suggest_size_08" prot="public">UILabel(SuggestSize)</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>UILabel+SuggestSize.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>WordPress</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Eric<sp/>J<sp/>on<sp/>6/18/13.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2013<sp/>WordPress.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;UIKit/UIKit.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="category_u_i_label_07_suggest_size_08" kindref="compound">UILabel (SuggestSize)</ref></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal">-<sp/>(CGSize)suggestedSizeForWidth:(CGFloat)width;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">-<sp/>(CGSize)suggestSizeForAttributedString:(NSAttributedString<sp/>*)string<sp/>width:(CGFloat)width;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal">-<sp/>(CGSize)suggestSizeForString:(NSString<sp/>*)string<sp/>width:(CGFloat)width;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UILabel/UILabel+SuggestSize.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_u_i_image_07_resize_private_methods_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>UIImage(ResizePrivateMethods)</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="category_u_i_image_07_resize_private_methods_08_1ae52af94e2a828875eb4b629458f2ae2e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>UIImage *</type>
+        <definition>UIImage * UIImage(ResizePrivateMethods)::resizedImage:transform:drawTransposed:interpolationQuality:</definition>
+        <argsstring>(CGSize newSize,[transform] CGAffineTransform transform,[drawTransposed] BOOL transpose,[interpolationQuality] CGInterpolationQuality quality)</argsstring>
+        <name>resizedImage:transform:drawTransposed:interpolationQuality:</name>
+        <param>
+          <type>CGSize</type>
+          <declname>newSize</declname>
+        </param>
+        <param>
+          <attributes>[transform]</attributes>
+          <type>CGAffineTransform</type>
+          <declname>transform</declname>
+        </param>
+        <param>
+          <attributes>[drawTransposed]</attributes>
+          <type>BOOL</type>
+          <declname>transpose</declname>
+        </param>
+        <param>
+          <attributes>[interpolationQuality]</attributes>
+          <type>CGInterpolationQuality</type>
+          <declname>quality</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImage/UIImage+Resize.m" line="11" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_image_07_resize_private_methods_08_1ad037ba1cf42f4c034de7190bda4a6275" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>CGAffineTransform</type>
+        <definition>CGAffineTransform UIImage(ResizePrivateMethods)::transformForOrientation:</definition>
+        <argsstring>(CGSize newSize)</argsstring>
+        <name>transformForOrientation:</name>
+        <param>
+          <type>CGSize</type>
+          <declname>newSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImage/UIImage+Resize.m" line="11" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImage/UIImage+Resize.m" line="11" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImage/UIImage+Resize.m" bodystart="11" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_u_i_image_07_resize_private_methods_08_1ae52af94e2a828875eb4b629458f2ae2e" prot="public" virt="virtual"><scope>UIImage(ResizePrivateMethods)</scope><name>resizedImage:transform:drawTransposed:interpolationQuality:</name></member>
+      <member refid="category_u_i_image_07_resize_private_methods_08_1ad037ba1cf42f4c034de7190bda4a6275" prot="public" virt="virtual"><scope>UIImage(ResizePrivateMethods)</scope><name>transformForOrientation:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

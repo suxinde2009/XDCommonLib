@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_n_s_string_07_matcher_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>NSString(Matcher)</compoundname>
+    <includes refid="_n_s_string_09_matcher_8h" local="no">NSString+Matcher.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="category_n_s_string_07_matcher_08_1aea186fcb9068d4f1c7e0c84b565dab1e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSArray *</type>
+        <definition>NSArray * NSString(Matcher)::matchWithRegex:</definition>
+        <argsstring>(NSString *regex)</argsstring>
+        <name>matchWithRegex:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>regex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Matcher.h" line="15" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Matcher.m" bodystart="13" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_string_07_matcher_08_1a495a615161d601eeffb3bf31363cf224" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * NSString(Matcher)::matchWithRegex:atIndex:</definition>
+        <argsstring>(NSString *regex,[atIndex] NSUInteger index)</argsstring>
+        <name>matchWithRegex:atIndex:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>regex</declname>
+        </param>
+        <param>
+          <attributes>[atIndex]</attributes>
+          <type>NSUInteger</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Matcher.h" line="15" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Matcher.m" bodystart="24" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_string_07_matcher_08_1a2f6d258394da6d39cb91fd760dceab8e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * NSString(Matcher)::firstMatchedGroupWithRegex:</definition>
+        <argsstring>(NSString *regex)</argsstring>
+        <name>firstMatchedGroupWithRegex:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>regex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Matcher.h" line="15" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Matcher.m" bodystart="31" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_string_07_matcher_08_1afbc6c36ce1410ad91278a3dbab0bfbdc" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSTextCheckingResult *</type>
+        <definition>NSTextCheckingResult * NSString(Matcher)::firstMatchedResultWithRegex:</definition>
+        <argsstring>(NSString *regex)</argsstring>
+        <name>firstMatchedResultWithRegex:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>regex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Matcher.h" line="15" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Matcher.m" bodystart="38" bodyend="43"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Matcher.m" line="10" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Matcher.m" bodystart="10" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_n_s_string_07_matcher_08_1a2f6d258394da6d39cb91fd760dceab8e" prot="public" virt="virtual"><scope>NSString(Matcher)</scope><name>firstMatchedGroupWithRegex:</name></member>
+      <member refid="category_n_s_string_07_matcher_08_1afbc6c36ce1410ad91278a3dbab0bfbdc" prot="public" virt="virtual"><scope>NSString(Matcher)</scope><name>firstMatchedResultWithRegex:</name></member>
+      <member refid="category_n_s_string_07_matcher_08_1aea186fcb9068d4f1c7e0c84b565dab1e" prot="public" virt="virtual"><scope>NSString(Matcher)</scope><name>matchWithRegex:</name></member>
+      <member refid="category_n_s_string_07_matcher_08_1a495a615161d601eeffb3bf31363cf224" prot="public" virt="virtual"><scope>NSString(Matcher)</scope><name>matchWithRegex:atIndex:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

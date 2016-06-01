@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_u_i_view_controller_07_j_z_extension_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>UIViewController(JZExtension)</compoundname>
+    <includes refid="_u_i_navigation_controller_09_j_z_extension_8h" local="no">UINavigationController+JZExtension.h</includes>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="category_u_i_view_controller_07_j_z_extension_08_1ac7d803f5ce4ccb5b78261bdbb06ee3eb" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="assign">
+        <type>BOOL</type>
+        <definition>BOOL UIViewController(JZExtension)::hidesNavigationBarWhenPushed</definition>
+        <argsstring></argsstring>
+        <name>hidesNavigationBarWhenPushed</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UINavigationController/UINavigationController+JZExtension.h" line="59" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UINavigationController/UINavigationController+JZExtension.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_u_i_view_controller_07_j_z_extension_08_1a03e8bc0d0bb032f50097156e76356cd0" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="assign">
+        <type>BOOL</type>
+        <definition>BOOL UIViewController(JZExtension)::navigationBarBackgroundHidden</definition>
+        <argsstring></argsstring>
+        <name>navigationBarBackgroundHidden</name>
+        <read>isNavigationBarBackgroundHidden</read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UINavigationController/UINavigationController+JZExtension.h" line="61" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UINavigationController/UINavigationController+JZExtension.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="category_u_i_view_controller_07_j_z_extension_08_1af7ba7e270dff48d77ec5464428d36ecd" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UIViewController(JZExtension)::setNavigationBarBackgroundHidden:animated:</definition>
+        <argsstring>(BOOL navigationBarBackgroundHidden,[animated] 8_0 NS_AVAILABLE_IOS)</argsstring>
+        <name>setNavigationBarBackgroundHidden:animated:</name>
+        <param>
+          <type>BOOL</type>
+          <declname>navigationBarBackgroundHidden</declname>
+        </param>
+        <param>
+          <attributes>[animated]</attributes>
+          <type>8_0</type>
+          <declname>NS_AVAILABLE_IOS</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UINavigationController/UINavigationController+JZExtension.h" line="61" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UINavigationController/UINavigationController+JZExtension.m" line="331" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UINavigationController/UINavigationController+JZExtension.m" bodystart="331" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_u_i_view_controller_07_j_z_extension_08_1ac7d803f5ce4ccb5b78261bdbb06ee3eb" prot="public" virt="non-virtual"><scope>UIViewController(JZExtension)</scope><name>hidesNavigationBarWhenPushed</name></member>
+      <member refid="category_u_i_view_controller_07_j_z_extension_08_1a03e8bc0d0bb032f50097156e76356cd0" prot="public" virt="non-virtual"><scope>UIViewController(JZExtension)</scope><name>navigationBarBackgroundHidden</name></member>
+      <member refid="category_u_i_view_controller_07_j_z_extension_08_1af7ba7e270dff48d77ec5464428d36ecd" prot="public" virt="virtual"><scope>UIViewController(JZExtension)</scope><name>setNavigationBarBackgroundHidden:animated:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

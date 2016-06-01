@@ -1,0 +1,177 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_n_s_date_09_utils_8m" kind="file" language="Objective-C">
+    <compoundname>NSDate+Utils.m</compoundname>
+    <includes refid="_n_s_date_09_utils_8h" local="yes">NSDate+Utils.h</includes>
+    <incdepgraph>
+      <node id="425">
+        <label>Foundation/Foundation.h</label>
+      </node>
+      <node id="424">
+        <label>NSDate+Utils.h</label>
+        <link refid="_n_s_date_09_utils_8h"/>
+        <childnode refid="425" relation="include">
+        </childnode>
+      </node>
+      <node id="423">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utils.m</label>
+        <link refid="NSDate+Utils.m"/>
+        <childnode refid="424" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>NSDate+Utils.m</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>CoreFramework</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Su<sp/>XinDE<sp/>on<sp/>14-3-10.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2014年<sp/>Su<sp/>XinDE.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_n_s_date_09_utils_8h" kindref="compound">NSDate+Utils.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="category_n_s_date_07_utils_08" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">@implementation<sp/></highlight><highlight class="normal"><ref refid="category_n_s_date_07_utils_08" kindref="compound">NSDate (Utils)</ref></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="category_n_s_date_07_utils_08_1a67a341abd095faaf554e58d291ba1a29" refkind="member"><highlight class="normal">+<sp/>(NSString*)<ref refid="category_n_s_date_07_utils_08_1a67a341abd095faaf554e58d291ba1a29" kindref="member">getCurrentTime</ref></highlight></codeline>
+<codeline lineno="15"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[NSDate<sp/>getCurrentTimeByFormat:@&quot;yyyy-MM-dd<sp/>HH:mm:ss&quot;];</highlight></codeline>
+<codeline lineno="17"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="category_n_s_date_07_utils_08_1a37870a80709b70152fe8f6bc49cf613f" refkind="member"><highlight class="normal">+<sp/>(NSString*)getCurrentTimeByFormat:(NSString<sp/>*)format</highlight></codeline>
+<codeline lineno="20"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>format<sp/>格式形如：@&quot;yyyyMMdd<sp/>hh:mm:ss:SSS&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>NSDateFormatter<sp/>*fmt<sp/>=<sp/>[[NSDateFormatter<sp/>alloc]<sp/>init];</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>[fmt<sp/>setDateFormat:format];</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>NSString<sp/>*str<sp/>=<sp/>[fmt<sp/>stringFromDate:[NSDate<sp/>date]];</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>!__has_feature(objc_arc)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>[fmt<sp/>release];</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>str;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32" refid="category_n_s_date_07_utils_08_1a2bf421e830b23876c09f833d6056f894" refkind="member"><highlight class="normal">-<sp/>(BOOL)isSameDay:(NSDate*)anotherDate</highlight></codeline>
+<codeline lineno="33"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>NSCalendar*<sp/><ref refid="_lunar_core_8m_1a66a2143e3b4e4dd3b5534f615520cbb1" kindref="member">calendar</ref><sp/>=<sp/>[NSCalendar<sp/>currentCalendar];</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>NSDateComponents*<sp/>components1<sp/>=<sp/>[calendar<sp/>components:(NSCalendarUnitYear<sp/>|<sp/>NSCalendarUnitMonth<sp/>|<sp/>NSCalendarUnitDay)</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fromDate:self];</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>NSDateComponents*<sp/>components2<sp/>=<sp/>[calendar<sp/>components:(NSCalendarUnitYear<sp/>|<sp/>NSCalendarUnitMonth<sp/>|<sp/>NSCalendarUnitDay)</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fromDate:anotherDate];</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>([components1<sp/>year]<sp/>==<sp/>[components2<sp/>year]<sp/>&amp;&amp;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[components1<sp/>month]<sp/>==<sp/>[components2<sp/>month]<sp/>&amp;&amp;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[components1<sp/>day]<sp/>==<sp/>[components2<sp/>day]);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45" refid="category_n_s_date_07_utils_08_1a8c8867d6a2a7b46c9e305db3756c9eec" refkind="member"><highlight class="normal">-<sp/>(BOOL)<ref refid="category_n_s_date_07_utils_08_1a8c8867d6a2a7b46c9e305db3756c9eec" kindref="member">isToday</ref></highlight></codeline>
+<codeline lineno="46"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/><ref refid="category_n_s_date_07_utils_08_1a2bf421e830b23876c09f833d6056f894" kindref="member">isSameDay</ref>:[NSDate<sp/>date]];</highlight></codeline>
+<codeline lineno="48"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51" refid="category_n_s_date_07_utils_08_1a8d6ce64338a7c5814b8ffccea1d99de7" refkind="member"><highlight class="normal">+<sp/>(NSDate<sp/>*)dateWithDatePart:(NSDate<sp/>*)aDate</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>andTimePart:(NSDate<sp/>*)aTime</highlight></codeline>
+<codeline lineno="53"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>NSDateFormatter<sp/>*dateFormatter<sp/>=<sp/>[[NSDateFormatter<sp/>alloc]<sp/>init];</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/>[dateFormatter<sp/>setDateFormat:@&quot;dd/MM/yyyy&quot;];</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/>NSString<sp/>*datePortion<sp/>=<sp/>[dateFormatter<sp/>stringFromDate:aDate];</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/>[dateFormatter<sp/>setDateFormat:@&quot;HH:mm&quot;];</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/>NSString<sp/>*timePortion<sp/>=<sp/>[dateFormatter<sp/>stringFromDate:aTime];</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/>[dateFormatter<sp/>setDateFormat:@&quot;dd/MM/yyyy<sp/>HH:mm&quot;];</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/>NSString<sp/>*dateTime<sp/>=<sp/>[NSString<sp/>stringWithFormat:@&quot;%@<sp/>%@&quot;,datePortion,timePortion];</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/>NSDate<sp/>*date<sp/>=<sp/>[dateFormatter<sp/>dateFromString:dateTime];</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>!__has_feature(objc_arc)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>[dateFormatter<sp/>release];</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>date;</highlight></codeline>
+<codeline lineno="71"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73" refid="category_n_s_date_07_utils_08_1a7aa58f9368094304e23e1626733052b8" refkind="member"><highlight class="normal">-<sp/>(NSString*)<ref refid="category_n_s_date_07_utils_08_1a7aa58f9368094304e23e1626733052b8" kindref="member">monthString</ref></highlight></codeline>
+<codeline lineno="74"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/>NSDateFormatter<sp/>*dateFormatter<sp/>=<sp/>[[NSDateFormatter<sp/>alloc]<sp/>init];</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/>[dateFormatter<sp/>setDateFormat:@&quot;MMMM&quot;];</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/>NSString<sp/>*month<sp/>=<sp/>[dateFormatter<sp/>stringFromDate:self];</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>!__has_feature(objc_arc)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/>[dateFormatter<sp/>release];</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>month;</highlight></codeline>
+<codeline lineno="83"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85" refid="category_n_s_date_07_utils_08_1aa65c38765e718e500addd0cf4ee9e733" refkind="member"><highlight class="normal">-<sp/>(NSString*)<ref refid="category_n_s_date_07_utils_08_1aa65c38765e718e500addd0cf4ee9e733" kindref="member">yearString</ref></highlight></codeline>
+<codeline lineno="86"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/>NSDateFormatter<sp/>*dateFormatter<sp/>=<sp/>[[NSDateFormatter<sp/>alloc]<sp/>init];</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/>[dateFormatter<sp/>setDateFormat:@&quot;yyyy&quot;];</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/>NSString<sp/>*year<sp/>=<sp/>[dateFormatter<sp/>stringFromDate:self];</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>!__has_feature(objc_arc)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/>[dateFormatter<sp/>release];</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>year;</highlight></codeline>
+<codeline lineno="96"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99" refid="category_n_s_date_07_utils_08_1a05046b7a4f856729fd68c69e1523a322" refkind="member"><highlight class="normal">+<sp/>(NSString<sp/>*)dateString:(NSString<sp/>*)originStr</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>originDateFormat:(NSString<sp/>*)originDateFormat</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>destinationFormat:(NSString<sp/>*)destinationFormat</highlight></codeline>
+<codeline lineno="102"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/>NSDateFormatter<sp/>*dateFormatter<sp/>=<sp/>[[NSDateFormatter<sp/>alloc]<sp/>init];</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/>[dateFormatter<sp/>setDateFormat:originDateFormat];</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/>NSDate<sp/>*date<sp/>=<sp/>[dateFormatter<sp/>dateFromString:originStr];</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/>[dateFormatter<sp/>setDateFormat:destinationFormat];</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/>NSString<sp/>*destStr<sp/>=<sp/>[dateFormatter<sp/>stringFromDate:date];</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>!__has_feature(objc_arc)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/>[dateFormatter<sp/>release];</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>destStr;</highlight></codeline>
+<codeline lineno="113"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116" refid="category_n_s_date_07_utils_08_1aca216a4ab8c5a82a33f657649fdb5e96" refkind="member"><highlight class="normal">+<sp/>(NSDate<sp/>*)dateString:(NSString<sp/>*)dateStr</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>withFormat:(NSString<sp/>*)dateFormat</highlight></codeline>
+<codeline lineno="118"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/>NSDateFormatter<sp/>*df<sp/>=<sp/>[[NSDateFormatter<sp/>alloc]<sp/>init];</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/>[df<sp/>setDateFormat:dateFormat];</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/>NSDate<sp/>*date<sp/>=<sp/>[df<sp/>dateFromString:dateStr];</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>!__has_feature(objc_arc)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/>[df<sp/>release];</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/>[date<sp/>autorelease];</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>date;</highlight></codeline>
+<codeline lineno="129"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight></codeline>
+<codeline lineno="133" refid="category_n_s_date_07_utils_08_1a0f4c73eba6d46f9fd506edd089ccd1a0" refkind="member"><highlight class="normal">+<sp/>(int)getDayCountForMonth:(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)year<sp/>month:(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)month</highlight></codeline>
+<codeline lineno="134"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="_lunar_core_8m_1a75c34a52f578527768d9b89f1db0b87c" kindref="member">isLeapYear</ref>=(year%100==0)?(year%400==0):(year%4==0);</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">switch</highlight><highlight class="normal">(month)</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>1:</highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>3:</highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>5:</highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>7:</highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>8:</highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>10:</highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>12:</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>31;</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>4:</highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>6:</highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>9:</highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>11:</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>30;</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="_lunar_core_8m_1a75c34a52f578527768d9b89f1db0b87c" kindref="member">isLeapYear</ref>?29:28;</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="145"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utils.m"/>
+  </compounddef>
+</doxygen>

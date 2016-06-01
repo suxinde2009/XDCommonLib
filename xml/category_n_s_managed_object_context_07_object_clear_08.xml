@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_n_s_managed_object_context_07_object_clear_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>NSManagedObjectContext(ObjectClear)</compoundname>
+    <includes refid="_n_s_managed_object_context_09_object_clear_8h" local="no">NSManagedObjectContext+ObjectClear.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="category_n_s_managed_object_context_07_object_clear_08_1a54e70b2a3a0bdaefa9eb783ca1cebf6c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void NSManagedObjectContext(ObjectClear)::deleteObjects:</definition>
+        <argsstring>(id&lt; NSFastEnumeration &gt; objects)</argsstring>
+        <name>deleteObjects:</name>
+        <param>
+          <type>id&lt; NSFastEnumeration &gt;</type>
+          <declname>objects</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSManagedObjectContext/NSManagedObjectContext+ObjectClear.h" line="20" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSManagedObjectContext/NSManagedObjectContext+ObjectClear.m" bodystart="12" bodyend="15"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSManagedObjectContext/NSManagedObjectContext+ObjectClear.m" line="10" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSManagedObjectContext/NSManagedObjectContext+ObjectClear.m" bodystart="10" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_n_s_managed_object_context_07_object_clear_08_1a54e70b2a3a0bdaefa9eb783ca1cebf6c" prot="public" virt="virtual"><scope>NSManagedObjectContext(ObjectClear)</scope><name>deleteObjects:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

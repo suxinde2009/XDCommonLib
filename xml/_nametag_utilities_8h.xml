@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_nametag_utilities_8h" kind="file" language="C++">
+    <compoundname>NametagUtilities.h</compoundname>
+    <includes local="no">Foundation/Foundation.h</includes>
+    <includes refid="_n_s_object-_nametag_8h" local="yes">NSObject-Nametag.h</includes>
+    <includes refid="_n_s_object-_description_8h" local="yes">NSObject-Description.h</includes>
+    <includes refid="_view-_nametag_8h" local="yes">View-Nametag.h</includes>
+    <includedby refid="_constraint_utilities_09_matching_8h" local="yes">XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Constraint Matching/ConstraintUtilities+Matching.h</includedby>
+    <includedby refid="_constraint_utilities_09_layout_8m" local="yes">XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Constraint Layout/ConstraintUtilities+Layout.m</includedby>
+    <includedby refid="_constraint_utilities_09_matching_8m" local="yes">XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Constraint Matching/ConstraintUtilities+Matching.m</includedby>
+    <includedby refid="_n_s_object-_description_8m" local="yes">XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Nametag Utilities/NSObject/NSObject-Description.m</includedby>
+    <includedby refid="_view-_nametag_8m" local="yes">XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Nametag Utilities/View/View-Nametag.m</includedby>
+    <includedby refid="_constraint_pack_8h" local="yes">XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/ConstraintPack.h</includedby>
+    <incdepgraph>
+      <node id="3433">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Nametag Utilities/NametagUtilities.h</label>
+        <link refid="NametagUtilities.h"/>
+        <childnode refid="3434" relation="include">
+        </childnode>
+        <childnode refid="3435" relation="include">
+        </childnode>
+        <childnode refid="3436" relation="include">
+        </childnode>
+        <childnode refid="3437" relation="include">
+        </childnode>
+      </node>
+      <node id="3436">
+        <label>NSObject-Description.h</label>
+        <link refid="_n_s_object-_description_8h"/>
+        <childnode refid="3434" relation="include">
+        </childnode>
+      </node>
+      <node id="3437">
+        <label>View-Nametag.h</label>
+        <link refid="_view-_nametag_8h"/>
+      </node>
+      <node id="3434">
+        <label>Foundation/Foundation.h</label>
+      </node>
+      <node id="3435">
+        <label>NSObject-Nametag.h</label>
+        <link refid="_n_s_object-_nametag_8h"/>
+        <childnode refid="3434" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3439">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Constraint Matching/ConstraintUtilities+Matching.h</label>
+        <link refid="_constraint_utilities_09_matching_8h"/>
+        <childnode refid="3440" relation="include">
+        </childnode>
+        <childnode refid="3441" relation="include">
+        </childnode>
+        <childnode refid="3442" relation="include">
+        </childnode>
+        <childnode refid="3443" relation="include">
+        </childnode>
+      </node>
+      <node id="3442">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Constraint Matching/ConstraintUtilities+Matching.m</label>
+        <link refid="_constraint_utilities_09_matching_8m"/>
+      </node>
+      <node id="3440">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Constraint Description/ConstraintUtilities+Description.m</label>
+        <link refid="_constraint_utilities_09_description_8m"/>
+      </node>
+      <node id="3438">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Nametag Utilities/NametagUtilities.h</label>
+        <link refid="NametagUtilities.h"/>
+        <childnode refid="3439" relation="include">
+        </childnode>
+        <childnode refid="3441" relation="include">
+        </childnode>
+        <childnode refid="3442" relation="include">
+        </childnode>
+        <childnode refid="3444" relation="include">
+        </childnode>
+        <childnode refid="3445" relation="include">
+        </childnode>
+        <childnode refid="3443" relation="include">
+        </childnode>
+      </node>
+      <node id="3444">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Nametag Utilities/NSObject/NSObject-Description.m</label>
+        <link refid="_n_s_object-_description_8m"/>
+      </node>
+      <node id="3441">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Constraint Layout/ConstraintUtilities+Layout.m</label>
+        <link refid="_constraint_utilities_09_layout_8m"/>
+      </node>
+      <node id="3445">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Nametag Utilities/View/View-Nametag.m</label>
+        <link refid="_view-_nametag_8m"/>
+      </node>
+      <node id="3443">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/ConstraintPack.h</label>
+        <link refid="_constraint_pack_8h"/>
+      </node>
+    </invincdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/></highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>Erica<sp/>Sadun,<sp/>http://ericasadun.com</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>NAMETAG<sp/>Utilities</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/></highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;Foundation/Foundation.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_n_s_object-_nametag_8h" kindref="compound">NSObject-Nametag.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_n_s_object-_description_8h" kindref="compound">NSObject-Description.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_view-_nametag_8h" kindref="compound">View-Nametag.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Nametag Utilities/NametagUtilities.h"/>
+  </compounddef>
+</doxygen>

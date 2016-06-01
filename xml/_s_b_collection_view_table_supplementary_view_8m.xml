@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_s_b_collection_view_table_supplementary_view_8m" kind="file" language="Objective-C">
+    <compoundname>SBCollectionViewTableSupplementaryView.m</compoundname>
+    <includes refid="_s_b_collection_view_table_supplementary_view_8h" local="yes">SBCollectionViewTableSupplementaryView.h</includes>
+    <includes refid="_u_i_color_09_s_b_collection_view_table_layout_colors_8h" local="yes">UIColor+SBCollectionViewTableLayoutColors.h</includes>
+    <incdepgraph>
+      <node id="3620">
+        <label>SBCollectionViewTableSupplementaryView.h</label>
+        <link refid="_s_b_collection_view_table_supplementary_view_8h"/>
+        <childnode refid="3621" relation="include">
+        </childnode>
+      </node>
+      <node id="3619">
+        <label>XDCommonLib/CommonBasicComponentLayer/Venders/SBTableLayout/SBCollectionViewTableSupplementaryView.m</label>
+        <link refid="SBCollectionViewTableSupplementaryView.m"/>
+        <childnode refid="3620" relation="include">
+        </childnode>
+        <childnode refid="3622" relation="include">
+        </childnode>
+      </node>
+      <node id="3621">
+        <label>UIKit/UIKit.h</label>
+      </node>
+      <node id="3622">
+        <label>UIColor+SBCollectionViewTableLayoutColors.h</label>
+        <link refid="_u_i_color_09_s_b_collection_view_table_layout_colors_8h"/>
+        <childnode refid="3621" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="_s_b_collection_view_table_supplementary_view_8m_1ad1d343ffa9afd4405c24df1722fbacba" prot="public" static="yes" mutable="no">
+        <type>UIEdgeInsets</type>
+        <definition>UIEdgeInsets paddning</definition>
+        <argsstring></argsstring>
+        <name>paddning</name>
+        <initializer>= {10.f, 12.f, 10.f, 10.f}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/SBTableLayout/SBCollectionViewTableSupplementaryView.m" line="12" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/SBTableLayout/SBCollectionViewTableSupplementaryView.m" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>SBCollectionViewTableSupplementaryView.m</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>SBTableLayout</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Simon<sp/>Blommegård<sp/>on<sp/>2013-11-11.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2013<sp/>Simon<sp/>Blommegård.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_s_b_collection_view_table_supplementary_view_8h" kindref="compound">SBCollectionViewTableSupplementaryView.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_u_i_color_09_s_b_collection_view_table_layout_colors_8h" kindref="compound">UIColor+SBCollectionViewTableLayoutColors.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>UIEdgeInsets<sp/>paddning<sp/>=<sp/>{10.f,<sp/>12.f,<sp/>10.f,<sp/>10.f};</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="class_s_b_collection_view_table_supplementary_view" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">@implementation<sp/></highlight><highlight class="normal"><ref refid="class_s_b_collection_view_table_supplementary_view" kindref="compound">SBCollectionViewTableSupplementaryView</ref></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal">-<sp/>(id)initWithFrame:(CGRect)frame<sp/>{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>=<sp/>[super<sp/>initWithFrame:frame])<sp/>{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>addSubview:self.label];</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/>-<sp/>Properties</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal">-<sp/>(UILabel<sp/>*)<ref refid="class_s_b_collection_view_table_supplementary_view_1ad294a131a063db97f232c8da285ba1e5" kindref="member">label</ref><sp/>{</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!_label)<sp/>{</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>_label<sp/>=<sp/>[[UILabel<sp/>alloc]<sp/>initWithFrame:UIEdgeInsetsInsetRect(self.bounds,<sp/>paddning)];</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>[_label<sp/>setBackgroundColor:[UIColor<sp/>sb_tableBackgroundColor]];</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>[_label<sp/>setTextColor:[UIColor<sp/>sb_supplementaryViewTextColor]];</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>[_label<sp/>setNumberOfLines:0];</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>_label;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/>-</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37" refid="class_s_b_collection_view_table_supplementary_view_1ac9903bba98742c07e304a66e1865caab" refkind="member"><highlight class="normal">+<sp/>(CGSize)sizeForWidth:(CGFloat)width<sp/>atteributedString:(NSAttributedString<sp/>*)string<sp/>{</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/>CGRect<sp/>rect<sp/>=<sp/>[string<sp/>boundingRectWithSize:CGSizeMake(width-paddning.left-paddning.right,<sp/>CGFLOAT_MAX)</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>options:(NSStringDrawingUsesLineFragmentOrigin)</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>context:nil];</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>CGSizeMake(width,<sp/>CGRectGetHeight(rect)+paddning.top+paddning.bottom);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45" refid="class_s_b_collection_view_table_supplementary_view_1ab99c8fa250885ffaa057a7c0dd74c14f" refkind="member"><highlight class="normal">+<sp/>(NSAttributedString<sp/>*)atteributedStringForKind:(NSString<sp/>*)kind<sp/>text:(NSString<sp/>*)text<sp/>{</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/>NSMutableParagraphStyle<sp/>*paragraphStyle<sp/>=<sp/>[[NSParagraphStyle<sp/>defaultParagraphStyle]<sp/>mutableCopy];</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/>[paragraphStyle<sp/>setAlignment:NSTextAlignmentLeft];</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/>UIFont<sp/>*font;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>([kind<sp/>isEqualToString:UICollectionElementKindSectionHeader])<sp/>{</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>font<sp/>=<sp/>[UIFont<sp/>systemFontOfSize:14.f];</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>text<sp/>=<sp/>[text<sp/>uppercaseString];</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/>font<sp/>=<sp/>[UIFont<sp/>systemFontOfSize:12.f];</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/>NSDictionary<sp/>*attributes<sp/>=<sp/>@{</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NSFontAttributeName:font,</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NSParagraphStyleAttributeName:paragraphStyle,</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[[NSAttributedString<sp/>alloc]<sp/>initWithString:text<sp/>attributes:attributes];</highlight></codeline>
+<codeline lineno="64"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/SBTableLayout/SBCollectionViewTableSupplementaryView.m"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_u_i_text_view_07_select_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>UITextView(Select)</compoundname>
+    <includes refid="_u_i_text_view_09_select_8h" local="no">UITextView+Select.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="category_u_i_text_view_07_select_08_1a616eff9a37047ffcd27e9ef7c8718b36" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSRange</type>
+        <definition>NSRange UITextView(Select)::selectedRange</definition>
+        <argsstring>()</argsstring>
+        <name>selectedRange</name>
+        <briefdescription>
+<para>当前选中的字符串范围 </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>NSRange </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UITextView/UITextView+Select.h" line="12" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UITextView/UITextView+Select.m" bodystart="17" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_text_view_07_select_08_1a7e10aaded3c9b68df3781b3c30465e35" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UITextView(Select)::selectAllText</definition>
+        <argsstring>()</argsstring>
+        <name>selectAllText</name>
+        <briefdescription>
+<para>选中所有文字 </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UITextView/UITextView+Select.h" line="12" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UITextView/UITextView+Select.m" bodystart="33" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_text_view_07_select_08_1a04836c0f8d17f1d6eedaef8ec9388c01" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UITextView(Select)::setSelectedRange:</definition>
+        <argsstring>(NSRange range)</argsstring>
+        <name>setSelectedRange:</name>
+        <param>
+          <type>NSRange</type>
+          <declname>range</declname>
+        </param>
+        <briefdescription>
+<para>选中指定范围的文字 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>range</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>NSRange范围 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UITextView/UITextView+Select.h" line="12" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UITextView/UITextView+Select.m" bodystart="42" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_text_view_07_select_08_1aab17f029bdd08d8bad37c86a3cb73388" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSInteger</type>
+        <definition>NSInteger UITextView(Select)::getInputLengthWithText:</definition>
+        <argsstring>(NSString *text)</argsstring>
+        <name>getInputLengthWithText:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>text</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UITextView/UITextView+Select.h" line="12" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UITextView/UITextView+Select.m" bodystart="52" bodyend="64"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UITextView/UITextView+Select.m" line="11" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UITextView/UITextView+Select.m" bodystart="11" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_u_i_text_view_07_select_08_1aab17f029bdd08d8bad37c86a3cb73388" prot="public" virt="virtual"><scope>UITextView(Select)</scope><name>getInputLengthWithText:</name></member>
+      <member refid="category_u_i_text_view_07_select_08_1a7e10aaded3c9b68df3781b3c30465e35" prot="public" virt="virtual"><scope>UITextView(Select)</scope><name>selectAllText</name></member>
+      <member refid="category_u_i_text_view_07_select_08_1a616eff9a37047ffcd27e9ef7c8718b36" prot="public" virt="virtual"><scope>UITextView(Select)</scope><name>selectedRange</name></member>
+      <member refid="category_u_i_text_view_07_select_08_1a04836c0f8d17f1d6eedaef8ec9388c01" prot="public" virt="virtual"><scope>UITextView(Select)</scope><name>setSelectedRange:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

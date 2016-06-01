@@ -1,0 +1,455 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_u_i_alert_view_07_blocks_kit_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>UIAlertView(BlocksKit)</compoundname>
+    <includes refid="_u_i_alert_view_09_blocks_kit_8h" local="no">UIAlertView+BlocksKit.h</includes>
+      <sectiondef kind="user-defined">
+      <header>Creating alert views</header>
+      <description><para><hruler/>
+ <hruler/>
+ </para></description>
+      <memberdef kind="function" id="category_u_i_alert_view_07_blocks_kit_08_1a8d280ecc3730bdac5b535552322630e7" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>instancetype</type>
+        <definition>instancetype UIAlertView(BlocksKit)::bk_showAlertViewWithTitle:message:cancelButtonTitle:otherButtonTitles:handler:</definition>
+        <argsstring>(NSString *title,[message] NSString *message,[cancelButtonTitle] NSString *cancelButtonTitle,[otherButtonTitles] NSArray *otherButtonTitles,[handler] 2_0 BK_ALERT_CONTROLLER_DEPRECATED)</argsstring>
+        <name>bk_showAlertViewWithTitle:message:cancelButtonTitle:otherButtonTitles:handler:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>title</declname>
+        </param>
+        <param>
+          <attributes>[message]</attributes>
+          <type>NSString *</type>
+          <declname>message</declname>
+        </param>
+        <param>
+          <attributes>[cancelButtonTitle]</attributes>
+          <type>NSString *</type>
+          <declname>cancelButtonTitle</declname>
+        </param>
+        <param>
+          <attributes>[otherButtonTitles]</attributes>
+          <type>NSArray *</type>
+          <declname>otherButtonTitles</declname>
+        </param>
+        <param>
+          <attributes>[handler]</attributes>
+          <type>2_0</type>
+          <declname>BK_ALERT_CONTROLLER_DEPRECATED</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates and shows a new alert view with only a title, message, and cancel button.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>title</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The title of the alert view. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>message</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The message content of the alert. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>cancelButtonTitle</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The title of the cancel button. If both cancelButtonTitle and otherButtonTitles are empty or nil, defaults to a </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>otherButtonTitles</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Titles of additional buttons to add to the receiver. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>block</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A block of code to be fired on the dismissal of the alert view.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The UIAlertView. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIAlertView+BlocksKit.h" line="127" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_alert_view_07_blocks_kit_08_1ae008223d2a845d5df76e87c7ffe2d502" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>instancetype</type>
+        <definition>instancetype UIAlertView(BlocksKit)::bk_alertViewWithTitle:</definition>
+        <argsstring>(2_0 BK_ALERT_CONTROLLER_DEPRECATED)</argsstring>
+        <name>bk_alertViewWithTitle:</name>
+        <param>
+          <type>2_0</type>
+          <declname>BK_ALERT_CONTROLLER_DEPRECATED</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates and returns a new alert view with only a title and cancel button.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>title</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The title of the alert view. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>A newly created alert view. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIAlertView+BlocksKit.h" line="127" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_alert_view_07_blocks_kit_08_1a6945d9c9d08652348d758d3c776be1ce" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>instancetype</type>
+        <definition>instancetype UIAlertView(BlocksKit)::bk_alertViewWithTitle:message:</definition>
+        <argsstring>(NSString *title,[message] 2_0 BK_ALERT_CONTROLLER_DEPRECATED)</argsstring>
+        <name>bk_alertViewWithTitle:message:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>title</declname>
+        </param>
+        <param>
+          <attributes>[message]</attributes>
+          <type>2_0</type>
+          <declname>BK_ALERT_CONTROLLER_DEPRECATED</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates and returns a new alert view with only a title, message, and cancel button.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>title</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The title of the alert view. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>message</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The message content of the alert. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>A newly created alert view. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIAlertView+BlocksKit.h" line="127" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_alert_view_07_blocks_kit_08_1ae1fc47637b91362ede5f78990021d4b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>instancetype</type>
+        <definition>instancetype UIAlertView(BlocksKit)::bk_initWithTitle:message:</definition>
+        <argsstring>(NSString *title,[message] 2_0 BK_ALERT_CONTROLLER_DEPRECATED)</argsstring>
+        <name>bk_initWithTitle:message:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>title</declname>
+        </param>
+        <param>
+          <attributes>[message]</attributes>
+          <type>2_0</type>
+          <declname>BK_ALERT_CONTROLLER_DEPRECATED</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a configured alert view with only a title, message, and cancel button.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>title</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The title of the alert view. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>message</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The message content of the alert. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>An instantiated alert view. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIAlertView+BlocksKit.h" line="127" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="user-defined">
+      <header>Adding buttons</header>
+      <description><para><hruler/>
+ <hruler/>
+ </para></description>
+      <memberdef kind="function" id="category_u_i_alert_view_07_blocks_kit_08_1a72ec821739d3ba5b03ef1274afd96c13" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSInteger</type>
+        <definition>NSInteger UIAlertView(BlocksKit)::bk_addButtonWithTitle:handler:</definition>
+        <argsstring>(NSString *title,[handler] 2_0 BK_ALERT_CONTROLLER_DEPRECATED)</argsstring>
+        <name>bk_addButtonWithTitle:handler:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>title</declname>
+        </param>
+        <param>
+          <attributes>[handler]</attributes>
+          <type>2_0</type>
+          <declname>BK_ALERT_CONTROLLER_DEPRECATED</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Add a new button with an associated code block.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>title</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The text of the button. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>block</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A block of code. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIAlertView+BlocksKit.h" line="127" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_alert_view_07_blocks_kit_08_1a94527feaf87f9ee5f2a648b3da6c2f44" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSInteger</type>
+        <definition>NSInteger UIAlertView(BlocksKit)::bk_setCancelButtonWithTitle:handler:</definition>
+        <argsstring>(NSString *title,[handler] 2_0 BK_ALERT_CONTROLLER_DEPRECATED)</argsstring>
+        <name>bk_setCancelButtonWithTitle:handler:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>title</declname>
+        </param>
+        <param>
+          <attributes>[handler]</attributes>
+          <type>2_0</type>
+          <declname>BK_ALERT_CONTROLLER_DEPRECATED</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set the title and trigger of the cancel button.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>title</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The text of the button. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>block</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A block of code. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIAlertView+BlocksKit.h" line="127" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="user-defined">
+      <header>Altering actions</header>
+      <description><para><hruler/>
+ <hruler/>
+ </para></description>
+      <memberdef kind="property" id="category_u_i_alert_view_07_blocks_kit_08_1a3a7da8082830343a791c8699acd92472" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="copy">
+        <type>void(^</type>
+        <definition>void UIAlertView(BlocksKit)::bk_cancelBlock</definition>
+        <argsstring>)(void) BK_ALERT_CONTROLLER_DEPRECATED(2_0)</argsstring>
+        <name>bk_cancelBlock</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The block to be fired when the action sheet is dismissed with the cancel button.</para><para>Contrary to setCancelButtonWithTitle:handler:, you can set this property multiple times but multiple cancel buttons will not be generated. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIAlertView+BlocksKit.h" line="120" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIAlertView+BlocksKit.m" bodystart="213" bodyend="216"/>
+      </memberdef>
+      <memberdef kind="property" id="category_u_i_alert_view_07_blocks_kit_08_1ab7e1be6dde0a422342d16fe5f18a46eb" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="copy">
+        <type>void(^</type>
+        <definition>void(^ UIAlertView(BlocksKit)::bk_willShowBlock) (UIAlertView *alertView) BK_ALERT_CONTROLLER_DEPRECATED(2_0)</definition>
+        <argsstring>)(UIAlertView *alertView) BK_ALERT_CONTROLLER_DEPRECATED(2_0)</argsstring>
+        <name>bk_willShowBlock</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The block to be fired before the alert view will show. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIAlertView+BlocksKit.h" line="123" column="1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_u_i_alert_view_07_blocks_kit_08_1a9562092a21a4cc7d25b0bb763d0bacef" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="copy">
+        <type>void(^</type>
+        <definition>void(^ UIAlertView(BlocksKit)::bk_didShowBlock) (UIAlertView *alertView) BK_ALERT_CONTROLLER_DEPRECATED(2_0)</definition>
+        <argsstring>)(UIAlertView *alertView) BK_ALERT_CONTROLLER_DEPRECATED(2_0)</argsstring>
+        <name>bk_didShowBlock</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The block to be fired when the alert view shows. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIAlertView+BlocksKit.h" line="126" column="1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_u_i_alert_view_07_blocks_kit_08_1af70944629f562549221b3999c22ef809" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="copy">
+        <type>void(^</type>
+        <definition>void(^ UIAlertView(BlocksKit)::bk_willDismissBlock) (UIAlertView *alertView, NSInteger buttonIndex) BK_ALERT_CONTROLLER_DEPRECATED(2_0)</definition>
+        <argsstring>)(UIAlertView *alertView, NSInteger buttonIndex) BK_ALERT_CONTROLLER_DEPRECATED(2_0)</argsstring>
+        <name>bk_willDismissBlock</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The block to be fired before the alert view will dismiss. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIAlertView+BlocksKit.h" line="129" column="1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_u_i_alert_view_07_blocks_kit_08_1a22c3175b4e13c923de3843d75c1b312a" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="copy">
+        <type>void(^</type>
+        <definition>void(^ UIAlertView(BlocksKit)::bk_didDismissBlock) (UIAlertView *alertView, NSInteger buttonIndex) BK_ALERT_CONTROLLER_DEPRECATED(2_0)</definition>
+        <argsstring>)(UIAlertView *alertView, NSInteger buttonIndex) BK_ALERT_CONTROLLER_DEPRECATED(2_0)</argsstring>
+        <name>bk_didDismissBlock</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The block to be fired after the alert view dismisses. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIAlertView+BlocksKit.h" line="132" column="1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_u_i_alert_view_07_blocks_kit_08_1a371bd9c0c4a1fd6bda9d6529397e311e" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="copy">
+        <type>BOOL(^</type>
+        <definition>BOOL(^ UIAlertView(BlocksKit)::bk_shouldEnableFirstOtherButtonBlock) (UIAlertView *alertView) BK_ALERT_CONTROLLER_DEPRECATED(5_0)</definition>
+        <argsstring>)(UIAlertView *alertView) BK_ALERT_CONTROLLER_DEPRECATED(5_0)</argsstring>
+        <name>bk_shouldEnableFirstOtherButtonBlock</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The block to be fired to determine whether the first non-cancel should be enabled </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIAlertView+BlocksKit.h" line="135" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_alert_view_07_blocks_kit_08_1a8aa25ddd3d06a8d754d09e12093e0bf1" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UIAlertView(BlocksKit)::bk_setHandler:forButtonAtIndex:</definition>
+        <argsstring>(void(^block)(void),[forButtonAtIndex] 2_0 BK_ALERT_CONTROLLER_DEPRECATED)</argsstring>
+        <name>bk_setHandler:forButtonAtIndex:</name>
+        <param>
+          <type>void(^)(void)</type>
+          <declname>block</declname>
+        </param>
+        <param>
+          <attributes>[forButtonAtIndex]</attributes>
+          <type>2_0</type>
+          <declname>BK_ALERT_CONTROLLER_DEPRECATED</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the block that is to be fired when a button is pressed.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>block</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A code block, or nil to set no response. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The index of a button already added to the action sheet. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIAlertView+BlocksKit.h" line="127" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_alert_view_07_blocks_kit_08_1ad09b3f27c5bc6b3292dfd0a80d7142aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UIAlertView(BlocksKit)::bk_handlerForButtonAtIndex:</definition>
+        <argsstring>(2_0 BK_ALERT_CONTROLLER_DEPRECATED)</argsstring>
+        <name>bk_handlerForButtonAtIndex:</name>
+        <param>
+          <type>2_0</type>
+          <declname>BK_ALERT_CONTROLLER_DEPRECATED</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The block that is to be fired when a button is pressed.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The index of the button already added to the alert view. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>A code block, or nil if no block yet assigned. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIAlertView+BlocksKit.h" line="127" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>UIAlertView without delegates!</para><para>This set of extensions and convenience classes allows for an instance of UIAlertView without the implementation of a delegate. Any time you instantiate a UIAlertView using the methods here, you must add buttons using addButtonWithTitle:handler:otherwise nothing will happen.</para><para>A typical invocation will go like this: UIAlertView *testView = [UIAlertView alertViewWithTitle:"Application Alert&quot; message:@&quot;This app will explode in 42 seconds.&quot;];
+    [testView setCancelButtonWithTitle:@&quot;Oh No!&quot; handler:^{ NSLog(@&quot;Boom!"); }]; [testView show];</para><para>A more traditional, and more useful, modal dialog looks like so: UIAlertView *testView = [UIAlertView alertViewWithTitle:"Very important!&quot; message:@&quot;Do you like chocolate?&quot;];
+   [testView addButtonWithTitle:@&quot;Yes&quot; handler:^{ NSLog(@&quot;Yay!&quot;); }];
+   [testView addButtonWithTitle:@&quot;No&quot; handler:^{ NSLog(@&quot;We hate you."); }]; [testView show];</para><para>Includes code by the following:</para><para><itemizedlist>
+<listitem><para><ulink url="http://landonf.bikemonkey.org">Landon Fuller</ulink>, &quot;Using Blocks&quot;.</para></listitem><listitem><para><ulink url="https://github.com/steipete">Peter Steinberger</ulink></para></listitem><listitem><para><ulink url="https://github.com/zwaldowski">Zach Waldowski</ulink></para></listitem></itemizedlist>
+</para><para><simplesect kind="warning"><para>UIAlertView is only available on a platform with UIKit. </para></simplesect>
+</para>    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIAlertView+BlocksKit.m" line="113" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIAlertView+BlocksKit.m" bodystart="113" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_u_i_alert_view_07_blocks_kit_08_1a72ec821739d3ba5b03ef1274afd96c13" prot="public" virt="virtual"><scope>UIAlertView(BlocksKit)</scope><name>bk_addButtonWithTitle:handler:</name></member>
+      <member refid="category_u_i_alert_view_07_blocks_kit_08_1ae008223d2a845d5df76e87c7ffe2d502" prot="public" virt="virtual"><scope>UIAlertView(BlocksKit)</scope><name>bk_alertViewWithTitle:</name></member>
+      <member refid="category_u_i_alert_view_07_blocks_kit_08_1a6945d9c9d08652348d758d3c776be1ce" prot="public" virt="virtual"><scope>UIAlertView(BlocksKit)</scope><name>bk_alertViewWithTitle:message:</name></member>
+      <member refid="category_u_i_alert_view_07_blocks_kit_08_1a3a7da8082830343a791c8699acd92472" prot="public" virt="non-virtual"><scope>UIAlertView(BlocksKit)</scope><name>bk_cancelBlock</name></member>
+      <member refid="category_u_i_alert_view_07_blocks_kit_08_1a22c3175b4e13c923de3843d75c1b312a" prot="public" virt="non-virtual"><scope>UIAlertView(BlocksKit)</scope><name>bk_didDismissBlock</name></member>
+      <member refid="category_u_i_alert_view_07_blocks_kit_08_1a9562092a21a4cc7d25b0bb763d0bacef" prot="public" virt="non-virtual"><scope>UIAlertView(BlocksKit)</scope><name>bk_didShowBlock</name></member>
+      <member refid="category_u_i_alert_view_07_blocks_kit_08_1ad09b3f27c5bc6b3292dfd0a80d7142aa" prot="public" virt="virtual"><scope>UIAlertView(BlocksKit)</scope><name>bk_handlerForButtonAtIndex:</name></member>
+      <member refid="category_u_i_alert_view_07_blocks_kit_08_1ae1fc47637b91362ede5f78990021d4b4" prot="public" virt="virtual"><scope>UIAlertView(BlocksKit)</scope><name>bk_initWithTitle:message:</name></member>
+      <member refid="category_u_i_alert_view_07_blocks_kit_08_1a94527feaf87f9ee5f2a648b3da6c2f44" prot="public" virt="virtual"><scope>UIAlertView(BlocksKit)</scope><name>bk_setCancelButtonWithTitle:handler:</name></member>
+      <member refid="category_u_i_alert_view_07_blocks_kit_08_1a8aa25ddd3d06a8d754d09e12093e0bf1" prot="public" virt="virtual"><scope>UIAlertView(BlocksKit)</scope><name>bk_setHandler:forButtonAtIndex:</name></member>
+      <member refid="category_u_i_alert_view_07_blocks_kit_08_1a371bd9c0c4a1fd6bda9d6529397e311e" prot="public" virt="non-virtual"><scope>UIAlertView(BlocksKit)</scope><name>bk_shouldEnableFirstOtherButtonBlock</name></member>
+      <member refid="category_u_i_alert_view_07_blocks_kit_08_1a8d280ecc3730bdac5b535552322630e7" prot="public" virt="virtual"><scope>UIAlertView(BlocksKit)</scope><name>bk_showAlertViewWithTitle:message:cancelButtonTitle:otherButtonTitles:handler:</name></member>
+      <member refid="category_u_i_alert_view_07_blocks_kit_08_1af70944629f562549221b3999c22ef809" prot="public" virt="non-virtual"><scope>UIAlertView(BlocksKit)</scope><name>bk_willDismissBlock</name></member>
+      <member refid="category_u_i_alert_view_07_blocks_kit_08_1ab7e1be6dde0a422342d16fe5f18a46eb" prot="public" virt="non-virtual"><scope>UIAlertView(BlocksKit)</scope><name>bk_willShowBlock</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

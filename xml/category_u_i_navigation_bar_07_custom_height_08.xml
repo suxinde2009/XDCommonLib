@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_u_i_navigation_bar_07_custom_height_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>UINavigationBar(CustomHeight)</compoundname>
+    <includes refid="_u_i_navigation_bar_09_custom_height_8h" local="no">UINavigationBar+CustomHeight.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="category_u_i_navigation_bar_07_custom_height_08_1a9a9377e72367a6e227c2495b32c2f8bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UINavigationBar(CustomHeight)::setHeight:</definition>
+        <argsstring>(CGFloat height)</argsstring>
+        <name>setHeight:</name>
+        <param>
+          <type>CGFloat</type>
+          <declname>height</declname>
+        </param>
+        <briefdescription>
+<para>自定义UINavigationBar高度 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>height</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>NavigationBar高度 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UINavigationBar/UINavigationBar+CustomHeight.h" line="28" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UINavigationBar/UINavigationBar+CustomHeight.m" bodystart="32" bodyend="35"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UINavigationBar/UINavigationBar+CustomHeight.m" line="30" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UINavigationBar/UINavigationBar+CustomHeight.m" bodystart="30" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_u_i_navigation_bar_07_custom_height_08_1a9a9377e72367a6e227c2495b32c2f8bd" prot="public" virt="virtual"><scope>UINavigationBar(CustomHeight)</scope><name>setHeight:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

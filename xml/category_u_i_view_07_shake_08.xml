@@ -1,0 +1,370 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_u_i_view_07_shake_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>UIView(Shake)</compoundname>
+    <includes refid="_u_i_view_09_shake_8h" local="no">UIView+Shake.h</includes>
+      <sectiondef kind="user-defined">
+      <header>UIView+Shake</header>
+      <description><para><hruler/>
+ <hruler/>
+ </para></description>
+      <memberdef kind="function" id="category_u_i_view_07_shake_08_1a181874ada6d8d23d18c599088094abd4" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UIView(Shake)::shake</definition>
+        <argsstring>()</argsstring>
+        <name>shake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Shake the UIView</para><para>Shake the view a default number of times </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Shake.h" line="10" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Shake.m" bodystart="13" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_view_07_shake_08_1aebb85177642dfc5780595aceae452664" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UIView(Shake)::shake:withDelta:</definition>
+        <argsstring>(int times,[withDelta] CGFloat delta)</argsstring>
+        <name>shake:withDelta:</name>
+        <param>
+          <type>int</type>
+          <declname>times</declname>
+        </param>
+        <param>
+          <attributes>[withDelta]</attributes>
+          <type>CGFloat</type>
+          <declname>delta</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Shake the UIView</para><para>Shake the view a given number of times</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>times</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The number of shakes </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>delta</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The width of the shake </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Shake.h" line="10" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Shake.m" bodystart="17" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_view_07_shake_08_1ae279692bda455575b6f1efec52f7543f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UIView(Shake)::shake:withDelta:completion:</definition>
+        <argsstring>(int times,[withDelta] CGFloat delta,[completion] void((^handler)()))</argsstring>
+        <name>shake:withDelta:completion:</name>
+        <param>
+          <type>int</type>
+          <declname>times</declname>
+        </param>
+        <param>
+          <attributes>[withDelta]</attributes>
+          <type>CGFloat</type>
+          <declname>delta</declname>
+        </param>
+        <param>
+          <attributes>[completion]</attributes>
+          <type>void((^handler)())</type>
+          <defname>handler</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Shake the UIView</para><para>Shake the view a given number of times</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>times</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The number of shakes </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>delta</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The width of the shake </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>handler</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A block object to be executed when the shake sequence ends </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Shake.h" line="10" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_view_07_shake_08_1a1a9dc071b976ea425f208928f7c68a26" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UIView(Shake)::shake:withDelta:speed:</definition>
+        <argsstring>(int times,[withDelta] CGFloat delta,[speed] NSTimeInterval interval)</argsstring>
+        <name>shake:withDelta:speed:</name>
+        <param>
+          <type>int</type>
+          <declname>times</declname>
+        </param>
+        <param>
+          <attributes>[withDelta]</attributes>
+          <type>CGFloat</type>
+          <declname>delta</declname>
+        </param>
+        <param>
+          <attributes>[speed]</attributes>
+          <type>NSTimeInterval</type>
+          <declname>interval</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Shake the UIView at a custom speed</para><para>Shake the view a given number of times with a given speed</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>times</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The number of shakes </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>delta</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The width of the shake </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>interval</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The duration of one shake </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Shake.h" line="10" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Shake.m" bodystart="25" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_view_07_shake_08_1ae37a6e84e05528e0f1bd622c1b50dbb9" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UIView(Shake)::shake:withDelta:speed:completion:</definition>
+        <argsstring>(int times,[withDelta] CGFloat delta,[speed] NSTimeInterval interval,[completion] void((^handler)()))</argsstring>
+        <name>shake:withDelta:speed:completion:</name>
+        <param>
+          <type>int</type>
+          <declname>times</declname>
+        </param>
+        <param>
+          <attributes>[withDelta]</attributes>
+          <type>CGFloat</type>
+          <declname>delta</declname>
+        </param>
+        <param>
+          <attributes>[speed]</attributes>
+          <type>NSTimeInterval</type>
+          <declname>interval</declname>
+        </param>
+        <param>
+          <attributes>[completion]</attributes>
+          <type>void((^handler)())</type>
+          <defname>handler</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Shake the UIView at a custom speed</para><para>Shake the view a given number of times with a given speed</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>times</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The number of shakes </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>delta</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The width of the shake </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>interval</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The duration of one shake </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>handler</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A block object to be executed when the shake sequence ends </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Shake.h" line="10" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_view_07_shake_08_1a6b4608ba50f603192ece249b4d17f8e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UIView(Shake)::shake:withDelta:speed:shakeDirection:</definition>
+        <argsstring>(int times,[withDelta] CGFloat delta,[speed] NSTimeInterval interval,[shakeDirection] ShakeDirection shakeDirection)</argsstring>
+        <name>shake:withDelta:speed:shakeDirection:</name>
+        <param>
+          <type>int</type>
+          <declname>times</declname>
+        </param>
+        <param>
+          <attributes>[withDelta]</attributes>
+          <type>CGFloat</type>
+          <declname>delta</declname>
+        </param>
+        <param>
+          <attributes>[speed]</attributes>
+          <type>NSTimeInterval</type>
+          <declname>interval</declname>
+        </param>
+        <param>
+          <attributes>[shakeDirection]</attributes>
+          <type>ShakeDirection</type>
+          <declname>shakeDirection</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Shake the UIView at a custom speed</para><para>Shake the view a given number of times with a given speed</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>times</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The number of shakes </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>delta</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The width of the shake </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>interval</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The duration of one shake </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>direction</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>of the shake </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Shake.h" line="10" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Shake.m" bodystart="33" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_view_07_shake_08_1a2e50118ca37253e7591ee595859830f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UIView(Shake)::shake:withDelta:speed:shakeDirection:completion:</definition>
+        <argsstring>(int times,[withDelta] CGFloat delta,[speed] NSTimeInterval interval,[shakeDirection] ShakeDirection shakeDirection,[completion] void(^completion)(void))</argsstring>
+        <name>shake:withDelta:speed:shakeDirection:completion:</name>
+        <param>
+          <type>int</type>
+          <declname>times</declname>
+        </param>
+        <param>
+          <attributes>[withDelta]</attributes>
+          <type>CGFloat</type>
+          <declname>delta</declname>
+        </param>
+        <param>
+          <attributes>[speed]</attributes>
+          <type>NSTimeInterval</type>
+          <declname>interval</declname>
+        </param>
+        <param>
+          <attributes>[shakeDirection]</attributes>
+          <type>ShakeDirection</type>
+          <declname>shakeDirection</declname>
+        </param>
+        <param>
+          <attributes>[completion]</attributes>
+          <type>void(^)(void)</type>
+          <declname>completion</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Shake the UIView at a custom speed</para><para>Shake the view a given number of times with a given speed, with a completion handler</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>times</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The number of shakes </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>delta</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The width of the shake </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>interval</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The duration of one shake </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>direction</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>of the shake </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>completion</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>to be called when the view is done shaking </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Shake.h" line="10" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Shake.m" bodystart="37" bodyend="39"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Shake.m" line="11" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Shake.m" bodystart="11" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_u_i_view_07_shake_08_1a181874ada6d8d23d18c599088094abd4" prot="public" virt="virtual"><scope>UIView(Shake)</scope><name>shake</name></member>
+      <member refid="category_u_i_view_07_shake_08_1aebb85177642dfc5780595aceae452664" prot="public" virt="virtual"><scope>UIView(Shake)</scope><name>shake:withDelta:</name></member>
+      <member refid="category_u_i_view_07_shake_08_1ae279692bda455575b6f1efec52f7543f" prot="public" virt="virtual"><scope>UIView(Shake)</scope><name>shake:withDelta:completion:</name></member>
+      <member refid="category_u_i_view_07_shake_08_1a1a9dc071b976ea425f208928f7c68a26" prot="public" virt="virtual"><scope>UIView(Shake)</scope><name>shake:withDelta:speed:</name></member>
+      <member refid="category_u_i_view_07_shake_08_1ae37a6e84e05528e0f1bd622c1b50dbb9" prot="public" virt="virtual"><scope>UIView(Shake)</scope><name>shake:withDelta:speed:completion:</name></member>
+      <member refid="category_u_i_view_07_shake_08_1a6b4608ba50f603192ece249b4d17f8e8" prot="public" virt="virtual"><scope>UIView(Shake)</scope><name>shake:withDelta:speed:shakeDirection:</name></member>
+      <member refid="category_u_i_view_07_shake_08_1a2e50118ca37253e7591ee595859830f3" prot="public" virt="virtual"><scope>UIView(Shake)</scope><name>shake:withDelta:speed:shakeDirection:completion:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

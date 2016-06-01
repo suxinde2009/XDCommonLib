@@ -1,0 +1,151 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_n_s_u_r_l_request_07_params_from_dictionary_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>NSURLRequest(ParamsFromDictionary)</compoundname>
+    <includes refid="_n_s_u_r_l_request_09_params_from_dictionary_8h" local="no">NSURLRequest+ParamsFromDictionary.h</includes>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="category_n_s_u_r_l_request_07_params_from_dictionary_08_1a4cb84531f725e5880f4fd439e7188bbb" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSURLRequest *</type>
+        <definition>NSURLRequest * NSURLRequest(ParamsFromDictionary)::requestGETWithURL:parameters:</definition>
+        <argsstring>(NSURL *url,[parameters] NSDictionary *params)</argsstring>
+        <name>requestGETWithURL:parameters:</name>
+        <param>
+          <type>NSURL *</type>
+          <declname>url</declname>
+        </param>
+        <param>
+          <attributes>[parameters]</attributes>
+          <type>NSDictionary *</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSURLRequest/NSURLRequest+ParamsFromDictionary.h" line="68" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_u_r_l_request_07_params_from_dictionary_08_1af385fdf7dc6572e3c1df89b28948c0c5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * NSURLRequest(ParamsFromDictionary)::URLfromParameters:</definition>
+        <argsstring>(NSDictionary *params)</argsstring>
+        <name>URLfromParameters:</name>
+        <param>
+          <type>NSDictionary *</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSURLRequest/NSURLRequest+ParamsFromDictionary.h" line="68" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_u_r_l_request_07_params_from_dictionary_08_1aa6ff3b0f798fbcbddc3d04388ac8418d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSArray *</type>
+        <definition>NSArray * NSURLRequest(ParamsFromDictionary)::queryStringComponentsFromKey:value:</definition>
+        <argsstring>(NSString *key,[value] id value)</argsstring>
+        <name>queryStringComponentsFromKey:value:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <attributes>[value]</attributes>
+          <type>id</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSURLRequest/NSURLRequest+ParamsFromDictionary.h" line="68" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_u_r_l_request_07_params_from_dictionary_08_1aa8df0549233ba226dfa5b252ced2d0d9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSArray *</type>
+        <definition>NSArray * NSURLRequest(ParamsFromDictionary)::queryStringComponentsFromKey:dictionaryValue:</definition>
+        <argsstring>(NSString *key,[dictionaryValue] NSDictionary *dict)</argsstring>
+        <name>queryStringComponentsFromKey:dictionaryValue:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <attributes>[dictionaryValue]</attributes>
+          <type>NSDictionary *</type>
+          <declname>dict</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSURLRequest/NSURLRequest+ParamsFromDictionary.h" line="68" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_u_r_l_request_07_params_from_dictionary_08_1afcced497984b46a51d28dabd9e6424c9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSArray *</type>
+        <definition>NSArray * NSURLRequest(ParamsFromDictionary)::queryStringComponentsFromKey:arrayValue:</definition>
+        <argsstring>(NSString *key,[arrayValue] NSArray *array)</argsstring>
+        <name>queryStringComponentsFromKey:arrayValue:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <attributes>[arrayValue]</attributes>
+          <type>NSArray *</type>
+          <declname>array</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSURLRequest/NSURLRequest+ParamsFromDictionary.h" line="68" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="category_n_s_u_r_l_request_07_params_from_dictionary_08_1a7f1d4b828cb67adec153531fefb7925e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>id</type>
+        <definition>id NSURLRequest(ParamsFromDictionary)::initWithURL:parameters:</definition>
+        <argsstring>(NSURL *URL,[parameters] NSDictionary *params)</argsstring>
+        <name>initWithURL:parameters:</name>
+        <param>
+          <type>NSURL *</type>
+          <declname>URL</declname>
+        </param>
+        <param>
+          <attributes>[parameters]</attributes>
+          <type>NSDictionary *</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSURLRequest/NSURLRequest+ParamsFromDictionary.h" line="68" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSURLRequest/NSURLRequest+ParamsFromDictionary.h" line="15" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSURLRequest/NSURLRequest+ParamsFromDictionary.h" bodystart="15" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_n_s_u_r_l_request_07_params_from_dictionary_08_1a7f1d4b828cb67adec153531fefb7925e" prot="public" virt="virtual"><scope>NSURLRequest(ParamsFromDictionary)</scope><name>initWithURL:parameters:</name></member>
+      <member refid="category_n_s_u_r_l_request_07_params_from_dictionary_08_1afcced497984b46a51d28dabd9e6424c9" prot="public" virt="virtual"><scope>NSURLRequest(ParamsFromDictionary)</scope><name>queryStringComponentsFromKey:arrayValue:</name></member>
+      <member refid="category_n_s_u_r_l_request_07_params_from_dictionary_08_1aa8df0549233ba226dfa5b252ced2d0d9" prot="public" virt="virtual"><scope>NSURLRequest(ParamsFromDictionary)</scope><name>queryStringComponentsFromKey:dictionaryValue:</name></member>
+      <member refid="category_n_s_u_r_l_request_07_params_from_dictionary_08_1aa6ff3b0f798fbcbddc3d04388ac8418d" prot="public" virt="virtual"><scope>NSURLRequest(ParamsFromDictionary)</scope><name>queryStringComponentsFromKey:value:</name></member>
+      <member refid="category_n_s_u_r_l_request_07_params_from_dictionary_08_1a4cb84531f725e5880f4fd439e7188bbb" prot="public" virt="virtual"><scope>NSURLRequest(ParamsFromDictionary)</scope><name>requestGETWithURL:parameters:</name></member>
+      <member refid="category_n_s_u_r_l_request_07_params_from_dictionary_08_1af385fdf7dc6572e3c1df89b28948c0c5" prot="public" virt="virtual"><scope>NSURLRequest(ParamsFromDictionary)</scope><name>URLfromParameters:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

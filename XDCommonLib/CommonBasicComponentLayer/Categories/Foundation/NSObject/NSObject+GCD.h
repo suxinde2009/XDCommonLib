@@ -8,6 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
+/**
+ *  @brief NSObject添加同步执行，异步执行，和延时执行的便捷方法
+ */
+
 @interface NSObject (GCD)
 
 /**

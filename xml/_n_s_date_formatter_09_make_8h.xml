@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_n_s_date_formatter_09_make_8h" kind="file" language="C++">
+    <compoundname>NSDateFormatter+Make.h</compoundname>
+    <includes local="no">Foundation/Foundation.h</includes>
+    <includedby refid="_n_s_date_formatter_09_make_8m" local="yes">XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDateFormatter/NSDateFormatter+Make.m</includedby>
+    <incdepgraph>
+      <node id="435">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDateFormatter/NSDateFormatter+Make.h</label>
+        <link refid="NSDateFormatter+Make.h"/>
+        <childnode refid="436" relation="include">
+        </childnode>
+      </node>
+      <node id="436">
+        <label>Foundation/Foundation.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="437">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDateFormatter/NSDateFormatter+Make.h</label>
+        <link refid="NSDateFormatter+Make.h"/>
+        <childnode refid="438" relation="include">
+        </childnode>
+      </node>
+      <node id="438">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDateFormatter/NSDateFormatter+Make.m</label>
+        <link refid="_n_s_date_formatter_09_make_8m"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="category_n_s_date_formatter_07_make_08" prot="public">NSDateFormatter(Make)</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>NSDateFormatter+Make.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>iOS-Categories<sp/>(https://github.com/shaojiankui/iOS-Categories)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Jakey<sp/>on<sp/>15/4/25.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2015年<sp/>www.skyfox.org.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>mobile.dzone.com/news/ios-threadsafe-date-formatting</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;Foundation/Foundation.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="category_n_s_date_formatter_07_make_08" kindref="compound">NSDateFormatter (Make)</ref></highlight></codeline>
+<codeline lineno="12"><highlight class="normal">+(NSDateFormatter<sp/>*)dateFormatterWithFormat:(NSString<sp/>*)format;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal">+(NSDateFormatter<sp/>*)dateFormatterWithFormat:(NSString<sp/>*)format<sp/>timeZone:(NSTimeZone<sp/>*)timeZone;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">+(NSDateFormatter<sp/>*)dateFormatterWithFormat:(NSString<sp/>*)format<sp/>timeZone:(NSTimeZone<sp/>*)timeZone<sp/>locale:(NSLocale<sp/>*)locale;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal">+(NSDateFormatter<sp/>*)dateFormatterWithDateStyle:(NSDateFormatterStyle)style;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">+(NSDateFormatter<sp/>*)dateFormatterWithDateStyle:(NSDateFormatterStyle)style<sp/>timeZone:(NSTimeZone<sp/>*)timeZone;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal">+(NSDateFormatter<sp/>*)dateFormatterWithTimeStyle:(NSDateFormatterStyle)style;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal">+(NSDateFormatter<sp/>*)dateFormatterWithTimeStyle:(NSDateFormatterStyle)style<sp/>timeZone:(NSTimeZone<sp/>*)timeZone;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDateFormatter/NSDateFormatter+Make.h"/>
+  </compounddef>
+</doxygen>

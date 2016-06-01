@@ -1,0 +1,5 @@
+var searchData=
+[
+  ['jsondata',['JSONData',['../category_n_s_string_07_y_r_j_s_o_n_serializing_08.html#a64098d43aa9ff2ba66532377c44dc245',1,'NSString(YRJSONSerializing)::JSONData()'],['../category_n_s_array_07_y_r_j_s_o_n_serializing_08.html#a3856e6da4d26536079e5964402705289',1,'NSArray(YRJSONSerializing)::JSONData()'],['../category_n_s_dictionary_07_y_r_j_s_o_n_serializing_08.html#a4a2361e3dec03183c3414a193b3e34d6',1,'NSDictionary(YRJSONSerializing)::JSONData()']]],
+  ['jsonstring',['JSONString',['../category_n_s_dictionary_07_j_s_o_n_string_08.html#a2f127f8839f7ff60b2517b314692c678',1,'NSDictionary(JSONString)::JSONString()'],['../category_n_s_string_07_y_r_j_s_o_n_serializing_08.html#a352745c74a3e90a8ca5810936c1c3171',1,'NSString(YRJSONSerializing)::JSONString()'],['../category_n_s_array_07_y_r_j_s_o_n_serializing_08.html#a634105659931f511aac705ba892303f5',1,'NSArray(YRJSONSerializing)::JSONString()'],['../category_n_s_dictionary_07_y_r_j_s_o_n_serializing_08.html#a58451c82d719e4fbdda02db401d6875d',1,'NSDictionary(YRJSONSerializing)::JSONString()']]]
+];

@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="struct_block__literal__1" kind="struct" language="Objective-C" prot="public">
+    <compoundname>Block_literal_1</compoundname>
+    <innerclass refid="struct_block__literal__1_1_1_block__descriptor__1" prot="protected">Block_literal_1::Block_descriptor_1</innerclass>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="struct_block__literal__1_1ad40689367dfa4e6b80c5fda8636d9fa0" prot="protected" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* Block_literal_1::isa</definition>
+        <argsstring></argsstring>
+        <name>isa</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/RSSwizzle/RSSwizzle.m" line="22" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/RSSwizzle/RSSwizzle.m" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_block__literal__1_1a5cea636b5559cb499e81b446df631b24" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Block_literal_1::flags</definition>
+        <argsstring></argsstring>
+        <name>flags</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/RSSwizzle/RSSwizzle.m" line="23" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/RSSwizzle/RSSwizzle.m" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_block__literal__1_1a2a182e2f910f246f3e1bb19e36cb4558" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Block_literal_1::reserved</definition>
+        <argsstring></argsstring>
+        <name>reserved</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/RSSwizzle/RSSwizzle.m" line="24" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/RSSwizzle/RSSwizzle.m" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_block__literal__1_1ad128f74233e87bd21c50d8e538f7155d" prot="protected" static="no" mutable="no">
+        <type>void(*</type>
+        <definition>void(* Block_literal_1::invoke) (void *,...)</definition>
+        <argsstring>)(void *,...)</argsstring>
+        <name>invoke</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/RSSwizzle/RSSwizzle.m" line="25" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/RSSwizzle/RSSwizzle.m" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_block__literal__1_1a6521e35ea2a147afb3a55d5009354a13" prot="protected" static="no" mutable="no">
+        <type>struct <ref refid="struct_block__literal__1_1_1_block__descriptor__1" kindref="compound">Block_literal_1::Block_descriptor_1</ref> *</type>
+        <definition>struct Block_literal_1::Block_descriptor_1 * Block_literal_1::descriptor</definition>
+        <argsstring></argsstring>
+        <name>descriptor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/RSSwizzle/RSSwizzle.m" line="34" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="234">
+        <label>Block_literal_1</label>
+        <link refid="struct_block__literal__1"/>
+        <childnode refid="235" relation="usage">
+          <edgelabel>descriptor</edgelabel>
+        </childnode>
+      </node>
+      <node id="235">
+        <label>Block_literal_1::Block_descriptor_1</label>
+        <link refid="struct_block__literal__1_1_1_block__descriptor__1"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/RSSwizzle/RSSwizzle.m" line="21" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/RSSwizzle/RSSwizzle.m" bodystart="21" bodyend="36"/>
+    <listofallmembers>
+      <member refid="struct_block__literal__1_1a6521e35ea2a147afb3a55d5009354a13" prot="protected" virt="non-virtual"><scope>Block_literal_1</scope><name>descriptor</name></member>
+      <member refid="struct_block__literal__1_1a5cea636b5559cb499e81b446df631b24" prot="protected" virt="non-virtual"><scope>Block_literal_1</scope><name>flags</name></member>
+      <member refid="struct_block__literal__1_1ad128f74233e87bd21c50d8e538f7155d" prot="protected" virt="non-virtual"><scope>Block_literal_1</scope><name>invoke</name></member>
+      <member refid="struct_block__literal__1_1ad40689367dfa4e6b80c5fda8636d9fa0" prot="protected" virt="non-virtual"><scope>Block_literal_1</scope><name>isa</name></member>
+      <member refid="struct_block__literal__1_1a2a182e2f910f246f3e1bb19e36cb4558" prot="protected" virt="non-virtual"><scope>Block_literal_1</scope><name>reserved</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

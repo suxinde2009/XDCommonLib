@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_x_d_performance_07_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>XDPerformance()</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="category_x_d_performance_07_08_1adb135de0e9fd6741287693f582a5126f" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="strong">
+        <type>NSMutableDictionary *</type>
+        <definition>NSMutableDictionary* XDPerformance()::tags</definition>
+        <argsstring></argsstring>
+        <name>tags</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Debug/XDPerformance.m" line="13" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Debug/XDPerformance.m" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Debug/XDPerformance.m" line="11" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Debug/XDPerformance.m" bodystart="11" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_x_d_performance_07_08_1adb135de0e9fd6741287693f582a5126f" prot="public" virt="non-virtual"><scope>XDPerformance()</scope><name>tags</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_n_s_object_09_b_k_block_observation_8h" kind="file" language="C++">
+    <compoundname>NSObject+BKBlockObservation.h</compoundname>
+    <includes refid="_b_k_defines_8h" local="yes">BKDefines.h</includes>
+    <includes local="no">Foundation/Foundation.h</includes>
+    <includedby refid="_n_s_object_09_b_k_block_observation_8m" local="yes">XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSObject+BKBlockObservation.m</includedby>
+    <incdepgraph>
+      <node id="2800">
+        <label>Foundation/NSObjCRuntime.h</label>
+      </node>
+      <node id="2798">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSObject+BKBlockObservation.h</label>
+        <link refid="NSObject+BKBlockObservation.h"/>
+        <childnode refid="2799" relation="include">
+        </childnode>
+        <childnode refid="2801" relation="include">
+        </childnode>
+      </node>
+      <node id="2799">
+        <label>BKDefines.h</label>
+        <link refid="_b_k_defines_8h"/>
+        <childnode refid="2800" relation="include">
+        </childnode>
+      </node>
+      <node id="2801">
+        <label>Foundation/Foundation.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2802">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSObject+BKBlockObservation.h</label>
+        <link refid="NSObject+BKBlockObservation.h"/>
+        <childnode refid="2803" relation="include">
+        </childnode>
+      </node>
+      <node id="2803">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSObject+BKBlockObservation.m</label>
+        <link refid="_n_s_object_09_b_k_block_observation_8m"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="category_n_s_object_07_block_observation_08" prot="public">NSObject(BlockObservation)</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>NSObject+BKBlockObservation.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>BlocksKit</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_b_k_defines_8h" kindref="compound">BKDefines.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;Foundation/Foundation.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><ref refid="_b_k_defines_8h_1a33c08c6ca8f22acd327c850ca2151f17" kindref="member">NS_ASSUME_NONNULL_BEGIN</ref></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="category_n_s_object_07_block_observation_08" kindref="compound">NSObject (BlockObservation)</ref></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal">-<sp/>(NSString<sp/>*)bk_addObserverForKeyPath:(NSString<sp/>*)keyPath<sp/>task:(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(^)(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>target))task;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal">-<sp/>(NSString<sp/>*)bk_addObserverForKeyPaths:(NSArray<sp/>*)keyPaths<sp/>task:(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(^)(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>obj,<sp/>NSString<sp/>*keyPath))task;</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal">-<sp/>(NSString<sp/>*)bk_addObserverForKeyPath:(NSString<sp/>*)keyPath<sp/>options:(NSKeyValueObservingOptions)options<sp/>task:(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(^)(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>obj,<sp/>NSDictionary<sp/>*change))task;</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal">-<sp/>(NSString<sp/>*)bk_addObserverForKeyPaths:(NSArray<sp/>*)keyPaths<sp/>options:(NSKeyValueObservingOptions)options<sp/>task:(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(^)(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>obj,<sp/>NSString<sp/>*keyPath,<sp/>NSDictionary<sp/>*change))task;</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal">-<sp/>(void)bk_addObserverForKeyPath:(NSString<sp/>*)keyPath<sp/>identifier:(NSString<sp/>*)token<sp/>options:(NSKeyValueObservingOptions)options<sp/>task:(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(^)(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>obj,<sp/>NSDictionary<sp/>*change))task;</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal">-<sp/>(void)bk_addObserverForKeyPaths:(NSArray<sp/>*)keyPaths<sp/>identifier:(NSString<sp/>*)token<sp/>options:(NSKeyValueObservingOptions)options<sp/>task:(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(^)(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>obj,<sp/>NSString<sp/>*keyPath,<sp/>NSDictionary<sp/>*change))task;</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight></codeline>
+<codeline lineno="125"><highlight class="normal">-<sp/>(void)bk_removeObserverForKeyPath:(NSString<sp/>*)keyPath<sp/>identifier:(NSString<sp/>*)token;</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal">-<sp/>(void)bk_removeObserversWithIdentifier:(NSString<sp/>*)token;</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight></codeline>
+<codeline lineno="138"><highlight class="normal">-<sp/>(void)<ref refid="category_n_s_object_07_block_observation_08_1a0cd139ae1fae02f5400b1725e5c2633b" kindref="member">bk_removeAllBlockObservers</ref>;</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><ref refid="_b_k_defines_8h_1a34f05dab7f212780aa8f76bbb465ce67" kindref="member">NS_ASSUME_NONNULL_END</ref></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSObject+BKBlockObservation.h"/>
+  </compounddef>
+</doxygen>

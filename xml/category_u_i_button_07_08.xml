@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_u_i_button_07_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>UIButton()</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="category_u_i_button_07_08_1a94609e93ed16f960f221e63cf1ce4091" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="strong">
+        <type>UIView *</type>
+        <definition>UIView* UIButton()::modalView</definition>
+        <argsstring></argsstring>
+        <name>modalView</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIButton/UIButton+Submitting.m" line="14" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIButton/UIButton+Submitting.m" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_u_i_button_07_08_1af97670774f4f69efdfe7717bc6ff1942" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="strong">
+        <type>UIActivityIndicatorView *</type>
+        <definition>UIActivityIndicatorView* UIButton()::spinnerView</definition>
+        <argsstring></argsstring>
+        <name>spinnerView</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIButton/UIButton+Submitting.m" line="15" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIButton/UIButton+Submitting.m" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_u_i_button_07_08_1a767c3f4d01e913fcfefcbd1f870a82b3" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="strong">
+        <type>UILabel *</type>
+        <definition>UILabel* UIButton()::spinnerTitleLabel</definition>
+        <argsstring></argsstring>
+        <name>spinnerTitleLabel</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIButton/UIButton+Submitting.m" line="16" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIButton/UIButton+Submitting.m" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIButton/UIButton+Submitting.m" line="12" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIButton/UIButton+Submitting.m" bodystart="12" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_u_i_button_07_08_1a94609e93ed16f960f221e63cf1ce4091" prot="public" virt="non-virtual"><scope>UIButton()</scope><name>modalView</name></member>
+      <member refid="category_u_i_button_07_08_1a767c3f4d01e913fcfefcbd1f870a82b3" prot="public" virt="non-virtual"><scope>UIButton()</scope><name>spinnerTitleLabel</name></member>
+      <member refid="category_u_i_button_07_08_1af97670774f4f69efdfe7717bc6ff1942" prot="public" virt="non-virtual"><scope>UIButton()</scope><name>spinnerView</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

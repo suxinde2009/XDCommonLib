@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="dir_38cd4f4ff89aaf76c9d350c33e2d6211" kind="dir">
+    <compoundname>XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController</compoundname>
+    <innerfile refid="_u_i_view_controller_09_back_button_handler_8h">UIViewController+BackButtonHandler.h</innerfile>
+    <innerfile refid="_u_i_view_controller_09_back_button_handler_8m">UIViewController+BackButtonHandler.m</innerfile>
+    <innerfile refid="_u_i_view_controller_09_back_button_item_title_8h">UIViewController+BackButtonItemTitle.h</innerfile>
+    <innerfile refid="_u_i_view_controller_09_back_button_item_title_8m">UIViewController+BackButtonItemTitle.m</innerfile>
+    <innerfile refid="_u_i_view_controller_09_back_button_touched_8h">UIViewController+BackButtonTouched.h</innerfile>
+    <innerfile refid="_u_i_view_controller_09_back_button_touched_8m">UIViewController+BackButtonTouched.m</innerfile>
+    <innerfile refid="_u_i_view_controller_09_block_segue_8h">UIViewController+BlockSegue.h</innerfile>
+    <innerfile refid="_u_i_view_controller_09_block_segue_8m">UIViewController+BlockSegue.m</innerfile>
+    <innerfile refid="_u_i_view_controller_09_d_d_pop_up_view_controller_8h">UIViewController+DDPopUpViewController.h</innerfile>
+    <innerfile refid="_u_i_view_controller_09_d_d_pop_up_view_controller_8m">UIViewController+DDPopUpViewController.m</innerfile>
+    <innerfile refid="_u_i_view_controller_09_i_b_8h">UIViewController+IB.h</innerfile>
+    <innerfile refid="_u_i_view_controller_09_i_b_8m">UIViewController+IB.m</innerfile>
+    <innerfile refid="_u_i_view_controller_09_m_j_popup_view_controller_8h">UIViewController+MJPopupViewController.h</innerfile>
+    <innerfile refid="_u_i_view_controller_09_m_j_popup_view_controller_8m">UIViewController+MJPopupViewController.m</innerfile>
+    <innerfile refid="_u_i_view_controller_09_recursive_description_8h">UIViewController+RecursiveDescription.h</innerfile>
+    <innerfile refid="_u_i_view_controller_09_recursive_description_8m">UIViewController+RecursiveDescription.m</innerfile>
+    <innerfile refid="_u_i_view_controller_09_scrolling_status_bar_8h">UIViewController+ScrollingStatusBar.h</innerfile>
+    <innerfile refid="_u_i_view_controller_09_scrolling_status_bar_8m">UIViewController+ScrollingStatusBar.m</innerfile>
+    <innerfile refid="_u_i_view_controller_09_store_kit_8h">UIViewController+StoreKit.h</innerfile>
+    <innerfile refid="_u_i_view_controller_09_store_kit_8m">UIViewController+StoreKit.m</innerfile>
+    <innerfile refid="_u_i_view_controller_09_top_bar_message_8h">UIViewController+TopBarMessage.h</innerfile>
+    <innerfile refid="_u_i_view_controller_09_top_bar_message_8m">UIViewController+TopBarMessage.m</innerfile>
+    <innerfile refid="_u_i_view_controller_09_visible_8h">UIViewController+Visible.h</innerfile>
+    <innerfile refid="_u_i_view_controller_09_visible_8m">UIViewController+Visible.m</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/"/>
+  </compounddef>
+</doxygen>

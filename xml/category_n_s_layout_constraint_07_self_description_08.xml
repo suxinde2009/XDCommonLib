@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_n_s_layout_constraint_07_self_description_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>NSLayoutConstraint(SelfDescription)</compoundname>
+    <includes refid="_constraint_utilities_09_description_8h" local="no">ConstraintUtilities+Description.h</includes>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="category_n_s_layout_constraint_07_self_description_08_1a05121ea7d0eefdf3c332a5aef09d3df6" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="assign">
+        <type>NSString *</type>
+        <definition>NSString * NSLayoutConstraint(SelfDescription)::constraintDescription</definition>
+        <argsstring></argsstring>
+        <name>constraintDescription</name>
+        <read></read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Constraint Description/ConstraintUtilities+Description.h" line="105" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Constraint Description/ConstraintUtilities+Description.h" bodystart="105" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="category_n_s_layout_constraint_07_self_description_08_1aae25e5655934ae6035fe777a7f9a10d9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void NSLayoutConstraint(SelfDescription)::autoAddConstraintNames:</definition>
+        <argsstring>(NSArray *constraints)</argsstring>
+        <name>autoAddConstraintNames:</name>
+        <param>
+          <type>NSArray *</type>
+          <declname>constraints</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Constraint Description/ConstraintUtilities+Description.h" line="105" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Constraint Description/ConstraintUtilities+Description.m" bodystart="554" bodyend="580"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Constraint Description/ConstraintUtilities+Description.m" line="425" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Constraint Description/ConstraintUtilities+Description.m" bodystart="425" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_n_s_layout_constraint_07_self_description_08_1aae25e5655934ae6035fe777a7f9a10d9" prot="public" virt="virtual"><scope>NSLayoutConstraint(SelfDescription)</scope><name>autoAddConstraintNames:</name></member>
+      <member refid="category_n_s_layout_constraint_07_self_description_08_1a05121ea7d0eefdf3c332a5aef09d3df6" prot="public" virt="non-virtual"><scope>NSLayoutConstraint(SelfDescription)</scope><name>constraintDescription</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

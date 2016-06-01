@@ -1,0 +1,265 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_v_i_e_w___c_l_a_s_s_07_constraint_matching_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>VIEW_CLASS(ConstraintMatching)</compoundname>
+    <includes refid="_constraint_utilities_09_matching_8h" local="no">ConstraintUtilities+Matching.h</includes>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="category_v_i_e_w___c_l_a_s_s_07_constraint_matching_08_1a3e216258fd76b3ac014ce77fc2c1be3b" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="assign">
+        <type>NSArray *</type>
+        <definition>NSArray * VIEW_CLASS(ConstraintMatching)::allConstraints</definition>
+        <argsstring></argsstring>
+        <name>allConstraints</name>
+        <read></read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Constraint Matching/ConstraintUtilities+Matching.h" line="68" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Constraint Matching/ConstraintUtilities+Matching.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_v_i_e_w___c_l_a_s_s_07_constraint_matching_08_1a01c1ffc4cdafa021864e4c4369bf8c05" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="assign">
+        <type>NSArray *</type>
+        <definition>NSArray * VIEW_CLASS(ConstraintMatching)::referencingConstraintsInSuperviews</definition>
+        <argsstring></argsstring>
+        <name>referencingConstraintsInSuperviews</name>
+        <read></read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Constraint Matching/ConstraintUtilities+Matching.h" line="69" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Constraint Matching/ConstraintUtilities+Matching.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_v_i_e_w___c_l_a_s_s_07_constraint_matching_08_1a1678730c1992cfd4e32e3eaf2184462f" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="assign">
+        <type>NSArray *</type>
+        <definition>NSArray * VIEW_CLASS(ConstraintMatching)::referencingConstraints</definition>
+        <argsstring></argsstring>
+        <name>referencingConstraints</name>
+        <read></read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Constraint Matching/ConstraintUtilities+Matching.h" line="70" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Constraint Matching/ConstraintUtilities+Matching.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_v_i_e_w___c_l_a_s_s_07_constraint_matching_08_1a40615e9bdc3c556b5b1fc6c301e5ac1c" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="assign">
+        <type>NSArray *</type>
+        <definition>NSArray * VIEW_CLASS(ConstraintMatching)::widthConstraints</definition>
+        <argsstring></argsstring>
+        <name>widthConstraints</name>
+        <read></read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Constraint Matching/ConstraintUtilities+Matching.h" line="90" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Constraint Matching/ConstraintUtilities+Matching.h" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_v_i_e_w___c_l_a_s_s_07_constraint_matching_08_1a6f6faec6d5156dfac5d0f1a035dc5b8b" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="assign">
+        <type>NSArray *</type>
+        <definition>NSArray * VIEW_CLASS(ConstraintMatching)::heightConstraints</definition>
+        <argsstring></argsstring>
+        <name>heightConstraints</name>
+        <read></read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Constraint Matching/ConstraintUtilities+Matching.h" line="91" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Constraint Matching/ConstraintUtilities+Matching.h" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="category_v_i_e_w___c_l_a_s_s_07_constraint_matching_08_1a5db4c9412849f93cd2bc81b68bcac74c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSLayoutConstraint *</type>
+        <definition>NSLayoutConstraint * VIEW_CLASS(ConstraintMatching)::constraintMatchingConstraint:</definition>
+        <argsstring>(NSLayoutConstraint *aConstraint)</argsstring>
+        <name>constraintMatchingConstraint:</name>
+        <param>
+          <type>NSLayoutConstraint *</type>
+          <declname>aConstraint</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Constraint Matching/ConstraintUtilities+Matching.h" line="70" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Constraint Matching/ConstraintUtilities+Matching.m" bodystart="151" bodyend="160"/>
+      </memberdef>
+      <memberdef kind="function" id="category_v_i_e_w___c_l_a_s_s_07_constraint_matching_08_1ad01b04eb3923e96b8ac3d273eac03e81" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSArray *</type>
+        <definition>NSArray * VIEW_CLASS(ConstraintMatching)::constraintsMatchingConstraints:</definition>
+        <argsstring>(NSArray *constraints)</argsstring>
+        <name>constraintsMatchingConstraints:</name>
+        <param>
+          <type>NSArray *</type>
+          <declname>constraints</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Constraint Matching/ConstraintUtilities+Matching.h" line="70" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Constraint Matching/ConstraintUtilities+Matching.m" bodystart="209" bodyend="219"/>
+      </memberdef>
+      <memberdef kind="function" id="category_v_i_e_w___c_l_a_s_s_07_constraint_matching_08_1a79274852234a642cb678ca10bd39c25e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSArray *</type>
+        <definition>NSArray * VIEW_CLASS(ConstraintMatching)::constraintsReferencingView:</definition>
+        <argsstring>(VIEW_CLASS *view)</argsstring>
+        <name>constraintsReferencingView:</name>
+        <param>
+          <type>VIEW_CLASS *</type>
+          <declname>view</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Constraint Matching/ConstraintUtilities+Matching.h" line="70" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Constraint Matching/ConstraintUtilities+Matching.m" bodystart="223" bodyend="239"/>
+      </memberdef>
+      <memberdef kind="function" id="category_v_i_e_w___c_l_a_s_s_07_constraint_matching_08_1ae46b414e6dec07134e87a808da2b1d31" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSArray *</type>
+        <definition>NSArray * VIEW_CLASS(ConstraintMatching)::constraintsReferencingView:andView:</definition>
+        <argsstring>(VIEW_CLASS *firstView,[andView] VIEW_CLASS *secondView)</argsstring>
+        <name>constraintsReferencingView:andView:</name>
+        <param>
+          <type>VIEW_CLASS *</type>
+          <declname>firstView</declname>
+        </param>
+        <param>
+          <attributes>[andView]</attributes>
+          <type>VIEW_CLASS *</type>
+          <declname>secondView</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Constraint Matching/ConstraintUtilities+Matching.h" line="70" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Constraint Matching/ConstraintUtilities+Matching.m" bodystart="241" bodyend="253"/>
+      </memberdef>
+      <memberdef kind="function" id="category_v_i_e_w___c_l_a_s_s_07_constraint_matching_08_1a630432466a0775f17ea5e915baab2291" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSArray *</type>
+        <definition>NSArray * VIEW_CLASS(ConstraintMatching)::IBSourcedConstraintsReferencingView:</definition>
+        <argsstring>(VIEW_CLASS *theView)</argsstring>
+        <name>IBSourcedConstraintsReferencingView:</name>
+        <param>
+          <type>VIEW_CLASS *</type>
+          <declname>theView</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Constraint Matching/ConstraintUtilities+Matching.h" line="70" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Constraint Matching/ConstraintUtilities+Matching.m" bodystart="256" bodyend="259"/>
+      </memberdef>
+      <memberdef kind="function" id="category_v_i_e_w___c_l_a_s_s_07_constraint_matching_08_1a144802d11da2fb9214088285f3729181" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void VIEW_CLASS(ConstraintMatching)::removeMatchingConstraint:</definition>
+        <argsstring>(NSLayoutConstraint *aConstraint)</argsstring>
+        <name>removeMatchingConstraint:</name>
+        <param>
+          <type>NSLayoutConstraint *</type>
+          <declname>aConstraint</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Constraint Matching/ConstraintUtilities+Matching.h" line="70" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Constraint Matching/ConstraintUtilities+Matching.m" bodystart="262" bodyend="267"/>
+      </memberdef>
+      <memberdef kind="function" id="category_v_i_e_w___c_l_a_s_s_07_constraint_matching_08_1a73882a2eb13ed15ee57405c291ea4a48" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void VIEW_CLASS(ConstraintMatching)::removeMatchingConstraints:</definition>
+        <argsstring>(NSArray *anArray)</argsstring>
+        <name>removeMatchingConstraints:</name>
+        <param>
+          <type>NSArray *</type>
+          <declname>anArray</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Constraint Matching/ConstraintUtilities+Matching.h" line="70" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Constraint Matching/ConstraintUtilities+Matching.m" bodystart="271" bodyend="275"/>
+      </memberdef>
+      <memberdef kind="function" id="category_v_i_e_w___c_l_a_s_s_07_constraint_matching_08_1a3d9c804c8cddfd0318db02740808d39d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void VIEW_CLASS(ConstraintMatching)::removeConstraintsNamed:</definition>
+        <argsstring>(NSString *name)</argsstring>
+        <name>removeConstraintsNamed:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Constraint Matching/ConstraintUtilities+Matching.h" line="70" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Constraint Matching/ConstraintUtilities+Matching.m" bodystart="278" bodyend="283"/>
+      </memberdef>
+      <memberdef kind="function" id="category_v_i_e_w___c_l_a_s_s_07_constraint_matching_08_1a87aeb31c4af8a7c1ee11f71093614b3c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void VIEW_CLASS(ConstraintMatching)::removeConstraintsNamed:matchingView:</definition>
+        <argsstring>(NSString *name,[matchingView] VIEW_CLASS *view)</argsstring>
+        <name>removeConstraintsNamed:matchingView:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <attributes>[matchingView]</attributes>
+          <type>VIEW_CLASS *</type>
+          <declname>view</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Constraint Matching/ConstraintUtilities+Matching.h" line="70" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Constraint Matching/ConstraintUtilities+Matching.m" bodystart="286" bodyend="291"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Constraint Matching/ConstraintUtilities+Matching.h" line="67" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Constraint Matching/ConstraintUtilities+Matching.h" bodystart="67" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_v_i_e_w___c_l_a_s_s_07_constraint_matching_08_1a3e216258fd76b3ac014ce77fc2c1be3b" prot="public" virt="non-virtual"><scope>VIEW_CLASS(ConstraintMatching)</scope><name>allConstraints</name></member>
+      <member refid="category_v_i_e_w___c_l_a_s_s_07_constraint_matching_08_1a5db4c9412849f93cd2bc81b68bcac74c" prot="public" virt="virtual"><scope>VIEW_CLASS(ConstraintMatching)</scope><name>constraintMatchingConstraint:</name></member>
+      <member refid="category_v_i_e_w___c_l_a_s_s_07_constraint_matching_08_1ad01b04eb3923e96b8ac3d273eac03e81" prot="public" virt="virtual"><scope>VIEW_CLASS(ConstraintMatching)</scope><name>constraintsMatchingConstraints:</name></member>
+      <member refid="category_v_i_e_w___c_l_a_s_s_07_constraint_matching_08_1a79274852234a642cb678ca10bd39c25e" prot="public" virt="virtual"><scope>VIEW_CLASS(ConstraintMatching)</scope><name>constraintsReferencingView:</name></member>
+      <member refid="category_v_i_e_w___c_l_a_s_s_07_constraint_matching_08_1ae46b414e6dec07134e87a808da2b1d31" prot="public" virt="virtual"><scope>VIEW_CLASS(ConstraintMatching)</scope><name>constraintsReferencingView:andView:</name></member>
+      <member refid="category_v_i_e_w___c_l_a_s_s_07_constraint_matching_08_1a6f6faec6d5156dfac5d0f1a035dc5b8b" prot="public" virt="non-virtual"><scope>VIEW_CLASS(ConstraintMatching)</scope><name>heightConstraints</name></member>
+      <member refid="category_v_i_e_w___c_l_a_s_s_07_constraint_matching_08_1a630432466a0775f17ea5e915baab2291" prot="public" virt="virtual"><scope>VIEW_CLASS(ConstraintMatching)</scope><name>IBSourcedConstraintsReferencingView:</name></member>
+      <member refid="category_v_i_e_w___c_l_a_s_s_07_constraint_matching_08_1a1678730c1992cfd4e32e3eaf2184462f" prot="public" virt="non-virtual"><scope>VIEW_CLASS(ConstraintMatching)</scope><name>referencingConstraints</name></member>
+      <member refid="category_v_i_e_w___c_l_a_s_s_07_constraint_matching_08_1a01c1ffc4cdafa021864e4c4369bf8c05" prot="public" virt="non-virtual"><scope>VIEW_CLASS(ConstraintMatching)</scope><name>referencingConstraintsInSuperviews</name></member>
+      <member refid="category_v_i_e_w___c_l_a_s_s_07_constraint_matching_08_1a3d9c804c8cddfd0318db02740808d39d" prot="public" virt="virtual"><scope>VIEW_CLASS(ConstraintMatching)</scope><name>removeConstraintsNamed:</name></member>
+      <member refid="category_v_i_e_w___c_l_a_s_s_07_constraint_matching_08_1a87aeb31c4af8a7c1ee11f71093614b3c" prot="public" virt="virtual"><scope>VIEW_CLASS(ConstraintMatching)</scope><name>removeConstraintsNamed:matchingView:</name></member>
+      <member refid="category_v_i_e_w___c_l_a_s_s_07_constraint_matching_08_1a144802d11da2fb9214088285f3729181" prot="public" virt="virtual"><scope>VIEW_CLASS(ConstraintMatching)</scope><name>removeMatchingConstraint:</name></member>
+      <member refid="category_v_i_e_w___c_l_a_s_s_07_constraint_matching_08_1a73882a2eb13ed15ee57405c291ea4a48" prot="public" virt="virtual"><scope>VIEW_CLASS(ConstraintMatching)</scope><name>removeMatchingConstraints:</name></member>
+      <member refid="category_v_i_e_w___c_l_a_s_s_07_constraint_matching_08_1a40615e9bdc3c556b5b1fc6c301e5ac1c" prot="public" virt="non-virtual"><scope>VIEW_CLASS(ConstraintMatching)</scope><name>widthConstraints</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_n_s_dictionary_09_block_8h" kind="file" language="C++">
+    <compoundname>NSDictionary+Block.h</compoundname>
+    <includes local="no">Foundation/Foundation.h</includes>
+    <includedby refid="_n_s_dictionary_09_block_8m" local="yes">XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDictionary/NSDictionary+Block.m</includedby>
+    <incdepgraph>
+      <node id="443">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDictionary/NSDictionary+Block.h</label>
+        <link refid="NSDictionary+Block.h"/>
+        <childnode refid="444" relation="include">
+        </childnode>
+      </node>
+      <node id="444">
+        <label>Foundation/Foundation.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="445">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDictionary/NSDictionary+Block.h</label>
+        <link refid="NSDictionary+Block.h"/>
+        <childnode refid="446" relation="include">
+        </childnode>
+      </node>
+      <node id="446">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDictionary/NSDictionary+Block.m</label>
+        <link refid="_n_s_dictionary_09_block_8m"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="category_n_s_dictionary_07_block_08" prot="public">NSDictionary(Block)</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>NSDictionary+Block.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>iOS-Categories<sp/>(https://github.com/shaojiankui/iOS-Categories)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Jakey<sp/>on<sp/>15/5/22.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2015年<sp/>www.skyfox.org.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;Foundation/Foundation.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="category_n_s_dictionary_07_block_08" kindref="compound">NSDictionary (Block)</ref></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/>-<sp/>Manipulation</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal">-<sp/>(NSDictionary<sp/>*)dictionaryByAddingEntriesFromDictionary:(NSDictionary<sp/>*)dictionary;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">-<sp/>(NSDictionary<sp/>*)dictionaryByRemovingEntriesWithKeys:(NSSet<sp/>*)keys;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/>-<sp/>RX</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal">-<sp/>(void)each:(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(^)(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>k,<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>v))block;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal">-<sp/>(void)eachKey:(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(^)(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>k))block;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal">-<sp/>(void)eachValue:(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(^)(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>v))block;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal">-<sp/>(NSArray<sp/>*)map:(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>(^)(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>key,<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>value))block;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal">-<sp/>(BOOL)hasKey:(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)key;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">-<sp/>(NSDictionary<sp/>*)pick:(NSArray<sp/>*)keys;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal">-<sp/>(NSDictionary<sp/>*)omit:(NSArray<sp/>*)key;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDictionary/NSDictionary+Block.h"/>
+  </compounddef>
+</doxygen>

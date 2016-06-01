@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_u_i_view_09draggable_8h" kind="file" language="C++">
+    <compoundname>UIView+draggable.h</compoundname>
+    <includedby refid="_u_i_view_09draggable_8m" local="yes">XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+draggable.m</includedby>
+    <invincdepgraph>
+      <node id="1981">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+draggable.h</label>
+        <link refid="UIView+draggable.h"/>
+        <childnode refid="1982" relation="include">
+        </childnode>
+      </node>
+      <node id="1982">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+draggable.m</label>
+        <link refid="_u_i_view_09draggable_8m"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="category_u_i_view_07draggable_08" prot="public">UIView(draggable)</innerclass>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="_u_i_view_09draggable_8h_1a43fb15a03fb74ea70166477c5683ea81" prot="public" static="no" mutable="no">
+        <type>import</type>
+        <definition>import UIKit</definition>
+        <argsstring></argsstring>
+        <name>UIKit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+draggable.h" line="12" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+draggable.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>UIView+draggable.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>UIView+draggable</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Andrea<sp/>on<sp/>13/03/14.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2014<sp/>Fancy<sp/>Pixel.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>https://github.com/andreamazz/UIView-draggable</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>UIView<sp/>category<sp/>that<sp/>adds<sp/>dragging<sp/>capabilities</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="_u_i_view_09draggable_8h_1a43fb15a03fb74ea70166477c5683ea81" refkind="member"><highlight class="normal">@</highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/><ref refid="_u_i_view_09draggable_8h_1a43fb15a03fb74ea70166477c5683ea81" kindref="member">UIKit</ref>;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="category_u_i_view_07draggable_08" kindref="compound">UIView (draggable)</ref></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25" refid="category_u_i_view_07draggable_08_1a372e612496756eef6396fa26a4c0e301" refkind="member"><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic)<sp/>UIPanGestureRecognizer<sp/>*<ref refid="category_u_i_view_07draggable_08_1a372e612496756eef6396fa26a4c0e301" kindref="member">panGesture</ref>;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38" refid="category_u_i_view_07draggable_08_1a2da06507a7ff9fa712e278913c22ac1c" refkind="member"><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic)<sp/>CGRect<sp/><ref refid="category_u_i_view_07draggable_08_1a2da06507a7ff9fa712e278913c22ac1c" kindref="member">cagingArea</ref>;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45" refid="category_u_i_view_07draggable_08_1ae89f6ec710fcbedaa4c2b6f8fd2421fe" refkind="member"><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic)<sp/>CGRect<sp/><ref refid="category_u_i_view_07draggable_08_1ae89f6ec710fcbedaa4c2b6f8fd2421fe" kindref="member">handle</ref>;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50" refid="category_u_i_view_07draggable_08_1aa7f0dab21170209fd8f34aca40ce025e" refkind="member"><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic)<sp/>BOOL<sp/><ref refid="category_u_i_view_07draggable_08_1aa7f0dab21170209fd8f34aca40ce025e" kindref="member">shouldMoveAlongX</ref>;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55" refid="category_u_i_view_07draggable_08_1a5bfd32bb208046eadbe0a1017e497752" refkind="member"><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic)<sp/>BOOL<sp/><ref refid="category_u_i_view_07draggable_08_1a5bfd32bb208046eadbe0a1017e497752" kindref="member">shouldMoveAlongY</ref>;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>copy)<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(^<ref refid="category_u_i_view_07draggable_08_1afeebd7d46c79fbb4663bd8c33a2f8f56" kindref="member">draggingStartedBlock</ref>)();</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>copy)<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(^<ref refid="category_u_i_view_07draggable_08_1ae72d6453973aa75205168cb7065c9b15" kindref="member">draggingEndedBlock</ref>)();</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal">-<sp/>(void)<ref refid="category_u_i_view_07draggable_08_1a5eb84f5a8316e023cb2d8e9d18bfdb64" kindref="member">enableDragging</ref>;</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal">-<sp/>(void)setDraggable:(BOOL)draggable;</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+draggable.h"/>
+  </compounddef>
+</doxygen>

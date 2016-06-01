@@ -1,0 +1,156 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_u_i_view_07_blocks_kit_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>UIView(BlocksKit)</compoundname>
+    <includes refid="_u_i_view_09_blocks_kit_8h" local="no">UIView+BlocksKit.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="category_u_i_view_07_blocks_kit_08_1afdb986239d6fc0bd600f0d4791544812" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UIView(BlocksKit)::bk_whenTouches:tapped:handler:</definition>
+        <argsstring>(NSUInteger numberOfTouches,[tapped] NSUInteger numberOfTaps,[handler] void(^block)(void))</argsstring>
+        <name>bk_whenTouches:tapped:handler:</name>
+        <param>
+          <type>NSUInteger</type>
+          <declname>numberOfTouches</declname>
+        </param>
+        <param>
+          <attributes>[tapped]</attributes>
+          <type>NSUInteger</type>
+          <declname>numberOfTaps</declname>
+        </param>
+        <param>
+          <attributes>[handler]</attributes>
+          <type>void(^)(void)</type>
+          <declname>block</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Abstract creation of a block-backed UITapGestureRecognizer.</para><para>This method allows for the recognition of any arbitrary number of fingers tapping any number of times on a view. An instance of UITapGesture recognizer is allocated for the block and added to the recieving view.</para><para><simplesect kind="warning"><para>This method has an <emphasis>additive</emphasis> effect. Do not call it multiple times to set-up or tear-down. The view will discard the gesture recognizer on release.</para></simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>numberOfTouches</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The number of fingers tapping that will trigger the block. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>numberOfTaps</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The number of taps required to trigger the block. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>block</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The handler for the UITapGestureRecognizer </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para>whenTapped: </para></simplesect>
+<simplesect kind="see"><para>whenDoubleTapped: </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIView+BlocksKit.h" line="74" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIView+BlocksKit.m" bodystart="11" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_view_07_blocks_kit_08_1a20c3a39c258761c946261d8ffd5ffb9d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UIView(BlocksKit)::bk_whenTapped:</definition>
+        <argsstring>(void(^block)(void))</argsstring>
+        <name>bk_whenTapped:</name>
+        <param>
+          <type>void(^)(void)</type>
+          <declname>block</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Adds a recognizer for one finger tapping once.</para><para><simplesect kind="warning"><para>This method has an <emphasis>additive</emphasis> effect. Do not call it multiple times to set-up or tear-down. The view will discard the gesture recognizer on release.</para></simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>block</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The handler for the tap recognizer </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para>whenDoubleTapped: </para></simplesect>
+<simplesect kind="see"><para>whenTouches:tapped:handler: </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIView+BlocksKit.h" line="74" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIView+BlocksKit.m" bodystart="36" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_view_07_blocks_kit_08_1a511ef46c8b245ec2d5bb138af70c9a92" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UIView(BlocksKit)::bk_whenDoubleTapped:</definition>
+        <argsstring>(void(^block)(void))</argsstring>
+        <name>bk_whenDoubleTapped:</name>
+        <param>
+          <type>void(^)(void)</type>
+          <declname>block</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Adds a recognizer for one finger tapping twice.</para><para><simplesect kind="warning"><para>This method has an <emphasis>additive</emphasis> effect. Do not call it multiple times to set-up or tear-down. The view will discard the gesture recognizer on release.</para></simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>block</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The handler for the tap recognizer </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para>whenTapped: </para></simplesect>
+<simplesect kind="see"><para>whenTouches:tapped:handler: </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIView+BlocksKit.h" line="74" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIView+BlocksKit.m" bodystart="41" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_view_07_blocks_kit_08_1a69d5724fe76a1cadf3ed64583c948129" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UIView(BlocksKit)::bk_eachSubview:</definition>
+        <argsstring>(void(^block)(UIView *subview))</argsstring>
+        <name>bk_eachSubview:</name>
+        <param>
+          <type>void(^)(UIView *subview)</type>
+          <declname>block</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A convenience wrapper that non-recursively loops through the subviews of a view.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>block</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A code block that interacts with a UIView sender. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIView+BlocksKit.h" line="74" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIView+BlocksKit.m" bodystart="46" bodyend="53"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Convenience on-touch methods for UIView.</para><para>Includes code by the following:</para><para><itemizedlist>
+<listitem><para>Kevin O&apos;Neill. <ulink url="https://github.com/kevinoneill">https://github.com/kevinoneill</ulink>. 2011. BSD.</para></listitem><listitem><para>Jake Marsh. <ulink url="https://github.com/jakemarsh">https://github.com/jakemarsh</ulink>. 2011.</para></listitem><listitem><para>Zach Waldowski. <ulink url="https://github.com/zwaldowski">https://github.com/zwaldowski</ulink>. 2011.</para></listitem></itemizedlist>
+</para><para><simplesect kind="warning"><para>UIView is only available on a platform with UIKit. </para></simplesect>
+</para>    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIView+BlocksKit.m" line="9" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIView+BlocksKit.m" bodystart="9" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_u_i_view_07_blocks_kit_08_1a69d5724fe76a1cadf3ed64583c948129" prot="public" virt="virtual"><scope>UIView(BlocksKit)</scope><name>bk_eachSubview:</name></member>
+      <member refid="category_u_i_view_07_blocks_kit_08_1a511ef46c8b245ec2d5bb138af70c9a92" prot="public" virt="virtual"><scope>UIView(BlocksKit)</scope><name>bk_whenDoubleTapped:</name></member>
+      <member refid="category_u_i_view_07_blocks_kit_08_1a20c3a39c258761c946261d8ffd5ffb9d" prot="public" virt="virtual"><scope>UIView(BlocksKit)</scope><name>bk_whenTapped:</name></member>
+      <member refid="category_u_i_view_07_blocks_kit_08_1afdb986239d6fc0bd600f0d4791544812" prot="public" virt="virtual"><scope>UIView(BlocksKit)</scope><name>bk_whenTouches:tapped:handler:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

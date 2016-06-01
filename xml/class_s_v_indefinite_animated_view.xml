@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="class_s_v_indefinite_animated_view" kind="class" language="Objective-C" prot="public">
+    <compoundname>SVIndefiniteAnimatedView</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">UIView</basecompoundref>
+    <includes refid="_s_v_indefinite_animated_view_8h" local="no">SVIndefiniteAnimatedView.h</includes>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_s_v_indefinite_animated_view_1a8570886fcbb3f71939828ebf4d47b07f" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="assign">
+        <type>CGFloat</type>
+        <definition>CGFloat SVIndefiniteAnimatedView::strokeThickness</definition>
+        <argsstring></argsstring>
+        <name>strokeThickness</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/Venders/SVProgressHUD/SVIndefiniteAnimatedView.h" line="12" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/Venders/SVProgressHUD/SVIndefiniteAnimatedView.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_s_v_indefinite_animated_view_1a4a29c0f1b53f3bf71ceed1e54ad7072c" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="assign">
+        <type>CGFloat</type>
+        <definition>CGFloat SVIndefiniteAnimatedView::radius</definition>
+        <argsstring></argsstring>
+        <name>radius</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/Venders/SVProgressHUD/SVIndefiniteAnimatedView.h" line="13" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/Venders/SVProgressHUD/SVIndefiniteAnimatedView.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_s_v_indefinite_animated_view_1af966c99cc0cae93dba9c9405bd04f152" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="strong">
+        <type>UIColor *</type>
+        <definition>UIColor* SVIndefiniteAnimatedView::strokeColor</definition>
+        <argsstring></argsstring>
+        <name>strokeColor</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/Venders/SVProgressHUD/SVIndefiniteAnimatedView.h" line="14" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/Venders/SVProgressHUD/SVIndefiniteAnimatedView.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="750">
+        <label>SVIndefiniteAnimatedView</label>
+        <link refid="class_s_v_indefinite_animated_view"/>
+        <childnode refid="751" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="751">
+        <label>UIView</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="752">
+        <label>SVIndefiniteAnimatedView</label>
+        <link refid="class_s_v_indefinite_animated_view"/>
+        <childnode refid="753" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="753">
+        <label>UIView</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/Venders/SVProgressHUD/SVIndefiniteAnimatedView.m" line="17" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/Venders/SVProgressHUD/SVIndefiniteAnimatedView.m" bodystart="17" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="class_s_v_indefinite_animated_view_1a4a29c0f1b53f3bf71ceed1e54ad7072c" prot="public" virt="non-virtual"><scope>SVIndefiniteAnimatedView</scope><name>radius</name></member>
+      <member refid="class_s_v_indefinite_animated_view_1af966c99cc0cae93dba9c9405bd04f152" prot="public" virt="non-virtual"><scope>SVIndefiniteAnimatedView</scope><name>strokeColor</name></member>
+      <member refid="class_s_v_indefinite_animated_view_1a8570886fcbb3f71939828ebf4d47b07f" prot="public" virt="non-virtual"><scope>SVIndefiniteAnimatedView</scope><name>strokeThickness</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

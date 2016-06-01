@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="protocol_back_button_handler_protocol-p" kind="protocol" language="Objective-C" prot="public">
+    <compoundname>BackButtonHandlerProtocol-p</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">&lt;NSObject&gt;</basecompoundref>
+    <derivedcompoundref refid="category_u_i_view_controller_07_back_button_handler_08" prot="public" virt="non-virtual">UIViewController(BackButtonHandler)</derivedcompoundref>
+    <includes refid="_u_i_view_controller_09_back_button_handler_8h" local="no">UIViewController+BackButtonHandler.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="protocol_back_button_handler_protocol-p_1a0e4e4d2858a6a0ab24e43a448706b4b8" prot="public" static="no" const="no" explicit="no" inline="no" optional="yes" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL BackButtonHandlerProtocol-p::navigationShouldPopOnBackButton</definition>
+        <argsstring>()</argsstring>
+        <name>navigationShouldPopOnBackButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+BackButtonHandler.h" line="15" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="204">
+        <label>&lt;BackButtonHandlerProtocol&gt;</label>
+        <link refid="protocol_back_button_handler_protocol-p"/>
+        <childnode refid="205" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="206">
+        <label>UIViewController(BackButtonHandler)</label>
+        <link refid="category_u_i_view_controller_07_back_button_handler_08"/>
+        <childnode refid="204" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="205">
+        <label>&lt;NSObject&gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="207">
+        <label>&lt;BackButtonHandlerProtocol&gt;</label>
+        <link refid="protocol_back_button_handler_protocol-p"/>
+        <childnode refid="208" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="208">
+        <label>&lt;NSObject&gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+BackButtonHandler.h" line="27" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+BackButtonHandler.h" bodystart="27" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="protocol_back_button_handler_protocol-p_1a0e4e4d2858a6a0ab24e43a448706b4b8" prot="public" virt="virtual"><scope>BackButtonHandlerProtocol-p</scope><name>navigationShouldPopOnBackButton</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

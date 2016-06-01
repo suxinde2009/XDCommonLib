@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="dir_a7c145e73d02fe78208e98c17010b66e" kind="dir">
+    <compoundname>XDCommonLib/CommonBasicComponentLayer/Utils</compoundname>
+    <innerdir refid="dir_8e78fb589fe90feb173586546e35d163">XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit</innerdir>
+    <innerdir refid="dir_6638a2f110eff014c26ad659b64f2bcd">XDCommonLib/CommonBasicComponentLayer/Utils/BlockThrottle</innerdir>
+    <innerdir refid="dir_b15d8d0498f42d866b782ba3a4db14d7">XDCommonLib/CommonBasicComponentLayer/Utils/EncryptUtils</innerdir>
+    <innerdir refid="dir_efe379408c3e6baf4107de3b4fe83ccf">XDCommonLib/CommonBasicComponentLayer/Utils/FFT</innerdir>
+    <innerdir refid="dir_ea00a4746e03269f8343fbebdf5c2e7a">XDCommonLib/CommonBasicComponentLayer/Utils/ImageBeautifyUtil</innerdir>
+    <innerdir refid="dir_715e91f9f27f2241df0c3d340475fc57">XDCommonLib/CommonBasicComponentLayer/Utils/LunarCore</innerdir>
+    <innerdir refid="dir_cd1a5fbb553d16cd84247f2a7c1967fb">XDCommonLib/CommonBasicComponentLayer/Utils/XDAppVerisonUpdateObserver</innerdir>
+    <innerdir refid="dir_ca73904b71ca5541fa9cb5e5d82dadd2">XDCommonLib/CommonBasicComponentLayer/Utils/XDContinuousBootCrashPreventTool</innerdir>
+    <innerdir refid="dir_3be1327f6a583c1a0faaa01d085287b8">XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit</innerdir>
+    <innerdir refid="dir_d79aa9a62b1d2e0cf2fd3a0dfae66e98">XDCommonLib/CommonBasicComponentLayer/Utils/XDLogger</innerdir>
+    <innerdir refid="dir_34b6989b204ae222fb4308f5af20c0f1">XDCommonLib/CommonBasicComponentLayer/Utils/XDMulticastDelegate</innerdir>
+    <innerdir refid="dir_9523f01c953e12a575945d455275a8f2">XDCommonLib/CommonBasicComponentLayer/Utils/XDPinYin</innerdir>
+    <innerdir refid="dir_cb3e56614e51e8bbe4df8c323783b15f">XDCommonLib/CommonBasicComponentLayer/Utils/XDUIKitMainThreadGuard</innerdir>
+    <innerfile refid="_x_d_app_language_8h">XDAppLanguage.h</innerfile>
+    <innerfile refid="_x_d_app_language_8m">XDAppLanguage.m</innerfile>
+    <innerfile refid="_x_d_camera_orientation_monitor_8h">XDCameraOrientationMonitor.h</innerfile>
+    <innerfile refid="_x_d_camera_orientation_monitor_8m">XDCameraOrientationMonitor.m</innerfile>
+    <innerfile refid="_x_d_network_8h">XDNetwork.h</innerfile>
+    <innerfile refid="_x_d_network_8m">XDNetwork.m</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/"/>
+  </compounddef>
+</doxygen>

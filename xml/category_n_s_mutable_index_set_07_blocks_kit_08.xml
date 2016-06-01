@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_n_s_mutable_index_set_07_blocks_kit_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>NSMutableIndexSet(BlocksKit)</compoundname>
+    <includes refid="_n_s_mutable_index_set_09_blocks_kit_8h" local="no">NSMutableIndexSet+BlocksKit.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="category_n_s_mutable_index_set_07_blocks_kit_08_1aff8f35b60221596c7eb404b228da4223" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void NSMutableIndexSet(BlocksKit)::bk_performSelect:</definition>
+        <argsstring>(BOOL(^block)(NSUInteger index))</argsstring>
+        <name>bk_performSelect:</name>
+        <param>
+          <type>BOOL(^)(NSUInteger index)</type>
+          <declname>block</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Filters a mutable index set to the indexes matching the block.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>block</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A single-argument, BOOL-returning code block. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para>&lt;NSIndexSet(BlocksKit)&gt;bk_reject: </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSMutableIndexSet+BlocksKit.h" line="47" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSMutableIndexSet+BlocksKit.m" bodystart="10" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_mutable_index_set_07_blocks_kit_08_1a8419adae51810a6ee5f3bc7a52b9cf49" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void NSMutableIndexSet(BlocksKit)::bk_performReject:</definition>
+        <argsstring>(BOOL(^block)(NSUInteger index))</argsstring>
+        <name>bk_performReject:</name>
+        <param>
+          <type>BOOL(^)(NSUInteger index)</type>
+          <declname>block</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Filters a mutable index set to all indexes but the ones matching the block, the logical inverse to bk_select:.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>block</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A single-argument, BOOL-returning code block. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para>&lt;NSIndexSet(BlocksKit)&gt;bk_select: </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSMutableIndexSet+BlocksKit.h" line="47" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSMutableIndexSet+BlocksKit.m" bodystart="22" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_mutable_index_set_07_blocks_kit_08_1a17af15796ca6edb1d418cfdd0abf22fd" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void NSMutableIndexSet(BlocksKit)::bk_performMap:</definition>
+        <argsstring>(NSUInteger(^block)(NSUInteger index))</argsstring>
+        <name>bk_performMap:</name>
+        <param>
+          <type>NSUInteger(^)(NSUInteger index)</type>
+          <declname>block</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Transform each index of the index set to a new index, as returned by the block.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>block</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A block that returns a new index for a index. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para>&lt;NSIndexSet(BlocksKit)&gt;bk_map: </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSMutableIndexSet+BlocksKit.h" line="47" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSMutableIndexSet+BlocksKit.m" bodystart="30" bodyend="42"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Block extensions for NSMutableIndexSet.</para><para>These utilities expound upon the BlocksKit additions to the immutable superclass by allowing certain utilities to work on an instance of the mutable class, saving memory by not creating an immutable copy of the results.</para><para><simplesect kind="see"><para>NSIndexSet(BlocksKit) </para></simplesect>
+</para>    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSMutableIndexSet+BlocksKit.m" line="8" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSMutableIndexSet+BlocksKit.m" bodystart="8" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_n_s_mutable_index_set_07_blocks_kit_08_1a17af15796ca6edb1d418cfdd0abf22fd" prot="public" virt="virtual"><scope>NSMutableIndexSet(BlocksKit)</scope><name>bk_performMap:</name></member>
+      <member refid="category_n_s_mutable_index_set_07_blocks_kit_08_1a8419adae51810a6ee5f3bc7a52b9cf49" prot="public" virt="virtual"><scope>NSMutableIndexSet(BlocksKit)</scope><name>bk_performReject:</name></member>
+      <member refid="category_n_s_mutable_index_set_07_blocks_kit_08_1aff8f35b60221596c7eb404b228da4223" prot="public" virt="virtual"><scope>NSMutableIndexSet(BlocksKit)</scope><name>bk_performSelect:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

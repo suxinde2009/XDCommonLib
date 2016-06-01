@@ -1,0 +1,256 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_u_i_image_view_07_addition_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>UIImageView(Addition)</compoundname>
+    <includes refid="_u_i_image_view_09_addition_8h" local="no">UIImageView+Addition.h</includes>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="category_u_i_image_view_07_addition_08_1a2acda18260fc62b78785399fa62211bf" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>id</type>
+        <definition>id UIImageView(Addition)::imageViewWithImageNamed:</definition>
+        <argsstring>(NSString *imageName)</argsstring>
+        <name>imageViewWithImageNamed:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>imageName</declname>
+        </param>
+        <briefdescription>
+<para>根据bundle中的图片名创建imageview </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>imageName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>bundle中的图片名</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>imageview </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImageView/UIImageView+Addition.h" line="11" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImageView/UIImageView+Addition.m" bodystart="12" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_image_view_07_addition_08_1aa63fd233c0bd6c8b82456d8e359ea1f7" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>id</type>
+        <definition>id UIImageView(Addition)::imageViewWithFrame:</definition>
+        <argsstring>(CGRect frame)</argsstring>
+        <name>imageViewWithFrame:</name>
+        <param>
+          <type>CGRect</type>
+          <declname>frame</declname>
+        </param>
+        <briefdescription>
+<para>根据frame创建imageview </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>frame</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>imageview frame</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>imageview </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImageView/UIImageView+Addition.h" line="11" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImageView/UIImageView+Addition.m" bodystart="16" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_image_view_07_addition_08_1ab08ecce2c835d862547e3dd755f121cd" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>id</type>
+        <definition>id UIImageView(Addition)::imageViewWithStretchableImage:Frame:</definition>
+        <argsstring>(NSString *imageName,[Frame] CGRect frame)</argsstring>
+        <name>imageViewWithStretchableImage:Frame:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>imageName</declname>
+        </param>
+        <param>
+          <attributes>[Frame]</attributes>
+          <type>CGRect</type>
+          <declname>frame</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImageView/UIImageView+Addition.h" line="11" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImageView/UIImageView+Addition.m" bodystart="20" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_image_view_07_addition_08_1a10f75577a21fed70d81a5102a77b741a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>id</type>
+        <definition>id UIImageView(Addition)::imageViewWithImageArray:duration:</definition>
+        <argsstring>(NSArray *imageArray,[duration] NSTimeInterval duration)</argsstring>
+        <name>imageViewWithImageArray:duration:</name>
+        <param>
+          <type>NSArray *</type>
+          <declname>imageArray</declname>
+        </param>
+        <param>
+          <attributes>[duration]</attributes>
+          <type>NSTimeInterval</type>
+          <declname>duration</declname>
+        </param>
+        <briefdescription>
+<para>创建imageview动画 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>imageArray</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>图片名称数组 </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>duration</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>动画时间</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>imageview </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImageView/UIImageView+Addition.h" line="11" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImageView/UIImageView+Addition.m" bodystart="32" bodyend="50"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="category_u_i_image_view_07_addition_08_1afe5374d317b405203e0c7509a4db2750" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UIImageView(Addition)::setImageWithStretchableImage:</definition>
+        <argsstring>(NSString *imageName)</argsstring>
+        <name>setImageWithStretchableImage:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>imageName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImageView/UIImageView+Addition.h" line="11" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImageView/UIImageView+Addition.m" bodystart="27" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_image_view_07_addition_08_1a832f63c7f388762ce3744bec96e86086" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UIImageView(Addition)::setImage:withWaterMark:inRect:</definition>
+        <argsstring>(UIImage *image,[withWaterMark] UIImage *mark,[inRect] CGRect rect)</argsstring>
+        <name>setImage:withWaterMark:inRect:</name>
+        <param>
+          <type>UIImage *</type>
+          <declname>image</declname>
+        </param>
+        <param>
+          <attributes>[withWaterMark]</attributes>
+          <type>UIImage *</type>
+          <declname>mark</declname>
+        </param>
+        <param>
+          <attributes>[inRect]</attributes>
+          <type>CGRect</type>
+          <declname>rect</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImageView/UIImageView+Addition.h" line="11" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImageView/UIImageView+Addition.m" bodystart="52" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_image_view_07_addition_08_1a8ca5a28a699dd2d35fa031e2702c691f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UIImageView(Addition)::setImage:withStringWaterMark:inRect:color:font:</definition>
+        <argsstring>(UIImage *image,[withStringWaterMark] NSString *markString,[inRect] CGRect rect,[color] UIColor *color,[font] UIFont *font)</argsstring>
+        <name>setImage:withStringWaterMark:inRect:color:font:</name>
+        <param>
+          <type>UIImage *</type>
+          <declname>image</declname>
+        </param>
+        <param>
+          <attributes>[withStringWaterMark]</attributes>
+          <type>NSString *</type>
+          <declname>markString</declname>
+        </param>
+        <param>
+          <attributes>[inRect]</attributes>
+          <type>CGRect</type>
+          <declname>rect</declname>
+        </param>
+        <param>
+          <attributes>[color]</attributes>
+          <type>UIColor *</type>
+          <declname>color</declname>
+        </param>
+        <param>
+          <attributes>[font]</attributes>
+          <type>UIFont *</type>
+          <declname>font</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImageView/UIImageView+Addition.h" line="11" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImageView/UIImageView+Addition.m" bodystart="74" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_image_view_07_addition_08_1a9c9974dad934f43821eca03bc03ee188" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UIImageView(Addition)::setImage:withStringWaterMark:atPoint:color:font:</definition>
+        <argsstring>(UIImage *image,[withStringWaterMark] NSString *markString,[atPoint] CGPoint point,[color] UIColor *color,[font] UIFont *font)</argsstring>
+        <name>setImage:withStringWaterMark:atPoint:color:font:</name>
+        <param>
+          <type>UIImage *</type>
+          <declname>image</declname>
+        </param>
+        <param>
+          <attributes>[withStringWaterMark]</attributes>
+          <type>NSString *</type>
+          <declname>markString</declname>
+        </param>
+        <param>
+          <attributes>[atPoint]</attributes>
+          <type>CGPoint</type>
+          <declname>point</declname>
+        </param>
+        <param>
+          <attributes>[color]</attributes>
+          <type>UIColor *</type>
+          <declname>color</declname>
+        </param>
+        <param>
+          <attributes>[font]</attributes>
+          <type>UIFont *</type>
+          <declname>font</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImageView/UIImageView+Addition.h" line="11" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImageView/UIImageView+Addition.m" bodystart="96" bodyend="116"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImageView/UIImageView+Addition.m" line="11" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImageView/UIImageView+Addition.m" bodystart="11" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_u_i_image_view_07_addition_08_1aa63fd233c0bd6c8b82456d8e359ea1f7" prot="public" virt="virtual"><scope>UIImageView(Addition)</scope><name>imageViewWithFrame:</name></member>
+      <member refid="category_u_i_image_view_07_addition_08_1a10f75577a21fed70d81a5102a77b741a" prot="public" virt="virtual"><scope>UIImageView(Addition)</scope><name>imageViewWithImageArray:duration:</name></member>
+      <member refid="category_u_i_image_view_07_addition_08_1a2acda18260fc62b78785399fa62211bf" prot="public" virt="virtual"><scope>UIImageView(Addition)</scope><name>imageViewWithImageNamed:</name></member>
+      <member refid="category_u_i_image_view_07_addition_08_1ab08ecce2c835d862547e3dd755f121cd" prot="public" virt="virtual"><scope>UIImageView(Addition)</scope><name>imageViewWithStretchableImage:Frame:</name></member>
+      <member refid="category_u_i_image_view_07_addition_08_1a9c9974dad934f43821eca03bc03ee188" prot="public" virt="virtual"><scope>UIImageView(Addition)</scope><name>setImage:withStringWaterMark:atPoint:color:font:</name></member>
+      <member refid="category_u_i_image_view_07_addition_08_1a8ca5a28a699dd2d35fa031e2702c691f" prot="public" virt="virtual"><scope>UIImageView(Addition)</scope><name>setImage:withStringWaterMark:inRect:color:font:</name></member>
+      <member refid="category_u_i_image_view_07_addition_08_1a832f63c7f388762ce3744bec96e86086" prot="public" virt="virtual"><scope>UIImageView(Addition)</scope><name>setImage:withWaterMark:inRect:</name></member>
+      <member refid="category_u_i_image_view_07_addition_08_1afe5374d317b405203e0c7509a4db2750" prot="public" virt="virtual"><scope>UIImageView(Addition)</scope><name>setImageWithStretchableImage:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

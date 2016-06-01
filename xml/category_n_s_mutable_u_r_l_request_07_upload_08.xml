@@ -1,0 +1,244 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_n_s_mutable_u_r_l_request_07_upload_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>NSMutableURLRequest(Upload)</compoundname>
+    <includes refid="_n_s_mutable_u_r_l_request_09_upload_8h" local="no">NSMutableURLRequest+Upload.h</includes>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="category_n_s_mutable_u_r_l_request_07_upload_08_1ad38064f9493ab85677a173902948feb1" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>instancetype</type>
+        <definition>instancetype NSMutableURLRequest(Upload)::requestWithURL:fileURL:name:</definition>
+        <argsstring>(NSURL *URL,[fileURL] NSURL *fileURL,[name] NSString *name)</argsstring>
+        <name>requestWithURL:fileURL:name:</name>
+        <param>
+          <type>NSURL *</type>
+          <declname>URL</declname>
+        </param>
+        <param>
+          <attributes>[fileURL]</attributes>
+          <type>NSURL *</type>
+          <declname>fileURL</declname>
+        </param>
+        <param>
+          <attributes>[name]</attributes>
+          <type>NSString *</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>生成单文件上传的 multipart/form-data 请求</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>URL</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>负责上传的 url </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>fileURL</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>要上传的本地文件 url </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>服务器脚本字段名</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>multipart/form-data POST 请求，保存到服务器的文件名与本地的文件名一致 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSURLRequest/NSMutableURLRequest+Upload.h" line="68" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSURLRequest/NSMutableURLRequest+Upload.m" bodystart="13" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_mutable_u_r_l_request_07_upload_08_1ac146de661affa3545dcb6b18575c6403" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>instancetype</type>
+        <definition>instancetype NSMutableURLRequest(Upload)::requestWithURL:fileURL:fileName:name:</definition>
+        <argsstring>(NSURL *URL,[fileURL] NSURL *fileURL,[fileName] NSString *fileName,[name] NSString *name)</argsstring>
+        <name>requestWithURL:fileURL:fileName:name:</name>
+        <param>
+          <type>NSURL *</type>
+          <declname>URL</declname>
+        </param>
+        <param>
+          <attributes>[fileURL]</attributes>
+          <type>NSURL *</type>
+          <declname>fileURL</declname>
+        </param>
+        <param>
+          <attributes>[fileName]</attributes>
+          <type>NSString *</type>
+          <declname>fileName</declname>
+        </param>
+        <param>
+          <attributes>[name]</attributes>
+          <type>NSString *</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>生成单文件上传的 multipart/form-data 请求</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>URL</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>负责上传的 url </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>fileURL</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>要上传的本地文件 url </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>fileName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>要保存在服务器上的文件名 </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>服务器脚本字段名</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>multipart/form-data POST 请求 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSURLRequest/NSMutableURLRequest+Upload.h" line="68" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSURLRequest/NSMutableURLRequest+Upload.m" bodystart="17" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_mutable_u_r_l_request_07_upload_08_1ac48c3b1ba5ab3c0374abbba8978ceba6" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>instancetype</type>
+        <definition>instancetype NSMutableURLRequest(Upload)::requestWithURL:fileURLs:name:</definition>
+        <argsstring>(NSURL *URL,[fileURLs] NSArray *fileURLs,[name] NSString *name)</argsstring>
+        <name>requestWithURL:fileURLs:name:</name>
+        <param>
+          <type>NSURL *</type>
+          <declname>URL</declname>
+        </param>
+        <param>
+          <attributes>[fileURLs]</attributes>
+          <type>NSArray *</type>
+          <declname>fileURLs</declname>
+        </param>
+        <param>
+          <attributes>[name]</attributes>
+          <type>NSString *</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>生成多文件上传的 multipart/form-data 请求</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>URL</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>负责上传的 url </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>fileURLs</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>要上传的本地文件 url 数组 </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>服务器脚本字段名</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>multipart/form-data POST 请求，保存到服务器的文件名与本地的文件名一致 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSURLRequest/NSMutableURLRequest+Upload.h" line="68" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSURLRequest/NSMutableURLRequest+Upload.m" bodystart="21" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_mutable_u_r_l_request_07_upload_08_1a5230e80dcf2c9f4a3e859a3f5bb6098a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>instancetype</type>
+        <definition>instancetype NSMutableURLRequest(Upload)::requestWithURL:fileURLs:fileNames:name:</definition>
+        <argsstring>(NSURL *URL,[fileURLs] NSArray *fileURLs,[fileNames] NSArray *fileNames,[name] NSString *name)</argsstring>
+        <name>requestWithURL:fileURLs:fileNames:name:</name>
+        <param>
+          <type>NSURL *</type>
+          <declname>URL</declname>
+        </param>
+        <param>
+          <attributes>[fileURLs]</attributes>
+          <type>NSArray *</type>
+          <declname>fileURLs</declname>
+        </param>
+        <param>
+          <attributes>[fileNames]</attributes>
+          <type>NSArray *</type>
+          <declname>fileNames</declname>
+        </param>
+        <param>
+          <attributes>[name]</attributes>
+          <type>NSString *</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>生成多文件上传的 multipart/form-data 请求</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>URL</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>负责上传的 url </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>fileURLs</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>要上传的本地文件 url 数组 </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>fileNames</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>要保存在服务器上的文件名数组 </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>服务器脚本字段名</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>multipart/form-data POST 请求 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSURLRequest/NSMutableURLRequest+Upload.h" line="68" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSURLRequest/NSMutableURLRequest+Upload.m" bodystart="31" bodyend="66"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSURLRequest/NSMutableURLRequest+Upload.m" line="11" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSURLRequest/NSMutableURLRequest+Upload.m" bodystart="11" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_n_s_mutable_u_r_l_request_07_upload_08_1ac146de661affa3545dcb6b18575c6403" prot="public" virt="virtual"><scope>NSMutableURLRequest(Upload)</scope><name>requestWithURL:fileURL:fileName:name:</name></member>
+      <member refid="category_n_s_mutable_u_r_l_request_07_upload_08_1ad38064f9493ab85677a173902948feb1" prot="public" virt="virtual"><scope>NSMutableURLRequest(Upload)</scope><name>requestWithURL:fileURL:name:</name></member>
+      <member refid="category_n_s_mutable_u_r_l_request_07_upload_08_1a5230e80dcf2c9f4a3e859a3f5bb6098a" prot="public" virt="virtual"><scope>NSMutableURLRequest(Upload)</scope><name>requestWithURL:fileURLs:fileNames:name:</name></member>
+      <member refid="category_n_s_mutable_u_r_l_request_07_upload_08_1ac48c3b1ba5ab3c0374abbba8978ceba6" prot="public" virt="virtual"><scope>NSMutableURLRequest(Upload)</scope><name>requestWithURL:fileURLs:name:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

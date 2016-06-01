@@ -1,0 +1,468 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_n_s_date_07_reporting_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>NSDate(Reporting)</compoundname>
+    <includes refid="_n_s_date_09_reporting_8h" local="no">NSDate+Reporting.h</includes>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="category_n_s_date_07_reporting_08_1a33118cc44408d755ba9e970a008ff35a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSDate *</type>
+        <definition>NSDate * NSDate(Reporting)::dateWithYear:month:day:</definition>
+        <argsstring>(int year,[month] int month,[day] int day)</argsstring>
+        <name>dateWithYear:month:day:</name>
+        <param>
+          <type>int</type>
+          <declname>year</declname>
+        </param>
+        <param>
+          <attributes>[month]</attributes>
+          <type>int</type>
+          <declname>month</declname>
+        </param>
+        <param>
+          <attributes>[day]</attributes>
+          <type>int</type>
+          <declname>day</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Reporting.h" line="12" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Reporting.m" bodystart="38" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_07_reporting_08_1a09dd9cbcd3ec9ed226a6e4c4f84bd8de" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSDate *</type>
+        <definition>NSDate * NSDate(Reporting)::midnightOfDate:</definition>
+        <argsstring>(NSDate *date)</argsstring>
+        <name>midnightOfDate:</name>
+        <param>
+          <type>NSDate *</type>
+          <declname>date</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Reporting.h" line="12" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Reporting.m" bodystart="54" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_07_reporting_08_1a8e9d975580e4f22461f9122d961bfa40" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSDate *</type>
+        <definition>NSDate * NSDate(Reporting)::midnightToday</definition>
+        <argsstring>()</argsstring>
+        <name>midnightToday</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Reporting.h" line="12" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Reporting.m" bodystart="67" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_07_reporting_08_1acfb7632df1c99db2dd8636337f22820c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSDate *</type>
+        <definition>NSDate * NSDate(Reporting)::midnightTomorrow</definition>
+        <argsstring>()</argsstring>
+        <name>midnightTomorrow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Reporting.h" line="12" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Reporting.m" bodystart="71" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_07_reporting_08_1a86152f7cf41f6c6e21981a6ffe882a25" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSDate *</type>
+        <definition>NSDate * NSDate(Reporting)::oneDayAfter:</definition>
+        <argsstring>(NSDate *date)</argsstring>
+        <name>oneDayAfter:</name>
+        <param>
+          <type>NSDate *</type>
+          <declname>date</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Reporting.h" line="12" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Reporting.m" bodystart="76" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_07_reporting_08_1af31d31b7fb63f5191dfbbc2fc3cd6687" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSDate *</type>
+        <definition>NSDate * NSDate(Reporting)::firstDayOfCurrentMonth</definition>
+        <argsstring>()</argsstring>
+        <name>firstDayOfCurrentMonth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Reporting.h" line="12" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Reporting.m" bodystart="86" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_07_reporting_08_1a02928bf2de98dbde731a51b460269628" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSDate *</type>
+        <definition>NSDate * NSDate(Reporting)::firstDayOfPreviousMonth</definition>
+        <argsstring>()</argsstring>
+        <name>firstDayOfPreviousMonth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Reporting.h" line="12" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Reporting.m" bodystart="101" bodyend="125"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_07_reporting_08_1acca9cc2d8cbbf9f3b2098561b3d31fc3" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSDate *</type>
+        <definition>NSDate * NSDate(Reporting)::firstDayOfNextMonth</definition>
+        <argsstring>()</argsstring>
+        <name>firstDayOfNextMonth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Reporting.h" line="12" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Reporting.m" bodystart="127" bodyend="139"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_07_reporting_08_1a0c432e8184177c990b21bba6e8791519" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSDate *</type>
+        <definition>NSDate * NSDate(Reporting)::firstDayOfCurrentQuarter</definition>
+        <argsstring>()</argsstring>
+        <name>firstDayOfCurrentQuarter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Reporting.h" line="12" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Reporting.m" bodystart="141" bodyend="143"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_07_reporting_08_1a35847976912a15b93bbda7cf864dd85c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSDate *</type>
+        <definition>NSDate * NSDate(Reporting)::firstDayOfPreviousQuarter</definition>
+        <argsstring>()</argsstring>
+        <name>firstDayOfPreviousQuarter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Reporting.h" line="12" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Reporting.m" bodystart="145" bodyend="158"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_07_reporting_08_1a852ab2c931144ab80fb29e785c1a417e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSDate *</type>
+        <definition>NSDate * NSDate(Reporting)::firstDayOfNextQuarter</definition>
+        <argsstring>()</argsstring>
+        <name>firstDayOfNextQuarter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Reporting.h" line="12" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Reporting.m" bodystart="160" bodyend="172"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_07_reporting_08_1a3089cbebd45118497245696f825c85bf" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSDate *</type>
+        <definition>NSDate * NSDate(Reporting)::firstDayOfCurrentYear</definition>
+        <argsstring>()</argsstring>
+        <name>firstDayOfCurrentYear</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Reporting.h" line="12" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Reporting.m" bodystart="174" bodyend="188"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_07_reporting_08_1aa920e1938b5da675b8efb573f6ba600d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSDate *</type>
+        <definition>NSDate * NSDate(Reporting)::firstDayOfPreviousYear</definition>
+        <argsstring>()</argsstring>
+        <name>firstDayOfPreviousYear</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Reporting.h" line="12" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Reporting.m" bodystart="190" bodyend="202"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_07_reporting_08_1a7409771db8b5e8c2451ef70001c7b869" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSDate *</type>
+        <definition>NSDate * NSDate(Reporting)::firstDayOfNextYear</definition>
+        <argsstring>()</argsstring>
+        <name>firstDayOfNextYear</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Reporting.h" line="12" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Reporting.m" bodystart="204" bodyend="216"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="category_n_s_date_07_reporting_08_1af18ca2149a540264962f23789c8448dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSDate *</type>
+        <definition>NSDate * NSDate(Reporting)::dateFloor</definition>
+        <argsstring>()</argsstring>
+        <name>dateFloor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Reporting.h" line="12" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Reporting.m" bodystart="254" bodyend="260"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_07_reporting_08_1af717d6da89c952521a73522a1d2b475a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSDate *</type>
+        <definition>NSDate * NSDate(Reporting)::dateCeil</definition>
+        <argsstring>()</argsstring>
+        <name>dateCeil</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Reporting.h" line="12" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Reporting.m" bodystart="262" bodyend="272"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_07_reporting_08_1a6a72e6f7bcecb1a9c6dc23e8a2539901" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSDate *</type>
+        <definition>NSDate * NSDate(Reporting)::startOfWeek</definition>
+        <argsstring>()</argsstring>
+        <name>startOfWeek</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Reporting.h" line="12" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Reporting.m" bodystart="274" bodyend="282"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_07_reporting_08_1ac004c6c9f3ec6d3a916d3e31c870a7bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSDate *</type>
+        <definition>NSDate * NSDate(Reporting)::endOfWeek</definition>
+        <argsstring>()</argsstring>
+        <name>endOfWeek</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Reporting.h" line="12" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Reporting.m" bodystart="284" bodyend="295"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_07_reporting_08_1a21bff8f29a0c571757ece3bb08c75a96" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSDate *</type>
+        <definition>NSDate * NSDate(Reporting)::startOfMonth</definition>
+        <argsstring>()</argsstring>
+        <name>startOfMonth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Reporting.h" line="12" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Reporting.m" bodystart="297" bodyend="303"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_07_reporting_08_1a7216694ad13680f05c8ea1d066b5b4a1" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSDate *</type>
+        <definition>NSDate * NSDate(Reporting)::endOfMonth</definition>
+        <argsstring>()</argsstring>
+        <name>endOfMonth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Reporting.h" line="12" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Reporting.m" bodystart="305" bodyend="318"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_07_reporting_08_1a731dcfd2bb8dedcef4f38332f583de20" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSDate *</type>
+        <definition>NSDate * NSDate(Reporting)::startOfYear</definition>
+        <argsstring>()</argsstring>
+        <name>startOfYear</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Reporting.h" line="12" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Reporting.m" bodystart="320" bodyend="326"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_07_reporting_08_1a66af7c76d1269e49b19087d88a2b0580" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSDate *</type>
+        <definition>NSDate * NSDate(Reporting)::endOfYear</definition>
+        <argsstring>()</argsstring>
+        <name>endOfYear</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Reporting.h" line="12" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Reporting.m" bodystart="328" bodyend="340"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_07_reporting_08_1a299c2c603ef1ed83c9833d14b68821a9" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSDate *</type>
+        <definition>NSDate * NSDate(Reporting)::previousDay</definition>
+        <argsstring>()</argsstring>
+        <name>previousDay</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Reporting.h" line="12" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Reporting.m" bodystart="342" bodyend="344"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_07_reporting_08_1a66da2b884ac71f76a9d6e0907c1885cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSDate *</type>
+        <definition>NSDate * NSDate(Reporting)::nextDay</definition>
+        <argsstring>()</argsstring>
+        <name>nextDay</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Reporting.h" line="12" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Reporting.m" bodystart="346" bodyend="348"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_07_reporting_08_1a9479e066142873f7d6392cf1f9bdcf25" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSDate *</type>
+        <definition>NSDate * NSDate(Reporting)::previousWeek</definition>
+        <argsstring>()</argsstring>
+        <name>previousWeek</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Reporting.h" line="12" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Reporting.m" bodystart="350" bodyend="352"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_07_reporting_08_1ac31ec5564fddb6bfc5fb431f75dc26cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSDate *</type>
+        <definition>NSDate * NSDate(Reporting)::nextWeek</definition>
+        <argsstring>()</argsstring>
+        <name>nextWeek</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Reporting.h" line="12" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Reporting.m" bodystart="354" bodyend="356"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_07_reporting_08_1afd7189b90b24cb9cc5880073e8e4e150" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSDate *</type>
+        <definition>NSDate * NSDate(Reporting)::previousMonth</definition>
+        <argsstring>()</argsstring>
+        <name>previousMonth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Reporting.h" line="12" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Reporting.m" bodystart="358" bodyend="360"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_07_reporting_08_1abdd63145a608d20a9ef2c4b8118967b3" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSDate *</type>
+        <definition>NSDate * NSDate(Reporting)::previousMonth:</definition>
+        <argsstring>(NSUInteger monthsToMove)</argsstring>
+        <name>previousMonth:</name>
+        <param>
+          <type>NSUInteger</type>
+          <declname>monthsToMove</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Reporting.h" line="12" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Reporting.m" bodystart="362" bodyend="382"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_07_reporting_08_1a13113b1f69a51bbf43db6c49d5a81ebb" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSDate *</type>
+        <definition>NSDate * NSDate(Reporting)::nextMonth</definition>
+        <argsstring>()</argsstring>
+        <name>nextMonth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Reporting.h" line="12" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Reporting.m" bodystart="384" bodyend="386"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_07_reporting_08_1ad671a35b1304a731b6b18d5f0d6114a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSDate *</type>
+        <definition>NSDate * NSDate(Reporting)::nextMonth:</definition>
+        <argsstring>(NSUInteger monthsToMove)</argsstring>
+        <name>nextMonth:</name>
+        <param>
+          <type>NSUInteger</type>
+          <declname>monthsToMove</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Reporting.h" line="12" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Reporting.m" bodystart="388" bodyend="408"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Reporting.m" line="36" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Reporting.m" bodystart="36" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_n_s_date_07_reporting_08_1af717d6da89c952521a73522a1d2b475a" prot="public" virt="virtual"><scope>NSDate(Reporting)</scope><name>dateCeil</name></member>
+      <member refid="category_n_s_date_07_reporting_08_1af18ca2149a540264962f23789c8448dd" prot="public" virt="virtual"><scope>NSDate(Reporting)</scope><name>dateFloor</name></member>
+      <member refid="category_n_s_date_07_reporting_08_1a33118cc44408d755ba9e970a008ff35a" prot="public" virt="virtual"><scope>NSDate(Reporting)</scope><name>dateWithYear:month:day:</name></member>
+      <member refid="category_n_s_date_07_reporting_08_1a7216694ad13680f05c8ea1d066b5b4a1" prot="public" virt="virtual"><scope>NSDate(Reporting)</scope><name>endOfMonth</name></member>
+      <member refid="category_n_s_date_07_reporting_08_1ac004c6c9f3ec6d3a916d3e31c870a7bc" prot="public" virt="virtual"><scope>NSDate(Reporting)</scope><name>endOfWeek</name></member>
+      <member refid="category_n_s_date_07_reporting_08_1a66af7c76d1269e49b19087d88a2b0580" prot="public" virt="virtual"><scope>NSDate(Reporting)</scope><name>endOfYear</name></member>
+      <member refid="category_n_s_date_07_reporting_08_1af31d31b7fb63f5191dfbbc2fc3cd6687" prot="public" virt="virtual"><scope>NSDate(Reporting)</scope><name>firstDayOfCurrentMonth</name></member>
+      <member refid="category_n_s_date_07_reporting_08_1a0c432e8184177c990b21bba6e8791519" prot="public" virt="virtual"><scope>NSDate(Reporting)</scope><name>firstDayOfCurrentQuarter</name></member>
+      <member refid="category_n_s_date_07_reporting_08_1a3089cbebd45118497245696f825c85bf" prot="public" virt="virtual"><scope>NSDate(Reporting)</scope><name>firstDayOfCurrentYear</name></member>
+      <member refid="category_n_s_date_07_reporting_08_1acca9cc2d8cbbf9f3b2098561b3d31fc3" prot="public" virt="virtual"><scope>NSDate(Reporting)</scope><name>firstDayOfNextMonth</name></member>
+      <member refid="category_n_s_date_07_reporting_08_1a852ab2c931144ab80fb29e785c1a417e" prot="public" virt="virtual"><scope>NSDate(Reporting)</scope><name>firstDayOfNextQuarter</name></member>
+      <member refid="category_n_s_date_07_reporting_08_1a7409771db8b5e8c2451ef70001c7b869" prot="public" virt="virtual"><scope>NSDate(Reporting)</scope><name>firstDayOfNextYear</name></member>
+      <member refid="category_n_s_date_07_reporting_08_1a02928bf2de98dbde731a51b460269628" prot="public" virt="virtual"><scope>NSDate(Reporting)</scope><name>firstDayOfPreviousMonth</name></member>
+      <member refid="category_n_s_date_07_reporting_08_1a35847976912a15b93bbda7cf864dd85c" prot="public" virt="virtual"><scope>NSDate(Reporting)</scope><name>firstDayOfPreviousQuarter</name></member>
+      <member refid="category_n_s_date_07_reporting_08_1aa920e1938b5da675b8efb573f6ba600d" prot="public" virt="virtual"><scope>NSDate(Reporting)</scope><name>firstDayOfPreviousYear</name></member>
+      <member refid="category_n_s_date_07_reporting_08_1a09dd9cbcd3ec9ed226a6e4c4f84bd8de" prot="public" virt="virtual"><scope>NSDate(Reporting)</scope><name>midnightOfDate:</name></member>
+      <member refid="category_n_s_date_07_reporting_08_1a8e9d975580e4f22461f9122d961bfa40" prot="public" virt="virtual"><scope>NSDate(Reporting)</scope><name>midnightToday</name></member>
+      <member refid="category_n_s_date_07_reporting_08_1acfb7632df1c99db2dd8636337f22820c" prot="public" virt="virtual"><scope>NSDate(Reporting)</scope><name>midnightTomorrow</name></member>
+      <member refid="category_n_s_date_07_reporting_08_1a66da2b884ac71f76a9d6e0907c1885cd" prot="public" virt="virtual"><scope>NSDate(Reporting)</scope><name>nextDay</name></member>
+      <member refid="category_n_s_date_07_reporting_08_1a13113b1f69a51bbf43db6c49d5a81ebb" prot="public" virt="virtual"><scope>NSDate(Reporting)</scope><name>nextMonth</name></member>
+      <member refid="category_n_s_date_07_reporting_08_1ad671a35b1304a731b6b18d5f0d6114a4" prot="public" virt="virtual"><scope>NSDate(Reporting)</scope><name>nextMonth:</name></member>
+      <member refid="category_n_s_date_07_reporting_08_1ac31ec5564fddb6bfc5fb431f75dc26cf" prot="public" virt="virtual"><scope>NSDate(Reporting)</scope><name>nextWeek</name></member>
+      <member refid="category_n_s_date_07_reporting_08_1a86152f7cf41f6c6e21981a6ffe882a25" prot="public" virt="virtual"><scope>NSDate(Reporting)</scope><name>oneDayAfter:</name></member>
+      <member refid="category_n_s_date_07_reporting_08_1a299c2c603ef1ed83c9833d14b68821a9" prot="public" virt="virtual"><scope>NSDate(Reporting)</scope><name>previousDay</name></member>
+      <member refid="category_n_s_date_07_reporting_08_1afd7189b90b24cb9cc5880073e8e4e150" prot="public" virt="virtual"><scope>NSDate(Reporting)</scope><name>previousMonth</name></member>
+      <member refid="category_n_s_date_07_reporting_08_1abdd63145a608d20a9ef2c4b8118967b3" prot="public" virt="virtual"><scope>NSDate(Reporting)</scope><name>previousMonth:</name></member>
+      <member refid="category_n_s_date_07_reporting_08_1a9479e066142873f7d6392cf1f9bdcf25" prot="public" virt="virtual"><scope>NSDate(Reporting)</scope><name>previousWeek</name></member>
+      <member refid="category_n_s_date_07_reporting_08_1a21bff8f29a0c571757ece3bb08c75a96" prot="public" virt="virtual"><scope>NSDate(Reporting)</scope><name>startOfMonth</name></member>
+      <member refid="category_n_s_date_07_reporting_08_1a6a72e6f7bcecb1a9c6dc23e8a2539901" prot="public" virt="virtual"><scope>NSDate(Reporting)</scope><name>startOfWeek</name></member>
+      <member refid="category_n_s_date_07_reporting_08_1a731dcfd2bb8dedcef4f38332f583de20" prot="public" virt="virtual"><scope>NSDate(Reporting)</scope><name>startOfYear</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,148 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_n_s_string_09_ruby_8h" kind="file" language="C++">
+    <compoundname>NSString+Ruby.h</compoundname>
+    <includes local="no">Foundation/Foundation.h</includes>
+    <includedby refid="_n_s_mutable_string_09_ruby_8h" local="yes">XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSMutableString+Ruby.h</includedby>
+    <includedby refid="_n_s_string_09_ruby_8m" local="yes">XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.m</includedby>
+    <incdepgraph>
+      <node id="895">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.h</label>
+        <link refid="NSString+Ruby.h"/>
+        <childnode refid="896" relation="include">
+        </childnode>
+      </node>
+      <node id="896">
+        <label>Foundation/Foundation.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="897">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.h</label>
+        <link refid="NSString+Ruby.h"/>
+        <childnode refid="898" relation="include">
+        </childnode>
+        <childnode refid="900" relation="include">
+        </childnode>
+      </node>
+      <node id="900">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.m</label>
+        <link refid="_n_s_string_09_ruby_8m"/>
+      </node>
+      <node id="898">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSMutableString+Ruby.h</label>
+        <link refid="_n_s_mutable_string_09_ruby_8h"/>
+        <childnode refid="899" relation="include">
+        </childnode>
+      </node>
+      <node id="899">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSMutableString+Ruby.m</label>
+        <link refid="_n_s_mutable_string_09_ruby_8m"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="protocol_concatenatable-p" prot="public">Concatenatable-p</innerclass>
+    <innerclass refid="category_n_s_number_07_ruby_08" prot="public">NSNumber(Ruby)</innerclass>
+    <innerclass refid="category_n_s_string_07_ruby_08" prot="public">NSString(Ruby)</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>NSString+Ruby.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Zachary<sp/>Davison<sp/>on<sp/>30/10/2012.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2012<sp/>ZD.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="comment">//https://github.com/zdavison/NSString-Ruby</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;Foundation/Foundation.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/>-<sp/>Categories</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="protocol_concatenatable-p" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">@protocol<sp/></highlight><highlight class="normal"><ref refid="protocol_concatenatable-p" kindref="compound">Concatenatable</ref><sp/>&lt;NSObject&gt;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="category_n_s_number_07_ruby_08" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="category_n_s_number_07_ruby_08" kindref="compound">NSNumber(Ruby)</ref><sp/>&lt;<ref refid="protocol_concatenatable-p" kindref="compound">Concatenatable</ref>&gt;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="category_n_s_string_07_ruby_08" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="category_n_s_string_07_ruby_08" kindref="compound">NSString(Ruby)</ref><sp/>&lt;<ref refid="protocol_concatenatable-p" kindref="compound">Concatenatable</ref>&gt;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="comment">//Operator-likes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal">-<sp/>(NSString*):(NSObject*)concat,<sp/>...;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal">-<sp/>(NSString*)x:(NSInteger<sp/>)mult;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="comment">//Shorthand<sp/>Accessors</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal">-<sp/>(NSString*):(NSInteger<sp/>)loc<sp/>:(NSInteger<sp/>)len;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal">-<sp/>(NSString*):(NSInteger<sp/>)start<sp/>:(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*)shorthand<sp/>:(NSInteger<sp/>)end;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="comment">//Ruby<sp/>Methods</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal">-<sp/>(void)bytes:(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">(^)(unichar))block;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal">-<sp/>(NSString*)center:(NSInteger<sp/>)amount;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal">-<sp/>(NSString*)center:(NSInteger<sp/>)amount<sp/>with:(NSString*)padString;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal">-<sp/>(void)chars:(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">(^)(unichar))block;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal">-<sp/>(NSString*)<ref refid="category_n_s_string_07_ruby_08_1a648d291be5e2ef28a925b92733761fd2" kindref="member">chomp</ref>;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal">-<sp/>(NSString*)<ref refid="category_n_s_string_07_ruby_08_1a648d291be5e2ef28a925b92733761fd2" kindref="member">chomp</ref>:(NSString*)string;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal">-<sp/>(NSString*)<ref refid="category_n_s_string_07_ruby_08_1a4b41b3f52d9045d5f1f1fa36d28f9492" kindref="member">chop</ref>;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal">-<sp/>(NSString*)<ref refid="category_n_s_string_07_ruby_08_1a1deab2f950218f7c223d53b9059b719f" kindref="member">chr</ref>;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal">-<sp/>(void)codePoints:(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">(^)(NSInteger<sp/>))block;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal">-<sp/>(NSString*)concat:(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)concat;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal">-<sp/>(NSInteger)count:(NSString*)setString,<sp/>...;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal">-<sp/>(NSString*)delete:(NSString*)first,<sp/>...;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal">-<sp/>(BOOL)endsWith:(NSString*)first,...;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal">-<sp/>(long)<ref refid="category_n_s_string_07_ruby_08_1a57e1af22fee15afba55296ad6c34812e" kindref="member">hex</ref>;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal">-<sp/>(BOOL)includes:(NSString*)include;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal">-<sp/>(NSInteger)index:(NSString*)pattern;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal">-<sp/>(NSInteger)index:(NSString*)pattern<sp/>offset:(NSInteger<sp/>)offset;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal">-<sp/>(NSString*)insert:(NSInteger)index<sp/>string:(NSString*)string;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal">-<sp/>(NSString*)<ref refid="category_n_s_string_07_ruby_08_1a97d22dec22b9ee91ea066de6c86a5e5c" kindref="member">inspect</ref>;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal">-<sp/>(BOOL)<ref refid="category_n_s_string_07_ruby_08_1a1234a5f043edc5eb05f685d523eee258" kindref="member">isASCII</ref>;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal">-<sp/>(BOOL)<ref refid="category_n_s_string_07_ruby_08_1ab16c6123879199765c3f0275977fd49d" kindref="member">isEmpty</ref>;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal">-<sp/>(NSInteger)lastIndex:(NSString*)pattern;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal">-<sp/>(NSInteger)lastIndex:(NSString*)pattern<sp/>offset:(NSInteger<sp/>)offset;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal">-<sp/>(NSString*)leftJustify:(NSInteger<sp/>)amount;</highlight></codeline>
+<codeline lineno="55"><highlight class="normal">-<sp/>(NSString*)leftJustify:(NSInteger<sp/>)amount<sp/>with:(NSString*)padString;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal">-<sp/>(NSString*)<ref refid="category_n_s_string_07_ruby_08_1aae6b68d89b1ef5769dcea465f828ce93" kindref="member">leftStrip</ref>;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal">-<sp/>(void)lines:(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">(^)(NSString*))block;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal">-<sp/>(void)lines:(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">(^)(NSString*))block<sp/>separator:(NSString*)separator;</highlight></codeline>
+<codeline lineno="59"><highlight class="normal">-<sp/>(NSArray*)match:(NSString*)pattern;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal">-<sp/>(NSArray*)match:(NSString*)pattern<sp/>offset:(NSInteger<sp/>)offset;</highlight></codeline>
+<codeline lineno="61"><highlight class="normal">-<sp/>(NSInteger)occurencesOf:(NSString*)subString;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal">-<sp/>(long)<ref refid="category_n_s_string_07_ruby_08_1a7d37720c2222ce804fdb6ca29d87f8f3" kindref="member">octal</ref>;</highlight></codeline>
+<codeline lineno="63"><highlight class="normal">-<sp/>(NSInteger<sp/>)<ref refid="category_n_s_string_07_ruby_08_1a6097bae77a164881e54b8f9c69cd64a7" kindref="member">ordinal</ref>;</highlight></codeline>
+<codeline lineno="64"><highlight class="normal">-<sp/>(NSArray*)partition:(NSString*)pattern;</highlight></codeline>
+<codeline lineno="65"><highlight class="normal">-<sp/>(NSString*)prepend:(NSString*)prefix;</highlight></codeline>
+<codeline lineno="66"><highlight class="normal">-<sp/>(NSRange)<ref refid="category_n_s_string_07_ruby_08_1a2db0eec8686b09fc895cd7d7c0c1cd5a" kindref="member">range</ref>;</highlight></codeline>
+<codeline lineno="67"><highlight class="normal">-<sp/>(NSString*)<ref refid="category_n_s_string_07_ruby_08_1a86fec7f0d900b1f3ab8cf5f3627aeb5b" kindref="member">reverse</ref>;</highlight></codeline>
+<codeline lineno="68"><highlight class="normal">-<sp/>(NSInteger)rightIndex:(NSString*)pattern;</highlight></codeline>
+<codeline lineno="69"><highlight class="normal">-<sp/>(NSInteger)rightIndex:(NSString*)pattern<sp/>offset:(NSInteger<sp/>)offset;</highlight></codeline>
+<codeline lineno="70"><highlight class="normal">-<sp/>(NSString*)rightJustify:(NSInteger<sp/>)amount;</highlight></codeline>
+<codeline lineno="71"><highlight class="normal">-<sp/>(NSString*)rightJustify:(NSInteger<sp/>)amount<sp/>with:(NSString*)padString;</highlight></codeline>
+<codeline lineno="72"><highlight class="normal">-<sp/>(NSArray*)rightPartition:(NSString*)pattern;</highlight></codeline>
+<codeline lineno="73"><highlight class="normal">-<sp/>(NSString*)<ref refid="category_n_s_string_07_ruby_08_1a1bc44701016b0fcceadb663d4d4a56a1" kindref="member">rightStrip</ref>;</highlight></codeline>
+<codeline lineno="74"><highlight class="normal">-<sp/>(NSArray*)scan:(NSString*)pattern;</highlight></codeline>
+<codeline lineno="75"><highlight class="normal">-<sp/>(BOOL)startsWith:(NSString*)first,...;</highlight></codeline>
+<codeline lineno="76"><highlight class="normal">-<sp/>(NSString*)<ref refid="category_n_s_string_07_ruby_08_1ad3b4b60edc13e328186e390bff9f5a3e" kindref="member">strip</ref>;</highlight></codeline>
+<codeline lineno="77"><highlight class="normal">-<sp/>(NSArray*)<ref refid="category_n_s_string_07_ruby_08_1a4753cf32665d301a03313d6f311bdd2a" kindref="member">split</ref>;</highlight></codeline>
+<codeline lineno="78"><highlight class="normal">-<sp/>(NSArray*)<ref refid="category_n_s_string_07_ruby_08_1a4753cf32665d301a03313d6f311bdd2a" kindref="member">split</ref>:(NSString*)pattern;</highlight></codeline>
+<codeline lineno="79"><highlight class="normal">-<sp/>(NSArray*)<ref refid="category_n_s_string_07_ruby_08_1a4753cf32665d301a03313d6f311bdd2a" kindref="member">split</ref>:(NSString*)pattern<sp/>limit:(NSInteger<sp/>)limit;</highlight></codeline>
+<codeline lineno="80"><highlight class="normal">-<sp/>(NSString*)<ref refid="category_n_s_string_07_ruby_08_1a04c55cfca941c8747ff6e2f8d5438531" kindref="member">squeeze</ref>;</highlight></codeline>
+<codeline lineno="81"><highlight class="normal">-<sp/>(NSString*)<ref refid="category_n_s_string_07_ruby_08_1a04c55cfca941c8747ff6e2f8d5438531" kindref="member">squeeze</ref>:(NSString*)pattern;</highlight></codeline>
+<codeline lineno="82"><highlight class="normal">-<sp/>(NSString*)substituteFirst:(NSString*)pattern<sp/>with:(NSString*)sub;</highlight></codeline>
+<codeline lineno="83"><highlight class="normal">-<sp/>(NSString*)substituteLast:(NSString*)pattern<sp/>with:(NSString*)sub;</highlight></codeline>
+<codeline lineno="84"><highlight class="normal">-<sp/>(NSString*)substituteAll:(NSDictionary*)subDictionary;</highlight></codeline>
+<codeline lineno="85"><highlight class="normal">-<sp/>(NSString*)substituteAll:(NSString*)pattern<sp/>with:(NSString*)sub;</highlight></codeline>
+<codeline lineno="86"><highlight class="normal">-<sp/>(NSInteger<sp/>)<ref refid="category_n_s_string_07_ruby_08_1ac0d413bba0f5c657eae5f3aa81435ca9" kindref="member">sum</ref>;</highlight></codeline>
+<codeline lineno="87"><highlight class="normal">-<sp/>(NSInteger<sp/>)<ref refid="category_n_s_string_07_ruby_08_1ac0d413bba0f5c657eae5f3aa81435ca9" kindref="member">sum</ref>:(NSInteger<sp/>)bit;</highlight></codeline>
+<codeline lineno="88"><highlight class="normal">-<sp/>(NSString*)<ref refid="category_n_s_string_07_ruby_08_1aa04475f7a211698b150aa598ac530a7a" kindref="member">swapcase</ref>;</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight><highlight class="comment">//Subscript<sp/>Protocol</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal">-<sp/>(id)objectAtIndexedSubscript:(NSUInteger)index;</highlight></codeline>
+<codeline lineno="92"><highlight class="normal">-<sp/>(id)objectForKeyedSubscript:(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)key;</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.h"/>
+  </compounddef>
+</doxygen>

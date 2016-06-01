@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="class_x_d_camera_orientation_monitor" kind="class" language="Objective-C" prot="public">
+    <compoundname>XDCameraOrientationMonitor</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">NSObject</basecompoundref>
+    <includes refid="_x_d_camera_orientation_monitor_8h" local="no">XDCameraOrientationMonitor.h</includes>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_x_d_camera_orientation_monitor_1a3d0a131b2d5f7ef31fb071c0cc4d28b0" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="assign">
+        <type>UIDeviceOrientation</type>
+        <definition>UIDeviceOrientation XDCameraOrientationMonitor::orientation</definition>
+        <argsstring></argsstring>
+        <name>orientation</name>
+        <read></read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDCameraOrientationMonitor.h" line="19" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDCameraOrientationMonitor.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_x_d_camera_orientation_monitor_1a68e6fa27ea31cffcf37c3787f91dcd2a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>instancetype</type>
+        <definition>instancetype XDCameraOrientationMonitor::monitor</definition>
+        <argsstring>()</argsstring>
+        <name>monitor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDCameraOrientationMonitor.h" line="19" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDCameraOrientationMonitor.m" bodystart="56" bodyend="63"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_x_d_camera_orientation_monitor_1a05e224a58a357314190c5ee2334f8f06" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSInteger</type>
+        <definition>NSInteger XDCameraOrientationMonitor::updateEmitterOrientationWithCamera:frontMirror:</definition>
+        <argsstring>(BOOL isFront,[frontMirror] BOOL isForntMirror)</argsstring>
+        <name>updateEmitterOrientationWithCamera:frontMirror:</name>
+        <param>
+          <type>BOOL</type>
+          <declname>isFront</declname>
+        </param>
+        <param>
+          <attributes>[frontMirror]</attributes>
+          <type>BOOL</type>
+          <declname>isForntMirror</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDCameraOrientationMonitor.h" line="19" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDCameraOrientationMonitor.m" bodystart="160" bodyend="221"/>
+      </memberdef>
+      <memberdef kind="function" id="class_x_d_camera_orientation_monitor_1a0ed40d3f3c3fa347f0433c5f2e8ad826" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * XDCameraOrientationMonitor::getOrientationString</definition>
+        <argsstring>()</argsstring>
+        <name>getOrientationString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDCameraOrientationMonitor.h" line="19" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDCameraOrientationMonitor.m" bodystart="130" bodyend="158"/>
+      </memberdef>
+      <memberdef kind="function" id="class_x_d_camera_orientation_monitor_1afd0e737c43c20ba7d84118a1353ba413" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>UIImageOrientation</type>
+        <definition>UIImageOrientation XDCameraOrientationMonitor::getUIImageOrientationFromUIDeviceOrientation:frontMirror:</definition>
+        <argsstring>(BOOL isFront,[frontMirror] BOOL isForntMirror)</argsstring>
+        <name>getUIImageOrientationFromUIDeviceOrientation:frontMirror:</name>
+        <param>
+          <type>BOOL</type>
+          <declname>isFront</declname>
+        </param>
+        <param>
+          <attributes>[frontMirror]</attributes>
+          <type>BOOL</type>
+          <declname>isForntMirror</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDCameraOrientationMonitor.h" line="19" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDCameraOrientationMonitor.m" bodystart="223" bodyend="282"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>摄像机朝向监听类 </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="1235">
+        <label>XDCameraOrientationMonitor</label>
+        <link refid="class_x_d_camera_orientation_monitor"/>
+        <childnode refid="1236" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1236">
+        <label>NSObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1237">
+        <label>XDCameraOrientationMonitor</label>
+        <link refid="class_x_d_camera_orientation_monitor"/>
+        <childnode refid="1238" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1238">
+        <label>NSObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDCameraOrientationMonitor.m" line="52" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDCameraOrientationMonitor.m" bodystart="52" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="class_x_d_camera_orientation_monitor_1a0ed40d3f3c3fa347f0433c5f2e8ad826" prot="public" virt="virtual"><scope>XDCameraOrientationMonitor</scope><name>getOrientationString</name></member>
+      <member refid="class_x_d_camera_orientation_monitor_1afd0e737c43c20ba7d84118a1353ba413" prot="public" virt="virtual"><scope>XDCameraOrientationMonitor</scope><name>getUIImageOrientationFromUIDeviceOrientation:frontMirror:</name></member>
+      <member refid="class_x_d_camera_orientation_monitor_1a68e6fa27ea31cffcf37c3787f91dcd2a" prot="public" virt="virtual"><scope>XDCameraOrientationMonitor</scope><name>monitor</name></member>
+      <member refid="class_x_d_camera_orientation_monitor_1a3d0a131b2d5f7ef31fb071c0cc4d28b0" prot="public" virt="non-virtual"><scope>XDCameraOrientationMonitor</scope><name>orientation</name></member>
+      <member refid="class_x_d_camera_orientation_monitor_1a05e224a58a357314190c5ee2334f8f06" prot="public" virt="virtual"><scope>XDCameraOrientationMonitor</scope><name>updateEmitterOrientationWithCamera:frontMirror:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

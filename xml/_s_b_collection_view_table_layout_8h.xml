@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_s_b_collection_view_table_layout_8h" kind="file" language="C++">
+    <compoundname>SBCollectionViewTableLayout.h</compoundname>
+    <includes local="no">UIKit/UIKit.h</includes>
+    <includedby refid="_s_b_collection_view_table_layout_8m" local="yes">XDCommonLib/CommonBasicComponentLayer/Venders/SBTableLayout/SBCollectionViewTableLayout.m</includedby>
+    <incdepgraph>
+      <node id="3597">
+        <label>UIKit/UIKit.h</label>
+      </node>
+      <node id="3596">
+        <label>XDCommonLib/CommonBasicComponentLayer/Venders/SBTableLayout/SBCollectionViewTableLayout.h</label>
+        <link refid="SBCollectionViewTableLayout.h"/>
+        <childnode refid="3597" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3598">
+        <label>XDCommonLib/CommonBasicComponentLayer/Venders/SBTableLayout/SBCollectionViewTableLayout.h</label>
+        <link refid="SBCollectionViewTableLayout.h"/>
+        <childnode refid="3599" relation="include">
+        </childnode>
+      </node>
+      <node id="3599">
+        <label>XDCommonLib/CommonBasicComponentLayer/Venders/SBTableLayout/SBCollectionViewTableLayout.m</label>
+        <link refid="_s_b_collection_view_table_layout_8m"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="protocol_s_b_collection_view_delegate_table_layout-p" prot="public">SBCollectionViewDelegateTableLayout-p</innerclass>
+    <innerclass refid="class_s_b_collection_view_table_layout" prot="public">SBCollectionViewTableLayout</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>SBCollectionViewTableLayout.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>SBTableLayout</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Simon<sp/>Blommegård<sp/>on<sp/>2013-11-11.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2013<sp/>Simon<sp/>Blommegård.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;UIKit/UIKit.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="protocol_s_b_collection_view_delegate_table_layout-p" refkind="compound"><highlight class="keyword">@protocol<sp/></highlight><highlight class="normal"><ref refid="protocol_s_b_collection_view_delegate_table_layout-p" kindref="compound">SBCollectionViewDelegateTableLayout</ref><sp/>&lt;UICollectionViewDelegateFlowLayout&gt;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">@optional</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal">-<sp/>(UIEdgeInsets)collectionView:(UICollectionView<sp/>*)collectionView<sp/>layout:(UICollectionViewLayout*)collectionViewLayout<sp/>middleSeparatorInsetForSectionAntIndex:(NSInteger)section;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal">-<sp/>(CGFloat)collectionView:(UICollectionView<sp/>*)collectionView<sp/>layout:(UICollectionViewLayout*)collectionViewLayout<sp/>borderSeparatorWidthForSectionAntIndex:(NSInteger)section;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal">-<sp/>(CGFloat)collectionView:(UICollectionView<sp/>*)collectionView<sp/>layout:(UICollectionViewLayout*)collectionViewLayout<sp/>middleSeparatorWidthForSectionAntIndex:(NSInteger)section;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="class_s_b_collection_view_table_layout" kindref="compound">SBCollectionViewTableLayout</ref><sp/>:<sp/>UICollectionViewFlowLayout</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31" refid="class_s_b_collection_view_table_layout_1a1c52fc8b5602e751201f3b45458c8bf1" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic)<sp/>UIEdgeInsets<sp/><ref refid="class_s_b_collection_view_table_layout_1a1c52fc8b5602e751201f3b45458c8bf1" kindref="member">middleSeparatorInset</ref>;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36" refid="class_s_b_collection_view_table_layout_1a97a579c0ca48784e50863bace115e24e" refkind="member"><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic)<sp/>CGFloat<sp/><ref refid="class_s_b_collection_view_table_layout_1a97a579c0ca48784e50863bace115e24e" kindref="member">borderSeparatorWidth</ref>;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="class_s_b_collection_view_table_layout_1a0b194e3e8a78b4c9594b39ff987a4518" refkind="member"><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic)<sp/>CGFloat<sp/><ref refid="class_s_b_collection_view_table_layout_1a0b194e3e8a78b4c9594b39ff987a4518" kindref="member">middleSeparatorWidth</ref>;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/SBTableLayout/SBCollectionViewTableLayout.h"/>
+  </compounddef>
+</doxygen>

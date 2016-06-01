@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="dir_be0ea0015e153ea808524a440fafb1f2" kind="dir">
+    <compoundname>XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDictionary</compoundname>
+    <innerfile refid="_n_s_dictionary_09_block_8h">NSDictionary+Block.h</innerfile>
+    <innerfile refid="_n_s_dictionary_09_block_8m">NSDictionary+Block.m</innerfile>
+    <innerfile refid="_n_s_dictionary_09_j_s_o_n_string_8h">NSDictionary+JSONString.h</innerfile>
+    <innerfile refid="_n_s_dictionary_09_j_s_o_n_string_8m">NSDictionary+JSONString.m</innerfile>
+    <innerfile refid="_n_s_dictionary_09_merge_8h">NSDictionary+Merge.h</innerfile>
+    <innerfile refid="_n_s_dictionary_09_merge_8m">NSDictionary+Merge.m</innerfile>
+    <innerfile refid="_n_s_dictionary_09_safe_access_8h">NSDictionary+SafeAccess.h</innerfile>
+    <innerfile refid="_n_s_dictionary_09_safe_access_8m">NSDictionary+SafeAccess.m</innerfile>
+    <innerfile refid="_n_s_dictionary_09_u_r_l_8h">NSDictionary+URL.h</innerfile>
+    <innerfile refid="_n_s_dictionary_09_u_r_l_8m">NSDictionary+URL.m</innerfile>
+    <innerfile refid="_n_s_dictionary_09_x_d_common_lib_8h">NSDictionary+XDCommonLib.h</innerfile>
+    <innerfile refid="_n_s_dictionary_09_x_d_common_lib_8m">NSDictionary+XDCommonLib.m</innerfile>
+    <innerfile refid="_n_s_dictionary_09_x_m_l_8h">NSDictionary+XML.h</innerfile>
+    <innerfile refid="_n_s_dictionary_09_x_m_l_8m">NSDictionary+XML.m</innerfile>
+    <innerfile refid="_n_s_mutable_dictionary_09_x_d_common_lib_8h">NSMutableDictionary+XDCommonLib.h</innerfile>
+    <innerfile refid="_n_s_mutable_dictionary_09_x_d_common_lib_8m">NSMutableDictionary+XDCommonLib.m</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDictionary/"/>
+  </compounddef>
+</doxygen>

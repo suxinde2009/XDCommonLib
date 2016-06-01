@@ -1,0 +1,238 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_u_i_navigation_controller_07_j_z_extension_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>UINavigationController(JZExtension)</compoundname>
+    <includes refid="_u_i_navigation_controller_09_j_z_extension_8h" local="no">UINavigationController+JZExtension.h</includes>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="category_u_i_navigation_controller_07_j_z_extension_08_1a6a6c8af5b40a85130a329f4de7fcc0b7" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="assign">
+        <type>CGSize</type>
+        <definition>CGSize UINavigationController(JZExtension)::navigationBarSize</definition>
+        <argsstring></argsstring>
+        <name>navigationBarSize</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>when the interactive pop gesture recognizer&apos;s UIGestureRecognizerState is UIGestureRecognizerStateChanged. This category helps to change navigationBar or toolBar to any size, if you want default value, then set to 0.f. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UINavigationController/UINavigationController+JZExtension.h" line="43" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UINavigationController/UINavigationController+JZExtension.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_u_i_navigation_controller_07_j_z_extension_08_1ae81eb7f3b5441622e8b9ee4c1a64dea1" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="assign">
+        <type>CGSize</type>
+        <definition>CGSize UINavigationController(JZExtension)::toolbarSize</definition>
+        <argsstring></argsstring>
+        <name>toolbarSize</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UINavigationController/UINavigationController+JZExtension.h" line="44" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UINavigationController/UINavigationController+JZExtension.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="category_u_i_navigation_controller_07_j_z_extension_08_1a9db4879308dc6eb8aa6310701a34c854" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>BOOL fullScreenInteractivePopGestureRecognizer</type>
+        <definition>BOOL fullScreenInteractivePopGestureRecognizer UINavigationController(JZExtension)::NS_AVAILABLE_IOS</definition>
+        <argsstring>(7_0)</argsstring>
+        <name>NS_AVAILABLE_IOS</name>
+        <param>
+          <type>7_0</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UINavigationController/UINavigationController+JZExtension.h" line="33" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_navigation_controller_07_j_z_extension_08_1aa05b25447c6c347eabfa60baba5729a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>CGFloat navigationBarBackgroundAlpha</type>
+        <definition>CGFloat navigationBarBackgroundAlpha UINavigationController(JZExtension)::NS_AVAILABLE_IOS</definition>
+        <argsstring>(7_0)</argsstring>
+        <name>NS_AVAILABLE_IOS</name>
+        <param>
+          <type>7_0</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>gesture recognizer responsible for popping the top view controller off the navigation stack, and the property is still &quot;interactivePopGestureRecognizer&quot;, see more for &quot;UINavigationController.h&quot;, Default is NO. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UINavigationController/UINavigationController+JZExtension.h" line="36" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_navigation_controller_07_j_z_extension_08_1a96f46ae9e8f26f226c5a76c754d6392a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>CGFloat toolbarBackgroundAlpha</type>
+        <definition>CGFloat toolbarBackgroundAlpha UINavigationController(JZExtension)::NS_AVAILABLE_IOS</definition>
+        <argsstring>(7_0)</argsstring>
+        <name>NS_AVAILABLE_IOS</name>
+        <param>
+          <type>7_0</type>
+        </param>
+        <briefdescription>
+<para>navigationBar will be invisable, default is 1. Animatable </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UINavigationController/UINavigationController+JZExtension.h" line="38" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_navigation_controller_07_j_z_extension_08_1ae7fdfeae9aa20c0cea6ea36f65f7b76e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>UIViewController *interactivePopedViewController</type>
+        <definition>UIViewController* interactivePopedViewController UINavigationController(JZExtension)::NS_AVAILABLE_IOS</definition>
+        <argsstring>(7_0)</argsstring>
+        <name>NS_AVAILABLE_IOS</name>
+        <param>
+          <type>7_0</type>
+        </param>
+        <briefdescription>
+<para>make sure the toolbarHidden property is NO, default is 1. Animatable </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UINavigationController/UINavigationController+JZExtension.h" line="40" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_navigation_controller_07_j_z_extension_08_1afbb81b0de559a87520713d7b7e64447f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>UIViewController *</type>
+        <definition>UIViewController * UINavigationController(JZExtension)::previousViewControllerForViewController:</definition>
+        <argsstring>(UIViewController *viewController)</argsstring>
+        <name>previousViewControllerForViewController:</name>
+        <param>
+          <type>UIViewController *</type>
+          <declname>viewController</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UINavigationController/UINavigationController+JZExtension.h" line="44" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UINavigationController/UINavigationController+JZExtension.m" bodystart="321" bodyend="327"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_navigation_controller_07_j_z_extension_08_1ae66f6b9b6deb63b516079b664076d50b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UINavigationController(JZExtension)::pushViewController:animated:completion:</definition>
+        <argsstring>(UIViewController *viewController,[animated] BOOL animated,[completion] void(^completion)(BOOL finished))</argsstring>
+        <name>pushViewController:animated:completion:</name>
+        <param>
+          <type>UIViewController *</type>
+          <declname>viewController</declname>
+        </param>
+        <param>
+          <attributes>[animated]</attributes>
+          <type>BOOL</type>
+          <declname>animated</declname>
+        </param>
+        <param>
+          <attributes>[completion]</attributes>
+          <type>void(^)(BOOL finished)</type>
+          <declname>completion</declname>
+        </param>
+        <briefdescription>
+<para>view controller&apos;s previous view controller in the navigation stack. </para>        </briefdescription>
+        <detaileddescription>
+<para>Called at end of animation of push/pop or immediately if not animated. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UINavigationController/UINavigationController+JZExtension.h" line="44" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_navigation_controller_07_j_z_extension_08_1abeb3d6fb3e2bba678b4d30a12d36979c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>UIViewController *</type>
+        <definition>UIViewController * UINavigationController(JZExtension)::popViewControllerAnimated:completion:</definition>
+        <argsstring>(BOOL animated,[completion] void(^completion)(BOOL finished))</argsstring>
+        <name>popViewControllerAnimated:completion:</name>
+        <param>
+          <type>BOOL</type>
+          <declname>animated</declname>
+        </param>
+        <param>
+          <attributes>[completion]</attributes>
+          <type>void(^)(BOOL finished)</type>
+          <declname>completion</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UINavigationController/UINavigationController+JZExtension.h" line="44" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_navigation_controller_07_j_z_extension_08_1af7fe423c9dedb597efcd1d9d06d225c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSArray *</type>
+        <definition>NSArray * UINavigationController(JZExtension)::popToRootViewControllerAnimated:completion:</definition>
+        <argsstring>(BOOL animated,[completion] void(^completion)(BOOL finished))</argsstring>
+        <name>popToRootViewControllerAnimated:completion:</name>
+        <param>
+          <type>BOOL</type>
+          <declname>animated</declname>
+        </param>
+        <param>
+          <attributes>[completion]</attributes>
+          <type>void(^)(BOOL finished)</type>
+          <declname>completion</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UINavigationController/UINavigationController+JZExtension.h" line="44" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UINavigationController/UINavigationController+JZExtension.m" bodystart="190" bodyend="205"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_navigation_controller_07_j_z_extension_08_1ad70f8dc772ed69608d95ad1afca9c251" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSArray *</type>
+        <definition>NSArray * UINavigationController(JZExtension)::popToViewController:animated:completion:</definition>
+        <argsstring>(UIViewController *viewController,[animated] BOOL animated,[completion] void(^completion)(BOOL finished))</argsstring>
+        <name>popToViewController:animated:completion:</name>
+        <param>
+          <type>UIViewController *</type>
+          <declname>viewController</declname>
+        </param>
+        <param>
+          <attributes>[animated]</attributes>
+          <type>BOOL</type>
+          <declname>animated</declname>
+        </param>
+        <param>
+          <attributes>[completion]</attributes>
+          <type>void(^)(BOOL finished)</type>
+          <declname>completion</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UINavigationController/UINavigationController+JZExtension.h" line="44" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UINavigationController/UINavigationController+JZExtension.m" bodystart="174" bodyend="188"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>The &quot;UINavigationController+JZExtension&quot; category integrates some convenient functions and open some hide property for UINavigationController, such as gives your UINavigationController a fullscreen interactivePopGestureRecognizer, all you need is enable/disable &quot;fullScreenInteractivePopGestureRecognizer&quot; property for each ViewController. If you have some ViewController which doesn&apos;t wants a navigation bar, you can set the &quot;hidesNavigationBarWhenPushed&quot; property to YES. You can also adjust your navigationBar or toolbar&apos;s background alpha. </para>    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UINavigationController/UINavigationController+JZExtension.m" line="51" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UINavigationController/UINavigationController+JZExtension.m" bodystart="51" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_u_i_navigation_controller_07_j_z_extension_08_1a6a6c8af5b40a85130a329f4de7fcc0b7" prot="public" virt="non-virtual"><scope>UINavigationController(JZExtension)</scope><name>navigationBarSize</name></member>
+      <member refid="category_u_i_navigation_controller_07_j_z_extension_08_1a9db4879308dc6eb8aa6310701a34c854" prot="public" virt="non-virtual"><scope>UINavigationController(JZExtension)</scope><name>NS_AVAILABLE_IOS</name></member>
+      <member refid="category_u_i_navigation_controller_07_j_z_extension_08_1aa05b25447c6c347eabfa60baba5729a7" prot="public" virt="non-virtual"><scope>UINavigationController(JZExtension)</scope><name>NS_AVAILABLE_IOS</name></member>
+      <member refid="category_u_i_navigation_controller_07_j_z_extension_08_1a96f46ae9e8f26f226c5a76c754d6392a" prot="public" virt="non-virtual"><scope>UINavigationController(JZExtension)</scope><name>NS_AVAILABLE_IOS</name></member>
+      <member refid="category_u_i_navigation_controller_07_j_z_extension_08_1ae7fdfeae9aa20c0cea6ea36f65f7b76e" prot="public" virt="non-virtual"><scope>UINavigationController(JZExtension)</scope><name>NS_AVAILABLE_IOS</name></member>
+      <member refid="category_u_i_navigation_controller_07_j_z_extension_08_1af7fe423c9dedb597efcd1d9d06d225c6" prot="public" virt="virtual"><scope>UINavigationController(JZExtension)</scope><name>popToRootViewControllerAnimated:completion:</name></member>
+      <member refid="category_u_i_navigation_controller_07_j_z_extension_08_1ad70f8dc772ed69608d95ad1afca9c251" prot="public" virt="virtual"><scope>UINavigationController(JZExtension)</scope><name>popToViewController:animated:completion:</name></member>
+      <member refid="category_u_i_navigation_controller_07_j_z_extension_08_1abeb3d6fb3e2bba678b4d30a12d36979c" prot="public" virt="virtual"><scope>UINavigationController(JZExtension)</scope><name>popViewControllerAnimated:completion:</name></member>
+      <member refid="category_u_i_navigation_controller_07_j_z_extension_08_1afbb81b0de559a87520713d7b7e64447f" prot="public" virt="virtual"><scope>UINavigationController(JZExtension)</scope><name>previousViewControllerForViewController:</name></member>
+      <member refid="category_u_i_navigation_controller_07_j_z_extension_08_1ae66f6b9b6deb63b516079b664076d50b" prot="public" virt="virtual"><scope>UINavigationController(JZExtension)</scope><name>pushViewController:animated:completion:</name></member>
+      <member refid="category_u_i_navigation_controller_07_j_z_extension_08_1ae81eb7f3b5441622e8b9ee4c1a64dea1" prot="public" virt="non-virtual"><scope>UINavigationController(JZExtension)</scope><name>toolbarSize</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_u_i_bar_button_item_09_blocks_kit_8h" kind="file" language="C++">
+    <compoundname>UIBarButtonItem+BlocksKit.h</compoundname>
+    <includes refid="_b_k_defines_8h" local="yes">BKDefines.h</includes>
+    <includes local="no">UIKit/UIKit.h</includes>
+    <includedby refid="_u_i_bar_button_item_09_blocks_kit_8m" local="yes">XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIBarButtonItem+BlocksKit.m</includedby>
+    <incdepgraph>
+      <node id="3056">
+        <label>Foundation/NSObjCRuntime.h</label>
+      </node>
+      <node id="3057">
+        <label>UIKit/UIKit.h</label>
+      </node>
+      <node id="3055">
+        <label>BKDefines.h</label>
+        <link refid="_b_k_defines_8h"/>
+        <childnode refid="3056" relation="include">
+        </childnode>
+      </node>
+      <node id="3054">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIBarButtonItem+BlocksKit.h</label>
+        <link refid="UIBarButtonItem+BlocksKit.h"/>
+        <childnode refid="3055" relation="include">
+        </childnode>
+        <childnode refid="3057" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3058">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIBarButtonItem+BlocksKit.h</label>
+        <link refid="UIBarButtonItem+BlocksKit.h"/>
+        <childnode refid="3059" relation="include">
+        </childnode>
+      </node>
+      <node id="3059">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIBarButtonItem+BlocksKit.m</label>
+        <link refid="_u_i_bar_button_item_09_blocks_kit_8m"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="category_u_i_bar_button_item_07_blocks_kit_08" prot="public">UIBarButtonItem(BlocksKit)</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>UIBarButtonItem+BlocksKit.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>BlocksKit</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_b_k_defines_8h" kindref="compound">BKDefines.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;UIKit/UIKit.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><ref refid="_b_k_defines_8h_1a33c08c6ca8f22acd327c850ca2151f17" kindref="member">NS_ASSUME_NONNULL_BEGIN</ref></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="category_u_i_bar_button_item_07_blocks_kit_08" kindref="compound">UIBarButtonItem (BlocksKit)</ref></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal">-<sp/>(instancetype)bk_initWithBarButtonSystemItem:(UIBarButtonSystemItem)systemItem<sp/>handler:(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(^)(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>sender))action<sp/>BK_INITIALIZER;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal">-<sp/>(instancetype)bk_initWithImage:(UIImage<sp/>*)image<sp/>style:(UIBarButtonItemStyle)style<sp/>handler:(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(^)(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>sender))action<sp/>BK_INITIALIZER;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal">-<sp/>(instancetype)bk_initWithImage:(UIImage<sp/>*)image<sp/>landscapeImagePhone:(UIImage<sp/>*)landscapeImagePhone<sp/>style:(UIBarButtonItemStyle)style<sp/>handler:(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(^)(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>sender))action<sp/>BK_INITIALIZER;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal">-<sp/>(instancetype)bk_initWithTitle:(NSString<sp/>*)title<sp/>style:(UIBarButtonItemStyle)style<sp/>handler:(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(^)(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>sender))action<sp/>BK_INITIALIZER;</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><ref refid="_b_k_defines_8h_1a34f05dab7f212780aa8f76bbb465ce67" kindref="member">NS_ASSUME_NONNULL_END</ref></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIBarButtonItem+BlocksKit.h"/>
+  </compounddef>
+</doxygen>

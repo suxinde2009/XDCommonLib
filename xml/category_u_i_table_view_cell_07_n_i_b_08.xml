@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_u_i_table_view_cell_07_n_i_b_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>UITableViewCell(NIB)</compoundname>
+    <includes refid="_u_i_table_view_cell_09_n_i_b_8h" local="no">UITableViewCell+NIB.h</includes>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="category_u_i_table_view_cell_07_n_i_b_08_1a9f670e3006845f3b876248785a5869df" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>UINib *</type>
+        <definition>UINib * UITableViewCell(NIB)::nib</definition>
+        <argsstring>()</argsstring>
+        <name>nib</name>
+        <briefdescription>
+<para>加载同类名的nib </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>nib </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UITableViewCell/UITableViewCell+NIB.h" line="85" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UITableViewCell/UITableViewCell+NIB.m" bodystart="18" bodyend="20"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UITableViewCell/UITableViewCell+NIB.m" line="11" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UITableViewCell/UITableViewCell+NIB.m" bodystart="11" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_u_i_table_view_cell_07_n_i_b_08_1a9f670e3006845f3b876248785a5869df" prot="public" virt="virtual"><scope>UITableViewCell(NIB)</scope><name>nib</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

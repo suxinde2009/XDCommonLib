@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_u_i_button_07_submitting_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>UIButton(Submitting)</compoundname>
+    <includes refid="_u_i_button_09_submitting_8h" local="no">UIButton+Submitting.h</includes>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="category_u_i_button_07_submitting_08_1a2b2ecf2a52bc2b82cdf77797abdc3c45" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="assign">
+        <type>NSNumber *</type>
+        <definition>NSNumber* UIButton(Submitting)::submitting</definition>
+        <argsstring></argsstring>
+        <name>submitting</name>
+        <read>isSubmitting</read>
+        <briefdescription>
+<para>按钮是否正在提交中 </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="author"><para>foxsofter, 15-04-02 15:04:17 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIButton/UIButton+Submitting.h" line="35" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIButton/UIButton+Submitting.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="category_u_i_button_07_submitting_08_1a6b0fc7fa7277bfc9ba9e927543674b61" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UIButton(Submitting)::beginSubmitting:</definition>
+        <argsstring>(NSString *title)</argsstring>
+        <name>beginSubmitting:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>title</declname>
+        </param>
+        <briefdescription>
+<para>按钮点击后，禁用按钮并在按钮上显示ActivityIndicator，以及title </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="author"><para>foxsofter, 15-04-02 15:04:59</para></simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>title</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>按钮上显示的文字 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIButton/UIButton+Submitting.h" line="16" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIButton/UIButton+Submitting.m" bodystart="22" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_button_07_submitting_08_1ae7b63e2e50d7da7b3d51c65e86414c5c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UIButton(Submitting)::endSubmitting</definition>
+        <argsstring>()</argsstring>
+        <name>endSubmitting</name>
+        <briefdescription>
+<para>按钮点击后，恢复按钮点击前的状态 </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="author"><para>foxsofter, 15-04-02 15:04:13 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIButton/UIButton+Submitting.h" line="16" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIButton/UIButton+Submitting.m" bodystart="55" bodyend="67"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIButton/UIButton+Submitting.m" line="20" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIButton/UIButton+Submitting.m" bodystart="20" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_u_i_button_07_submitting_08_1a6b0fc7fa7277bfc9ba9e927543674b61" prot="public" virt="virtual"><scope>UIButton(Submitting)</scope><name>beginSubmitting:</name></member>
+      <member refid="category_u_i_button_07_submitting_08_1ae7b63e2e50d7da7b3d51c65e86414c5c" prot="public" virt="virtual"><scope>UIButton(Submitting)</scope><name>endSubmitting</name></member>
+      <member refid="category_u_i_button_07_submitting_08_1a2b2ecf2a52bc2b82cdf77797abdc3c45" prot="public" virt="non-virtual"><scope>UIButton(Submitting)</scope><name>submitting</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

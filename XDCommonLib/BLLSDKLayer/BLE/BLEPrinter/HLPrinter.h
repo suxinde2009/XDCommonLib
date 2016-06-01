@@ -30,6 +30,9 @@ typedef NS_ENUM(NSInteger, HLFontSize) {
     HLFontSizeTitleBig = 0x22
 };
 
+/**
+ *  打印机管理类
+ */
 @interface HLPrinter : NSObject
 
 /**

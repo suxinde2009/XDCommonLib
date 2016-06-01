@@ -1,0 +1,277 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_u_i_view_controller_07_d_d_pop_up_view_controller_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>UIViewController(DDPopUpViewController)</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">&lt;UINavigationControllerDelegate&gt;</basecompoundref>
+    <includes refid="_u_i_view_controller_09_d_d_pop_up_view_controller_8h" local="no">UIViewController+DDPopUpViewController.h</includes>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="category_u_i_view_controller_07_d_d_pop_up_view_controller_08_1ad28c654ef216b05fbdbc1f7672c0a149" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="retain">
+        <type>UIViewController *</type>
+        <definition>UIViewController * UIViewController(DDPopUpViewController)::popUpViewController</definition>
+        <argsstring></argsstring>
+        <name>popUpViewController</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+DDPopUpViewController.h" line="56" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+DDPopUpViewController.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_u_i_view_controller_07_d_d_pop_up_view_controller_08_1ae3db833a9c9db4239ad713548ee6cd20" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="assign">
+        <type>CGPoint</type>
+        <definition>CGPoint UIViewController(DDPopUpViewController)::popUpOffset</definition>
+        <argsstring></argsstring>
+        <name>popUpOffset</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+DDPopUpViewController.h" line="57" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+DDPopUpViewController.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_u_i_view_controller_07_d_d_pop_up_view_controller_08_1a6e4c9e87d4789d7f7eba236ea9982fde" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="assign">
+        <type>CGSize</type>
+        <definition>CGSize UIViewController(DDPopUpViewController)::popUpViewSize</definition>
+        <argsstring></argsstring>
+        <name>popUpViewSize</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+DDPopUpViewController.h" line="58" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+DDPopUpViewController.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_u_i_view_controller_07_d_d_pop_up_view_controller_08_1af0c6737c90ab11a22490254e7e4185ae" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="assign">
+        <type>DDPopUpPosition</type>
+        <definition>DDPopUpPosition UIViewController(DDPopUpViewController)::popUpPosition</definition>
+        <argsstring></argsstring>
+        <name>popUpPosition</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+DDPopUpViewController.h" line="59" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+DDPopUpViewController.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_u_i_view_controller_07_d_d_pop_up_view_controller_08_1ad39275a0e4e55901637452bc10303af8" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="assign">
+        <type>BOOL</type>
+        <definition>BOOL UIViewController(DDPopUpViewController)::dismissWhenTouchBackground</definition>
+        <argsstring></argsstring>
+        <name>dismissWhenTouchBackground</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+DDPopUpViewController.h" line="60" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+DDPopUpViewController.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_u_i_view_controller_07_d_d_pop_up_view_controller_08_1afe19d7de5b3e7a96bfd383fd468014f8" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="copy">
+        <type><ref refid="_u_i_view_controller_09_d_d_pop_up_view_controller_8h_1a1b6e1474de6b660601c5a86160889b05" kindref="member">DismissCallback</ref></type>
+        <definition>DismissCallback UIViewController(DDPopUpViewController)::dismissCallback</definition>
+        <argsstring></argsstring>
+        <name>dismissCallback</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+DDPopUpViewController.h" line="61" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+DDPopUpViewController.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="category_u_i_view_controller_07_d_d_pop_up_view_controller_08_1ada78411c2e3cc0b1b1ba4b694cc08e36" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UIViewController(DDPopUpViewController)::dismissCurrentShowingPopUpViewControllers</definition>
+        <argsstring>()</argsstring>
+        <name>dismissCurrentShowingPopUpViewControllers</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+DDPopUpViewController.h" line="61" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+DDPopUpViewController.m" bodystart="394" bodyend="400"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="category_u_i_view_controller_07_d_d_pop_up_view_controller_08_1ac0793a62b1f1206b5e85ba509c498b73" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UIViewController(DDPopUpViewController)::showPopUpViewController:</definition>
+        <argsstring>(UIViewController *popUpViewController)</argsstring>
+        <name>showPopUpViewController:</name>
+        <param>
+          <type>UIViewController *</type>
+          <declname>popUpViewController</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+DDPopUpViewController.h" line="61" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+DDPopUpViewController.m" bodystart="402" bodyend="405"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_view_controller_07_d_d_pop_up_view_controller_08_1ac444dcc046f79e5938224d5e9b6085f0" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UIViewController(DDPopUpViewController)::showPopUpViewController:animationType:</definition>
+        <argsstring>(UIViewController *popUpViewController,[animationType] DDPopUpAnimationType animationType)</argsstring>
+        <name>showPopUpViewController:animationType:</name>
+        <param>
+          <type>UIViewController *</type>
+          <declname>popUpViewController</declname>
+        </param>
+        <param>
+          <attributes>[animationType]</attributes>
+          <type>DDPopUpAnimationType</type>
+          <declname>animationType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+DDPopUpViewController.h" line="61" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+DDPopUpViewController.m" bodystart="407" bodyend="410"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_view_controller_07_d_d_pop_up_view_controller_08_1ae53515f84c43aa3b165f6764f82165d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UIViewController(DDPopUpViewController)::showPopUpViewController:animationType:dismissWhenTouchBackground:</definition>
+        <argsstring>(UIViewController *popUpViewController,[animationType] DDPopUpAnimationType animationType,[dismissWhenTouchBackground] BOOL dismissWhenTouchBackground)</argsstring>
+        <name>showPopUpViewController:animationType:dismissWhenTouchBackground:</name>
+        <param>
+          <type>UIViewController *</type>
+          <declname>popUpViewController</declname>
+        </param>
+        <param>
+          <attributes>[animationType]</attributes>
+          <type>DDPopUpAnimationType</type>
+          <declname>animationType</declname>
+        </param>
+        <param>
+          <attributes>[dismissWhenTouchBackground]</attributes>
+          <type>BOOL</type>
+          <declname>dismissWhenTouchBackground</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+DDPopUpViewController.h" line="61" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+DDPopUpViewController.m" bodystart="412" bodyend="454"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_view_controller_07_d_d_pop_up_view_controller_08_1a998ddc285cec7f3b945c8ff514fc62d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UIViewController(DDPopUpViewController)::dismissPopUpViewController</definition>
+        <argsstring>()</argsstring>
+        <name>dismissPopUpViewController</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+DDPopUpViewController.h" line="61" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+DDPopUpViewController.m" bodystart="463" bodyend="466"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_view_controller_07_d_d_pop_up_view_controller_08_1aa7c5f93b1e720b0cdf8a794560d288b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UIViewController(DDPopUpViewController)::dismissPopUpViewController:</definition>
+        <argsstring>(DDPopUpAnimationType animationType)</argsstring>
+        <name>dismissPopUpViewController:</name>
+        <param>
+          <type>DDPopUpAnimationType</type>
+          <declname>animationType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+DDPopUpViewController.h" line="61" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+DDPopUpViewController.m" bodystart="468" bodyend="471"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_view_controller_07_d_d_pop_up_view_controller_08_1ac0ff5be6ad74ca96ca7063be96bbb6c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UIViewController(DDPopUpViewController)::dismissPopUpViewController:completion:</definition>
+        <argsstring>(DDPopUpAnimationType animationType,[completion] void(^completion)(void))</argsstring>
+        <name>dismissPopUpViewController:completion:</name>
+        <param>
+          <type>DDPopUpAnimationType</type>
+          <declname>animationType</declname>
+        </param>
+        <param>
+          <attributes>[completion]</attributes>
+          <type>void(^)(void)</type>
+          <declname>completion</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+DDPopUpViewController.h" line="61" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+DDPopUpViewController.m" bodystart="473" bodyend="490"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1125">
+        <label>UIViewController(DDPopUpViewController)</label>
+        <link refid="category_u_i_view_controller_07_d_d_pop_up_view_controller_08"/>
+        <childnode refid="1126" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1126">
+        <label>&lt;UINavigationControllerDelegate&gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1127">
+        <label>UIViewController(DDPopUpViewController)</label>
+        <link refid="category_u_i_view_controller_07_d_d_pop_up_view_controller_08"/>
+        <childnode refid="1128" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1128">
+        <label>&lt;UINavigationControllerDelegate&gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+DDPopUpViewController.m" line="63" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+DDPopUpViewController.m" bodystart="63" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_u_i_view_controller_07_d_d_pop_up_view_controller_08_1afe19d7de5b3e7a96bfd383fd468014f8" prot="public" virt="non-virtual"><scope>UIViewController(DDPopUpViewController)</scope><name>dismissCallback</name></member>
+      <member refid="category_u_i_view_controller_07_d_d_pop_up_view_controller_08_1ada78411c2e3cc0b1b1ba4b694cc08e36" prot="public" virt="virtual"><scope>UIViewController(DDPopUpViewController)</scope><name>dismissCurrentShowingPopUpViewControllers</name></member>
+      <member refid="category_u_i_view_controller_07_d_d_pop_up_view_controller_08_1a998ddc285cec7f3b945c8ff514fc62d9" prot="public" virt="virtual"><scope>UIViewController(DDPopUpViewController)</scope><name>dismissPopUpViewController</name></member>
+      <member refid="category_u_i_view_controller_07_d_d_pop_up_view_controller_08_1aa7c5f93b1e720b0cdf8a794560d288b8" prot="public" virt="virtual"><scope>UIViewController(DDPopUpViewController)</scope><name>dismissPopUpViewController:</name></member>
+      <member refid="category_u_i_view_controller_07_d_d_pop_up_view_controller_08_1ac0ff5be6ad74ca96ca7063be96bbb6c3" prot="public" virt="virtual"><scope>UIViewController(DDPopUpViewController)</scope><name>dismissPopUpViewController:completion:</name></member>
+      <member refid="category_u_i_view_controller_07_d_d_pop_up_view_controller_08_1ad39275a0e4e55901637452bc10303af8" prot="public" virt="non-virtual"><scope>UIViewController(DDPopUpViewController)</scope><name>dismissWhenTouchBackground</name></member>
+      <member refid="category_u_i_view_controller_07_d_d_pop_up_view_controller_08_1ae3db833a9c9db4239ad713548ee6cd20" prot="public" virt="non-virtual"><scope>UIViewController(DDPopUpViewController)</scope><name>popUpOffset</name></member>
+      <member refid="category_u_i_view_controller_07_d_d_pop_up_view_controller_08_1af0c6737c90ab11a22490254e7e4185ae" prot="public" virt="non-virtual"><scope>UIViewController(DDPopUpViewController)</scope><name>popUpPosition</name></member>
+      <member refid="category_u_i_view_controller_07_d_d_pop_up_view_controller_08_1ad28c654ef216b05fbdbc1f7672c0a149" prot="public" virt="non-virtual"><scope>UIViewController(DDPopUpViewController)</scope><name>popUpViewController</name></member>
+      <member refid="category_u_i_view_controller_07_d_d_pop_up_view_controller_08_1a6e4c9e87d4789d7f7eba236ea9982fde" prot="public" virt="non-virtual"><scope>UIViewController(DDPopUpViewController)</scope><name>popUpViewSize</name></member>
+      <member refid="category_u_i_view_controller_07_d_d_pop_up_view_controller_08_1ac0793a62b1f1206b5e85ba509c498b73" prot="public" virt="virtual"><scope>UIViewController(DDPopUpViewController)</scope><name>showPopUpViewController:</name></member>
+      <member refid="category_u_i_view_controller_07_d_d_pop_up_view_controller_08_1ac444dcc046f79e5938224d5e9b6085f0" prot="public" virt="virtual"><scope>UIViewController(DDPopUpViewController)</scope><name>showPopUpViewController:animationType:</name></member>
+      <member refid="category_u_i_view_controller_07_d_d_pop_up_view_controller_08_1ae53515f84c43aa3b165f6764f82165d0" prot="public" virt="virtual"><scope>UIViewController(DDPopUpViewController)</scope><name>showPopUpViewController:animationType:dismissWhenTouchBackground:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

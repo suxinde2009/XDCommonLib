@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_n_s_array_09_safe_access_8h" kind="file" language="C++">
+    <compoundname>NSArray+SafeAccess.h</compoundname>
+    <includes local="no">Foundation/Foundation.h</includes>
+    <includes local="no">UIKit/UIKit.h</includes>
+    <includedby refid="_n_s_array_09_safe_access_8m" local="yes">XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSArray/NSArray+SafeAccess.m</includedby>
+    <incdepgraph>
+      <node id="236">
+        <label>UIKit/UIKit.h</label>
+      </node>
+      <node id="234">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSArray/NSArray+SafeAccess.h</label>
+        <link refid="NSArray+SafeAccess.h"/>
+        <childnode refid="235" relation="include">
+        </childnode>
+        <childnode refid="236" relation="include">
+        </childnode>
+      </node>
+      <node id="235">
+        <label>Foundation/Foundation.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="237">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSArray/NSArray+SafeAccess.h</label>
+        <link refid="NSArray+SafeAccess.h"/>
+        <childnode refid="238" relation="include">
+        </childnode>
+      </node>
+      <node id="238">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSArray/NSArray+SafeAccess.m</label>
+        <link refid="_n_s_array_09_safe_access_8m"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="category_n_s_array_07_safe_access_08" prot="public">NSArray(SafeAccess)</innerclass>
+    <innerclass refid="category_n_s_mutable_array_07_safe_access_08" prot="public">NSMutableArray(SafeAccess)</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>NSArray+SafeAccess.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>iOS-Categories<sp/>(https://github.com/shaojiankui/iOS-Categories)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Jakey<sp/>on<sp/>15/2/8.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2015年<sp/>www.skyfox.org.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;Foundation/Foundation.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;UIKit/UIKit.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="category_n_s_array_07_safe_access_08" kindref="compound">NSArray (SafeAccess)</ref></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal">-<sp/>(id)<ref refid="category_n_s_array_07_safe_access_08_1a1f54912a91ef6eb9d7db7c8310d4b666" kindref="member">firstObject</ref>;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal">-<sp/>(id)objectWithIndex:(NSUInteger)index;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal">-<sp/>(NSString*)stringWithIndex:(NSUInteger)index;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal">-<sp/>(NSNumber*)numberWithIndex:(NSUInteger)index;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal">-<sp/>(NSDecimalNumber<sp/>*)decimalNumberWithIndex:(NSUInteger)index;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal">-<sp/>(NSArray*)arrayWithIndex:(NSUInteger)index;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal">-<sp/>(NSDictionary*)dictionaryWithIndex:(NSUInteger)index;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal">-<sp/>(NSInteger)integerWithIndex:(NSUInteger)index;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal">-<sp/>(NSUInteger)unsignedIntegerWithIndex:(NSUInteger)index;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal">-<sp/>(BOOL)boolWithIndex:(NSUInteger)index;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal">-<sp/>(int16_t)int16WithIndex:(NSUInteger)index;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal">-<sp/>(int32_t)int32WithIndex:(NSUInteger)index;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal">-<sp/>(int64_t)int64WithIndex:(NSUInteger)index;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal">-<sp/>(char)charWithIndex:(NSUInteger)index;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal">-<sp/>(short)shortWithIndex:(NSUInteger)index;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal">-<sp/>(float)floatWithIndex:(NSUInteger)index;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal">-<sp/>(double)doubleWithIndex:(NSUInteger)index;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal">-<sp/>(NSDate<sp/>*)dateWithIndex:(NSUInteger)index<sp/>dateFormat:(NSString<sp/>*)dateFormat;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight><highlight class="comment">//CG</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal">-<sp/>(CGFloat)CGFloatWithIndex:(NSUInteger)index;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal">-<sp/>(CGPoint)pointWithIndex:(NSUInteger)index;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal">-<sp/>(CGSize)sizeWithIndex:(NSUInteger)index;</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal">-<sp/>(CGRect)rectWithIndex:(NSUInteger)index;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>--mark<sp/>NSMutableArray<sp/>setter</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="category_n_s_mutable_array_07_safe_access_08" kindref="compound">NSMutableArray(SafeAccess)</ref></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal">-(void)addObj:(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)i;</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal">-(void)addString:(NSString*)i;</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal">-(void)addBool:(BOOL)i;</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal">-(void)addInt:(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)i;</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal">-(void)addInteger:(NSInteger)i;</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal">-(void)addUnsignedInteger:(NSUInteger)i;</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal">-(void)addCGFloat:(CGFloat)f;</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal">-(void)addChar:(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">)c;</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal">-(void)addFloat:(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal">)i;</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal">-(void)addPoint:(CGPoint)o;</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal">-(void)addSize:(CGSize)o;</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal">-(void)addRect:(CGRect)o;</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSArray/NSArray+SafeAccess.h"/>
+  </compounddef>
+</doxygen>

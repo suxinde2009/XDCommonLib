@@ -1,0 +1,1162 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_n_s_date_07_utilities_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>NSDate(Utilities)</compoundname>
+    <includes refid="_n_s_date_09_utilities_8h" local="no">NSDate+Utilities.h</includes>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="category_n_s_date_07_utilities_08_1a00b31986c4a32130fda1a978d3a65e0c" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="assign">
+        <type>NSString *</type>
+        <definition>NSString * NSDate(Utilities)::shortString</definition>
+        <argsstring></argsstring>
+        <name>shortString</name>
+        <read></read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.h" line="32" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_n_s_date_07_utilities_08_1ae2ec9070d4fbb91fb8119f973c1644ed" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="assign">
+        <type>NSString *</type>
+        <definition>NSString * NSDate(Utilities)::shortDateString</definition>
+        <argsstring></argsstring>
+        <name>shortDateString</name>
+        <read></read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.h" line="33" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_n_s_date_07_utilities_08_1a5a8ac2ab8f37e1c5bf9fbb7fb4339d9a" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="assign">
+        <type>NSString *</type>
+        <definition>NSString * NSDate(Utilities)::shortTimeString</definition>
+        <argsstring></argsstring>
+        <name>shortTimeString</name>
+        <read></read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.h" line="34" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_n_s_date_07_utilities_08_1af9d43f9a64a11ab4af108eb2335d5f74" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="assign">
+        <type>NSString *</type>
+        <definition>NSString * NSDate(Utilities)::mediumString</definition>
+        <argsstring></argsstring>
+        <name>mediumString</name>
+        <read></read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.h" line="35" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_n_s_date_07_utilities_08_1a909eae4aa0408d4baec909d1411c3b6e" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="assign">
+        <type>NSString *</type>
+        <definition>NSString * NSDate(Utilities)::mediumDateString</definition>
+        <argsstring></argsstring>
+        <name>mediumDateString</name>
+        <read></read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.h" line="36" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_n_s_date_07_utilities_08_1af4445a804968f1306f732ce4cee194ef" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="assign">
+        <type>NSString *</type>
+        <definition>NSString * NSDate(Utilities)::mediumTimeString</definition>
+        <argsstring></argsstring>
+        <name>mediumTimeString</name>
+        <read></read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.h" line="37" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_n_s_date_07_utilities_08_1aec2b5ac4dbf277d5b1e82440ddec35cd" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="assign">
+        <type>NSString *</type>
+        <definition>NSString * NSDate(Utilities)::longString</definition>
+        <argsstring></argsstring>
+        <name>longString</name>
+        <read></read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.h" line="38" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_n_s_date_07_utilities_08_1a6888ae93af39f27ce232489ad0893cbb" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="assign">
+        <type>NSString *</type>
+        <definition>NSString * NSDate(Utilities)::longDateString</definition>
+        <argsstring></argsstring>
+        <name>longDateString</name>
+        <read></read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.h" line="39" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_n_s_date_07_utilities_08_1ad5c45c1ed20ba6644a40f53edd433c19" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="assign">
+        <type>NSString *</type>
+        <definition>NSString * NSDate(Utilities)::longTimeString</definition>
+        <argsstring></argsstring>
+        <name>longTimeString</name>
+        <read></read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.h" line="40" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_n_s_date_07_utilities_08_1acf4cca2d1acd127224d24edbf0699b57" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="assign">
+        <type>NSInteger</type>
+        <definition>NSInteger NSDate(Utilities)::nearestHour</definition>
+        <argsstring></argsstring>
+        <name>nearestHour</name>
+        <read></read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.h" line="102" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.h" bodystart="102" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_n_s_date_07_utilities_08_1a6bfef4bb6cce1b5b9e1d602e169d7477" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="assign">
+        <type>NSInteger</type>
+        <definition>NSInteger NSDate(Utilities)::hour</definition>
+        <argsstring></argsstring>
+        <name>hour</name>
+        <read></read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.h" line="103" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.h" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_n_s_date_07_utilities_08_1a6a617d715ab8674cbabeb379cbe7af20" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="assign">
+        <type>NSInteger</type>
+        <definition>NSInteger NSDate(Utilities)::minute</definition>
+        <argsstring></argsstring>
+        <name>minute</name>
+        <read></read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.h" line="104" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.h" bodystart="104" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_n_s_date_07_utilities_08_1a8edbca637da69d8cc3824fc625f5d3e7" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="assign">
+        <type>NSInteger</type>
+        <definition>NSInteger NSDate(Utilities)::seconds</definition>
+        <argsstring></argsstring>
+        <name>seconds</name>
+        <read></read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.h" line="105" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.h" bodystart="105" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_n_s_date_07_utilities_08_1a1ffc9a202f429f7f8884375c0bef8dac" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="assign">
+        <type>NSInteger</type>
+        <definition>NSInteger NSDate(Utilities)::day</definition>
+        <argsstring></argsstring>
+        <name>day</name>
+        <read></read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.h" line="106" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.h" bodystart="106" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_n_s_date_07_utilities_08_1a3aa5a70f2081df29eb4fd440a5223bac" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="assign">
+        <type>NSInteger</type>
+        <definition>NSInteger NSDate(Utilities)::month</definition>
+        <argsstring></argsstring>
+        <name>month</name>
+        <read></read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.h" line="107" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.h" bodystart="107" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_n_s_date_07_utilities_08_1a0768859e79690f0fac0ac7dd9ef53b3a" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="assign">
+        <type>NSInteger</type>
+        <definition>NSInteger NSDate(Utilities)::week</definition>
+        <argsstring></argsstring>
+        <name>week</name>
+        <read></read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.h" line="108" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.h" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_n_s_date_07_utilities_08_1ad6ca21a931c9b37b76b9e55615a52d13" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="assign">
+        <type>NSInteger</type>
+        <definition>NSInteger NSDate(Utilities)::weekday</definition>
+        <argsstring></argsstring>
+        <name>weekday</name>
+        <read></read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.h" line="109" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.h" bodystart="109" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_n_s_date_07_utilities_08_1a26580aa12fac7c955daa0212b8c17dbd" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="assign">
+        <type>NSInteger</type>
+        <definition>NSInteger NSDate(Utilities)::nthWeekday</definition>
+        <argsstring></argsstring>
+        <name>nthWeekday</name>
+        <read></read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.h" line="110" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.h" bodystart="110" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_n_s_date_07_utilities_08_1adabbbcc2e531b0a7be2400e7157625d3" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="assign">
+        <type>NSInteger</type>
+        <definition>NSInteger NSDate(Utilities)::year</definition>
+        <argsstring></argsstring>
+        <name>year</name>
+        <read></read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.h" line="111" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.h" bodystart="111" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="category_n_s_date_07_utilities_08_1ae2f2dace29752c681d5719bb5bfd9b52" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSCalendar *</type>
+        <definition>NSCalendar * NSDate(Utilities)::currentCalendar</definition>
+        <argsstring>()</argsstring>
+        <name>currentCalendar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.h" line="12" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.m" bodystart="14" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_07_utilities_08_1a4b4abd20d290ca056ac154acee842b6a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSDate *</type>
+        <definition>NSDate * NSDate(Utilities)::dateTomorrow</definition>
+        <argsstring>()</argsstring>
+        <name>dateTomorrow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.h" line="12" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.m" bodystart="33" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_07_utilities_08_1ae880ea79f675d23f9ffb7cb0ad139fba" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSDate *</type>
+        <definition>NSDate * NSDate(Utilities)::dateYesterday</definition>
+        <argsstring>()</argsstring>
+        <name>dateYesterday</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.h" line="12" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.m" bodystart="37" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_07_utilities_08_1a51592423ac5a1e949a4b8762124c41dc" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSDate *</type>
+        <definition>NSDate * NSDate(Utilities)::dateWithDaysFromNow:</definition>
+        <argsstring>(NSInteger days)</argsstring>
+        <name>dateWithDaysFromNow:</name>
+        <param>
+          <type>NSInteger</type>
+          <declname>days</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.h" line="12" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.m" bodystart="23" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_07_utilities_08_1a58ea2d192f93c07658460edf8d9b72b8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSDate *</type>
+        <definition>NSDate * NSDate(Utilities)::dateWithDaysBeforeNow:</definition>
+        <argsstring>(NSInteger days)</argsstring>
+        <name>dateWithDaysBeforeNow:</name>
+        <param>
+          <type>NSInteger</type>
+          <declname>days</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.h" line="12" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.m" bodystart="28" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_07_utilities_08_1ac61aa0d63dbee5bb6d8e76bf8aee0a1e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSDate *</type>
+        <definition>NSDate * NSDate(Utilities)::dateWithHoursFromNow:</definition>
+        <argsstring>(NSInteger dHours)</argsstring>
+        <name>dateWithHoursFromNow:</name>
+        <param>
+          <type>NSInteger</type>
+          <declname>dHours</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.h" line="12" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.m" bodystart="41" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_07_utilities_08_1a88676fc6e08234afcabf78e44dac068e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSDate *</type>
+        <definition>NSDate * NSDate(Utilities)::dateWithHoursBeforeNow:</definition>
+        <argsstring>(NSInteger dHours)</argsstring>
+        <name>dateWithHoursBeforeNow:</name>
+        <param>
+          <type>NSInteger</type>
+          <declname>dHours</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.h" line="12" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.m" bodystart="47" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_07_utilities_08_1a6c31003887c42a25ae8ef18083b425c7" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSDate *</type>
+        <definition>NSDate * NSDate(Utilities)::dateWithMinutesFromNow:</definition>
+        <argsstring>(NSInteger dMinutes)</argsstring>
+        <name>dateWithMinutesFromNow:</name>
+        <param>
+          <type>NSInteger</type>
+          <declname>dMinutes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.h" line="12" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.m" bodystart="53" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_07_utilities_08_1aa616bd8293e166efd6bbb0c9f745ce55" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSDate *</type>
+        <definition>NSDate * NSDate(Utilities)::dateWithMinutesBeforeNow:</definition>
+        <argsstring>(NSInteger dMinutes)</argsstring>
+        <name>dateWithMinutesBeforeNow:</name>
+        <param>
+          <type>NSInteger</type>
+          <declname>dMinutes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.h" line="12" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.m" bodystart="59" bodyend="64"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="category_n_s_date_07_utilities_08_1a73e52ac53c7e8ed99405708524a23001" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * NSDate(Utilities)::stringWithDateStyle:timeStyle:</definition>
+        <argsstring>(NSDateFormatterStyle dateStyle,[timeStyle] NSDateFormatterStyle timeStyle)</argsstring>
+        <name>stringWithDateStyle:timeStyle:</name>
+        <param>
+          <type>NSDateFormatterStyle</type>
+          <declname>dateStyle</declname>
+        </param>
+        <param>
+          <attributes>[timeStyle]</attributes>
+          <type>NSDateFormatterStyle</type>
+          <declname>timeStyle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.h" line="12" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.m" bodystart="76" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_07_utilities_08_1a838875d6026c505baba2186f11a45b9d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * NSDate(Utilities)::stringWithFormat:</definition>
+        <argsstring>(NSString *format)</argsstring>
+        <name>stringWithFormat:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>format</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.h" line="12" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.m" bodystart="68" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_07_utilities_08_1afc5c10a0133303755a1e81fdb099d8c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL NSDate(Utilities)::isEqualToDateIgnoringTime:</definition>
+        <argsstring>(NSDate *aDate)</argsstring>
+        <name>isEqualToDateIgnoringTime:</name>
+        <param>
+          <type>NSDate *</type>
+          <declname>aDate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.h" line="40" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.m" bodystart="132" bodyend="139"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_07_utilities_08_1af42167de8e9b05111b6d989a6fea8b06" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL NSDate(Utilities)::isToday</definition>
+        <argsstring>()</argsstring>
+        <name>isToday</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.h" line="40" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.m" bodystart="140" bodyend="143"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_07_utilities_08_1a1d42fd7fa609befbb62b1ba8657399f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL NSDate(Utilities)::isTomorrow</definition>
+        <argsstring>()</argsstring>
+        <name>isTomorrow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.h" line="40" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.m" bodystart="144" bodyend="147"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_07_utilities_08_1a0e83ce579b1ce9bb052ce28e5d54dc0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL NSDate(Utilities)::isYesterday</definition>
+        <argsstring>()</argsstring>
+        <name>isYesterday</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.h" line="40" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.m" bodystart="148" bodyend="151"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_07_utilities_08_1a2fdfbbfed0dba0ba1a3cdcfaaf5f4a97" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL NSDate(Utilities)::isSameWeekAsDate:</definition>
+        <argsstring>(NSDate *aDate)</argsstring>
+        <name>isSameWeekAsDate:</name>
+        <param>
+          <type>NSDate *</type>
+          <declname>aDate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.h" line="40" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.m" bodystart="153" bodyend="161"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_07_utilities_08_1a89f215351a9c1e2c68d3f860aed583b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL NSDate(Utilities)::isThisWeek</definition>
+        <argsstring>()</argsstring>
+        <name>isThisWeek</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.h" line="40" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.m" bodystart="162" bodyend="165"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_07_utilities_08_1a879ec040d08fc37b77358fd73738390f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL NSDate(Utilities)::isNextWeek</definition>
+        <argsstring>()</argsstring>
+        <name>isNextWeek</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.h" line="40" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.m" bodystart="166" bodyend="171"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_07_utilities_08_1aa7cae1a3be8eb598304d63ca4f45c1ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL NSDate(Utilities)::isLastWeek</definition>
+        <argsstring>()</argsstring>
+        <name>isLastWeek</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.h" line="40" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.m" bodystart="172" bodyend="177"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_07_utilities_08_1a8441f1a8a70c16ef00c045426e0f9e4e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL NSDate(Utilities)::isSameMonthAsDate:</definition>
+        <argsstring>(NSDate *aDate)</argsstring>
+        <name>isSameMonthAsDate:</name>
+        <param>
+          <type>NSDate *</type>
+          <declname>aDate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.h" line="40" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.m" bodystart="179" bodyend="185"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_07_utilities_08_1add28e36576112e5f393e9c6375a1357b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL NSDate(Utilities)::isThisMonth</definition>
+        <argsstring>()</argsstring>
+        <name>isThisMonth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.h" line="40" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.m" bodystart="187" bodyend="190"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_07_utilities_08_1add71876b0a9a793f2f2cd5fa4f310ee2" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL NSDate(Utilities)::isNextMonth</definition>
+        <argsstring>()</argsstring>
+        <name>isNextMonth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.h" line="40" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.m" bodystart="196" bodyend="199"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_07_utilities_08_1a6cf0346d33dcbd18d6115e8ecb903a04" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL NSDate(Utilities)::isLastMonth</definition>
+        <argsstring>()</argsstring>
+        <name>isLastMonth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.h" line="40" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.m" bodystart="191" bodyend="194"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_07_utilities_08_1a4afbe99e18d3609a2489c3dcb955238e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL NSDate(Utilities)::isSameYearAsDate:</definition>
+        <argsstring>(NSDate *aDate)</argsstring>
+        <name>isSameYearAsDate:</name>
+        <param>
+          <type>NSDate *</type>
+          <declname>aDate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.h" line="40" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.m" bodystart="201" bodyend="206"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_07_utilities_08_1a4ffdbfea3c2eeac15997f15d523343c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL NSDate(Utilities)::isThisYear</definition>
+        <argsstring>()</argsstring>
+        <name>isThisYear</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.h" line="40" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.m" bodystart="207" bodyend="211"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_07_utilities_08_1a38fc3484be6b9081a63ed14f0a996432" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL NSDate(Utilities)::isNextYear</definition>
+        <argsstring>()</argsstring>
+        <name>isNextYear</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.h" line="40" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.m" bodystart="212" bodyend="217"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_07_utilities_08_1a7364084880fd6979ee56dbac9824db47" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL NSDate(Utilities)::isLastYear</definition>
+        <argsstring>()</argsstring>
+        <name>isLastYear</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.h" line="40" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.m" bodystart="218" bodyend="223"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_07_utilities_08_1a6e2c343adcdd0f148c9ff692e108527a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL NSDate(Utilities)::isEarlierThanDate:</definition>
+        <argsstring>(NSDate *aDate)</argsstring>
+        <name>isEarlierThanDate:</name>
+        <param>
+          <type>NSDate *</type>
+          <declname>aDate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.h" line="40" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.m" bodystart="224" bodyend="227"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_07_utilities_08_1a550e3d9fdfcd198dccc29d4cd2e1ea7a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL NSDate(Utilities)::isLaterThanDate:</definition>
+        <argsstring>(NSDate *aDate)</argsstring>
+        <name>isLaterThanDate:</name>
+        <param>
+          <type>NSDate *</type>
+          <declname>aDate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.h" line="40" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.m" bodystart="228" bodyend="231"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_07_utilities_08_1a6107d1953781c22703856db5f2b696cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL NSDate(Utilities)::isInFuture</definition>
+        <argsstring>()</argsstring>
+        <name>isInFuture</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.h" line="40" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.m" bodystart="233" bodyend="236"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_07_utilities_08_1a9bdf78cc45bd20b171bd82592273e591" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL NSDate(Utilities)::isInPast</definition>
+        <argsstring>()</argsstring>
+        <name>isInPast</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.h" line="40" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.m" bodystart="238" bodyend="241"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_07_utilities_08_1ac52767b8ce2731e294f1fb94ecd425d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL NSDate(Utilities)::isTypicallyWorkday</definition>
+        <argsstring>()</argsstring>
+        <name>isTypicallyWorkday</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.h" line="40" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.m" bodystart="251" bodyend="254"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_07_utilities_08_1a80f53168836838635d7ee0a7a07b6097" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL NSDate(Utilities)::isTypicallyWeekend</definition>
+        <argsstring>()</argsstring>
+        <name>isTypicallyWeekend</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.h" line="40" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.m" bodystart="243" bodyend="250"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_07_utilities_08_1acab22b61ead54cf1a8c86e808474cc8e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSDate *</type>
+        <definition>NSDate * NSDate(Utilities)::dateByAddingYears:</definition>
+        <argsstring>(NSInteger dYears)</argsstring>
+        <name>dateByAddingYears:</name>
+        <param>
+          <type>NSInteger</type>
+          <declname>dYears</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.h" line="40" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.m" bodystart="259" bodyend="265"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_07_utilities_08_1ad1853a8ad4403bab1ffee80970764421" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSDate *</type>
+        <definition>NSDate * NSDate(Utilities)::dateBySubtractingYears:</definition>
+        <argsstring>(NSInteger dYears)</argsstring>
+        <name>dateBySubtractingYears:</name>
+        <param>
+          <type>NSInteger</type>
+          <declname>dYears</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.h" line="40" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.m" bodystart="267" bodyend="270"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_07_utilities_08_1a10c60ba59a54fd7adc04192431565619" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSDate *</type>
+        <definition>NSDate * NSDate(Utilities)::dateByAddingMonths:</definition>
+        <argsstring>(NSInteger dMonths)</argsstring>
+        <name>dateByAddingMonths:</name>
+        <param>
+          <type>NSInteger</type>
+          <declname>dMonths</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.h" line="40" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.m" bodystart="272" bodyend="278"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_07_utilities_08_1a79c381516b9edd6170368b63e085633c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSDate *</type>
+        <definition>NSDate * NSDate(Utilities)::dateBySubtractingMonths:</definition>
+        <argsstring>(NSInteger dMonths)</argsstring>
+        <name>dateBySubtractingMonths:</name>
+        <param>
+          <type>NSInteger</type>
+          <declname>dMonths</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.h" line="40" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.m" bodystart="280" bodyend="283"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_07_utilities_08_1a7e2067e0056d65ed3c0dd1f573a6a6a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSDate *</type>
+        <definition>NSDate * NSDate(Utilities)::dateByAddingDays:</definition>
+        <argsstring>(NSInteger dDays)</argsstring>
+        <name>dateByAddingDays:</name>
+        <param>
+          <type>NSInteger</type>
+          <declname>dDays</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.h" line="40" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.m" bodystart="286" bodyend="291"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_07_utilities_08_1ab58ab0e7ad68420b03f3aa10d3087b66" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSDate *</type>
+        <definition>NSDate * NSDate(Utilities)::dateBySubtractingDays:</definition>
+        <argsstring>(NSInteger dDays)</argsstring>
+        <name>dateBySubtractingDays:</name>
+        <param>
+          <type>NSInteger</type>
+          <declname>dDays</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.h" line="40" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.m" bodystart="292" bodyend="295"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_07_utilities_08_1a6ad73db824c623818efc8e39048c3640" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSDate *</type>
+        <definition>NSDate * NSDate(Utilities)::dateByAddingHours:</definition>
+        <argsstring>(NSInteger dHours)</argsstring>
+        <name>dateByAddingHours:</name>
+        <param>
+          <type>NSInteger</type>
+          <declname>dHours</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.h" line="40" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.m" bodystart="296" bodyend="301"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_07_utilities_08_1a15f3bbcc123ad9a0626b1d7a9ec904a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSDate *</type>
+        <definition>NSDate * NSDate(Utilities)::dateBySubtractingHours:</definition>
+        <argsstring>(NSInteger dHours)</argsstring>
+        <name>dateBySubtractingHours:</name>
+        <param>
+          <type>NSInteger</type>
+          <declname>dHours</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.h" line="40" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.m" bodystart="302" bodyend="305"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_07_utilities_08_1a99d0b2e9e19ff34580204298727b6bee" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSDate *</type>
+        <definition>NSDate * NSDate(Utilities)::dateByAddingMinutes:</definition>
+        <argsstring>(NSInteger dMinutes)</argsstring>
+        <name>dateByAddingMinutes:</name>
+        <param>
+          <type>NSInteger</type>
+          <declname>dMinutes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.h" line="40" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.m" bodystart="306" bodyend="311"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_07_utilities_08_1ac7c74ecb5a1cc5667394b34cab650d92" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSDate *</type>
+        <definition>NSDate * NSDate(Utilities)::dateBySubtractingMinutes:</definition>
+        <argsstring>(NSInteger dMinutes)</argsstring>
+        <name>dateBySubtractingMinutes:</name>
+        <param>
+          <type>NSInteger</type>
+          <declname>dMinutes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.h" line="40" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.m" bodystart="312" bodyend="315"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_07_utilities_08_1a2431d8cdb089b7d9b97f214d6b6afc6c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSDate *</type>
+        <definition>NSDate * NSDate(Utilities)::dateAtStartOfDay</definition>
+        <argsstring>()</argsstring>
+        <name>dateAtStartOfDay</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.h" line="40" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.m" bodystart="316" bodyend="323"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_07_utilities_08_1a8b8255c8d1f9298334465c669fe2daed" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSDate *</type>
+        <definition>NSDate * NSDate(Utilities)::dateAtEndOfDay</definition>
+        <argsstring>()</argsstring>
+        <name>dateAtEndOfDay</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.h" line="40" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.m" bodystart="325" bodyend="332"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_07_utilities_08_1a7dfc3501c90a29ab91e70137b4b00333" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSInteger</type>
+        <definition>NSInteger NSDate(Utilities)::minutesAfterDate:</definition>
+        <argsstring>(NSDate *aDate)</argsstring>
+        <name>minutesAfterDate:</name>
+        <param>
+          <type>NSDate *</type>
+          <declname>aDate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.h" line="40" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.m" bodystart="339" bodyend="343"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_07_utilities_08_1a4ba71825bc134f940bd0524637a23424" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSInteger</type>
+        <definition>NSInteger NSDate(Utilities)::minutesBeforeDate:</definition>
+        <argsstring>(NSDate *aDate)</argsstring>
+        <name>minutesBeforeDate:</name>
+        <param>
+          <type>NSDate *</type>
+          <declname>aDate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.h" line="40" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.m" bodystart="344" bodyend="348"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_07_utilities_08_1a0ee188833dc7c5612ef73975b6e4caa3" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSInteger</type>
+        <definition>NSInteger NSDate(Utilities)::hoursAfterDate:</definition>
+        <argsstring>(NSDate *aDate)</argsstring>
+        <name>hoursAfterDate:</name>
+        <param>
+          <type>NSDate *</type>
+          <declname>aDate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.h" line="40" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.m" bodystart="349" bodyend="353"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_07_utilities_08_1a962c174af0b720026f7e7b6726632c41" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSInteger</type>
+        <definition>NSInteger NSDate(Utilities)::hoursBeforeDate:</definition>
+        <argsstring>(NSDate *aDate)</argsstring>
+        <name>hoursBeforeDate:</name>
+        <param>
+          <type>NSDate *</type>
+          <declname>aDate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.h" line="40" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.m" bodystart="354" bodyend="358"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_07_utilities_08_1a886531b8bd18d4f77e6cb6ab8d916365" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSInteger</type>
+        <definition>NSInteger NSDate(Utilities)::daysAfterDate:</definition>
+        <argsstring>(NSDate *aDate)</argsstring>
+        <name>daysAfterDate:</name>
+        <param>
+          <type>NSDate *</type>
+          <declname>aDate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.h" line="40" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.m" bodystart="359" bodyend="363"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_07_utilities_08_1ab9f367fefcbb553681a540f9a4eab4c9" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSInteger</type>
+        <definition>NSInteger NSDate(Utilities)::daysBeforeDate:</definition>
+        <argsstring>(NSDate *aDate)</argsstring>
+        <name>daysBeforeDate:</name>
+        <param>
+          <type>NSDate *</type>
+          <declname>aDate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.h" line="40" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.m" bodystart="364" bodyend="368"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_date_07_utilities_08_1aae172f9052f451e12a5d03fb7511ad12" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSInteger</type>
+        <definition>NSInteger NSDate(Utilities)::distanceInDaysToDate:</definition>
+        <argsstring>(NSDate *anotherDate)</argsstring>
+        <name>distanceInDaysToDate:</name>
+        <param>
+          <type>NSDate *</type>
+          <declname>anotherDate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.h" line="40" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.m" bodystart="371" bodyend="376"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.m" line="12" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Utilities.m" bodystart="12" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_n_s_date_07_utilities_08_1ae2f2dace29752c681d5719bb5bfd9b52" prot="public" virt="virtual"><scope>NSDate(Utilities)</scope><name>currentCalendar</name></member>
+      <member refid="category_n_s_date_07_utilities_08_1a8b8255c8d1f9298334465c669fe2daed" prot="public" virt="virtual"><scope>NSDate(Utilities)</scope><name>dateAtEndOfDay</name></member>
+      <member refid="category_n_s_date_07_utilities_08_1a2431d8cdb089b7d9b97f214d6b6afc6c" prot="public" virt="virtual"><scope>NSDate(Utilities)</scope><name>dateAtStartOfDay</name></member>
+      <member refid="category_n_s_date_07_utilities_08_1a7e2067e0056d65ed3c0dd1f573a6a6a2" prot="public" virt="virtual"><scope>NSDate(Utilities)</scope><name>dateByAddingDays:</name></member>
+      <member refid="category_n_s_date_07_utilities_08_1a6ad73db824c623818efc8e39048c3640" prot="public" virt="virtual"><scope>NSDate(Utilities)</scope><name>dateByAddingHours:</name></member>
+      <member refid="category_n_s_date_07_utilities_08_1a99d0b2e9e19ff34580204298727b6bee" prot="public" virt="virtual"><scope>NSDate(Utilities)</scope><name>dateByAddingMinutes:</name></member>
+      <member refid="category_n_s_date_07_utilities_08_1a10c60ba59a54fd7adc04192431565619" prot="public" virt="virtual"><scope>NSDate(Utilities)</scope><name>dateByAddingMonths:</name></member>
+      <member refid="category_n_s_date_07_utilities_08_1acab22b61ead54cf1a8c86e808474cc8e" prot="public" virt="virtual"><scope>NSDate(Utilities)</scope><name>dateByAddingYears:</name></member>
+      <member refid="category_n_s_date_07_utilities_08_1ab58ab0e7ad68420b03f3aa10d3087b66" prot="public" virt="virtual"><scope>NSDate(Utilities)</scope><name>dateBySubtractingDays:</name></member>
+      <member refid="category_n_s_date_07_utilities_08_1a15f3bbcc123ad9a0626b1d7a9ec904a8" prot="public" virt="virtual"><scope>NSDate(Utilities)</scope><name>dateBySubtractingHours:</name></member>
+      <member refid="category_n_s_date_07_utilities_08_1ac7c74ecb5a1cc5667394b34cab650d92" prot="public" virt="virtual"><scope>NSDate(Utilities)</scope><name>dateBySubtractingMinutes:</name></member>
+      <member refid="category_n_s_date_07_utilities_08_1a79c381516b9edd6170368b63e085633c" prot="public" virt="virtual"><scope>NSDate(Utilities)</scope><name>dateBySubtractingMonths:</name></member>
+      <member refid="category_n_s_date_07_utilities_08_1ad1853a8ad4403bab1ffee80970764421" prot="public" virt="virtual"><scope>NSDate(Utilities)</scope><name>dateBySubtractingYears:</name></member>
+      <member refid="category_n_s_date_07_utilities_08_1a4b4abd20d290ca056ac154acee842b6a" prot="public" virt="virtual"><scope>NSDate(Utilities)</scope><name>dateTomorrow</name></member>
+      <member refid="category_n_s_date_07_utilities_08_1a58ea2d192f93c07658460edf8d9b72b8" prot="public" virt="virtual"><scope>NSDate(Utilities)</scope><name>dateWithDaysBeforeNow:</name></member>
+      <member refid="category_n_s_date_07_utilities_08_1a51592423ac5a1e949a4b8762124c41dc" prot="public" virt="virtual"><scope>NSDate(Utilities)</scope><name>dateWithDaysFromNow:</name></member>
+      <member refid="category_n_s_date_07_utilities_08_1a88676fc6e08234afcabf78e44dac068e" prot="public" virt="virtual"><scope>NSDate(Utilities)</scope><name>dateWithHoursBeforeNow:</name></member>
+      <member refid="category_n_s_date_07_utilities_08_1ac61aa0d63dbee5bb6d8e76bf8aee0a1e" prot="public" virt="virtual"><scope>NSDate(Utilities)</scope><name>dateWithHoursFromNow:</name></member>
+      <member refid="category_n_s_date_07_utilities_08_1aa616bd8293e166efd6bbb0c9f745ce55" prot="public" virt="virtual"><scope>NSDate(Utilities)</scope><name>dateWithMinutesBeforeNow:</name></member>
+      <member refid="category_n_s_date_07_utilities_08_1a6c31003887c42a25ae8ef18083b425c7" prot="public" virt="virtual"><scope>NSDate(Utilities)</scope><name>dateWithMinutesFromNow:</name></member>
+      <member refid="category_n_s_date_07_utilities_08_1ae880ea79f675d23f9ffb7cb0ad139fba" prot="public" virt="virtual"><scope>NSDate(Utilities)</scope><name>dateYesterday</name></member>
+      <member refid="category_n_s_date_07_utilities_08_1a1ffc9a202f429f7f8884375c0bef8dac" prot="public" virt="non-virtual"><scope>NSDate(Utilities)</scope><name>day</name></member>
+      <member refid="category_n_s_date_07_utilities_08_1a886531b8bd18d4f77e6cb6ab8d916365" prot="public" virt="virtual"><scope>NSDate(Utilities)</scope><name>daysAfterDate:</name></member>
+      <member refid="category_n_s_date_07_utilities_08_1ab9f367fefcbb553681a540f9a4eab4c9" prot="public" virt="virtual"><scope>NSDate(Utilities)</scope><name>daysBeforeDate:</name></member>
+      <member refid="category_n_s_date_07_utilities_08_1aae172f9052f451e12a5d03fb7511ad12" prot="public" virt="virtual"><scope>NSDate(Utilities)</scope><name>distanceInDaysToDate:</name></member>
+      <member refid="category_n_s_date_07_utilities_08_1a6bfef4bb6cce1b5b9e1d602e169d7477" prot="public" virt="non-virtual"><scope>NSDate(Utilities)</scope><name>hour</name></member>
+      <member refid="category_n_s_date_07_utilities_08_1a0ee188833dc7c5612ef73975b6e4caa3" prot="public" virt="virtual"><scope>NSDate(Utilities)</scope><name>hoursAfterDate:</name></member>
+      <member refid="category_n_s_date_07_utilities_08_1a962c174af0b720026f7e7b6726632c41" prot="public" virt="virtual"><scope>NSDate(Utilities)</scope><name>hoursBeforeDate:</name></member>
+      <member refid="category_n_s_date_07_utilities_08_1a6e2c343adcdd0f148c9ff692e108527a" prot="public" virt="virtual"><scope>NSDate(Utilities)</scope><name>isEarlierThanDate:</name></member>
+      <member refid="category_n_s_date_07_utilities_08_1afc5c10a0133303755a1e81fdb099d8c5" prot="public" virt="virtual"><scope>NSDate(Utilities)</scope><name>isEqualToDateIgnoringTime:</name></member>
+      <member refid="category_n_s_date_07_utilities_08_1a6107d1953781c22703856db5f2b696cf" prot="public" virt="virtual"><scope>NSDate(Utilities)</scope><name>isInFuture</name></member>
+      <member refid="category_n_s_date_07_utilities_08_1a9bdf78cc45bd20b171bd82592273e591" prot="public" virt="virtual"><scope>NSDate(Utilities)</scope><name>isInPast</name></member>
+      <member refid="category_n_s_date_07_utilities_08_1a6cf0346d33dcbd18d6115e8ecb903a04" prot="public" virt="virtual"><scope>NSDate(Utilities)</scope><name>isLastMonth</name></member>
+      <member refid="category_n_s_date_07_utilities_08_1aa7cae1a3be8eb598304d63ca4f45c1ff" prot="public" virt="virtual"><scope>NSDate(Utilities)</scope><name>isLastWeek</name></member>
+      <member refid="category_n_s_date_07_utilities_08_1a7364084880fd6979ee56dbac9824db47" prot="public" virt="virtual"><scope>NSDate(Utilities)</scope><name>isLastYear</name></member>
+      <member refid="category_n_s_date_07_utilities_08_1a550e3d9fdfcd198dccc29d4cd2e1ea7a" prot="public" virt="virtual"><scope>NSDate(Utilities)</scope><name>isLaterThanDate:</name></member>
+      <member refid="category_n_s_date_07_utilities_08_1add71876b0a9a793f2f2cd5fa4f310ee2" prot="public" virt="virtual"><scope>NSDate(Utilities)</scope><name>isNextMonth</name></member>
+      <member refid="category_n_s_date_07_utilities_08_1a879ec040d08fc37b77358fd73738390f" prot="public" virt="virtual"><scope>NSDate(Utilities)</scope><name>isNextWeek</name></member>
+      <member refid="category_n_s_date_07_utilities_08_1a38fc3484be6b9081a63ed14f0a996432" prot="public" virt="virtual"><scope>NSDate(Utilities)</scope><name>isNextYear</name></member>
+      <member refid="category_n_s_date_07_utilities_08_1a8441f1a8a70c16ef00c045426e0f9e4e" prot="public" virt="virtual"><scope>NSDate(Utilities)</scope><name>isSameMonthAsDate:</name></member>
+      <member refid="category_n_s_date_07_utilities_08_1a2fdfbbfed0dba0ba1a3cdcfaaf5f4a97" prot="public" virt="virtual"><scope>NSDate(Utilities)</scope><name>isSameWeekAsDate:</name></member>
+      <member refid="category_n_s_date_07_utilities_08_1a4afbe99e18d3609a2489c3dcb955238e" prot="public" virt="virtual"><scope>NSDate(Utilities)</scope><name>isSameYearAsDate:</name></member>
+      <member refid="category_n_s_date_07_utilities_08_1add28e36576112e5f393e9c6375a1357b" prot="public" virt="virtual"><scope>NSDate(Utilities)</scope><name>isThisMonth</name></member>
+      <member refid="category_n_s_date_07_utilities_08_1a89f215351a9c1e2c68d3f860aed583b5" prot="public" virt="virtual"><scope>NSDate(Utilities)</scope><name>isThisWeek</name></member>
+      <member refid="category_n_s_date_07_utilities_08_1a4ffdbfea3c2eeac15997f15d523343c6" prot="public" virt="virtual"><scope>NSDate(Utilities)</scope><name>isThisYear</name></member>
+      <member refid="category_n_s_date_07_utilities_08_1af42167de8e9b05111b6d989a6fea8b06" prot="public" virt="virtual"><scope>NSDate(Utilities)</scope><name>isToday</name></member>
+      <member refid="category_n_s_date_07_utilities_08_1a1d42fd7fa609befbb62b1ba8657399f6" prot="public" virt="virtual"><scope>NSDate(Utilities)</scope><name>isTomorrow</name></member>
+      <member refid="category_n_s_date_07_utilities_08_1a80f53168836838635d7ee0a7a07b6097" prot="public" virt="virtual"><scope>NSDate(Utilities)</scope><name>isTypicallyWeekend</name></member>
+      <member refid="category_n_s_date_07_utilities_08_1ac52767b8ce2731e294f1fb94ecd425d4" prot="public" virt="virtual"><scope>NSDate(Utilities)</scope><name>isTypicallyWorkday</name></member>
+      <member refid="category_n_s_date_07_utilities_08_1a0e83ce579b1ce9bb052ce28e5d54dc0e" prot="public" virt="virtual"><scope>NSDate(Utilities)</scope><name>isYesterday</name></member>
+      <member refid="category_n_s_date_07_utilities_08_1a6888ae93af39f27ce232489ad0893cbb" prot="public" virt="non-virtual"><scope>NSDate(Utilities)</scope><name>longDateString</name></member>
+      <member refid="category_n_s_date_07_utilities_08_1aec2b5ac4dbf277d5b1e82440ddec35cd" prot="public" virt="non-virtual"><scope>NSDate(Utilities)</scope><name>longString</name></member>
+      <member refid="category_n_s_date_07_utilities_08_1ad5c45c1ed20ba6644a40f53edd433c19" prot="public" virt="non-virtual"><scope>NSDate(Utilities)</scope><name>longTimeString</name></member>
+      <member refid="category_n_s_date_07_utilities_08_1a909eae4aa0408d4baec909d1411c3b6e" prot="public" virt="non-virtual"><scope>NSDate(Utilities)</scope><name>mediumDateString</name></member>
+      <member refid="category_n_s_date_07_utilities_08_1af9d43f9a64a11ab4af108eb2335d5f74" prot="public" virt="non-virtual"><scope>NSDate(Utilities)</scope><name>mediumString</name></member>
+      <member refid="category_n_s_date_07_utilities_08_1af4445a804968f1306f732ce4cee194ef" prot="public" virt="non-virtual"><scope>NSDate(Utilities)</scope><name>mediumTimeString</name></member>
+      <member refid="category_n_s_date_07_utilities_08_1a6a617d715ab8674cbabeb379cbe7af20" prot="public" virt="non-virtual"><scope>NSDate(Utilities)</scope><name>minute</name></member>
+      <member refid="category_n_s_date_07_utilities_08_1a7dfc3501c90a29ab91e70137b4b00333" prot="public" virt="virtual"><scope>NSDate(Utilities)</scope><name>minutesAfterDate:</name></member>
+      <member refid="category_n_s_date_07_utilities_08_1a4ba71825bc134f940bd0524637a23424" prot="public" virt="virtual"><scope>NSDate(Utilities)</scope><name>minutesBeforeDate:</name></member>
+      <member refid="category_n_s_date_07_utilities_08_1a3aa5a70f2081df29eb4fd440a5223bac" prot="public" virt="non-virtual"><scope>NSDate(Utilities)</scope><name>month</name></member>
+      <member refid="category_n_s_date_07_utilities_08_1acf4cca2d1acd127224d24edbf0699b57" prot="public" virt="non-virtual"><scope>NSDate(Utilities)</scope><name>nearestHour</name></member>
+      <member refid="category_n_s_date_07_utilities_08_1a26580aa12fac7c955daa0212b8c17dbd" prot="public" virt="non-virtual"><scope>NSDate(Utilities)</scope><name>nthWeekday</name></member>
+      <member refid="category_n_s_date_07_utilities_08_1a8edbca637da69d8cc3824fc625f5d3e7" prot="public" virt="non-virtual"><scope>NSDate(Utilities)</scope><name>seconds</name></member>
+      <member refid="category_n_s_date_07_utilities_08_1ae2ec9070d4fbb91fb8119f973c1644ed" prot="public" virt="non-virtual"><scope>NSDate(Utilities)</scope><name>shortDateString</name></member>
+      <member refid="category_n_s_date_07_utilities_08_1a00b31986c4a32130fda1a978d3a65e0c" prot="public" virt="non-virtual"><scope>NSDate(Utilities)</scope><name>shortString</name></member>
+      <member refid="category_n_s_date_07_utilities_08_1a5a8ac2ab8f37e1c5bf9fbb7fb4339d9a" prot="public" virt="non-virtual"><scope>NSDate(Utilities)</scope><name>shortTimeString</name></member>
+      <member refid="category_n_s_date_07_utilities_08_1a73e52ac53c7e8ed99405708524a23001" prot="public" virt="virtual"><scope>NSDate(Utilities)</scope><name>stringWithDateStyle:timeStyle:</name></member>
+      <member refid="category_n_s_date_07_utilities_08_1a838875d6026c505baba2186f11a45b9d" prot="public" virt="virtual"><scope>NSDate(Utilities)</scope><name>stringWithFormat:</name></member>
+      <member refid="category_n_s_date_07_utilities_08_1a0768859e79690f0fac0ac7dd9ef53b3a" prot="public" virt="non-virtual"><scope>NSDate(Utilities)</scope><name>week</name></member>
+      <member refid="category_n_s_date_07_utilities_08_1ad6ca21a931c9b37b76b9e55615a52d13" prot="public" virt="non-virtual"><scope>NSDate(Utilities)</scope><name>weekday</name></member>
+      <member refid="category_n_s_date_07_utilities_08_1adabbbcc2e531b0a7be2400e7157625d3" prot="public" virt="non-virtual"><scope>NSDate(Utilities)</scope><name>year</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

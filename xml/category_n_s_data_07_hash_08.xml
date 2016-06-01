@@ -1,0 +1,186 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_n_s_data_07_hash_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>NSData(Hash)</compoundname>
+    <includes refid="_n_s_data_09_hash_8h" local="no">NSData+Hash.h</includes>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="category_n_s_data_07_hash_08_1a29966075d55ea73ae6f666184adc10d5" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="assign">
+        <type>NSData *</type>
+        <definition>NSData * NSData(Hash)::md5Data</definition>
+        <argsstring></argsstring>
+        <name>md5Data</name>
+        <read></read>
+        <briefdescription>
+<para>md5 NSData </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSData/NSData+Hash.h" line="15" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSData/NSData+Hash.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_n_s_data_07_hash_08_1ac9d78b0ea48e4390f9ceb52da20042d2" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="assign">
+        <type>NSData *</type>
+        <definition>NSData * NSData(Hash)::sha1Data</definition>
+        <argsstring></argsstring>
+        <name>sha1Data</name>
+        <read></read>
+        <briefdescription>
+<para>sha1Data NSData </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSData/NSData+Hash.h" line="19" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSData/NSData+Hash.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_n_s_data_07_hash_08_1ab815782d5c0e169e812290b178cc0a35" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="assign">
+        <type>NSData *</type>
+        <definition>NSData * NSData(Hash)::sha256Data</definition>
+        <argsstring></argsstring>
+        <name>sha256Data</name>
+        <read></read>
+        <briefdescription>
+<para>sha256Data NSData </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSData/NSData+Hash.h" line="23" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSData/NSData+Hash.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_n_s_data_07_hash_08_1a519ff9cd1228d1c20a8b109347378988" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="assign">
+        <type>NSData *</type>
+        <definition>NSData * NSData(Hash)::sha512Data</definition>
+        <argsstring></argsstring>
+        <name>sha512Data</name>
+        <read></read>
+        <briefdescription>
+<para>sha512Data NSData </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSData/NSData+Hash.h" line="27" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSData/NSData+Hash.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="category_n_s_data_07_hash_08_1add065257ef6f366d3ce97fca41b23c2d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSData *</type>
+        <definition>NSData * NSData(Hash)::hmacMD5DataWithKey:</definition>
+        <argsstring>(NSData *key)</argsstring>
+        <name>hmacMD5DataWithKey:</name>
+        <param>
+          <type>NSData *</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+<para>md5 NSData </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>密钥</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>结果 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSData/NSData+Hash.h" line="27" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSData/NSData+Hash.m" bodystart="55" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_data_07_hash_08_1a459ab22dbafea9ba42c07cb545861b33" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSData *</type>
+        <definition>NSData * NSData(Hash)::hmacSHA1DataWithKey:</definition>
+        <argsstring>(NSData *key)</argsstring>
+        <name>hmacSHA1DataWithKey:</name>
+        <param>
+          <type>NSData *</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+<para>sha1Data NSData </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>密钥</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>结果 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSData/NSData+Hash.h" line="27" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSData/NSData+Hash.m" bodystart="65" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_data_07_hash_08_1a34778ea05e43e2a05695c7177cf421c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSData *</type>
+        <definition>NSData * NSData(Hash)::hmacSHA256DataWithKey:</definition>
+        <argsstring>(NSData *key)</argsstring>
+        <name>hmacSHA256DataWithKey:</name>
+        <param>
+          <type>NSData *</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+<para>sha256Data NSData </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>密钥</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>结果 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSData/NSData+Hash.h" line="27" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSData/NSData+Hash.m" bodystart="76" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_data_07_hash_08_1af1e75646762dff01c645b506e65b0e3c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSData *</type>
+        <definition>NSData * NSData(Hash)::hmacSHA512DataWithKey:</definition>
+        <argsstring>(NSData *key)</argsstring>
+        <name>hmacSHA512DataWithKey:</name>
+        <param>
+          <type>NSData *</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+<para>sha512Data NSData </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>密钥</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>结果 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSData/NSData+Hash.h" line="27" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSData/NSData+Hash.m" bodystart="87" bodyend="90"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSData/NSData+Hash.m" line="11" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSData/NSData+Hash.m" bodystart="11" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_n_s_data_07_hash_08_1add065257ef6f366d3ce97fca41b23c2d" prot="public" virt="virtual"><scope>NSData(Hash)</scope><name>hmacMD5DataWithKey:</name></member>
+      <member refid="category_n_s_data_07_hash_08_1a459ab22dbafea9ba42c07cb545861b33" prot="public" virt="virtual"><scope>NSData(Hash)</scope><name>hmacSHA1DataWithKey:</name></member>
+      <member refid="category_n_s_data_07_hash_08_1a34778ea05e43e2a05695c7177cf421c4" prot="public" virt="virtual"><scope>NSData(Hash)</scope><name>hmacSHA256DataWithKey:</name></member>
+      <member refid="category_n_s_data_07_hash_08_1af1e75646762dff01c645b506e65b0e3c" prot="public" virt="virtual"><scope>NSData(Hash)</scope><name>hmacSHA512DataWithKey:</name></member>
+      <member refid="category_n_s_data_07_hash_08_1a29966075d55ea73ae6f666184adc10d5" prot="public" virt="non-virtual"><scope>NSData(Hash)</scope><name>md5Data</name></member>
+      <member refid="category_n_s_data_07_hash_08_1ac9d78b0ea48e4390f9ceb52da20042d2" prot="public" virt="non-virtual"><scope>NSData(Hash)</scope><name>sha1Data</name></member>
+      <member refid="category_n_s_data_07_hash_08_1ab815782d5c0e169e812290b178cc0a35" prot="public" virt="non-virtual"><scope>NSData(Hash)</scope><name>sha256Data</name></member>
+      <member refid="category_n_s_data_07_hash_08_1a519ff9cd1228d1c20a8b109347378988" prot="public" virt="non-virtual"><scope>NSData(Hash)</scope><name>sha512Data</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

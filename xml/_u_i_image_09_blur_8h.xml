@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_u_i_image_09_blur_8h" kind="file" language="C++">
+    <compoundname>UIImage+Blur.h</compoundname>
+    <includes local="no">UIKit/UIKit.h</includes>
+    <includedby refid="_u_i_image_09_blur_8m" local="yes">XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImage/UIImage+Blur.m</includedby>
+    <incdepgraph>
+      <node id="1475">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImage/UIImage+Blur.h</label>
+        <link refid="UIImage+Blur.h"/>
+        <childnode refid="1476" relation="include">
+        </childnode>
+      </node>
+      <node id="1476">
+        <label>UIKit/UIKit.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1477">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImage/UIImage+Blur.h</label>
+        <link refid="UIImage+Blur.h"/>
+        <childnode refid="1478" relation="include">
+        </childnode>
+      </node>
+      <node id="1478">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImage/UIImage+Blur.m</label>
+        <link refid="_u_i_image_09_blur_8m"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="category_u_i_image_07_blur_08" prot="public">UIImage(Blur)</innerclass>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="_u_i_image_09_blur_8h_1a87a7677ec64121da22380c2a46afd17b" prot="public" static="no" mutable="no">
+        <type>FOUNDATION_EXPORT double</type>
+        <definition>FOUNDATION_EXPORT double ImageEffectsVersionNumber</definition>
+        <argsstring></argsstring>
+        <name>ImageEffectsVersionNumber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImage/UIImage+Blur.h" line="11" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImage/UIImage+Blur.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_u_i_image_09_blur_8h_1a59a01a80e6153a37e3314c1525f2ef5d" prot="public" static="no" mutable="no">
+        <type>FOUNDATION_EXPORT const unsigned char</type>
+        <definition>FOUNDATION_EXPORT const unsigned char ImageEffectsVersionString[]</definition>
+        <argsstring>[]</argsstring>
+        <name>ImageEffectsVersionString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImage/UIImage+Blur.h" line="12" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImage/UIImage+Blur.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>UIImage+Blur.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>IOS-Categories<sp/>(https://github.com/shaojiankui/iOS-Categories)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Jakey<sp/>on<sp/>15/6/5.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2015年<sp/>www.skyfox.org.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;UIKit/UIKit.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="_u_i_image_09_blur_8h_1a87a7677ec64121da22380c2a46afd17b" refkind="member"><highlight class="normal">FOUNDATION_EXPORT<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="_u_i_image_09_blur_8h_1a87a7677ec64121da22380c2a46afd17b" kindref="member">ImageEffectsVersionNumber</ref>;</highlight></codeline>
+<codeline lineno="12" refid="_u_i_image_09_blur_8h_1a59a01a80e6153a37e3314c1525f2ef5d" refkind="member"><highlight class="normal">FOUNDATION_EXPORT<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="_u_i_image_09_blur_8h_1a59a01a80e6153a37e3314c1525f2ef5d" kindref="member">ImageEffectsVersionString</ref>[];</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="category_u_i_image_07_blur_08" kindref="compound">UIImage (Blur)</ref></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal">-<sp/>(UIImage<sp/>*)<ref refid="category_u_i_image_07_blur_08_1a0f41403185db00bc947b2284d5edf950" kindref="member">lightImage</ref>;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal">-<sp/>(UIImage<sp/>*)<ref refid="category_u_i_image_07_blur_08_1a082d3b36ccb6385ac1c73fabee01f586" kindref="member">extraLightImage</ref>;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal">-<sp/>(UIImage<sp/>*)<ref refid="category_u_i_image_07_blur_08_1a33ad5c01de317d5e48806fcbd7b4ad34" kindref="member">darkImage</ref>;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal">-<sp/>(UIImage<sp/>*)tintedImageWithColor:(UIColor<sp/>*)tintColor;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal">-<sp/>(UIImage<sp/>*)blurredImageWithRadius:(CGFloat)blurRadius;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">-<sp/>(UIImage<sp/>*)blurredImageWithSize:(CGSize)blurSize;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal">-<sp/>(UIImage<sp/>*)blurredImageWithSize:(CGSize)blurSize</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tintColor:(UIColor<sp/>*)tintColor</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>saturationDeltaFactor:(CGFloat)saturationDeltaFactor</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>maskImage:(UIImage<sp/>*)maskImage;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImage/UIImage+Blur.h"/>
+  </compounddef>
+</doxygen>

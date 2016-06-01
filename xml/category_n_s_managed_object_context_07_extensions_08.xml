@@ -1,0 +1,538 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_n_s_managed_object_context_07_extensions_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>NSManagedObjectContext(Extensions)</compoundname>
+    <includes refid="_n_s_managed_object_context_09_extensions_8h" local="no">NSManagedObjectContext+Extensions.h</includes>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="category_n_s_managed_object_context_07_extensions_08_1adb1c45d4cd38ad35c1ee074a7b355286" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="assign">
+        <type>NSManagedObjectModel *</type>
+        <definition>NSManagedObjectModel * NSManagedObjectContext(Extensions)::objectModel</definition>
+        <argsstring></argsstring>
+        <name>objectModel</name>
+        <read></read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSManagedObjectContext/NSManagedObjectContext+Extensions.h" line="20" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSManagedObjectContext/NSManagedObjectContext+Extensions.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="category_n_s_managed_object_context_07_extensions_08_1ad3a679cd729ec4be28c9637a0b9f6f45" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSArray *</type>
+        <definition>NSArray * NSManagedObjectContext(Extensions)::fetchObjectsForEntity:</definition>
+        <argsstring>(NSString *entity)</argsstring>
+        <name>fetchObjectsForEntity:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>entity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSManagedObjectContext/NSManagedObjectContext+Extensions.h" line="20" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSManagedObjectContext/NSManagedObjectContext+Extensions.m" bodystart="18" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_managed_object_context_07_extensions_08_1ada41b6b9c83f7c2882c4be485058794d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSArray *</type>
+        <definition>NSArray * NSManagedObjectContext(Extensions)::fetchObjectsForEntity:predicate:</definition>
+        <argsstring>(NSString *entity,[predicate] NSPredicate *predicate)</argsstring>
+        <name>fetchObjectsForEntity:predicate:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>entity</declname>
+        </param>
+        <param>
+          <attributes>[predicate]</attributes>
+          <type>NSPredicate *</type>
+          <declname>predicate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSManagedObjectContext/NSManagedObjectContext+Extensions.h" line="20" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSManagedObjectContext/NSManagedObjectContext+Extensions.m" bodystart="23" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_managed_object_context_07_extensions_08_1a788635f7d0d2fea785662f938a8985cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSArray *</type>
+        <definition>NSArray * NSManagedObjectContext(Extensions)::fetchObjectsForEntity:sortDescriptors:</definition>
+        <argsstring>(NSString *entity,[sortDescriptors] NSArray *sortDescriptors)</argsstring>
+        <name>fetchObjectsForEntity:sortDescriptors:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>entity</declname>
+        </param>
+        <param>
+          <attributes>[sortDescriptors]</attributes>
+          <type>NSArray *</type>
+          <declname>sortDescriptors</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSManagedObjectContext/NSManagedObjectContext+Extensions.h" line="20" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSManagedObjectContext/NSManagedObjectContext+Extensions.m" bodystart="28" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_managed_object_context_07_extensions_08_1ab7312d750b075e5a91ab814bb36c3c41" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSArray *</type>
+        <definition>NSArray * NSManagedObjectContext(Extensions)::fetchObjectsForEntity:predicate:sortDescriptors:</definition>
+        <argsstring>(NSString *entity,[predicate] NSPredicate *predicate,[sortDescriptors] NSArray *sortDescriptors)</argsstring>
+        <name>fetchObjectsForEntity:predicate:sortDescriptors:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>entity</declname>
+        </param>
+        <param>
+          <attributes>[predicate]</attributes>
+          <type>NSPredicate *</type>
+          <declname>predicate</declname>
+        </param>
+        <param>
+          <attributes>[sortDescriptors]</attributes>
+          <type>NSArray *</type>
+          <declname>sortDescriptors</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSManagedObjectContext/NSManagedObjectContext+Extensions.h" line="20" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSManagedObjectContext/NSManagedObjectContext+Extensions.m" bodystart="33" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_managed_object_context_07_extensions_08_1a538bc79bf6e5c6a559df9e7a68ccc0b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSArray *</type>
+        <definition>NSArray * NSManagedObjectContext(Extensions)::fetchObjectsForEntity:predicate:sortDescriptors:fetchLimit:</definition>
+        <argsstring>(NSString *entity,[predicate] NSPredicate *predicate,[sortDescriptors] NSArray *sortDescriptors,[fetchLimit] NSUInteger limit)</argsstring>
+        <name>fetchObjectsForEntity:predicate:sortDescriptors:fetchLimit:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>entity</declname>
+        </param>
+        <param>
+          <attributes>[predicate]</attributes>
+          <type>NSPredicate *</type>
+          <declname>predicate</declname>
+        </param>
+        <param>
+          <attributes>[sortDescriptors]</attributes>
+          <type>NSArray *</type>
+          <declname>sortDescriptors</declname>
+        </param>
+        <param>
+          <attributes>[fetchLimit]</attributes>
+          <type>NSUInteger</type>
+          <declname>limit</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSManagedObjectContext/NSManagedObjectContext+Extensions.h" line="20" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSManagedObjectContext/NSManagedObjectContext+Extensions.m" bodystart="37" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_managed_object_context_07_extensions_08_1accc033077d83c8f45c5483e1efd5b75f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>id</type>
+        <definition>id NSManagedObjectContext(Extensions)::fetchObjectForEntity:</definition>
+        <argsstring>(NSString *entity)</argsstring>
+        <name>fetchObjectForEntity:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>entity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSManagedObjectContext/NSManagedObjectContext+Extensions.h" line="20" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSManagedObjectContext/NSManagedObjectContext+Extensions.m" bodystart="65" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_managed_object_context_07_extensions_08_1a2c677f756364d4879fa557fe9deef9e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>id</type>
+        <definition>id NSManagedObjectContext(Extensions)::fetchObjectForEntity:predicate:</definition>
+        <argsstring>(NSString *entity,[predicate] NSPredicate *predicate)</argsstring>
+        <name>fetchObjectForEntity:predicate:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>entity</declname>
+        </param>
+        <param>
+          <attributes>[predicate]</attributes>
+          <type>NSPredicate *</type>
+          <declname>predicate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSManagedObjectContext/NSManagedObjectContext+Extensions.h" line="20" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSManagedObjectContext/NSManagedObjectContext+Extensions.m" bodystart="70" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_managed_object_context_07_extensions_08_1ad86cff079977811c1f3bc01946c0ae66" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>id</type>
+        <definition>id NSManagedObjectContext(Extensions)::fetchObjectForEntity:sortDescriptors:</definition>
+        <argsstring>(NSString *entity,[sortDescriptors] NSArray *sortDescriptors)</argsstring>
+        <name>fetchObjectForEntity:sortDescriptors:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>entity</declname>
+        </param>
+        <param>
+          <attributes>[sortDescriptors]</attributes>
+          <type>NSArray *</type>
+          <declname>sortDescriptors</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSManagedObjectContext/NSManagedObjectContext+Extensions.h" line="20" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSManagedObjectContext/NSManagedObjectContext+Extensions.m" bodystart="75" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_managed_object_context_07_extensions_08_1a335424e31cda3310792aef79154dc9fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>id</type>
+        <definition>id NSManagedObjectContext(Extensions)::fetchObjectForEntity:predicate:sortDescriptors:</definition>
+        <argsstring>(NSString *entity,[predicate] NSPredicate *predicate,[sortDescriptors] NSArray *sortDescriptors)</argsstring>
+        <name>fetchObjectForEntity:predicate:sortDescriptors:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>entity</declname>
+        </param>
+        <param>
+          <attributes>[predicate]</attributes>
+          <type>NSPredicate *</type>
+          <declname>predicate</declname>
+        </param>
+        <param>
+          <attributes>[sortDescriptors]</attributes>
+          <type>NSArray *</type>
+          <declname>sortDescriptors</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSManagedObjectContext/NSManagedObjectContext+Extensions.h" line="20" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSManagedObjectContext/NSManagedObjectContext+Extensions.m" bodystart="80" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_managed_object_context_07_extensions_08_1aa99f4f3e9dfb624c8a03d409bc7e9a91" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void NSManagedObjectContext(Extensions)::fetchObjectsForEntity:callback:</definition>
+        <argsstring>(NSString *entity,[callback] FetchObjectsCallback callback)</argsstring>
+        <name>fetchObjectsForEntity:callback:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>entity</declname>
+        </param>
+        <param>
+          <attributes>[callback]</attributes>
+          <type><ref refid="_n_s_fetch_request_09_extensions_8h_1aed4c2bf35d9fbf225aa9ac35c5e86a3d" kindref="member">FetchObjectsCallback</ref></type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSManagedObjectContext/NSManagedObjectContext+Extensions.h" line="20" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSManagedObjectContext/NSManagedObjectContext+Extensions.m" bodystart="92" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_managed_object_context_07_extensions_08_1a5edcfc0e98e3a54b1d448f2f70712299" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void NSManagedObjectContext(Extensions)::fetchObjectsForEntity:predicate:callback:</definition>
+        <argsstring>(NSString *entity,[predicate] NSPredicate *predicate,[callback] FetchObjectsCallback callback)</argsstring>
+        <name>fetchObjectsForEntity:predicate:callback:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>entity</declname>
+        </param>
+        <param>
+          <attributes>[predicate]</attributes>
+          <type>NSPredicate *</type>
+          <declname>predicate</declname>
+        </param>
+        <param>
+          <attributes>[callback]</attributes>
+          <type><ref refid="_n_s_fetch_request_09_extensions_8h_1aed4c2bf35d9fbf225aa9ac35c5e86a3d" kindref="member">FetchObjectsCallback</ref></type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSManagedObjectContext/NSManagedObjectContext+Extensions.h" line="20" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSManagedObjectContext/NSManagedObjectContext+Extensions.m" bodystart="97" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_managed_object_context_07_extensions_08_1a6e8186cfab2c01c3f06a068bf9543626" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void NSManagedObjectContext(Extensions)::fetchObjectsForEntity:sortDescriptors:callback:</definition>
+        <argsstring>(NSString *entity,[sortDescriptors] NSArray *sortDescriptors,[callback] FetchObjectsCallback callback)</argsstring>
+        <name>fetchObjectsForEntity:sortDescriptors:callback:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>entity</declname>
+        </param>
+        <param>
+          <attributes>[sortDescriptors]</attributes>
+          <type>NSArray *</type>
+          <declname>sortDescriptors</declname>
+        </param>
+        <param>
+          <attributes>[callback]</attributes>
+          <type><ref refid="_n_s_fetch_request_09_extensions_8h_1aed4c2bf35d9fbf225aa9ac35c5e86a3d" kindref="member">FetchObjectsCallback</ref></type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSManagedObjectContext/NSManagedObjectContext+Extensions.h" line="20" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSManagedObjectContext/NSManagedObjectContext+Extensions.m" bodystart="102" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_managed_object_context_07_extensions_08_1aaf4faf3e772fe3b1fd2cf8e59199836c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void NSManagedObjectContext(Extensions)::fetchObjectsForEntity:predicate:sortDescriptors:callback:</definition>
+        <argsstring>(NSString *entity,[predicate] NSPredicate *predicate,[sortDescriptors] NSArray *sortDescriptors,[callback] FetchObjectsCallback callback)</argsstring>
+        <name>fetchObjectsForEntity:predicate:sortDescriptors:callback:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>entity</declname>
+        </param>
+        <param>
+          <attributes>[predicate]</attributes>
+          <type>NSPredicate *</type>
+          <declname>predicate</declname>
+        </param>
+        <param>
+          <attributes>[sortDescriptors]</attributes>
+          <type>NSArray *</type>
+          <declname>sortDescriptors</declname>
+        </param>
+        <param>
+          <attributes>[callback]</attributes>
+          <type><ref refid="_n_s_fetch_request_09_extensions_8h_1aed4c2bf35d9fbf225aa9ac35c5e86a3d" kindref="member">FetchObjectsCallback</ref></type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSManagedObjectContext/NSManagedObjectContext+Extensions.h" line="20" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSManagedObjectContext/NSManagedObjectContext+Extensions.m" bodystart="107" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_managed_object_context_07_extensions_08_1a1d9433aad35905b0c67bfc6f258cd5d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void NSManagedObjectContext(Extensions)::fetchObjectForEntity:callback:</definition>
+        <argsstring>(NSString *entity,[callback] FetchObjectCallback callback)</argsstring>
+        <name>fetchObjectForEntity:callback:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>entity</declname>
+        </param>
+        <param>
+          <attributes>[callback]</attributes>
+          <type><ref refid="_n_s_fetch_request_09_extensions_8h_1a0b0b12aa13d990a19d2f1bac7462ec18" kindref="member">FetchObjectCallback</ref></type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSManagedObjectContext/NSManagedObjectContext+Extensions.h" line="20" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSManagedObjectContext/NSManagedObjectContext+Extensions.m" bodystart="115" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_managed_object_context_07_extensions_08_1a16b1f5f42d224250c602e6670134ccfa" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void NSManagedObjectContext(Extensions)::fetchObjectForEntity:predicate:callback:</definition>
+        <argsstring>(NSString *entity,[predicate] NSPredicate *predicate,[callback] FetchObjectCallback callback)</argsstring>
+        <name>fetchObjectForEntity:predicate:callback:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>entity</declname>
+        </param>
+        <param>
+          <attributes>[predicate]</attributes>
+          <type>NSPredicate *</type>
+          <declname>predicate</declname>
+        </param>
+        <param>
+          <attributes>[callback]</attributes>
+          <type><ref refid="_n_s_fetch_request_09_extensions_8h_1a0b0b12aa13d990a19d2f1bac7462ec18" kindref="member">FetchObjectCallback</ref></type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSManagedObjectContext/NSManagedObjectContext+Extensions.h" line="20" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSManagedObjectContext/NSManagedObjectContext+Extensions.m" bodystart="120" bodyend="123"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_managed_object_context_07_extensions_08_1af18691b4eee1a0609c48cee855fe5d88" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void NSManagedObjectContext(Extensions)::fetchObjectForEntity:sortDescriptors:callback:</definition>
+        <argsstring>(NSString *entity,[sortDescriptors] NSArray *sortDescriptors,[callback] FetchObjectCallback callback)</argsstring>
+        <name>fetchObjectForEntity:sortDescriptors:callback:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>entity</declname>
+        </param>
+        <param>
+          <attributes>[sortDescriptors]</attributes>
+          <type>NSArray *</type>
+          <declname>sortDescriptors</declname>
+        </param>
+        <param>
+          <attributes>[callback]</attributes>
+          <type><ref refid="_n_s_fetch_request_09_extensions_8h_1a0b0b12aa13d990a19d2f1bac7462ec18" kindref="member">FetchObjectCallback</ref></type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSManagedObjectContext/NSManagedObjectContext+Extensions.h" line="20" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSManagedObjectContext/NSManagedObjectContext+Extensions.m" bodystart="125" bodyend="128"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_managed_object_context_07_extensions_08_1aa2ad2abd89328f20f46122a2650cc6f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void NSManagedObjectContext(Extensions)::fetchObjectForEntity:predicate:sortDescriptors:callback:</definition>
+        <argsstring>(NSString *entity,[predicate] NSPredicate *predicate,[sortDescriptors] NSArray *sortDescriptors,[callback] FetchObjectCallback callback)</argsstring>
+        <name>fetchObjectForEntity:predicate:sortDescriptors:callback:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>entity</declname>
+        </param>
+        <param>
+          <attributes>[predicate]</attributes>
+          <type>NSPredicate *</type>
+          <declname>predicate</declname>
+        </param>
+        <param>
+          <attributes>[sortDescriptors]</attributes>
+          <type>NSArray *</type>
+          <declname>sortDescriptors</declname>
+        </param>
+        <param>
+          <attributes>[callback]</attributes>
+          <type><ref refid="_n_s_fetch_request_09_extensions_8h_1a0b0b12aa13d990a19d2f1bac7462ec18" kindref="member">FetchObjectCallback</ref></type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSManagedObjectContext/NSManagedObjectContext+Extensions.h" line="20" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSManagedObjectContext/NSManagedObjectContext+Extensions.m" bodystart="130" bodyend="140"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_managed_object_context_07_extensions_08_1ac92da5078ecf1eff21bca3e6cef76d34" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void NSManagedObjectContext(Extensions)::fetchRequest:withCallback:</definition>
+        <argsstring>(NSFetchRequest *fetchRequest,[withCallback] FetchObjectsCallback callback)</argsstring>
+        <name>fetchRequest:withCallback:</name>
+        <param>
+          <type>NSFetchRequest *</type>
+          <declname>fetchRequest</declname>
+        </param>
+        <param>
+          <attributes>[withCallback]</attributes>
+          <type><ref refid="_n_s_fetch_request_09_extensions_8h_1aed4c2bf35d9fbf225aa9ac35c5e86a3d" kindref="member">FetchObjectsCallback</ref></type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSManagedObjectContext/NSManagedObjectContext+Extensions.h" line="20" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSManagedObjectContext/NSManagedObjectContext+Extensions.m" bodystart="143" bodyend="172"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_managed_object_context_07_extensions_08_1a89d521fbefdf642c7d8428c1aaf9b28b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>id</type>
+        <definition>id NSManagedObjectContext(Extensions)::insertEntity:</definition>
+        <argsstring>(NSString *entity)</argsstring>
+        <name>insertEntity:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>entity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSManagedObjectContext/NSManagedObjectContext+Extensions.h" line="20" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSManagedObjectContext/NSManagedObjectContext+Extensions.m" bodystart="175" bodyend="178"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_managed_object_context_07_extensions_08_1a3e31c6f71703a4970d28e3123f554347" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void NSManagedObjectContext(Extensions)::deleteEntity:withPredicate:</definition>
+        <argsstring>(NSString *entity,[withPredicate] NSPredicate *predicate)</argsstring>
+        <name>deleteEntity:withPredicate:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>entity</declname>
+        </param>
+        <param>
+          <attributes>[withPredicate]</attributes>
+          <type>NSPredicate *</type>
+          <declname>predicate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSManagedObjectContext/NSManagedObjectContext+Extensions.h" line="20" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSManagedObjectContext/NSManagedObjectContext+Extensions.m" bodystart="180" bodyend="198"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSManagedObjectContext/NSManagedObjectContext+Extensions.h" line="17" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSManagedObjectContext/NSManagedObjectContext+Extensions.h" bodystart="17" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_n_s_managed_object_context_07_extensions_08_1a3e31c6f71703a4970d28e3123f554347" prot="public" virt="virtual"><scope>NSManagedObjectContext(Extensions)</scope><name>deleteEntity:withPredicate:</name></member>
+      <member refid="category_n_s_managed_object_context_07_extensions_08_1accc033077d83c8f45c5483e1efd5b75f" prot="public" virt="virtual"><scope>NSManagedObjectContext(Extensions)</scope><name>fetchObjectForEntity:</name></member>
+      <member refid="category_n_s_managed_object_context_07_extensions_08_1a1d9433aad35905b0c67bfc6f258cd5d4" prot="public" virt="virtual"><scope>NSManagedObjectContext(Extensions)</scope><name>fetchObjectForEntity:callback:</name></member>
+      <member refid="category_n_s_managed_object_context_07_extensions_08_1a2c677f756364d4879fa557fe9deef9e7" prot="public" virt="virtual"><scope>NSManagedObjectContext(Extensions)</scope><name>fetchObjectForEntity:predicate:</name></member>
+      <member refid="category_n_s_managed_object_context_07_extensions_08_1a16b1f5f42d224250c602e6670134ccfa" prot="public" virt="virtual"><scope>NSManagedObjectContext(Extensions)</scope><name>fetchObjectForEntity:predicate:callback:</name></member>
+      <member refid="category_n_s_managed_object_context_07_extensions_08_1a335424e31cda3310792aef79154dc9fe" prot="public" virt="virtual"><scope>NSManagedObjectContext(Extensions)</scope><name>fetchObjectForEntity:predicate:sortDescriptors:</name></member>
+      <member refid="category_n_s_managed_object_context_07_extensions_08_1aa2ad2abd89328f20f46122a2650cc6f7" prot="public" virt="virtual"><scope>NSManagedObjectContext(Extensions)</scope><name>fetchObjectForEntity:predicate:sortDescriptors:callback:</name></member>
+      <member refid="category_n_s_managed_object_context_07_extensions_08_1ad86cff079977811c1f3bc01946c0ae66" prot="public" virt="virtual"><scope>NSManagedObjectContext(Extensions)</scope><name>fetchObjectForEntity:sortDescriptors:</name></member>
+      <member refid="category_n_s_managed_object_context_07_extensions_08_1af18691b4eee1a0609c48cee855fe5d88" prot="public" virt="virtual"><scope>NSManagedObjectContext(Extensions)</scope><name>fetchObjectForEntity:sortDescriptors:callback:</name></member>
+      <member refid="category_n_s_managed_object_context_07_extensions_08_1ad3a679cd729ec4be28c9637a0b9f6f45" prot="public" virt="virtual"><scope>NSManagedObjectContext(Extensions)</scope><name>fetchObjectsForEntity:</name></member>
+      <member refid="category_n_s_managed_object_context_07_extensions_08_1aa99f4f3e9dfb624c8a03d409bc7e9a91" prot="public" virt="virtual"><scope>NSManagedObjectContext(Extensions)</scope><name>fetchObjectsForEntity:callback:</name></member>
+      <member refid="category_n_s_managed_object_context_07_extensions_08_1ada41b6b9c83f7c2882c4be485058794d" prot="public" virt="virtual"><scope>NSManagedObjectContext(Extensions)</scope><name>fetchObjectsForEntity:predicate:</name></member>
+      <member refid="category_n_s_managed_object_context_07_extensions_08_1a5edcfc0e98e3a54b1d448f2f70712299" prot="public" virt="virtual"><scope>NSManagedObjectContext(Extensions)</scope><name>fetchObjectsForEntity:predicate:callback:</name></member>
+      <member refid="category_n_s_managed_object_context_07_extensions_08_1ab7312d750b075e5a91ab814bb36c3c41" prot="public" virt="virtual"><scope>NSManagedObjectContext(Extensions)</scope><name>fetchObjectsForEntity:predicate:sortDescriptors:</name></member>
+      <member refid="category_n_s_managed_object_context_07_extensions_08_1aaf4faf3e772fe3b1fd2cf8e59199836c" prot="public" virt="virtual"><scope>NSManagedObjectContext(Extensions)</scope><name>fetchObjectsForEntity:predicate:sortDescriptors:callback:</name></member>
+      <member refid="category_n_s_managed_object_context_07_extensions_08_1a538bc79bf6e5c6a559df9e7a68ccc0b9" prot="public" virt="virtual"><scope>NSManagedObjectContext(Extensions)</scope><name>fetchObjectsForEntity:predicate:sortDescriptors:fetchLimit:</name></member>
+      <member refid="category_n_s_managed_object_context_07_extensions_08_1a788635f7d0d2fea785662f938a8985cd" prot="public" virt="virtual"><scope>NSManagedObjectContext(Extensions)</scope><name>fetchObjectsForEntity:sortDescriptors:</name></member>
+      <member refid="category_n_s_managed_object_context_07_extensions_08_1a6e8186cfab2c01c3f06a068bf9543626" prot="public" virt="virtual"><scope>NSManagedObjectContext(Extensions)</scope><name>fetchObjectsForEntity:sortDescriptors:callback:</name></member>
+      <member refid="category_n_s_managed_object_context_07_extensions_08_1ac92da5078ecf1eff21bca3e6cef76d34" prot="public" virt="virtual"><scope>NSManagedObjectContext(Extensions)</scope><name>fetchRequest:withCallback:</name></member>
+      <member refid="category_n_s_managed_object_context_07_extensions_08_1a89d521fbefdf642c7d8428c1aaf9b28b" prot="public" virt="virtual"><scope>NSManagedObjectContext(Extensions)</scope><name>insertEntity:</name></member>
+      <member refid="category_n_s_managed_object_context_07_extensions_08_1adb1c45d4cd38ad35c1ee074a7b355286" prot="public" virt="non-virtual"><scope>NSManagedObjectContext(Extensions)</scope><name>objectModel</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

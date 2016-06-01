@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="deprecated" kind="page">
+    <compoundname>deprecated</compoundname>
+    <title>Deprecated List</title>
+    <detaileddescription>
+<para><variablelist>
+<varlistentry><term><anchor id="deprecated_1_deprecated000001"/><ref refid="category_u_i_font_07_w_d_custom_loader_08_1a48f5455c4fdbab6abb75cc4670109f14" kindref="member">[UIFont(WDCustomLoader) customFontOfSize:withName:withExtension:]</ref>  </term></varlistentry>
+<listitem><para><simplesect kind="see"><para>+customFontWithURL:size: method </para></simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>size</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Font size </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Font filename without extension </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>extension</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Font filename extension ("ttf&quot; and @&quot;otf" are supported) </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><computeroutput>UIFont</computeroutput> object or <computeroutput>nil</computeroutput> on errors </para></simplesect>
+</para></listitem>
+</variablelist>
+</para>    </detaileddescription>
+  </compounddef>
+</doxygen>

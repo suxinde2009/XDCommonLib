@@ -1,0 +1,279 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_x_d___f_f_t_8c" kind="file" language="C++">
+    <compoundname>XD_FFT.c</compoundname>
+    <includes refid="_x_d___f_f_t_8h" local="yes">XD_FFT.h</includes>
+    <includes local="no">stdio.h</includes>
+    <includes local="no">math.h</includes>
+    <incdepgraph>
+      <node id="3262">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/FFT/XD_FFT.c</label>
+        <link refid="XD_FFT.c"/>
+        <childnode refid="3263" relation="include">
+        </childnode>
+        <childnode refid="3264" relation="include">
+        </childnode>
+        <childnode refid="3265" relation="include">
+        </childnode>
+      </node>
+      <node id="3263">
+        <label>XD_FFT.h</label>
+        <link refid="_x_d___f_f_t_8h"/>
+        <childnode refid="3264" relation="include">
+        </childnode>
+      </node>
+      <node id="3265">
+        <label>math.h</label>
+      </node>
+      <node id="3264">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="structplural" prot="public">plural</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="_x_d___f_f_t_8c_1a1daf785e3f68d293c7caa1c756d5cb74" prot="public" static="no">
+        <name>pi</name>
+        <initializer>3.1415</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/FFT/XD_FFT.c" line="13" column="10" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/FFT/XD_FFT.c" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_x_d___f_f_t_8c_1a170755e30c36be4904106b7bb279b1ec" prot="public" static="no">
+        <name>NN</name>
+        <initializer>12</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/FFT/XD_FFT.c" line="14" column="9" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/FFT/XD_FFT.c" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="_x_d___f_f_t_8c_1a921a12666ac2d929ec80858f70fb8359" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int g[NN/2]</definition>
+        <argsstring>[NN/2]</argsstring>
+        <name>g</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/FFT/XD_FFT.c" line="20" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/FFT/XD_FFT.c" bodystart="20" bodyend="-1"/>
+        <referencedby refid="category_u_i_color_07_web_08_1afd37d6b8527fc67a3a04038e74666555" compoundref="_u_i_color_09_web_8m" startline="17" endline="25">UIColor(Web)::canvasColorString</referencedby>
+        <referencedby refid="category_u_i_color_07_web_08_1a9bc152c6631fcc3098c5c977a4680e04" compoundref="_u_i_color_09_web_8m" startline="31" endline="40">UIColor(Web)::webColorString</referencedby>
+        <referencedby refid="category_u_i_image_07_blur_08_1a8276b8c51bc0acb3480500f9dbb70879" compoundref="_u_i_image_09_blur_8m" startline="41" endline="59">UIImage(Blur)::tintedImageWithColor:</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="_x_d___f_f_t_8c_1a4b398cd908dd24431337a8c006ece6c2" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int h[NN/2]</definition>
+        <argsstring>[NN/2]</argsstring>
+        <name>h</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/FFT/XD_FFT.c" line="20" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/FFT/XD_FFT.c" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_x_d___f_f_t_8c_1ae1a3968e7947464bee7714f6d43b7002" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void test</definition>
+        <argsstring>()</argsstring>
+        <name>test</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/FFT/XD_FFT.c" line="22" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/FFT/XD_FFT.c" bodystart="22" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="_x_d___f_f_t_8c_1aab6ba3b85bb39ffaa80075a19ba0ff19" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void dft</definition>
+        <argsstring>(struct plural *X, int x[], int N)</argsstring>
+        <name>dft</name>
+        <param>
+          <type>struct <ref refid="structplural" kindref="compound">plural</ref> *</type>
+          <declname>X</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+          <array>[]</array>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>N</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/FFT/XD_FFT.c" line="63" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/FFT/XD_FFT.c" bodystart="63" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="_x_d___f_f_t_8c_1ab9985e96df0f10ca12ca9af2784be9d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>struct <ref refid="structplural" kindref="compound">plural</ref></type>
+        <definition>struct plural chengji</definition>
+        <argsstring>(struct plural a, struct plural b)</argsstring>
+        <name>chengji</name>
+        <param>
+          <type>struct <ref refid="structplural" kindref="compound">plural</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>struct <ref refid="structplural" kindref="compound">plural</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/FFT/XD_FFT.c" line="63" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/FFT/XD_FFT.c" bodystart="79" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="_x_d___f_f_t_8c_1ac10444758579343d8907bbe9f031c09a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void chaikai</definition>
+        <argsstring>(int v[], int l)</argsstring>
+        <name>chaikai</name>
+        <param>
+          <type>int</type>
+          <declname>v</declname>
+          <array>[]</array>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>l</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/FFT/XD_FFT.c" line="88" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/FFT/XD_FFT.c" bodystart="88" bodyend="99"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>XD_FFT.c</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>XDCommonLib</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>SuXinDe<sp/>on<sp/>16/5/17.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>©<sp/>2016年<sp/>su<sp/>xinde.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_x_d___f_f_t_8h" kindref="compound">XD_FFT.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include&lt;stdio.h&gt;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//计算给定v[NN]的NN点FFT</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include&lt;math.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="_x_d___f_f_t_8c_1a1daf785e3f68d293c7caa1c756d5cb74" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>pi<sp/>3.1415</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="_x_d___f_f_t_8c_1a170755e30c36be4904106b7bb279b1ec" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>NN<sp/>12<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//12点FFT</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="structplural" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structplural" kindref="compound">plural</ref></highlight></codeline>
+<codeline lineno="16"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="17" refid="structplural_1a77029edd8ab2022ab402dcaca9dcec8f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="structplural_1a77029edd8ab2022ab402dcaca9dcec8f" kindref="member">real</ref>;</highlight></codeline>
+<codeline lineno="18" refid="structplural_1a1bb20fa9831fb7dd59a7ba1e856afdef" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="structplural_1a1bb20fa9831fb7dd59a7ba1e856afdef" kindref="member">image</ref>;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="20" refid="_x_d___f_f_t_8c_1a4b398cd908dd24431337a8c006ece6c2" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_x_d___f_f_t_8c_1a921a12666ac2d929ec80858f70fb8359" kindref="member">g</ref>[<ref refid="_x_d___f_f_t_8c_1a170755e30c36be4904106b7bb279b1ec" kindref="member">NN</ref>/2],<ref refid="_x_d___f_f_t_8c_1a4b398cd908dd24431337a8c006ece6c2" kindref="member">h</ref>[<ref refid="_x_d___f_f_t_8c_1a170755e30c36be4904106b7bb279b1ec" kindref="member">NN</ref>/2];</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="_x_d___f_f_t_8c_1ae1a3968e7947464bee7714f6d43b7002" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_x_d___f_f_t_8c_1ae1a3968e7947464bee7714f6d43b7002" kindref="member">test</ref>()</highlight></codeline>
+<codeline lineno="23"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_x_d___f_f_t_8c_1aab6ba3b85bb39ffaa80075a19ba0ff19" kindref="member">dft</ref>(</highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="structplural" kindref="compound">plural</ref><sp/>*<ref refid="_u_i_text_field_09_history_8m_1adf4a8d7d50aa51b5c06a391e0f908dbe" kindref="member">X</ref>,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>x[<ref refid="_x_d___f_f_t_8c_1a170755e30c36be4904106b7bb279b1ec" kindref="member">NN</ref>/2],</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>N);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_x_d___f_f_t_8c_1ac10444758579343d8907bbe9f031c09a" kindref="member">chaikai</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>v[],</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>l);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structplural" kindref="compound">plural</ref><sp/>chengji(struct<sp/>plural<sp/>a,struct<sp/>plural<sp/>b);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">plural<sp/>w,m,V[NN];</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">plural<sp/>G[NN/2],H[NN/2];</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>v[<ref refid="_x_d___f_f_t_8c_1a170755e30c36be4904106b7bb279b1ec" kindref="member">NN</ref>]={3,9,1,0,2,1,4,3,5,2,6,7};<sp/><sp/><sp/></highlight><highlight class="comment">//给出v[NN]</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i,N,k,t;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(t=0;t&lt;NN/2;t++)</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>G[t].<ref refid="structplural_1a77029edd8ab2022ab402dcaca9dcec8f" kindref="member">real</ref>=0;<sp/>G[t].<ref refid="structplural_1a1bb20fa9831fb7dd59a7ba1e856afdef" kindref="member">image</ref>=0;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//初始化G[K],H[K]</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>H[t].<ref refid="structplural_1a77029edd8ab2022ab402dcaca9dcec8f" kindref="member">real</ref>=0;<sp/>H[t].<ref refid="structplural_1a1bb20fa9831fb7dd59a7ba1e856afdef" kindref="member">image</ref>=0;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>N=NN/2;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_x_d___f_f_t_8c_1ac10444758579343d8907bbe9f031c09a" kindref="member">chaikai</ref>(v,NN);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_x_d___f_f_t_8c_1aab6ba3b85bb39ffaa80075a19ba0ff19" kindref="member">dft</ref>(G,<ref refid="_x_d___f_f_t_8c_1a921a12666ac2d929ec80858f70fb8359" kindref="member">g</ref>,N);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_x_d___f_f_t_8c_1aab6ba3b85bb39ffaa80075a19ba0ff19" kindref="member">dft</ref>(H,<ref refid="_x_d___f_f_t_8c_1a4b398cd908dd24431337a8c006ece6c2" kindref="member">h</ref>,N);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(k=0;k&lt;2*N;k++)</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>w.<ref refid="structplural_1a77029edd8ab2022ab402dcaca9dcec8f" kindref="member">real</ref>=cos(2*<ref refid="_x_d___f_f_t_8c_1a1daf785e3f68d293c7caa1c756d5cb74" kindref="member">pi</ref>*k/(2*N));</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>w.<ref refid="structplural_1a1bb20fa9831fb7dd59a7ba1e856afdef" kindref="member">image</ref>=-sin(2*<ref refid="_x_d___f_f_t_8c_1a1daf785e3f68d293c7caa1c756d5cb74" kindref="member">pi</ref>*k/(2*N));</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m=<ref refid="_x_d___f_f_t_8c_1ab9985e96df0f10ca12ca9af2784be9d4" kindref="member">chengji</ref>(w,H[k%N]);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>V[k].<ref refid="structplural_1a77029edd8ab2022ab402dcaca9dcec8f" kindref="member">real</ref>=G[k%N].<ref refid="structplural_1a77029edd8ab2022ab402dcaca9dcec8f" kindref="member">real</ref>+m.<ref refid="structplural_1a77029edd8ab2022ab402dcaca9dcec8f" kindref="member">real</ref>;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>V[k].<ref refid="structplural_1a1bb20fa9831fb7dd59a7ba1e856afdef" kindref="member">image</ref>=G[k%N].<ref refid="structplural_1a1bb20fa9831fb7dd59a7ba1e856afdef" kindref="member">image</ref>+m.<ref refid="structplural_1a1bb20fa9831fb7dd59a7ba1e856afdef" kindref="member">image</ref>;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;FFT<sp/>results:\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(i=0;i&lt;2*N;i++)</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;%.4f+(%.4f*j)\n&quot;</highlight><highlight class="normal">,V[i].<ref refid="structplural_1a77029edd8ab2022ab402dcaca9dcec8f" kindref="member">real</ref>,V[i].<ref refid="structplural_1a1bb20fa9831fb7dd59a7ba1e856afdef" kindref="member">image</ref>);<sp/><sp/><sp/></highlight><highlight class="comment">//结果输出</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="61"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63" refid="_x_d___f_f_t_8c_1aab6ba3b85bb39ffaa80075a19ba0ff19" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_x_d___f_f_t_8c_1aab6ba3b85bb39ffaa80075a19ba0ff19" kindref="member">dft</ref>(</highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="structplural" kindref="compound">plural</ref><sp/>*<ref refid="_u_i_text_field_09_history_8m_1adf4a8d7d50aa51b5c06a391e0f908dbe" kindref="member">X</ref>,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>x[],<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>N)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//求x[n]的N-DFT</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>k,n;</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(k=0;k&lt;N;k++)</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(n=0;n&lt;N;n++)</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>X[k].<ref refid="structplural_1a77029edd8ab2022ab402dcaca9dcec8f" kindref="member">real</ref>+=x[n]*cos(2*<ref refid="_x_d___f_f_t_8c_1a1daf785e3f68d293c7caa1c756d5cb74" kindref="member">pi</ref>*k*n/N);</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>X[k].<ref refid="structplural_1a1bb20fa9831fb7dd59a7ba1e856afdef" kindref="member">image</ref>+=-x[n]*sin(2*<ref refid="_x_d___f_f_t_8c_1a1daf785e3f68d293c7caa1c756d5cb74" kindref="member">pi</ref>*k*n/N);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="77"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79" refid="_x_d___f_f_t_8c_1ab9985e96df0f10ca12ca9af2784be9d4" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structplural" kindref="compound">plural</ref><sp/><ref refid="_x_d___f_f_t_8c_1ab9985e96df0f10ca12ca9af2784be9d4" kindref="member">chengji</ref>(struct<sp/><ref refid="structplural" kindref="compound">plural</ref><sp/>a,struct<sp/><ref refid="structplural" kindref="compound">plural</ref><sp/>b)<sp/><sp/><sp/><sp/></highlight><highlight class="comment">//计算两个复数a,b的乘积返回复数c</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structplural" kindref="compound">plural</ref><sp/>c;</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/>c.<ref refid="structplural_1a77029edd8ab2022ab402dcaca9dcec8f" kindref="member">real</ref>=a.real*b.real-a.image*b.image;</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/>c.<ref refid="structplural_1a1bb20fa9831fb7dd59a7ba1e856afdef" kindref="member">image</ref>=a.real*b.image+a.image*b.real;</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">(c);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88" refid="_x_d___f_f_t_8c_1ac10444758579343d8907bbe9f031c09a" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_x_d___f_f_t_8c_1ac10444758579343d8907bbe9f031c09a" kindref="member">chaikai</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>v[],</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>l)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//将v[n]拆成g[n]和k[n]</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i,k=0,m=0;</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(i=0;i&lt;l;i++)</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(i%2==1)</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_x_d___f_f_t_8c_1a4b398cd908dd24431337a8c006ece6c2" kindref="member">h</ref>[k++]=v[i];</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(i%2==0)</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_x_d___f_f_t_8c_1a921a12666ac2d929ec80858f70fb8359" kindref="member">g</ref>[m++]=v[i];</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="99"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/FFT/XD_FFT.c"/>
+  </compounddef>
+</doxygen>

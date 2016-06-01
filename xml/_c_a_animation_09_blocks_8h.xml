@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_c_a_animation_09_blocks_8h" kind="file" language="C++">
+    <compoundname>CAAnimation+Blocks.h</compoundname>
+    <includes local="no">Foundation/Foundation.h</includes>
+    <includes local="no">QuartzCore/QuartzCore.h</includes>
+    <includedby refid="_c_a_animation_09_blocks_8m" local="yes">XDCommonLib/CommonBasicComponentLayer/Categories/QuartzCore/CAAnimation/CAAnimation+Blocks.m</includedby>
+    <incdepgraph>
+      <node id="1111">
+        <label>Foundation/Foundation.h</label>
+      </node>
+      <node id="1110">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/QuartzCore/CAAnimation/CAAnimation+Blocks.h</label>
+        <link refid="CAAnimation+Blocks.h"/>
+        <childnode refid="1111" relation="include">
+        </childnode>
+        <childnode refid="1112" relation="include">
+        </childnode>
+      </node>
+      <node id="1112">
+        <label>QuartzCore/QuartzCore.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1113">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/QuartzCore/CAAnimation/CAAnimation+Blocks.h</label>
+        <link refid="CAAnimation+Blocks.h"/>
+        <childnode refid="1114" relation="include">
+        </childnode>
+      </node>
+      <node id="1114">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/QuartzCore/CAAnimation/CAAnimation+Blocks.m</label>
+        <link refid="_c_a_animation_09_blocks_8m"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="category_c_a_animation_07_blocks_addition_08" prot="public">CAAnimation(BlocksAddition)</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>CAAnimation+Blocks.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>CAAnimationBlocks</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>xissburg<sp/>on<sp/>7/7/11.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>2011<sp/>xissburg.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>https://github.com/xissburg/CAAnimationBlocks</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;Foundation/Foundation.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;QuartzCore/QuartzCore.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="category_c_a_animation_07_blocks_addition_08" kindref="compound">CAAnimation (BlocksAddition)</ref></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>copy)<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(^<ref refid="category_c_a_animation_07_blocks_addition_08_1a1790bd6672e7eba0f2e965fe7561888e" kindref="member">completion</ref>)(BOOL<sp/>finished);</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic,<sp/>copy)<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(^<ref refid="category_c_a_animation_07_blocks_addition_08_1a7e6d7227d86ff9744bb4f9609c052247" kindref="member">start</ref>)(void);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal">-<sp/>(void)setCompletion:(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(^)(BOOL<sp/>finished))completion;<sp/></highlight><highlight class="comment">//<sp/>Forces<sp/>auto-complete<sp/>of<sp/>setCompletion:<sp/>to<sp/>add<sp/>the<sp/>name<sp/>&apos;finished&apos;<sp/>in<sp/>the<sp/>block<sp/>parameter</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/QuartzCore/CAAnimation/CAAnimation+Blocks.h"/>
+  </compounddef>
+</doxygen>

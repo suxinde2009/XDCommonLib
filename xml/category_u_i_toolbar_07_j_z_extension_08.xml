@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_u_i_toolbar_07_j_z_extension_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>UIToolbar(JZExtension)</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="category_u_i_toolbar_07_j_z_extension_08_1abd2b9a15f8b2612c5f06f865f10405f5" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="assign">
+        <type>CGSize</type>
+        <definition>CGSize UIToolbar(JZExtension)::size</definition>
+        <argsstring></argsstring>
+        <name>size</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UINavigationController/UINavigationController+JZExtension.m" line="360" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UINavigationController/UINavigationController+JZExtension.m" bodystart="360" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UINavigationController/UINavigationController+JZExtension.m" line="359" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UINavigationController/UINavigationController+JZExtension.m" bodystart="359" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_u_i_toolbar_07_j_z_extension_08_1abd2b9a15f8b2612c5f06f865f10405f5" prot="public" virt="non-virtual"><scope>UIToolbar(JZExtension)</scope><name>size</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_s_b_collection_view_table_layout_attributes_8h" kind="file" language="C++">
+    <compoundname>SBCollectionViewTableLayoutAttributes.h</compoundname>
+    <includes local="no">UIKit/UIKit.h</includes>
+    <includedby refid="_s_b_collection_view_table_cell_8m" local="yes">XDCommonLib/CommonBasicComponentLayer/Venders/SBTableLayout/SBCollectionViewTableCell.m</includedby>
+    <includedby refid="_s_b_collection_view_table_layout_8m" local="yes">XDCommonLib/CommonBasicComponentLayer/Venders/SBTableLayout/SBCollectionViewTableLayout.m</includedby>
+    <includedby refid="_s_b_collection_view_table_layout_attributes_8m" local="yes">XDCommonLib/CommonBasicComponentLayer/Venders/SBTableLayout/SBCollectionViewTableLayoutAttributes.m</includedby>
+    <incdepgraph>
+      <node id="3606">
+        <label>UIKit/UIKit.h</label>
+      </node>
+      <node id="3605">
+        <label>XDCommonLib/CommonBasicComponentLayer/Venders/SBTableLayout/SBCollectionViewTableLayoutAttributes.h</label>
+        <link refid="SBCollectionViewTableLayoutAttributes.h"/>
+        <childnode refid="3606" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3607">
+        <label>XDCommonLib/CommonBasicComponentLayer/Venders/SBTableLayout/SBCollectionViewTableLayoutAttributes.h</label>
+        <link refid="SBCollectionViewTableLayoutAttributes.h"/>
+        <childnode refid="3608" relation="include">
+        </childnode>
+        <childnode refid="3609" relation="include">
+        </childnode>
+        <childnode refid="3610" relation="include">
+        </childnode>
+      </node>
+      <node id="3610">
+        <label>XDCommonLib/CommonBasicComponentLayer/Venders/SBTableLayout/SBCollectionViewTableLayoutAttributes.m</label>
+        <link refid="_s_b_collection_view_table_layout_attributes_8m"/>
+      </node>
+      <node id="3609">
+        <label>XDCommonLib/CommonBasicComponentLayer/Venders/SBTableLayout/SBCollectionViewTableLayout.m</label>
+        <link refid="_s_b_collection_view_table_layout_8m"/>
+      </node>
+      <node id="3608">
+        <label>XDCommonLib/CommonBasicComponentLayer/Venders/SBTableLayout/SBCollectionViewTableCell.m</label>
+        <link refid="_s_b_collection_view_table_cell_8m"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="interface_s_b_collection_view_table_layout_attributes" prot="public">SBCollectionViewTableLayoutAttributes</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_s_b_collection_view_table_layout_attributes_8h_1a6f46015a1150ba4b8d8c9d6c6cb8241b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typedef</type>
+        <definition>typedef NS_ENUM</definition>
+        <argsstring>(NSUInteger, SBCollectionViewTableCellType)</argsstring>
+        <name>NS_ENUM</name>
+        <param>
+          <type>NSUInteger</type>
+        </param>
+        <param>
+          <type>SBCollectionViewTableCellType</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/SBTableLayout/SBCollectionViewTableLayoutAttributes.h" line="11" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/SBTableLayout/SBCollectionViewTableLayoutAttributes.h" bodystart="11" bodyend="16"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>SBCollectionViewTableLayoutAttributes.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>SBTableLayout</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Simon<sp/>Blommegård<sp/>on<sp/>2013-11-11.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2013<sp/>Simon<sp/>Blommegård.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;UIKit/UIKit.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="_s_b_collection_view_table_layout_attributes_8h_1a6f46015a1150ba4b8d8c9d6c6cb8241b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="_s_b_collection_view_table_layout_attributes_8h_1a6f46015a1150ba4b8d8c9d6c6cb8241b" kindref="member">NS_ENUM</ref>(NSUInteger,<sp/>SBCollectionViewTableCellType)<sp/>{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/>SBCollectionViewTableCellTypeTop,</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/>SBCollectionViewTableCellTypeMiddle,</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/>SBCollectionViewTableCellTypeBottom,</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/>SBCollectionViewTableCellTypeSingle</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="interface_s_b_collection_view_table_layout_attributes" refkind="compound"><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="interface_s_b_collection_view_table_layout_attributes" kindref="compound">SBCollectionViewTableLayoutAttributes</ref><sp/>:<sp/>UICollectionViewLayoutAttributes</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27" refid="interface_s_b_collection_view_table_layout_attributes_1af49d1048616344e77304e87709faa8d0" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic)<sp/>SBCollectionViewTableCellType<sp/><ref refid="interface_s_b_collection_view_table_layout_attributes_1af49d1048616344e77304e87709faa8d0" kindref="member">cellType</ref>;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32" refid="interface_s_b_collection_view_table_layout_attributes_1ac8c7de626610b8bc6dabdebcbad27206" refkind="member"><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic)<sp/>UIEdgeInsets<sp/><ref refid="interface_s_b_collection_view_table_layout_attributes_1ac8c7de626610b8bc6dabdebcbad27206" kindref="member">middleSeparatorInset</ref>;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37" refid="interface_s_b_collection_view_table_layout_attributes_1afd3b7c54a3bda46356892c7ab1040174" refkind="member"><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic)<sp/>CGFloat<sp/><ref refid="interface_s_b_collection_view_table_layout_attributes_1afd3b7c54a3bda46356892c7ab1040174" kindref="member">borderSeparatorWidth</ref>;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42" refid="interface_s_b_collection_view_table_layout_attributes_1a6acc774a092ae69f84cffa455f8f575e" refkind="member"><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(nonatomic)<sp/>CGFloat<sp/><ref refid="interface_s_b_collection_view_table_layout_attributes_1a6acc774a092ae69f84cffa455f8f575e" kindref="member">middleSeparatorWidth</ref>;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/SBTableLayout/SBCollectionViewTableLayoutAttributes.h"/>
+  </compounddef>
+</doxygen>

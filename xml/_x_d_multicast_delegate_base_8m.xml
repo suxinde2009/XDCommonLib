@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_x_d_multicast_delegate_base_8m" kind="file" language="Objective-C">
+    <compoundname>XDMulticastDelegateBase.m</compoundname>
+    <includes refid="_x_d_multicast_delegate_base_8h" local="yes">XDMulticastDelegateBase.h</includes>
+    <includes refid="_x_d_multicast_delegate_8h" local="yes">XDMulticastDelegate.h</includes>
+    <incdepgraph>
+      <node id="3526">
+        <label>XDMulticastDelegateBase.h</label>
+        <link refid="_x_d_multicast_delegate_base_8h"/>
+        <childnode refid="3527" relation="include">
+        </childnode>
+      </node>
+      <node id="3525">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/XDMulticastDelegate/XDMulticastDelegateBase.m</label>
+        <link refid="XDMulticastDelegateBase.m"/>
+        <childnode refid="3526" relation="include">
+        </childnode>
+        <childnode refid="3528" relation="include">
+        </childnode>
+      </node>
+      <node id="3528">
+        <label>XDMulticastDelegate.h</label>
+        <link refid="_x_d_multicast_delegate_8h"/>
+        <childnode refid="3527" relation="include">
+        </childnode>
+      </node>
+      <node id="3527">
+        <label>Foundation/Foundation.h</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>XDMulticastDelegateBase.m</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>XDCommonLib</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>suxinde<sp/>on<sp/>16/4/11.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>©<sp/>2016年<sp/>su<sp/>xinde.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_x_d_multicast_delegate_base_8h" kindref="compound">XDMulticastDelegateBase.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_x_d_multicast_delegate_8h" kindref="compound">XDMulticastDelegate.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="class_x_d_multicast_delegate_base" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">@implementation<sp/></highlight><highlight class="normal"><ref refid="class_x_d_multicast_delegate_base" kindref="compound">XDMulticastDelegateBase</ref></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="class_x_d_multicast_delegate_base_1a81b59c38f0360653d2c75a596fee189c" refkind="member"><highlight class="normal">-<sp/>(id)<ref refid="class_x_d_multicast_delegate_base_1a81b59c38f0360653d2c75a596fee189c" kindref="member">init</ref><sp/>{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/><ref refid="class_x_d_multicast_delegate_base_1ac95b6433fe933f5b620279e46a541aa1" kindref="member">initWithDispatchQueue</ref>:NULL];</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="class_x_d_multicast_delegate_base_1ac95b6433fe933f5b620279e46a541aa1" refkind="member"><highlight class="normal">-<sp/>(id)initWithDispatchQueue:(dispatch_queue_t)queue</highlight></codeline>
+<codeline lineno="19"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>((</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>=<sp/>[super<sp/><ref refid="class_x_d_multicast_delegate_base_1a81b59c38f0360653d2c75a596fee189c" kindref="member">init</ref>]))<sp/>{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(queue)<sp/>{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_x_d_multicast_delegate_base_1a752dbbfd98cffdd945ab521a52c9d8d1" kindref="member">_moduleQueue</ref><sp/>=<sp/>queue;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*moduleQueueName<sp/>=<sp/>[NSStringFromClass([</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>class])<sp/>UTF8String];</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_x_d_multicast_delegate_base_1a752dbbfd98cffdd945ab521a52c9d8d1" kindref="member">_moduleQueue</ref><sp/>=<sp/>dispatch_queue_create(moduleQueueName,<sp/>NULL);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_x_d_multicast_delegate_base_1a37850b88790bdf24b89d84bf7e3c4995" kindref="member">_moduleQueueTag</ref><sp/>=<sp/>&amp;<ref refid="class_x_d_multicast_delegate_base_1a37850b88790bdf24b89d84bf7e3c4995" kindref="member">_moduleQueueTag</ref>;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dispatch_queue_set_specific(<ref refid="class_x_d_multicast_delegate_base_1a752dbbfd98cffdd945ab521a52c9d8d1" kindref="member">_moduleQueue</ref>,</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_x_d_multicast_delegate_base_1a37850b88790bdf24b89d84bf7e3c4995" kindref="member">_moduleQueueTag</ref>,</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_x_d_multicast_delegate_base_1a37850b88790bdf24b89d84bf7e3c4995" kindref="member">_moduleQueueTag</ref>,</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NULL);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_x_d_multicast_delegate_base_1ad72bc4e10b675807e8de514b7b65e707" kindref="member">_multicastDelegate</ref><sp/>=<sp/>[[<ref refid="class_x_d_multicast_delegate" kindref="compound">XDMulticastDelegate</ref><sp/>alloc]<sp/>init];</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal">-<sp/>(dispatch_queue_t)<ref refid="class_x_d_multicast_delegate_base_1a1cbb8213236ade6cbdfd090bd8a40010" kindref="member">moduleQueue</ref></highlight></codeline>
+<codeline lineno="40"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_x_d_multicast_delegate_base_1a752dbbfd98cffdd945ab521a52c9d8d1" kindref="member">_moduleQueue</ref>;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal">-<sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*)<ref refid="class_x_d_multicast_delegate_base_1a6786fbc980168c90f0d14d994d8a000f" kindref="member">moduleQueueTag</ref></highlight></codeline>
+<codeline lineno="45"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_x_d_multicast_delegate_base_1a37850b88790bdf24b89d84bf7e3c4995" kindref="member">_moduleQueueTag</ref>;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49" refid="class_x_d_multicast_delegate_base_1ac530ee876132be297bcd59ccec601070" refkind="member"><highlight class="normal">-<sp/>(void)addDelegate:(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)delegate</highlight></codeline>
+<codeline lineno="50"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/><ref refid="class_x_d_multicast_delegate_base_1ae2a1304393e8b595ff62ae24b302af45" kindref="member">addDelegate</ref>:delegate</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_x_d_multicast_delegate_base_1ae2a1304393e8b595ff62ae24b302af45" kindref="member">delegateQueue</ref>:dispatch_get_main_queue()];</highlight></codeline>
+<codeline lineno="53"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55" refid="class_x_d_multicast_delegate_base_1ae2a1304393e8b595ff62ae24b302af45" refkind="member"><highlight class="normal">-<sp/>(void)addDelegate:(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)delegate</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>delegateQueue:(dispatch_queue_t)delegateQueue</highlight></codeline>
+<codeline lineno="57"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/>dispatch_block_t<sp/>block<sp/>=<sp/>^{</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[<ref refid="class_x_d_multicast_delegate_base_1ad72bc4e10b675807e8de514b7b65e707" kindref="member">_multicastDelegate</ref><sp/>addDelegate:delegate</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>delegateQueue:delegateQueue];</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(dispatch_get_specific(<ref refid="class_x_d_multicast_delegate_base_1a37850b88790bdf24b89d84bf7e3c4995" kindref="member">_moduleQueueTag</ref>))<sp/>{</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>block();</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dispatch_async(<ref refid="class_x_d_multicast_delegate_base_1a752dbbfd98cffdd945ab521a52c9d8d1" kindref="member">_moduleQueue</ref>,<sp/>block);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="68"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal">-<sp/>(void)removeDelegate:(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)delegate</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>delegateQueue:(dispatch_queue_t)delegateQueue</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>synchronously:(BOOL)synchronously</highlight></codeline>
+<codeline lineno="73"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/>dispatch_block_t<sp/>block<sp/>=<sp/>^{</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[_multicastDelegate<sp/>removeDelegate:delegate</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>delegateQueue:delegateQueue];</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(dispatch_get_specific(<ref refid="class_x_d_multicast_delegate_base_1a37850b88790bdf24b89d84bf7e3c4995" kindref="member">_moduleQueueTag</ref>))<sp/>{</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>block();</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(synchronously)<sp/>{</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dispatch_sync(<ref refid="class_x_d_multicast_delegate_base_1a752dbbfd98cffdd945ab521a52c9d8d1" kindref="member">_moduleQueue</ref>,<sp/>block);</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dispatch_async(<ref refid="class_x_d_multicast_delegate_base_1a752dbbfd98cffdd945ab521a52c9d8d1" kindref="member">_moduleQueue</ref>,<sp/>block);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="86"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88" refid="class_x_d_multicast_delegate_base_1aad5165d72ce686e3578a04c59b9fe201" refkind="member"><highlight class="normal">-<sp/>(void)removeDelegate:(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)delegate</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>delegateQueue:(dispatch_queue_t)delegateQueue</highlight></codeline>
+<codeline lineno="90"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>removeDelegate:delegate</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>delegateQueue:delegateQueue</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>synchronously:YES];</highlight></codeline>
+<codeline lineno="94"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96" refid="class_x_d_multicast_delegate_base_1aa18b9f2e57ae8bdf5ad9eb0979e9d7c1" refkind="member"><highlight class="normal">-<sp/>(void)removeDelegate:(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)delegate</highlight></codeline>
+<codeline lineno="97"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>removeDelegate:delegate</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>delegateQueue:NULL</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>synchronously:YES];</highlight></codeline>
+<codeline lineno="101"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDMulticastDelegate/XDMulticastDelegateBase.m"/>
+  </compounddef>
+</doxygen>

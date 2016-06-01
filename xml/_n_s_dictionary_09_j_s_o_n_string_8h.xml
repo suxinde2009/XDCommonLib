@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_n_s_dictionary_09_j_s_o_n_string_8h" kind="file" language="C++">
+    <compoundname>NSDictionary+JSONString.h</compoundname>
+    <includes local="no">Foundation/Foundation.h</includes>
+    <includedby refid="_n_s_dictionary_09_j_s_o_n_string_8m" local="yes">XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDictionary/NSDictionary+JSONString.m</includedby>
+    <incdepgraph>
+      <node id="451">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDictionary/NSDictionary+JSONString.h</label>
+        <link refid="NSDictionary+JSONString.h"/>
+        <childnode refid="452" relation="include">
+        </childnode>
+      </node>
+      <node id="452">
+        <label>Foundation/Foundation.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="453">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDictionary/NSDictionary+JSONString.h</label>
+        <link refid="NSDictionary+JSONString.h"/>
+        <childnode refid="454" relation="include">
+        </childnode>
+      </node>
+      <node id="454">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDictionary/NSDictionary+JSONString.m</label>
+        <link refid="_n_s_dictionary_09_j_s_o_n_string_8m"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="category_n_s_dictionary_07_j_s_o_n_string_08" prot="public">NSDictionary(JSONString)</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>NSDictionary+JSONString.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>iOS-Categories<sp/>(https://github.com/shaojiankui/iOS-Categories)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Jakey<sp/>on<sp/>15/4/25.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2015年<sp/>www.skyfox.org.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;Foundation/Foundation.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="category_n_s_dictionary_07_j_s_o_n_string_08" kindref="compound">NSDictionary (JSONString)</ref></highlight></codeline>
+<codeline lineno="17"><highlight class="normal">-(NSString<sp/>*)<ref refid="category_n_s_dictionary_07_j_s_o_n_string_08_1a2f127f8839f7ff60b2517b314692c678" kindref="member">JSONString</ref>;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDictionary/NSDictionary+JSONString.h"/>
+  </compounddef>
+</doxygen>

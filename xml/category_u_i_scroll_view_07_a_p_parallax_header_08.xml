@@ -1,0 +1,150 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_u_i_scroll_view_07_a_p_parallax_header_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>UIScrollView(APParallaxHeader)</compoundname>
+    <includes refid="_u_i_scroll_view_09_a_p_parallax_header_8h" local="no">UIScrollView+APParallaxHeader.h</includes>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="category_u_i_scroll_view_07_a_p_parallax_header_08_1acc78cbabdb2905d31764dbdf27eb9fca" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="strong">
+        <type><ref refid="class_a_p_parallax_view" kindref="compound">APParallaxView</ref> *</type>
+        <definition>APParallaxView * UIScrollView(APParallaxHeader)::parallaxView</definition>
+        <argsstring></argsstring>
+        <name>parallaxView</name>
+        <read></read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIScrollView/UIScrollView+APParallaxHeader.h" line="22" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIScrollView/UIScrollView+APParallaxHeader.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_u_i_scroll_view_07_a_p_parallax_header_08_1aed3f2728f77b8f28bdad1d2e861cdbba" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="assign">
+        <type>BOOL</type>
+        <definition>BOOL UIScrollView(APParallaxHeader)::showsParallax</definition>
+        <argsstring></argsstring>
+        <name>showsParallax</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIScrollView/UIScrollView+APParallaxHeader.h" line="23" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIScrollView/UIScrollView+APParallaxHeader.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="category_u_i_scroll_view_07_a_p_parallax_header_08_1ac42e8ac8b76f138838819abc86c106bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UIScrollView(APParallaxHeader)::addParallaxWithImage:andHeight:andShadow:</definition>
+        <argsstring>(UIImage *image,[andHeight] CGFloat height,[andShadow] BOOL shadow)</argsstring>
+        <name>addParallaxWithImage:andHeight:andShadow:</name>
+        <param>
+          <type>UIImage *</type>
+          <declname>image</declname>
+        </param>
+        <param>
+          <attributes>[andHeight]</attributes>
+          <type>CGFloat</type>
+          <declname>height</declname>
+        </param>
+        <param>
+          <attributes>[andShadow]</attributes>
+          <type>BOOL</type>
+          <declname>shadow</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIScrollView/UIScrollView+APParallaxHeader.h" line="31" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIScrollView/UIScrollView+APParallaxHeader.m" bodystart="37" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_scroll_view_07_a_p_parallax_header_08_1a853217c1b8ce6871fe550d442e124116" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UIScrollView(APParallaxHeader)::addParallaxWithImage:andHeight:</definition>
+        <argsstring>(UIImage *image,[andHeight] CGFloat height)</argsstring>
+        <name>addParallaxWithImage:andHeight:</name>
+        <param>
+          <type>UIImage *</type>
+          <declname>image</declname>
+        </param>
+        <param>
+          <attributes>[andHeight]</attributes>
+          <type>CGFloat</type>
+          <declname>height</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIScrollView/UIScrollView+APParallaxHeader.h" line="31" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIScrollView/UIScrollView+APParallaxHeader.m" bodystart="33" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_scroll_view_07_a_p_parallax_header_08_1aa9eebaaedd762f229f31d551c2c259ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UIScrollView(APParallaxHeader)::addParallaxWithView:andHeight:</definition>
+        <argsstring>(UIView *view,[andHeight] CGFloat height)</argsstring>
+        <name>addParallaxWithView:andHeight:</name>
+        <param>
+          <type>UIView *</type>
+          <declname>view</declname>
+        </param>
+        <param>
+          <attributes>[andHeight]</attributes>
+          <type>CGFloat</type>
+          <declname>height</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIScrollView/UIScrollView+APParallaxHeader.h" line="31" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIScrollView/UIScrollView+APParallaxHeader.m" bodystart="65" bodyend="91"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1012">
+        <label>APParallaxView</label>
+        <link refid="class_a_p_parallax_view"/>
+        <childnode refid="1013" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1014" relation="usage">
+          <edgelabel>shadowView</edgelabel>
+        </childnode>
+      </node>
+      <node id="1011">
+        <label>UIScrollView(APParallaxHeader)</label>
+        <link refid="category_u_i_scroll_view_07_a_p_parallax_header_08"/>
+        <childnode refid="1012" relation="usage">
+          <edgelabel>parallaxView</edgelabel>
+        </childnode>
+      </node>
+      <node id="1014">
+        <label>APParallaxShadowView</label>
+        <link refid="class_a_p_parallax_shadow_view"/>
+        <childnode refid="1013" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1013">
+        <label>UIView</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIScrollView/UIScrollView+APParallaxHeader.m" line="31" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIScrollView/UIScrollView+APParallaxHeader.m" bodystart="31" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_u_i_scroll_view_07_a_p_parallax_header_08_1a853217c1b8ce6871fe550d442e124116" prot="public" virt="virtual"><scope>UIScrollView(APParallaxHeader)</scope><name>addParallaxWithImage:andHeight:</name></member>
+      <member refid="category_u_i_scroll_view_07_a_p_parallax_header_08_1ac42e8ac8b76f138838819abc86c106bb" prot="public" virt="virtual"><scope>UIScrollView(APParallaxHeader)</scope><name>addParallaxWithImage:andHeight:andShadow:</name></member>
+      <member refid="category_u_i_scroll_view_07_a_p_parallax_header_08_1aa9eebaaedd762f229f31d551c2c259ab" prot="public" virt="virtual"><scope>UIScrollView(APParallaxHeader)</scope><name>addParallaxWithView:andHeight:</name></member>
+      <member refid="category_u_i_scroll_view_07_a_p_parallax_header_08_1acc78cbabdb2905d31764dbdf27eb9fca" prot="public" virt="non-virtual"><scope>UIScrollView(APParallaxHeader)</scope><name>parallaxView</name></member>
+      <member refid="category_u_i_scroll_view_07_a_p_parallax_header_08_1aed3f2728f77b8f28bdad1d2e861cdbba" prot="public" virt="non-virtual"><scope>UIScrollView(APParallaxHeader)</scope><name>showsParallax</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

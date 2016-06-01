@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_u_i_image_07_rounded_corner_private_methods_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>UIImage(RoundedCornerPrivateMethods)</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="category_u_i_image_07_rounded_corner_private_methods_08_1ad113e63f5552bd1cff2b0ad72b87c4f0" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UIImage(RoundedCornerPrivateMethods)::addRoundedRectToPath:context:ovalWidth:ovalHeight:</definition>
+        <argsstring>(CGRect rect,[context] CGContextRef context,[ovalWidth] CGFloat ovalWidth,[ovalHeight] CGFloat ovalHeight)</argsstring>
+        <name>addRoundedRectToPath:context:ovalWidth:ovalHeight:</name>
+        <param>
+          <type>CGRect</type>
+          <declname>rect</declname>
+        </param>
+        <param>
+          <attributes>[context]</attributes>
+          <type>CGContextRef</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <attributes>[ovalWidth]</attributes>
+          <type>CGFloat</type>
+          <declname>ovalWidth</declname>
+        </param>
+        <param>
+          <attributes>[ovalHeight]</attributes>
+          <type>CGFloat</type>
+          <declname>ovalHeight</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImage/UIImage+RoundedCorner.m" line="11" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImage/UIImage+RoundedCorner.m" line="10" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImage/UIImage+RoundedCorner.m" bodystart="10" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_u_i_image_07_rounded_corner_private_methods_08_1ad113e63f5552bd1cff2b0ad72b87c4f0" prot="public" virt="virtual"><scope>UIImage(RoundedCornerPrivateMethods)</scope><name>addRoundedRectToPath:context:ovalWidth:ovalHeight:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

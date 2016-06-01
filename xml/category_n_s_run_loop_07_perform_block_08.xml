@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_n_s_run_loop_07_perform_block_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>NSRunLoop(PerformBlock)</compoundname>
+    <includes refid="_n_s_run_loop_09_perform_block_8h" local="no">NSRunLoop+PerformBlock.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="category_n_s_run_loop_07_perform_block_08_1a139d3090fc4122243b6fd22d30cfc514" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void NSRunLoop(PerformBlock)::performBlockAndWait:</definition>
+        <argsstring>(void(^block)(BOOL *finish))</argsstring>
+        <name>performBlockAndWait:</name>
+        <param>
+          <type>void(^)(BOOL *finish)</type>
+          <declname>block</declname>
+        </param>
+        <briefdescription>
+<para>extension of NSRunLoop for waiting. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="author"><para>ishkawa</para></simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>block</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>&lt;#block description#&gt; </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSRunLoop/NSRunLoop+PerformBlock.h" line="34" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_run_loop_07_perform_block_08_1af155369f08a1a9a131e1cbf0885f834f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void NSRunLoop(PerformBlock)::performBlockAndWait:timeoutInterval:</definition>
+        <argsstring>(void(^block)(BOOL *finish),[timeoutInterval] NSTimeInterval timeoutInterval)</argsstring>
+        <name>performBlockAndWait:timeoutInterval:</name>
+        <param>
+          <type>void(^)(BOOL *finish)</type>
+          <declname>block</declname>
+        </param>
+        <param>
+          <attributes>[timeoutInterval]</attributes>
+          <type>NSTimeInterval</type>
+          <declname>timeoutInterval</declname>
+        </param>
+        <briefdescription>
+<para>extension of NSRunLoop for waiting. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="author"><para>ishkawa</para></simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>block</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>&lt;#block description#&gt; </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSRunLoop/NSRunLoop+PerformBlock.h" line="34" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSRunLoop/NSRunLoop+PerformBlock.m" line="13" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSRunLoop/NSRunLoop+PerformBlock.m" bodystart="13" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_n_s_run_loop_07_perform_block_08_1a139d3090fc4122243b6fd22d30cfc514" prot="public" virt="virtual"><scope>NSRunLoop(PerformBlock)</scope><name>performBlockAndWait:</name></member>
+      <member refid="category_n_s_run_loop_07_perform_block_08_1af155369f08a1a9a131e1cbf0885f834f" prot="public" virt="virtual"><scope>NSRunLoop(PerformBlock)</scope><name>performBlockAndWait:timeoutInterval:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

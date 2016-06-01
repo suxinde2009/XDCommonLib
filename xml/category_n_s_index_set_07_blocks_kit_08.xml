@@ -1,0 +1,291 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_n_s_index_set_07_blocks_kit_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>NSIndexSet(BlocksKit)</compoundname>
+    <includes refid="_n_s_index_set_09_blocks_kit_8h" local="no">NSIndexSet+BlocksKit.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="category_n_s_index_set_07_blocks_kit_08_1a237b62d6046198dd1ae39e838781c55b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void NSIndexSet(BlocksKit)::bk_each:</definition>
+        <argsstring>(void(^block)(NSUInteger index))</argsstring>
+        <name>bk_each:</name>
+        <param>
+          <type>void(^)(NSUInteger index)</type>
+          <declname>block</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Loops through an index set and executes the given block at each index.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>block</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A single-argument, void-returning code block. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSIndexSet+BlocksKit.h" line="124" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSIndexSet+BlocksKit.m" bodystart="10" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_index_set_07_blocks_kit_08_1add53532bf5b34b9496a0a417ae5ee388" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void NSIndexSet(BlocksKit)::bk_apply:</definition>
+        <argsstring>(void(^block)(NSUInteger index))</argsstring>
+        <name>bk_apply:</name>
+        <param>
+          <type>void(^)(NSUInteger index)</type>
+          <declname>block</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Enumerates each index in an index set concurrently and executes the given block once per index.</para><para>Enumeration will occur on appropriate background queues. Be aware that the block will not necessarily be executed in order for each index.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>block</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A single-argument, void-returning code block. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSIndexSet+BlocksKit.h" line="124" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSIndexSet+BlocksKit.m" bodystart="18" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_index_set_07_blocks_kit_08_1a5ad90f3a099489d00c4f47fe3639100c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSUInteger</type>
+        <definition>NSUInteger NSIndexSet(BlocksKit)::bk_match:</definition>
+        <argsstring>(BOOL(^block)(NSUInteger index))</argsstring>
+        <name>bk_match:</name>
+        <param>
+          <type>BOOL(^)(NSUInteger index)</type>
+          <declname>block</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Loops through an array and returns the index matching the block.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>block</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A single-argument, <computeroutput>BOOL</computeroutput>-returning code block. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Returns the index if found, <computeroutput>NSNotFound</computeroutput> otherwise. </para></simplesect>
+<simplesect kind="see"><para><ref refid="category_n_s_index_set_07_blocks_kit_08_1afa8fb711a6b54a647cdbf276c1cb5f30" kindref="member">- bk_select:</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSIndexSet+BlocksKit.h" line="124" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSIndexSet+BlocksKit.m" bodystart="26" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_index_set_07_blocks_kit_08_1afa8fb711a6b54a647cdbf276c1cb5f30" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSIndexSet *</type>
+        <definition>NSIndexSet * NSIndexSet(BlocksKit)::bk_select:</definition>
+        <argsstring>(BOOL(^block)(NSUInteger index))</argsstring>
+        <name>bk_select:</name>
+        <param>
+          <type>BOOL(^)(NSUInteger index)</type>
+          <declname>block</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Loops through an index set and returns an all indexes matching the block.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>block</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A single-argument, BOOL-returning code block. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Returns an index set of matching indexes found. </para></simplesect>
+<simplesect kind="see"><para><ref refid="category_n_s_index_set_07_blocks_kit_08_1a5ad90f3a099489d00c4f47fe3639100c" kindref="member">- bk_match:</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSIndexSet+BlocksKit.h" line="124" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSIndexSet+BlocksKit.m" bodystart="34" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_index_set_07_blocks_kit_08_1a70a9dfb2ebde61c913471d7b2fdc219d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSIndexSet *</type>
+        <definition>NSIndexSet * NSIndexSet(BlocksKit)::bk_reject:</definition>
+        <argsstring>(BOOL(^block)(NSUInteger index))</argsstring>
+        <name>bk_reject:</name>
+        <param>
+          <type>BOOL(^)(NSUInteger index)</type>
+          <declname>block</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Loops through an index set and returns an all indexes but the ones matching the block.</para><para>This selector performs <emphasis>literally</emphasis> the exact same function as bk_select: but in reverse.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>block</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A single-argument, BOOL-returning code block. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Returns an index set of all indexes but those matched. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSIndexSet+BlocksKit.h" line="124" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSIndexSet+BlocksKit.m" bodystart="44" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_index_set_07_blocks_kit_08_1a84795178fcb3e70c80696766dc31a36d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSIndexSet *</type>
+        <definition>NSIndexSet * NSIndexSet(BlocksKit)::bk_map:</definition>
+        <argsstring>(NSUInteger(^block)(NSUInteger index))</argsstring>
+        <name>bk_map:</name>
+        <param>
+          <type>NSUInteger(^)(NSUInteger index)</type>
+          <declname>block</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Call the block once for each index and create an index set with the new values.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>block</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A block that returns a new index for an index. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>An index set of the indexes returned by the block. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSIndexSet+BlocksKit.h" line="124" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSIndexSet+BlocksKit.m" bodystart="51" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_index_set_07_blocks_kit_08_1a34ac18363c0351a9a66f96d834378358" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSArray *</type>
+        <definition>NSArray * NSIndexSet(BlocksKit)::bk_mapIndex:</definition>
+        <argsstring>(id(^block)(NSUInteger index))</argsstring>
+        <name>bk_mapIndex:</name>
+        <param>
+          <type>id(^)(NSUInteger index)</type>
+          <declname>block</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Call the block once for each index and create an array of the return values.</para><para>This method allows transforming indexes into objects: int values[10] = { 1, 2, 4, 8, 16, 32, 64, 128, 256, 512 }; NSIndexSet *idxs = [NSIndexSet indexSetWithIndexesInRange:NSMakeRange(0, 10)]; NSArray *new = [idxs mapIndex:^id(NSUInteger index) { return [NSNumber numberWithInt:values[index]]); }];</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>block</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A block that returns an object for an index. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Returns an array of the objects returned by the block. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSIndexSet+BlocksKit.h" line="124" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSIndexSet+BlocksKit.m" bodystart="63" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_index_set_07_blocks_kit_08_1a8b96dbcff35e3d70591eaeb21124c1ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL NSIndexSet(BlocksKit)::bk_any:</definition>
+        <argsstring>(BOOL(^block)(NSUInteger index))</argsstring>
+        <name>bk_any:</name>
+        <param>
+          <type>BOOL(^)(NSUInteger index)</type>
+          <declname>block</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Loops through an index set to find whether any of the indexes matche the block.</para><para>This method is similar to the Scala list <computeroutput>exists</computeroutput>. It is functionally identical to bk_match: but returns a <computeroutput>BOOL</computeroutput> instead. It is not recommended to use bk_any: as a check condition before executing bk_match:, since it would require two loops through the index set.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>block</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A single-argument, BOOL-returning code block. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>YES for the first time the block returns YES for an index, NO otherwise. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSIndexSet+BlocksKit.h" line="124" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSIndexSet+BlocksKit.m" bodystart="76" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_index_set_07_blocks_kit_08_1a0dd554d4e2c8a7ab0b07fee6d654c09d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL NSIndexSet(BlocksKit)::bk_all:</definition>
+        <argsstring>(BOOL(^block)(NSUInteger index))</argsstring>
+        <name>bk_all:</name>
+        <param>
+          <type>BOOL(^)(NSUInteger index)</type>
+          <declname>block</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Loops through an index set to find whether all objects match the block.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>block</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A single-argument, BOOL-returning code block. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>YES if the block returns YES for all indexes in the array, NO otherwise. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSIndexSet+BlocksKit.h" line="124" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSIndexSet+BlocksKit.m" bodystart="84" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_index_set_07_blocks_kit_08_1a0d6b5af9e777012358ee5f8213431464" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL NSIndexSet(BlocksKit)::bk_none:</definition>
+        <argsstring>(BOOL(^block)(NSUInteger index))</argsstring>
+        <name>bk_none:</name>
+        <param>
+          <type>BOOL(^)(NSUInteger index)</type>
+          <declname>block</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Loops through an index set to find whether no objects match the block.</para><para>This selector performs <emphasis>literally</emphasis> the exact same function as bk_all: but in reverse.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>block</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A single-argument, BOOL-returning code block. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>YES if the block returns NO for all indexes in the array, NO otherwise. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSIndexSet+BlocksKit.h" line="124" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSIndexSet+BlocksKit.m" bodystart="80" bodyend="82"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Block extensions for NSIndexSet.</para><para>Both inspired by and resembling Smalltalk syntax, these utilities allows for iteration of an array in a concise way that saves quite a bit of boilerplate code for filtering or finding objects or an object.</para><para>Includes code by the following:</para><para><itemizedlist>
+<listitem><para><ulink url="https://github.com/robin">Robin Lu</ulink></para></listitem><listitem><para><ulink url="https://github.com/mikeash">Michael Ash</ulink></para></listitem><listitem><para><ulink url="https://github.com/zwaldowski">Zach Waldowski</ulink></para></listitem><listitem><para>[Kaelin Colclasure]<ulink url="https://github.com/kaelin">https://github.com/kaelin</ulink></para><para><simplesect kind="see"><para>NSArray(BlocksKit) </para></simplesect>
+<simplesect kind="see"><para>NSDictionary(BlocksKit) </para></simplesect>
+<simplesect kind="see"><para>NSSet(BlocksKit) </para></simplesect>
+</para></listitem></itemizedlist>
+</para>    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSIndexSet+BlocksKit.m" line="8" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSIndexSet+BlocksKit.m" bodystart="8" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_n_s_index_set_07_blocks_kit_08_1a0dd554d4e2c8a7ab0b07fee6d654c09d" prot="public" virt="virtual"><scope>NSIndexSet(BlocksKit)</scope><name>bk_all:</name></member>
+      <member refid="category_n_s_index_set_07_blocks_kit_08_1a8b96dbcff35e3d70591eaeb21124c1ed" prot="public" virt="virtual"><scope>NSIndexSet(BlocksKit)</scope><name>bk_any:</name></member>
+      <member refid="category_n_s_index_set_07_blocks_kit_08_1add53532bf5b34b9496a0a417ae5ee388" prot="public" virt="virtual"><scope>NSIndexSet(BlocksKit)</scope><name>bk_apply:</name></member>
+      <member refid="category_n_s_index_set_07_blocks_kit_08_1a237b62d6046198dd1ae39e838781c55b" prot="public" virt="virtual"><scope>NSIndexSet(BlocksKit)</scope><name>bk_each:</name></member>
+      <member refid="category_n_s_index_set_07_blocks_kit_08_1a84795178fcb3e70c80696766dc31a36d" prot="public" virt="virtual"><scope>NSIndexSet(BlocksKit)</scope><name>bk_map:</name></member>
+      <member refid="category_n_s_index_set_07_blocks_kit_08_1a34ac18363c0351a9a66f96d834378358" prot="public" virt="virtual"><scope>NSIndexSet(BlocksKit)</scope><name>bk_mapIndex:</name></member>
+      <member refid="category_n_s_index_set_07_blocks_kit_08_1a5ad90f3a099489d00c4f47fe3639100c" prot="public" virt="virtual"><scope>NSIndexSet(BlocksKit)</scope><name>bk_match:</name></member>
+      <member refid="category_n_s_index_set_07_blocks_kit_08_1a0d6b5af9e777012358ee5f8213431464" prot="public" virt="virtual"><scope>NSIndexSet(BlocksKit)</scope><name>bk_none:</name></member>
+      <member refid="category_n_s_index_set_07_blocks_kit_08_1a70a9dfb2ebde61c913471d7b2fdc219d" prot="public" virt="virtual"><scope>NSIndexSet(BlocksKit)</scope><name>bk_reject:</name></member>
+      <member refid="category_n_s_index_set_07_blocks_kit_08_1afa8fb711a6b54a647cdbf276c1cb5f30" prot="public" virt="virtual"><scope>NSIndexSet(BlocksKit)</scope><name>bk_select:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

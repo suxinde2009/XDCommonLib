@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_n_s_object-_description_8m" kind="file" language="Objective-C">
+    <compoundname>NSObject-Description.m</compoundname>
+    <includes refid="_n_s_object-_description_8h" local="yes">NSObject-Description.h</includes>
+    <includes refid="_nametag_utilities_8h" local="yes">NametagUtilities.h</includes>
+    <incdepgraph>
+      <node id="3460">
+        <label>NametagUtilities.h</label>
+        <link refid="_nametag_utilities_8h"/>
+        <childnode refid="3459" relation="include">
+        </childnode>
+        <childnode refid="3461" relation="include">
+        </childnode>
+        <childnode refid="3458" relation="include">
+        </childnode>
+        <childnode refid="3462" relation="include">
+        </childnode>
+      </node>
+      <node id="3458">
+        <label>NSObject-Description.h</label>
+        <link refid="_n_s_object-_description_8h"/>
+        <childnode refid="3459" relation="include">
+        </childnode>
+      </node>
+      <node id="3457">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Nametag Utilities/NSObject/NSObject-Description.m</label>
+        <link refid="NSObject-Description.m"/>
+        <childnode refid="3458" relation="include">
+        </childnode>
+        <childnode refid="3460" relation="include">
+        </childnode>
+      </node>
+      <node id="3462">
+        <label>View-Nametag.h</label>
+        <link refid="_view-_nametag_8h"/>
+      </node>
+      <node id="3459">
+        <label>Foundation/Foundation.h</label>
+      </node>
+      <node id="3461">
+        <label>NSObject-Nametag.h</label>
+        <link refid="_n_s_object-_nametag_8h"/>
+        <childnode refid="3459" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/></highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>Erica<sp/>Sadun,<sp/>http://ericasadun.com</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/></highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_n_s_object-_description_8h" kindref="compound">NSObject-Description.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_nametag_utilities_8h" kindref="compound">NametagUtilities.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">@implementation<sp/></highlight><highlight class="normal"><ref refid="category_n_s_object_07_debugging_extensions_08" kindref="compound">NSObject (DebuggingExtensions)</ref></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Return<sp/>&apos;Class<sp/>description<sp/>:<sp/>hex<sp/>memory<sp/>address&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal">-<sp/>(NSString<sp/>*)<sp/>objectIdentifier</highlight></codeline>
+<codeline lineno="13"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[NSString<sp/>stringWithFormat:@&quot;%@:0x%0x&quot;,<sp/>self.class.description,<sp/>(int)<sp/>self];</highlight></codeline>
+<codeline lineno="15"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Nametag<sp/>or<sp/>identifier,<sp/>based<sp/>on<sp/>availability</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal">-<sp/>(NSString<sp/>*)<sp/>objectName</highlight></codeline>
+<codeline lineno="19"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">self</highlight><highlight class="normal">.nametag)</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[NSString<sp/>stringWithFormat:@&quot;%@:0x%0x&quot;,<sp/>self.nametag,<sp/>(int)<sp/>self];</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[NSString<sp/>stringWithFormat:@&quot;%@&quot;,<sp/>self.objectIdentifier];</highlight></codeline>
+<codeline lineno="23"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal">NSString<sp/>*consoleString(NSString<sp/>*</highlight><highlight class="keywordtype">string</highlight><highlight class="normal">,<sp/>NSInteger<sp/>maxLength,<sp/>NSInteger<sp/>indent)</highlight></codeline>
+<codeline lineno="26"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Build<sp/>spacer</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>NSMutableString<sp/>*spacer<sp/>=<sp/>[NSMutableString<sp/>stringWithString:@&quot;\n&quot;];</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>indent;<sp/>i++)</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[spacer<sp/>appendString:</highlight><highlight class="stringliteral">@&quot;<sp/>&quot;</highlight><highlight class="normal">];<sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Decompose<sp/>into<sp/>space-separated<sp/>items</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>NSArray<sp/>*wordArray<sp/>=<sp/>[string<sp/>componentsSeparatedByCharactersInSet:[NSCharacterSet<sp/>whitespaceCharacterSet]];</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>NSInteger<sp/>wordCount<sp/>=<sp/>wordArray.count;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>NSInteger<sp/>index<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>NSInteger<sp/>lengthOfNextWord<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Perform<sp/>decomposition</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>NSMutableArray<sp/>*array<sp/>=<sp/>[NSMutableArray<sp/>array];</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(index<sp/>&lt;<sp/>wordCount)</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NSMutableString<sp/>*line<sp/>=<sp/>[NSMutableString<sp/>string];</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(((line.length<sp/>+<sp/>lengthOfNextWord<sp/>+<sp/>1)<sp/>&lt;=<sp/>maxLength)<sp/>&amp;&amp;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(index<sp/>&lt;<sp/>wordCount))</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>lengthOfNextWord<sp/>=<sp/>[wordArray[index]<sp/>length];</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[line<sp/>appendString:wordArray[index]];</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>if<sp/>(++index<sp/>&lt;<sp/>wordCount)</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[line<sp/>appendString:</highlight><highlight class="stringliteral">@&quot;<sp/>&quot;</highlight><highlight class="normal">];</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[array<sp/>addObject:line];</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[array<sp/>componentsJoinedByString:spacer];</highlight></codeline>
+<codeline lineno="56"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Wrapped<sp/>description</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal">-<sp/>(NSString<sp/>*)<sp/>consoleDescription</highlight></codeline>
+<codeline lineno="60"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>consoleString(</highlight><highlight class="keyword">self</highlight><highlight class="normal">.description,<sp/>80,<sp/>8);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Nametag Utilities/NSObject/NSObject-Description.m"/>
+  </compounddef>
+</doxygen>

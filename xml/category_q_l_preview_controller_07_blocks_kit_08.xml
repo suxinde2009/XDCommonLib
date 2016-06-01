@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_q_l_preview_controller_07_blocks_kit_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>QLPreviewController(BlocksKit)</compoundname>
+    <includes refid="_q_l_preview_controller_09_blocks_kit_8h" local="no">QLPreviewController+BlocksKit.h</includes>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="category_q_l_preview_controller_07_blocks_kit_08_1a3298ee129cef7f5d27a71e7ee735fd9b" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="copy">
+        <type>CGRect(^</type>
+        <definition>CGRect(^ QLPreviewController(BlocksKit)::bk_frameForPreviewItem) (QLPreviewController *controller, id&lt; QLPreviewItem &gt;item, UIView *_Nullable *_Nonnull)</definition>
+        <argsstring>)(QLPreviewController *controller, id&lt; QLPreviewItem &gt;item, UIView *_Nullable *_Nonnull)</argsstring>
+        <name>bk_frameForPreviewItem</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/QuickLook/QLPreviewController+BlocksKit.h" line="13" column="1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_q_l_preview_controller_07_blocks_kit_08_1a3278417e367041ade22e75c285178efb" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="copy">
+        <type>UIImage *(^</type>
+        <definition>UIImage*(^ QLPreviewController(BlocksKit)::bk_transitionImageForPreviewItem) (QLPreviewController *controller, id&lt; QLPreviewItem &gt; item, CGRect *contentRect)</definition>
+        <argsstring>)(QLPreviewController *controller, id&lt; QLPreviewItem &gt; item, CGRect *contentRect)</argsstring>
+        <name>bk_transitionImageForPreviewItem</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/QuickLook/QLPreviewController+BlocksKit.h" line="15" column="1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_q_l_preview_controller_07_blocks_kit_08_1aa8459a81bcb857156979c48b83fc8728" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="copy">
+        <type>BOOL(^</type>
+        <definition>BOOL(^ QLPreviewController(BlocksKit)::bk_shouldOpenURLForPreviewItem) (QLPreviewController *controller, NSURL *url, id&lt; QLPreviewItem &gt; item)</definition>
+        <argsstring>)(QLPreviewController *controller, NSURL *url, id&lt; QLPreviewItem &gt; item)</argsstring>
+        <name>bk_shouldOpenURLForPreviewItem</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/QuickLook/QLPreviewController+BlocksKit.h" line="17" column="1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_q_l_preview_controller_07_blocks_kit_08_1a054f8bce428901885c98c575904e06f9" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="copy">
+        <type>void(^</type>
+        <definition>void(^ QLPreviewController(BlocksKit)::bk_willDismissBlock) (QLPreviewController *controller)</definition>
+        <argsstring>)(QLPreviewController *controller)</argsstring>
+        <name>bk_willDismissBlock</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The block to be fired before the Quick Look controller will dismiss. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/QuickLook/QLPreviewController+BlocksKit.h" line="20" column="1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_q_l_preview_controller_07_blocks_kit_08_1add7ccb9fb2cfd1b039c87bc243dee0b1" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="copy">
+        <type>void(^</type>
+        <definition>void(^ QLPreviewController(BlocksKit)::bk_didDismissBlock) (QLPreviewController *controller)</definition>
+        <argsstring>)(QLPreviewController *controller)</argsstring>
+        <name>bk_didDismissBlock</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The block to be fired after the Quick Look controller did dismiss. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/QuickLook/QLPreviewController+BlocksKit.h" line="23" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/QuickLook/QLPreviewController+BlocksKit.m" line="88" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/QuickLook/QLPreviewController+BlocksKit.m" bodystart="88" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_q_l_preview_controller_07_blocks_kit_08_1add7ccb9fb2cfd1b039c87bc243dee0b1" prot="public" virt="non-virtual"><scope>QLPreviewController(BlocksKit)</scope><name>bk_didDismissBlock</name></member>
+      <member refid="category_q_l_preview_controller_07_blocks_kit_08_1a3298ee129cef7f5d27a71e7ee735fd9b" prot="public" virt="non-virtual"><scope>QLPreviewController(BlocksKit)</scope><name>bk_frameForPreviewItem</name></member>
+      <member refid="category_q_l_preview_controller_07_blocks_kit_08_1aa8459a81bcb857156979c48b83fc8728" prot="public" virt="non-virtual"><scope>QLPreviewController(BlocksKit)</scope><name>bk_shouldOpenURLForPreviewItem</name></member>
+      <member refid="category_q_l_preview_controller_07_blocks_kit_08_1a3278417e367041ade22e75c285178efb" prot="public" virt="non-virtual"><scope>QLPreviewController(BlocksKit)</scope><name>bk_transitionImageForPreviewItem</name></member>
+      <member refid="category_q_l_preview_controller_07_blocks_kit_08_1a054f8bce428901885c98c575904e06f9" prot="public" virt="non-virtual"><scope>QLPreviewController(BlocksKit)</scope><name>bk_willDismissBlock</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

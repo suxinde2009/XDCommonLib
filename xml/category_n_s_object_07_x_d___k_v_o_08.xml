@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_n_s_object_07_x_d___k_v_o_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>NSObject(XD_KVO)</compoundname>
+    <includes refid="_n_s_object_09_x_d___k_v_o_8h" local="no">NSObject+XD_KVO.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="category_n_s_object_07_x_d___k_v_o_08_1a92dfb5cbaba15bae9439f0b6c673cdf3" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void NSObject(XD_KVO)::XD_addObserver:forKey:withBlock:</definition>
+        <argsstring>(NSObject *observer,[forKey] NSString *key,[withBlock] XDObservingBlock block)</argsstring>
+        <name>XD_addObserver:forKey:withBlock:</name>
+        <param>
+          <type>NSObject *</type>
+          <declname>observer</declname>
+        </param>
+        <param>
+          <attributes>[forKey]</attributes>
+          <type>NSString *</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <attributes>[withBlock]</attributes>
+          <type><ref refid="_n_s_object_09_x_d___k_v_o_8h_1a89db6ca7fdea54c9f84d5bcb272e488b" kindref="member">XDObservingBlock</ref></type>
+          <declname>block</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSObject/NSObject+XD_KVO.h" line="13" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSObject/NSObject+XD_KVO.m" bodystart="158" bodyend="195"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_object_07_x_d___k_v_o_08_1a96965d8ad198f0e2af8bb8ae07f026e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void NSObject(XD_KVO)::XD_removeObserver:forKey:</definition>
+        <argsstring>(NSObject *observer,[forKey] NSString *key)</argsstring>
+        <name>XD_removeObserver:forKey:</name>
+        <param>
+          <type>NSObject *</type>
+          <declname>observer</declname>
+        </param>
+        <param>
+          <attributes>[forKey]</attributes>
+          <type>NSString *</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSObject/NSObject+XD_KVO.h" line="13" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSObject/NSObject+XD_KVO.m" bodystart="198" bodyend="211"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSObject/NSObject+XD_KVO.m" line="156" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSObject/NSObject+XD_KVO.m" bodystart="156" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_n_s_object_07_x_d___k_v_o_08_1a92dfb5cbaba15bae9439f0b6c673cdf3" prot="public" virt="virtual"><scope>NSObject(XD_KVO)</scope><name>XD_addObserver:forKey:withBlock:</name></member>
+      <member refid="category_n_s_object_07_x_d___k_v_o_08_1a96965d8ad198f0e2af8bb8ae07f026e4" prot="public" virt="virtual"><scope>NSObject(XD_KVO)</scope><name>XD_removeObserver:forKey:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_m_k_map_view_09_move_logo_8h" kind="file" language="C++">
+    <compoundname>MKMapView+MoveLogo.h</compoundname>
+    <includes local="no">MapKit/MapKit.h</includes>
+    <includedby refid="_m_k_map_view_09_move_logo_8m" local="yes">XDCommonLib/CommonBasicComponentLayer/Categories/MapKit/MKMapView/MKMapView+MoveLogo.m</includedby>
+    <incdepgraph>
+      <node id="1095">
+        <label>MapKit/MapKit.h</label>
+      </node>
+      <node id="1094">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/MapKit/MKMapView/MKMapView+MoveLogo.h</label>
+        <link refid="MKMapView+MoveLogo.h"/>
+        <childnode refid="1095" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1096">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/MapKit/MKMapView/MKMapView+MoveLogo.h</label>
+        <link refid="MKMapView+MoveLogo.h"/>
+        <childnode refid="1097" relation="include">
+        </childnode>
+      </node>
+      <node id="1097">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/MapKit/MKMapView/MKMapView+MoveLogo.m</label>
+        <link refid="_m_k_map_view_09_move_logo_8m"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="category_m_k_map_view_07_move_logo_08" prot="public">MKMapView(MoveLogo)</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>MKMapView+MoveLogo.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Maciej<sp/>Swic<sp/>on<sp/>2013-07-08.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Released<sp/>under<sp/>the<sp/>MIT<sp/>license.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>This<sp/>category<sp/>allows<sp/>you<sp/>to<sp/>move<sp/>the<sp/>MKMapView<sp/>logo<sp/>so<sp/>that<sp/>it<sp/>remains<sp/>visible<sp/>if<sp/>you</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>put<sp/>other<sp/>stuff<sp/>on<sp/>the<sp/>mapview.<sp/>If<sp/>the<sp/>logo<sp/>is<sp/>hidden,<sp/>the<sp/>app<sp/>won&apos;t<sp/>pass<sp/>the<sp/>App<sp/>Store</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>review.<sp/>Tested<sp/>with<sp/>iOS<sp/>5<sp/>through<sp/>7.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;MapKit/MapKit.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="category_m_k_map_view_07_move_logo_08" kindref="compound">MKMapView (MoveLogo)</ref></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal">-<sp/>(void)moveLogoByOffset:(CGPoint)offset;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal">-<sp/>(void)moveLogoToPoint:(CGPoint)point;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal">-<sp/>(UIView*)<ref refid="category_m_k_map_view_07_move_logo_08_1abef709a5d8023c836ec6f467a676de8b" kindref="member">logo</ref>;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/MapKit/MKMapView/MKMapView+MoveLogo.h"/>
+  </compounddef>
+</doxygen>

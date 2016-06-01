@@ -1,0 +1,199 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_x_d_debug_system_control_8m" kind="file" language="Objective-C">
+    <compoundname>XDDebugSystemControl.m</compoundname>
+    <includes refid="_x_d_debug_system_control_8h" local="yes">XDDebugSystemControl.h</includes>
+    <includes local="no">sys/sysctl.h</includes>
+    <includes local="no">mach/mach.h</includes>
+    <includes local="no">mach/mach_host.h</includes>
+    <incdepgraph>
+      <node id="2331">
+        <label>mach/mach_host.h</label>
+      </node>
+      <node id="2329">
+        <label>sys/sysctl.h</label>
+      </node>
+      <node id="2330">
+        <label>mach/mach.h</label>
+      </node>
+      <node id="2328">
+        <label>Foundation/Foundation.h</label>
+      </node>
+      <node id="2327">
+        <label>XDDebugSystemControl.h</label>
+        <link refid="_x_d_debug_system_control_8h"/>
+        <childnode refid="2328" relation="include">
+        </childnode>
+      </node>
+      <node id="2326">
+        <label>XDCommonLib/CommonBasicComponentLayer/Debug/XDDebugSystemControl.m</label>
+        <link refid="XDDebugSystemControl.m"/>
+        <childnode refid="2327" relation="include">
+        </childnode>
+        <childnode refid="2329" relation="include">
+        </childnode>
+        <childnode refid="2330" relation="include">
+        </childnode>
+        <childnode refid="2331" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>XDDebugSystemControl.m</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>XDCommonLib</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>su<sp/>xinde<sp/>on<sp/>15/11/26.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>©<sp/>2015年<sp/>su<sp/>xinde.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_x_d_debug_system_control_8h" kindref="compound">XDDebugSystemControl.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;sys/sysctl.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;mach/mach.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;mach/mach_host.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">@implementation<sp/></highlight><highlight class="normal"><ref refid="interface_x_d_debug_system_control" kindref="compound">XDDebugSystemControl</ref></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal">+<sp/>(NSString<sp/>*)getSysInfoByName:(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*)typeSpecifier</highlight></codeline>
+<codeline lineno="17"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>size;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>sysctlbyname(typeSpecifier,<sp/>NULL,<sp/>&amp;size,<sp/>NULL,<sp/>0);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*answer<sp/>=<sp/>malloc(size);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>sysctlbyname(typeSpecifier,<sp/>answer,<sp/>&amp;size,<sp/>NULL,<sp/>0);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>NSString<sp/>*results<sp/>=<sp/>[NSString<sp/>stringWithCString:answer<sp/>encoding:<sp/>NSUTF8StringEncoding];</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>free(answer);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>results;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28" refid="interface_x_d_debug_system_control_1ad92adf4102d2ebd8008ec2bcaf092312" refkind="member"><highlight class="normal">+<sp/>(NSString<sp/>*)<ref refid="interface_x_d_debug_system_control_1ad92adf4102d2ebd8008ec2bcaf092312" kindref="member">platform</ref></highlight></codeline>
+<codeline lineno="29"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>getSysInfoByName:&quot;hw.machine&quot;];</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="interface_x_d_debug_system_control_1a3e1f489d130be350d861372b2bfcb0b3" refkind="member"><highlight class="normal">+<sp/>(NSUInteger)getSysInfo:(uint)typeSpecifier</highlight></codeline>
+<codeline lineno="34"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>size<sp/>=<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(int);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>results;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>mib[2]<sp/>=<sp/>{CTL_HW,<sp/>typeSpecifier};</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>sysctl(mib,<sp/>2,<sp/>&amp;results,<sp/>&amp;size,<sp/>NULL,<sp/>0);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(NSUInteger)<sp/>results;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="comment">//获取CPU频率</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43" refid="interface_x_d_debug_system_control_1ad2f40bd0bdf214a0efc846e68dffc9c5" refkind="member"><highlight class="normal">+<sp/>(NSUInteger)<ref refid="interface_x_d_debug_system_control_1ad2f40bd0bdf214a0efc846e68dffc9c5" kindref="member">getCpuFrequency</ref></highlight></codeline>
+<codeline lineno="44"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/><ref refid="interface_x_d_debug_system_control_1a3e1f489d130be350d861372b2bfcb0b3" kindref="member">getSysInfo</ref>:HW_CPU_FREQ];</highlight></codeline>
+<codeline lineno="46"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight><highlight class="comment">//获取总线频率</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49" refid="interface_x_d_debug_system_control_1a2f795d690ffea50e960399028d977f2a" refkind="member"><highlight class="normal">+<sp/>(NSUInteger)<ref refid="interface_x_d_debug_system_control_1a2f795d690ffea50e960399028d977f2a" kindref="member">getBusFrequency</ref></highlight></codeline>
+<codeline lineno="50"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/><ref refid="interface_x_d_debug_system_control_1a3e1f489d130be350d861372b2bfcb0b3" kindref="member">getSysInfo</ref>:HW_BUS_FREQ];</highlight></codeline>
+<codeline lineno="52"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight><highlight class="comment">//获取总的内存大小</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55" refid="interface_x_d_debug_system_control_1ae090f9cf52f1c19dc36de1d1f5efe14b" refkind="member"><highlight class="normal">+<sp/>(NSUInteger)<ref refid="interface_x_d_debug_system_control_1ae090f9cf52f1c19dc36de1d1f5efe14b" kindref="member">getTotalMemory</ref></highlight></codeline>
+<codeline lineno="56"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/><ref refid="interface_x_d_debug_system_control_1a3e1f489d130be350d861372b2bfcb0b3" kindref="member">getSysInfo</ref>:HW_PHYSMEM];</highlight></codeline>
+<codeline lineno="58"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight><highlight class="comment">//获取用户内存</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61" refid="interface_x_d_debug_system_control_1a61114a5c63b56232b7d4514f51861d98" refkind="member"><highlight class="normal">+<sp/>(NSUInteger)<ref refid="interface_x_d_debug_system_control_1a61114a5c63b56232b7d4514f51861d98" kindref="member">getUserMemory</ref></highlight></codeline>
+<codeline lineno="62"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/><ref refid="interface_x_d_debug_system_control_1a3e1f489d130be350d861372b2bfcb0b3" kindref="member">getSysInfo</ref>:HW_USERMEM];</highlight></codeline>
+<codeline lineno="64"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight><highlight class="comment">//获取socketBufferSize</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67" refid="interface_x_d_debug_system_control_1a9e89083ffea821857eebfd06c946a497" refkind="member"><highlight class="normal">+<sp/>(NSUInteger)<ref refid="interface_x_d_debug_system_control_1a9e89083ffea821857eebfd06c946a497" kindref="member">maxSocketBufferSize</ref></highlight></codeline>
+<codeline lineno="68"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/><ref refid="interface_x_d_debug_system_control_1a3e1f489d130be350d861372b2bfcb0b3" kindref="member">getSysInfo</ref>:KIPC_MAXSOCKBUF];</highlight></codeline>
+<codeline lineno="70"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight><highlight class="comment">//iphone下获取可用的内存大小</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73" refid="interface_x_d_debug_system_control_1aa65f9d40daa24cac06ecde7795dfc7e7" refkind="member"><highlight class="normal">+<sp/>(NSUInteger)<ref refid="interface_x_d_debug_system_control_1aa65f9d40daa24cac06ecde7795dfc7e7" kindref="member">getAvailableMemory</ref></highlight></codeline>
+<codeline lineno="74"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/>vm_statistics_data_t<sp/>vmStats;</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/>mach_msg_type_number_t<sp/>infoCount<sp/>=<sp/>HOST_VM_INFO_COUNT;</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/>kern_return_t<sp/>kernReturn<sp/>=<sp/>host_statistics(mach_host_self(),<sp/>HOST_VM_INFO,<sp/>(host_info_t)&amp;vmStats,<sp/>&amp;infoCount);</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(kernReturn<sp/>!=<sp/>KERN_SUCCESS)</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>NSNotFound;</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(vm_page_size<sp/>*<sp/>vmStats.free_count);</highlight><highlight class="comment">//<sp/>/<sp/>1024.0)<sp/>/<sp/>1024.0;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight><highlight class="comment">//获取CPU使用率</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="84" refid="interface_x_d_debug_system_control_1a01dd285e31864e8b023312084db2e58c" refkind="member"><highlight class="normal">+(float)<ref refid="interface_x_d_debug_system_control_1a01dd285e31864e8b023312084db2e58c" kindref="member">cpuUsage</ref></highlight></codeline>
+<codeline lineno="85"><highlight class="normal">{<sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/>kern_return_t<sp/>kr;</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/>task_info_data_t<sp/>tinfo;</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/>mach_msg_type_number_t<sp/>task_info_count;</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/>task_info_count<sp/>=<sp/>TASK_INFO_MAX;</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/>kr<sp/>=<sp/>task_info(mach_task_self(),<sp/>TASK_BASIC_INFO,<sp/>(task_info_t)tinfo,<sp/>&amp;task_info_count);</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(kr<sp/>!=<sp/>KERN_SUCCESS)<sp/>{</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>-1;</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/>task_basic_info_t<sp/><sp/><sp/><sp/><sp/><sp/>basic_info;</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/>thread_array_t<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>thread_list;</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/>mach_msg_type_number_t<sp/>thread_count;</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/>thread_info_data_t<sp/><sp/><sp/><sp/><sp/>thinfo;</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/>mach_msg_type_number_t<sp/>thread_info_count;</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/>thread_basic_info_t<sp/>basic_info_th;</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/>stat_thread<sp/>=<sp/>0;<sp/></highlight><highlight class="comment">//<sp/>Mach<sp/>threads</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/>basic_info<sp/>=<sp/>(task_basic_info_t)tinfo;</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>get<sp/>threads<sp/>in<sp/>the<sp/>task</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/>kr<sp/>=<sp/>task_threads(mach_task_self(),<sp/>&amp;thread_list,<sp/>&amp;thread_count);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(kr<sp/>!=<sp/>KERN_SUCCESS)<sp/>{</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>-1;</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(thread_count<sp/>&gt;<sp/>0)stat_thread<sp/>+=<sp/>thread_count;</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>tot_sec<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>tot_usec<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>tot_cpu<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>j;</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(j<sp/>=<sp/>0;<sp/>j<sp/>&lt;<sp/>thread_count;<sp/>j++){</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>thread_info_count<sp/>=<sp/>THREAD_INFO_MAX;</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>kr<sp/>=<sp/>thread_info(thread_list[j],<sp/>THREAD_BASIC_INFO,</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(thread_info_t)thinfo,<sp/>&amp;thread_info_count);</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(kr<sp/>!=<sp/>KERN_SUCCESS)<sp/>{</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>-1;</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>basic_info_th<sp/>=<sp/>(thread_basic_info_t)thinfo;</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!(basic_info_th-&gt;flags<sp/>&amp;<sp/>TH_FLAGS_IDLE))<sp/>{</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tot_sec<sp/>=<sp/>tot_sec<sp/>+<sp/>basic_info_th-&gt;user_time.seconds<sp/>+<sp/>basic_info_th-&gt;system_time.seconds;</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tot_usec<sp/>=<sp/>tot_usec<sp/>+<sp/>basic_info_th-&gt;system_time.microseconds<sp/>+<sp/>basic_info_th-&gt;system_time.microseconds;</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tot_cpu<sp/>=<sp/>tot_cpu<sp/>+<sp/>basic_info_th-&gt;cpu_usage<sp/>/<sp/>(float)TH_USAGE_SCALE<sp/>*<sp/>100.0;</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="comment">//<sp/>for<sp/>each<sp/>thread</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/>kr<sp/>=<sp/>vm_deallocate(mach_task_self(),<sp/>(vm_offset_t)thread_list,<sp/>thread_count<sp/>*<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(thread_t));</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/>assert(kr<sp/>==<sp/>KERN_SUCCESS);</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>tot_cpu;</highlight></codeline>
+<codeline lineno="148"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"></highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Debug/XDDebugSystemControl.m"/>
+  </compounddef>
+</doxygen>

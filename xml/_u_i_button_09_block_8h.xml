@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_u_i_button_09_block_8h" kind="file" language="C++">
+    <compoundname>UIButton+Block.h</compoundname>
+    <includes local="no">UIKit/UIKit.h</includes>
+    <includedby refid="_u_i_button_09_block_8m" local="yes">XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIButton/UIButton+Block.m</includedby>
+    <incdepgraph>
+      <node id="1274">
+        <label>UIKit/UIKit.h</label>
+      </node>
+      <node id="1273">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIButton/UIButton+Block.h</label>
+        <link refid="UIButton+Block.h"/>
+        <childnode refid="1274" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1275">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIButton/UIButton+Block.h</label>
+        <link refid="UIButton+Block.h"/>
+        <childnode refid="1276" relation="include">
+        </childnode>
+      </node>
+      <node id="1276">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIButton/UIButton+Block.m</label>
+        <link refid="_u_i_button_09_block_8m"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="category_u_i_button_07_block_08" prot="public">UIButton(Block)</innerclass>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="_u_i_button_09_block_8h_1ac5644abaa1b212593c989b26f95ff6cb" prot="public" static="no">
+        <type>void(^</type>
+        <definition>typedef void(^ TouchedBlock) (NSInteger tag)</definition>
+        <argsstring>)(NSInteger tag)</argsstring>
+        <name>TouchedBlock</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIButton/UIButton+Block.h" line="10" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIButton/UIButton+Block.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>UIButton+Block.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>iOS-Categories<sp/>(https://github.com/shaojiankui/iOS-Categories)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Jakey<sp/>on<sp/>14/12/30.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2014年<sp/>www.skyfox.org.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;UIKit/UIKit.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="_u_i_button_09_block_8h_1ac5644abaa1b212593c989b26f95ff6cb" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>void<sp/>(^<ref refid="_u_i_button_09_block_8h_1ac5644abaa1b212593c989b26f95ff6cb" kindref="member">TouchedBlock</ref>)(NSInteger<sp/>tag);</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="category_u_i_button_07_block_08" kindref="compound">UIButton (Block)</ref></highlight></codeline>
+<codeline lineno="13"><highlight class="normal">-(void)addActionHandler:(<ref refid="_u_i_button_09_block_8h_1ac5644abaa1b212593c989b26f95ff6cb" kindref="member">TouchedBlock</ref>)touchHandler;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIButton/UIButton+Block.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_x_d_log_utils_8h" kind="file" language="C++">
+    <compoundname>XDLogUtils.h</compoundname>
+    <includes local="no">Foundation/Foundation.h</includes>
+    <includedby refid="_x_d_log_utils_8m" local="yes">XDCommonLib/CommonBasicComponentLayer/Debug/XDLogUtils.m</includedby>
+    <incdepgraph>
+      <node id="2346">
+        <label>XDCommonLib/CommonBasicComponentLayer/Debug/XDLogUtils.h</label>
+        <link refid="XDLogUtils.h"/>
+        <childnode refid="2347" relation="include">
+        </childnode>
+      </node>
+      <node id="2347">
+        <label>Foundation/Foundation.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2348">
+        <label>XDCommonLib/CommonBasicComponentLayer/Debug/XDLogUtils.h</label>
+        <link refid="XDLogUtils.h"/>
+        <childnode refid="2349" relation="include">
+        </childnode>
+      </node>
+      <node id="2349">
+        <label>XDCommonLib/CommonBasicComponentLayer/Debug/XDLogUtils.m</label>
+        <link refid="_x_d_log_utils_8m"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_x_d_log_utils" prot="public">XDLogUtils</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="_x_d_log_utils_8h_1aa8dabcac9dabcad1a8a3288e55d93db7" prot="public" static="no">
+        <name>__Log_Enabled__</name>
+        <initializer>(1)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Debug/XDLogUtils.h" line="11" column="9" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Debug/XDLogUtils.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="_x_d_log_utils_8h_1acdeb29ccb38fd3669f701f6c45e3f68b" prot="public" static="no" mutable="no">
+        <type>NSString *const</type>
+        <definition>NSString* const kXDLogFile</definition>
+        <argsstring></argsstring>
+        <name>kXDLogFile</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>日志文件 </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Debug/XDLogUtils.h" line="16" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Debug/XDLogUtils.m" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>XDLogUtils.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>XDCommonLib</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>su<sp/>xinde<sp/>on<sp/>15/11/27.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>©<sp/>2015年<sp/>su<sp/>xinde.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;Foundation/Foundation.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="_x_d_log_utils_8h_1aa8dabcac9dabcad1a8a3288e55d93db7" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>__Log_Enabled__<sp/>(1)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="keyword">extern</highlight><highlight class="normal"><sp/>NSString<sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="_x_d_log_utils_8h_1acdeb29ccb38fd3669f701f6c45e3f68b" kindref="member">kXDLogFile</ref>;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="class_x_d_log_utils" kindref="compound">XDLogUtils</ref><sp/>:<sp/>NSObject</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal">+<sp/>(void)writeToLogFile:(NSString<sp/>*)log;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Debug/XDLogUtils.h"/>
+  </compounddef>
+</doxygen>

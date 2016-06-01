@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="dir_15c2881210d5186f67bdae8d4b249fcd" kind="dir">
+    <compoundname>XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSObject</compoundname>
+    <innerfile refid="_n_s_object_09_abstract_8h">NSObject+Abstract.h</innerfile>
+    <innerfile refid="_n_s_object_09_abstract_8m">NSObject+Abstract.m</innerfile>
+    <innerfile refid="_n_s_object_09_add_property_8h">NSObject+AddProperty.h</innerfile>
+    <innerfile refid="_n_s_object_09_add_property_8m">NSObject+AddProperty.m</innerfile>
+    <innerfile refid="_n_s_object_09_app_info_8h">NSObject+AppInfo.h</innerfile>
+    <innerfile refid="_n_s_object_09_app_info_8m">NSObject+AppInfo.m</innerfile>
+    <innerfile refid="_n_s_object_09_associated_object_8h">NSObject+AssociatedObject.h</innerfile>
+    <innerfile refid="_n_s_object_09_associated_object_8m">NSObject+AssociatedObject.m</innerfile>
+    <innerfile refid="_n_s_object_09_auto_coding_8h">NSObject+AutoCoding.h</innerfile>
+    <innerfile refid="_n_s_object_09_auto_coding_8m">NSObject+AutoCoding.m</innerfile>
+    <innerfile refid="_n_s_object_09_blocks_8h">NSObject+Blocks.h</innerfile>
+    <innerfile refid="_n_s_object_09_blocks_8m">NSObject+Blocks.m</innerfile>
+    <innerfile refid="_n_s_object_09_g_c_d_8h">NSObject+GCD.h</innerfile>
+    <innerfile refid="_n_s_object_09_g_c_d_8m">NSObject+GCD.m</innerfile>
+    <innerfile refid="_n_s_object_09_k_v_o_blocks_8h">NSObject+KVOBlocks.h</innerfile>
+    <innerfile refid="_n_s_object_09_k_v_o_blocks_8m">NSObject+KVOBlocks.m</innerfile>
+    <innerfile refid="_n_s_object_09_m_k_block_timer_8h">NSObject+MKBlockTimer.h</innerfile>
+    <innerfile refid="_n_s_object_09_m_k_block_timer_8m">NSObject+MKBlockTimer.m</innerfile>
+    <innerfile refid="_n_s_object_09_property_8h">NSObject+Property.h</innerfile>
+    <innerfile refid="_n_s_object_09_property_8m">NSObject+Property.m</innerfile>
+    <innerfile refid="_n_s_object_09_runtime_8h">NSObject+Runtime.h</innerfile>
+    <innerfile refid="_n_s_object_09_runtime_8m">NSObject+Runtime.m</innerfile>
+    <innerfile refid="_n_s_object_09_super_classes_8h">NSObject+SuperClasses.h</innerfile>
+    <innerfile refid="_n_s_object_09_super_classes_8m">NSObject+SuperClasses.m</innerfile>
+    <innerfile refid="_n_s_object_09_x_d___classes_conforming_to_protocol_8h">NSObject+XD_ClassesConformingToProtocol.h</innerfile>
+    <innerfile refid="_n_s_object_09_x_d___classes_conforming_to_protocol_8m">NSObject+XD_ClassesConformingToProtocol.m</innerfile>
+    <innerfile refid="_n_s_object_09_x_d___k_v_o_8h">NSObject+XD_KVO.h</innerfile>
+    <innerfile refid="_n_s_object_09_x_d___k_v_o_8m">NSObject+XD_KVO.m</innerfile>
+    <innerfile refid="_n_s_object_09_x_d_common_lib_8h">NSObject+XDCommonLib.h</innerfile>
+    <innerfile refid="_n_s_object_09_x_d_common_lib_8m">NSObject+XDCommonLib.m</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSObject/"/>
+  </compounddef>
+</doxygen>

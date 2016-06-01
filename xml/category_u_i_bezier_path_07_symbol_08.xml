@@ -1,0 +1,179 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_u_i_bezier_path_07_symbol_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>UIBezierPath(Symbol)</compoundname>
+    <includes refid="_u_i_bezier_path_09_symbol_8h" local="no">UIBezierPath+Symbol.h</includes>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="category_u_i_bezier_path_07_symbol_08_1a73d2fa27f381de88dedf87540153d2b7" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>UIBezierPath *</type>
+        <definition>UIBezierPath * UIBezierPath(Symbol)::customBezierPathOfPlusSymbolWithRect:scale:</definition>
+        <argsstring>(CGRect rect,[scale] CGFloat scale)</argsstring>
+        <name>customBezierPathOfPlusSymbolWithRect:scale:</name>
+        <param>
+          <type>CGRect</type>
+          <declname>rect</declname>
+        </param>
+        <param>
+          <attributes>[scale]</attributes>
+          <type>CGFloat</type>
+          <declname>scale</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIBezierPath/UIBezierPath+Symbol.h" line="40" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIBezierPath/UIBezierPath+Symbol.m" bodystart="26" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_bezier_path_07_symbol_08_1a9413c12889f71090505ce231c32144eb" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>UIBezierPath *</type>
+        <definition>UIBezierPath * UIBezierPath(Symbol)::customBezierPathOfMinusSymbolWithRect:scale:</definition>
+        <argsstring>(CGRect rect,[scale] CGFloat scale)</argsstring>
+        <name>customBezierPathOfMinusSymbolWithRect:scale:</name>
+        <param>
+          <type>CGRect</type>
+          <declname>rect</declname>
+        </param>
+        <param>
+          <attributes>[scale]</attributes>
+          <type>CGFloat</type>
+          <declname>scale</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIBezierPath/UIBezierPath+Symbol.h" line="40" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIBezierPath/UIBezierPath+Symbol.m" bodystart="56" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_bezier_path_07_symbol_08_1a055c7db0cbd2cd151c063ad81e6d67e6" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>UIBezierPath *</type>
+        <definition>UIBezierPath * UIBezierPath(Symbol)::customBezierPathOfCheckSymbolWithRect:scale:thick:</definition>
+        <argsstring>(CGRect rect,[scale] CGFloat scale,[thick] CGFloat thick)</argsstring>
+        <name>customBezierPathOfCheckSymbolWithRect:scale:thick:</name>
+        <param>
+          <type>CGRect</type>
+          <declname>rect</declname>
+        </param>
+        <param>
+          <attributes>[scale]</attributes>
+          <type>CGFloat</type>
+          <declname>scale</declname>
+        </param>
+        <param>
+          <attributes>[thick]</attributes>
+          <type>CGFloat</type>
+          <declname>thick</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIBezierPath/UIBezierPath+Symbol.h" line="40" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIBezierPath/UIBezierPath+Symbol.m" bodystart="86" bodyend="124"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_bezier_path_07_symbol_08_1a44b6c3ed21bb5cd65a5021a435ced496" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>UIBezierPath *</type>
+        <definition>UIBezierPath * UIBezierPath(Symbol)::customBezierPathOfCrossSymbolWithRect:scale:thick:</definition>
+        <argsstring>(CGRect rect,[scale] CGFloat scale,[thick] CGFloat thick)</argsstring>
+        <name>customBezierPathOfCrossSymbolWithRect:scale:thick:</name>
+        <param>
+          <type>CGRect</type>
+          <declname>rect</declname>
+        </param>
+        <param>
+          <attributes>[scale]</attributes>
+          <type>CGFloat</type>
+          <declname>scale</declname>
+        </param>
+        <param>
+          <attributes>[thick]</attributes>
+          <type>CGFloat</type>
+          <declname>thick</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIBezierPath/UIBezierPath+Symbol.h" line="40" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIBezierPath/UIBezierPath+Symbol.m" bodystart="142" bodyend="171"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_bezier_path_07_symbol_08_1afe56ca9937f9f603b6fcc3ff443ab69a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>UIBezierPath *</type>
+        <definition>UIBezierPath * UIBezierPath(Symbol)::customBezierPathOfArrowSymbolWithRect:scale:thick:direction:</definition>
+        <argsstring>(CGRect rect,[scale] CGFloat scale,[thick] CGFloat thick,[direction] UIBezierPathArrowDirection direction)</argsstring>
+        <name>customBezierPathOfArrowSymbolWithRect:scale:thick:direction:</name>
+        <param>
+          <type>CGRect</type>
+          <declname>rect</declname>
+        </param>
+        <param>
+          <attributes>[scale]</attributes>
+          <type>CGFloat</type>
+          <declname>scale</declname>
+        </param>
+        <param>
+          <attributes>[thick]</attributes>
+          <type>CGFloat</type>
+          <declname>thick</declname>
+        </param>
+        <param>
+          <attributes>[direction]</attributes>
+          <type><ref refid="_u_i_bezier_path_09_symbol_8h_1aeee898f71fd7a9f448ce82fbe419e1a7" kindref="member">UIBezierPathArrowDirection</ref></type>
+          <declname>direction</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIBezierPath/UIBezierPath+Symbol.h" line="40" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIBezierPath/UIBezierPath+Symbol.m" bodystart="192" bodyend="244"/>
+      </memberdef>
+      <memberdef kind="function" id="category_u_i_bezier_path_07_symbol_08_1a9a58ef09783ad8ac433234da911edf60" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>UIBezierPath *</type>
+        <definition>UIBezierPath * UIBezierPath(Symbol)::customBezierPathOfPencilSymbolWithRect:scale:thick:</definition>
+        <argsstring>(CGRect rect,[scale] CGFloat scale,[thick] CGFloat thick)</argsstring>
+        <name>customBezierPathOfPencilSymbolWithRect:scale:thick:</name>
+        <param>
+          <type>CGRect</type>
+          <declname>rect</declname>
+        </param>
+        <param>
+          <attributes>[scale]</attributes>
+          <type>CGFloat</type>
+          <declname>scale</declname>
+        </param>
+        <param>
+          <attributes>[thick]</attributes>
+          <type>CGFloat</type>
+          <declname>thick</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIBezierPath/UIBezierPath+Symbol.h" line="40" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIBezierPath/UIBezierPath+Symbol.m" bodystart="257" bodyend="276"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIBezierPath/UIBezierPath+Symbol.m" line="14" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIBezierPath/UIBezierPath+Symbol.m" bodystart="14" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_u_i_bezier_path_07_symbol_08_1afe56ca9937f9f603b6fcc3ff443ab69a" prot="public" virt="virtual"><scope>UIBezierPath(Symbol)</scope><name>customBezierPathOfArrowSymbolWithRect:scale:thick:direction:</name></member>
+      <member refid="category_u_i_bezier_path_07_symbol_08_1a055c7db0cbd2cd151c063ad81e6d67e6" prot="public" virt="virtual"><scope>UIBezierPath(Symbol)</scope><name>customBezierPathOfCheckSymbolWithRect:scale:thick:</name></member>
+      <member refid="category_u_i_bezier_path_07_symbol_08_1a44b6c3ed21bb5cd65a5021a435ced496" prot="public" virt="virtual"><scope>UIBezierPath(Symbol)</scope><name>customBezierPathOfCrossSymbolWithRect:scale:thick:</name></member>
+      <member refid="category_u_i_bezier_path_07_symbol_08_1a9413c12889f71090505ce231c32144eb" prot="public" virt="virtual"><scope>UIBezierPath(Symbol)</scope><name>customBezierPathOfMinusSymbolWithRect:scale:</name></member>
+      <member refid="category_u_i_bezier_path_07_symbol_08_1a9a58ef09783ad8ac433234da911edf60" prot="public" virt="virtual"><scope>UIBezierPath(Symbol)</scope><name>customBezierPathOfPencilSymbolWithRect:scale:thick:</name></member>
+      <member refid="category_u_i_bezier_path_07_symbol_08_1a73d2fa27f381de88dedf87540153d2b7" prot="public" virt="virtual"><scope>UIBezierPath(Symbol)</scope><name>customBezierPathOfPlusSymbolWithRect:scale:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

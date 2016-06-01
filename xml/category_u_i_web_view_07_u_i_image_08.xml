@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_u_i_web_view_07_u_i_image_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>UIWebView(UIImage)</compoundname>
+    <includes refid="_u_i_web_view_09_u_i_image_8h" local="no">UIWebView+UIImage.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="category_u_i_web_view_07_u_i_image_08_1a47b22a4d43e7202d3c58dc1ef55d253f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>UIImage *</type>
+        <definition>UIImage * UIWebView(UIImage)::imageForWebView</definition>
+        <argsstring>()</argsstring>
+        <name>imageForWebView</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>获取当前加载的网页的截图</para><para><simplesect kind="return"><para></para></simplesect>
+获取当前加载的网页的截图 获取当前WebView的size,然后一屏一屏的截图后，再拼接成一张完整的图片</para><para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/BLLSDKLayer/BLE/BLEPrinter/UIWebView+UIImage.h" line="72" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/BLLSDKLayer/BLE/BLEPrinter/UIWebView+UIImage.m" bodystart="21" bodyend="71"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/BLLSDKLayer/BLE/BLEPrinter/UIWebView+UIImage.m" line="13" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/BLLSDKLayer/BLE/BLEPrinter/UIWebView+UIImage.m" bodystart="13" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_u_i_web_view_07_u_i_image_08_1a47b22a4d43e7202d3c58dc1ef55d253f" prot="public" virt="virtual"><scope>UIWebView(UIImage)</scope><name>imageForWebView</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

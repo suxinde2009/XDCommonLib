@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="protocol_x_d_handler_protocol-p" kind="protocol" language="Objective-C" prot="public">
+    <compoundname>XDHandlerProtocol-p</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">&lt;NSObject&gt;</basecompoundref>
+    <includes refid="_x_d_command_bus_8h" local="no">XDCommandBus.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="protocol_x_d_handler_protocol-p_1acae75466d81afdb7fc2c27aa6e4c599a" prot="public" static="no" const="no" explicit="no" inline="no" required="yes" virt="virtual">
+        <type>id</type>
+        <definition>id XDHandlerProtocol-p::handle:</definition>
+        <argsstring>(id command)</argsstring>
+        <name>handle:</name>
+        <param>
+          <type>id</type>
+          <declname>command</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/LooseCoupling CommuniateLayer/CommandBus/XDCommandBus.h" line="33" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1316">
+        <label>&lt;XDHandlerProtocol&gt;</label>
+        <link refid="protocol_x_d_handler_protocol-p"/>
+        <childnode refid="1317" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1317">
+        <label>&lt;NSObject&gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1318">
+        <label>&lt;XDHandlerProtocol&gt;</label>
+        <link refid="protocol_x_d_handler_protocol-p"/>
+        <childnode refid="1319" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1319">
+        <label>&lt;NSObject&gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/LooseCoupling CommuniateLayer/CommandBus/XDCommandBus.h" line="22" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/LooseCoupling CommuniateLayer/CommandBus/XDCommandBus.h" bodystart="22" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="protocol_x_d_handler_protocol-p_1acae75466d81afdb7fc2c27aa6e4c599a" prot="public" virt="virtual"><scope>XDHandlerProtocol-p</scope><name>handle:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

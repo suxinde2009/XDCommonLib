@@ -1,0 +1,282 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_n_s_object_09_b_k_block_execution_8m" kind="file" language="Objective-C">
+    <compoundname>NSObject+BKBlockExecution.m</compoundname>
+    <includes refid="_n_s_object_09_b_k_block_execution_8h" local="yes">NSObject+BKBlockExecution.h</includes>
+    <incdepgraph>
+      <node id="2795">
+        <label>Foundation/NSObjCRuntime.h</label>
+      </node>
+      <node id="2794">
+        <label>BKDefines.h</label>
+        <link refid="_b_k_defines_8h"/>
+        <childnode refid="2795" relation="include">
+        </childnode>
+      </node>
+      <node id="2796">
+        <label>Foundation/Foundation.h</label>
+      </node>
+      <node id="2793">
+        <label>NSObject+BKBlockExecution.h</label>
+        <link refid="_n_s_object_09_b_k_block_execution_8h"/>
+        <childnode refid="2794" relation="include">
+        </childnode>
+        <childnode refid="2796" relation="include">
+        </childnode>
+      </node>
+      <node id="2792">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSObject+BKBlockExecution.m</label>
+        <link refid="NSObject+BKBlockExecution.m"/>
+        <childnode refid="2793" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="_n_s_object_09_b_k_block_execution_8m_1ac99e2de114973532de746da2362814fb" prot="public" static="no">
+        <name>DISPATCH_CANCELLATION_SUPPORTED</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSObject+BKBlockExecution.m" line="11" column="10" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSObject+BKBlockExecution.m" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_n_s_object_09_b_k_block_execution_8m_1abc060a4842a0c84493b7b44b75dfd3a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>NS_INLINE dispatch_time_t</type>
+        <definition>NS_INLINE dispatch_time_t BKTimeDelay</definition>
+        <argsstring>(NSTimeInterval t)</argsstring>
+        <name>BKTimeDelay</name>
+        <param>
+          <type>NSTimeInterval</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSObject+BKBlockExecution.m" line="14" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSObject+BKBlockExecution.m" bodystart="14" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="_n_s_object_09_b_k_block_execution_8m_1afaefcaaa9b61edf2da2955fca08d6e48" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>NS_INLINE BOOL</type>
+        <definition>NS_INLINE BOOL BKSupportsDispatchCancellation</definition>
+        <argsstring>(void)</argsstring>
+        <name>BKSupportsDispatchCancellation</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSObject+BKBlockExecution.m" line="18" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSObject+BKBlockExecution.m" bodystart="18" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="_n_s_object_09_b_k_block_execution_8m_1a6f0135f16eeb79a80142b92799b3a897" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>NS_INLINE dispatch_queue_t</type>
+        <definition>NS_INLINE dispatch_queue_t BKGetBackgroundQueue</definition>
+        <argsstring>(void)</argsstring>
+        <name>BKGetBackgroundQueue</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSObject+BKBlockExecution.m" line="26" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSObject+BKBlockExecution.m" bodystart="26" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="_n_s_object_09_b_k_block_execution_8m_1a3ec3c5be15623b07a1d216e29849f28e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>id&lt; NSObject, NSCopying &gt;</type>
+        <definition>static id&lt;NSObject, NSCopying&gt; BKDispatchCancellableBlock</definition>
+        <argsstring>(dispatch_queue_t queue, NSTimeInterval delay, void(^block)(void))</argsstring>
+        <name>BKDispatchCancellableBlock</name>
+        <param>
+          <type>dispatch_queue_t</type>
+          <declname>queue</declname>
+        </param>
+        <param>
+          <type>NSTimeInterval</type>
+          <declname>delay</declname>
+        </param>
+        <param>
+          <type>void(^)(void)</type>
+          <declname>block</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSObject+BKBlockExecution.m" line="30" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSObject+BKBlockExecution.m" bodystart="30" bodyend="55"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>NSObject+BKBlockExecution.m</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>BlocksKit</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_n_s_object_09_b_k_block_execution_8h" kindref="compound">NSObject+BKBlockExecution.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>(defined(__IPHONE_OS_VERSION_MAX_ALLOWED)<sp/>&amp;&amp;<sp/>__IPHONE_OS_VERSION_MAX_ALLOWED<sp/>&gt;=<sp/>80000)<sp/>||<sp/>(defined(__MAC_OS_X_VERSION_MAX_ALLOWED)<sp/>&amp;&amp;<sp/>__MAC_OS_X_VERSION_MAX_ALLOWED<sp/>&gt;=<sp/>1010)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DISPATCH_CANCELLATION_SUPPORTED<sp/>1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="_n_s_object_09_b_k_block_execution_8m_1ac99e2de114973532de746da2362814fb" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DISPATCH_CANCELLATION_SUPPORTED<sp/>1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="_n_s_object_09_b_k_block_execution_8m_1abc060a4842a0c84493b7b44b75dfd3a2" refkind="member"><highlight class="normal">NS_INLINE<sp/>dispatch_time_t<sp/><ref refid="_n_s_object_09_b_k_block_execution_8m_1abc060a4842a0c84493b7b44b75dfd3a2" kindref="member">BKTimeDelay</ref>(NSTimeInterval<sp/>t)<sp/>{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>dispatch_time(DISPATCH_TIME_NOW,<sp/>(uint64_t)(NSEC_PER_SEC<sp/>*<sp/>t));</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="_n_s_object_09_b_k_block_execution_8m_1afaefcaaa9b61edf2da2955fca08d6e48" refkind="member"><highlight class="normal">NS_INLINE<sp/>BOOL<sp/><ref refid="_n_s_object_09_b_k_block_execution_8m_1afaefcaaa9b61edf2da2955fca08d6e48" kindref="member">BKSupportsDispatchCancellation</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/>{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>DISPATCH_CANCELLATION_SUPPORTED</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(&amp;dispatch_block_cancel<sp/>!=<sp/>NULL);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>NO;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="_n_s_object_09_b_k_block_execution_8m_1a6f0135f16eeb79a80142b92799b3a897" refkind="member"><highlight class="normal">NS_INLINE<sp/>dispatch_queue_t<sp/><ref refid="_n_s_object_09_b_k_block_execution_8m_1a6f0135f16eeb79a80142b92799b3a897" kindref="member">BKGetBackgroundQueue</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/>{</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT,<sp/>0);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>id<sp/>&lt;NSObject,<sp/>NSCopying&gt;<sp/>BKDispatchCancellableBlock(dispatch_queue_t<sp/>queue,<sp/>NSTimeInterval<sp/>delay,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">(^block)(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">))<sp/>{</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>dispatch_time_t<sp/>time<sp/>=<sp/><ref refid="_n_s_object_09_b_k_block_execution_8m_1abc060a4842a0c84493b7b44b75dfd3a2" kindref="member">BKTimeDelay</ref>(delay);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>DISPATCH_CANCELLATION_SUPPORTED</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="_n_s_object_09_b_k_block_execution_8m_1afaefcaaa9b61edf2da2955fca08d6e48" kindref="member">BKSupportsDispatchCancellation</ref>())<sp/>{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dispatch_block_t<sp/>ret<sp/>=<sp/>dispatch_block_create(0,<sp/>block);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dispatch_after(time,<sp/>queue,<sp/>ret);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>ret;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>__block<sp/>BOOL<sp/>cancelled<sp/>=<sp/>NO;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>void<sp/>(^wrapper)(BOOL)<sp/>=<sp/>^(BOOL<sp/>cancel)<sp/>{</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(cancel)<sp/>{</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cancelled<sp/>=<sp/>YES;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!cancelled)<sp/>block();</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>dispatch_after(time,<sp/>queue,<sp/>^{</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>wrapper(NO);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>});</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>wrapper;</highlight></codeline>
+<codeline lineno="55"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57" refid="category_n_s_object_07_blocks_kit_08" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">@implementation<sp/></highlight><highlight class="normal"><ref refid="category_n_s_object_07_blocks_kit_08" kindref="compound">NSObject (BlocksKit)</ref></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal">-<sp/>(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>&lt;NSObject,<sp/>NSCopying&gt;)bk_performAfterDelay:(NSTimeInterval)delay<sp/>usingBlock:(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(^)(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>obj))block</highlight></codeline>
+<codeline lineno="60"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>bk_performOnQueue:dispatch_get_main_queue()<sp/>afterDelay:delay<sp/>usingBlock:block];</highlight></codeline>
+<codeline lineno="62"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal">+<sp/>(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>&lt;NSObject,<sp/>NSCopying&gt;)bk_performAfterDelay:(NSTimeInterval)delay<sp/>usingBlock:(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(^)(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">))block</highlight></codeline>
+<codeline lineno="65"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[NSObject<sp/>bk_performOnQueue:dispatch_get_main_queue()<sp/>afterDelay:delay<sp/>usingBlock:block];</highlight></codeline>
+<codeline lineno="67"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal">-<sp/>(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>&lt;NSObject,<sp/>NSCopying&gt;)bk_performInBackgroundAfterDelay:(NSTimeInterval)delay<sp/>usingBlock:(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(^)(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>obj))block</highlight></codeline>
+<codeline lineno="70"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>bk_performOnQueue:BKGetBackgroundQueue()<sp/>afterDelay:delay<sp/>usingBlock:block];</highlight></codeline>
+<codeline lineno="72"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal">+<sp/>(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>&lt;NSObject,<sp/>NSCopying&gt;)bk_performInBackgroundAfterDelay:(NSTimeInterval)delay<sp/>usingBlock:(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(^)(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">))block</highlight></codeline>
+<codeline lineno="75"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[NSObject<sp/>bk_performOnQueue:BKGetBackgroundQueue()<sp/>afterDelay:delay<sp/>usingBlock:block];</highlight></codeline>
+<codeline lineno="77"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal">-<sp/>(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>&lt;NSObject,<sp/>NSCopying&gt;)bk_performOnQueue:(dispatch_queue_t)queue<sp/>afterDelay:(NSTimeInterval)delay<sp/>usingBlock:(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(^)(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>obj))block</highlight></codeline>
+<codeline lineno="80"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/>NSParameterAssert(block<sp/>!=<sp/>nil);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>BKDispatchCancellableBlock(queue,<sp/>delay,<sp/>^{</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>block(</highlight><highlight class="keyword">self</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/>});</highlight></codeline>
+<codeline lineno="86"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal">+<sp/>(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>&lt;NSObject,<sp/>NSCopying&gt;)bk_performOnQueue:(dispatch_queue_t)queue<sp/>afterDelay:(NSTimeInterval)delay<sp/>usingBlock:(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(^)(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">))block</highlight></codeline>
+<codeline lineno="89"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/>NSParameterAssert(block<sp/>!=<sp/>nil);</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>BKDispatchCancellableBlock(queue,<sp/>delay,<sp/>block);</highlight></codeline>
+<codeline lineno="93"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal">+<sp/>(void)bk_cancelBlock:(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>&lt;NSObject,<sp/>NSCopying&gt;)block</highlight></codeline>
+<codeline lineno="96"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/>NSParameterAssert(block<sp/>!=<sp/>nil);</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>DISPATCH_CANCELLATION_SUPPORTED</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="_n_s_object_09_b_k_block_execution_8m_1afaefcaaa9b61edf2da2955fca08d6e48" kindref="member">BKSupportsDispatchCancellation</ref>())<sp/>{</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dispatch_block_cancel((dispatch_block_t)block);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/>void<sp/>(^wrapper)(BOOL)<sp/>=<sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">(^)(BOOL))block;</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/>wrapper(YES);</highlight></codeline>
+<codeline lineno="108"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>clang<sp/>diagnostic<sp/>push</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>clang<sp/>diagnostic<sp/>ignored<sp/>&quot;-Wdeprecated-implementations&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115" refid="category_n_s_object_07_b_k_block_execution___deprecated_08" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">@implementation<sp/></highlight><highlight class="normal"><ref refid="category_n_s_object_07_b_k_block_execution___deprecated_08" kindref="compound">NSObject (BKBlockExecution_Deprecated)</ref></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/>-<sp/>Legacy<sp/>verions</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="119"><highlight class="normal">-<sp/>(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>&lt;NSObject,<sp/>NSCopying&gt;)bk_performBlock:(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(^)(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>obj))block<sp/>afterDelay:(NSTimeInterval)delay</highlight></codeline>
+<codeline lineno="120"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>bk_performAfterDelay:delay<sp/>usingBlock:block];</highlight></codeline>
+<codeline lineno="122"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal">+<sp/>(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>&lt;NSObject,<sp/>NSCopying&gt;)bk_performBlock:(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(^)(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">))block<sp/>afterDelay:(NSTimeInterval)delay</highlight></codeline>
+<codeline lineno="125"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>bk_performAfterDelay:delay<sp/>usingBlock:block];</highlight></codeline>
+<codeline lineno="127"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight></codeline>
+<codeline lineno="129"><highlight class="normal">-<sp/>(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>&lt;NSObject,<sp/>NSCopying&gt;)bk_performBlockInBackground:(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(^)(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>obj))block<sp/>afterDelay:(NSTimeInterval)delay</highlight></codeline>
+<codeline lineno="130"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>bk_performInBackgroundAfterDelay:delay<sp/>usingBlock:block];</highlight></codeline>
+<codeline lineno="132"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight></codeline>
+<codeline lineno="134"><highlight class="normal">+<sp/>(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>&lt;NSObject,<sp/>NSCopying&gt;)bk_performBlockInBackground:(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(^)(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">))block<sp/>afterDelay:(NSTimeInterval)delay</highlight></codeline>
+<codeline lineno="135"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>bk_performInBackgroundAfterDelay:delay<sp/>usingBlock:block];</highlight></codeline>
+<codeline lineno="137"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight></codeline>
+<codeline lineno="139"><highlight class="normal">-<sp/>(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>&lt;NSObject,<sp/>NSCopying&gt;)bk_performBlock:(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(^)(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>obj))block<sp/>onQueue:(dispatch_queue_t)queue<sp/>afterDelay:(NSTimeInterval)delay</highlight></codeline>
+<codeline lineno="140"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>bk_performOnQueue:queue<sp/>afterDelay:delay<sp/>usingBlock:block];</highlight></codeline>
+<codeline lineno="142"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight></codeline>
+<codeline lineno="144"><highlight class="normal">+<sp/>(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>&lt;NSObject,<sp/>NSCopying&gt;)bk_performBlock:(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(^)(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">))block<sp/>onQueue:(dispatch_queue_t)queue<sp/>afterDelay:(NSTimeInterval)delay</highlight></codeline>
+<codeline lineno="145"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>bk_performOnQueue:queue<sp/>afterDelay:delay<sp/>usingBlock:block];</highlight></codeline>
+<codeline lineno="147"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight></codeline>
+<codeline lineno="149"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>clang<sp/>diagnostic<sp/>pop</highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSObject+BKBlockExecution.m"/>
+  </compounddef>
+</doxygen>

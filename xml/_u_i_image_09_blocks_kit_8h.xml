@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_u_i_image_09_blocks_kit_8h" kind="file" language="C++">
+    <compoundname>UIImage+BlocksKit.h</compoundname>
+    <includes refid="_b_k_defines_8h" local="yes">BKDefines.h</includes>
+    <includes local="no">UIKit/UIKit.h</includes>
+    <includedby refid="_u_i_image_09_blocks_kit_8m" local="yes">XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIImage+BlocksKit.m</includedby>
+    <incdepgraph>
+      <node id="3095">
+        <label>Foundation/NSObjCRuntime.h</label>
+      </node>
+      <node id="3096">
+        <label>UIKit/UIKit.h</label>
+      </node>
+      <node id="3093">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIImage+BlocksKit.h</label>
+        <link refid="UIImage+BlocksKit.h"/>
+        <childnode refid="3094" relation="include">
+        </childnode>
+        <childnode refid="3096" relation="include">
+        </childnode>
+      </node>
+      <node id="3094">
+        <label>BKDefines.h</label>
+        <link refid="_b_k_defines_8h"/>
+        <childnode refid="3095" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3097">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIImage+BlocksKit.h</label>
+        <link refid="UIImage+BlocksKit.h"/>
+        <childnode refid="3098" relation="include">
+        </childnode>
+      </node>
+      <node id="3098">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIImage+BlocksKit.m</label>
+        <link refid="_u_i_image_09_blocks_kit_8m"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_u_i_image_09_blocks_kit_8h_1a7c1b9a9e09bbe94ee73a1f81a93f3607" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="_b_k_defines_8h_1a33c08c6ca8f22acd327c850ca2151f17" kindref="member">NS_ASSUME_NONNULL_BEGIN</ref> UIKIT_EXTERN void</type>
+        <definition>NS_ASSUME_NONNULL_BEGIN UIKIT_EXTERN void BKImageWriteToSavedPhotosAlbum</definition>
+        <argsstring>(UIImage *image, void(^completionBlock)(NSError *))</argsstring>
+        <name>BKImageWriteToSavedPhotosAlbum</name>
+        <param>
+          <type>UIImage *</type>
+          <declname>image</declname>
+        </param>
+        <param>
+          <type>void(^)(NSError *)</type>
+          <declname>completionBlock</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Camera Roll export without selectors.</para><para>Includes code by the following:</para><para><itemizedlist>
+<listitem><para><ulink url="https://github.com/muratayusuke">Yusuke Murata</ulink></para></listitem></itemizedlist>
+</para><para><simplesect kind="warning"><para>UIImage is only available on a platform with UIKit. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIImage+BlocksKit.h" line="21" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIImage+BlocksKit.m" bodystart="26" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="_u_i_image_09_blocks_kit_8h_1a8b830c2b2b057d7442f0fe87b744d8af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>UIKIT_EXTERN void</type>
+        <definition>UIKIT_EXTERN void BKSaveVideoAtURLToSavedPhotosAlbum</definition>
+        <argsstring>(NSURL *videoURL, void(^completionBlock)(NSError *))</argsstring>
+        <name>BKSaveVideoAtURLToSavedPhotosAlbum</name>
+        <param>
+          <type>NSURL *</type>
+          <declname>videoURL</declname>
+        </param>
+        <param>
+          <type>void(^)(NSError *)</type>
+          <declname>completionBlock</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIImage+BlocksKit.h" line="24" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIImage+BlocksKit.m" bodystart="32" bodyend="36"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>UIImage+Blockskit.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>BlocksKit</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_b_k_defines_8h" kindref="compound">BKDefines.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;UIKit/UIKit.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><ref refid="_b_k_defines_8h_1a33c08c6ca8f22acd327c850ca2151f17" kindref="member">NS_ASSUME_NONNULL_BEGIN</ref></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="comment">//<sp/>Adds<sp/>a<sp/>photo<sp/>to<sp/>the<sp/>saved<sp/>photos<sp/>album.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal">UIKIT_EXTERN<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_u_i_image_09_blocks_kit_8h_1a7c1b9a9e09bbe94ee73a1f81a93f3607" kindref="member">BKImageWriteToSavedPhotosAlbum</ref>(UIImage<sp/>*image,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">(^completionBlock)(NSError<sp/>*));</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Adds<sp/>a<sp/>video<sp/>to<sp/>the<sp/>saved<sp/>photos<sp/>album.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal">UIKIT_EXTERN<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_u_i_image_09_blocks_kit_8h_1a8b830c2b2b057d7442f0fe87b744d8af" kindref="member">BKSaveVideoAtURLToSavedPhotosAlbum</ref>(NSURL<sp/>*videoURL,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">(^completionBlock)(NSError<sp/>*));</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><ref refid="_b_k_defines_8h_1a34f05dab7f212780aa8f76bbb465ce67" kindref="member">NS_ASSUME_NONNULL_END</ref></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIImage+BlocksKit.h"/>
+  </compounddef>
+</doxygen>

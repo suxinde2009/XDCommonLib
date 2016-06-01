@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_v_i_e_w___c_l_a_s_s_07_description_utility_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>VIEW_CLASS(DescriptionUtility)</compoundname>
+    <includes refid="_view-_nametag_8h" local="no">View-Nametag.h</includes>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="category_v_i_e_w___c_l_a_s_s_07_description_utility_08_1a079eea104c340516226be5503c2c65f0" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="assign">
+        <type>NSString *</type>
+        <definition>NSString * VIEW_CLASS(DescriptionUtility)::readableFrame</definition>
+        <argsstring></argsstring>
+        <name>readableFrame</name>
+        <read></read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Nametag Utilities/View/View-Nametag.h" line="55" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Nametag Utilities/View/View-Nametag.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="category_v_i_e_w___c_l_a_s_s_07_description_utility_08_1a12b4403e16b79a99d31016f903cedebc" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * VIEW_CLASS(DescriptionUtility)::viewTree</definition>
+        <argsstring>()</argsstring>
+        <name>viewTree</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Nametag Utilities/View/View-Nametag.h" line="55" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Nametag Utilities/View/View-Nametag.m" bodystart="105" bodyend="111"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Nametag Utilities/View/View-Nametag.h" line="54" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDLayoutContraintHandyKit/Nametag Utilities/View/View-Nametag.h" bodystart="54" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_v_i_e_w___c_l_a_s_s_07_description_utility_08_1a079eea104c340516226be5503c2c65f0" prot="public" virt="non-virtual"><scope>VIEW_CLASS(DescriptionUtility)</scope><name>readableFrame</name></member>
+      <member refid="category_v_i_e_w___c_l_a_s_s_07_description_utility_08_1a12b4403e16b79a99d31016f903cedebc" prot="public" virt="virtual"><scope>VIEW_CLASS(DescriptionUtility)</scope><name>viewTree</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

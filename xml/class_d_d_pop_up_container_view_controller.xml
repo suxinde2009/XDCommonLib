@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="class_d_d_pop_up_container_view_controller" kind="class" language="Objective-C" prot="public">
+    <compoundname>DDPopUpContainerViewController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">UIViewController</basecompoundref>
+    <includes refid="_u_i_view_controller_09_d_d_pop_up_view_controller_8h" local="no">UIViewController+DDPopUpViewController.h</includes>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_d_d_pop_up_container_view_controller_1a4c59f45328c919acf2515c3d862ef97a" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="assign">
+        <type>UIViewController *</type>
+        <definition>UIViewController* DDPopUpContainerViewController::presentingPopupController</definition>
+        <argsstring></argsstring>
+        <name>presentingPopupController</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+DDPopUpViewController.h" line="82" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+DDPopUpViewController.h" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_d_d_pop_up_container_view_controller_1a5a2ee5c0bb0f3d1ea1475f3954eb5256" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="retain">
+        <type>UIButton *</type>
+        <definition>UIButton * DDPopUpContainerViewController::backgroundButton</definition>
+        <argsstring></argsstring>
+        <name>backgroundButton</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+DDPopUpViewController.h" line="83" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+DDPopUpViewController.h" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="274">
+        <label>DDPopUpContainerViewController</label>
+        <link refid="class_d_d_pop_up_container_view_controller"/>
+        <childnode refid="275" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="275">
+        <label>UIViewController</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="276">
+        <label>DDPopUpContainerViewController</label>
+        <link refid="class_d_d_pop_up_container_view_controller"/>
+        <childnode refid="277" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="277">
+        <label>UIViewController</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+DDPopUpViewController.m" line="520" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIViewController/UIViewController+DDPopUpViewController.m" bodystart="520" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="class_d_d_pop_up_container_view_controller_1a5a2ee5c0bb0f3d1ea1475f3954eb5256" prot="public" virt="non-virtual"><scope>DDPopUpContainerViewController</scope><name>backgroundButton</name></member>
+      <member refid="class_d_d_pop_up_container_view_controller_1a4c59f45328c919acf2515c3d862ef97a" prot="public" virt="non-virtual"><scope>DDPopUpContainerViewController</scope><name>presentingPopupController</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

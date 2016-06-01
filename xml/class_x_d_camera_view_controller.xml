@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="class_x_d_camera_view_controller" kind="class" language="Objective-C" prot="public">
+    <compoundname>XDCameraViewController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">UIViewController</basecompoundref>
+    <includes refid="_x_d_camera_view_controller_8h" local="no">XDCameraViewController.h</includes>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1242">
+        <label>UIViewController</label>
+      </node>
+      <node id="1241">
+        <label>XDCameraViewController</label>
+        <link refid="class_x_d_camera_view_controller"/>
+        <childnode refid="1242" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1244">
+        <label>UIViewController</label>
+      </node>
+      <node id="1243">
+        <label>XDCameraViewController</label>
+        <link refid="class_x_d_camera_view_controller"/>
+        <childnode refid="1244" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/BasicComponentLayer/Media/Camera/XDCameraViewController.m" line="35" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/BasicComponentLayer/Media/Camera/XDCameraViewController.m" bodystart="35" bodyend="-1"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

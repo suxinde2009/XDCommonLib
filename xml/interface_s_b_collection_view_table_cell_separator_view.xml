@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="interface_s_b_collection_view_table_cell_separator_view" kind="class" language="Objective-C" prot="public">
+    <compoundname>SBCollectionViewTableCellSeparatorView</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">UIView</basecompoundref>
+    <includes refid="_s_b_collection_view_table_cell_separator_view_8h" local="no">SBCollectionViewTableCellSeparatorView.h</includes>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>The class of a separator used in the cells. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="716">
+        <label>SBCollectionViewTableCellSeparatorView</label>
+        <link refid="interface_s_b_collection_view_table_cell_separator_view"/>
+        <childnode refid="717" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="717">
+        <label>UIView</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="718">
+        <label>SBCollectionViewTableCellSeparatorView</label>
+        <link refid="interface_s_b_collection_view_table_cell_separator_view"/>
+        <childnode refid="719" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="719">
+        <label>UIView</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/SBTableLayout/SBCollectionViewTableCellSeparatorView.h" line="15" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/SBTableLayout/SBCollectionViewTableCellSeparatorView.h" bodystart="14" bodyend="-1"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

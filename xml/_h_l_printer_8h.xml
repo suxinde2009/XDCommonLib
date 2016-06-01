@@ -1,0 +1,194 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_h_l_printer_8h" kind="file" language="C++">
+    <compoundname>HLPrinter.h</compoundname>
+    <includes local="no">Foundation/Foundation.h</includes>
+    <includes local="no">UIKit/UIKit.h</includes>
+    <includes refid="_u_i_image_09_bitmap_8h" local="yes">UIImage+Bitmap.h</includes>
+    <includedby refid="_h_l_printer_8m" local="yes">XDCommonLib/BLLSDKLayer/BLE/BLEPrinter/HLPrinter.m</includedby>
+    <includedby refid="_s_e_printer_manager_8h" local="yes">XDCommonLib/BLLSDKLayer/BLE/BLEPrinter/SEPrinterManager.h</includedby>
+    <incdepgraph>
+      <node id="25">
+        <label>UIKit/UIKit.h</label>
+      </node>
+      <node id="23">
+        <label>XDCommonLib/BLLSDKLayer/BLE/BLEPrinter/HLPrinter.h</label>
+        <link refid="HLPrinter.h"/>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>UIImage+Bitmap.h</label>
+        <link refid="_u_i_image_09_bitmap_8h"/>
+        <childnode refid="25" relation="include">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>Foundation/Foundation.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="29">
+        <label>XDCommonLib/BLLSDKLayer/BLE/BLEPrinter/SEPrinterManager.h</label>
+        <link refid="_s_e_printer_manager_8h"/>
+        <childnode refid="30" relation="include">
+        </childnode>
+      </node>
+      <node id="30">
+        <label>XDCommonLib/BLLSDKLayer/BLE/BLEPrinter/SEPrinterManager.m</label>
+        <link refid="_s_e_printer_manager_8m"/>
+      </node>
+      <node id="27">
+        <label>XDCommonLib/BLLSDKLayer/BLE/BLEPrinter/HLPrinter.h</label>
+        <link refid="HLPrinter.h"/>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+      </node>
+      <node id="28">
+        <label>XDCommonLib/BLLSDKLayer/BLE/BLEPrinter/HLPrinter.m</label>
+        <link refid="_h_l_printer_8m"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_h_l_printer" prot="public">HLPrinter</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_h_l_printer_8h_1accd479304770e7e7336083b564fd8661" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typedef</type>
+        <definition>typedef NS_ENUM</definition>
+        <argsstring>(NSInteger, HLPrinterStyle)</argsstring>
+        <name>NS_ENUM</name>
+        <param>
+          <type>NSInteger</type>
+        </param>
+        <param>
+          <type>HLPrinterStyle</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/BLLSDKLayer/BLE/BLEPrinter/HLPrinter.h" line="14" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/BLLSDKLayer/BLE/BLEPrinter/HLPrinter.h" bodystart="14" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="_h_l_printer_8h_1a79806a91da8ffdc846c83a6e34473885" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typedef</type>
+        <definition>typedef NS_ENUM</definition>
+        <argsstring>(NSInteger, HLTextAlignment)</argsstring>
+        <name>NS_ENUM</name>
+        <param>
+          <type>NSInteger</type>
+        </param>
+        <param>
+          <type>HLTextAlignment</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>文字对齐方式 </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/BLLSDKLayer/BLE/BLEPrinter/HLPrinter.h" line="20" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/BLLSDKLayer/BLE/BLEPrinter/HLPrinter.h" bodystart="20" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="_h_l_printer_8h_1a6d7b24165253ec2d9c1093e3dff9582b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typedef</type>
+        <definition>typedef NS_ENUM</definition>
+        <argsstring>(NSInteger, HLFontSize)</argsstring>
+        <name>NS_ENUM</name>
+        <param>
+          <type>NSInteger</type>
+        </param>
+        <param>
+          <type>HLFontSize</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>字号 </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/BLLSDKLayer/BLE/BLEPrinter/HLPrinter.h" line="27" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/BLLSDKLayer/BLE/BLEPrinter/HLPrinter.h" bodystart="27" bodyend="31"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>HLPrinter.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>HLBluetoothDemo</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Harvey<sp/>on<sp/>16/5/3.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>©<sp/>2016年<sp/>Halley.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;Foundation/Foundation.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;UIKit/UIKit.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_u_i_image_09_bitmap_8h" kindref="compound">UIImage+Bitmap.h</ref>&quot;</highlight><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="_h_l_printer_8h_1accd479304770e7e7336083b564fd8661" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="_h_l_printer_8h_1accd479304770e7e7336083b564fd8661" kindref="member">NS_ENUM</ref>(NSInteger,<sp/>HLPrinterStyle)<sp/>{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>HLPrinterStyleDefault,</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>HLPrinterStyleCustom</highlight></codeline>
+<codeline lineno="17"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="_h_l_printer_8h_1a79806a91da8ffdc846c83a6e34473885" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="_h_l_printer_8h_1accd479304770e7e7336083b564fd8661" kindref="member">NS_ENUM</ref>(NSInteger,<sp/>HLTextAlignment)<sp/>{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>HLTextAlignmentLeft<sp/>=<sp/>0x00,</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>HLTextAlignmentCenter<sp/>=<sp/>0x01,</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>HLTextAlignmentRight<sp/>=<sp/>0x02</highlight></codeline>
+<codeline lineno="24"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27" refid="_h_l_printer_8h_1a6d7b24165253ec2d9c1093e3dff9582b" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="_h_l_printer_8h_1accd479304770e7e7336083b564fd8661" kindref="member">NS_ENUM</ref>(NSInteger,<sp/>HLFontSize)<sp/>{</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>HLFontSizeTitleSmalle<sp/>=<sp/>0x00,</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>HLFontSizeTitleMiddle<sp/>=<sp/>0x11,</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>HLFontSizeTitleBig<sp/>=<sp/>0x22</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="class_h_l_printer" kindref="compound">HLPrinter</ref><sp/>:<sp/>NSObject</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal">-<sp/>(instancetype)initWithShowPreview:(BOOL)showPreview;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal">-<sp/>(void)appendText:(NSString<sp/>*)text<sp/>alignment:(HLTextAlignment)alignment;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal">-<sp/>(void)appendText:(NSString<sp/>*)text<sp/>alignment:(HLTextAlignment)alignment<sp/>fontSize:(HLFontSize)fontSize;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal">-<sp/>(void)appendTitle:(NSString<sp/>*)title<sp/>value:(NSString<sp/>*)value;</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal">-<sp/>(void)appendTitle:(NSString<sp/>*)title<sp/>value:(NSString<sp/>*)value<sp/>fontSize:(HLFontSize)fontSize;</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal">-<sp/>(void)appendTitle:(NSString<sp/>*)title<sp/>value:(NSString<sp/>*)value<sp/>valueOffset:(NSInteger)offset;</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal">-<sp/>(void)appendTitle:(NSString<sp/>*)title<sp/>value:(NSString<sp/>*)value<sp/>valueOffset:(NSInteger)offset<sp/>fontSize:(HLFontSize)fontSize;</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal">-<sp/>(void)appendLeftText:(NSString<sp/>*)left<sp/>middleText:(NSString<sp/>*)middle<sp/>rightText:(NSString<sp/>*)right<sp/>isTitle:(BOOL)isTitle;</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal">-<sp/>(void)appendImage:(UIImage<sp/>*)image<sp/>alignment:(HLTextAlignment)alignment<sp/>maxWidth:(CGFloat)maxWidth;</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="normal">-<sp/>(void)appendBarCodeWithInfo:(NSString<sp/>*)info;</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal">-<sp/>(void)appendBarCodeWithInfo:(NSString<sp/>*)info<sp/>alignment:(HLTextAlignment)alignment<sp/>maxWidth:(CGFloat)maxWidth;</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight></codeline>
+<codeline lineno="138"><highlight class="normal">-<sp/>(void)appendQRCodeWithInfo:(NSString<sp/>*)info;</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight></codeline>
+<codeline lineno="148"><highlight class="normal">-<sp/>(void)appendQRCodeWithInfo:(NSString<sp/>*)info<sp/>centerImage:(UIImage<sp/>*)centerImage<sp/>alignment:(HLTextAlignment)alignment<sp/>maxWidth:(CGFloat<sp/>)maxWidth;</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"></highlight></codeline>
+<codeline lineno="153"><highlight class="normal">-<sp/>(void)<ref refid="class_h_l_printer_1a03c0ec8e3cd5453f4140de0dff24efef" kindref="member">appendSeperatorLine</ref>;</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight></codeline>
+<codeline lineno="160"><highlight class="normal">-<sp/>(void)appendFooter:(NSString<sp/>*)footerInfo;</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"></highlight></codeline>
+<codeline lineno="167"><highlight class="normal">-<sp/>(NSData<sp/>*)<ref refid="class_h_l_printer_1a5a46cc507f20e65366842b530363223c" kindref="member">getFinalData</ref>;</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"></highlight></codeline>
+<codeline lineno="169"><highlight class="normal">-<sp/>(UIView<sp/>*)<ref refid="class_h_l_printer_1a0fa307b95a86db66f4b417b0303ac222" kindref="member">getPreviewView</ref>;</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"></highlight></codeline>
+<codeline lineno="171"><highlight class="normal"></highlight></codeline>
+<codeline lineno="172"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/BLLSDKLayer/BLE/BLEPrinter/HLPrinter.h"/>
+  </compounddef>
+</doxygen>

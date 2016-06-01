@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="class_x_d_command_bus" kind="class" language="Objective-C" prot="public">
+    <compoundname>XDCommandBus</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">NSObject</basecompoundref>
+    <includes refid="_x_d_command_bus_8h" local="no">XDCommandBus.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_x_d_command_bus_1af7e58bebe142dfb3332cac86b18a3ba7" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>id</type>
+        <definition>id XDCommandBus::executeCommand:</definition>
+        <argsstring>(id command)</argsstring>
+        <name>executeCommand:</name>
+        <param>
+          <type>id</type>
+          <declname>command</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/LooseCoupling CommuniateLayer/CommandBus/XDCommandBus.h" line="33" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/LooseCoupling CommuniateLayer/CommandBus/XDCommandBus.m" bodystart="50" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="class_x_d_command_bus_1aea02b5f8bd3700d3428566ba835b1f1f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void XDCommandBus::executeCommand:withCompletion:</definition>
+        <argsstring>(id command,[withCompletion] void(^completion)(id result))</argsstring>
+        <name>executeCommand:withCompletion:</name>
+        <param>
+          <type>id</type>
+          <declname>command</declname>
+        </param>
+        <param>
+          <attributes>[withCompletion]</attributes>
+          <type>void(^)(id result)</type>
+          <declname>completion</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/LooseCoupling CommuniateLayer/CommandBus/XDCommandBus.h" line="33" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/LooseCoupling CommuniateLayer/CommandBus/XDCommandBus.m" bodystart="59" bodyend="68"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1251">
+        <label>XDCommandBus</label>
+        <link refid="class_x_d_command_bus"/>
+        <childnode refid="1252" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1252">
+        <label>NSObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1253">
+        <label>XDCommandBus</label>
+        <link refid="class_x_d_command_bus"/>
+        <childnode refid="1254" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1254">
+        <label>NSObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/LooseCoupling CommuniateLayer/CommandBus/XDCommandBus.m" line="37" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/LooseCoupling CommuniateLayer/CommandBus/XDCommandBus.m" bodystart="37" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="class_x_d_command_bus_1af7e58bebe142dfb3332cac86b18a3ba7" prot="public" virt="virtual"><scope>XDCommandBus</scope><name>executeCommand:</name></member>
+      <member refid="class_x_d_command_bus_1aea02b5f8bd3700d3428566ba835b1f1f" prot="public" virt="virtual"><scope>XDCommandBus</scope><name>executeCommand:withCompletion:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_n_s_object_07_a2_dynamic_delegate_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>NSObject(A2DynamicDelegate)</compoundname>
+    <includes refid="_n_s_object_09_a2_dynamic_delegate_8h" local="no">NSObject+A2DynamicDelegate.h</includes>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="category_n_s_object_07_a2_dynamic_delegate_08_1aba5bf5e940d65def47a1d2e7a5596bb7" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="strong">
+        <type>id</type>
+        <definition>id NSObject(A2DynamicDelegate)::bk_dynamicDataSource</definition>
+        <argsstring></argsstring>
+        <name>bk_dynamicDataSource</name>
+        <read></read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates or gets a dynamic data source for the reciever.</para><para><ref refid="class_a2_dynamic_delegate" kindref="compound">A2DynamicDelegate</ref> assumes a protocol name <computeroutput>FooBarDataSource</computeroutput> for instances of class <computeroutput>FooBar</computeroutput>. The object is given a strong attachment to the reciever, and is automatically deallocated when the reciever is released.</para><para>If the user implements a <computeroutput>A2DynamicFooBarDataSource</computeroutput> subclass of <ref refid="class_a2_dynamic_delegate" kindref="compound">A2DynamicDelegate</ref>, its implementation of any method will be used over the block. If the block needs to be used, it can be called from within the custom implementation using blockImplementationForMethod:.</para><para><simplesect kind="see"><para>&lt;A2DynamicDelegate&gt;blockImplementationForMethod: </para></simplesect>
+<simplesect kind="return"><para>A dynamic data source. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/DynamicDelegate/NSObject+A2DynamicDelegate.h" line="31" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/DynamicDelegate/NSObject+A2DynamicDelegate.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_n_s_object_07_a2_dynamic_delegate_08_1a30c9c24e3b62aff961a2bb787e8eaeef" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="strong">
+        <type>id</type>
+        <definition>id NSObject(A2DynamicDelegate)::bk_dynamicDelegate</definition>
+        <argsstring></argsstring>
+        <name>bk_dynamicDelegate</name>
+        <read></read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates or gets a dynamic delegate for the reciever.</para><para><ref refid="class_a2_dynamic_delegate" kindref="compound">A2DynamicDelegate</ref> assumes a protocol name <computeroutput>FooBarDelegate</computeroutput> for instances of class <computeroutput>FooBar</computeroutput>. The object is given a strong attachment to the reciever, and is automatically deallocated when the reciever is released.</para><para>If the user implements a <computeroutput>A2DynamicFooBarDelegate</computeroutput> subclass of <ref refid="class_a2_dynamic_delegate" kindref="compound">A2DynamicDelegate</ref>, its implementation of any method will be used over the block. If the block needs to be used, it can be called from within the custom implementation using blockImplementationForMethod:.</para><para><simplesect kind="see"><para>&lt;A2DynamicDelegate&gt;blockImplementationForMethod: </para></simplesect>
+<simplesect kind="return"><para>A dynamic delegate. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/DynamicDelegate/NSObject+A2DynamicDelegate.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/DynamicDelegate/NSObject+A2DynamicDelegate.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="category_n_s_object_07_a2_dynamic_delegate_08_1a7d91e6677db72031c7004e3700bbe25a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>id</type>
+        <definition>id NSObject(A2DynamicDelegate)::bk_dynamicDelegateForProtocol:</definition>
+        <argsstring>(Protocol *protocol)</argsstring>
+        <name>bk_dynamicDelegateForProtocol:</name>
+        <param>
+          <type>Protocol *</type>
+          <declname>protocol</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates or gets a dynamic protocol implementation for the reciever. The designated initializer.</para><para>The object is given a strong attachment to the reciever, and is automatically deallocated when the reciever is released.</para><para>If the user implements a subclass of <ref refid="class_a2_dynamic_delegate" kindref="compound">A2DynamicDelegate</ref> prepended with <computeroutput>A2Dynamic</computeroutput>, such as <computeroutput>A2DynamicFooProvider</computeroutput>, its implementation of any method will be used over the block. If the block needs to be used, it can be called from within the custom implementation using blockImplementationForMethod:.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>protocol</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A custom protocol. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>A dynamic protocol implementation. </para></simplesect>
+<simplesect kind="see"><para>&lt;A2DynamicDelegate&gt;blockImplementationForMethod: </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/DynamicDelegate/NSObject+A2DynamicDelegate.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/DynamicDelegate/NSObject+A2DynamicDelegate.m" bodystart="50" bodyend="61"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>The <ref refid="class_a2_dynamic_delegate" kindref="compound">A2DynamicDelegate</ref> category to <ref refid="class_n_s_object-p" kindref="compound">NSObject</ref> provides the primary interface by which dynamic delegates are generated for a given object. </para>    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/DynamicDelegate/NSObject+A2DynamicDelegate.h" line="13" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/DynamicDelegate/NSObject+A2DynamicDelegate.h" bodystart="13" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_n_s_object_07_a2_dynamic_delegate_08_1aba5bf5e940d65def47a1d2e7a5596bb7" prot="public" virt="non-virtual"><scope>NSObject(A2DynamicDelegate)</scope><name>bk_dynamicDataSource</name></member>
+      <member refid="category_n_s_object_07_a2_dynamic_delegate_08_1a30c9c24e3b62aff961a2bb787e8eaeef" prot="public" virt="non-virtual"><scope>NSObject(A2DynamicDelegate)</scope><name>bk_dynamicDelegate</name></member>
+      <member refid="category_n_s_object_07_a2_dynamic_delegate_08_1a7d91e6677db72031c7004e3700bbe25a" prot="public" virt="virtual"><scope>NSObject(A2DynamicDelegate)</scope><name>bk_dynamicDelegateForProtocol:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

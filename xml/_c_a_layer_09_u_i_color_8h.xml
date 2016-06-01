@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_c_a_layer_09_u_i_color_8h" kind="file" language="C++">
+    <compoundname>CALayer+UIColor.h</compoundname>
+    <includes local="no">QuartzCore/QuartzCore.h</includes>
+    <includes local="no">UIKit/UIKit.h</includes>
+    <includedby refid="_c_a_layer_09_u_i_color_8m" local="yes">XDCommonLib/CommonBasicComponentLayer/Categories/QuartzCore/CALayer/CALayer+UIColor.m</includedby>
+    <incdepgraph>
+      <node id="1138">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/QuartzCore/CALayer/CALayer+UIColor.h</label>
+        <link refid="CALayer+UIColor.h"/>
+        <childnode refid="1139" relation="include">
+        </childnode>
+        <childnode refid="1140" relation="include">
+        </childnode>
+      </node>
+      <node id="1140">
+        <label>UIKit/UIKit.h</label>
+      </node>
+      <node id="1139">
+        <label>QuartzCore/QuartzCore.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1141">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/QuartzCore/CALayer/CALayer+UIColor.h</label>
+        <link refid="CALayer+UIColor.h"/>
+        <childnode refid="1142" relation="include">
+        </childnode>
+      </node>
+      <node id="1142">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/QuartzCore/CALayer/CALayer+UIColor.m</label>
+        <link refid="_c_a_layer_09_u_i_color_8m"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="category_c_a_layer_07_u_i_color_08" prot="public">CALayer(UIColor)</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>CALayer+UIColor.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>test</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>LiuLogan<sp/>on<sp/>15/6/17.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2015年<sp/>100apps.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//http://www.gfzj.us/tech/2015/06/18/set-uiview-bordercolor-and-backgroundimage-in-interface-builder.html</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="comment">//http://stackoverflow.com/a/27986696/3825920</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;QuartzCore/QuartzCore.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;UIKit/UIKit.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="category_c_a_layer_07_u_i_color_08" kindref="compound">CALayer (UIColor)</ref></highlight></codeline>
+<codeline lineno="13" refid="category_c_a_layer_07_u_i_color_08_1afade7eb970b186736f3c044b3b99fd81" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal">(nonatomic,<sp/>assign)<sp/>UIColor*<sp/><ref refid="category_c_a_layer_07_u_i_color_08_1afade7eb970b186736f3c044b3b99fd81" kindref="member">borderUIColor</ref>;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="comment">//setting<sp/>background<sp/>for<sp/>UIView<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="category_c_a_layer_07_u_i_color_08_1ab54b408003fc4c931b6f94a825b4a28d" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal">(nonatomic,<sp/>assign)<sp/>UIColor*<sp/><ref refid="category_c_a_layer_07_u_i_color_08_1ab54b408003fc4c931b6f94a825b4a28d" kindref="member">contentsUIImage</ref>;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/QuartzCore/CALayer/CALayer+UIColor.h"/>
+  </compounddef>
+</doxygen>

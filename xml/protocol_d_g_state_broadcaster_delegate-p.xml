@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="protocol_d_g_state_broadcaster_delegate-p" kind="protocol" language="Objective-C" prot="public">
+    <compoundname>DGStateBroadcasterDelegate-p</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">&lt;NSObject&gt;</basecompoundref>
+    <includes refid="_d_g_state_broadcaster_8h" local="no">DGStateBroadcaster.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="protocol_d_g_state_broadcaster_delegate-p_1a18b1dff1ea4e7118a490dcf1e84b0e5a" prot="public" static="no" const="no" explicit="no" inline="no" optional="yes" virt="virtual">
+        <type>void</type>
+        <definition>void DGStateBroadcasterDelegate-p::stateBroadcasterBatteryChargedLow:charging:</definition>
+        <argsstring>(BOOL isLow,[charging] BOOL isCharging)</argsstring>
+        <name>stateBroadcasterBatteryChargedLow:charging:</name>
+        <param>
+          <type>BOOL</type>
+          <declname>isLow</declname>
+        </param>
+        <param>
+          <attributes>[charging]</attributes>
+          <type>BOOL</type>
+          <declname>isCharging</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/LooseCoupling CommuniateLayer/StateBroadcaster/DGStateBroadcaster.h" line="372" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="protocol_d_g_state_broadcaster_delegate-p_1a42f5f12c2586610be64cb7221d12f9fa" prot="public" static="no" const="no" explicit="no" inline="no" optional="yes" virt="virtual">
+        <type>void</type>
+        <definition>void DGStateBroadcasterDelegate-p::stateBroadcasterDistanceTravelledToLocation:</definition>
+        <argsstring>(CLLocation *location)</argsstring>
+        <name>stateBroadcasterDistanceTravelledToLocation:</name>
+        <param>
+          <type>CLLocation *</type>
+          <declname>location</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/LooseCoupling CommuniateLayer/StateBroadcaster/DGStateBroadcaster.h" line="372" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="protocol_d_g_state_broadcaster_delegate-p_1ac7d71fe8809d89811160bc036c480339" prot="public" static="no" const="no" explicit="no" inline="no" optional="yes" virt="virtual">
+        <type>void</type>
+        <definition>void DGStateBroadcasterDelegate-p::stateBroadcasterLocationAccurateEnough:</definition>
+        <argsstring>(BOOL accurateEnough)</argsstring>
+        <name>stateBroadcasterLocationAccurateEnough:</name>
+        <param>
+          <type>BOOL</type>
+          <declname>accurateEnough</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/LooseCoupling CommuniateLayer/StateBroadcaster/DGStateBroadcaster.h" line="372" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="protocol_d_g_state_broadcaster_delegate-p_1ab8775d2c75deae7aeff463125806fd88" prot="public" static="no" const="no" explicit="no" inline="no" optional="yes" virt="virtual">
+        <type>void</type>
+        <definition>void DGStateBroadcasterDelegate-p::stateBroadcasterNetworkReachable:isOnWifi:</definition>
+        <argsstring>(BOOL reachable,[isOnWifi] BOOL wifi)</argsstring>
+        <name>stateBroadcasterNetworkReachable:isOnWifi:</name>
+        <param>
+          <type>BOOL</type>
+          <declname>reachable</declname>
+        </param>
+        <param>
+          <attributes>[isOnWifi]</attributes>
+          <type>BOOL</type>
+          <declname>wifi</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/LooseCoupling CommuniateLayer/StateBroadcaster/DGStateBroadcaster.h" line="372" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="protocol_d_g_state_broadcaster_delegate-p_1a06b007500913f0102c4dc63ea920ec10" prot="public" static="no" const="no" explicit="no" inline="no" optional="yes" virt="virtual">
+        <type>void</type>
+        <definition>void DGStateBroadcasterDelegate-p::stateBroadcasterLocationManagerDidChangeAuthorizationStatus:</definition>
+        <argsstring>(CLAuthorizationStatus status)</argsstring>
+        <name>stateBroadcasterLocationManagerDidChangeAuthorizationStatus:</name>
+        <param>
+          <type>CLAuthorizationStatus</type>
+          <declname>status</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/LooseCoupling CommuniateLayer/StateBroadcaster/DGStateBroadcaster.h" line="372" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="291">
+        <label>&lt;NSObject&gt;</label>
+      </node>
+      <node id="290">
+        <label>&lt;DGStateBroadcasterDelegate&gt;</label>
+        <link refid="protocol_d_g_state_broadcaster_delegate-p"/>
+        <childnode refid="291" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="293">
+        <label>&lt;NSObject&gt;</label>
+      </node>
+      <node id="292">
+        <label>&lt;DGStateBroadcasterDelegate&gt;</label>
+        <link refid="protocol_d_g_state_broadcaster_delegate-p"/>
+        <childnode refid="293" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/LooseCoupling CommuniateLayer/StateBroadcaster/DGStateBroadcaster.h" line="47" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/LooseCoupling CommuniateLayer/StateBroadcaster/DGStateBroadcaster.h" bodystart="47" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="protocol_d_g_state_broadcaster_delegate-p_1a18b1dff1ea4e7118a490dcf1e84b0e5a" prot="public" virt="virtual"><scope>DGStateBroadcasterDelegate-p</scope><name>stateBroadcasterBatteryChargedLow:charging:</name></member>
+      <member refid="protocol_d_g_state_broadcaster_delegate-p_1a42f5f12c2586610be64cb7221d12f9fa" prot="public" virt="virtual"><scope>DGStateBroadcasterDelegate-p</scope><name>stateBroadcasterDistanceTravelledToLocation:</name></member>
+      <member refid="protocol_d_g_state_broadcaster_delegate-p_1ac7d71fe8809d89811160bc036c480339" prot="public" virt="virtual"><scope>DGStateBroadcasterDelegate-p</scope><name>stateBroadcasterLocationAccurateEnough:</name></member>
+      <member refid="protocol_d_g_state_broadcaster_delegate-p_1a06b007500913f0102c4dc63ea920ec10" prot="public" virt="virtual"><scope>DGStateBroadcasterDelegate-p</scope><name>stateBroadcasterLocationManagerDidChangeAuthorizationStatus:</name></member>
+      <member refid="protocol_d_g_state_broadcaster_delegate-p_1ab8775d2c75deae7aeff463125806fd88" prot="public" virt="virtual"><scope>DGStateBroadcasterDelegate-p</scope><name>stateBroadcasterNetworkReachable:isOnWifi:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

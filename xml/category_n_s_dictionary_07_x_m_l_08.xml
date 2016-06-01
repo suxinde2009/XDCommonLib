@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_n_s_dictionary_07_x_m_l_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>NSDictionary(XML)</compoundname>
+    <includes refid="_n_s_dictionary_09_x_m_l_8h" local="no">NSDictionary+XML.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="category_n_s_dictionary_07_x_m_l_08_1a49916bad625c074df3f22594c82871c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * NSDictionary(XML)::XMLString</definition>
+        <argsstring>()</argsstring>
+        <name>XMLString</name>
+        <briefdescription>
+<para>将NSDictionary转换成XML 字符串 </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>XML 字符串 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDictionary/NSDictionary+XML.h" line="49" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDictionary/NSDictionary+XML.m" bodystart="17" bodyend="31"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDictionary/NSDictionary+XML.m" line="11" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDictionary/NSDictionary+XML.m" bodystart="11" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_n_s_dictionary_07_x_m_l_08_1a49916bad625c074df3f22594c82871c5" prot="public" virt="virtual"><scope>NSDictionary(XML)</scope><name>XMLString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

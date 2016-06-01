@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_n_s_user_defaults_09_safe_access_8m" kind="file" language="Objective-C">
+    <compoundname>NSUserDefaults+SafeAccess.m</compoundname>
+    <includes refid="_n_s_user_defaults_09_safe_access_8h" local="yes">NSUserDefaults+SafeAccess.h</includes>
+    <incdepgraph>
+      <node id="1073">
+        <label>NSUserDefaults+SafeAccess.h</label>
+        <link refid="_n_s_user_defaults_09_safe_access_8h"/>
+        <childnode refid="1074" relation="include">
+        </childnode>
+      </node>
+      <node id="1072">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSUserDefaults/NSUserDefaults+SafeAccess.m</label>
+        <link refid="NSUserDefaults+SafeAccess.m"/>
+        <childnode refid="1073" relation="include">
+        </childnode>
+      </node>
+      <node id="1074">
+        <label>Foundation/Foundation.h</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>NSUserDefaults+SafeAccess.m</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>iOS-Categories<sp/>(https://github.com/shaojiankui/iOS-Categories)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Jakey<sp/>on<sp/>15/5/23.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2015年<sp/>www.skyfox.org.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_n_s_user_defaults_09_safe_access_8h" kindref="compound">NSUserDefaults+SafeAccess.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="category_n_s_user_defaults_07_safe_access_08" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">@implementation<sp/></highlight><highlight class="normal"><ref refid="category_n_s_user_defaults_07_safe_access_08" kindref="compound">NSUserDefaults (SafeAccess)</ref></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="category_n_s_user_defaults_07_safe_access_08_1a8b269d0b8d08d0b5af2f6c6c07b6c28f" refkind="member"><highlight class="normal">+<sp/>(NSString<sp/>*)stringForKey:(NSString<sp/>*)defaultName<sp/>{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[[NSUserDefaults<sp/>standardUserDefaults]<sp/>stringForKey:defaultName];</highlight></codeline>
+<codeline lineno="15"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="category_n_s_user_defaults_07_safe_access_08_1ad55d1c1ce65f8ad1e4443dd23a4f4e83" refkind="member"><highlight class="normal">+<sp/>(NSArray<sp/>*)arrayForKey:(NSString<sp/>*)defaultName<sp/>{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[[NSUserDefaults<sp/>standardUserDefaults]<sp/>arrayForKey:defaultName];</highlight></codeline>
+<codeline lineno="19"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="category_n_s_user_defaults_07_safe_access_08_1a7fed69f6e9fc78fe449ee8ec1fb2cd2c" refkind="member"><highlight class="normal">+<sp/>(NSDictionary<sp/>*)dictionaryForKey:(NSString<sp/>*)defaultName<sp/>{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[[NSUserDefaults<sp/>standardUserDefaults]<sp/>dictionaryForKey:defaultName];</highlight></codeline>
+<codeline lineno="23"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25" refid="category_n_s_user_defaults_07_safe_access_08_1aeca01a4a5b9c26f142287aaa04b0549d" refkind="member"><highlight class="normal">+<sp/>(NSData<sp/>*)dataForKey:(NSString<sp/>*)defaultName<sp/>{</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[[NSUserDefaults<sp/>standardUserDefaults]<sp/>dataForKey:defaultName];</highlight></codeline>
+<codeline lineno="27"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="category_n_s_user_defaults_07_safe_access_08_1a2c513db77c34fa964d484632ace65e74" refkind="member"><highlight class="normal">+<sp/>(NSArray<sp/>*)stringArrayForKey:(NSString<sp/>*)defaultName<sp/>{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[[NSUserDefaults<sp/>standardUserDefaults]<sp/>stringArrayForKey:defaultName];</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="category_n_s_user_defaults_07_safe_access_08_1ad8f3347061aaa42acdd19bb155c292dd" refkind="member"><highlight class="normal">+<sp/>(NSInteger)integerForKey:(NSString<sp/>*)defaultName<sp/>{</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[[NSUserDefaults<sp/>standardUserDefaults]<sp/>integerForKey:defaultName];</highlight></codeline>
+<codeline lineno="35"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37" refid="category_n_s_user_defaults_07_safe_access_08_1a3de8320dbc4450ca1ce452110b08b94f" refkind="member"><highlight class="normal">+<sp/>(float)floatForKey:(NSString<sp/>*)defaultName<sp/>{</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[[NSUserDefaults<sp/>standardUserDefaults]<sp/>floatForKey:defaultName];</highlight></codeline>
+<codeline lineno="39"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="category_n_s_user_defaults_07_safe_access_08_1a2205c57b3b70afbf44ca773613a4f966" refkind="member"><highlight class="normal">+<sp/>(double)doubleForKey:(NSString<sp/>*)defaultName<sp/>{</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[[NSUserDefaults<sp/>standardUserDefaults]<sp/>doubleForKey:defaultName];</highlight></codeline>
+<codeline lineno="43"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45" refid="category_n_s_user_defaults_07_safe_access_08_1a1146619c2019d60093ef29d9f28151ec" refkind="member"><highlight class="normal">+<sp/>(BOOL)boolForKey:(NSString<sp/>*)defaultName<sp/>{</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[[NSUserDefaults<sp/>standardUserDefaults]<sp/>boolForKey:defaultName];</highlight></codeline>
+<codeline lineno="47"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49" refid="category_n_s_user_defaults_07_safe_access_08_1accbf0370036cddd539ab65f7c8276703" refkind="member"><highlight class="normal">+<sp/>(NSURL<sp/>*)URLForKey:(NSString<sp/>*)defaultName<sp/>{</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[[NSUserDefaults<sp/>standardUserDefaults]<sp/>URLForKey:defaultName];</highlight></codeline>
+<codeline lineno="51"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/>-<sp/>WRITE<sp/>FOR<sp/>STANDARD</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55" refid="category_n_s_user_defaults_07_safe_access_08_1ad58e4ad3745f207041fd90d0f8617e43" refkind="member"><highlight class="normal">+<sp/>(void)setObject:(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)value<sp/>forKey:(NSString<sp/>*)defaultName<sp/>{</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/>[[NSUserDefaults<sp/>standardUserDefaults]<sp/>setObject:value<sp/>forKey:defaultName];</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>[[NSUserDefaults<sp/>standardUserDefaults]<sp/>synchronize];</highlight></codeline>
+<codeline lineno="58"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/>-<sp/>READ<sp/>ARCHIVE<sp/>FOR<sp/>STANDARD</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62" refid="category_n_s_user_defaults_07_safe_access_08_1a935bd06ebe8b5072e3875fa3d96f1a19" refkind="member"><highlight class="normal">+<sp/>(id)arcObjectForKey:(NSString<sp/>*)defaultName<sp/>{</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[NSKeyedUnarchiver<sp/>unarchiveObjectWithData:[[NSUserDefaults<sp/>standardUserDefaults]<sp/>objectForKey:defaultName]];</highlight></codeline>
+<codeline lineno="64"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/>-<sp/>WRITE<sp/>ARCHIVE<sp/>FOR<sp/>STANDARD</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68" refid="category_n_s_user_defaults_07_safe_access_08_1a0b428b38452ec623e4e9c6ae0402f62e" refkind="member"><highlight class="normal">+<sp/>(void)setArcObject:(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)value<sp/>forKey:(NSString<sp/>*)defaultName<sp/>{</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/>[[NSUserDefaults<sp/>standardUserDefaults]<sp/>setObject:[NSKeyedArchiver<sp/>archivedDataWithRootObject:value]<sp/>forKey:defaultName];</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>[[NSUserDefaults<sp/>standardUserDefaults]<sp/>synchronize];</highlight></codeline>
+<codeline lineno="71"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSUserDefaults/NSUserDefaults+SafeAccess.m"/>
+  </compounddef>
+</doxygen>

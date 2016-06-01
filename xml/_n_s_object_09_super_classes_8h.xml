@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_n_s_object_09_super_classes_8h" kind="file" language="C++">
+    <compoundname>NSObject+SuperClasses.h</compoundname>
+    <includes local="no">Foundation/Foundation.h</includes>
+    <includedby refid="_n_s_object_09_super_classes_8m" local="yes">XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSObject/NSObject+SuperClasses.m</includedby>
+    <incdepgraph>
+      <node id="731">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSObject/NSObject+SuperClasses.h</label>
+        <link refid="NSObject+SuperClasses.h"/>
+        <childnode refid="732" relation="include">
+        </childnode>
+      </node>
+      <node id="732">
+        <label>Foundation/Foundation.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="733">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSObject/NSObject+SuperClasses.h</label>
+        <link refid="NSObject+SuperClasses.h"/>
+        <childnode refid="734" relation="include">
+        </childnode>
+      </node>
+      <node id="734">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSObject/NSObject+SuperClasses.m</label>
+        <link refid="_n_s_object_09_super_classes_8m"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="category_n_s_object_07_super_classes_08" prot="public">NSObject(SuperClasses)</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>NSObject+SuperClasses.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>XDCommonLib</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>suxinde<sp/>on<sp/>16/5/23.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>©<sp/>2016年<sp/>su<sp/>xinde.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;Foundation/Foundation.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="category_n_s_object_07_super_classes_08" kindref="compound">NSObject (SuperClasses)</ref></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal">+<sp/>(NSArray<sp/>*)<ref refid="category_n_s_object_07_super_classes_08_1a2abb25e40e14d469de55429b21479cbf" kindref="member">superClasses</ref>;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">-<sp/>(NSArray<sp/>*)<ref refid="category_n_s_object_07_super_classes_08_1a2abb25e40e14d469de55429b21479cbf" kindref="member">superClasses</ref>;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSObject/NSObject+SuperClasses.h"/>
+  </compounddef>
+</doxygen>

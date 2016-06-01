@@ -1,0 +1,156 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_n_s_object_07_blocks_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>NSObject(Blocks)</compoundname>
+    <includes refid="_n_s_object_09_blocks_8h" local="no">NSObject+Blocks.h</includes>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="category_n_s_object_07_blocks_08_1a59692a5ba5e40892eaccdf928e317053" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>id</type>
+        <definition>id NSObject(Blocks)::performBlock:afterDelay:</definition>
+        <argsstring>(void(^block)(void),[afterDelay] NSTimeInterval delay)</argsstring>
+        <name>performBlock:afterDelay:</name>
+        <param>
+          <type>void(^)(void)</type>
+          <declname>block</declname>
+        </param>
+        <param>
+          <attributes>[afterDelay]</attributes>
+          <type>NSTimeInterval</type>
+          <declname>delay</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSObject/NSObject+Blocks.h" line="12" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSObject/NSObject+Blocks.m" bodystart="19" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_object_07_blocks_08_1aa19aec593654a9807fe143a9be28cc40" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>id</type>
+        <definition>id NSObject(Blocks)::performBlock:withObject:afterDelay:</definition>
+        <argsstring>(void(^block)(id arg),[withObject] id anObject,[afterDelay] NSTimeInterval delay)</argsstring>
+        <name>performBlock:withObject:afterDelay:</name>
+        <param>
+          <type>void(^)(id arg)</type>
+          <declname>block</declname>
+        </param>
+        <param>
+          <attributes>[withObject]</attributes>
+          <type>id</type>
+          <declname>anObject</declname>
+        </param>
+        <param>
+          <attributes>[afterDelay]</attributes>
+          <type>NSTimeInterval</type>
+          <declname>delay</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSObject/NSObject+Blocks.h" line="12" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSObject/NSObject+Blocks.m" bodystart="39" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_object_07_blocks_08_1a91924ef6faba9b4e70ff8833f5ca790e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void NSObject(Blocks)::cancelBlock:</definition>
+        <argsstring>(id block)</argsstring>
+        <name>cancelBlock:</name>
+        <param>
+          <type>id</type>
+          <declname>block</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSObject/NSObject+Blocks.h" line="12" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSObject/NSObject+Blocks.m" bodystart="100" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_object_07_blocks_08_1ab5da3deea92c2c7ebfd1775c424d8ced" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void NSObject(Blocks)::cancelPreviousPerformBlock:</definition>
+        <argsstring>((deprecated) __attribute__)</argsstring>
+        <name>cancelPreviousPerformBlock:</name>
+        <param>
+          <type>(deprecated)</type>
+          <declname>__attribute__</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSObject/NSObject+Blocks.h" line="12" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="category_n_s_object_07_blocks_08_1a59692a5ba5e40892eaccdf928e317053" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>id</type>
+        <definition>id NSObject(Blocks)::performBlock:afterDelay:</definition>
+        <argsstring>(void(^block)(void),[afterDelay] NSTimeInterval delay)</argsstring>
+        <name>performBlock:afterDelay:</name>
+        <param>
+          <type>void(^)(void)</type>
+          <declname>block</declname>
+        </param>
+        <param>
+          <attributes>[afterDelay]</attributes>
+          <type>NSTimeInterval</type>
+          <declname>delay</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSObject/NSObject+Blocks.h" line="12" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_object_07_blocks_08_1aa19aec593654a9807fe143a9be28cc40" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>id</type>
+        <definition>id NSObject(Blocks)::performBlock:withObject:afterDelay:</definition>
+        <argsstring>(void(^block)(id arg),[withObject] id anObject,[afterDelay] NSTimeInterval delay)</argsstring>
+        <name>performBlock:withObject:afterDelay:</name>
+        <param>
+          <type>void(^)(id arg)</type>
+          <declname>block</declname>
+        </param>
+        <param>
+          <attributes>[withObject]</attributes>
+          <type>id</type>
+          <declname>anObject</declname>
+        </param>
+        <param>
+          <attributes>[afterDelay]</attributes>
+          <type>NSTimeInterval</type>
+          <declname>delay</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSObject/NSObject+Blocks.h" line="12" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSObject/NSObject+Blocks.m" line="17" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSObject/NSObject+Blocks.m" bodystart="17" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_n_s_object_07_blocks_08_1a91924ef6faba9b4e70ff8833f5ca790e" prot="public" virt="virtual"><scope>NSObject(Blocks)</scope><name>cancelBlock:</name></member>
+      <member refid="category_n_s_object_07_blocks_08_1ab5da3deea92c2c7ebfd1775c424d8ced" prot="public" virt="virtual"><scope>NSObject(Blocks)</scope><name>cancelPreviousPerformBlock:</name></member>
+      <member refid="category_n_s_object_07_blocks_08_1a59692a5ba5e40892eaccdf928e317053" prot="public" virt="virtual"><scope>NSObject(Blocks)</scope><name>performBlock:afterDelay:</name></member>
+      <member refid="category_n_s_object_07_blocks_08_1a59692a5ba5e40892eaccdf928e317053" prot="public" virt="virtual"><scope>NSObject(Blocks)</scope><name>performBlock:afterDelay:</name></member>
+      <member refid="category_n_s_object_07_blocks_08_1aa19aec593654a9807fe143a9be28cc40" prot="public" virt="virtual"><scope>NSObject(Blocks)</scope><name>performBlock:withObject:afterDelay:</name></member>
+      <member refid="category_n_s_object_07_blocks_08_1aa19aec593654a9807fe143a9be28cc40" prot="public" virt="virtual"><scope>NSObject(Blocks)</scope><name>performBlock:withObject:afterDelay:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

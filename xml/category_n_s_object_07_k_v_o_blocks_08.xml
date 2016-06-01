@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_n_s_object_07_k_v_o_blocks_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>NSObject(KVOBlocks)</compoundname>
+    <includes refid="_n_s_object_09_k_v_o_blocks_8h" local="no">NSObject+KVOBlocks.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="category_n_s_object_07_k_v_o_blocks_08_1a1dd77f97f2545843600c0eabd4888a51" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void NSObject(KVOBlocks)::addObserver:forKeyPath:options:context:withBlock:</definition>
+        <argsstring>(NSObject *observer,[forKeyPath] NSString *keyPath,[options] NSKeyValueObservingOptions options,[context] void *context,[withBlock] KVOBlock block)</argsstring>
+        <name>addObserver:forKeyPath:options:context:withBlock:</name>
+        <param>
+          <type>NSObject *</type>
+          <declname>observer</declname>
+        </param>
+        <param>
+          <attributes>[forKeyPath]</attributes>
+          <type>NSString *</type>
+          <declname>keyPath</declname>
+        </param>
+        <param>
+          <attributes>[options]</attributes>
+          <type>NSKeyValueObservingOptions</type>
+          <declname>options</declname>
+        </param>
+        <param>
+          <attributes>[context]</attributes>
+          <type>void *</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <attributes>[withBlock]</attributes>
+          <type><ref refid="_n_s_object_09_k_v_o_blocks_8h_1adec634659725fdc21ac40b3d04968d44" kindref="member">KVOBlock</ref></type>
+          <declname>block</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSObject/NSObject+KVOBlocks.h" line="28" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSObject/NSObject+KVOBlocks.m" bodystart="33" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_object_07_k_v_o_blocks_08_1abec21318c8d7d1017609c2b1b4d8848b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void NSObject(KVOBlocks)::removeBlockObserver:forKeyPath:</definition>
+        <argsstring>(NSObject *observer,[forKeyPath] NSString *keyPath)</argsstring>
+        <name>removeBlockObserver:forKeyPath:</name>
+        <param>
+          <type>NSObject *</type>
+          <declname>observer</declname>
+        </param>
+        <param>
+          <attributes>[forKeyPath]</attributes>
+          <type>NSString *</type>
+          <declname>keyPath</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSObject/NSObject+KVOBlocks.h" line="28" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSObject/NSObject+KVOBlocks.m" bodystart="43" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_object_07_k_v_o_blocks_08_1adc431e94765779745b71de8320969207" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void NSObject(KVOBlocks)::addObserverForKeyPath:options:context:withBlock:</definition>
+        <argsstring>(NSString *keyPath,[options] NSKeyValueObservingOptions options,[context] void *context,[withBlock] KVOBlock block)</argsstring>
+        <name>addObserverForKeyPath:options:context:withBlock:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>keyPath</declname>
+        </param>
+        <param>
+          <attributes>[options]</attributes>
+          <type>NSKeyValueObservingOptions</type>
+          <declname>options</declname>
+        </param>
+        <param>
+          <attributes>[context]</attributes>
+          <type>void *</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <attributes>[withBlock]</attributes>
+          <type><ref refid="_n_s_object_09_k_v_o_blocks_8h_1adec634659725fdc21ac40b3d04968d44" kindref="member">KVOBlock</ref></type>
+          <declname>block</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSObject/NSObject+KVOBlocks.h" line="28" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSObject/NSObject+KVOBlocks.m" bodystart="58" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_object_07_k_v_o_blocks_08_1ae0b61bec878b936a72bb3666c6b71ee2" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void NSObject(KVOBlocks)::removeBlockObserverForKeyPath:</definition>
+        <argsstring>(NSString *keyPath)</argsstring>
+        <name>removeBlockObserverForKeyPath:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>keyPath</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSObject/NSObject+KVOBlocks.h" line="28" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSObject/NSObject+KVOBlocks.m" bodystart="66" bodyend="68"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSObject/NSObject+KVOBlocks.m" line="31" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSObject/NSObject+KVOBlocks.m" bodystart="31" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_n_s_object_07_k_v_o_blocks_08_1a1dd77f97f2545843600c0eabd4888a51" prot="public" virt="virtual"><scope>NSObject(KVOBlocks)</scope><name>addObserver:forKeyPath:options:context:withBlock:</name></member>
+      <member refid="category_n_s_object_07_k_v_o_blocks_08_1adc431e94765779745b71de8320969207" prot="public" virt="virtual"><scope>NSObject(KVOBlocks)</scope><name>addObserverForKeyPath:options:context:withBlock:</name></member>
+      <member refid="category_n_s_object_07_k_v_o_blocks_08_1abec21318c8d7d1017609c2b1b4d8848b" prot="public" virt="virtual"><scope>NSObject(KVOBlocks)</scope><name>removeBlockObserver:forKeyPath:</name></member>
+      <member refid="category_n_s_object_07_k_v_o_blocks_08_1ae0b61bec878b936a72bb3666c6b71ee2" prot="public" virt="virtual"><scope>NSObject(KVOBlocks)</scope><name>removeBlockObserverForKeyPath:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

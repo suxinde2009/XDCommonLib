@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_n_s_data_07_a_p_n_s_token_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>NSData(APNSToken)</compoundname>
+    <includes refid="_n_s_data_09_a_p_n_s_token_8h" local="no">NSData+APNSToken.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="category_n_s_data_07_a_p_n_s_token_08_1ac1e0f6bbb693480e044b207ebd3aefe0" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * NSData(APNSToken)::APNSToken</definition>
+        <argsstring>()</argsstring>
+        <name>APNSToken</name>
+        <briefdescription>
+<para>将APNS NSData类型token 格式化成字符串 </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>整理过后的字符串token</para></simplesect>
+<simplesect kind="return"><para>字符串token </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSData/NSData+APNSToken.h" line="229" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSData/NSData+APNSToken.m" bodystart="17" bodyend="22"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSData/NSData+APNSToken.m" line="11" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSData/NSData+APNSToken.m" bodystart="11" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_n_s_data_07_a_p_n_s_token_08_1ac1e0f6bbb693480e044b207ebd3aefe0" prot="public" virt="virtual"><scope>NSData(APNSToken)</scope><name>APNSToken</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

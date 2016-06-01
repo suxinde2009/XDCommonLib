@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_n_s_mutable_u_r_l_request_09_upload_8m" kind="file" language="Objective-C">
+    <compoundname>NSMutableURLRequest+Upload.m</compoundname>
+    <includes refid="_n_s_mutable_u_r_l_request_09_upload_8h" local="yes">NSMutableURLRequest+Upload.h</includes>
+    <incdepgraph>
+      <node id="1050">
+        <label>Foundation/Foundation.h</label>
+      </node>
+      <node id="1049">
+        <label>NSMutableURLRequest+Upload.h</label>
+        <link refid="_n_s_mutable_u_r_l_request_09_upload_8h"/>
+        <childnode refid="1050" relation="include">
+        </childnode>
+      </node>
+      <node id="1048">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSURLRequest/NSMutableURLRequest+Upload.m</label>
+        <link refid="NSMutableURLRequest+Upload.m"/>
+        <childnode refid="1049" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>NSMutableURLRequest+Upload.m</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>UploadExamples</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>刘凡<sp/>on<sp/>15/1/31.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2015年<sp/>joyios.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_n_s_mutable_u_r_l_request_09_upload_8h" kindref="compound">NSMutableURLRequest+Upload.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="category_n_s_mutable_u_r_l_request_07_upload_08" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">@implementation<sp/></highlight><highlight class="normal"><ref refid="category_n_s_mutable_u_r_l_request_07_upload_08" kindref="compound">NSMutableURLRequest (Upload)</ref></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="category_n_s_mutable_u_r_l_request_07_upload_08_1ad38064f9493ab85677a173902948feb1" refkind="member"><highlight class="normal">+<sp/>(instancetype)requestWithURL:(NSURL<sp/>*)URL<sp/>fileURL:(NSURL<sp/>*)fileURL<sp/>name:(NSString<sp/>*)name<sp/>{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/><ref refid="category_n_s_mutable_u_r_l_request_07_upload_08_1ac48c3b1ba5ab3c0374abbba8978ceba6" kindref="member">requestWithURL</ref>:URL<sp/><ref refid="category_n_s_mutable_u_r_l_request_07_upload_08_1ac48c3b1ba5ab3c0374abbba8978ceba6" kindref="member">fileURLs</ref>:@[fileURL]<sp/><ref refid="category_n_s_mutable_u_r_l_request_07_upload_08_1ac48c3b1ba5ab3c0374abbba8978ceba6" kindref="member">name</ref>:name];</highlight></codeline>
+<codeline lineno="15"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="category_n_s_mutable_u_r_l_request_07_upload_08_1ac146de661affa3545dcb6b18575c6403" refkind="member"><highlight class="normal">+<sp/>(instancetype)requestWithURL:(NSURL<sp/>*)URL<sp/>fileURL:(NSURL<sp/>*)fileURL<sp/>fileName:(NSString<sp/>*)fileName<sp/>name:(NSString<sp/>*)name<sp/>{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/><ref refid="category_n_s_mutable_u_r_l_request_07_upload_08_1a5230e80dcf2c9f4a3e859a3f5bb6098a" kindref="member">requestWithURL</ref>:URL<sp/><ref refid="category_n_s_mutable_u_r_l_request_07_upload_08_1a5230e80dcf2c9f4a3e859a3f5bb6098a" kindref="member">fileURLs</ref>:@[fileURL]<sp/><ref refid="category_n_s_mutable_u_r_l_request_07_upload_08_1a5230e80dcf2c9f4a3e859a3f5bb6098a" kindref="member">fileNames</ref>:@[fileName]<sp/><ref refid="category_n_s_mutable_u_r_l_request_07_upload_08_1a5230e80dcf2c9f4a3e859a3f5bb6098a" kindref="member">name</ref>:name];</highlight></codeline>
+<codeline lineno="19"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="category_n_s_mutable_u_r_l_request_07_upload_08_1ac48c3b1ba5ab3c0374abbba8978ceba6" refkind="member"><highlight class="normal">+<sp/>(instancetype)requestWithURL:(NSURL<sp/>*)URL<sp/>fileURLs:(NSArray<sp/>*)fileURLs<sp/>name:(NSString<sp/>*)name<sp/>{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>NSMutableArray<sp/>*fileNames<sp/>=<sp/>[NSMutableArray<sp/>arrayWithCapacity:fileURLs.count];</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>[fileURLs<sp/>enumerateObjectsUsingBlock:^(NSURL<sp/>*fileURL,<sp/>NSUInteger<sp/>idx,<sp/>BOOL<sp/>*stop)<sp/>{</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[fileNames<sp/>addObject:fileURL.path.lastPathComponent];</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>}];</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/><ref refid="category_n_s_mutable_u_r_l_request_07_upload_08_1a5230e80dcf2c9f4a3e859a3f5bb6098a" kindref="member">requestWithURL</ref>:URL<sp/><ref refid="category_n_s_mutable_u_r_l_request_07_upload_08_1a5230e80dcf2c9f4a3e859a3f5bb6098a" kindref="member">fileURLs</ref>:fileURLs<sp/><ref refid="category_n_s_mutable_u_r_l_request_07_upload_08_1a5230e80dcf2c9f4a3e859a3f5bb6098a" kindref="member">fileNames</ref>:fileNames<sp/><ref refid="category_n_s_mutable_u_r_l_request_07_upload_08_1a5230e80dcf2c9f4a3e859a3f5bb6098a" kindref="member">name</ref>:name];</highlight></codeline>
+<codeline lineno="29"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31" refid="category_n_s_mutable_u_r_l_request_07_upload_08_1a5230e80dcf2c9f4a3e859a3f5bb6098a" refkind="member"><highlight class="normal">+<sp/>(instancetype)requestWithURL:(NSURL<sp/>*)URL<sp/>fileURLs:(NSArray<sp/>*)fileURLs<sp/>fileNames:(NSArray<sp/>*)fileNames<sp/>name:(NSString<sp/>*)name<sp/>{</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>NSMutableURLRequest<sp/>*request<sp/>=<sp/>[NSMutableURLRequest<sp/>requestWithURL:URL];</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>request.HTTPMethod<sp/>=<sp/></highlight><highlight class="stringliteral">@&quot;POST&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>NSMutableData<sp/>*data<sp/>=<sp/>[NSMutableData<sp/>data];</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>NSString<sp/>*boundary<sp/>=<sp/>multipartFormBoundary();</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(fileURLs.count<sp/>&gt;<sp/>1)<sp/>{</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>name<sp/>=<sp/>[name<sp/>stringByAppendingString:@&quot;[]&quot;];</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>[fileURLs<sp/>enumerateObjectsUsingBlock:^(NSURL<sp/>*fileURL,<sp/>NSUInteger<sp/>idx,<sp/>BOOL<sp/>*stop)<sp/>{</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NSString<sp/>*bodyStr<sp/>=<sp/>[NSString<sp/>stringWithFormat:@&quot;\n--%@\n&quot;,<sp/>boundary];</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[data<sp/>appendData:[bodyStr<sp/>dataUsingEncoding:NSUTF8StringEncoding]];</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NSString<sp/>*fileName<sp/>=<sp/>fileNames[idx];</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>bodyStr<sp/>=<sp/>[NSString<sp/>stringWithFormat:@&quot;Content-Disposition:<sp/>form-data;<sp/>name=\&quot;%@\&quot;;<sp/>filename=\&quot;%@\&quot;<sp/>\n&quot;,<sp/>name,<sp/>fileName];</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[data<sp/>appendData:[bodyStr<sp/>dataUsingEncoding:NSUTF8StringEncoding]];</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[data<sp/>appendData:[@&quot;Content-Type:<sp/>application/octet-stream\n\n&quot;<sp/>dataUsingEncoding:NSUTF8StringEncoding]];</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[data<sp/>appendData:[NSData<sp/>dataWithContentsOfURL:fileURL]];</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[data<sp/>appendData:[@&quot;\n&quot;<sp/>dataUsingEncoding:NSUTF8StringEncoding]];</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/>}];</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>NSString<sp/>*tailStr<sp/>=<sp/>[NSString<sp/>stringWithFormat:@&quot;--%@--\n&quot;,<sp/>boundary];</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/>[data<sp/>appendData:[tailStr<sp/>dataUsingEncoding:NSUTF8StringEncoding]];</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>request.HTTPBody<sp/>=<sp/>data;</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/>NSString<sp/>*headerString<sp/>=<sp/>[NSString<sp/>stringWithFormat:@&quot;multipart/form-data;<sp/>boundary=%@&quot;,<sp/>boundary];</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/>[request<sp/>setValue:headerString<sp/>forHTTPHeaderField:@&quot;Content-Type&quot;];</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>request;</highlight></codeline>
+<codeline lineno="66"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>NSString<sp/>*<sp/>multipartFormBoundary()<sp/>{</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[NSString<sp/>stringWithFormat:@&quot;Boundary+%08X%08X&quot;,<sp/>arc4random(),<sp/>arc4random()];</highlight></codeline>
+<codeline lineno="70"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSURLRequest/NSMutableURLRequest+Upload.m"/>
+  </compounddef>
+</doxygen>

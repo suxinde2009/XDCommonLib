@@ -1,0 +1,153 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_u_i_text_view_09_pinch_zoom_8m" kind="file" language="Objective-C">
+    <compoundname>UITextView+PinchZoom.m</compoundname>
+    <includes refid="_u_i_text_view_09_pinch_zoom_8h" local="yes">UITextView+PinchZoom.h</includes>
+    <includes local="yes">objc/runtime.h</includes>
+    <incdepgraph>
+      <node id="1922">
+        <label>UIKit/UIKit.h</label>
+      </node>
+      <node id="1921">
+        <label>UITextView+PinchZoom.h</label>
+        <link refid="_u_i_text_view_09_pinch_zoom_8h"/>
+        <childnode refid="1922" relation="include">
+        </childnode>
+      </node>
+      <node id="1920">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UITextView/UITextView+PinchZoom.m</label>
+        <link refid="UITextView+PinchZoom.m"/>
+        <childnode refid="1921" relation="include">
+        </childnode>
+        <childnode refid="1923" relation="include">
+        </childnode>
+      </node>
+      <node id="1923">
+        <label>objc/runtime.h</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="_u_i_text_view_09_pinch_zoom_8m_1a42fbef0015c8ed08f1e35d2dc9df5996" prot="public" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int minFontSizeKey</definition>
+        <argsstring></argsstring>
+        <name>minFontSizeKey</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UITextView/UITextView+PinchZoom.m" line="10" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UITextView/UITextView+PinchZoom.m" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_u_i_text_view_09_pinch_zoom_8m_1ab8188589af37cd701fdcfacf1f3f4a53" prot="public" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int maxFontSizeKey</definition>
+        <argsstring></argsstring>
+        <name>maxFontSizeKey</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UITextView/UITextView+PinchZoom.m" line="11" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UITextView/UITextView+PinchZoom.m" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_u_i_text_view_09_pinch_zoom_8m_1ad83564e38c043dce3861f632a9b72394" prot="public" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int zoomEnabledKey</definition>
+        <argsstring></argsstring>
+        <name>zoomEnabledKey</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UITextView/UITextView+PinchZoom.m" line="12" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UITextView/UITextView+PinchZoom.m" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>UITextView+PinchZoom.m</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Stan<sp/>Serebryakov<sp/>&lt;cfr@gmx.us&gt;<sp/>on<sp/>04.12.12.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_u_i_text_view_09_pinch_zoom_8h" kindref="compound">UITextView+PinchZoom.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;objc/runtime.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>minFontSizeKey;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>maxFontSizeKey;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>zoomEnabledKey;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="category_u_i_text_view_07_pinch_zoom_08" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">@implementation<sp/></highlight><highlight class="normal"><ref refid="category_u_i_text_view_07_pinch_zoom_08" kindref="compound">UITextView (PinchZoom)</ref></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal">-<sp/>(void)setMaxFontSize:(CGFloat)maxFontSize</highlight></codeline>
+<codeline lineno="17"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>objc_setAssociatedObject(</highlight><highlight class="keyword">self</highlight><highlight class="normal">,<sp/>&amp;maxFontSizeKey,<sp/>[NSNumber<sp/>numberWithFloat:<ref refid="category_u_i_text_view_07_pinch_zoom_08_1a9b3e1f7668d0afd6b10dc78969c5e30c" kindref="member">maxFontSize</ref>],</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>OBJC_ASSOCIATION_RETAIN_NONATOMIC);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal">-<sp/>(CGFloat)<ref refid="category_u_i_text_view_07_pinch_zoom_08_1a9b3e1f7668d0afd6b10dc78969c5e30c" kindref="member">maxFontSize</ref></highlight></codeline>
+<codeline lineno="23"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[objc_getAssociatedObject(self,<sp/>&amp;maxFontSizeKey)<sp/>floatValue];</highlight></codeline>
+<codeline lineno="25"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal">-<sp/>(void)setMinFontSize:(CGFloat)maxFontSize</highlight></codeline>
+<codeline lineno="28"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>objc_setAssociatedObject(</highlight><highlight class="keyword">self</highlight><highlight class="normal">,<sp/>&amp;minFontSizeKey,<sp/>[NSNumber<sp/>numberWithFloat:<ref refid="category_u_i_text_view_07_pinch_zoom_08_1a9b3e1f7668d0afd6b10dc78969c5e30c" kindref="member">maxFontSize</ref>],</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>OBJC_ASSOCIATION_RETAIN_NONATOMIC);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal">-<sp/>(CGFloat)<ref refid="category_u_i_text_view_07_pinch_zoom_08_1a8d82bce60f9d6a5c37ebef61e98a93ff" kindref="member">minFontSize</ref></highlight></codeline>
+<codeline lineno="34"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[objc_getAssociatedObject(self,<sp/>&amp;minFontSizeKey)<sp/>floatValue];</highlight></codeline>
+<codeline lineno="36"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal">-<sp/>(void)pinchGesture:(UIPinchGestureRecognizer<sp/>*)gestureRecognizer</highlight></codeline>
+<codeline lineno="39"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!</highlight><highlight class="keyword">self</highlight><highlight class="normal">.isZoomEnabled)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>CGFloat<sp/>pointSize<sp/>=<sp/>(gestureRecognizer.velocity<sp/>&gt;<sp/>0.0f<sp/>?<sp/>1.0f<sp/>:<sp/>-1.0f)<sp/>+<sp/>self.font.pointSize;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>pointSize<sp/>=<sp/>MAX(MIN(pointSize,<sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.<ref refid="category_u_i_text_view_07_pinch_zoom_08_1a9b3e1f7668d0afd6b10dc78969c5e30c" kindref="member">maxFontSize</ref>),<sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.<ref refid="category_u_i_text_view_07_pinch_zoom_08_1a8d82bce60f9d6a5c37ebef61e98a93ff" kindref="member">minFontSize</ref>);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.font<sp/>=<sp/>[UIFont<sp/>fontWithName:self.font.fontName<sp/>size:pointSize];</highlight></codeline>
+<codeline lineno="47"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal">-<sp/>(void)setZoomEnabled:(BOOL)zoomEnabled</highlight></codeline>
+<codeline lineno="51"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>objc_setAssociatedObject(</highlight><highlight class="keyword">self</highlight><highlight class="normal">,<sp/>&amp;zoomEnabledKey,<sp/>[NSNumber<sp/>numberWithBool:zoomEnabled],</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>OBJC_ASSOCIATION_RETAIN_NONATOMIC);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(zoomEnabled)<sp/>{</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(UIGestureRecognizer<sp/>*recognizer<sp/>in<sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.gestureRecognizers)<sp/></highlight><highlight class="comment">//<sp/>initialized<sp/>already</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>([recognizer<sp/>isKindOfClass:[UIPinchGestureRecognizer<sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal">]])<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.minFontSize<sp/>=<sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.minFontSize<sp/>?:<sp/>8.0f;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.maxFontSize<sp/>=<sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.maxFontSize<sp/>?:<sp/>42.0f;</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UIPinchGestureRecognizer<sp/>*pinchRecognizer<sp/>=<sp/>[[UIPinchGestureRecognizer<sp/>alloc]</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>initWithTarget:self<sp/>action:@selector(pinchGesture:)];</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>addGestureRecognizer:pinchRecognizer];</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>!__has_feature(objc_arc)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[pinchRecognizer<sp/>release];</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="68"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal">-<sp/>(BOOL)isZoomEnabled</highlight></codeline>
+<codeline lineno="71"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[objc_getAssociatedObject(self,<sp/>&amp;zoomEnabledKey)<sp/>boolValue];</highlight></codeline>
+<codeline lineno="73"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UITextView/UITextView+PinchZoom.m"/>
+  </compounddef>
+</doxygen>

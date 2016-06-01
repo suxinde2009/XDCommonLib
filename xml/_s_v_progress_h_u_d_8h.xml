@@ -1,0 +1,347 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_s_v_progress_h_u_d_8h" kind="file" language="C++">
+    <compoundname>SVProgressHUD.h</compoundname>
+    <includes local="no">UIKit/UIKit.h</includes>
+    <includes local="no">AvailabilityMacros.h</includes>
+    <includedby refid="_s_v_indefinite_animated_view_8m" local="yes">XDCommonLib/Venders/SVProgressHUD/SVIndefiniteAnimatedView.m</includedby>
+    <includedby refid="_s_v_progress_h_u_d_8m" local="yes">XDCommonLib/Venders/SVProgressHUD/SVProgressHUD.m</includedby>
+    <incdepgraph>
+      <node id="3775">
+        <label>AvailabilityMacros.h</label>
+      </node>
+      <node id="3774">
+        <label>UIKit/UIKit.h</label>
+      </node>
+      <node id="3773">
+        <label>XDCommonLib/Venders/SVProgressHUD/SVProgressHUD.h</label>
+        <link refid="SVProgressHUD.h"/>
+        <childnode refid="3774" relation="include">
+        </childnode>
+        <childnode refid="3775" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3777">
+        <label>XDCommonLib/Venders/SVProgressHUD/SVIndefiniteAnimatedView.m</label>
+        <link refid="_s_v_indefinite_animated_view_8m"/>
+      </node>
+      <node id="3776">
+        <label>XDCommonLib/Venders/SVProgressHUD/SVProgressHUD.h</label>
+        <link refid="SVProgressHUD.h"/>
+        <childnode refid="3777" relation="include">
+        </childnode>
+        <childnode refid="3778" relation="include">
+        </childnode>
+      </node>
+      <node id="3778">
+        <label>XDCommonLib/Venders/SVProgressHUD/SVProgressHUD.m</label>
+        <link refid="_s_v_progress_h_u_d_8m"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="interface_s_v_progress_h_u_d" prot="public">SVProgressHUD</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="_s_v_progress_h_u_d_8h_1a9d7421badd7bb7c750012d2e155c3a1a" prot="public" static="no">
+        <name>UI_APPEARANCE_SELECTOR</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/Venders/SVProgressHUD/SVProgressHUD.h" line="13" column="9" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/Venders/SVProgressHUD/SVProgressHUD.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="_s_v_progress_h_u_d_8h_1afb598fc1a476a424377b5e39947fb177" prot="public" static="no" mutable="no">
+        <type>NSString *const</type>
+        <definition>NSString* const SVProgressHUDDidReceiveTouchEventNotification</definition>
+        <argsstring></argsstring>
+        <name>SVProgressHUDDidReceiveTouchEventNotification</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/Venders/SVProgressHUD/SVProgressHUD.h" line="17" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/Venders/SVProgressHUD/SVProgressHUD.m" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_s_v_progress_h_u_d_8h_1ab3657f54dcb71ab9eb5c2a3f2543c180" prot="public" static="no" mutable="no">
+        <type>NSString *const</type>
+        <definition>NSString* const SVProgressHUDDidTouchDownInsideNotification</definition>
+        <argsstring></argsstring>
+        <name>SVProgressHUDDidTouchDownInsideNotification</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/Venders/SVProgressHUD/SVProgressHUD.h" line="18" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/Venders/SVProgressHUD/SVProgressHUD.m" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_s_v_progress_h_u_d_8h_1a9048ae19eac8bec1e3130ada89e3e765" prot="public" static="no" mutable="no">
+        <type>NSString *const</type>
+        <definition>NSString* const SVProgressHUDWillDisappearNotification</definition>
+        <argsstring></argsstring>
+        <name>SVProgressHUDWillDisappearNotification</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/Venders/SVProgressHUD/SVProgressHUD.h" line="19" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/Venders/SVProgressHUD/SVProgressHUD.m" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_s_v_progress_h_u_d_8h_1a8a1cb4574cfcafed2cc54cfc39f199aa" prot="public" static="no" mutable="no">
+        <type>NSString *const</type>
+        <definition>NSString* const SVProgressHUDDidDisappearNotification</definition>
+        <argsstring></argsstring>
+        <name>SVProgressHUDDidDisappearNotification</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/Venders/SVProgressHUD/SVProgressHUD.h" line="20" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/Venders/SVProgressHUD/SVProgressHUD.m" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_s_v_progress_h_u_d_8h_1a1ac3b85534e72ab1ec1bed969d050df6" prot="public" static="no" mutable="no">
+        <type>NSString *const</type>
+        <definition>NSString* const SVProgressHUDWillAppearNotification</definition>
+        <argsstring></argsstring>
+        <name>SVProgressHUDWillAppearNotification</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/Venders/SVProgressHUD/SVProgressHUD.h" line="21" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/Venders/SVProgressHUD/SVProgressHUD.m" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_s_v_progress_h_u_d_8h_1aab9de121eb4ed2ab7d2fc5facc01b2d5" prot="public" static="no" mutable="no">
+        <type>NSString *const</type>
+        <definition>NSString* const SVProgressHUDDidAppearNotification</definition>
+        <argsstring></argsstring>
+        <name>SVProgressHUDDidAppearNotification</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/Venders/SVProgressHUD/SVProgressHUD.h" line="22" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/Venders/SVProgressHUD/SVProgressHUD.m" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_s_v_progress_h_u_d_8h_1a9c9156be8ac7e11d22e478ab62973c6b" prot="public" static="no" mutable="no">
+        <type>NSString *const</type>
+        <definition>NSString* const SVProgressHUDStatusUserInfoKey</definition>
+        <argsstring></argsstring>
+        <name>SVProgressHUDStatusUserInfoKey</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/Venders/SVProgressHUD/SVProgressHUD.h" line="24" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/Venders/SVProgressHUD/SVProgressHUD.m" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_s_v_progress_h_u_d_8h_1aef2163a47b9c32ad01dc5e65c882c5f0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typedef</type>
+        <definition>typedef NS_ENUM</definition>
+        <argsstring>(NSInteger, SVProgressHUDStyle)</argsstring>
+        <name>NS_ENUM</name>
+        <param>
+          <type>NSInteger</type>
+        </param>
+        <param>
+          <type>SVProgressHUDStyle</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/Venders/SVProgressHUD/SVProgressHUD.h" line="26" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/Venders/SVProgressHUD/SVProgressHUD.h" bodystart="26" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="_s_v_progress_h_u_d_8h_1ae95872cac5d4b0435a62253e25aa8649" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typedef</type>
+        <definition>typedef NS_ENUM</definition>
+        <argsstring>(NSUInteger, SVProgressHUDMaskType)</argsstring>
+        <name>NS_ENUM</name>
+        <param>
+          <type>NSUInteger</type>
+        </param>
+        <param>
+          <type>SVProgressHUDMaskType</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/Venders/SVProgressHUD/SVProgressHUD.h" line="32" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/Venders/SVProgressHUD/SVProgressHUD.h" bodystart="32" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="_s_v_progress_h_u_d_8h_1a3e96fe457ca30db7acd1bfec3fbd6ce1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typedef</type>
+        <definition>typedef NS_ENUM</definition>
+        <argsstring>(NSUInteger, SVProgressHUDAnimationType)</argsstring>
+        <name>NS_ENUM</name>
+        <param>
+          <type>NSUInteger</type>
+        </param>
+        <param>
+          <type>SVProgressHUDAnimationType</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/Venders/SVProgressHUD/SVProgressHUD.h" line="40" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/Venders/SVProgressHUD/SVProgressHUD.h" bodystart="40" bodyend="43"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>SVProgressHUD.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>SVProgressHUD,<sp/>https://github.com/SVProgressHUD/SVProgressHUD</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2011-2016<sp/>Sam<sp/>Vermette<sp/>and<sp/>contributors.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;UIKit/UIKit.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;AvailabilityMacros.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>__IPHONE_OS_VERSION_MAX_ALLOWED<sp/>&lt;<sp/>70000</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="_s_v_progress_h_u_d_8h_1a9d7421badd7bb7c750012d2e155c3a1a" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>UI_APPEARANCE_SELECTOR</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/>NSString<sp/>*<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="_s_v_progress_h_u_d_8h_1afb598fc1a476a424377b5e39947fb177" kindref="member">SVProgressHUDDidReceiveTouchEventNotification</ref>;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/>NSString<sp/>*<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="_s_v_progress_h_u_d_8h_1ab3657f54dcb71ab9eb5c2a3f2543c180" kindref="member">SVProgressHUDDidTouchDownInsideNotification</ref>;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/>NSString<sp/>*<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="_s_v_progress_h_u_d_8h_1a9048ae19eac8bec1e3130ada89e3e765" kindref="member">SVProgressHUDWillDisappearNotification</ref>;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/>NSString<sp/>*<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="_s_v_progress_h_u_d_8h_1a8a1cb4574cfcafed2cc54cfc39f199aa" kindref="member">SVProgressHUDDidDisappearNotification</ref>;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/>NSString<sp/>*<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="_s_v_progress_h_u_d_8h_1a1ac3b85534e72ab1ec1bed969d050df6" kindref="member">SVProgressHUDWillAppearNotification</ref>;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/>NSString<sp/>*<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="_s_v_progress_h_u_d_8h_1aab9de121eb4ed2ab7d2fc5facc01b2d5" kindref="member">SVProgressHUDDidAppearNotification</ref>;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/>NSString<sp/>*<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="_s_v_progress_h_u_d_8h_1a9c9156be8ac7e11d22e478ab62973c6b" kindref="member">SVProgressHUDStatusUserInfoKey</ref>;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="_s_v_progress_h_u_d_8h_1aef2163a47b9c32ad01dc5e65c882c5f0" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="_s_v_progress_h_u_d_8h_1aef2163a47b9c32ad01dc5e65c882c5f0" kindref="member">NS_ENUM</ref>(NSInteger,<sp/>SVProgressHUDStyle)<sp/>{</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>SVProgressHUDStyleLight,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>default<sp/>style,<sp/>white<sp/>HUD<sp/>with<sp/>black<sp/>text,<sp/>HUD<sp/>background<sp/>will<sp/>be<sp/>blurred<sp/>on<sp/>iOS<sp/>8<sp/>and<sp/>above</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>SVProgressHUDStyleDark,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>black<sp/>HUD<sp/>and<sp/>white<sp/>text,<sp/>HUD<sp/>background<sp/>will<sp/>be<sp/>blurred<sp/>on<sp/>iOS<sp/>8<sp/>and<sp/>above</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>SVProgressHUDStyleCustom<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>uses<sp/>the<sp/>fore-<sp/>and<sp/>background<sp/>color<sp/>properties</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32" refid="_s_v_progress_h_u_d_8h_1ae95872cac5d4b0435a62253e25aa8649" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="_s_v_progress_h_u_d_8h_1aef2163a47b9c32ad01dc5e65c882c5f0" kindref="member">NS_ENUM</ref>(NSUInteger,<sp/>SVProgressHUDMaskType)<sp/>{</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>SVProgressHUDMaskTypeNone<sp/>=<sp/>1,<sp/><sp/></highlight><highlight class="comment">//<sp/>default<sp/>mask<sp/>type,<sp/>allow<sp/>user<sp/>interactions<sp/>while<sp/>HUD<sp/>is<sp/>displayed</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>SVProgressHUDMaskTypeClear,<sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>don&apos;t<sp/>allow<sp/>user<sp/>interactions</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>SVProgressHUDMaskTypeBlack,<sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>don&apos;t<sp/>allow<sp/>user<sp/>interactions<sp/>and<sp/>dim<sp/>the<sp/>UI<sp/>in<sp/>the<sp/>back<sp/>of<sp/>the<sp/>HUD,<sp/>as<sp/>on<sp/>iOS<sp/>7<sp/>and<sp/>above</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>SVProgressHUDMaskTypeGradient,<sp/><sp/></highlight><highlight class="comment">//<sp/>don&apos;t<sp/>allow<sp/>user<sp/>interactions<sp/>and<sp/>dim<sp/>the<sp/>UI<sp/>with<sp/>a<sp/>a-la<sp/>UIAlertView<sp/>background<sp/>gradient,<sp/>as<sp/>on<sp/>iOS<sp/>6</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>SVProgressHUDMaskTypeCustom<sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>don&apos;t<sp/>allow<sp/>user<sp/>interactions<sp/>and<sp/>dim<sp/>the<sp/>UI<sp/>in<sp/>the<sp/>back<sp/>of<sp/>the<sp/>HUD<sp/>with<sp/>a<sp/>custom<sp/>color</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40" refid="_s_v_progress_h_u_d_8h_1a3e96fe457ca30db7acd1bfec3fbd6ce1" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="_s_v_progress_h_u_d_8h_1aef2163a47b9c32ad01dc5e65c882c5f0" kindref="member">NS_ENUM</ref>(NSUInteger,<sp/>SVProgressHUDAnimationType)<sp/>{</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>SVProgressHUDAnimationTypeFlat,<sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>default<sp/>animation<sp/>type,<sp/>custom<sp/>flat<sp/>animation<sp/>(indefinite<sp/>animated<sp/>ring)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>SVProgressHUDAnimationTypeNative<sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>iOS<sp/>native<sp/>UIActivityIndicatorView</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45" refid="interface_s_v_progress_h_u_d" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="interface_s_v_progress_h_u_d" kindref="compound">SVProgressHUD</ref><sp/>:<sp/>UIView</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/>-<sp/>Customization</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49" refid="interface_s_v_progress_h_u_d_1abe8151c290ddc5e35083a98ebefac122" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(assign,<sp/>nonatomic)<sp/>SVProgressHUDStyle<sp/>defaultStyle<sp/><ref refid="interface_s_v_progress_h_u_d_1abe8151c290ddc5e35083a98ebefac122" kindref="member">UI_APPEARANCE_SELECTOR</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>default<sp/>is<sp/>SVProgressHUDStyleLight</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50" refid="interface_s_v_progress_h_u_d_1afd4f454420a94475559014a95006f221" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(assign,<sp/>nonatomic)<sp/>SVProgressHUDMaskType<sp/>defaultMaskType<sp/><ref refid="interface_s_v_progress_h_u_d_1abe8151c290ddc5e35083a98ebefac122" kindref="member">UI_APPEARANCE_SELECTOR</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>default<sp/>is<sp/>SVProgressHUDMaskTypeNone</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51" refid="interface_s_v_progress_h_u_d_1ad5078ab5120828ab13f22b27726c904c" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(assign,<sp/>nonatomic)<sp/>SVProgressHUDAnimationType<sp/>defaultAnimationType<sp/><ref refid="interface_s_v_progress_h_u_d_1abe8151c290ddc5e35083a98ebefac122" kindref="member">UI_APPEARANCE_SELECTOR</ref>;<sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>default<sp/>is<sp/>SVProgressHUDAnimationTypeFlat</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52" refid="interface_s_v_progress_h_u_d_1a7d5f9238eb876dfa727eb5b8faf4e628" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(assign,<sp/>nonatomic)<sp/>CGSize<sp/>minimumSize<sp/><ref refid="interface_s_v_progress_h_u_d_1abe8151c290ddc5e35083a98ebefac122" kindref="member">UI_APPEARANCE_SELECTOR</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>default<sp/>is<sp/>CGSizeZero,<sp/>can<sp/>be<sp/>used<sp/>to<sp/>avoid<sp/>resizing<sp/>for<sp/>a<sp/>larger<sp/>message</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="interface_s_v_progress_h_u_d_1af0a17bf26ca8eb2a56d3a00925dd691a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(assign,<sp/>nonatomic)<sp/>CGFloat<sp/>ringThickness<sp/><ref refid="interface_s_v_progress_h_u_d_1abe8151c290ddc5e35083a98ebefac122" kindref="member">UI_APPEARANCE_SELECTOR</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>default<sp/>is<sp/>2<sp/>pt</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54" refid="interface_s_v_progress_h_u_d_1aecfd4c67bb9623c37ea289381b36d941" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(assign,<sp/>nonatomic)<sp/>CGFloat<sp/>ringRadius<sp/><ref refid="interface_s_v_progress_h_u_d_1abe8151c290ddc5e35083a98ebefac122" kindref="member">UI_APPEARANCE_SELECTOR</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>default<sp/>is<sp/>18<sp/>pt</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55" refid="interface_s_v_progress_h_u_d_1a8b8bcd8ca0a7e8d24b40c677d0ce953c" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(assign,<sp/>nonatomic)<sp/>CGFloat<sp/>ringNoTextRadius<sp/><ref refid="interface_s_v_progress_h_u_d_1abe8151c290ddc5e35083a98ebefac122" kindref="member">UI_APPEARANCE_SELECTOR</ref>;<sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>default<sp/>is<sp/>24<sp/>pt</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56" refid="interface_s_v_progress_h_u_d_1af3022780c3f09d15bb197d8944d66a21" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(assign,<sp/>nonatomic)<sp/>CGFloat<sp/>cornerRadius<sp/><ref refid="interface_s_v_progress_h_u_d_1abe8151c290ddc5e35083a98ebefac122" kindref="member">UI_APPEARANCE_SELECTOR</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>default<sp/>is<sp/>14<sp/>pt</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57" refid="interface_s_v_progress_h_u_d_1a3a5e0674e901fb7c0553f667a13b2aa6" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(strong,<sp/>nonatomic)<sp/>UIFont<sp/>*font<sp/><ref refid="interface_s_v_progress_h_u_d_1abe8151c290ddc5e35083a98ebefac122" kindref="member">UI_APPEARANCE_SELECTOR</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>default<sp/>is<sp/>[UIFont<sp/>preferredFontForTextStyle:UIFontTextStyleSubheadline]</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58" refid="interface_s_v_progress_h_u_d_1ac217b1d288503dd6455b25aa3f0e9a59" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(strong,<sp/>nonatomic)<sp/>UIColor<sp/>*backgroundColor<sp/><ref refid="interface_s_v_progress_h_u_d_1abe8151c290ddc5e35083a98ebefac122" kindref="member">UI_APPEARANCE_SELECTOR</ref>;<sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>default<sp/>is<sp/>[UIColor<sp/>whiteColor]</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59" refid="interface_s_v_progress_h_u_d_1a5df8cb013dad4272db3a0c4fffeb5643" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(strong,<sp/>nonatomic)<sp/>UIColor<sp/>*foregroundColor<sp/><ref refid="interface_s_v_progress_h_u_d_1abe8151c290ddc5e35083a98ebefac122" kindref="member">UI_APPEARANCE_SELECTOR</ref>;<sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>default<sp/>is<sp/>[UIColor<sp/>blackColor]</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="60" refid="interface_s_v_progress_h_u_d_1a906786543870c61dd8f71ecdc968e8ea" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(strong,<sp/>nonatomic)<sp/>UIColor<sp/>*backgroundLayerColor<sp/><ref refid="interface_s_v_progress_h_u_d_1abe8151c290ddc5e35083a98ebefac122" kindref="member">UI_APPEARANCE_SELECTOR</ref>;<sp/></highlight><highlight class="comment">//<sp/>default<sp/>is<sp/>[UIColor<sp/>colorWithWhite:0<sp/>alpha:0.4]</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61" refid="interface_s_v_progress_h_u_d_1a3f5bc61a3389d323088eec1396b6fce4" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(strong,<sp/>nonatomic)<sp/>UIImage<sp/>*infoImage<sp/><ref refid="interface_s_v_progress_h_u_d_1abe8151c290ddc5e35083a98ebefac122" kindref="member">UI_APPEARANCE_SELECTOR</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>default<sp/>is<sp/>the<sp/>bundled<sp/>info<sp/>image<sp/>provided<sp/>by<sp/>Freepik</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62" refid="interface_s_v_progress_h_u_d_1abdfcab64e7faca580562b796f2a6a827" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(strong,<sp/>nonatomic)<sp/>UIImage<sp/>*successImage<sp/><ref refid="interface_s_v_progress_h_u_d_1abe8151c290ddc5e35083a98ebefac122" kindref="member">UI_APPEARANCE_SELECTOR</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>default<sp/>is<sp/>the<sp/>bundled<sp/>success<sp/>image<sp/>provided<sp/>by<sp/>Freepik</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63" refid="interface_s_v_progress_h_u_d_1a24b28c3c3762324a83733a96c0ab1a2f" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(strong,<sp/>nonatomic)<sp/>UIImage<sp/>*errorImage<sp/><ref refid="interface_s_v_progress_h_u_d_1abe8151c290ddc5e35083a98ebefac122" kindref="member">UI_APPEARANCE_SELECTOR</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>default<sp/>is<sp/>the<sp/>bundled<sp/>error<sp/>image<sp/>provided<sp/>by<sp/>Freepik</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="64" refid="interface_s_v_progress_h_u_d_1ab4dd37eb9d297e3e7df699caa45ae843" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(strong,<sp/>nonatomic)<sp/>UIView<sp/>*viewForExtension<sp/><ref refid="interface_s_v_progress_h_u_d_1abe8151c290ddc5e35083a98ebefac122" kindref="member">UI_APPEARANCE_SELECTOR</ref>;<sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>default<sp/>is<sp/>nil,<sp/>only<sp/>used<sp/>if<sp/>#define<sp/>SV_APP_EXTENSIONS<sp/>is<sp/>set</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="65" refid="interface_s_v_progress_h_u_d_1a8cc3a0417bb484666cd3c48be6ad17cc" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(assign,<sp/>nonatomic)<sp/>NSTimeInterval<sp/><ref refid="interface_s_v_progress_h_u_d_1a8cc3a0417bb484666cd3c48be6ad17cc" kindref="member">minimumDismissTimeInterval</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>default<sp/>is<sp/>5.0<sp/>seconds</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67" refid="interface_s_v_progress_h_u_d_1a348ba1cfc887ca8677044e8ee0482fbd" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(assign,<sp/>nonatomic)<sp/>UIOffset<sp/>offsetFromCenter<sp/><ref refid="interface_s_v_progress_h_u_d_1abe8151c290ddc5e35083a98ebefac122" kindref="member">UI_APPEARANCE_SELECTOR</ref>;<sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>default<sp/>is<sp/>0,<sp/>0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69" refid="interface_s_v_progress_h_u_d_1a840304b38abc27028b71cc393b56da4f" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(assign,<sp/>nonatomic)<sp/>NSTimeInterval<sp/><ref refid="interface_s_v_progress_h_u_d_1a840304b38abc27028b71cc393b56da4f" kindref="member">fadeInAnimationDuration</ref>;<sp/><sp/></highlight><highlight class="comment">//<sp/>default<sp/>is<sp/>0.15</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="70" refid="interface_s_v_progress_h_u_d_1abbd165d7c6a684cf783e9f872be32097" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">@property</highlight><highlight class="normal"><sp/>(assign,<sp/>nonatomic)<sp/>NSTimeInterval<sp/><ref refid="interface_s_v_progress_h_u_d_1abbd165d7c6a684cf783e9f872be32097" kindref="member">fadeOutAnimationDuration</ref>;<sp/></highlight><highlight class="comment">//<sp/>default<sp/>is<sp/>0.15</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal">+<sp/>(void)setDefaultStyle:(SVProgressHUDStyle)style;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>default<sp/>is<sp/>SVProgressHUDStyleLight</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal">+<sp/>(void)setDefaultMaskType:(SVProgressHUDMaskType)maskType;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>default<sp/>is<sp/>SVProgressHUDMaskTypeNone</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal">+<sp/>(void)setDefaultAnimationType:(SVProgressHUDAnimationType)type;<sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>default<sp/>is<sp/>SVProgressHUDAnimationTypeFlat</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal">+<sp/>(void)setMinimumSize:(CGSize)minimumSize;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>default<sp/>is<sp/>CGSizeZero,<sp/>can<sp/>be<sp/>used<sp/>to<sp/>avoid<sp/>resizing<sp/>for<sp/>a<sp/>larger<sp/>message</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal">+<sp/>(void)setRingThickness:(CGFloat)ringThickness;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>default<sp/>is<sp/>2<sp/>pt</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal">+<sp/>(void)setRingRadius:(CGFloat)radius;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>default<sp/>is<sp/>18<sp/>pt</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal">+<sp/>(void)setRingNoTextRadius:(CGFloat)radius;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>default<sp/>is<sp/>24<sp/>pt</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal">+<sp/>(void)setCornerRadius:(CGFloat)cornerRadius;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>default<sp/>is<sp/>14<sp/>pt</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal">+<sp/>(void)setFont:(UIFont*)font;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>default<sp/>is<sp/>[UIFont<sp/>preferredFontForTextStyle:UIFontTextStyleSubheadline]</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal">+<sp/>(void)setForegroundColor:(UIColor*)color;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>default<sp/>is<sp/>[UIColor<sp/>blackColor],<sp/>only<sp/>used<sp/>for<sp/>SVProgressHUDStyleCustom</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal">+<sp/>(void)setBackgroundColor:(UIColor*)color;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>default<sp/>is<sp/>[UIColor<sp/>whiteColor],<sp/>only<sp/>used<sp/>for<sp/>SVProgressHUDStyleCustom</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal">+<sp/>(void)setBackgroundLayerColor:(UIColor*)color;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>default<sp/>is<sp/>[UIColor<sp/>colorWithWhite:0<sp/>alpha:0.5],<sp/>only<sp/>used<sp/>for<sp/>SVProgressHUDMaskTypeBlack</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal">+<sp/>(void)setInfoImage:(UIImage*)image;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>default<sp/>is<sp/>the<sp/>bundled<sp/>info<sp/>image<sp/>provided<sp/>by<sp/>Freepik</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal">+<sp/>(void)setSuccessImage:(UIImage*)image;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>default<sp/>is<sp/>the<sp/>bundled<sp/>success<sp/>image<sp/>provided<sp/>by<sp/>Freepik</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal">+<sp/>(void)setErrorImage:(UIImage*)image;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>default<sp/>is<sp/>the<sp/>bundled<sp/>error<sp/>image<sp/>provided<sp/>by<sp/>Freepik</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal">+<sp/>(void)setViewForExtension:(UIView*)view;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>default<sp/>is<sp/>nil,<sp/>only<sp/>used<sp/>if<sp/>#define<sp/>SV_APP_EXTENSIONS<sp/>is<sp/>set</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal">+<sp/>(void)setMinimumDismissTimeInterval:(NSTimeInterval)interval;<sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>default<sp/>is<sp/>5.0<sp/>seconds</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal">+<sp/>(void)setFadeInAnimationDuration:(NSTimeInterval)duration;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>default<sp/>is<sp/>0.15<sp/>seconds</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal">+<sp/>(void)setFadeOutAnimationDuration:(NSTimeInterval)duration;<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>default<sp/>is<sp/>0.15<sp/>seconds</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/>-<sp/>Show<sp/>Methods</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal">+<sp/>(void)<ref refid="interface_s_v_progress_h_u_d_1a880393385091ec99c56f586ff6169380" kindref="member">show</ref>;</highlight></codeline>
+<codeline lineno="96"><highlight class="normal">+<sp/>(void)showWithMaskType:(SVProgressHUDMaskType)maskType<sp/>__attribute__((deprecated(&quot;Use<sp/><ref refid="interface_s_v_progress_h_u_d_1a880393385091ec99c56f586ff6169380" kindref="member">show</ref><sp/>and<sp/>setDefaultMaskType:<sp/>instead.&quot;)));</highlight></codeline>
+<codeline lineno="97"><highlight class="normal">+<sp/>(void)showWithStatus:(NSString*)status;</highlight></codeline>
+<codeline lineno="98"><highlight class="normal">+<sp/>(void)showWithStatus:(NSString*)status<sp/>maskType:(SVProgressHUDMaskType)maskType<sp/>__attribute__((deprecated(&quot;Use<sp/>showWithStatus:<sp/>and<sp/>setDefaultMaskType:<sp/>instead.&quot;)));</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal">+<sp/>(void)showProgress:(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal">)progress;</highlight></codeline>
+<codeline lineno="101"><highlight class="normal">+<sp/>(void)showProgress:(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal">)progress<sp/>maskType:(SVProgressHUDMaskType)maskType<sp/>__attribute__((deprecated(&quot;Use<sp/>showProgress:<sp/>and<sp/>setDefaultMaskType:<sp/>instead.&quot;)));</highlight></codeline>
+<codeline lineno="102"><highlight class="normal">+<sp/>(void)showProgress:(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal">)progress<sp/>status:(NSString*)status;</highlight></codeline>
+<codeline lineno="103"><highlight class="normal">+<sp/>(void)showProgress:(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal">)progress<sp/>status:(NSString*)status<sp/>maskType:(SVProgressHUDMaskType)maskType<sp/>__attribute__((deprecated(&quot;Use<sp/>showProgress:status:<sp/>and<sp/>setDefaultMaskType:<sp/>instead.&quot;)));</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal">+<sp/>(void)setStatus:(NSString*)status;<sp/></highlight><highlight class="comment">//<sp/>change<sp/>the<sp/>HUD<sp/>loading<sp/>status<sp/>while<sp/>it&apos;s<sp/>showing</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight><highlight class="comment">//<sp/>stops<sp/>the<sp/>activity<sp/>indicator,<sp/>shows<sp/>a<sp/>glyph<sp/>+<sp/>status,<sp/>and<sp/>dismisses<sp/>the<sp/>HUD<sp/>a<sp/>little<sp/>bit<sp/>later</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal">+<sp/>(void)showInfoWithStatus:(NSString*)status;</highlight></codeline>
+<codeline lineno="109"><highlight class="normal">+<sp/>(void)showInfoWithStatus:(NSString*)status<sp/>maskType:(SVProgressHUDMaskType)maskType<sp/>__attribute__((deprecated(&quot;Use<sp/>showInfoWithStatus:<sp/>and<sp/>setDefaultMaskType:<sp/>instead.&quot;)));</highlight></codeline>
+<codeline lineno="110"><highlight class="normal">+<sp/>(void)showSuccessWithStatus:(NSString*)status;</highlight></codeline>
+<codeline lineno="111"><highlight class="normal">+<sp/>(void)showSuccessWithStatus:(NSString*)status<sp/>maskType:(SVProgressHUDMaskType)maskType<sp/>__attribute__((deprecated(&quot;Use<sp/>showSuccessWithStatus:<sp/>and<sp/>setDefaultMaskType:<sp/>instead.&quot;)));</highlight></codeline>
+<codeline lineno="112"><highlight class="normal">+<sp/>(void)showErrorWithStatus:(NSString*)status;</highlight></codeline>
+<codeline lineno="113"><highlight class="normal">+<sp/>(void)showErrorWithStatus:(NSString*)status<sp/>maskType:(SVProgressHUDMaskType)maskType<sp/>__attribute__((deprecated(&quot;Use<sp/>showErrorWithStatus:<sp/>and<sp/>setDefaultMaskType:<sp/>instead.&quot;)));</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight><highlight class="comment">//<sp/>shows<sp/>a<sp/>image<sp/>+<sp/>status,<sp/>use<sp/>28x28<sp/>white<sp/>PNGs</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal">+<sp/>(void)showImage:(UIImage*)image<sp/>status:(NSString*)status;</highlight></codeline>
+<codeline lineno="117"><highlight class="normal">+<sp/>(void)showImage:(UIImage*)image<sp/>status:(NSString*)status<sp/>maskType:(SVProgressHUDMaskType)maskType<sp/>__attribute__((deprecated(&quot;Use<sp/>showImage:status:<sp/>and<sp/>setDefaultMaskType:<sp/>instead.&quot;)));</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="119"><highlight class="normal">+<sp/>(void)setOffsetFromCenter:(UIOffset)offset;</highlight></codeline>
+<codeline lineno="120"><highlight class="normal">+<sp/>(void)<ref refid="interface_s_v_progress_h_u_d_1a6a77bb5e66a35e649e8abd9d2a801866" kindref="member">resetOffsetFromCenter</ref>;</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="normal">+<sp/>(void)<ref refid="interface_s_v_progress_h_u_d_1a760194f4076a9371fd2a749c097d070e" kindref="member">popActivity</ref>;<sp/></highlight><highlight class="comment">//<sp/>decrease<sp/>activity<sp/>count,<sp/>if<sp/>activity<sp/>count<sp/>==<sp/>0<sp/>the<sp/>HUD<sp/>is<sp/>dismissed</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal">+<sp/>(void)<ref refid="interface_s_v_progress_h_u_d_1aed897a5b64a03fea94b402edef361f55" kindref="member">dismiss</ref>;</highlight></codeline>
+<codeline lineno="124"><highlight class="normal">+<sp/>(void)dismissWithDelay:(NSTimeInterval)delay;</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight></codeline>
+<codeline lineno="126"><highlight class="normal">+<sp/>(BOOL)<ref refid="interface_s_v_progress_h_u_d_1a2d37e07a5739b10d9429bd1dbaa0206c" kindref="member">isVisible</ref>;</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight></codeline>
+<codeline lineno="128"><highlight class="normal">+<sp/>(NSTimeInterval)displayDurationForString:(NSString*)string;</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/Venders/SVProgressHUD/SVProgressHUD.h"/>
+  </compounddef>
+</doxygen>

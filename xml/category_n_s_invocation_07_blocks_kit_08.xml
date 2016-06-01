@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_n_s_invocation_07_blocks_kit_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>NSInvocation(BlocksKit)</compoundname>
+    <includes refid="_n_s_invocation_09_blocks_kit_8h" local="no">NSInvocation+BlocksKit.h</includes>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="category_n_s_invocation_07_blocks_kit_08_1a5b9f55e6363548f030efa34c220556a6" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSInvocation *</type>
+        <definition>NSInvocation * NSInvocation(BlocksKit)::bk_invocationWithTarget:block:</definition>
+        <argsstring>(id target,[block] void(^block)(id target))</argsstring>
+        <name>bk_invocationWithTarget:block:</name>
+        <param>
+          <type>id</type>
+          <declname>target</declname>
+        </param>
+        <param>
+          <attributes>[block]</attributes>
+          <type>void(^)(id target)</type>
+          <declname>block</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generates a forwarding <computeroutput>NSInvocation</computeroutput> instance for a given method call encapsulated by the given block.</para><para>NSInvocation *invocation = [NSInvocation invocationWithTarget:target block:^(id myObject) { [myObject someMethodWithArg:42.0]; }];</para><para>This returns an invocation with the appropriate target, selector, and arguments without creating the buffers yourself. It is only recommended to call a method on the argument to the block only once. More complicated forwarding machinery can be accomplished by the <ref refid="class_a2_dynamic_delegate" kindref="compound">A2DynamicDelegate</ref> family of classes included in BlocksKit.</para><para>Created by <ulink url="https://github.com/rentzsch">Jonathan Rentzch</ulink> as <computeroutput>NSInvocation-blocks</computeroutput>.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>target</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The object to &quot;grab&quot; the block invocation from. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>block</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A code block. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>A fully-prepared instance of NSInvocation ready to be invoked. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSInvocation+BlocksKit.h" line="38" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSInvocation+BlocksKit.m" bodystart="40" bodyend="46"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>BlocksKit extensions for NSInvocation. </para>    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSInvocation+BlocksKit.m" line="38" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSInvocation+BlocksKit.m" bodystart="38" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_n_s_invocation_07_blocks_kit_08_1a5b9f55e6363548f030efa34c220556a6" prot="public" virt="virtual"><scope>NSInvocation(BlocksKit)</scope><name>bk_invocationWithTarget:block:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

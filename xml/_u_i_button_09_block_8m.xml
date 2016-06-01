@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_u_i_button_09_block_8m" kind="file" language="Objective-C">
+    <compoundname>UIButton+Block.m</compoundname>
+    <includes refid="_u_i_button_09_block_8h" local="yes">UIButton+Block.h</includes>
+    <includes local="no">objc/runtime.h</includes>
+    <incdepgraph>
+      <node id="1279">
+        <label>UIKit/UIKit.h</label>
+      </node>
+      <node id="1278">
+        <label>UIButton+Block.h</label>
+        <link refid="_u_i_button_09_block_8h"/>
+        <childnode refid="1279" relation="include">
+        </childnode>
+      </node>
+      <node id="1277">
+        <label>XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIButton/UIButton+Block.m</label>
+        <link refid="UIButton+Block.m"/>
+        <childnode refid="1278" relation="include">
+        </childnode>
+        <childnode refid="1280" relation="include">
+        </childnode>
+      </node>
+      <node id="1280">
+        <label>objc/runtime.h</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="_u_i_button_09_block_8m_1ab1dda3170ca66bfcd51a62bbc34cd776" prot="public" static="yes" mutable="no">
+        <type>const void *</type>
+        <definition>const void* UIButtonBlockKey</definition>
+        <argsstring></argsstring>
+        <name>UIButtonBlockKey</name>
+        <initializer>= &amp;UIButtonBlockKey</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIButton/UIButton+Block.m" line="11" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIButton/UIButton+Block.m" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>UIButton+Block.m</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>iOS-Categories<sp/>(https://github.com/shaojiankui/iOS-Categories)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Jakey<sp/>on<sp/>14/12/30.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>(c)<sp/>2014年<sp/>www.skyfox.org.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_u_i_button_09_block_8h" kindref="compound">UIButton+Block.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;objc/runtime.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*UIButtonBlockKey<sp/>=<sp/>&amp;UIButtonBlockKey;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="category_u_i_button_07_block_08" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">@implementation<sp/></highlight><highlight class="normal"><ref refid="category_u_i_button_07_block_08" kindref="compound">UIButton (Block)</ref></highlight></codeline>
+<codeline lineno="14" refid="category_u_i_button_07_block_08_1aaae840b60c852b45c489c0eef21da831" refkind="member"><highlight class="normal">-(void)addActionHandler:(<ref refid="_u_i_button_09_block_8h_1ac5644abaa1b212593c989b26f95ff6cb" kindref="member">TouchedBlock</ref>)touchHandler{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>objc_setAssociatedObject(</highlight><highlight class="keyword">self</highlight><highlight class="normal">,<sp/>UIButtonBlockKey,<sp/>touchHandler,<sp/>OBJC_ASSOCIATION_COPY_NONATOMIC);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>addTarget:self<sp/>action:@selector(actionTouched:)<sp/>forControlEvents:UIControlEventTouchUpInside];</highlight></codeline>
+<codeline lineno="17"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="18"><highlight class="normal">-(void)actionTouched:(UIButton<sp/>*)btn{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_u_i_button_09_block_8h_1ac5644abaa1b212593c989b26f95ff6cb" kindref="member">TouchedBlock</ref><sp/>block<sp/>=<sp/>objc_getAssociatedObject(</highlight><highlight class="keyword">self</highlight><highlight class="normal">,<sp/>UIButtonBlockKey);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(block)<sp/>{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>block(btn.tag);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="23"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIButton/UIButton+Block.m"/>
+  </compounddef>
+</doxygen>

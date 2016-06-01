@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_x_d_file_mime_type_07_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>XDFileMimeType()</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="category_x_d_file_mime_type_07_08_1a4d0d79d38a4dc1dbfbb006da2777face" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="retain">
+        <type>NSDictionary *</type>
+        <definition>NSDictionary* XDFileMimeType()::config</definition>
+        <argsstring></argsstring>
+        <name>config</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/XDFileMimeType.m" line="13" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/XDFileMimeType.m" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/XDFileMimeType.m" line="11" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/XDFileMimeType.m" bodystart="11" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_x_d_file_mime_type_07_08_1a4d0d79d38a4dc1dbfbb006da2777face" prot="public" virt="non-virtual"><scope>XDFileMimeType()</scope><name>config</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

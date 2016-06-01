@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_u_i_web_view_07_blocks_kit_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>UIWebView(BlocksKit)</compoundname>
+    <includes refid="_u_i_web_view_09_blocks_kit_8h" local="no">UIWebView+BlocksKit.h</includes>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="category_u_i_web_view_07_blocks_kit_08_1addeb9cadc2a903c5fd33e3169474feb8" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="copy">
+        <type>BOOL(^</type>
+        <definition>BOOL(^ UIWebView(BlocksKit)::bk_shouldStartLoadBlock) (UIWebView *webView, NSURLRequest *request, UIWebViewNavigationType navigationType)</definition>
+        <argsstring>)(UIWebView *webView, NSURLRequest *request, UIWebViewNavigationType navigationType)</argsstring>
+        <name>bk_shouldStartLoadBlock</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The block to be decide whether a URL will be loaded.</para><para><simplesect kind="warning"><para>If the delegate implements webView:shouldStartLoadWithRequest:navigationType:, the return values of both the delegate method and the block will be considered. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIWebView+BlocksKit.h" line="23" column="1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_u_i_web_view_07_blocks_kit_08_1a35b825cf052b439be9d2d2a9ece8e868" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="copy">
+        <type>void(^</type>
+        <definition>void(^ UIWebView(BlocksKit)::bk_didStartLoadBlock) (UIWebView *webView)</definition>
+        <argsstring>)(UIWebView *webView)</argsstring>
+        <name>bk_didStartLoadBlock</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The block that is fired when the web view starts loading. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIWebView+BlocksKit.h" line="26" column="1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_u_i_web_view_07_blocks_kit_08_1a91361a2fd5522b4736a3827726dee728" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="copy">
+        <type>void(^</type>
+        <definition>void(^ UIWebView(BlocksKit)::bk_didFinishLoadBlock) (UIWebView *webView)</definition>
+        <argsstring>)(UIWebView *webView)</argsstring>
+        <name>bk_didFinishLoadBlock</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The block that is fired when the web view finishes loading. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIWebView+BlocksKit.h" line="29" column="1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_u_i_web_view_07_blocks_kit_08_1a9def93698a19cf775a11821b17ab5c70" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="copy">
+        <type>void(^</type>
+        <definition>void(^ UIWebView(BlocksKit)::bk_didFinishWithErrorBlock) (UIWebView *webView, NSError *error)</definition>
+        <argsstring>)(UIWebView *webView, NSError *error)</argsstring>
+        <name>bk_didFinishWithErrorBlock</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The block that is fired when the web view stops loading due to an error. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIWebView+BlocksKit.h" line="32" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Block callbacks for UIWebView.</para><para><simplesect kind="warning"><para>UIWebView is only available on a platform with UIKit. </para></simplesect>
+</para>    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIWebView+BlocksKit.m" line="63" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIWebView+BlocksKit.m" bodystart="63" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_u_i_web_view_07_blocks_kit_08_1a91361a2fd5522b4736a3827726dee728" prot="public" virt="non-virtual"><scope>UIWebView(BlocksKit)</scope><name>bk_didFinishLoadBlock</name></member>
+      <member refid="category_u_i_web_view_07_blocks_kit_08_1a9def93698a19cf775a11821b17ab5c70" prot="public" virt="non-virtual"><scope>UIWebView(BlocksKit)</scope><name>bk_didFinishWithErrorBlock</name></member>
+      <member refid="category_u_i_web_view_07_blocks_kit_08_1a35b825cf052b439be9d2d2a9ece8e868" prot="public" virt="non-virtual"><scope>UIWebView(BlocksKit)</scope><name>bk_didStartLoadBlock</name></member>
+      <member refid="category_u_i_web_view_07_blocks_kit_08_1addeb9cadc2a903c5fd33e3169474feb8" prot="public" virt="non-virtual"><scope>UIWebView(BlocksKit)</scope><name>bk_shouldStartLoadBlock</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

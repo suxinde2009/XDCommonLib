@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="dir_8e78fb589fe90feb173586546e35d163" kind="dir">
+    <compoundname>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit</compoundname>
+    <innerdir refid="dir_e0e50b41955bf1e866551f7e94477f6a">XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core</innerdir>
+    <innerdir refid="dir_c34bec77fd814b63366d116103ad58a9">XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/DynamicDelegate</innerdir>
+    <innerdir refid="dir_1cd606710c898eebb16b796d8ab63dbf">XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/MessageUI</innerdir>
+    <innerdir refid="dir_70fe2aaef32c7b404d4ee203376ec4ec">XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/QuickLook</innerdir>
+    <innerdir refid="dir_461752e9e4edb1803227ae7368984ec0">XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit</innerdir>
+    <innerfile refid="_b_k_defines_8h">BKDefines.h</innerfile>
+    <innerfile refid="_blocks_kit_09_message_u_i_8h">BlocksKit+MessageUI.h</innerfile>
+    <innerfile refid="_blocks_kit_09_quick_look_8h">BlocksKit+QuickLook.h</innerfile>
+    <innerfile refid="_blocks_kit_09_u_i_kit_8h">BlocksKit+UIKit.h</innerfile>
+    <innerfile refid="_blocks_kit_8h">BlocksKit.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/"/>
+  </compounddef>
+</doxygen>

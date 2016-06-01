@@ -1,0 +1,434 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_____g_e_n_e_r_i_c_s_07_n_s_array_object_type_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>__GENERICS(NSArrayObjectType)</compoundname>
+    <includes refid="_n_s_array_09_blocks_kit_8h" local="no">NSArray+BlocksKit.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="category_____g_e_n_e_r_i_c_s_07_n_s_array_object_type_08_1af4e1aff2306ff0286502d59d9dff8419" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void __GENERICS(NSArrayObjectType)::bk_each:</definition>
+        <argsstring>(void(^block)(ObjectType obj))</argsstring>
+        <name>bk_each:</name>
+        <param>
+          <type>void(^)(ObjectType obj)</type>
+          <declname>block</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Loops through an array and executes the given block with each object.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>block</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A single-argument, void-returning code block. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSArray+BlocksKit.h" line="29" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="category_____g_e_n_e_r_i_c_s_07_n_s_array_object_type_08_1a210e209a25e1e0580dea9b6f8ddd3a8a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void __GENERICS(NSArrayObjectType)::bk_apply:</definition>
+        <argsstring>(void(^block)(ObjectType obj))</argsstring>
+        <name>bk_apply:</name>
+        <param>
+          <type>void(^)(ObjectType obj)</type>
+          <declname>block</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Enumerates through an array concurrently and executes the given block once for each object.</para><para>Enumeration will occur on appropriate background queues. This will have a noticeable speed increase, especially on dual-core devices, but you <emphasis>must</emphasis> be aware of the thread safety of the objects you message from within the block. Be aware that the order of objects is not necessarily the order each block will be called in.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>block</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A single-argument, void-returning code block. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSArray+BlocksKit.h" line="29" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="category_____g_e_n_e_r_i_c_s_07_n_s_array_object_type_08_1a72f3c04e0ef27eabbc0aa4fb2825fff2" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="_b_k_defines_8h_1a02648067ad66739ed70a10195891098a" kindref="member">nullable</ref> id</type>
+        <definition>nullable id __GENERICS(NSArrayObjectType)::bk_match:</definition>
+        <argsstring>(BOOL(^block)(ObjectType obj))</argsstring>
+        <name>bk_match:</name>
+        <param>
+          <type>BOOL(^)(ObjectType obj)</type>
+          <declname>block</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Loops through an array to find the object matching the block.</para><para>bk_match: is functionally identical to bk_select:, but will stop and return on the first match.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>block</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A single-argument, <computeroutput>BOOL</computeroutput>-returning code block. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Returns the object, if found, or <computeroutput>nil</computeroutput>. </para></simplesect>
+<simplesect kind="see"><para><ref refid="category_____g_e_n_e_r_i_c_s_07_n_s_array_object_type_08_1a3307bb2b2760578b493de1cc3701c27d" kindref="member">- bk_select:</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSArray+BlocksKit.h" line="29" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="category_____g_e_n_e_r_i_c_s_07_n_s_array_object_type_08_1a3307bb2b2760578b493de1cc3701c27d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSArray *</type>
+        <definition>NSArray * __GENERICS(NSArrayObjectType)::bk_select:</definition>
+        <argsstring>(BOOL(^block)(ObjectType obj))</argsstring>
+        <name>bk_select:</name>
+        <param>
+          <type>BOOL(^)(ObjectType obj)</type>
+          <declname>block</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Loops through an array to find the objects matching the block.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>block</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A single-argument, BOOL-returning code block. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Returns an array of the objects found. </para></simplesect>
+<simplesect kind="see"><para><ref refid="category_____g_e_n_e_r_i_c_s_07_n_s_array_object_type_08_1a72f3c04e0ef27eabbc0aa4fb2825fff2" kindref="member">- bk_match:</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSArray+BlocksKit.h" line="29" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="category_____g_e_n_e_r_i_c_s_07_n_s_array_object_type_08_1a4b1fd8447d17b82b9e7a4b818cb1def3" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSArray *</type>
+        <definition>NSArray * __GENERICS(NSArrayObjectType)::bk_reject:</definition>
+        <argsstring>(BOOL(^block)(ObjectType obj))</argsstring>
+        <name>bk_reject:</name>
+        <param>
+          <type>BOOL(^)(ObjectType obj)</type>
+          <declname>block</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Loops through an array to find the objects not matching the block.</para><para>This selector performs <emphasis>literally</emphasis> the exact same function as bk_select: but in reverse.</para><para>This is useful, as one may expect, for removing objects from an array. NSArray *new = [computers bk_reject:^BOOL(id obj) { return ([obj isUgly]); }];</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>block</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A single-argument, BOOL-returning code block. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Returns an array of all objects not found. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSArray+BlocksKit.h" line="29" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="category_____g_e_n_e_r_i_c_s_07_n_s_array_object_type_08_1a92b3c19a48304e018c7bf704dd1e8cd0" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSArray *</type>
+        <definition>NSArray * __GENERICS(NSArrayObjectType)::bk_map:</definition>
+        <argsstring>(id(^block)(ObjectType obj))</argsstring>
+        <name>bk_map:</name>
+        <param>
+          <type>id(^)(ObjectType obj)</type>
+          <declname>block</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Call the block once for each object and create an array of the return values.</para><para>This is sometimes referred to as a transform, mutating one of each object: NSArray *new = [stringArray bk_map:^id(id obj) { return [obj stringByAppendingString:".png"]); }];</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>block</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A single-argument, object-returning code block. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Returns an array of the objects returned by the block. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSArray+BlocksKit.h" line="29" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="category_____g_e_n_e_r_i_c_s_07_n_s_array_object_type_08_1a5b1ee926c06c96047ec706f0e4f90e5a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSArray *</type>
+        <definition>NSArray * __GENERICS(NSArrayObjectType)::bk_compact:</definition>
+        <argsstring>(id(^block)(ObjectType obj))</argsstring>
+        <name>bk_compact:</name>
+        <param>
+          <type>id(^)(ObjectType obj)</type>
+          <declname>block</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Behaves like map, but doesn&apos;t add NSNull objects if you return nil in the block.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>block</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A single-argument, object-returning code block. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Returns an array of the objects returned by the block. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSArray+BlocksKit.h" line="29" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="category_____g_e_n_e_r_i_c_s_07_n_s_array_object_type_08_1a20e7b3bc88bdeb5c1c80b2cec99b1737" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="_b_k_defines_8h_1a02648067ad66739ed70a10195891098a" kindref="member">nullable</ref> id</type>
+        <definition>nullable id __GENERICS(NSArrayObjectType)::bk_reduce:withBlock:</definition>
+        <argsstring>(nullable id initial,[withBlock] __nullable id(^block)(__nullable id sum, ObjectType obj))</argsstring>
+        <name>bk_reduce:withBlock:</name>
+        <param>
+          <type><ref refid="_b_k_defines_8h_1a02648067ad66739ed70a10195891098a" kindref="member">nullable</ref> id</type>
+          <declname>initial</declname>
+        </param>
+        <param>
+          <attributes>[withBlock]</attributes>
+          <type><ref refid="_b_k_defines_8h_1adef3a2f6f7f351e138d1df7e339bc555" kindref="member">__nullable</ref> id(^)(<ref refid="_b_k_defines_8h_1adef3a2f6f7f351e138d1df7e339bc555" kindref="member">__nullable</ref> id sum, ObjectType obj)</type>
+          <declname>block</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Arbitrarily accumulate objects using a block.</para><para>The concept of this selector is difficult to illustrate in words. The sum can be any <ref refid="class_n_s_object-p" kindref="compound">NSObject</ref>, including (but not limited to) a string, number, or value.</para><para>For example, you can concentate the strings in an array: NSString *concentrated = [stringArray bk_reduce:"" withBlock:^id(id sum, id obj) { return [sum stringByAppendingString:obj]; }];</para><para>You can also do something like summing the lengths of strings in an array: NSUInteger value = [[[stringArray bk_reduce:nil withBlock:^id(id sum, id obj) { return @([sum integerValue] + obj.length); }]] unsignedIntegerValue];</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>initial</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The value of the reduction at its start. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>block</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A block that takes the current sum and the next object to return the new sum. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>An accumulated value. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSArray+BlocksKit.h" line="29" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="category_____g_e_n_e_r_i_c_s_07_n_s_array_object_type_08_1a43675716a17300e93c69afcba7c83254" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSInteger</type>
+        <definition>NSInteger __GENERICS(NSArrayObjectType)::bk_reduceInteger:withBlock:</definition>
+        <argsstring>(NSInteger initial,[withBlock] NSInteger(^block)(NSInteger result, ObjectType obj))</argsstring>
+        <name>bk_reduceInteger:withBlock:</name>
+        <param>
+          <type>NSInteger</type>
+          <declname>initial</declname>
+        </param>
+        <param>
+          <attributes>[withBlock]</attributes>
+          <type>NSInteger(^)(NSInteger result, ObjectType obj)</type>
+          <declname>block</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sometimes we just want to loop an objects list and reduce one property, where each result is a primitive type.</para><para>For example, say we want to calculate the total age of a list of people.</para><para>Code without using block will be something like: <verbatim>NSArray *peoples = @[p1, p2, p3];
+NSInteger totalAge = 0;
+for (People *people in peoples) {
+    totalAge += [people age];
+}
+</verbatim></para><para>We can use a block to make it simpler: <verbatim>NSArray *peoples = @[p1, p2, p3];
+NSInteger totalAge = [peoples reduceInteger:0 withBlock:^(NSInteger result, id obj, NSInteger index) {
+     return result + [obj age];
+}];</verbatim> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSArray+BlocksKit.h" line="29" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="category_____g_e_n_e_r_i_c_s_07_n_s_array_object_type_08_1ad77ca87b7db4b73fca304b5f32deccaf" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>CGFloat</type>
+        <definition>CGFloat __GENERICS(NSArrayObjectType)::bk_reduceFloat:withBlock:</definition>
+        <argsstring>(CGFloat inital,[withBlock] CGFloat(^block)(CGFloat result, ObjectType obj))</argsstring>
+        <name>bk_reduceFloat:withBlock:</name>
+        <param>
+          <type>CGFloat</type>
+          <declname>inital</declname>
+        </param>
+        <param>
+          <attributes>[withBlock]</attributes>
+          <type>CGFloat(^)(CGFloat result, ObjectType obj)</type>
+          <declname>block</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sometimes we just want to loop an objects list and reduce one property, where each result is a primitive type.</para><para>For instance, say we want to caculate the total balance from a list of people.</para><para>Code without using a block will be something like: <verbatim>NSArray *peoples = @[p1, p2, p3];
+CGFloat totalBalance = 0;
+for (People *people in peoples) {
+    totalBalance += [people balance];
+}
+</verbatim></para><para>We can use a block to make it simpler: <verbatim>NSArray *peoples = @[p1, p2, p3];
+CGFloat totalBalance = [peoples reduceFloat:.0f WithBlock:^CGFloat(CGFloat result, id obj, NSInteger index) {
+     return result + [obj balance];
+}];</verbatim> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSArray+BlocksKit.h" line="29" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="category_____g_e_n_e_r_i_c_s_07_n_s_array_object_type_08_1a39b8624874f12119ffdd894352d7743c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL __GENERICS(NSArrayObjectType)::bk_any:</definition>
+        <argsstring>(BOOL(^block)(ObjectType obj))</argsstring>
+        <name>bk_any:</name>
+        <param>
+          <type>BOOL(^)(ObjectType obj)</type>
+          <declname>block</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Loops through an array to find whether any object matches the block.</para><para>This method is similar to the Scala list <computeroutput>exists</computeroutput>. It is functionally identical to bk_match: but returns a <computeroutput>BOOL</computeroutput> instead. It is not recommended to use bk_any: as a check condition before executing bk_match:, since it would require two loops through the array.</para><para>For example, you can find if a string in an array starts with a certain letter: <verbatim>NSString *letter = @&quot;A&quot;;
+BOOL containsLetter = [stringArray bk_any:^(id obj) {
+  return [obj hasPrefix:@&quot;A&quot;];
+}];
+</verbatim></para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>block</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A single-argument, BOOL-returning code block. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>YES for the first time the block returns YES for an object, NO otherwise. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSArray+BlocksKit.h" line="29" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="category_____g_e_n_e_r_i_c_s_07_n_s_array_object_type_08_1a2469ce0b855abb0a932515822309548e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL __GENERICS(NSArrayObjectType)::bk_none:</definition>
+        <argsstring>(BOOL(^block)(ObjectType obj))</argsstring>
+        <name>bk_none:</name>
+        <param>
+          <type>BOOL(^)(ObjectType obj)</type>
+          <declname>block</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Loops through an array to find whether no objects match the block.</para><para>This selector performs <emphasis>literally</emphasis> the exact same function as bk_all: but in reverse.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>block</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A single-argument, BOOL-returning code block. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>YES if the block returns NO for all objects in the array, NO otherwise. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSArray+BlocksKit.h" line="29" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="category_____g_e_n_e_r_i_c_s_07_n_s_array_object_type_08_1ac896aa42cc8ddbf83c255b668d1a281e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL __GENERICS(NSArrayObjectType)::bk_all:</definition>
+        <argsstring>(BOOL(^block)(ObjectType obj))</argsstring>
+        <name>bk_all:</name>
+        <param>
+          <type>BOOL(^)(ObjectType obj)</type>
+          <declname>block</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Loops through an array to find whether all objects match the block.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>block</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A single-argument, BOOL-returning code block. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>YES if the block returns YES for all objects in the array, NO otherwise. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSArray+BlocksKit.h" line="29" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="category_____g_e_n_e_r_i_c_s_07_n_s_array_object_type_08_1ad8cbd64c758f5042933c0d831dbdd518" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL __GENERICS(NSArrayObjectType)::bk_corresponds:withBlock:</definition>
+        <argsstring>(NSArray *list,[withBlock] BOOL(^block)(ObjectType obj1, id obj2))</argsstring>
+        <name>bk_corresponds:withBlock:</name>
+        <param>
+          <type>NSArray *</type>
+          <declname>list</declname>
+        </param>
+        <param>
+          <attributes>[withBlock]</attributes>
+          <type>BOOL(^)(ObjectType obj1, id obj2)</type>
+          <declname>block</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether every element of this array relates to the corresponding element of another array according to match by block.</para><para>For example, finding if a list of numbers corresponds to their sequenced string values; NSArray *numbers = @[ @(1), @(2), @(3) ]; NSArray *letters = @[ "1&quot;, @&quot;2&quot;, @&quot;3" ]; BOOL doesCorrespond = [numbers bk_corresponds:letters withBlock:^(id number, id letter) { return [[number stringValue] isEqualToString:letter]; }];</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>list</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>An array of objects to compare with. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>block</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A two-argument, BOOL-returning code block. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Returns a BOOL, true if every element of array relates to corresponding element in another array. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSArray+BlocksKit.h" line="29" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Block extensions for NSArray.</para><para>Both inspired by and resembling Smalltalk syntax, these utilities allows for iteration of an array in a concise way that saves quite a bit of boilerplate code for filtering or finding objects or an object.</para><para>Includes code by the following:</para><para><itemizedlist>
+<listitem><para><ulink url="https://github.com/robin">Robin Lu</ulink></para></listitem><listitem><para><ulink url="https://github.com/mikeash">Michael Ash</ulink></para></listitem><listitem><para><ulink url="https://github.com/nesterow">Aleks Nesterow</ulink></para></listitem><listitem><para><ulink url="https://github.com/zwaldowski">Zach Waldowski</ulink></para><para><simplesect kind="see"><para>NSDictionary(BlocksKit) </para></simplesect>
+<simplesect kind="see"><para>NSSet(BlocksKit) </para></simplesect>
+</para></listitem></itemizedlist>
+</para>    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSArray+BlocksKit.h" line="29" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSArray+BlocksKit.h" bodystart="29" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_____g_e_n_e_r_i_c_s_07_n_s_array_object_type_08_1ac896aa42cc8ddbf83c255b668d1a281e" prot="public" virt="virtual"><scope>__GENERICS(NSArrayObjectType)</scope><name>bk_all:</name></member>
+      <member refid="category_____g_e_n_e_r_i_c_s_07_n_s_array_object_type_08_1a39b8624874f12119ffdd894352d7743c" prot="public" virt="virtual"><scope>__GENERICS(NSArrayObjectType)</scope><name>bk_any:</name></member>
+      <member refid="category_____g_e_n_e_r_i_c_s_07_n_s_array_object_type_08_1a210e209a25e1e0580dea9b6f8ddd3a8a" prot="public" virt="virtual"><scope>__GENERICS(NSArrayObjectType)</scope><name>bk_apply:</name></member>
+      <member refid="category_____g_e_n_e_r_i_c_s_07_n_s_array_object_type_08_1a5b1ee926c06c96047ec706f0e4f90e5a" prot="public" virt="virtual"><scope>__GENERICS(NSArrayObjectType)</scope><name>bk_compact:</name></member>
+      <member refid="category_____g_e_n_e_r_i_c_s_07_n_s_array_object_type_08_1ad8cbd64c758f5042933c0d831dbdd518" prot="public" virt="virtual"><scope>__GENERICS(NSArrayObjectType)</scope><name>bk_corresponds:withBlock:</name></member>
+      <member refid="category_____g_e_n_e_r_i_c_s_07_n_s_array_object_type_08_1af4e1aff2306ff0286502d59d9dff8419" prot="public" virt="virtual"><scope>__GENERICS(NSArrayObjectType)</scope><name>bk_each:</name></member>
+      <member refid="category_____g_e_n_e_r_i_c_s_07_n_s_array_object_type_08_1a92b3c19a48304e018c7bf704dd1e8cd0" prot="public" virt="virtual"><scope>__GENERICS(NSArrayObjectType)</scope><name>bk_map:</name></member>
+      <member refid="category_____g_e_n_e_r_i_c_s_07_n_s_array_object_type_08_1a72f3c04e0ef27eabbc0aa4fb2825fff2" prot="public" virt="virtual"><scope>__GENERICS(NSArrayObjectType)</scope><name>bk_match:</name></member>
+      <member refid="category_____g_e_n_e_r_i_c_s_07_n_s_array_object_type_08_1a2469ce0b855abb0a932515822309548e" prot="public" virt="virtual"><scope>__GENERICS(NSArrayObjectType)</scope><name>bk_none:</name></member>
+      <member refid="category_____g_e_n_e_r_i_c_s_07_n_s_array_object_type_08_1a20e7b3bc88bdeb5c1c80b2cec99b1737" prot="public" virt="virtual"><scope>__GENERICS(NSArrayObjectType)</scope><name>bk_reduce:withBlock:</name></member>
+      <member refid="category_____g_e_n_e_r_i_c_s_07_n_s_array_object_type_08_1ad77ca87b7db4b73fca304b5f32deccaf" prot="public" virt="virtual"><scope>__GENERICS(NSArrayObjectType)</scope><name>bk_reduceFloat:withBlock:</name></member>
+      <member refid="category_____g_e_n_e_r_i_c_s_07_n_s_array_object_type_08_1a43675716a17300e93c69afcba7c83254" prot="public" virt="virtual"><scope>__GENERICS(NSArrayObjectType)</scope><name>bk_reduceInteger:withBlock:</name></member>
+      <member refid="category_____g_e_n_e_r_i_c_s_07_n_s_array_object_type_08_1a4b1fd8447d17b82b9e7a4b818cb1def3" prot="public" virt="virtual"><scope>__GENERICS(NSArrayObjectType)</scope><name>bk_reject:</name></member>
+      <member refid="category_____g_e_n_e_r_i_c_s_07_n_s_array_object_type_08_1a3307bb2b2760578b493de1cc3701c27d" prot="public" virt="virtual"><scope>__GENERICS(NSArrayObjectType)</scope><name>bk_select:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

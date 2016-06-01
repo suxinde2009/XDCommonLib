@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_n_s_string_07_dictionary_value_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>NSString(DictionaryValue)</compoundname>
+    <includes refid="_n_s_string_09_dictionary_value_8h" local="no">NSString+DictionaryValue.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="category_n_s_string_07_dictionary_value_08_1aeed58b6b45fa2893b5578aef537c4d78" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSDictionary *</type>
+        <definition>NSDictionary * NSString(DictionaryValue)::dictionaryValue</definition>
+        <argsstring>()</argsstring>
+        <name>dictionaryValue</name>
+        <briefdescription>
+<para>JSON字符串转成NSDictionary. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>NSDictionary </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+DictionaryValue.h" line="36" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+DictionaryValue.m" bodystart="17" bodyend="27"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+DictionaryValue.m" line="11" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+DictionaryValue.m" bodystart="11" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_n_s_string_07_dictionary_value_08_1aeed58b6b45fa2893b5578aef537c4d78" prot="public" virt="virtual"><scope>NSString(DictionaryValue)</scope><name>dictionaryValue</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

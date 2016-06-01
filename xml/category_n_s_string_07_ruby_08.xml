@@ -1,0 +1,1231 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_n_s_string_07_ruby_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>NSString(Ruby)</compoundname>
+    <basecompoundref refid="protocol_concatenatable-p" prot="public" virt="non-virtual">&lt;Concatenatable&gt;</basecompoundref>
+    <includes refid="_n_s_string_09_ruby_8h" local="no">NSString+Ruby.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="category_n_s_string_07_ruby_08_1aeca4a866af5d362e15f22529bcac7a73" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString* NSString(Ruby):::</definition>
+        <argsstring>(NSObject *concat,[,]...)</argsstring>
+        <name>:</name>
+        <param>
+          <type>NSObject *</type>
+          <declname>concat</declname>
+        </param>
+        <param>
+          <attributes>[,]</attributes>
+          <type>...</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.h" line="36" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_string_07_ruby_08_1a15a7ada3f40fe0aca3a9ad75e28751e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * NSString(Ruby)::x:</definition>
+        <argsstring>(NSInteger mult)</argsstring>
+        <name>x:</name>
+        <param>
+          <type>NSInteger</type>
+          <declname>mult</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.h" line="36" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.m" bodystart="165" bodyend="171"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_string_07_ruby_08_1afe50f775e4827631cdee5517c6690be3" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString* NSString(Ruby)::</definition>
+        <argsstring>(NSInteger loc,[] NSInteger len)</argsstring>
+        <name></name>
+        <param>
+          <type>NSInteger</type>
+          <declname>loc</declname>
+        </param>
+        <param>
+          <attributes>[]</attributes>
+          <type>NSInteger</type>
+          <declname>len</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.h" line="36" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_string_07_ruby_08_1a5a5e8cb8b73111157aa4815022fa7233" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString* NSString(Ruby):::</definition>
+        <argsstring>(NSInteger start,[] char *shorthand,[] NSInteger end)</argsstring>
+        <name>:</name>
+        <param>
+          <type>NSInteger</type>
+          <declname>start</declname>
+        </param>
+        <param>
+          <attributes>[]</attributes>
+          <type>char *</type>
+          <declname>shorthand</declname>
+        </param>
+        <param>
+          <attributes>[]</attributes>
+          <type>NSInteger</type>
+          <declname>end</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.h" line="36" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_string_07_ruby_08_1afbbaf6ae573ae530e41dc5e9d98ed487" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void NSString(Ruby)::bytes:</definition>
+        <argsstring>(void(^block)(unichar))</argsstring>
+        <name>bytes:</name>
+        <param>
+          <type>void(^)(unichar)</type>
+          <declname>block</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.h" line="36" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.m" bodystart="196" bodyend="203"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_string_07_ruby_08_1ab945733969bd0a7621b5227cc375dc20" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * NSString(Ruby)::center:</definition>
+        <argsstring>(NSInteger amount)</argsstring>
+        <name>center:</name>
+        <param>
+          <type>NSInteger</type>
+          <declname>amount</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.h" line="36" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.m" bodystart="205" bodyend="207"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_string_07_ruby_08_1a30428421d748ce2a634eec19009e3f52" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * NSString(Ruby)::center:with:</definition>
+        <argsstring>(NSInteger amount,[with] NSString *padString)</argsstring>
+        <name>center:with:</name>
+        <param>
+          <type>NSInteger</type>
+          <declname>amount</declname>
+        </param>
+        <param>
+          <attributes>[with]</attributes>
+          <type>NSString *</type>
+          <declname>padString</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.h" line="36" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.m" bodystart="209" bodyend="222"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_string_07_ruby_08_1a289f27e30e02141da59182faaa9a4879" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void NSString(Ruby)::chars:</definition>
+        <argsstring>(void(^block)(unichar))</argsstring>
+        <name>chars:</name>
+        <param>
+          <type>void(^)(unichar)</type>
+          <declname>block</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.h" line="36" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.m" bodystart="224" bodyend="232"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_string_07_ruby_08_1a648d291be5e2ef28a925b92733761fd2" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * NSString(Ruby)::chomp</definition>
+        <argsstring>()</argsstring>
+        <name>chomp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.h" line="36" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.m" bodystart="234" bodyend="239"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_string_07_ruby_08_1af78f91dd303ea60c63efc3fb4fc77e66" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * NSString(Ruby)::chomp:</definition>
+        <argsstring>(NSString *string)</argsstring>
+        <name>chomp:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>string</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.h" line="36" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.m" bodystart="241" bodyend="247"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_string_07_ruby_08_1a4b41b3f52d9045d5f1f1fa36d28f9492" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * NSString(Ruby)::chop</definition>
+        <argsstring>()</argsstring>
+        <name>chop</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.h" line="36" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.m" bodystart="249" bodyend="251"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_string_07_ruby_08_1a1deab2f950218f7c223d53b9059b719f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * NSString(Ruby)::chr</definition>
+        <argsstring>()</argsstring>
+        <name>chr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.h" line="36" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.m" bodystart="253" bodyend="255"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_string_07_ruby_08_1a04480507d973e0b573ab866cf24ea53d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void NSString(Ruby)::codePoints:</definition>
+        <argsstring>(void(^block)(NSInteger))</argsstring>
+        <name>codePoints:</name>
+        <param>
+          <type>void(^)(NSInteger)</type>
+          <declname>block</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.h" line="36" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.m" bodystart="257" bodyend="265"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_string_07_ruby_08_1a7f12f44693a38999741a870e23d2f89f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * NSString(Ruby)::concat:</definition>
+        <argsstring>(id concat)</argsstring>
+        <name>concat:</name>
+        <param>
+          <type>id</type>
+          <declname>concat</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.h" line="36" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.m" bodystart="267" bodyend="269"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_string_07_ruby_08_1a8c517229594c7fc6a4edccdecbe4f30b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSInteger</type>
+        <definition>NSInteger NSString(Ruby)::count:</definition>
+        <argsstring>(NSString *setString,[,]...)</argsstring>
+        <name>count:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>setString</declname>
+        </param>
+        <param>
+          <attributes>[,]</attributes>
+          <type>...</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.h" line="36" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.m" bodystart="271" bodyend="281"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_string_07_ruby_08_1a71c86646293597b21c3c9d994cf1ae98" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * NSString(Ruby)::delete:</definition>
+        <argsstring>(NSString *first,[,]...)</argsstring>
+        <name>delete:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>first</declname>
+        </param>
+        <param>
+          <attributes>[,]</attributes>
+          <type>...</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.h" line="36" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.m" bodystart="283" bodyend="289"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_string_07_ruby_08_1a6b56268341593e0d9a065ff049fcfa6a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL NSString(Ruby)::endsWith:</definition>
+        <argsstring>(NSString *first,[,]...)</argsstring>
+        <name>endsWith:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>first</declname>
+        </param>
+        <param>
+          <attributes>[,]</attributes>
+          <type>...</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.h" line="36" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.m" bodystart="291" bodyend="301"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_string_07_ruby_08_1a57e1af22fee15afba55296ad6c34812e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>long</type>
+        <definition>long NSString(Ruby)::hex</definition>
+        <argsstring>()</argsstring>
+        <name>hex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.h" line="36" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.m" bodystart="303" bodyend="308"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_string_07_ruby_08_1aea87cef7035a9140a48f720034d0156f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL NSString(Ruby)::includes:</definition>
+        <argsstring>(NSString *include)</argsstring>
+        <name>includes:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>include</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.h" line="36" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.m" bodystart="310" bodyend="312"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_string_07_ruby_08_1a1af7c18730bd0c47be44a42009353230" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSInteger</type>
+        <definition>NSInteger NSString(Ruby)::index:</definition>
+        <argsstring>(NSString *pattern)</argsstring>
+        <name>index:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>pattern</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.h" line="36" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.m" bodystart="314" bodyend="316"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_string_07_ruby_08_1ade2528462ce2ce8dbf9ab843d7cd78ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSInteger</type>
+        <definition>NSInteger NSString(Ruby)::index:offset:</definition>
+        <argsstring>(NSString *pattern,[offset] NSInteger offset)</argsstring>
+        <name>index:offset:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>pattern</declname>
+        </param>
+        <param>
+          <attributes>[offset]</attributes>
+          <type>NSInteger</type>
+          <declname>offset</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.h" line="36" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.m" bodystart="318" bodyend="331"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_string_07_ruby_08_1a7dff037a34cc8ba1722fdb3f8821d8fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * NSString(Ruby)::insert:string:</definition>
+        <argsstring>(NSInteger index,[string] NSString *string)</argsstring>
+        <name>insert:string:</name>
+        <param>
+          <type>NSInteger</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <attributes>[string]</attributes>
+          <type>NSString *</type>
+          <declname>string</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.h" line="36" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.m" bodystart="333" bodyend="339"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_string_07_ruby_08_1a97d22dec22b9ee91ea066de6c86a5e5c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * NSString(Ruby)::inspect</definition>
+        <argsstring>()</argsstring>
+        <name>inspect</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.h" line="36" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.m" bodystart="341" bodyend="360"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_string_07_ruby_08_1a1234a5f043edc5eb05f685d523eee258" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL NSString(Ruby)::isASCII</definition>
+        <argsstring>()</argsstring>
+        <name>isASCII</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.h" line="36" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.m" bodystart="362" bodyend="373"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_string_07_ruby_08_1ab16c6123879199765c3f0275977fd49d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL NSString(Ruby)::isEmpty</definition>
+        <argsstring>()</argsstring>
+        <name>isEmpty</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.h" line="36" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.m" bodystart="375" bodyend="377"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_string_07_ruby_08_1ab6c3728548db1b4a49a2b9f2f2b166a0" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSInteger</type>
+        <definition>NSInteger NSString(Ruby)::lastIndex:</definition>
+        <argsstring>(NSString *pattern)</argsstring>
+        <name>lastIndex:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>pattern</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.h" line="36" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.m" bodystart="379" bodyend="381"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_string_07_ruby_08_1a2669bce5f11d51680749e578bf063886" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSInteger</type>
+        <definition>NSInteger NSString(Ruby)::lastIndex:offset:</definition>
+        <argsstring>(NSString *pattern,[offset] NSInteger offset)</argsstring>
+        <name>lastIndex:offset:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>pattern</declname>
+        </param>
+        <param>
+          <attributes>[offset]</attributes>
+          <type>NSInteger</type>
+          <declname>offset</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.h" line="36" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.m" bodystart="383" bodyend="394"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_string_07_ruby_08_1aa3b3f70bc7dc7099da05623e3ce8380c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * NSString(Ruby)::leftJustify:</definition>
+        <argsstring>(NSInteger amount)</argsstring>
+        <name>leftJustify:</name>
+        <param>
+          <type>NSInteger</type>
+          <declname>amount</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.h" line="36" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.m" bodystart="396" bodyend="398"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_string_07_ruby_08_1aab843278d0ea51b4eae6dd8aa8e518d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * NSString(Ruby)::leftJustify:with:</definition>
+        <argsstring>(NSInteger amount,[with] NSString *padString)</argsstring>
+        <name>leftJustify:with:</name>
+        <param>
+          <type>NSInteger</type>
+          <declname>amount</declname>
+        </param>
+        <param>
+          <attributes>[with]</attributes>
+          <type>NSString *</type>
+          <declname>padString</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.h" line="36" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.m" bodystart="400" bodyend="412"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_string_07_ruby_08_1aae6b68d89b1ef5769dcea465f828ce93" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * NSString(Ruby)::leftStrip</definition>
+        <argsstring>()</argsstring>
+        <name>leftStrip</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.h" line="36" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.m" bodystart="414" bodyend="421"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_string_07_ruby_08_1af21739e03ec0687825a2c445ee3d9048" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void NSString(Ruby)::lines:</definition>
+        <argsstring>(void(^block)(NSString *))</argsstring>
+        <name>lines:</name>
+        <param>
+          <type>void(^)(NSString *)</type>
+          <declname>block</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.h" line="36" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.m" bodystart="423" bodyend="425"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_string_07_ruby_08_1a56b4c64c3f7912b4c5d6fca4bb3df039" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void NSString(Ruby)::lines:separator:</definition>
+        <argsstring>(void(^block)(NSString *),[separator] NSString *separator)</argsstring>
+        <name>lines:separator:</name>
+        <param>
+          <type>void(^)(NSString *)</type>
+          <declname>block</declname>
+        </param>
+        <param>
+          <attributes>[separator]</attributes>
+          <type>NSString *</type>
+          <declname>separator</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.h" line="36" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.m" bodystart="427" bodyend="432"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_string_07_ruby_08_1ac3093bf268001a65457a75c44647234c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSArray *</type>
+        <definition>NSArray * NSString(Ruby)::match:</definition>
+        <argsstring>(NSString *pattern)</argsstring>
+        <name>match:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>pattern</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.h" line="36" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.m" bodystart="434" bodyend="436"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_string_07_ruby_08_1a60ee599f4d8246b6c890365ea35631aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSArray *</type>
+        <definition>NSArray * NSString(Ruby)::match:offset:</definition>
+        <argsstring>(NSString *pattern,[offset] NSInteger offset)</argsstring>
+        <name>match:offset:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>pattern</declname>
+        </param>
+        <param>
+          <attributes>[offset]</attributes>
+          <type>NSInteger</type>
+          <declname>offset</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.h" line="36" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.m" bodystart="438" bodyend="460"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_string_07_ruby_08_1aa4feb0207c17c99d6c53f098bb1a7e5a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSInteger</type>
+        <definition>NSInteger NSString(Ruby)::occurencesOf:</definition>
+        <argsstring>(NSString *subString)</argsstring>
+        <name>occurencesOf:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>subString</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.h" line="36" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.m" bodystart="462" bodyend="475"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_string_07_ruby_08_1a7d37720c2222ce804fdb6ca29d87f8f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>long</type>
+        <definition>long NSString(Ruby)::octal</definition>
+        <argsstring>()</argsstring>
+        <name>octal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.h" line="36" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.m" bodystart="477" bodyend="480"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_string_07_ruby_08_1a6097bae77a164881e54b8f9c69cd64a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSInteger</type>
+        <definition>NSInteger NSString(Ruby)::ordinal</definition>
+        <argsstring>()</argsstring>
+        <name>ordinal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.h" line="36" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.m" bodystart="482" bodyend="484"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_string_07_ruby_08_1ace3685404ba28c4e6da19a445d40a9e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSArray *</type>
+        <definition>NSArray * NSString(Ruby)::partition:</definition>
+        <argsstring>(NSString *pattern)</argsstring>
+        <name>partition:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>pattern</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.h" line="36" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.m" bodystart="486" bodyend="503"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_string_07_ruby_08_1a1b761d85035969f4321fd835ad55822c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * NSString(Ruby)::prepend:</definition>
+        <argsstring>(NSString *prefix)</argsstring>
+        <name>prepend:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>prefix</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.h" line="36" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.m" bodystart="505" bodyend="507"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_string_07_ruby_08_1a2db0eec8686b09fc895cd7d7c0c1cd5a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSRange</type>
+        <definition>NSRange NSString(Ruby)::range</definition>
+        <argsstring>()</argsstring>
+        <name>range</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.h" line="36" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.m" bodystart="509" bodyend="511"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_string_07_ruby_08_1a86fec7f0d900b1f3ab8cf5f3627aeb5b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * NSString(Ruby)::reverse</definition>
+        <argsstring>()</argsstring>
+        <name>reverse</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.h" line="36" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.m" bodystart="513" bodyend="520"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_string_07_ruby_08_1aee0113592f2506bb0c7a195cfb9d0f8e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSInteger</type>
+        <definition>NSInteger NSString(Ruby)::rightIndex:</definition>
+        <argsstring>(NSString *pattern)</argsstring>
+        <name>rightIndex:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>pattern</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.h" line="36" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.m" bodystart="522" bodyend="524"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_string_07_ruby_08_1aae565b73339f11390c76b9692354a119" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSInteger</type>
+        <definition>NSInteger NSString(Ruby)::rightIndex:offset:</definition>
+        <argsstring>(NSString *pattern,[offset] NSInteger offset)</argsstring>
+        <name>rightIndex:offset:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>pattern</declname>
+        </param>
+        <param>
+          <attributes>[offset]</attributes>
+          <type>NSInteger</type>
+          <declname>offset</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.h" line="36" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.m" bodystart="526" bodyend="539"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_string_07_ruby_08_1ad557b9259cef8d32d5d46b2821b07f4f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * NSString(Ruby)::rightJustify:</definition>
+        <argsstring>(NSInteger amount)</argsstring>
+        <name>rightJustify:</name>
+        <param>
+          <type>NSInteger</type>
+          <declname>amount</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.h" line="36" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.m" bodystart="541" bodyend="543"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_string_07_ruby_08_1a03e272e21e5ac2c5062244b1fbdbab37" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * NSString(Ruby)::rightJustify:with:</definition>
+        <argsstring>(NSInteger amount,[with] NSString *padString)</argsstring>
+        <name>rightJustify:with:</name>
+        <param>
+          <type>NSInteger</type>
+          <declname>amount</declname>
+        </param>
+        <param>
+          <attributes>[with]</attributes>
+          <type>NSString *</type>
+          <declname>padString</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.h" line="36" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.m" bodystart="545" bodyend="550"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_string_07_ruby_08_1a3839c36081e4331072238bf065b5d096" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSArray *</type>
+        <definition>NSArray * NSString(Ruby)::rightPartition:</definition>
+        <argsstring>(NSString *pattern)</argsstring>
+        <name>rightPartition:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>pattern</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.h" line="36" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.m" bodystart="552" bodyend="569"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_string_07_ruby_08_1a1bc44701016b0fcceadb663d4d4a56a1" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * NSString(Ruby)::rightStrip</definition>
+        <argsstring>()</argsstring>
+        <name>rightStrip</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.h" line="36" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.m" bodystart="571" bodyend="578"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_string_07_ruby_08_1ae0e978a8f7f824a21b45aad17174e99f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSArray *</type>
+        <definition>NSArray * NSString(Ruby)::scan:</definition>
+        <argsstring>(NSString *pattern)</argsstring>
+        <name>scan:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>pattern</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.h" line="36" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.m" bodystart="580" bodyend="594"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_string_07_ruby_08_1a06cafd4f6e04c13cda6a220a71333412" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>BOOL</type>
+        <definition>BOOL NSString(Ruby)::startsWith:</definition>
+        <argsstring>(NSString *first,[,]...)</argsstring>
+        <name>startsWith:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>first</declname>
+        </param>
+        <param>
+          <attributes>[,]</attributes>
+          <type>...</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.h" line="36" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.m" bodystart="596" bodyend="605"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_string_07_ruby_08_1ad3b4b60edc13e328186e390bff9f5a3e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * NSString(Ruby)::strip</definition>
+        <argsstring>()</argsstring>
+        <name>strip</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.h" line="36" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.m" bodystart="607" bodyend="609"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_string_07_ruby_08_1a4753cf32665d301a03313d6f311bdd2a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSArray *</type>
+        <definition>NSArray * NSString(Ruby)::split</definition>
+        <argsstring>()</argsstring>
+        <name>split</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.h" line="36" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.m" bodystart="611" bodyend="613"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_string_07_ruby_08_1a815ea743701f5b05d1c6c6a1e7231e3a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSArray *</type>
+        <definition>NSArray * NSString(Ruby)::split:</definition>
+        <argsstring>(NSString *pattern)</argsstring>
+        <name>split:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>pattern</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.h" line="36" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.m" bodystart="615" bodyend="617"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_string_07_ruby_08_1a302f90211e24788f25156b876a29ca4d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSArray *</type>
+        <definition>NSArray * NSString(Ruby)::split:limit:</definition>
+        <argsstring>(NSString *pattern,[limit] NSInteger limit)</argsstring>
+        <name>split:limit:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>pattern</declname>
+        </param>
+        <param>
+          <attributes>[limit]</attributes>
+          <type>NSInteger</type>
+          <declname>limit</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.h" line="36" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.m" bodystart="619" bodyend="666"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_string_07_ruby_08_1a04c55cfca941c8747ff6e2f8d5438531" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * NSString(Ruby)::squeeze</definition>
+        <argsstring>()</argsstring>
+        <name>squeeze</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.h" line="36" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.m" bodystart="668" bodyend="670"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_string_07_ruby_08_1a3cc1ba68e2c89342265b754d2899e501" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * NSString(Ruby)::squeeze:</definition>
+        <argsstring>(NSString *pattern)</argsstring>
+        <name>squeeze:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>pattern</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.h" line="36" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.m" bodystart="672" bodyend="690"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_string_07_ruby_08_1a1294863ecc573d7d2aaf79a3945327b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * NSString(Ruby)::substituteFirst:with:</definition>
+        <argsstring>(NSString *pattern,[with] NSString *sub)</argsstring>
+        <name>substituteFirst:with:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>pattern</declname>
+        </param>
+        <param>
+          <attributes>[with]</attributes>
+          <type>NSString *</type>
+          <declname>sub</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.h" line="36" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.m" bodystart="692" bodyend="703"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_string_07_ruby_08_1a33d253a0721f5f0a6a8dfe2b06cc0bbf" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * NSString(Ruby)::substituteLast:with:</definition>
+        <argsstring>(NSString *pattern,[with] NSString *sub)</argsstring>
+        <name>substituteLast:with:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>pattern</declname>
+        </param>
+        <param>
+          <attributes>[with]</attributes>
+          <type>NSString *</type>
+          <declname>sub</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.h" line="36" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.m" bodystart="705" bodyend="716"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_string_07_ruby_08_1a683de1e4da7fdc6fa6eb599469eb418f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * NSString(Ruby)::substituteAll:</definition>
+        <argsstring>(NSDictionary *subDictionary)</argsstring>
+        <name>substituteAll:</name>
+        <param>
+          <type>NSDictionary *</type>
+          <declname>subDictionary</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.h" line="36" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.m" bodystart="718" bodyend="726"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_string_07_ruby_08_1a43293c2e5d5075ea32dea622609ac4dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * NSString(Ruby)::substituteAll:with:</definition>
+        <argsstring>(NSString *pattern,[with] NSString *sub)</argsstring>
+        <name>substituteAll:with:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>pattern</declname>
+        </param>
+        <param>
+          <attributes>[with]</attributes>
+          <type>NSString *</type>
+          <declname>sub</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.h" line="36" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.m" bodystart="728" bodyend="741"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_string_07_ruby_08_1ac0d413bba0f5c657eae5f3aa81435ca9" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSInteger</type>
+        <definition>NSInteger NSString(Ruby)::sum</definition>
+        <argsstring>()</argsstring>
+        <name>sum</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.h" line="36" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.m" bodystart="743" bodyend="745"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_string_07_ruby_08_1ad9c41d4c88f4f956538abde44f8e3e8e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSInteger</type>
+        <definition>NSInteger NSString(Ruby)::sum:</definition>
+        <argsstring>(NSInteger bit)</argsstring>
+        <name>sum:</name>
+        <param>
+          <type>NSInteger</type>
+          <declname>bit</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.h" line="36" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.m" bodystart="747" bodyend="753"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_string_07_ruby_08_1aa04475f7a211698b150aa598ac530a7a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * NSString(Ruby)::swapcase</definition>
+        <argsstring>()</argsstring>
+        <name>swapcase</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.h" line="36" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.m" bodystart="755" bodyend="765"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_string_07_ruby_08_1a23663167f32973188004b6de56292f73" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>id</type>
+        <definition>id NSString(Ruby)::objectAtIndexedSubscript:</definition>
+        <argsstring>(NSUInteger index)</argsstring>
+        <name>objectAtIndexedSubscript:</name>
+        <param>
+          <type>NSUInteger</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.h" line="36" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.m" bodystart="769" bodyend="774"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_string_07_ruby_08_1acdac6e78447f10a2b1cb4034ee98eebd" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>id</type>
+        <definition>id NSString(Ruby)::objectForKeyedSubscript:</definition>
+        <argsstring>(id key)</argsstring>
+        <name>objectForKeyedSubscript:</name>
+        <param>
+          <type>id</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.h" line="36" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.m" bodystart="776" bodyend="794"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="615">
+        <label>&lt;Concatenatable&gt;</label>
+        <link refid="protocol_concatenatable-p"/>
+        <childnode refid="616" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="616">
+        <label>&lt;NSObject&gt;</label>
+      </node>
+      <node id="614">
+        <label>NSString(Ruby)</label>
+        <link refid="category_n_s_string_07_ruby_08"/>
+        <childnode refid="615" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="618">
+        <label>&lt;Concatenatable&gt;</label>
+        <link refid="protocol_concatenatable-p"/>
+        <childnode refid="619" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="619">
+        <label>&lt;NSObject&gt;</label>
+      </node>
+      <node id="617">
+        <label>NSString(Ruby)</label>
+        <link refid="category_n_s_string_07_ruby_08"/>
+        <childnode refid="618" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.h" line="20" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+Ruby.h" bodystart="20" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_n_s_string_07_ruby_08_1aeca4a866af5d362e15f22529bcac7a73" prot="public" virt="virtual"><scope>NSString(Ruby)</scope><name>:</name></member>
+      <member refid="category_n_s_string_07_ruby_08_1a5a5e8cb8b73111157aa4815022fa7233" prot="public" virt="virtual"><scope>NSString(Ruby)</scope><name>:</name></member>
+      <member refid="category_n_s_string_07_ruby_08_1afbbaf6ae573ae530e41dc5e9d98ed487" prot="public" virt="virtual"><scope>NSString(Ruby)</scope><name>bytes:</name></member>
+      <member refid="category_n_s_string_07_ruby_08_1ab945733969bd0a7621b5227cc375dc20" prot="public" virt="virtual"><scope>NSString(Ruby)</scope><name>center:</name></member>
+      <member refid="category_n_s_string_07_ruby_08_1a30428421d748ce2a634eec19009e3f52" prot="public" virt="virtual"><scope>NSString(Ruby)</scope><name>center:with:</name></member>
+      <member refid="category_n_s_string_07_ruby_08_1a289f27e30e02141da59182faaa9a4879" prot="public" virt="virtual"><scope>NSString(Ruby)</scope><name>chars:</name></member>
+      <member refid="category_n_s_string_07_ruby_08_1a648d291be5e2ef28a925b92733761fd2" prot="public" virt="virtual"><scope>NSString(Ruby)</scope><name>chomp</name></member>
+      <member refid="category_n_s_string_07_ruby_08_1af78f91dd303ea60c63efc3fb4fc77e66" prot="public" virt="virtual"><scope>NSString(Ruby)</scope><name>chomp:</name></member>
+      <member refid="category_n_s_string_07_ruby_08_1a4b41b3f52d9045d5f1f1fa36d28f9492" prot="public" virt="virtual"><scope>NSString(Ruby)</scope><name>chop</name></member>
+      <member refid="category_n_s_string_07_ruby_08_1a1deab2f950218f7c223d53b9059b719f" prot="public" virt="virtual"><scope>NSString(Ruby)</scope><name>chr</name></member>
+      <member refid="category_n_s_string_07_ruby_08_1a04480507d973e0b573ab866cf24ea53d" prot="public" virt="virtual"><scope>NSString(Ruby)</scope><name>codePoints:</name></member>
+      <member refid="category_n_s_string_07_ruby_08_1a7f12f44693a38999741a870e23d2f89f" prot="public" virt="virtual"><scope>NSString(Ruby)</scope><name>concat:</name></member>
+      <member refid="category_n_s_string_07_ruby_08_1a8c517229594c7fc6a4edccdecbe4f30b" prot="public" virt="virtual"><scope>NSString(Ruby)</scope><name>count:</name></member>
+      <member refid="category_n_s_string_07_ruby_08_1a71c86646293597b21c3c9d994cf1ae98" prot="public" virt="virtual"><scope>NSString(Ruby)</scope><name>delete:</name></member>
+      <member refid="category_n_s_string_07_ruby_08_1a6b56268341593e0d9a065ff049fcfa6a" prot="public" virt="virtual"><scope>NSString(Ruby)</scope><name>endsWith:</name></member>
+      <member refid="category_n_s_string_07_ruby_08_1a57e1af22fee15afba55296ad6c34812e" prot="public" virt="virtual"><scope>NSString(Ruby)</scope><name>hex</name></member>
+      <member refid="category_n_s_string_07_ruby_08_1aea87cef7035a9140a48f720034d0156f" prot="public" virt="virtual"><scope>NSString(Ruby)</scope><name>includes:</name></member>
+      <member refid="category_n_s_string_07_ruby_08_1a1af7c18730bd0c47be44a42009353230" prot="public" virt="virtual"><scope>NSString(Ruby)</scope><name>index:</name></member>
+      <member refid="category_n_s_string_07_ruby_08_1ade2528462ce2ce8dbf9ab843d7cd78ad" prot="public" virt="virtual"><scope>NSString(Ruby)</scope><name>index:offset:</name></member>
+      <member refid="category_n_s_string_07_ruby_08_1a7dff037a34cc8ba1722fdb3f8821d8fe" prot="public" virt="virtual"><scope>NSString(Ruby)</scope><name>insert:string:</name></member>
+      <member refid="category_n_s_string_07_ruby_08_1a97d22dec22b9ee91ea066de6c86a5e5c" prot="public" virt="virtual"><scope>NSString(Ruby)</scope><name>inspect</name></member>
+      <member refid="category_n_s_string_07_ruby_08_1a1234a5f043edc5eb05f685d523eee258" prot="public" virt="virtual"><scope>NSString(Ruby)</scope><name>isASCII</name></member>
+      <member refid="category_n_s_string_07_ruby_08_1ab16c6123879199765c3f0275977fd49d" prot="public" virt="virtual"><scope>NSString(Ruby)</scope><name>isEmpty</name></member>
+      <member refid="category_n_s_string_07_ruby_08_1ab6c3728548db1b4a49a2b9f2f2b166a0" prot="public" virt="virtual"><scope>NSString(Ruby)</scope><name>lastIndex:</name></member>
+      <member refid="category_n_s_string_07_ruby_08_1a2669bce5f11d51680749e578bf063886" prot="public" virt="virtual"><scope>NSString(Ruby)</scope><name>lastIndex:offset:</name></member>
+      <member refid="category_n_s_string_07_ruby_08_1aa3b3f70bc7dc7099da05623e3ce8380c" prot="public" virt="virtual"><scope>NSString(Ruby)</scope><name>leftJustify:</name></member>
+      <member refid="category_n_s_string_07_ruby_08_1aab843278d0ea51b4eae6dd8aa8e518d4" prot="public" virt="virtual"><scope>NSString(Ruby)</scope><name>leftJustify:with:</name></member>
+      <member refid="category_n_s_string_07_ruby_08_1aae6b68d89b1ef5769dcea465f828ce93" prot="public" virt="virtual"><scope>NSString(Ruby)</scope><name>leftStrip</name></member>
+      <member refid="category_n_s_string_07_ruby_08_1af21739e03ec0687825a2c445ee3d9048" prot="public" virt="virtual"><scope>NSString(Ruby)</scope><name>lines:</name></member>
+      <member refid="category_n_s_string_07_ruby_08_1a56b4c64c3f7912b4c5d6fca4bb3df039" prot="public" virt="virtual"><scope>NSString(Ruby)</scope><name>lines:separator:</name></member>
+      <member refid="category_n_s_string_07_ruby_08_1ac3093bf268001a65457a75c44647234c" prot="public" virt="virtual"><scope>NSString(Ruby)</scope><name>match:</name></member>
+      <member refid="category_n_s_string_07_ruby_08_1a60ee599f4d8246b6c890365ea35631aa" prot="public" virt="virtual"><scope>NSString(Ruby)</scope><name>match:offset:</name></member>
+      <member refid="category_n_s_string_07_ruby_08_1a23663167f32973188004b6de56292f73" prot="public" virt="virtual"><scope>NSString(Ruby)</scope><name>objectAtIndexedSubscript:</name></member>
+      <member refid="category_n_s_string_07_ruby_08_1acdac6e78447f10a2b1cb4034ee98eebd" prot="public" virt="virtual"><scope>NSString(Ruby)</scope><name>objectForKeyedSubscript:</name></member>
+      <member refid="category_n_s_string_07_ruby_08_1aa4feb0207c17c99d6c53f098bb1a7e5a" prot="public" virt="virtual"><scope>NSString(Ruby)</scope><name>occurencesOf:</name></member>
+      <member refid="category_n_s_string_07_ruby_08_1a7d37720c2222ce804fdb6ca29d87f8f3" prot="public" virt="virtual"><scope>NSString(Ruby)</scope><name>octal</name></member>
+      <member refid="category_n_s_string_07_ruby_08_1a6097bae77a164881e54b8f9c69cd64a7" prot="public" virt="virtual"><scope>NSString(Ruby)</scope><name>ordinal</name></member>
+      <member refid="category_n_s_string_07_ruby_08_1ace3685404ba28c4e6da19a445d40a9e8" prot="public" virt="virtual"><scope>NSString(Ruby)</scope><name>partition:</name></member>
+      <member refid="category_n_s_string_07_ruby_08_1a1b761d85035969f4321fd835ad55822c" prot="public" virt="virtual"><scope>NSString(Ruby)</scope><name>prepend:</name></member>
+      <member refid="category_n_s_string_07_ruby_08_1a2db0eec8686b09fc895cd7d7c0c1cd5a" prot="public" virt="virtual"><scope>NSString(Ruby)</scope><name>range</name></member>
+      <member refid="category_n_s_string_07_ruby_08_1a86fec7f0d900b1f3ab8cf5f3627aeb5b" prot="public" virt="virtual"><scope>NSString(Ruby)</scope><name>reverse</name></member>
+      <member refid="category_n_s_string_07_ruby_08_1aee0113592f2506bb0c7a195cfb9d0f8e" prot="public" virt="virtual"><scope>NSString(Ruby)</scope><name>rightIndex:</name></member>
+      <member refid="category_n_s_string_07_ruby_08_1aae565b73339f11390c76b9692354a119" prot="public" virt="virtual"><scope>NSString(Ruby)</scope><name>rightIndex:offset:</name></member>
+      <member refid="category_n_s_string_07_ruby_08_1ad557b9259cef8d32d5d46b2821b07f4f" prot="public" virt="virtual"><scope>NSString(Ruby)</scope><name>rightJustify:</name></member>
+      <member refid="category_n_s_string_07_ruby_08_1a03e272e21e5ac2c5062244b1fbdbab37" prot="public" virt="virtual"><scope>NSString(Ruby)</scope><name>rightJustify:with:</name></member>
+      <member refid="category_n_s_string_07_ruby_08_1a3839c36081e4331072238bf065b5d096" prot="public" virt="virtual"><scope>NSString(Ruby)</scope><name>rightPartition:</name></member>
+      <member refid="category_n_s_string_07_ruby_08_1a1bc44701016b0fcceadb663d4d4a56a1" prot="public" virt="virtual"><scope>NSString(Ruby)</scope><name>rightStrip</name></member>
+      <member refid="category_n_s_string_07_ruby_08_1ae0e978a8f7f824a21b45aad17174e99f" prot="public" virt="virtual"><scope>NSString(Ruby)</scope><name>scan:</name></member>
+      <member refid="category_n_s_string_07_ruby_08_1a4753cf32665d301a03313d6f311bdd2a" prot="public" virt="virtual"><scope>NSString(Ruby)</scope><name>split</name></member>
+      <member refid="category_n_s_string_07_ruby_08_1a815ea743701f5b05d1c6c6a1e7231e3a" prot="public" virt="virtual"><scope>NSString(Ruby)</scope><name>split:</name></member>
+      <member refid="category_n_s_string_07_ruby_08_1a302f90211e24788f25156b876a29ca4d" prot="public" virt="virtual"><scope>NSString(Ruby)</scope><name>split:limit:</name></member>
+      <member refid="category_n_s_string_07_ruby_08_1a04c55cfca941c8747ff6e2f8d5438531" prot="public" virt="virtual"><scope>NSString(Ruby)</scope><name>squeeze</name></member>
+      <member refid="category_n_s_string_07_ruby_08_1a3cc1ba68e2c89342265b754d2899e501" prot="public" virt="virtual"><scope>NSString(Ruby)</scope><name>squeeze:</name></member>
+      <member refid="category_n_s_string_07_ruby_08_1a06cafd4f6e04c13cda6a220a71333412" prot="public" virt="virtual"><scope>NSString(Ruby)</scope><name>startsWith:</name></member>
+      <member refid="category_n_s_string_07_ruby_08_1ad3b4b60edc13e328186e390bff9f5a3e" prot="public" virt="virtual"><scope>NSString(Ruby)</scope><name>strip</name></member>
+      <member refid="category_n_s_string_07_ruby_08_1a683de1e4da7fdc6fa6eb599469eb418f" prot="public" virt="virtual"><scope>NSString(Ruby)</scope><name>substituteAll:</name></member>
+      <member refid="category_n_s_string_07_ruby_08_1a43293c2e5d5075ea32dea622609ac4dd" prot="public" virt="virtual"><scope>NSString(Ruby)</scope><name>substituteAll:with:</name></member>
+      <member refid="category_n_s_string_07_ruby_08_1a1294863ecc573d7d2aaf79a3945327b7" prot="public" virt="virtual"><scope>NSString(Ruby)</scope><name>substituteFirst:with:</name></member>
+      <member refid="category_n_s_string_07_ruby_08_1a33d253a0721f5f0a6a8dfe2b06cc0bbf" prot="public" virt="virtual"><scope>NSString(Ruby)</scope><name>substituteLast:with:</name></member>
+      <member refid="category_n_s_string_07_ruby_08_1ac0d413bba0f5c657eae5f3aa81435ca9" prot="public" virt="virtual"><scope>NSString(Ruby)</scope><name>sum</name></member>
+      <member refid="category_n_s_string_07_ruby_08_1ad9c41d4c88f4f956538abde44f8e3e8e" prot="public" virt="virtual"><scope>NSString(Ruby)</scope><name>sum:</name></member>
+      <member refid="category_n_s_string_07_ruby_08_1aa04475f7a211698b150aa598ac530a7a" prot="public" virt="virtual"><scope>NSString(Ruby)</scope><name>swapcase</name></member>
+      <member refid="category_n_s_string_07_ruby_08_1a15a7ada3f40fe0aca3a9ad75e28751e9" prot="public" virt="virtual"><scope>NSString(Ruby)</scope><name>x:</name></member>
+      <member refid="category_n_s_string_07_ruby_08_1afe50f775e4827631cdee5517c6690be3" prot="public" virt="virtual"><scope>NSString(Ruby)</scope><name></name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

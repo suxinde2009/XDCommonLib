@@ -1,0 +1,214 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_n_s_data_07_low_level_common_cryptor_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>NSData(LowLevelCommonCryptor)</compoundname>
+    <includes refid="_n_s_data_09_x_d___encrypt___common___crypto_8h" local="no">NSData+XD_Encrypt_Common_Crypto.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="category_n_s_data_07_low_level_common_cryptor_08_1abe2c2b3dbb4e6e5040f45dccb8acf362" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSData *</type>
+        <definition>NSData * NSData(LowLevelCommonCryptor)::dataEncryptedUsingAlgorithm:key:error:</definition>
+        <argsstring>(CCAlgorithm algorithm,[key] id key,[error] CCCryptorStatus *error)</argsstring>
+        <name>dataEncryptedUsingAlgorithm:key:error:</name>
+        <param>
+          <type>CCAlgorithm</type>
+          <declname>algorithm</declname>
+        </param>
+        <param>
+          <attributes>[key]</attributes>
+          <type>id</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <attributes>[error]</attributes>
+          <type>CCCryptorStatus *</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/EncryptUtils/EncryptBase/NSData+XD_Encrypt_Common_Crypto.h" line="14" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/EncryptUtils/EncryptBase/NSData+XD_Encrypt_Common_Crypto.m" bodystart="383" bodyend="392"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_data_07_low_level_common_cryptor_08_1a2d241a04a628e68fac729da83bf7d0e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSData *</type>
+        <definition>NSData * NSData(LowLevelCommonCryptor)::dataEncryptedUsingAlgorithm:key:options:error:</definition>
+        <argsstring>(CCAlgorithm algorithm,[key] id key,[options] CCOptions options,[error] CCCryptorStatus *error)</argsstring>
+        <name>dataEncryptedUsingAlgorithm:key:options:error:</name>
+        <param>
+          <type>CCAlgorithm</type>
+          <declname>algorithm</declname>
+        </param>
+        <param>
+          <attributes>[key]</attributes>
+          <type>id</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <attributes>[options]</attributes>
+          <type>CCOptions</type>
+          <declname>options</declname>
+        </param>
+        <param>
+          <attributes>[error]</attributes>
+          <type>CCCryptorStatus *</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/EncryptUtils/EncryptBase/NSData+XD_Encrypt_Common_Crypto.h" line="14" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/EncryptUtils/EncryptBase/NSData+XD_Encrypt_Common_Crypto.m" bodystart="394" bodyend="404"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_data_07_low_level_common_cryptor_08_1a823290ee40d27353fd5ee4cb8b05352e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSData *</type>
+        <definition>NSData * NSData(LowLevelCommonCryptor)::dataEncryptedUsingAlgorithm:key:initializationVector:options:error:</definition>
+        <argsstring>(CCAlgorithm algorithm,[key] id key,[initializationVector] id iv,[options] CCOptions options,[error] CCCryptorStatus *error)</argsstring>
+        <name>dataEncryptedUsingAlgorithm:key:initializationVector:options:error:</name>
+        <param>
+          <type>CCAlgorithm</type>
+          <declname>algorithm</declname>
+        </param>
+        <param>
+          <attributes>[key]</attributes>
+          <type>id</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <attributes>[initializationVector]</attributes>
+          <type>id</type>
+          <declname>iv</declname>
+        </param>
+        <param>
+          <attributes>[options]</attributes>
+          <type>CCOptions</type>
+          <declname>options</declname>
+        </param>
+        <param>
+          <attributes>[error]</attributes>
+          <type>CCCryptorStatus *</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/EncryptUtils/EncryptBase/NSData+XD_Encrypt_Common_Crypto.h" line="14" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/EncryptUtils/EncryptBase/NSData+XD_Encrypt_Common_Crypto.m" bodystart="406" bodyend="454"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_data_07_low_level_common_cryptor_08_1afeeb8e76639f23ce1e341973b3614305" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSData *</type>
+        <definition>NSData * NSData(LowLevelCommonCryptor)::decryptedDataUsingAlgorithm:key:error:</definition>
+        <argsstring>(CCAlgorithm algorithm,[key] id key,[error] CCCryptorStatus *error)</argsstring>
+        <name>decryptedDataUsingAlgorithm:key:error:</name>
+        <param>
+          <type>CCAlgorithm</type>
+          <declname>algorithm</declname>
+        </param>
+        <param>
+          <attributes>[key]</attributes>
+          <type>id</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <attributes>[error]</attributes>
+          <type>CCCryptorStatus *</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/EncryptUtils/EncryptBase/NSData+XD_Encrypt_Common_Crypto.h" line="14" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/EncryptUtils/EncryptBase/NSData+XD_Encrypt_Common_Crypto.m" bodystart="456" bodyend="465"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_data_07_low_level_common_cryptor_08_1ac10dda5a04b977540f1295690427d843" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSData *</type>
+        <definition>NSData * NSData(LowLevelCommonCryptor)::decryptedDataUsingAlgorithm:key:options:error:</definition>
+        <argsstring>(CCAlgorithm algorithm,[key] id key,[options] CCOptions options,[error] CCCryptorStatus *error)</argsstring>
+        <name>decryptedDataUsingAlgorithm:key:options:error:</name>
+        <param>
+          <type>CCAlgorithm</type>
+          <declname>algorithm</declname>
+        </param>
+        <param>
+          <attributes>[key]</attributes>
+          <type>id</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <attributes>[options]</attributes>
+          <type>CCOptions</type>
+          <declname>options</declname>
+        </param>
+        <param>
+          <attributes>[error]</attributes>
+          <type>CCCryptorStatus *</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/EncryptUtils/EncryptBase/NSData+XD_Encrypt_Common_Crypto.h" line="14" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/EncryptUtils/EncryptBase/NSData+XD_Encrypt_Common_Crypto.m" bodystart="467" bodyend="477"/>
+      </memberdef>
+      <memberdef kind="function" id="category_n_s_data_07_low_level_common_cryptor_08_1a4c38c059558971156ab44773eac7840c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSData *</type>
+        <definition>NSData * NSData(LowLevelCommonCryptor)::decryptedDataUsingAlgorithm:key:initializationVector:options:error:</definition>
+        <argsstring>(CCAlgorithm algorithm,[key] id key,[initializationVector] id iv,[options] CCOptions options,[error] CCCryptorStatus *error)</argsstring>
+        <name>decryptedDataUsingAlgorithm:key:initializationVector:options:error:</name>
+        <param>
+          <type>CCAlgorithm</type>
+          <declname>algorithm</declname>
+        </param>
+        <param>
+          <attributes>[key]</attributes>
+          <type>id</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <attributes>[initializationVector]</attributes>
+          <type>id</type>
+          <declname>iv</declname>
+        </param>
+        <param>
+          <attributes>[options]</attributes>
+          <type>CCOptions</type>
+          <declname>options</declname>
+        </param>
+        <param>
+          <attributes>[error]</attributes>
+          <type>CCCryptorStatus *</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/EncryptUtils/EncryptBase/NSData+XD_Encrypt_Common_Crypto.h" line="14" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/EncryptUtils/EncryptBase/NSData+XD_Encrypt_Common_Crypto.m" bodystart="479" bodyend="528"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/EncryptUtils/EncryptBase/NSData+XD_Encrypt_Common_Crypto.h" line="53" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/EncryptUtils/EncryptBase/NSData+XD_Encrypt_Common_Crypto.h" bodystart="53" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_n_s_data_07_low_level_common_cryptor_08_1abe2c2b3dbb4e6e5040f45dccb8acf362" prot="public" virt="virtual"><scope>NSData(LowLevelCommonCryptor)</scope><name>dataEncryptedUsingAlgorithm:key:error:</name></member>
+      <member refid="category_n_s_data_07_low_level_common_cryptor_08_1a823290ee40d27353fd5ee4cb8b05352e" prot="public" virt="virtual"><scope>NSData(LowLevelCommonCryptor)</scope><name>dataEncryptedUsingAlgorithm:key:initializationVector:options:error:</name></member>
+      <member refid="category_n_s_data_07_low_level_common_cryptor_08_1a2d241a04a628e68fac729da83bf7d0e4" prot="public" virt="virtual"><scope>NSData(LowLevelCommonCryptor)</scope><name>dataEncryptedUsingAlgorithm:key:options:error:</name></member>
+      <member refid="category_n_s_data_07_low_level_common_cryptor_08_1afeeb8e76639f23ce1e341973b3614305" prot="public" virt="virtual"><scope>NSData(LowLevelCommonCryptor)</scope><name>decryptedDataUsingAlgorithm:key:error:</name></member>
+      <member refid="category_n_s_data_07_low_level_common_cryptor_08_1a4c38c059558971156ab44773eac7840c" prot="public" virt="virtual"><scope>NSData(LowLevelCommonCryptor)</scope><name>decryptedDataUsingAlgorithm:key:initializationVector:options:error:</name></member>
+      <member refid="category_n_s_data_07_low_level_common_cryptor_08_1ac10dda5a04b977540f1295690427d843" prot="public" virt="virtual"><scope>NSData(LowLevelCommonCryptor)</scope><name>decryptedDataUsingAlgorithm:key:options:error:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

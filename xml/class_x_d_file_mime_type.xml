@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="class_x_d_file_mime_type" kind="class" language="Objective-C" prot="public">
+    <compoundname>XDFileMimeType</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">NSObject</basecompoundref>
+    <includes refid="_x_d_file_mime_type_8h" local="no">XDFileMimeType.h</includes>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_x_d_file_mime_type_1a226d624580ff1d955a16ec2a33a3b330" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * XDFileMimeType::mimeType:</definition>
+        <argsstring>(NSString *fileName)</argsstring>
+        <name>mimeType:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>fileName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/XDFileMimeType.h" line="20" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/XDFileMimeType.m" bodystart="32" bodyend="42"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1304">
+        <label>XDFileMimeType</label>
+        <link refid="class_x_d_file_mime_type"/>
+        <childnode refid="1305" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1305">
+        <label>NSObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1306">
+        <label>XDFileMimeType</label>
+        <link refid="class_x_d_file_mime_type"/>
+        <childnode refid="1307" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1307">
+        <label>NSObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/XDFileMimeType.m" line="17" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/XDFileMimeType.m" bodystart="17" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="class_x_d_file_mime_type_1a226d624580ff1d955a16ec2a33a3b330" prot="public" virt="virtual"><scope>XDFileMimeType</scope><name>mimeType:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

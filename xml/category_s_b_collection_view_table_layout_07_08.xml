@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="category_s_b_collection_view_table_layout_07_08" kind="category" language="Objective-C" prot="public">
+    <compoundname>SBCollectionViewTableLayout()</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="category_s_b_collection_view_table_layout_07_08_1a135c8f97c453c2a8bc3cc5f84295cce8" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="assign">
+        <type>UIEdgeInsets *</type>
+        <definition>UIEdgeInsets* SBCollectionViewTableLayout()::middleSeparatorInsets</definition>
+        <argsstring></argsstring>
+        <name>middleSeparatorInsets</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/SBTableLayout/SBCollectionViewTableLayout.m" line="13" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/SBTableLayout/SBCollectionViewTableLayout.m" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_s_b_collection_view_table_layout_07_08_1a68b3bc3baf2bd948c66e8b93e1b754d9" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="assign">
+        <type>CGFloat *</type>
+        <definition>CGFloat* SBCollectionViewTableLayout()::borderSeparatorWidths</definition>
+        <argsstring></argsstring>
+        <name>borderSeparatorWidths</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/SBTableLayout/SBCollectionViewTableLayout.m" line="14" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/SBTableLayout/SBCollectionViewTableLayout.m" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="category_s_b_collection_view_table_layout_07_08_1aba41aeb43357d2e28fdcbdd9fac3a4d1" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no" accessor="assign">
+        <type>CGFloat *</type>
+        <definition>CGFloat* SBCollectionViewTableLayout()::middleSeparatorWidths</definition>
+        <argsstring></argsstring>
+        <name>middleSeparatorWidths</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/SBTableLayout/SBCollectionViewTableLayout.m" line="15" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/SBTableLayout/SBCollectionViewTableLayout.m" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/SBTableLayout/SBCollectionViewTableLayout.m" line="12" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/SBTableLayout/SBCollectionViewTableLayout.m" bodystart="12" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="category_s_b_collection_view_table_layout_07_08_1a68b3bc3baf2bd948c66e8b93e1b754d9" prot="public" virt="non-virtual"><scope>SBCollectionViewTableLayout()</scope><name>borderSeparatorWidths</name></member>
+      <member refid="category_s_b_collection_view_table_layout_07_08_1a135c8f97c453c2a8bc3cc5f84295cce8" prot="public" virt="non-virtual"><scope>SBCollectionViewTableLayout()</scope><name>middleSeparatorInsets</name></member>
+      <member refid="category_s_b_collection_view_table_layout_07_08_1aba41aeb43357d2e28fdcbdd9fac3a4d1" prot="public" virt="non-virtual"><scope>SBCollectionViewTableLayout()</scope><name>middleSeparatorWidths</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

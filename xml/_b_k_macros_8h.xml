@@ -1,0 +1,428 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_b_k_macros_8h" kind="file" language="C++">
+    <compoundname>BKMacros.h</compoundname>
+    <includes refid="_b_k_defines_8h" local="yes">BKDefines.h</includes>
+    <includes refid="_n_s_array_09_blocks_kit_8h" local="yes">NSArray+BlocksKit.h</includes>
+    <includes refid="_n_s_set_09_blocks_kit_8h" local="yes">NSSet+BlocksKit.h</includes>
+    <includes refid="_n_s_dictionary_09_blocks_kit_8h" local="yes">NSDictionary+BlocksKit.h</includes>
+    <includes refid="_n_s_index_set_09_blocks_kit_8h" local="yes">NSIndexSet+BlocksKit.h</includes>
+    <incdepgraph>
+      <node id="2629">
+        <label>Foundation/NSObjCRuntime.h</label>
+      </node>
+      <node id="2630">
+        <label>NSArray+BlocksKit.h</label>
+        <link refid="_n_s_array_09_blocks_kit_8h"/>
+        <childnode refid="2628" relation="include">
+        </childnode>
+        <childnode refid="2631" relation="include">
+        </childnode>
+        <childnode refid="2632" relation="include">
+        </childnode>
+      </node>
+      <node id="2634">
+        <label>NSDictionary+BlocksKit.h</label>
+        <link refid="_n_s_dictionary_09_blocks_kit_8h"/>
+        <childnode refid="2628" relation="include">
+        </childnode>
+        <childnode refid="2631" relation="include">
+        </childnode>
+      </node>
+      <node id="2633">
+        <label>NSSet+BlocksKit.h</label>
+        <link refid="_n_s_set_09_blocks_kit_8h"/>
+        <childnode refid="2628" relation="include">
+        </childnode>
+        <childnode refid="2631" relation="include">
+        </childnode>
+      </node>
+      <node id="2628">
+        <label>BKDefines.h</label>
+        <link refid="_b_k_defines_8h"/>
+        <childnode refid="2629" relation="include">
+        </childnode>
+      </node>
+      <node id="2631">
+        <label>Foundation/Foundation.h</label>
+      </node>
+      <node id="2635">
+        <label>NSIndexSet+BlocksKit.h</label>
+        <link refid="_n_s_index_set_09_blocks_kit_8h"/>
+        <childnode refid="2628" relation="include">
+        </childnode>
+        <childnode refid="2631" relation="include">
+        </childnode>
+      </node>
+      <node id="2627">
+        <label>XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/BKMacros.h</label>
+        <link refid="BKMacros.h"/>
+        <childnode refid="2628" relation="include">
+        </childnode>
+        <childnode refid="2630" relation="include">
+        </childnode>
+        <childnode refid="2633" relation="include">
+        </childnode>
+        <childnode refid="2634" relation="include">
+        </childnode>
+        <childnode refid="2635" relation="include">
+        </childnode>
+      </node>
+      <node id="2632">
+        <label>CoreGraphics/CGBase.h</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="_b_k_macros_8h_1ac9b86b622337d5c3a038d3929408a7a2" prot="public" static="no">
+        <name>__BK_EACH_WRAPPER</name>
+        <param><defname>...</defname></param>
+        <initializer>(^{ __block CFMutableDictionaryRef BK_eachTable = nil; \
+		(void)BK_eachTable; \
+		__typeof__(__VA_ARGS__) BK_retval = __VA_ARGS__; \
+		if(BK_eachTable) \
+			CFRelease(BK_eachTable); \
+		return BK_retval; \
+	}())</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/BKMacros.h" line="17" column="9" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/BKMacros.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_b_k_macros_8h_1a1394ff7959b59dd6be40ce1e6dbcd45b" prot="public" static="no">
+        <name>__BK_EACH_WRAPPER_VOID</name>
+        <param><defname>...</defname></param>
+        <initializer>(^{ __block CFMutableDictionaryRef BK_eachTable = nil; \
+		(void)BK_eachTable; \
+		__VA_ARGS__; \
+		if(BK_eachTable) \
+			CFRelease(BK_eachTable); \
+	}())</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/BKMacros.h" line="25" column="9" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/BKMacros.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_b_k_macros_8h_1af7ee40027c0e28f3b68aa266f659db0a" prot="public" static="no">
+        <name>BK_EACH</name>
+        <param><defname>collection</defname></param>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="_b_k_macros_8h_1a1394ff7959b59dd6be40ce1e6dbcd45b" kindref="member">__BK_EACH_WRAPPER_VOID</ref>([collection bk_each:^(id obj) { __VA_ARGS__ }])</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/BKMacros.h" line="32" column="9" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/BKMacros.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_b_k_macros_8h_1aa64110c9308a981175549ca5c1de4c73" prot="public" static="no">
+        <name>BK_MAP</name>
+        <param><defname>collection</defname></param>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="_b_k_macros_8h_1ac9b86b622337d5c3a038d3929408a7a2" kindref="member">__BK_EACH_WRAPPER</ref>([collection bk_map:^id(id obj) { return (__VA_ARGS__); }])</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/BKMacros.h" line="33" column="9" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/BKMacros.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_b_k_macros_8h_1a50f3918d27440ebbd477e014c674eb08" prot="public" static="no">
+        <name>BK_SELECT</name>
+        <param><defname>collection</defname></param>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="_b_k_macros_8h_1ac9b86b622337d5c3a038d3929408a7a2" kindref="member">__BK_EACH_WRAPPER</ref>([collection bk_select: ^BOOL (id obj) { return (__VA_ARGS__) != 0; }])</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/BKMacros.h" line="34" column="9" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/BKMacros.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_b_k_macros_8h_1a79bc894f89b991534f4bc9905b37eed5" prot="public" static="no">
+        <name>BK_REJECT</name>
+        <param><defname>collection</defname></param>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="_b_k_macros_8h_1ac9b86b622337d5c3a038d3929408a7a2" kindref="member">__BK_EACH_WRAPPER</ref>([collection bk_select: ^BOOL (id obj) { return (__VA_ARGS__) == 0; }])</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/BKMacros.h" line="35" column="9" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/BKMacros.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_b_k_macros_8h_1a7c4dc3858032240fd612c5dd97a3d72c" prot="public" static="no">
+        <name>BK_MATCH</name>
+        <param><defname>collection</defname></param>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="_b_k_macros_8h_1ac9b86b622337d5c3a038d3929408a7a2" kindref="member">__BK_EACH_WRAPPER</ref>([collection bk_match: ^BOOL (id obj) { return (__VA_ARGS__) != 0; }])</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/BKMacros.h" line="36" column="9" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/BKMacros.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_b_k_macros_8h_1a32baff2e4b95e01733e173823bbe8fc1" prot="public" static="no">
+        <name>BK_REDUCE</name>
+        <param><defname>collection</defname></param>
+        <param><defname>initial</defname></param>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="_b_k_macros_8h_1ac9b86b622337d5c3a038d3929408a7a2" kindref="member">__BK_EACH_WRAPPER</ref>([collection bk_reduce: (initial) withBlock: ^id (id a, id b) { return (__VA_ARGS__); }])</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/BKMacros.h" line="37" column="9" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/BKMacros.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_b_k_macros_8h_1a8ff486220aa373adcd23828e29e459ed" prot="public" static="no">
+        <name>BK_APPLY</name>
+        <param><defname>collection</defname></param>
+        <param><defname>...</defname></param>
+        <initializer>[collection bk_apply:^(id obj) { __VA_ARGS__ }]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/BKMacros.h" line="40" column="9" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/BKMacros.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_b_k_macros_8h_1a374dbfc89621a24b94d1e2b3024d976a" prot="public" static="no">
+        <name>BK_NEXT</name>
+        <param><defname>array</defname></param>
+        <initializer>BKNextHelper(array, &amp;BK_eachTable)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/BKMacros.h" line="59" column="9" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/BKMacros.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_b_k_macros_8h_1a6effe913109e1940b6401a7cd651f652" prot="public" static="no">
+        <name>EACH</name>
+        <initializer><ref refid="_b_k_macros_8h_1af7ee40027c0e28f3b68aa266f659db0a" kindref="member">BK_EACH</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/BKMacros.h" line="62" column="9" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/BKMacros.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_b_k_macros_8h_1a6f2dcf5b74dca09ae01e254ae8ed7e6c" prot="public" static="no">
+        <name>APPLY</name>
+        <initializer><ref refid="_b_k_macros_8h_1a8ff486220aa373adcd23828e29e459ed" kindref="member">BK_APPLY</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/BKMacros.h" line="66" column="9" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/BKMacros.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_b_k_macros_8h_1a4e58380df1435929cc191b5b4ba99cd5" prot="public" static="no">
+        <name>MAP</name>
+        <initializer><ref refid="_b_k_macros_8h_1aa64110c9308a981175549ca5c1de4c73" kindref="member">BK_MAP</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/BKMacros.h" line="70" column="9" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/BKMacros.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_b_k_macros_8h_1a53dc4af00adc7b3b4d12eafb71596dfc" prot="public" static="no">
+        <name>SELECT</name>
+        <initializer><ref refid="_b_k_macros_8h_1a50f3918d27440ebbd477e014c674eb08" kindref="member">BK_SELECT</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/BKMacros.h" line="74" column="9" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/BKMacros.h" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_b_k_macros_8h_1a835f10dd1ab4bf9a80c4cd80ee6e3058" prot="public" static="no">
+        <name>REJECT</name>
+        <initializer><ref refid="_b_k_macros_8h_1a79bc894f89b991534f4bc9905b37eed5" kindref="member">BK_REJECT</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/BKMacros.h" line="78" column="9" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/BKMacros.h" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_b_k_macros_8h_1a6fbd908903ad34f115e0726001be8753" prot="public" static="no">
+        <name>MATCH</name>
+        <initializer><ref refid="_b_k_macros_8h_1a7c4dc3858032240fd612c5dd97a3d72c" kindref="member">BK_MATCH</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/BKMacros.h" line="82" column="9" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/BKMacros.h" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_b_k_macros_8h_1a76c64ace77ce430c5f0b1e614914825c" prot="public" static="no">
+        <name>REDUCE</name>
+        <initializer><ref refid="_b_k_macros_8h_1a32baff2e4b95e01733e173823bbe8fc1" kindref="member">BK_REDUCE</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/BKMacros.h" line="86" column="9" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/BKMacros.h" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_b_k_macros_8h_1a2be29dbf95b4a2c822f307a5b8141184" prot="public" static="no">
+        <name>NEXT</name>
+        <initializer><ref refid="_b_k_macros_8h_1a374dbfc89621a24b94d1e2b3024d976a" kindref="member">BK_NEXT</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/BKMacros.h" line="90" column="9" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/BKMacros.h" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_b_k_macros_8h_1ab3ebe06fb30fa3636a22625e5d96571d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>id</type>
+        <definition>static id BKNextHelper</definition>
+        <argsstring>(NSArray *array, CFMutableDictionaryRef *eachTablePtr)</argsstring>
+        <name>BKNextHelper</name>
+        <param>
+          <type>NSArray *</type>
+          <declname>array</declname>
+        </param>
+        <param>
+          <type>CFMutableDictionaryRef *</type>
+          <declname>eachTablePtr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/BKMacros.h" line="42" column="1" bodyfile="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/BKMacros.h" bodystart="42" bodyend="57"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>BKMacros.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>BlocksKit</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Includes<sp/>code<sp/>by<sp/>Michael<sp/>Ash.<sp/>&lt;https://github.com/mikeash&gt;.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_b_k_defines_8h" kindref="compound">BKDefines.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_n_s_array_09_blocks_kit_8h" kindref="compound">NSArray+BlocksKit.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_n_s_set_09_blocks_kit_8h" kindref="compound">NSSet+BlocksKit.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_n_s_dictionary_09_blocks_kit_8h" kindref="compound">NSDictionary+BlocksKit.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="_n_s_index_set_09_blocks_kit_8h" kindref="compound">NSIndexSet+BlocksKit.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>__BLOCKSKIT_MACROS__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>__BLOCKSKIT_MACROS__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="_b_k_macros_8h_1ac9b86b622337d5c3a038d3929408a7a2" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>__BK_EACH_WRAPPER(...)<sp/>(^{<sp/>__block<sp/>CFMutableDictionaryRef<sp/>BK_eachTable<sp/>=<sp/>nil;<sp/>\</highlight></codeline>
+<codeline lineno="18"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(void)BK_eachTable;<sp/>\</highlight></codeline>
+<codeline lineno="19"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>__typeof__(__VA_ARGS__)<sp/>BK_retval<sp/>=<sp/>__VA_ARGS__;<sp/>\</highlight></codeline>
+<codeline lineno="20"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>if(BK_eachTable)<sp/>\</highlight></codeline>
+<codeline lineno="21"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CFRelease(BK_eachTable);<sp/>\</highlight></codeline>
+<codeline lineno="22"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>return<sp/>BK_retval;<sp/>\</highlight></codeline>
+<codeline lineno="23"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>}())</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25" refid="_b_k_macros_8h_1a1394ff7959b59dd6be40ce1e6dbcd45b" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>__BK_EACH_WRAPPER_VOID(...)<sp/>(^{<sp/>__block<sp/>CFMutableDictionaryRef<sp/>BK_eachTable<sp/>=<sp/>nil;<sp/>\</highlight></codeline>
+<codeline lineno="26"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(void)BK_eachTable;<sp/>\</highlight></codeline>
+<codeline lineno="27"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>__VA_ARGS__;<sp/>\</highlight></codeline>
+<codeline lineno="28"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>if(BK_eachTable)<sp/>\</highlight></codeline>
+<codeline lineno="29"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CFRelease(BK_eachTable);<sp/>\</highlight></codeline>
+<codeline lineno="30"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>}())</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32" refid="_b_k_macros_8h_1af7ee40027c0e28f3b68aa266f659db0a" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>BK_EACH(collection,<sp/>...)<sp/>__BK_EACH_WRAPPER_VOID([collection<sp/>bk_each:^(id<sp/>obj)<sp/>{<sp/>__VA_ARGS__<sp/>}])</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="_b_k_macros_8h_1aa64110c9308a981175549ca5c1de4c73" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>BK_MAP(collection,<sp/>...)<sp/>__BK_EACH_WRAPPER([collection<sp/>bk_map:^id(id<sp/>obj)<sp/>{<sp/>return<sp/>(__VA_ARGS__);<sp/>}])</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34" refid="_b_k_macros_8h_1a50f3918d27440ebbd477e014c674eb08" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>BK_SELECT(collection,<sp/>...)<sp/>__BK_EACH_WRAPPER([collection<sp/>bk_select:<sp/>^BOOL<sp/>(id<sp/>obj)<sp/>{<sp/>return<sp/>(__VA_ARGS__)<sp/>!=<sp/>0;<sp/>}])</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="_b_k_macros_8h_1a79bc894f89b991534f4bc9905b37eed5" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>BK_REJECT(collection,<sp/>...)<sp/>__BK_EACH_WRAPPER([collection<sp/>bk_select:<sp/>^BOOL<sp/>(id<sp/>obj)<sp/>{<sp/>return<sp/>(__VA_ARGS__)<sp/>==<sp/>0;<sp/>}])</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36" refid="_b_k_macros_8h_1a7c4dc3858032240fd612c5dd97a3d72c" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>BK_MATCH(collection,<sp/>...)<sp/>__BK_EACH_WRAPPER([collection<sp/>bk_match:<sp/>^BOOL<sp/>(id<sp/>obj)<sp/>{<sp/>return<sp/>(__VA_ARGS__)<sp/>!=<sp/>0;<sp/>}])</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37" refid="_b_k_macros_8h_1a32baff2e4b95e01733e173823bbe8fc1" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>BK_REDUCE(collection,<sp/>initial,<sp/>...)<sp/>__BK_EACH_WRAPPER([collection<sp/>bk_reduce:<sp/>(initial)<sp/>withBlock:<sp/>^id<sp/>(id<sp/>a,<sp/>id<sp/>b)<sp/>{<sp/>return<sp/>(__VA_ARGS__);<sp/>}])</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="comment">//<sp/>BK_APPLY<sp/>is<sp/>not<sp/>wrapped,<sp/>because<sp/>we<sp/>don&apos;t<sp/>guarantee<sp/>that<sp/>the<sp/>order<sp/>matches<sp/>the<sp/>current<sp/>collection<sp/>during<sp/>parallel<sp/>execution.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40" refid="_b_k_macros_8h_1a8ff486220aa373adcd23828e29e459ed" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>BK_APPLY(collection,<sp/>...)<sp/>[collection<sp/>bk_apply:^(id<sp/>obj)<sp/>{<sp/>__VA_ARGS__<sp/>}]</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>BKNextHelper(NSArray<sp/>*array,<sp/>CFMutableDictionaryRef<sp/>*eachTablePtr)<sp/>{</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!*eachTablePtr)<sp/>{</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CFDictionaryKeyCallBacks<sp/>keycb<sp/>=<sp/>kCFTypeDictionaryKeyCallBacks;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>keycb.equal<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>keycb.hash<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*eachTablePtr<sp/>=<sp/>CFDictionaryCreateMutable(NULL,<sp/>0,<sp/>&amp;keycb,<sp/>&amp;kCFTypeDictionaryValueCallBacks);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>NSEnumerator<sp/>*enumerator<sp/>=<sp/>(__bridge<sp/>id)CFDictionaryGetValue(*eachTablePtr,<sp/>(__bridge<sp/>CFArrayRef)array);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!enumerator)<sp/>{</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>enumerator<sp/>=<sp/>[array<sp/>objectEnumerator];</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CFDictionarySetValue(*eachTablePtr,<sp/>(__bridge<sp/>CFArrayRef)array,<sp/>(__bridge<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*)enumerator);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[enumerator<sp/>nextObject];</highlight></codeline>
+<codeline lineno="57"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59" refid="_b_k_macros_8h_1a374dbfc89621a24b94d1e2b3024d976a" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>BK_NEXT(array)<sp/>BKNextHelper(array,<sp/>&amp;BK_eachTable)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>EACH</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62" refid="_b_k_macros_8h_1a6effe913109e1940b6401a7cd651f652" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EACH<sp/>BK_EACH</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>APPLY</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66" refid="_b_k_macros_8h_1a6f2dcf5b74dca09ae01e254ae8ed7e6c" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>APPLY<sp/>BK_APPLY</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>MAP</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="70" refid="_b_k_macros_8h_1a4e58380df1435929cc191b5b4ba99cd5" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MAP<sp/>BK_MAP</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>SELECT</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="74" refid="_b_k_macros_8h_1a53dc4af00adc7b3b4d12eafb71596dfc" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>SELECT<sp/>BK_SELECT</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>REJECT</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="78" refid="_b_k_macros_8h_1a835f10dd1ab4bf9a80c4cd80ee6e3058" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>REJECT<sp/>BK_REJECT</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>MATCH</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="82" refid="_b_k_macros_8h_1a6fbd908903ad34f115e0726001be8753" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MATCH<sp/>BK_MATCH</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>REDUCE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="86" refid="_b_k_macros_8h_1a76c64ace77ce430c5f0b1e614914825c" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>REDUCE<sp/>BK_REDUCE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>NEXT</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="90" refid="_b_k_macros_8h_1a2be29dbf95b4a2c822f307a5b8141184" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>NEXT<sp/>BK_NEXT</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/Users/suxinde/XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/BKMacros.h"/>
+  </compounddef>
+</doxygen>
