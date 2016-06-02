@@ -21,6 +21,11 @@
 		1F3603731CFDFE7F005F627A /* SEPreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3603711CFDFE7F005F627A /* SEPreviewViewController.m */; };
 		1F3603761CFDFE94005F627A /* BLEPrinterDemoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3603751CFDFE94005F627A /* BLEPrinterDemoVC.m */; };
 		1F36037F1CFEE6DE005F627A /* XDChineseMobilePhoneRegex.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F36037E1CFEE6DE005F627A /* XDChineseMobilePhoneRegex.m */; };
+		1F3603821CFFBECD005F627A /* UIColor+XDPaperColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3603811CFFBECD005F627A /* UIColor+XDPaperColors.m */; };
+		1F36038A1CFFBFD7005F627A /* BFPaperColorListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3603851CFFBFD7005F627A /* BFPaperColorListViewController.m */; };
+		1F36038B1CFFBFD7005F627A /* BFPaperColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3603871CFFBFD7005F627A /* BFPaperColorViewController.m */; };
+		1F36038C1CFFBFD7005F627A /* ColorDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3603891CFFBFD7005F627A /* ColorDetailViewController.m */; };
+		1F36038E1CFFC00F005F627A /* PaperColorsDemo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F36038D1CFFC00F005F627A /* PaperColorsDemo.storyboard */; };
 		1F38A8CA1CFB567F00E21ABF /* NSString+UnformattedPhoneNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F38A5A71CFB567F00E21ABF /* NSString+UnformattedPhoneNumber.m */; };
 		1F38A8CB1CFB567F00E21ABF /* XDAddressBookManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F38A5A91CFB567F00E21ABF /* XDAddressBookManager.m */; };
 		1F38A8CC1CFB567F00E21ABF /* XDContactEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F38A5AB1CFB567F00E21ABF /* XDContactEntity.m */; };
@@ -437,6 +442,15 @@
 		1F3603751CFDFE94005F627A /* BLEPrinterDemoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLEPrinterDemoVC.m; sourceTree = "<group>"; };
 		1F36037D1CFEE6DE005F627A /* XDChineseMobilePhoneRegex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDChineseMobilePhoneRegex.h; sourceTree = "<group>"; };
 		1F36037E1CFEE6DE005F627A /* XDChineseMobilePhoneRegex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDChineseMobilePhoneRegex.m; sourceTree = "<group>"; };
+		1F3603801CFFBECD005F627A /* UIColor+XDPaperColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+XDPaperColors.h"; sourceTree = "<group>"; };
+		1F3603811CFFBECD005F627A /* UIColor+XDPaperColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+XDPaperColors.m"; sourceTree = "<group>"; };
+		1F3603841CFFBFD7005F627A /* BFPaperColorListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFPaperColorListViewController.h; sourceTree = "<group>"; };
+		1F3603851CFFBFD7005F627A /* BFPaperColorListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFPaperColorListViewController.m; sourceTree = "<group>"; };
+		1F3603861CFFBFD7005F627A /* BFPaperColorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFPaperColorViewController.h; sourceTree = "<group>"; };
+		1F3603871CFFBFD7005F627A /* BFPaperColorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFPaperColorViewController.m; sourceTree = "<group>"; };
+		1F3603881CFFBFD7005F627A /* ColorDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorDetailViewController.h; sourceTree = "<group>"; };
+		1F3603891CFFBFD7005F627A /* ColorDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorDetailViewController.m; sourceTree = "<group>"; };
+		1F36038D1CFFC00F005F627A /* PaperColorsDemo.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PaperColorsDemo.storyboard; sourceTree = "<group>"; };
 		1F38A5A61CFB567F00E21ABF /* NSString+UnformattedPhoneNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+UnformattedPhoneNumber.h"; sourceTree = "<group>"; };
 		1F38A5A71CFB567F00E21ABF /* NSString+UnformattedPhoneNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+UnformattedPhoneNumber.m"; sourceTree = "<group>"; };
 		1F38A5A81CFB567F00E21ABF /* XDAddressBookManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDAddressBookManager.h; sourceTree = "<group>"; };
@@ -1283,6 +1297,20 @@
 			path = PhoneNumberKit;
 			sourceTree = "<group>";
 		};
+		1F3603831CFFBFC4005F627A /* PaperColorDemo */ = {
+			isa = PBXGroup;
+			children = (
+				1F3603841CFFBFD7005F627A /* BFPaperColorListViewController.h */,
+				1F3603851CFFBFD7005F627A /* BFPaperColorListViewController.m */,
+				1F3603861CFFBFD7005F627A /* BFPaperColorViewController.h */,
+				1F3603871CFFBFD7005F627A /* BFPaperColorViewController.m */,
+				1F3603881CFFBFD7005F627A /* ColorDetailViewController.h */,
+				1F3603891CFFBFD7005F627A /* ColorDetailViewController.m */,
+				1F36038D1CFFC00F005F627A /* PaperColorsDemo.storyboard */,
+			);
+			path = PaperColorDemo;
+			sourceTree = "<group>";
+		};
 		1F38A5A41CFB567F00E21ABF /* CommonBasicComponentLayer */ = {
 			isa = PBXGroup;
 			children = (
@@ -2011,6 +2039,8 @@
 				1F38A6F61CFB567F00E21ABF /* UIColor+Random.m */,
 				1F38A6F71CFB567F00E21ABF /* UIColor+Web.h */,
 				1F38A6F81CFB567F00E21ABF /* UIColor+Web.m */,
+				1F3603801CFFBECD005F627A /* UIColor+XDPaperColors.h */,
+				1F3603811CFFBECD005F627A /* UIColor+XDPaperColors.m */,
 			);
 			path = UIColor;
 			sourceTree = "<group>";
@@ -3156,6 +3186,7 @@
 			children = (
 				1FC8F5B51AF7DB2E00CA2AC0 /* ViewController.h */,
 				1FC8F5B61AF7DB2E00CA2AC0 /* ViewController.m */,
+				1F3603831CFFBFC4005F627A /* PaperColorDemo */,
 				1F36036E1CFDFE68005F627A /* BLEPrinterDemo */,
 				1FA4D1841CF0DC10005AD187 /* XDFluxDispatcherDemo */,
 				1F49D1351CECE42B003FBBF0 /* XDImageBeautifyUtilDemo */,
@@ -3279,6 +3310,7 @@
 				1F49D13E1CECE502003FBBF0 /* Test2.jpg in Resources */,
 				1FCFDD101CDC161900DC27F5 /* test.mp4 in Resources */,
 				1F36035C1CFDFD77005F627A /* SVProgressHUD.bundle in Resources */,
+				1F36038E1CFFC00F005F627A /* PaperColorsDemo.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3351,6 +3383,7 @@
 				1F38A9871CFB568000E21ABF /* UINavigationItem+Loading.m in Sources */,
 				1F62A2A41CE2F2B80077B7D5 /* LoginCommandHandler.m in Sources */,
 				1F36036C1CFDFDA7005F627A /* UIImage+Bitmap.m in Sources */,
+				1F36038C1CFFBFD7005F627A /* ColorDetailViewController.m in Sources */,
 				1FA4D1871CF0DC19005AD187 /* XDFluxDispatcherDemo.m in Sources */,
 				1F38A9FE1CFB568000E21ABF /* XD_FFT.c in Sources */,
 				1F38A8EB1CFB567F00E21ABF /* NSDate+StarSign.m in Sources */,
@@ -3494,6 +3527,7 @@
 				1F38A9471CFB568000E21ABF /* UIAlertView+Block.m in Sources */,
 				1F38A9B71CFB568000E21ABF /* UIViewController+MJPopupViewController.m in Sources */,
 				1F38A9951CFB568000E21ABF /* UITableView+iOS7Style.m in Sources */,
+				1F36038A1CFFBFD7005F627A /* BFPaperColorListViewController.m in Sources */,
 				1F38AA111CFB568000E21ABF /* XDNetwork.m in Sources */,
 				1F38A9B41CFB568000E21ABF /* UIViewController+BlockSegue.m in Sources */,
 				1F38A8D31CFB567F00E21ABF /* NSManagedObjectContext+FetchRequestsConstructors.m in Sources */,
@@ -3517,6 +3551,7 @@
 				1F38A8F51CFB567F00E21ABF /* NSDictionary+SafeAccess.m in Sources */,
 				1F38A9791CFB568000E21ABF /* UIImageView+GeometryConversion.m in Sources */,
 				1F38A9591CFB568000E21ABF /* UIColor+Modify.m in Sources */,
+				1F3603821CFFBECD005F627A /* UIColor+XDPaperColors.m in Sources */,
 				1F38A9B11CFB568000E21ABF /* UIViewController+BackButtonHandler.m in Sources */,
 				1F38A93E1CFB568000E21ABF /* MKMapView+ZoomLevel.m in Sources */,
 				1F38A91D1CFB567F00E21ABF /* NSString+DictionaryValue.m in Sources */,
@@ -3548,6 +3583,7 @@
 				1F38A9EB1CFB568000E21ABF /* QLPreviewController+BlocksKit.m in Sources */,
 				1F38A9201CFB567F00E21ABF /* NSString+Hash.m in Sources */,
 				1F38A9651CFB568000E21ABF /* UIImage+animatedGIF.m in Sources */,
+				1F36038B1CFFBFD7005F627A /* BFPaperColorViewController.m in Sources */,
 				1F38A9611CFB568000E21ABF /* UIFont+WDCustomLoader.m in Sources */,
 				1F38A9DF1CFB568000E21ABF /* NSObject+BKBlockObservation.m in Sources */,
 				1F38A96B1CFB568000E21ABF /* UIImage+FX.m in Sources */,

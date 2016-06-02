@@ -57,6 +57,7 @@ static NSString *const SBTableLayoutTabVC = @"SBTableLayoutTabVC";
     [mTestCases addObject:@"XDLogger"];
     [mTestCases addObject:@"UIView+DebugUtils"];
     [mTestCases addObject:@"BLEPrinterDemoVC"];
+    [mTestCases addObject:@"Paper Color"];
 }
 
 
@@ -223,10 +224,19 @@ static NSString *const SBTableLayoutTabVC = @"SBTableLayoutTabVC";
         case 13: {
             
             UIViewController *vc = [[UIStoryboard storyboardWithName:@"Main" bundle:[NSBundle mainBundle]] instantiateViewControllerWithIdentifier:@"BLEPrinterDemoVC"];
-            [self.navigationController pushViewController:vc animated:NO];
+            [self.navigationController pushViewController:vc animated:YES];
             
         } break;
         
+        case 14: {
+            
+            UIViewController *vc = [[UIStoryboard storyboardWithName:@"PaperColorsDemo" bundle:[NSBundle mainBundle]] instantiateViewControllerWithIdentifier:@"BFPaperColorListViewController"];
+            [self.navigationController pushViewController:vc animated:YES];
+            
+        } break;
+            
+            
+            
         default:
             break;
     }

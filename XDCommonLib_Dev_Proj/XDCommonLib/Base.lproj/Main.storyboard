@@ -8,7 +8,7 @@
         <!--Navigation Controller-->
         <scene sceneID="bGL-PS-oOH">
             <objects>
-                <navigationController id="dTW-8F-43k" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="dTW-8F-43k" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Uox-nt-Kjd">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
