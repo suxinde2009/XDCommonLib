@@ -1,5 +1,5 @@
 # XDCommonLib
-Common Lib for iOS rapid development
+Common Lib for iOS rapid development.
 
 
 #Thanks 
