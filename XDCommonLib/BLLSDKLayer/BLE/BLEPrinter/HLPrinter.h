@@ -50,7 +50,8 @@ typedef NS_ENUM(NSInteger, HLFontSize) {
  *  @param title     标题名称
  *  @param alignment 标题对齐方式
  */
-- (void)appendText:(NSString *)text alignment:(HLTextAlignment)alignment;
+- (void)appendText:(NSString *)text
+         alignment:(HLTextAlignment)alignment;
 
 /**
  *  添加单行标题
@@ -59,7 +60,9 @@ typedef NS_ENUM(NSInteger, HLFontSize) {
  *  @param alignment 标题对齐方式
  *  @param fontSize  标题字号
  */
-- (void)appendText:(NSString *)text alignment:(HLTextAlignment)alignment fontSize:(HLFontSize)fontSize;
+- (void)appendText:(NSString *)text
+         alignment:(HLTextAlignment)alignment
+          fontSize:(HLFontSize)fontSize;
 
 /**
  *  添加单行信息，左边名称(左对齐)，右边实际值（右对齐）,默认字号是小号。
@@ -67,7 +70,8 @@ typedef NS_ENUM(NSInteger, HLFontSize) {
  *  @param value    实际值
  *  警告:因字号和字体与iOS中字体不一致，计算出来有误差，可以用[-appendTitle:value:valueOffset:]或[-appendTitle:value:valueOffset:fontSize:]
  */
-- (void)appendTitle:(NSString *)title value:(NSString *)value;
+- (void)appendTitle:(NSString *)title
+              value:(NSString *)value;
 
 /**
  *  添加单行信息，左边名称(左对齐)，右边实际值（右对齐）。
@@ -76,7 +80,9 @@ typedef NS_ENUM(NSInteger, HLFontSize) {
  *  @param fontSize 字号大小
  *  警告:因字号和字体与iOS中字体不一致，计算出来有误差,所以建议用在价格方面
  */
-- (void)appendTitle:(NSString *)title value:(NSString *)value fontSize:(HLFontSize)fontSize;
+- (void)appendTitle:(NSString *)title
+              value:(NSString *)value
+           fontSize:(HLFontSize)fontSize;
 
 /**
  *  设置单行信息，左标题，右实际值
@@ -86,7 +92,9 @@ typedef NS_ENUM(NSInteger, HLFontSize) {
  *  @param value    实际值
  *  @param offset   实际值偏移量
  */
-- (void)appendTitle:(NSString *)title value:(NSString *)value valueOffset:(NSInteger)offset;
+- (void)appendTitle:(NSString *)title
+              value:(NSString *)value
+        valueOffset:(NSInteger)offset;
 
 /**
  *  设置单行信息，左标题，右实际值
@@ -97,7 +105,10 @@ typedef NS_ENUM(NSInteger, HLFontSize) {
  *  @param offset   实际值偏移量
  *  @param fontSize 字号
  */
-- (void)appendTitle:(NSString *)title value:(NSString *)value valueOffset:(NSInteger)offset fontSize:(HLFontSize)fontSize;
+- (void)appendTitle:(NSString *)title 
+              value:(NSString *)value 
+        valueOffset:(NSInteger)offset
+           fontSize:(HLFontSize)fontSize;
 
 /**
  *  添加选购商品信息标题,一般是三列，名称、数量、单价
@@ -106,7 +117,10 @@ typedef NS_ENUM(NSInteger, HLFontSize) {
  *  @param middleText 中间标题
  *  @param rightText  右标题
  */
-- (void)appendLeftText:(NSString *)left middleText:(NSString *)middle rightText:(NSString *)right isTitle:(BOOL)isTitle;
+- (void)appendLeftText:(NSString *)left
+            middleText:(NSString *)middle
+             rightText:(NSString *)right
+               isTitle:(BOOL)isTitle;
 
 /**
  *  添加图片，一般是添加二维码或者条形码
@@ -115,7 +129,9 @@ typedef NS_ENUM(NSInteger, HLFontSize) {
  *  @param alignment 图片对齐方式
  *  @param maxWidth  图片的最大宽度，如果图片过大，会等比缩放
  */
-- (void)appendImage:(UIImage *)image alignment:(HLTextAlignment)alignment maxWidth:(CGFloat)maxWidth;
+- (void)appendImage:(UIImage *)image
+          alignment:(HLTextAlignment)alignment 
+           maxWidth:(CGFloat)maxWidth;
 
 /**
  *  添加条形码图片
@@ -131,7 +147,9 @@ typedef NS_ENUM(NSInteger, HLFontSize) {
  *  @param alignment 图片对齐方式
  *  @param maxWidth  图片最大宽度
  */
-- (void)appendBarCodeWithInfo:(NSString *)info alignment:(HLTextAlignment)alignment maxWidth:(CGFloat)maxWidth;
+- (void)appendBarCodeWithInfo:(NSString *)info
+                    alignment:(HLTextAlignment)alignment
+                     maxWidth:(CGFloat)maxWidth;
 
 /**
  *  添加二维码图片
@@ -148,7 +166,10 @@ typedef NS_ENUM(NSInteger, HLFontSize) {
  *  @param alignment   对齐方式
  *  @param maxWidth    二维码的最大宽度
  */
-- (void)appendQRCodeWithInfo:(NSString *)info centerImage:(UIImage *)centerImage alignment:(HLTextAlignment)alignment maxWidth:(CGFloat )maxWidth;
+- (void)appendQRCodeWithInfo:(NSString *)info
+                 centerImage:(UIImage *)centerImage
+                   alignment:(HLTextAlignment)alignment
+                    maxWidth:(CGFloat )maxWidth;
 
 /**
  *  添加一条分割线，like this:---------------------------

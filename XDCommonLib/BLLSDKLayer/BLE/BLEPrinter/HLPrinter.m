@@ -129,7 +129,8 @@
  *  @param text    文字内容
  *  @param maxChar 最多可以允许多少个字节,后面加...
  */
-- (void)setText:(NSString *)text maxChar:(int)maxChar
+- (void)setText:(NSString *)text
+        maxChar:(int)maxChar
 {
     NSStringEncoding enc = CFStringConvertEncodingToNSStringEncoding(kCFStringEncodingGB_18030_2000);
     NSData *data = [text dataUsingEncoding:enc];
@@ -191,12 +192,17 @@
 
 #pragma mark - ------------function method ----------------
 #pragma mark  文字
-- (void)appendText:(NSString *)text alignment:(HLTextAlignment)alignment
+- (void)appendText:(NSString *)text
+         alignment:(HLTextAlignment)alignment
 {
-    [self appendText:text alignment:alignment fontSize:HLFontSizeTitleSmalle];
+    [self appendText:text
+           alignment:alignment
+            fontSize:HLFontSizeTitleSmalle];
 }
 
-- (void)appendText:(NSString *)text alignment:(HLTextAlignment)alignment fontSize:(HLFontSize)fontSize
+- (void)appendText:(NSString *)text
+         alignment:(HLTextAlignment)alignment
+          fontSize:(HLFontSize)fontSize
 {
     // 1.文字对齐方式
     [self setAlignment:alignment];
@@ -239,12 +245,17 @@
     [_previewView addSubview:textLabel];
 }
 
-- (void)appendTitle:(NSString *)title value:(NSString *)value
+- (void)appendTitle:(NSString *)title
+              value:(NSString *)value
 {
-    [self appendTitle:title value:value fontSize:HLFontSizeTitleSmalle];
+    [self appendTitle:title
+                value:value
+             fontSize:HLFontSizeTitleSmalle];
 }
 
-- (void)appendTitle:(NSString *)title value:(NSString *)value fontSize:(HLFontSize)fontSize
+- (void)appendTitle:(NSString *)title
+              value:(NSString *)value
+           fontSize:(HLFontSize)fontSize
 {
     // 1.设置对齐方式
     [self setAlignment:HLTextAlignmentLeft];
@@ -295,12 +306,20 @@
     [_previewView addSubview:valueLabel];
 }
 
-- (void)appendTitle:(NSString *)title value:(NSString *)value valueOffset:(NSInteger)offset
+- (void)appendTitle:(NSString *)title
+              value:(NSString *)value
+        valueOffset:(NSInteger)offset
 {
-    [self appendTitle:title value:value valueOffset:offset fontSize:HLFontSizeTitleSmalle];
+    [self appendTitle:title
+                value:value
+          valueOffset:offset
+             fontSize:HLFontSizeTitleSmalle];
 }
 
-- (void)appendTitle:(NSString *)title value:(NSString *)value valueOffset:(NSInteger)offset fontSize:(HLFontSize)fontSize
+- (void)appendTitle:(NSString *)title
+              value:(NSString *)value
+        valueOffset:(NSInteger)offset
+           fontSize:(HLFontSize)fontSize
 {
     // 1.设置对齐方式
     [self setAlignment:HLTextAlignmentLeft];
@@ -353,7 +372,10 @@
     [_previewView addSubview:valueLabel];
 }
 
-- (void)appendLeftText:(NSString *)left middleText:(NSString *)middle rightText:(NSString *)right isTitle:(BOOL)isTitle
+- (void)appendLeftText:(NSString *)left
+            middleText:(NSString *)middle
+             rightText:(NSString *)right
+               isTitle:(BOOL)isTitle
 {
     [self setAlignment:HLTextAlignmentLeft];
     [self setFontSize:HLFontSizeTitleSmalle];
@@ -415,7 +437,9 @@
 }
 
 #pragma mark 图片
-- (void)appendImage:(UIImage *)image alignment:(HLTextAlignment)alignment maxWidth:(CGFloat)maxWidth
+- (void)appendImage:(UIImage *)image
+          alignment:(HLTextAlignment)alignment
+           maxWidth:(CGFloat)maxWidth
 {
     if (!image) {
         return;
@@ -455,24 +479,38 @@
 
 - (void)appendBarCodeWithInfo:(NSString *)info
 {
-    [self appendBarCodeWithInfo:info alignment:HLTextAlignmentCenter maxWidth:300];
+    [self appendBarCodeWithInfo:info
+                      alignment:HLTextAlignmentCenter
+                       maxWidth:300];
 }
 
-- (void)appendBarCodeWithInfo:(NSString *)info alignment:(HLTextAlignment)alignment maxWidth:(CGFloat)maxWidth
+- (void)appendBarCodeWithInfo:(NSString *)info
+                    alignment:(HLTextAlignment)alignment
+                     maxWidth:(CGFloat)maxWidth
 {
     UIImage *barImage = [UIImage barCodeImageWithInfo:info];
-    [self appendImage:barImage alignment:alignment maxWidth:maxWidth];
+    [self appendImage:barImage
+            alignment:alignment
+             maxWidth:maxWidth];
 }
 
 - (void)appendQRCodeWithInfo:(NSString *)info
 {
-    [self appendQRCodeWithInfo:info centerImage:nil alignment:HLTextAlignmentCenter maxWidth:300];
+    [self appendQRCodeWithInfo:info
+                   centerImage:nil
+                     alignment:HLTextAlignmentCenter
+                      maxWidth:300];
 }
 
-- (void)appendQRCodeWithInfo:(NSString *)info centerImage:(UIImage *)centerImage alignment:(HLTextAlignment)alignment maxWidth:(CGFloat )maxWidth
+- (void)appendQRCodeWithInfo:(NSString *)info
+                 centerImage:(UIImage *)centerImage
+                   alignment:(HLTextAlignment)alignment
+                    maxWidth:(CGFloat )maxWidth
 {
     UIImage *QRImage = [UIImage qrCodeImageWithInfo:info centerImage:centerImage width:maxWidth];
-    [self appendImage:QRImage alignment:alignment maxWidth:300];
+    [self appendImage:QRImage
+            alignment:alignment
+             maxWidth:300];
 }
 
 #pragma mark 其他
@@ -511,7 +549,8 @@
     if (!footerInfo) {
         footerInfo = @"谢谢惠顾，欢迎下次光临！";
     }
-    [self appendText:footerInfo alignment:HLTextAlignmentCenter];
+    [self appendText:footerInfo
+           alignment:HLTextAlignmentCenter];
 }
 
 - (NSData *)getFinalData
