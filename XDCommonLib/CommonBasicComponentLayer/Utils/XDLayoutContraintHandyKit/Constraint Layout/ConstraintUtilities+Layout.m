@@ -50,7 +50,9 @@ BOOL ConstraintIsHorizontal(NSLayoutConstraint *constraint)
 #pragma mark - Visibility
 
 // Constrain within superview with minimum sizing
-void SizeAndConstrainToSuperview(VIEW_CLASS *view, float side, NSUInteger  priority)
+void SizeAndConstrainToSuperview(VIEW_CLASS *view,
+                                 float side, 
+                                 NSUInteger  priority)
 {
     if (!view || !view.superview){
         return;
@@ -70,7 +72,8 @@ void SizeAndConstrainToSuperview(VIEW_CLASS *view, float side, NSUInteger  prior
 }
 
 // Constrain to superview
-void ConstrainToSuperview(VIEW_CLASS *view, NSUInteger priority)
+void ConstrainToSuperview(VIEW_CLASS *view,
+                          NSUInteger priority)
 {
     if (!view || !view.superview){
         return;
@@ -86,7 +89,9 @@ void ConstrainToSuperview(VIEW_CLASS *view, NSUInteger priority)
 }
 
 #pragma mark - Stretching
-void StretchHorizontallyToSuperview(VIEW_CLASS *view, CGFloat indent, NSUInteger priority)
+void StretchHorizontallyToSuperview(VIEW_CLASS *view,
+                                    CGFloat indent,
+                                    NSUInteger priority)
 {
     NSString *format = @"H:|-indent-[view]-indent-|";
     NSDictionary *bindings = NSDictionaryOfVariableBindings(view);
@@ -95,7 +100,9 @@ void StretchHorizontallyToSuperview(VIEW_CLASS *view, CGFloat indent, NSUInteger
     InstallConstraints(constraints, priority, @"Stretch to Superview");
 }
 
-void StretchVerticallyToSuperview(VIEW_CLASS *view, CGFloat indent, NSUInteger priority)
+void StretchVerticallyToSuperview(VIEW_CLASS *view,
+                                  CGFloat indent,
+                                  NSUInteger priority)
 {
     NSString *format = @"V:|-indent-[view]-indent-|";
     NSDictionary *bindings = NSDictionaryOfVariableBindings(view);
@@ -104,14 +111,19 @@ void StretchVerticallyToSuperview(VIEW_CLASS *view, CGFloat indent, NSUInteger p
     InstallConstraints(constraints, priority, @"Stretch to Superview");
 }
 
-void StretchToSuperview(VIEW_CLASS *view, CGFloat indent, NSUInteger priority)
+void StretchToSuperview(VIEW_CLASS *view,
+                        CGFloat indent,
+                        NSUInteger priority)
 {
     StretchHorizontallyToSuperview(view, indent, priority);
     StretchVerticallyToSuperview(view, indent, priority);
 }
 
 #pragma mark - Sizing
-void _ConstrainViewSize(VIEW_CLASS *view, CGSize size, NSUInteger priority, NSString *relation)
+void _ConstrainViewSize(VIEW_CLASS *view,
+                        CGSize size,
+                        NSUInteger priority,
+                        NSString *relation)
 {
     NSDictionary *bindings = NSDictionaryOfVariableBindings(view);
     NSDictionary *metrics = @{@"width":@(size.width), @"height":@(size.height)};
@@ -126,24 +138,32 @@ void _ConstrainViewSize(VIEW_CLASS *view, CGSize size, NSUInteger priority, NSSt
     }
 }
 
-void ConstrainViewSize(VIEW_CLASS *view, CGSize size, NSUInteger priority)
+void ConstrainViewSize(VIEW_CLASS *view,
+                       CGSize size,
+                       NSUInteger priority)
 {
     _ConstrainViewSize(view, size, priority, @"==");
 }
 
-void ConstrainMinimumViewSize(VIEW_CLASS *view, CGSize size, NSUInteger priority)
+void ConstrainMinimumViewSize(VIEW_CLASS *view,
+                              CGSize size,
+                              NSUInteger priority)
 {
     _ConstrainViewSize(view, size, priority, @">=");
 }
 
-void ConstrainMaximumViewSize(VIEW_CLASS *view, CGSize size, NSUInteger priority)
+void ConstrainMaximumViewSize(VIEW_CLASS *view,
+                              CGSize size,
+                              NSUInteger priority)
 {
     _ConstrainViewSize(view, size, priority, @"<=");
 }
 
 #pragma mark - Matching
 
-void MatchSizeH(VIEW_CLASS *view1, VIEW_CLASS *view2, NSUInteger priority)
+void MatchSizeH(VIEW_CLASS *view1, 
+                VIEW_CLASS *view2,
+                NSUInteger priority)
 {
     NSString *formatString = @"H:[view1(==view2)]";
     NSDictionary *bindings = NSDictionaryOfVariableBindings(view1, view2);
@@ -151,20 +171,25 @@ void MatchSizeH(VIEW_CLASS *view1, VIEW_CLASS *view2, NSUInteger priority)
     InstallConstraints(constraints, priority, @"Match Horizontal Size");
 }
 
-void MatchSizeV(VIEW_CLASS *view1, VIEW_CLASS *view2, NSUInteger priority)
+void MatchSizeV(VIEW_CLASS *view1,
+                VIEW_CLASS *view2,
+                NSUInteger priority)
 {
     NSString *formatString = @"V:[view1(==view2)]";
     NSDictionary *bindings = NSDictionaryOfVariableBindings(view1, view2);
     NSArray *constraints = [NSLayoutConstraint constraintsWithVisualFormat:formatString options:0 metrics:nil views:bindings];
     InstallConstraints(constraints, priority, @"Match Vertical Size");}
 
-void MatchSize(VIEW_CLASS *view1, VIEW_CLASS *view2, NSUInteger priority)
+void MatchSize(VIEW_CLASS *view1,
+               VIEW_CLASS *view2,
+               NSUInteger priority)
 {
     MatchSizeH(view1, view2, priority);
     MatchSizeV(view1, view2, priority);
 }
 
-void MatchSizesH(NSArray *views, NSUInteger priority)
+void MatchSizesH(NSArray *views,
+                 NSUInteger priority)
 {
     if (views.count < 2) return;
     VIEW_CLASS *baseView = views[0];
@@ -172,7 +197,8 @@ void MatchSizesH(NSArray *views, NSUInteger priority)
         MatchSizeH(baseView, views[i], priority);
 }
 
-void MatchSizesV(NSArray *views, NSUInteger priority)
+void MatchSizesV(NSArray *views,
+                 NSUInteger priority)
 {
     if (views.count < 2) return;
     VIEW_CLASS *baseView = views[0];
@@ -181,7 +207,10 @@ void MatchSizesV(NSArray *views, NSUInteger priority)
 }
 
 #pragma mark - Rows and Columns
-void BuildLineWithSpacing(NSArray *views, NSLayoutFormatOptions alignment, NSString *spacing, NSUInteger priority)
+void BuildLineWithSpacing(NSArray *views,
+                          NSLayoutFormatOptions alignment,
+                          NSString *spacing,
+                          NSUInteger priority)
 {
     if (!views.count) {
         return;
@@ -201,12 +230,16 @@ void BuildLineWithSpacing(NSArray *views, NSLayoutFormatOptions alignment, NSStr
     }
 }
 
-void BuildLine(NSArray *views, NSLayoutFormatOptions alignment, NSUInteger priority)
+void BuildLine(NSArray *views,
+               NSLayoutFormatOptions alignment,
+               NSUInteger priority)
 {
     BuildLineWithSpacing(views, alignment, @"-", priority);
 }
 
-void PseudoDistributeCenters(NSArray *views, NSLayoutFormatOptions alignment, NSUInteger priority)
+void PseudoDistributeCenters(NSArray *views,
+                             NSLayoutFormatOptions alignment,
+                             NSUInteger priority)
 {
     if (!views.count) {
         return;
@@ -254,7 +287,10 @@ void PseudoDistributeCenters(NSArray *views, NSLayoutFormatOptions alignment, NS
     }
 }
 
-void PseudoDistributeWithSpacers(VIEW_CLASS *superview, NSArray *views, NSLayoutFormatOptions alignment, NSUInteger priority)
+void PseudoDistributeWithSpacers(VIEW_CLASS *superview,
+                                 NSArray *views,
+                                 NSLayoutFormatOptions alignment,
+                                 NSUInteger priority)
 {
     // You pin the first and last items wherever you want
     
@@ -294,7 +330,9 @@ void PseudoDistributeWithSpacers(VIEW_CLASS *superview, NSArray *views, NSLayout
 }
 
 // Create equal-sized spacers to float the view horizontally
-void FloatViewsH(VIEW_CLASS *firstView, VIEW_CLASS *lastView, NSUInteger priority)
+void FloatViewsH(VIEW_CLASS *firstView,
+                 VIEW_CLASS *lastView,
+                 NSUInteger priority)
 {
     if (!firstView.superview) return;
     if (!lastView.superview) return;
@@ -330,7 +368,9 @@ void FloatViewsH(VIEW_CLASS *firstView, VIEW_CLASS *lastView, NSUInteger priorit
 }
 
 // Create equal-sized spacers to float the view vertically
-void FloatViewsV(VIEW_CLASS *firstView, VIEW_CLASS *lastView, NSUInteger priority)
+void FloatViewsV(VIEW_CLASS *firstView,
+                 VIEW_CLASS *lastView,
+                 NSUInteger priority)
 {
     if (!firstView.superview) return;
     if (!lastView.superview) return;
@@ -365,24 +405,30 @@ void FloatViewsV(VIEW_CLASS *firstView, VIEW_CLASS *lastView, NSUInteger priorit
 }
 
 #pragma mark - Alignment
-void AlignView(VIEW_CLASS *view, NSLayoutAttribute attribute, NSInteger inset, NSUInteger priority)
+void AlignView(VIEW_CLASS *view,
+               NSLayoutAttribute attribute,
+               NSInteger inset,
+               NSUInteger priority)
 {
     NSLayoutConstraint *constraint = [NSLayoutConstraint constraintWithItem:view attribute:attribute relatedBy:NSLayoutRelationEqual toItem:view.superview attribute:attribute multiplier:1 constant:inset];
     [constraint install:priority];
 }
 
-void CenterView(VIEW_CLASS *view, NSUInteger priority)
+void CenterView(VIEW_CLASS *view,
+                NSUInteger priority)
 {
     AlignView(view, NSLayoutAttributeCenterX, 0, priority);
     AlignView(view, NSLayoutAttributeCenterY, 0, priority);
 }
 
-void CenterViewH(VIEW_CLASS *view, NSUInteger priority)
+void CenterViewH(VIEW_CLASS *view,
+                 NSUInteger priority)
 {
     AlignView(view, NSLayoutAttributeCenterX, 0, priority);
 }
 
-void CenterViewV(VIEW_CLASS *view, NSUInteger priority)
+void CenterViewV(VIEW_CLASS *view,
+                 NSUInteger priority)
 {
     AlignView(view, NSLayoutAttributeCenterY, 0, priority);
 }
@@ -392,7 +438,8 @@ void CenterViewV(VIEW_CLASS *view, NSUInteger priority)
 // NOTE! This uses Left to position the view, and not Leading
 // For this reason, you cannot generate a format from this constraint
 // An exact position will not be overriden by internationalization
-NSLayoutConstraint *ConstraintPositioningViewH(VIEW_CLASS *view, CGFloat x)
+NSLayoutConstraint *ConstraintPositioningViewH(VIEW_CLASS *view,
+                                               CGFloat x)
 {
     NSLayoutConstraint *constraint =
     [NSLayoutConstraint constraintWithItem:view
@@ -405,7 +452,8 @@ NSLayoutConstraint *ConstraintPositioningViewH(VIEW_CLASS *view, CGFloat x)
     return constraint;
 }
 
-NSLayoutConstraint *ConstraintPositioningViewV(VIEW_CLASS *view, CGFloat y)
+NSLayoutConstraint *ConstraintPositioningViewV(VIEW_CLASS *view,
+                                               CGFloat y)
 {
     NSLayoutConstraint *constraint =
     [NSLayoutConstraint constraintWithItem:view
@@ -418,25 +466,32 @@ NSLayoutConstraint *ConstraintPositioningViewV(VIEW_CLASS *view, CGFloat y)
     return constraint;
 }
 
-NSArray *ConstraintsPositioningView(VIEW_CLASS *view, CGPoint point)
+NSArray *ConstraintsPositioningView(VIEW_CLASS *view,
+                                    CGPoint point)
 {
     return @[ConstraintPositioningViewH(view, point.x),
              ConstraintPositioningViewV(view, point.y)];
 }
 
-void PositionView(VIEW_CLASS *view, CGPoint point, NSUInteger priority)
+void PositionView(VIEW_CLASS *view,
+                  CGPoint point,
+                  NSUInteger priority)
 {
     NSArray *constraints = ConstraintsPositioningView(view, point);
     InstallConstraints(constraints, priority, @"Position");
 }
 
-void Pin(VIEW_CLASS *view, NSString *format)
+void Pin(VIEW_CLASS *view,
+         NSString *format)
 {
     NSArray *constraints = [NSLayoutConstraint constraintsWithVisualFormat:format options:0 metrics:nil views:@{@"view":view}];
     InstallConstraints(constraints, LayoutPriorityRequired, nil);
 }
 
-void PinWithPriority(VIEW_CLASS *view, NSString *format, NSString *name, int priority)
+void PinWithPriority(VIEW_CLASS *view,
+                     NSString *format,
+                     NSString *name,
+                     int priority)
 {
     NSArray *constraints = [NSLayoutConstraint constraintsWithVisualFormat:format options:0 metrics:nil views:@{@"view":view}];
     InstallConstraints(constraints, priority, name);

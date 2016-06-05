@@ -15,6 +15,7 @@
 #endif
 
 #pragma mark - Constraint Description
+
 @implementation NSLayoutConstraint (StringDescription)
 
 // Transform the attribute to a string
@@ -150,12 +151,15 @@
     
     return [NSString stringWithFormat:@"%@ %@ %@%@", firstString, relationString, rhsRepresentation, interfaceBuilderString];
 }
+
 @end
 
 #pragma mark - Format Description
 
 #define IS_LEADING_ATTRIBUTE(_ATTRIBUTE_) [@[@(NSLayoutAttributeTop), @(NSLayoutAttributeLeading), @(NSLayoutAttributeLeft)] containsObject:@(_ATTRIBUTE_)]
+
 #define IS_TRAILING_ATTRIBUTE(_ATTRIBUTE_) [@[@(NSLayoutAttributeBottom), @(NSLayoutAttributeTrailing), @(NSLayoutAttributeRight)] containsObject:@(_ATTRIBUTE_)]
+
 #define IS_UNSUPPORTED_ATTRIBUTE(_ATTRIBUTE_) [@[@(NSLayoutAttributeLeft), @(NSLayoutAttributeRight), @(NSLayoutAttributeBaseline)] containsObject:@(_ATTRIBUTE_)]
 
 @implementation NSLayoutConstraint (FormatDescription)
@@ -1310,5 +1314,6 @@ NSString *_AffineTransformDegreesString(CGAffineTransform t)
     displayLink = [CADisplayLink displayLinkWithTarget:self selector:@selector(updateVisualLayoutHints)];
     [displayLink addToRunLoop:[NSRunLoop mainRunLoop] forMode:NSRunLoopCommonModes];
 }
+
 @end
 #endif

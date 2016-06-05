@@ -27,8 +27,7 @@
 #endif
 
 // Custom install priorities built around iOS and OS X values
-typedef enum
-{
+typedef enum {
     LayoutPriorityRequired = 1000,
     LayoutPriorityHigh = 750,
     LayoutPriorityDragResizingWindow = 510,
@@ -40,14 +39,12 @@ typedef enum
 } ConstraintLayoutPriority;
 
 // Sources for contraints
-typedef enum
-{
+typedef enum {
     ConstraintSourceTypeUnknown = 0,
     ConstraintSourceTypeCustom,          // User defined
     ConstraintSourceTypeInferred,        // IB created from static placement
     ConstraintSourceTypeDisambiguation,  // IB created for ambiguous items
     ConstraintSourceTypeSatisfaction,    // IB created via suggested constraints
-    
 } ConstraintSourceType;
 
 
@@ -58,7 +55,9 @@ typedef enum
 
 // Install and remove arrays of constraints created by visual formats
 void InstallConstraints(NSArray *constraints, NSUInteger priority, NSString *nametag);
+
 void InstallConstraint(NSLayoutConstraint *constraint, NSUInteger priority, NSString *nametag);
+
 void RemoveConstraints(NSArray *constraints);
 
 // Retrieve IB-generated constraints from a view controller root
@@ -69,29 +68,38 @@ NSArray *ConstraintsSourcedFromIB(NSArray *constraints);
 
 // Find nearest common ancestor
 @interface VIEW_CLASS (HierarchySupport)
+
 @property (nonatomic, readonly) NSArray *superviews;
 @property (nonatomic, readonly) NSArray *allSubviews;
+
 - (BOOL) isAncestorOfView: (VIEW_CLASS *) aView;
 - (VIEW_CLASS *) nearestCommonAncestorToView: (VIEW_CLASS *) aView;
+
 @end
 
 // Convenience
 @interface VIEW_CLASS (ConstraintReadyViews)
-+ (instancetype) view;
+
++ (instancetype)view;
+
 @end
 
 // Access items in a friendlier manner
 @interface NSLayoutConstraint (ViewHierarchy)
+
 @property (nonatomic, readonly) VIEW_CLASS *firstView;
 @property (nonatomic, readonly) VIEW_CLASS *secondView;
 @property (nonatomic, readonly) BOOL isUnary;
 @property (nonatomic, readonly) VIEW_CLASS *likelyOwner;
 @property (nonatomic, readonly) ConstraintSourceType sourceType;
+
 @end
 
 // Install and remove constraints to and from their natural location
 @interface NSLayoutConstraint (SelfInstall)
-- (BOOL) install;
-- (BOOL) install: (float) priority;
-- (void) remove;
+
+- (BOOL)install;
+- (BOOL)install:(float)priority;
+- (void)remove;
+
 @end

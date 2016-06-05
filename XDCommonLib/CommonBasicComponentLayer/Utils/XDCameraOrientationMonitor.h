@@ -20,10 +20,12 @@ extern NSString *const kXDCameraOrientationMonitorDidChangeNotification;
 
 + (instancetype)monitor;
 
-- (NSInteger)updateEmitterOrientationWithCamera:(BOOL)isFront frontMirror:(BOOL)isForntMirror;
+- (NSInteger)updateEmitterOrientationWithCamera:(BOOL)isFront
+                                    frontMirror:(BOOL)isForntMirror;
 
 - (NSString*)getOrientationString;
 
-- (UIImageOrientation)getUIImageOrientationFromUIDeviceOrientation:(BOOL)isFront frontMirror:(BOOL)isForntMirror;
+- (UIImageOrientation)getUIImageOrientationFromUIDeviceOrientation:(BOOL)isFront
+                                                       frontMirror:(BOOL)isForntMirror;
 
 @end

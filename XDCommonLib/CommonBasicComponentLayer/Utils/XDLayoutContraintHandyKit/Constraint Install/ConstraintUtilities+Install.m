@@ -182,6 +182,7 @@ NSArray *ConstraintsSourcedFromIB(NSArray *constraints)
 
 #pragma mark - Self Install
 @implementation NSLayoutConstraint (SelfInstall)
+
 - (BOOL) install
 {
     // Handle Unary constraint
@@ -233,4 +234,5 @@ NSArray *ConstraintsSourcedFromIB(NSArray *constraints)
     // If the constraint not on view, this is a no-op
     [view removeConstraint:self];
 }
+
 @end

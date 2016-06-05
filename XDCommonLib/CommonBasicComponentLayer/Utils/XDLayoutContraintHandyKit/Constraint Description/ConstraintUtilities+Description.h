@@ -57,10 +57,13 @@
  */
 
 @interface NSLayoutConstraint (StringDescription)
+
 + (NSString *) nameForLayoutAttribute: (NSLayoutAttribute) anAttribute;
 + (NSString *) nameForFormatOption: (NSLayoutFormatOptions) anOption;
 + (NSString *) nameForLayoutRelation: (NSLayoutRelation) aRelation;
+
 @property (nonatomic, readonly) NSString *stringValue;
+
 @end
 
 /*
@@ -69,7 +72,9 @@
  */
 
 @interface NSLayoutConstraint (FormatDescription)
+
 @property (nonatomic, readonly) NSString *visualFormat;
+
 @end
 
 /*
@@ -78,10 +83,13 @@
  */
 
 @interface NSLayoutConstraint (CodeDescription)
+
 + (NSString *) codeNameForLayoutAttribute: (NSLayoutAttribute) anAttribute;
 + (NSString *) codeNameForLayoutRelation: (NSLayoutRelation) aRelation;
 - (NSString *) codeDescriptionWithBindings: (NSDictionary *) dict;
+
 @property (nonatomic, readonly) NSString *codeDescription;
+
 @end
 
 /*
@@ -90,9 +98,11 @@
  */
 
 @interface VIEW_CLASS (ConstraintUtility)
+
 - (NSString *) readableFrame;
 - (NSString *) readableAlignmentInsets;
 - (NSString *) readableAlignmentRect;
+
 @end
 
 /*
@@ -101,9 +111,12 @@
  */
 
 @interface NSLayoutConstraint (SelfDescription)
+
 // Describe the role of the constraint, suitable for auto-naming
 @property (nonatomic, readonly) NSString *constraintDescription;
+
 + (void) autoAddConstraintNames: (NSArray *) constraints;
+
 @end
 
 /*
@@ -112,8 +125,10 @@
  */
 
 @interface VIEW_CLASS (AutoNaming)
+
 - (void) addConstraintNames;
 - (void) addViewNames;
+
 @end
 
 /*
@@ -141,6 +156,7 @@
 @property (nonatomic, readonly) NSString *trace;
 - (void) testAmbiguity;
 #endif
+
 @end
 
 /*
@@ -148,10 +164,13 @@
 */
 #if TARGET_OS_IPHONE
 @interface UIView (VisualLayoutHint)
+
 @property (nonatomic, readonly) CALayer *hintLayer;
+
 - (void) deployVisualLayoutHints;
 - (void) hideVisualLayoutHints;
 - (void) updateVisualLayoutHints;
 - (void) toggleVisualLayoutHints;
+
 @end
 #endif

@@ -8,10 +8,25 @@
 
 #import <UIKit/UIKit.h>
 
+/**
+ *  <#Description#>
+ */
 typedef NS_ENUM(NSInteger,BitPixels) {
+    /**
+     *  <#Description#>
+     */
     BPAlpha = 0,
+    /**
+     *  <#Description#>
+     */
     BPBlue = 1,
+    /**
+     *  <#Description#>
+     */
     BPGreen = 2,
+    /**
+     *  <#Description#>
+     */
     BPRed = 3
 };
 
