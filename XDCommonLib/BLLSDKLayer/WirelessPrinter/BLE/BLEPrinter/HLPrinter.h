@@ -11,6 +11,8 @@
 
 #import "UIImage+Bitmap.h"  
 
+#import "XDBaseWirelessPrinter.h"
+
 typedef NS_ENUM(NSInteger, HLPrinterStyle) {
     HLPrinterStyleDefault,
     HLPrinterStyleCustom
@@ -33,7 +35,7 @@ typedef NS_ENUM(NSInteger, HLFontSize) {
 /**
  *  打印机管理类
  */
-@interface HLPrinter : NSObject
+@interface HLPrinter : XDBaseWirelessPrinter
 
 /**
  *  构造器

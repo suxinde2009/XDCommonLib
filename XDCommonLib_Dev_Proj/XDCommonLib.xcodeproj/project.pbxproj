@@ -13,10 +13,6 @@
 		1F36035C1CFDFD77005F627A /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1F3603551CFDFD77005F627A /* SVProgressHUD.bundle */; };
 		1F36035D1CFDFD77005F627A /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3603571CFDFD77005F627A /* SVProgressHUD.m */; };
 		1F36035E1CFDFD77005F627A /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3603591CFDFD77005F627A /* SVRadialGradientLayer.m */; };
-		1F36036A1CFDFDA7005F627A /* HLPrinter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3603621CFDFDA7005F627A /* HLPrinter.m */; };
-		1F36036B1CFDFDA7005F627A /* SEPrinterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3603651CFDFDA7005F627A /* SEPrinterManager.m */; };
-		1F36036C1CFDFDA7005F627A /* UIImage+Bitmap.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3603671CFDFDA7005F627A /* UIImage+Bitmap.m */; };
-		1F36036D1CFDFDA7005F627A /* UIWebView+UIImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3603691CFDFDA7005F627A /* UIWebView+UIImage.m */; };
 		1F3603721CFDFE7F005F627A /* ico180.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F36036F1CFDFE7F005F627A /* ico180.png */; };
 		1F3603731CFDFE7F005F627A /* SEPreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3603711CFDFE7F005F627A /* SEPreviewViewController.m */; };
 		1F3603761CFDFE94005F627A /* BLEPrinterDemoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3603751CFDFE94005F627A /* BLEPrinterDemoVC.m */; };
@@ -388,6 +384,12 @@
 		1F62A29D1CE2F28D0077B7D5 /* XDCommandTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F62A29C1CE2F28D0077B7D5 /* XDCommandTestVC.m */; };
 		1F62A2A11CE2F2A70077B7D5 /* LoginCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F62A2A01CE2F2A70077B7D5 /* LoginCommand.m */; };
 		1F62A2A41CE2F2B80077B7D5 /* LoginCommandHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F62A2A31CE2F2B80077B7D5 /* LoginCommandHandler.m */; };
+		1F729DAA1D05E44600507DCC /* HLPrinter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F729DA21D05E44600507DCC /* HLPrinter.m */; };
+		1F729DAB1D05E44600507DCC /* SEPrinterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F729DA51D05E44600507DCC /* SEPrinterManager.m */; };
+		1F729DAC1D05E44600507DCC /* UIImage+Bitmap.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F729DA71D05E44600507DCC /* UIImage+Bitmap.m */; };
+		1F729DAD1D05E44600507DCC /* UIWebView+UIImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F729DA91D05E44600507DCC /* UIWebView+UIImage.m */; };
+		1F729DB31D05E4A800507DCC /* XDBaseWirelessPrinter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F729DB21D05E4A800507DCC /* XDBaseWirelessPrinter.m */; };
+		1F729DB61D05E4C500507DCC /* XDBaseWifiPrinter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F729DB51D05E4C500507DCC /* XDBaseWifiPrinter.m */; };
 		1F9CA6051CE0FD5D00F53C03 /* SBTableLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9CA6021CE0FD5D00F53C03 /* SBTableLayoutViewController.m */; };
 		1F9CA6061CE0FD5D00F53C03 /* SBTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9CA6041CE0FD5D00F53C03 /* SBTableViewController.m */; };
 		1FA4D1871CF0DC19005AD187 /* XDFluxDispatcherDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA4D1861CF0DC19005AD187 /* XDFluxDispatcherDemo.m */; };
@@ -426,15 +428,6 @@
 		1F3603571CFDFD77005F627A /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
 		1F3603581CFDFD77005F627A /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVRadialGradientLayer.h; sourceTree = "<group>"; };
 		1F3603591CFDFD77005F627A /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVRadialGradientLayer.m; sourceTree = "<group>"; };
-		1F3603611CFDFDA7005F627A /* HLPrinter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLPrinter.h; sourceTree = "<group>"; };
-		1F3603621CFDFDA7005F627A /* HLPrinter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLPrinter.m; sourceTree = "<group>"; };
-		1F3603631CFDFDA7005F627A /* SEBLEConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEBLEConst.h; sourceTree = "<group>"; };
-		1F3603641CFDFDA7005F627A /* SEPrinterManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEPrinterManager.h; sourceTree = "<group>"; };
-		1F3603651CFDFDA7005F627A /* SEPrinterManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEPrinterManager.m; sourceTree = "<group>"; };
-		1F3603661CFDFDA7005F627A /* UIImage+Bitmap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Bitmap.h"; sourceTree = "<group>"; };
-		1F3603671CFDFDA7005F627A /* UIImage+Bitmap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Bitmap.m"; sourceTree = "<group>"; };
-		1F3603681CFDFDA7005F627A /* UIWebView+UIImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+UIImage.h"; sourceTree = "<group>"; };
-		1F3603691CFDFDA7005F627A /* UIWebView+UIImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+UIImage.m"; sourceTree = "<group>"; };
 		1F36036F1CFDFE7F005F627A /* ico180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ico180.png; sourceTree = "<group>"; };
 		1F3603701CFDFE7F005F627A /* SEPreviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEPreviewViewController.h; sourceTree = "<group>"; };
 		1F3603711CFDFE7F005F627A /* SEPreviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEPreviewViewController.m; sourceTree = "<group>"; };
@@ -1172,6 +1165,19 @@
 		1F62A2A01CE2F2A70077B7D5 /* LoginCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginCommand.m; sourceTree = "<group>"; };
 		1F62A2A21CE2F2B80077B7D5 /* LoginCommandHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginCommandHandler.h; sourceTree = "<group>"; };
 		1F62A2A31CE2F2B80077B7D5 /* LoginCommandHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginCommandHandler.m; sourceTree = "<group>"; };
+		1F729DA11D05E44600507DCC /* HLPrinter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLPrinter.h; sourceTree = "<group>"; };
+		1F729DA21D05E44600507DCC /* HLPrinter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLPrinter.m; sourceTree = "<group>"; };
+		1F729DA31D05E44600507DCC /* SEBLEConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEBLEConst.h; sourceTree = "<group>"; };
+		1F729DA41D05E44600507DCC /* SEPrinterManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEPrinterManager.h; sourceTree = "<group>"; };
+		1F729DA51D05E44600507DCC /* SEPrinterManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEPrinterManager.m; sourceTree = "<group>"; };
+		1F729DA61D05E44600507DCC /* UIImage+Bitmap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Bitmap.h"; sourceTree = "<group>"; };
+		1F729DA71D05E44600507DCC /* UIImage+Bitmap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Bitmap.m"; sourceTree = "<group>"; };
+		1F729DA81D05E44600507DCC /* UIWebView+UIImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+UIImage.h"; sourceTree = "<group>"; };
+		1F729DA91D05E44600507DCC /* UIWebView+UIImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+UIImage.m"; sourceTree = "<group>"; };
+		1F729DB11D05E4A800507DCC /* XDBaseWirelessPrinter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDBaseWirelessPrinter.h; sourceTree = "<group>"; };
+		1F729DB21D05E4A800507DCC /* XDBaseWirelessPrinter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDBaseWirelessPrinter.m; sourceTree = "<group>"; };
+		1F729DB41D05E4C500507DCC /* XDBaseWifiPrinter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDBaseWifiPrinter.h; sourceTree = "<group>"; };
+		1F729DB51D05E4C500507DCC /* XDBaseWifiPrinter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDBaseWifiPrinter.m; sourceTree = "<group>"; };
 		1F9CA6011CE0FD5D00F53C03 /* SBTableLayoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBTableLayoutViewController.h; sourceTree = "<group>"; };
 		1F9CA6021CE0FD5D00F53C03 /* SBTableLayoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBTableLayoutViewController.m; sourceTree = "<group>"; };
 		1F9CA6031CE0FD5D00F53C03 /* SBTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBTableViewController.h; sourceTree = "<group>"; };
@@ -1250,30 +1256,6 @@
 				1F3603591CFDFD77005F627A /* SVRadialGradientLayer.m */,
 			);
 			path = SVProgressHUD;
-			sourceTree = "<group>";
-		};
-		1F36035F1CFDFD97005F627A /* BLE */ = {
-			isa = PBXGroup;
-			children = (
-				1F3603601CFDFDA7005F627A /* BLEPrinter */,
-			);
-			path = BLE;
-			sourceTree = "<group>";
-		};
-		1F3603601CFDFDA7005F627A /* BLEPrinter */ = {
-			isa = PBXGroup;
-			children = (
-				1F3603611CFDFDA7005F627A /* HLPrinter.h */,
-				1F3603621CFDFDA7005F627A /* HLPrinter.m */,
-				1F3603631CFDFDA7005F627A /* SEBLEConst.h */,
-				1F3603641CFDFDA7005F627A /* SEPrinterManager.h */,
-				1F3603651CFDFDA7005F627A /* SEPrinterManager.m */,
-				1F3603661CFDFDA7005F627A /* UIImage+Bitmap.h */,
-				1F3603671CFDFDA7005F627A /* UIImage+Bitmap.m */,
-				1F3603681CFDFDA7005F627A /* UIWebView+UIImage.h */,
-				1F3603691CFDFDA7005F627A /* UIWebView+UIImage.m */,
-			);
-			path = BLEPrinter;
 			sourceTree = "<group>";
 		};
 		1F36036E1CFDFE68005F627A /* BLEPrinterDemo */ = {
@@ -2997,7 +2979,7 @@
 		1F38AA421CFB569000E21ABF /* BLLSDKLayer */ = {
 			isa = PBXGroup;
 			children = (
-				1F36035F1CFDFD97005F627A /* BLE */,
+				1F729D9E1D05E43000507DCC /* WirelessPrinter */,
 				1F38AA431CFB569000E21ABF /* BLLSDKLayer.json */,
 			);
 			path = BLLSDKLayer;
@@ -3067,6 +3049,66 @@
 				1F62A2A31CE2F2B80077B7D5 /* LoginCommandHandler.m */,
 			);
 			name = Command;
+			sourceTree = "<group>";
+		};
+		1F729D9E1D05E43000507DCC /* WirelessPrinter */ = {
+			isa = PBXGroup;
+			children = (
+				1F729DB01D05E48800507DCC /* Base */,
+				1F729DAE1D05E47100507DCC /* Wifi */,
+				1F729D9F1D05E44600507DCC /* BLE */,
+			);
+			path = WirelessPrinter;
+			sourceTree = "<group>";
+		};
+		1F729D9F1D05E44600507DCC /* BLE */ = {
+			isa = PBXGroup;
+			children = (
+				1F729DA01D05E44600507DCC /* BLEPrinter */,
+			);
+			path = BLE;
+			sourceTree = "<group>";
+		};
+		1F729DA01D05E44600507DCC /* BLEPrinter */ = {
+			isa = PBXGroup;
+			children = (
+				1F729DA11D05E44600507DCC /* HLPrinter.h */,
+				1F729DA21D05E44600507DCC /* HLPrinter.m */,
+				1F729DA31D05E44600507DCC /* SEBLEConst.h */,
+				1F729DA41D05E44600507DCC /* SEPrinterManager.h */,
+				1F729DA51D05E44600507DCC /* SEPrinterManager.m */,
+				1F729DA61D05E44600507DCC /* UIImage+Bitmap.h */,
+				1F729DA71D05E44600507DCC /* UIImage+Bitmap.m */,
+				1F729DA81D05E44600507DCC /* UIWebView+UIImage.h */,
+				1F729DA91D05E44600507DCC /* UIWebView+UIImage.m */,
+			);
+			path = BLEPrinter;
+			sourceTree = "<group>";
+		};
+		1F729DAE1D05E47100507DCC /* Wifi */ = {
+			isa = PBXGroup;
+			children = (
+				1F729DAF1D05E47100507DCC /* WifiPrinter */,
+			);
+			path = Wifi;
+			sourceTree = "<group>";
+		};
+		1F729DAF1D05E47100507DCC /* WifiPrinter */ = {
+			isa = PBXGroup;
+			children = (
+				1F729DB41D05E4C500507DCC /* XDBaseWifiPrinter.h */,
+				1F729DB51D05E4C500507DCC /* XDBaseWifiPrinter.m */,
+			);
+			path = WifiPrinter;
+			sourceTree = "<group>";
+		};
+		1F729DB01D05E48800507DCC /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				1F729DB11D05E4A800507DCC /* XDBaseWirelessPrinter.h */,
+				1F729DB21D05E4A800507DCC /* XDBaseWirelessPrinter.m */,
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 		1F9A83841CEE34DE0070CE07 /* XDCommonLib */ = {
@@ -3346,6 +3388,7 @@
 				1F38A9761CFB568000E21ABF /* UIImageView+BetterFace.m in Sources */,
 				1F38A8D51CFB567F00E21ABF /* NSPersistentStoreCoordinator+Custom.m in Sources */,
 				1F36035D1CFDFD77005F627A /* SVProgressHUD.m in Sources */,
+				1F729DAB1D05E44600507DCC /* SEPrinterManager.m in Sources */,
 				1F38A9F01CFB568000E21ABF /* UIGestureRecognizer+BlocksKit.m in Sources */,
 				1F38A8E81CFB567F00E21ABF /* NSDate+Formatter.m in Sources */,
 				1F38A94E1CFB568000E21ABF /* UIBezierPath+LxThroughPointsBezier.m in Sources */,
@@ -3362,7 +3405,6 @@
 				1F38A96F1CFB568000E21ABF /* UIImage+PDF.m in Sources */,
 				1F38A9271CFB567F00E21ABF /* NSString+Score.m in Sources */,
 				1F38A8E41CFB567F00E21ABF /* NSData+XDCommonLib.m in Sources */,
-				1F36036D1CFDFDA7005F627A /* UIWebView+UIImage.m in Sources */,
 				1F38A9721CFB568000E21ABF /* UIImage+RoundedCorner.m in Sources */,
 				1F38AA1E1CFB568000E21ABF /* YRJSONAdapter.m in Sources */,
 				1F38A9CB1CFB568000E21ABF /* XDDebugSystemControl.m in Sources */,
@@ -3382,7 +3424,6 @@
 				1F3603731CFDFE7F005F627A /* SEPreviewViewController.m in Sources */,
 				1F38A9871CFB568000E21ABF /* UINavigationItem+Loading.m in Sources */,
 				1F62A2A41CE2F2B80077B7D5 /* LoginCommandHandler.m in Sources */,
-				1F36036C1CFDFDA7005F627A /* UIImage+Bitmap.m in Sources */,
 				1F36038C1CFFBFD7005F627A /* ColorDetailViewController.m in Sources */,
 				1FA4D1871CF0DC19005AD187 /* XDFluxDispatcherDemo.m in Sources */,
 				1F38A9FE1CFB568000E21ABF /* XD_FFT.c in Sources */,
@@ -3402,6 +3443,7 @@
 				1F38A8F21CFB567F00E21ABF /* NSDictionary+Block.m in Sources */,
 				1F38A8EA1CFB567F00E21ABF /* NSDate+Reporting.m in Sources */,
 				1F38A9511CFB568000E21ABF /* UIButton+BackgroundColor.m in Sources */,
+				1F729DAC1D05E44600507DCC /* UIImage+Bitmap.m in Sources */,
 				1F38A8FB1CFB567F00E21ABF /* NSFileHandle+readLine.m in Sources */,
 				1F38A8FD1CFB567F00E21ABF /* NSFileManager+XD_Handy.m in Sources */,
 				1F38A9C01CFB568000E21ABF /* UIWebView+JS.m in Sources */,
@@ -3425,12 +3467,14 @@
 				1F38A95B1CFB568000E21ABF /* UIColor+Web.m in Sources */,
 				1F38A9221CFB567F00E21ABF /* NSString+MIME.m in Sources */,
 				1F38A9E81CFB568000E21ABF /* NSObject+A2DynamicDelegate.m in Sources */,
+				1F729DAD1D05E44600507DCC /* UIWebView+UIImage.m in Sources */,
 				1F38A9EC1CFB568000E21ABF /* UIActionSheet+BlocksKit.m in Sources */,
 				1F38A8E11CFB567F00E21ABF /* NSData+Hash.m in Sources */,
 				1F38AA2A1CFB568500E21ABF /* DGStateBroadcaster.m in Sources */,
 				1F38AA281CFB568500E21ABF /* XDCommandBus.m in Sources */,
 				1FC8F5B71AF7DB2E00CA2AC0 /* ViewController.m in Sources */,
 				1F38A8E71CFB567F00E21ABF /* NSDate+Extension.m in Sources */,
+				1F729DAA1D05E44600507DCC /* HLPrinter.m in Sources */,
 				1F38A9E71CFB568000E21ABF /* NSObject+A2BlockDelegate.m in Sources */,
 				1F38AA411CFB568A00E21ABF /* XDVideoEditor.m in Sources */,
 				1F38A9AA1CFB568000E21ABF /* UIView+Screenshot.m in Sources */,
@@ -3456,7 +3500,6 @@
 				1F38AA191CFB568000E21ABF /* SBCollectionViewTableLayout.m in Sources */,
 				1F38A92E1CFB567F00E21ABF /* NSString+UUID.m in Sources */,
 				1F38A9181CFB567F00E21ABF /* NSRunLoop+PerformBlock.m in Sources */,
-				1F36036A1CFDFDA7005F627A /* HLPrinter.m in Sources */,
 				1F38A9431CFB568000E21ABF /* CAMediaTimingFunction+AdditionalEquations.m in Sources */,
 				1F38A9801CFB568000E21ABF /* UINavigationBar+Awesome.m in Sources */,
 				1F38A92B1CFB567F00E21ABF /* NSString+UrlEncode.m in Sources */,
@@ -3471,6 +3514,7 @@
 				1F38A9911CFB568000E21ABF /* UIScrollView+Pages.m in Sources */,
 				1F38A9D51CFB568000E21ABF /* NSInvocation+BlocksKit.m in Sources */,
 				1F38A9A21CFB568000E21ABF /* UIView+draggable.m in Sources */,
+				1F729DB31D05E4A800507DCC /* XDBaseWirelessPrinter.m in Sources */,
 				1F38A9DB1CFB568000E21ABF /* NSMutableSet+BlocksKit.m in Sources */,
 				1F38A93A1CFB567F00E21ABF /* XDFileMimeType.m in Sources */,
 				1F38A9061CFB567F00E21ABF /* NSNumber+Round.m in Sources */,
@@ -3546,6 +3590,7 @@
 				1F38A9571CFB568000E21ABF /* UIColor+Gradient.m in Sources */,
 				1F38A9171CFB567F00E21ABF /* NSOperationQueue+Global.m in Sources */,
 				1F38A9521CFB568000E21ABF /* UIButton+Block.m in Sources */,
+				1F729DB61D05E4C500507DCC /* XDBaseWifiPrinter.m in Sources */,
 				1F38A9B31CFB568000E21ABF /* UIViewController+BackButtonTouched.m in Sources */,
 				1F38A97B1CFB568000E21ABF /* UIImageView+Reflect.m in Sources */,
 				1F38A8F51CFB567F00E21ABF /* NSDictionary+SafeAccess.m in Sources */,
@@ -3689,7 +3734,6 @@
 				1F38A92F1CFB567F00E21ABF /* NSString+VersionUtil.m in Sources */,
 				1F38A92C1CFB567F00E21ABF /* NSString+URLUtilities.m in Sources */,
 				1F38A9921CFB568000E21ABF /* UISearchBar+Blocks.m in Sources */,
-				1F36036B1CFDFDA7005F627A /* SEPrinterManager.m in Sources */,
 				1F38AA1B1CFB568000E21ABF /* SBCollectionViewTableSupplementaryView.m in Sources */,
 				1F38A8F41CFB567F00E21ABF /* NSDictionary+Merge.m in Sources */,
 				1F38A9AC1CFB568000E21ABF /* UIView+Snapshot.m in Sources */,
