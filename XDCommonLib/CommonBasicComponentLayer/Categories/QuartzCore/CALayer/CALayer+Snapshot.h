@@ -11,6 +11,11 @@
 
 @interface CALayer (Snapshot)
 
+/**
+ *  生成Layer截图
+ *
+ *  @return 截图图片
+ */
 - (UIImage *)snapshot;
 
 @end

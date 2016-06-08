@@ -11,5 +11,12 @@
 #import <MapKit/MapKit.h>
 
 @interface MKMapView (ZoomToFitAnnotations)
+
+/**
+ *  放大到Annotation对应区域
+ *
+ *  @param animated 是否有放大过度动画 YES 有 NO 没有
+ */
 - (void)zoomToFitAnnotationsAnimated:(BOOL)animated;
+
 @end

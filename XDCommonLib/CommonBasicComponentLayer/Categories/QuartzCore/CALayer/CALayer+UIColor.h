@@ -9,9 +9,12 @@
 
 #import <QuartzCore/QuartzCore.h>
 #import <UIKit/UIKit.h>
+
 @interface CALayer (UIColor)
+
 @property(nonatomic, assign) UIColor* borderUIColor;
 
 //setting background for UIView 
 @property(nonatomic, assign) UIColor* contentsUIImage;
+
 @end
