@@ -397,6 +397,7 @@
 		1FBF4A171D07BB730051DA21 /* XDLayoutUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBF4A161D07BB730051DA21 /* XDLayoutUtils.m */; };
 		1FBF4A1A1D07BB9D0051DA21 /* NSLayoutConstraint+XDCommonLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBF4A191D07BB9D0051DA21 /* NSLayoutConstraint+XDCommonLib.m */; };
 		1FBF4A1D1D07BC0E0051DA21 /* UIView+LayoutConstraintUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBF4A1C1D07BC0E0051DA21 /* UIView+LayoutConstraintUtils.m */; };
+		1FBF4A241D07F2910051DA21 /* UIStoryboard+LoadViewControllerFromStoryBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBF4A231D07F2910051DA21 /* UIStoryboard+LoadViewControllerFromStoryBoard.m */; };
 		1FC8F5901AF7DA0D00CA2AC0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC8F58F1AF7DA0D00CA2AC0 /* main.m */; };
 		1FC8F5931AF7DA0D00CA2AC0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC8F5921AF7DA0D00CA2AC0 /* AppDelegate.m */; };
 		1FC8F5991AF7DA0D00CA2AC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FC8F5971AF7DA0D00CA2AC0 /* Main.storyboard */; };
@@ -1195,6 +1196,8 @@
 		1FBF4A191D07BB9D0051DA21 /* NSLayoutConstraint+XDCommonLib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+XDCommonLib.m"; sourceTree = "<group>"; };
 		1FBF4A1B1D07BC0E0051DA21 /* UIView+LayoutConstraintUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LayoutConstraintUtils.h"; sourceTree = "<group>"; };
 		1FBF4A1C1D07BC0E0051DA21 /* UIView+LayoutConstraintUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LayoutConstraintUtils.m"; sourceTree = "<group>"; };
+		1FBF4A221D07F2910051DA21 /* UIStoryboard+LoadViewControllerFromStoryBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIStoryboard+LoadViewControllerFromStoryBoard.h"; sourceTree = "<group>"; };
+		1FBF4A231D07F2910051DA21 /* UIStoryboard+LoadViewControllerFromStoryBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIStoryboard+LoadViewControllerFromStoryBoard.m"; sourceTree = "<group>"; };
 		1FC8F58A1AF7DA0D00CA2AC0 /* XDCommonLib.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XDCommonLib.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FC8F58E1AF7DA0D00CA2AC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1FC8F58F1AF7DA0D00CA2AC0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -1917,6 +1920,7 @@
 		1F38A6C81CFB567F00E21ABF /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				1FBF4A211D07F27A0051DA21 /* UIStoryboard */,
 				1F38A6C91CFB567F00E21ABF /* UIAlertView */,
 				1F38A6CC1CFB567F00E21ABF /* UIApplication */,
 				1F38A6D51CFB567F00E21ABF /* UIBarButtonItem */,
@@ -3176,6 +3180,15 @@
 			path = Layout;
 			sourceTree = "<group>";
 		};
+		1FBF4A211D07F27A0051DA21 /* UIStoryboard */ = {
+			isa = PBXGroup;
+			children = (
+				1FBF4A221D07F2910051DA21 /* UIStoryboard+LoadViewControllerFromStoryBoard.h */,
+				1FBF4A231D07F2910051DA21 /* UIStoryboard+LoadViewControllerFromStoryBoard.m */,
+			);
+			path = UIStoryboard;
+			sourceTree = "<group>";
+		};
 		1FC8F5811AF7DA0D00CA2AC0 = {
 			isa = PBXGroup;
 			children = (
@@ -3455,6 +3468,7 @@
 				1F38A8DD1CFB567F00E21ABF /* NSData+APNSToken.m in Sources */,
 				1F38A97A1CFB568000E21ABF /* UIImageView+Letters.m in Sources */,
 				1F38AA131CFB568000E21ABF /* XDUIKitMainThreadGuard.m in Sources */,
+				1FBF4A241D07F2910051DA21 /* UIStoryboard+LoadViewControllerFromStoryBoard.m in Sources */,
 				1F38A9531CFB568000E21ABF /* UIButton+CountDown.m in Sources */,
 				1F38A8E61CFB567F00E21ABF /* NSDate+CupertinoYankee.m in Sources */,
 				1F38A9E61CFB568000E21ABF /* NSURLConnection+BlocksKit.m in Sources */,
