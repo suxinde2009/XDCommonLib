@@ -394,6 +394,9 @@
 		1F9CA6061CE0FD5D00F53C03 /* SBTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9CA6041CE0FD5D00F53C03 /* SBTableViewController.m */; };
 		1FA4D1871CF0DC19005AD187 /* XDFluxDispatcherDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA4D1861CF0DC19005AD187 /* XDFluxDispatcherDemo.m */; };
 		1FBB72291AF9356D005B3F99 /* MulticastDelegateDemoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBB72281AF9356D005B3F99 /* MulticastDelegateDemoVC.m */; };
+		1FBF4A171D07BB730051DA21 /* XDLayoutUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBF4A161D07BB730051DA21 /* XDLayoutUtils.m */; };
+		1FBF4A1A1D07BB9D0051DA21 /* NSLayoutConstraint+XDCommonLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBF4A191D07BB9D0051DA21 /* NSLayoutConstraint+XDCommonLib.m */; };
+		1FBF4A1D1D07BC0E0051DA21 /* UIView+LayoutConstraintUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBF4A1C1D07BC0E0051DA21 /* UIView+LayoutConstraintUtils.m */; };
 		1FC8F5901AF7DA0D00CA2AC0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC8F58F1AF7DA0D00CA2AC0 /* main.m */; };
 		1FC8F5931AF7DA0D00CA2AC0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC8F5921AF7DA0D00CA2AC0 /* AppDelegate.m */; };
 		1FC8F5991AF7DA0D00CA2AC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FC8F5971AF7DA0D00CA2AC0 /* Main.storyboard */; };
@@ -1186,6 +1189,12 @@
 		1FA4D1861CF0DC19005AD187 /* XDFluxDispatcherDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDFluxDispatcherDemo.m; sourceTree = "<group>"; };
 		1FBB72271AF9356D005B3F99 /* MulticastDelegateDemoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MulticastDelegateDemoVC.h; sourceTree = "<group>"; };
 		1FBB72281AF9356D005B3F99 /* MulticastDelegateDemoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MulticastDelegateDemoVC.m; sourceTree = "<group>"; };
+		1FBF4A151D07BB730051DA21 /* XDLayoutUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDLayoutUtils.h; sourceTree = "<group>"; };
+		1FBF4A161D07BB730051DA21 /* XDLayoutUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDLayoutUtils.m; sourceTree = "<group>"; };
+		1FBF4A181D07BB9D0051DA21 /* NSLayoutConstraint+XDCommonLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+XDCommonLib.h"; sourceTree = "<group>"; };
+		1FBF4A191D07BB9D0051DA21 /* NSLayoutConstraint+XDCommonLib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+XDCommonLib.m"; sourceTree = "<group>"; };
+		1FBF4A1B1D07BC0E0051DA21 /* UIView+LayoutConstraintUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LayoutConstraintUtils.h"; sourceTree = "<group>"; };
+		1FBF4A1C1D07BC0E0051DA21 /* UIView+LayoutConstraintUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LayoutConstraintUtils.m"; sourceTree = "<group>"; };
 		1FC8F58A1AF7DA0D00CA2AC0 /* XDCommonLib.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XDCommonLib.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FC8F58E1AF7DA0D00CA2AC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1FC8F58F1AF7DA0D00CA2AC0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -2460,6 +2469,7 @@
 		1F38A7FE1CFB567F00E21ABF /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				1FBF4A141D07BB650051DA21 /* Layout */,
 				1F38A7FF1CFB567F00E21ABF /* BlocksKit */,
 				1F38A8581CFB567F00E21ABF /* BlockThrottle */,
 				1F38A85B1CFB567F00E21ABF /* EncryptUtils */,
@@ -3153,6 +3163,19 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		1FBF4A141D07BB650051DA21 /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				1FBF4A151D07BB730051DA21 /* XDLayoutUtils.h */,
+				1FBF4A161D07BB730051DA21 /* XDLayoutUtils.m */,
+				1FBF4A181D07BB9D0051DA21 /* NSLayoutConstraint+XDCommonLib.h */,
+				1FBF4A191D07BB9D0051DA21 /* NSLayoutConstraint+XDCommonLib.m */,
+				1FBF4A1B1D07BC0E0051DA21 /* UIView+LayoutConstraintUtils.h */,
+				1FBF4A1C1D07BC0E0051DA21 /* UIView+LayoutConstraintUtils.m */,
+			);
+			path = Layout;
+			sourceTree = "<group>";
+		};
 		1FC8F5811AF7DA0D00CA2AC0 = {
 			isa = PBXGroup;
 			children = (
@@ -3410,6 +3433,7 @@
 				1F38A9CB1CFB568000E21ABF /* XDDebugSystemControl.m in Sources */,
 				1F38A9251CFB567F00E21ABF /* NSString+RemoveEmoji.m in Sources */,
 				1F38A92D1CFB567F00E21ABF /* NSString+Utils.m in Sources */,
+				1FBF4A1D1D07BC0E0051DA21 /* UIView+LayoutConstraintUtils.m in Sources */,
 				1F38A9C51CFB568000E21ABF /* WebView+Debug.m in Sources */,
 				1F38A8EF1CFB567F00E21ABF /* NSDate+XDCommonLib.m in Sources */,
 				1F38A9BA1CFB568000E21ABF /* UIViewController+StoreKit.m in Sources */,
@@ -3530,6 +3554,7 @@
 				1F38A9BC1CFB568000E21ABF /* UIViewController+Visible.m in Sources */,
 				1F38A9771CFB568000E21ABF /* UIImageView+CompressWithoutDeformation.m in Sources */,
 				1F38A9151CFB567F00E21ABF /* NSObject+XD_KVO.m in Sources */,
+				1FBF4A171D07BB730051DA21 /* XDLayoutUtils.m in Sources */,
 				1F38A9881CFB568000E21ABF /* UINavigationItem+Lock.m in Sources */,
 				1F38A9931CFB568000E21ABF /* UISplitViewController+QuickAccess.m in Sources */,
 				1F38A9401CFB568000E21ABF /* CAAnimation+EasingEquations.m in Sources */,
@@ -3689,6 +3714,7 @@
 				1F38A9DC1CFB568000E21ABF /* NSNumber+BlocksKit.m in Sources */,
 				1F62A29D1CE2F28D0077B7D5 /* XDCommandTestVC.m in Sources */,
 				1F38A8D41CFB567F00E21ABF /* NSManagedObjectContext+ObjectClear.m in Sources */,
+				1FBF4A1A1D07BB9D0051DA21 /* NSLayoutConstraint+XDCommonLib.m in Sources */,
 				1F38A98D1CFB568000E21ABF /* UIResponder+UIAdapt.m in Sources */,
 				1F38AA011CFB568000E21ABF /* XDAppLanguage.m in Sources */,
 				1F38A9561CFB568000E21ABF /* UIButton+TouchAreaInsets.m in Sources */,
