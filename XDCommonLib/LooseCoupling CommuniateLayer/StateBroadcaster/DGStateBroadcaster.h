@@ -48,10 +48,16 @@ typedef enum _DGStateBroadcasterState
 
 @optional
 
-- (void)stateBroadcasterBatteryChargedLow:(BOOL)isLow charging:(BOOL)isCharging;
+- (void)stateBroadcasterBatteryChargedLow:(BOOL)isLow
+                                 charging:(BOOL)isCharging;
+
 - (void)stateBroadcasterDistanceTravelledToLocation:(CLLocation *)location;
+
 - (void)stateBroadcasterLocationAccurateEnough:(BOOL)accurateEnough;
-- (void)stateBroadcasterNetworkReachable:(BOOL)reachable isOnWifi:(BOOL)wifi;
+
+- (void)stateBroadcasterNetworkReachable:(BOOL)reachable
+                                isOnWifi:(BOOL)wifi;
+
 - (void)stateBroadcasterLocationManagerDidChangeAuthorizationStatus:(CLAuthorizationStatus)status;
 
 @end
@@ -59,40 +65,57 @@ typedef enum _DGStateBroadcasterState
 @interface DGStateBroadcaster : NSObject
 
 + (void)addDelegate:(__unsafe_unretained id<DGStateBroadcasterDelegate>)delegate;
+
 + (void)removeDelegate:(__unsafe_unretained id<DGStateBroadcasterDelegate>)delegate;
+
 + (void)removeAllDelegates;
 
 + (void)startListeningTo:(DGStateBroadcasterState)states;
+
 + (void)stopListeningTo:(DGStateBroadcasterState)states;
+
 + (void)stopListeningToAllStates;
 
 + (void)startListeningToLowBatteryWithBar:(float)batteryCharge; // Default: 0.05
+
 + (void)startListeningToDistanceTravelledWithBarInMeters:(double)meters; // Default: 30
+
 + (void)startListeningToLocationAccuracyWithBarInMeters:(double)meters; // Default: 100m
 
 #pragma mark Setters
 
 + (void)setDistanceTravelledBarInMeters:(double)meters;
+
 + (void)setLocationAccuracyBarInMeters:(double)meters;
+
 + (void)setLowBatteryBar:(float)batteryCharge;
 
 + (void)setReachabilityWithHostname:(NSString *)hostname;
+
 + (void)setReachabilityWithAddress:(const struct sockaddr_in *)hostAddress;
+
 + (void)setReachabilityForInternetConnection; // This is the default mode
+
 + (void)setReachabilityForWifiInternetConnection;
 
 #if __IPHONE_OS_VERSION_MIN_REQUIRED < 60000
 + (void)setLocationPurpose:(NSString *)purpose;
 #endif
+
 + (void)setLocationActivityType:(CLActivityType)activityType;
+
 + (CLAuthorizationStatus)locationAuthorizationStatus;
+
 + (void)requestLocationWhenInUseAuthorization;
+
 + (void)requestLocationAlwaysAuthorization;
 
 #pragma mark Getters
 
 + (BOOL)isBatteryCurrentlyLow;
+
 + (BOOL)isBatteryCurrentlyCharging;
+
 + (float)currentBatteryLevel;
 
 /** @brief Is internet reachable? This is only available when listening to reachability */
