@@ -336,8 +336,6 @@
 		1F38AA011CFB568000E21ABF /* XDAppLanguage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F38A8731CFB567F00E21ABF /* XDAppLanguage.m */; };
 		1F38AA021CFB568000E21ABF /* XDAppVerisonUpdateObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F38A8761CFB567F00E21ABF /* XDAppVerisonUpdateObserver.m */; };
 		1F38AA031CFB568000E21ABF /* XDCameraOrientationMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F38A8781CFB567F00E21ABF /* XDCameraOrientationMonitor.m */; };
-		1F38AA041CFB568000E21ABF /* AppDelegate+XDContinuousBootCrashPreventTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F38A87B1CFB567F00E21ABF /* AppDelegate+XDContinuousBootCrashPreventTool.m */; };
-		1F38AA051CFB568000E21ABF /* XDContinuousBootCrashPreventTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F38A87D1CFB567F00E21ABF /* XDContinuousBootCrashPreventTool.m */; };
 		1F38AA061CFB568000E21ABF /* ConstraintUtilities+Description.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F38A8811CFB567F00E21ABF /* ConstraintUtilities+Description.m */; };
 		1F38AA071CFB568000E21ABF /* ConstraintUtilities+Install.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F38A8841CFB567F00E21ABF /* ConstraintUtilities+Install.m */; };
 		1F38AA081CFB568000E21ABF /* ConstraintUtilities+Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F38A8871CFB567F00E21ABF /* ConstraintUtilities+Layout.m */; };
@@ -1078,10 +1076,6 @@
 		1F38A8761CFB567F00E21ABF /* XDAppVerisonUpdateObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDAppVerisonUpdateObserver.m; sourceTree = "<group>"; };
 		1F38A8771CFB567F00E21ABF /* XDCameraOrientationMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDCameraOrientationMonitor.h; sourceTree = "<group>"; };
 		1F38A8781CFB567F00E21ABF /* XDCameraOrientationMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDCameraOrientationMonitor.m; sourceTree = "<group>"; };
-		1F38A87A1CFB567F00E21ABF /* AppDelegate+XDContinuousBootCrashPreventTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+XDContinuousBootCrashPreventTool.h"; sourceTree = "<group>"; };
-		1F38A87B1CFB567F00E21ABF /* AppDelegate+XDContinuousBootCrashPreventTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+XDContinuousBootCrashPreventTool.m"; sourceTree = "<group>"; };
-		1F38A87C1CFB567F00E21ABF /* XDContinuousBootCrashPreventTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDContinuousBootCrashPreventTool.h; sourceTree = "<group>"; };
-		1F38A87D1CFB567F00E21ABF /* XDContinuousBootCrashPreventTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDContinuousBootCrashPreventTool.m; sourceTree = "<group>"; };
 		1F38A8801CFB567F00E21ABF /* ConstraintUtilities+Description.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ConstraintUtilities+Description.h"; sourceTree = "<group>"; };
 		1F38A8811CFB567F00E21ABF /* ConstraintUtilities+Description.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ConstraintUtilities+Description.m"; sourceTree = "<group>"; };
 		1F38A8831CFB567F00E21ABF /* ConstraintUtilities+Install.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ConstraintUtilities+Install.h"; sourceTree = "<group>"; };
@@ -2485,7 +2479,6 @@
 				1F38A8741CFB567F00E21ABF /* XDAppVerisonUpdateObserver */,
 				1F38A8771CFB567F00E21ABF /* XDCameraOrientationMonitor.h */,
 				1F38A8781CFB567F00E21ABF /* XDCameraOrientationMonitor.m */,
-				1F38A8791CFB567F00E21ABF /* XDContinuousBootCrashPreventTool */,
 				1F38A87E1CFB567F00E21ABF /* XDLayoutContraintHandyKit */,
 				1F38A89B1CFB567F00E21ABF /* XDLogger */,
 				1F38A89E1CFB567F00E21ABF /* XDMulticastDelegate */,
@@ -2711,17 +2704,6 @@
 				1F38A8761CFB567F00E21ABF /* XDAppVerisonUpdateObserver.m */,
 			);
 			path = XDAppVerisonUpdateObserver;
-			sourceTree = "<group>";
-		};
-		1F38A8791CFB567F00E21ABF /* XDContinuousBootCrashPreventTool */ = {
-			isa = PBXGroup;
-			children = (
-				1F38A87A1CFB567F00E21ABF /* AppDelegate+XDContinuousBootCrashPreventTool.h */,
-				1F38A87B1CFB567F00E21ABF /* AppDelegate+XDContinuousBootCrashPreventTool.m */,
-				1F38A87C1CFB567F00E21ABF /* XDContinuousBootCrashPreventTool.h */,
-				1F38A87D1CFB567F00E21ABF /* XDContinuousBootCrashPreventTool.m */,
-			);
-			path = XDContinuousBootCrashPreventTool;
 			sourceTree = "<group>";
 		};
 		1F38A87E1CFB567F00E21ABF /* XDLayoutContraintHandyKit */ = {
@@ -3410,7 +3392,6 @@
 				1F38A8E01CFB567F00E21ABF /* NSData+Gzip.m in Sources */,
 				1F38A9C11CFB568000E21ABF /* UIWebView+Load.m in Sources */,
 				1F38AA0A1CFB568000E21ABF /* NSObject-Description.m in Sources */,
-				1F38AA041CFB568000E21ABF /* AppDelegate+XDContinuousBootCrashPreventTool.m in Sources */,
 				1F38A8EE1CFB567F00E21ABF /* NSDate+Utils.m in Sources */,
 				1F38AA101CFB568000E21ABF /* XDMulticastDelegateBase.m in Sources */,
 				1F49D1411CECE532003FBBF0 /* XDImageBeautifyUtilDemoVC.m in Sources */,
@@ -3710,7 +3691,6 @@
 				1F38A97F1CFB568000E21ABF /* UILabel+SuggestSize.m in Sources */,
 				1F38A8F81CFB567F00E21ABF /* NSDictionary+XML.m in Sources */,
 				1F38A9F61CFB568000E21ABF /* UIView+BlocksKit.m in Sources */,
-				1F38AA051CFB568000E21ABF /* XDContinuousBootCrashPreventTool.m in Sources */,
 				1F38A9641CFB568000E21ABF /* UIImage+Alpha.m in Sources */,
 				1F38A8FC1CFB567F00E21ABF /* NSFileManager+Paths.m in Sources */,
 				1F38A9A41CFB568000E21ABF /* UIView+Frame.m in Sources */,
