@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F18E2C91D0FDA0C009737D1 /* UIDevice+HardWareInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F18E2C81D0FDA0C009737D1 /* UIDevice+HardWareInfo.m */; };
 		1F36034D1CFDAE11005F627A /* UICollectionView+XD_AutoScrollLeftOrRightForCellToVisableAreaForCellInCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F36034C1CFDAE11005F627A /* UICollectionView+XD_AutoScrollLeftOrRightForCellToVisableAreaForCellInCollectionView.m */; };
 		1F36035A1CFDFD77005F627A /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3603511CFDFD77005F627A /* SVIndefiniteAnimatedView.m */; };
 		1F36035B1CFDFD77005F627A /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3603531CFDFD77005F627A /* SVProgressAnimatedView.m */; };
@@ -418,6 +419,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F18E2C71D0FDA0C009737D1 /* UIDevice+HardWareInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+HardWareInfo.h"; sourceTree = "<group>"; };
+		1F18E2C81D0FDA0C009737D1 /* UIDevice+HardWareInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+HardWareInfo.m"; sourceTree = "<group>"; };
 		1F36034B1CFDAE11005F627A /* UICollectionView+XD_AutoScrollLeftOrRightForCellToVisableAreaForCellInCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+XD_AutoScrollLeftOrRightForCellToVisableAreaForCellInCollectionView.h"; sourceTree = "<group>"; };
 		1F36034C1CFDAE11005F627A /* UICollectionView+XD_AutoScrollLeftOrRightForCellToVisableAreaForCellInCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+XD_AutoScrollLeftOrRightForCellToVisableAreaForCellInCollectionView.m"; sourceTree = "<group>"; };
 		1F3603501CFDFD77005F627A /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
@@ -2052,6 +2055,8 @@
 				1F38A7001CFB567F00E21ABF /* UIDevice+Hardware.m */,
 				1F38A7011CFB567F00E21ABF /* UIDevice+PasscodeStatus.h */,
 				1F38A7021CFB567F00E21ABF /* UIDevice+PasscodeStatus.m */,
+				1F18E2C71D0FDA0C009737D1 /* UIDevice+HardWareInfo.h */,
+				1F18E2C81D0FDA0C009737D1 /* UIDevice+HardWareInfo.m */,
 			);
 			path = UIDevice;
 			sourceTree = "<group>";
@@ -3706,6 +3711,7 @@
 				1F38A9EF1CFB568000E21ABF /* UIControl+BlocksKit.m in Sources */,
 				1F38A91B1CFB567F00E21ABF /* NSString+Base64.m in Sources */,
 				1F38A9DC1CFB568000E21ABF /* NSNumber+BlocksKit.m in Sources */,
+				1F18E2C91D0FDA0C009737D1 /* UIDevice+HardWareInfo.m in Sources */,
 				1F62A29D1CE2F28D0077B7D5 /* XDCommandTestVC.m in Sources */,
 				1F38A8D41CFB567F00E21ABF /* NSManagedObjectContext+ObjectClear.m in Sources */,
 				1FBF4A1A1D07BB9D0051DA21 /* NSLayoutConstraint+XDCommonLib.m in Sources */,
