@@ -405,6 +405,7 @@
 		1FC8F5AA1AF7DA0D00CA2AC0 /* XDCommonLibTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC8F5A91AF7DA0D00CA2AC0 /* XDCommonLibTests.m */; };
 		1FC8F5B71AF7DB2E00CA2AC0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC8F5B61AF7DB2E00CA2AC0 /* ViewController.m */; };
 		1FCFDD101CDC161900DC27F5 /* test.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1FCFDD0F1CDC161900DC27F5 /* test.mp4 */; };
+		1FE1126E1D1006AF00F733DE /* UIButton+PreventQuickRepeatClickOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FE1126D1D1006AF00F733DE /* UIButton+PreventQuickRepeatClickOperation.m */; };
 		1FE329C31BE9271100626042 /* libz.1.1.3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FE329C21BE9271100626042 /* libz.1.1.3.tbd */; };
 /* End PBXBuildFile section */
 
@@ -1210,6 +1211,8 @@
 		1FC8F5B61AF7DB2E00CA2AC0 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1FC8F5BF1AF7DDEC00CA2AC0 /* XDCommonLib-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XDCommonLib-Prefix.pch"; sourceTree = "<group>"; };
 		1FCFDD0F1CDC161900DC27F5 /* test.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.mp4; sourceTree = "<group>"; };
+		1FE1126C1D1006AF00F733DE /* UIButton+PreventQuickRepeatClickOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+PreventQuickRepeatClickOperation.h"; sourceTree = "<group>"; };
+		1FE1126D1D1006AF00F733DE /* UIButton+PreventQuickRepeatClickOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+PreventQuickRepeatClickOperation.m"; sourceTree = "<group>"; };
 		1FE329C21BE9271100626042 /* libz.1.1.3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.1.3.tbd; path = usr/lib/libz.1.1.3.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -2014,6 +2017,8 @@
 				1F38A6EB1CFB567F00E21ABF /* UIButton+Submitting.m */,
 				1F38A6EC1CFB567F00E21ABF /* UIButton+TouchAreaInsets.h */,
 				1F38A6ED1CFB567F00E21ABF /* UIButton+TouchAreaInsets.m */,
+				1FE1126C1D1006AF00F733DE /* UIButton+PreventQuickRepeatClickOperation.h */,
+				1FE1126D1D1006AF00F733DE /* UIButton+PreventQuickRepeatClickOperation.m */,
 			);
 			path = UIButton;
 			sourceTree = "<group>";
@@ -3531,6 +3536,7 @@
 				1F38A9DD1CFB568000E21ABF /* NSObject+BKAssociatedObjects.m in Sources */,
 				1F38A9041CFB567F00E21ABF /* NSNumber+CGFloat.m in Sources */,
 				1F38A9F11CFB568000E21ABF /* UIImage+BlocksKit.m in Sources */,
+				1FE1126E1D1006AF00F733DE /* UIButton+PreventQuickRepeatClickOperation.m in Sources */,
 				1F38AA1D1CFB568000E21ABF /* XDJSONAdapter.m in Sources */,
 				1F38A9E01CFB568000E21ABF /* NSOrderedSet+BlocksKit.m in Sources */,
 				1F38A8E51CFB567F00E21ABF /* NSData+zlib.m in Sources */,
