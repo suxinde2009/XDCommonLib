@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		1F18E2C91D0FDA0C009737D1 /* UIDevice+HardWareInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F18E2C81D0FDA0C009737D1 /* UIDevice+HardWareInfo.m */; };
+		1F2412B81D11ACC100637EF7 /* XDABContactEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2412B71D11ACC100637EF7 /* XDABContactEntity.m */; };
+		1F2412BB1D11AD5000637EF7 /* XDABContactsHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2412BA1D11AD5000637EF7 /* XDABContactsHelper.m */; };
+		1F2412BE1D11ADB900637EF7 /* XDABGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2412BD1D11ADB900637EF7 /* XDABGroup.m */; };
+		1F2412C11D11AE4000637EF7 /* XDABStandin.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2412C01D11AE4000637EF7 /* XDABStandin.m */; };
 		1F36034D1CFDAE11005F627A /* UICollectionView+XD_AutoScrollLeftOrRightForCellToVisableAreaForCellInCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F36034C1CFDAE11005F627A /* UICollectionView+XD_AutoScrollLeftOrRightForCellToVisableAreaForCellInCollectionView.m */; };
 		1F36035A1CFDFD77005F627A /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3603511CFDFD77005F627A /* SVIndefiniteAnimatedView.m */; };
 		1F36035B1CFDFD77005F627A /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3603531CFDFD77005F627A /* SVProgressAnimatedView.m */; };
@@ -422,6 +426,15 @@
 /* Begin PBXFileReference section */
 		1F18E2C71D0FDA0C009737D1 /* UIDevice+HardWareInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+HardWareInfo.h"; sourceTree = "<group>"; };
 		1F18E2C81D0FDA0C009737D1 /* UIDevice+HardWareInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+HardWareInfo.m"; sourceTree = "<group>"; };
+		1F2412B61D11ACC100637EF7 /* XDABContactEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDABContactEntity.h; sourceTree = "<group>"; };
+		1F2412B71D11ACC100637EF7 /* XDABContactEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDABContactEntity.m; sourceTree = "<group>"; };
+		1F2412B91D11AD5000637EF7 /* XDABContactsHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDABContactsHelper.h; sourceTree = "<group>"; };
+		1F2412BA1D11AD5000637EF7 /* XDABContactsHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDABContactsHelper.m; sourceTree = "<group>"; };
+		1F2412BC1D11ADB900637EF7 /* XDABGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDABGroup.h; sourceTree = "<group>"; };
+		1F2412BD1D11ADB900637EF7 /* XDABGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDABGroup.m; sourceTree = "<group>"; };
+		1F2412BF1D11AE4000637EF7 /* XDABStandin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDABStandin.h; sourceTree = "<group>"; };
+		1F2412C01D11AE4000637EF7 /* XDABStandin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDABStandin.m; sourceTree = "<group>"; };
+		1F2412C21D11AE8900637EF7 /* XDABWrappers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XDABWrappers.h; sourceTree = "<group>"; };
 		1F36034B1CFDAE11005F627A /* UICollectionView+XD_AutoScrollLeftOrRightForCellToVisableAreaForCellInCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+XD_AutoScrollLeftOrRightForCellToVisableAreaForCellInCollectionView.h"; sourceTree = "<group>"; };
 		1F36034C1CFDAE11005F627A /* UICollectionView+XD_AutoScrollLeftOrRightForCellToVisableAreaForCellInCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+XD_AutoScrollLeftOrRightForCellToVisableAreaForCellInCollectionView.m"; sourceTree = "<group>"; };
 		1F3603501CFDFD77005F627A /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
@@ -1334,6 +1347,15 @@
 				1F38A5A91CFB567F00E21ABF /* XDAddressBookManager.m */,
 				1F38A5AA1CFB567F00E21ABF /* XDContactEntity.h */,
 				1F38A5AB1CFB567F00E21ABF /* XDContactEntity.m */,
+				1F2412B61D11ACC100637EF7 /* XDABContactEntity.h */,
+				1F2412B71D11ACC100637EF7 /* XDABContactEntity.m */,
+				1F2412B91D11AD5000637EF7 /* XDABContactsHelper.h */,
+				1F2412BA1D11AD5000637EF7 /* XDABContactsHelper.m */,
+				1F2412BC1D11ADB900637EF7 /* XDABGroup.h */,
+				1F2412BD1D11ADB900637EF7 /* XDABGroup.m */,
+				1F2412BF1D11AE4000637EF7 /* XDABStandin.h */,
+				1F2412C01D11AE4000637EF7 /* XDABStandin.m */,
+				1F2412C21D11AE8900637EF7 /* XDABWrappers.h */,
 			);
 			path = AddressBook;
 			sourceTree = "<group>";
@@ -3560,6 +3582,7 @@
 				1F38A9BC1CFB568000E21ABF /* UIViewController+Visible.m in Sources */,
 				1F38A9771CFB568000E21ABF /* UIImageView+CompressWithoutDeformation.m in Sources */,
 				1F38A9151CFB567F00E21ABF /* NSObject+XD_KVO.m in Sources */,
+				1F2412C11D11AE4000637EF7 /* XDABStandin.m in Sources */,
 				1FBF4A171D07BB730051DA21 /* XDLayoutUtils.m in Sources */,
 				1F38A9881CFB568000E21ABF /* UINavigationItem+Lock.m in Sources */,
 				1F38A9931CFB568000E21ABF /* UISplitViewController+QuickAccess.m in Sources */,
@@ -3647,6 +3670,7 @@
 				1F38A9A71CFB568000E21ABF /* UIView+Nib.m in Sources */,
 				1F38A9141CFB567F00E21ABF /* NSObject+XD_ClassesConformingToProtocol.m in Sources */,
 				1F38A9B91CFB568000E21ABF /* UIViewController+ScrollingStatusBar.m in Sources */,
+				1F2412B81D11ACC100637EF7 /* XDABContactEntity.m in Sources */,
 				1F38A9E51CFB568000E21ABF /* NSCache+BlocksKit.m in Sources */,
 				1F38A9891CFB568000E21ABF /* UINavigationItem+Margin.m in Sources */,
 				1F38A8D01CFB567F00E21ABF /* NSManagedObject+Extensions.m in Sources */,
@@ -3675,6 +3699,7 @@
 				1F38A91E1CFB567F00E21ABF /* NSString+Emoji.m in Sources */,
 				1F38A9601CFB568000E21ABF /* UIFont+DynamicFontControl.m in Sources */,
 				1F38A9E41CFB568000E21ABF /* A2DynamicDelegate.m in Sources */,
+				1F2412BE1D11ADB900637EF7 /* XDABGroup.m in Sources */,
 				1F38A9A81CFB568000E21ABF /* UIView+Recursion.m in Sources */,
 				1F38A8D11CFB567F00E21ABF /* NSManagedObjectContext+Extensions.m in Sources */,
 				1F38AA181CFB568000E21ABF /* SBCollectionViewTableCellSeparatorView.m in Sources */,
@@ -3682,6 +3707,7 @@
 				1F38A9971CFB568000E21ABF /* UITextField+Blocks.m in Sources */,
 				1F38A9CD1CFB568000E21ABF /* XDLogUtils.m in Sources */,
 				1F38A95A1CFB568000E21ABF /* UIColor+Random.m in Sources */,
+				1F2412BB1D11AD5000637EF7 /* XDABContactsHelper.m in Sources */,
 				1F38A9161CFB567F00E21ABF /* NSObject+XDCommonLib.m in Sources */,
 				1F38A9C91CFB568000E21ABF /* UIView+DebugUtils.m in Sources */,
 				1F38A9A01CFB568000E21ABF /* UIView+Constraints.m in Sources */,
