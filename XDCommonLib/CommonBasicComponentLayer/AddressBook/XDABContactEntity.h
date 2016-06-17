@@ -107,50 +107,99 @@
  */
 
 
+/**
+ *  手机通讯录联系人实体
+ */
 @interface XDABContactEntity : NSObject
 
 // Convenience allocation methods
 + (id) contact;
+
 + (id) contactWithRecord: (ABRecordRef) record;
+
 + (id) contactWithRecordID: (ABRecordID) recordID;
+
 
 // Class utility methods
 + (NSString *) localizedPropertyName: (ABPropertyID) aProperty;
+
 + (ABPropertyType) propertyType: (ABPropertyID) aProperty;
+
 + (NSString *) propertyTypeString: (ABPropertyID) aProperty;
+
 + (NSString *) propertyString: (ABPropertyID) aProperty;
+
 + (BOOL) propertyIsMultiValue: (ABPropertyID) aProperty;
-+ (NSArray *) arrayForProperty: (ABPropertyID) anID inRecord: (ABRecordRef) record;
-+ (id) objectForProperty: (ABPropertyID) anID inRecord: (ABRecordRef) record;
+
++ (NSArray *) arrayForProperty: (ABPropertyID) anID
+                      inRecord: (ABRecordRef) record;
+
++ (id) objectForProperty: (ABPropertyID) anID
+                inRecord: (ABRecordRef) record;
 
 // Creating proper dictionaries
-+ (NSDictionary *) dictionaryWithValue: (id) value andLabel: (CFStringRef) label;
++ (NSDictionary *) dictionaryWithValue: (id) value
+                              andLabel: (CFStringRef) label;
+
 + (BOOL) isMultivalueDictionary: (NSDictionary *) dictionary;
-+ (NSDictionary *) addressWithStreet: (NSString *) street withCity: (NSString *) city withState:(NSString *) state withZip: (NSString *) zip withCountry: (NSString *) country withCode: (NSString *) code;
-+ (NSDictionary *) imWithService: (CFStringRef) service andUser: (NSString *) userName;
-+ (NSDictionary *) socialWithURL: (NSString *) url withService: (NSString *) serviceName withUsername: (NSString *) username withIdentifier: (NSString *) key;
+
++ (NSDictionary *) addressWithStreet: (NSString *) street
+                            withCity: (NSString *) city
+                           withState:(NSString *) state
+                             withZip: (NSString *) zip 
+                         withCountry: (NSString *) country
+                            withCode: (NSString *) code;
+
++ (NSDictionary *) imWithService: (CFStringRef) service
+                         andUser: (NSString *) userName;
+
++ (NSDictionary *) socialWithURL: (NSString *) url
+                     withService: (NSString *) serviceName
+                    withUsername: (NSString *) username
+                  withIdentifier: (NSString *) key;
+
 
 // Instance utility methods
 - (BOOL) removeSelfFromAddressBook: (NSError **) error;
 
 - (BOOL) addAddress: (NSDictionary *) dictionary;
-- (BOOL) addAddressItem:(NSDictionary *)dictionary withLabel: (CFStringRef) label;
+
+- (BOOL) addAddressItem:(NSDictionary *)dictionary
+              withLabel: (CFStringRef) label;
+
 - (BOOL) addSocial: (NSDictionary *) dictionary;
-- (BOOL) addSocialItem: (NSDictionary *) dictionary withLabel: (CFStringRef) label;
+
+- (BOOL) addSocialItem: (NSDictionary *) dictionary
+             withLabel: (CFStringRef) label;
+
 - (BOOL) addIM: (NSDictionary *) dictionary;
-- (BOOL) addIMItem:(NSDictionary *)dictionary withLabel: (CFStringRef) label;
+
+- (BOOL) addIMItem:(NSDictionary *)dictionary
+         withLabel: (CFStringRef) label;
 
 - (BOOL) addEmail: (NSDictionary *) dictionary;
-- (BOOL) addEmailItem: (NSString *) value withLabel: (CFStringRef) label;
+
+- (BOOL) addEmailItem: (NSString *) value
+            withLabel: (CFStringRef) label;
+
 - (BOOL) addPhone: (NSDictionary *) dictionary;
-- (BOOL) addPhoneItem: (NSString *) value withLabel: (CFStringRef) label;
+
+- (BOOL) addPhoneItem: (NSString *) value
+            withLabel: (CFStringRef) label;
+
 - (BOOL) addURL: (NSDictionary *) dictionary;
-- (BOOL) addURLItem: (NSString *) value withLabel: (CFStringRef) label;
+
+- (BOOL) addURLItem: (NSString *) value
+          withLabel: (CFStringRef) label;
+
 - (BOOL) addRelation: (NSDictionary *) dictionary;
-- (BOOL) addRelationItem: (NSString *) value withLabel: (CFStringRef) label;
+
+- (BOOL) addRelationItem: (NSString *) value
+               withLabel: (CFStringRef) label;
 
 // Sorting
 - (BOOL) isEqualToString: (XDABContactEntity *) aContact;
+
 - (NSComparisonResult) caseInsensitiveCompare: (XDABContactEntity *) aContact;
 
 #pragma mark RECORD ACCESS
@@ -231,6 +280,7 @@
 @property (nonatomic, readonly) NSData *dataRepresentation; // image where available
 
 + (id) contactWithDictionary: (NSDictionary *) dict;
+
 + (id) contactWithData: (NSData *) data;
 
 @end
