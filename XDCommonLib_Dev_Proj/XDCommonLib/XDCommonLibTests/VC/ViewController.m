@@ -27,6 +27,7 @@
 #import "UIView+DebugUtils.h"
 
 #import "BLEPrinterDemoVC.h"
+#import "XDRuntimeInvokerTestVC.h"
 
 static NSString *const SBTableLayoutTabVC = @"SBTableLayoutTabVC";
 
@@ -58,6 +59,7 @@ static NSString *const SBTableLayoutTabVC = @"SBTableLayoutTabVC";
     [mTestCases addObject:@"UIView+DebugUtils"];
     [mTestCases addObject:@"BLEPrinterDemoVC"];
     [mTestCases addObject:@"Paper Color"];
+    [mTestCases addObject:@"XDRuntimeInvoker"];
 }
 
 
@@ -235,7 +237,12 @@ static NSString *const SBTableLayoutTabVC = @"SBTableLayoutTabVC";
             
         } break;
             
+        case 15: {
             
+            XDRuntimeInvokerTestVC *controller = [[XDRuntimeInvokerTestVC alloc] initWithURL:[NSURL URLWithString:@"http://blog.csdn.net"]];
+            [self.navigationController pushViewController:controller animated:YES];
+            
+        } break;
             
         default:
             break;

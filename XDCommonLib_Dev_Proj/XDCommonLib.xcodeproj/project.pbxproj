@@ -13,6 +13,8 @@
 		1F2412BE1D11ADB900637EF7 /* XDABGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2412BD1D11ADB900637EF7 /* XDABGroup.m */; };
 		1F2412C11D11AE4000637EF7 /* XDABStandin.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2412C01D11AE4000637EF7 /* XDABStandin.m */; };
 		1F277E521D16D9FD008CE332 /* XDFPSStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F277E511D16D9FD008CE332 /* XDFPSStatus.m */; };
+		1F277E561D16F662008CE332 /* XDRuntimeInvoker.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F277E551D16F662008CE332 /* XDRuntimeInvoker.m */; };
+		1F277E5A1D16F855008CE332 /* XDRuntimeInvokerTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F277E591D16F855008CE332 /* XDRuntimeInvokerTestVC.m */; };
 		1F36034D1CFDAE11005F627A /* UICollectionView+XD_AutoScrollLeftOrRightForCellToVisableAreaForCellInCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F36034C1CFDAE11005F627A /* UICollectionView+XD_AutoScrollLeftOrRightForCellToVisableAreaForCellInCollectionView.m */; };
 		1F36035A1CFDFD77005F627A /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3603511CFDFD77005F627A /* SVIndefiniteAnimatedView.m */; };
 		1F36035B1CFDFD77005F627A /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3603531CFDFD77005F627A /* SVProgressAnimatedView.m */; };
@@ -438,6 +440,10 @@
 		1F2412C21D11AE8900637EF7 /* XDABWrappers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XDABWrappers.h; sourceTree = "<group>"; };
 		1F277E501D16D9FD008CE332 /* XDFPSStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDFPSStatus.h; sourceTree = "<group>"; };
 		1F277E511D16D9FD008CE332 /* XDFPSStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDFPSStatus.m; sourceTree = "<group>"; };
+		1F277E541D16F662008CE332 /* XDRuntimeInvoker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDRuntimeInvoker.h; sourceTree = "<group>"; };
+		1F277E551D16F662008CE332 /* XDRuntimeInvoker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDRuntimeInvoker.m; sourceTree = "<group>"; };
+		1F277E581D16F855008CE332 /* XDRuntimeInvokerTestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDRuntimeInvokerTestVC.h; sourceTree = "<group>"; };
+		1F277E591D16F855008CE332 /* XDRuntimeInvokerTestVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDRuntimeInvokerTestVC.m; sourceTree = "<group>"; };
 		1F36034B1CFDAE11005F627A /* UICollectionView+XD_AutoScrollLeftOrRightForCellToVisableAreaForCellInCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+XD_AutoScrollLeftOrRightForCellToVisableAreaForCellInCollectionView.h"; sourceTree = "<group>"; };
 		1F36034C1CFDAE11005F627A /* UICollectionView+XD_AutoScrollLeftOrRightForCellToVisableAreaForCellInCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+XD_AutoScrollLeftOrRightForCellToVisableAreaForCellInCollectionView.m"; sourceTree = "<group>"; };
 		1F3603501CFDFD77005F627A /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
@@ -1258,6 +1264,24 @@
 				1F277E511D16D9FD008CE332 /* XDFPSStatus.m */,
 			);
 			path = FPS;
+			sourceTree = "<group>";
+		};
+		1F277E531D16F655008CE332 /* XDRuntimeInvoker */ = {
+			isa = PBXGroup;
+			children = (
+				1F277E541D16F662008CE332 /* XDRuntimeInvoker.h */,
+				1F277E551D16F662008CE332 /* XDRuntimeInvoker.m */,
+			);
+			path = XDRuntimeInvoker;
+			sourceTree = "<group>";
+		};
+		1F277E571D16F7B4008CE332 /* XDRuntimeInvokerTest */ = {
+			isa = PBXGroup;
+			children = (
+				1F277E581D16F855008CE332 /* XDRuntimeInvokerTestVC.h */,
+				1F277E591D16F855008CE332 /* XDRuntimeInvokerTestVC.m */,
+			);
+			name = XDRuntimeInvokerTest;
 			sourceTree = "<group>";
 		};
 		1F36034A1CFDADD2005F627A /* UICollectionView */ = {
@@ -2511,6 +2535,7 @@
 		1F38A7FE1CFB567F00E21ABF /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				1F277E531D16F655008CE332 /* XDRuntimeInvoker */,
 				1F277E4F1D16D9D6008CE332 /* FPS */,
 				1FBF4A141D07BB650051DA21 /* Layout */,
 				1F38A7FF1CFB567F00E21ABF /* BlocksKit */,
@@ -3291,6 +3316,7 @@
 			children = (
 				1FC8F5B51AF7DB2E00CA2AC0 /* ViewController.h */,
 				1FC8F5B61AF7DB2E00CA2AC0 /* ViewController.m */,
+				1F277E571D16F7B4008CE332 /* XDRuntimeInvokerTest */,
 				1F3603831CFFBFC4005F627A /* PaperColorDemo */,
 				1F36036E1CFDFE68005F627A /* BLEPrinterDemo */,
 				1FA4D1841CF0DC10005AD187 /* XDFluxDispatcherDemo */,
@@ -3548,6 +3574,7 @@
 				1F38A94F1CFB568000E21ABF /* UIBezierPath+SVG.m in Sources */,
 				1F38AA091CFB568000E21ABF /* ConstraintUtilities+Matching.m in Sources */,
 				1F38A9961CFB568000E21ABF /* UITableViewCell+NIB.m in Sources */,
+				1F277E561D16F662008CE332 /* XDRuntimeInvoker.m in Sources */,
 				1F38A8E31CFB567F00E21ABF /* NSData+SDDataCache.m in Sources */,
 				1F38A8FE1CFB567F00E21ABF /* NSFileManager+XDCommonLib.m in Sources */,
 				1F38A9861CFB568000E21ABF /* UINavigationController+StackManager.m in Sources */,
@@ -3689,6 +3716,7 @@
 				1F38A9891CFB568000E21ABF /* UINavigationItem+Margin.m in Sources */,
 				1F38A8D01CFB567F00E21ABF /* NSManagedObject+Extensions.m in Sources */,
 				1F38AA161CFB568000E21ABF /* RSSwizzle.m in Sources */,
+				1F277E5A1D16F855008CE332 /* XDRuntimeInvokerTestVC.m in Sources */,
 				1F38A9A11CFB568000E21ABF /* UIView+Debug.m in Sources */,
 				1F38AA0C1CFB568000E21ABF /* NSView+BackgroundColor.m in Sources */,
 				1F38A9101CFB567F00E21ABF /* NSObject+MKBlockTimer.m in Sources */,
