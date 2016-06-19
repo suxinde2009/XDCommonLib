@@ -10,6 +10,8 @@
 #import "XDDebug.h"
 #import "XDCommonLibMacros.h"
 
+#import "XDFPSStatus.h"
+
 @interface AppDelegate ()
 
 @end
@@ -33,6 +35,11 @@
     
     // 测试 TODO 宏定义
     [self testTodoMarco];
+    
+#if defined(DEBUG)||defined(_DEBUG)
+    [[XDFPSStatus sharedInstance] open];
+#endif
+
     
     return YES;
 }

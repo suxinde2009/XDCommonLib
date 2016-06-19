@@ -21,7 +21,7 @@ Many thanks for the open source projects belows（names listed in no particular 
 - JNdefine
 - SEPrinterManager
 - BFPaperColors
-
+- JPFPSStatus
 
 
 
