@@ -15,6 +15,7 @@
 		1F277E521D16D9FD008CE332 /* XDFPSStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F277E511D16D9FD008CE332 /* XDFPSStatus.m */; };
 		1F277E561D16F662008CE332 /* XDRuntimeInvoker.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F277E551D16F662008CE332 /* XDRuntimeInvoker.m */; };
 		1F277E5A1D16F855008CE332 /* XDRuntimeInvokerTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F277E591D16F855008CE332 /* XDRuntimeInvokerTestVC.m */; };
+		1F277E5D1D17008F008CE332 /* UIDevice+IPAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F277E5C1D17008F008CE332 /* UIDevice+IPAddress.m */; };
 		1F36034D1CFDAE11005F627A /* UICollectionView+XD_AutoScrollLeftOrRightForCellToVisableAreaForCellInCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F36034C1CFDAE11005F627A /* UICollectionView+XD_AutoScrollLeftOrRightForCellToVisableAreaForCellInCollectionView.m */; };
 		1F36035A1CFDFD77005F627A /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3603511CFDFD77005F627A /* SVIndefiniteAnimatedView.m */; };
 		1F36035B1CFDFD77005F627A /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3603531CFDFD77005F627A /* SVProgressAnimatedView.m */; };
@@ -444,6 +445,8 @@
 		1F277E551D16F662008CE332 /* XDRuntimeInvoker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDRuntimeInvoker.m; sourceTree = "<group>"; };
 		1F277E581D16F855008CE332 /* XDRuntimeInvokerTestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDRuntimeInvokerTestVC.h; sourceTree = "<group>"; };
 		1F277E591D16F855008CE332 /* XDRuntimeInvokerTestVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDRuntimeInvokerTestVC.m; sourceTree = "<group>"; };
+		1F277E5B1D17008F008CE332 /* UIDevice+IPAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+IPAddress.h"; sourceTree = "<group>"; };
+		1F277E5C1D17008F008CE332 /* UIDevice+IPAddress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+IPAddress.m"; sourceTree = "<group>"; };
 		1F36034B1CFDAE11005F627A /* UICollectionView+XD_AutoScrollLeftOrRightForCellToVisableAreaForCellInCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+XD_AutoScrollLeftOrRightForCellToVisableAreaForCellInCollectionView.h"; sourceTree = "<group>"; };
 		1F36034C1CFDAE11005F627A /* UICollectionView+XD_AutoScrollLeftOrRightForCellToVisableAreaForCellInCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+XD_AutoScrollLeftOrRightForCellToVisableAreaForCellInCollectionView.m"; sourceTree = "<group>"; };
 		1F3603501CFDFD77005F627A /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
@@ -2120,6 +2123,8 @@
 				1F38A7021CFB567F00E21ABF /* UIDevice+PasscodeStatus.m */,
 				1F18E2C71D0FDA0C009737D1 /* UIDevice+HardWareInfo.h */,
 				1F18E2C81D0FDA0C009737D1 /* UIDevice+HardWareInfo.m */,
+				1F277E5B1D17008F008CE332 /* UIDevice+IPAddress.h */,
+				1F277E5C1D17008F008CE332 /* UIDevice+IPAddress.m */,
 			);
 			path = UIDevice;
 			sourceTree = "<group>";
@@ -3806,6 +3811,7 @@
 				1F38A8D21CFB567F00E21ABF /* NSManagedObjectContext+Fetching.m in Sources */,
 				1F38A9341CFB567F00E21ABF /* NSURL+Param.m in Sources */,
 				1F38A9C61CFB568000E21ABF /* UIWindow+Hierarchy.m in Sources */,
+				1F277E5D1D17008F008CE332 /* UIDevice+IPAddress.m in Sources */,
 				1F38A9111CFB567F00E21ABF /* NSObject+Property.m in Sources */,
 				1F38A9AF1CFB568000E21ABF /* UIView+ViewController.m in Sources */,
 				1F38A9811CFB568000E21ABF /* UINavigationBar+CustomHeight.m in Sources */,

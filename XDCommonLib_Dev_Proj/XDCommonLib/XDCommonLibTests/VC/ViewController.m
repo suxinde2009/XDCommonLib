@@ -29,6 +29,8 @@
 #import "BLEPrinterDemoVC.h"
 #import "XDRuntimeInvokerTestVC.h"
 
+#import "UIDevice+IPAddress.h"
+
 static NSString *const SBTableLayoutTabVC = @"SBTableLayoutTabVC";
 
 @interface ViewController ()
@@ -42,6 +44,8 @@ static NSString *const SBTableLayoutTabVC = @"SBTableLayoutTabVC";
 - (void)viewDidLoad {
     
     [super viewDidLoad];
+    
+    NSLog(@"IP Address: %@", [UIDevice getIPAddress:YES]);
     
     mTestCases = [@[] mutableCopy];
     [mTestCases addObject:@"多播委托-MulticastDelegateDemoVC"];
