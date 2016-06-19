@@ -23,7 +23,7 @@ Many thanks for the open source projects belows（names listed in no particular 
 - [BFPaperColors]()
 - [JPFPSStatus]()
 - [RuntimeInvoker](https://github.com/cyanzhong/RuntimeInvoker)
-
+- [ARAnimation]()
 
 
 
