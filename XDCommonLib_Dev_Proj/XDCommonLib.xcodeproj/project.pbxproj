@@ -16,6 +16,7 @@
 		1F277E561D16F662008CE332 /* XDRuntimeInvoker.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F277E551D16F662008CE332 /* XDRuntimeInvoker.m */; };
 		1F277E5A1D16F855008CE332 /* XDRuntimeInvokerTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F277E591D16F855008CE332 /* XDRuntimeInvokerTestVC.m */; };
 		1F277E5D1D17008F008CE332 /* UIDevice+IPAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F277E5C1D17008F008CE332 /* UIDevice+IPAddress.m */; };
+		1F277E601D179567008CE332 /* NSObject+LocalizedNib.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F277E5F1D179567008CE332 /* NSObject+LocalizedNib.m */; };
 		1F36034D1CFDAE11005F627A /* UICollectionView+XD_AutoScrollLeftOrRightForCellToVisableAreaForCellInCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F36034C1CFDAE11005F627A /* UICollectionView+XD_AutoScrollLeftOrRightForCellToVisableAreaForCellInCollectionView.m */; };
 		1F36035A1CFDFD77005F627A /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3603511CFDFD77005F627A /* SVIndefiniteAnimatedView.m */; };
 		1F36035B1CFDFD77005F627A /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3603531CFDFD77005F627A /* SVProgressAnimatedView.m */; };
@@ -447,6 +448,8 @@
 		1F277E591D16F855008CE332 /* XDRuntimeInvokerTestVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDRuntimeInvokerTestVC.m; sourceTree = "<group>"; };
 		1F277E5B1D17008F008CE332 /* UIDevice+IPAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+IPAddress.h"; sourceTree = "<group>"; };
 		1F277E5C1D17008F008CE332 /* UIDevice+IPAddress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+IPAddress.m"; sourceTree = "<group>"; };
+		1F277E5E1D179567008CE332 /* NSObject+LocalizedNib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+LocalizedNib.h"; sourceTree = "<group>"; };
+		1F277E5F1D179567008CE332 /* NSObject+LocalizedNib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LocalizedNib.m"; sourceTree = "<group>"; };
 		1F36034B1CFDAE11005F627A /* UICollectionView+XD_AutoScrollLeftOrRightForCellToVisableAreaForCellInCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+XD_AutoScrollLeftOrRightForCellToVisableAreaForCellInCollectionView.h"; sourceTree = "<group>"; };
 		1F36034C1CFDAE11005F627A /* UICollectionView+XD_AutoScrollLeftOrRightForCellToVisableAreaForCellInCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+XD_AutoScrollLeftOrRightForCellToVisableAreaForCellInCollectionView.m"; sourceTree = "<group>"; };
 		1F3603501CFDFD77005F627A /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
@@ -1757,6 +1760,8 @@
 				1F38A6551CFB567F00E21ABF /* NSObject+XD_KVO.m */,
 				1F38A6561CFB567F00E21ABF /* NSObject+XDCommonLib.h */,
 				1F38A6571CFB567F00E21ABF /* NSObject+XDCommonLib.m */,
+				1F277E5E1D179567008CE332 /* NSObject+LocalizedNib.h */,
+				1F277E5F1D179567008CE332 /* NSObject+LocalizedNib.m */,
 			);
 			path = NSObject;
 			sourceTree = "<group>";
@@ -3690,6 +3695,7 @@
 				1F38A9571CFB568000E21ABF /* UIColor+Gradient.m in Sources */,
 				1F38A9171CFB567F00E21ABF /* NSOperationQueue+Global.m in Sources */,
 				1F38A9521CFB568000E21ABF /* UIButton+Block.m in Sources */,
+				1F277E601D179567008CE332 /* NSObject+LocalizedNib.m in Sources */,
 				1F729DB61D05E4C500507DCC /* XDBaseWifiPrinter.m in Sources */,
 				1F38A9B31CFB568000E21ABF /* UIViewController+BackButtonTouched.m in Sources */,
 				1F38A97B1CFB568000E21ABF /* UIImageView+Reflect.m in Sources */,
