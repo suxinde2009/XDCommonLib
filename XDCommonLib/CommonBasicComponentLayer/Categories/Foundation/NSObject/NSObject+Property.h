@@ -10,18 +10,23 @@
 
 @interface NSObject (Property)
 
--(NSDictionary *)propertyDictionary;
+- (NSDictionary *)propertyDictionary;
+
 - (NSDictionary*)dictionaryValue;
 
 - (NSArray*)allPropertyKeys;
+
 + (NSArray *)classPropertyList;
 
 - (NSArray*)allPropertyKeyPaths;
 
 // Exclude container type keypaths
 - (NSArray*)allBasePropertyKeyPaths;
+
 - (BOOL)hasPropertyForKey:(NSString*)key;
+
 - (BOOL)hasIvarForKey:(NSString*)key;
+
 - (id)valueForArrayIndexedKeyPath:(NSString *)keyPath;
 
 @end
