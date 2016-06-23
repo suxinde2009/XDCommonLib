@@ -24,6 +24,8 @@ Many thanks for the open source projects belows（names listed in no particular 
 - [JPFPSStatus]()
 - [RuntimeInvoker](https://github.com/cyanzhong/RuntimeInvoker)
 - [ARAnimation]()
+- [SDAVAssetExportSession]()
+- [ALAssetsLibrary-CustomPhotoAlbum]()
 
 
 

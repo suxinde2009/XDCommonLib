@@ -385,6 +385,8 @@
 		1F38AA441CFB569000E21ABF /* BLLSDKLayer.json in Resources */ = {isa = PBXBuildFile; fileRef = 1F38AA431CFB569000E21ABF /* BLLSDKLayer.json */; };
 		1F38AA471CFB569600E21ABF /* BLLMoudleLayer.json in Resources */ = {isa = PBXBuildFile; fileRef = 1F38AA461CFB569600E21ABF /* BLLMoudleLayer.json */; };
 		1F38AA4E1CFB64E500E21ABF /* XDFluxDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F38AA4D1CFB64E500E21ABF /* XDFluxDispatcher.m */; };
+		1F3F52891D1BBFD000E68EB9 /* SDAVAssetExportSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3F52881D1BBFD000E68EB9 /* SDAVAssetExportSession.m */; };
+		1F3F528D1D1BBFFE00E68EB9 /* ALAssetsLibrary+CustomPhotoAlbum.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3F528C1D1BBFFE00E68EB9 /* ALAssetsLibrary+CustomPhotoAlbum.m */; };
 		1F49D13A1CECE44D003FBBF0 /* ImageFilterItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F49D1381CECE44D003FBBF0 /* ImageFilterItem.m */; };
 		1F49D13B1CECE44D003FBBF0 /* ImageFilterItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F49D1391CECE44D003FBBF0 /* ImageFilterItem.xib */; };
 		1F49D13E1CECE502003FBBF0 /* Test2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F49D13D1CECE502003FBBF0 /* Test2.jpg */; };
@@ -1183,6 +1185,10 @@
 		1F38AA4A1CFB5EC600E21ABF /* XDCommonLibMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDCommonLibMacros.h; sourceTree = "<group>"; };
 		1F38AA4C1CFB64E500E21ABF /* XDFluxDispatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDFluxDispatcher.h; sourceTree = "<group>"; };
 		1F38AA4D1CFB64E500E21ABF /* XDFluxDispatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDFluxDispatcher.m; sourceTree = "<group>"; };
+		1F3F52871D1BBFD000E68EB9 /* SDAVAssetExportSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDAVAssetExportSession.h; sourceTree = "<group>"; };
+		1F3F52881D1BBFD000E68EB9 /* SDAVAssetExportSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDAVAssetExportSession.m; sourceTree = "<group>"; };
+		1F3F528B1D1BBFFE00E68EB9 /* ALAssetsLibrary+CustomPhotoAlbum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ALAssetsLibrary+CustomPhotoAlbum.h"; sourceTree = "<group>"; };
+		1F3F528C1D1BBFFE00E68EB9 /* ALAssetsLibrary+CustomPhotoAlbum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ALAssetsLibrary+CustomPhotoAlbum.m"; sourceTree = "<group>"; };
 		1F49D1371CECE44D003FBBF0 /* ImageFilterItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageFilterItem.h; sourceTree = "<group>"; };
 		1F49D1381CECE44D003FBBF0 /* ImageFilterItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageFilterItem.m; sourceTree = "<group>"; };
 		1F49D1391CECE44D003FBBF0 /* ImageFilterItem.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageFilterItem.xib; sourceTree = "<group>"; };
@@ -2545,6 +2551,9 @@
 		1F38A7FE1CFB567F00E21ABF /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				1F3F528A1D1BBFFE00E68EB9 /* ALAssetsLibrary-CustomPhotoAlbum */,
+				1F3F52871D1BBFD000E68EB9 /* SDAVAssetExportSession.h */,
+				1F3F52881D1BBFD000E68EB9 /* SDAVAssetExportSession.m */,
 				1F277E531D16F655008CE332 /* XDRuntimeInvoker */,
 				1F277E4F1D16D9D6008CE332 /* FPS */,
 				1FBF4A141D07BB650051DA21 /* Layout */,
@@ -3078,6 +3087,15 @@
 			path = FluxDispatcher;
 			sourceTree = "<group>";
 		};
+		1F3F528A1D1BBFFE00E68EB9 /* ALAssetsLibrary-CustomPhotoAlbum */ = {
+			isa = PBXGroup;
+			children = (
+				1F3F528B1D1BBFFE00E68EB9 /* ALAssetsLibrary+CustomPhotoAlbum.h */,
+				1F3F528C1D1BBFFE00E68EB9 /* ALAssetsLibrary+CustomPhotoAlbum.m */,
+			);
+			path = "ALAssetsLibrary-CustomPhotoAlbum";
+			sourceTree = "<group>";
+		};
 		1F49D1351CECE42B003FBBF0 /* XDImageBeautifyUtilDemo */ = {
 			isa = PBXGroup;
 			children = (
@@ -3504,6 +3522,7 @@
 				1F38A9271CFB567F00E21ABF /* NSString+Score.m in Sources */,
 				1F38A8E41CFB567F00E21ABF /* NSData+XDCommonLib.m in Sources */,
 				1F38A9721CFB568000E21ABF /* UIImage+RoundedCorner.m in Sources */,
+				1F3F528D1D1BBFFE00E68EB9 /* ALAssetsLibrary+CustomPhotoAlbum.m in Sources */,
 				1F38AA1E1CFB568000E21ABF /* YRJSONAdapter.m in Sources */,
 				1F38A9CB1CFB568000E21ABF /* XDDebugSystemControl.m in Sources */,
 				1F38A9251CFB567F00E21ABF /* NSString+RemoveEmoji.m in Sources */,
@@ -3668,6 +3687,7 @@
 				1F38A9121CFB567F00E21ABF /* NSObject+Runtime.m in Sources */,
 				1F38A9EE1CFB568000E21ABF /* UIBarButtonItem+BlocksKit.m in Sources */,
 				1F38A9351CFB567F00E21ABF /* NSURL+QueryDictionary.m in Sources */,
+				1F3F52891D1BBFD000E68EB9 /* SDAVAssetExportSession.m in Sources */,
 				1F38A9D71CFB568000E21ABF /* NSMutableArray+BlocksKit.m in Sources */,
 				1F38A8DE1CFB567F00E21ABF /* NSData+Base64.m in Sources */,
 				1F38A94B1CFB568000E21ABF /* UIApplication+Permissions.m in Sources */,
