@@ -12,7 +12,7 @@
 		1F2412BB1D11AD5000637EF7 /* XDABContactsHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2412BA1D11AD5000637EF7 /* XDABContactsHelper.m */; };
 		1F2412BE1D11ADB900637EF7 /* XDABGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2412BD1D11ADB900637EF7 /* XDABGroup.m */; };
 		1F2412C11D11AE4000637EF7 /* XDABStandin.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2412C01D11AE4000637EF7 /* XDABStandin.m */; };
-		1F277E521D16D9FD008CE332 /* XDFPSStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F277E511D16D9FD008CE332 /* XDFPSStatus.m */; };
+		1F277E521D16D9FD008CE332 /* XDFPSStatusUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F277E511D16D9FD008CE332 /* XDFPSStatusUtils.m */; };
 		1F277E561D16F662008CE332 /* XDRuntimeInvoker.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F277E551D16F662008CE332 /* XDRuntimeInvoker.m */; };
 		1F277E5A1D16F855008CE332 /* XDRuntimeInvokerTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F277E591D16F855008CE332 /* XDRuntimeInvokerTestVC.m */; };
 		1F277E5D1D17008F008CE332 /* UIDevice+IPAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F277E5C1D17008F008CE332 /* UIDevice+IPAddress.m */; };
@@ -442,8 +442,8 @@
 		1F2412BF1D11AE4000637EF7 /* XDABStandin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDABStandin.h; sourceTree = "<group>"; };
 		1F2412C01D11AE4000637EF7 /* XDABStandin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDABStandin.m; sourceTree = "<group>"; };
 		1F2412C21D11AE8900637EF7 /* XDABWrappers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XDABWrappers.h; sourceTree = "<group>"; };
-		1F277E501D16D9FD008CE332 /* XDFPSStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDFPSStatus.h; sourceTree = "<group>"; };
-		1F277E511D16D9FD008CE332 /* XDFPSStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDFPSStatus.m; sourceTree = "<group>"; };
+		1F277E501D16D9FD008CE332 /* XDFPSStatusUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDFPSStatusUtils.h; sourceTree = "<group>"; };
+		1F277E511D16D9FD008CE332 /* XDFPSStatusUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDFPSStatusUtils.m; sourceTree = "<group>"; };
 		1F277E541D16F662008CE332 /* XDRuntimeInvoker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDRuntimeInvoker.h; sourceTree = "<group>"; };
 		1F277E551D16F662008CE332 /* XDRuntimeInvoker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDRuntimeInvoker.m; sourceTree = "<group>"; };
 		1F277E581D16F855008CE332 /* XDRuntimeInvokerTestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDRuntimeInvokerTestVC.h; sourceTree = "<group>"; };
@@ -1272,8 +1272,8 @@
 		1F277E4F1D16D9D6008CE332 /* FPS */ = {
 			isa = PBXGroup;
 			children = (
-				1F277E501D16D9FD008CE332 /* XDFPSStatus.h */,
-				1F277E511D16D9FD008CE332 /* XDFPSStatus.m */,
+				1F277E501D16D9FD008CE332 /* XDFPSStatusUtils.h */,
+				1F277E511D16D9FD008CE332 /* XDFPSStatusUtils.m */,
 			);
 			path = FPS;
 			sourceTree = "<group>";
@@ -3592,7 +3592,7 @@
 				1F38AA2A1CFB568500E21ABF /* DGStateBroadcaster.m in Sources */,
 				1F38AA281CFB568500E21ABF /* XDCommandBus.m in Sources */,
 				1FC8F5B71AF7DB2E00CA2AC0 /* ViewController.m in Sources */,
-				1F277E521D16D9FD008CE332 /* XDFPSStatus.m in Sources */,
+				1F277E521D16D9FD008CE332 /* XDFPSStatusUtils.m in Sources */,
 				1F38A8E71CFB567F00E21ABF /* NSDate+Extension.m in Sources */,
 				1F729DAA1D05E44600507DCC /* HLPrinter.m in Sources */,
 				1F38A9E71CFB568000E21ABF /* NSObject+A2BlockDelegate.m in Sources */,

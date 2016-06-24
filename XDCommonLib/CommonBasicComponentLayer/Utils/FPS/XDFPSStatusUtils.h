@@ -12,7 +12,7 @@
 /**
  *  FPS 调试工具
  */
-@interface XDFPSStatus : NSObject
+@interface XDFPSStatusUtils : NSObject
 
 @property (nonatomic,strong) UILabel *fpsLabel;
 

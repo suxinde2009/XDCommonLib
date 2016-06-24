@@ -6,11 +6,11 @@
 //  Copyright © 2016年 su xinde. All rights reserved.
 //
 
-#import "XDFPSStatus.h"
+#import "XDFPSStatusUtils.h"
 
 static const NSInteger XD_FPS_View_Tag = 101;
 
-@interface XDFPSStatus () {
+@interface XDFPSStatusUtils () {
     CADisplayLink *_displayLink;
     NSTimeInterval _lastTime;
     NSUInteger _count;
@@ -21,7 +21,7 @@ static const NSInteger XD_FPS_View_Tag = 101;
 @end
 
 
-@implementation XDFPSStatus
+@implementation XDFPSStatusUtils
 
 
 
@@ -33,11 +33,11 @@ static const NSInteger XD_FPS_View_Tag = 101;
 
 + (instancetype)sharedInstance
 {
-    static XDFPSStatus *_sharedInstance = nil;
+    static XDFPSStatusUtils *_sharedInstance = nil;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         if (!_sharedInstance) {
-            _sharedInstance = [[XDFPSStatus alloc] init];
+            _sharedInstance = [[XDFPSStatusUtils alloc] init];
         }
     });
     return _sharedInstance;
@@ -108,7 +108,7 @@ static const NSInteger XD_FPS_View_Tag = 101;
 }
 
 - (void)openWithHandler:(void (^)(NSInteger fpsValue))handler{
-    [[XDFPSStatus sharedInstance] open];
+    [[XDFPSStatusUtils sharedInstance] open];
     _fpsHandler = handler;
 }
 

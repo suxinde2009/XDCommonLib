@@ -10,7 +10,7 @@
 #import "XDDebug.h"
 #import "XDCommonLibMacros.h"
 
-#import "XDFPSStatus.h"
+#import "XDFPSStatusUtils.h"
 
 @interface AppDelegate ()
 
@@ -37,7 +37,7 @@
     [self testTodoMarco];
     
 #if defined(DEBUG)||defined(_DEBUG)
-    [[XDFPSStatus sharedInstance] open];
+    [[XDFPSStatusUtils sharedInstance] open];
 #endif
 
     
