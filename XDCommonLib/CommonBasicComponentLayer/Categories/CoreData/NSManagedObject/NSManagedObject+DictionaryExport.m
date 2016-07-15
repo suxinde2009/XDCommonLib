@@ -78,7 +78,8 @@
     
     return dictionary;
 }
-- (NSDictionary *)Dictionary{
+- (NSDictionary *)Dictionary
+{
     NSArray *keys = [[[self entity] attributesByName] allKeys];
     NSDictionary *dict = [self dictionaryWithValuesForKeys:keys];
     return dict;
