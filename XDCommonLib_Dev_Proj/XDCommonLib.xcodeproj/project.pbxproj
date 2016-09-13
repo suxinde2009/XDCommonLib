@@ -17,6 +17,7 @@
 		1F277E5A1D16F855008CE332 /* XDRuntimeInvokerTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F277E591D16F855008CE332 /* XDRuntimeInvokerTestVC.m */; };
 		1F277E5D1D17008F008CE332 /* UIDevice+IPAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F277E5C1D17008F008CE332 /* UIDevice+IPAddress.m */; };
 		1F277E601D179567008CE332 /* NSObject+LocalizedNib.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F277E5F1D179567008CE332 /* NSObject+LocalizedNib.m */; };
+		1F3336B21D87F86300CF6EBF /* XDFileHashUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3336B11D87F86300CF6EBF /* XDFileHashUtils.m */; };
 		1F36034D1CFDAE11005F627A /* UICollectionView+XD_AutoScrollLeftOrRightForCellToVisableAreaForCellInCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F36034C1CFDAE11005F627A /* UICollectionView+XD_AutoScrollLeftOrRightForCellToVisableAreaForCellInCollectionView.m */; };
 		1F36035A1CFDFD77005F627A /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3603511CFDFD77005F627A /* SVIndefiniteAnimatedView.m */; };
 		1F36035B1CFDFD77005F627A /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3603531CFDFD77005F627A /* SVProgressAnimatedView.m */; };
@@ -453,6 +454,8 @@
 		1F277E5C1D17008F008CE332 /* UIDevice+IPAddress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+IPAddress.m"; sourceTree = "<group>"; };
 		1F277E5E1D179567008CE332 /* NSObject+LocalizedNib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+LocalizedNib.h"; sourceTree = "<group>"; };
 		1F277E5F1D179567008CE332 /* NSObject+LocalizedNib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LocalizedNib.m"; sourceTree = "<group>"; };
+		1F3336B01D87F86300CF6EBF /* XDFileHashUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDFileHashUtils.h; sourceTree = "<group>"; };
+		1F3336B11D87F86300CF6EBF /* XDFileHashUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDFileHashUtils.m; sourceTree = "<group>"; };
 		1F36034B1CFDAE11005F627A /* UICollectionView+XD_AutoScrollLeftOrRightForCellToVisableAreaForCellInCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+XD_AutoScrollLeftOrRightForCellToVisableAreaForCellInCollectionView.h"; sourceTree = "<group>"; };
 		1F36034C1CFDAE11005F627A /* UICollectionView+XD_AutoScrollLeftOrRightForCellToVisableAreaForCellInCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+XD_AutoScrollLeftOrRightForCellToVisableAreaForCellInCollectionView.m"; sourceTree = "<group>"; };
 		1F3603501CFDFD77005F627A /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
@@ -2578,6 +2581,8 @@
 				1F38A8A41CFB567F00E21ABF /* XDNetwork.m */,
 				1F38A8A51CFB567F00E21ABF /* XDPinYin */,
 				1F38A8A81CFB567F00E21ABF /* XDUIKitMainThreadGuard */,
+				1F3336B01D87F86300CF6EBF /* XDFileHashUtils.h */,
+				1F3336B11D87F86300CF6EBF /* XDFileHashUtils.m */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -3722,6 +3727,7 @@
 				1F38A99F1CFB568000E21ABF /* UIView+BlockGesture.m in Sources */,
 				1F38A9BF1CFB568000E21ABF /* UIWebView+Canvas.m in Sources */,
 				1F38A95C1CFB568000E21ABF /* UIControl+ActionBlocks.m in Sources */,
+				1F3336B21D87F86300CF6EBF /* XDFileHashUtils.m in Sources */,
 				1F38A9FD1CFB568000E21ABF /* NSString+XD_EncryptBase64.m in Sources */,
 				1F38A9A31CFB568000E21ABF /* UIView+Find.m in Sources */,
 				1F62A2A11CE2F2A70077B7D5 /* LoginCommand.m in Sources */,
