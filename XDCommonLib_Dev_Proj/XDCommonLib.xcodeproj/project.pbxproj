@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1F18E2C91D0FDA0C009737D1 /* UIDevice+HardWareInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F18E2C81D0FDA0C009737D1 /* UIDevice+HardWareInfo.m */; };
+		1F23DA431D8FDEE200601FB6 /* XDFreePortAllocator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F23DA421D8FDEE200601FB6 /* XDFreePortAllocator.m */; };
 		1F2412B81D11ACC100637EF7 /* XDABContactEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2412B71D11ACC100637EF7 /* XDABContactEntity.m */; };
 		1F2412BB1D11AD5000637EF7 /* XDABContactsHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2412BA1D11AD5000637EF7 /* XDABContactsHelper.m */; };
 		1F2412BE1D11ADB900637EF7 /* XDABGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2412BD1D11ADB900637EF7 /* XDABGroup.m */; };
@@ -435,6 +436,8 @@
 /* Begin PBXFileReference section */
 		1F18E2C71D0FDA0C009737D1 /* UIDevice+HardWareInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+HardWareInfo.h"; sourceTree = "<group>"; };
 		1F18E2C81D0FDA0C009737D1 /* UIDevice+HardWareInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+HardWareInfo.m"; sourceTree = "<group>"; };
+		1F23DA411D8FDEE200601FB6 /* XDFreePortAllocator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDFreePortAllocator.h; sourceTree = "<group>"; };
+		1F23DA421D8FDEE200601FB6 /* XDFreePortAllocator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDFreePortAllocator.m; sourceTree = "<group>"; };
 		1F2412B61D11ACC100637EF7 /* XDABContactEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDABContactEntity.h; sourceTree = "<group>"; };
 		1F2412B71D11ACC100637EF7 /* XDABContactEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDABContactEntity.m; sourceTree = "<group>"; };
 		1F2412B91D11AD5000637EF7 /* XDABContactsHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDABContactsHelper.h; sourceTree = "<group>"; };
@@ -1275,6 +1278,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F23DA401D8FDE9900601FB6 /* TCP */ = {
+			isa = PBXGroup;
+			children = (
+				1F23DA411D8FDEE200601FB6 /* XDFreePortAllocator.h */,
+				1F23DA421D8FDEE200601FB6 /* XDFreePortAllocator.m */,
+			);
+			path = TCP;
+			sourceTree = "<group>";
+		};
 		1F277E4F1D16D9D6008CE332 /* FPS */ = {
 			isa = PBXGroup;
 			children = (
@@ -3072,6 +3084,7 @@
 		1F38AA421CFB569000E21ABF /* BLLSDKLayer */ = {
 			isa = PBXGroup;
 			children = (
+				1F23DA401D8FDE9900601FB6 /* TCP */,
 				1F42C0F21D386C1A0087ECF3 /* Ping */,
 				1F729D9E1D05E43000507DCC /* WirelessPrinter */,
 				1F38AA431CFB569000E21ABF /* BLLSDKLayer.json */,
@@ -3873,6 +3886,7 @@
 				1F38A9481CFB568000E21ABF /* UIApplication+ApplicationSize.m in Sources */,
 				1F38A9AE1CFB568000E21ABF /* UIView+UIScreenDisplaying.m in Sources */,
 				1F38A9231CFB567F00E21ABF /* NSString+Pinyin.m in Sources */,
+				1F23DA431D8FDEE200601FB6 /* XDFreePortAllocator.m in Sources */,
 				1F38A8DA1CFB567F00E21ABF /* NSArray+XDCommonLib.m in Sources */,
 				1F36034D1CFDAE11005F627A /* UICollectionView+XD_AutoScrollLeftOrRightForCellToVisableAreaForCellInCollectionView.m in Sources */,
 				1F38A8F91CFB567F00E21ABF /* NSMutableDictionary+XDCommonLib.m in Sources */,
