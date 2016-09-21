@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>copy</title>
+    <meta charset="utf-8">
+    <style type="text/css">
+      body,html{font-size: 14px}
+      p{
+        line-height: 14px;
+      }
+       textarea{
+          width: 250px;
+          min-height: 50px;
+          max-height: 200px;
+          resize: none;
+          border:none;
+          outline:none;
+          margin-top: -10px;
+       }
+    </style>
+</head>
+
+<body>
+    <p id="copyTip">成功复制内容如下：</p>
+    <textarea id="cont" readonly="readonly"></textarea>
+    <button id="copy" style="display:none" >copy</button>
+    <script src="bindEvent.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+{
+  "name": "复制插件",//插件名称
+  "version": "1.2.2",//插件版本
+  "manifest_version":2,//这个必不可少
+  "description": "点击右上角小图标复制抓取页面内容和固定内容",//鼠标hover时显示的文字
+  "browser_action": {//你的插件的标识
+    "default_icon": "icon128.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": ["tabs","http://*/*"],
+  "icons": 
+  { 
+    "16": "icon16.png",             
+    "48": "icon48.png",            
+    "128": "icon128.png" 
+  },
+  "content_scripts": [//在浏览器运行时，需要加入的js或者css
+    {
+      "matches": ["http://*/*"],//哪些http协议支持该插件
+      "js": ["copy.js"]//插入哪些js
+    }
+  ]
+}
