@@ -58,27 +58,90 @@
 
 #pragma mark - Private C Methods
 int freePort () {
-    int sock = socket(AF_INET, SOCK_STREAM, 0);
-    if(sock < 0) {
+    int port = 0;
+    int fd = -1;
+    int len = 0;
+    port = -1;
+    
+#ifndef AF_IPV6
+    struct sockaddr_in sin;
+    memset(&sin, 0, sizeof(sin));
+    sin.sin_family = AF_INET;
+    sin.sin_port = htons(0);
+    sin.sin_addr.s_addr = htonl(INADDR_ANY);
+    
+    fd = socket(AF_INET, SOCK_STREAM, IPPROTO_TCP);
+    
+    if(fd < 0){
+        printf("socket() error:%s\n", strerror(errno));
         return -1;
     }
-    struct sockaddr_in serv_addr;
-    bzero((char *) &serv_addr, sizeof(serv_addr));
-    serv_addr.sin_family = AF_INET;
-    serv_addr.sin_addr.s_addr = INADDR_ANY;
-    serv_addr.sin_port = 0;
-    if (bind(sock, (struct sockaddr *) &serv_addr, sizeof(serv_addr)) < 0) {
-        if(errno == EADDRINUSE) {
-            return -2;
-        } else {
-            return -3;
-        }
+    
+    // 设置套接字选项避免地址使用错误
+    int on = 1;
+    if((setsockopt(fd,SOL_SOCKET,SO_REUSEADDR,&on,sizeof(on)))<0)
+    {
+        perror("setsockopt failed");
+        return -1;
     }
-    socklen_t len = sizeof(serv_addr);
-    if (getsockname(sock, (struct sockaddr *)&serv_addr, &len) == -1) {
-        return -4;
+    
+    if(bind(fd, (struct sockaddr *)&sin, sizeof(sin)) != 0)
+    {
+        printf("bind() error:%s\n", strerror(errno));
+        close(fd);
+        return -1;
     }
-    return ntohs(serv_addr.sin_port);
+    
+    len = sizeof(sin);
+    if(getsockname(fd, (struct sockaddr *)&sin, &len) != 0)
+    {
+        printf("getsockname() error:%s\n", strerror(errno));
+        close(fd);
+        return -1;
+    }
+    
+    port = sin.sin_port;
+    if(fd != -1) {
+        close(fd);
+    }
+    
+#else
+    struct sockaddr_in6 sin6;
+    memset(&sin6, 0, sizeof(sin6));
+    sin.sin_family = AF_INET6;
+    sin.sin_port = htons(0);
+    sin6.sin_addr.s_addr = htonl(IN6ADDR_ANY);
+    
+    fd = socket(AF_INET6, SOCK_STREAM, IPPROTO_TCP);
+    
+    if(fd < 0){
+        printf("socket() error:%s\n", strerror(errno));
+        return -1;
+    }
+    
+    if(bind(fd, (struct sockaddr *)&sin6, sizeof(sin6)) != 0)
+    {
+        printf("bind() error:%s\n", strerror(errno));
+        close(fd);
+        return -1;
+    }
+    
+    len = sizeof(sin6);
+    if(getsockname(fd, (struct sockaddr *)&sin6, &len) != 0)
+    {
+        printf("getsockname() error:%s\n", strerror(errno));
+        close(fd);
+        return -1;
+    }
+    
+    port = sin6.sin6_port;
+    
+    if(fd != -1)
+        close(fd);
+    
+#endif
+    return port;
+
 }
 
 
