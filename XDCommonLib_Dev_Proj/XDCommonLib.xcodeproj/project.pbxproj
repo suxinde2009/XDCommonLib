@@ -407,6 +407,7 @@
 		1F9CA6061CE0FD5D00F53C03 /* SBTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9CA6041CE0FD5D00F53C03 /* SBTableViewController.m */; };
 		1FA4D1871CF0DC19005AD187 /* XDFluxDispatcherDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA4D1861CF0DC19005AD187 /* XDFluxDispatcherDemo.m */; };
 		1FB9E2991DBDDA3500F8E106 /* XDGCDThrottle.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FB9E2981DBDDA3500F8E106 /* XDGCDThrottle.m */; };
+		1FB9E2A01DBE28B500F8E106 /* NSObject+DeallocHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FB9E29F1DBE28B500F8E106 /* NSObject+DeallocHandler.m */; };
 		1FBB72291AF9356D005B3F99 /* MulticastDelegateDemoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBB72281AF9356D005B3F99 /* MulticastDelegateDemoVC.m */; };
 		1FBF4A171D07BB730051DA21 /* XDLayoutUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBF4A161D07BB730051DA21 /* XDLayoutUtils.m */; };
 		1FBF4A1A1D07BB9D0051DA21 /* NSLayoutConstraint+XDCommonLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBF4A191D07BB9D0051DA21 /* NSLayoutConstraint+XDCommonLib.m */; };
@@ -1232,6 +1233,8 @@
 		1FA4D1861CF0DC19005AD187 /* XDFluxDispatcherDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDFluxDispatcherDemo.m; sourceTree = "<group>"; };
 		1FB9E2971DBDDA3500F8E106 /* XDGCDThrottle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDGCDThrottle.h; sourceTree = "<group>"; };
 		1FB9E2981DBDDA3500F8E106 /* XDGCDThrottle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDGCDThrottle.m; sourceTree = "<group>"; };
+		1FB9E29E1DBE28B500F8E106 /* NSObject+DeallocHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+DeallocHandler.h"; sourceTree = "<group>"; };
+		1FB9E29F1DBE28B500F8E106 /* NSObject+DeallocHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+DeallocHandler.m"; sourceTree = "<group>"; };
 		1FBB72271AF9356D005B3F99 /* MulticastDelegateDemoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MulticastDelegateDemoVC.h; sourceTree = "<group>"; };
 		1FBB72281AF9356D005B3F99 /* MulticastDelegateDemoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MulticastDelegateDemoVC.m; sourceTree = "<group>"; };
 		1FBF4A151D07BB730051DA21 /* XDLayoutUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDLayoutUtils.h; sourceTree = "<group>"; };
@@ -1789,6 +1792,8 @@
 				1F38A6571CFB567F00E21ABF /* NSObject+XDCommonLib.m */,
 				1F277E5E1D179567008CE332 /* NSObject+LocalizedNib.h */,
 				1F277E5F1D179567008CE332 /* NSObject+LocalizedNib.m */,
+				1FB9E29E1DBE28B500F8E106 /* NSObject+DeallocHandler.h */,
+				1FB9E29F1DBE28B500F8E106 /* NSObject+DeallocHandler.m */,
 			);
 			path = NSObject;
 			sourceTree = "<group>";
@@ -3640,6 +3645,7 @@
 				1F38AA091CFB568000E21ABF /* ConstraintUtilities+Matching.m in Sources */,
 				1F38A9961CFB568000E21ABF /* UITableViewCell+NIB.m in Sources */,
 				1F277E561D16F662008CE332 /* XDRuntimeInvoker.m in Sources */,
+				1FB9E2A01DBE28B500F8E106 /* NSObject+DeallocHandler.m in Sources */,
 				1F38A8E31CFB567F00E21ABF /* NSData+SDDataCache.m in Sources */,
 				1F38A8FE1CFB567F00E21ABF /* NSFileManager+XDCommonLib.m in Sources */,
 				1F38A9861CFB568000E21ABF /* UINavigationController+StackManager.m in Sources */,

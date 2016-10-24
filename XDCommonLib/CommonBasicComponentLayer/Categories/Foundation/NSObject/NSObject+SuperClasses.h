@@ -15,6 +15,7 @@
 @interface NSObject (SuperClasses)
 
 + (NSArray *)superClasses;
+
 - (NSArray *)superClasses;
 
 @end
