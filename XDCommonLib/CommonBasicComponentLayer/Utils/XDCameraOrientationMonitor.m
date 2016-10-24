@@ -127,7 +127,7 @@ NSString *const kXDCameraOrientationMonitorDidChangeNotification  = @"kXDOrienta
     }
 }
 
-- (NSString*)getOrientationString
+- (NSString*)orientationDescription
 {
     NSString *string = @"UIDeviceOrientationUnknown";
     
