@@ -31,6 +31,8 @@
 
 #import "UIDevice+IPAddress.h"
 
+#import "XDGCDThrottle.h"
+
 static NSString *const SBTableLayoutTabVC = @"SBTableLayoutTabVC";
 
 @interface ViewController ()
@@ -66,7 +68,25 @@ static NSString *const SBTableLayoutTabVC = @"SBTableLayoutTabVC";
     [mTestCases addObject:@"XDRuntimeInvoker"];
 }
 
+- (void)testGCDThrottle
+{
+    dispatch_throttle(0.3, ^{
+        NSLog(@"search: AAA");
+    });
+    
+    dispatch_throttle_on_queue(0.3, THROTTLE_GLOBAL_QUEUE, ^{
+        NSLog(@"search: BBB");
+    });
+    
+    [XDGCDThrottle throttle:0.3 block:^{
+        NSLog(@"search: CCC");
+    }];
+    
+    [XDGCDThrottle throttle:0.3 queue:THROTTLE_GLOBAL_QUEUE block:^{
+        NSLog(@"search: DDD");
+    }];
 
+}
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
