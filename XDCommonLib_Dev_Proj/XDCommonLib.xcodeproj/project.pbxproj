@@ -406,6 +406,7 @@
 		1F9CA6051CE0FD5D00F53C03 /* SBTableLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9CA6021CE0FD5D00F53C03 /* SBTableLayoutViewController.m */; };
 		1F9CA6061CE0FD5D00F53C03 /* SBTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9CA6041CE0FD5D00F53C03 /* SBTableViewController.m */; };
 		1FA4D1871CF0DC19005AD187 /* XDFluxDispatcherDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA4D1861CF0DC19005AD187 /* XDFluxDispatcherDemo.m */; };
+		1FB9E2991DBDDA3500F8E106 /* XDGCDThrottle.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FB9E2981DBDDA3500F8E106 /* XDGCDThrottle.m */; };
 		1FBB72291AF9356D005B3F99 /* MulticastDelegateDemoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBB72281AF9356D005B3F99 /* MulticastDelegateDemoVC.m */; };
 		1FBF4A171D07BB730051DA21 /* XDLayoutUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBF4A161D07BB730051DA21 /* XDLayoutUtils.m */; };
 		1FBF4A1A1D07BB9D0051DA21 /* NSLayoutConstraint+XDCommonLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBF4A191D07BB9D0051DA21 /* NSLayoutConstraint+XDCommonLib.m */; };
@@ -1229,6 +1230,8 @@
 		1F9CA6041CE0FD5D00F53C03 /* SBTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBTableViewController.m; sourceTree = "<group>"; };
 		1FA4D1851CF0DC19005AD187 /* XDFluxDispatcherDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDFluxDispatcherDemo.h; sourceTree = "<group>"; };
 		1FA4D1861CF0DC19005AD187 /* XDFluxDispatcherDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDFluxDispatcherDemo.m; sourceTree = "<group>"; };
+		1FB9E2971DBDDA3500F8E106 /* XDGCDThrottle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDGCDThrottle.h; sourceTree = "<group>"; };
+		1FB9E2981DBDDA3500F8E106 /* XDGCDThrottle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDGCDThrottle.m; sourceTree = "<group>"; };
 		1FBB72271AF9356D005B3F99 /* MulticastDelegateDemoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MulticastDelegateDemoVC.h; sourceTree = "<group>"; };
 		1FBB72281AF9356D005B3F99 /* MulticastDelegateDemoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MulticastDelegateDemoVC.m; sourceTree = "<group>"; };
 		1FBF4A151D07BB730051DA21 /* XDLayoutUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDLayoutUtils.h; sourceTree = "<group>"; };
@@ -2003,6 +2006,8 @@
 			children = (
 				1F38A6C61CFB567F00E21ABF /* NSThread+Utils.h */,
 				1F38A6C71CFB567F00E21ABF /* NSThread+Utils.m */,
+				1FB9E2971DBDDA3500F8E106 /* XDGCDThrottle.h */,
+				1FB9E2981DBDDA3500F8E106 /* XDGCDThrottle.m */,
 			);
 			path = Thread;
 			sourceTree = "<group>";
@@ -3749,6 +3754,7 @@
 				1F38A9521CFB568000E21ABF /* UIButton+Block.m in Sources */,
 				1F277E601D179567008CE332 /* NSObject+LocalizedNib.m in Sources */,
 				1F729DB61D05E4C500507DCC /* XDBaseWifiPrinter.m in Sources */,
+				1FB9E2991DBDDA3500F8E106 /* XDGCDThrottle.m in Sources */,
 				1F38A9B31CFB568000E21ABF /* UIViewController+BackButtonTouched.m in Sources */,
 				1F38A97B1CFB568000E21ABF /* UIImageView+Reflect.m in Sources */,
 				1F38A8F51CFB567F00E21ABF /* NSDictionary+SafeAccess.m in Sources */,
