@@ -403,6 +403,7 @@
 		1F729DAD1D05E44600507DCC /* UIWebView+UIImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F729DA91D05E44600507DCC /* UIWebView+UIImage.m */; };
 		1F729DB31D05E4A800507DCC /* XDBaseWirelessPrinter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F729DB21D05E4A800507DCC /* XDBaseWirelessPrinter.m */; };
 		1F729DB61D05E4C500507DCC /* XDBaseWifiPrinter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F729DB51D05E4C500507DCC /* XDBaseWifiPrinter.m */; };
+		1F753AFD1DD0242D001B39F0 /* XDMicrophoneControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F753AFC1DD0242D001B39F0 /* XDMicrophoneControl.m */; };
 		1F9CA6051CE0FD5D00F53C03 /* SBTableLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9CA6021CE0FD5D00F53C03 /* SBTableLayoutViewController.m */; };
 		1F9CA6061CE0FD5D00F53C03 /* SBTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9CA6041CE0FD5D00F53C03 /* SBTableViewController.m */; };
 		1FA4D1871CF0DC19005AD187 /* XDFluxDispatcherDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA4D1861CF0DC19005AD187 /* XDFluxDispatcherDemo.m */; };
@@ -1225,6 +1226,8 @@
 		1F729DB21D05E4A800507DCC /* XDBaseWirelessPrinter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDBaseWirelessPrinter.m; sourceTree = "<group>"; };
 		1F729DB41D05E4C500507DCC /* XDBaseWifiPrinter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDBaseWifiPrinter.h; sourceTree = "<group>"; };
 		1F729DB51D05E4C500507DCC /* XDBaseWifiPrinter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDBaseWifiPrinter.m; sourceTree = "<group>"; };
+		1F753AFB1DD0242D001B39F0 /* XDMicrophoneControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDMicrophoneControl.h; sourceTree = "<group>"; };
+		1F753AFC1DD0242D001B39F0 /* XDMicrophoneControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDMicrophoneControl.m; sourceTree = "<group>"; };
 		1F9CA6011CE0FD5D00F53C03 /* SBTableLayoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBTableLayoutViewController.h; sourceTree = "<group>"; };
 		1F9CA6021CE0FD5D00F53C03 /* SBTableLayoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBTableLayoutViewController.m; sourceTree = "<group>"; };
 		1F9CA6031CE0FD5D00F53C03 /* SBTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBTableViewController.h; sourceTree = "<group>"; };
@@ -3054,6 +3057,7 @@
 		1F38AA2D1CFB568A00E21ABF /* Media */ = {
 			isa = PBXGroup;
 			children = (
+				1F753AFA1DD02407001B39F0 /* Microphone */,
 				1F38AA2E1CFB568A00E21ABF /* Camera */,
 				1F38AA361CFB568A00E21ABF /* Media.json */,
 				1F38AA371CFB568A00E21ABF /* VideoEdit */,
@@ -3244,6 +3248,15 @@
 				1F729DB21D05E4A800507DCC /* XDBaseWirelessPrinter.m */,
 			);
 			path = Base;
+			sourceTree = "<group>";
+		};
+		1F753AFA1DD02407001B39F0 /* Microphone */ = {
+			isa = PBXGroup;
+			children = (
+				1F753AFB1DD0242D001B39F0 /* XDMicrophoneControl.h */,
+				1F753AFC1DD0242D001B39F0 /* XDMicrophoneControl.m */,
+			);
+			path = Microphone;
 			sourceTree = "<group>";
 		};
 		1F9A83841CEE34DE0070CE07 /* XDCommonLib */ = {
@@ -3548,6 +3561,7 @@
 				1F729DAB1D05E44600507DCC /* SEPrinterManager.m in Sources */,
 				1F38A9F01CFB568000E21ABF /* UIGestureRecognizer+BlocksKit.m in Sources */,
 				1F38A8E81CFB567F00E21ABF /* NSDate+Formatter.m in Sources */,
+				1F753AFD1DD0242D001B39F0 /* XDMicrophoneControl.m in Sources */,
 				1F38A94E1CFB568000E21ABF /* UIBezierPath+LxThroughPointsBezier.m in Sources */,
 				1F38A9391CFB567F00E21ABF /* NSUserDefaults+SafeAccess.m in Sources */,
 				1F38A9CA1CFB568000E21ABF /* XDDebugStatusBar.m in Sources */,
