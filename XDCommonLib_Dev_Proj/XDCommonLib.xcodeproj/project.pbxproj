@@ -421,6 +421,7 @@
 		1FC8F59E1AF7DA0D00CA2AC0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FC8F59C1AF7DA0D00CA2AC0 /* LaunchScreen.xib */; };
 		1FC8F5AA1AF7DA0D00CA2AC0 /* XDCommonLibTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC8F5A91AF7DA0D00CA2AC0 /* XDCommonLibTests.m */; };
 		1FC8F5B71AF7DB2E00CA2AC0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC8F5B61AF7DB2E00CA2AC0 /* ViewController.m */; };
+		1FCCE1411DD450F600B371BD /* XDRSACryptUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FCCE1401DD450F600B371BD /* XDRSACryptUtils.m */; };
 		1FCFDD101CDC161900DC27F5 /* test.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1FCFDD0F1CDC161900DC27F5 /* test.mp4 */; };
 		1FE1126E1D1006AF00F733DE /* UIButton+PreventQuickRepeatClickOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FE1126D1D1006AF00F733DE /* UIButton+PreventQuickRepeatClickOperation.m */; };
 		1FE329C31BE9271100626042 /* libz.1.1.3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FE329C21BE9271100626042 /* libz.1.1.3.tbd */; };
@@ -1262,6 +1263,8 @@
 		1FC8F5B51AF7DB2E00CA2AC0 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		1FC8F5B61AF7DB2E00CA2AC0 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1FC8F5BF1AF7DDEC00CA2AC0 /* XDCommonLib-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XDCommonLib-Prefix.pch"; sourceTree = "<group>"; };
+		1FCCE13F1DD450F600B371BD /* XDRSACryptUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDRSACryptUtils.h; sourceTree = "<group>"; };
+		1FCCE1401DD450F600B371BD /* XDRSACryptUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDRSACryptUtils.m; sourceTree = "<group>"; };
 		1FCFDD0F1CDC161900DC27F5 /* test.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.mp4; sourceTree = "<group>"; };
 		1FE1126C1D1006AF00F733DE /* UIButton+PreventQuickRepeatClickOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+PreventQuickRepeatClickOperation.h"; sourceTree = "<group>"; };
 		1FE1126D1D1006AF00F733DE /* UIButton+PreventQuickRepeatClickOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+PreventQuickRepeatClickOperation.m"; sourceTree = "<group>"; };
@@ -3098,6 +3101,7 @@
 		1F38AA421CFB569000E21ABF /* BLLSDKLayer */ = {
 			isa = PBXGroup;
 			children = (
+				1FCCE13E1DD4509A00B371BD /* Crypt */,
 				1F23DA401D8FDE9900601FB6 /* TCP */,
 				1F42C0F21D386C1A0087ECF3 /* Ping */,
 				1F729D9E1D05E43000507DCC /* WirelessPrinter */,
@@ -3411,6 +3415,15 @@
 			path = VC;
 			sourceTree = "<group>";
 		};
+		1FCCE13E1DD4509A00B371BD /* Crypt */ = {
+			isa = PBXGroup;
+			children = (
+				1FCCE13F1DD450F600B371BD /* XDRSACryptUtils.h */,
+				1FCCE1401DD450F600B371BD /* XDRSACryptUtils.m */,
+			);
+			path = Crypt;
+			sourceTree = "<group>";
+		};
 		1FCFDD0E1CDC161900DC27F5 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -3469,6 +3482,7 @@
 				TargetAttributes = {
 					1FC8F5891AF7DA0D00CA2AC0 = {
 						CreatedOnToolsVersion = 6.1;
+						ProvisioningStyle = Manual;
 					};
 					1FC8F5A21AF7DA0D00CA2AC0 = {
 						CreatedOnToolsVersion = 6.1;
@@ -3766,6 +3780,7 @@
 				1F38A9BF1CFB568000E21ABF /* UIWebView+Canvas.m in Sources */,
 				1F38A95C1CFB568000E21ABF /* UIControl+ActionBlocks.m in Sources */,
 				1F3336B21D87F86300CF6EBF /* XDFileHashUtils.m in Sources */,
+				1FCCE1411DD450F600B371BD /* XDRSACryptUtils.m in Sources */,
 				1F38A9FD1CFB568000E21ABF /* NSString+XD_EncryptBase64.m in Sources */,
 				1F38A9A31CFB568000E21ABF /* UIView+Find.m in Sources */,
 				1F62A2A11CE2F2A70077B7D5 /* LoginCommand.m in Sources */,
@@ -4066,6 +4081,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				GCC_WARN_UNKNOWN_PRAGMAS = NO;
 				INFOPLIST_FILE = XDCommonLib/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -4078,6 +4094,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				GCC_WARN_UNKNOWN_PRAGMAS = NO;
 				INFOPLIST_FILE = XDCommonLib/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
