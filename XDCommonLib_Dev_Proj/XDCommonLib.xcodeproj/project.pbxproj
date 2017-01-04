@@ -18,6 +18,7 @@
 		1F277E5A1D16F855008CE332 /* XDRuntimeInvokerTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F277E591D16F855008CE332 /* XDRuntimeInvokerTestVC.m */; };
 		1F277E5D1D17008F008CE332 /* UIDevice+IPAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F277E5C1D17008F008CE332 /* UIDevice+IPAddress.m */; };
 		1F277E601D179567008CE332 /* NSObject+LocalizedNib.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F277E5F1D179567008CE332 /* NSObject+LocalizedNib.m */; };
+		1F2D1D321E1D6656003662B2 /* XDCNNumberParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2D1D311E1D6656003662B2 /* XDCNNumberParser.m */; };
 		1F3336B21D87F86300CF6EBF /* XDFileHashUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3336B11D87F86300CF6EBF /* XDFileHashUtils.m */; };
 		1F36034D1CFDAE11005F627A /* UICollectionView+XD_AutoScrollLeftOrRightForCellToVisableAreaForCellInCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F36034C1CFDAE11005F627A /* UICollectionView+XD_AutoScrollLeftOrRightForCellToVisableAreaForCellInCollectionView.m */; };
 		1F36035A1CFDFD77005F627A /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3603511CFDFD77005F627A /* SVIndefiniteAnimatedView.m */; };
@@ -461,6 +462,8 @@
 		1F277E5C1D17008F008CE332 /* UIDevice+IPAddress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+IPAddress.m"; sourceTree = "<group>"; };
 		1F277E5E1D179567008CE332 /* NSObject+LocalizedNib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+LocalizedNib.h"; sourceTree = "<group>"; };
 		1F277E5F1D179567008CE332 /* NSObject+LocalizedNib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LocalizedNib.m"; sourceTree = "<group>"; };
+		1F2D1D301E1D6656003662B2 /* XDCNNumberParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDCNNumberParser.h; sourceTree = "<group>"; };
+		1F2D1D311E1D6656003662B2 /* XDCNNumberParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDCNNumberParser.m; sourceTree = "<group>"; };
 		1F3336B01D87F86300CF6EBF /* XDFileHashUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDFileHashUtils.h; sourceTree = "<group>"; };
 		1F3336B11D87F86300CF6EBF /* XDFileHashUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDFileHashUtils.m; sourceTree = "<group>"; };
 		1F36034B1CFDAE11005F627A /* UICollectionView+XD_AutoScrollLeftOrRightForCellToVisableAreaForCellInCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+XD_AutoScrollLeftOrRightForCellToVisableAreaForCellInCollectionView.h"; sourceTree = "<group>"; };
@@ -3106,6 +3109,8 @@
 				1F42C0F21D386C1A0087ECF3 /* Ping */,
 				1F729D9E1D05E43000507DCC /* WirelessPrinter */,
 				1F38AA431CFB569000E21ABF /* BLLSDKLayer.json */,
+				1F2D1D301E1D6656003662B2 /* XDCNNumberParser.h */,
+				1F2D1D311E1D6656003662B2 /* XDCNNumberParser.m */,
 			);
 			path = BLLSDKLayer;
 			sourceTree = "<group>";
@@ -3578,6 +3583,7 @@
 				1F753AFD1DD0242D001B39F0 /* XDMicrophoneControl.m in Sources */,
 				1F38A94E1CFB568000E21ABF /* UIBezierPath+LxThroughPointsBezier.m in Sources */,
 				1F38A9391CFB567F00E21ABF /* NSUserDefaults+SafeAccess.m in Sources */,
+				1F2D1D321E1D6656003662B2 /* XDCNNumberParser.m in Sources */,
 				1F38A9CA1CFB568000E21ABF /* XDDebugStatusBar.m in Sources */,
 				1F38A96A1CFB568000E21ABF /* UIImage+FileName.m in Sources */,
 				1F38A96E1CFB568000E21ABF /* UIImage+Orientation.m in Sources */,
