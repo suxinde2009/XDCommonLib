@@ -12,6 +12,9 @@
 
 #import "XDFPSStatusUtils.h"
 
+#import "XDClassMethodsTrackLog.h"
+
+
 @interface AppDelegate ()
 
 @end
@@ -29,9 +32,59 @@
 }
 
 
+- (void)testRuntimeMethodsTrackLog
+{
+    //用法一
+    /*
+    [XDClassMethodsTrackLog logMethodWithClass:[UIViewController class] condition:^BOOL(SEL sel) {
+        NSLog(@"method:%@", NSStringFromSelector(sel));
+        return NO;
+    } before:nil after:nil];
+    */
+    
+    //用法二
+    /*
+    [XDClassMethodsTrackLog logMethodWithClass:[UIViewController class] condition:^BOOL(SEL sel) {
+        
+        NSArray *whiteList = @[@"loadView", @"viewDidLoad", @"viewWillAppear:", @"viewDidAppear:", @"viewWillDisappear:", @"viewDidDisappear:", @"viewWillLayoutSubviews", @"viewDidLayoutSubviews"];
+        return [whiteList containsObject:NSStringFromSelector(sel)];
+        
+    } before:^(id target, SEL sel) {
+        
+        NSLog(@"before target:%@ sel:%@", target, NSStringFromSelector(sel));
+        
+    } after:^(id target, SEL sel) {
+        
+        NSLog(@"after target:%@ sel:%@", target, NSStringFromSelector(sel));
+        
+    }];
+     */
+    
+    //用法三
+    Class cls = NSClassFromString(@"ViewController");
+    [XDClassMethodsTrackLog logMethodWithClass:cls condition:^BOOL(SEL sel) {
+        
+        return [NSStringFromSelector(sel) isEqualToString:@"viewDidLoad"];
+        
+    } before:^(id target, SEL sel) {
+        
+        NSLog(@"before frame%@", NSStringFromCGRect([(UIViewController *)target view].frame));
+        
+    } after:^(id target, SEL sel) {
+        
+        NSLog(@"after frame%@", NSStringFromCGRect([(UIViewController *)target view].frame));
+        
+    }];
+}
+
+
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    // 测试 runtime跟踪打印 各类的方法调用
+    [self testRuntimeMethodsTrackLog];
+    
     
     // 测试 TODO 宏定义
     [self testTodoMarco];
