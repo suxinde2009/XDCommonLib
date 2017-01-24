@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1F18E2C91D0FDA0C009737D1 /* UIDevice+HardWareInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F18E2C81D0FDA0C009737D1 /* UIDevice+HardWareInfo.m */; };
+		1F1A610C1E37C3CB00B4D62A /* NSString+XD_HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1A610B1E37C3CB00B4D62A /* NSString+XD_HTML.m */; };
 		1F23DA431D8FDEE200601FB6 /* XDFreePortAllocator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F23DA421D8FDEE200601FB6 /* XDFreePortAllocator.m */; };
 		1F2412B81D11ACC100637EF7 /* XDABContactEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2412B71D11ACC100637EF7 /* XDABContactEntity.m */; };
 		1F2412BB1D11AD5000637EF7 /* XDABContactsHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2412BA1D11AD5000637EF7 /* XDABContactsHelper.m */; };
@@ -442,6 +443,8 @@
 /* Begin PBXFileReference section */
 		1F18E2C71D0FDA0C009737D1 /* UIDevice+HardWareInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+HardWareInfo.h"; sourceTree = "<group>"; };
 		1F18E2C81D0FDA0C009737D1 /* UIDevice+HardWareInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+HardWareInfo.m"; sourceTree = "<group>"; };
+		1F1A610A1E37C3CB00B4D62A /* NSString+XD_HTML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+XD_HTML.h"; sourceTree = "<group>"; };
+		1F1A610B1E37C3CB00B4D62A /* NSString+XD_HTML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+XD_HTML.m"; sourceTree = "<group>"; };
 		1F23DA411D8FDEE200601FB6 /* XDFreePortAllocator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDFreePortAllocator.h; sourceTree = "<group>"; };
 		1F23DA421D8FDEE200601FB6 /* XDFreePortAllocator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDFreePortAllocator.m; sourceTree = "<group>"; };
 		1F2412B61D11ACC100637EF7 /* XDABContactEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDABContactEntity.h; sourceTree = "<group>"; };
@@ -1888,6 +1891,8 @@
 				1F38A68F1CFB567F00E21ABF /* NSString+XDCommonLib.m */,
 				1F38A6901CFB567F00E21ABF /* NSString+XML.h */,
 				1F38A6911CFB567F00E21ABF /* NSString+XML.m */,
+				1F1A610A1E37C3CB00B4D62A /* NSString+XD_HTML.h */,
+				1F1A610B1E37C3CB00B4D62A /* NSString+XD_HTML.m */,
 			);
 			path = NSString;
 			sourceTree = "<group>";
@@ -3789,6 +3794,7 @@
 				1F36038A1CFFBFD7005F627A /* BFPaperColorListViewController.m in Sources */,
 				1F38AA111CFB568000E21ABF /* XDNetwork.m in Sources */,
 				1F38A9B41CFB568000E21ABF /* UIViewController+BlockSegue.m in Sources */,
+				1F1A610C1E37C3CB00B4D62A /* NSString+XD_HTML.m in Sources */,
 				1F38A8D31CFB567F00E21ABF /* NSManagedObjectContext+FetchRequestsConstructors.m in Sources */,
 				1F38A98F1CFB568000E21ABF /* UIScrollView+Addition.m in Sources */,
 				1F38A9361CFB567F00E21ABF /* NSMutableURLRequest+Upload.m in Sources */,
