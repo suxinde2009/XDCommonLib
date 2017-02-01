@@ -33,6 +33,7 @@ Many thanks for the open source projects belows（names listed in no particular 
 - [ARAnimation]()
 - [SDAVAssetExportSession]()
 - [ALAssetsLibrary-CustomPhotoAlbum]()
+- [Colours](https://github.com/bennyguitar/Colours)
 
 
 

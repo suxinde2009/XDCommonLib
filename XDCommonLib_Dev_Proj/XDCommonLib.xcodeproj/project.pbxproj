@@ -412,6 +412,9 @@
 		1FB9E2991DBDDA3500F8E106 /* XDGCDThrottle.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FB9E2981DBDDA3500F8E106 /* XDGCDThrottle.m */; };
 		1FB9E2A01DBE28B500F8E106 /* NSObject+DeallocHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FB9E29F1DBE28B500F8E106 /* NSObject+DeallocHandler.m */; };
 		1FBB72291AF9356D005B3F99 /* MulticastDelegateDemoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBB72281AF9356D005B3F99 /* MulticastDelegateDemoVC.m */; };
+		1FBCFF471E375947005AED2D /* NSDate+XD_NSDateRFC1123.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBCFF461E375947005AED2D /* NSDate+XD_NSDateRFC1123.m */; };
+		1FBCFF4A1E375A27005AED2D /* XDCypto.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBCFF491E375A27005AED2D /* XDCypto.m */; };
+		1FBCFF4D1E41A269005AED2D /* UIColor+Colours.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBCFF4C1E41A269005AED2D /* UIColor+Colours.m */; };
 		1FBF4A171D07BB730051DA21 /* XDLayoutUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBF4A161D07BB730051DA21 /* XDLayoutUtils.m */; };
 		1FBF4A1A1D07BB9D0051DA21 /* NSLayoutConstraint+XDCommonLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBF4A191D07BB9D0051DA21 /* NSLayoutConstraint+XDCommonLib.m */; };
 		1FBF4A1D1D07BC0E0051DA21 /* UIView+LayoutConstraintUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBF4A1C1D07BC0E0051DA21 /* UIView+LayoutConstraintUtils.m */; };
@@ -1248,6 +1251,12 @@
 		1FB9E29F1DBE28B500F8E106 /* NSObject+DeallocHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+DeallocHandler.m"; sourceTree = "<group>"; };
 		1FBB72271AF9356D005B3F99 /* MulticastDelegateDemoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MulticastDelegateDemoVC.h; sourceTree = "<group>"; };
 		1FBB72281AF9356D005B3F99 /* MulticastDelegateDemoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MulticastDelegateDemoVC.m; sourceTree = "<group>"; };
+		1FBCFF451E375947005AED2D /* NSDate+XD_NSDateRFC1123.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+XD_NSDateRFC1123.h"; sourceTree = "<group>"; };
+		1FBCFF461E375947005AED2D /* NSDate+XD_NSDateRFC1123.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+XD_NSDateRFC1123.m"; sourceTree = "<group>"; };
+		1FBCFF481E375A27005AED2D /* XDCypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDCypto.h; sourceTree = "<group>"; };
+		1FBCFF491E375A27005AED2D /* XDCypto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDCypto.m; sourceTree = "<group>"; };
+		1FBCFF4B1E41A269005AED2D /* UIColor+Colours.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Colours.h"; sourceTree = "<group>"; };
+		1FBCFF4C1E41A269005AED2D /* UIColor+Colours.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Colours.m"; sourceTree = "<group>"; };
 		1FBF4A151D07BB730051DA21 /* XDLayoutUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDLayoutUtils.h; sourceTree = "<group>"; };
 		1FBF4A161D07BB730051DA21 /* XDLayoutUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDLayoutUtils.m; sourceTree = "<group>"; };
 		1FBF4A181D07BB9D0051DA21 /* NSLayoutConstraint+XDCommonLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+XDCommonLib.h"; sourceTree = "<group>"; };
@@ -2155,6 +2164,8 @@
 				1F38A6F81CFB567F00E21ABF /* UIColor+Web.m */,
 				1F3603801CFFBECD005F627A /* UIColor+XDPaperColors.h */,
 				1F3603811CFFBECD005F627A /* UIColor+XDPaperColors.m */,
+				1FBCFF4B1E41A269005AED2D /* UIColor+Colours.h */,
+				1FBCFF4C1E41A269005AED2D /* UIColor+Colours.m */,
 			);
 			path = UIColor;
 			sourceTree = "<group>";
@@ -3112,6 +3123,7 @@
 		1F38AA421CFB569000E21ABF /* BLLSDKLayer */ = {
 			isa = PBXGroup;
 			children = (
+				1FBCFF441E375919005AED2D /* XDHTTPSig */,
 				1FFFA8FF1E34714700A531B9 /* Log */,
 				1FCCE13E1DD4509A00B371BD /* Crypt */,
 				1F23DA401D8FDE9900601FB6 /* TCP */,
@@ -3317,6 +3329,17 @@
 				1FE329C21BE9271100626042 /* libz.1.1.3.tbd */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1FBCFF441E375919005AED2D /* XDHTTPSig */ = {
+			isa = PBXGroup;
+			children = (
+				1FBCFF451E375947005AED2D /* NSDate+XD_NSDateRFC1123.h */,
+				1FBCFF461E375947005AED2D /* NSDate+XD_NSDateRFC1123.m */,
+				1FBCFF481E375A27005AED2D /* XDCypto.h */,
+				1FBCFF491E375A27005AED2D /* XDCypto.m */,
+			);
+			path = XDHTTPSig;
 			sourceTree = "<group>";
 		};
 		1FBF4A141D07BB650051DA21 /* Layout */ = {
@@ -3725,6 +3748,7 @@
 				1F38A9F11CFB568000E21ABF /* UIImage+BlocksKit.m in Sources */,
 				1FE1126E1D1006AF00F733DE /* UIButton+PreventQuickRepeatClickOperation.m in Sources */,
 				1F38AA1D1CFB568000E21ABF /* XDJSONAdapter.m in Sources */,
+				1FBCFF471E375947005AED2D /* NSDate+XD_NSDateRFC1123.m in Sources */,
 				1F38A9E01CFB568000E21ABF /* NSOrderedSet+BlocksKit.m in Sources */,
 				1F38A8E51CFB567F00E21ABF /* NSData+zlib.m in Sources */,
 				1F38A90D1CFB567F00E21ABF /* NSObject+Blocks.m in Sources */,
@@ -3817,6 +3841,7 @@
 				1F729DB61D05E4C500507DCC /* XDBaseWifiPrinter.m in Sources */,
 				1FB9E2991DBDDA3500F8E106 /* XDGCDThrottle.m in Sources */,
 				1F38A9B31CFB568000E21ABF /* UIViewController+BackButtonTouched.m in Sources */,
+				1FBCFF4A1E375A27005AED2D /* XDCypto.m in Sources */,
 				1F38A97B1CFB568000E21ABF /* UIImageView+Reflect.m in Sources */,
 				1F38A8F51CFB567F00E21ABF /* NSDictionary+SafeAccess.m in Sources */,
 				1F38A9791CFB568000E21ABF /* UIImageView+GeometryConversion.m in Sources */,
@@ -3889,6 +3914,7 @@
 				1F38A9F31CFB568000E21ABF /* UIPopoverController+BlocksKit.m in Sources */,
 				1F38A93F1CFB568000E21ABF /* CAAnimation+Blocks.m in Sources */,
 				1F38AA151CFB568000E21ABF /* PKProtocolExtension.m in Sources */,
+				1FBCFF4D1E41A269005AED2D /* UIColor+Colours.m in Sources */,
 				1F38A9D91CFB568000E21ABF /* NSMutableIndexSet+BlocksKit.m in Sources */,
 				1F38A98E1CFB568000E21ABF /* UIScreen+Frame.m in Sources */,
 				1F38A8D61CFB567F00E21ABF /* CLLocation+CH1903.m in Sources */,
