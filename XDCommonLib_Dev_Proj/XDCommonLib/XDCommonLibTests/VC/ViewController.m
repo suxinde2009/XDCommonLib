@@ -32,6 +32,7 @@
 #import "UIDevice+IPAddress.h"
 
 #import "XDGCDThrottle.h"
+#import "GradientViewController.h"
 
 static NSString *const SBTableLayoutTabVC = @"SBTableLayoutTabVC";
 
@@ -66,6 +67,7 @@ static NSString *const SBTableLayoutTabVC = @"SBTableLayoutTabVC";
     [mTestCases addObject:@"BLEPrinterDemoVC"];
     [mTestCases addObject:@"Paper Color"];
     [mTestCases addObject:@"XDRuntimeInvoker"];
+    [mTestCases addObject:@"Gradient Color"];
 }
 
 - (void)testGCDThrottle
@@ -267,6 +269,14 @@ static NSString *const SBTableLayoutTabVC = @"SBTableLayoutTabVC";
             [self.navigationController pushViewController:controller animated:YES];
             
         } break;
+           
+        case 16: {
+            
+            GradientViewController *controller = (GradientViewController *)[[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"GradientViewController"];
+            [self.navigationController pushViewController:controller animated:YES];
+            
+        } break;
+
             
         default:
             break;

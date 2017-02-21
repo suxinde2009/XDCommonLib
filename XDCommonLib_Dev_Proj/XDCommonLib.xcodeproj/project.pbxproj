@@ -36,6 +36,7 @@
 		1F36038B1CFFBFD7005F627A /* BFPaperColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3603871CFFBFD7005F627A /* BFPaperColorViewController.m */; };
 		1F36038C1CFFBFD7005F627A /* ColorDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3603891CFFBFD7005F627A /* ColorDetailViewController.m */; };
 		1F36038E1CFFC00F005F627A /* PaperColorsDemo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F36038D1CFFC00F005F627A /* PaperColorsDemo.storyboard */; };
+		1F3701601E5C602F00494592 /* GradientViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F37015F1E5C602F00494592 /* GradientViewController.m */; };
 		1F38A8CA1CFB567F00E21ABF /* NSString+UnformattedPhoneNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F38A5A71CFB567F00E21ABF /* NSString+UnformattedPhoneNumber.m */; };
 		1F38A8CB1CFB567F00E21ABF /* XDAddressBookManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F38A5A91CFB567F00E21ABF /* XDAddressBookManager.m */; };
 		1F38A8CC1CFB567F00E21ABF /* XDContactEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F38A5AB1CFB567F00E21ABF /* XDContactEntity.m */; };
@@ -504,6 +505,8 @@
 		1F3603881CFFBFD7005F627A /* ColorDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorDetailViewController.h; sourceTree = "<group>"; };
 		1F3603891CFFBFD7005F627A /* ColorDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorDetailViewController.m; sourceTree = "<group>"; };
 		1F36038D1CFFC00F005F627A /* PaperColorsDemo.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PaperColorsDemo.storyboard; sourceTree = "<group>"; };
+		1F37015E1E5C602F00494592 /* GradientViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientViewController.h; sourceTree = "<group>"; };
+		1F37015F1E5C602F00494592 /* GradientViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientViewController.m; sourceTree = "<group>"; };
 		1F38A5A61CFB567F00E21ABF /* NSString+UnformattedPhoneNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+UnformattedPhoneNumber.h"; sourceTree = "<group>"; };
 		1F38A5A71CFB567F00E21ABF /* NSString+UnformattedPhoneNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+UnformattedPhoneNumber.m"; sourceTree = "<group>"; };
 		1F38A5A81CFB567F00E21ABF /* XDAddressBookManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDAddressBookManager.h; sourceTree = "<group>"; };
@@ -3477,6 +3480,8 @@
 				1F9CA6001CE0FD5D00F53C03 /* SBTableLayoutDemo */,
 				1FBB72271AF9356D005B3F99 /* MulticastDelegateDemoVC.h */,
 				1FBB72281AF9356D005B3F99 /* MulticastDelegateDemoVC.m */,
+				1F37015E1E5C602F00494592 /* GradientViewController.h */,
+				1F37015F1E5C602F00494592 /* GradientViewController.m */,
 			);
 			path = VC;
 			sourceTree = "<group>";
@@ -3676,6 +3681,7 @@
 				1F38A92D1CFB567F00E21ABF /* NSString+Utils.m in Sources */,
 				1FBF4A1D1D07BC0E0051DA21 /* UIView+LayoutConstraintUtils.m in Sources */,
 				1F38A9C51CFB568000E21ABF /* WebView+Debug.m in Sources */,
+				1F3701601E5C602F00494592 /* GradientViewController.m in Sources */,
 				1F38A8EF1CFB567F00E21ABF /* NSDate+XDCommonLib.m in Sources */,
 				1F38A9BA1CFB568000E21ABF /* UIViewController+StoreKit.m in Sources */,
 				1F38A95E1CFB568000E21ABF /* UIDevice+Hardware.m in Sources */,
