@@ -423,6 +423,15 @@
 		1FBF4A1A1D07BB9D0051DA21 /* NSLayoutConstraint+XDCommonLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBF4A191D07BB9D0051DA21 /* NSLayoutConstraint+XDCommonLib.m */; };
 		1FBF4A1D1D07BC0E0051DA21 /* UIView+LayoutConstraintUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBF4A1C1D07BC0E0051DA21 /* UIView+LayoutConstraintUtils.m */; };
 		1FBF4A241D07F2910051DA21 /* UIStoryboard+LoadViewControllerFromStoryBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBF4A231D07F2910051DA21 /* UIStoryboard+LoadViewControllerFromStoryBoard.m */; };
+		1FC1FB541E7597FC004922A8 /* EVEEvent+Friendly.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC1FB3E1E7597FC004922A8 /* EVEEvent+Friendly.m */; };
+		1FC1FB551E7597FC004922A8 /* EVEEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC1FB401E7597FC004922A8 /* EVEEvent.m */; };
+		1FC1FB561E7597FC004922A8 /* EVEEventDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC1FB421E7597FC004922A8 /* EVEEventDispatcher.m */; };
+		1FC1FB571E7597FC004922A8 /* EVEEventListenerLambda.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC1FB451E7597FC004922A8 /* EVEEventListenerLambda.m */; };
+		1FC1FB581E7597FC004922A8 /* EVEEventListenerSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC1FB471E7597FC004922A8 /* EVEEventListenerSelector.m */; };
+		1FC1FB591E7597FC004922A8 /* EVEOrderedList.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC1FB4B1E7597FC004922A8 /* EVEOrderedList.m */; };
+		1FC1FB5A1E7597FC004922A8 /* UIApplication+EventListener.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC1FB4F1E7597FC004922A8 /* UIApplication+EventListener.m */; };
+		1FC1FB5B1E7597FC004922A8 /* UIView+EventListener.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC1FB511E7597FC004922A8 /* UIView+EventListener.m */; };
+		1FC1FB5C1E7597FC004922A8 /* UIViewController+EventListener.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC1FB531E7597FC004922A8 /* UIViewController+EventListener.m */; };
 		1FC8F5901AF7DA0D00CA2AC0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC8F58F1AF7DA0D00CA2AC0 /* main.m */; };
 		1FC8F5931AF7DA0D00CA2AC0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC8F5921AF7DA0D00CA2AC0 /* AppDelegate.m */; };
 		1FC8F5991AF7DA0D00CA2AC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FC8F5971AF7DA0D00CA2AC0 /* Main.storyboard */; };
@@ -1276,6 +1285,27 @@
 		1FBF4A1C1D07BC0E0051DA21 /* UIView+LayoutConstraintUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LayoutConstraintUtils.m"; sourceTree = "<group>"; };
 		1FBF4A221D07F2910051DA21 /* UIStoryboard+LoadViewControllerFromStoryBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIStoryboard+LoadViewControllerFromStoryBoard.h"; sourceTree = "<group>"; };
 		1FBF4A231D07F2910051DA21 /* UIStoryboard+LoadViewControllerFromStoryBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIStoryboard+LoadViewControllerFromStoryBoard.m"; sourceTree = "<group>"; };
+		1FC1FB3D1E7597FC004922A8 /* EVEEvent+Friendly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EVEEvent+Friendly.h"; sourceTree = "<group>"; };
+		1FC1FB3E1E7597FC004922A8 /* EVEEvent+Friendly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "EVEEvent+Friendly.m"; sourceTree = "<group>"; };
+		1FC1FB3F1E7597FC004922A8 /* EVEEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVEEvent.h; sourceTree = "<group>"; };
+		1FC1FB401E7597FC004922A8 /* EVEEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVEEvent.m; sourceTree = "<group>"; };
+		1FC1FB411E7597FC004922A8 /* EVEEventDispatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVEEventDispatcher.h; sourceTree = "<group>"; };
+		1FC1FB421E7597FC004922A8 /* EVEEventDispatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVEEventDispatcher.m; sourceTree = "<group>"; };
+		1FC1FB431E7597FC004922A8 /* EVEEventListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVEEventListener.h; sourceTree = "<group>"; };
+		1FC1FB441E7597FC004922A8 /* EVEEventListenerLambda.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVEEventListenerLambda.h; sourceTree = "<group>"; };
+		1FC1FB451E7597FC004922A8 /* EVEEventListenerLambda.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVEEventListenerLambda.m; sourceTree = "<group>"; };
+		1FC1FB461E7597FC004922A8 /* EVEEventListenerSelector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVEEventListenerSelector.h; sourceTree = "<group>"; };
+		1FC1FB471E7597FC004922A8 /* EVEEventListenerSelector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVEEventListenerSelector.m; sourceTree = "<group>"; };
+		1FC1FB491E7597FC004922A8 /* EventListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventListener.h; sourceTree = "<group>"; };
+		1FC1FB4A1E7597FC004922A8 /* EVEOrderedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVEOrderedList.h; sourceTree = "<group>"; };
+		1FC1FB4B1E7597FC004922A8 /* EVEOrderedList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVEOrderedList.m; sourceTree = "<group>"; };
+		1FC1FB4D1E7597FC004922A8 /* EVEUIKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVEUIKit.h; sourceTree = "<group>"; };
+		1FC1FB4E1E7597FC004922A8 /* UIApplication+EventListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+EventListener.h"; sourceTree = "<group>"; };
+		1FC1FB4F1E7597FC004922A8 /* UIApplication+EventListener.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+EventListener.m"; sourceTree = "<group>"; };
+		1FC1FB501E7597FC004922A8 /* UIView+EventListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+EventListener.h"; sourceTree = "<group>"; };
+		1FC1FB511E7597FC004922A8 /* UIView+EventListener.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+EventListener.m"; sourceTree = "<group>"; };
+		1FC1FB521E7597FC004922A8 /* UIViewController+EventListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+EventListener.h"; sourceTree = "<group>"; };
+		1FC1FB531E7597FC004922A8 /* UIViewController+EventListener.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+EventListener.m"; sourceTree = "<group>"; };
 		1FC8F58A1AF7DA0D00CA2AC0 /* XDCommonLib.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XDCommonLib.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FC8F58E1AF7DA0D00CA2AC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1FC8F58F1AF7DA0D00CA2AC0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -3056,6 +3086,7 @@
 			isa = PBXGroup;
 			children = (
 				1F38AA241CFB568500E21ABF /* LooseCouplingComunicateLayer.json */,
+				1FC1FB3C1E7597FC004922A8 /* EventListener */,
 				1F38AA4B1CFB64E500E21ABF /* FluxDispatcher */,
 				1F38AA211CFB568500E21ABF /* CommandBus */,
 				1F38AA251CFB568500E21ABF /* StateBroadcaster */,
@@ -3396,6 +3427,42 @@
 			path = UIStoryboard;
 			sourceTree = "<group>";
 		};
+		1FC1FB3C1E7597FC004922A8 /* EventListener */ = {
+			isa = PBXGroup;
+			children = (
+				1FC1FB3D1E7597FC004922A8 /* EVEEvent+Friendly.h */,
+				1FC1FB3E1E7597FC004922A8 /* EVEEvent+Friendly.m */,
+				1FC1FB3F1E7597FC004922A8 /* EVEEvent.h */,
+				1FC1FB401E7597FC004922A8 /* EVEEvent.m */,
+				1FC1FB411E7597FC004922A8 /* EVEEventDispatcher.h */,
+				1FC1FB421E7597FC004922A8 /* EVEEventDispatcher.m */,
+				1FC1FB431E7597FC004922A8 /* EVEEventListener.h */,
+				1FC1FB441E7597FC004922A8 /* EVEEventListenerLambda.h */,
+				1FC1FB451E7597FC004922A8 /* EVEEventListenerLambda.m */,
+				1FC1FB461E7597FC004922A8 /* EVEEventListenerSelector.h */,
+				1FC1FB471E7597FC004922A8 /* EVEEventListenerSelector.m */,
+				1FC1FB491E7597FC004922A8 /* EventListener.h */,
+				1FC1FB4A1E7597FC004922A8 /* EVEOrderedList.h */,
+				1FC1FB4B1E7597FC004922A8 /* EVEOrderedList.m */,
+				1FC1FB4C1E7597FC004922A8 /* UIKit */,
+			);
+			path = EventListener;
+			sourceTree = "<group>";
+		};
+		1FC1FB4C1E7597FC004922A8 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				1FC1FB4D1E7597FC004922A8 /* EVEUIKit.h */,
+				1FC1FB4E1E7597FC004922A8 /* UIApplication+EventListener.h */,
+				1FC1FB4F1E7597FC004922A8 /* UIApplication+EventListener.m */,
+				1FC1FB501E7597FC004922A8 /* UIView+EventListener.h */,
+				1FC1FB511E7597FC004922A8 /* UIView+EventListener.m */,
+				1FC1FB521E7597FC004922A8 /* UIViewController+EventListener.h */,
+				1FC1FB531E7597FC004922A8 /* UIViewController+EventListener.m */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
 		1FC8F5811AF7DA0D00CA2AC0 = {
 			isa = PBXGroup;
 			children = (
@@ -3648,6 +3715,7 @@
 				1F38A9631CFB568000E21ABF /* UIColor+iOS7.m in Sources */,
 				1F38AA0E1CFB568000E21ABF /* XDLogger.m in Sources */,
 				1F38A9FF1CFB568000E21ABF /* XDImageBeautifyUtil.m in Sources */,
+				1FC1FB591E7597FC004922A8 /* EVEOrderedList.m in Sources */,
 				1F38A9E31CFB568000E21ABF /* A2BlockInvocation.m in Sources */,
 				1F38A9D41CFB568000E21ABF /* NSIndexSet+BlocksKit.m in Sources */,
 				1F38A9441CFB568000E21ABF /* CAShapeLayer+UIBezierPath.m in Sources */,
@@ -3756,6 +3824,7 @@
 				1F38A94F1CFB568000E21ABF /* UIBezierPath+SVG.m in Sources */,
 				1F38AA091CFB568000E21ABF /* ConstraintUtilities+Matching.m in Sources */,
 				1F38A9961CFB568000E21ABF /* UITableViewCell+NIB.m in Sources */,
+				1FC1FB571E7597FC004922A8 /* EVEEventListenerLambda.m in Sources */,
 				1F277E561D16F662008CE332 /* XDRuntimeInvoker.m in Sources */,
 				1FB9E2A01DBE28B500F8E106 /* NSObject+DeallocHandler.m in Sources */,
 				1F38A8E31CFB567F00E21ABF /* NSData+SDDataCache.m in Sources */,
@@ -3795,6 +3864,7 @@
 				1F729DB31D05E4A800507DCC /* XDBaseWirelessPrinter.m in Sources */,
 				1F38A9DB1CFB568000E21ABF /* NSMutableSet+BlocksKit.m in Sources */,
 				1F38A93A1CFB567F00E21ABF /* XDFileMimeType.m in Sources */,
+				1FC1FB551E7597FC004922A8 /* EVEEvent.m in Sources */,
 				1F38A9061CFB567F00E21ABF /* NSNumber+Round.m in Sources */,
 				1FC8F5931AF7DA0D00CA2AC0 /* AppDelegate.m in Sources */,
 				1F38A9051CFB567F00E21ABF /* NSNumber+RomanNumerals.m in Sources */,
@@ -3807,6 +3877,7 @@
 				1F49D13A1CECE44D003FBBF0 /* ImageFilterItem.m in Sources */,
 				1F38A9BC1CFB568000E21ABF /* UIViewController+Visible.m in Sources */,
 				1F38A9771CFB568000E21ABF /* UIImageView+CompressWithoutDeformation.m in Sources */,
+				1FC1FB5B1E7597FC004922A8 /* UIView+EventListener.m in Sources */,
 				1F38A9151CFB567F00E21ABF /* NSObject+XD_KVO.m in Sources */,
 				1F2412C11D11AE4000637EF7 /* XDABStandin.m in Sources */,
 				1FBF4A171D07BB730051DA21 /* XDLayoutUtils.m in Sources */,
@@ -3974,6 +4045,7 @@
 				1F38A98B1CFB568000E21ABF /* UIResponder+Chain.m in Sources */,
 				1F38A9491CFB568000E21ABF /* UIApplication+KeyboardFrame.m in Sources */,
 				1F38A8CF1CFB567F00E21ABF /* NSManagedObject+DictionaryExport.m in Sources */,
+				1FC1FB5C1E7597FC004922A8 /* UIViewController+EventListener.m in Sources */,
 				1F36035E1CFDFD77005F627A /* SVRadialGradientLayer.m in Sources */,
 				1F38A9A91CFB568000E21ABF /* UIView+RecursiveDescription.m in Sources */,
 				1F38A9EF1CFB568000E21ABF /* UIControl+BlocksKit.m in Sources */,
@@ -3990,6 +4062,7 @@
 				1F38A9FC1CFB568000E21ABF /* NSString+XD_Encrypt_MD5.m in Sources */,
 				1F38A9191CFB567F00E21ABF /* NSSet+Block.m in Sources */,
 				1F36035A1CFDFD77005F627A /* SVIndefiniteAnimatedView.m in Sources */,
+				1FC1FB541E7597FC004922A8 /* EVEEvent+Friendly.m in Sources */,
 				1F38A9F41CFB568000E21ABF /* UITextField+BlocksKit.m in Sources */,
 				1F38A9581CFB568000E21ABF /* UIColor+HEX.m in Sources */,
 				1F38A9211CFB567F00E21ABF /* NSString+Matcher.m in Sources */,
@@ -4029,7 +4102,10 @@
 				1F38A9671CFB568000E21ABF /* UIImage+Blur.m in Sources */,
 				1F38A9B81CFB568000E21ABF /* UIViewController+RecursiveDescription.m in Sources */,
 				1F38A92F1CFB567F00E21ABF /* NSString+VersionUtil.m in Sources */,
+				1FC1FB5A1E7597FC004922A8 /* UIApplication+EventListener.m in Sources */,
 				1F38A92C1CFB567F00E21ABF /* NSString+URLUtilities.m in Sources */,
+				1FC1FB561E7597FC004922A8 /* EVEEventDispatcher.m in Sources */,
+				1FC1FB581E7597FC004922A8 /* EVEEventListenerSelector.m in Sources */,
 				1F38A9921CFB568000E21ABF /* UISearchBar+Blocks.m in Sources */,
 				1F38AA1B1CFB568000E21ABF /* SBCollectionViewTableSupplementaryView.m in Sources */,
 				1F38A8F41CFB567F00E21ABF /* NSDictionary+Merge.m in Sources */,
