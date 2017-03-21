@@ -33,13 +33,20 @@
 
 #import "XDGCDThrottle.h"
 #import "GradientViewController.h"
+#import "XDJellyViewTestController.h"
 
 static NSString *const SBTableLayoutTabVC = @"SBTableLayoutTabVC";
 
-@interface ViewController ()
+@interface ViewController () <
+    UITableViewDataSource,
+    UITableViewDelegate
+>
 {
     NSMutableArray *mTestCases;
 }
+
+@property (nonatomic, weak) IBOutlet UITableView *tableView;
+
 @end
 
 @implementation ViewController
@@ -47,6 +54,8 @@ static NSString *const SBTableLayoutTabVC = @"SBTableLayoutTabVC";
 - (void)viewDidLoad {
     
     [super viewDidLoad];
+    
+    self.view.backgroundColor = [UIColor whiteColor];
     
     NSLog(@"IP Address: %@", [UIDevice getIPAddress:YES]);
     
@@ -68,6 +77,9 @@ static NSString *const SBTableLayoutTabVC = @"SBTableLayoutTabVC";
     [mTestCases addObject:@"Paper Color"];
     [mTestCases addObject:@"XDRuntimeInvoker"];
     [mTestCases addObject:@"Gradient Color"];
+    [mTestCases addObject:@"果冻动画"];
+    
+    [self.tableView reloadData];
 }
 
 - (void)testGCDThrottle
@@ -277,6 +289,13 @@ static NSString *const SBTableLayoutTabVC = @"SBTableLayoutTabVC";
             
         } break;
 
+          
+        case 17: {
+            
+            XDJellyViewTestController *controller = [[XDJellyViewTestController alloc] init];
+            [self.navigationController pushViewController:controller animated:YES];
+            
+        } break;
             
         default:
             break;

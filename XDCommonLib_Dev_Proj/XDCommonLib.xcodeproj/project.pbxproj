@@ -443,6 +443,8 @@
 		1FCFDD101CDC161900DC27F5 /* test.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1FCFDD0F1CDC161900DC27F5 /* test.mp4 */; };
 		1FE1126E1D1006AF00F733DE /* UIButton+PreventQuickRepeatClickOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FE1126D1D1006AF00F733DE /* UIButton+PreventQuickRepeatClickOperation.m */; };
 		1FE329C31BE9271100626042 /* libz.1.1.3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FE329C21BE9271100626042 /* libz.1.1.3.tbd */; };
+		1FF04DFF1E81953C007B8352 /* XDJellyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF04DFE1E81953C007B8352 /* XDJellyView.m */; };
+		1FF04E021E819DAC007B8352 /* XDJellyViewTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF04E011E819DAC007B8352 /* XDJellyViewTestController.m */; };
 		1FFFA9021E34718600A531B9 /* XDClassMethodsTrackLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FFFA9011E34718600A531B9 /* XDClassMethodsTrackLog.m */; };
 /* End PBXBuildFile section */
 
@@ -1326,6 +1328,10 @@
 		1FE1126C1D1006AF00F733DE /* UIButton+PreventQuickRepeatClickOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+PreventQuickRepeatClickOperation.h"; sourceTree = "<group>"; };
 		1FE1126D1D1006AF00F733DE /* UIButton+PreventQuickRepeatClickOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+PreventQuickRepeatClickOperation.m"; sourceTree = "<group>"; };
 		1FE329C21BE9271100626042 /* libz.1.1.3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.1.3.tbd; path = usr/lib/libz.1.1.3.tbd; sourceTree = SDKROOT; };
+		1FF04DFD1E81953C007B8352 /* XDJellyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDJellyView.h; sourceTree = "<group>"; };
+		1FF04DFE1E81953C007B8352 /* XDJellyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDJellyView.m; sourceTree = "<group>"; };
+		1FF04E001E819DAC007B8352 /* XDJellyViewTestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDJellyViewTestController.h; sourceTree = "<group>"; };
+		1FF04E011E819DAC007B8352 /* XDJellyViewTestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDJellyViewTestController.m; sourceTree = "<group>"; };
 		1FFFA9001E34718600A531B9 /* XDClassMethodsTrackLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDClassMethodsTrackLog.h; sourceTree = "<group>"; };
 		1FFFA9011E34718600A531B9 /* XDClassMethodsTrackLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDClassMethodsTrackLog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -3202,6 +3208,8 @@
 				1F3D860D1E47FC4D00F8C6A4 /* XDCursorView */,
 				1F6200E81E4846DB00C01CE2 /* XDCollectionView.h */,
 				1F6200E91E4846DB00C01CE2 /* XDCollectionView.m */,
+				1FF04DFD1E81953C007B8352 /* XDJellyView.h */,
+				1FF04DFE1E81953C007B8352 /* XDJellyView.m */,
 			);
 			path = CustomUIKit;
 			sourceTree = "<group>";
@@ -3549,6 +3557,8 @@
 				1FBB72281AF9356D005B3F99 /* MulticastDelegateDemoVC.m */,
 				1F37015E1E5C602F00494592 /* GradientViewController.h */,
 				1F37015F1E5C602F00494592 /* GradientViewController.m */,
+				1FF04E001E819DAC007B8352 /* XDJellyViewTestController.h */,
+				1FF04E011E819DAC007B8352 /* XDJellyViewTestController.m */,
 			);
 			path = VC;
 			sourceTree = "<group>";
@@ -3959,6 +3969,7 @@
 				1F38A93E1CFB568000E21ABF /* MKMapView+ZoomLevel.m in Sources */,
 				1F38A91D1CFB567F00E21ABF /* NSString+DictionaryValue.m in Sources */,
 				1F38A9EA1CFB568000E21ABF /* MFMessageComposeViewController+BlocksKit.m in Sources */,
+				1FF04DFF1E81953C007B8352 /* XDJellyView.m in Sources */,
 				1FBB72291AF9356D005B3F99 /* MulticastDelegateDemoVC.m in Sources */,
 				1F38A8CC1CFB567F00E21ABF /* XDContactEntity.m in Sources */,
 				1F38A9AD1CFB568000E21ABF /* UIView+Toast.m in Sources */,
@@ -3975,6 +3986,7 @@
 				1F38A9141CFB567F00E21ABF /* NSObject+XD_ClassesConformingToProtocol.m in Sources */,
 				1F38A9B91CFB568000E21ABF /* UIViewController+ScrollingStatusBar.m in Sources */,
 				1F2412B81D11ACC100637EF7 /* XDABContactEntity.m in Sources */,
+				1FF04E021E819DAC007B8352 /* XDJellyViewTestController.m in Sources */,
 				1F38A9E51CFB568000E21ABF /* NSCache+BlocksKit.m in Sources */,
 				1F38A9891CFB568000E21ABF /* UINavigationItem+Margin.m in Sources */,
 				1F38A8D01CFB567F00E21ABF /* NSManagedObject+Extensions.m in Sources */,

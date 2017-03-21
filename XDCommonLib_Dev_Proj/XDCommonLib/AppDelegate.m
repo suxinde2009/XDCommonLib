@@ -15,6 +15,7 @@
 #import "XDClassMethodsTrackLog.h"
 
 
+
 @interface AppDelegate ()
 
 @end
@@ -82,15 +83,26 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
+    UIWindow *window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    
+    UIViewController *rootViewcontroller = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"ViewController"];
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:rootViewcontroller];
+    
+    window.rootViewController = nav;
+    
+    [window makeKeyAndVisible];
+    
+    
+    
     // 测试 runtime跟踪打印 各类的方法调用
-    [self testRuntimeMethodsTrackLog];
+//    [self testRuntimeMethodsTrackLog];
     
     
     // 测试 TODO 宏定义
-    [self testTodoMarco];
+//    [self testTodoMarco];
     
 #if defined(DEBUG)||defined(_DEBUG)
-    [[XDFPSStatusUtils sharedInstance] open];
+//    [[XDFPSStatusUtils sharedInstance] open];
 #endif
 
     
