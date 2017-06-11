@@ -204,8 +204,7 @@
 + (void)test
 {
     BOOL isCancel = NO;
-    
-    
+
     NSString *sourceMoviePath = [[NSBundle mainBundle] pathForResource:@"test" ofType:@"mp4"];
     NSURL *sourceMovieURL = [NSURL fileURLWithPath:sourceMoviePath];
     AVAsset *asset = [AVAsset assetWithURL:sourceMovieURL];
