@@ -16,6 +16,7 @@
 		1F36038C1CFFBFD7005F627A /* ColorDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3603891CFFBFD7005F627A /* ColorDetailViewController.m */; };
 		1F36038E1CFFC00F005F627A /* PaperColorsDemo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F36038D1CFFC00F005F627A /* PaperColorsDemo.storyboard */; };
 		1F3701601E5C602F00494592 /* GradientViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F37015F1E5C602F00494592 /* GradientViewController.m */; };
+		1F43C3F01EF261B5008A1EF6 /* XDTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F43C3EF1EF261B5008A1EF6 /* XDTimer.m */; };
 		1F47894B1EEDAFBD00C01EFA /* XDCommandBus.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F47856F1EEDAFBC00C01EFA /* XDCommandBus.m */; };
 		1F47894C1EEDAFBD00C01EFA /* NSString+UnformattedPhoneNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4785731EEDAFBC00C01EFA /* NSString+UnformattedPhoneNumber.m */; };
 		1F47894D1EEDAFBD00C01EFA /* XDABContactEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4785751EEDAFBC00C01EFA /* XDABContactEntity.m */; };
@@ -478,6 +479,8 @@
 		1F36038D1CFFC00F005F627A /* PaperColorsDemo.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PaperColorsDemo.storyboard; sourceTree = "<group>"; };
 		1F37015E1E5C602F00494592 /* GradientViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientViewController.h; sourceTree = "<group>"; };
 		1F37015F1E5C602F00494592 /* GradientViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientViewController.m; sourceTree = "<group>"; };
+		1F43C3EE1EF261B5008A1EF6 /* XDTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDTimer.h; sourceTree = "<group>"; };
+		1F43C3EF1EF261B5008A1EF6 /* XDTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDTimer.m; sourceTree = "<group>"; };
 		1F47856E1EEDAFBC00C01EFA /* XDCommandBus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDCommandBus.h; sourceTree = "<group>"; };
 		1F47856F1EEDAFBC00C01EFA /* XDCommandBus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDCommandBus.m; sourceTree = "<group>"; };
 		1F4785721EEDAFBC00C01EFA /* NSString+UnformattedPhoneNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+UnformattedPhoneNumber.h"; sourceTree = "<group>"; };
@@ -2514,6 +2517,8 @@
 				1F47872A1EEDAFBD00C01EFA /* NSThread+Utils.m */,
 				1F47872B1EEDAFBD00C01EFA /* XDGCDThrottle.h */,
 				1F47872C1EEDAFBD00C01EFA /* XDGCDThrottle.m */,
+				1F43C3EE1EF261B5008A1EF6 /* XDTimer.h */,
+				1F43C3EF1EF261B5008A1EF6 /* XDTimer.m */,
 			);
 			path = Thread;
 			sourceTree = "<group>";
@@ -4002,6 +4007,7 @@
 				1F478A351EEDAFBD00C01EFA /* NSObject+XD_ClassesConformingToProtocol.m in Sources */,
 				1F478A1C1EEDAFBD00C01EFA /* NSFileManager+XD_Handy.m in Sources */,
 				1F4789D91EEDAFBD00C01EFA /* SEPrinterManager.m in Sources */,
+				1F43C3F01EF261B5008A1EF6 /* XDTimer.m in Sources */,
 				1F478A0E1EEDAFBD00C01EFA /* NSDate+XDCommonLib.m in Sources */,
 				1F478AD11EEDAFBD00C01EFA /* UIViewController+DDPopUpViewController.m in Sources */,
 				1F4789F71EEDAFBD00C01EFA /* NSArray+Block.m in Sources */,
