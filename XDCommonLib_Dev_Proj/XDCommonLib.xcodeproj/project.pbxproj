@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F1761C81F1701560028DF9D /* UIImage+sxd_ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1761C71F1701560028DF9D /* UIImage+sxd_ImageEffects.m */; };
 		1F277E5A1D16F855008CE332 /* XDRuntimeInvokerTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F277E591D16F855008CE332 /* XDRuntimeInvokerTestVC.m */; };
 		1F3603721CFDFE7F005F627A /* ico180.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F36036F1CFDFE7F005F627A /* ico180.png */; };
 		1F3603731CFDFE7F005F627A /* SEPreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3603711CFDFE7F005F627A /* SEPreviewViewController.m */; };
@@ -334,7 +335,6 @@
 		1F478A871EEDAFBD00C01EFA /* UIImage+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4788711EEDAFBD00C01EFA /* UIImage+GIF.m */; };
 		1F478A881EEDAFBD00C01EFA /* UIImage+Merge.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4788731EEDAFBD00C01EFA /* UIImage+Merge.m */; };
 		1F478A891EEDAFBD00C01EFA /* UIImage+Orientation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4788751EEDAFBD00C01EFA /* UIImage+Orientation.m */; };
-		1F478A8A1EEDAFBD00C01EFA /* UIImage+PDF.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4788771EEDAFBD00C01EFA /* UIImage+PDF.m */; };
 		1F478A8B1EEDAFBD00C01EFA /* UIImage+RemoteSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4788791EEDAFBD00C01EFA /* UIImage+RemoteSize.m */; };
 		1F478A8C1EEDAFBD00C01EFA /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F47887B1EEDAFBD00C01EFA /* UIImage+Resize.m */; };
 		1F478A8D1EEDAFBD00C01EFA /* UIImage+RoundedCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F47887D1EEDAFBD00C01EFA /* UIImage+RoundedCorner.m */; };
@@ -463,6 +463,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F1761C61F1701560028DF9D /* UIImage+sxd_ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+sxd_ImageEffects.h"; sourceTree = "<group>"; };
+		1F1761C71F1701560028DF9D /* UIImage+sxd_ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+sxd_ImageEffects.m"; sourceTree = "<group>"; };
 		1F277E581D16F855008CE332 /* XDRuntimeInvokerTestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDRuntimeInvokerTestVC.h; sourceTree = "<group>"; };
 		1F277E591D16F855008CE332 /* XDRuntimeInvokerTestVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDRuntimeInvokerTestVC.m; sourceTree = "<group>"; };
 		1F36036F1CFDFE7F005F627A /* ico180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ico180.png; sourceTree = "<group>"; };
@@ -1128,8 +1130,6 @@
 		1F4788731EEDAFBD00C01EFA /* UIImage+Merge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Merge.m"; sourceTree = "<group>"; };
 		1F4788741EEDAFBD00C01EFA /* UIImage+Orientation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Orientation.h"; sourceTree = "<group>"; };
 		1F4788751EEDAFBD00C01EFA /* UIImage+Orientation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Orientation.m"; sourceTree = "<group>"; };
-		1F4788761EEDAFBD00C01EFA /* UIImage+PDF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+PDF.h"; sourceTree = "<group>"; };
-		1F4788771EEDAFBD00C01EFA /* UIImage+PDF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+PDF.m"; sourceTree = "<group>"; };
 		1F4788781EEDAFBD00C01EFA /* UIImage+RemoteSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+RemoteSize.h"; sourceTree = "<group>"; };
 		1F4788791EEDAFBD00C01EFA /* UIImage+RemoteSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RemoteSize.m"; sourceTree = "<group>"; };
 		1F47887A1EEDAFBD00C01EFA /* UIImage+Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resize.h"; sourceTree = "<group>"; };
@@ -3104,6 +3104,8 @@
 				1F4788651EEDAFBD00C01EFA /* UIImage+BetterFace.m */,
 				1F4788661EEDAFBD00C01EFA /* UIImage+Blur.h */,
 				1F4788671EEDAFBD00C01EFA /* UIImage+Blur.m */,
+				1F1761C61F1701560028DF9D /* UIImage+sxd_ImageEffects.h */,
+				1F1761C71F1701560028DF9D /* UIImage+sxd_ImageEffects.m */,
 				1F4788681EEDAFBD00C01EFA /* UIImage+Capture.h */,
 				1F4788691EEDAFBD00C01EFA /* UIImage+Capture.m */,
 				1F47886A1EEDAFBD00C01EFA /* UIImage+Color.h */,
@@ -3118,8 +3120,6 @@
 				1F4788731EEDAFBD00C01EFA /* UIImage+Merge.m */,
 				1F4788741EEDAFBD00C01EFA /* UIImage+Orientation.h */,
 				1F4788751EEDAFBD00C01EFA /* UIImage+Orientation.m */,
-				1F4788761EEDAFBD00C01EFA /* UIImage+PDF.h */,
-				1F4788771EEDAFBD00C01EFA /* UIImage+PDF.m */,
 				1F4788781EEDAFBD00C01EFA /* UIImage+RemoteSize.h */,
 				1F4788791EEDAFBD00C01EFA /* UIImage+RemoteSize.m */,
 				1F47887A1EEDAFBD00C01EFA /* UIImage+Resize.h */,
@@ -4066,6 +4066,7 @@
 				1F478A061EEDAFBD00C01EFA /* NSDate+Extension.m in Sources */,
 				1F4789671EEDAFBD00C01EFA /* UIView+EventListener.m in Sources */,
 				1F478A881EEDAFBD00C01EFA /* UIImage+Merge.m in Sources */,
+				1F1761C81F1701560028DF9D /* UIImage+sxd_ImageEffects.m in Sources */,
 				1F47895A1EEDAFBD00C01EFA /* XDPerformance.m in Sources */,
 				1F4789B71EEDAFBD00C01EFA /* SBCollectionViewTableCell.m in Sources */,
 				1F478AA91EEDAFBD00C01EFA /* UIScreen+Frame.m in Sources */,
@@ -4124,7 +4125,6 @@
 				1F478ADD1EEDAFBD00C01EFA /* UIWebView+Load.m in Sources */,
 				1F478A081EEDAFBD00C01EFA /* NSDate+InternetDateTime.m in Sources */,
 				1F478A031EEDAFBD00C01EFA /* NSData+XDCommonLib.m in Sources */,
-				1F478A8A1EEDAFBD00C01EFA /* UIImage+PDF.m in Sources */,
 				1F478A111EEDAFBD00C01EFA /* NSDictionary+Block.m in Sources */,
 				1F4789F31EEDAFBD00C01EFA /* GCDQueue.m in Sources */,
 				1F277E5A1D16F855008CE332 /* XDRuntimeInvokerTestVC.m in Sources */,
