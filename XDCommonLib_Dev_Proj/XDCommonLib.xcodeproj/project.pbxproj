@@ -433,6 +433,7 @@
 		1F62A29D1CE2F28D0077B7D5 /* XDCommandTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F62A29C1CE2F28D0077B7D5 /* XDCommandTestVC.m */; };
 		1F62A2A11CE2F2A70077B7D5 /* LoginCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F62A2A01CE2F2A70077B7D5 /* LoginCommand.m */; };
 		1F62A2A41CE2F2B80077B7D5 /* LoginCommandHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F62A2A31CE2F2B80077B7D5 /* LoginCommandHandler.m */; };
+		1F9566361F49B15000134290 /* NSMutableDictionary+ImageMetadata.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9566351F49B15000134290 /* NSMutableDictionary+ImageMetadata.m */; };
 		1F9CA6051CE0FD5D00F53C03 /* SBTableLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9CA6021CE0FD5D00F53C03 /* SBTableLayoutViewController.m */; };
 		1F9CA6061CE0FD5D00F53C03 /* SBTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9CA6041CE0FD5D00F53C03 /* SBTableViewController.m */; };
 		1FA4D1871CF0DC19005AD187 /* XDFluxDispatcherDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA4D1861CF0DC19005AD187 /* XDFluxDispatcherDemo.m */; };
@@ -1322,6 +1323,8 @@
 		1F62A2A01CE2F2A70077B7D5 /* LoginCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginCommand.m; sourceTree = "<group>"; };
 		1F62A2A21CE2F2B80077B7D5 /* LoginCommandHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginCommandHandler.h; sourceTree = "<group>"; };
 		1F62A2A31CE2F2B80077B7D5 /* LoginCommandHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginCommandHandler.m; sourceTree = "<group>"; };
+		1F9566341F49B15000134290 /* NSMutableDictionary+ImageMetadata.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+ImageMetadata.h"; sourceTree = "<group>"; };
+		1F9566351F49B15000134290 /* NSMutableDictionary+ImageMetadata.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+ImageMetadata.m"; sourceTree = "<group>"; };
 		1F9CA6011CE0FD5D00F53C03 /* SBTableLayoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBTableLayoutViewController.h; sourceTree = "<group>"; };
 		1F9CA6021CE0FD5D00F53C03 /* SBTableLayoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBTableLayoutViewController.m; sourceTree = "<group>"; };
 		1F9CA6031CE0FD5D00F53C03 /* SBTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBTableViewController.h; sourceTree = "<group>"; };
@@ -2648,6 +2651,8 @@
 				1F4787741EEDAFBD00C01EFA /* NSDictionary+XML.m */,
 				1F4787751EEDAFBD00C01EFA /* NSMutableDictionary+XDCommonLib.h */,
 				1F4787761EEDAFBD00C01EFA /* NSMutableDictionary+XDCommonLib.m */,
+				1F9566341F49B15000134290 /* NSMutableDictionary+ImageMetadata.h */,
+				1F9566351F49B15000134290 /* NSMutableDictionary+ImageMetadata.m */,
 			);
 			path = NSDictionary;
 			sourceTree = "<group>";
@@ -3803,6 +3808,7 @@
 				1F478A2A1EEDAFBD00C01EFA /* NSObject+AssociatedObject.m in Sources */,
 				1F4789781EEDAFBD00C01EFA /* NSNumber+BlocksKit.m in Sources */,
 				1F478ABA1EEDAFBD00C01EFA /* UIView+Animation.m in Sources */,
+				1F9566361F49B15000134290 /* NSMutableDictionary+ImageMetadata.m in Sources */,
 				1F478A981EEDAFBD00C01EFA /* UILabel+AutoSize.m in Sources */,
 				1F4789FD1EEDAFBD00C01EFA /* NSData+Base64.m in Sources */,
 				1F478ACB1EEDAFBD00C01EFA /* UIView+ViewController.m in Sources */,
