@@ -11,8 +11,7 @@
 
 @implementation NSException (Trace)
 
-- (NSArray *)backtrace
-{
+- (NSArray *)backtrace {
     NSArray *addresses = self.callStackReturnAddresses;
     unsigned count = (int)addresses.count;
     void **stack = malloc(count * sizeof(void *));

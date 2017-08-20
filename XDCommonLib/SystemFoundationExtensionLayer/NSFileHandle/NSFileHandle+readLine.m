@@ -34,8 +34,7 @@
     BOOL hasData = YES;
     BOOL lineBreakFound = NO;
     
-    while (lineBreakFound == NO && hasData == YES)
-    {
+    while (lineBreakFound == NO && hasData == YES) {
         // Fill our buffer with data
         lineData = [self readDataOfLength:bufferSize];
         
@@ -87,12 +86,9 @@
     
     NSData *returnData = [self readDataOfLength:positionOffset];
     
-    if ([returnData length] > 0)
-    {
+    if ([returnData length] > 0) {
         return returnData;
-    }
-    else
-    {
+    } else {
         return nil;
     }
 }

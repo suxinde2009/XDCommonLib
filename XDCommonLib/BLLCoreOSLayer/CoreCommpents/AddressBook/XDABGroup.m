@@ -13,25 +13,21 @@
 @implementation XDABGroup
 
 // Thanks to Quentarez, Ciaran
-- (id) initWithRecord: (ABRecordRef) aRecord
-{
+- (id) initWithRecord: (ABRecordRef) aRecord {
     if (self = [super init]) _record = CFRetain(aRecord);
     return self;
 }
 
-- (void) dealloc
-{
+- (void) dealloc {
     if (_record)
         CFRelease(_record);
 }
 
-+ (id) groupWithRecord: (ABRecordRef) grouprec
-{
++ (id) groupWithRecord: (ABRecordRef) grouprec {
     return [[XDABGroup alloc] initWithRecord:grouprec];
 }
 
-+ (id) groupWithRecordID: (ABRecordID) recordID
-{
++ (id) groupWithRecordID: (ABRecordID) recordID {
     ABAddressBookRef addressBook = [XDABStandin addressBook];
     ABRecordRef grouprec = ABAddressBookGetGroupWithRecordID(addressBook, recordID);
     XDABGroup *group = [self groupWithRecord:grouprec];
@@ -39,8 +35,7 @@
 }
 
 // Thanks to Ciaran
-+ (id) group
-{
++ (id) group {
     ABRecordRef grouprec = ABGroupCreate();
     id group = [XDABGroup groupWithRecord:grouprec];
     CFRelease(grouprec);
@@ -50,16 +45,14 @@
 
 // Thanks to Eridius for suggestions re: error
 // Thanks Rincewind42 for the *error transfer bridging
-- (BOOL) removeSelfFromAddressBook: (NSError **) error
-{
+- (BOOL) removeSelfFromAddressBook: (NSError **) error {
     CFErrorRef errorRef = NULL;
     BOOL success;
     
     ABAddressBookRef addressBook = [XDABStandin addressBook];
     
     success = ABAddressBookRemoveRecord(addressBook, self.record, &errorRef);
-    if (!success)
-    {
+    if (!success) {
         if (error)
             *error = (__bridge_transfer NSError *)errorRef;
         return NO;
@@ -74,8 +67,7 @@
 - (BOOL) isPerson {return self.recordType == kABPersonType;}
 
 #pragma mark management
-- (NSArray *) members
-{
+- (NSArray *) members {
     NSArray *contacts = (__bridge_transfer NSArray *)ABGroupCopyArrayOfAllMembers(self.record);
     NSMutableArray *array = [NSMutableArray arrayWithCapacity:contacts.count];
     for (id contact in contacts)
@@ -84,8 +76,7 @@
 }
 
 // kABPersonSortByFirstName = 0, kABPersonSortByLastName  = 1
-- (NSArray *) membersWithSorting: (ABPersonSortOrdering) ordering
-{
+- (NSArray *) membersWithSorting: (ABPersonSortOrdering) ordering {
     NSArray *contacts = (__bridge_transfer NSArray *)ABGroupCopyArrayOfAllMembersWithSortOrdering(self.record, ordering);
     NSMutableArray *array = [NSMutableArray arrayWithCapacity:contacts.count];
     for (id contact in contacts)
@@ -93,14 +84,12 @@
     return array;
 }
 
-- (BOOL) addMember: (XDABContactEntity *) contact withError: (NSError **) error
-{
+- (BOOL) addMember: (XDABContactEntity *) contact withError: (NSError **) error {
     CFErrorRef errorRef = NULL;
     BOOL success;
     
     success = ABGroupAddMember(self.record, contact.record, &errorRef);
-    if (!success)
-    {
+    if (!success) {
         if (error)
             *error = (__bridge_transfer NSError *)errorRef;
         return NO;
@@ -109,14 +98,12 @@
     return YES;
 }
 
-- (BOOL) removeMember: (XDABContactEntity *) contact withError: (NSError **) error
-{
+- (BOOL) removeMember: (XDABContactEntity *) contact withError: (NSError **) error {
     CFErrorRef errorRef = NULL;
     BOOL success;
     
     success = ABGroupRemoveMember(self.record, contact.record, &errorRef);
-    if (!success)
-    {
+    if (!success) {
         if (error)
             *error = (__bridge_transfer NSError *)errorRef;
         return NO;
@@ -127,24 +114,20 @@
 
 #pragma mark name
 
-- (NSString *) getRecordString:(ABPropertyID) anID
-{
+- (NSString *) getRecordString:(ABPropertyID) anID {
     return (__bridge_transfer NSString *) ABRecordCopyValue(_record, anID);
 }
 
-- (NSString *) name
-{
+- (NSString *) name {
     return [self getRecordString:kABGroupNameProperty];
 }
 
-- (void) setName: (NSString *) aString
-{
+- (void) setName: (NSString *) aString {
     CFErrorRef errorRef = NULL;
     BOOL success;
     
     success = ABRecordSetValue(_record, kABGroupNameProperty, (__bridge CFStringRef) aString, &errorRef);
-    if (!success)
-    {
+    if (!success) {
         NSError *error = (__bridge_transfer NSError *) errorRef;
         NSLog(@"Error: %@", error.localizedFailureReason);
     }

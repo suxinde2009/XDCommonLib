@@ -13,49 +13,41 @@ static ABAddressBookRef shared = NULL;
 @implementation XDABStandin
 
 // Update address book when changed
-void addressBookUpdated(ABAddressBookRef reference, CFDictionaryRef dictionary, void *context)
-{
+void addressBookUpdated(ABAddressBookRef reference, CFDictionaryRef dictionary, void *context) {
     ABAddressBookRevert(reference);
 }
 
 // Return the current address book
-+ (ABAddressBookRef) addressBook
-{
++ (ABAddressBookRef) addressBook {
     if (shared) return shared;
     
     CFErrorRef errorRef;
     shared = ABAddressBookCreateWithOptions(NULL, &errorRef);
-    if (!shared)
-    {
+    if (!shared) {
         NSError *error = (__bridge_transfer NSError *)errorRef;
         NSLog(@"Error creating new address book object: %@", error.localizedFailureReason);
         return nil;
     }
-    
     ABAddressBookRegisterExternalChangeCallback(shared, addressBookUpdated, NULL);
     return shared;
 }
 
 // Load the current address book with updates
-+ (ABAddressBookRef) currentAddressBook
-{
-    if (!shared)
++ (ABAddressBookRef) currentAddressBook {
+    if (!shared) {
         return [self addressBook];
-    
+    }
     ABAddressBookRevert(shared);
     return shared;
 }
 
 // Thanks Frederic Bronner
 // Save the address book out
-+ (BOOL) save: (NSError **) error
-{
++ (BOOL) save: (NSError **) error {
     CFErrorRef errorRef;
-    if (shared)
-    {
+    if (shared) {
         BOOL success = ABAddressBookSave(shared, &errorRef);
-        if (!success)
-        {
+        if (!success) {
             if (error)
                 *error = (__bridge_transfer NSError *)errorRef;
             return NO;
@@ -66,15 +58,13 @@ void addressBookUpdated(ABAddressBookRef reference, CFDictionaryRef dictionary, 
 }
 
 // Test authorization status
-+ (BOOL) authorized
-{
++ (BOOL) authorized {
     ABAuthorizationStatus status = ABAddressBookGetAuthorizationStatus();
     return (status == kABAuthorizationStatusAuthorized);
 }
 
 // Fetch exact authorization status
-+ (ABAuthorizationStatus) authorizationStatus
-{
++ (ABAuthorizationStatus) authorizationStatus {
     ABAuthorizationStatus status = ABAddressBookGetAuthorizationStatus();
     return status;
 }

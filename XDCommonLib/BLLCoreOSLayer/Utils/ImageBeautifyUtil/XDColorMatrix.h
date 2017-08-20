@@ -9,8 +9,7 @@
 #ifndef XDColorMatrix_h
 #define XDColorMatrix_h
 
-//增加一个没有效果
-
+//LOMO
 const float colormatrix_lomo[] = {
     1.7f,  0.1f, 0.1f, 0, -73.1f,
     0,  1.7f, 0.1f, 0, -73.1f,

@@ -31,4 +31,5 @@
  *  @return base64后的字符串
  */
 - (NSString *)base64EncodedString;
+
 @end
