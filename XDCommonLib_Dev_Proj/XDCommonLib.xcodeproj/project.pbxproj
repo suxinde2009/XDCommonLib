@@ -449,6 +449,7 @@
 		1FC8F5B71AF7DB2E00CA2AC0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC8F5B61AF7DB2E00CA2AC0 /* ViewController.m */; };
 		1FCFDD101CDC161900DC27F5 /* test.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1FCFDD0F1CDC161900DC27F5 /* test.mp4 */; };
 		1FDBFD712014F88300F3C842 /* MPMediaItem+Properties.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FDBFD702014F88300F3C842 /* MPMediaItem+Properties.m */; };
+		1FDBFD742014FEEB00F3C842 /* NSObject+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FDBFD732014FEEB00F3C842 /* NSObject+Utilities.m */; };
 		1FE329C31BE9271100626042 /* libz.1.1.3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FE329C21BE9271100626042 /* libz.1.1.3.tbd */; };
 		1FF04E021E819DAC007B8352 /* XDJellyViewTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF04E011E819DAC007B8352 /* XDJellyViewTestController.m */; };
 /* End PBXBuildFile section */
@@ -1353,6 +1354,8 @@
 		1FCFDD0F1CDC161900DC27F5 /* test.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.mp4; sourceTree = "<group>"; };
 		1FDBFD6F2014F88300F3C842 /* MPMediaItem+Properties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MPMediaItem+Properties.h"; sourceTree = "<group>"; };
 		1FDBFD702014F88300F3C842 /* MPMediaItem+Properties.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "MPMediaItem+Properties.m"; sourceTree = "<group>"; };
+		1FDBFD722014FEEB00F3C842 /* NSObject+Utilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Utilities.h"; sourceTree = "<group>"; };
+		1FDBFD732014FEEB00F3C842 /* NSObject+Utilities.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Utilities.m"; sourceTree = "<group>"; };
 		1FE329C21BE9271100626042 /* libz.1.1.3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.1.3.tbd; path = usr/lib/libz.1.1.3.tbd; sourceTree = SDKROOT; };
 		1FF04E001E819DAC007B8352 /* XDJellyViewTestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDJellyViewTestController.h; sourceTree = "<group>"; };
 		1FF04E011E819DAC007B8352 /* XDJellyViewTestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDJellyViewTestController.m; sourceTree = "<group>"; };
@@ -2775,6 +2778,8 @@
 				1F4787BA1EEDAFBD00C01EFA /* NSObject+XD_KVO.m */,
 				1F4787BB1EEDAFBD00C01EFA /* NSObject+XDCommonLib.h */,
 				1F4787BC1EEDAFBD00C01EFA /* NSObject+XDCommonLib.m */,
+				1FDBFD722014FEEB00F3C842 /* NSObject+Utilities.h */,
+				1FDBFD732014FEEB00F3C842 /* NSObject+Utilities.m */,
 			);
 			path = NSObject;
 			sourceTree = "<group>";
@@ -4193,6 +4198,7 @@
 				1FC8F5901AF7DA0D00CA2AC0 /* main.m in Sources */,
 				1F478ABF1EEDAFBD00C01EFA /* UIView+Find.m in Sources */,
 				1F478A9C1EEDAFBD00C01EFA /* UINavigationBar+CustomHeight.m in Sources */,
+				1FDBFD742014FEEB00F3C842 /* NSObject+Utilities.m in Sources */,
 				1F3603761CFDFE94005F627A /* BLEPrinterDemoVC.m in Sources */,
 				1F4789971EEDAFBD00C01EFA /* NSData+XD_EncryptBase64.m in Sources */,
 				1F4789F41EEDAFBD00C01EFA /* GCDSemaphore.m in Sources */,
