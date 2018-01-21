@@ -450,6 +450,7 @@
 		1FCFDD101CDC161900DC27F5 /* test.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1FCFDD0F1CDC161900DC27F5 /* test.mp4 */; };
 		1FDBFD712014F88300F3C842 /* MPMediaItem+Properties.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FDBFD702014F88300F3C842 /* MPMediaItem+Properties.m */; };
 		1FDBFD742014FEEB00F3C842 /* NSObject+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FDBFD732014FEEB00F3C842 /* NSObject+Utilities.m */; };
+		1FDBFD772015013500F3C842 /* XDAppMigration.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FDBFD762015013500F3C842 /* XDAppMigration.m */; };
 		1FE329C31BE9271100626042 /* libz.1.1.3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FE329C21BE9271100626042 /* libz.1.1.3.tbd */; };
 		1FF04E021E819DAC007B8352 /* XDJellyViewTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF04E011E819DAC007B8352 /* XDJellyViewTestController.m */; };
 /* End PBXBuildFile section */
@@ -1356,6 +1357,8 @@
 		1FDBFD702014F88300F3C842 /* MPMediaItem+Properties.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "MPMediaItem+Properties.m"; sourceTree = "<group>"; };
 		1FDBFD722014FEEB00F3C842 /* NSObject+Utilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Utilities.h"; sourceTree = "<group>"; };
 		1FDBFD732014FEEB00F3C842 /* NSObject+Utilities.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Utilities.m"; sourceTree = "<group>"; };
+		1FDBFD752015013500F3C842 /* XDAppMigration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XDAppMigration.h; sourceTree = "<group>"; };
+		1FDBFD762015013500F3C842 /* XDAppMigration.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XDAppMigration.m; sourceTree = "<group>"; };
 		1FE329C21BE9271100626042 /* libz.1.1.3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.1.3.tbd; path = usr/lib/libz.1.1.3.tbd; sourceTree = SDKROOT; };
 		1FF04E001E819DAC007B8352 /* XDJellyViewTestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDJellyViewTestController.h; sourceTree = "<group>"; };
 		1FF04E011E819DAC007B8352 /* XDJellyViewTestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDJellyViewTestController.m; sourceTree = "<group>"; };
@@ -1665,6 +1668,8 @@
 				1F4786771EEDAFBC00C01EFA /* XDPinYin */,
 				1F47867A1EEDAFBC00C01EFA /* XDRuntimeInvoker */,
 				1F47867D1EEDAFBC00C01EFA /* XDUIKitMainThreadGuard */,
+				1FDBFD752015013500F3C842 /* XDAppMigration.h */,
+				1FDBFD762015013500F3C842 /* XDAppMigration.m */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -3944,6 +3949,7 @@
 				1F478AA01EEDAFBD00C01EFA /* UINavigationController+KeyboardFix.m in Sources */,
 				1F478A871EEDAFBD00C01EFA /* UIImage+GIF.m in Sources */,
 				1F478A6F1EEDAFBD00C01EFA /* UIColor+Gradient.m in Sources */,
+				1FDBFD772015013500F3C842 /* XDAppMigration.m in Sources */,
 				1F478A151EEDAFBD00C01EFA /* NSDictionary+URL.m in Sources */,
 				1F478A851EEDAFBD00C01EFA /* UIImage+FileName.m in Sources */,
 				1F47897D1EEDAFBD00C01EFA /* NSSet+BlocksKit.m in Sources */,
