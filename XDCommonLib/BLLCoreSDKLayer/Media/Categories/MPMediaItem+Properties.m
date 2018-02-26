@@ -121,4 +121,31 @@
     return [self valueForProperty:MPMediaItemPropertyLastPlayedDate];
 }
 
-@end
+/*
+ TestCase:
+- (void) action: (UIBarButtonItem *) bbi
+{
+    self.log = [NSMutableString string];
+    MPMediaQuery *query = [MPMediaQuery songsQuery];
+    MPMediaPropertyPredicate *mpp = [MPMediaPropertyPredicate
+                                     predicateWithValue:@"road"
+                                     forProperty:MPMediaItemPropertyTitle
+                                     comparisonType:MPMediaPredicateComparisonContains];
+    [query addFilterPredicate:mpp];
+    
+    NSArray *collections = query.collections;
+    [self doLog:@"You have %d matching tracks in your library\n", collections.count];
+    
+    for (MPMediaItemCollection *collection in collections)
+    {
+        for (MPMediaItem *item in [collection items])
+            [self doLog:@"%@, %@", item.title, item.artist];
+        
+        NSPredicate *pred = [NSPredicate predicateWithFormat:@"artist contains[cd] %@", @"Joel"];
+        NSArray *array = [[collection items] filteredArrayUsingPredicate:pred];
+        for (MPMediaItem *item in array)
+            [self doLog:@"Filtered: %@ %@", item.title, item.artist];
+    }
+}
+
+ */
