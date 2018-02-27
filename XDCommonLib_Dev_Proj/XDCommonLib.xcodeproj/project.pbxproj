@@ -487,6 +487,7 @@
 		1F37015F1E5C602F00494592 /* GradientViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientViewController.m; sourceTree = "<group>"; };
 		1F43C3EE1EF261B5008A1EF6 /* XDTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDTimer.h; sourceTree = "<group>"; };
 		1F43C3EF1EF261B5008A1EF6 /* XDTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDTimer.m; sourceTree = "<group>"; };
+		1F468E5B20455A0200B9E641 /* XDAssert.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XDAssert.h; sourceTree = "<group>"; };
 		1F47856E1EEDAFBC00C01EFA /* XDCommandBus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDCommandBus.h; sourceTree = "<group>"; };
 		1F47856F1EEDAFBC00C01EFA /* XDCommandBus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDCommandBus.m; sourceTree = "<group>"; };
 		1F4785721EEDAFBC00C01EFA /* NSString+UnformattedPhoneNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+UnformattedPhoneNumber.h"; sourceTree = "<group>"; };
@@ -1673,6 +1674,7 @@
 				1F47867D1EEDAFBC00C01EFA /* XDUIKitMainThreadGuard */,
 				1FDBFD752015013500F3C842 /* XDAppMigration.h */,
 				1FDBFD762015013500F3C842 /* XDAppMigration.m */,
+				1F468E5B20455A0200B9E641 /* XDAssert.h */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
